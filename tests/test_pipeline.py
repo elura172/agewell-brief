@@ -6,6 +6,7 @@ import pytest
 
 from agewell import pipeline
 from agewell.pipeline import (
+    DraftGenerationError,
     FeedItem,
     FeedSource,
     choose_edition,
@@ -426,6 +427,7 @@ def test_run_writes_complete_shadow_edition_audit(monkeypatch, tmp_path: Path):
         "drafts.json",
         "image-briefs.json",
         "candidates.json",
+        "failed-drafts.json",
         "visual-reviews.json",
         "release-manifest.json",
     }
@@ -566,6 +568,33 @@ def test_draft_disables_thinking_and_retries_invalid_json():
     assert "Do not invent facts" in requirements
 
 
+def test_draft_retries_transient_api_failure():
+    class FakeCompletions:
+        def __init__(self):
+            self.calls = 0
+
+        def create(self, **_kwargs):
+            self.calls += 1
+            if self.calls == 1:
+                raise ConnectionError("temporary upstream failure")
+            payload = {
+                "headline": "A useful finding",
+                "dek": "Researchers shared a practical update.",
+                "bullets": ["First point", "Second point", "Third point"],
+                "caveat": "The evidence is still developing.",
+            }
+            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps(payload)))])
+
+    completions = FakeCompletions()
+    client = SimpleNamespace(chat=SimpleNamespace(completions=completions))
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "")
+
+    result = draft(client, item, "general wellness")
+
+    assert completions.calls == 2
+    assert result["headline"] == "A useful finding"
+
+
 def test_extract_article_text_ignores_page_chrome():
     document = """
     <html><body><nav>This navigation should never become source material.</nav>
@@ -629,6 +658,135 @@ def test_lead_draft_requests_long_structured_analysis():
 
     assert len(result["sections"]) == 4
     assert completions.kwargs["max_tokens"] == 3200
+
+
+def test_lead_retry_uses_validation_feedback_and_retains_focused_draft():
+    paragraph = " ".join(["Source-grounded context helps readers understand the finding and its limits clearly."] * 5)
+    payload = {
+        "headline": "A focused look at healthy aging",
+        "dek": "A useful development deserves context.",
+        "sections": [
+            {"heading": heading, "paragraphs": [paragraph, paragraph]}
+            for heading in ("Why it matters", "What researchers found", "How to read it", "What to do next")
+        ],
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "The evidence is still developing.",
+    }
+
+    class FakeCompletions:
+        def __init__(self):
+            self.calls: list[dict] = []
+
+        def create(self, **kwargs):
+            self.calls.append(kwargs)
+            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps(payload)))])
+
+    completions = FakeCompletions()
+    client = SimpleNamespace(chat=SimpleNamespace(completions=completions))
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "")
+
+    result = draft(client, item, "longevity", "lead", "deep source material " * 300)
+
+    assert len(completions.calls) == 2
+    repair = json.loads(completions.calls[1]["messages"][-1]["content"])
+    assert "too short" in repair["validation_error"]
+    assert "at least 500 words" in " ".join(repair["requirements"])
+    assert result["generation_status"] == "accepted_focused_fallback"
+    assert "retained as a focused draft" in result["generation_note"]
+
+
+def test_run_isolates_failed_story_and_keeps_the_edition(monkeypatch, tmp_path: Path):
+    lead = FeedItem("Lead story", "Lead summary", "https://example.test/lead", "", "Lead Source")
+    broken = FeedItem("Broken signal", "Signal summary", "https://example.test/broken", "", "Signal Source")
+    story = {
+        "headline": "A useful lead",
+        "dek": "A clear introduction.",
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "The study has limits.",
+        "sections": [],
+    }
+    evidence = EvidencePacket("report", ("Claim",), ("Limit",), ("No overclaim",), "moderate")
+    brief = ImageBrief("Intent", "adult", "setting", "capable", "landscape", (), ("adult outdoors",))
+
+    monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
+    monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
+    monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
+    monkeypatch.setattr(pipeline, "PUBLIC_ROOT", tmp_path / "public")
+    monkeypatch.setattr(pipeline, "EDITION_STATE_ROOT", tmp_path / "editions")
+    monkeypatch.setattr(pipeline, "IMAGE_CACHE_FILE", tmp_path / "image-cache.json")
+    monkeypatch.setattr(pipeline, "IMAGE_LEDGER_FILE", tmp_path / "image-ledger.json")
+    monkeypatch.setattr(pipeline, "feed_sources", lambda: [FeedSource("Test", "https://example.test/feed")])
+    monkeypatch.setattr(pipeline, "fetch_ranked_items", lambda *_args, **_kwargs: [lead, broken])
+    monkeypatch.setattr(
+        pipeline,
+        "choose_edition",
+        lambda _items: [(lead, "lead", "source"), (broken, "signal", None)],
+    )
+    monkeypatch.setattr(pipeline, "build_evidence_packet", lambda *_args: evidence)
+
+    def fake_draft(_client, item, *_args):
+        if item is broken:
+            raise DraftGenerationError([{"attempt": 1, "error": "invalid JSON", "raw_response": "{"}])
+        return story
+
+    monkeypatch.setattr(pipeline, "draft", fake_draft)
+    monkeypatch.setattr(pipeline, "direct_image", lambda *_args: brief)
+    monkeypatch.setattr(pipeline, "search_image_candidates", lambda *_args: [])
+
+    assert pipeline.run() == 0
+    assert len(list((tmp_path / "posts").glob("*.md"))) == 1
+    assert json.loads((tmp_path / "processed.json").read_text()) == [pipeline.item_id(lead)]
+
+    run_dir = next(next((tmp_path / "editions").iterdir()).iterdir())
+    failures = json.loads((run_dir / "failed-drafts.json").read_text())
+    manifest = json.loads((run_dir / "release-manifest.json").read_text())
+    assert failures[0]["article_id"] == pipeline.item_id(broken)
+    assert failures[0]["resolution"] == "skipped"
+    assert failures[0]["attempts"][0]["raw_response"] == "{"
+    assert manifest["attempted_stories"] == 2
+    assert manifest["generated_stories"] == 1
+    assert manifest["failed_stories"] == 1
+
+
+def test_failed_lead_is_downgraded_to_signal(monkeypatch, tmp_path: Path):
+    item = FeedItem("Lead story", "Lead summary", "https://example.test/lead", "", "Lead Source")
+    signal = {
+        "headline": "A useful signal",
+        "dek": "A concise introduction.",
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "The report has limits.",
+        "sections": [],
+    }
+    evidence = EvidencePacket("report", ("Claim",), ("Limit",), ("No overclaim",), "moderate")
+    brief = ImageBrief("Intent", "adult", "setting", "capable", "landscape", (), ("adult outdoors",))
+
+    monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
+    monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
+    monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
+    monkeypatch.setattr(pipeline, "PUBLIC_ROOT", tmp_path / "public")
+    monkeypatch.setattr(pipeline, "EDITION_STATE_ROOT", tmp_path / "editions")
+    monkeypatch.setattr(pipeline, "IMAGE_CACHE_FILE", tmp_path / "image-cache.json")
+    monkeypatch.setattr(pipeline, "IMAGE_LEDGER_FILE", tmp_path / "image-ledger.json")
+    monkeypatch.setattr(pipeline, "feed_sources", lambda: [FeedSource("Test", "https://example.test/feed")])
+    monkeypatch.setattr(pipeline, "fetch_ranked_items", lambda *_args, **_kwargs: [item])
+    monkeypatch.setattr(pipeline, "choose_edition", lambda _items: [(item, "lead", "source")])
+    monkeypatch.setattr(pipeline, "build_evidence_packet", lambda *_args: evidence)
+
+    def fake_draft(_client, _item, _category, content_type, *_args):
+        if content_type == "lead":
+            raise DraftGenerationError([{"attempt": 2, "error": "too short", "raw_response": "{}"}])
+        return signal
+
+    monkeypatch.setattr(pipeline, "draft", fake_draft)
+    monkeypatch.setattr(pipeline, "direct_image", lambda *_args: brief)
+    monkeypatch.setattr(pipeline, "search_image_candidates", lambda *_args: [])
+
+    assert pipeline.run() == 0
+    generated = next((tmp_path / "posts").glob("*.md")).read_text()
+    assert 'content_type: "signal"' in generated
+    run_dir = next(next((tmp_path / "editions").iterdir()).iterdir())
+    failures = json.loads((run_dir / "failed-drafts.json").read_text())
+    assert failures[0]["resolution"] == "downgraded_to_signal"
 
 
 def test_choose_edition_promotes_source_rich_story(monkeypatch):

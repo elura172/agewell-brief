@@ -46,8 +46,8 @@ matter and every public placement. Search results are cached for 24 hours in
 `.state/image-search-cache.json`, and `.state/image-ledger.json` prevents reuse.
 
 Every handoff is recorded under `.state/editions/YYYY-MM-DD/` as sources,
-evidence, drafts, image briefs, candidates, visual reviews, and a release
-manifest. DeepSeek performs metadata alignment today. The pixel-level
+evidence, drafts, image briefs, candidates, visual reviews, failed-draft
+diagnostics, and a release manifest. DeepSeek performs metadata alignment today. The pixel-level
 `VisionReviewer` interface deliberately reports `pending` until an image-capable
 model is connected, so the system never mistakes tags for vision.
 
@@ -72,7 +72,10 @@ source-enriched 600–900 word **Deep Read**; the next two become compact
 **Signals**. Lead selection scans a wider candidate pool and promotes the
 highest-ranked story whose source page provides enough material. Summary-only
 stories remain Signals rather than being padded. Only the Deep Read receives a
-contextual affiliate slot. The checked-in workflow runs once each morning at
+contextual affiliate slot. Invalid model output receives a validation-specific
+repair pass. A useful 350–499 word repaired lead can remain a focused draft for
+human review; a lead that still fails is retried as a Signal. Story failures are
+recorded and isolated so the rest of the edition continues. The checked-in workflow runs once each morning at
 11:17 UTC and can also be run manually.
 
 ## Feed portfolio
@@ -101,7 +104,8 @@ them into ranking, drafting, or publication yet.
 Add `DEEPSEEK_API_KEY`, `PEXELS_API_KEY`, `PIXABAY_API_KEY`, and optionally
 `AFFILIATE_OFFERS_JSON` as repository secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
 `RSS_FEEDS_JSON` can override it. The workflow runs daily and commits new
-drafts.
+drafts. Its commit step also preserves diagnostics when every story fails, while
+the generation step remains visibly failed in GitHub Actions.
 
 Generated editions remain drafts until the release manifest records completed
 image and human editorial review.

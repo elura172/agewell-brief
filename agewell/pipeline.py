@@ -71,6 +71,22 @@ PUBLICATION_STYLE_REQUIREMENTS = (
 )
 
 
+class LeadTooShortError(ValueError):
+    def __init__(self, word_count: int, minimum_words: int):
+        self.word_count = word_count
+        self.minimum_words = minimum_words
+        super().__init__(f"lead draft is too short ({word_count} words; minimum {minimum_words})")
+
+
+class DraftGenerationError(RuntimeError):
+    """Raised after model output fails validation, with responses retained for review."""
+
+    def __init__(self, attempts: list[dict[str, Any]]):
+        self.attempts = attempts
+        last_error = attempts[-1]["error"] if attempts else "unknown validation error"
+        super().__init__(f"DeepSeek returned an invalid draft twice: {last_error}")
+
+
 @dataclass(frozen=True)
 class FeedSource:
     name: str
@@ -443,6 +459,7 @@ def draft(
     source_material = source_text or item.summary
     source_is_deep = len(source_material) >= MIN_LEAD_SOURCE_CHARS
     minimum_lead_words = 500 if source_is_deep else 300
+    focused_fallback_words = 350 if source_is_deep else 250
     prompt: dict[str, Any] = {
         "source_title": item.title,
         "source_summary": item.summary[:5000],
@@ -492,22 +509,35 @@ def draft(
         {"role": "user", "content": json.dumps(prompt)},
     ]
     result: dict[str, Any] | None = None
-    draft_error: Exception | None = None
-    for _attempt in range(2):
-        response = client.chat.completions.create(
-            model=MODEL,
-            temperature=0.2,
-            max_tokens=3200 if is_lead else 1400,
-            response_format={"type": "json_object"},
-            messages=messages,
-            extra_body={"thinking": {"type": "disabled"}},
-        )
+    attempts: list[dict[str, Any]] = []
+    for attempt_number in range(1, 3):
+        raw_content = ""
+        candidate: dict[str, Any] | None = None
         try:
-            candidate = json.loads(response.choices[0].message.content or "{}")
+            response = client.chat.completions.create(
+                model=MODEL,
+                temperature=0.2,
+                max_tokens=3200 if is_lead else 1400,
+                response_format={"type": "json_object"},
+                messages=messages,
+                extra_body={"thinking": {"type": "disabled"}},
+            )
+            raw_content = response.choices[0].message.content or "{}"
+            candidate = json.loads(raw_content)
+            if not isinstance(candidate, dict):
+                raise TypeError("draft response was not a JSON object")
             if is_lead:
                 raw_sections = candidate.get("sections")
                 if not isinstance(raw_sections, list) or len(raw_sections) != 4:
                     raise ValueError("lead draft requires four sections")
+                for section in raw_sections:
+                    if not isinstance(section, dict) or not clean_text(str(section.get("heading", ""))):
+                        raise ValueError("lead section requires a heading")
+                    paragraphs = section.get("paragraphs")
+                    if not isinstance(paragraphs, list) or not 2 <= len(paragraphs) <= 3:
+                        raise ValueError("each lead section requires two or three paragraphs")
+                    if any(not clean_text(str(paragraph)) for paragraph in paragraphs):
+                        raise ValueError("lead section contains an empty paragraph")
                 lead_words = len(
                     " ".join(
                         str(paragraph)
@@ -517,13 +547,52 @@ def draft(
                     ).split()
                 )
                 if lead_words < minimum_lead_words:
-                    raise ValueError(f"lead draft is too short ({lead_words} words)")
+                    raise LeadTooShortError(lead_words, minimum_lead_words)
             result = candidate
             break
-        except (json.JSONDecodeError, ValueError, TypeError) as exc:
-            draft_error = exc
+        except Exception as exc:
+            attempts.append(
+                {
+                    "attempt": attempt_number,
+                    "error": str(exc),
+                    "raw_response": raw_content,
+                }
+            )
+            if (
+                attempt_number == 2
+                and is_lead
+                and isinstance(exc, LeadTooShortError)
+                and exc.word_count >= focused_fallback_words
+                and candidate is not None
+            ):
+                candidate["generation_status"] = "accepted_focused_fallback"
+                candidate["generation_note"] = (
+                    f"The repaired lead contains {exc.word_count} words; retained as a focused draft "
+                    f"for human review instead of the {minimum_lead_words}-word target."
+                )
+                result = candidate
+                break
+            if attempt_number == 1 and raw_content:
+                repair_request = {
+                    "task": "Repair and return the complete draft as one valid JSON object.",
+                    "validation_error": str(exc),
+                    "requirements": [
+                        "Preserve only source-supported claims from the original request.",
+                        "Return every required field and the complete article, not a patch or commentary.",
+                    ],
+                }
+                if is_lead:
+                    repair_request["requirements"].append(
+                        f"Expand the four sections to at least {minimum_lead_words} words total without repetition or unsupported detail."
+                    )
+                messages.extend(
+                    [
+                        {"role": "assistant", "content": raw_content},
+                        {"role": "user", "content": json.dumps(repair_request)},
+                    ]
+                )
     if result is None:
-        raise RuntimeError("DeepSeek returned an invalid draft twice") from draft_error
+        raise DraftGenerationError(attempts)
     generated_headline = clean_text(result.get("headline")) or item.title
     headline = item.title if item.headline_mode == "preserve" else generated_headline
     dek = clean_text(result.get("dek")) or item.summary
@@ -549,13 +618,18 @@ def draft(
                     "paragraphs": [clean_text(str(paragraph)) for paragraph in paragraphs if clean_text(str(paragraph))],
                 }
             )
-    return {
+    normalized = {
         "headline": headline,
         "dek": dek,
         "bullets": [clean_text(str(x)) for x in bullets],
         "caveat": caveat,
         "sections": sections,
     }
+    if result.get("generation_status"):
+        normalized["generation_status"] = clean_text(str(result["generation_status"]))
+    if result.get("generation_note"):
+        normalized["generation_note"] = clean_text(str(result["generation_note"]))
+    return normalized
 
 
 def quote(value: str) -> str:
@@ -662,11 +736,15 @@ def run() -> int:
     candidate_artifacts: list[dict[str, Any]] = []
     review_artifacts: list[dict[str, Any]] = []
     release_checks: list[dict[str, Any]] = []
+    failure_artifacts: list[dict[str, Any]] = []
+    generated_count = 0
+    edition_entries = choose_edition(candidates)
 
-    for index, (item, content_type, source_text) in enumerate(choose_edition(candidates)):
+    for item, requested_content_type, source_text in edition_entries:
         key = item_id(item)
         category = classify(item)
         source_material = source_text or item.summary
+        content_type = requested_content_type
         source_artifacts.append(
             {
                 "article_id": key,
@@ -674,7 +752,7 @@ def run() -> int:
                 "url": item.link,
                 "source_name": item.source_name,
                 "category": category,
-                "content_type": content_type,
+                "content_type": requested_content_type,
                 "source_characters": len(source_material),
             }
         )
@@ -699,7 +777,40 @@ def run() -> int:
             )
         evidence_artifacts.append({"article_id": key, **evidence.to_dict()})
 
-        content = draft(client, item, category, content_type, source_text, evidence)
+        try:
+            content = draft(client, item, category, content_type, source_text, evidence)
+        except Exception as exc:
+            failure = {
+                "article_id": key,
+                "title": item.title,
+                "source_url": item.link,
+                "source_name": item.source_name,
+                "stage": "draft",
+                "requested_content_type": requested_content_type,
+                "error": str(exc),
+                "attempts": exc.attempts if isinstance(exc, DraftGenerationError) else [],
+            }
+            if requested_content_type == "lead":
+                try:
+                    content = draft(client, item, category, "signal", None, evidence)
+                    content_type = "signal"
+                    failure["resolution"] = "downgraded_to_signal"
+                    failure_artifacts.append(failure)
+                    print(f"Lead downgraded to signal ({item.source_name}): {exc}", file=sys.stderr)
+                except Exception as fallback_exc:
+                    failure["resolution"] = "skipped"
+                    failure["fallback_error"] = str(fallback_exc)
+                    failure["fallback_attempts"] = (
+                        fallback_exc.attempts if isinstance(fallback_exc, DraftGenerationError) else []
+                    )
+                    failure_artifacts.append(failure)
+                    print(f"Draft skipped ({item.source_name}): {fallback_exc}", file=sys.stderr)
+                    continue
+            else:
+                failure["resolution"] = "skipped"
+                failure_artifacts.append(failure)
+                print(f"Draft skipped ({item.source_name}): {exc}", file=sys.stderr)
+                continue
         draft_artifacts.append({"article_id": key, "content_type": content_type, **content})
 
         try:
@@ -788,9 +899,10 @@ def run() -> int:
         offer_url = None
         if content_type == "lead":
             offer_url = tracked_offer_url(select_offer(configured_offers, category), category, key)
+        generated_count += 1
         target = OUTPUT_DIR / f"{recorder.edition_id}-{slug(content['headline'])}-{key[:8]}.md"
         target.write_text(
-            markdown(item, category, content, offer_url, content_type, index + 1, edition_time, photo),
+            markdown(item, category, content, offer_url, content_type, generated_count, edition_time, photo),
             encoding="utf-8",
         )
         release_checks.append(
@@ -806,17 +918,21 @@ def run() -> int:
     recorder.write("image-briefs", brief_artifacts)
     recorder.write("candidates", candidate_artifacts)
     recorder.write("visual-reviews", review_artifacts)
+    recorder.write("failed-drafts", failure_artifacts)
     recorder.write(
         "release-manifest",
         {
             "edition_id": recorder.edition_id,
             "run_id": recorder.run_id,
             "generated_at": edition_time.isoformat(),
+            "attempted_stories": len(edition_entries),
+            "generated_stories": generated_count,
+            "failed_stories": sum(1 for failure in failure_artifacts if failure.get("resolution") == "skipped"),
             "publishable": bool(release_checks) and all(check["publishable"] for check in release_checks),
             "checks": release_checks,
         },
     )
-    return 0
+    return 0 if generated_count or not edition_entries else 1
 
 
 if __name__ == "__main__":

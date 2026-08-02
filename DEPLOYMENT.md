@@ -40,6 +40,10 @@ Each run also writes an audit trail to `.state/editions/YYYY-MM-DD/`. Review
 `release-manifest.json` first: it names every incomplete source, editorial,
 metadata, and visual gate without publishing automatically.
 
+If a model response cannot be repaired, inspect `failed-drafts.json`. It retains
+the validation error and raw attempts for editorial diagnosis. One failed story
+does not stop the remaining edition, and failed items are not marked processed.
+
 ## Hosting
 
 The private GitHub repository is connected to Cloudflare Workers Builds. The
