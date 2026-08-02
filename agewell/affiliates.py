@@ -157,6 +157,42 @@ def select_offer(
     return finalists[int.from_bytes(seed[:4], "big") % len(finalists)].url
 
 
+def select_offers(
+    configured: dict[str, Any],
+    category: str,
+    article_id: str = "",
+    health_status: dict[str, str] | None = None,
+    limit: int = 3,
+) -> list[str]:
+    """Choose up to ``limit`` approved offers for an article category.
+
+    Offers remain category-bound and technically validated. Ordering is stable
+    per article so a rerun does not reshuffle links unexpectedly.
+    """
+    if limit <= 0:
+        return []
+    health = health_status or {}
+    candidates = [
+        offer
+        for offer in parse_offer_config(configured)
+        if offer.category == category.lower()
+        and offer.approved
+        and is_clickbank_hoplink(offer.url)
+        and health.get(offer.offer_id) not in BLOCKING_HEALTH_STATUSES
+    ]
+    if not candidates:
+        return []
+    top_priority = max(offer.priority for offer in candidates)
+    finalists = sorted(
+        (offer for offer in candidates if offer.priority == top_priority),
+        key=lambda offer: (offer.name.lower(), offer.offer_id),
+    )
+    seed = hashlib.sha256((article_id or category).encode("utf-8")).digest()
+    offset = int.from_bytes(seed[:4], "big") % len(finalists)
+    rotated = finalists[offset:] + finalists[:offset]
+    return [offer.url for offer in rotated[:limit]]
+
+
 def tracked_offer_url(base_url: str | None, category: str, article_id: str) -> str | None:
     """Append a stable ClickBank tracking ID without altering the HopLink."""
     if not base_url:

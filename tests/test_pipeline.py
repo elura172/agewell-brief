@@ -5,7 +5,8 @@ from types import SimpleNamespace
 import pytest
 
 from agewell import pipeline
-from agewell.affiliates import parse_offer_config
+from agewell.affiliates import parse_offer_config, select_offers
+from agewell.agents import commercial_integrity, release_manager
 from agewell.context import ContextDocument, retrieve_context
 from agewell.trends import TrendItem, rank_items
 from agewell.pipeline import (
@@ -65,6 +66,27 @@ def test_trend_radar_rewards_fresh_source_diversity():
 
     assert ranked[0]["source_count"] == 3
     assert ranked[0]["recommendation"].startswith("Investigate now")
+
+
+def test_pipeline_trend_score_boosts_matching_topic():
+    item = FeedItem("Sleep and memory in older adults", "A new sleep study", "https://example.test/1", "")
+    topics = [{
+        "topic": "memory sleep older adults",
+        "headline": "Sleep finding may affect memory",
+        "category": "sleep health",
+        "source_count": 3,
+        "score": 15,
+    }]
+    assert pipeline.trend_score(item, topics) > 0
+
+
+def test_ranked_items_can_use_trend_topics():
+    candidates = [
+        FeedItem("Sleep and memory in older adults", "A new sleep study", "https://example.test/sleep", "", "Sleep Source", 1, "preserve", "Sleep Source"),
+        FeedItem("Walking after 60", "A mobility update", "https://example.test/walk", "", "Mobility Source", 5, "preserve", "Mobility Source"),
+    ]
+    topics = [{"topic": "sleep memory", "headline": "Sleep and memory", "category": "sleep health", "source_count": 3, "score": 15}]
+    assert select_ranked_items(candidates, 2, topics)[0].link == "https://example.test/sleep"
 
 
 def test_evergreen_context_retrieval_preserves_provenance_and_labels():
@@ -425,6 +447,57 @@ def test_lead_affiliate_offer_is_visible_near_intro_and_source():
     assert result.lower().count("affiliate") == 2
 
 
+def test_markdown_renders_two_or_three_contextual_affiliate_placements():
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
+    content = {
+        "headline": "A useful finding",
+        "dek": "A clear introduction.",
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "The study was small.",
+        "sections": [],
+    }
+    urls = [
+        "https://one.hop.clickbank.net",
+        "https://two.hop.clickbank.net",
+        "https://three.hop.clickbank.net",
+    ]
+    result = markdown(item, "brain health", content, urls)
+    assert result.count("hop.clickbank.net") == 3
+    assert "Related resource" in result
+    assert "Reader resource" in result
+    assert "Affiliate disclosure" in result
+
+
+def test_select_offers_returns_stable_approved_category_matches():
+    configured = {
+        "offers": [
+            {"category": "brain health", "url": "https://one.hop.clickbank.net", "approved": True, "priority": 1},
+            {"category": "brain health", "url": "https://two.hop.clickbank.net", "approved": True, "priority": 1},
+            {"category": "mobility", "url": "https://wrong.hop.clickbank.net", "approved": True, "priority": 1},
+        ]
+    }
+    first = select_offers(configured, "brain health", "article-1", limit=2)
+    assert len(first) == 2
+    assert set(first) == {"https://one.hop.clickbank.net", "https://two.hop.clickbank.net"}
+
+
+def test_commercial_integrity_accepts_at_most_three_category_links():
+    result = commercial_integrity("brain health", [
+        "https://one.hop.clickbank.net",
+        "https://two.hop.clickbank.net",
+        "https://three.hop.clickbank.net",
+    ])
+    assert result["status"] == "approved"
+    assert result["offer_count"] == 3
+
+
+def test_release_manager_holds_invalid_commercial_review():
+    content = {"headline": "A finding", "dek": "A dek", "bullets": ["One", "Two", "Three"]}
+    result = release_manager("https://example.test/source", content, {"status": "held", "issues": ["bad link"]})
+    assert result["status"] == "held"
+    assert "bad link" in result["reasons"]
+
+
 def test_release_audit_keeps_shadow_edition_in_draft():
     story = {
         "headline": "A useful finding",
@@ -532,6 +605,9 @@ def test_run_writes_complete_shadow_edition_audit(monkeypatch, tmp_path: Path):
             "failed-drafts.json",
             "visual-reviews.json",
             "evergreen-context.json",
+            "assignments.json",
+            "copy-reviews.json",
+            "commercial-reviews.json",
             "release-manifest.json",
     }
     assert {path.name for path in edition_dirs[0].iterdir()} == expected
