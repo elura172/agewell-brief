@@ -27,6 +27,11 @@ def test_classify_mobility():
     assert classify(item) == "mobility"
 
 
+def test_classify_alzheimers_as_brain_health():
+    item = FeedItem("A new Alzheimer's blood test", "Researchers report early findings", "https://example.test/brain", "")
+    assert classify(item) == "brain health"
+
+
 def test_slug_is_stable():
     assert slug("A Bright, New Finding!") == "a-bright-new-finding"
 

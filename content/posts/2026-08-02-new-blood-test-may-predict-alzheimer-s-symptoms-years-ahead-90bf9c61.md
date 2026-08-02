@@ -2,7 +2,7 @@
 title: "New Blood Test May Predict Alzheimer's Symptoms Years Ahead"
 date: 2026-08-02T07:43:07.305363+00:00
 draft: true
-category: "general wellness"
+category: "brain health"
 content_type: "lead"
 edition_rank: 1
 edition_id: "2026-08-02"
@@ -56,6 +56,6 @@ Stay informed about new research, but be cautious of overhyped claims. This stud
 This analysis is based on [New Alzheimer’s blood test may tell when symptoms are around the corner](https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner) from NIH News Releases. Read the original report for full context.
 
 
-> **Affiliate disclosure:** This optional recommendation may earn us a commission. [View the related resource](https://94aa4zrcl06n5o0hi88fd24ra3.hop.clickbank.net?tid=agewell_general_wellness_90bf9c6154038ec9f1740d4d).
+> **Affiliate disclosure:** This optional recommendation may earn us a commission. [View the related resource](https://94aa4zrcl06n5o0hi88fd24ra3.hop.clickbank.net?tid=agewell_brain_health_90bf9c6154038ec9f1740d4d).
 
-> **Health note:** This is early research; the test is not yet clinically available. Consult your doctor for personalized advice. Consult a qualified healthcare professional for personal advice.
+> **Health note:** This is early research; the test is not yet clinically available. Consult your doctor for personalized advice.

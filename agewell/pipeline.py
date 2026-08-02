@@ -315,7 +315,7 @@ def classify(item: FeedItem) -> str:
     rules = {
         "mobility": ("joint", "arthritis", "knee", "back pain", "balance", "walking"),
         "metabolic health": ("blood sugar", "glucose", "insulin", "metabolic", "diabetes"),
-        "brain health": ("memory", "cognition", "brain", "dementia", "sleep"),
+        "brain health": ("memory", "cognition", "brain", "dementia", "alzheimer", "parkinson", "sleep"),
         "longevity": ("aging", "ageing", "longevity", "lifespan", "healthspan"),
     }
     for category, terms in rules.items():
@@ -512,6 +512,9 @@ def markdown(
             "\n\n> **Affiliate disclosure:** This optional recommendation may earn us a commission. "
             f"[View the related resource]({offer_url})."
         )
+    health_note = content["caveat"]
+    if not any(term in health_note.lower() for term in ("consult", "talk with", "speak with", "ask your")):
+        health_note += " Consult a qualified healthcare professional for personal advice."
     return f'''---
 title: "{quote(content["headline"])}"
 date: {published_at.isoformat()}
@@ -538,7 +541,7 @@ source_name: "{quote(item.source_name)}"
 This {"analysis" if content_type == "lead" else "signal"} is based on [{item.title}]({item.link}) from {item.source_name}. Read the original report for full context.
 {recommendation}
 
-> **Health note:** {content["caveat"]} Consult a qualified healthcare professional for personal advice.
+> **Health note:** {health_note}
 '''
 
 
