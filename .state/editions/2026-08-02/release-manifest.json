@@ -1,0 +1,43 @@
+{
+  "edition_id": "2026-08-02",
+  "generated_at": "2026-08-02T10:22:38.885532+00:00",
+  "publishable": false,
+  "checks": [
+    {
+      "article_id": "9e548064819f48287a3efbec",
+      "publishable": false,
+      "reasons": [
+        "pixel-level image review is pending",
+        "human editorial review is pending"
+      ],
+      "source_status": "linked",
+      "editorial_status": "pending",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending"
+    },
+    {
+      "article_id": "0c1df71cc299aae268fc1a2f",
+      "publishable": false,
+      "reasons": [
+        "pixel-level image review is pending",
+        "human editorial review is pending"
+      ],
+      "source_status": "linked",
+      "editorial_status": "pending",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending"
+    },
+    {
+      "article_id": "269642299239b37d3444eab0",
+      "publishable": false,
+      "reasons": [
+        "pixel-level image review is pending",
+        "human editorial review is pending"
+      ],
+      "source_status": "linked",
+      "editorial_status": "pending",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending"
+    }
+  ]
+}

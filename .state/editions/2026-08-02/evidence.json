@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "9e548064819f48287a3efbec",
+    "study_type": "observational study using neuronal recordings",
+    "key_claims": [
+      "Machine-learning models applied to single-cell brain recordings from humans in conversation identified neuronal activity reflecting key features of language.",
+      "Neuronal recordings from just before participants spoke predicted many properties of subsequent speech across topics.",
+      "Some neurons reflected basic information such as meaning and roles of specific words, while others handled complex tasks like grouping phrases into structured sentences.",
+      "The models could distinguish between similar phrases and words, indicating neuronal activity captured unique sentence context.",
+      "The findings describe processes at the cellular scale that produce speech, advancing understanding of the brain's linguistic architecture."
+    ],
+    "limitations": [
+      "The study involved only eight patients, all undergoing epilepsy monitoring, which may not represent the general population.",
+      "The recordings were from the frontotemporal cortex, so findings may not apply to other brain regions.",
+      "The study was conducted in English only, limiting generalizability to other languages.",
+      "The source does not specify the accuracy or error rates of the predictive models."
+    ],
+    "what_not_to_say": [
+      "The study proves that brain activity can be used to restore speech in patients with communication disorders.",
+      "The technology is ready for clinical use.",
+      "The findings apply to all languages or populations.",
+      "The study identifies the exact neural mechanisms for all aspects of language."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "0c1df71cc299aae268fc1a2f",
+    "study_type": "reported health research",
+    "key_claims": [
+      "Dementia, a progressive loss of memory and decline in mental function that can be caused by various neurological conditions, is estimated to affect more than 57 million people worldwide. Identifying specific biological and neural markers of this condition could help estimate the risk that individuals will develop it and potentially enable early interventions aimed at delaying its emergence or slowing its progression."
+    ],
+    "limitations": [],
+    "what_not_to_say": [],
+    "confidence": "unclear"
+  },
+  {
+    "article_id": "269642299239b37d3444eab0",
+    "study_type": "laboratory study",
+    "key_claims": [
+      "A previously unknown mechanism helps aging cells drive chronic inflammation linked to age-related diseases.",
+      "Dysfunctional mitochondria work with the cell's epigenetic machinery to switch on inflammatory genes.",
+      "Blocking a mitochondrial transporter may curb inflammation from senescent ('zombie') cells without killing them.",
+      "The findings open the door to a new therapeutic approach for promoting healthier aging."
+    ],
+    "limitations": [
+      "The source does not specify the experimental model (e.g., cells, animals, humans).",
+      "The source does not provide details on the specific transporter or how it was blocked.",
+      "The source does not indicate whether the findings have been tested in clinical settings.",
+      "The source does not mention potential side effects or long-term effects of blocking the transporter."
+    ],
+    "what_not_to_say": [
+      "The mechanism has been proven to cause age-related diseases in humans.",
+      "Blocking the transporter is a safe and effective treatment for aging.",
+      "The study involved human participants.",
+      "The findings are ready for clinical application."
+    ],
+    "confidence": "moderate"
+  }
+]

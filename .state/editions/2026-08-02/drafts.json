@@ -1,0 +1,70 @@
+[
+  {
+    "article_id": "9e548064819f48287a3efbec",
+    "content_type": "lead",
+    "headline": "Brain Cell Activity During Speech Decoded by AI: A Step Toward Thought-to-Speech Devices",
+    "dek": "NIH-funded researchers used machine learning to link single-neuron firing patterns to the grammar, meaning, and context of spoken sentences, offering a new window into the brain's language machinery.",
+    "bullets": [
+      "Study used brain recordings from eight epilepsy patients during conversation.",
+      "AI models predicted grammar, meaning, and context from neuron activity.",
+      "Findings may lead to future speech-restoration technologies."
+    ],
+    "caveat": "This was a small observational study; more research is needed before clinical use.",
+    "sections": [
+      {
+        "heading": "Why This Matters",
+        "paragraphs": [
+          "For millions of people who lose the ability to speak due to stroke, ALS, or other neurological conditions, the loss of communication is devastating. Current assistive technologies, such as eye-tracking or brain-computer interfaces, are often slow and limited. This study, published in Nature, takes a fundamental step toward a future where thoughts could be translated directly into speech, potentially restoring a natural and rapid form of communication.",
+          "By identifying how individual brain cells encode language, researchers are mapping the brain's linguistic building blocks. This level of detail is crucial for developing more precise and effective neural prosthetics. As Dr. Debara Tucci, director of NIH's NIDCD, notes, 'This level of granularity is necessary for us to more completely understand how the brain generates speech and, ultimately, how we can develop technologies to restore it for individuals with communication disorders.'"
+        ]
+      },
+      {
+        "heading": "What the Study Found",
+        "paragraphs": [
+          "The research team, led by Jing Cai at Massachusetts General Hospital, recorded brain activity from eight patients who were already implanted with microelectrode arrays for epilepsy monitoring. While these patients engaged in natural conversations, the researchers captured the firing of hundreds of neurons in the frontotemporal cortex, a region known to be involved in speech production.",
+          "Using machine learning models, the team discovered that neuronal activity just before a person spoke could predict many features of the upcoming speech, regardless of the topic. They found a division of labor: some neurons encoded basic information like word meanings and grammatical roles, while others handled more complex tasks like structuring phrases into sentences. The models could even distinguish between similar phrases, indicating that the brain captures the unique context of each utterance."
+        ]
+      },
+      {
+        "heading": "How to Interpret the Findings",
+        "paragraphs": [
+          "This is an observational study, not a demonstration of a working speech prosthetic. The findings are based on a small group of eight epilepsy patients, all of whom spoke English, and the recordings were limited to the frontotemporal cortex. Therefore, the results may not apply to all people or all languages, and the predictive accuracy of the models is not specified in the source.",
+          "The study does not prove that we can read minds or that speech restoration is imminent. Rather, it provides a foundational understanding of how neurons encode language. As Dr. Cai explains, 'For the first time we're describing processes not only at the regional but cellular scale that produce speech. Having identified these fundamental building blocks, we've set the table for us to begin answering some really interesting questions.'"
+        ]
+      },
+      {
+        "heading": "Practical Next Steps",
+        "paragraphs": [
+          "For individuals over 50 who may be concerned about age-related speech disorders, this research is a promising sign, but it is not yet ready for clinical application. The immediate next steps involve replicating these findings in larger, more diverse populations and exploring other brain regions involved in language. Researchers will also need to refine the machine-learning models to improve accuracy and speed.",
+          "In the meantime, maintaining brain health through regular exercise, a balanced diet, and staying socially and mentally active remains important for overall cognitive function. If you or a loved one experience speech difficulties, consult a healthcare provider for proper evaluation and management. This study is a stepping stone, not a solution, but it brings us closer to a future where the power of speech can be restored to those who have lost it."
+        ]
+      }
+    ]
+  },
+  {
+    "article_id": "0c1df71cc299aae268fc1a2f",
+    "content_type": "signal",
+    "headline": "Brain fluid structure may flag future dementia risk years before diagnosis",
+    "dek": "New research suggests that changes in brain fluid could help estimate dementia risk, potentially enabling earlier interventions.",
+    "bullets": [
+      "Dementia affects over 57 million people worldwide.",
+      "Identifying biological markers may help estimate individual risk.",
+      "Early interventions could delay onset or slow progression."
+    ],
+    "caveat": "This is early research; more studies are needed before clinical use.",
+    "sections": []
+  },
+  {
+    "article_id": "269642299239b37d3444eab0",
+    "content_type": "signal",
+    "headline": "Blocking a mitochondrial transporter may curb inflammation from 'zombie' cells without killing them",
+    "dek": "New lab research reveals how aging cells trigger inflammation and a potential way to stop it without killing the cells.",
+    "bullets": [
+      "Dysfunctional mitochondria help switch on inflammatory genes in aging cells.",
+      "Blocking a mitochondrial transporter reduced inflammation in lab experiments.",
+      "Findings suggest a new approach for healthier aging, but more research needed."
+    ],
+    "caveat": "Laboratory study; not yet tested in humans.",
+    "sections": []
+  }
+]
