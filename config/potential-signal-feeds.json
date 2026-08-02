@@ -24,8 +24,8 @@
       "status": "observe-only",
       "intended_role": "signal",
       "headline_mode": "rewrite",
-      "parser_status": "needs-entity-sanitization",
-      "note": "The live feed currently contains an undefined HTML entity in XML and is not production-compatible yet."
+      "parser_status": "compatible-with-sanitation",
+      "note": "Validated through the production parser after HTML named-entity sanitation; keep observe-only while editorial fit is measured."
     },
     {
       "name": "The Guardian | Alternative medicine",

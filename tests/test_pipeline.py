@@ -18,6 +18,7 @@ from agewell.pipeline import (
     markdown,
     normalize_source_url,
     relevance_score,
+    sanitize_feed_xml,
     select_ranked_items,
     select_offer,
     slug,
@@ -60,6 +61,20 @@ def test_classify_tainted_supplement_alert_as_consumer_safety():
 def test_fda_legacy_links_are_upgraded_to_https():
     assert normalize_source_url("http://www.fda.gov/drugs/example") == "https://www.fda.gov/drugs/example"
     assert normalize_source_url("http://example.test/story") == "http://example.test/story"
+
+
+def test_feed_sanitizer_converts_html_entities_without_breaking_xml_entities():
+    payload = (
+        b"<rss><channel><item><title>Healthy aging &ndash; mobility &amp; strength</title>"
+        b"<description>Unknown &madeup; entity</description></item></channel></rss>"
+    )
+
+    root = pipeline.ET.fromstring(sanitize_feed_xml(payload))
+    item = root.find(".//item")
+
+    assert item is not None
+    assert item.findtext("title") == "Healthy aging \u2013 mobility & strength"
+    assert item.findtext("description") == "Unknown &madeup; entity"
 
 
 def test_slug_is_stable():

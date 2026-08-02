@@ -10,6 +10,7 @@ import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
+from html.entities import html5
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
@@ -96,6 +97,27 @@ def normalize_source_url(value: str) -> str:
     return value
 
 
+def sanitize_feed_xml(payload: bytes) -> bytes:
+    """Replace HTML-only named entities that make otherwise useful XML invalid.
+
+    RSS publishers occasionally emit entities such as ``&ndash;`` without a
+    DTD. XML's five predefined entities are preserved, recognized HTML names
+    become Unicode, and unknown names become harmless literal text.
+    """
+    predefined = {"amp", "lt", "gt", "quot", "apos"}
+
+    def replace_entity(match: re.Match[bytes]) -> bytes:
+        name = match.group(1).decode("ascii")
+        if name in predefined:
+            return match.group(0)
+        replacement = html5.get(f"{name};")
+        if replacement is not None:
+            return replacement.encode("utf-8")
+        return f"&amp;{name};".encode("ascii")
+
+    return re.sub(rb"&([A-Za-z][A-Za-z0-9]+);", replace_entity, payload)
+
+
 def child_text(item: ET.Element, names: tuple[str, ...]) -> str:
     for child in list(item):
         if child.tag.rsplit("}", 1)[-1] in names and child.text:
@@ -142,7 +164,7 @@ def fetch_items(source: FeedSource) -> list[FeedItem]:
         headers={"User-Agent": "Mozilla/5.0 (compatible; AgewellBrief/0.6; +https://agewellbrief.com/about)"},
     )
     with urllib.request.urlopen(request, timeout=30) as response:
-        root = ET.fromstring(response.read())
+        root = ET.fromstring(sanitize_feed_xml(response.read()))
 
     entries = [node for node in root.iter() if node.tag.rsplit("}", 1)[-1] in {"item", "entry"}]
     results: list[FeedItem] = []
