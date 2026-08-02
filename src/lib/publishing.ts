@@ -2,6 +2,8 @@ import type { CollectionEntry } from "astro:content";
 
 export type BriefEntry = CollectionEntry<"briefs">;
 
+type ImageData = BriefEntry["data"];
+
 export function publishedBriefs(entries: BriefEntry[]): BriefEntry[] {
   return entries
     .filter((entry) => !entry.data.draft)
@@ -39,4 +41,25 @@ export function escapeXml(value: string): string {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&apos;");
+}
+
+export function imageFigureHtml(data: ImageData, base = new URL("https://agewellbrief.com")): string {
+  if (!data.image) return "";
+  const imageUrl = new URL(data.image, base).href;
+  const alt = escapeXml(data.image_alt ?? "Illustrative photograph for this Agewell Brief article");
+  const photographer = escapeXml(data.image_photographer ?? "Photo contributor");
+  const photographerCredit = data.image_photographer_url
+    ? `<a href="${escapeXml(data.image_photographer_url)}" rel="noopener noreferrer">${photographer}</a>`
+    : photographer;
+  const provider = escapeXml(data.image_provider ?? "Pexels");
+  const sourceCredit = data.image_source_url
+    ? ` on <a href="${escapeXml(data.image_source_url)}" rel="noopener noreferrer">${provider}</a>`
+    : ` via ${provider}`;
+  return `<figure class="editorial-image"><img src="${escapeXml(imageUrl)}" alt="${alt}" width="${data.image_width}" height="${data.image_height}" loading="lazy"><figcaption>Illustrative photo by ${photographerCredit}${sourceCredit}</figcaption></figure>`;
+}
+
+export function mediaRssData(data: ImageData, base = new URL("https://agewellbrief.com")): string {
+  if (!data.image) return "";
+  const imageUrl = new URL(data.image, base).href;
+  return `<media:content url="${escapeXml(imageUrl)}" medium="image" width="${data.image_width}" height="${data.image_height}"><media:description type="plain">${escapeXml(data.image_alt ?? "Illustrative Agewell Brief photograph")}</media:description><media:credit role="photographer">${escapeXml(data.image_photographer ?? "Photo contributor")}</media:credit></media:content>`;
 }

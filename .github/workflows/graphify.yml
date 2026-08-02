@@ -1,0 +1,28 @@
+name: Refresh architecture graph
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  graphify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Graphify
+        run: pip install --disable-pip-version-check graphifyy
+      - name: Extract code and semantic architecture with DeepSeek
+        run: graphify extract . --backend deepseek --mode deep --out .
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: agewell-brief-graph
+          path: graphify-out/
+          if-no-files-found: error
+          retention-days: 14

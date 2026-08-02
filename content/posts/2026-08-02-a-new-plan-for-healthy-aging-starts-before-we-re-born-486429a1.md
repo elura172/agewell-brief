@@ -9,6 +9,18 @@ edition_id: "2026-08-02"
 source_url: "https://medicalxpress.com/news/2026-07-healthy-aging-born.html"
 source_title: "A new plan for healthy aging starts before we're born"
 source_name: "Medical Xpress"
+image_id: 5638414
+image_provider: "Pexels"
+image_provider_id: "5638414"
+image: "https://images.pexels.com/photos/5638414/pexels-photo-5638414.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "A joyful family portrait featuring multiple generations smiling outdoors in daylight."
+image_width: 1200
+image_height: 627
+image_photographer: "Askar Abayev"
+image_photographer_url: "https://www.pexels.com/@askar-abayev"
+image_source_url: "https://www.pexels.com/photo/people-smiling-at-the-camera-5638414/"
+image_review_status: "human-reviewed"
+image_avg_color: "#6E4531"
 ---
 
 Scientists are developing a new field to help us stay healthier longer, with roots in early life.

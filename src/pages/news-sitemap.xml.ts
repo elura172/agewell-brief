@@ -22,11 +22,16 @@ export const GET: APIRoute = async ({ site }) => {
       <news:publication_date>${entry.data.date.toISOString()}</news:publication_date>
       <news:title>${escapeXml(entry.data.title)}</news:title>
     </news:news>
+    ${entry.data.image ? `<image:image>
+      <image:loc>${escapeXml(new URL(entry.data.image, base).href)}</image:loc>
+      <image:caption>${escapeXml(entry.data.image_alt ?? entry.data.title)}</image:caption>
+    </image:image>` : ""}
   </url>`).join("");
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">${urls}
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${urls}
 </urlset>\n`;
 
   return new Response(body, {

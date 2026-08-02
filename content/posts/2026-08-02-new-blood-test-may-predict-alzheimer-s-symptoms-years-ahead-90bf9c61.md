@@ -9,6 +9,18 @@ edition_id: "2026-08-02"
 source_url: "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
 source_title: "New Alzheimer’s blood test may tell when symptoms are around the corner"
 source_name: "NIH News Releases"
+image_id: 6627687
+image_provider: "Pexels"
+image_provider_id: "6627687"
+image: "https://images.pexels.com/photos/6627687/pexels-photo-6627687.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "A lab technician wearing gloves uses a centrifuge for blood analysis in a modern laboratory setting."
+image_width: 1200
+image_height: 627
+image_photographer: "https://kaboompics.com/"
+image_photographer_url: "https://www.pexels.com/@karola-g"
+image_source_url: "https://www.pexels.com/photo/laboratory-worker-using-modern-hospital-equipment-6627687/"
+image_review_status: "human-reviewed"
+image_avg_color: "#7DABA7"
 ---
 
 A new biomarker model could sharpen forecasts of disease progression years before symptoms begin.

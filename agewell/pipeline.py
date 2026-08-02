@@ -17,6 +17,25 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from bs4 import BeautifulSoup
 from openai import OpenAI
 
+from agewell.edition import EditionRecorder, audit_release
+from agewell.editorial import (
+    AlignmentReview,
+    DeferredVisionReviewer,
+    EvidencePacket,
+    ImageBrief,
+    build_evidence_packet,
+    direct_image,
+    review_image_metadata,
+)
+from agewell.images import (
+    ImageSearchCache,
+    PublishedImage,
+    append_image_ledger,
+    load_image_ledger,
+    persist_image,
+    search_image_candidates,
+)
+
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", ROOT / "content/posts"))
@@ -25,6 +44,8 @@ RSS_FEED_URL = os.getenv("RSS_FEED_URL", "")
 RSS_FEEDS_JSON = os.getenv("RSS_FEEDS_JSON", "")
 FEED_CONFIG_FILE = Path(os.getenv("FEED_CONFIG_FILE", ROOT / "config/feed-portfolio.json"))
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
+PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "")
+PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY", "")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.deepseek.com")
 MODEL = os.getenv("LLM_MODEL", "deepseek-v4-flash")
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "3"))
@@ -33,6 +54,10 @@ MAX_ITEMS_PER_PUBLISHER = int(os.getenv("MAX_ITEMS_PER_PUBLISHER", "2"))
 LEAD_SOURCE_CHARS = int(os.getenv("LEAD_SOURCE_CHARS", "18000"))
 MIN_LEAD_SOURCE_CHARS = int(os.getenv("MIN_LEAD_SOURCE_CHARS", "2500"))
 CANDIDATE_POOL_SIZE = int(os.getenv("CANDIDATE_POOL_SIZE", "9"))
+PUBLIC_ROOT = Path(os.getenv("PUBLIC_ROOT", ROOT / "public"))
+EDITION_STATE_ROOT = Path(os.getenv("EDITION_STATE_ROOT", ROOT / ".state/editions"))
+IMAGE_CACHE_FILE = Path(os.getenv("IMAGE_CACHE_FILE", ROOT / ".state/image-search-cache.json"))
+IMAGE_LEDGER_FILE = Path(os.getenv("IMAGE_LEDGER_FILE", ROOT / ".state/image-ledger.json"))
 
 
 @dataclass(frozen=True)
@@ -367,6 +392,7 @@ def draft(
     category: str,
     content_type: str = "signal",
     source_text: str | None = None,
+    evidence: EvidencePacket | None = None,
 ) -> dict[str, Any]:
     is_lead = content_type == "lead"
     source_material = source_text or item.summary
@@ -380,6 +406,7 @@ def draft(
         "source_name": item.source_name,
         "category": category,
         "content_type": content_type,
+        "evidence_packet": evidence.to_dict() if evidence else None,
         "requirements": [
             "Write clear, engaging health journalism for readers over 50.",
             "Use only claims supported by the supplied source material.",
@@ -497,6 +524,7 @@ def markdown(
     content_type: str = "signal",
     edition_rank: int = 1,
     edition_time: dt.datetime | None = None,
+    photo: PublishedImage | None = None,
 ) -> str:
     published_at = edition_time or dt.datetime.now(dt.timezone.utc)
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
@@ -513,6 +541,20 @@ def markdown(
             f"[View the related resource]({offer_url})."
         )
     health_note = content["caveat"]
+    image_frontmatter = ""
+    if photo:
+        image_frontmatter = f'''image_provider: "{quote(photo.provider)}"
+image_provider_id: "{quote(photo.provider_id)}"
+image: "{quote(photo.local_url)}"
+image_alt: "{quote(photo.alt)}"
+image_width: {photo.width}
+image_height: {photo.height}
+image_photographer: "{quote(photo.creator)}"
+image_photographer_url: "{quote(photo.creator_url)}"
+image_source_url: "{quote(photo.source_url)}"
+image_review_status: "{quote(photo.review_status)}"
+image_avg_color: "{photo.avg_color}"
+'''
     return f'''---
 title: "{quote(content["headline"])}"
 date: {published_at.isoformat()}
@@ -524,7 +566,7 @@ edition_id: "{published_at.date().isoformat()}"
 source_url: "{quote(item.link)}"
 source_title: "{quote(item.title)}"
 source_name: "{quote(item.source_name)}"
----
+{image_frontmatter}---
 
 {content["dek"]}
 
@@ -559,24 +601,169 @@ def run() -> int:
     state = load_state()
     client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=LLM_BASE_URL)
     configured_offers = offers()
+    image_cache = ImageSearchCache(IMAGE_CACHE_FILE)
+    used_image_ids = load_image_ledger(IMAGE_LEDGER_FILE)
+    vision_reviewer = DeferredVisionReviewer()
 
     edition_time = dt.datetime.now(dt.timezone.utc)
+    recorder = EditionRecorder(EDITION_STATE_ROOT, edition_time)
     candidates = fetch_ranked_items(sources, state, max(MAX_ITEMS, CANDIDATE_POOL_SIZE))
+    source_artifacts: list[dict[str, Any]] = []
+    evidence_artifacts: list[dict[str, Any]] = []
+    draft_artifacts: list[dict[str, Any]] = []
+    brief_artifacts: list[dict[str, Any]] = []
+    candidate_artifacts: list[dict[str, Any]] = []
+    review_artifacts: list[dict[str, Any]] = []
+    release_checks: list[dict[str, Any]] = []
+
     for index, (item, content_type, source_text) in enumerate(choose_edition(candidates)):
         key = item_id(item)
         category = classify(item)
-        content = draft(client, item, category, content_type, source_text)
+        source_material = source_text or item.summary
+        source_artifacts.append(
+            {
+                "article_id": key,
+                "title": item.title,
+                "url": item.link,
+                "source_name": item.source_name,
+                "category": category,
+                "content_type": content_type,
+                "source_characters": len(source_material),
+            }
+        )
+
+        try:
+            evidence = build_evidence_packet(
+                client,
+                MODEL,
+                item.title,
+                item.summary,
+                source_material,
+                item.link,
+            )
+        except Exception as exc:
+            print(f"Evidence agent fallback ({item.source_name}): {exc}", file=sys.stderr)
+            evidence = EvidencePacket(
+                study_type="reported health research",
+                key_claims=(item.summary or item.title,),
+                limitations=("The source did not expose enough detail for a fuller evidence extraction.",),
+                what_not_to_say=("Do not claim causation, treatment, or guaranteed personal benefit.",),
+                confidence="unclear",
+            )
+        evidence_artifacts.append({"article_id": key, **evidence.to_dict()})
+
+        content = draft(client, item, category, content_type, source_text, evidence)
+        draft_artifacts.append({"article_id": key, "content_type": content_type, **content})
+
+        try:
+            image_brief = direct_image(client, MODEL, item.title, category, content)
+        except Exception as exc:
+            print(f"Image director fallback ({item.source_name}): {exc}", file=sys.stderr)
+            image_brief = ImageBrief(
+                editorial_intent="Show the story's practical human context without making a medical promise.",
+                subject="an authentic adult in a relevant everyday or research setting",
+                setting="natural light and a credible real-world environment",
+                mood="capable, alert, and unstaged",
+                composition="landscape editorial photograph with one clear focal subject",
+                avoid=("fearful expressions", "product advertising", "patronizing retirement stereotypes"),
+                search_queries=(f"{category} adult daily life", "health research natural light", "active adult everyday life"),
+            )
+        brief_artifacts.append({"article_id": key, **image_brief.to_dict()})
+
+        image_candidates = search_image_candidates(
+            image_brief,
+            PEXELS_API_KEY,
+            PIXABAY_API_KEY,
+            image_cache,
+            used_image_ids,
+        )
+        candidate_artifacts.append(
+            {
+                "article_id": key,
+                "query": image_brief.search_queries[0],
+                "candidates": [candidate.to_dict() for candidate in image_candidates],
+            }
+        )
+
+        photo: PublishedImage | None = None
+        alignment: AlignmentReview | None = None
+        selected_candidate = None
+        visual_review: dict[str, Any] = {
+            "status": "pending",
+            "reason": "No suitable image candidate was available.",
+        }
+        if image_candidates:
+            try:
+                alignment = review_image_metadata(
+                    client,
+                    MODEL,
+                    content,
+                    image_brief,
+                    [candidate.to_dict() for candidate in image_candidates],
+                )
+            except Exception as exc:
+                print(f"Image proofreader fallback ({item.source_name}): {exc}", file=sys.stderr)
+                alignment = AlignmentReview(
+                    selected_candidate_id=image_candidates[0].candidate_id,
+                    score=50,
+                    rationale="Deterministic fallback selected the strongest available landscape candidate.",
+                    concerns=("Metadata proofreader was unavailable.",),
+                    metadata_status="pending",
+                )
+            selected_candidate = next(
+                (candidate for candidate in image_candidates if candidate.candidate_id == alignment.selected_candidate_id),
+                image_candidates[0],
+            )
+            try:
+                article_slug = f"{slug(content['headline'])}-{key[:8]}"
+                photo = persist_image(selected_candidate, PUBLIC_ROOT, recorder.edition_id, article_slug)
+                visual_review = vision_reviewer.review(str(PUBLIC_ROOT / photo.local_url.lstrip("/")), image_brief, content)
+                append_image_ledger(IMAGE_LEDGER_FILE, selected_candidate, key, recorder.edition_id)
+                used_image_ids.add(selected_candidate.candidate_id)
+            except Exception as exc:
+                print(f"Selected image failed ({item.source_name}): {exc}", file=sys.stderr)
+                photo = None
+
+        metadata_status = alignment.metadata_status if alignment else "missing"
+        visual_status = str(visual_review.get("status", "pending"))
+        review_artifacts.append(
+            {
+                "article_id": key,
+                "metadata_review": alignment.to_dict() if alignment else None,
+                "visual_review": visual_review,
+            }
+        )
+
         offer_url = None
         if content_type == "lead":
             offer_url = tracked_offer_url(select_offer(configured_offers, category), category, key)
-        target = OUTPUT_DIR / f"{dt.date.today()}-{slug(content['headline'])}-{key[:8]}.md"
+        target = OUTPUT_DIR / f"{recorder.edition_id}-{slug(content['headline'])}-{key[:8]}.md"
         target.write_text(
-            markdown(item, category, content, offer_url, content_type, index + 1, edition_time),
+            markdown(item, category, content, offer_url, content_type, index + 1, edition_time, photo),
             encoding="utf-8",
+        )
+        release_checks.append(
+            audit_release(key, item.link, content, metadata_status, visual_status).to_dict()
         )
         state.add(key)
         save_state(state)
         print(f"Wrote {target}")
+
+    recorder.write("sources", source_artifacts)
+    recorder.write("evidence", evidence_artifacts)
+    recorder.write("drafts", draft_artifacts)
+    recorder.write("image-briefs", brief_artifacts)
+    recorder.write("candidates", candidate_artifacts)
+    recorder.write("visual-reviews", review_artifacts)
+    recorder.write(
+        "release-manifest",
+        {
+            "edition_id": recorder.edition_id,
+            "generated_at": edition_time.isoformat(),
+            "publishable": bool(release_checks) and all(check["publishable"] for check in release_checks),
+            "checks": release_checks,
+        },
+    )
     return 0
 
 

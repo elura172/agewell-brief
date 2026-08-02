@@ -1,0 +1,45 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  photographer?: string;
+  photographerUrl?: string;
+  sourceUrl?: string;
+  provider?: "Pexels" | "Pixabay";
+  width?: number;
+  height?: number;
+  avgColor?: string;
+  variant?: "featured" | "card" | "article";
+  eager?: boolean;
+}
+
+const {
+  src,
+  alt,
+  photographer = "Photo contributor",
+  photographerUrl,
+  sourceUrl,
+  provider = "Pexels",
+  width = 1200,
+  height = 627,
+  avgColor = "#cad4cf",
+  variant = "article",
+  eager = false
+} = Astro.props;
+---
+<figure class:list={["editorial-image", `editorial-image--${variant}`]} style={`--image-tone: ${avgColor}`}>
+  <img
+    src={src}
+    alt={alt}
+    width={width}
+    height={height}
+    loading={eager ? "eager" : "lazy"}
+    fetchpriority={eager ? "high" : "auto"}
+    decoding="async"
+  />
+  <figcaption>
+    Illustrative photo by
+    {photographerUrl ? <a href={photographerUrl} rel="noopener noreferrer">{photographer}</a> : photographer}
+    {sourceUrl ? <> on <a href={sourceUrl} rel="noopener noreferrer">{provider}</a></> : <> via {provider}</>}
+  </figcaption>
+</figure>

@@ -19,10 +19,15 @@
 3. Add `DEEPSEEK_API_KEY` as a GitHub Actions secret. The default model is
    `deepseek-v4-flash`; set `LLM_MODEL=deepseek-v4-pro` when higher-cost editorial
    passes are useful.
-4. Add `AFFILIATE_OFFERS_JSON` only after each encrypted ClickBank HopLink has
+4. Add `PEXELS_API_KEY` and `PIXABAY_API_KEY` as GitHub Actions secrets. The
+   broker searches both libraries, downloads only the selected image, and keeps
+   provider, photographer, and source attribution attached to the draft.
+5. Rotate any image key that has appeared in chat, logs, or screenshots before
+   enabling unattended runs.
+6. Add `AFFILIATE_OFFERS_JSON` only after each encrypted ClickBank HopLink has
    been created, decoded, and tested in Affiliate Link Tools. The pipeline adds
    article-level `tid` parameters automatically.
-5. Push the repository to GitHub and run **Aggregate health briefs** manually.
+7. Push the repository to GitHub and run **Aggregate health briefs** manually.
 
 ## Review loop
 
@@ -30,6 +35,10 @@ Generated files are intentionally written with `draft: true`. Each edition
 contains one 600–900 word Deep Read and two compact Signals. Review the source,
 headline, claims, links, and commercial disclosure before changing a post to
 `draft: false`.
+
+Each run also writes an audit trail to `.state/editions/YYYY-MM-DD/`. Review
+`release-manifest.json` first: it names every incomplete source, editorial,
+metadata, and visual gate without publishing automatically.
 
 ## Hosting
 

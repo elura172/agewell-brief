@@ -11,6 +11,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 export DEEPSEEK_API_KEY="..."
+export PEXELS_API_KEY="..."
+export PIXABAY_API_KEY="..."
 export RSS_FEED_URL="https://example.com/feed.xml"
 python -m agewell.pipeline
 ```
@@ -28,6 +30,26 @@ general-wellness offer in a mobility, brain-health, metabolic-health, or
 longevity article unless that category has its own reviewed HopLink.
 
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
+
+## Editorial agents and image direction
+
+Each edition moves through an evidence analyst, story editor, image director,
+dual-provider search broker, image-to-story metadata proofreader, deferred
+vision reviewer, and release auditor. The LLM writes search direction but never
+receives either image API key; deterministic adapters call Pexels and Pixabay.
+Both providers are searched for the strongest fit rather than alternated by
+schedule.
+
+Selected images are downloaded, cropped to a stable social-card ratio, and
+served from `public/images/editions/`. Attribution remains attached in front
+matter and every public placement. Search results are cached for 24 hours in
+`.state/image-search-cache.json`, and `.state/image-ledger.json` prevents reuse.
+
+Every handoff is recorded under `.state/editions/YYYY-MM-DD/` as sources,
+evidence, drafts, image briefs, candidates, visual reviews, and a release
+manifest. DeepSeek performs metadata alignment today. The pixel-level
+`VisionReviewer` interface deliberately reports `pending` until an image-capable
+model is connected, so the system never mistakes tags for vision.
 
 ## Publisher surfaces
 
@@ -68,9 +90,10 @@ Set `RSS_FEEDS_JSON` only when you need to override the checked-in portfolio.
 
 ## GitHub Actions
 
-Add `DEEPSEEK_API_KEY` and optionally `AFFILIATE_OFFERS_JSON` as repository
-secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
+Add `DEEPSEEK_API_KEY`, `PEXELS_API_KEY`, `PIXABAY_API_KEY`, and optionally
+`AFFILIATE_OFFERS_JSON` as repository secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
 `RSS_FEEDS_JSON` can override it. The workflow runs daily and commits new
 drafts.
 
-All generated articles should be reviewed before production publication, especially health, financial, and supplement claims.
+Generated editions remain drafts until the release manifest records completed
+image and human editorial review.

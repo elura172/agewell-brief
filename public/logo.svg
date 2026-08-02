@@ -1,6 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
-  <title id="title">Agewell Brief publication mark</title>
-  <rect width="512" height="512" rx="48" fill="#182a35"/>
-  <path d="M125 385 225 118h62l100 267h-65l-21-59h-91l-21 59Zm105-117h51l-25-75Z" fill="#f5f3ed"/>
-  <circle cx="389" cy="123" r="39" fill="#e39b44"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Agewell Brief</title>
+  <desc id="desc">A single saffron serpent winding around a navy physician's staff.</desc>
+  <rect width="512" height="512" rx="48" fill="#f5f3ed"/>
+  <g transform="translate(64 64) scale(3)">
+    <path fill="#182a35" d="M59 13c0-3 2-5 5-5s5 2 5 5v7c4 1 6 4 6 7 0 4-3 7-7 8l1 80c0 4-2 7-5 7s-5-3-5-7l1-80c-4-1-7-4-7-8 0-3 2-6 6-7v-7Z"/>
+    <path fill="#e39b44" d="M91 35C78 29 58 31 49 43 39 57 48 72 64 80c13 7 17 13 12 20-5 7-19 10-32 16l-3 12c19-8 37-11 46-22 11-16 1-28-15-36-12-6-17-14-11-21 6-7 19-7 27-2l3-12Z"/>
+    <path fill="#e39b44" d="M82 31c7-1 14 1 19 7-4 7-11 10-19 7-4-2-6-6-5-9 1-2 2-4 5-5Z"/>
+    <path fill="#182a35" d="M90 36c2 0 3 1 4 3-2 1-4 1-6 0 0-2 1-3 2-3Z"/>
+  </g>
 </svg>

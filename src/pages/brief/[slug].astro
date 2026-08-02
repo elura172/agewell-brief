@@ -2,6 +2,7 @@
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import { plainTextExcerpt } from "../../lib/publishing";
+import EditorialImage from "../../components/EditorialImage.astro";
 
 export async function getStaticPaths() {
   const entries = await getCollection("briefs");
@@ -57,6 +58,9 @@ const structuredData = {
   description={description}
   ogType="article"
   image={entry.data.image}
+  imageAlt={entry.data.image_alt}
+  imageWidth={entry.data.image_width}
+  imageHeight={entry.data.image_height}
   publishedTime={entry.data.date}
   modifiedTime={entry.data.updated ?? entry.data.date}
   structuredData={structuredData}
@@ -65,11 +69,23 @@ const structuredData = {
     <a class="back-link" href="/">← All briefs</a>
     <header class="article-header">
       <div class="signal-rail"><span>{entry.data.category}</span><i></i><span>{formatDate}</span></div>
-      <p class="eyebrow">{isLead ? "Agewell Deep Read" : "Agewell Signal"}</p>
       <h1>{entry.data.title}</h1>
       <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <time datetime={entry.data.date.toISOString()}>Published {formatDateTime}</time></p>
       <p class="article-source">Original reporting: <a href={entry.data.source_url} rel="noopener noreferrer">{entry.data.source_title}</a></p>
     </header>
+    {entry.data.image && <EditorialImage
+      src={entry.data.image}
+      alt={entry.data.image_alt ?? "Illustrative photograph for this Agewell Brief article"}
+      photographer={entry.data.image_photographer}
+      photographerUrl={entry.data.image_photographer_url}
+      sourceUrl={entry.data.image_source_url}
+      provider={entry.data.image_provider}
+      width={entry.data.image_width}
+      height={entry.data.image_height}
+      avgColor={entry.data.image_avg_color}
+      variant="article"
+      eager={true}
+    />}
     <div class="article-content"><Content /></div>
     <footer class="article-footer"><span>Keep asking better questions.</span><a href="/#subscribe">Get tomorrow’s edition →</a></footer>
   </article>

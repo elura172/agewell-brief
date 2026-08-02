@@ -12,9 +12,9 @@ const { title, eyebrow, lede } = Astro.props;
 <Layout title={`${title} — Agewell Brief`} description={lede}>
   <article class="info-page">
     <header class="info-header">
-      <p class="eyebrow">{eyebrow}</p>
       <h1>{title}</h1>
-      <p>{lede}</p>
+      <p class="info-lede">{lede}</p>
+      <p class="info-meta">{eyebrow}</p>
     </header>
     <div class="info-content"><slot /></div>
   </article>

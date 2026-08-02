@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
+import EditorialImage from "../components/EditorialImage.astro";
 
 const showDrafts = import.meta.env.DEV;
 const entries = (await getCollection("briefs"))
@@ -17,7 +18,6 @@ const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "lo
   {showDrafts && <div class="edition-strip" aria-label="Preview status"><span>LOCAL DRAFT PREVIEW</span><span>NOT PUBLIC</span></div>}
   <section class="hero">
     <div class="hero-copy">
-      <p class="eyebrow"><span class="signal-dot"></span> The daily health signal</p>
       <h1>Stay capable.<br /><span>Stay curious.</span></h1>
       <p class="hero-lede">A clear-eyed brief on the research, habits, and decisions that help you keep doing what matters.</p>
       <a class="text-link" href="#latest">Read today’s signal <span>↓</span></a>
@@ -36,27 +36,51 @@ const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "lo
 
   <section id="latest" class="briefs-section">
     <div class="section-heading">
-      <p class="eyebrow">Latest signals</p>
+      <h2 class="section-title">Latest signals</h2>
       <p class="section-caption">Worth your attention, not all of it.</p>
     </div>
     {featured ? (
-      <article class="featured-card">
+      <article class:list={["featured-card", { "has-image": featured.data.image }]}>
         <div class="signal-rail"><span>{featured.data.category}</span><i></i><span>{formatDate(featured.data.date)}</span></div>
         <div class="featured-body">
-          <p class="card-kicker">{featured.data.content_type === "lead" ? "Today’s deep read" : "The lead signal"}</p>
           <h2><a href={`/brief/${featured.id}/`}>{featured.data.title}</a></h2>
           <p class="card-source">Based on <a href={featured.data.source_url} rel="noopener noreferrer">{featured.data.source_title}</a></p>
           <a class="arrow-link" href={`/brief/${featured.id}/`}>{featured.data.content_type === "lead" ? "Read the full analysis" : "Read the brief"} <span>→</span></a>
         </div>
+        {featured.data.image && <EditorialImage
+          src={featured.data.image}
+          alt={featured.data.image_alt ?? "Illustrative photograph for this Agewell Brief article"}
+          photographer={featured.data.image_photographer}
+          photographerUrl={featured.data.image_photographer_url}
+          sourceUrl={featured.data.image_source_url}
+          provider={featured.data.image_provider}
+          width={featured.data.image_width}
+          height={featured.data.image_height}
+          avgColor={featured.data.image_avg_color}
+          variant="featured"
+          eager={true}
+        />}
         <div class="featured-index">01</div>
       </article>
     ) : (
-      <div class="empty-state"><p class="eyebrow">The first signal is on its way</p><h2>Fresh briefs will appear here after editorial review.</h2><p>Run the aggregation pipeline, review the draft, then set <code>draft: false</code>.</p></div>
+      <div class="empty-state"><h2>The first signal is on its way.</h2><p>Fresh briefs appear here after editorial review.</p></div>
     )}
 
     {recent.length > 0 && <div class="brief-grid">
       {recent.map((entry, index) => (
-        <article class="brief-card">
+        <article class:list={["brief-card", { "has-image": entry.data.image }]}>
+          {entry.data.image && <EditorialImage
+            src={entry.data.image}
+            alt={entry.data.image_alt ?? "Illustrative photograph for this Agewell Brief signal"}
+            photographer={entry.data.image_photographer}
+            photographerUrl={entry.data.image_photographer_url}
+            sourceUrl={entry.data.image_source_url}
+            provider={entry.data.image_provider}
+            width={entry.data.image_width}
+            height={entry.data.image_height}
+            avgColor={entry.data.image_avg_color}
+            variant="card"
+          />}
           <div class="card-topline"><span>{entry.data.category} · Quick signal</span><span>{String(index + 2).padStart(2, "0")}</span></div>
           <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
           <p class="card-source">{formatDate(entry.data.date)} · <a href={entry.data.source_url} rel="noopener noreferrer">Source</a></p>
@@ -66,16 +90,15 @@ const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "lo
   </section>
 
   <section id="about" class="about-band">
-    <div><p class="eyebrow">Why Agewell</p><h2>The internet is loud.<br /><em>Your health brief shouldn’t be.</em></h2></div>
+    <div><h2>The internet is loud.<br /><em>Your health brief shouldn’t be.</em></h2></div>
     <p>We translate useful research into decisions you can understand and questions you can take to your doctor. Every brief points back to its source and leaves room for context.</p>
   </section>
 
   <section id="subscribe" class="subscribe-card">
-    <div><p class="eyebrow">The morning edition</p><h2>One good signal,<br />in your inbox.</h2></div>
-    <form class="subscribe-form" action="#" method="post">
-      <label for="email">Your email address</label>
-      <div><input id="email" name="email" type="email" placeholder="you@example.com" required /><button type="submit">Join free <span>→</span></button></div>
-      <small>One thoughtful email. Unsubscribe whenever you like.</small>
-    </form>
+    <div><h2>One good signal,<br />in your inbox.</h2></div>
+    <div class="subscribe-status">
+      <p>The email edition is opening soon. Until then, follow every published brief in your feed reader.</p>
+      <a href="/rss.xml">Follow the RSS edition <span>→</span></a>
+    </div>
   </section>
 </Layout>

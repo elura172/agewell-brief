@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
@@ -14,11 +15,22 @@ from agewell.pipeline import (
     fetch_ranked_items,
     feed_sources,
     normalized_title,
+    markdown,
     relevance_score,
     select_ranked_items,
     select_offer,
     slug,
     tracked_offer_url,
+)
+from agewell.edition import audit_release
+from agewell.editorial import DeferredVisionReviewer, EvidencePacket, ImageBrief
+from agewell.images import (
+    ImageCandidate,
+    ImageSearchCache,
+    PublishedImage,
+    search_image_candidates,
+    search_pexels,
+    search_pixabay,
 )
 
 
@@ -34,6 +46,233 @@ def test_classify_alzheimers_as_brain_health():
 
 def test_slug_is_stable():
     assert slug("A Bright, New Finding!") == "a-bright-new-finding"
+
+
+def test_pexels_search_uses_authorization(monkeypatch):
+    captured = {}
+    payload = {
+        "photos": [
+            {
+                "id": 10,
+                "url": "https://www.pexels.com/photo/first-10/",
+                "photographer": "First Photographer",
+                "photographer_url": "https://www.pexels.com/@first",
+                "avg_color": "#112233",
+                "alt": "First image",
+                "src": {"landscape": "https://images.pexels.com/photos/10/first.jpeg"},
+            },
+            {
+                "id": 20,
+                "url": "https://www.pexels.com/photo/second-20/",
+                "photographer": "Second Photographer",
+                "photographer_url": "https://www.pexels.com/@second",
+                "avg_color": "#445566",
+                "alt": "Second image",
+                "src": {"landscape": "https://images.pexels.com/photos/20/second.jpeg"},
+            },
+        ]
+    }
+
+    class FakeResponse:
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *_args):
+            return False
+
+        def read(self):
+            return json.dumps(payload).encode()
+
+    def fake_urlopen(request, timeout):
+        captured["authorization"] = request.get_header("Authorization")
+        captured["url"] = request.full_url
+        captured["timeout"] = timeout
+        return FakeResponse()
+
+    monkeypatch.setattr("agewell.images.urllib.request.urlopen", fake_urlopen)
+    result = search_pexels("test-key", "older couple sleeping")
+
+    assert [candidate.provider_id for candidate in result] == ["10", "20"]
+    assert captured["authorization"] == "test-key"
+    assert "orientation=landscape" in captured["url"]
+    assert captured["timeout"] == 30
+
+
+def test_pixabay_search_returns_attributed_candidate(monkeypatch):
+    payload = {
+        "hits": [
+            {
+                "id": 44,
+                "pageURL": "https://pixabay.com/photos/example-44/",
+                "largeImageURL": "https://cdn.pixabay.com/photo/44.jpg",
+                "user": "River Light",
+                "user_id": 9,
+                "tags": "walking, park, sunlight",
+                "imageWidth": 1800,
+                "imageHeight": 1200,
+            }
+        ]
+    }
+
+    class FakeResponse:
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *_args):
+            return False
+
+        def read(self):
+            return json.dumps(payload).encode()
+
+    monkeypatch.setattr("agewell.images.urllib.request.urlopen", lambda *_args, **_kwargs: FakeResponse())
+    result = search_pixabay("test-key", "walking in a park")
+
+    assert result[0].candidate_id == "Pixabay:44"
+    assert result[0].creator == "River Light"
+    assert result[0].source_url.startswith("https://pixabay.com/")
+
+
+def test_image_broker_searches_both_providers_and_filters_ledger(monkeypatch, tmp_path: Path):
+    brief = ImageBrief(
+        "Show movement",
+        "adult walker",
+        "park",
+        "capable",
+        "landscape",
+        ("fear",),
+        ("adult walking park",),
+    )
+    pexels = ImageCandidate("Pexels", "1", "https://images.pexels.com/1", "https://www.pexels.com/1", "A", "", "Walk", (), 1200, 800)
+    pixabay = ImageCandidate("Pixabay", "2", "https://cdn.pixabay.com/2", "https://pixabay.com/2", "B", "", "Walk", (), 1600, 900)
+    monkeypatch.setattr("agewell.images.search_pexels", lambda *_args: [pexels])
+    monkeypatch.setattr("agewell.images.search_pixabay", lambda *_args: [pixabay])
+
+    result = search_image_candidates(
+        brief,
+        "pexels-key",
+        "pixabay-key",
+        ImageSearchCache(tmp_path / "cache.json"),
+        {"Pexels:1"},
+    )
+
+    assert [candidate.candidate_id for candidate in result] == ["Pixabay:2"]
+
+
+def test_markdown_keeps_photo_and_attribution_metadata_together():
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
+    content = {
+        "headline": "A useful finding",
+        "dek": "A clear introduction.",
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "The study was small.",
+        "sections": [],
+    }
+    photo = PublishedImage(
+        provider="Pexels",
+        provider_id="123",
+        local_url="/images/editions/2026-08-02/example.webp",
+        source_url="https://www.pexels.com/photo/example-123/",
+        creator="A Photographer",
+        creator_url="https://www.pexels.com/@photographer",
+        alt="An older adult walking outdoors",
+        avg_color="#aabbcc",
+    )
+
+    result = markdown(item, "mobility", content, None, photo=photo)
+
+    assert 'image_provider: "Pexels"' in result
+    assert 'image_provider_id: "123"' in result
+    assert 'image: "/images/editions/2026-08-02/example.webp"' in result
+    assert 'image_alt: "An older adult walking outdoors"' in result
+    assert 'image_photographer: "A Photographer"' in result
+    assert 'image_source_url: "https://www.pexels.com/photo/example-123/"' in result
+
+
+def test_release_audit_keeps_shadow_edition_in_draft():
+    story = {
+        "headline": "A useful finding",
+        "dek": "A clear introduction.",
+        "bullets": ["One", "Two", "Three"],
+    }
+    result = audit_release("abc", "https://example.test/source", story, "approved", "pending")
+
+    assert result.publishable is False
+    assert "pixel-level image review is pending" in result.reasons
+    assert "human editorial review is pending" in result.reasons
+
+
+def test_deferred_vision_reviewer_never_claims_pixel_review():
+    brief = ImageBrief("intent", "subject", "setting", "mood", "composition", (), ("query",))
+    result = DeferredVisionReviewer().review("/tmp/image.webp", brief, {"headline": "Story"})
+
+    assert result["status"] == "pending"
+    assert "not configured" in result["reason"]
+
+
+def test_run_writes_complete_shadow_edition_audit(monkeypatch, tmp_path: Path):
+    item = FeedItem(
+        "Walking supports healthy aging",
+        "Researchers reported a practical mobility finding.",
+        "https://example.test/story",
+        "",
+        "Test Source",
+    )
+    story = {
+        "headline": "Walking supports healthy aging",
+        "dek": "A clear introduction.",
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "The study has limits.",
+        "sections": [],
+    }
+    evidence = EvidencePacket(
+        "observational study",
+        ("Walking was associated with healthier aging.",),
+        ("The result does not prove causation.",),
+        ("Do not promise prevention.",),
+        "moderate",
+    )
+    brief = ImageBrief(
+        "Show practical movement",
+        "adult walking",
+        "park",
+        "capable",
+        "landscape",
+        ("fear",),
+        ("adult walking in park",),
+    )
+
+    monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
+    monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
+    monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
+    monkeypatch.setattr(pipeline, "PUBLIC_ROOT", tmp_path / "public")
+    monkeypatch.setattr(pipeline, "EDITION_STATE_ROOT", tmp_path / "editions")
+    monkeypatch.setattr(pipeline, "IMAGE_CACHE_FILE", tmp_path / "image-cache.json")
+    monkeypatch.setattr(pipeline, "IMAGE_LEDGER_FILE", tmp_path / "image-ledger.json")
+    monkeypatch.setattr(pipeline, "feed_sources", lambda: [FeedSource("Test", "https://example.test/feed")])
+    monkeypatch.setattr(pipeline, "fetch_ranked_items", lambda *_args, **_kwargs: [item])
+    monkeypatch.setattr(pipeline, "choose_edition", lambda _items: [(item, "signal", None)])
+    monkeypatch.setattr(pipeline, "build_evidence_packet", lambda *_args: evidence)
+    monkeypatch.setattr(pipeline, "draft", lambda *_args: story)
+    monkeypatch.setattr(pipeline, "direct_image", lambda *_args: brief)
+    monkeypatch.setattr(pipeline, "search_image_candidates", lambda *_args: [])
+
+    assert pipeline.run() == 0
+
+    edition_dirs = list((tmp_path / "editions").iterdir())
+    assert len(edition_dirs) == 1
+    expected = {
+        "sources.json",
+        "evidence.json",
+        "drafts.json",
+        "image-briefs.json",
+        "candidates.json",
+        "visual-reviews.json",
+        "release-manifest.json",
+    }
+    assert {path.name for path in edition_dirs[0].iterdir()} == expected
+    manifest = json.loads((edition_dirs[0] / "release-manifest.json").read_text())
+    assert manifest["publishable"] is False
+    assert manifest["checks"][0]["visual_review_status"] == "pending"
 
 
 def test_tracking_id_is_added_to_encrypted_hoplink():
