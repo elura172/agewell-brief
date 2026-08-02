@@ -66,5 +66,7 @@ In the meantime, the findings support a broader view of brain health. Rather tha
 
 This analysis is based on [Superagers keep youthful memories but their DNA does not explain why](https://www.sciencedaily.com/releases/2026/07/260723084045.htm) from ScienceDaily Healthy Aging. Read the original report for full context.
 
+> **Affiliate disclosure:** This optional recommendation may earn us a commission. [View the related brain-health resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net/?tid=agewell_brain_health_07f7c8b122a9b70c692156be).
+
 
 > **Health note:** This was an observational study; it does not prove that lifestyle or environmental factors cause SuperAging, nor does it identify specific protective mechanisms.
