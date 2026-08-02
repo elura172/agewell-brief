@@ -24,7 +24,8 @@ class ReleaseCheck:
 class EditionRecorder:
     def __init__(self, root: Path, edition_time: dt.datetime):
         self.edition_id = edition_time.date().isoformat()
-        self.path = root / self.edition_id
+        self.run_id = edition_time.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H%M%SZ")
+        self.path = root / self.edition_id / self.run_id
         self.path.mkdir(parents=True, exist_ok=True)
 
     def write(self, name: str, value: Any) -> Path:

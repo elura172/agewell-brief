@@ -23,7 +23,13 @@ from agewell.pipeline import (
     tracked_offer_url,
 )
 from agewell.edition import audit_release
-from agewell.editorial import DeferredVisionReviewer, EvidencePacket, ImageBrief, build_evidence_packet
+from agewell.editorial import (
+    DeferredVisionReviewer,
+    EvidencePacket,
+    ImageBrief,
+    build_evidence_packet,
+    review_image_metadata,
+)
 from agewell.images import (
     ImageCandidate,
     ImageSearchCache,
@@ -158,6 +164,89 @@ def test_image_broker_searches_both_providers_and_filters_ledger(monkeypatch, tm
     assert [candidate.candidate_id for candidate in result] == ["Pixabay:2"]
 
 
+def test_image_broker_searches_all_queries_and_avoids_used_creator(monkeypatch, tmp_path: Path):
+    brief = ImageBrief(
+        "Show speech research",
+        "speech neuroscience researcher",
+        "laboratory",
+        "focused",
+        "landscape",
+        ("generic kitchens",),
+        ("speech neuroscience laboratory", "brain scan researcher", "speech therapy technology"),
+    )
+    calls = []
+
+    def fake_pexels(_key, query):
+        calls.append(("Pexels", query))
+        creator = "https://www.pexels.com/@used" if query == brief.search_queries[0] else "https://www.pexels.com/@fresh"
+        return [
+            ImageCandidate(
+                "Pexels",
+                query.replace(" ", "-"),
+                "https://images.pexels.com/example",
+                "https://www.pexels.com/example",
+                "Photographer",
+                creator,
+                query,
+                (),
+                1800,
+                1200,
+                search_query=query,
+            )
+        ]
+
+    def fake_pixabay(_key, query):
+        calls.append(("Pixabay", query))
+        return []
+
+    monkeypatch.setattr("agewell.images.search_pexels", fake_pexels)
+    monkeypatch.setattr("agewell.images.search_pixabay", fake_pixabay)
+    result = search_image_candidates(
+        brief,
+        "pexels-key",
+        "pixabay-key",
+        ImageSearchCache(tmp_path / "cache.json"),
+        excluded_creator_urls={"https://www.pexels.com/@used"},
+    )
+
+    assert len(calls) == 6
+    assert {candidate.search_query for candidate in result} == set(brief.search_queries[1:])
+
+
+def test_metadata_review_normalizes_string_concerns_and_can_reject_all_candidates():
+    class FakeCompletions:
+        def create(self, **_kwargs):
+            payload = {
+                "selected_candidate_id": "",
+                "score": 25,
+                "rationale": "The kitchen scene is unrelated to speech neuroscience.",
+                "concerns": "Generic lifestyle image does not show the reported subject.",
+                "metadata_status": "rejected",
+            }
+            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps(payload)))])
+
+    client = SimpleNamespace(chat=SimpleNamespace(completions=FakeCompletions()))
+    brief = ImageBrief("Show research", "researcher", "lab", "focused", "landscape", (), ("speech lab",))
+    candidate = ImageCandidate(
+        "Pexels",
+        "1",
+        "https://images.pexels.com/1",
+        "https://www.pexels.com/1",
+        "A",
+        "",
+        "Woman preparing fruit in a kitchen",
+        (),
+        1200,
+        800,
+    )
+
+    result = review_image_metadata(client, "deepseek-test", {"headline": "Speech decoded from neurons"}, brief, [candidate.to_dict()])
+
+    assert result.metadata_status == "rejected"
+    assert result.selected_candidate_id == ""
+    assert result.concerns == ("Generic lifestyle image does not show the reported subject.",)
+
+
 def test_markdown_keeps_photo_and_attribution_metadata_together():
     item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
     content = {
@@ -282,7 +371,9 @@ def test_run_writes_complete_shadow_edition_audit(monkeypatch, tmp_path: Path):
 
     assert pipeline.run() == 0
 
-    edition_dirs = list((tmp_path / "editions").iterdir())
+    edition_dates = list((tmp_path / "editions").iterdir())
+    assert len(edition_dates) == 1
+    edition_dirs = list(edition_dates[0].iterdir())
     assert len(edition_dirs) == 1
     expected = {
         "sources.json",
@@ -296,6 +387,7 @@ def test_run_writes_complete_shadow_edition_audit(monkeypatch, tmp_path: Path):
     assert {path.name for path in edition_dirs[0].iterdir()} == expected
     manifest = json.loads((edition_dirs[0] / "release-manifest.json").read_text())
     assert manifest["publishable"] is False
+    assert manifest["run_id"] == edition_dirs[0].name
     assert manifest["checks"][0]["visual_review_status"] == "pending"
 
 

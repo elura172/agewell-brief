@@ -7,7 +7,7 @@ import json
 import re
 import threading
 import urllib.request
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 from typing import Any, Callable
 from urllib.parse import quote, urlencode
@@ -34,6 +34,7 @@ class ImageCandidate:
     width: int
     height: int
     avg_color: str = "#cad4cf"
+    search_query: str = ""
 
     @property
     def candidate_id(self) -> str:
@@ -137,6 +138,7 @@ def search_pexels(api_key: str, query: str) -> list[ImageCandidate]:
                 width=int(value.get("width", 1200)),
                 height=int(value.get("height", 627)),
                 avg_color=color,
+                search_query=query,
             )
         )
     return candidates
@@ -173,6 +175,7 @@ def search_pixabay(api_key: str, query: str) -> list[ImageCandidate]:
                 tags=tags,
                 width=int(value.get("imageWidth", value.get("webformatWidth", 1200))),
                 height=int(value.get("imageHeight", value.get("webformatHeight", 627))),
+                search_query=query,
             )
         )
     return candidates
@@ -184,34 +187,57 @@ def search_image_candidates(
     pixabay_key: str,
     cache: ImageSearchCache,
     excluded_ids: set[str] | None = None,
+    excluded_creator_urls: set[str] | None = None,
 ) -> list[ImageCandidate]:
-    query = brief.search_queries[0]
     excluded = excluded_ids or set()
+    excluded_creators = excluded_creator_urls or set()
     providers: list[tuple[str, str, Callable[[str, str], list[ImageCandidate]]]] = [
         ("Pexels", pexels_key, search_pexels),
         ("Pixabay", pixabay_key, search_pixabay),
     ]
 
-    def load(provider: str, key: str, search: Callable[[str, str], list[ImageCandidate]]) -> list[ImageCandidate]:
+    def load(
+        provider: str,
+        key: str,
+        search: Callable[[str, str], list[ImageCandidate]],
+        query: str,
+    ) -> list[ImageCandidate]:
         cached = cache.get(provider, query)
         if cached is not None:
-            return cached
+            return [candidate if candidate.search_query else replace(candidate, search_query=query) for candidate in cached]
         found = search(key, query)
         cache.set(provider, query, found)
         return found
 
     found: list[ImageCandidate] = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
-        futures = [pool.submit(load, provider, key, search) for provider, key, search in providers if key]
+    searches = [
+        (provider, key, search, query)
+        for query in brief.search_queries[:3]
+        for provider, key, search in providers
+        if key
+    ]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(6, len(searches) or 1)) as pool:
+        futures = [pool.submit(load, provider, key, search, query) for provider, key, search, query in searches]
         for future in concurrent.futures.as_completed(futures):
             try:
                 found.extend(future.result())
             except Exception:
                 continue
 
-    candidates = [candidate for candidate in found if candidate.candidate_id not in excluded]
-    candidates.sort(key=lambda candidate: (candidate.width * candidate.height, candidate.provider == "Pixabay"), reverse=True)
-    return candidates[:12]
+    unique: dict[str, ImageCandidate] = {}
+    for candidate in found:
+        if candidate.candidate_id in excluded or candidate.creator_url in excluded_creators:
+            continue
+        unique.setdefault(candidate.candidate_id, candidate)
+
+    def relevance(candidate: ImageCandidate) -> tuple[int, int, bool]:
+        query_terms = set(re.findall(r"[a-z]{4,}", candidate.search_query.lower()))
+        metadata = f"{candidate.alt} {' '.join(candidate.tags)}".lower()
+        overlap = sum(1 for term in query_terms if term in metadata)
+        return overlap, candidate.width * candidate.height, candidate.provider == "Pixabay"
+
+    candidates = sorted(unique.values(), key=relevance, reverse=True)
+    return candidates[:18]
 
 
 def persist_image(candidate: ImageCandidate, public_root: Path, edition_id: str, article_slug: str) -> PublishedImage:
@@ -253,6 +279,18 @@ def load_image_ledger(path: Path) -> set[str]:
         return set()
 
 
+def load_image_creators(path: Path) -> set[str]:
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+        return {
+            str(item["creator_url"])
+            for item in value
+            if isinstance(item, dict) and item.get("creator_url")
+        }
+    except (OSError, json.JSONDecodeError, TypeError):
+        return set()
+
+
 def append_image_ledger(path: Path, candidate: ImageCandidate, article_id: str, edition_id: str) -> None:
     try:
         value = json.loads(path.read_text(encoding="utf-8"))
@@ -264,6 +302,7 @@ def append_image_ledger(path: Path, candidate: ImageCandidate, article_id: str, 
             "candidate_id": candidate.candidate_id,
             "provider": candidate.provider,
             "provider_id": candidate.provider_id,
+            "creator_url": candidate.creator_url,
             "article_id": article_id,
             "edition_id": edition_id,
             "selected_at": dt.datetime.now(dt.timezone.utc).isoformat(),

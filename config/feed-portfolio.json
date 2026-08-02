@@ -75,5 +75,19 @@
     "priority": 3,
     "headline_mode": "preserve",
     "publisher": "Medical Xpress"
+  },
+  {
+    "name": "ScienceDaily Healthy Aging",
+    "url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
+    "priority": 5,
+    "headline_mode": "preserve",
+    "publisher": "ScienceDaily"
+  },
+  {
+    "name": "ScienceDaily Top Health",
+    "url": "https://www.sciencedaily.com/rss/top/health.xml",
+    "priority": 2,
+    "headline_mode": "preserve",
+    "publisher": "ScienceDaily"
   }
 ]

@@ -7,6 +7,16 @@ from typing import Any, Protocol
 from openai import OpenAI
 
 
+def _string_tuple(value: Any) -> tuple[str, ...]:
+    """Normalize model output without accidentally splitting strings into characters."""
+    if isinstance(value, str):
+        cleaned = value.strip()
+        return (cleaned,) if cleaned else ()
+    if not isinstance(value, (list, tuple, set)):
+        return ()
+    return tuple(str(item).strip() for item in value if str(item).strip())
+
+
 @dataclass(frozen=True)
 class EvidencePacket:
     study_type: str
@@ -131,9 +141,9 @@ def build_evidence_packet(
         payload,
         1400,
     )
-    claims = tuple(str(value).strip() for value in result.get("key_claims", []) if str(value).strip())
-    limitations = tuple(str(value).strip() for value in result.get("limitations", []) if str(value).strip())
-    forbidden = tuple(str(value).strip() for value in result.get("what_not_to_say", []) if str(value).strip())
+    claims = _string_tuple(result.get("key_claims", []))
+    limitations = _string_tuple(result.get("limitations", []))
+    forbidden = _string_tuple(result.get("what_not_to_say", []))
     if not claims:
         claims = (source_summary.strip() or source_title.strip(),)
     return EvidencePacket(
@@ -162,6 +172,9 @@ def direct_image(
             "Avoid frightened expressions, disability stereotypes, pills in hands, miracle imagery, and generic retirement poses.",
             "Return exactly three concrete stock-photo search queries, each 3-8 words.",
             "Queries must describe visible subjects and settings, not abstract concepts.",
+            "At least two queries must use a concrete, visible subject specific to this exact story.",
+            "Do not use generic wellness, healthy lifestyle, kitchen, or retirement imagery unless the story is actually about those subjects.",
+            "For neuroscience or medical-device stories, prefer relevant labs, scans, researchers, speech therapy, or technology over unrelated lifestyle scenes.",
         ],
     }
     result = _json_agent(
@@ -171,10 +184,10 @@ def direct_image(
         payload,
         1000,
     )
-    queries = tuple(str(value).strip() for value in result.get("search_queries", []) if str(value).strip())
+    queries = _string_tuple(result.get("search_queries", []))
     if not queries:
         queries = (f"{category} healthy daily life", "health research natural light", "active adult everyday life")
-    avoid = tuple(str(value).strip() for value in result.get("avoid", []) if str(value).strip())
+    avoid = _string_tuple(result.get("avoid", []))
     return ImageBrief(
         editorial_intent=str(result.get("editorial_intent", "Show the story's human relevance without overclaiming.")).strip(),
         subject=str(result.get("subject", "an authentic person or research setting")).strip(),
@@ -203,7 +216,10 @@ def review_image_metadata(
             "Select one candidate using only supplied title, tags, alt text, dimensions, and attribution metadata.",
             "Do not claim to have seen pixels.",
             "Reject candidates whose metadata suggests fear, products, procedures, or stereotypes not supported by the story.",
-            "Return selected_candidate_id, score from 0-100, rationale, and concerns.",
+            "Reject generic lifestyle imagery when it does not depict the actual subject of the story.",
+            "Reject near-duplicate or same-shoot imagery when the candidate metadata identifies that risk.",
+            "Return selected_candidate_id, score from 0-100, rationale, concerns, and metadata_status (approved, pending, or rejected).",
+            "Use an empty selected_candidate_id and rejected status if none is sufficiently specific.",
         ],
     }
     result = _json_agent(
@@ -215,16 +231,26 @@ def review_image_metadata(
     )
     valid_ids = {str(candidate["candidate_id"]) for candidate in candidates}
     selected = str(result.get("selected_candidate_id", ""))
-    if selected not in valid_ids:
-        selected = str(candidates[0]["candidate_id"])
-    concerns = tuple(str(value).strip() for value in result.get("concerns", []) if str(value).strip())
+    concerns = _string_tuple(result.get("concerns", []))
     try:
         score = max(0, min(100, int(result.get("score", 70))))
     except (TypeError, ValueError):
         score = 70
+    status = str(result.get("metadata_status", "")).strip().lower()
+    if status not in {"approved", "pending", "rejected"}:
+        status = "approved" if score >= 80 else "pending"
+    if selected and selected not in valid_ids:
+        selected = ""
+        status = "rejected"
+        concerns = concerns + ("No valid candidate was selected.",)
+    elif not selected:
+        status = "rejected"
+    if score < 70 and status == "approved":
+        status = "pending"
     return AlignmentReview(
         selected_candidate_id=selected,
         score=score,
         rationale=str(result.get("rationale", "Best metadata match among the available candidates.")).strip(),
         concerns=concerns,
+        metadata_status=status,
     )

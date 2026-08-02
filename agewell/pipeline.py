@@ -31,6 +31,7 @@ from agewell.images import (
     ImageSearchCache,
     PublishedImage,
     append_image_ledger,
+    load_image_creators,
     load_image_ledger,
     persist_image,
     search_image_candidates,
@@ -128,7 +129,10 @@ def feed_sources() -> list[FeedSource]:
 
 
 def fetch_items(source: FeedSource) -> list[FeedItem]:
-    request = urllib.request.Request(source.url, headers={"User-Agent": "AgewellBrief/0.2 (+rss reader)"})
+    request = urllib.request.Request(
+        source.url,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; AgewellBrief/0.6; +https://agewellbrief.com/about)"},
+    )
     with urllib.request.urlopen(request, timeout=30) as response:
         root = ET.fromstring(response.read())
 
@@ -603,6 +607,7 @@ def run() -> int:
     configured_offers = offers()
     image_cache = ImageSearchCache(IMAGE_CACHE_FILE)
     used_image_ids = load_image_ledger(IMAGE_LEDGER_FILE)
+    used_image_creators = load_image_creators(IMAGE_LEDGER_FILE)
     vision_reviewer = DeferredVisionReviewer()
 
     edition_time = dt.datetime.now(dt.timezone.utc)
@@ -676,6 +681,7 @@ def run() -> int:
             PIXABAY_API_KEY,
             image_cache,
             used_image_ids,
+            used_image_creators,
         )
         candidate_artifacts.append(
             {
@@ -712,17 +718,20 @@ def run() -> int:
                 )
             selected_candidate = next(
                 (candidate for candidate in image_candidates if candidate.candidate_id == alignment.selected_candidate_id),
-                image_candidates[0],
+                None,
             )
-            try:
-                article_slug = f"{slug(content['headline'])}-{key[:8]}"
-                photo = persist_image(selected_candidate, PUBLIC_ROOT, recorder.edition_id, article_slug)
-                visual_review = vision_reviewer.review(str(PUBLIC_ROOT / photo.local_url.lstrip("/")), image_brief, content)
-                append_image_ledger(IMAGE_LEDGER_FILE, selected_candidate, key, recorder.edition_id)
-                used_image_ids.add(selected_candidate.candidate_id)
-            except Exception as exc:
-                print(f"Selected image failed ({item.source_name}): {exc}", file=sys.stderr)
-                photo = None
+            if selected_candidate and alignment.metadata_status != "rejected":
+                try:
+                    article_slug = f"{slug(content['headline'])}-{key[:8]}"
+                    photo = persist_image(selected_candidate, PUBLIC_ROOT, recorder.edition_id, article_slug)
+                    visual_review = vision_reviewer.review(str(PUBLIC_ROOT / photo.local_url.lstrip("/")), image_brief, content)
+                    append_image_ledger(IMAGE_LEDGER_FILE, selected_candidate, key, recorder.edition_id)
+                    used_image_ids.add(selected_candidate.candidate_id)
+                    if selected_candidate.creator_url:
+                        used_image_creators.add(selected_candidate.creator_url)
+                except Exception as exc:
+                    print(f"Selected image failed ({item.source_name}): {exc}", file=sys.stderr)
+                    photo = None
 
         metadata_status = alignment.metadata_status if alignment else "missing"
         visual_status = str(visual_review.get("status", "pending"))
@@ -759,6 +768,7 @@ def run() -> int:
         "release-manifest",
         {
             "edition_id": recorder.edition_id,
+            "run_id": recorder.run_id,
             "generated_at": edition_time.isoformat(),
             "publishable": bool(release_checks) and all(check["publishable"] for check in release_checks),
             "checks": release_checks,
