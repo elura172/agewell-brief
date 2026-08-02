@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "07f7c8b122a9b70c692156be",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:7968805",
+      "score": 85,
+      "rationale": "The image depicts a senior woman reading documents in a library, which aligns with the editorial intent of showing an older adult engaged in a memory-challenging activity. The setting is a library, matching the brief, and the mood is curious and determined. The metadata does not suggest fear, stereotypes, or medical contexts, and it is not a generic lifestyle scene.",
+      "concerns": [
+        "The alt text mentions 'reading documents' rather than a puzzle, but it still conveys cognitive engagement. The image is a close-up portrait with shallow depth of field, which fits the composition requirement."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/superagers-keep-youthful-memories-but-their-dna-does-not-explain-why-07f7c8b1-pexels-7968805.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "956b7fc728289f227522a840",
+    "metadata_review": {
+      "selected_candidate_id": "Pixabay:8499918",
+      "score": 85,
+      "rationale": "The image metadata suggests a person working in a lab, which aligns with the editorial intent of a researcher analyzing brain scans. The tags include 'working', 'lab', and 'tech', and the image is high resolution. Although the alt text is minimal, the combination of lab and tech suggests a scientific setting, which is appropriate for the story about neuroscience research.",
+      "concerns": [
+        "The metadata does not explicitly mention brain scans or neuroscience, but the lab setting is a reasonable match. The image may not show a brain scan on a monitor, but the overall context is suitable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/scientists-discover-why-poor-sleep-may-harm-some-brains-more-956b7fc7-pixabay-8499918.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "ff4c8e8c4af2252b78bf2944",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:17483869",
+      "score": 85,
+      "rationale": "The image is a 3D rendered abstract brain concept with a neural network, which aligns with the story's focus on brain regions and memory consolidation. The glowing neural pathways metaphorically represent the coordinated activity during sleep and the disruption by epilepsy. The setting of a neuroscience lab is not depicted, but the brain model is the central subject, matching the editorial intent.",
+      "concerns": [
+        "The image is an AI-generated illustration, which may not accurately represent a real human brain or the specific brain regions mentioned. However, it is a common visual metaphor for neuroscience topics and is acceptable for illustrative purposes."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/first-of-its-kind-study-reveals-how-sleep-strengthens-memory-and-how-e-ff4c8e8c-pexels-17483869.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "article_id": "07f7c8b122a9b70c692156be",
+    "editorial_intent": "Show a vibrant older adult engaged in a memory-challenging activity, conveying the mystery of cognitive resilience.",
+    "subject": "An older adult with a thoughtful expression, possibly holding a book or doing a puzzle",
+    "setting": "A bright, modern library or study with bookshelves",
+    "mood": "curious, determined, hopeful",
+    "composition": "Close-up portrait with shallow depth of field, subject off-center, books in background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "nursing homes",
+      "hospital beds",
+      "dementia patients",
+      "sad or confused looks",
+      "generic healthy lifestyle scenes"
+    ],
+    "search_queries": [
+      "senior woman solving crossword puzzle library",
+      "elderly man reading book thoughtful expression",
+      "older adult playing chess close-up"
+    ]
+  },
+  {
+    "article_id": "956b7fc728289f227522a840",
+    "editorial_intent": "Show a researcher analyzing brain scans in a lab, with a subtle nod to sleep and genetics.",
+    "subject": "A middle-aged neuroscientist in a lab coat examining a brain scan on a monitor",
+    "setting": "A modern neuroscience laboratory with multiple monitors displaying brain images",
+    "mood": "focused, analytical, hopeful",
+    "composition": "Close-up on the researcher's face and the monitor, with depth of field blurring the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "sleeping people",
+      "alarm clocks"
+    ],
+    "search_queries": [
+      "neuroscientist analyzing brain scan monitor",
+      "researcher examining MRI brain images",
+      "scientist studying brain scans in lab"
+    ]
+  },
+  {
+    "article_id": "ff4c8e8c4af2252b78bf2944",
+    "editorial_intent": "Show the intricate process of memory consolidation during sleep and the disruption caused by epilepsy, emphasizing the scientific discovery.",
+    "subject": "A close-up of a human brain model with glowing neural pathways, partially disrupted by a red electrical storm",
+    "setting": "A dimly lit neuroscience laboratory with monitors displaying brain scans and EEG data",
+    "mood": "intriguing, scientific, dynamic",
+    "composition": "Close-up, shallow depth of field, brain model in sharp focus, background softly blurred",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "happy seniors",
+      "sleeping pills",
+      "generic bedroom scenes"
+    ],
+    "search_queries": [
+      "brain model with glowing neural pathways",
+      "neuroscientist analyzing brain scans in lab",
+      "EEG monitor displaying brain waves during sleep"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "article_id": "07f7c8b122a9b70c692156be",
+    "study_type": "observational genetic study",
+    "key_claims": [
+      "SuperAgers are older adults in their 80s and 90s with memory abilities matching or exceeding those of people in their 50s and 60s.",
+      "Researchers analyzed DNA from 142 SuperAgers and 89 older adults with average cognitive performance.",
+      "SuperAgers could not be distinguished from cognitively average older adults based on APOE gene or polygenic risk scores for Alzheimer's disease.",
+      "Rare genetic variants previously linked to protection or resilience against Alzheimer's disease were not more common among SuperAgers.",
+      "The findings suggest that extraordinary memory in later life is not explained solely by low inherited Alzheimer's risk.",
+      "Future studies will combine cognitive testing with brain imaging, blood biomarkers, genetics, and other measures to investigate protective factors."
+    ],
+    "limitations": [
+      "The study included a specific cohort from five regional sites in the U.S. and Canada, which may not be fully representative.",
+      "The genetic analysis focused on common and rare Alzheimer's risk variants, but other genetic factors were not examined.",
+      "The study does not identify specific protective mechanisms, only that genetic risk does not explain SuperAging.",
+      "The source does not provide effect sizes or statistical details, limiting quantitative interpretation."
+    ],
+    "what_not_to_say": [
+      "SuperAgers have no genetic advantage for Alzheimer's risk.",
+      "Lifestyle or environmental factors are proven to cause SuperAging.",
+      "The study proves that memory decline is avoidable for everyone.",
+      "The findings apply to all populations or ancestries.",
+      "The study identifies specific protective genes or mechanisms."
+    ],
+    "confidence": "high"
+  },
+  {
+    "article_id": "956b7fc728289f227522a840",
+    "study_type": "observational study",
+    "key_claims": [
+      "A gene involved in the brain's overnight cleaning system may influence how strongly poor sleep affects Alzheimer's-related brain changes.",
+      "The findings suggest more personalized prevention strategies based on both genetics and sleep habits."
+    ],
+    "limitations": [
+      "The source does not specify the study design or sample size.",
+      "The source does not detail the specific gene or mechanism.",
+      "The source does not provide quantitative results or effect sizes."
+    ],
+    "what_not_to_say": [
+      "The source does not claim that poor sleep causes Alzheimer's disease.",
+      "The source does not claim that the gene directly causes changes in Alzheimer's risk.",
+      "The source does not provide specific prevention strategies."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "ff4c8e8c4af2252b78bf2944",
+    "study_type": "reported health research",
+    "key_claims": [
+      "Researchers at Kennedy Krieger Institute and Johns Hopkins Medicine have discovered that memory consolidation during sleep depends on coordinated activity among three brain regions, and disruptions to this activity can impair memory performance. This is the first human study to directly link interactions between the orbitofrontal cortex, thalamus and hippocampus to memory, offering new insight into how the brain strengthens memories and how epilepsy can affect the sleep-memory system."
+    ],
+    "limitations": [],
+    "what_not_to_say": [],
+    "confidence": "unclear"
+  }
+]

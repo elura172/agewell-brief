@@ -1,0 +1,47 @@
+{
+  "edition_id": "2026-08-02",
+  "run_id": "2026-08-02T194245Z",
+  "generated_at": "2026-08-02T19:42:45.995186+00:00",
+  "attempted_stories": 3,
+  "generated_stories": 3,
+  "failed_stories": 0,
+  "publishable": false,
+  "checks": [
+    {
+      "article_id": "07f7c8b122a9b70c692156be",
+      "publishable": false,
+      "reasons": [
+        "pixel-level image review is pending",
+        "human editorial review is pending"
+      ],
+      "source_status": "linked",
+      "editorial_status": "pending",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending"
+    },
+    {
+      "article_id": "956b7fc728289f227522a840",
+      "publishable": false,
+      "reasons": [
+        "pixel-level image review is pending",
+        "human editorial review is pending"
+      ],
+      "source_status": "linked",
+      "editorial_status": "pending",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending"
+    },
+    {
+      "article_id": "ff4c8e8c4af2252b78bf2944",
+      "publishable": false,
+      "reasons": [
+        "pixel-level image review is pending",
+        "human editorial review is pending"
+      ],
+      "source_status": "linked",
+      "editorial_status": "pending",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending"
+    }
+  ]
+}
