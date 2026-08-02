@@ -114,6 +114,21 @@ def clean_text(value: str | None) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def parse_model_json(raw_content: str) -> dict[str, Any]:
+    """Parse one model JSON object while tolerating harmless duplicated closers."""
+    stripped = raw_content.strip()
+    try:
+        value = json.loads(stripped)
+    except json.JSONDecodeError as exc:
+        value, parsed_end = json.JSONDecoder().raw_decode(stripped)
+        trailing = stripped[parsed_end:].strip()
+        if trailing and not re.fullmatch(r"[}\]`]+", trailing):
+            raise exc
+    if not isinstance(value, dict):
+        raise TypeError("draft response was not a JSON object")
+    return value
+
+
 def normalize_source_url(value: str) -> str:
     """Upgrade known publisher links that still arrive as legacy HTTP URLs."""
     parsed = urlsplit(value)
@@ -523,9 +538,7 @@ def draft(
                 extra_body={"thinking": {"type": "disabled"}},
             )
             raw_content = response.choices[0].message.content or "{}"
-            candidate = json.loads(raw_content)
-            if not isinstance(candidate, dict):
-                raise TypeError("draft response was not a JSON object")
+            candidate = parse_model_json(raw_content)
             if is_lead:
                 raw_sections = candidate.get("sections")
                 if not isinstance(raw_sections, list) or len(raw_sections) != 4:

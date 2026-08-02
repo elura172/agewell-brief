@@ -18,6 +18,7 @@ from agewell.pipeline import (
     normalized_title,
     markdown,
     normalize_source_url,
+    parse_model_json,
     relevance_score,
     sanitize_feed_xml,
     select_ranked_items,
@@ -593,6 +594,15 @@ def test_draft_retries_transient_api_failure():
 
     assert completions.calls == 2
     assert result["headline"] == "A useful finding"
+
+
+def test_model_json_parser_recovers_redundant_closing_brace():
+    assert parse_model_json('{"headline":"Useful"}\n}') == {"headline": "Useful"}
+
+
+def test_model_json_parser_rejects_explanatory_trailing_text():
+    with pytest.raises(json.JSONDecodeError):
+        parse_model_json('{"headline":"Useful"}\nHere is another version')
 
 
 def test_extract_article_text_ignores_page_chrome():
