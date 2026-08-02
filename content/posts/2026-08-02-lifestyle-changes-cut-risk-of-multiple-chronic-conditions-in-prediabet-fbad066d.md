@@ -1,0 +1,28 @@
+---
+title: "Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes"
+date: 2026-08-02T07:25:40.377109+00:00
+draft: true
+category: "metabolic health"
+source_url: "https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions"
+source_title: "For adults with prediabetes, lifestyle intervention lowered risk of developing multiple chronic conditions"
+source_name: "NIH News Releases"
+---
+
+## Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes
+
+A long-term NIH trial found lifestyle intervention reduced risk of developing several chronic diseases, while metformin showed no difference from placebo.
+
+### Three things to know
+
+- Lifestyle intervention lowered risk of multiple chronic conditions in adults with prediabetes.
+- Long-term NIH-supported trial compared lifestyle changes, metformin, and placebo.
+- Metformin showed no difference from placebo in reducing risk of these conditions.
+
+### Source
+
+This brief is based on [For adults with prediabetes, lifestyle intervention lowered risk of developing multiple chronic conditions](https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions) from NIH News Releases. Read the original report for full context.
+
+
+> **Affiliate disclosure:** This optional recommendation may earn us a commission. [View the related resource](https://94aa4zrcl06n5o0hi88fd24ra3.hop.clickbank.net?tid=agewell_metabolic_health_fbad066d53d166dadbb4e924).
+
+> **Health note:** This study does not imply that any supplement treats or cures disease. Consult your healthcare provider for personalized advice. Consult a qualified healthcare professional for personal advice.
