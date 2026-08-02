@@ -1,7 +1,7 @@
 ---
 title: "FDA flags hidden drug ingredients in products sold for sleep, skin, and bodybuilding"
-date: 2026-08-02T18:08:37.559736+00:00
-draft: true
+date: 2026-08-02T19:14:38Z
+draft: false
 category: "consumer safety"
 content_type: "signal"
 edition_rank: 2

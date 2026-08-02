@@ -1,7 +1,7 @@
 ---
 title: "Time-restricted eating may help retain cognitive function in older adults"
-date: 2026-08-02T18:12:33.536021+00:00
-draft: true
+date: 2026-08-02T19:14:38Z
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 3
