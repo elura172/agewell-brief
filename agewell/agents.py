@@ -126,15 +126,19 @@ def copy_edit(client: Any, model: str, content: dict[str, Any], source_title: st
             },
             2600,
         )
+        preserved_fields = []
         result["bullets"] = result.get("bullets", original["bullets"])
         if len(result["bullets"]) != 3:
             raise ValueError("copy editor changed bullet count")
-        if "sections" in original and len(result.get("sections", [])) != len(original["sections"]):
-            raise ValueError("copy editor changed section count")
+        if "sections" in original:
+            if len(result.get("sections", [])) != len(original["sections"]):
+                result["sections"] = original["sections"]
+                preserved_fields.append("sections")
         for key in ("headline", "dek", "caveat"):
             if not str(result.get(key, "")).strip():
-                raise ValueError(f"copy editor removed {key}")
-        return result, {"status": "approved", "changed": result != original}
+                result[key] = original[key]
+                preserved_fields.append(key)
+        return result, {"status": "approved", "changed": result != original, "preserved_fields": preserved_fields}
     except Exception as exc:
         return original, {"status": "fallback", "changed": False, "error": str(exc)}
 

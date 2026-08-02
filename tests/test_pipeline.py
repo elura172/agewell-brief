@@ -6,7 +6,7 @@ import pytest
 
 from agewell import pipeline
 from agewell.affiliates import parse_offer_config, select_offers
-from agewell.agents import commercial_integrity, release_manager
+from agewell.agents import commercial_integrity, copy_edit, release_manager
 from agewell.context import ContextDocument, retrieve_context
 from agewell.trends import TrendItem, rank_items
 from agewell.pipeline import (
@@ -496,6 +496,33 @@ def test_release_manager_holds_invalid_commercial_review():
     result = release_manager("https://example.test/source", content, {"status": "held", "issues": ["bad link"]})
     assert result["status"] == "held"
     assert "bad link" in result["reasons"]
+
+
+def test_copy_editor_preserves_structure_when_model_omits_fields():
+    class FakeCompletions:
+        def create(self, **_kwargs):
+            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps({
+                "headline": "",
+                "dek": "A clearer dek.",
+                "bullets": ["One", "Two", "Three"],
+                "caveat": "",
+                "sections": [],
+            })))])
+
+    original = {
+        "headline": "Original headline",
+        "dek": "Original dek",
+        "bullets": ["One", "Two", "Three"],
+        "caveat": "Original caveat",
+        "sections": [{"heading": "Context", "paragraphs": ["One", "Two"]}],
+    }
+    client = SimpleNamespace(chat=SimpleNamespace(completions=FakeCompletions()))
+    result, review = copy_edit(client, "test-model", original, "Source")
+    assert result["headline"] == "Original headline"
+    assert result["caveat"] == "Original caveat"
+    assert result["sections"] == original["sections"]
+    assert review["status"] == "approved"
+    assert set(review["preserved_fields"]) == {"headline", "caveat", "sections"}
 
 
 def test_release_audit_keeps_shadow_edition_in_draft():
