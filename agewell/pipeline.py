@@ -284,20 +284,31 @@ def draft(client: OpenAI, item: FeedItem, category: str) -> dict[str, Any]:
             "bullets must contain exactly three items, each at most 20 words.",
         ],
     }
-    response = client.chat.completions.create(
-        model=MODEL,
-        temperature=0.2,
-        max_tokens=900,
-        response_format={"type": "json_object"},
-        messages=[
-            {
-                "role": "system",
-                "content": "You are a careful health-news editor. Be vivid and useful, but never exaggerate evidence.",
-            },
-            {"role": "user", "content": json.dumps(prompt)},
-        ],
-    )
-    result = json.loads(response.choices[0].message.content or "{}")
+    messages = [
+        {
+            "role": "system",
+            "content": "You are a careful health-news editor. Be vivid and useful, but never exaggerate evidence.",
+        },
+        {"role": "user", "content": json.dumps(prompt)},
+    ]
+    result: dict[str, Any] | None = None
+    parse_error: json.JSONDecodeError | None = None
+    for _attempt in range(2):
+        response = client.chat.completions.create(
+            model=MODEL,
+            temperature=0.2,
+            max_tokens=1400,
+            response_format={"type": "json_object"},
+            messages=messages,
+            extra_body={"thinking": {"type": "disabled"}},
+        )
+        try:
+            result = json.loads(response.choices[0].message.content or "{}")
+            break
+        except json.JSONDecodeError as exc:
+            parse_error = exc
+    if result is None:
+        raise RuntimeError("DeepSeek returned invalid JSON twice") from parse_error
     generated_headline = clean_text(result.get("headline")) or item.title
     headline = item.title if item.headline_mode == "preserve" else generated_headline
     dek = clean_text(result.get("dek")) or item.summary

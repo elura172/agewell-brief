@@ -1,3 +1,6 @@
+import json
+from types import SimpleNamespace
+
 import pytest
 
 from agewell import pipeline
@@ -5,6 +8,7 @@ from agewell.pipeline import (
     FeedItem,
     FeedSource,
     classify,
+    draft,
     feed_sources,
     normalized_title,
     relevance_score,
@@ -114,3 +118,31 @@ def test_ranked_batch_limits_a_single_publisher(monkeypatch):
 
     assert selected[0].source_group == "X"
     assert {item.source_group for item in selected} == {"X", "FDA", "MedlinePlus"}
+
+
+def test_draft_disables_thinking_and_retries_invalid_json():
+    class FakeCompletions:
+        def __init__(self):
+            self.calls: list[dict] = []
+
+        def create(self, **kwargs):
+            self.calls.append(kwargs)
+            content = '{"headline":"cut off' if len(self.calls) == 1 else json.dumps(
+                {
+                    "headline": "A useful finding",
+                    "dek": "Researchers shared a practical update.",
+                    "bullets": ["First point", "Second point", "Third point"],
+                    "caveat": "The evidence is still developing.",
+                }
+            )
+            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=content))])
+
+    completions = FakeCompletions()
+    client = SimpleNamespace(chat=SimpleNamespace(completions=completions))
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "")
+
+    result = draft(client, item, "general wellness")
+
+    assert result["headline"] == "A useful finding"
+    assert len(completions.calls) == 2
+    assert completions.calls[0]["extra_body"] == {"thinking": {"type": "disabled"}}
