@@ -4,5 +4,9 @@
   {"name": "sleep health", "query": "sleep older adults memory circadian", "category": "sleep health"},
   {"name": "metabolic health", "query": "blood sugar metabolism obesity aging", "category": "metabolic health"},
   {"name": "mobility", "query": "mobility balance strength older adults", "category": "mobility"},
-  {"name": "consumer safety", "query": "FDA warning supplement health product", "category": "consumer safety"}
+  {"name": "consumer safety", "query": "FDA warning supplement health product", "category": "consumer safety"},
+  {"name": "sleep and biological aging", "query": "sleep duration biological aging older adults brain metabolism", "category": "sleep health"},
+  {"name": "circadian brain health", "query": "circadian rhythm rest activity brain aging older adults", "category": "brain health"},
+  {"name": "intervention sleep technology", "query": "sleep technology real time intervention insomnia wearable", "category": "sleep health"},
+  {"name": "GLP-1 and healthy aging", "query": "GLP-1 biological aging Medicare older adults health outcomes", "category": "metabolic health"}
 ]
