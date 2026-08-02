@@ -1,7 +1,8 @@
 ---
-title: "FDA Warns: Hidden Drugs in Sleep, Skin, and Bodybuilding Supplements"
+title: "FDA warns of hidden ingredients in some sleep, skin, and bodybuilding products"
 date: 2026-08-02T10:32:43.853848+00:00
-draft: true
+updated: 2026-08-02T11:02:46+00:00
+draft: false
 category: "consumer safety"
 content_type: "signal"
 edition_rank: 3
@@ -22,19 +23,19 @@ image_review_status: "human-reviewed"
 image_avg_color: "#C1C2BD"
 ---
 
-Agency alerts consumers to tainted products that may contain undeclared ingredients.
+Products marketed as “all natural,” foods, or dietary supplements can still contain undeclared drug ingredients. The FDA maintains a searchable notification list for checking specific products.
 
 
 
 ## Three things to remember
 
-- FDA warns about hidden drugs in some sleep, skin, and bodybuilding products.
-- These products may contain undeclared ingredients that could be harmful.
-- Check FDA's list to avoid potentially dangerous supplements.
+- Some products in these categories have contained dangerous hidden ingredients.
+- Labels such as “all natural” or “dietary supplement” do not guarantee safety.
+- Search the FDA database for a specific product before buying or using it.
 
 ### Source
 
 This signal is based on [Sleep, Skin, Bodybuilding and Other Product Notifications](https://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications) from FDA Tainted Supplements. Read the original report for full context.
 
 
-> **Health note:** This is a general warning; not all supplements are affected. Always consult your doctor before use.
+> **Health note:** The warning does not apply to every product in these categories. Use the FDA’s notifications to check a specific name and follow any listed safety instructions.

@@ -2,38 +2,32 @@
   "edition_id": "2026-08-02",
   "run_id": "2026-08-02T103243Z",
   "generated_at": "2026-08-02T10:32:43.853848+00:00",
-  "publishable": false,
+  "publishable": true,
   "checks": [
     {
       "article_id": "c2812776d331de40b8d2ad1e",
-      "publishable": false,
-      "reasons": [
-        "human editorial review is pending"
-      ],
+      "publishable": true,
+      "reasons": [],
       "source_status": "linked",
-      "editorial_status": "pending",
+      "editorial_status": "human-reviewed",
       "metadata_review_status": "approved",
       "visual_review_status": "human-reviewed"
     },
     {
       "article_id": "e567bdc722fdf78a98587f85",
-      "publishable": false,
-      "reasons": [
-        "human editorial review is pending"
-      ],
+      "publishable": true,
+      "reasons": [],
       "source_status": "linked",
-      "editorial_status": "pending",
+      "editorial_status": "human-reviewed",
       "metadata_review_status": "approved",
       "visual_review_status": "human-reviewed"
     },
     {
       "article_id": "bdfc047d3b2380a80232b9bd",
-      "publishable": false,
-      "reasons": [
-        "human editorial review is pending"
-      ],
+      "publishable": true,
+      "reasons": [],
       "source_status": "linked",
-      "editorial_status": "pending",
+      "editorial_status": "human-reviewed",
       "metadata_review_status": "approved",
       "visual_review_status": "human-reviewed"
     }

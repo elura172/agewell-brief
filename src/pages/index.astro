@@ -12,6 +12,8 @@ const featuredEdition = featured?.data.edition_id;
 const recent = entries
   .filter((entry) => entry.id !== featured?.id && (!featuredEdition || entry.data.edition_id === featuredEdition))
   .slice(0, 2);
+const latestIds = new Set([featured?.id, ...recent.map((entry) => entry.id)]);
+const earlier = entries.filter((entry) => !latestIds.has(entry.id));
 const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
 ---
 <Layout>
@@ -88,6 +90,27 @@ const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "lo
       ))}
     </div>}
   </section>
+
+  {earlier.length > 0 && <section id="archive" class="archive-section" aria-labelledby="archive-heading">
+    <div class="section-heading archive-heading">
+      <h2 id="archive-heading" class="section-title">Earlier briefs</h2>
+      <p class="section-caption">The useful signals stay available.</p>
+    </div>
+    <ol class="archive-list">
+      {earlier.map((entry, index) => (
+        <li>
+          <article class="archive-entry">
+            <div class="archive-index">{String(index + 4).padStart(2, "0")}</div>
+            <div class="archive-copy">
+              <p>{entry.data.category} · {formatDate(entry.data.date)}</p>
+              <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
+            </div>
+            <a class="archive-source" href={entry.data.source_url} rel="noopener noreferrer">Original source <span>↗</span></a>
+          </article>
+        </li>
+      ))}
+    </ol>
+  </section>}
 
   <section id="about" class="about-band">
     <div><h2>The internet is loud.<br /><em>Your health brief shouldn’t be.</em></h2></div>
