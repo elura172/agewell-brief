@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "8c294954ae5e5b72e0354302",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:33768815",
+      "score": 85,
+      "rationale": "This image best matches the editorial intent: it shows a diverse group of older adults, including a person in a wheelchair, engaged in a community exercise class (hula hooping), which reflects modifiable risk factors like physical inactivity and social engagement. The setting appears to be a community center, and the mood is active and hopeful. The metadata does not suggest fear, stereotypes, or clinical settings.",
+      "concerns": [
+        "The image does not explicitly show a hearing aid or blood pressure cuff, but it does depict a diverse group in an exercise class, which aligns with the story's emphasis on modifiable risk factors and community settings. The presence of a wheelchair adds diversity without being a stereotype."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/where-you-live-could-shape-your-dementia-risk-massive-study-finds-8c294954-pexels-33768815.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "c15da545491395131c36f28d",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8795580",
+      "score": 85,
+      "rationale": "The image depicts a senior couple jogging on a scenic park path, which aligns with the story's focus on brisk walking for older adults. The setting is outdoors and energetic, matching the editorial intent. The metadata does not suggest any negative stereotypes or medical themes.",
+      "concerns": [
+        "The image shows jogging rather than walking, which may not exactly match the 'interval walking' described. However, it conveys a similar level of activity and is acceptable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/this-once-a-week-workout-may-help-cut-belly-fat-study-shows-c15da545-pexels-8795580.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "ea4b19a37ca966187ad1e516",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8629042",
+      "score": 85,
+      "rationale": "The image metadata shows hands slicing a red bell pepper on a chopping board in a kitchen, which closely matches the editorial intent of an older adult preparing a plant-based meal. The close-up composition and focus on hands and vegetables align with the desired mood and avoid medical or stereotypical imagery.",
+      "concerns": [
+        "The metadata does not explicitly indicate the person is an older adult, but the focus on hands and food preparation is appropriate. The image is generic enough to avoid overpromising health benefits."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/reducing-protein-intake-could-support-healthy-aging-by-reshaping-metab-ea4b19a3-pexels-8629042.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
