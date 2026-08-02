@@ -23,7 +23,7 @@ from agewell.pipeline import (
     tracked_offer_url,
 )
 from agewell.edition import audit_release
-from agewell.editorial import DeferredVisionReviewer, EvidencePacket, ImageBrief
+from agewell.editorial import DeferredVisionReviewer, EvidencePacket, ImageBrief, build_evidence_packet
 from agewell.images import (
     ImageCandidate,
     ImageSearchCache,
@@ -207,6 +207,30 @@ def test_deferred_vision_reviewer_never_claims_pixel_review():
 
     assert result["status"] == "pending"
     assert "not configured" in result["reason"]
+
+
+def test_specialist_agent_explicitly_requests_json_mode():
+    class FakeCompletions:
+        def __init__(self):
+            self.kwargs = None
+
+        def create(self, **kwargs):
+            self.kwargs = kwargs
+            payload = {
+                "study_type": "study",
+                "key_claims": ["A supported claim."],
+                "limitations": ["A stated limit."],
+                "what_not_to_say": ["Do not overclaim."],
+                "confidence": "moderate",
+            }
+            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps(payload)))])
+
+    completions = FakeCompletions()
+    client = SimpleNamespace(chat=SimpleNamespace(completions=completions))
+    result = build_evidence_packet(client, "deepseek-test", "Title", "Summary", "Source", "https://example.test")
+
+    assert result.confidence == "moderate"
+    assert "JSON" in completions.kwargs["messages"][0]["content"]
 
 
 def test_run_writes_complete_shadow_edition_audit(monkeypatch, tmp_path: Path):

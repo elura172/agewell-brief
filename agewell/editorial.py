@@ -89,7 +89,7 @@ def _json_agent(
         max_tokens=max_tokens,
         response_format={"type": "json_object"},
         messages=[
-            {"role": "system", "content": system_prompt},
+            {"role": "system", "content": f"{system_prompt}\nReturn exactly one valid JSON object and no surrounding text."},
             {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
         ],
         extra_body={"thinking": {"type": "disabled"}},
