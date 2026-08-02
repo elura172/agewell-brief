@@ -158,3 +158,12 @@ the generation step remains visibly failed in GitHub Actions.
 
 Generated editions remain drafts until the release manifest records completed
 image and human editorial review.
+
+## Trend radar
+
+The scheduled workflow also writes `.state/trend-radar.json`. It queries
+topic-seeded Google News RSS searches, clusters similar headlines, scores
+mention count, source diversity, and freshness, and records a recommendation
+for editorial review. This is a discovery aid, not an automatic publishing
+feed: a human still verifies the topic against an authoritative source and
+decides whether it deserves an Agewell article.

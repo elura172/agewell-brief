@@ -7,6 +7,7 @@ import pytest
 from agewell import pipeline
 from agewell.affiliates import parse_offer_config
 from agewell.context import ContextDocument, retrieve_context
+from agewell.trends import TrendItem, rank_items
 from agewell.pipeline import (
     DraftGenerationError,
     FeedItem,
@@ -50,6 +51,20 @@ from agewell.images import (
 def test_classify_mobility():
     item = FeedItem("Walking and balance", "A new study", "https://example.test/1", "")
     assert classify(item) == "mobility"
+
+
+def test_trend_radar_rewards_fresh_source_diversity():
+    now = pipeline.dt.datetime(2026, 8, 2, tzinfo=pipeline.dt.timezone.utc)
+    items = [
+        TrendItem("New sleep finding memory - Outlet A", "https://a.test/1", "Outlet A", "Sun, 02 Aug 2026 10:00:00 GMT", "sleep", "sleep health"),
+        TrendItem("Sleep study improves memory - Outlet B", "https://b.test/1", "Outlet B", "Sun, 02 Aug 2026 09:00:00 GMT", "sleep", "sleep health"),
+        TrendItem("New sleep finding memory - Outlet C", "https://c.test/1", "Outlet C", "Sun, 02 Aug 2026 08:00:00 GMT", "sleep", "sleep health"),
+    ]
+
+    ranked = rank_items(items, now)
+
+    assert ranked[0]["source_count"] == 3
+    assert ranked[0]["recommendation"].startswith("Investigate now")
 
 
 def test_evergreen_context_retrieval_preserves_provenance_and_labels():

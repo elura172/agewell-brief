@@ -22,6 +22,9 @@ jobs:
         run: python -m scripts.check_affiliate_offers
         env:
           AFFILIATE_OFFERS_JSON: ${{ secrets.AFFILIATE_OFFERS_JSON }}
+      - name: Build trend radar
+        continue-on-error: true
+        run: python -m scripts.trend_radar
       - name: Generate daily edition
         id: aggregate
         run: python -m agewell.pipeline
