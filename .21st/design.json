@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "project": {
+    "name": "agewell-brief-site",
+    "productType": "independent health publication",
+    "stack": ["astro", "plain-css"]
+  },
+  "sources": {
+    "tokens": ["src/styles/global.css"],
+    "components": ["src/components/EditorialImage.astro", "src/layouts/Layout.astro"],
+    "assets": ["public/images", "public/logo.svg", "public/logo-mark.svg"],
+    "instructions": ["PRODUCT.md", "DESIGN.md", "docs/EDITORIAL_VOICE.md"]
+  },
+  "design": {
+    "colorMode": "light",
+    "colors": {
+      "ink": "oklch(0.28 0.035 235)",
+      "paper": "oklch(0.96 0.014 86)",
+      "saffron": "oklch(0.72 0.14 66)",
+      "mist": "oklch(0.91 0.027 175)"
+    },
+    "typography": {
+      "display": "Iowan Old Style, Palatino Linotype, Palatino, Georgia, serif",
+      "interface": "Avenir Next, Avenir, Segoe UI, sans-serif",
+      "minimumBodySize": "18px",
+      "readingMeasure": "65-75ch"
+    },
+    "spacing": {"section": "fluid and editorial", "tapTarget": "44px minimum"},
+    "radius": {"default": "0", "emblem": "full"},
+    "shadows": {"default": "none"},
+    "motion": {"style": "restrained transform-only", "reducedMotion": true},
+    "density": "comfortable"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": ["Astro components", "semantic HTML", "CSS grid"],
+    "patterns": ["edition hero", "asymmetric signal pair", "indexed archive", "source attribution"]
+  },
+  "constraints": {
+    "must": [
+      "Keep the site static and dependency-light.",
+      "Preserve the Asclepian mark and existing editorial photography.",
+      "Show original sources clearly.",
+      "Keep body text at least 18px and controls at least 44px."
+    ],
+    "avoid": [
+      "React, Tailwind, shadcn, or animation-library dependencies.",
+      "Clinical wellness styling, fear cues, gradients, glass, and rounded SaaS cards.",
+      "Equal card grids and generic editorial templates."
+    ]
+  },
+  "decisions": [
+    "Today’s edition replaces a separate generic brand hero.",
+    "The two quick signals use unequal layouts.",
+    "The existing system font pairing remains part of the identity."
+  ],
+  "evidence": [
+    {"fact": "project.instructions", "source": "PRODUCT.md"},
+    {"fact": "project.stack:astro", "source": "package.json"},
+    {"fact": "design.tokens", "source": "src/styles/global.css"}
+  ],
+  "generatedAt": "2026-08-02T17:39:27.692Z"
+}
