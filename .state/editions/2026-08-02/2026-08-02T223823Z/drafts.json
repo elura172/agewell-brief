@@ -1,0 +1,82 @@
+[
+  {
+    "article_id": "bcc4ce4a4070643aad69b07d",
+    "content_type": "lead",
+    "headline": "Scientists may have found a way to prevent statin muscle pain",
+    "dek": "New research in mice and cells identifies an immune reaction triggered by statins that may cause muscle damage. The finding could lead to treatments that protect muscles without blunting the drugs' heart benefits.",
+    "bullets": [
+      "Statins may trigger muscle damage via an immune response.",
+      "Blocking this response prevented damage in lab tests.",
+      "More research is needed before human treatments emerge."
+    ],
+    "caveat": "This study was conducted in cells and mice, not humans. The findings do not prove that this mechanism causes statin muscle pain in people, and no treatment is currently available based on this research.",
+    "sections": [
+      {
+        "heading": "Why this matters",
+        "paragraphs": [
+          "Statins are among the most prescribed drugs worldwide, taken by millions to lower cholesterol and prevent heart attacks and strokes. Yet for an estimated 7 to 29 percent of users, they cause muscle pain, weakness, or exercise intolerance—side effects that often lead people to stop taking the medication, undoing its protective effects. This is a significant public health issue because when patients discontinue statins, their cardiovascular risk rises again.",
+          "Until now, the biological reasons behind these muscle symptoms were poorly understood. This study, published in Science Advances, offers a new explanation: statins may disrupt how muscle cells produce energy, which in turn triggers an immune response that damages muscle tissue. The finding is a step toward separating the side effects from the benefits, potentially allowing more people to stay on these lifesaving drugs."
+        ]
+      },
+      {
+        "heading": "What the study found",
+        "paragraphs": [
+          "Researchers at McMaster University, working with international collaborators, focused on a cellular pathway involving a protein called NLRP3, which is part of the immune system's inflammatory response. In experiments with muscle cells and mice, they showed that statins interfere with the production of energy in mitochondria, the cell's powerhouses. This metabolic stress activates NLRP3, leading to inflammation and muscle damage.",
+          "When the researchers blocked this immune pathway, they prevented much of the damage in both cell cultures and mice. Importantly, the cholesterol-lowering effect of statins remained intact, suggesting that the muscle side effects and the cardiovascular benefits operate through separate mechanisms. The study's senior author, Jonathan Schertzer, noted that this separation offers hope for developing treatments that target the side effects without compromising the drugs' lifesaving effects.",
+          "The study also uncovered an unexpected link between metabolism and immunity: changes in how muscle cells processed energy caused the cells to activate their own immune response. This insight could have broader implications for understanding how inflammation contributes to medication side effects."
+        ]
+      },
+      {
+        "heading": "How to interpret the results",
+        "paragraphs": [
+          "This is a laboratory study, not a clinical trial. The experiments were conducted in isolated cells and mice, not in humans. While the findings are promising, they do not prove that this mechanism is the sole cause of statin muscle pain in people, nor do they offer an immediate treatment. The exact percentage of statin users affected is estimated, and the study does not specify how common this particular pathway is among patients.",
+          "The study does, however, provide a clear biological pathway that can be further investigated. It also challenges earlier assumptions about statin side effects, pointing to an immune-metabolic connection that was previously unrecognized. As with all animal research, the results need to be replicated in human studies before any clinical recommendations can be made. The researchers themselves emphasize that more research is needed before the findings can be developed into treatments for patients."
+        ]
+      },
+      {
+        "heading": "Practical next steps",
+        "paragraphs": [
+          "For now, people taking statins should not stop or change their medication based on this study. If you experience muscle pain or weakness, talk to your doctor. There are already strategies to manage statin intolerance, such as adjusting the dose, switching to a different statin, or trying alternative cholesterol-lowering approaches. Your healthcare provider can help weigh the risks and benefits.",
+          "The researchers emphasize that more work is needed before this discovery can be translated into new treatments. But the identification of a specific immune pathway offers several potential drug targets. Future studies will likely explore whether blocking NLRP3 or related molecules can safely prevent muscle damage in humans, potentially making statins easier to tolerate for the millions who need them. This research is an important step toward personalized medicine, where treatments can be tailored to avoid side effects while preserving benefits."
+        ]
+      }
+    ]
+  },
+  {
+    "article_id": "9975d4c5425886f5698d8008",
+    "content_type": "signal",
+    "headline": "Detection firm finds 82% of herbal remedy books on Amazon ‘likely written’ by AI",
+    "dek": "A new analysis by Originality.ai suggests most herbal remedy books on Amazon may be AI-generated, raising concerns about quality and accuracy.",
+    "bullets": [
+      "Originality.ai scanned 558 herbal remedy titles on Amazon.",
+      "Found 82% likely written by AI, from January to September.",
+      "Examples include ginkgo tinctures and citrus-immune gummies."
+    ],
+    "caveat": "The study was conducted by an AI-detection company and has not been independently verified.",
+    "sections": []
+  },
+  {
+    "article_id": "d80214f15a0a72af98648677",
+    "content_type": "signal",
+    "source_title": "Waska: the cost of spiritual healing in the Amazon",
+    "draft": {
+      "headline": "Waska: The True Cost of Spiritual Healing in the Amazon",
+      "dek": "Indigenous voices shed light on the commodification of sacred plant medicine in the Amazon.",
+      "bullets": [
+        "Ayahuasca is often marketed as a quick path to healing and enlightenment.",
+        "Indigenous storyteller Nina Gualinga calls this commodification and extractivism.",
+        "Cultural appropriation and environmental destruction continue to plague the Amazon."
+      ],
+      "caveat": "This report reflects the views of Indigenous storyteller Nina Gualinga and does not evaluate the efficacy or safety of ayahuasca.",
+      "sections": []
+    },
+    "bullets": [
+      "Ayahuasca marketed as shortcut to healing and enlightenment.",
+      "Indigenous storyteller Nina Gualinga calls it commodification and extractivism.",
+      "Cultural appropriation and environmental destruction continue in the Amazon."
+    ],
+    "headline": "Waska: the cost of spiritual healing in the Amazon",
+    "dek": "Indigenous voices highlight the commodification of sacred plant medicine in the Amazon.",
+    "caveat": "This report reflects the views of Indigenous storyteller Nina Gualinga and does not evaluate the efficacy or safety of ayahuasca."
+  }
+]

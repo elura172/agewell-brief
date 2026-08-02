@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "bcc4ce4a4070643aad69b07d",
+    "metadata_review": {
+      "selected_candidate_id": "Pixabay:384566",
+      "score": 85,
+      "rationale": "The image depicts a person cycling outdoors, which aligns with the story's focus on statin muscle pain and exercise intolerance. It shows an active adult in a real-world setting, matching the editorial intent of illustrating the practical human context without making medical promises. The metadata includes tags like 'active', 'lifestyle', 'exercise', and 'healthy', which support the story's theme of maintaining an active lifestyle despite potential statin side effects. The image is landscape-oriented with a clear subject, fitting the composition requirement.",
+      "concerns": [
+        "The image does not directly show medication or medical context, but it effectively represents the everyday life of someone who might be affected by statin side effects. There is no indication of fear or product advertising, and it avoids stereotypes."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/scientists-may-have-found-a-way-to-prevent-statin-muscle-pain-bcc4ce4a-pixabay-384566.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "9975d4c5425886f5698d8008",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:6981528",
+      "score": 78,
+      "rationale": "The image depicts a person using a magnifying glass, which aligns with the editorial intent of examining a book with skepticism. The long-haired man's expression and the close-up composition suggest scrutiny and analysis, fitting the story's theme of AI-generated books being of questionable quality. The setting is not specified but the focus on the magnifying glass and the man's face conveys the intended mood.",
+      "concerns": [
+        "The image does not show a book titled 'Herbal Remedies' or a home library setting, but the magnifying glass and the act of inspection are strong visual metaphors for the story. The absence of a book in the metadata is a minor concern, but the overall composition supports the editorial intent."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/detection-firm-finds-82-of-herbal-remedy-books-on-amazon-likely-writte-9975d4c5-pexels-6981528.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "d80214f15a0a72af98648677",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:31378663",
+      "score": 85,
+      "rationale": "This image directly depicts Indigenous Amazonian people in traditional attire, which aligns with the story's focus on Indigenous voices and cultural identity. The setting in Tingo María, Peru, is within the Amazon region, and the traditional costumes evoke the cultural heritage that is central to the narrative. The image avoids the pitfalls of showing tourists, the brew, or stereotypical 'noble savage' imagery, and instead presents a dignified representation of the community.",
+      "concerns": [
+        "The image shows a group, not a single individual, and the context of the traditional attire is not explicitly tied to ayahuasca or spiritual practices. However, it still effectively represents the Indigenous perspective and cultural element of the story."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/waska-the-cost-of-spiritual-healing-in-the-amazon-d80214f1-pexels-31378663.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

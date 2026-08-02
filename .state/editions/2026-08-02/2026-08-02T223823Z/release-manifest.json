@@ -1,0 +1,59 @@
+{
+  "edition_id": "2026-08-02",
+  "run_id": "2026-08-02T223823Z",
+  "generated_at": "2026-08-02T22:38:23.084822+00:00",
+  "attempted_stories": 3,
+  "generated_stories": 3,
+  "failed_stories": 0,
+  "publishable": false,
+  "checks": [
+    {
+      "article_id": "bcc4ce4a4070643aad69b07d",
+      "publishable": false,
+      "reasons": [
+        "pixel-level image review is pending",
+        "human editorial review is pending"
+      ],
+      "source_status": "linked",
+      "editorial_status": "pending",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending",
+      "desk_review": {
+        "status": "ready_for_human_review",
+        "reasons": []
+      }
+    },
+    {
+      "article_id": "9975d4c5425886f5698d8008",
+      "publishable": false,
+      "reasons": [
+        "pixel-level image review is pending",
+        "human editorial review is pending"
+      ],
+      "source_status": "linked",
+      "editorial_status": "pending",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending",
+      "desk_review": {
+        "status": "ready_for_human_review",
+        "reasons": []
+      }
+    },
+    {
+      "article_id": "d80214f15a0a72af98648677",
+      "publishable": false,
+      "reasons": [
+        "pixel-level image review is pending",
+        "human editorial review is pending"
+      ],
+      "source_status": "linked",
+      "editorial_status": "pending",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending",
+      "desk_review": {
+        "status": "ready_for_human_review",
+        "reasons": []
+      }
+    }
+  ]
+}

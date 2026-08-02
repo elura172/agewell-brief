@@ -1,0 +1,24 @@
+[
+  {
+    "article_id": "bcc4ce4a4070643aad69b07d",
+    "status": "approved",
+    "changed": false,
+    "preserved_fields": []
+  },
+  {
+    "article_id": "9975d4c5425886f5698d8008",
+    "status": "approved",
+    "changed": false,
+    "preserved_fields": []
+  },
+  {
+    "article_id": "d80214f15a0a72af98648677",
+    "status": "approved",
+    "changed": true,
+    "preserved_fields": [
+      "headline",
+      "dek",
+      "caveat"
+    ]
+  }
+]

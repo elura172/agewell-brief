@@ -1,0 +1,58 @@
+[
+  {
+    "article_id": "bcc4ce4a4070643aad69b07d",
+    "study_type": "laboratory study with mouse models",
+    "key_claims": [
+      "Statins can interfere with the way muscle cells generate energy.",
+      "The disruption activates an immune response inside muscle cells, leading to tissue damage.",
+      "Blocking the immune response prevented much of the damage in experiments.",
+      "The mechanism causing muscle side-effects appears to be separate from the mechanism that lowers cholesterol.",
+      "The findings suggest it may one day be possible to target side-effects without interfering with cardiovascular benefits."
+    ],
+    "limitations": [
+      "More research is needed before the findings can be developed into treatments for patients.",
+      "The study was conducted in muscle cells and mouse models, not humans.",
+      "The exact percentage of statin users affected is estimated, not definitive.",
+      "The source does not specify the exact mechanism of how the immune response is activated."
+    ],
+    "what_not_to_say": [
+      "The study proves that statins cause muscle pain in humans.",
+      "A treatment to prevent statin muscle pain is currently available.",
+      "The immune response is the only cause of statin muscle side effects.",
+      "The findings apply to all statin users."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "9975d4c5425886f5698d8008",
+    "study_type": "AI detection analysis",
+    "key_claims": [
+      "Originality.ai scanned 558 titles in Amazon's herbal remedies subcategory between January and September.",
+      "The scan found that 82% of the books were likely written by AI.",
+      "Examples of such books include gingko 'memory-boost tinctures', fennel 'tummy-soothing syrups', and 'citrus-immune gummies'."
+    ],
+    "limitations": [
+      "The study was published by an AI-detection company, which may have a vested interest.",
+      "The accuracy of AI detection tools is not guaranteed.",
+      "The scan covered only a specific time period and category.",
+      "The source does not provide details on the methodology or criteria for 'likely written by AI'."
+    ],
+    "what_not_to_say": [
+      "The study proves that 82% of all herbal remedy books on Amazon are AI-written.",
+      "The books are harmful or ineffective.",
+      "The study was peer-reviewed or independently verified.",
+      "The detection method is 100% accurate."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "d80214f15a0a72af98648677",
+    "study_type": "reported health research",
+    "key_claims": [
+      "The plant medicine hayakwaska (ayahuasca), marketed as a mystical shortcut to healing and enlightenment, is an example of what the Indigenous storyteller Nina Gualinga, sees as commodification and extractivism in the Amazon. Nina is from the Kichwa people of Sarayaku, Ecuador, and she speaks with the memory of her shaman grandfather about the ongoing cultural appropriation, environmental destruction and marginalisation of her people, questioning our very relationship to the Earth and the quest for healing Continue reading..."
+    ],
+    "limitations": [],
+    "what_not_to_say": [],
+    "confidence": "unclear"
+  }
+]
