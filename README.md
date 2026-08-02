@@ -28,8 +28,24 @@ category that does not yet have a dedicated offer.
 
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
 
+## Feed portfolio
+
+The default `config/feed-portfolio.json` blends NIH, FDA, and MedlinePlus
+authority with Medical Xpress healthy-aging, nutrition, sleep, and neurology
+discovery feeds. The engine deduplicates stories, scores them for older-reader
+relevance, and drafts only the strongest items across the entire pool. A soft
+per-publisher cap keeps any one outlet from dominating when several publishers
+have fresh material. Feed failures are isolated so one unavailable source does
+not stop the batch. Sources marked `preserve` keep their supplied headline and
+link unchanged.
+
+Set `RSS_FEEDS_JSON` only when you need to override the checked-in portfolio.
+
 ## GitHub Actions
 
-Add `OPENAI_API_KEY`, `RSS_FEED_URL`, and optionally `AFFILIATE_OFFERS_JSON` as repository secrets. The workflow runs every six hours and commits new drafts.
+Add `OPENAI_API_KEY` and optionally `AFFILIATE_OFFERS_JSON` as repository
+secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
+`RSS_FEEDS_JSON` can override it. The workflow runs every six hours and commits
+new drafts.
 
 All generated articles should be reviewed before production publication, especially health, financial, and supplement claims.

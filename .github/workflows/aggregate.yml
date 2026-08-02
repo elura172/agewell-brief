@@ -21,6 +21,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           RSS_FEED_URL: ${{ secrets.RSS_FEED_URL }}
+          RSS_FEEDS_JSON: ${{ secrets.RSS_FEEDS_JSON }}
+          MAX_ITEMS_PER_PUBLISHER: 2
           AFFILIATE_OFFERS_JSON: ${{ secrets.AFFILIATE_OFFERS_JSON }}
       - name: Commit generated drafts
         run: |

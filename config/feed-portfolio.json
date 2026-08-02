@@ -1,0 +1,79 @@
+[
+  {
+    "name": "NIH Research Matters",
+    "url": "https://www.nih.gov/nih-research-matters/feed.xml",
+    "priority": 4,
+    "headline_mode": "rewrite",
+    "publisher": "NIH"
+  },
+  {
+    "name": "NIH News Releases",
+    "url": "https://www.nih.gov/news-releases/feed.xml",
+    "priority": 2,
+    "headline_mode": "rewrite",
+    "publisher": "NIH"
+  },
+  {
+    "name": "FDA Consumer Health",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/consumers/rss.xml",
+    "priority": 3,
+    "headline_mode": "rewrite",
+    "publisher": "FDA"
+  },
+  {
+    "name": "FDA Health Fraud",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/health-fraud/rss.xml",
+    "priority": 5,
+    "headline_mode": "rewrite",
+    "publisher": "FDA"
+  },
+  {
+    "name": "FDA Tainted Supplements",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/tainted-dietary-supplements/rss.xml",
+    "priority": 6,
+    "headline_mode": "rewrite",
+    "publisher": "FDA"
+  },
+  {
+    "name": "MedlinePlus Healthy Aging",
+    "url": "https://medlineplus.gov/feeds/topics/healthyaging.xml",
+    "priority": 3,
+    "headline_mode": "preserve",
+    "publisher": "MedlinePlus"
+  },
+  {
+    "name": "MedlinePlus Exercise for Older Adults",
+    "url": "https://medlineplus.gov/feeds/topics/exerciseforolderadults.xml",
+    "priority": 3,
+    "headline_mode": "preserve",
+    "publisher": "MedlinePlus"
+  },
+  {
+    "name": "Medical Xpress Healthy Aging",
+    "url": "https://medicalxpress.com/rss-feed/breaking/healthy-aging-news/",
+    "priority": 5,
+    "headline_mode": "preserve",
+    "publisher": "Medical Xpress"
+  },
+  {
+    "name": "Medical Xpress Nutrition",
+    "url": "https://medicalxpress.com/rss-feed/breaking/nutrition-healthy-eating-news/",
+    "priority": 3,
+    "headline_mode": "preserve",
+    "publisher": "Medical Xpress"
+  },
+  {
+    "name": "Medical Xpress Sleep",
+    "url": "https://medicalxpress.com/rss-feed/breaking/sleep-news/",
+    "priority": 4,
+    "headline_mode": "preserve",
+    "publisher": "Medical Xpress"
+  },
+  {
+    "name": "Medical Xpress Neurology",
+    "url": "https://medicalxpress.com/rss-feed/breaking/neurology-news/",
+    "priority": 3,
+    "headline_mode": "preserve",
+    "publisher": "Medical Xpress"
+  }
+]

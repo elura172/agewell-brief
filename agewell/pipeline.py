@@ -21,8 +21,21 @@ ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", ROOT / "content/posts"))
 STATE_FILE = Path(os.getenv("STATE_FILE", ROOT / ".state/processed.json"))
 RSS_FEED_URL = os.getenv("RSS_FEED_URL", "")
+RSS_FEEDS_JSON = os.getenv("RSS_FEEDS_JSON", "")
+FEED_CONFIG_FILE = Path(os.getenv("FEED_CONFIG_FILE", ROOT / "config/feed-portfolio.json"))
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "5"))
+MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "15"))
+MAX_ITEMS_PER_PUBLISHER = int(os.getenv("MAX_ITEMS_PER_PUBLISHER", "2"))
+
+
+@dataclass(frozen=True)
+class FeedSource:
+    name: str
+    url: str
+    priority: int = 0
+    headline_mode: str = "rewrite"
+    publisher: str = ""
 
 
 @dataclass(frozen=True)
@@ -31,6 +44,10 @@ class FeedItem:
     summary: str
     link: str
     published: str
+    source_name: str = "Unknown source"
+    source_priority: int = 0
+    headline_mode: str = "rewrite"
+    source_group: str = "Unknown source"
 
 
 def clean_text(value: str | None) -> str:
@@ -46,8 +63,41 @@ def child_text(item: ET.Element, names: tuple[str, ...]) -> str:
     return ""
 
 
-def fetch_items(url: str) -> list[FeedItem]:
-    request = urllib.request.Request(url, headers={"User-Agent": "AgewellBrief/0.1 (+rss reader)"})
+def feed_sources() -> list[FeedSource]:
+    raw_config = RSS_FEEDS_JSON
+    if not raw_config and FEED_CONFIG_FILE.exists():
+        raw_config = FEED_CONFIG_FILE.read_text(encoding="utf-8")
+    if raw_config:
+        try:
+            payload = json.loads(raw_config)
+        except json.JSONDecodeError as exc:
+            raise RuntimeError("Feed portfolio must be valid JSON") from exc
+        if not isinstance(payload, list):
+            raise RuntimeError("RSS_FEEDS_JSON must contain a list of feed objects")
+        sources: list[FeedSource] = []
+        for value in payload:
+            if not isinstance(value, dict) or not value.get("name") or not value.get("url"):
+                raise RuntimeError("Each RSS_FEEDS_JSON entry requires name and url")
+            mode = str(value.get("headline_mode", "rewrite"))
+            if mode not in {"rewrite", "preserve"}:
+                raise RuntimeError("headline_mode must be rewrite or preserve")
+            sources.append(
+                FeedSource(
+                    name=str(value["name"]),
+                    url=str(value["url"]),
+                    priority=int(value.get("priority", 0)),
+                    headline_mode=mode,
+                    publisher=str(value.get("publisher", "")),
+                )
+            )
+        return sources
+    if RSS_FEED_URL:
+        return [FeedSource("Primary feed", RSS_FEED_URL)]
+    return []
+
+
+def fetch_items(source: FeedSource) -> list[FeedItem]:
+    request = urllib.request.Request(source.url, headers={"User-Agent": "AgewellBrief/0.2 (+rss reader)"})
     with urllib.request.urlopen(request, timeout=30) as response:
         root = ET.fromstring(response.read())
 
@@ -64,8 +114,87 @@ def fetch_items(url: str) -> list[FeedItem]:
         summary = child_text(item, ("description", "summary", "content"))
         published = child_text(item, ("pubDate", "published", "updated"))
         if title and link:
-            results.append(FeedItem(title, summary, link, published))
-    return results[:MAX_ITEMS]
+            results.append(
+                FeedItem(
+                    title,
+                    summary,
+                    link,
+                    published,
+                    source.name,
+                    source.priority,
+                    source.headline_mode,
+                    source.publisher or source.name,
+                )
+            )
+    return results[:MAX_ITEMS_PER_FEED]
+
+
+def normalized_title(title: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+
+
+def relevance_score(item: FeedItem) -> int:
+    text = f"{item.title} {item.summary}".lower()
+    score = item.source_priority
+    weighted_terms = {
+        6: ("aging", "ageing", "over 50", "older adults", "seniors", "longevity", "healthspan"),
+        5: ("memory", "dementia", "alzheimer", "mobility", "balance", "muscle", "sleep"),
+        4: ("blood sugar", "diabetes", "heart", "walking", "exercise", "nutrition", "supplement"),
+        3: ("warning", "fraud", "scam", "recall", "breakthrough", "surprising", "linked to"),
+    }
+    for weight, terms in weighted_terms.items():
+        score += sum(weight for term in terms if term in text)
+    if classify(item) != "general wellness":
+        score += 4
+    if any(term in text for term in ("grant", "appoints", "director named", "funding opportunity", "webinar")):
+        score -= 10
+    return score
+
+
+def fetch_ranked_items(sources: list[FeedSource]) -> list[FeedItem]:
+    candidates: list[FeedItem] = []
+    for source in sources:
+        try:
+            candidates.extend(fetch_items(source))
+        except Exception as exc:
+            print(f"Feed failed ({source.name}): {exc}", file=sys.stderr)
+
+    return select_ranked_items(candidates)
+
+
+def select_ranked_items(candidates: list[FeedItem]) -> list[FeedItem]:
+    """Deduplicate and rank stories while keeping each batch source-diverse."""
+    best_by_title: dict[str, FeedItem] = {}
+    for item in candidates:
+        key = normalized_title(item.title)
+        current = best_by_title.get(key)
+        if current is None or relevance_score(item) > relevance_score(current):
+            best_by_title[key] = item
+
+    ranked = sorted(best_by_title.values(), key=relevance_score, reverse=True)
+    selected: list[FeedItem] = []
+    selected_links: set[str] = set()
+    publisher_counts: dict[str, int] = {}
+    publisher_cap = max(1, MAX_ITEMS_PER_PUBLISHER)
+
+    for item in ranked:
+        publisher = item.source_group or item.source_name
+        if publisher_counts.get(publisher, 0) >= publisher_cap:
+            continue
+        selected.append(item)
+        selected_links.add(item.link)
+        publisher_counts[publisher] = publisher_counts.get(publisher, 0) + 1
+        if len(selected) == MAX_ITEMS:
+            return selected
+
+    # If too few publishers have fresh stories, fill the remaining slots by score.
+    for item in ranked:
+        if item.link in selected_links:
+            continue
+        selected.append(item)
+        if len(selected) == MAX_ITEMS:
+            break
+    return selected
 
 
 def item_id(item: FeedItem) -> str:
@@ -142,6 +271,7 @@ def draft(client: OpenAI, item: FeedItem, category: str) -> dict[str, Any]:
         "source_title": item.title,
         "source_summary": item.summary[:5000],
         "source_url": item.link,
+        "source_name": item.source_name,
         "category": category,
         "requirements": [
             "Write a clear, engaging news brief for older readers.",
@@ -165,7 +295,8 @@ def draft(client: OpenAI, item: FeedItem, category: str) -> dict[str, Any]:
         ],
     )
     result = json.loads(response.choices[0].message.content or "{}")
-    headline = clean_text(result.get("headline")) or item.title
+    generated_headline = clean_text(result.get("headline")) or item.title
+    headline = item.title if item.headline_mode == "preserve" else generated_headline
     dek = clean_text(result.get("dek")) or item.summary
     bullets = result.get("bullets")
     if not isinstance(bullets, list) or len(bullets) != 3:
@@ -194,6 +325,7 @@ draft: true
 category: "{quote(category)}"
 source_url: "{quote(item.link)}"
 source_title: "{quote(item.title)}"
+source_name: "{quote(item.source_name)}"
 ---
 
 ## {content["headline"]}
@@ -206,7 +338,7 @@ source_title: "{quote(item.title)}"
 
 ### Source
 
-This brief is based on [{item.title}]({item.link}). Read the original report for full context.
+This brief is based on [{item.title}]({item.link}) from {item.source_name}. Read the original report for full context.
 {recommendation}
 
 > **Health note:** {content["caveat"]} Consult a qualified healthcare professional for personal advice.
@@ -219,8 +351,9 @@ def slug(value: str) -> str:
 
 
 def run() -> int:
-    if not RSS_FEED_URL:
-        raise RuntimeError("RSS_FEED_URL is required")
+    sources = feed_sources()
+    if not sources:
+        raise RuntimeError("RSS_FEEDS_JSON or RSS_FEED_URL is required")
     if not os.getenv("OPENAI_API_KEY"):
         raise RuntimeError("OPENAI_API_KEY is required")
 
@@ -229,7 +362,7 @@ def run() -> int:
     client = OpenAI()
     configured_offers = offers()
 
-    for item in fetch_items(RSS_FEED_URL):
+    for item in fetch_ranked_items(sources):
         key = item_id(item)
         if key in state:
             continue

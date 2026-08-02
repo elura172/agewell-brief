@@ -9,7 +9,8 @@ const briefs = defineCollection({
     draft: z.boolean().default(true),
     category: z.string().default("general wellness"),
     source_url: z.string().url(),
-    source_title: z.string()
+    source_title: z.string(),
+    source_name: z.string().default("Original source")
   })
 });
 
