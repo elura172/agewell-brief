@@ -2,6 +2,8 @@
 
 Standalone RSS-to-editorial-draft pipeline for a readable health and longevity digest.
 
+For a reusable, topic-agnostic operating manual, see [WORKFLOW.md](WORKFLOW.md).
+
 The first version intentionally produces Markdown drafts for review. It uses RSS metadata and summaries, links back to the original source, and writes structured output suitable for Hugo or Astro.
 
 ## Local run
