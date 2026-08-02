@@ -1,0 +1,67 @@
+[
+  {
+    "article_id": "e7e51910ab26fbbacce2e4fc",
+    "study_type": "systematic review",
+    "key_claims": [
+      "Eating less protein appears to improve metabolism, reduce inflammation and cellular damage, and activate pathways linked to healthier aging and longer life.",
+      "Protein restriction can improve metabolism, alter the way cells react to nutrients, limit cellular damage, and help cells maintain normal function.",
+      "Recent human clinical trials found that people who lowered their protein intake lost weight and body fat and showed improvements in fasting blood sugar, despite often consuming more total calories.",
+      "Lower protein intake is linked to increased levels of the hormone FGF21, which can raise energy expenditure, improve blood sugar regulation, and reduce inflammation.",
+      "Excessive intake of certain amino acids (methionine, isoleucine, valine) may activate biological pathways that encourage growth and may increase the risk of obesity, inflammation, and other conditions associated with aging."
+    ],
+    "limitations": [
+      "The review is based on a mix of animal and human studies, and the effects in humans may differ.",
+      "The source does not specify the exact amount of protein reduction or the duration needed for benefits.",
+      "The source notes that some groups, such as pregnant women and certain older adults, may require more protein, indicating that recommendations are not one-size-fits-all.",
+      "The source does not provide quantitative data on the magnitude of benefits or risks."
+    ],
+    "what_not_to_say": [
+      "The source does not claim that eating less protein will definitely slow aging in humans.",
+      "The source does not claim that protein restriction is a substitute for calorie restriction.",
+      "The source does not claim that all sedentary people should reduce protein intake.",
+      "The source does not claim that higher protein intake is harmful for everyone."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "383365b2eedf64e24a6db060",
+    "study_type": "expert commentary",
+    "key_claims": [
+      "Travelers often experience fatigue, sleep disturbances, low energy, and digestive issues in the first days of vacation.",
+      "These symptoms may be caused by more than classic jet lag.",
+      "Time zone changes may affect the bacteria in the intestines."
+    ],
+    "limitations": [
+      "The source does not provide specific study details or evidence.",
+      "The source does not specify the exact nature of the effects on gut bacteria.",
+      "The source does not quantify the prevalence or severity of symptoms."
+    ],
+    "what_not_to_say": [
+      "The source does not claim that gut bacteria are definitively the cause of the symptoms.",
+      "The source does not provide any specific recommendations for preventing or treating these symptoms.",
+      "The source does not mention any particular bacteria or mechanisms."
+    ],
+    "confidence": "limited"
+  },
+  {
+    "article_id": "ea34a07cdf0ae83e7fde7bd9",
+    "study_type": "news article",
+    "key_claims": [
+      "Acupressure mats are inspired by beds of nails used by Indian gurus over 1,000 years ago.",
+      "Modern acupressure mats are widely available and have seen a recent surge in mainstream interest.",
+      "There is no compelling evidence that acupressure mats relieve stress, pain, or sleep problems.",
+      "One individual reported that an acupressure mat helped with his back and shoulder pain after a car accident."
+    ],
+    "limitations": [
+      "The article is based on anecdotal evidence and does not cite scientific studies.",
+      "The article does not provide specific details about the safety or effectiveness of acupressure mats.",
+      "The article notes that images of skin irritation exist but serious injury is unlikely."
+    ],
+    "what_not_to_say": [
+      "Acupressure mats are proven to relieve pain, stress, or insomnia.",
+      "Acupressure mats are a scientifically validated treatment for any condition.",
+      "The article provides clinical evidence for the effectiveness of acupressure mats."
+    ],
+    "confidence": "high"
+  }
+]

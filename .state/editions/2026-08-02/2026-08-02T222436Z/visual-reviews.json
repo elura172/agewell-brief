@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "e7e51910ab26fbbacce2e4fc",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:5638644",
+      "score": 85,
+      "rationale": "The image depicts a smiling elderly woman dining with family in a garden, which aligns with the story's focus on mindful eating and balanced nutrition for older adults. The setting is warm and social, avoiding clinical or stereotypical retirement imagery. The presence of a meal and the woman's engagement suggest a contemplative, balanced mood.",
+      "concerns": [
+        "The image shows a family gathering rather than a close-up on the woman's plate, which may not fully capture the 'thoughtful reconsideration of a protein-heavy meal' as described in the editorial intent. However, it still conveys a relatable, positive scene of an older adult at a meal."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/eating-less-protein-could-slow-aging-major-review-finds-e7e51910-pexels-5638644.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "383365b2eedf64e24a6db060",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:1458302",
+      "score": 75,
+      "rationale": "The image depicts a woman on an airplane, which aligns with the story's subject of a traveler experiencing discomfort after a long flight. The thoughtful gaze out the window suggests weariness and introspection, matching the mood of discomfort and relatability. The setting is an airplane cabin, and the composition focuses on the traveler, avoiding generic lifestyle clichés.",
+      "concerns": [
+        "The image does not explicitly show stomach discomfort or clocks indicating time zones, but it conveys a sense of travel fatigue and introspection that fits the narrative."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/your-gut-can-get-jet-lag-too-how-not-to-waste-the-first-days-of-your-v-383365b2-pexels-1458302.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "ea34a07cdf0ae83e7fde7bd9",
+    "metadata_review": {
+      "selected_candidate_id": "Pixabay:2810489",
+      "score": 70,
+      "rationale": "The image of chestnut thorns/spikes closely matches the editorial intent to show the texture of an acupressure mat's spikes. The macro close-up aligns with the requested composition focusing on the mat's spikes. The tags include 'spikes', 'thorns', 'needles', and 'close up', which are relevant to the subject. The image does not depict a person, but the brief allows for a focus on the mat's texture. The mood is neutral and does not conflict with the story's cautious tone.",
+      "concerns": [
+        "The image is of chestnut thorns, not an actual acupressure mat, which may be misleading. It lacks the human element described in the brief, but the brief also emphasizes the mat's texture. The image is not a direct representation of the product, but it visually conveys the spikiness concept."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/the-spikiness-secret-can-acupressure-mats-help-with-pain-stress-and-in-ea34a07c-pixabay-2810489.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T22:19:43.970592+00:00",
+  "generated_at": "2026-08-02T22:24:36.162453+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -92,8 +92,8 @@
       "mention_count": 2,
       "source_count": 2,
       "sources": [
-        "Breaking News, Latest News and Videos",
-        "ScienceDaily"
+        "ScienceDaily",
+        "abcnews.com"
       ],
       "newest": "2026-08-02T04:53:49+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
@@ -107,9 +107,9 @@
           "category": "general wellness"
         },
         {
-          "title": "Study suggests eating less protein could be key to healthy aging for most adults - ABC News - Breaking News, Latest News and Videos",
+          "title": "Study suggests eating less protein could be key to healthy aging for most adults - abcnews.com",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNTMyZk1CZ215SGJ0OVlHUUVMMktMWXh6b0pFbU9jVHBUb3hZaUdTTkdKRGdKU1FSWGJTcDd3dTdGdnJQMnV4Sk5kWmRVOGJEd2JyU2xUT09Na3VxV1Q1VmRiYTlaY3M1STBpOXBiNnVSRlZvSGVKLVUwMktJa2NiRjFHU0U5V2J3TmRpYzNlaHg3elZRdHVLOWQyUEpOelFENzVfdlVsd9IBrAFBVV95cUxNYUI1UTR3NlRUWVc5bW50aldhWm0yZUctQ21Sb3RBM29GTmxuazJLWHF6UWVBekZvMHZDVFdDUXBDdkpRUkJEOGljTmdRZmlVUmpPVl8zQjFPdVFfUTRwVElDS0dSZDhqaXowaC1XOGlwaVAxZVVsOTlvU3hfQ0pJaEtHampseVZKelN5RlJQZGIySDdkWnNJcFBJVjE3MWdnMENuRGdWYkVqZi02?oc=5",
-          "source": "Breaking News, Latest News and Videos",
+          "source": "abcnews.com",
           "published": "Fri, 31 Jul 2026 15:19:52 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
@@ -150,22 +150,22 @@
     },
     {
       "topic": "does science sleep understanding work",
-      "headline": "How Does Sleep Work? Understanding the Science of Sleep - sleepfoundation.org",
+      "headline": "How Does Sleep Work? Understanding the Science of Sleep - Sleep Foundation",
       "category": "sleep health",
       "score": 14.0,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
         "Harvard Health",
-        "sleepfoundation.org"
+        "Sleep Foundation"
       ],
       "newest": "2026-07-21T07:00:00+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
       "items": [
         {
-          "title": "How Does Sleep Work? Understanding the Science of Sleep - sleepfoundation.org",
+          "title": "How Does Sleep Work? Understanding the Science of Sleep - Sleep Foundation",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90WTAtbGg3T3pERThQYmZRd24zYWVKVFBXNTNHZ1JBazV2RlAySERxSUVKck5IWUM5amRoVDBoalV5YlpONWNVWWxSOUIxd0FuMzh0em1jUTZvOTA?oc=5",
-          "source": "sleepfoundation.org",
+          "source": "Sleep Foundation",
           "published": "Tue, 21 Jul 2026 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
@@ -189,7 +189,7 @@
       "source_count": 2,
       "sources": [
         "Medical Xpress",
-        "Nature"
+        "nature.com"
       ],
       "newest": "2026-07-28T08:00:01+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
@@ -203,9 +203,9 @@
           "category": "mobility"
         },
         {
-          "title": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
+          "title": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiblFvZ0ZrWEpicVRLU0tsSGMzdmQwOTJrWV9UUnJNb1dfTjlJWkVfLXpZelVLX2xXWS1XajhwMUtSc1ZXYUVLbVRjWFZnTWhyWWVhTlpieXlQUUJpb2Q4?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Tue, 20 Jan 2026 08:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
@@ -216,7 +216,7 @@
       "topic": "facilitate healthy travel",
       "headline": "Travel can facilitate healthy aging - Tahoe Daily Tribune",
       "category": "general wellness",
-      "score": 11.1,
+      "score": 11.09,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -237,29 +237,29 @@
     },
     {
       "topic": "aged association between chinese cross dietary metabolic middle obesity patterns phenotypes related sectional",
-      "headline": "Association between dietary patterns and obesity-related metabolic phenotypes in Chinese middle-aged and older adults: a cross-sectional study - Nature",
+      "headline": "Association between dietary patterns and obesity-related metabolic phenotypes in Chinese middle-aged and older adults: a cross-sectional study - nature.com",
       "category": "metabolic health",
       "score": 11.0,
       "mention_count": 2,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "nature.com"
       ],
       "newest": "2025-10-06T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Association between dietary patterns and obesity-related metabolic phenotypes in Chinese middle-aged and older adults: a cross-sectional study - Nature",
+          "title": "Association between dietary patterns and obesity-related metabolic phenotypes in Chinese middle-aged and older adults: a cross-sectional study - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXQ1JVYXB3VTQwNS1xTjhROEpXM1ZmNWpjdERLbUtTMW5VUzFBZkxBNzhrR3dadlR6ejVQRjRLU3JOdDdjc0lhV3F1RjVNcU1POEdIWEJxNzUtQjB4Y0Fj?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Mon, 06 Oct 2025 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         },
         {
-          "title": "Associations between dynapenic abdominal obesity and diabetes in middle aged and older Chinese - Nature",
+          "title": "Associations between dynapenic abdominal obesity and diabetes in middle aged and older Chinese - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zaEkzS3c3RUI3RkdvdHVsRUVJOHFZcnl6WmR6SDdiREpHaXVERHVrRmd4Zzd3M0J5ejdDSnNKcGx6eUFVTEhUS3V6cUNWUDNYencwYm04ZzliM0ZqMW9z?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Wed, 27 Aug 2025 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
@@ -270,7 +270,7 @@
       "topic": "being choices everyday healthy lifestyle longevity support tips well",
       "headline": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - Rock Hill Herald",
       "category": "general wellness",
-      "score": 8.22,
+      "score": 8.21,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -293,7 +293,7 @@
       "topic": "ballad center friendly healthy recognized system",
       "headline": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - GreenevilleSun.com",
       "category": "general wellness",
-      "score": 7.54,
+      "score": 7.53,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -567,21 +567,21 @@
     },
     {
       "topic": "cognitive dementia incidence later linked lower speed training years",
-      "headline": "Cognitive Speed Training Linked to Lower Dementia Incidence Up To 20 Years Later - hopkinsmedicine.org",
+      "headline": "Cognitive Speed Training Linked to Lower Dementia Incidence Up To 20 Years Later - Johns Hopkins Medicine",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "hopkinsmedicine.org"
+        "Johns Hopkins Medicine"
       ],
       "newest": "2026-02-09T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Cognitive Speed Training Linked to Lower Dementia Incidence Up To 20 Years Later - hopkinsmedicine.org",
+          "title": "Cognitive Speed Training Linked to Lower Dementia Incidence Up To 20 Years Later - Johns Hopkins Medicine",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOF9XOGE2elY1S09yUkIycjZUVWVIX09keUx1V2ItakI2alN1amFIcnRGbFREdm9VaUNDZzVfeHgtUnlVeTF2M0xEWmN2cVRZOU9ybmN1azlYNjNReV9oaVZZWVpSa1BPQmw2bXBESU9FREdTN25WSWFnZ3U2LXpiVWFCUTB4bDliQ2xnaHp2TG9LUUgzREY4SEZtLUJRcFFCWlo5cTJxTk1oLVE5OW04MWVab0NjdUFRRC1lNHd2WUE4Z3dXUlV4aGtUcFhHeERUcWNRbHhaWGxrZ0NPVmhRSHFn?oc=5",
-          "source": "hopkinsmedicine.org",
+          "source": "Johns Hopkins Medicine",
           "published": "Mon, 09 Feb 2026 08:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -797,21 +797,21 @@
     },
     {
       "topic": "attenuates attenuating circadian cognitive dysfunctions exercise manner neuroinflammation obesity related sleep specific stat",
-      "headline": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - Nature",
+      "headline": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - nature.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "nature.com"
       ],
       "newest": "2026-06-02T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - Nature",
+          "title": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOEZLYWFxZTFDcVlHb0dBU01yMndIcGZiZF9LUHhDU0JtOU9oT3A3T3c3ZlZKeEV0dEhoUEl6R2k3R2JaYkdmTDBaWGl1d3p0N0VLbW94NGh6c1MzYjgw?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Tue, 02 Jun 2026 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
@@ -843,21 +843,21 @@
     },
     {
       "topic": "common habit later life problems serious signal this",
-      "headline": "This Common Habit Could Signal Serious Health Problems in Later Life - SciTechDaily",
+      "headline": "This Common Habit Could Signal Serious Health Problems in Later Life - scitechdaily.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "SciTechDaily"
+        "scitechdaily.com"
       ],
       "newest": "2026-04-28T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "This Common Habit Could Signal Serious Health Problems in Later Life - SciTechDaily",
+          "title": "This Common Habit Could Signal Serious Health Problems in Later Life - scitechdaily.com",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV3FFZGl6ODdjeXN3cXlXdmpOYWRIOXJmTnZxaWpCaDdEX0E5T0oxbVBkTEhMS19ZOXA4ZXJIbnlXVzhVTnd4d3V6NEhqTWcwa09UemFIQ1hxNGVGaDQ2aXFRWFlJQkFSaHQybTBLVExjd3lZY3JZZF9FWGRVQUhLQXAzcHlHN2V6QnRzZEZuSkdSSTRZeDlJU1NB?oc=5",
-          "source": "SciTechDaily",
+          "source": "scitechdaily.com",
           "published": "Tue, 28 Apr 2026 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
@@ -980,8 +980,8 @@
       ]
     },
     {
-      "topic": "alzheimer blood meal raise risk spike sugar this",
-      "headline": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
+      "topic": "biggest debunks dieting fear",
+      "headline": "New study debunks the biggest fear about yo-yo dieting - ScienceDaily",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
@@ -989,14 +989,14 @@
       "sources": [
         "ScienceDaily"
       ],
-      "newest": "2026-01-15T08:00:00+00:00",
+      "newest": "2026-05-17T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aUDk3LXZBd3NkV05XMk9XaWpPSjl2VGFYRVlETGFNZnVhQlRWTXQ3WGRhMnpJTzhqQ0V1aV90TVkxaThvUjdGRXM0dFktODItZTE0Wk9tdHNwcXBVS3RNcmwwaU5Xdi1fdTlxV2gzYw?oc=5",
+          "title": "New study debunks the biggest fear about yo-yo dieting - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yemhkNDFid3ZQNnJzbm01ZUlud3lnRFVxU21JUXl3VE1ZT1NGbzlmZ09FLWxXNEZWSEF4U0phTmZWS2hIU1B1RlZiaHZUR0FxekhRZ2ZOMjZWNE9kNXM2UkZFWmtqUjNLUVVzTFM5UQ?oc=5",
           "source": "ScienceDaily",
-          "published": "Thu, 15 Jan 2026 08:00:00 GMT",
+          "published": "Sun, 17 May 2026 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1049,6 +1049,29 @@
       ]
     },
     {
+      "topic": "alzheimer blood meal raise risk spike sugar this",
+      "headline": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "ScienceDaily"
+      ],
+      "newest": "2026-01-15T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aUDk3LXZBd3NkV05XMk9XaWpPSjl2VGFYRVlETGFNZnVhQlRWTXQ3WGRhMnpJTzhqQ0V1aV90TVkxaThvUjdGRXM0dFktODItZTE0Wk9tdHNwcXBVS3RNcmwwaU5Xdi1fdTlxV2gzYw?oc=5",
+          "source": "ScienceDaily",
+          "published": "Thu, 15 Jan 2026 08:00:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
       "topic": "altered flexibility glucose kinetics metabolic occurs outlook",
       "headline": "Altered glucose kinetics occurs with aging: a new outlook on metabolic flexibility - American Physiological Society Journal",
       "category": "metabolic health",
@@ -1066,29 +1089,6 @@
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MU3FNLUEwVXk2S294cUJOVHoyNnJwbXNjTWpkNkZ5bEFBSF83dUJjeUw1YVZ3MFVQRy1VRGl0ZlF1aXRHQUVTQ29iWjR2aVdrdEVxcUg1NmE1c01pM0JONXdnM3RQa05OcmQ1TWVJU01qb0dic1E?oc=5",
           "source": "American Physiological Society Journal",
           "published": "Thu, 10 Jul 2025 14:57:50 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        }
-      ]
-    },
-    {
-      "topic": "brain cost have hidden losing midlife weight",
-      "headline": "Losing weight in midlife may have a hidden brain cost - ScienceDaily",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "ScienceDaily"
-      ],
-      "newest": "2025-12-28T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Losing weight in midlife may have a hidden brain cost - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHUkxGTnF5c1UtVERqUWlpZlIzUFZ2UTh2MFR1cFBqbFFQanZWUUZZRWc0NmxHN2QyS0NvMy1PZHBMZnBWcnFLYlh0QlJ1cFFOM2VORlp2ODFwenZTbFY0S0NsNnpUMTBsY2lfNC12TQ?oc=5",
-          "source": "ScienceDaily",
-          "published": "Sun, 28 Dec 2025 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1119,21 +1119,21 @@
     },
     {
       "topic": "diabetes novel obesity peptide promise shows therapy treating",
-      "headline": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - hopkinsmedicine.org",
+      "headline": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - Johns Hopkins Medicine",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "hopkinsmedicine.org"
+        "Johns Hopkins Medicine"
       ],
       "newest": "2023-11-21T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - hopkinsmedicine.org",
+          "title": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - Johns Hopkins Medicine",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbTZxeHZLQVliZjNfZTZjU3FKVTdjTzFfWmgxVnVPLVVjWGZrWDMzTnN5OElIc2lIdTUwcTdOXzhVZXpJRXVLMk1xVUpONGE5Y2ZKRTJOOVY3eWJ3c0thLTVyYnoyQ0RaR1lPWUlZdU5IRmxCZW4wVkhSSWxkSmhCbGtoSlZXSnpHdlFJN3V2X0NKamlvdDdEOGgtVlgyWFc0SWNvdlYza1dpTlZKNUdEOWM4ZDBiRFNrd1dXbGxMdUFSNE1aR2RwSXRNR3pEbXVhaVlvenFJeXNKRzQ?oc=5",
-          "source": "hopkinsmedicine.org",
+          "source": "Johns Hopkins Medicine",
           "published": "Tue, 21 Nov 2023 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
@@ -1188,21 +1188,21 @@
     },
     {
       "topic": "healthy improved markers minute routine strength this",
-      "headline": "This 4-Minute Strength Routine Improved Key Markers Of Healthy Aging - mindbodygreen.com",
+      "headline": "This 4-Minute Strength Routine Improved Key Markers Of Healthy Aging - MindBodyGreen",
       "category": "mobility",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "mindbodygreen.com"
+        "MindBodyGreen"
       ],
       "newest": "2026-06-26T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "This 4-Minute Strength Routine Improved Key Markers Of Healthy Aging - mindbodygreen.com",
+          "title": "This 4-Minute Strength Routine Improved Key Markers Of Healthy Aging - MindBodyGreen",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ1RfNjVTQ2ZGMWN1YWFlb0lVenpxd3RkM04yNE5CaVFuTHBZcHRnVDB5UVJxYUJ5RDZ0UHlkTGFydklhcVA5RDFPaS1MN2pwS2ozZGp5M0tucFpuTXNQMjRIbTdHaVZIdlVIeGxLaVFjNVRjMlhXRkFIQ0t4SVVIQUR6bHJSbG5uWHBpVUhoa29FQXdQRE5pMktjN2lMQmwxU21pQUtB?oc=5",
-          "source": "mindbodygreen.com",
+          "source": "MindBodyGreen",
           "published": "Fri, 26 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
@@ -1234,21 +1234,21 @@
     },
     {
       "topic": "better dangerous falls help minute prevent researchers routine want",
-      "headline": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
+      "headline": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - foxnews.com",
       "category": "mobility",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Fox News"
+        "foxnews.com"
       ],
       "newest": "2026-06-23T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
+          "title": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - foxnews.com",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcVpvX05fcE9OT2hxRmpjMEVWRDJrTGVfazlDNHlpbWltSWIxRTlfMnpkNkxGZDFucklvbF9LLThZM0lBamkweDhKTmUzQVVjanRONW1wWUo4SFI4R05SZ0g3ZkZjeE1HZml3d1hiTmc4bTA1VTZ5b3hCNjVCZDJoejNuTkpGZmxRNlBpeFdKMnVfZjY5R01BYnZjSmRXUW5TOGF4OVAwdFQ0bnVzV0NLY2Jn0gG3AUFVX3lxTFBkeXNkcUNtTG9ma0tfWThIUDlzX2g1R1RiVjBqSWltMWZtQWwwdDE1Vy15NEhGdVIwMloxTnI3czE5V1lQbFZTSXowNlpra3gxUmdDenJpcHJlZWltRGM0NkxDUndhRXBuczBFaFlUMWRhZTBaZGFvb1pYaVdLalJfOUFhdmF5X0hGeHRjdjA1ZjdHWVdOVlZPdVJnTlA5M2R0ZE9RbXNDbWZoZC01UGhjTHZ6RHRLUQ?oc=5",
-          "source": "Fox News",
+          "source": "foxnews.com",
           "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
@@ -1349,21 +1349,21 @@
     },
     {
       "topic": "pose risks serious sold stations supplements warns",
-      "headline": "FDA warns 2 supplements sold at gas stations pose serious health risks - livenowfox.com",
+      "headline": "FDA warns 2 supplements sold at gas stations pose serious health risks - LiveNOW from FOX",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "livenowfox.com"
+        "LiveNOW from FOX"
       ],
       "newest": "2026-04-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA warns 2 supplements sold at gas stations pose serious health risks - livenowfox.com",
+          "title": "FDA warns 2 supplements sold at gas stations pose serious health risks - LiveNOW from FOX",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORFh4NGhwQjF4YmRUOGEyQzRzNGlzal84ZzVkTFVUT0RVMTJjUHZOYjRaSVJOdkNBVEh5d3M4aU5UbGRUWjE1YXBkUGVrNF9BRmZ4S3hXZDlPc1VuTW0yYk5NM3ZSajRBQ05nalBMSGx3Q3lHSDZTZmkyWFR6RWFFU0Z6d0ZnNWVoUW1YRDdSaDBSZW5n?oc=5",
-          "source": "livenowfox.com",
+          "source": "LiveNOW from FOX",
           "published": "Sun, 05 Apr 2026 07:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1394,22 +1394,22 @@
       ]
     },
     {
-      "topic": "consumers enhancement issues male news rhino supplement taking warns",
-      "headline": "FDA warns consumers of health issues after taking male enhancement supplement Rhino - ABC News - Breaking News, Latest News and Videos",
+      "topic": "consumers enhancement issues male rhino supplement taking warns",
+      "headline": "FDA warns consumers of health issues after taking male enhancement supplement Rhino - abcnews.com",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Breaking News, Latest News and Videos"
+        "abcnews.com"
       ],
       "newest": "2026-02-11T14:17:20+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA warns consumers of health issues after taking male enhancement supplement Rhino - ABC News - Breaking News, Latest News and Videos",
+          "title": "FDA warns consumers of health issues after taking male enhancement supplement Rhino - abcnews.com",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNanUwLUNiZ2huWENpRlhqak5GWkc4eXZZWTFrZ1c5YzB6YkNZY0RQb1RpZVdXcWQ2VlhLTXgxWXJuMFpYa050SzJ2TWFQOU5jY3YydHVXSU5rREdaTGVKOWtmTXE2VWdNX25pMVhDZ0thS2plMkluOThCYWlPb3Qtc29Hc0dYekQyQ0dsTVdlUU1meHZSRjRlSlU3Mm1xaE9KWDhzUllzTdIBrAFBVV95cUxNZkhDY0s5TG1hblJiSlFnSkpfWjZYWHdJM3ZxQnM0MG1NYlBfM0RzRTlIRzNFREFzRHJJajhfWm43WXBFSEFQWWtUakFYZFZkRzM0bndQY05sN2hkWHB6OV9UV3BnM25XVnRPVURCLUUzZHhRZ2JKMi1fTjNmdWZkYVNFUkdSMXRuUGxFQ013cEVRdVFNWEFqS3EtVnFnc1ZyckhuRFZubU9LVkhk?oc=5",
-          "source": "Breaking News, Latest News and Videos",
+          "source": "abcnews.com",
           "published": "Wed, 11 Feb 2026 14:17:20 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"

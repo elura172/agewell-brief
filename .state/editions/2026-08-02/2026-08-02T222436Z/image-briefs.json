@@ -1,0 +1,67 @@
+[
+  {
+    "article_id": "e7e51910ab26fbbacce2e4fc",
+    "editorial_intent": "Show a realistic, relatable scene of a sedentary older adult reconsidering a protein-heavy meal, with a focus on mindful eating and balanced nutrition.",
+    "subject": "A senior woman at a dining table, looking thoughtfully at a plate with modest portions of vegetables and fish, with a glass of water nearby.",
+    "setting": "A bright, modern kitchen with natural light, simple decor, and a bowl of fresh vegetables on the counter.",
+    "mood": "contemplative, balanced, hopeful",
+    "composition": "Close-up on the woman's face and the plate, with the kitchen softly blurred in the background, using a shallow depth of field to emphasize the subject.",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "protein supplements",
+      "protein bars",
+      "shakes",
+      "overly muscular or athletic figures",
+      "clinical or sterile settings"
+    ],
+    "search_queries": [
+      "senior woman thoughtful meal vegetables",
+      "older adult balanced plate dining",
+      "senior woman kitchen mindful eating"
+    ]
+  },
+  {
+    "article_id": "383365b2eedf64e24a6db060",
+    "editorial_intent": "Show a traveler experiencing digestive discomfort after a long flight, with visual cues of time change and gut health.",
+    "subject": "A middle-aged woman traveler holding her stomach, looking uncomfortable, in an airport or airplane cabin",
+    "setting": "Airplane cabin or airport terminal with visible clocks showing different time zones",
+    "mood": "uncomfortable, weary, relatable",
+    "composition": "Close-up on the traveler's face and hand on stomach, with blurred background of airplane interior or airport signs",
+    "avoid": [
+      "frightened expressions",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "healthy lifestyle clichés"
+    ],
+    "search_queries": [
+      "woman traveler stomach discomfort airplane",
+      "jet lag tired traveler airport clock",
+      "gut health travel fatigue airplane"
+    ]
+  },
+  {
+    "article_id": "ea34a07cdf0ae83e7fde7bd9",
+    "editorial_intent": "Show a person using an acupressure mat in a realistic home setting, with a focus on the mat's texture and the person's relaxed but cautious expression.",
+    "subject": "A middle-aged woman lying on an acupressure mat on a living room floor, eyes closed, with a hand resting on the mat's spikes.",
+    "setting": "A bright, modern living room with a yoga mat, plants, and soft natural light.",
+    "mood": "calm, curious, tentative",
+    "composition": "Close-up, low angle, focusing on the mat's spikes and the woman's face, with the room softly blurred in the background.",
+    "avoid": [
+      "frightened expressions",
+      "medical equipment",
+      "miracle cure imagery",
+      "generic wellness poses",
+      "pills in hands"
+    ],
+    "search_queries": [
+      "woman lying on acupressure mat",
+      "acupressure mat close-up spikes",
+      "person using spiky mat at home"
+    ]
+  }
+]
