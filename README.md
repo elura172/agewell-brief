@@ -10,7 +10,7 @@ The first version intentionally produces Markdown drafts for review. It uses RSS
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-export OPENAI_API_KEY="..."
+export DEEPSEEK_API_KEY="..."
 export RSS_FEED_URL="https://example.com/feed.xml"
 python -m agewell.pipeline
 ```
@@ -43,7 +43,7 @@ Set `RSS_FEEDS_JSON` only when you need to override the checked-in portfolio.
 
 ## GitHub Actions
 
-Add `OPENAI_API_KEY` and optionally `AFFILIATE_OFFERS_JSON` as repository
+Add `DEEPSEEK_API_KEY` and optionally `AFFILIATE_OFFERS_JSON` as repository
 secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
 `RSS_FEEDS_JSON` can override it. The workflow runs every six hours and commits
 new drafts.

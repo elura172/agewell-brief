@@ -23,7 +23,9 @@ STATE_FILE = Path(os.getenv("STATE_FILE", ROOT / ".state/processed.json"))
 RSS_FEED_URL = os.getenv("RSS_FEED_URL", "")
 RSS_FEEDS_JSON = os.getenv("RSS_FEEDS_JSON", "")
 FEED_CONFIG_FILE = Path(os.getenv("FEED_CONFIG_FILE", ROOT / "config/feed-portfolio.json"))
-MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
+LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.deepseek.com")
+MODEL = os.getenv("LLM_MODEL", "deepseek-v4-flash")
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "5"))
 MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "15"))
 MAX_ITEMS_PER_PUBLISHER = int(os.getenv("MAX_ITEMS_PER_PUBLISHER", "2"))
@@ -285,6 +287,7 @@ def draft(client: OpenAI, item: FeedItem, category: str) -> dict[str, Any]:
     response = client.chat.completions.create(
         model=MODEL,
         temperature=0.2,
+        max_tokens=900,
         response_format={"type": "json_object"},
         messages=[
             {
@@ -354,12 +357,12 @@ def run() -> int:
     sources = feed_sources()
     if not sources:
         raise RuntimeError("RSS_FEEDS_JSON or RSS_FEED_URL is required")
-    if not os.getenv("OPENAI_API_KEY"):
-        raise RuntimeError("OPENAI_API_KEY is required")
+    if not DEEPSEEK_API_KEY:
+        raise RuntimeError("DEEPSEEK_API_KEY is required")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     state = load_state()
-    client = OpenAI()
+    client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=LLM_BASE_URL)
     configured_offers = offers()
 
     for item in fetch_ranked_items(sources):
