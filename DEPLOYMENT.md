@@ -7,6 +7,7 @@
 - GitHub Actions workflow
 - Draft-first publishing mode
 - Persistent feed-item state committed to the repository
+- Daily Lead + Signals edition structure
 
 ## Before the first cloud run
 
@@ -22,7 +23,10 @@
 
 ## Review loop
 
-Generated files are intentionally written with `draft: true`. Review the source, headline, claims, links, and commercial disclosure before changing a post to `draft: false`.
+Generated files are intentionally written with `draft: true`. Each edition
+contains one 600–900 word Deep Read and two compact Signals. Review the source,
+headline, claims, links, and commercial disclosure before changing a post to
+`draft: false`.
 
 ## Hosting
 

@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
+from bs4 import BeautifulSoup
 from openai import OpenAI
 
 
@@ -26,9 +27,10 @@ FEED_CONFIG_FILE = Path(os.getenv("FEED_CONFIG_FILE", ROOT / "config/feed-portfo
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.deepseek.com")
 MODEL = os.getenv("LLM_MODEL", "deepseek-v4-flash")
-MAX_ITEMS = int(os.getenv("MAX_ITEMS", "5"))
+MAX_ITEMS = int(os.getenv("MAX_ITEMS", "3"))
 MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "15"))
 MAX_ITEMS_PER_PUBLISHER = int(os.getenv("MAX_ITEMS_PER_PUBLISHER", "2"))
+LEAD_SOURCE_CHARS = int(os.getenv("LEAD_SOURCE_CHARS", "18000"))
 
 
 @dataclass(frozen=True)
@@ -153,7 +155,7 @@ def relevance_score(item: FeedItem) -> int:
     return score
 
 
-def fetch_ranked_items(sources: list[FeedSource]) -> list[FeedItem]:
+def fetch_ranked_items(sources: list[FeedSource], processed: set[str] | None = None) -> list[FeedItem]:
     candidates: list[FeedItem] = []
     for source in sources:
         try:
@@ -161,6 +163,8 @@ def fetch_ranked_items(sources: list[FeedSource]) -> list[FeedItem]:
         except Exception as exc:
             print(f"Feed failed ({source.name}): {exc}", file=sys.stderr)
 
+    if processed:
+        candidates = [item for item in candidates if item_id(item) not in processed]
     return select_ranked_items(candidates)
 
 
@@ -217,6 +221,70 @@ def save_state(state: set[str]) -> None:
     STATE_FILE.write_text(json.dumps(sorted(state), indent=2) + "\n", encoding="utf-8")
 
 
+def _json_ld_article_body(soup: BeautifulSoup) -> str:
+    def find_body(value: Any) -> str:
+        if isinstance(value, dict):
+            body = value.get("articleBody")
+            if isinstance(body, str):
+                return clean_text(body)
+            for child in value.values():
+                found = find_body(child)
+                if found:
+                    return found
+        elif isinstance(value, list):
+            for child in value:
+                found = find_body(child)
+                if found:
+                    return found
+        return ""
+
+    for node in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        try:
+            found = find_body(json.loads(node.string or node.get_text()))
+        except (json.JSONDecodeError, TypeError):
+            continue
+        if found:
+            return found
+    return ""
+
+
+def extract_article_text(document: bytes | str) -> str:
+    """Extract readable source material without retaining page chrome or markup."""
+    soup = BeautifulSoup(document, "html.parser")
+    structured_body = _json_ld_article_body(soup)
+    if len(structured_body) >= 500:
+        return structured_body[:LEAD_SOURCE_CHARS]
+
+    for node in soup.select("script, style, nav, footer, header, aside, form, noscript, svg"):
+        node.decompose()
+    container = soup.find("article") or soup.find("main") or soup.select_one('[role="main"]') or soup.body
+    if container is None:
+        return ""
+
+    chunks: list[str] = []
+    for node in container.select("h2, h3, p, li"):
+        text = clean_text(node.get_text(" ", strip=True))
+        if len(text) < 25 or text in chunks[-3:]:
+            continue
+        chunks.append(text)
+    return "\n".join(chunks)[:LEAD_SOURCE_CHARS]
+
+
+def fetch_article_text(item: FeedItem) -> str:
+    """Fetch lead-story source material, falling back safely to the RSS summary."""
+    request = urllib.request.Request(
+        item.link,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; AgewellBrief/0.3; editorial research)"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            extracted = extract_article_text(response.read())
+    except Exception as exc:
+        print(f"Source page failed ({item.source_name}): {exc}", file=sys.stderr)
+        extracted = ""
+    return extracted if len(extracted) >= 500 else item.summary
+
+
 def classify(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     rules = {
@@ -268,22 +336,50 @@ def tracked_offer_url(base_url: str | None, category: str, article_id: str) -> s
     return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urlencode(query), parsed.fragment))
 
 
-def draft(client: OpenAI, item: FeedItem, category: str) -> dict[str, Any]:
-    prompt = {
+def draft(
+    client: OpenAI,
+    item: FeedItem,
+    category: str,
+    content_type: str = "signal",
+    source_text: str | None = None,
+) -> dict[str, Any]:
+    is_lead = content_type == "lead"
+    source_material = source_text or item.summary
+    prompt: dict[str, Any] = {
         "source_title": item.title,
         "source_summary": item.summary[:5000],
+        "source_material": source_material[:LEAD_SOURCE_CHARS] if is_lead else item.summary[:5000],
         "source_url": item.link,
         "source_name": item.source_name,
         "category": category,
+        "content_type": content_type,
         "requirements": [
-            "Write a clear, engaging news brief for older readers.",
-            "Use only claims supported by the supplied title and summary.",
+            "Write clear, engaging health journalism for readers over 50.",
+            "Use only claims supported by the supplied source material.",
             "Do not diagnose, prescribe, promise results, or invent institutions or studies.",
             "Do not imply that a supplement treats or cures a disease.",
-            "Return JSON with headline, dek, bullets, and caveat.",
+            "Write with tension, specificity, agency, and warmth; avoid hype and filler.",
             "bullets must contain exactly three items, each at most 20 words.",
         ],
     }
+    if is_lead:
+        prompt["requirements"].extend(
+            [
+                "Create an original 600-900 word analysis based only on source_material.",
+                "Return JSON with headline, dek, sections, bullets, and caveat.",
+                "sections must contain exactly four objects with heading and paragraphs fields.",
+                "Each paragraphs field must be an array of two or three complete paragraphs.",
+                "The four sections should explain why this matters, what was found, how to interpret it, and practical next steps.",
+                "Separate reported evidence from interpretation and clearly state uncertainty.",
+            ]
+        )
+    else:
+        prompt["requirements"].extend(
+            [
+                "Create a compact news signal under 140 words.",
+                "Return JSON with headline, dek, bullets, and caveat.",
+            ]
+        )
     messages = [
         {
             "role": "system",
@@ -292,23 +388,38 @@ def draft(client: OpenAI, item: FeedItem, category: str) -> dict[str, Any]:
         {"role": "user", "content": json.dumps(prompt)},
     ]
     result: dict[str, Any] | None = None
-    parse_error: json.JSONDecodeError | None = None
+    draft_error: Exception | None = None
     for _attempt in range(2):
         response = client.chat.completions.create(
             model=MODEL,
             temperature=0.2,
-            max_tokens=1400,
+            max_tokens=3200 if is_lead else 1400,
             response_format={"type": "json_object"},
             messages=messages,
             extra_body={"thinking": {"type": "disabled"}},
         )
         try:
-            result = json.loads(response.choices[0].message.content or "{}")
+            candidate = json.loads(response.choices[0].message.content or "{}")
+            if is_lead:
+                raw_sections = candidate.get("sections")
+                if not isinstance(raw_sections, list) or len(raw_sections) != 4:
+                    raise ValueError("lead draft requires four sections")
+                lead_words = len(
+                    " ".join(
+                        str(paragraph)
+                        for section in raw_sections
+                        if isinstance(section, dict)
+                        for paragraph in section.get("paragraphs", [])
+                    ).split()
+                )
+                if lead_words < 500:
+                    raise ValueError(f"lead draft is too short ({lead_words} words)")
+            result = candidate
             break
-        except json.JSONDecodeError as exc:
-            parse_error = exc
+        except (json.JSONDecodeError, ValueError, TypeError) as exc:
+            draft_error = exc
     if result is None:
-        raise RuntimeError("DeepSeek returned invalid JSON twice") from parse_error
+        raise RuntimeError("DeepSeek returned an invalid draft twice") from draft_error
     generated_headline = clean_text(result.get("headline")) or item.title
     headline = item.title if item.headline_mode == "preserve" else generated_headline
     dek = clean_text(result.get("dek")) or item.summary
@@ -316,16 +427,54 @@ def draft(client: OpenAI, item: FeedItem, category: str) -> dict[str, Any]:
     if not isinstance(bullets, list) or len(bullets) != 3:
         bullets = ["The source reports a new health-related finding.", "The result needs context before changing routines.", "Discuss personal decisions with a qualified clinician."]
     caveat = clean_text(result.get("caveat")) or "This brief is informational and is not medical advice."
-    return {"headline": headline, "dek": dek, "bullets": [clean_text(str(x)) for x in bullets], "caveat": caveat}
+    sections: list[dict[str, Any]] = []
+    if is_lead:
+        raw_sections = result.get("sections")
+        if not isinstance(raw_sections, list) or len(raw_sections) != 4:
+            raise RuntimeError("DeepSeek lead draft did not contain four sections")
+        for section in raw_sections:
+            if not isinstance(section, dict):
+                raise RuntimeError("DeepSeek lead section was not an object")
+            heading = clean_text(str(section.get("heading", "")))
+            paragraphs = section.get("paragraphs")
+            if not heading or not isinstance(paragraphs, list) or not paragraphs:
+                raise RuntimeError("DeepSeek lead section was incomplete")
+            sections.append(
+                {
+                    "heading": heading,
+                    "paragraphs": [clean_text(str(paragraph)) for paragraph in paragraphs if clean_text(str(paragraph))],
+                }
+            )
+    return {
+        "headline": headline,
+        "dek": dek,
+        "bullets": [clean_text(str(x)) for x in bullets],
+        "caveat": caveat,
+        "sections": sections,
+    }
 
 
 def quote(value: str) -> str:
     return value.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ")
 
 
-def markdown(item: FeedItem, category: str, content: dict[str, Any], offer_url: str | None) -> str:
-    today = dt.datetime.now(dt.timezone.utc).isoformat()
+def markdown(
+    item: FeedItem,
+    category: str,
+    content: dict[str, Any],
+    offer_url: str | None,
+    content_type: str = "signal",
+    edition_rank: int = 1,
+    edition_time: dt.datetime | None = None,
+) -> str:
+    published_at = edition_time or dt.datetime.now(dt.timezone.utc)
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
+    sections = ""
+    if content_type == "lead":
+        sections = "\n\n".join(
+            f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
+            for section in content.get("sections", [])
+        )
     recommendation = ""
     if offer_url:
         recommendation = (
@@ -334,25 +483,28 @@ def markdown(item: FeedItem, category: str, content: dict[str, Any], offer_url: 
         )
     return f'''---
 title: "{quote(content["headline"])}"
-date: {today}
+date: {published_at.isoformat()}
 draft: true
 category: "{quote(category)}"
+content_type: "{content_type}"
+edition_rank: {edition_rank}
+edition_id: "{published_at.date().isoformat()}"
 source_url: "{quote(item.link)}"
 source_title: "{quote(item.title)}"
 source_name: "{quote(item.source_name)}"
 ---
 
-## {content["headline"]}
-
 {content["dek"]}
 
-### Three things to know
+{sections}
+
+## Three things to remember
 
 {bullets}
 
 ### Source
 
-This brief is based on [{item.title}]({item.link}) from {item.source_name}. Read the original report for full context.
+This {"analysis" if content_type == "lead" else "signal"} is based on [{item.title}]({item.link}) from {item.source_name}. Read the original report for full context.
 {recommendation}
 
 > **Health note:** {content["caveat"]} Consult a qualified healthcare professional for personal advice.
@@ -376,15 +528,21 @@ def run() -> int:
     client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=LLM_BASE_URL)
     configured_offers = offers()
 
-    for item in fetch_ranked_items(sources):
+    edition_time = dt.datetime.now(dt.timezone.utc)
+    for index, item in enumerate(fetch_ranked_items(sources, state)):
         key = item_id(item)
-        if key in state:
-            continue
         category = classify(item)
-        content = draft(client, item, category)
-        offer_url = tracked_offer_url(select_offer(configured_offers, category), category, key)
+        content_type = "lead" if index == 0 else "signal"
+        source_text = fetch_article_text(item) if content_type == "lead" else None
+        content = draft(client, item, category, content_type, source_text)
+        offer_url = None
+        if content_type == "lead":
+            offer_url = tracked_offer_url(select_offer(configured_offers, category), category, key)
         target = OUTPUT_DIR / f"{dt.date.today()}-{slug(content['headline'])}-{key[:8]}.md"
-        target.write_text(markdown(item, category, content, offer_url), encoding="utf-8")
+        target.write_text(
+            markdown(item, category, content, offer_url, content_type, index + 1, edition_time),
+            encoding="utf-8",
+        )
         state.add(key)
         save_state(state)
         print(f"Wrote {target}")

@@ -3,7 +3,7 @@ name: Aggregate health briefs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 11 * * *"
 
 permissions:
   contents: write
@@ -24,6 +24,7 @@ jobs:
           LLM_MODEL: deepseek-v4-flash
           RSS_FEED_URL: ${{ secrets.RSS_FEED_URL }}
           RSS_FEEDS_JSON: ${{ secrets.RSS_FEEDS_JSON }}
+          MAX_ITEMS: 3
           MAX_ITEMS_PER_PUBLISHER: 2
           AFFILIATE_OFFERS_JSON: ${{ secrets.AFFILIATE_OFFERS_JSON }}
       - name: Commit generated drafts

@@ -4,23 +4,26 @@ import Layout from "../../layouts/Layout.astro";
 
 export async function getStaticPaths() {
   const entries = await getCollection("briefs");
-  return entries.filter((entry) => !entry.data.draft).map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+  return entries
+    .filter((entry) => import.meta.env.DEV || !entry.data.draft)
+    .map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
 }
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const formatDate = entry.data.date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
+const isLead = entry.data.content_type === "lead";
 ---
-<Layout title={`${entry.data.title} — Agewell Brief`} description={`A source-linked Agewell Brief on ${entry.data.category}.`}>
-  <article class="article-page">
+<Layout title={`${entry.data.title} — Agewell Brief`} description={`A source-linked ${isLead ? "analysis" : "brief"} on ${entry.data.category}.`}>
+  <article class:list={["article-page", { "is-lead": isLead }]}>
     <a class="back-link" href="/">← All briefs</a>
     <header class="article-header">
       <div class="signal-rail"><span>{entry.data.category}</span><i></i><span>{formatDate}</span></div>
-      <p class="eyebrow">Agewell Brief</p>
+      <p class="eyebrow">{isLead ? "Agewell Deep Read" : "Agewell Signal"}</p>
       <h1>{entry.data.title}</h1>
       <p class="article-source">Original reporting: <a href={entry.data.source_url} rel="noopener noreferrer">{entry.data.source_title}</a></p>
     </header>
     <div class="article-content"><Content /></div>
-    <footer class="article-footer"><span>Keep asking better questions.</span><a href="/#subscribe">Get the next brief →</a></footer>
+    <footer class="article-footer"><span>Keep asking better questions.</span><a href="/#subscribe">Get tomorrow’s edition →</a></footer>
   </article>
 </Layout>

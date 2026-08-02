@@ -2,14 +2,19 @@
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 
+const showDrafts = import.meta.env.DEV;
 const entries = (await getCollection("briefs"))
-  .filter((entry) => !entry.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-const featured = entries[0];
-const recent = entries.slice(1);
+  .filter((entry) => showDrafts || !entry.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.data.edition_rank - b.data.edition_rank);
+const featured = entries.find((entry) => entry.data.content_type === "lead") ?? entries[0];
+const featuredEdition = featured?.data.edition_id;
+const recent = entries
+  .filter((entry) => entry.id !== featured?.id && (!featuredEdition || entry.data.edition_id === featuredEdition))
+  .slice(0, 2);
 const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
 ---
 <Layout>
+  {showDrafts && <div class="edition-strip" aria-label="Preview status"><span>LOCAL DRAFT PREVIEW</span><span>NOT PUBLIC</span></div>}
   <section class="hero">
     <div class="hero-copy">
       <p class="eyebrow"><span class="signal-dot"></span> The daily health signal</p>
@@ -26,7 +31,7 @@ const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "lo
   </section>
 
   <section class="edition-strip" aria-label="Edition information">
-    <span>EDITION 001</span><span>HEALTH · LONGEVITY · LIVING WELL</span><span>READ IN 4 MINUTES</span>
+    <span>TODAY’S EDITION</span><span>1 DEEP READ · 2 SIGNALS</span><span>READ IN 8 MINUTES</span>
   </section>
 
   <section id="latest" class="briefs-section">
@@ -38,10 +43,10 @@ const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "lo
       <article class="featured-card">
         <div class="signal-rail"><span>{featured.data.category}</span><i></i><span>{formatDate(featured.data.date)}</span></div>
         <div class="featured-body">
-          <p class="card-kicker">The lead signal</p>
+          <p class="card-kicker">{featured.data.content_type === "lead" ? "Today’s deep read" : "The lead signal"}</p>
           <h2><a href={`/brief/${featured.id}/`}>{featured.data.title}</a></h2>
           <p class="card-source">Based on <a href={featured.data.source_url} rel="noopener noreferrer">{featured.data.source_title}</a></p>
-          <a class="arrow-link" href={`/brief/${featured.id}/`}>Read the brief <span>→</span></a>
+          <a class="arrow-link" href={`/brief/${featured.id}/`}>{featured.data.content_type === "lead" ? "Read the full analysis" : "Read the brief"} <span>→</span></a>
         </div>
         <div class="featured-index">01</div>
       </article>
@@ -52,7 +57,7 @@ const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "lo
     {recent.length > 0 && <div class="brief-grid">
       {recent.map((entry, index) => (
         <article class="brief-card">
-          <div class="card-topline"><span>{entry.data.category}</span><span>{String(index + 2).padStart(2, "0")}</span></div>
+          <div class="card-topline"><span>{entry.data.category} · Quick signal</span><span>{String(index + 2).padStart(2, "0")}</span></div>
           <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
           <p class="card-source">{formatDate(entry.data.date)} · <a href={entry.data.source_url} rel="noopener noreferrer">Source</a></p>
         </article>

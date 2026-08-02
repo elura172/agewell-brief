@@ -9,6 +9,8 @@ from agewell.pipeline import (
     FeedSource,
     classify,
     draft,
+    extract_article_text,
+    fetch_ranked_items,
     feed_sources,
     normalized_title,
     relevance_score,
@@ -146,3 +148,68 @@ def test_draft_disables_thinking_and_retries_invalid_json():
     assert result["headline"] == "A useful finding"
     assert len(completions.calls) == 2
     assert completions.calls[0]["extra_body"] == {"thinking": {"type": "disabled"}}
+
+
+def test_extract_article_text_ignores_page_chrome():
+    document = """
+    <html><body><nav>This navigation should never become source material.</nav>
+    <article><h2>Why the finding matters</h2>
+    <p>Researchers followed older adults over several years and documented a meaningful change in mobility.</p>
+    <p>The article explains the study design, its limitations, and the questions that remain unanswered.</p>
+    </article><footer>This footer should also disappear entirely.</footer></body></html>
+    """
+
+    extracted = extract_article_text(document)
+
+    assert "Researchers followed older adults" in extracted
+    assert "navigation" not in extracted
+    assert "footer" not in extracted
+
+
+def test_fetch_ranked_items_excludes_processed_before_limiting(monkeypatch):
+    items = [
+        FeedItem("Aging story one", "Older adults", "https://example.test/1", ""),
+        FeedItem("Aging story two", "Older adults", "https://example.test/2", ""),
+        FeedItem("Aging story three", "Older adults", "https://example.test/3", ""),
+    ]
+    monkeypatch.setattr(pipeline, "MAX_ITEMS", 2)
+    monkeypatch.setattr(pipeline, "fetch_items", lambda _source: items)
+
+    selected = fetch_ranked_items(
+        [FeedSource("Test", "https://example.test/feed")],
+        {pipeline.item_id(items[0])},
+    )
+
+    assert [item.link for item in selected] == ["https://example.test/2", "https://example.test/3"]
+
+
+def test_lead_draft_requests_long_structured_analysis():
+    paragraph = " ".join(["Evidence from the source helps readers understand this finding without overstating what researchers know."] * 9)
+    sections = [
+        {"heading": heading, "paragraphs": [paragraph, paragraph]}
+        for heading in ("Why it matters", "What researchers found", "How to read it", "What to do next")
+    ]
+    payload = {
+        "headline": "A deeper look at healthy aging",
+        "dek": "A useful development deserves context.",
+        "sections": sections,
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "The evidence is still developing.",
+    }
+
+    class FakeCompletions:
+        def __init__(self):
+            self.kwargs = None
+
+        def create(self, **kwargs):
+            self.kwargs = kwargs
+            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps(payload)))])
+
+    completions = FakeCompletions()
+    client = SimpleNamespace(chat=SimpleNamespace(completions=completions))
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "")
+
+    result = draft(client, item, "longevity", "lead", paragraph)
+
+    assert len(result["sections"]) == 4
+    assert completions.kwargs["max_tokens"] == 3200

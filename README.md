@@ -28,6 +28,14 @@ category that does not yet have a dedicated offer.
 
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
 
+## Daily edition
+
+Each run selects three unprocessed stories. The highest-ranked story becomes a
+source-enriched 600–900 word **Deep Read**; the next two become compact
+**Signals**. Only the Deep Read receives a contextual affiliate slot. The
+checked-in workflow runs once each morning at 11:17 UTC and can also be run
+manually.
+
 ## Feed portfolio
 
 The default `config/feed-portfolio.json` blends NIH, FDA, and MedlinePlus
@@ -45,7 +53,7 @@ Set `RSS_FEEDS_JSON` only when you need to override the checked-in portfolio.
 
 Add `DEEPSEEK_API_KEY` and optionally `AFFILIATE_OFFERS_JSON` as repository
 secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
-`RSS_FEEDS_JSON` can override it. The workflow runs every six hours and commits
-new drafts.
+`RSS_FEEDS_JSON` can override it. The workflow runs daily and commits new
+drafts.
 
 All generated articles should be reviewed before production publication, especially health, financial, and supplement claims.
