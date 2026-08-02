@@ -15,11 +15,16 @@ export RSS_FEED_URL="https://example.com/feed.xml"
 python -m agewell.pipeline
 ```
 
-Optional affiliate configuration is supplied as JSON:
+Optional affiliate configuration is supplied as JSON. Use encrypted HopLinks
+created and tested in ClickBank's Affiliate Link Tools; the pipeline appends a
+stable article-level tracking ID automatically:
 
 ```bash
-export AFFILIATE_OFFERS_JSON='{"mobility":"https://example.com/offer?subid=agewell-mobility"}'
+export AFFILIATE_OFFERS_JSON='{"mobility":"https://YOUR_ENCRYPTED_VALUE.hop.clickbank.net"}'
 ```
+
+An offer assigned to `general wellness` acts as the evergreen fallback for any
+category that does not yet have a dedicated offer.
 
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
 

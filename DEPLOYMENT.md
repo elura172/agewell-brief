@@ -13,7 +13,9 @@
 1. Replace `https://example.com` in `astro.config.mjs` with the production domain.
 2. Add the actual RSS or Atom feed URL as `RSS_FEED_URL`. A publisher homepage is not a feed.
 3. Add `OPENAI_API_KEY` as a GitHub Actions secret.
-4. Add `AFFILIATE_OFFERS_JSON` only after each destination link has been reviewed and approved.
+4. Add `AFFILIATE_OFFERS_JSON` only after each encrypted ClickBank HopLink has
+   been created, decoded, and tested in Affiliate Link Tools. The pipeline adds
+   article-level `tid` parameters automatically.
 5. Push the repository to GitHub and run **Aggregate health briefs** manually.
 
 ## Review loop

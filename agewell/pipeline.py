@@ -12,6 +12,7 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from openai import OpenAI
 
@@ -107,6 +108,33 @@ def offers() -> dict[str, str]:
     except json.JSONDecodeError:
         print("Ignoring invalid AFFILIATE_OFFERS_JSON", file=sys.stderr)
         return {}
+
+
+def select_offer(configured_offers: dict[str, str], category: str) -> str | None:
+    """Use a category-specific offer when available, otherwise the evergreen fallback."""
+    return configured_offers.get(category) or configured_offers.get("general wellness")
+
+
+def tracked_offer_url(base_url: str | None, category: str, article_id: str) -> str | None:
+    """Append a stable ClickBank TID to a validated HopLink.
+
+    ClickBank TIDs support lowercase letters, numbers, and underscores. Keeping
+    the account-generated HopLink intact preserves encryption and any selected
+    seller landing page.
+    """
+    if not base_url:
+        return None
+
+    parsed = urlsplit(base_url)
+    if parsed.scheme != "https" or not parsed.hostname or not parsed.hostname.endswith(".clickbank.net"):
+        raise ValueError(f"Affiliate offer is not a valid HTTPS ClickBank URL: {base_url}")
+
+    category_token = re.sub(r"[^a-z0-9_]+", "_", category.lower()).strip("_")[:32]
+    article_token = re.sub(r"[^a-z0-9_]+", "", article_id.lower())[:24]
+    tid = f"agewell_{category_token}_{article_token}"[:100]
+    query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    query["tid"] = tid
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urlencode(query), parsed.fragment))
 
 
 def draft(client: OpenAI, item: FeedItem, category: str) -> dict[str, Any]:
@@ -207,7 +235,7 @@ def run() -> int:
             continue
         category = classify(item)
         content = draft(client, item, category)
-        offer_url = configured_offers.get(category)
+        offer_url = tracked_offer_url(select_offer(configured_offers, category), category, key)
         target = OUTPUT_DIR / f"{dt.date.today()}-{slug(content['headline'])}-{key[:8]}.md"
         target.write_text(markdown(item, category, content, offer_url), encoding="utf-8")
         state.add(key)
