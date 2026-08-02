@@ -40,6 +40,8 @@ def audit_release(
     story: dict[str, Any],
     metadata_status: str,
     visual_status: str,
+    require_human_review: bool = True,
+    require_visual_review: bool = True,
 ) -> ReleaseCheck:
     reasons: list[str] = []
     if not source_url.startswith("https://"):
@@ -50,15 +52,16 @@ def audit_release(
         reasons.append("story does not contain exactly three takeaways")
     if metadata_status != "approved":
         reasons.append("image metadata alignment is not approved")
-    if visual_status not in {"human-reviewed", "vision-approved"}:
+    if require_visual_review and visual_status not in {"human-reviewed", "vision-approved"}:
         reasons.append("pixel-level image review is pending")
-    reasons.append("human editorial review is pending")
+    if require_human_review:
+        reasons.append("human editorial review is pending")
     return ReleaseCheck(
         article_id=article_id,
         publishable=not reasons,
         reasons=tuple(reasons),
         source_status="linked" if source_url.startswith("https://") else "invalid",
-        editorial_status="pending",
+        editorial_status="pending" if require_human_review else "automated-checks",
         metadata_review_status=metadata_status,
         visual_review_status=visual_status,
     )

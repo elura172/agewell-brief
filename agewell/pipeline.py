@@ -60,6 +60,8 @@ LEAD_SOURCE_CHARS = int(os.getenv("LEAD_SOURCE_CHARS", "18000"))
 MIN_LEAD_SOURCE_CHARS = int(os.getenv("MIN_LEAD_SOURCE_CHARS", "2500"))
 CANDIDATE_POOL_SIZE = int(os.getenv("CANDIDATE_POOL_SIZE", "9"))
 TREND_CANDIDATE_MIN_SCORE = float(os.getenv("TREND_CANDIDATE_MIN_SCORE", "14"))
+AUTO_PUBLISH = os.getenv("AUTO_PUBLISH", "false").lower() in {"1", "true", "yes"}
+AUTO_PUBLISH_UNTIL = os.getenv("AUTO_PUBLISH_UNTIL", "")
 PUBLIC_ROOT = Path(os.getenv("PUBLIC_ROOT", ROOT / "public"))
 EDITION_STATE_ROOT = Path(os.getenv("EDITION_STATE_ROOT", ROOT / ".state/editions"))
 IMAGE_CACHE_FILE = Path(os.getenv("IMAGE_CACHE_FILE", ROOT / ".state/image-search-cache.json"))
@@ -91,6 +93,20 @@ class DraftGenerationError(RuntimeError):
         self.attempts = attempts
         last_error = attempts[-1]["error"] if attempts else "unknown validation error"
         super().__init__(f"DeepSeek returned an invalid draft twice: {last_error}")
+
+
+def auto_publish_enabled(now: dt.datetime | None = None) -> bool:
+    """Enable hands-off publication only while the configured trial window is active."""
+    if not AUTO_PUBLISH:
+        return False
+    if not AUTO_PUBLISH_UNTIL:
+        return True
+    try:
+        cutoff = dt.date.fromisoformat(AUTO_PUBLISH_UNTIL)
+    except ValueError:
+        return False
+    current = (now or dt.datetime.now(dt.timezone.utc)).date()
+    return current < cutoff
 
 
 @dataclass(frozen=True)
@@ -732,6 +748,7 @@ def markdown(
     edition_rank: int = 1,
     edition_time: dt.datetime | None = None,
     photo: PublishedImage | None = None,
+    draft: bool = True,
 ) -> str:
     published_at = edition_time or dt.datetime.now(dt.timezone.utc)
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
@@ -779,7 +796,7 @@ image_avg_color: "{photo.avg_color}"
     return f'''---
 title: "{quote(content["headline"])}"
 date: {published_at.isoformat()}
-draft: true
+draft: {str(draft).lower()}
 category: "{quote(category)}"
 content_type: "{content_type}"
 edition_rank: {edition_rank}
@@ -831,6 +848,7 @@ def run() -> int:
     evergreen_documents = build_context_index()
 
     edition_time = dt.datetime.now(dt.timezone.utc)
+    publish_automatically = auto_publish_enabled(edition_time)
     recorder = EditionRecorder(EDITION_STATE_ROOT, edition_time)
     candidates = fetch_ranked_items(sources, state, max(MAX_ITEMS, CANDIDATE_POOL_SIZE))
     trend_topics = load_trend_topics()
@@ -1035,14 +1053,33 @@ def run() -> int:
         offer_review = commercial_integrity(category, offer_urls)
         commercial_artifacts.append({"article_id": key, **offer_review})
         release_review = release_manager(item.link, content, offer_review)
+        release_check = audit_release(
+            key,
+            item.link,
+            content,
+            metadata_status,
+            visual_status,
+            require_human_review=not publish_automatically,
+            require_visual_review=not publish_automatically,
+        )
         generated_count += 1
         target = OUTPUT_DIR / f"{recorder.edition_id}-{slug(content['headline'])}-{key[:8]}.md"
         target.write_text(
-            markdown(item, category, content, offer_urls, content_type, generated_count, edition_time, photo),
+            markdown(
+                item,
+                category,
+                content,
+                offer_urls,
+                content_type,
+                generated_count,
+                edition_time,
+                photo,
+                draft=not (publish_automatically and release_check.publishable),
+            ),
             encoding="utf-8",
         )
         release_checks.append(
-            {**audit_release(key, item.link, content, metadata_status, visual_status).to_dict(), "desk_review": release_review}
+            {**release_check.to_dict(), "desk_review": release_review}
         )
         state.add(key)
         save_state(state)

@@ -1,7 +1,7 @@
 ---
 title: "Four-minute daily exercise boosts strength and mobility in older adults - The Brighter Side of News"
 date: 2026-08-02T22:41:51.690760+00:00
-draft: true
+draft: false
 category: "general wellness"
 content_type: "lead"
 edition_rank: 1

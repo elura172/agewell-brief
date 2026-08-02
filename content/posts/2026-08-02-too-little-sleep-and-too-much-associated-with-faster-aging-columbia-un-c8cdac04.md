@@ -1,7 +1,7 @@
 ---
 title: "Too Little Sleep—and Too Much—Associated with Faster Aging - Columbia University Irving Medical Center"
 date: 2026-08-02T22:41:51.690760+00:00
-draft: true
+draft: false
 category: "sleep health"
 content_type: "signal"
 edition_rank: 2

@@ -484,6 +484,15 @@ def test_markdown_renders_two_or_three_contextual_affiliate_placements():
     assert "Affiliate disclosure" in result
 
 
+def test_auto_publish_window_expires(monkeypatch):
+    monkeypatch.setattr(pipeline, "AUTO_PUBLISH", True)
+    monkeypatch.setattr(pipeline, "AUTO_PUBLISH_UNTIL", "2026-08-09")
+    before = pipeline.dt.datetime(2026, 8, 8, tzinfo=pipeline.dt.timezone.utc)
+    after = pipeline.dt.datetime(2026, 8, 9, tzinfo=pipeline.dt.timezone.utc)
+    assert pipeline.auto_publish_enabled(before) is True
+    assert pipeline.auto_publish_enabled(after) is False
+
+
 def test_select_offers_returns_stable_approved_category_matches():
     configured = {
         "offers": [

@@ -1,7 +1,7 @@
 ---
 title: "A weak body clock may be an early warning for dementia - ScienceDaily"
 date: 2026-08-02T22:41:51.690760+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 3
