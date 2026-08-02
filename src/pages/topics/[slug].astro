@@ -1,0 +1,47 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { publishedBriefs, topicSlug } from "../../lib/publishing";
+
+export async function getStaticPaths() {
+  const entries = publishedBriefs(await getCollection("briefs"));
+  const grouped = new Map<string, typeof entries>();
+  for (const entry of entries) {
+    const current = grouped.get(entry.data.category) ?? [];
+    current.push(entry);
+    grouped.set(entry.data.category, current);
+  }
+  return [...grouped.entries()].map(([category, briefs]) => ({
+    params: { slug: topicSlug(category) },
+    props: { category, briefs }
+  }));
+}
+
+const { category, briefs } = Astro.props;
+const description = `Agewell Brief reporting and useful signals on ${category}, with original sources and practical context.`;
+---
+<Layout title={`${category} — Agewell Brief`} description={description}>
+  <main class="topic-page">
+    <a class="back-link" href="/">← Today’s edition</a>
+    <header class="topic-header">
+      <p class="eyebrow">Agewell topic desk</p>
+      <h1>{category}</h1>
+      <p>Readable reporting on {category}, with the source, the context, and the questions worth carrying forward.</p>
+    </header>
+    <section class="topic-list" aria-labelledby="topic-list-heading">
+      <div class="section-heading">
+        <h2 id="topic-list-heading" class="section-title">Published briefs</h2>
+        <p class="section-caption">{briefs.length} {briefs.length === 1 ? "brief" : "briefs"}</p>
+      </div>
+      <ol>
+        {briefs.map((entry, index) => <li>
+          <span class="topic-index">{String(index + 1).padStart(2, "0")}</span>
+          <div>
+            <p>{entry.data.date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" })} · {entry.data.source_name}</p>
+            <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
+          </div>
+        </li>)}
+      </ol>
+    </section>
+  </main>
+</Layout>

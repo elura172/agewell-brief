@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { plainTextExcerpt } from "../../lib/publishing";
+import { plainTextExcerpt, publishedBriefs, topicSlug } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
 
 export async function getStaticPaths() {
@@ -28,6 +28,9 @@ const description = plainTextExcerpt(entry.body ?? "", 190);
 const articleURL = new URL(`/brief/${entry.id}/`, Astro.site).href;
 const authorURL = new URL("/about/#editorial-desk", Astro.site).href;
 const logoURL = new URL("/logo.svg", Astro.site).href;
+const related = publishedBriefs(await getCollection("briefs"))
+  .filter((candidate) => candidate.id !== entry.id && candidate.data.category === entry.data.category)
+  .slice(0, 2);
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
@@ -38,6 +41,8 @@ const structuredData = {
   mainEntityOfPage: { "@type": "WebPage", "@id": articleURL },
   isAccessibleForFree: true,
   articleSection: entry.data.category,
+  about: { "@type": "Thing", name: entry.data.category },
+  keywords: [entry.data.category, "healthy aging", "health news"],
   author: {
     "@type": "Organization",
     name: entry.data.author,
@@ -87,6 +92,16 @@ const structuredData = {
       eager={true}
     />}
     <div class="article-content"><Content /></div>
+    {related.length > 0 && <section class="related-briefs" aria-labelledby="related-heading">
+      <div>
+        <p class="eyebrow">Continue the thread</p>
+        <h2 id="related-heading">More on {entry.data.category}</h2>
+        <a class="topic-link" href={`/topics/${topicSlug(entry.data.category)}/`}>Browse the full topic <span>→</span></a>
+      </div>
+      <ol>
+        {related.map((candidate) => <li><a href={`/brief/${candidate.id}/`}>{candidate.data.title}</a><span>{candidate.data.source_name}</span></li>)}
+      </ol>
+    </section>}
     <footer class="article-footer"><span>Keep asking better questions.</span><a href="/#subscribe">Get tomorrow’s edition →</a></footer>
   </article>
 </Layout>

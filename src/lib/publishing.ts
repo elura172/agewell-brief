@@ -4,6 +4,10 @@ export type BriefEntry = CollectionEntry<"briefs">;
 
 type ImageData = BriefEntry["data"];
 
+export function topicSlug(value: string): string {
+  return value.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
 export function publishedBriefs(entries: BriefEntry[]): BriefEntry[] {
   return entries
     .filter((entry) => !entry.data.draft)
