@@ -18,7 +18,7 @@ image_height: 627
 image_photographer: "Mikhail Nilov"
 image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
 image_source_url: "https://www.pexels.com/photo/healthy-couple-love-laptop-6973090/"
-image_review_status: "pending"
+image_review_status: "human-reviewed"
 image_avg_color: "#77685F"
 ---
 

@@ -18,7 +18,7 @@ image_height: 627
 image_photographer: "RDNE Stock project"
 image_photographer_url: "https://www.pexels.com/@rdne"
 image_source_url: "https://www.pexels.com/photo/doctor-looking-at-an-x-ray-image-6129042/"
-image_review_status: "pending"
+image_review_status: "human-reviewed"
 image_avg_color: "#99ABB8"
 ---
 

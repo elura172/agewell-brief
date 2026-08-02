@@ -16,6 +16,7 @@ from agewell.pipeline import (
     feed_sources,
     normalized_title,
     markdown,
+    normalize_source_url,
     relevance_score,
     select_ranked_items,
     select_offer,
@@ -28,6 +29,7 @@ from agewell.editorial import (
     EvidencePacket,
     ImageBrief,
     build_evidence_packet,
+    direct_image,
     review_image_metadata,
 )
 from agewell.images import (
@@ -48,6 +50,16 @@ def test_classify_mobility():
 def test_classify_alzheimers_as_brain_health():
     item = FeedItem("A new Alzheimer's blood test", "Researchers report early findings", "https://example.test/brain", "")
     assert classify(item) == "brain health"
+
+
+def test_classify_tainted_supplement_alert_as_consumer_safety():
+    item = FeedItem("Tainted supplement product notification", "Hidden drug warning", "https://example.test/safety", "")
+    assert classify(item) == "consumer safety"
+
+
+def test_fda_legacy_links_are_upgraded_to_https():
+    assert normalize_source_url("http://www.fda.gov/drugs/example") == "https://www.fda.gov/drugs/example"
+    assert normalize_source_url("http://example.test/story") == "http://example.test/story"
 
 
 def test_slug_is_stable():
@@ -245,6 +257,24 @@ def test_metadata_review_normalizes_string_concerns_and_can_reject_all_candidate
     assert result.metadata_status == "rejected"
     assert result.selected_candidate_id == ""
     assert result.concerns == ("Generic lifestyle image does not show the reported subject.",)
+
+
+def test_image_director_uses_story_specific_fallback_queries():
+    class FakeCompletions:
+        def create(self, **_kwargs):
+            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content="{}"))])
+
+    client = SimpleNamespace(chat=SimpleNamespace(completions=FakeCompletions()))
+    result = direct_image(
+        client,
+        "deepseek-test",
+        "Mediterranean diet may protect the heart",
+        "brain health",
+        {"headline": "Diet finding"},
+    )
+
+    assert result.search_queries[0] == "Mediterranean food preparation"
+    assert all("daily life" not in query for query in result.search_queries)
 
 
 def test_markdown_keeps_photo_and_attribution_metadata_together():

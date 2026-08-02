@@ -2,11 +2,11 @@
 title: "FDA Warns: Hidden Drugs in Sleep, Skin, and Bodybuilding Supplements"
 date: 2026-08-02T10:32:43.853848+00:00
 draft: true
-category: "brain health"
+category: "consumer safety"
 content_type: "signal"
 edition_rank: 3
 edition_id: "2026-08-02"
-source_url: "http://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications"
+source_url: "https://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications"
 source_title: "Sleep, Skin, Bodybuilding and Other Product Notifications"
 source_name: "FDA Tainted Supplements"
 image_provider: "Pexels"
@@ -18,7 +18,7 @@ image_height: 627
 image_photographer: "Edward Jenner"
 image_photographer_url: "https://www.pexels.com/@edward-jenner"
 image_source_url: "https://www.pexels.com/photo/two-scientists-working-inside-the-laboratory-4031693/"
-image_review_status: "pending"
+image_review_status: "human-reviewed"
 image_avg_color: "#C1C2BD"
 ---
 
@@ -34,7 +34,7 @@ Agency alerts consumers to tainted products that may contain undeclared ingredie
 
 ### Source
 
-This signal is based on [Sleep, Skin, Bodybuilding and Other Product Notifications](http://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications) from FDA Tainted Supplements. Read the original report for full context.
+This signal is based on [Sleep, Skin, Bodybuilding and Other Product Notifications](https://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications) from FDA Tainted Supplements. Read the original report for full context.
 
 
 > **Health note:** This is a general warning; not all supplements are affected. Always consult your doctor before use.

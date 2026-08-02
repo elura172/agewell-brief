@@ -88,6 +88,14 @@ def clean_text(value: str | None) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def normalize_source_url(value: str) -> str:
+    """Upgrade known publisher links that still arrive as legacy HTTP URLs."""
+    parsed = urlsplit(value)
+    if parsed.scheme == "http" and parsed.hostname in {"fda.gov", "www.fda.gov"}:
+        return urlunsplit(("https", parsed.netloc, parsed.path, parsed.query, parsed.fragment))
+    return value
+
+
 def child_text(item: ET.Element, names: tuple[str, ...]) -> str:
     for child in list(item):
         if child.tag.rsplit("}", 1)[-1] in names and child.text:
@@ -145,6 +153,7 @@ def fetch_items(source: FeedSource) -> list[FeedItem]:
                 if node.tag.rsplit("}", 1)[-1] == "link" and node.attrib.get("href"):
                     link = node.attrib["href"]
                     break
+        link = normalize_source_url(link)
         title = child_text(item, ("title",))
         summary = child_text(item, ("description", "summary", "content"))
         published = child_text(item, ("pubDate", "published", "updated"))
@@ -342,6 +351,7 @@ def choose_edition(candidates: list[FeedItem]) -> list[tuple[FeedItem, str, str 
 def classify(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     rules = {
+        "consumer safety": ("health fraud", "tainted", "hidden drug", "product notification", "recall"),
         "mobility": ("joint", "arthritis", "knee", "back pain", "balance", "walking"),
         "metabolic health": ("blood sugar", "glucose", "insulin", "metabolic", "diabetes"),
         "brain health": ("memory", "cognition", "brain", "dementia", "alzheimer", "parkinson", "sleep"),

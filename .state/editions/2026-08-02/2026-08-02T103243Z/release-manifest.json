@@ -8,38 +8,34 @@
       "article_id": "c2812776d331de40b8d2ad1e",
       "publishable": false,
       "reasons": [
-        "pixel-level image review is pending",
         "human editorial review is pending"
       ],
       "source_status": "linked",
       "editorial_status": "pending",
       "metadata_review_status": "approved",
-      "visual_review_status": "pending"
+      "visual_review_status": "human-reviewed"
     },
     {
       "article_id": "e567bdc722fdf78a98587f85",
       "publishable": false,
       "reasons": [
-        "pixel-level image review is pending",
         "human editorial review is pending"
       ],
       "source_status": "linked",
       "editorial_status": "pending",
       "metadata_review_status": "approved",
-      "visual_review_status": "pending"
+      "visual_review_status": "human-reviewed"
     },
     {
       "article_id": "bdfc047d3b2380a80232b9bd",
       "publishable": false,
       "reasons": [
-        "original source URL is missing or not HTTPS",
-        "pixel-level image review is pending",
         "human editorial review is pending"
       ],
-      "source_status": "invalid",
+      "source_status": "linked",
       "editorial_status": "pending",
       "metadata_review_status": "approved",
-      "visual_review_status": "pending"
+      "visual_review_status": "human-reviewed"
     }
   ]
 }

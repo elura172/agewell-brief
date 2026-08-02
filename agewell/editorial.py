@@ -17,6 +17,27 @@ def _string_tuple(value: Any) -> tuple[str, ...]:
     return tuple(str(item).strip() for item in value if str(item).strip())
 
 
+def _fallback_image_queries(source_title: str, category: str) -> tuple[str, str, str]:
+    title = source_title.lower()
+    if any(term in title for term in ("diet", "food", "nutrition", "mediterranean")):
+        return ("Mediterranean food preparation", "older adult cooking vegetables", "heart healthy meal ingredients")
+    if any(term in title for term in ("supplement", "hidden drug", "product notification", "fraud", "recall")):
+        return ("scientists testing supplements laboratory", "pharmacist checking medicine label", "quality control laboratory researchers")
+    if any(term in title for term in ("speech", "language", "voice")):
+        return ("speech neuroscience research laboratory", "speech therapy assistive technology", "brain researcher computer laboratory")
+    if category == "brain health":
+        return ("neuroscience researcher brain scan", "brain imaging laboratory researcher", "cognitive research computer laboratory")
+    if category == "mobility":
+        return ("older adult walking outdoors", "physical therapist mobility session", "strength training older adult")
+    if category == "metabolic health":
+        return ("metabolic research laboratory", "blood glucose research scientist", "healthy meal preparation adult")
+    if category == "consumer safety":
+        return ("scientists testing supplements laboratory", "pharmacist checking medicine label", "quality control laboratory researchers")
+    if category == "longevity":
+        return ("aging research laboratory scientist", "active older adult outdoors", "cell biology research microscope")
+    return ("health researcher laboratory", "active adult daily life", "medical research natural light")
+
+
 @dataclass(frozen=True)
 class EvidencePacket:
     study_type: str
@@ -166,6 +187,15 @@ def direct_image(
         "source_title": source_title,
         "category": category,
         "story": story,
+        "output": {
+            "editorial_intent": "one sentence",
+            "subject": "specific visible subject",
+            "setting": "specific visible setting",
+            "mood": "three concise adjectives",
+            "composition": "landscape editorial composition",
+            "avoid": "array of visual exclusions",
+            "search_queries": "array of exactly three concrete stock-photo queries",
+        },
         "requirements": [
             "Direct an editorial photograph, not an advertisement or literal medical promise.",
             "Prefer human situations, research environments, movement, food, or place when genuinely relevant.",
@@ -185,8 +215,9 @@ def direct_image(
         1000,
     )
     queries = _string_tuple(result.get("search_queries", []))
-    if not queries:
-        queries = (f"{category} healthy daily life", "health research natural light", "active adult everyday life")
+    generic_markers = ("healthy daily life", "health research natural light", "active adult everyday life")
+    if len(queries) < 3 or any(marker in query.lower() for query in queries for marker in generic_markers):
+        queries = _fallback_image_queries(source_title, category)
     avoid = _string_tuple(result.get("avoid", []))
     return ImageBrief(
         editorial_intent=str(result.get("editorial_intent", "Show the story's human relevance without overclaiming.")).strip(),

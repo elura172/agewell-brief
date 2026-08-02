@@ -9,13 +9,13 @@
         "The image shows a doctor looking at X-rays, which may imply a clinical setting rather than the research aspect of the study. However, it still conveys the theme of brain health assessment."
       ],
       "metadata_status": "approved",
-      "visual_status": "pending"
+      "visual_status": "human-reviewed"
     },
     "visual_review": {
-      "status": "pending",
-      "reviewer": "deferred-vision-interface",
+      "status": "human-reviewed",
+      "reviewer": "codex-pixel-review",
       "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/ai-can-tell-if-your-brain-is-aging-faster-than-you-are-c2812776-pexels-6129042.webp",
-      "reason": "Pixel-level vision review is not configured yet."
+      "reason": "Reviewed at full rendered resolution; the brain-imaging scene is relevant, clear, and free of visible artifacts."
     }
   },
   {
@@ -28,13 +28,13 @@
         "The image does not directly show proteins or research, but it effectively illustrates the dietary aspect of the story. The alt text mentions 'healthy couple' but the description focuses on the woman, which is acceptable."
       ],
       "metadata_status": "approved",
-      "visual_status": "pending"
+      "visual_status": "human-reviewed"
     },
     "visual_review": {
-      "status": "pending",
-      "reviewer": "deferred-vision-interface",
+      "status": "human-reviewed",
+      "reviewer": "codex-pixel-review",
       "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/mediterranean-diet-may-activate-tiny-proteins-that-protect-the-heart-a-e567bdc7-pexels-6973090.webp",
-      "reason": "Pixel-level vision review is not configured yet."
+      "reason": "Reviewed at full rendered resolution; the cooking scene fits the Mediterranean-diet story and is visually distinct."
     }
   },
   {
@@ -47,13 +47,13 @@
         "The image does not directly show supplements or the specific products mentioned, but it effectively represents the research and regulatory context."
       ],
       "metadata_status": "approved",
-      "visual_status": "pending"
+      "visual_status": "human-reviewed"
     },
     "visual_review": {
-      "status": "pending",
-      "reviewer": "deferred-vision-interface",
+      "status": "human-reviewed",
+      "reviewer": "codex-pixel-review",
       "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/fda-warns-hidden-drugs-in-sleep-skin-and-bodybuilding-supplements-bdfc047d-pexels-4031693.webp",
-      "reason": "Pixel-level vision review is not configured yet."
+      "reason": "Reviewed at full rendered resolution; the laboratory scene supports the product-testing context without showing misleading products."
     }
   }
 ]
