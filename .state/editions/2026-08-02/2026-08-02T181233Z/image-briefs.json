@@ -1,0 +1,68 @@
+[
+  {
+    "article_id": "935dcd2d5d3191c52a1a5bfe",
+    "editorial_intent": "Show a researcher in a neuroscience lab examining brain activity data, conveying the scientific breakthrough in understanding sleep disruption in Alzheimer's.",
+    "subject": "A neuroscientist in a lab coat analyzing EEG data on a computer screen",
+    "setting": "A modern neuroscience laboratory with brain imaging monitors and equipment",
+    "mood": "focused, hopeful, scientific",
+    "composition": "Medium shot, researcher in foreground, lab equipment and monitors in background, shallow depth of field",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "sleeping elderly",
+      "amyloid plaques",
+      "microglia cells"
+    ],
+    "search_queries": [
+      "neuroscientist analyzing brain waves computer",
+      "researcher examining EEG data laboratory",
+      "scientist studying brain activity monitor"
+    ]
+  },
+  {
+    "article_id": "c13bc031dcb7b38a112173a6",
+    "editorial_intent": "Show a researcher in a lab examining brain scans or samples related to Alzheimer's and obesity research, conveying scientific discovery and hope.",
+    "subject": "a middle-aged female scientist in a lab coat looking at a brain scan on a monitor",
+    "setting": "a modern neuroscience laboratory with microscopes and computer screens",
+    "mood": "focused, hopeful, scientific",
+    "composition": "landscape orientation, subject on one side, lab equipment and screens on the other",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "obese individuals",
+      "food close-ups"
+    ],
+    "search_queries": [
+      "scientist examining brain scan in laboratory",
+      "researcher looking at microscope in neuroscience lab",
+      "brain scan on computer screen in lab"
+    ]
+  },
+  {
+    "article_id": "d64e52fc0058e5a16aba471d",
+    "editorial_intent": "Show a realistic, hopeful scene of an older woman engaging in mindful eating within a limited time window, emphasizing cognitive health without medical claims.",
+    "subject": "An older woman with a thoughtful expression, looking at a clock while eating a healthy meal",
+    "setting": "A bright, modern kitchen with a wall clock visible, natural light, and simple food on the table",
+    "mood": "calm, focused, optimistic",
+    "composition": "Landscape orientation, subject positioned off-center with the clock in the background, shallow depth of field",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "overly staged or clinical settings"
+    ],
+    "search_queries": [
+      "older woman eating healthy meal clock",
+      "senior woman mindful eating kitchen",
+      "older adult time-restricted eating meal"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+---
+title: "Scientists discover how obesity may fuel Alzheimer’s disease"
+date: 2026-08-02T18:12:33.536021+00:00
+draft: true
+category: "mobility"
+content_type: "signal"
+edition_rank: 2
+edition_id: "2026-08-02"
+source_url: "https://www.sciencedaily.com/releases/2026/07/260729051531.htm"
+source_title: "Scientists discover how obesity may fuel Alzheimer’s disease"
+source_name: "ScienceDaily Top Health"
+image_provider: "Pexels"
+image_provider_id: "4226264"
+image: "/images/editions/2026-08-02/scientists-discover-how-obesity-may-fuel-alzheimer-s-disease-c13bc031-pexels-4226264.webp"
+image_alt: "Radiologist pointing at brain MRI scans showing detailed medical examination."
+image_width: 1200
+image_height: 627
+image_photographer: "Anna Shvets"
+image_photographer_url: "https://www.pexels.com/@shvetsa"
+image_source_url: "https://www.pexels.com/photo/close-up-shot-of-mri-results-4226264/"
+image_review_status: "pending"
+image_avg_color: "#868E93"
+---
+
+New research in Alzheimer's models suggests obesity-related fats can reach the brain, disrupt immune defenses, and boost amyloid buildup. Correcting the imbalance improved memory.
+
+
+
+## Three things to remember
+
+- Obesity may raise brain levels of certain fat molecules.
+- These fats can disrupt the brain's immune defenses.
+- Correcting the imbalance improved memory in Alzheimer's models.
+
+### Source
+
+This signal is based on [Scientists discover how obesity may fuel Alzheimer’s disease](https://www.sciencedaily.com/releases/2026/07/260729051531.htm) from ScienceDaily Top Health. Read the original report for full context.
+
+
+> **Health note:** This was a laboratory study in Alzheimer's models, not humans. It does not prove obesity causes Alzheimer's or that weight loss prevents or cures the disease.

@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "935dcd2d5d3191c52a1a5bfe",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8877090",
+      "score": 85,
+      "rationale": "The image depicts a man in a white coat in a laboratory with monitors, which aligns with the editorial intent of a neuroscientist analyzing brain activity data. The setting is modern and scientific, and the mood appears focused and hopeful. It avoids the listed pitfalls such as pills, sleeping elderly, or amyloid plaques.",
+      "concerns": [
+        "The image may not explicitly show EEG data or brain activity, but the presence of monitors and a lab coat suggests scientific analysis. The metadata does not specify the exact nature of the monitors, but it is sufficiently aligned with the intended subject."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/alzheimer-s-breakthrough-scientists-restore-two-hours-of-sleep-without-935dcd2d-pexels-8877090.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "c13bc031dcb7b38a112173a6",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:4226264",
+      "score": 85,
+      "rationale": "This image directly matches the editorial intent of a researcher examining brain scans related to Alzheimer's research. The alt text describes a radiologist pointing at brain MRI scans, which aligns with the scientific and hopeful mood. It avoids stereotypes and focuses on the medical imaging aspect of the story.",
+      "concerns": [
+        "The image may not explicitly show obesity-related elements, but the story is about the link between obesity and Alzheimer's, and the image conveys the research aspect. The setting is likely a medical environment, which is appropriate."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/scientists-discover-how-obesity-may-fuel-alzheimer-s-disease-c13bc031-pexels-4226264.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "d64e52fc0058e5a16aba471d",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:7261107",
+      "score": 85,
+      "rationale": "The image depicts a senior woman enjoying a healthy breakfast in a modern kitchen, which aligns with the story's focus on older adults and time-restricted eating. The setting and mood are calm and optimistic, matching the editorial intent. The metadata does not suggest any negative stereotypes or medical claims.",
+      "concerns": [
+        "The image does not explicitly show a clock, which is part of the editorial intent, but the overall composition and subject are appropriate. The alt text emphasizes positive aging and nutrition, which is suitable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/time-restricted-eating-may-help-retain-cognitive-function-in-older-adu-d64e52fc-pexels-7261107.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

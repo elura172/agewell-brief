@@ -1,0 +1,70 @@
+[
+  {
+    "article_id": "935dcd2d5d3191c52a1a5bfe",
+    "study_type": "animal study",
+    "key_claims": [
+      "Microglia, the brain's immune cells, are the main drivers of sleep loss in an animal model of Alzheimer's disease.",
+      "Temporarily removing most microglia with the drug Pexidartinib restored more than two hours of sleep per day in mice with Alzheimer's-related pathology.",
+      "The sleep improvement occurred even though amyloid plaque levels did not change.",
+      "Normal aging primarily reduced REM sleep, while amyloid pathology selectively reduced NREM sleep.",
+      "The study identified patterns of electrical brain activity that appear to distinguish Alzheimer's-related changes from normal aging."
+    ],
+    "limitations": [
+      "The study was conducted in mice, not humans.",
+      "The drug used to deplete microglia is not currently used for Alzheimer's in humans.",
+      "The long-term effects of microglia depletion are unknown.",
+      "The study does not prove that restoring sleep in humans would interrupt the disease process."
+    ],
+    "what_not_to_say": [
+      "The drug Pexidartinib is a treatment for Alzheimer's disease.",
+      "Microglia depletion is a safe or viable therapy for humans.",
+      "The findings directly apply to humans with Alzheimer's disease.",
+      "The study proves that inflammation causes sleep loss in Alzheimer's.",
+      "The study shows that restoring sleep will slow or stop Alzheimer's progression."
+    ],
+    "confidence": "high"
+  },
+  {
+    "article_id": "c13bc031dcb7b38a112173a6",
+    "study_type": "laboratory study",
+    "key_claims": [
+      "Obesity may raise levels of certain fat molecules that can travel to the brain.",
+      "These fat molecules may disrupt the brain's immune defenses.",
+      "The fat molecules may promote harmful amyloid buildup.",
+      "Correcting the fat imbalance improved memory and brain function in Alzheimer's models."
+    ],
+    "limitations": [
+      "The study was conducted in Alzheimer's models, not humans.",
+      "The exact mechanism is not fully detailed.",
+      "The source does not specify the type of fat molecules or the nature of the correction.",
+      "The source does not provide information on the study's sample size or duration."
+    ],
+    "what_not_to_say": [
+      "The study proves that obesity causes Alzheimer's disease.",
+      "The study shows that weight loss can prevent or cure Alzheimer's disease.",
+      "The study identifies a specific drug or treatment for Alzheimer's disease.",
+      "The study provides evidence that all obese individuals are at higher risk for Alzheimer's."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "d64e52fc0058e5a16aba471d",
+    "study_type": "pilot clinical trial",
+    "key_claims": [
+      "A small clinical trial suggests it may be possible to reduce the risk of dementia by eating during fewer hours of the day.",
+      "The pilot study involved a weight-loss program for older women with overweight or obesity.",
+      "Modest cognitive improvements were observed among those who limited their daily eating window instead of just reducing calorie intake."
+    ],
+    "limitations": [
+      "The study was small and a pilot, so results are preliminary.",
+      "The study involved only older women with overweight or obesity, so findings may not generalize.",
+      "The cognitive improvements were modest, and the long-term impact on dementia risk is not established."
+    ],
+    "what_not_to_say": [
+      "Time-restricted eating definitively reduces dementia risk.",
+      "Time-restricted eating is proven to prevent cognitive decline.",
+      "The study provides strong evidence for cognitive benefits."
+    ],
+    "confidence": "limited"
+  }
+]
