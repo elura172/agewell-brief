@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "9e548064819f48287a3efbec",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:6929463",
+      "score": 50,
+      "rationale": "Deterministic fallback selected the strongest available landscape candidate.",
+      "concerns": [
+        "Metadata proofreader was unavailable."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064-pexels-6929463.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "0c1df71cc299aae268fc1a2f",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:10566162",
+      "score": 50,
+      "rationale": "Deterministic fallback selected the strongest available landscape candidate.",
+      "concerns": [
+        "Metadata proofreader was unavailable."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/brain-fluid-structure-may-flag-future-dementia-risk-years-before-diagn-0c1df71c-pexels-10566162.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "269642299239b37d3444eab0",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:37720004",
+      "score": 50,
+      "rationale": "Deterministic fallback selected the strongest available landscape candidate.",
+      "concerns": [
+        "Metadata proofreader was unavailable."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229-pexels-37720004.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

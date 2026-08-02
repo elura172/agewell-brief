@@ -1,0 +1,70 @@
+[
+  {
+    "article_id": "9e548064819f48287a3efbec",
+    "content_type": "lead",
+    "headline": "Brain Cell Activity During Speech Decoded by AI: A Step Toward Thought-to-Speech Devices",
+    "dek": "NIH-funded researchers used machine learning to link single-neuron recordings to the grammar, meaning, and context of spoken sentences, offering new insights into the brain's language machinery.",
+    "bullets": [
+      "AI predicted grammar, meaning, and context from neuron activity.",
+      "Single-cell recordings reveal how brain encodes language.",
+      "Research may lead to future speech-restoring technologies."
+    ],
+    "caveat": "This is early-stage research; no clinical application is available yet.",
+    "sections": [
+      {
+        "heading": "Why This Matters",
+        "paragraphs": [
+          "For millions of people with communication disorders, the inability to speak can be isolating. Conditions like ALS, stroke, or cerebral palsy can rob individuals of their voice, even when their minds remain sharp. Current assistive technologies, such as eye-tracking or brain-computer interfaces, are often slow and limited. This new research, funded by the National Institutes of Health, brings us closer to a future where thoughts could be translated directly into speech, restoring a fundamental human connection.",
+          "The study, published in Nature, is the first to describe how individual brain cells encode language during natural conversation. By understanding these building blocks, scientists hope to develop more natural and rapid communication aids. As Dr. Debara Tucci, director of NIH's NIDCD, notes, this level of detail is essential for creating technologies that can truly restore speech for those who have lost it."
+        ]
+      },
+      {
+        "heading": "What Was Found",
+        "paragraphs": [
+          "Researchers at Massachusetts General Hospital recorded brain activity from eight patients who were already undergoing epilepsy monitoring. These patients had microelectrode arrays implanted in their brains, allowing scientists to capture the firing of hundreds of individual neurons in the frontotemporal cortex, a region linked to speech production. While the patients engaged in natural, flowing conversations, the team synchronized their brain recordings with transcriptions of what they said.",
+          "Using natural language processing models, the researchers discovered that neuronal activity just before speaking could predict many features of the upcoming speech, regardless of the topic. They found a division of labor: some neurons encoded basic information like word meanings and roles, while others handled more complex tasks like structuring phrases into sentences. The models could even distinguish between similar phrases, indicating that the brain activity captured the unique context of each sentence."
+        ]
+      },
+      {
+        "heading": "How to Interpret This",
+        "paragraphs": [
+          "This is a foundational discovery, not a ready-to-use device. The study shows that language is represented at the level of single neurons in a highly organized way. However, the research was conducted in a controlled setting with a small number of participants, and the AI models were trained on their specific brain activity. It's not yet clear if these patterns are universal across all people.",
+          "The findings are promising, but they are a step in a long journey. As first author Dr. Jing Cai explains, this work 'sets the table' for answering deeper questions about how the brain produces speech. It does not mean that mind-reading is imminent, nor does it suggest that we can decode thoughts at will. Instead, it offers a clearer map of the neural terrain, which could guide future technologies."
+        ]
+      },
+      {
+        "heading": "Practical Next Steps",
+        "paragraphs": [
+          "For now, this research is a scientific advance, not a clinical treatment. People with communication disorders should continue to work with their healthcare providers to explore existing assistive technologies. There is no immediate action to take based on this study, but it underscores the importance of ongoing research into brain-computer interfaces.",
+          "Looking ahead, scientists will need to replicate these findings in larger, more diverse groups and explore whether similar neural codes exist in other brain regions. They will also need to develop algorithms that can work in real-time and in everyday settings. For the public, staying informed about such research is valuable, as it may eventually lead to breakthroughs that improve quality of life for many."
+        ]
+      }
+    ]
+  },
+  {
+    "article_id": "0c1df71cc299aae268fc1a2f",
+    "content_type": "signal",
+    "headline": "Brain fluid structure may flag future dementia risk years before diagnosis",
+    "dek": "New research suggests that the structure of brain fluid could serve as an early warning sign for dementia, potentially enabling earlier interventions.",
+    "bullets": [
+      "Dementia affects over 57 million people worldwide.",
+      "Biological markers may help estimate individual risk.",
+      "Early detection could delay onset or slow progression."
+    ],
+    "caveat": "This is early research; more studies are needed to confirm these findings.",
+    "sections": []
+  },
+  {
+    "article_id": "269642299239b37d3444eab0",
+    "content_type": "signal",
+    "headline": "Blocking a mitochondrial transporter may curb inflammation from 'zombie' cells without killing them",
+    "dek": "Researchers find that faulty mitochondria and epigenetic changes switch on inflammatory genes in senescent 'zombie' cells, hinting at a new anti-inflammatory target.",
+    "bullets": [
+      "Dysfunctional mitochondria help aging cells turn on inflammatory genes.",
+      "This mechanism links cellular aging to chronic inflammation in age-related diseases.",
+      "Blocking a mitochondrial transporter may curb inflammation without killing cells."
+    ],
+    "caveat": "This is early research; no treatment or cure is implied.",
+    "sections": []
+  }
+]
