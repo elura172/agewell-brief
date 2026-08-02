@@ -1,212 +1,393 @@
 # Topic-Agnostic Publishing Workflow
 
-This document describes the reusable system behind Agewell Brief. Replace the
-topic, source portfolio, editorial voice, and commercial offers to reproduce
-the same engine for another publication.
+This is the reusable operating manual for the Agewell Brief engine. It records
+the system we built and the decisions made during deployment. To reuse it for
+another publication, replace the identity, source portfolio, categories,
+editorial register, images, and commercial configuration; keep the orchestration,
+audits, and release gates.
 
-## 1. System shape
+## 1. What the system does
 
 ```text
-RSS / Atom feeds
-      ↓
-source selection and deduplication
-      ↓
-source-page extraction
-      ↓
-evidence analyst
-      ↓
-story editor
-      ↓
-image director → image search → metadata proofreader → optional vision review
-      ↓
-Markdown draft + audit artifacts
-      ↓
-human review
-      ↓
-static build → hosting → RSS / sitemap / social distribution
+RSS / Atom sources + trend radar
+            ↓
+source normalization, sanitation, deduplication
+            ↓
+Assignment Editor selects the edition lineup
+            ↓
+evidence analyst → story writer → copy editor
+            ↓
+image director → Pexels/Pixabay search → metadata proofreader
+            ↓
+commercial integrity → release manager
+            ↓
+Markdown + audit bundle
+            ↓
+Astro build → Cloudflare deployment → RSS / sitemaps / search discovery
 ```
 
-The system is intentionally modular. A new publication changes configuration
-and editorial prompts, not the core orchestration pattern.
+The pipeline is an editorial desk with deterministic safeguards around the
+language models. The models assist with selection, synthesis, and presentation;
+they do not replace source links, evidence boundaries, attribution, or release
+audits.
 
-## 2. Content inputs
+Current production components:
 
-Maintain a feed portfolio in `config/feed-portfolio.json`. Each source should
-have a name, a real RSS or Atom URL, a priority, and an optional publisher
-group. Use several source types:
+- Python orchestration in `agewell/`.
+- Astro frontend in `src/`.
+- Feed and trend configuration in `config/`.
+- Scheduled GitHub Actions in `.github/workflows/aggregate.yml`.
+- Static deployment through Cloudflare Workers Builds.
+- Public site: `https://agewellbrief.com`.
+- Repository: `https://github.com/elura172/agewell-brief`.
 
-- authoritative or primary sources for factual grounding;
-- specialist publications for discovery and variety;
-- public-interest or consumer-safety sources for useful alerts;
-- optional local or first-party material, clearly labeled as context rather
-  than independent evidence.
+## 2. Repository and environment setup
 
-The ingestion layer fetches feeds, supports RSS and Atom, sanitizes malformed
-HTML entities, normalizes known URLs, deduplicates by normalized title, and
-filters previously processed links using a SHA-256 article ID.
+Use a private GitHub repository for source code, configuration, generated
+content, and audit artifacts. Keep secrets out of Git, Markdown, prompts,
+screenshots, and state files.
 
-## 3. Selection and edition structure
+Local setup:
 
-The selector ranks stories using source priority, topic relevance, freshness,
-and diversity. A publisher cap prevents one outlet from filling the edition.
+```bash
+cd /Users/mirrr/agewell-brief
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+npm install
+```
 
-The default edition contains:
+Required runtime configuration is supplied as local environment variables or
+GitHub Actions secrets. The current workflow uses:
 
-- one source-enriched lead analysis;
-- two short signals;
-- one image per item when a suitable, attributed image is available.
+- `DEEPSEEK_API_KEY` and `LLM_BASE_URL`/`LLM_MODEL` for generation.
+- `RSS_FEED_URL` or `RSS_FEEDS_JSON` for the feed portfolio.
+- `AFFILIATE_OFFERS_JSON` for reviewed commercial links.
+- `PEXELS_API_KEY` and `PIXABAY_API_KEY` for image search.
+- Optional publishing controls: `AUTO_PUBLISH`, `AUTO_PUBLISH_UNTIL`,
+  `MAX_ITEMS`, and `MAX_ITEMS_PER_PUBLISHER`.
 
-The lead is promoted only when enough source-page material is available. A
-summary-only item remains a short signal instead of being padded.
+Never paste actual API keys into this document. Rotate a key immediately if it
+appears in shell history, a commit, a log, or a chat transcript.
 
-## 4. Editorial agent chain
+## 3. Source portfolio
 
-Each agent has one job and receives only the material required for that job.
+Maintain real RSS or Atom URLs in `config/feed-portfolio.json`; a website
+homepage is not a feed. Each source records its publisher, authority class,
+priority, categories, headline mode, daily cap, and whether a secondary check is
+required.
 
-### Evidence analyst
+Use a balanced portfolio:
 
-Extracts study type, supported claims, limitations, confidence, and claims the
-source does not justify. It must not invent numbers, institutions, causation,
-or medical advice.
+- primary research and public-health sources for factual grounding;
+- specialist science and medicine publications for discovery and variety;
+- consumer-safety and regulatory sources for practical alerts;
+- carefully selected general-interest or alternative-health sources for
+  reader relevance, with claims checked against stronger sources where needed.
 
-### Story editor
+The active portfolio includes NIH, FDA, MedlinePlus, Medical Xpress,
+ScienceDaily, The Guardian's alternative-medicine feed, and Alternative
+Medicine Magazine. WorldwideHealth remains in
+`config/potential-signal-feeds.json` until it proves useful and reliable.
 
-Produces structured JSON containing a headline, introduction, sections,
-takeaways, and caveat. It uses the source material as the factual boundary and
-the evidence packet as a guardrail.
+The ingestion layer:
 
-The publication register should be clear, spirited, respectful, concrete, and
-varied. Style guidance is preference, not a rigid template.
+1. fetches RSS and Atom documents with a clear user agent;
+2. sanitizes malformed entities and hostile or irrelevant markup;
+3. normalizes titles, links, publishers, dates, and summaries;
+4. extracts source pages when permitted and useful;
+5. deduplicates by normalized URL/title and SHA-256 article ID;
+6. applies publisher and category caps;
+7. records failures rather than silently dropping them.
 
-### Image director
+Source variety is not a substitute for evidence. A discovery source can inspire
+a brief, while the final wording must stay within the source material and any
+available corroboration.
 
-Creates an editorial image brief: subject, setting, mood, composition,
-avoid-list, and several search queries. It should favor authentic editorial
-images over product shots, fear imagery, stereotypes, or generic medical
-drama.
+## 4. Trend-led selection
 
-### Image broker
+`config/trend-seeds.json` defines durable topic families such as healthy aging,
+sleep, circadian health, brain health, mobility, metabolic health, consumer
+safety, and nutrition. `scripts/trend_radar.py` queries Google News RSS for
+those seeds, scores freshness and relevance, and writes trend artifacts under
+`.state/trends/`.
 
-Searches configured providers such as Pexels and Pixabay, caches results,
-avoids reused images and creators, downloads only the selected image, and
-preserves provider and photographer attribution.
+Strong radar topics become real `FeedItem` candidates. The pipeline therefore
+does not merely rank stories already in the RSS portfolio; it can discover a
+timely angle and then seek source material for it.
 
-### Metadata proofreader
+Selection should optimize for a useful mix, not raw volume:
 
-Checks whether the selected image actually fits the story brief using metadata.
-This is not pixel-level vision. A future vision-capable reviewer may replace
-the deferred visual gate, but the system must never claim visual review that
-did not happen.
+- timely signals with a clear reader reason to care;
+- evergreen context that explains recurring themes;
+- source and category diversity;
+- enough evidence for the intended article length;
+- no duplicate angle or repetitive headline pattern.
 
-## 5. Output contract
+Run the radar manually when calibrating a new topic:
 
-Every generated article contains frontmatter for:
+```bash
+python3 -m scripts.trend_radar
+```
 
-- title, date, draft status, category, and content type;
+Treat trend scores as editorial leads, not proof of medical importance or search
+demand. Verify every selected item against the linked source.
+
+## 5. Editorial desk and subagents
+
+Each subagent has a narrow contract and receives only the material needed for
+its task. Deterministic fallbacks keep the pipeline usable when an API fails.
+
+### Assignment Editor
+
+Chooses the day's lineup from normalized feed and trend candidates. It assigns
+lead, signal, or context roles and proposes an angle. It must preserve source
+diversity and avoid selecting several versions of the same story.
+
+### Evidence Analyst
+
+Extracts study type, population, intervention or exposure, outcome, numbers,
+limitations, confidence, and unsupported claims. It must not invent statistics,
+causation, institutions, quotations, or treatment advice.
+
+### Story Writer
+
+Creates structured content: headline, dek, introduction, sections, three
+takeaways, source context, and caveat. The factual boundary is the source page
+and evidence packet. The register is clear, spirited, respectful, concrete,
+and human; it is not a rigid “Boomer psychology” template.
+
+### Copy Editor
+
+Improves clarity, rhythm, specificity, and readability without changing factual
+fields. It restores required structure if a model omits it and rejects
+unsupported escalation, miracle language, or manufactured urgency.
+
+### Image Director
+
+Turns the story into a visual brief containing subject, setting, mood,
+composition, search queries, and an avoid-list. Prefer editorially relevant,
+authentic imagery over product shots, fear imagery, stereotypes, and generic
+medical drama.
+
+### Image Broker and Metadata Proofreader
+
+Search Pexels and Pixabay, avoid repeated images and creators, download only the
+selected asset, and preserve provider/photographer attribution. The metadata
+review checks whether title, tags, dimensions, and provider information fit the
+brief. It is not pixel-level vision. A future vision reviewer may add a true
+visual gate, but the system must never claim that review occurred when it did
+not.
+
+### Commercial Integrity Agent
+
+Checks that offers are category-relevant, disclosed, reachable, and within the
+maximum link count. It prevents an attractive payout from overriding editorial
+fit.
+
+### Release Manager
+
+Runs the final audit and writes a release manifest. It checks source HTTPS,
+headline/dek presence, exactly three takeaways, required metadata, affiliate
+limits, and unresolved failures. Automatic publishing can waive a human or
+visual review requirement only when explicitly configured; deterministic safety
+checks still apply.
+
+## 6. Evergreen context layer
+
+Local books, transcripts, and other licensed or authorized material may provide
+background context. They are not silently treated as current evidence.
+
+For each context library:
+
+1. record provenance and authorization;
+2. keep the raw library outside the repository;
+3. extract only the passages needed for background;
+4. label context separately from current reporting;
+5. never attribute a current claim to a book or transcript unless it actually
+   supports that claim.
+
+Topic-specific projects and private intellectual material remain outside the
+Agewell pipeline unless deliberately imported as a separate, documented
+context source.
+
+## 7. Article and image output contract
+
+Each article is a Markdown file under `content/posts/` with frontmatter for:
+
+- title, date, category, type, and `draft` status;
 - original source URL, title, and publisher;
-- image provider, creator, source URL, dimensions, and review status;
-- edition ID and rank;
-- optional affiliate disclosure.
+- article ID, edition ID, and rank;
+- image URL/path, provider, creator, dimensions, source URL, and review state;
+- affiliate disclosure and any release metadata.
 
-Every run writes an audit bundle under `.state/editions/` containing sources,
-evidence, drafts, image briefs, candidates, visual reviews, failures, context
-metadata, and a release manifest.
+Each run writes an audit bundle under `.state/editions/`, including candidates,
+sources, evidence, drafts, image briefs, visual reviews, failures, context
+metadata, and a release manifest. `.state/processed.json` tracks processed
+article hashes so repeated runs do not create duplicates.
 
-Raw private libraries and source excerpts should not be committed to the
-repository. Optional local context is provenance-preserving and background-only.
+The public page adds original-source attribution, category navigation, related
+published briefs, and an accessible reading layout. Content should be useful on
+its own; affiliate placement must not obscure the reporting.
 
-## 6. Commercial routing
+## 8. Affiliate and commercial routing
 
-Commercial offers are configured through the encrypted
-`AFFILIATE_OFFERS_JSON` repository secret. Offers should be:
+Reviewed ClickBank HopLinks are supplied through the
+`AFFILIATE_OFFERS_JSON` secret and routed by category. The configuration can
+contain multiple offers per category; the selector chooses up to three stable,
+relevant offers for an article and adds tracking identifiers where supported.
 
-- explicitly approved before use;
-- valid HTTPS HopLinks or equivalent tracked URLs;
-- checked for technical reachability before generation;
-- routed by exact editorial category;
-- disclosed visibly near the recommendation.
+The process is:
 
-The default policy places one contextual offer on the lead only. Signals do
-not receive offers. Never attach an unrelated offer merely because it pays
-more. Technical reachability is not proof of attribution, approval, quality, or
-legal compliance; verify each offer manually with the provider.
+1. manually select and approve a real offer;
+2. record its category and destination in the secret;
+3. run `python3 -m scripts.check_affiliate_offers`;
+4. confirm the link is technically reachable and manually verify the offer;
+5. render two or three naturally placed links only when relevant;
+6. place a clear affiliate disclosure near the recommendation.
 
-## 7. Review gates
+An HTTP success response does not prove vendor approval, product quality,
+attribution, or legal compliance. Do not invent vendor IDs or generate links to
+products that have not been reviewed. Never use a sensational health claim as a
+commercial pretext.
 
-Generated material starts as `draft: true`. Before publishing, review:
+## 9. SEO and discovery layer
 
-1. source link and original headline;
-2. study type, numbers, quotations, and limitations;
-3. headline and claims for unsupported escalation;
-4. affiliate relevance and disclosure;
-5. image fit, crop, attribution, and metadata;
-6. privacy, health, financial, and advertising requirements;
-7. release manifest and failed-draft diagnostics.
-
-Only after these checks should a human change the article to `draft: false`.
-
-## 8. Deployment
-
-The repository is built as a static Astro site and deployed by Cloudflare
-Workers Builds. A push to `main` rebuilds the public site. The same pattern
-works with another static host if its build command and output directory are
-configured accordingly.
-
-The scheduled GitHub Action:
-
-1. checks out the repository;
-2. installs Python requirements;
-3. checks affiliate health;
-4. runs the aggregation pipeline with repository secrets;
-5. commits generated drafts, images, state, and audits.
-
-The workflow can also be triggered manually for a controlled test edition.
-
-## 9. Publisher discovery
-
-Keep these public endpoints valid:
+The Astro site provides:
 
 - `/rss.xml` for syndication;
 - `/sitemap-index.xml` for ordinary crawling;
 - `/news-sitemap.xml` for recent news content;
-- `/robots.txt` advertising the sitemap index.
+- `/robots.txt` advertising the sitemap index;
+- a public IndexNow key file at the site root for change notifications;
+- `Article`/`NewsArticle` structured data with source, dates, image, topic, and
+  keyword context;
+- category topic hubs under `/topics/[slug]`;
+- related-brief links and topic navigation on article pages.
 
-Verify ownership in Google Search Console, submit the sitemap index and child
-sitemaps, import the property into Bing Webmaster Tools, and configure the
-publication in the relevant news publisher tools. Indexing is not immediate;
-measure impressions and clicks over several days before changing strategy.
+The legitimate growth loop is: publish original synthesis with clear source
+links, make it readable and technically crawlable, submit sitemaps, distribute
+through permitted channels, and use Search Console/Bing data to improve topic
+selection. Avoid doorway pages, keyword stuffing, copied source text, fabricated
+authority, cloaked affiliate links, and scaled low-value articles. No SEO tactic
+guarantees placement in Search, Discover, or news aggregators.
 
-## 10. Measurement loop
+After deployment:
 
-Run a consistent edition cadence for at least a week before optimizing. Track:
+1. verify the domain in Google Search Console;
+2. submit `/sitemap-index.xml`;
+3. inspect the news sitemap and representative URLs;
+4. add the property to Bing Webmaster Tools;
+5. monitor impressions, queries, indexing, referrals, and errors for several
+   days before changing the editorial mix.
 
-- impressions, clicks, and search queries;
-- RSS and referral traffic;
-- article-level engagement;
-- lead versus signal performance;
-- image and source performance;
-- affiliate clicks and conversions where available.
+IndexNow is wired into the publishing workflow. After a run commits changed
+article files, `scripts/submit_indexnow.py` submits their public `/brief/.../`
+URLs to the IndexNow endpoint. The key file is deliberately public and proves
+domain ownership; it is not an API secret. Submission improves discovery
+timeliness but does not guarantee crawling or indexing.
 
-Use observed response to refine source weights, topic mix, headline patterns,
-edition timing, and distribution. Do not optimize from one article or from
-advertiser payout claims alone.
+## 10. Scheduled publishing and deployment
 
-## 11. Reproduction checklist
+The workflow in `.github/workflows/aggregate.yml` currently runs three times a
+day at 13:00, 18:00, and 23:00 UTC. That corresponds approximately to 9am,
+2pm, and 7pm Toronto time during daylight saving; UTC timings should be
+rechecked when local scheduling matters.
 
-For a new topic:
+Each run:
 
-1. copy the repository and replace publication identity and design;
-2. define categories and classification rules;
-3. build and test a diverse feed portfolio;
-4. tune evidence and editorial prompts to the topic;
-5. configure image providers and attribution handling;
-6. add reviewed commercial offers, if any;
-7. run a manual dry edition;
-8. inspect the audit bundle and generated drafts;
-9. deploy the static site;
-10. verify RSS, robots, sitemaps, and ownership;
-11. publish a small reviewed batch;
-12. measure before scaling automation or distribution.
+1. checks out `main`;
+2. installs Python dependencies;
+3. checks configured affiliate links;
+4. builds the trend radar;
+5. runs the Assignment Editor and editorial chain;
+6. searches and reviews images;
+7. runs commercial and release audits;
+8. writes Markdown, images, state, and audit artifacts;
+9. commits generated changes back to `main`.
 
-Secrets belong in local environment variables or repository secrets, never in
-source files, audit artifacts, prompts, screenshots, or chat transcripts.
+The current first-week setting is:
+
+```text
+AUTO_PUBLISH=true
+AUTO_PUBLISH_UNTIL=2026-08-09
+MAX_ITEMS=1
+```
+
+This means the automated window is time-boxed through August 8, after which
+new material returns to `draft: true` unless the cutoff is intentionally
+extended. Change the cutoff only after reviewing the first-week evidence. A
+manual `workflow_dispatch` run is the preferred way to test configuration.
+
+Cloudflare Workers Builds watches the GitHub repository and rebuilds the Astro
+site after generated commits. If a build fails, inspect the Cloudflare build
+log first; a successful GitHub commit does not by itself prove that the public
+deployment succeeded.
+
+## 11. Review, rollback, and incident handling
+
+For a controlled release:
+
+```bash
+python3 -m pytest -q
+npm run build
+git diff --check
+```
+
+Inspect the latest `.state/editions/<date>/.../release-manifest.json` before
+publishing. If an article is wrong, set its frontmatter back to `draft: true`
+or remove it through a normal reviewed commit, then redeploy. Preserve the
+audit artifact explaining the correction; do not rewrite history to hide it.
+
+If a feed breaks, disable or hold that source in configuration and retain the
+failure record. If an affiliate destination changes, remove it from the secret,
+rerun the health check, and regenerate affected drafts. If a model or provider
+fails, deterministic fallback content may keep the run alive, but the result
+should remain a draft until reviewed.
+
+## 12. Measurement and first-week calibration
+
+Track the system as an editorial product, not only as an ad funnel:
+
+- feed health and extraction failures;
+- trend topics selected versus rejected;
+- source and category diversity;
+- evidence completeness and editor fallbacks;
+- article impressions, clicks, referrals, and reading behavior;
+- image reuse and attribution issues;
+- affiliate clicks and conversions where available;
+- release failures and Cloudflare build health.
+
+Use at least a week of comparable editions before changing the cadence. Adjust
+source weights, topic seeds, headline patterns, image queries, and edition times
+from observed evidence. Do not optimize from one viral article, a single payout
+claim, or a search result snapshot.
+
+## 13. Reproduction template for another publication
+
+1. Copy the repository and change publication identity, domain, logo, and
+   design tokens.
+2. Define the topic taxonomy and editorial register.
+3. Add a diverse list of real RSS/Atom feeds and hold questionable sources in a
+   potential-signal list.
+4. Define durable trend seeds and run the radar manually.
+5. Tune evidence, writing, copy, image, commercial, and release contracts.
+6. Configure image providers and preserve attribution.
+7. Add reviewed commercial offers, or run without monetization initially.
+8. Run a dry edition and inspect every audit artifact.
+9. Build the Astro site and verify RSS, robots, sitemap, schema, and mobile
+   readability.
+10. Deploy to the chosen static host and verify representative live URLs.
+11. Publish a small reviewed batch.
+12. Enable a short, explicit auto-publish window only after the audits pass.
+13. Measure, curate, and extend automation deliberately.
+
+The reusable pattern is therefore:
+
+```text
+discover → normalize → select → substantiate → write → edit → illustrate
+→ audit → publish → measure → curate
+```
+
+The topic changes. The evidence boundary, provenance, disclosure, accessibility,
+and release discipline do not.

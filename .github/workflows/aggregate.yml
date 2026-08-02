@@ -50,8 +50,41 @@ jobs:
       - name: Commit generated drafts
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import subprocess
+
+          base = "https://agewellbrief.com"
+          changed = subprocess.run(
+              ["git", "status", "--porcelain", "--", "content/posts"],
+              check=True,
+              capture_output=True,
+              text=True,
+          ).stdout.splitlines()
+          urls = []
+          for line in changed:
+              path = line[3:].strip()
+              if path.startswith("content/posts/") and path.endswith(".md"):
+                  slug = Path(path).stem
+                  urls.append(f"{base}/brief/{slug}/")
+          Path("/tmp/agewell-indexnow-urls.txt").write_text(
+              "\n".join(dict.fromkeys(urls)) + ("\n" if urls else "")
+          )
+          PY
           git config user.name "agewell-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A -- content/posts public/images .state
+          git add -A -- content/posts public/images public/*.txt .state
           git diff --cached --quiet || git commit -m "chore: add aggregated health briefs"
           git push
+      - name: Notify IndexNow
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        continue-on-error: true
+        run: |
+          if [ -s /tmp/agewell-indexnow-urls.txt ]; then
+            python3 -m scripts.submit_indexnow --urls-file /tmp/agewell-indexnow-urls.txt
+          else
+            echo "IndexNow: no article changes in this run"
+          fi
+        env:
+          PUBLIC_SITE_URL: https://agewellbrief.com
+          INDEXNOW_KEY_FILE: public/c82fc24c87f9437da381a53fd326273d.txt
