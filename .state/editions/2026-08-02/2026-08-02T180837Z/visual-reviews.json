@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "8de342d71defc249ed7cf18e",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8940359",
+      "score": 85,
+      "rationale": "The image shows a scientist in a lab coat using a microscope and laptop, which aligns with the editorial intent of a researcher examining brain cell cultures. The setting is a modern laboratory, and the mood is focused and scientific. The metadata does not suggest fear, products, or stereotypes, and it is specific to the research context.",
+      "concerns": [
+        "The image does not explicitly show brain cells or brain images, but the microscope and lab setting are appropriate for the story about lab research on neurons. The presence of a laptop may imply data analysis, which is consistent with the research theme."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/apoe2-may-protect-the-brain-from-alzheimer-s-and-aging-8de342d7-pexels-8940359.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "7861b841ff58c865ae5a33c1",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:7400892",
+      "score": 85,
+      "rationale": "The image depicts a person in a dimly lit living room using a remote control to switch channels on a TV, which directly matches the story's subject of TV viewing in midlife. The mood is contemplative and sedentary, aligning with the editorial intent. The metadata does not suggest fear, disability, or other stereotypes, and the image is specific to the activity rather than generic lifestyle imagery.",
+      "concerns": [
+        "The person's age is not specified in the metadata, so it may not clearly represent 'midlife.' However, the activity and setting are appropriate."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/watching-too-much-tv-in-midlife-may-shrink-the-brain-7861b841-pexels-7400892.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "9c6963bf898155973b67e8be",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8450392",
+      "score": 85,
+      "rationale": "The image depicts a senior man inspecting a book with a magnifying glass, surrounded by bottles, in a well-lit room. This aligns with the editorial intent of a consumer examining supplement labels with a magnifying glass, conveying caution and awareness. The setting and mood match the story's context of regulatory warnings about hidden drugs in supplements.",
+      "concerns": [
+        "The metadata mentions 'book' rather than 'supplement label', but the presence of bottles and the magnifying glass suggests a relevant inspection scene. The image may not show a supplement bottle specifically, but it conveys the investigative mood."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/fda-warns-of-hidden-drugs-in-sleep-skin-and-bodybuilding-products-9c6963bf-pexels-8450392.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "article_id": "8de342d71defc249ed7cf18e",
+    "editorial_intent": "Show a researcher examining brain cell cultures in a lab, conveying scientific discovery and hope for Alzheimer's prevention.",
+    "subject": "a researcher in a lab coat looking through a microscope at cell cultures",
+    "setting": "a modern neuroscience laboratory with microscopes and computer monitors displaying brain images",
+    "mood": "focused, hopeful, scientific",
+    "composition": "landscape orientation, researcher on the left, microscope and screens on the right, shallow depth of field",
+    "avoid": [
+      "fear",
+      "sadness",
+      "pills",
+      "elderly people",
+      "generic healthy lifestyle",
+      "miracle imagery"
+    ],
+    "search_queries": [
+      "researcher microscope brain cells laboratory",
+      "scientist examining neuron culture petri dish",
+      "neuroscience lab brain scan computer screen"
+    ]
+  },
+  {
+    "article_id": "7861b841ff58c865ae5a33c1",
+    "editorial_intent": "Show a middle-aged person watching TV in a dim living room, with a subtle visual metaphor for brain health decline.",
+    "subject": "A middle-aged person sitting on a couch, watching a large TV, with a remote in hand, looking slightly disengaged.",
+    "setting": "A cozy but dimly lit living room in the evening, with the TV screen glowing, and perhaps a clock showing late hours.",
+    "mood": "contemplative, sedentary, slightly melancholic",
+    "composition": "A wide shot showing the person on the left, the TV on the right, with the room receding into darkness, emphasizing the solitary activity.",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "active exercise",
+      "healthy food",
+      "social gatherings"
+    ],
+    "search_queries": [
+      "middle-aged man watching TV alone in dark living room",
+      "woman sitting on couch staring at television screen",
+      "person watching TV in dimly lit room at night"
+    ]
+  },
+  {
+    "article_id": "9c6963bf898155973b67e8be",
+    "editorial_intent": "Show a consumer inspecting supplement labels with a magnifying glass, conveying caution and awareness.",
+    "subject": "a middle-aged adult's hands holding a supplement bottle and a magnifying glass",
+    "setting": "a bright, clean kitchen counter with various supplement bottles",
+    "mood": "cautious, investigative, neutral",
+    "composition": "close-up, shallow depth of field, focus on the hands and label",
+    "avoid": [
+      "frightened expressions",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "disability stereotypes"
+    ],
+    "search_queries": [
+      "person reading supplement label magnifying glass",
+      "consumer inspecting medicine bottle label",
+      "hands holding supplement bottle checking label"
+    ]
+  }
+]

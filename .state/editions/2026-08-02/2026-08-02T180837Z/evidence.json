@@ -1,0 +1,56 @@
+[
+  {
+    "article_id": "8de342d71defc249ed7cf18e",
+    "study_type": "laboratory study",
+    "key_claims": [
+      "APOE2 neurons show less DNA damage and better DNA repair compared to APOE3 and APOE4 neurons.",
+      "APOE2 neurons resist cellular senescence, showing lower levels of senescence markers after stress.",
+      "Adding APOE2 protein to APOE4 neurons reduced DNA damage signaling after radiation.",
+      "Older APOE2 knock-in mice showed healthier aging markers in the hippocampus compared to APOE3 or APOE4 mice.",
+      "The study suggests APOE2's protective effect may be transferable and could inspire new treatments."
+    ],
+    "limitations": [
+      "The exact mechanism by which APOE2 stabilizes the nuclear envelope and strengthens DNA repair is unknown.",
+      "The study was conducted in cell and mouse models, not in humans.",
+      "The transferability of APOE2's protective effect was only tested in vitro, not in living organisms.",
+      "The study does not prove that APOE2 directly causes longer life or reduced Alzheimer's risk in humans."
+    ],
+    "what_not_to_say": [
+      "APOE2 cures or prevents Alzheimer's disease.",
+      "Treatments mimicking APOE2 are currently available or proven effective.",
+      "APOE2's effect is solely due to DNA repair, ignoring other known functions like lipid transport.",
+      "The findings apply to all brain cell types or all individuals with APOE2."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "7861b841ff58c865ae5a33c1",
+    "study_type": "reported health research",
+    "key_claims": [
+      "Watching television very often in midlife may be linked to troubling brain changes decades later. In a study of about 1,700 adults, frequent TV viewers later showed smaller brain regions involved in memory, decision-making, and visual processing, along with more signs of damage in the brain’s white matter. Surprisingly, sitting itself did not appear to be the main issue, since people who spent long hours seated at mentally engaging jobs often showed healthier brain patterns."
+    ],
+    "limitations": [],
+    "what_not_to_say": [],
+    "confidence": "unclear"
+  },
+  {
+    "article_id": "9c6963bf898155973b67e8be",
+    "study_type": "regulatory warning notice",
+    "key_claims": [
+      "The FDA has issued warnings about sleep, skin, and bodybuilding products that contain hidden drugs and other hidden ingredients.",
+      "These products may contain undeclared active pharmaceutical ingredients.",
+      "Consumers should be aware of potential health risks from using such products."
+    ],
+    "limitations": [
+      "The source does not specify which products are affected.",
+      "The source does not detail the specific hidden ingredients or drugs.",
+      "The source does not provide information on the prevalence or severity of the issue."
+    ],
+    "what_not_to_say": [
+      "The source does not state that all such products are unsafe.",
+      "The source does not provide specific health consequences.",
+      "The source does not mention any particular brands or manufacturers."
+    ],
+    "confidence": "high"
+  }
+]
