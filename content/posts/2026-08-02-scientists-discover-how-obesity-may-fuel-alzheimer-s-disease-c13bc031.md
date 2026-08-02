@@ -2,7 +2,7 @@
 title: "Scientists discover how obesity may fuel Alzheimer’s disease"
 date: 2026-08-02T18:12:33.536021+00:00
 draft: true
-category: "mobility"
+category: "metabolic health"
 content_type: "signal"
 edition_rank: 2
 edition_id: "2026-08-02"

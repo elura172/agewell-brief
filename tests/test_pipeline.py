@@ -5,6 +5,7 @@ from types import SimpleNamespace
 import pytest
 
 from agewell import pipeline
+from agewell.affiliates import parse_offer_config
 from agewell.pipeline import (
     DraftGenerationError,
     FeedItem,
@@ -53,6 +54,16 @@ def test_classify_mobility():
 def test_classify_alzheimers_as_brain_health():
     item = FeedItem("A new Alzheimer's blood test", "Researchers report early findings", "https://example.test/brain", "")
     assert classify(item) == "brain health"
+
+
+def test_fat_imbalance_does_not_trigger_mobility_category():
+    item = FeedItem(
+        "How obesity may fuel Alzheimer's disease",
+        "Researchers studied a lipid imbalance in the brain.",
+        "https://example.test/metabolic",
+        "",
+    )
+    assert classify(item) == "metabolic health"
 
 
 def test_classify_tainted_supplement_alert_as_consumer_safety():
@@ -460,6 +471,18 @@ def test_existing_tracking_id_is_replaced():
     assert result == "https://abc123.hop.clickbank.net/?tid=agewell_mobility_deadbeef"
 
 
+def test_unencrypted_clickbank_hoplink_keeps_affiliate_and_vendor():
+    result = tracked_offer_url(
+        "https://hop.clickbank.net/?affiliate=agewell&vendor=seller",
+        "brain health",
+        "feed1234",
+    )
+    assert result == (
+        "https://hop.clickbank.net/"
+        "?affiliate=agewell&vendor=seller&tid=agewell_brain_health_feed1234"
+    )
+
+
 def test_non_clickbank_offer_is_rejected():
     with pytest.raises(ValueError):
         tracked_offer_url("https://example.com/offer", "mobility", "deadbeef")
@@ -481,6 +504,32 @@ def test_specific_offer_matches_its_category():
         "mobility": "https://mobility.hop.clickbank.net",
     }
     assert select_offer(configured, "mobility") == configured["mobility"]
+
+
+def test_rich_offer_config_requires_explicit_approval():
+    configured = {
+        "offers": [
+            {
+                "category": "brain health",
+                "name": "Unreviewed",
+                "url": "https://unreviewed.hop.clickbank.net",
+                "approved": False,
+            },
+            {
+                "category": "brain health",
+                "name": "Reviewed",
+                "url": "https://reviewed.hop.clickbank.net",
+                "approved": True,
+            },
+        ]
+    }
+    assert select_offer(configured, "brain health", "article-1") == "https://reviewed.hop.clickbank.net"
+
+
+def test_hoplink_error_health_hides_offer():
+    configured = {"brain health": "https://reviewed.hop.clickbank.net"}
+    offer = parse_offer_config(configured)[0]
+    assert select_offer(configured, "brain health", "article-1", {offer.offer_id: "hoplink_error"}) is None
 
 
 def test_multiple_feed_configuration(monkeypatch):

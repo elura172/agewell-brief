@@ -1,40 +1,40 @@
 ---
-title: "FDA warns of hidden drugs in sleep, skin, and bodybuilding products"
+title: "FDA flags hidden drug ingredients in products sold for sleep, skin, and bodybuilding"
 date: 2026-08-02T18:08:37.559736+00:00
 draft: true
 category: "consumer safety"
 content_type: "signal"
-edition_rank: 3
+edition_rank: 2
 edition_id: "2026-08-02"
 source_url: "https://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications"
 source_title: "Sleep, Skin, Bodybuilding and Other Product Notifications"
 source_name: "FDA Tainted Supplements"
 image_provider: "Pexels"
-image_provider_id: "8450392"
-image: "/images/editions/2026-08-02/fda-warns-of-hidden-drugs-in-sleep-skin-and-bodybuilding-products-9c6963bf-pexels-8450392.webp"
-image_alt: "Senior man inspecting book with magnifying glass, surrounded by bottles, in a well-lit room."
+image_provider_id: "8657375"
+image: "/images/editions/2026-08-02/fda-warns-of-hidden-drugs-in-sleep-skin-and-bodybuilding-products-9c6963bf-pexels-8657375.webp"
+image_alt: "A woman reading the label on a bottle at a pharmacy counter."
 image_width: 1200
 image_height: 627
-image_photographer: "MART  PRODUCTION"
-image_photographer_url: "https://www.pexels.com/@mart-production"
-image_source_url: "https://www.pexels.com/photo/man-sitting-at-table-reading-book-using-magnifying-glass-8450392/"
-image_review_status: "pending"
-image_avg_color: "#A89C8E"
+image_photographer: "cottonbro studio"
+image_photographer_url: "https://www.pexels.com/@cottonbro"
+image_source_url: "https://www.pexels.com/photo/adult-woman-looking-at-the-medicine-bottle-8657375/"
+image_review_status: "human-reviewed"
+image_avg_color: "#7C7D7F"
 ---
 
-Regulators alert consumers to undeclared active ingredients in certain supplements.
+The FDA’s running health-fraud list identifies products that may contain undeclared drug ingredients. Recent entries include PRE-FORMANCE BLACK and RAPTURE Preworkout, alongside earlier notices covering products marketed for sleep, skin, sexual enhancement, pain, and bodybuilding.
 
 
 
 ## Three things to remember
 
-- FDA warns about hidden drugs in some sleep, skin, and bodybuilding products.
-- These products may contain undeclared active pharmaceutical ingredients.
-- Consumers should be aware of potential health risks from such products.
+- Check the FDA list before using a product named in a health-fraud alert.
+- Hidden ingredients can interact with medicines or cause serious health problems.
+- A product absent from the list is not automatically proven safe.
 
 ### Source
 
 This signal is based on [Sleep, Skin, Bodybuilding and Other Product Notifications](https://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications) from FDA Tainted Supplements. Read the original report for full context.
 
 
-> **Health note:** The FDA notice does not specify which products or ingredients are affected.
+> **Health note:** The FDA page links to product-specific notices and is updated as new products are tested. Use the current list for names and details.

@@ -29,6 +29,28 @@ Offers are matched by exact editorial category. The pipeline does not place a
 general-wellness offer in a mobility, brain-health, metabolic-health, or
 longevity article unless that category has its own reviewed HopLink.
 
+Several reviewed offers can be routed within one category using the richer
+format below. `approved` is deliberately fail-closed, `priority` selects the
+preferred tier, and equal-priority links rotate deterministically by article:
+
+```bash
+export AFFILIATE_OFFERS_JSON='{"offers":[{"category":"brain health","name":"Reviewed offer A","url":"https://ENCRYPTED.hop.clickbank.net","approved":true,"priority":10}]}'
+```
+
+Run `python -m scripts.check_affiliate_offers` to write a redacted technical
+health report to `.state/affiliate-health.json`. The daily workflow performs
+this check before drafting and suppresses links that return a recognizable
+ClickBank HopLink error page. A successful redirect confirms reachability only;
+each offer still needs a one-time attribution check through ClickBank's order
+form and HopLink tools.
+
+ClickBank's current APIs expose analytics, orders, seller-owned products, and
+account statistics, but not a public affiliate-marketplace catalog. For that
+reason Agewell does not scrape the logged-in marketplace or auto-promote an
+unknown vendor. Marketplace discovery remains a reviewed onboarding step;
+routing, technical checks, article-level TIDs, and later conversion reporting
+are automated after approval.
+
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
 
 ## Editorial agents and image direction

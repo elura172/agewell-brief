@@ -17,6 +17,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Check configured ClickBank links
+        continue-on-error: true
+        run: python -m scripts.check_affiliate_offers
+        env:
+          AFFILIATE_OFFERS_JSON: ${{ secrets.AFFILIATE_OFFERS_JSON }}
       - name: Generate daily edition
         id: aggregate
         run: python -m agewell.pipeline

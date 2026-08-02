@@ -13,11 +13,12 @@ from dataclasses import dataclass
 from html.entities import html5
 from pathlib import Path
 from typing import Any
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
 from openai import OpenAI
 
+from agewell.affiliates import load_health_status, select_offer, tracked_offer_url
 from agewell.edition import EditionRecorder, audit_release
 from agewell.editorial import (
     AlignmentReview,
@@ -60,6 +61,7 @@ PUBLIC_ROOT = Path(os.getenv("PUBLIC_ROOT", ROOT / "public"))
 EDITION_STATE_ROOT = Path(os.getenv("EDITION_STATE_ROOT", ROOT / ".state/editions"))
 IMAGE_CACHE_FILE = Path(os.getenv("IMAGE_CACHE_FILE", ROOT / ".state/image-search-cache.json"))
 IMAGE_LEDGER_FILE = Path(os.getenv("IMAGE_LEDGER_FILE", ROOT / ".state/image-ledger.json"))
+AFFILIATE_HEALTH_FILE = Path(os.getenv("AFFILIATE_HEALTH_FILE", ROOT / ".state/affiliate-health.json"))
 
 PUBLICATION_STYLE_REQUIREMENTS = (
     "Use Agewell's publication register: clear, spirited, respectful, and concrete.",
@@ -414,8 +416,8 @@ def classify(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     rules = {
         "consumer safety": ("health fraud", "tainted", "hidden drug", "product notification", "recall"),
-        "mobility": ("joint", "arthritis", "knee", "back pain", "balance", "walking"),
-        "metabolic health": ("blood sugar", "glucose", "insulin", "metabolic", "diabetes"),
+        "metabolic health": ("blood sugar", "glucose", "insulin", "metabolic", "diabetes", "obesity", "lipid"),
+        "mobility": ("joint", "arthritis", "knee", "back pain", "balance training", "fall prevention", "walking"),
         "brain health": ("memory", "cognition", "brain", "dementia", "alzheimer", "parkinson", "sleep"),
         "longevity": ("aging", "ageing", "longevity", "lifespan", "healthspan"),
     }
@@ -425,7 +427,7 @@ def classify(item: FeedItem) -> str:
     return "general wellness"
 
 
-def offers() -> dict[str, str]:
+def offers() -> dict[str, Any]:
     raw = os.getenv("AFFILIATE_OFFERS_JSON", "{}")
     try:
         value = json.loads(raw)
@@ -433,35 +435,6 @@ def offers() -> dict[str, str]:
     except json.JSONDecodeError:
         print("Ignoring invalid AFFILIATE_OFFERS_JSON", file=sys.stderr)
         return {}
-
-
-def select_offer(configured_offers: dict[str, str], category: str) -> str | None:
-    """Use an offer only when it is explicitly assigned to the article category."""
-    return configured_offers.get(category)
-
-
-def tracked_offer_url(base_url: str | None, category: str, article_id: str) -> str | None:
-    """Append a stable ClickBank TID to a validated HopLink.
-
-    ClickBank TIDs support lowercase letters, numbers, and underscores. Keeping
-    the account-generated HopLink intact preserves encryption and any selected
-    seller landing page.
-    """
-    if not base_url:
-        return None
-
-    parsed = urlsplit(base_url)
-    if parsed.scheme != "https" or not parsed.hostname or not parsed.hostname.endswith(".clickbank.net"):
-        raise ValueError(f"Affiliate offer is not a valid HTTPS ClickBank URL: {base_url}")
-
-    category_token = re.sub(r"[^a-z0-9_]+", "_", category.lower()).strip("_")[:32]
-    article_token = re.sub(r"[^a-z0-9_]+", "", article_id.lower())[:24]
-    tid = f"agewell_{category_token}_{article_token}"[:100]
-    query = dict(parse_qsl(parsed.query, keep_blank_values=True))
-    query["tid"] = tid
-    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urlencode(query), parsed.fragment))
-
-
 def draft(
     client: OpenAI,
     item: FeedItem,
@@ -734,6 +707,7 @@ def run() -> int:
     state = load_state()
     client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=LLM_BASE_URL)
     configured_offers = offers()
+    affiliate_health = load_health_status(AFFILIATE_HEALTH_FILE)
     image_cache = ImageSearchCache(IMAGE_CACHE_FILE)
     used_image_ids = load_image_ledger(IMAGE_LEDGER_FILE)
     used_image_creators = load_image_creators(IMAGE_LEDGER_FILE)
@@ -911,7 +885,11 @@ def run() -> int:
 
         offer_url = None
         if content_type == "lead":
-            offer_url = tracked_offer_url(select_offer(configured_offers, category), category, key)
+            offer_url = tracked_offer_url(
+                select_offer(configured_offers, category, key, affiliate_health),
+                category,
+                key,
+            )
         generated_count += 1
         target = OUTPUT_DIR / f"{recorder.edition_id}-{slug(content['headline'])}-{key[:8]}.md"
         target.write_text(

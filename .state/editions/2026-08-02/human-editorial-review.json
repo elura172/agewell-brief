@@ -1,0 +1,33 @@
+{
+  "reviewed_at": "2026-08-02T18:38:23Z",
+  "edition_status": "ready_for_final_preview",
+  "publish_authorized": false,
+  "selected_articles": [
+    {
+      "article_id": "935dcd2d5d3191c52a1a5bfe",
+      "role": "deep_read",
+      "editorial_status": "human-reviewed",
+      "image_status": "human-reviewed",
+      "notes": "Rewritten to keep the mouse model explicit and remove unsupported prevalence, safety, lifestyle, and treatment claims. Replaced theatrical laboratory image with a visually verified research-data scene."
+    },
+    {
+      "article_id": "9c6963bf898155973b67e8be",
+      "role": "signal_1",
+      "editorial_status": "human-reviewed",
+      "image_status": "human-reviewed",
+      "notes": "Corrected the false claim that the FDA page names no products. Replaced the unrelated magnifying-glass image with a visually verified pharmacy-label scene."
+    },
+    {
+      "article_id": "d64e52fc0058e5a16aba471d",
+      "role": "signal_2",
+      "editorial_status": "human-reviewed",
+      "image_status": "human-reviewed",
+      "notes": "Added sample size, duration, population, outcome specificity, and an accurate image description."
+    }
+  ],
+  "held_articles": [
+    "8de342d71defc249ed7cf18e",
+    "7861b841ff58c865ae5a33c1",
+    "c13bc031dcb7b38a112173a6"
+  ]
+}
