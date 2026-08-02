@@ -1,0 +1,49 @@
+{
+  "purpose": "Observe five alternative-health signal feeds before promoting any new source into the production portfolio.",
+  "baseline": [
+    {
+      "name": "ScienceDaily Healthy Aging",
+      "url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
+      "publisher": "ScienceDaily",
+      "status": "active-baseline",
+      "parser_status": "compatible"
+    },
+    {
+      "name": "ScienceDaily Top Health",
+      "url": "https://www.sciencedaily.com/rss/top/health.xml",
+      "publisher": "ScienceDaily",
+      "status": "active-baseline",
+      "parser_status": "compatible"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "WorldwideHealth",
+      "url": "https://www.worldwidehealth.com/rss/articles.xml",
+      "publisher": "WorldwideHealth",
+      "status": "observe-only",
+      "intended_role": "signal",
+      "headline_mode": "rewrite",
+      "parser_status": "needs-entity-sanitization",
+      "note": "The live feed currently contains an undefined HTML entity in XML and is not production-compatible yet."
+    },
+    {
+      "name": "The Guardian | Alternative medicine",
+      "url": "https://www.theguardian.com/lifeandstyle/alternative-medicine/rss",
+      "publisher": "The Guardian",
+      "status": "observe-only",
+      "intended_role": "signal",
+      "headline_mode": "preserve",
+      "parser_status": "compatible"
+    },
+    {
+      "name": "Alternative Medicine Magazine",
+      "url": "https://alternativemedicine.com/feed/",
+      "publisher": "Alternative Medicine Magazine",
+      "status": "observe-only",
+      "intended_role": "signal",
+      "headline_mode": "preserve",
+      "parser_status": "compatible"
+    }
+  ]
+}

@@ -88,6 +88,14 @@ link unchanged.
 
 Set `RSS_FEEDS_JSON` only when you need to override the checked-in portfolio.
 
+### Potential signal watchlist
+
+`config/potential-signal-feeds.json` keeps prospective sources separate from
+the production portfolio. The current comparison set uses the two active
+ScienceDaily feeds as its baseline and observes WorldwideHealth, The Guardian's
+Alternative Medicine feed, and Alternative Medicine Magazine without allowing
+them into ranking, drafting, or publication yet.
+
 ## GitHub Actions
 
 Add `DEEPSEEK_API_KEY`, `PEXELS_API_KEY`, `PIXABAY_API_KEY`, and optionally
