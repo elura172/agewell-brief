@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "c2812776d331de40b8d2ad1e",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:6129042",
+      "score": 85,
+      "rationale": "The image depicts a healthcare professional examining brain X-rays, which directly relates to the story's focus on brain health and dementia risk. The setting is a credible medical environment, and the mood is alert and capable, aligning with the editorial intent. The metadata does not suggest fear, products, or stereotypes, and it is specific to the subject matter.",
+      "concerns": [
+        "The image shows a doctor looking at X-rays, which may imply a clinical setting rather than the research aspect of the study. However, it still conveys the theme of brain health assessment."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/ai-can-tell-if-your-brain-is-aging-faster-than-you-are-c2812776-pexels-6129042.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "e567bdc722fdf78a98587f85",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:6973090",
+      "score": 85,
+      "rationale": "The image depicts a senior woman chopping vegetables in a kitchen, which aligns with the story's focus on the Mediterranean diet and its potential health benefits. The setting is credible and everyday, the mood is natural and capable, and it avoids stereotypes by showing an active, engaged individual. The metadata supports the subject of healthy eating and daily life.",
+      "concerns": [
+        "The image does not directly show proteins or research, but it effectively illustrates the dietary aspect of the story. The alt text mentions 'healthy couple' but the description focuses on the woman, which is acceptable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/mediterranean-diet-may-activate-tiny-proteins-that-protect-the-heart-a-e567bdc7-pexels-6973090.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "bdfc047d3b2380a80232b9bd",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:4031693",
+      "score": 85,
+      "rationale": "The image depicts two scientists in a modern laboratory, which aligns with the story's focus on FDA warnings about hidden drugs in supplements. It conveys a credible research setting without fear or product imagery, matching the editorial intent of showing human relevance and research context.",
+      "concerns": [
+        "The image does not directly show supplements or the specific products mentioned, but it effectively represents the research and regulatory context."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/fda-warns-hidden-drugs-in-sleep-skin-and-bodybuilding-supplements-bdfc047d-pexels-4031693.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

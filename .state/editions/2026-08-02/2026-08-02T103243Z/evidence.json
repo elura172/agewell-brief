@@ -1,0 +1,61 @@
+[
+  {
+    "article_id": "c2812776d331de40b8d2ad1e",
+    "study_type": "observational cohort study using machine learning",
+    "key_claims": [
+      "A machine-learning model estimated brain age from EEG recordings during sleep.",
+      "An older-than-expected brain age was associated with a higher risk of developing dementia.",
+      "For every 10-year increase between estimated brain age and actual age, the likelihood of developing dementia rose by nearly 40%.",
+      "People whose estimated brain age was younger than their actual age had a lower risk.",
+      "The association remained significant after adjusting for education, smoking, body mass index, physical activity, other medical conditions, and genetic risk factors.",
+      "The model combined 13 microscopic features from EEG brain wave recordings."
+    ],
+    "limitations": [
+      "The study was observational, so causality cannot be established.",
+      "The study population may not be representative of all groups.",
+      "The model's accuracy in real-world settings is not yet validated.",
+      "The source does not specify the exact sensitivity or specificity of the model."
+    ],
+    "what_not_to_say": [
+      "The model can predict dementia with certainty.",
+      "Sleep-based brain age measurement is ready for clinical use.",
+      "Improving sleep health will definitely reduce dementia risk.",
+      "The study proves that brain aging causes dementia."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "e567bdc722fdf78a98587f85",
+    "study_type": "observational study",
+    "key_claims": [
+      "The Mediterranean diet may influence aging through tiny proteins produced inside the cell's mitochondria.",
+      "Older adults who followed the diet most closely had higher levels of humanin and SHMOOSE.",
+      "Humanin and SHMOOSE have been linked to heart and brain protection.",
+      "Olive oil, fish, legumes, and fewer refined carbohydrates appeared especially important.",
+      "The findings could eventually help scientists develop more personalized nutrition plans for healthy aging."
+    ],
+    "limitations": [
+      "The source does not specify the study design or sample size.",
+      "The source does not provide effect sizes or statistical significance.",
+      "The source does not mention potential confounding factors.",
+      "The source does not indicate whether the findings are causal."
+    ],
+    "what_not_to_say": [
+      "The Mediterranean diet causes higher levels of humanin and SHMOOSE.",
+      "Humanin and SHMOOSE definitively protect the heart and brain.",
+      "The Mediterranean diet is proven to slow aging.",
+      "Specific foods like olive oil and fish are solely responsible for the observed effects."
+    ],
+    "confidence": "limited"
+  },
+  {
+    "article_id": "bdfc047d3b2380a80232b9bd",
+    "study_type": "reported health research",
+    "key_claims": [
+      "Learn about the warnings for sleep, skin and bodybuilding products that contain hidden drugs and other hidden ingredients."
+    ],
+    "limitations": [],
+    "what_not_to_say": [],
+    "confidence": "unclear"
+  }
+]
