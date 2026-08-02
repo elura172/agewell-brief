@@ -335,8 +335,8 @@ def offers() -> dict[str, str]:
 
 
 def select_offer(configured_offers: dict[str, str], category: str) -> str | None:
-    """Use a category-specific offer when available, otherwise the evergreen fallback."""
-    return configured_offers.get(category) or configured_offers.get("general wellness")
+    """Use an offer only when it is explicitly assigned to the article category."""
+    return configured_offers.get(category)
 
 
 def tracked_offer_url(base_url: str | None, category: str, article_id: str) -> str | None:
@@ -513,8 +513,6 @@ def markdown(
             f"[View the related resource]({offer_url})."
         )
     health_note = content["caveat"]
-    if not any(term in health_note.lower() for term in ("consult", "talk with", "speak with", "ask your")):
-        health_note += " Consult a qualified healthcare professional for personal advice."
     return f'''---
 title: "{quote(content["headline"])}"
 date: {published_at.isoformat()}

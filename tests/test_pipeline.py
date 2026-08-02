@@ -62,12 +62,17 @@ def test_non_clickbank_offer_is_rejected():
         tracked_offer_url("https://example.com/offer", "mobility", "deadbeef")
 
 
-def test_general_wellness_offer_is_the_fallback():
+def test_general_wellness_offer_does_not_cross_categories():
     configured = {"general wellness": "https://fallback.hop.clickbank.net"}
-    assert select_offer(configured, "brain health") == configured["general wellness"]
+    assert select_offer(configured, "brain health") is None
 
 
-def test_specific_offer_wins_over_fallback():
+def test_general_wellness_offer_matches_general_wellness():
+    configured = {"general wellness": "https://wellness.hop.clickbank.net"}
+    assert select_offer(configured, "general wellness") == configured["general wellness"]
+
+
+def test_specific_offer_matches_its_category():
     configured = {
         "general wellness": "https://fallback.hop.clickbank.net",
         "mobility": "https://mobility.hop.clickbank.net",

@@ -23,8 +23,9 @@ stable article-level tracking ID automatically:
 export AFFILIATE_OFFERS_JSON='{"mobility":"https://YOUR_ENCRYPTED_VALUE.hop.clickbank.net"}'
 ```
 
-An offer assigned to `general wellness` acts as the evergreen fallback for any
-category that does not yet have a dedicated offer.
+Offers are matched by exact editorial category. The pipeline does not place a
+general-wellness offer in a mobility, brain-health, metabolic-health, or
+longevity article unless that category has its own reviewed HopLink.
 
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
 

@@ -1,7 +1,7 @@
 ---
 title: "A potential sleep crisis among workers over 50: Study links work-related stress to range of well-being issues"
-date: 2026-08-02T07:43:07.305363+00:00
-draft: true
+date: 2026-08-02T09:07:46+00:00
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 2
@@ -26,4 +26,4 @@ A new study finds that work-related stress is associated with significant sleep 
 This signal is based on [A potential sleep crisis among workers over 50: Study links work-related stress to range of well-being issues](https://medicalxpress.com/news/2026-07-potential-crisis-workers-links-stress.html) from Medical Xpress Healthy Aging. Read the original report for full context.
 
 
-> **Health note:** This study does not prove that stress causes sleep problems, only that they are linked. Consult a qualified healthcare professional for personal advice.
+> **Health note:** The study followed 45 workers aged 50–66. It found associations; it did not prove that workplace stress caused the sleep problems.
