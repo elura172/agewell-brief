@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import { plainTextExcerpt } from "../../lib/publishing";
 
 export async function getStaticPaths() {
   const entries = await getCollection("briefs");
@@ -12,15 +13,61 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const formatDate = entry.data.date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
+const formatDateTime = entry.data.date.toLocaleString("en-CA", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+  hour: "numeric",
+  minute: "2-digit",
+  timeZone: "America/Toronto",
+  timeZoneName: "short"
+});
 const isLead = entry.data.content_type === "lead";
+const description = plainTextExcerpt(entry.body ?? "", 190);
+const articleURL = new URL(`/brief/${entry.id}/`, Astro.site).href;
+const authorURL = new URL("/about/#editorial-desk", Astro.site).href;
+const logoURL = new URL("/logo.svg", Astro.site).href;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  headline: entry.data.title,
+  description,
+  datePublished: entry.data.date.toISOString(),
+  dateModified: (entry.data.updated ?? entry.data.date).toISOString(),
+  mainEntityOfPage: { "@type": "WebPage", "@id": articleURL },
+  isAccessibleForFree: true,
+  articleSection: entry.data.category,
+  author: {
+    "@type": "Organization",
+    name: entry.data.author,
+    url: authorURL
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Agewell Brief",
+    url: new URL("/", Astro.site).href,
+    logo: { "@type": "ImageObject", url: logoURL, width: 512, height: 512 }
+  },
+  citation: entry.data.source_url,
+  ...(entry.data.image ? { image: [new URL(entry.data.image, Astro.site).href] } : {})
+};
 ---
-<Layout title={`${entry.data.title} — Agewell Brief`} description={`A source-linked ${isLead ? "analysis" : "brief"} on ${entry.data.category}.`} ogType="article">
+<Layout
+  title={`${entry.data.title} — Agewell Brief`}
+  description={description}
+  ogType="article"
+  image={entry.data.image}
+  publishedTime={entry.data.date}
+  modifiedTime={entry.data.updated ?? entry.data.date}
+  structuredData={structuredData}
+>
   <article class:list={["article-page", { "is-lead": isLead }]}>
     <a class="back-link" href="/">← All briefs</a>
     <header class="article-header">
       <div class="signal-rail"><span>{entry.data.category}</span><i></i><span>{formatDate}</span></div>
       <p class="eyebrow">{isLead ? "Agewell Deep Read" : "Agewell Signal"}</p>
       <h1>{entry.data.title}</h1>
+      <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <time datetime={entry.data.date.toISOString()}>Published {formatDateTime}</time></p>
       <p class="article-source">Original reporting: <a href={entry.data.source_url} rel="noopener noreferrer">{entry.data.source_title}</a></p>
     </header>
     <div class="article-content"><Content /></div>

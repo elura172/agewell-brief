@@ -8,6 +8,9 @@
 - Draft-first publishing mode
 - Persistent feed-item state committed to the repository
 - Daily Lead + Signals edition structure
+- Cloudflare Worker deployment at `agewell-brief.elura172.workers.dev`
+- Production custom domain at `https://agewellbrief.com`
+- RSS, standard sitemap, news sitemap, robots, and publisher trust pages
 
 ## Before the first cloud run
 
@@ -30,17 +33,30 @@ headline, claims, links, and commercial disclosure before changing a post to
 
 ## Hosting
 
-Connect the private GitHub repository to Cloudflare Pages using:
+The private GitHub repository is connected to Cloudflare Workers Builds. The
+Astro project remains a static build; Cloudflare publishes the generated
+`dist/` assets and redeploys on pushes to `main`.
 
 ```text
 Production branch: main
-Build command: npm run build
-Output directory: dist
+Deploy command: npx wrangler deploy
+Static asset directory: dist
 ```
 
-Cloudflare Pages rebuilds automatically after the Actions workflow commits a
-reviewed or newly published post. Add `agewellbrief.com` as the Pages custom
-domain, then point the Spaceship nameservers to the pair assigned by Cloudflare.
+Cloudflare's automatic Astro setup requires `public/.assetsignore`; Astro copies
+it to `dist/` so Worker output files are not uploaded as public assets. The
+custom domain is attached under **Settings → Domains & Routes**.
+
+## Publisher discovery
+
+- `https://agewellbrief.com/rss.xml` contains only published briefs and removes
+  affiliate placements from syndicated content.
+- `https://agewellbrief.com/sitemap-index.xml` lists public site routes.
+- `https://agewellbrief.com/news-sitemap.xml` lists published articles from the
+  previous two days and may be empty between editions.
+- `https://agewellbrief.com/robots.txt` advertises both sitemaps.
+
+Draft entries are excluded from every production route and discovery file.
 
 ## Finance and tax
 

@@ -28,6 +28,20 @@ category that does not yet have a dedicated offer.
 
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
 
+## Publisher surfaces
+
+The Astro build generates a standard full-content RSS feed at `/rss.xml`, a
+normal sitemap index, a two-day Google News sitemap, and `robots.txt`. All four
+use the same draft gate as the public article routes. Affiliate placements are
+removed from RSS content while source attribution and article health notes are
+preserved.
+
+Published article pages include a visible byline and publication time,
+`NewsArticle` structured data, canonical metadata, and links to the original
+reporting. About, editorial policy, affiliate disclosure, privacy, and contact
+pages provide the publication identity expected by readers and distribution
+partners.
+
 ## Daily edition
 
 Each run selects three unprocessed stories. The highest-ranked story becomes a

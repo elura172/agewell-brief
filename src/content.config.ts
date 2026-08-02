@@ -6,6 +6,7 @@ const briefs = defineCollection({
   schema: z.object({
     title: z.string(),
     date: z.coerce.date(),
+    updated: z.coerce.date().optional(),
     draft: z.boolean().default(true),
     category: z.string().default("general wellness"),
     content_type: z.enum(["lead", "signal"]).default("signal"),
@@ -13,7 +14,9 @@ const briefs = defineCollection({
     edition_id: z.string().optional(),
     source_url: z.string().url(),
     source_title: z.string(),
-    source_name: z.string().default("Original source")
+    source_name: z.string().default("Original source"),
+    author: z.string().default("Agewell Brief Editorial Desk"),
+    image: z.string().optional()
   })
 });
 
