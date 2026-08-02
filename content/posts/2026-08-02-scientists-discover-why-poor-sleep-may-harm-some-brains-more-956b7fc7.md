@@ -1,7 +1,7 @@
 ---
 title: "Scientists discover why poor sleep may harm some brains more"
 date: 2026-08-02T19:42:45.995186+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 2
