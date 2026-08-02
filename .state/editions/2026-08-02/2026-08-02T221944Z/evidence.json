@@ -1,0 +1,58 @@
+[
+  {
+    "article_id": "737201fd1edda9bd5cda0be7",
+    "study_type": "laboratory study",
+    "key_claims": [
+      "Brain organoids grown from patient cells can model Alzheimer's disease at the molecular level.",
+      "Organoids from Alzheimer's patients showed differences in proteins related to cell communication, inflammation, and disease pathways compared to healthy controls.",
+      "Treatment with escitalopram oxalate increased serotonin signaling proteins in some patient-derived organoids but not others.",
+      "Extracellular vesicles from organoids contained proteins involved in brain activities and showed changes in disease-associated proteins.",
+      "The study suggests organoids and vesicles could help stage Alzheimer's disease and assess drug response heterogeneity."
+    ],
+    "limitations": [
+      "The study is an early step; more research is needed before clinical use.",
+      "Organoids lack immune cells and vascular networks, making them less realistic than living brain tissue.",
+      "The variation in drug response was observed in organoids, not directly in patients.",
+      "The source does not specify the number of patients or organoids used."
+    ],
+    "what_not_to_say": [
+      "The organoids can predict individual patient responses to antidepressants.",
+      "Extracellular vesicles can be used as a liquid biopsy for Alzheimer's disease.",
+      "The study proves that escitalopram is effective for Alzheimer's symptoms.",
+      "The organoids are identical to human brain tissue."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "383802cd993d84e3894e8290",
+    "study_type": "Observational study",
+    "key_claims": [
+      "Maintaining a consistent daily routine can reduce physical pain.",
+      "Maintaining a consistent daily routine can ease symptoms of depression.",
+      "The effect is particularly notable for older adults with insomnia."
+    ],
+    "limitations": [
+      "The source does not specify the study design or sample size.",
+      "The source does not provide effect sizes or statistical significance.",
+      "The source does not clarify whether the routine is the direct cause of improvements.",
+      "The source does not mention potential confounding factors."
+    ],
+    "what_not_to_say": [
+      "The study proves that a consistent daily routine causes reduced pain and depression.",
+      "The study applies to all older adults, not just those with insomnia.",
+      "The study provides specific recommendations for daily routines.",
+      "The study was conducted by University of Missouri researchers (this is stated, but not a claim about the study's findings)."
+    ],
+    "confidence": "limited"
+  },
+  {
+    "article_id": "c99b5fb04db2673528bc45ea",
+    "study_type": "reported health research",
+    "key_claims": [
+      "Researchers found that semaglutide, the active ingredient in Ozempic and Wegovy, slowed biological aging markers in adults with HIV, marking the first clinical evidence that the drug may influence human aging. Although the findings are encouraging, scientists say larger studies are needed before concluding that the medication can help people age more slowly."
+    ],
+    "limitations": [],
+    "what_not_to_say": [],
+    "confidence": "unclear"
+  }
+]

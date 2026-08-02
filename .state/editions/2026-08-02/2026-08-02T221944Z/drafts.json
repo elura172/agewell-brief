@@ -1,0 +1,73 @@
+[
+  {
+    "article_id": "737201fd1edda9bd5cda0be7",
+    "content_type": "lead",
+    "headline": "Lab-grown mini brains may predict which Alzheimer’s treatments will work",
+    "dek": "Researchers used patient-derived brain organoids to reveal why some people with Alzheimer's may respond to an antidepressant while others don't, and identified tiny particles that could one day aid diagnosis.",
+    "bullets": [
+      "Brain organoids from Alzheimer's patients show distinct molecular changes.",
+      "Antidepressant response varied among organoids, mirroring patient variability.",
+      "Extracellular vesicles may offer future biomarkers for Alzheimer's diagnosis."
+    ],
+    "caveat": "This was a laboratory study using cell models, not a clinical trial. Findings do not prove that organoid responses predict patient outcomes or that the antidepressant is effective for Alzheimer's symptoms.",
+    "sections": [
+      {
+        "heading": "Why this matters",
+        "paragraphs": [
+          "Alzheimer's disease affects more than 7 million Americans, and while there is no cure, medications like antidepressants are often used to manage symptoms such as anxiety, depression, and agitation. But responses vary widely from person to person, leaving doctors without a reliable way to predict who will benefit.",
+          "This study, led by scientists at Johns Hopkins Medicine, suggests that miniature brain models grown from a patient's own cells could help change that. By observing how these 'organoids' respond to a drug, researchers hope to identify subgroups of patients who are more likely to respond to specific treatments, moving closer to personalized care."
+        ]
+      },
+      {
+        "heading": "What the study found",
+        "paragraphs": [
+          "The researchers created hindbrain organoids from blood cells of people with Alzheimer's and healthy controls. These pea-sized clusters of tissue contained neurons that produce serotonin, a chemical targeted by antidepressants. Compared to healthy organoids, those from Alzheimer's patients showed distinct differences in proteins linked to cell communication, inflammation, and disease pathways.",
+          "When treated with escitalopram oxalate, a common SSRI, some patient-derived organoids showed increased levels of proteins involved in serotonin signaling and synaptic function, while others showed little or no change. This variation mirrors the mixed responses seen in patients, suggesting the organoids can model drug response heterogeneity.",
+          "The team also examined extracellular vesicles—tiny particles released by the organoids. These vesicles contained proteins essential for brain activity, and levels of certain proteins (RAB3A, NSF, ATCAY) were lower in Alzheimer's organoids. After drug treatment, some protein levels increased, hinting that these vesicles could serve as biomarkers for disease stage and drug response."
+        ]
+      },
+      {
+        "heading": "How to interpret this",
+        "paragraphs": [
+          "This is an early laboratory study, not a clinical trial. The organoids lack immune cells and blood vessels, making them less complex than real brain tissue. The observed drug responses occurred in lab-grown cells, not in patients, so the findings cannot yet be used to guide treatment decisions.",
+          "The study's strength lies in its scale—hundreds of organoids representing individual patients—and its focus on molecular mechanisms. The variation in drug response among organoids is intriguing, but it does not prove that the same variation occurs in people. More research is needed to confirm whether these organoid responses correlate with clinical outcomes.",
+          "The potential of extracellular vesicles as a 'liquid biopsy' is promising but speculative at this stage. The study authors emphasize that this is a first step toward that goal, and much more work is required before such tests could be used in practice."
+        ]
+      },
+      {
+        "heading": "Practical next steps",
+        "paragraphs": [
+          "For now, this research does not change how Alzheimer's is treated. Patients and families should continue to rely on their healthcare providers for advice on managing symptoms. The findings do, however, underscore the importance of personalized medicine and the need for better tools to match treatments to individuals.",
+          "Looking ahead, the Johns Hopkins team plans to develop more realistic organoids that include immune cells and vascular networks. They also hope to validate whether extracellular vesicles from organoids can reliably reflect disease progression and drug response in larger studies.",
+          "If these efforts succeed, organoids and vesicle-based biomarkers could eventually help doctors stage Alzheimer's, identify disease subtypes, and select the most effective medications for each patient. But that day is still far off, and continued research is essential."
+        ]
+      }
+    ]
+  },
+  {
+    "article_id": "383802cd993d84e3894e8290",
+    "content_type": "signal",
+    "headline": "Researchers find simple habit to improve physical and mental health",
+    "dek": "New research from the University of Missouri suggests that sticking to a regular daily schedule could improve well-being, especially for older adults struggling with insomnia.",
+    "bullets": [
+      "A consistent daily routine may reduce physical pain.",
+      "It may also ease symptoms of depression.",
+      "Benefits appear strongest for older adults with insomnia."
+    ],
+    "caveat": "This was an observational study, so it can't prove cause and effect. The source didn't provide details on sample size or effect sizes.",
+    "sections": []
+  },
+  {
+    "article_id": "c99b5fb04db2673528bc45ea",
+    "content_type": "signal",
+    "headline": "Popular weight-loss drugs Ozempic and Wegovy may slow biological aging",
+    "dek": "New research in adults with HIV suggests semaglutide could influence aging markers, but experts urge caution.",
+    "bullets": [
+      "Semaglutide slowed biological aging markers in adults with HIV.",
+      "First clinical evidence the drug may influence human aging.",
+      "Larger studies needed before confirming anti-aging effects."
+    ],
+    "caveat": "Findings are preliminary; not a proven anti-aging treatment.",
+    "sections": []
+  }
+]

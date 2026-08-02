@@ -1,0 +1,66 @@
+[
+  {
+    "article_id": "737201fd1edda9bd5cda0be7",
+    "editorial_intent": "Show a researcher examining brain organoids in a lab, highlighting the personalized medicine approach to Alzheimer's research.",
+    "subject": "a researcher in a lab coat holding a petri dish with small brain organoids",
+    "setting": "a modern neuroscience laboratory with microscopes and computer screens",
+    "mood": "focused, hopeful, scientific",
+    "composition": "close-up on the researcher's hands and the petri dish, with the lab environment softly blurred in the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "generic wellness imagery",
+      "kitchen scenes",
+      "lifestyle scenes unrelated to the story"
+    ],
+    "search_queries": [
+      "researcher holding petri dish brain organoids",
+      "neuroscience lab microscope brain cells",
+      "scientist examining organoids in laboratory"
+    ]
+  },
+  {
+    "article_id": "383802cd993d84e3894e8290",
+    "editorial_intent": "Show an older adult following a consistent daily routine, such as waking up at the same time and stretching, to illustrate the habit's benefits for physical and mental health.",
+    "subject": "An older adult in pajamas stretching by a bed with an alarm clock showing a consistent time",
+    "setting": "A bright, tidy bedroom with morning light, a clock on the nightstand, and a window showing a calm morning",
+    "mood": "calm, hopeful, disciplined",
+    "composition": "A wide shot showing the person in the bedroom, with the clock and morning light as key elements, emphasizing the routine",
+    "avoid": [
+      "pills",
+      "medical equipment",
+      "frightened expressions",
+      "generic retirement poses",
+      "kitchen scenes"
+    ],
+    "search_queries": [
+      "older adult stretching by bed morning",
+      "senior waking up alarm clock routine",
+      "elderly person morning routine bedroom"
+    ]
+  },
+  {
+    "article_id": "c99b5fb04db2673528bc45ea",
+    "editorial_intent": "Show a middle-aged adult in a clinical research setting, with subtle visual cues of monitoring and health, to convey scientific investigation into aging without overpromising.",
+    "subject": "a middle-aged adult in a clinic, with a researcher nearby",
+    "setting": "a modern clinical research facility with medical equipment",
+    "mood": "hopeful, cautious, scientific",
+    "composition": "landscape orientation, subject on one side, researcher and equipment on the other",
+    "avoid": [
+      "pills in hands",
+      "frightened expressions",
+      "miracle imagery",
+      "generic retirement poses",
+      "weight loss focus",
+      "diabetes imagery"
+    ],
+    "search_queries": [
+      "clinical research adult blood test",
+      "researcher monitoring patient clinic",
+      "adult consultation doctor clinical trial"
+    ]
+  }
+]

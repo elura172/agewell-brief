@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "737201fd1edda9bd5cda0be7",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:36417809",
+      "score": 85,
+      "rationale": "The image metadata describes a scientist examining a microscope slide under magnification, which aligns with the editorial intent of showing a researcher in a lab setting. The close-up nature and focus on precision suggest a scientific, hopeful mood. The alt text and tags support the subject of laboratory research, and the image is not generic lifestyle imagery.",
+      "concerns": [
+        "The metadata does not explicitly mention brain organoids or petri dishes, but the microscope slide examination is a reasonable representation of lab work in neuroscience. The image may not show the organoids themselves, but it conveys the scientific process."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/lab-grown-mini-brains-may-predict-which-alzheimer-s-treatments-will-wo-737201fd-pexels-36417809.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "383802cd993d84e3894e8290",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8899502",
+      "score": 85,
+      "rationale": "This image shows an elderly man sitting on his bed in the morning, adjusting his glasses, which aligns with the editorial intent of depicting an older adult following a consistent daily routine. The setting is a bedroom with morning light, and the mood is calm and disciplined. The metadata does not suggest fear, medical procedures, or stereotypes. It is specific to the subject of the story.",
+      "concerns": [
+        "The image does not explicitly show stretching or an alarm clock, but it does convey a morning routine in a bedroom setting. The absence of an alarm clock is a minor deviation from the brief."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/researchers-find-simple-habit-to-improve-physical-and-mental-health-383802cd-pexels-8899502.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "c99b5fb04db2673528bc45ea",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:14558560",
+      "score": 85,
+      "rationale": "The image depicts a doctor checking a patient's blood pressure during a medical consultation, which aligns with the editorial intent of showing a middle-aged adult in a clinical research setting with monitoring and health cues. The metadata indicates a clinical setting and a patient-doctor interaction, fitting the story's focus on medical research and aging. The image avoids pills, weight loss, and diabetes imagery, and the mood is hopeful and scientific.",
+      "concerns": [
+        "The image shows a blood pressure check, which may not directly relate to aging markers or semaglutide, but it conveys the clinical monitoring aspect. The patient's age is not specified, but the context suggests an adult. The image is not a near-duplicate of other candidates."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/popular-weight-loss-drugs-ozempic-and-wegovy-may-slow-biological-aging-c99b5fb0-pexels-14558560.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
