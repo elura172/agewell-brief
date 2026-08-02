@@ -659,7 +659,12 @@ def markdown(
             for section in content.get("sections", [])
         )
     recommendation = ""
+    recommendation_top = ""
     if offer_url:
+        recommendation_top = (
+            "\n\n> **Related resource — affiliate link:** We may earn a commission if you choose to visit this optional resource. "
+            f"[Explore the related resource]({offer_url}).\n"
+        )
         recommendation = (
             "\n\n> **Affiliate disclosure:** This optional recommendation may earn us a commission. "
             f"[View the related resource]({offer_url})."
@@ -693,6 +698,7 @@ source_name: "{quote(item.source_name)}"
 {image_frontmatter}---
 
 {content["dek"]}
+{recommendation_top}
 
 {sections}
 

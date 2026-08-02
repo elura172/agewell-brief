@@ -393,6 +393,23 @@ def test_markdown_keeps_photo_and_attribution_metadata_together():
     assert 'image_source_url: "https://www.pexels.com/photo/example-123/"' in result
 
 
+def test_lead_affiliate_offer_is_visible_near_intro_and_source():
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
+    content = {
+        "headline": "A useful finding",
+        "dek": "A clear introduction.",
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "The study was small.",
+        "sections": [],
+    }
+
+    result = markdown(item, "brain health", content, "https://example.hop.clickbank.net")
+
+    assert result.count("https://example.hop.clickbank.net") == 2
+    assert result.index("Related resource — affiliate link") < result.index("### Source")
+    assert result.lower().count("affiliate") == 2
+
+
 def test_release_audit_keeps_shadow_edition_in_draft():
     story = {
         "headline": "A useful finding",

@@ -24,6 +24,8 @@ image_avg_color: "#534E4A"
 
 A new study finds that people in their 80s and 90s with exceptional memory don't carry fewer Alzheimer's-related genes. The search for what protects them continues.
 
+> **Related resource — affiliate link:** We may earn a commission if you choose to visit this optional resource. [Explore the related brain-health resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net/?tid=agewell_brain_health_07f7c8b122a9b70c692156be).
+
 ## Why this matters
 
 Forgetting names or where you left your keys can feel like an inevitable part of aging. But a small group of older adults, called SuperAgers, seem to defy that trend. They reach their 80s and 90s with memory abilities that rival people decades younger. Understanding what makes them different could help all of us protect our brains as we age.
