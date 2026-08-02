@@ -59,6 +59,7 @@ MAX_ITEMS_PER_PUBLISHER = int(os.getenv("MAX_ITEMS_PER_PUBLISHER", "2"))
 LEAD_SOURCE_CHARS = int(os.getenv("LEAD_SOURCE_CHARS", "18000"))
 MIN_LEAD_SOURCE_CHARS = int(os.getenv("MIN_LEAD_SOURCE_CHARS", "2500"))
 CANDIDATE_POOL_SIZE = int(os.getenv("CANDIDATE_POOL_SIZE", "9"))
+TREND_CANDIDATE_MIN_SCORE = float(os.getenv("TREND_CANDIDATE_MIN_SCORE", "14"))
 PUBLIC_ROOT = Path(os.getenv("PUBLIC_ROOT", ROOT / "public"))
 EDITION_STATE_ROOT = Path(os.getenv("EDITION_STATE_ROOT", ROOT / ".state/editions"))
 IMAGE_CACHE_FILE = Path(os.getenv("IMAGE_CACHE_FILE", ROOT / ".state/image-search-cache.json"))
@@ -299,6 +300,38 @@ def trend_score(item: FeedItem, topics: list[dict[str, Any]]) -> int:
     return best
 
 
+def trend_candidates(topics: list[dict[str, Any]]) -> list[FeedItem]:
+    """Convert strong radar signals into draft candidates for source review."""
+    results: list[FeedItem] = []
+    seen: set[str] = set()
+    for topic in topics:
+        if float(topic.get("score", 0) or 0) < TREND_CANDIDATE_MIN_SCORE:
+            continue
+        category = str(topic.get("category") or "general wellness").lower()
+        for raw in topic.get("items", [])[:3]:
+            if not isinstance(raw, dict):
+                continue
+            link = str(raw.get("link") or "").strip()
+            title = str(raw.get("title") or "").strip()
+            if not link or not title or link in seen:
+                continue
+            seen.add(link)
+            source = str(raw.get("source") or "Trend discovery").strip()
+            results.append(
+                FeedItem(
+                    title=title,
+                    summary=title,
+                    link=link,
+                    published=str(raw.get("published") or ""),
+                    source_name=source,
+                    source_priority=4,
+                    headline_mode="preserve",
+                    source_group=source,
+                )
+            )
+    return results
+
+
 def fetch_ranked_items(
     sources: list[FeedSource],
     processed: set[str] | None = None,
@@ -311,9 +344,11 @@ def fetch_ranked_items(
         except Exception as exc:
             print(f"Feed failed ({source.name}): {exc}", file=sys.stderr)
 
+    topics = load_trend_topics()
+    candidates.extend(trend_candidates(topics))
     if processed:
         candidates = [item for item in candidates if item_id(item) not in processed]
-    return select_ranked_items(candidates, limit, load_trend_topics())
+    return select_ranked_items(candidates, limit, topics)
 
 
 def select_ranked_items(

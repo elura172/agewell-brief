@@ -80,6 +80,22 @@ def test_pipeline_trend_score_boosts_matching_topic():
     assert pipeline.trend_score(item, topics) > 0
 
 
+def test_strong_trend_topics_enter_candidate_pool():
+    topics = [{
+        "score": 15,
+        "category": "sleep health",
+        "items": [{
+            "title": "Sleep duration and biological aging",
+            "link": "https://news.google.com/rss/articles/example",
+            "source": "Nature",
+            "published": "Sun, 02 Aug 2026 09:00:00 GMT",
+        }],
+    }]
+    candidates = pipeline.trend_candidates(topics)
+    assert candidates[0].source_name == "Nature"
+    assert candidates[0].title.startswith("Sleep duration")
+
+
 def test_ranked_items_can_use_trend_topics():
     candidates = [
         FeedItem("Sleep and memory in older adults", "A new sleep study", "https://example.test/sleep", "", "Sleep Source", 1, "preserve", "Sleep Source"),
@@ -892,6 +908,7 @@ def test_fetch_ranked_items_excludes_processed_before_limiting(monkeypatch):
     ]
     monkeypatch.setattr(pipeline, "MAX_ITEMS", 2)
     monkeypatch.setattr(pipeline, "fetch_items", lambda _source: items)
+    monkeypatch.setattr(pipeline, "load_trend_topics", lambda: [])
 
     selected = fetch_ranked_items(
         [FeedSource("Test", "https://example.test/feed")],
