@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "9e548064819f48287a3efbec",
+    "reviewed_at": "2026-08-02T11:23:45+00:00",
+    "status": "human-reviewed",
+    "primary_source": "https://www.nature.com/articles/s41586-026-10691-5",
+    "notes": "Verified the eight-participant invasive recording design, natural-conversation task, frontotemporal sampling, and language-model analysis. Removed any suggestion that the work reads thoughts or demonstrates a speech prosthesis."
+  },
+  {
+    "article_id": "0c1df71cc299aae268fc1a2f",
+    "reviewed_at": "2026-08-02T11:23:45+00:00",
+    "status": "human-reviewed",
+    "primary_source": "https://www.nature.com/articles/s41380-026-03739-5",
+    "notes": "Verified the 45,306-person cohort, 118 incident dementia cases, follow-up, and adjusted associations. Corrected the subject from brain fluid to the choroid plexus and kept the measures explicitly non-clinical."
+  },
+  {
+    "article_id": "269642299239b37d3444eab0",
+    "reviewed_at": "2026-08-02T11:23:45+00:00",
+    "status": "human-reviewed",
+    "primary_source": "https://www.nature.com/articles/s41586-026-10791-2",
+    "notes": "Verified the SLC25A1, citrate, acetyl-CoA, histone-acetylation, and SASP mechanism in cell and aged-mouse work. States plainly that no human treatment was tested."
+  }
+]

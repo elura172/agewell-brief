@@ -559,6 +559,11 @@ def test_draft_disables_thinking_and_retries_invalid_json():
     assert result["headline"] == "A useful finding"
     assert len(completions.calls) == 2
     assert completions.calls[0]["extra_body"] == {"thinking": {"type": "disabled"}}
+    prompt = json.loads(completions.calls[-1]["messages"][1]["content"])
+    requirements = " ".join(prompt["requirements"])
+    assert "clear, spirited, respectful, and concrete" in requirements
+    assert "not a rigid template" in requirements
+    assert "Do not invent facts" in requirements
 
 
 def test_extract_article_text_ignores_page_chrome():

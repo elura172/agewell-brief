@@ -21,11 +21,12 @@
       "name": "WorldwideHealth",
       "url": "https://www.worldwidehealth.com/rss/articles.xml",
       "publisher": "WorldwideHealth",
-      "status": "observe-only",
+      "status": "held-poor-editorial-fit",
       "intended_role": "signal",
       "headline_mode": "rewrite",
-      "parser_status": "compatible-with-sanitation",
-      "note": "Validated through the production parser after HTML named-entity sanitation; keep observe-only while editorial fit is measured."
+      "parser_status": "passed-with-sanitation",
+      "last_tested": "2026-08-02",
+      "note": "Held after a controlled 15-item test: no usable publication dates, mostly title-duplicate summaries, weak relevance, and uneven contributor provenance. Do not enable in production without a new editorial review."
     },
     {
       "name": "The Guardian | Alternative medicine",

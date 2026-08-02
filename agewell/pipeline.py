@@ -61,6 +61,15 @@ EDITION_STATE_ROOT = Path(os.getenv("EDITION_STATE_ROOT", ROOT / ".state/edition
 IMAGE_CACHE_FILE = Path(os.getenv("IMAGE_CACHE_FILE", ROOT / ".state/image-search-cache.json"))
 IMAGE_LEDGER_FILE = Path(os.getenv("IMAGE_LEDGER_FILE", ROOT / ".state/image-ledger.json"))
 
+PUBLICATION_STYLE_REQUIREMENTS = (
+    "Use Agewell's publication register: clear, spirited, respectful, and concrete.",
+    "Vary sentence length naturally and prefer direct verbs over inflated significance language.",
+    "Remove promotional phrasing, vague attribution, filler, manufactured punchlines, and generic future-looking conclusions.",
+    "Use sentence case for section headings.",
+    "Do not invent facts, quotations, colour, or scenes to make the writing feel more human.",
+    "Treat these as editing preferences, not a rigid template; clarity and factual nuance outrank style rules.",
+)
+
 
 @dataclass(frozen=True)
 class FeedSource:
@@ -450,6 +459,7 @@ def draft(
             "Do not imply that a supplement treats or cures a disease.",
             "Write with tension, specificity, agency, and warmth; avoid hype and filler.",
             "bullets must contain exactly three items, each at most 20 words.",
+            *PUBLICATION_STYLE_REQUIREMENTS,
         ],
     }
     if is_lead:

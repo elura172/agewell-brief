@@ -1,0 +1,22 @@
+{
+  "source": "WorldwideHealth",
+  "feed_url": "https://www.worldwidehealth.com/rss/articles.xml",
+  "observed_at": "2026-08-02T11:23:45+00:00",
+  "decision": "hold",
+  "production_enabled": false,
+  "parser": {
+    "status": "passed-with-sanitation",
+    "items_parsed": 15
+  },
+  "editorial_fit": {
+    "items_with_publication_dates": 0,
+    "summary_quality": "mostly title-duplicate or too thin for evidence-led drafting",
+    "provenance": "contributor-led and uneven",
+    "relevance": "mostly low against the current Agewell scoring model",
+    "decision_reasons": [
+      "The feed does not supply usable publication dates.",
+      "Most summaries do not contain enough evidence to support an original brief.",
+      "The archive mixes evergreen advice, promotion, and claims with uneven source transparency."
+    ]
+  }
+}
