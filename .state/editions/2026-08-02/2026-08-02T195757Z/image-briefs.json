@@ -1,0 +1,69 @@
+[
+  {
+    "article_id": "fc5526c13bb1c2b350d5380e",
+    "editorial_intent": "Show a researcher examining brain tissue samples in a lab, conveying the scientific discovery behind the Alzheimer's tipping point.",
+    "subject": "a researcher in a lab coat looking through a microscope at brain tissue slides",
+    "setting": "a modern neuroscience laboratory with microscopes and computer monitors displaying brain scans",
+    "mood": "focused, analytical, hopeful",
+    "composition": "landscape orientation, researcher on the left, microscope and slides in the foreground, lab equipment in the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "abstract concepts",
+      "generic wellness scenes"
+    ],
+    "search_queries": [
+      "researcher examining brain tissue microscope",
+      "neuroscientist looking at brain scans computer",
+      "lab technician analyzing microscope slides"
+    ]
+  },
+  {
+    "article_id": "6a306820e1f34bdbf32ca15e",
+    "editorial_intent": "Show a person using a hypoglossal nerve stimulation device in a clinical or home setting, with a focus on the technology and its potential health benefits.",
+    "subject": "A middle-aged adult wearing a small device under the chin, connected to a thin wire, while a clinician adjusts it",
+    "setting": "A modern sleep clinic examination room with monitoring equipment and a bed",
+    "mood": "hopeful, clinical, precise",
+    "composition": "Close-up, eye-level shot, subject in sharp focus, background softly blurred",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "generic wellness scenes",
+      "kitchen or lifestyle scenes"
+    ],
+    "search_queries": [
+      "sleep apnea nerve stimulation device clinic",
+      "hypoglossal nerve stimulator implant checkup",
+      "patient with sleep apnea device doctor"
+    ]
+  },
+  {
+    "article_id": "a9e38e1b0e978d7b057444d6",
+    "editorial_intent": "Show a child being measured or weighed in a clinical or home setting, with a focus on growth and development rather than obesity.",
+    "subject": "A child standing on a scale or being measured against a height chart",
+    "setting": "A bright pediatrician's office or a home with a height chart on the wall",
+    "mood": "curious, hopeful, neutral",
+    "composition": "A close-up or medium shot focusing on the child's feet on the scale and the measuring tape, with the parent or clinician in the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "overweight children",
+      "junk food",
+      "sad or worried children"
+    ],
+    "search_queries": [
+      "child standing on scale pediatrician",
+      "child height measurement growth chart",
+      "parent measuring child height wall"
+    ]
+  }
+]

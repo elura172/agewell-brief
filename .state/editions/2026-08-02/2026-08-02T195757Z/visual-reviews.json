@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "fc5526c13bb1c2b350d5380e",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8539453",
+      "score": 85,
+      "rationale": "The image depicts a senior researcher working with a microscope in a laboratory setting, which aligns with the editorial intent of showing a researcher examining brain tissue samples. The setting is a modern laboratory, and the mood is focused and analytical. The alt text mentions a senior researcher, which fits the story's focus on older adults and cognitive resilience. The image avoids negative stereotypes and is relevant to the scientific discovery narrative.",
+      "concerns": [
+        "The alt text mentions a colleague assisting, which might introduce an extra person not specified in the brief, but this is minor. The image is not specifically of brain tissue slides, but the microscope and laboratory setting are appropriate."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/a-hidden-alzheimer-s-tipping-point-may-decide-who-gets-dementia-fc5526c1-pexels-8539453.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "6a306820e1f34bdbf32ca15e",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:31188648",
+      "score": 70,
+      "rationale": "The image depicts a modern medical device on a clean background, which aligns with the story's focus on a medical device for sleep apnea. The metadata does not explicitly show a person using the device, but the device itself is relevant and avoids negative stereotypes or unrelated scenes.",
+      "concerns": [
+        "The image may not clearly show the hypoglossal nerve stimulation device or its use on a patient, which could reduce relevance. The alt text is generic and does not specify the device type."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea-shows-downst-6a306820-pexels-31188648.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "a9e38e1b0e978d7b057444d6",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:7653122",
+      "score": 85,
+      "rationale": "The image depicts a pediatrician checking a child's arm during a home visit, which aligns with the story's focus on childhood growth and health measurements. The setting is clinical yet neutral, and the mood is likely calm and professional, avoiding negative stereotypes. The metadata does not suggest fear, obesity, or junk food, and it directly relates to the topic of child health assessment.",
+      "concerns": [
+        "The image shows a doctor checking a child's arm, which may not explicitly show a scale or height measurement, but it is still relevant to pediatric health checks. The alt text mentions diabetes management, which is not directly related to the story, but the visual is likely appropriate."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/a-42-year-old-childhood-obesity-theory-may-be-wrong-a9e38e1b-pexels-7653122.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

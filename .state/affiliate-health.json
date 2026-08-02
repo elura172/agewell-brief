@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-02T19:42:44.979711+00:00",
+  "checked_at": "2026-08-02T19:57:56.170471+00:00",
   "note": "Technical reachability is not proof of affiliate attribution; verify each approved offer once in ClickBank.",
   "offers": [
     {
@@ -23,7 +23,7 @@
     {
       "offer_id": "3b95f60e7fdeb368",
       "category": "sleep health",
-      "name": "Breathing for Sleep",
+      "name": "Sleep offer 1",
       "status": "reachable",
       "http_status": 200,
       "final_host": "breatheandsleep.org",
@@ -32,7 +32,7 @@
     {
       "offer_id": "317b61330bb40182",
       "category": "sleep health",
-      "name": "Sleep Revive",
+      "name": "Sleep offer 2",
       "status": "reachable",
       "http_status": 200,
       "final_host": "sleeprevive.org",
@@ -41,7 +41,7 @@
     {
       "offer_id": "aeb223b1d405b1dc",
       "category": "sleep health",
-      "name": "SomaLeaf CBD Turmeric Relief",
+      "name": "Sleep offer 3",
       "status": "reachable",
       "http_status": 200,
       "final_host": "somaleaf.com",
@@ -58,11 +58,20 @@
     },
     {
       "offer_id": "af46c06d5e9c9a01",
-      "category": "men's health",
-      "name": "The Multi-Orgasmic Man",
+      "category": "mens health",
+      "name": "Virility offer",
       "status": "reachable",
       "http_status": 200,
       "final_host": "multiorgasmicman.com",
+      "detail": ""
+    },
+    {
+      "offer_id": "f3bae805347e0040",
+      "category": "brain health",
+      "name": "Brain Clarity",
+      "status": "reachable",
+      "http_status": 200,
+      "final_host": "brainclarity.net",
       "detail": ""
     }
   ]

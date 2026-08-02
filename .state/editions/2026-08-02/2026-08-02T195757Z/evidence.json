@@ -1,0 +1,72 @@
+[
+  {
+    "article_id": "fc5526c13bb1c2b350d5380e",
+    "study_type": "Observational study using human brain tissue",
+    "key_claims": [
+      "Researchers identified distinct cellular programs and immune cell states in the brain linked to Alzheimer's disease progression and resistance.",
+      "Microglia, the brain's resident immune cells, change behavior during Alzheimer's progression, shifting from an inflammatory state associated with amyloid plaques to an antigen-presenting state associated with tau pathology.",
+      "The transition between these microglial states may be a biological turning point that helps determine whether Alzheimer's pathology leads to dementia.",
+      "Resilience to Alzheimer's pathology can occur through different biological pathways, as seen in octogenarians and centenarians.",
+      "The findings suggest potential new targets for Alzheimer's treatments, such as preserving beneficial early microglial activity or influencing the transition between microglial states."
+    ],
+    "limitations": [
+      "The study is based on human donor tissue, which may not fully represent living brain conditions.",
+      "The findings are observational and do not establish causality.",
+      "The study focuses on microglial states but does not fully explain all mechanisms of resilience.",
+      "The source does not provide details on sample sizes or statistical power."
+    ],
+    "what_not_to_say": [
+      "Do not claim that the study proves microglial changes cause dementia.",
+      "Do not state that treatments targeting microglial states are proven effective.",
+      "Do not generalize findings to all Alzheimer's patients or all types of dementia.",
+      "Do not imply that the study provides a definitive test or biomarker for dementia risk."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "6a306820e1f34bdbf32ca15e",
+    "study_type": "Observational study",
+    "key_claims": [
+      "More than 80 million U.S. adults are living with obstructive sleep apnea.",
+      "Obstructive sleep apnea involves collapse of soft tissue at the back of the throat, blocking the airway during sleep.",
+      "The blockage causes shallow or irregular breathing that lowers oxygen levels.",
+      "Obstructive sleep apnea decreases sleep quality and raises the risk of diabetes and cardiovascular disease."
+    ],
+    "limitations": [
+      "The source does not specify the study design or sample size.",
+      "The source does not provide details on how the estimate of 80 million was derived.",
+      "The source does not mention any specific outcomes or follow-up period.",
+      "The source does not discuss potential confounding factors."
+    ],
+    "what_not_to_say": [
+      "The source does not state that hypoglossal nerve stimulation directly causes downstream health benefits.",
+      "The source does not provide evidence that hypoglossal nerve stimulation reduces the risk of diabetes or cardiovascular disease.",
+      "The source does not mention any specific clinical trial results or efficacy data.",
+      "The source does not compare hypoglossal nerve stimulation to other treatments."
+    ],
+    "confidence": "limited"
+  },
+  {
+    "article_id": "a9e38e1b0e978d7b057444d6",
+    "study_type": "observational study",
+    "key_claims": [
+      "The study challenges the long-standing idea of an 'adiposity rebound' in children around age 6.",
+      "A more reliable measure showed that body fat does not rebound, even though BMI does.",
+      "The increase in BMI appears to be due to growth in muscle and lean tissue, not fat.",
+      "Researchers suggest this normal process has been mistakenly treated as an obesity warning sign for 42 years."
+    ],
+    "limitations": [
+      "The source does not specify the sample size or demographics of the study.",
+      "The source does not detail the exact methods used to measure body fat.",
+      "The source does not provide the full context of previous research on adiposity rebound.",
+      "The source does not mention any potential conflicts of interest or funding sources."
+    ],
+    "what_not_to_say": [
+      "The study proves that the adiposity rebound theory is completely wrong.",
+      "The study provides a new clinical guideline for childhood obesity screening.",
+      "The study shows that BMI is not a useful measure for children.",
+      "The study indicates that all children's BMI increases are due to muscle growth."
+    ],
+    "confidence": "moderate"
+  }
+]
