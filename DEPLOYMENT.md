@@ -11,7 +11,7 @@
 
 ## Before the first cloud run
 
-1. Replace `https://example.com` in `astro.config.mjs` with the production domain.
+1. Production domain configured as `https://agewellbrief.com`.
 2. Add the actual RSS or Atom feed URL as `RSS_FEED_URL`. A publisher homepage is not a feed.
 3. Add `DEEPSEEK_API_KEY` as a GitHub Actions secret. The default model is
    `deepseek-v4-flash`; set `LLM_MODEL=deepseek-v4-pro` when higher-cost editorial
@@ -30,14 +30,17 @@ headline, claims, links, and commercial disclosure before changing a post to
 
 ## Hosting
 
-For Astro, use:
+Connect the private GitHub repository to Cloudflare Pages using:
 
 ```text
+Production branch: main
 Build command: npm run build
 Output directory: dist
 ```
 
-The hosting provider can rebuild after the Actions workflow commits a reviewed or newly published post.
+Cloudflare Pages rebuilds automatically after the Actions workflow commits a
+reviewed or newly published post. Add `agewellbrief.com` as the Pages custom
+domain, then point the Spaceship nameservers to the pair assigned by Cloudflare.
 
 ## Finance and tax
 

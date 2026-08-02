@@ -14,7 +14,7 @@ const { Content } = await render(entry);
 const formatDate = entry.data.date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
 const isLead = entry.data.content_type === "lead";
 ---
-<Layout title={`${entry.data.title} — Agewell Brief`} description={`A source-linked ${isLead ? "analysis" : "brief"} on ${entry.data.category}.`}>
+<Layout title={`${entry.data.title} — Agewell Brief`} description={`A source-linked ${isLead ? "analysis" : "brief"} on ${entry.data.category}.`} ogType="article">
   <article class:list={["article-page", { "is-lead": isLead }]}>
     <a class="back-link" href="/">← All briefs</a>
     <header class="article-header">

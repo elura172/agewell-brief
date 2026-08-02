@@ -2,14 +2,17 @@
 interface Props {
   title?: string;
   description?: string;
+  ogType?: "website" | "article";
 }
 
 import "../styles/global.css";
 
 const {
   title = "Agewell Brief — clear signals for a longer life",
-  description = "Readable, source-linked health and longevity news for staying capable, curious, and independent."
+  description = "Readable, source-linked health and longevity news for staying capable, curious, and independent.",
+  ogType = "website"
 } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html>
 <html lang="en">
@@ -17,6 +20,15 @@ const {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    <meta property="og:site_name" content="Agewell Brief" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
     <link rel="icon" href="data:," />
     <title>{title}</title>
   </head>
