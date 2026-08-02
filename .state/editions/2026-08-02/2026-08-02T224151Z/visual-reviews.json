@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "a8af81b2b88f4b4a6c423599",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:6974989",
+      "score": 85,
+      "rationale": "The image depicts an elderly couple doing yoga on mats at home, which aligns with the story's focus on older adults performing simple exercises at home. The metadata mentions 'elderly couple enjoying yoga exercise on mats at home, promoting healthy and positive aging,' which matches the editorial intent of showing an older adult doing a brief, simple exercise in a home setting. The mood is empowering and hopeful, and it avoids negative stereotypes.",
+      "concerns": [
+        "The image shows a couple, while the story mentions 'older adults' generally, which is acceptable. The exercise is yoga, not specifically a chair stand, but it is a simple, home-based activity that fits the theme. The metadata does not specify a living room, but it says 'at home,' which is close enough."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2-pexels-6974989.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "c8cdac0431effbbe72ebf5e9",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:20897580",
+      "score": 85,
+      "rationale": "The image depicts an elderly man resting in a hospital bed with a blood pressure monitor, which aligns with the story's focus on sleep and aging. The setting suggests a medical or research context, fitting the editorial intent of showing an older adult in a sleep study or with monitoring equipment. The mood is calm and scientific, matching the desired tone.",
+      "concerns": [
+        "The image includes a blood pressure monitor rather than a sleep tracker, which may not precisely match the sleep study context. However, it still conveys medical monitoring and is acceptable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/too-little-sleep-and-too-much-associated-with-faster-aging-columbia-un-c8cdac04-pexels-20897580.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  },
+  {
+    "article_id": "4e3cf41d43091a2bfc06e1f7",
+    "metadata_review": {
+      "selected_candidate_id": "Pixabay:2155376",
+      "score": 70,
+      "rationale": "The image depicts a bright living room with a window, which aligns with the editorial intent of showing a sunlit space. However, it lacks a person and a clock, so it only partially matches the subject. It is the best available option among the candidates.",
+      "concerns": [
+        "The image does not show an older adult or a clock, which are key elements of the brief. It is a generic interior shot that may not effectively convey the circadian rhythm theme."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/a-weak-body-clock-may-be-an-early-warning-for-dementia-sciencedaily-4e3cf41d-pixabay-2155376.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

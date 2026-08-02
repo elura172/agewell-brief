@@ -1,0 +1,69 @@
+[
+  {
+    "article_id": "a8af81b2b88f4b4a6c423599",
+    "editorial_intent": "Show an older adult performing a brief, simple exercise at home, emphasizing practicality and ease.",
+    "subject": "an older adult doing a chair stand exercise in a bright living room",
+    "setting": "a bright, tidy living room with a sturdy chair and natural light",
+    "mood": "['empowering', 'practical', 'hopeful']",
+    "composition": "A medium shot of the older adult from the side, mid-movement, with the chair and living room visible, conveying a sense of daily routine and achievable fitness.",
+    "avoid": [
+      "fear",
+      "disability",
+      "pills",
+      "miracle",
+      "generic retirement",
+      "nursing home",
+      "hospital",
+      "medical equipment",
+      "overly athletic",
+      "young models"
+    ],
+    "search_queries": [
+      "older adult chair stand exercise living room",
+      "senior doing leg raises at home",
+      "elderly person stretching in bright living room"
+    ]
+  },
+  {
+    "article_id": "c8cdac0431effbbe72ebf5e9",
+    "editorial_intent": "Show a realistic scene of an older adult in a sleep study or at home with sleep tracking, reflecting the research on sleep duration and aging.",
+    "subject": "An older adult sleeping in a bed with a sleep monitoring device on the wrist",
+    "setting": "A calm, dimly lit bedroom with soft morning light",
+    "mood": "peaceful, contemplative, scientific",
+    "composition": "Close-up on the sleeping person's face and wrist device, with the room softly blurred in the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses"
+    ],
+    "search_queries": [
+      "older adult sleeping with sleep tracker",
+      "sleep study lab with elderly patient",
+      "senior checking sleep app on phone"
+    ]
+  },
+  {
+    "article_id": "4e3cf41d43091a2bfc06e1f7",
+    "editorial_intent": "Show a person in later life engaged in a daily routine that reflects a healthy circadian rhythm, subtly hinting at the importance of a strong body clock.",
+    "subject": "An older adult sitting by a bright window in the morning, drinking coffee and looking at a clock",
+    "setting": "A cozy, sunlit living room with a visible wall clock",
+    "mood": "calm, hopeful, contemplative",
+    "composition": "landscape orientation, subject off-center, natural light, depth of field",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "clinical settings",
+      "abstract concepts"
+    ],
+    "search_queries": [
+      "older adult morning sunlight window clock",
+      "senior checking clock bright living room",
+      "elderly person morning routine sunlight"
+    ]
+  }
+]

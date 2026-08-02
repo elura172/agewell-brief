@@ -1,0 +1,56 @@
+[
+  {
+    "article_id": "a8af81b2b88f4b4a6c423599",
+    "study_type": "news article",
+    "key_claims": [
+      "A four-minute daily exercise routine can boost strength and mobility in older adults.",
+      "The exercise routine is short and may be feasible for older adults.",
+      "The article suggests that brief daily exercise can have benefits for older adults."
+    ],
+    "limitations": [
+      "The source is a news article and does not provide detailed study methodology.",
+      "The specific exercises and outcomes are not described in detail.",
+      "The article does not specify the population or duration of the study.",
+      "The source does not provide quantitative results or statistical significance."
+    ],
+    "what_not_to_say": [
+      "The article does not specify the exact exercises or the study design.",
+      "It does not claim that the exercise prevents falls or reverses aging.",
+      "It does not provide evidence for long-term effects or compare with other exercise regimens.",
+      "It does not mention any specific health conditions or medications."
+    ],
+    "confidence": "limited"
+  },
+  {
+    "article_id": "c8cdac0431effbbe72ebf5e9",
+    "study_type": "news article",
+    "key_claims": [
+      "Both too little and too much sleep are associated with faster biological aging.",
+      "The association was found in a study from Columbia University Irving Medical Center.",
+      "The study suggests that sleep duration may impact the aging process."
+    ],
+    "limitations": [
+      "The source is a news article, not the original study, so details may be simplified.",
+      "The exact definition of 'too little' and 'too much' sleep is not provided.",
+      "The source does not specify the study design or population.",
+      "Causation is not established; only an association is reported."
+    ],
+    "what_not_to_say": [
+      "The study proves that sleep duration causes faster aging.",
+      "Specific sleep durations (e.g., less than 6 hours or more than 9 hours) are harmful.",
+      "The study provides a mechanism for how sleep affects aging.",
+      "The findings apply to all age groups or populations."
+    ],
+    "confidence": "limited"
+  },
+  {
+    "article_id": "4e3cf41d43091a2bfc06e1f7",
+    "study_type": "reported health research",
+    "key_claims": [
+      "A weak body clock may be an early warning for dementia - ScienceDaily"
+    ],
+    "limitations": [],
+    "what_not_to_say": [],
+    "confidence": "unclear"
+  }
+]
