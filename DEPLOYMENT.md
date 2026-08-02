@@ -29,6 +29,11 @@
    article-level `tid` parameters automatically.
 7. Push the repository to GitHub and run **Aggregate health briefs** manually.
 
+The optional evergreen context layer is local-only by default. Do not commit
+the transcript library. A cloud run needs a separately authorized private
+bundle or companion repository; otherwise the pipeline safely runs without
+that background layer.
+
 ## Review loop
 
 Generated files are intentionally written with `draft: true`. Each edition

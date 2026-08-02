@@ -56,6 +56,28 @@ are automated after approval.
 
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
 
+## Evergreen context layer
+
+The pipeline can optionally retrieve background passages from a private local
+library. Configure directories or individual sources only on a machine that
+has access to them:
+
+```bash
+export EVERGREEN_CONTEXT_SOURCES_JSON='[{"label":"Grow a New Body transcripts","path":"/Users/mirrr/Movies/grow a new body/transcripts","kind":"program_transcript"},{"label":"Spiral of Cellular Light","path":"/Users/mirrr/Desktop/spiral of cellular light","kind":"spiral_framework"}]'
+python -m agewell.pipeline
+```
+
+The retriever is lexical and deterministic, so it adds no database or model
+dependency. It passes only the top matching excerpts to the editor with a
+strict instruction to use them as background framing—not as current medical
+evidence—and records source metadata in `evergreen-context.json`. The raw
+library and excerpts are never copied into the repository or its audit trail.
+
+GitHub Actions cannot see `/Users/mirrr/...`. To use this layer in cloud runs,
+provide a separately authorized private context bundle or companion repository
+and point the same variables at its checked-out path. Until that is configured,
+cloud editions continue normally without evergreen context.
+
 ## Editorial agents and image direction
 
 Each edition moves through an evidence analyst, story editor, image director,

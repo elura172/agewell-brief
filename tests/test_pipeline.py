@@ -6,6 +6,7 @@ import pytest
 
 from agewell import pipeline
 from agewell.affiliates import parse_offer_config
+from agewell.context import ContextDocument, retrieve_context
 from agewell.pipeline import (
     DraftGenerationError,
     FeedItem,
@@ -49,6 +50,33 @@ from agewell.images import (
 def test_classify_mobility():
     item = FeedItem("Walking and balance", "A new study", "https://example.test/1", "")
     assert classify(item) == "mobility"
+
+
+def test_evergreen_context_retrieval_preserves_provenance_and_labels():
+    documents = [
+        ContextDocument(
+            "abc123",
+            "/private/spiral/framework.md",
+            "The Spiral of Cellular Light",
+            "spiral_framework",
+            "Mitochondria and oxidative metabolism are subjects of careful study.",
+        ),
+        ContextDocument(
+            "def456",
+            "/private/transcripts/mod2/gut-brain.md",
+            "The gut brain connection",
+            "program_transcript",
+            "The gut brain axis links digestion, signaling, and daily routines.",
+        ),
+    ]
+
+    hits = retrieve_context("mitochondria oxidative metabolism", documents)
+
+    assert len(hits) == 1
+    assert hits[0].kind == "spiral_framework"
+    assert hits[0].path == "/private/spiral/framework.md"
+    assert hits[0].prompt_dict()["use"] == "Background framing only; not current medical evidence."
+    assert "excerpt" not in hits[0].audit_dict()
 
 
 def test_classify_alzheimers_as_brain_health():
@@ -469,9 +497,10 @@ def test_run_writes_complete_shadow_edition_audit(monkeypatch, tmp_path: Path):
         "drafts.json",
         "image-briefs.json",
         "candidates.json",
-        "failed-drafts.json",
-        "visual-reviews.json",
-        "release-manifest.json",
+            "failed-drafts.json",
+            "visual-reviews.json",
+            "evergreen-context.json",
+            "release-manifest.json",
     }
     assert {path.name for path in edition_dirs[0].iterdir()} == expected
     manifest = json.loads((edition_dirs[0] / "release-manifest.json").read_text())

@@ -19,6 +19,7 @@ from bs4 import BeautifulSoup
 from openai import OpenAI
 
 from agewell.affiliates import load_health_status, select_offer, tracked_offer_url
+from agewell.context import ContextHit, build_context_index, retrieve_context
 from agewell.edition import EditionRecorder, audit_release
 from agewell.editorial import (
     AlignmentReview,
@@ -452,6 +453,7 @@ def draft(
     content_type: str = "signal",
     source_text: str | None = None,
     evidence: EvidencePacket | None = None,
+    evergreen_context: list[ContextHit] | None = None,
 ) -> dict[str, Any]:
     is_lead = content_type == "lead"
     source_material = source_text or item.summary
@@ -467,6 +469,7 @@ def draft(
         "category": category,
         "content_type": content_type,
         "evidence_packet": evidence.to_dict() if evidence else None,
+        "evergreen_context": [hit.prompt_dict() for hit in (evergreen_context or [])],
         "requirements": [
             "Write clear, engaging health journalism for readers over 50.",
             "Use only claims supported by the supplied source material.",
@@ -489,8 +492,13 @@ def draft(
                 "sections must contain exactly four objects with heading and paragraphs fields.",
                 "Each paragraphs field must be an array of two or three complete paragraphs.",
                 "The four sections should explain why this matters, what was found, how to interpret it, and practical next steps.",
-                "Separate reported evidence from interpretation and clearly state uncertainty.",
-            ]
+            "Separate reported evidence from interpretation and clearly state uncertainty.",
+            (
+                "Use evergreen_context only for background framing, questions, or vocabulary. "
+                "Never present it as current evidence, a clinical recommendation, or proof of a health effect."
+            ),
+            "Do not mention a program, course, or private file path in the published article unless explicitly requested.",
+        ]
         )
     else:
         prompt["requirements"].extend(
@@ -722,6 +730,7 @@ def run() -> int:
     used_image_ids = load_image_ledger(IMAGE_LEDGER_FILE)
     used_image_creators = load_image_creators(IMAGE_LEDGER_FILE)
     vision_reviewer = DeferredVisionReviewer()
+    evergreen_documents = build_context_index()
 
     edition_time = dt.datetime.now(dt.timezone.utc)
     recorder = EditionRecorder(EDITION_STATE_ROOT, edition_time)
@@ -732,6 +741,7 @@ def run() -> int:
     brief_artifacts: list[dict[str, Any]] = []
     candidate_artifacts: list[dict[str, Any]] = []
     review_artifacts: list[dict[str, Any]] = []
+    context_artifacts: list[dict[str, Any]] = []
     release_checks: list[dict[str, Any]] = []
     failure_artifacts: list[dict[str, Any]] = []
     generated_count = 0
@@ -742,6 +752,18 @@ def run() -> int:
         category = classify(item)
         source_material = source_text or item.summary
         content_type = requested_content_type
+        evergreen_context = retrieve_context(
+            f"{item.title} {item.summary} {category}",
+            evergreen_documents,
+        )
+        context_artifacts.append(
+            {
+                "article_id": key,
+                "enabled": bool(evergreen_documents),
+                "hits": [hit.audit_dict() for hit in evergreen_context],
+                "policy": "Background framing only; never current medical evidence.",
+            }
+        )
         source_artifacts.append(
             {
                 "article_id": key,
@@ -775,7 +797,7 @@ def run() -> int:
         evidence_artifacts.append({"article_id": key, **evidence.to_dict()})
 
         try:
-            content = draft(client, item, category, content_type, source_text, evidence)
+            content = draft(client, item, category, content_type, source_text, evidence, evergreen_context)
         except Exception as exc:
             failure = {
                 "article_id": key,
@@ -789,7 +811,7 @@ def run() -> int:
             }
             if requested_content_type == "lead":
                 try:
-                    content = draft(client, item, category, "signal", None, evidence)
+                    content = draft(client, item, category, "signal", None, evidence, evergreen_context)
                     content_type = "signal"
                     failure["resolution"] = "downgraded_to_signal"
                     failure_artifacts.append(failure)
@@ -919,6 +941,7 @@ def run() -> int:
     recorder.write("image-briefs", brief_artifacts)
     recorder.write("candidates", candidate_artifacts)
     recorder.write("visual-reviews", review_artifacts)
+    recorder.write("evergreen-context", context_artifacts)
     recorder.write("failed-drafts", failure_artifacts)
     recorder.write(
         "release-manifest",
