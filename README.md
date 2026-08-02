@@ -29,7 +29,8 @@ Offers are matched by exact editorial category. The pipeline does not place a
 general-wellness offer in a mobility, brain-health, metabolic-health, or
 longevity article unless that category has its own reviewed HopLink. Men's
 health is also routed independently, so sexual-wellness offers never spill into
-unrelated health coverage.
+unrelated health coverage. Sleep health has its own category as well, preventing
+sleep offers from appearing beside dementia coverage that merely mentions sleep.
 
 Several reviewed offers can be routed within one category using the richer
 format below. `approved` is deliberately fail-closed, `priority` selects the

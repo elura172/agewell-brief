@@ -427,7 +427,8 @@ def classify(item: FeedItem) -> str:
         ),
         "metabolic health": ("blood sugar", "glucose", "insulin", "metabolic", "diabetes", "obesity", "lipid"),
         "mobility": ("joint", "arthritis", "knee", "back pain", "balance training", "fall prevention", "walking"),
-        "brain health": ("memory", "cognition", "brain", "dementia", "alzheimer", "parkinson", "sleep"),
+        "brain health": ("memory", "cognition", "brain", "dementia", "alzheimer", "parkinson"),
+        "sleep health": ("sleep", "insomnia", "circadian", "bedtime", "rem sleep", "night waking"),
         "longevity": ("aging", "ageing", "longevity", "lifespan", "healthspan"),
     }
     for category, terms in rules.items():

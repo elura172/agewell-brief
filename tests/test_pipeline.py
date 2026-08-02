@@ -56,6 +56,26 @@ def test_classify_alzheimers_as_brain_health():
     assert classify(item) == "brain health"
 
 
+def test_classify_sleep_story_as_sleep_health():
+    item = FeedItem(
+        "A new approach to insomnia",
+        "Researchers studied sleep and night waking in older adults.",
+        "https://example.test/sleep",
+        "",
+    )
+    assert classify(item) == "sleep health"
+
+
+def test_alzheimers_sleep_story_stays_brain_health():
+    item = FeedItem(
+        "Sleep disruption in Alzheimer's disease",
+        "A mouse study examined amyloid and sleep.",
+        "https://example.test/alzheimers-sleep",
+        "",
+    )
+    assert classify(item) == "brain health"
+
+
 def test_fat_imbalance_does_not_trigger_mobility_category():
     item = FeedItem(
         "How obesity may fuel Alzheimer's disease",
@@ -544,20 +564,20 @@ def test_hoplink_error_health_hides_offer():
 
 def test_equal_priority_offers_rotate_deterministically_by_article():
     configured = {
-        "brain health": [
+        "sleep health": [
             "https://sleepone.hop.clickbank.net",
             "https://sleeptwo.hop.clickbank.net",
             "https://sleepthree.hop.clickbank.net",
         ]
     }
     selections = {
-        select_offer(configured, "brain health", f"article-{number}")
+        select_offer(configured, "sleep health", f"article-{number}")
         for number in range(24)
     }
     assert len(selections) == 3
-    assert select_offer(configured, "brain health", "article-7") == select_offer(
+    assert select_offer(configured, "sleep health", "article-7") == select_offer(
         configured,
-        "brain health",
+        "sleep health",
         "article-7",
     )
 
