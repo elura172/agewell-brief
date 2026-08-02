@@ -7,6 +7,7 @@ from agewell import pipeline
 from agewell.pipeline import (
     FeedItem,
     FeedSource,
+    choose_edition,
     classify,
     draft,
     extract_article_text,
@@ -213,3 +214,23 @@ def test_lead_draft_requests_long_structured_analysis():
 
     assert len(result["sections"]) == 4
     assert completions.kwargs["max_tokens"] == 3200
+
+
+def test_choose_edition_promotes_source_rich_story(monkeypatch):
+    candidates = [
+        FeedItem("Top summary-only story", "Short summary", "https://example.test/1", ""),
+        FeedItem("Source-rich story", "Summary", "https://example.test/2", ""),
+        FeedItem("Third story", "Summary", "https://example.test/3", ""),
+    ]
+    monkeypatch.setattr(pipeline, "MAX_ITEMS", 3)
+    monkeypatch.setattr(
+        pipeline,
+        "fetch_article_text",
+        lambda item: "rich source material " * 200 if item.link.endswith("/2") else item.summary,
+    )
+
+    edition = choose_edition(candidates)
+
+    assert edition[0][0].link == "https://example.test/2"
+    assert edition[0][1] == "lead"
+    assert [entry[1] for entry in edition[1:]] == ["signal", "signal"]

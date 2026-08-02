@@ -31,6 +31,8 @@ MAX_ITEMS = int(os.getenv("MAX_ITEMS", "3"))
 MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "15"))
 MAX_ITEMS_PER_PUBLISHER = int(os.getenv("MAX_ITEMS_PER_PUBLISHER", "2"))
 LEAD_SOURCE_CHARS = int(os.getenv("LEAD_SOURCE_CHARS", "18000"))
+MIN_LEAD_SOURCE_CHARS = int(os.getenv("MIN_LEAD_SOURCE_CHARS", "2500"))
+CANDIDATE_POOL_SIZE = int(os.getenv("CANDIDATE_POOL_SIZE", "9"))
 
 
 @dataclass(frozen=True)
@@ -155,7 +157,11 @@ def relevance_score(item: FeedItem) -> int:
     return score
 
 
-def fetch_ranked_items(sources: list[FeedSource], processed: set[str] | None = None) -> list[FeedItem]:
+def fetch_ranked_items(
+    sources: list[FeedSource],
+    processed: set[str] | None = None,
+    limit: int | None = None,
+) -> list[FeedItem]:
     candidates: list[FeedItem] = []
     for source in sources:
         try:
@@ -165,11 +171,12 @@ def fetch_ranked_items(sources: list[FeedSource], processed: set[str] | None = N
 
     if processed:
         candidates = [item for item in candidates if item_id(item) not in processed]
-    return select_ranked_items(candidates)
+    return select_ranked_items(candidates, limit)
 
 
-def select_ranked_items(candidates: list[FeedItem]) -> list[FeedItem]:
+def select_ranked_items(candidates: list[FeedItem], limit: int | None = None) -> list[FeedItem]:
     """Deduplicate and rank stories while keeping each batch source-diverse."""
+    target_count = limit if limit is not None else MAX_ITEMS
     best_by_title: dict[str, FeedItem] = {}
     for item in candidates:
         key = normalized_title(item.title)
@@ -190,7 +197,7 @@ def select_ranked_items(candidates: list[FeedItem]) -> list[FeedItem]:
         selected.append(item)
         selected_links.add(item.link)
         publisher_counts[publisher] = publisher_counts.get(publisher, 0) + 1
-        if len(selected) == MAX_ITEMS:
+        if len(selected) == target_count:
             return selected
 
     # If too few publishers have fresh stories, fill the remaining slots by score.
@@ -198,7 +205,7 @@ def select_ranked_items(candidates: list[FeedItem]) -> list[FeedItem]:
         if item.link in selected_links:
             continue
         selected.append(item)
-        if len(selected) == MAX_ITEMS:
+        if len(selected) == target_count:
             break
     return selected
 
@@ -285,6 +292,24 @@ def fetch_article_text(item: FeedItem) -> str:
     return extracted if len(extracted) >= 500 else item.summary
 
 
+def choose_edition(candidates: list[FeedItem]) -> list[tuple[FeedItem, str, str | None]]:
+    """Choose a source-rich lead and the two strongest remaining signals."""
+    if not candidates:
+        return []
+
+    lead = candidates[0]
+    lead_source = fetch_article_text(lead)
+    for candidate in candidates:
+        source_text = lead_source if candidate is lead else fetch_article_text(candidate)
+        if len(source_text) >= MIN_LEAD_SOURCE_CHARS:
+            lead = candidate
+            lead_source = source_text
+            break
+
+    signals = [candidate for candidate in candidates if candidate.link != lead.link][: max(0, MAX_ITEMS - 1)]
+    return [(lead, "lead", lead_source)] + [(signal, "signal", None) for signal in signals]
+
+
 def classify(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     rules = {
@@ -345,6 +370,8 @@ def draft(
 ) -> dict[str, Any]:
     is_lead = content_type == "lead"
     source_material = source_text or item.summary
+    source_is_deep = len(source_material) >= MIN_LEAD_SOURCE_CHARS
+    minimum_lead_words = 500 if source_is_deep else 300
     prompt: dict[str, Any] = {
         "source_title": item.title,
         "source_summary": item.summary[:5000],
@@ -365,7 +392,11 @@ def draft(
     if is_lead:
         prompt["requirements"].extend(
             [
-                "Create an original 600-900 word analysis based only on source_material.",
+                (
+                    "Create an original 600-900 word analysis based only on source_material."
+                    if source_is_deep
+                    else "Create a focused 350-500 word analysis; do not pad beyond the limited source material."
+                ),
                 "Return JSON with headline, dek, sections, bullets, and caveat.",
                 "sections must contain exactly four objects with heading and paragraphs fields.",
                 "Each paragraphs field must be an array of two or three complete paragraphs.",
@@ -412,7 +443,7 @@ def draft(
                         for paragraph in section.get("paragraphs", [])
                     ).split()
                 )
-                if lead_words < 500:
+                if lead_words < minimum_lead_words:
                     raise ValueError(f"lead draft is too short ({lead_words} words)")
             result = candidate
             break
@@ -529,11 +560,10 @@ def run() -> int:
     configured_offers = offers()
 
     edition_time = dt.datetime.now(dt.timezone.utc)
-    for index, item in enumerate(fetch_ranked_items(sources, state)):
+    candidates = fetch_ranked_items(sources, state, max(MAX_ITEMS, CANDIDATE_POOL_SIZE))
+    for index, (item, content_type, source_text) in enumerate(choose_edition(candidates)):
         key = item_id(item)
         category = classify(item)
-        content_type = "lead" if index == 0 else "signal"
-        source_text = fetch_article_text(item) if content_type == "lead" else None
         content = draft(client, item, category, content_type, source_text)
         offer_url = None
         if content_type == "lead":

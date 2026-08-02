@@ -32,9 +32,11 @@ Generated files land in `content/posts/`; processing state is stored in `.state/
 
 Each run selects three unprocessed stories. The highest-ranked story becomes a
 source-enriched 600–900 word **Deep Read**; the next two become compact
-**Signals**. Only the Deep Read receives a contextual affiliate slot. The
-checked-in workflow runs once each morning at 11:17 UTC and can also be run
-manually.
+**Signals**. Lead selection scans a wider candidate pool and promotes the
+highest-ranked story whose source page provides enough material. Summary-only
+stories remain Signals rather than being padded. Only the Deep Read receives a
+contextual affiliate slot. The checked-in workflow runs once each morning at
+11:17 UTC and can also be run manually.
 
 ## Feed portfolio
 
