@@ -1,7 +1,7 @@
 ---
 title: "The spikiness secret: can acupressure mats help with pain, stress and insomnia?"
 date: 2026-08-02T22:24:36.983685+00:00
-draft: true
+draft: false
 category: "sleep health"
 content_type: "signal"
 edition_rank: 3

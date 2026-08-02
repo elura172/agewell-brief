@@ -1,7 +1,7 @@
 ---
 title: "Eating less protein could slow aging, major review finds"
 date: 2026-08-02T22:24:36.983685+00:00
-draft: true
+draft: false
 category: "longevity"
 content_type: "lead"
 edition_rank: 1
