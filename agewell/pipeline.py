@@ -18,7 +18,8 @@ from urllib.parse import urlsplit, urlunsplit
 from bs4 import BeautifulSoup
 from openai import OpenAI
 
-from agewell.affiliates import load_health_status, select_offer, tracked_offer_url
+from agewell.affiliates import load_health_status, select_offer, select_offers, tracked_offer_url
+from agewell.agents import assignment_editor, commercial_integrity, copy_edit, release_manager
 from agewell.context import ContextHit, build_context_index, retrieve_context
 from agewell.edition import EditionRecorder, audit_release
 from agewell.editorial import (
@@ -63,6 +64,7 @@ EDITION_STATE_ROOT = Path(os.getenv("EDITION_STATE_ROOT", ROOT / ".state/edition
 IMAGE_CACHE_FILE = Path(os.getenv("IMAGE_CACHE_FILE", ROOT / ".state/image-search-cache.json"))
 IMAGE_LEDGER_FILE = Path(os.getenv("IMAGE_LEDGER_FILE", ROOT / ".state/image-ledger.json"))
 AFFILIATE_HEALTH_FILE = Path(os.getenv("AFFILIATE_HEALTH_FILE", ROOT / ".state/affiliate-health.json"))
+TREND_RADAR_FILE = Path(os.getenv("TREND_RADAR_FILE", ROOT / ".state/trend-radar.json"))
 
 PUBLICATION_STYLE_REQUIREMENTS = (
     "Use Agewell's publication register: clear, spirited, respectful, and concrete.",
@@ -97,6 +99,10 @@ class FeedSource:
     priority: int = 0
     headline_mode: str = "rewrite"
     publisher: str = ""
+    authority: str = "editorial"
+    categories: tuple[str, ...] = ()
+    max_daily_items: int = 2
+    requires_secondary_check: bool = False
 
 
 @dataclass(frozen=True)
@@ -193,6 +199,10 @@ def feed_sources() -> list[FeedSource]:
                     priority=int(value.get("priority", 0)),
                     headline_mode=mode,
                     publisher=str(value.get("publisher", "")),
+                    authority=str(value.get("authority", "editorial")),
+                    categories=tuple(str(category).lower() for category in value.get("categories", [])),
+                    max_daily_items=max(1, int(value.get("max_daily_items", 2))),
+                    requires_secondary_check=bool(value.get("requires_secondary_check", False)),
                 )
             )
         return sources
@@ -260,6 +270,35 @@ def relevance_score(item: FeedItem) -> int:
     return score
 
 
+def load_trend_topics(path: Path | None = None) -> list[dict[str, Any]]:
+    path = path or TREND_RADAR_FILE
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+    topics = payload.get("topics", []) if isinstance(payload, dict) else []
+    return [topic for topic in topics if isinstance(topic, dict)]
+
+
+def trend_score(item: FeedItem, topics: list[dict[str, Any]]) -> int:
+    """Reward overlap with independently observed, fresh trend topics."""
+    item_words = set(normalized_title(f"{item.title} {item.summary}").split())
+    category = classify(item)
+    best = 0
+    for topic in topics:
+        topic_words = set(normalized_title(f"{topic.get('topic', '')} {topic.get('headline', '')}").split())
+        overlap = len(item_words & topic_words)
+        if overlap < 2 and str(topic.get("category", "")).lower() != category:
+            continue
+        score = min(6, overlap * 2) + min(4, int(topic.get("source_count", 0) or 0))
+        if str(topic.get("category", "")).lower() == category:
+            score += 3
+        if float(topic.get("score", 0) or 0) >= 12:
+            score += 2
+        best = max(best, score)
+    return best
+
+
 def fetch_ranked_items(
     sources: list[FeedSource],
     processed: set[str] | None = None,
@@ -274,10 +313,14 @@ def fetch_ranked_items(
 
     if processed:
         candidates = [item for item in candidates if item_id(item) not in processed]
-    return select_ranked_items(candidates, limit)
+    return select_ranked_items(candidates, limit, load_trend_topics())
 
 
-def select_ranked_items(candidates: list[FeedItem], limit: int | None = None) -> list[FeedItem]:
+def select_ranked_items(
+    candidates: list[FeedItem],
+    limit: int | None = None,
+    trend_topics: list[dict[str, Any]] | None = None,
+) -> list[FeedItem]:
     """Deduplicate and rank stories while keeping each batch source-diverse."""
     target_count = limit if limit is not None else MAX_ITEMS
     best_by_title: dict[str, FeedItem] = {}
@@ -287,7 +330,12 @@ def select_ranked_items(candidates: list[FeedItem], limit: int | None = None) ->
         if current is None or relevance_score(item) > relevance_score(current):
             best_by_title[key] = item
 
-    ranked = sorted(best_by_title.values(), key=relevance_score, reverse=True)
+    topics = trend_topics or []
+    ranked = sorted(
+        best_by_title.values(),
+        key=lambda item: relevance_score(item) + trend_score(item, topics),
+        reverse=True,
+    )
     selected: list[FeedItem] = []
     selected_links: set[str] = set()
     publisher_counts: dict[str, int] = {}
@@ -644,7 +692,7 @@ def markdown(
     item: FeedItem,
     category: str,
     content: dict[str, Any],
-    offer_url: str | None,
+    offer_urls: list[str] | str | None,
     content_type: str = "signal",
     edition_rank: int = 1,
     edition_time: dt.datetime | None = None,
@@ -658,16 +706,25 @@ def markdown(
             f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
             for section in content.get("sections", [])
         )
-    recommendation = ""
+    if isinstance(offer_urls, str):
+        offer_urls = [offer_urls] if offer_urls else []
+    offer_urls = list(offer_urls or [])[:3]
     recommendation_top = ""
-    if offer_url:
+    recommendation = ""
+    if offer_urls:
+        placement_count = min(3, max(2, len(offer_urls)))
+        placements = [offer_urls[index % len(offer_urls)] for index in range(placement_count)]
         recommendation_top = (
-            "\n\n> **Related resource — affiliate link:** We may earn a commission if you choose to visit this optional resource. "
-            f"[Explore the related resource]({offer_url}).\n"
+            "\n\n> **Related resource — affiliate link:** We may earn a commission if you choose to visit an optional resource. "
+            f"[Explore a related {category} resource]({placements[0]}).\n"
         )
+        if len(offer_urls) > 1:
+            recommendation_top += (
+                f"\n> **Reader resource:** [See another option for {category}]({placements[1]}).\n"
+            )
         recommendation = (
-            "\n\n> **Affiliate disclosure:** This optional recommendation may earn us a commission. "
-            f"[View the related resource]({offer_url})."
+            "\n\n> **Affiliate disclosure:** These optional resources may earn us a commission. "
+            f"[View the related resource]({placements[-1]})."
         )
     health_note = content["caveat"]
     image_frontmatter = ""
@@ -741,6 +798,17 @@ def run() -> int:
     edition_time = dt.datetime.now(dt.timezone.utc)
     recorder = EditionRecorder(EDITION_STATE_ROOT, edition_time)
     candidates = fetch_ranked_items(sources, state, max(MAX_ITEMS, CANDIDATE_POOL_SIZE))
+    trend_topics = load_trend_topics()
+    recent_titles = [path.stem for path in sorted(OUTPUT_DIR.glob("*.md"))[-40:]]
+    assignment = assignment_editor(client, MODEL, candidates, trend_topics, recent_titles, MAX_ITEMS)
+    candidate_by_id = {item_id(item): item for item in candidates}
+    assigned_candidates = [
+        candidate_by_id[row["article_id"]]
+        for row in assignment["assignments"]
+        if row.get("article_id") in candidate_by_id
+    ]
+    if not assigned_candidates:
+        assigned_candidates = candidates
     source_artifacts: list[dict[str, Any]] = []
     evidence_artifacts: list[dict[str, Any]] = []
     draft_artifacts: list[dict[str, Any]] = []
@@ -748,10 +816,12 @@ def run() -> int:
     candidate_artifacts: list[dict[str, Any]] = []
     review_artifacts: list[dict[str, Any]] = []
     context_artifacts: list[dict[str, Any]] = []
+    copy_artifacts: list[dict[str, Any]] = []
+    commercial_artifacts: list[dict[str, Any]] = []
     release_checks: list[dict[str, Any]] = []
     failure_artifacts: list[dict[str, Any]] = []
     generated_count = 0
-    edition_entries = choose_edition(candidates)
+    edition_entries = choose_edition(assigned_candidates)
 
     for item, requested_content_type, source_text in edition_entries:
         key = item_id(item)
@@ -836,6 +906,8 @@ def run() -> int:
                 failure_artifacts.append(failure)
                 print(f"Draft skipped ({item.source_name}): {exc}", file=sys.stderr)
                 continue
+        content, copy_review = copy_edit(client, MODEL, content, item.title)
+        copy_artifacts.append({"article_id": key, **copy_review})
         draft_artifacts.append({"article_id": key, "content_type": content_type, **content})
 
         try:
@@ -921,21 +993,21 @@ def run() -> int:
             }
         )
 
-        offer_url = None
-        if content_type == "lead":
-            offer_url = tracked_offer_url(
-                select_offer(configured_offers, category, key, affiliate_health),
-                category,
-                key,
-            )
+        offer_urls = [
+            tracked_offer_url(url, category, key)
+            for url in select_offers(configured_offers, category, key, affiliate_health, limit=3)
+        ]
+        offer_review = commercial_integrity(category, offer_urls)
+        commercial_artifacts.append({"article_id": key, **offer_review})
+        release_review = release_manager(item.link, content, offer_review)
         generated_count += 1
         target = OUTPUT_DIR / f"{recorder.edition_id}-{slug(content['headline'])}-{key[:8]}.md"
         target.write_text(
-            markdown(item, category, content, offer_url, content_type, generated_count, edition_time, photo),
+            markdown(item, category, content, offer_urls, content_type, generated_count, edition_time, photo),
             encoding="utf-8",
         )
         release_checks.append(
-            audit_release(key, item.link, content, metadata_status, visual_status).to_dict()
+            {**audit_release(key, item.link, content, metadata_status, visual_status).to_dict(), "desk_review": release_review}
         )
         state.add(key)
         save_state(state)
@@ -949,6 +1021,9 @@ def run() -> int:
     recorder.write("visual-reviews", review_artifacts)
     recorder.write("evergreen-context", context_artifacts)
     recorder.write("failed-drafts", failure_artifacts)
+    recorder.write("assignments", assignment)
+    recorder.write("copy-reviews", copy_artifacts)
+    recorder.write("commercial-reviews", commercial_artifacts)
     recorder.write(
         "release-manifest",
         {

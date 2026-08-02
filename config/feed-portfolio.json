@@ -4,90 +4,164 @@
     "url": "https://www.nih.gov/nih-research-matters/feed.xml",
     "priority": 4,
     "headline_mode": "rewrite",
-    "publisher": "NIH"
+    "publisher": "NIH",
+    "authority": "primary",
+    "categories": ["brain health", "metabolic health", "longevity"],
+    "max_daily_items": 2,
+    "requires_secondary_check": false
   },
   {
     "name": "NIH News Releases",
     "url": "https://www.nih.gov/news-releases/feed.xml",
     "priority": 2,
     "headline_mode": "rewrite",
-    "publisher": "NIH"
+    "publisher": "NIH",
+    "authority": "primary",
+    "categories": ["general wellness", "longevity"],
+    "max_daily_items": 1,
+    "requires_secondary_check": false
   },
   {
     "name": "FDA Consumer Health",
     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/consumers/rss.xml",
     "priority": 3,
     "headline_mode": "rewrite",
-    "publisher": "FDA"
+    "publisher": "FDA",
+    "authority": "primary",
+    "categories": ["consumer safety", "general wellness"],
+    "max_daily_items": 2,
+    "requires_secondary_check": false
   },
   {
     "name": "FDA Health Fraud",
     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/health-fraud/rss.xml",
     "priority": 5,
     "headline_mode": "rewrite",
-    "publisher": "FDA"
+    "publisher": "FDA",
+    "authority": "primary",
+    "categories": ["consumer safety"],
+    "max_daily_items": 1,
+    "requires_secondary_check": false
   },
   {
     "name": "FDA Tainted Supplements",
     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/tainted-dietary-supplements/rss.xml",
     "priority": 6,
     "headline_mode": "rewrite",
-    "publisher": "FDA"
+    "publisher": "FDA",
+    "authority": "primary",
+    "categories": ["consumer safety"],
+    "max_daily_items": 1,
+    "requires_secondary_check": false
   },
   {
     "name": "MedlinePlus Healthy Aging",
     "url": "https://medlineplus.gov/feeds/topics/healthyaging.xml",
     "priority": 3,
     "headline_mode": "preserve",
-    "publisher": "MedlinePlus"
+    "publisher": "MedlinePlus",
+    "authority": "primary",
+    "categories": ["longevity", "general wellness"],
+    "max_daily_items": 1,
+    "requires_secondary_check": false
   },
   {
     "name": "MedlinePlus Exercise for Older Adults",
     "url": "https://medlineplus.gov/feeds/topics/exerciseforolderadults.xml",
     "priority": 3,
     "headline_mode": "preserve",
-    "publisher": "MedlinePlus"
+    "publisher": "MedlinePlus",
+    "authority": "primary",
+    "categories": ["mobility", "general wellness"],
+    "max_daily_items": 1,
+    "requires_secondary_check": false
   },
   {
     "name": "Medical Xpress Healthy Aging",
     "url": "https://medicalxpress.com/rss-feed/breaking/healthy-aging-news/",
     "priority": 5,
     "headline_mode": "preserve",
-    "publisher": "Medical Xpress"
+    "publisher": "Medical Xpress",
+    "authority": "editorial",
+    "categories": ["longevity"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
   },
   {
     "name": "Medical Xpress Nutrition",
     "url": "https://medicalxpress.com/rss-feed/breaking/nutrition-healthy-eating-news/",
     "priority": 3,
     "headline_mode": "preserve",
-    "publisher": "Medical Xpress"
+    "publisher": "Medical Xpress",
+    "authority": "editorial",
+    "categories": ["metabolic health", "general wellness"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
   },
   {
     "name": "Medical Xpress Sleep",
     "url": "https://medicalxpress.com/rss-feed/breaking/sleep-news/",
     "priority": 4,
     "headline_mode": "preserve",
-    "publisher": "Medical Xpress"
+    "publisher": "Medical Xpress",
+    "authority": "editorial",
+    "categories": ["sleep health"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
   },
   {
     "name": "Medical Xpress Neurology",
     "url": "https://medicalxpress.com/rss-feed/breaking/neurology-news/",
     "priority": 3,
     "headline_mode": "preserve",
-    "publisher": "Medical Xpress"
+    "publisher": "Medical Xpress",
+    "authority": "editorial",
+    "categories": ["brain health", "sleep health"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
   },
   {
     "name": "ScienceDaily Healthy Aging",
     "url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
     "priority": 5,
     "headline_mode": "preserve",
-    "publisher": "ScienceDaily"
+    "publisher": "ScienceDaily",
+    "authority": "editorial",
+    "categories": ["longevity"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
   },
   {
     "name": "ScienceDaily Top Health",
     "url": "https://www.sciencedaily.com/rss/top/health.xml",
     "priority": 2,
     "headline_mode": "preserve",
-    "publisher": "ScienceDaily"
+    "publisher": "ScienceDaily",
+    "authority": "editorial",
+    "categories": ["general wellness", "brain health", "sleep health"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "The Guardian | Alternative medicine",
+    "url": "https://www.theguardian.com/lifeandstyle/alternative-medicine/rss",
+    "priority": 2,
+    "headline_mode": "preserve",
+    "publisher": "The Guardian",
+    "authority": "editorial",
+    "categories": ["general wellness"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "Alternative Medicine Magazine",
+    "url": "https://alternativemedicine.com/feed/",
+    "priority": 1,
+    "headline_mode": "preserve",
+    "publisher": "Alternative Medicine Magazine",
+    "authority": "editorial",
+    "categories": ["general wellness", "mobility", "sleep health"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
   }
 ]
