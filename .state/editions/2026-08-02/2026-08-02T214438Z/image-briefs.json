@@ -1,0 +1,68 @@
+[
+  {
+    "article_id": "8c294954ae5e5b72e0354302",
+    "editorial_intent": "Show a diverse group of older adults in a community setting, engaged in activities that reflect modifiable dementia risk factors, to illustrate the global variation in risk and the potential for prevention.",
+    "subject": "A diverse group of older adults, including a woman with a hearing aid and a man with a blood pressure cuff, engaged in a community exercise class",
+    "setting": "A bright community center gym with exercise mats, a blood pressure station, and a sign-up board for educational classes",
+    "mood": "active, hopeful, diverse",
+    "composition": "Wide shot, eye-level, showing the group in the foreground and the community center details in the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "isolated individuals",
+      "clinical settings",
+      "medical equipment close-ups"
+    ],
+    "search_queries": [
+      "diverse older adults community exercise class",
+      "senior woman hearing aid group activity",
+      "older adults blood pressure check community center"
+    ]
+  },
+  {
+    "article_id": "c15da545491395131c36f28d",
+    "editorial_intent": "Show a real adult in motion, walking briskly outdoors, to illustrate the accessible, effective nature of the interval walking study.",
+    "subject": "A senior adult walking briskly on a park path, with a focus on their legs and midsection",
+    "setting": "A sunny park with a clear walking path and trees in the background",
+    "mood": "['energetic', 'determined', 'healthy']",
+    "composition": "Landscape orientation, subject in motion from a side angle, with a shallow depth of field to blur the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "close-ups of belly fat",
+      "medical equipment",
+      "clinical settings"
+    ],
+    "search_queries": [
+      "senior adult walking briskly park",
+      "older person interval walking outdoors",
+      "active senior walking path side view"
+    ]
+  },
+  {
+    "article_id": "ea4b19a37ca966187ad1e516",
+    "editorial_intent": "Show a realistic, hopeful scene of an older adult preparing a plant-based meal, emphasizing mindful eating and metabolic health without medical claims.",
+    "subject": "An older adult's hands chopping fresh vegetables on a wooden cutting board",
+    "setting": "A bright, modern kitchen with natural light and visible healthy ingredients",
+    "mood": "calm, mindful, wholesome",
+    "composition": "Close-up, shallow depth of field, focusing on hands and vegetables, with soft background",
+    "avoid": [
+      "pills",
+      "medical equipment",
+      "frightened expressions",
+      "generic retirement poses",
+      "miracle imagery"
+    ],
+    "search_queries": [
+      "older adult hands chopping vegetables",
+      "senior preparing plant-based meal kitchen",
+      "healthy aging food preparation close-up"
+    ]
+  }
+]

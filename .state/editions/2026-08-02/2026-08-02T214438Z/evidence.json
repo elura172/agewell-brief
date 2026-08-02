@@ -1,0 +1,74 @@
+[
+  {
+    "article_id": "8c294954ae5e5b72e0354302",
+    "study_type": "cross-national observational study",
+    "key_claims": [
+      "Dementia risk factors vary widely across countries.",
+      "Low education affected 85.6% of older adults in China but only 12.0% in the United States.",
+      "High BMI was found in 44.9% of Americans compared with 13.3% of people in India.",
+      "Cardiovascular conditions such as high cholesterol and hypertension frequently clustered together, while behaviors like smoking and drinking also tended to occur as groups.",
+      "The study analyzed data from more than 214,000 older adults from 14 countries and regions."
+    ],
+    "limitations": [
+      "The study used data from 2009 to 2023, which may not reflect current trends.",
+      "The study only examined 12 modifiable risk factors identified by the Lancet Commission.",
+      "The study did not include all countries, and data collection is ongoing in additional countries.",
+      "The study was presented at a conference and published in a journal, but the source does not specify peer review status."
+    ],
+    "what_not_to_say": [
+      "The study proves that dementia can be prevented.",
+      "The study shows that a single global approach to dementia prevention is ineffective.",
+      "The study identifies all possible dementia risk factors.",
+      "The study provides causal evidence for the risk factors."
+    ],
+    "confidence": "high"
+  },
+  {
+    "article_id": "c15da545491395131c36f28d",
+    "study_type": "randomized controlled trial",
+    "key_claims": [
+      "A four-month trial involved 315 adults with central obesity.",
+      "Completing 75 minutes of brisk interval walking in a single weekly session reduced body fat.",
+      "The single weekly session trimmed waistlines.",
+      "The single weekly session improved cardiovascular fitness.",
+      "The effects were about as effective as splitting the same exercise across three days."
+    ],
+    "limitations": [
+      "The source does not specify the exact amount of reduction in body fat or waistline.",
+      "The source does not specify the exact improvement in cardiovascular fitness.",
+      "The source does not specify the age range or other characteristics of the participants.",
+      "The source does not specify the duration of each interval or the intensity of the brisk walking."
+    ],
+    "what_not_to_say": [
+      "The study proves that this exercise regimen prevents heart disease or other health conditions.",
+      "The study shows that this exercise regimen is superior to other forms of exercise.",
+      "The study indicates that this exercise regimen is safe for all adults with central obesity.",
+      "The study suggests that this exercise regimen can replace all other physical activity recommendations."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "ea4b19a37ca966187ad1e516",
+    "study_type": "review",
+    "key_claims": [
+      "Consuming less protein could have greater health benefits than consuming more.",
+      "Protein restriction may extend lifespan in some cases.",
+      "Protein restriction slows aging by improving metabolism.",
+      "Protein restriction changes how cells respond to nutrients.",
+      "Protein restriction reduces cellular damage and preserves healthy cell function."
+    ],
+    "limitations": [
+      "The source is a review, not a primary study.",
+      "The source does not specify the exact amount of protein restriction.",
+      "The source does not specify the population (e.g., humans, animals) studied.",
+      "The source does not provide evidence for the claims beyond the review's existence."
+    ],
+    "what_not_to_say": [
+      "The source does not say that protein restriction definitely extends lifespan in humans.",
+      "The source does not say that all protein-fortified foods are harmful.",
+      "The source does not provide specific dietary recommendations.",
+      "The source does not say that protein restriction is beneficial for everyone."
+    ],
+    "confidence": "limited"
+  }
+]
