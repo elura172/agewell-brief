@@ -71,6 +71,16 @@ def test_classify_tainted_supplement_alert_as_consumer_safety():
     assert classify(item) == "consumer safety"
 
 
+def test_classify_prostate_story_as_mens_health():
+    item = FeedItem(
+        "A new prostate health study",
+        "Researchers followed older men.",
+        "https://example.test/mens-health",
+        "",
+    )
+    assert classify(item) == "men's health"
+
+
 def test_fda_legacy_links_are_upgraded_to_https():
     assert normalize_source_url("http://www.fda.gov/drugs/example") == "https://www.fda.gov/drugs/example"
     assert normalize_source_url("http://example.test/story") == "http://example.test/story"
@@ -530,6 +540,26 @@ def test_hoplink_error_health_hides_offer():
     configured = {"brain health": "https://reviewed.hop.clickbank.net"}
     offer = parse_offer_config(configured)[0]
     assert select_offer(configured, "brain health", "article-1", {offer.offer_id: "hoplink_error"}) is None
+
+
+def test_equal_priority_offers_rotate_deterministically_by_article():
+    configured = {
+        "brain health": [
+            "https://sleepone.hop.clickbank.net",
+            "https://sleeptwo.hop.clickbank.net",
+            "https://sleepthree.hop.clickbank.net",
+        ]
+    }
+    selections = {
+        select_offer(configured, "brain health", f"article-{number}")
+        for number in range(24)
+    }
+    assert len(selections) == 3
+    assert select_offer(configured, "brain health", "article-7") == select_offer(
+        configured,
+        "brain health",
+        "article-7",
+    )
 
 
 def test_multiple_feed_configuration(monkeypatch):

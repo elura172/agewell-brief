@@ -416,6 +416,15 @@ def classify(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     rules = {
         "consumer safety": ("health fraud", "tainted", "hidden drug", "product notification", "recall"),
+        "men's health": (
+            "men's health",
+            "male sexual health",
+            "erectile",
+            "prostate",
+            "testosterone",
+            "male fertility",
+            "libido",
+        ),
         "metabolic health": ("blood sugar", "glucose", "insulin", "metabolic", "diabetes", "obesity", "lipid"),
         "mobility": ("joint", "arthritis", "knee", "back pain", "balance training", "fall prevention", "walking"),
         "brain health": ("memory", "cognition", "brain", "dementia", "alzheimer", "parkinson", "sleep"),

@@ -27,7 +27,9 @@ export AFFILIATE_OFFERS_JSON='{"mobility":"https://YOUR_ENCRYPTED_VALUE.hop.clic
 
 Offers are matched by exact editorial category. The pipeline does not place a
 general-wellness offer in a mobility, brain-health, metabolic-health, or
-longevity article unless that category has its own reviewed HopLink.
+longevity article unless that category has its own reviewed HopLink. Men's
+health is also routed independently, so sexual-wellness offers never spill into
+unrelated health coverage.
 
 Several reviewed offers can be routed within one category using the richer
 format below. `approved` is deliberately fail-closed, `priority` selects the
