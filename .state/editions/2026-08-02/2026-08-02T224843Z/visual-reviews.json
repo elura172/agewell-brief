@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "8112ba27cb9695e280fc6a08",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:37330104",
+      "score": 85,
+      "rationale": "The image depicts a senior Indian woman chopping vegetables in a kitchen, which aligns with the story's themes of nutrition, meal preparation, and healthy aging. The setting is a kitchen, suggesting a natural, everyday routine. The metadata does not mention any clinical or fearful elements, and the subject is an older adult, matching the target demographic.",
+      "concerns": [
+        "The image does not explicitly show a clock or other time-related elements, which are part of the editorial intent. However, the act of preparing vegetables in a kitchen context supports the nutrition and routine aspects."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-02/rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27-pexels-37330104.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
