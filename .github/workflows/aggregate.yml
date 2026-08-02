@@ -1,0 +1,31 @@
+name: Aggregate health briefs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m agewell.pipeline
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          RSS_FEED_URL: ${{ secrets.RSS_FEED_URL }}
+          AFFILIATE_OFFERS_JSON: ${{ secrets.AFFILIATE_OFFERS_JSON }}
+      - name: Commit generated drafts
+        run: |
+          git config user.name "agewell-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/posts .state/processed.json
+          git diff --cached --quiet || git commit -m "chore: add aggregated health briefs"
+          git push

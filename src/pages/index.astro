@@ -1,0 +1,76 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+
+const entries = (await getCollection("briefs"))
+  .filter((entry) => !entry.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const featured = entries[0];
+const recent = entries.slice(1);
+const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
+---
+<Layout>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="signal-dot"></span> The daily health signal</p>
+      <h1>Stay capable.<br /><span>Stay curious.</span></h1>
+      <p class="hero-lede">A clear-eyed brief on the research, habits, and decisions that help you keep doing what matters.</p>
+      <a class="text-link" href="#latest">Read today’s signal <span>↓</span></a>
+    </div>
+    <div class="hero-note" aria-label="Editorial promise">
+      <span class="note-label">OUR PROMISE</span>
+      <p>Plain language.<br />Original sources.<br />No miracle cures.</p>
+      <span class="note-rule"></span>
+      <small>Made for people<br />who still have plans.</small>
+    </div>
+  </section>
+
+  <section class="edition-strip" aria-label="Edition information">
+    <span>EDITION 001</span><span>HEALTH · LONGEVITY · LIVING WELL</span><span>READ IN 4 MINUTES</span>
+  </section>
+
+  <section id="latest" class="briefs-section">
+    <div class="section-heading">
+      <p class="eyebrow">Latest signals</p>
+      <p class="section-caption">Worth your attention, not all of it.</p>
+    </div>
+    {featured ? (
+      <article class="featured-card">
+        <div class="signal-rail"><span>{featured.data.category}</span><i></i><span>{formatDate(featured.data.date)}</span></div>
+        <div class="featured-body">
+          <p class="card-kicker">The lead signal</p>
+          <h2><a href={`/brief/${featured.id}/`}>{featured.data.title}</a></h2>
+          <p class="card-source">Based on <a href={featured.data.source_url} rel="noopener noreferrer">{featured.data.source_title}</a></p>
+          <a class="arrow-link" href={`/brief/${featured.id}/`}>Read the brief <span>→</span></a>
+        </div>
+        <div class="featured-index">01</div>
+      </article>
+    ) : (
+      <div class="empty-state"><p class="eyebrow">The first signal is on its way</p><h2>Fresh briefs will appear here after editorial review.</h2><p>Run the aggregation pipeline, review the draft, then set <code>draft: false</code>.</p></div>
+    )}
+
+    {recent.length > 0 && <div class="brief-grid">
+      {recent.map((entry, index) => (
+        <article class="brief-card">
+          <div class="card-topline"><span>{entry.data.category}</span><span>{String(index + 2).padStart(2, "0")}</span></div>
+          <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
+          <p class="card-source">{formatDate(entry.data.date)} · <a href={entry.data.source_url} rel="noopener noreferrer">Source</a></p>
+        </article>
+      ))}
+    </div>}
+  </section>
+
+  <section id="about" class="about-band">
+    <div><p class="eyebrow">Why Agewell</p><h2>The internet is loud.<br /><em>Your health brief shouldn’t be.</em></h2></div>
+    <p>We translate useful research into decisions you can understand and questions you can take to your doctor. Every brief points back to its source and leaves room for context.</p>
+  </section>
+
+  <section id="subscribe" class="subscribe-card">
+    <div><p class="eyebrow">The morning edition</p><h2>One good signal,<br />in your inbox.</h2></div>
+    <form class="subscribe-form" action="#" method="post">
+      <label for="email">Your email address</label>
+      <div><input id="email" name="email" type="email" placeholder="you@example.com" required /><button type="submit">Join free <span>→</span></button></div>
+      <small>One thoughtful email. Unsubscribe whenever you like.</small>
+    </form>
+  </section>
+</Layout>
