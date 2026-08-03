@@ -34,7 +34,9 @@ def fetch_report(api_key: str, account: str, start: str, end: str) -> tuple[int,
         "sortAscending": "false",
     }
     params["select"] = list(METRICS)
-    url = f"{BASE_URL}/AFFILIATE/TRACKING_ID?{urllib.parse.urlencode(params, doseq=True)}"
+    # ClickBank documents the route with uppercase placeholders, but the
+    # deployed REST service expects the concrete role/dimension path lowercase.
+    url = f"{BASE_URL}/affiliate/tracking_id?{urllib.parse.urlencode(params, doseq=True)}"
     request = urllib.request.Request(
         url,
         headers={"Authorization": api_key, "Accept": "application/json", "User-Agent": "AgewellBrief/1.0"},
