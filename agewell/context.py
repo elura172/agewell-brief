@@ -124,6 +124,38 @@ def _chunk(text: str, size: int = 900, overlap: int = 120) -> list[str]:
 
 def build_context_index() -> list[ContextDocument]:
     documents: list[ContextDocument] = []
+    
+    # 1. Load structured biophysics pioneer lineage (Mae-Wan Ho, Popp, Pollack, Warburg, Becker, etc.)
+    lineage_file = Path(__file__).resolve().parent.parent / "config/biophysics-lineage.json"
+    if lineage_file.exists():
+        try:
+            payload = json.loads(lineage_file.read_text(encoding="utf-8"))
+            for p in payload.get("pioneers", []):
+                p_name = p.get("name", "")
+                p_year = p.get("year", "")
+                p_work = p.get("core_work", "")
+                p_summary = p.get("summary", "")
+                p_app = p.get("application", "")
+                p_concepts = ", ".join(p.get("concepts", []))
+                
+                text_block = (
+                    f"Biophysics Pioneer: {p_name} ({p_year}). Core Work: {p_work}. "
+                    f"Summary: {p_summary} Key Concepts: {p_concepts}. Application: {p_app}"
+                )
+                source_id = hashlib.sha256(f"pioneer:{p.get('id')}".encode()).hexdigest()[:16]
+                documents.append(
+                    ContextDocument(
+                        source_id=source_id,
+                        path=str(lineage_file),
+                        title=f"{p_name} ({p_year}) — {p_work}",
+                        kind="biophysics_lineage",
+                        text=text_block
+                    )
+                )
+        except Exception as err:
+            print(f"Biophysics lineage load warning: {err}")
+
+    # 2. Load environment context sources
     for label, root, explicit_kind in _sources_from_env():
         if not root.exists():
             continue

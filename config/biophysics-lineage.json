@@ -1,0 +1,130 @@
+{
+  "pioneers": [
+    {
+      "id": "mae-wan-ho",
+      "name": "Dr. Mae-Wan Ho",
+      "year": 1993,
+      "core_work": "The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+      "concepts": [
+        "quantum coherent electrodynamics",
+        "liquid crystalline water matrix",
+        "biophotonic photon trapping",
+        "zero-dissipation energy transfer",
+        "subatomic charge conduction"
+      ],
+      "summary": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting charge across structured interfacial water networks with zero thermal dissipation.",
+      "application": "Explains how bio-energetic health depends on maintaining liquid crystalline coherence in cellular water and tissue matrices."
+    },
+    {
+      "id": "fritz-albert-popp",
+      "name": "Dr. Fritz-Albert Popp",
+      "year": 1975,
+      "core_work": "Biophotonics and Cellular Coherence",
+      "concepts": [
+        "ultra-weak biophoton emission",
+        "DNA photon resonator",
+        "cellular light coherence",
+        "delayed luminescence"
+      ],
+      "summary": "DNA acts as a coherent biophotonic resonator, emitting ultra-weak light rays that coordinate cellular metabolism and signaling across 37 trillion cells.",
+      "application": "Frames cellular communication as light-based resonance rather than random chemical diffusion."
+    },
+    {
+      "id": "gerald-pollack",
+      "name": "Dr. Gerald Pollack",
+      "year": 2013,
+      "core_work": "The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor",
+      "concepts": [
+        "exclusion zone water",
+        "EZ water charge separation",
+        "infrared radiant energy charging",
+        "cellular battery"
+      ],
+      "summary": "Interfacial cell water organizes into a fourth phase (EZ water, H3O2) that excludes solutes and forms an endogenous charge-separated battery powered by infrared light.",
+      "application": "Demonstrates that cellular hydration requires radiant energy to build structured charge barriers."
+    },
+    {
+      "id": "otto-warburg",
+      "name": "Dr. Otto Warburg",
+      "year": 1924,
+      "core_work": "The Metabolism of Tumours & Oxygen Respiration",
+      "concepts": [
+        "mitochondrial electron transport",
+        "aerobic respiration vs fermentation",
+        "cellular voltage",
+        "ATP yield physics"
+      ],
+      "summary": "Cellular health and longevity require maintaining high mitochondrial respiration voltage and avoiding anaerobic metabolic fermentation.",
+      "application": "Establishes mitochondrial voltage and metabolic flexibility as the foundation of cellular longevity."
+    },
+    {
+      "id": "hans-selye",
+      "name": "Dr. Hans Selye",
+      "year": 1956,
+      "core_work": "The Stress of Life & General Adaptation Syndrome",
+      "concepts": [
+        "adaptation energy",
+        "general adaptation syndrome",
+        "allostatic load",
+        "neuro-endocrine reserve"
+      ],
+      "summary": "Organisms possess a finite reserve of biological adaptation energy; chronic stress drains neuro-endocrine voltage and accelerates cellular exhaustion.",
+      "application": "Guides stress adaptation strategies to protect systemic reserves."
+    },
+    {
+      "id": "alexander-gurwitsch",
+      "name": "Dr. Alexander Gurwitsch",
+      "year": 1923,
+      "core_work": "Mitogenetic Radiation & Morphogenetic Fields",
+      "concepts": [
+        "mitogenetic radiation",
+        "ultraviolet biophotons",
+        "morphogenetic field signaling"
+      ],
+      "summary": "Discovered that dividing cells emit ultra-weak ultraviolet radiation (mitogenetic rays) that trigger cell division and direct spatial tissue architecture.",
+      "application": "Historical foundation for light-based tissue regulation."
+    },
+    {
+      "id": "robert-o-becker",
+      "name": "Dr. Robert O. Becker",
+      "year": 1985,
+      "core_work": "The Body Electric: Electromagnetism and the Foundation of Life",
+      "concepts": [
+        "perineural direct current field",
+        "bioelectric injury potential",
+        "endogenous tissue regeneration",
+        "electro-magnetbiology"
+      ],
+      "summary": "Perineural Schwann cell networks generate continuous direct-current bioelectric fields that signal tissue injury and control anatomical regeneration.",
+      "application": "Connects bioelectric potentials to tissue repair and mobility."
+    },
+    {
+      "id": "albert-szent-gyorgyi",
+      "name": "Dr. Albert Szent-Györgyi",
+      "year": 1968,
+      "core_work": "Bioelectronics & Submolecular Biology",
+      "concepts": [
+        "protein semiconductor",
+        "charge transfer complexes",
+        "electronic desaturation",
+        "living state physics"
+      ],
+      "summary": "Proteins act as submolecular semiconductors; life is maintained when electronic charge transfer complexes extract high-energy electrons from food and light.",
+      "application": "Underpins electron transport and antioxidant defense."
+    },
+    {
+      "id": "gilbert-ling",
+      "name": "Dr. Gilbert Ling",
+      "year": 1962,
+      "core_work": "A Physical Theory of the Living State: Association-Induction Hypothesis",
+      "concepts": [
+        "association-induction hypothesis",
+        "multi-layer polarized water",
+        "ATP state-fixer",
+        "potassium accumulation physics"
+      ],
+      "summary": "Cellular water is structured into polarized multi-layers by ATP binding to protein backbones, creating selective ion accumulation without active membrane pumps.",
+      "application": "Refines cellular hydration and electrolyte balance."
+    }
+  ]
+}
