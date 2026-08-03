@@ -1,4 +1,4 @@
----
+--- 
 title: "Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes"
 date: 2026-08-02T07:25:40.377109+00:00
 draft: true
@@ -6,6 +6,12 @@ category: "metabolic health"
 source_url: "https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions"
 source_title: "For adults with prediabetes, lifestyle intervention lowered risk of developing multiple chronic conditions"
 source_name: "NIH News Releases"
+image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Mitochondrial metabolic energy dynamics"
+image_photographer: "Karolina Grabowska / Pexels"
+image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
+image_provider: "Pexels"
+image_avg_color: "#3a1a1a"
 ---
 
 ## Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes

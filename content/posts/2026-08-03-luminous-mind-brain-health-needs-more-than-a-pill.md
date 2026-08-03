@@ -1,4 +1,4 @@
----
+--- 
 title: "The Luminous Mind framework treats brain health as a whole-system project"
 date: 2026-08-03T00:00:00-04:00
 draft: false
@@ -9,6 +9,12 @@ source_url: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA=="
 source_title: "The Spiral of the Luminous Mind — Brain Upgrade Protocol"
 source_name: "Spiral of Cellular Light companion guide"
 author: "Agewell Brief Editorial Desk"
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 The Luminous Mind guide approaches brain health through several tracks at once: sleep, stress, movement, nutrition, learning, and the program’s own supplement framework. Its strongest editorial idea is that cognition is not a single switch.

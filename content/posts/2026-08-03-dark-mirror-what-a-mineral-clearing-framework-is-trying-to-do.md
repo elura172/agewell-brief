@@ -1,4 +1,4 @@
----
+--- 
 title: "What the Dark Mirror mineral-clearing framework is trying to do"
 date: 2026-08-03T00:00:00-04:00
 draft: false
@@ -9,6 +9,12 @@ source_url: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw=="
 source_title: "The Dark Mirror of Immunity — Advanced Earth Mineral Clearing"
 source_name: "Spiral of Cellular Light companion guide"
 author: "Agewell Brief Editorial Desk"
+image: "https://images.pexels.com/photos/4031693/pexels-photo-4031693.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Cellular clearance and autophagic purification"
+image_photographer: "Cottonbro Studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@cottonbro"
+image_provider: "Pexels"
+image_avg_color: "#2a1a3a"
 ---
 
 Dark Mirror is the advanced mineral-clearing layer of the Spiral of Cellular Light. Its framework combines binding materials with mineral transport, then places the cycle between broader protocol phases.

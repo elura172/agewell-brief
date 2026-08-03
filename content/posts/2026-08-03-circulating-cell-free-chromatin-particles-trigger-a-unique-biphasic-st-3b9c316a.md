@@ -1,4 +1,4 @@
----
+--- 
 title: "Circulating Cell-Free Chromatin Particles Trigger a Unique Biphasic STING Signaling Program that Drives DNA Damage and Inflammation"
 date: 2026-08-03T08:28:52.841371+00:00
 draft: false
@@ -9,6 +9,12 @@ edition_id: "2026-08-03"
 source_url: "https://www.biorxiv.org/content/10.64898/2026.07.28.741182v1?rss=1"
 source_title: "Circulating Cell-Free Chromatin Particles Trigger a Unique Biphasic STING Signaling Program that Drives DNA Damage and Inflammation"
 source_name: "bioRxiv immunology and cell biology"
+image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Biological clock and mitochondrial vitality"
+image_photographer: "RF._.studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@rfstudio"
+image_provider: "Pexels"
+image_avg_color: "#1a3a3a"
 ---
 
 Cell-free chromatin particles from dying cells enter immune cells and activate STING in a biphasic pattern, linking cell death to DNA damage and sterile inflammation—a mechanism with deep roots in the biology of stress and adaptation.

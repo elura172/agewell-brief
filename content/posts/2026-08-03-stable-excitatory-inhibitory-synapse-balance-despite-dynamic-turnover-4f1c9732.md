@@ -1,4 +1,4 @@
----
+--- 
 title: "Stable excitatory-inhibitory synapse balance despite dynamic turnover"
 date: 2026-08-03T08:39:18.814899+00:00
 draft: false
@@ -9,6 +9,12 @@ edition_id: "2026-08-03"
 source_url: "https://elifesciences.org/articles/107635"
 source_title: "Stable excitatory-inhibitory synapse balance despite dynamic turnover"
 source_name: "eLife Neuroscience"
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 New live-imaging research reveals that excitatory and inhibitory synapses remodel continuously, yet their overall balance remains steady—a finding with deep implications for brain health and aging.

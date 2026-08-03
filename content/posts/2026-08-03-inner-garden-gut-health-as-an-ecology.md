@@ -1,4 +1,4 @@
----
+--- 
 title: "Gut health is an ecology, not a single supplement"
 date: 2026-08-03T00:00:00-04:00
 draft: false
@@ -9,6 +9,12 @@ source_url: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ=="
 source_title: "The Spiral of the Inner Garden — Gut Reclamation Protocol"
 source_name: "Spiral of Cellular Light companion guide"
 author: "Agewell Brief Editorial Desk"
+image: "https://images.pexels.com/photos/1458302/pexels-photo-1458302.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Microbiome ecology and cellular transport"
+image_photographer: "Kat Smith / Pexels"
+image_photographer_url: "https://www.pexels.com/@katsmith"
+image_provider: "Pexels"
+image_avg_color: "#1a3a2a"
 ---
 
 The Inner Garden guide treats the gut as a living ecology. Its focus is not a quick reset, but the conditions that help a person build steadier routines around food, digestion, and microbial balance.

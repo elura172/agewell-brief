@@ -1,4 +1,4 @@
----
+--- 
 title: "Q&A: How aging affects cells' recycling centers"
 date: 2026-08-02T07:25:42.491122+00:00
 draft: true
@@ -6,6 +6,12 @@ category: "longevity"
 source_url: "https://medicalxpress.com/news/2026-07-qa-aging-affects-cells-recycling.html"
 source_title: "Q&A: How aging affects cells' recycling centers"
 source_name: "Medical Xpress Healthy Aging"
+image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Biological clock and mitochondrial vitality"
+image_photographer: "RF._.studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@rfstudio"
+image_provider: "Pexels"
+image_avg_color: "#1a3a3a"
 ---
 
 ## Q&A: How aging affects cells' recycling centers

@@ -1,4 +1,4 @@
----
+--- 
 title: "What the cell-shedding framework gets right about senescence research"
 date: 2026-08-03T00:00:00-04:00
 draft: false
@@ -9,6 +9,12 @@ source_url: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA=="
 source_title: "The Spiral of Cell Shedding — A Senolytic Protocol Guide"
 source_name: "Spiral of Cellular Light companion guide"
 author: "Agewell Brief Editorial Desk"
+image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Microscopic cellular membrane and organelle renewal"
+image_photographer: "Polina Kovaleva / Pexels"
+image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
+image_provider: "Pexels"
+image_avg_color: "#3a2a1a"
 ---
 
 Senescent cells are often called “zombie cells” because they may stop dividing while remaining metabolically active. The Cell Shedding guide turns that research idea into a program framework built around renewal, transport, and deliberate cycles.

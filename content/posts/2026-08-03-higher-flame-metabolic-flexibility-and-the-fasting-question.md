@@ -1,4 +1,4 @@
----
+--- 
 title: "The Higher Flame framework asks what fuel flexibility might change"
 date: 2026-08-03T00:00:00-04:00
 draft: false
@@ -9,6 +9,12 @@ source_url: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ=="
 source_title: "The Spiral of the Higher Flame — Fat-Fuel Switch Protocol"
 source_name: "Spiral of Cellular Light companion guide"
 author: "Agewell Brief Editorial Desk"
+image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Mitochondrial metabolic energy dynamics"
+image_photographer: "Karolina Grabowska / Pexels"
+image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
+image_provider: "Pexels"
+image_avg_color: "#3a1a1a"
 ---
 
 The Higher Flame guide is built around metabolic flexibility: the ability to move between carbohydrate and fat as fuel. It combines a time-limited eating window with plant compounds that the program describes as signals for the body’s own antioxidant systems.

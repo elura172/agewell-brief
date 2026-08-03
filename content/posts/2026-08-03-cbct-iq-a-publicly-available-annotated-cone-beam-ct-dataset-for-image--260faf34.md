@@ -1,4 +1,4 @@
----
+--- 
 title: "CBCT-IQ: A Publicly Available Annotated Cone-Beam CT Dataset for Image Quality Assessment and Benchmarking"
 date: 2026-08-03T08:39:18.814899+00:00
 draft: false
@@ -9,6 +9,12 @@ edition_id: "2026-08-03"
 source_url: "https://arxiv.org/abs/2607.29253"
 source_title: "CBCT-IQ: A Publicly Available Annotated Cone-Beam CT Dataset for Image Quality Assessment and Benchmarking"
 source_name: "arXiv medical physics"
+image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Biological clock and mitochondrial vitality"
+image_photographer: "RF._.studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@rfstudio"
+image_provider: "Pexels"
+image_avg_color: "#1a3a3a"
 ---
 
 A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose.

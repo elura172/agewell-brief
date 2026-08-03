@@ -1,4 +1,4 @@
----
+--- 
 title: "Why the Living Waters framework puts transport before clearing"
 date: 2026-08-03T00:00:00-04:00
 draft: false
@@ -9,6 +9,12 @@ source_url: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA=="
 source_title: "The Spiral of Living Waters — Transport Clearing Protocol"
 source_name: "Spiral of Cellular Light companion guide"
 author: "Agewell Brief Editorial Desk"
+image: "https://images.pexels.com/photos/4031693/pexels-photo-4031693.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Cellular clearance and autophagic purification"
+image_photographer: "Cottonbro Studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@cottonbro"
+image_provider: "Pexels"
+image_avg_color: "#2a1a3a"
 ---
 
 Many health programs begin with a question of what to remove. The Living Waters framework begins one step earlier: can the body transport and eliminate what has already been mobilised?

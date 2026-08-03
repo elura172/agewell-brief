@@ -1,4 +1,4 @@
----
+--- 
 title: "Serotonergic modulation of motor subspace dynamics drives a sleep-independent quiescent state"
 date: 2026-08-03T08:28:52.841371+00:00
 draft: false
@@ -9,6 +9,12 @@ edition_id: "2026-08-03"
 source_url: "https://elifesciences.org/articles/110370"
 source_title: "Serotonergic modulation of motor subspace dynamics drives a sleep-independent quiescent state"
 source_name: "eLife Neuroscience"
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 New research in larval zebrafish reveals that activating serotonin neurons in the dorsal raphe nucleus induces a quiescent state by modulating motor-related neural subspaces, leaving sensory processing intact—a finding with deep roots in biophysics and ancestral wisdom.
