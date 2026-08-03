@@ -1,42 +1,57 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import QuantumLuminanceCanvas, { type PaletteKey } from "../components/QuantumLuminanceCanvas.astro";
 
-const resources = [
+interface SpiralResource {
+  name: string;
+  focus: string;
+  description: string;
+  href: string;
+  palette: PaletteKey;
+}
+
+const resources: SpiralResource[] = [
   {
     name: "Living Waters",
     focus: "Transport and clearing",
     description: "A foundation-oriented framework for thinking about sequence, liver processing, hydration, bowel regularity, and recovery.",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA=="
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
+    palette: "living-waters"
   },
   {
     name: "Inner Garden",
     focus: "Gut ecology",
     description: "A gut-health framework that looks at food, fibre, microbial balance, and the environment around digestion.",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ=="
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
+    palette: "inner-garden"
   },
   {
     name: "Cell Shedding",
     focus: "Senescence and renewal",
     description: "A program perspective on senescence research, cycles, recovery, and the difference between a research target and a proven treatment.",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA=="
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
+    palette: "cell-shedding"
   },
   {
     name: "Higher Flame",
     focus: "Metabolic flexibility",
     description: "A framework for exploring meal timing, fuel use, plant compounds, and the practical questions around fasting.",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ=="
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
+    palette: "higher-flame"
   },
   {
     name: "Luminous Mind",
     focus: "Brain health",
     description: "A whole-system approach to sleep, learning, stress, movement, nutrition, and cognitive care.",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA=="
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
+    palette: "luminous-mind"
   },
   {
     name: "Dark Mirror",
     focus: "Advanced mineral clearing",
     description: "An advanced program perspective on mineral blends, timing, interaction risks, and the distinction between supplements and clinical chelation.",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw=="
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
+    palette: "dark-mirror"
   }
 ];
 
@@ -79,14 +94,17 @@ const structuredData = {
         <h2 id="spiral-resources-heading" class="section-title">The companion Spirals</h2>
         <p class="section-caption">Six ways into the framework</p>
       </div>
-      <ol>
-        {resources.map((resource, index) => <li>
-          <span class="spiral-index">{String(index + 1).padStart(2, "0")}</span>
-          <div class="spiral-resource-copy">
-            <p>{resource.focus}</p>
-            <h3>{resource.name}</h3>
-            <p>{resource.description}</p>
-            <a href={resource.href} rel="noopener noreferrer">Explore {resource.name} <span aria-hidden="true">→</span></a>
+      <ol class="spiral-grid">
+        {resources.map((resource, index) => <li class="spiral-card">
+          <QuantumLuminanceCanvas height={160} palette={resource.palette} />
+          <div class="spiral-card-content">
+            <span class="spiral-index">{String(index + 1).padStart(2, "0")}</span>
+            <div class="spiral-resource-copy">
+              <p>{resource.focus}</p>
+              <h3>{resource.name}</h3>
+              <p>{resource.description}</p>
+              <a href={resource.href} rel="noopener noreferrer">Explore {resource.name} <span aria-hidden="true">→</span></a>
+            </div>
           </div>
         </li>)}
       </ol>

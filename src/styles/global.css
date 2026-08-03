@@ -394,13 +394,15 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 .spiral-intro h2 { margin: 0; font-family: var(--serif); font-size: clamp(2rem, 4vw, 3.6rem); line-height: 1; }
 .spiral-intro > div:last-child { color: var(--ink-soft); font-family: var(--serif); font-size: 1.18rem; line-height: 1.65; }
 .spiral-intro p { margin: 0 0 16px; }
-.spiral-resources { max-width: 900px; }
-.spiral-resources ol { margin: 0; padding: 0; border-top: 1px solid var(--ink); list-style: none; }
-.spiral-resources li { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 24px; border-bottom: 1px solid var(--line); padding: 28px 0 34px; }
+.spiral-resources { max-width: 1040px; }
+.spiral-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; margin: 0; padding: 0; list-style: none; }
+.spiral-card { display: flex; flex-direction: column; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); background: var(--paper); box-shadow: var(--shadow-sm); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease; }
+.spiral-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.spiral-card-content { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 16px; padding: 24px 28px 28px; }
 .spiral-index { color: var(--saffron-ink); font-family: var(--serif); font-size: 1.5rem; }
 .spiral-resource-copy > p { margin: 0 0 7px; color: var(--muted); font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
-.spiral-resource-copy h3 { margin: 0 0 9px; font-size: clamp(1.8rem, 3vw, 2.5rem); }
-.spiral-resource-copy div { max-width: 680px; margin-bottom: 14px; color: var(--ink-soft); font-family: var(--serif); font-size: 1.12rem; line-height: 1.55; }
+.spiral-resource-copy h3 { margin: 0 0 9px; font-size: clamp(1.6rem, 2.5vw, 2.2rem); }
+.spiral-resource-copy p:not(:first-child) { max-width: 680px; margin-bottom: 14px; color: var(--ink-soft); font-family: var(--serif); font-size: 1.08rem; line-height: 1.55; }
 .spiral-resource-copy a { color: var(--ink); font-weight: 700; text-decoration-color: var(--saffron); text-decoration-thickness: 2px; }
 .spiral-resource-copy a span { padding-left: 6px; color: var(--saffron-ink); }
 .spiral-reading { max-width: 720px; margin: 90px 0 0 10%; border-top: 1px solid var(--ink); padding-top: 24px; }

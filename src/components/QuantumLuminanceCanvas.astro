@@ -1,12 +1,16 @@
 ---
+export type PaletteKey = "default" | "living-waters" | "inner-garden" | "cell-shedding" | "higher-flame" | "luminous-mind" | "dark-mirror";
+
 interface Props {
   class?: string;
   height?: number;
+  palette?: PaletteKey;
 }
-const { class: className = "", height = 340 } = Astro.props;
+
+const { class: className = "", height = 340, palette = "default" } = Astro.props;
 ---
 <div class:list={["quantum-luminance-container", className]}>
-  <canvas class="quantum-luminance-canvas" data-height={height}></canvas>
+  <canvas class="quantum-luminance-canvas" data-height={height} data-palette={palette}></canvas>
   <div class="quantum-luminance-overlay" aria-hidden="true"></div>
 </div>
 
@@ -34,6 +38,79 @@ const { class: className = "", height = 340 } = Astro.props;
 </style>
 
 <script>
+  const PALETTES = {
+    "default": {
+      p1: "oklch(0.72 0.15 62)",
+      p2: "oklch(0.55 0.12 175)",
+      bg0: "oklch(0.97 0.016 85)",
+      bg1: "oklch(0.945 0.022 175)",
+      bg2: "oklch(0.92 0.028 240 / 0.15)",
+      w0: "oklch(0.72 0.15 62 / 0.28)",
+      w1: "oklch(0.46 0.14 52 / 0.22)",
+      w2: "oklch(0.55 0.1 175 / 0.25)"
+    },
+    "living-waters": {
+      p1: "oklch(0.58 0.16 230)",
+      p2: "oklch(0.68 0.14 190)",
+      bg0: "oklch(0.96 0.02 220)",
+      bg1: "oklch(0.93 0.03 210)",
+      bg2: "oklch(0.90 0.04 240 / 0.18)",
+      w0: "oklch(0.58 0.16 230 / 0.28)",
+      w1: "oklch(0.45 0.15 220 / 0.22)",
+      w2: "oklch(0.68 0.14 190 / 0.25)"
+    },
+    "inner-garden": {
+      p1: "oklch(0.60 0.15 140)",
+      p2: "oklch(0.72 0.12 110)",
+      bg0: "oklch(0.97 0.018 135)",
+      bg1: "oklch(0.94 0.025 140)",
+      bg2: "oklch(0.91 0.03 150 / 0.18)",
+      w0: "oklch(0.60 0.15 140 / 0.28)",
+      w1: "oklch(0.45 0.14 130 / 0.22)",
+      w2: "oklch(0.72 0.12 110 / 0.25)"
+    },
+    "cell-shedding": {
+      p1: "oklch(0.68 0.14 350)",
+      p2: "oklch(0.75 0.08 40)",
+      bg0: "oklch(0.97 0.015 350)",
+      bg1: "oklch(0.94 0.02 340)",
+      bg2: "oklch(0.92 0.025 20 / 0.18)",
+      w0: "oklch(0.68 0.14 350 / 0.28)",
+      w1: "oklch(0.55 0.12 330 / 0.22)",
+      w2: "oklch(0.75 0.08 40 / 0.25)"
+    },
+    "higher-flame": {
+      p1: "oklch(0.74 0.18 55)",
+      p2: "oklch(0.62 0.16 35)",
+      bg0: "oklch(0.97 0.02 65)",
+      bg1: "oklch(0.94 0.03 50)",
+      bg2: "oklch(0.91 0.04 40 / 0.18)",
+      w0: "oklch(0.74 0.18 55 / 0.28)",
+      w1: "oklch(0.55 0.16 45 / 0.22)",
+      w2: "oklch(0.62 0.16 35 / 0.25)"
+    },
+    "luminous-mind": {
+      p1: "oklch(0.58 0.18 280)",
+      p2: "oklch(0.65 0.15 250)",
+      bg0: "oklch(0.96 0.02 280)",
+      bg1: "oklch(0.93 0.03 270)",
+      bg2: "oklch(0.90 0.04 260 / 0.18)",
+      w0: "oklch(0.58 0.18 280 / 0.28)",
+      w1: "oklch(0.45 0.16 270 / 0.22)",
+      w2: "oklch(0.65 0.15 250 / 0.25)"
+    },
+    "dark-mirror": {
+      p1: "oklch(0.48 0.08 260)",
+      p2: "oklch(0.65 0.12 70)",
+      bg0: "oklch(0.95 0.01 260)",
+      bg1: "oklch(0.92 0.018 265)",
+      bg2: "oklch(0.89 0.025 270 / 0.18)",
+      w0: "oklch(0.48 0.08 260 / 0.28)",
+      w1: "oklch(0.38 0.08 250 / 0.22)",
+      w2: "oklch(0.65 0.12 70 / 0.25)"
+    }
+  };
+
   function initQuantumCanvas() {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
@@ -43,6 +120,9 @@ const { class: className = "", height = 340 } = Astro.props;
       if (!canvas) return;
       const ctx = canvas.getContext("2d");
       if (!ctx) return;
+
+      const paletteKey = (canvas.dataset.palette || "default") as keyof typeof PALETTES;
+      const colors = PALETTES[paletteKey] || PALETTES["default"];
 
       let animId: number;
       let width = 0;
@@ -81,7 +161,7 @@ const { class: className = "", height = 340 } = Astro.props;
               radius: Math.random() * 3 + 1.5,
               vx: (Math.random() - 0.5) * 0.3,
               vy: (Math.random() - 0.5) * 0.3,
-              hue: Math.random() > 0.4 ? "oklch(0.72 0.15 62)" : "oklch(0.55 0.12 175)",
+              hue: Math.random() > 0.4 ? colors.p1 : colors.p2,
               alpha: Math.random() * 0.35 + 0.2,
               phase: Math.random() * Math.PI * 2
             });
@@ -95,19 +175,18 @@ const { class: className = "", height = 340 } = Astro.props;
 
         // Draw soft ambient wave interference background
         const grad = ctx.createLinearGradient(0, 0, width, height);
-        grad.addColorStop(0, "oklch(0.97 0.016 85)");
-        grad.addColorStop(0.5, "oklch(0.945 0.022 175)");
-        grad.addColorStop(1, "oklch(0.92 0.028 240 / 0.15)");
+        grad.addColorStop(0, colors.bg0);
+        grad.addColorStop(0.5, colors.bg1);
+        grad.addColorStop(1, colors.bg2);
         ctx.fillStyle = grad;
         ctx.fillRect(0, 0, width, height);
 
         // Draw flowing biophotonic wave lines
         ctx.lineWidth = 1.5;
-        const numWaves = 3;
-        for (let w = 0; w < numWaves; w++) {
+        const waveColors = [colors.w0, colors.w1, colors.w2];
+        for (let w = 0; w < 3; w++) {
           ctx.beginPath();
-          const waveColor = w === 0 ? "oklch(0.72 0.15 62 / 0.28)" : w === 1 ? "oklch(0.46 0.14 52 / 0.22)" : "oklch(0.55 0.1 175 / 0.25)";
-          ctx.strokeStyle = waveColor;
+          ctx.strokeStyle = waveColors[w];
 
           for (let x = 0; x <= width; x += 10) {
             const y = height / 2 + Math.sin(x * 0.008 + time * 0.001 + w * 1.5) * 26 + Math.cos(x * 0.004 + time * 0.0008) * 14;
