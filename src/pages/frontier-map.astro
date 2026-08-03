@@ -37,9 +37,20 @@ const countFor = (category: string) => briefs.filter((entry) => entry.data.categ
         <h2 id="territories-heading" class="section-title">The territories</h2>
         <p class="section-caption">{briefs.length} published briefs in the map</p>
       </div>
+
+      <div class="frontier-filter-bar">
+        <span class="filter-label">Filter by Evidence Position:</span>
+        <div class="filter-pills">
+          <button class="frontier-pill is-active" data-status="all">All Positions</button>
+          <button class="frontier-pill" data-status="established">Established</button>
+          <button class="frontier-pill" data-status="emerging">Emerging</button>
+          <button class="frontier-pill" data-status="contested">Contested & Frontier</button>
+        </div>
+      </div>
+
       <div class="frontier-grid">
         {frontierTerritories.map((territory, index) => (
-          <article id={territory.slug} class={`frontier-territory frontier-territory--${index + 1}`}>
+          <article id={territory.slug} class={`frontier-territory frontier-territory--${index + 1}`} data-status={territory.status}>
             <QuantumLuminanceCanvas height={160} palette={territory.palette} />
             <div class="frontier-territory-body">
               <div class="frontier-territory-topline">
@@ -60,6 +71,29 @@ const countFor = (category: string) => briefs.filter((entry) => entry.data.categ
       </div>
     </section>
 
+    <script>
+      const filterPills = document.querySelectorAll<HTMLButtonElement>(".frontier-pill");
+      const territoryCards = document.querySelectorAll<HTMLElement>(".frontier-territory");
+
+      filterPills.forEach((pill) => {
+        pill.addEventListener("click", () => {
+          const status = pill.getAttribute("data-status");
+
+          filterPills.forEach((p) => p.classList.remove("is-active"));
+          pill.classList.add("is-active");
+
+          territoryCards.forEach((card) => {
+            const cardStatus = card.getAttribute("data-status");
+            if (status === "all" || cardStatus === status || (status === "contested" && (cardStatus === "contested" || cardStatus === "speculative"))) {
+              card.style.display = "";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+    </script>
+
     <section class="frontier-method" aria-labelledby="method-heading">
       <p class="eyebrow">Editorial Discipline</p>
       <h2 id="method-heading">High signal. Direct sources. Zero dogma.</h2>
@@ -68,3 +102,50 @@ const countFor = (category: string) => briefs.filter((entry) => entry.data.categ
     </section>
   </main>
 </Layout>
+
+<style>
+  .frontier-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 28px;
+    padding: 16px 20px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+  }
+  .filter-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .filter-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .frontier-pill {
+    padding: 6px 14px;
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--muted);
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .frontier-pill:hover {
+    color: var(--ink);
+    border-color: var(--saffron);
+  }
+  .frontier-pill.is-active {
+    color: var(--paper);
+    background: var(--ink);
+    border-color: var(--ink);
+  }
+</style>
