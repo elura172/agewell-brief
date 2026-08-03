@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "da0031008e0311661bd5d57b",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:6815699",
+      "score": 85,
+      "rationale": "The image depicts an elderly man and woman performing a fitness workout with resistance bands, which aligns with the study's focus on physical function, balance, and strength in older adults. The setting appears to be a gym, which is consistent with a physical therapy or exercise science lab. The mood is active and positive, avoiding negative stereotypes.",
+      "concerns": [
+        "The image shows resistance band training rather than a specific balance assessment, but it still represents relevant physical activity. The alt text does not mention balance or stability explicitly, but the context of exercise is appropriate."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-03/understanding-the-effects-of-aging-on-whole-body-dynamic-balance-trunk-da003100-pexels-6815699.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

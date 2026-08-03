@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T22:48:42.899116+00:00",
+  "generated_at": "2026-08-03T00:03:54.147059+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -169,7 +169,7 @@
       "topic": "eating less major protein review slow",
       "headline": "Eating less protein could slow aging, major review finds - ScienceDaily",
       "category": "general wellness",
-      "score": 17.13,
+      "score": 17.0,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
@@ -240,7 +240,7 @@
       "topic": "according best experts sleep time wake",
       "headline": "‘Devices that just track sleep will go by the wayside’ — meet the new tech intervening in real time to end 3 a.m. wake-ups - Tom's Guide",
       "category": "sleep health",
-      "score": 14.71,
+      "score": 14.58,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
@@ -297,38 +297,6 @@
           "published": "Mon, 27 Jul 2026 21:19:48 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
-        }
-      ]
-    },
-    {
-      "topic": "brain learning protects",
-      "headline": "Overall Brain Health Protects Memory From Early Alzheimer’s - Neuroscience News",
-      "category": "brain health",
-      "score": 14.0,
-      "mention_count": 2,
-      "source_count": 2,
-      "sources": [
-        "American Psychological Association (APA)",
-        "Neuroscience News"
-      ],
-      "newest": "2026-05-16T07:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "How learning protects the aging brain - American Psychological Association (APA)",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OaVpJSU5RQXVZQm12WWdyTEtsS3NWN0EwRVVsR1VYWE5tM2R0ZzEtYkVSZHZ4Tkp5Q0ZRYnJ6UGZyM3J6VkxtOTR1cVdfT2ZSNm54MGdvVEVwN3NtYTVZa3I2ODZMdzVqaWRIdncyTEFzSW8tLV9J?oc=5",
-          "source": "American Psychological Association (APA)",
-          "published": "Wed, 25 Feb 2026 08:00:00 GMT",
-          "seed": "brain health",
-          "category": "brain health"
-        },
-        {
-          "title": "Overall Brain Health Protects Memory From Early Alzheimer’s - Neuroscience News",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON3dDYnkxeksxV2p1bE10cGJ5RUVweHZ5cmZtQk40eDZEc0x6ZGJqM1EwLWJoMXEtQ1dzNFItbmZyNmpZWjl3VHNaWDlLT2plaXVjTXVLTVZUNUFhVnA0aFlHdG9MRW14dk9qS3FMTVM3M3VhdmZUTFlvbmhIZ3dqWnFTSQ?oc=5",
-          "source": "Neuroscience News",
-          "published": "Sat, 16 May 2026 07:00:00 GMT",
-          "seed": "brain health",
-          "category": "brain health"
         }
       ]
     },
@@ -493,29 +461,6 @@
       ]
     },
     {
-      "topic": "facilitate healthy travel",
-      "headline": "Travel can facilitate healthy aging - Tahoe Daily Tribune",
-      "category": "general wellness",
-      "score": 11.05,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Tahoe Daily Tribune"
-      ],
-      "newest": "2026-08-02T13:40:31+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Travel can facilitate healthy aging - Tahoe Daily Tribune",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOWhnb3oxd212QzJ2Y1ZOLUZSdTEzYlFjLU8zZWtBOWpJaHZvN1JGX0pUSVhGSWpWUlluWDhDMzZ3NHJtbmRHSkZYcFZCTkc2aXRScmpLR001Tk9TRVFGUlJJUHREQWgySHFwTmI3N3NGX2dxNGJLSVpnVm5sNGRsVA?oc=5",
-          "source": "Tahoe Daily Tribune",
-          "published": "Sun, 02 Aug 2026 13:40:31 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "getting less more quality sleep sleeping",
       "headline": "Getting older, sleeping less? What older adults can do to get more quality sleep. - UCHealth",
       "category": "sleep health",
@@ -609,10 +554,33 @@
       ]
     },
     {
+      "topic": "facilitate healthy travel",
+      "headline": "Travel can facilitate healthy aging - TahoeDailyTribune.com",
+      "category": "general wellness",
+      "score": 10.92,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "TahoeDailyTribune.com"
+      ],
+      "newest": "2026-08-02T13:40:31+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Travel can facilitate healthy aging - TahoeDailyTribune.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOWhnb3oxd212QzJ2Y1ZOLUZSdTEzYlFjLU8zZWtBOWpJaHZvN1JGX0pUSVhGSWpWUlluWDhDMzZ3NHJtbmRHSkZYcFZCTkc2aXRScmpLR001Tk9TRVFGUlJJUHREQWgySHFwTmI3N3NGX2dxNGJLSVpnVm5sNGRsVA?oc=5",
+          "source": "TahoeDailyTribune.com",
+          "published": "Sun, 02 Aug 2026 13:40:31 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "being choices everyday healthy lifestyle longevity support tips well",
       "headline": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - Rock Hill Herald",
       "category": "general wellness",
-      "score": 8.17,
+      "score": 8.03,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -635,7 +603,7 @@
       "topic": "ballad center friendly healthy recognized system",
       "headline": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - GreenevilleSun.com",
       "category": "general wellness",
-      "score": 7.49,
+      "score": 7.36,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -840,21 +808,21 @@
     },
     {
       "topic": "before dementia diagnosis show symptoms that years",
-      "headline": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
+      "headline": "6 dementia symptoms that can show up years before a diagnosis - washingtonpost.com",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "The Washington Post"
+        "washingtonpost.com"
       ],
       "newest": "2026-07-21T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
+          "title": "6 dementia symptoms that can show up years before a diagnosis - washingtonpost.com",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTE0tQjEtVUhFUEctclZWcGQ4X0NNNEY5c0Rfd0VnT2xPQThycTVSanRueUtZOFhTMWVhQ3AxWHZuQXVDTlJraXFXQkYtSk1lclN4dWJrZ0tIMTc2WFdLekpQZVRWZmJEVUpRaEM3UC1PSEZWd3NpR04zNUR5Uk9Wd3J1bC1vbEJqN09Ca3QySkZmQnVMcHdfNS1zMkhWNENHZXh1Q2lwVmU5YVFUbUx3?oc=5",
-          "source": "The Washington Post",
+          "source": "washingtonpost.com",
           "published": "Tue, 21 Jul 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -902,6 +870,29 @@
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOF9XOGE2elY1S09yUkIycjZUVWVIX09keUx1V2ItakI2alN1amFIcnRGbFREdm9VaUNDZzVfeHgtUnlVeTF2M0xEWmN2cVRZOU9ybmN1azlYNjNReV9oaVZZWVpSa1BPQmw2bXBESU9FREdTN25WSWFnZ3U2LXpiVWFCUTB4bDliQ2xnaHp2TG9LUUgzREY4SEZtLUJRcFFCWlo5cTJxTk1oLVE5OW04MWVab0NjdUFRRC1lNHd2WUE4Z3dXUlV4aGtUcFhHeERUcWNRbHhaWGxrZ0NPVmhRSHFn?oc=5",
           "source": "Johns Hopkins Medicine",
           "published": "Mon, 09 Feb 2026 08:00:00 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
+      "topic": "cognitive decline fast half risk walkers",
+      "headline": "Fast walkers in their 80s cut their risk of cognitive decline by half, a study finds - NPR",
+      "category": "brain health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "NPR"
+      ],
+      "newest": "2026-07-06T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Fast walkers in their 80s cut their risk of cognitive decline by half, a study finds - NPR",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaDhXcHdXNEVrWkFSaHNsR2dYTHYxVVNEVUphaVBOeC13MzM2Y183WWh5WXlxQTF1UDB6RDFMaUs3anZicDVkbXcycW5oczJJQWlGNEtYM2lJWHFDa2Izbl9vTjVsVnUwV3FYYTFxTVZWdzFJZ3ItN3FmRlFUaE5JSFcxOFVYd2xweGc?oc=5",
+          "source": "NPR",
+          "published": "Mon, 06 Jul 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
         }
@@ -994,6 +985,29 @@
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KM3FFeGlBSVlPcktJZmdBSVZsVVctMUdVQXlDWEVFSVlYSzJGQjNGTlUtOGVFWDVXTm9uU2FGNzJyMWZGRnNTNmJ6dG5wY0N5d0tKUnJhenBfaENnTVRlUkNSZ3FBT1E3NUpoSmVDclI3VGJs?oc=5",
           "source": "University of Miami",
           "published": "Fri, 13 Mar 2026 07:00:00 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
+      "topic": "brain learning protects",
+      "headline": "How learning protects the aging brain - American Psychological Association (APA)",
+      "category": "brain health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "American Psychological Association (APA)"
+      ],
+      "newest": "2026-02-25T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "How learning protects the aging brain - American Psychological Association (APA)",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OaVpJSU5RQXVZQm12WWdyTEtsS3NWN0EwRVVsR1VYWE5tM2R0ZzEtYkVSZHZ4Tkp5Q0ZRYnJ6UGZyM3J6VkxtOTR1cVdfT2ZSNm54MGdvVEVwN3NtYTVZa3I2ODZMdzVqaWRIdncyTEFzSW8tLV9J?oc=5",
+          "source": "American Psychological Association (APA)",
+          "published": "Wed, 25 Feb 2026 08:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
         }
@@ -1438,21 +1452,21 @@
     },
     {
       "topic": "better dangerous falls help minute prevent researchers routine want",
-      "headline": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
+      "headline": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - foxnews.com",
       "category": "mobility",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Fox News"
+        "foxnews.com"
       ],
       "newest": "2026-06-23T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
+          "title": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - foxnews.com",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcVpvX05fcE9OT2hxRmpjMEVWRDJrTGVfazlDNHlpbWltSWIxRTlfMnpkNkxGZDFucklvbF9LLThZM0lBamkweDhKTmUzQVVjanRONW1wWUo4SFI4R05SZ0g3ZkZjeE1HZml3d1hiTmc4bTA1VTZ5b3hCNjVCZDJoejNuTkpGZmxRNlBpeFdKMnVfZjY5R01BYnZjSmRXUW5TOGF4OVAwdFQ0bnVzV0NLY2Jn0gG3AUFVX3lxTFBkeXNkcUNtTG9ma0tfWThIUDlzX2g1R1RiVjBqSWltMWZtQWwwdDE1Vy15NEhGdVIwMloxTnI3czE5V1lQbFZTSXowNlpra3gxUmdDenJpcHJlZWltRGM0NkxDUndhRXBuczBFaFlUMWRhZTBaZGFvb1pYaVdLalJfOUFhdmF5X0hGeHRjdjA1ZjdHWVdOVlZPdVJnTlA5M2R0ZE9RbXNDbWZoZC01UGhjTHZ6RHRLUQ?oc=5",
-          "source": "Fox News",
+          "source": "foxnews.com",
           "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
@@ -1783,21 +1797,21 @@
     },
     {
       "topic": "found half healthy million people scientists sleep spot studied sweet",
-      "headline": "Scientists Studied Half A Million People And Found A Sleep Sweet Spot For Healthy Aging - zmescience.com",
+      "headline": "Scientists Studied Half A Million People And Found A Sleep Sweet Spot For Healthy Aging - ZME Science",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "zmescience.com"
+        "ZME Science"
       ],
       "newest": "2026-05-15T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Scientists Studied Half A Million People And Found A Sleep Sweet Spot For Healthy Aging - zmescience.com",
+          "title": "Scientists Studied Half A Million People And Found A Sleep Sweet Spot For Healthy Aging - ZME Science",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fVzhwYTREVmpEZEgwWUF4UUlEVWItWlc0ZXJlSml2M3ZodlFZWXUtTWxKcUZfSmFmYTNkaWdnZmVpVUUtM2Z2Nk9pU3hxYnYtMW9od0dGS2NmM3Jva0IyeVRmeFgtWG83WnE0R3dERkNYcGRaSFE?oc=5",
-          "source": "zmescience.com",
+          "source": "ZME Science",
           "published": "Fri, 15 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
@@ -1898,21 +1912,21 @@
     },
     {
       "topic": "body clocks dementia irregular raise risk",
-      "headline": "Irregular body clocks may raise the risk of dementia - earth.com",
+      "headline": "Irregular body clocks may raise the risk of dementia - Earth.com",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "earth.com"
+        "Earth.com"
       ],
       "newest": "2026-01-03T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Irregular body clocks may raise the risk of dementia - earth.com",
+          "title": "Irregular body clocks may raise the risk of dementia - Earth.com",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMnVIV0t4Q1BtWS10OC1lMV9lSlhFMmt3LXV0a0ZLTGt0Y1dhcDJVNkgwd1dWcW90Z0ZTaG8xazVReUg2bWQ5TjFBLUJha1NJY0ZRb09WaGUzWlAzTnloelRtdDM3MXlHV3ZoRHFpV0owaC1FTS1DNm1vRGNPME0zcGYtaEJicTQ?oc=5",
-          "source": "earth.com",
+          "source": "Earth.com",
           "published": "Sat, 03 Jan 2026 08:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -2266,21 +2280,21 @@
     },
     {
       "topic": "active biological clinical first human ingredient ozempic slow trial",
-      "headline": "Ozempic's Active Ingredient May Slow Biological Aging, First Human Clinical Trial Finds - medicaldaily.com",
+      "headline": "Ozempic's Active Ingredient May Slow Biological Aging, First Human Clinical Trial Finds - Medical Daily",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "medicaldaily.com"
+        "Medical Daily"
       ],
       "newest": "2026-07-15T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Ozempic's Active Ingredient May Slow Biological Aging, First Human Clinical Trial Finds - medicaldaily.com",
+          "title": "Ozempic's Active Ingredient May Slow Biological Aging, First Human Clinical Trial Finds - Medical Daily",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMFlyT2JKUnRVNkhoZkRpOGpFNWpTZGJtUlBfbGE2cEVOeERzdnF3WmdNelcxODBucUxYaEFPS1M3ZEZrREZIaHk4YUxKT2VjRlhRN19nSU9pczFwQ1d2RTItSDlJSVFXWjlOVzNvVnhlYTFHSHl5bzNGZlRkNmozOE9tR1hDNklCQS1FUk9LWU15d240MXNn?oc=5",
-          "source": "medicaldaily.com",
+          "source": "Medical Daily",
           "published": "Wed, 15 Jul 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -2312,21 +2326,21 @@
     },
     {
       "topic": "drug during enhances loss mice muscle repair treatment weight",
-      "headline": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - Stanford Medicine",
+      "headline": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - med.stanford.edu",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Stanford Medicine"
+        "med.stanford.edu"
       ],
       "newest": "2026-06-02T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - Stanford Medicine",
+          "title": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - med.stanford.edu",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKVDBWQ3otcWN3TG43NzlkX1dRSHZ5bXhBdy1FMGNFaVRGcHd5NlZ0eExvc0pwWEgtMXRkQVlHOHBNcDRmcVBFbUVMN2kxOG5fTlpJbzVuYWhMekd2VUN4SWs2MjBWNXp1NXJoRm9hUGVQZw?oc=5",
-          "source": "Stanford Medicine",
+          "source": "med.stanford.edu",
           "published": "Tue, 02 Jun 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
