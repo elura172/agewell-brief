@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "a70cda9cf6c7a3f50e8e5d07",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8346006",
+      "score": 85,
+      "rationale": "The image depicts a sleeping woman with an alarm clock nearby, directly matching the editorial intent of showing a person sleeping with a clock to illustrate optimal sleep duration. The setting is cozy and peaceful, aligning with the desired mood. The alt text confirms the presence of both elements, and the metadata does not suggest any negative or irrelevant content.",
+      "concerns": [
+        "The image shows a woman, not specifically an older adult, but the story is about aging in general, so this is acceptable. The clock is not clearly showing 7:00 AM, but the presence of a clock is sufficient."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-03/research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c-pexels-8346006.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T05:57:08.238671+00:00",
+  "generated_at": "2026-08-03T05:58:20.198364+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -12,15 +12,15 @@
       "sources": [
         "Fit&Well",
         "The Brighter Side of News",
-        "psu.edu"
+        "The Pennsylvania State University"
       ],
       "newest": "2026-06-26T07:00:00+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
       "items": [
         {
-          "title": "Four-minute daily workout improves strength, balance in older adults - psu.edu",
+          "title": "Four-minute daily workout improves strength, balance in older adults - The Pennsylvania State University",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVE9lUDlWTF84VWdfVHV6c0NjSi1BbnhKZTBIeE9xdDg0MUx1ZEw5QXRneWE5SGpMenUxaW44czhrNGhNNFRJZFNTNElfWC00R1NqMVpqWFRtUk95Q0ZVbnRwSGkzem5ibnFfU0g0ZVFGOFU4aG1tV3hLbDZ4RU1KM0JRS3VpQ2lrZ3c4blZXc3drN19vcDZ6S3p5RWo1QWt6NG1Oak1mZw?oc=5",
-          "source": "psu.edu",
+          "source": "The Pennsylvania State University",
           "published": "Tue, 09 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
@@ -86,15 +86,15 @@
     },
     {
       "topic": "body clock dementia early warning weak",
-      "headline": "Your body clock may hold clues to dementia risk - consumeraffairs.com",
+      "headline": "Your body clock may hold clues to dementia risk - ConsumerAffairs",
       "category": "brain health",
       "score": 21.0,
       "mention_count": 3,
       "source_count": 3,
       "sources": [
-        "ScienceDaily",
-        "consumeraffairs.com",
-        "scitechdaily.com"
+        "ConsumerAffairs",
+        "SciTechDaily",
+        "ScienceDaily"
       ],
       "newest": "2026-03-05T08:00:00+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
@@ -108,17 +108,17 @@
           "category": "brain health"
         },
         {
-          "title": "A Disrupted Body Clock Is Linked to Higher Dementia Risk - scitechdaily.com",
+          "title": "A Disrupted Body Clock Is Linked to Higher Dementia Risk - SciTechDaily",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX0VXcXBrc2dkMEVrdjQ2Y3c0NWRqVXhCRThacGJvNTNCMHlzTzJjTmZSVUVWM2JybUJYbzJpUmY3bnJTVmpkdERsMzhRWmF0ajNSa05TWTl2cnlZWnVTUUNPQTZoWmVWVlZSMTJHbDJ1SGJHM1pGN252QlZ3SjY3Wm5lcjJKazRFMVE?oc=5",
-          "source": "scitechdaily.com",
+          "source": "SciTechDaily",
           "published": "Fri, 09 Jan 2026 08:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
         },
         {
-          "title": "Your body clock may hold clues to dementia risk - consumeraffairs.com",
+          "title": "Your body clock may hold clues to dementia risk - ConsumerAffairs",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM3I5dlZSUjk3ZFNlaGQxdTI2OXBMcHRLV2ZONEx0RENlQ1VnVzAzWkxONkdvNG5mT1ZGeW1RekkzTlJ3SnkwOTAxQTB1UzJ2b2pkSldzRGdCeEphUmY3cUctQkthOGZnSmU1MG1RcURBZEVSTVRNUGNiMTQ5bXNyZ1pzNVg3YUlyVHpaaF8tWTBvV2Z3NmtEbmwtZFE?oc=5",
-          "source": "consumeraffairs.com",
+          "source": "ConsumerAffairs",
           "published": "Thu, 05 Mar 2026 08:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -244,8 +244,8 @@
       "mention_count": 2,
       "source_count": 2,
       "sources": [
-        "Everyday Health",
-        "Inside Precision Medicine"
+        "Inside Precision Medicine",
+        "everydayhealth.com"
       ],
       "newest": "2026-07-31T15:00:57+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
@@ -259,9 +259,9 @@
           "category": "general wellness"
         },
         {
-          "title": "How Optimizing Metabolic Health Can Promote Longevity - Everyday Health",
+          "title": "How Optimizing Metabolic Health Can Promote Longevity - everydayhealth.com",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVU1UckxfMkdGQnBJaXFBQ2ZaTEZIRWxzZ3RwRXVTc2lLZndndjd6UUE3dVI5NnRaN3c0UURDUnp5V2tUaGNrOW5BOXJHYlBDRkpZczVwLS13Q010cmEyZWdveXptc2k5TTJETk5DSmVmZ2FiOVNtczZZVUxibVlpVWZ1aXM3WmwwRDZKdnZoaU9kWmVBaVlHLXB0UQ?oc=5",
-          "source": "Everyday Health",
+          "source": "everydayhealth.com",
           "published": "Mon, 27 Jul 2026 21:19:48 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -302,14 +302,14 @@
     },
     {
       "topic": "brain learning protects",
-      "headline": "Overall Brain Health Protects Memory From Early Alzheimer’s - Neuroscience News",
+      "headline": "Overall Brain Health Protects Memory From Early Alzheimer’s - neurosciencenews.com",
       "category": "brain health",
       "score": 14.0,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
         "American Psychological Association (APA)",
-        "Neuroscience News"
+        "neurosciencenews.com"
       ],
       "newest": "2026-05-16T07:00:00+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
@@ -323,9 +323,9 @@
           "category": "brain health"
         },
         {
-          "title": "Overall Brain Health Protects Memory From Early Alzheimer’s - Neuroscience News",
+          "title": "Overall Brain Health Protects Memory From Early Alzheimer’s - neurosciencenews.com",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON3dDYnkxeksxV2p1bE10cGJ5RUVweHZ5cmZtQk40eDZEc0x6ZGJqM1EwLWJoMXEtQ1dzNFItbmZyNmpZWjl3VHNaWDlLT2plaXVjTXVLTVZUNUFhVnA0aFlHdG9MRW14dk9qS3FMTVM3M3VhdmZUTFlvbmhIZ3dqWnFTSQ?oc=5",
-          "source": "Neuroscience News",
+          "source": "neurosciencenews.com",
           "published": "Sat, 16 May 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -526,29 +526,29 @@
     },
     {
       "topic": "getting less more quality sleep sleeping",
-      "headline": "Getting older, sleeping less? What older adults can do to get more quality sleep. - UCHealth",
+      "headline": "Getting older, sleeping less? What older adults can do to get more quality sleep. - uchealth.org",
       "category": "sleep health",
       "score": 11.0,
       "mention_count": 2,
       "source_count": 1,
       "sources": [
-        "UCHealth"
+        "uchealth.org"
       ],
       "newest": "2026-04-17T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Getting older, sleeping less? What older adults can do to get more quality sleep. - UCHealth",
+          "title": "Getting older, sleeping less? What older adults can do to get more quality sleep. - uchealth.org",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWmJPemt1ZDdKWEJBazc3dmhkWHI3WXV2MWZtRmhyY1hjZkhMZ1p0UEhZNkJNOUswaVJUdzZWSlZwbEZPSld0YjFSWF91djBwd0YxbTlBMVlCamlIRGY0SVJEMXNMUWNVYjJmTVJRZHFwaW5XeS1jc3dHNG1hVGhDVmE1eHFSc0NDUEQ1Zllja014Zw?oc=5",
-          "source": "UCHealth",
+          "source": "uchealth.org",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         },
         {
-          "title": "Getting older, sleeping less? What older adults can do to get more quality sleep. - UCHealth",
+          "title": "Getting older, sleeping less? What older adults can do to get more quality sleep. - uchealth.org",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWmJPemt1ZDdKWEJBazc3dmhkWHI3WXV2MWZtRmhyY1hjZkhMZ1p0UEhZNkJNOUswaVJUdzZWSlZwbEZPSld0YjFSWF91djBwd0YxbTlBMVlCamlIRGY0SVJEMXNMUWNVYjJmTVJRZHFwaW5XeS1jc3dHNG1hVGhDVmE1eHFSc0NDUEQ1Zllja014Zw?oc=5",
-          "source": "UCHealth",
+          "source": "uchealth.org",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
@@ -696,21 +696,21 @@
     },
     {
       "topic": "healthy independence launches mexico program support",
-      "headline": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
+      "headline": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - hscnews.unm.edu",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "UNM HSC Newsroom"
+        "hscnews.unm.edu"
       ],
       "newest": "2026-07-28T19:43:03+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
+          "title": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - hscnews.unm.edu",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVhqZDVMTGFoY3V4YzFaLVBqWmx5NmdoQ2k2dndleGdGMEZtWXZCUXUtNk5WR044bmRDbFpMbGZJMm1OdkhIcWxmNTFuc2RPQ2ZJNEx5NzU3eVI5MzM2RzZNa1ZiY2k1Szk2cTJ4OUZ0TXF2Q0VtNGV6cFRuY0tGVmRDQkFoWFg0UE5ZX01Cd0kxZnJiOWRxRC1MeDFrQTZ0SmVMRXJ0anRUUjRDZnB6U2ZsN25mZw?oc=5",
-          "source": "UNM HSC Newsroom",
+          "source": "hscnews.unm.edu",
           "published": "Tue, 28 Jul 2026 19:43:03 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
@@ -719,21 +719,21 @@
     },
     {
       "topic": "ballad center friendly healthy recognized system",
-      "headline": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - GreenevilleSun.com",
+      "headline": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - greenevillesun.com",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "GreenevilleSun.com"
+        "greenevillesun.com"
       ],
       "newest": "2026-08-01T03:30:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - GreenevilleSun.com",
+          "title": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - greenevillesun.com",
           "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQb3k1eTBEZ0lGMzdHVWtVYUJScGdRbGE0andMTWUxZVVrd1ZzYnNsZnlvdkNVMmx3UzdqWXdHeGRjbFdHeVJJWlRRU0hUZjk5RFRYcFZvVy16SVdBdTU1b1hwMXVjOHA3M2JiWFJwOF9raUhDa1Bqd1RUdmRPSWRuYVFhdXJybE5VTU12Z3pqcnFadjF1S1g2NmtCUFRuX0hPLS1TRjhVUzUzNTlWRzdKUWZsYmhiOUVtMWdLUlh3R3MxZmFpWGlxbzJQMzk0NFBvZzhjeUU5bktYSEZHNGpBeUNHOGZmRGtrUUQ3UFplZ0hpQVRlVnJFV2ZjdEJfQQ?oc=5",
-          "source": "GreenevilleSun.com",
+          "source": "greenevillesun.com",
           "published": "Sat, 01 Aug 2026 03:30:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
@@ -903,21 +903,21 @@
     },
     {
       "topic": "before dementia diagnosis show symptoms that years",
-      "headline": "6 dementia symptoms that can show up years before a diagnosis - washingtonpost.com",
+      "headline": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "washingtonpost.com"
+        "The Washington Post"
       ],
       "newest": "2026-07-21T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "6 dementia symptoms that can show up years before a diagnosis - washingtonpost.com",
+          "title": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTE0tQjEtVUhFUEctclZWcGQ4X0NNNEY5c0Rfd0VnT2xPQThycTVSanRueUtZOFhTMWVhQ3AxWHZuQXVDTlJraXFXQkYtSk1lclN4dWJrZ0tIMTc2WFdLekpQZVRWZmJEVUpRaEM3UC1PSEZWd3NpR04zNUR5Uk9Wd3J1bC1vbEJqN09Ca3QySkZmQnVMcHdfNS1zMkhWNENHZXh1Q2lwVmU5YVFUbUx3?oc=5",
-          "source": "washingtonpost.com",
+          "source": "The Washington Post",
           "published": "Tue, 21 Jul 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -1087,21 +1087,21 @@
     },
     {
       "topic": "common habit later life problems serious signal this",
-      "headline": "This Common Habit Could Signal Serious Health Problems in Later Life - scitechdaily.com",
+      "headline": "This Common Habit Could Signal Serious Health Problems in Later Life - SciTechDaily",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "scitechdaily.com"
+        "SciTechDaily"
       ],
       "newest": "2026-04-28T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "This Common Habit Could Signal Serious Health Problems in Later Life - scitechdaily.com",
+          "title": "This Common Habit Could Signal Serious Health Problems in Later Life - SciTechDaily",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV3FFZGl6ODdjeXN3cXlXdmpOYWRIOXJmTnZxaWpCaDdEX0E5T0oxbVBkTEhMS19ZOXA4ZXJIbnlXVzhVTnd4d3V6NEhqTWcwa09UemFIQ1hxNGVGaDQ2aXFRWFlJQkFSaHQybTBLVExjd3lZY3JZZF9FWGRVQUhLQXAzcHlHN2V6QnRzZEZuSkdSSTRZeDlJU1NB?oc=5",
-          "source": "scitechdaily.com",
+          "source": "SciTechDaily",
           "published": "Tue, 28 Apr 2026 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
@@ -1224,8 +1224,8 @@
       ]
     },
     {
-      "topic": "biggest debunks dieting fear",
-      "headline": "New study debunks the biggest fear about yo-yo dieting - ScienceDaily",
+      "topic": "alzheimer blood meal raise risk spike sugar this",
+      "headline": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
@@ -1233,14 +1233,14 @@
       "sources": [
         "ScienceDaily"
       ],
-      "newest": "2026-05-17T07:00:00+00:00",
+      "newest": "2026-01-15T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "New study debunks the biggest fear about yo-yo dieting - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yemhkNDFid3ZQNnJzbm01ZUlud3lnRFVxU21JUXl3VE1ZT1NGbzlmZ09FLWxXNEZWSEF4U0phTmZWS2hIU1B1RlZiaHZUR0FxekhRZ2ZOMjZWNE9kNXM2UkZFWmtqUjNLUVVzTFM5UQ?oc=5",
+          "title": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aUDk3LXZBd3NkV05XMk9XaWpPSjl2VGFYRVlETGFNZnVhQlRWTXQ3WGRhMnpJTzhqQ0V1aV90TVkxaThvUjdGRXM0dFktODItZTE0Wk9tdHNwcXBVS3RNcmwwaU5Xdi1fdTlxV2gzYw?oc=5",
           "source": "ScienceDaily",
-          "published": "Sun, 17 May 2026 07:00:00 GMT",
+          "published": "Thu, 15 Jan 2026 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1293,45 +1293,22 @@
       ]
     },
     {
-      "topic": "alzheimer blood meal raise risk spike sugar this",
-      "headline": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "ScienceDaily"
-      ],
-      "newest": "2026-01-15T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aUDk3LXZBd3NkV05XMk9XaWpPSjl2VGFYRVlETGFNZnVhQlRWTXQ3WGRhMnpJTzhqQ0V1aV90TVkxaThvUjdGRXM0dFktODItZTE0Wk9tdHNwcXBVS3RNcmwwaU5Xdi1fdTlxV2gzYw?oc=5",
-          "source": "ScienceDaily",
-          "published": "Thu, 15 Jan 2026 08:00:00 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        }
-      ]
-    },
-    {
       "topic": "forty just kyung management professor publishes sign survival warning weight",
-      "headline": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - 스포츠조선",
+      "headline": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - sportschosun.com",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "스포츠조선"
+        "sportschosun.com"
       ],
       "newest": "2026-07-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - 스포츠조선",
+          "title": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - sportschosun.com",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa3FUYndaTzhhYlNpeC0taWJ6dzhxa0EtTkZiQmYwbDkwdTJ1WU05cEhfUTc3UVBGVjZFYWhZV2lQRTBhdmNlS2RjMGFHRjZkSFNjQ0lGbFVFbnYwSUp3QlV3cTBsQ2FWaGNUUVJyd3R0blpwLXUzaWtlVTR3QVFscA?oc=5",
-          "source": "스포츠조선",
+          "source": "sportschosun.com",
           "published": "Sun, 05 Jul 2026 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
@@ -1356,6 +1333,29 @@
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MU3FNLUEwVXk2S294cUJOVHoyNnJwbXNjTWpkNkZ5bEFBSF83dUJjeUw1YVZ3MFVQRy1VRGl0ZlF1aXRHQUVTQ29iWjR2aVdrdEVxcUg1NmE1c01pM0JONXdnM3RQa05OcmQ1TWVJU01qb0dic1E?oc=5",
           "source": "American Physiological Society Journal",
           "published": "Thu, 10 Jul 2025 14:57:50 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "brain cost have hidden losing midlife weight",
+      "headline": "Losing weight in midlife may have a hidden brain cost - ScienceDaily",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "ScienceDaily"
+      ],
+      "newest": "2025-12-28T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Losing weight in midlife may have a hidden brain cost - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHUkxGTnF5c1UtVERqUWlpZlIzUFZ2UTh2MFR1cFBqbFFQanZWUUZZRWc0NmxHN2QyS0NvMy1PZHBMZnBWcnFLYlh0QlJ1cFFOM2VORlp2ODFwenZTbFY0S0NsNnpUMTBsY2lfNC12TQ?oc=5",
+          "source": "ScienceDaily",
+          "published": "Sun, 28 Dec 2025 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1478,21 +1478,21 @@
     },
     {
       "topic": "better dangerous falls help minute prevent researchers routine want",
-      "headline": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - foxnews.com",
+      "headline": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
       "category": "mobility",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "foxnews.com"
+        "Fox News"
       ],
       "newest": "2026-06-23T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - foxnews.com",
+          "title": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcVpvX05fcE9OT2hxRmpjMEVWRDJrTGVfazlDNHlpbWltSWIxRTlfMnpkNkxGZDFucklvbF9LLThZM0lBamkweDhKTmUzQVVjanRONW1wWUo4SFI4R05SZ0g3ZkZjeE1HZml3d1hiTmc4bTA1VTZ5b3hCNjVCZDJoejNuTkpGZmxRNlBpeFdKMnVfZjY5R01BYnZjSmRXUW5TOGF4OVAwdFQ0bnVzV0NLY2Jn0gG3AUFVX3lxTFBkeXNkcUNtTG9ma0tfWThIUDlzX2g1R1RiVjBqSWltMWZtQWwwdDE1Vy15NEhGdVIwMloxTnI3czE5V1lQbFZTSXowNlpra3gxUmdDenJpcHJlZWltRGM0NkxDUndhRXBuczBFaFlUMWRhZTBaZGFvb1pYaVdLalJfOUFhdmF5X0hGeHRjdjA1ZjdHWVdOVlZPdVJnTlA5M2R0ZE9RbXNDbWZoZC01UGhjTHZ6RHRLUQ?oc=5",
-          "source": "foxnews.com",
+          "source": "Fox News",
           "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
@@ -1570,21 +1570,21 @@
     },
     {
       "topic": "contain oleander supplements these toxic update yellow",
-      "headline": "FDA update: These supplements contain toxic yellow oleander - cspi.org",
+      "headline": "FDA update: These supplements contain toxic yellow oleander - Center for Science in the Public Interest",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "cspi.org"
+        "Center for Science in the Public Interest"
       ],
       "newest": "2025-11-03T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA update: These supplements contain toxic yellow oleander - cspi.org",
+          "title": "FDA update: These supplements contain toxic yellow oleander - Center for Science in the Public Interest",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNakRMYnBNamdFTGx1YmZMeWhJTjRiNFF2Vk1GRDlyRlRyLWFnMXJfUmhDVXpjaDlVakdvdUs2MU1fYVg5dUlieElCc05fMnRIY05VWFhSTUR4RkZpaGhOSF9VaUZqcVNMMG5QRUZqLWtIdW0ya1J5WTU5S3pCclZ6cWdqdUxXMjk2TnJDVG1aVkctYnc?oc=5",
-          "source": "cspi.org",
+          "source": "Center for Science in the Public Interest",
           "published": "Mon, 03 Nov 2025 08:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1685,21 +1685,21 @@
     },
     {
       "topic": "alert amazon drugs poison sold supplements",
-      "headline": "FDA alert: Supplements sold on Amazon may be poison or drugs - cspi.org",
+      "headline": "FDA alert: Supplements sold on Amazon may be poison or drugs - Center for Science in the Public Interest",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "cspi.org"
+        "Center for Science in the Public Interest"
       ],
       "newest": "2024-01-05T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA alert: Supplements sold on Amazon may be poison or drugs - cspi.org",
+          "title": "FDA alert: Supplements sold on Amazon may be poison or drugs - Center for Science in the Public Interest",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TbUQwOVgzd3RNY2JYUmNUcExjdDY1RmhFTmdGVy1NU0hQZnNGUkhkWHBEeXFNeGlxZjJyX3lpOUM1Z3RIZVZ6QUYwcTZKYUpYdVRiaVpqM0pZSlJlT2h6b1VXelNkX1BiLXRNcWY4MmtTSnktTlphX0V3?oc=5",
-          "source": "cspi.org",
+          "source": "Center for Science in the Public Interest",
           "published": "Fri, 05 Jan 2024 08:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1892,21 +1892,21 @@
     },
     {
       "topic": "beneficial common dietary money supplements these vitamins waste",
-      "headline": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - UCHealth",
+      "headline": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - uchealth.org",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "UCHealth"
+        "uchealth.org"
       ],
       "newest": "2025-06-15T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - UCHealth",
+          "title": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - uchealth.org",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVnF4eVJDWDI4eEdicHp2UG5xTjBkV2Q4SFM4VWN2bHFKRElybUluemhXRFNSeml0ZEk4Wkd4a1lfQ3NyYURhb2luTDhqLUJPVmtXQ0lIZ0tXRVUzaWdEdzU5VHlDZEdLWTN0WXRGTnlJdXBJQkRNdndQRUdNZENvMndMcXRPTGs2QjctdVdmcXZoYU82Z1E?oc=5",
-          "source": "UCHealth",
+          "source": "uchealth.org",
           "published": "Sun, 15 Jun 2025 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
@@ -2007,21 +2007,21 @@
     },
     {
       "topic": "accelerated duration linked sleep",
-      "headline": "Sleep Duration Linked to Accelerated Aging - Neuroscience News",
+      "headline": "Sleep Duration Linked to Accelerated Aging - neurosciencenews.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Neuroscience News"
+        "neurosciencenews.com"
       ],
       "newest": "2026-05-13T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Sleep Duration Linked to Accelerated Aging - Neuroscience News",
+          "title": "Sleep Duration Linked to Accelerated Aging - neurosciencenews.com",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhMUdOUnd0eEVxaW9rX1piX21TTUdON2FRX2wyYmRSWG9TZmVQTkwzY21RR2h3NTQyV2J3LXNGU3NnZU13eWREWExuZ08wZ05mLXhJdVJiQnVLS2Q2RzE5N19qNTRWbVRPNXhXSmsxbFExWWlWYk9sSw?oc=5",
-          "source": "Neuroscience News",
+          "source": "neurosciencenews.com",
           "published": "Wed, 13 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
@@ -2168,21 +2168,21 @@
     },
     {
       "topic": "body clocks dementia irregular raise risk",
-      "headline": "Irregular body clocks may raise the risk of dementia - Earth.com",
+      "headline": "Irregular body clocks may raise the risk of dementia - earth.com",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Earth.com"
+        "earth.com"
       ],
       "newest": "2026-01-03T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Irregular body clocks may raise the risk of dementia - Earth.com",
+          "title": "Irregular body clocks may raise the risk of dementia - earth.com",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMnVIV0t4Q1BtWS10OC1lMV9lSlhFMmt3LXV0a0ZLTGt0Y1dhcDJVNkgwd1dWcW90Z0ZTaG8xazVReUg2bWQ5TjFBLUJha1NJY0ZRb09WaGUzWlAzTnloelRtdDM3MXlHV3ZoRHFpV0owaC1FTS1DNm1vRGNPME0zcGYtaEJicTQ?oc=5",
-          "source": "Earth.com",
+          "source": "earth.com",
           "published": "Sat, 03 Jan 2026 08:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -2444,21 +2444,21 @@
     },
     {
       "topic": "neurotech powered revolutionize secures sleep somnee wearables",
-      "headline": "Somnee Secures $10M to Revolutionize Sleep with New AI-Powered Neurotech Sleep Wearables - businesswire.com",
+      "headline": "Somnee Secures $10M to Revolutionize Sleep with New AI-Powered Neurotech Sleep Wearables - Business Wire",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "businesswire.com"
+        "Business Wire"
       ],
       "newest": "2025-06-10T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Somnee Secures $10M to Revolutionize Sleep with New AI-Powered Neurotech Sleep Wearables - businesswire.com",
+          "title": "Somnee Secures $10M to Revolutionize Sleep with New AI-Powered Neurotech Sleep Wearables - Business Wire",
           "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcm1sZldiUUItRWlMSF9SeU05RjE5NjZmSFoyLUFQZk1CaUlmSHFFRXJMcDVnUkZVT0swZjhUVlBPVGVIb1Y1V2hKNjh3NG02WnFFajN5T3FFMU44QU5CV0JublNrRnpKSzNFY1R1UGdLQWljM3BuenlVeFk5ekt4Vmp2SF9FMFduOGJVb19Eb2FDRzB1WUt2N09LeTVzVHJuYVJ4Si1QY3hTMHNvcGFEd3dKaVhFcEFwc29WZTFnSTB5VDdkSTJaRVZGUnRCeDRsQy13bmdkRVdWaVVjM3JFXw?oc=5",
-          "source": "businesswire.com",
+          "source": "Business Wire",
           "published": "Tue, 10 Jun 2025 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
@@ -2467,21 +2467,21 @@
     },
     {
       "topic": "being frailty inevitable threatens well",
-      "headline": "Frailty threatens the health and well-being of older adults, but it’s not inevitable - UCHealth",
+      "headline": "Frailty threatens the health and well-being of older adults, but it’s not inevitable - uchealth.org",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "UCHealth"
+        "uchealth.org"
       ],
       "newest": "2026-04-22T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Frailty threatens the health and well-being of older adults, but it’s not inevitable - UCHealth",
+          "title": "Frailty threatens the health and well-being of older adults, but it’s not inevitable - uchealth.org",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01UFRFb1lQZ1BKRm1naHpaRE9ZN3V3a3hibFkxcnJnNjJYMUswNXZ1alZDN2xjNkFpRWZMOTBJNW1tYU53M2cwQS1kRjZwcFlseUxxYjhmS0xHTjZYOXN5Qmx3dnYyUTNEel9UNnhBZU5RdVpoOHdRM3hR?oc=5",
-          "source": "UCHealth",
+          "source": "uchealth.org",
           "published": "Wed, 22 Apr 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
