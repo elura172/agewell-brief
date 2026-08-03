@@ -26,13 +26,17 @@ METRICS = (
 
 
 def fetch_report(api_key: str, account: str, start: str, end: str) -> tuple[int, object]:
-    # Start with the documented required account/date filters. ClickBank's
-    # endpoint is stricter than its prose examples about optional selectors;
-    # the response includes the available metrics by default.
-    params = {"account": account, "startDate": start, "endDate": end}
+    # The summary route is the compatibility path for affiliate reporting.
+    # It requires an explicit summaryType in addition to account and dates.
+    params = {
+        "account": account,
+        "summaryType": "AFFILIATE_ONLY",
+        "startDate": start,
+        "endDate": end,
+    }
     # ClickBank documents the route with uppercase placeholders, but the
     # deployed REST service expects the concrete role/dimension path lowercase.
-    url = f"{BASE_URL}/affiliate/tracking_id?{urllib.parse.urlencode(params, doseq=True)}"
+    url = f"{BASE_URL}/affiliate/tracking_id/summary?{urllib.parse.urlencode(params, doseq=True)}"
     request = urllib.request.Request(
         url,
         headers={"Authorization": api_key, "Accept": "application/json", "User-Agent": "AgewellBrief/1.0"},
