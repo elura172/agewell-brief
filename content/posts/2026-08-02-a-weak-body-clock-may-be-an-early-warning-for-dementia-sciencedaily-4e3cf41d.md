@@ -21,18 +21,26 @@ image_source_url: "https://pixabay.com/photos/living-room-chair-sofa-couch-home-
 image_review_status: "pending"
 image_avg_color: "#cad4cf"
 ---
-New research links circadian rhythm disruption to dementia, suggesting a weak body clock could be an early warning sign.
+New research links weaker daily rhythms to increased dementia risk in older adults.
 
 ## Three things to remember
 
-- Circadian rhythm disruption is linked to dementia.
-- A weak body clock may be an early warning sign.
-- The research suggests a connection, not causation.
+- People with weaker circadian rhythms had nearly 2.5 times the dementia risk.
+- Later daily activity peaks were tied to a 45% higher risk.
+- Findings don't prove cause; sleep disorders weren't fully accounted for.
 
 <aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for staying mentally engaged</h3>
 <p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_4e3cf41d43091a2bfc06e1f7" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
+
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>An optional resource for readers who want another place to begin.</p>
 <p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_4e3cf41d43091a2bfc06e1f7" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
@@ -58,4 +66,4 @@ This signal is based on [A weak body clock may be an early warning for dementia 
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
-> **Health note:** This was an observational study; it does not prove that circadian disruption causes dementia. The source did not specify study design, sample size, or how rhythms were measured. More research is needed.
+> **Health note:** This observational study doesn't establish that circadian changes cause dementia, and it didn't include data on sleep apnea.

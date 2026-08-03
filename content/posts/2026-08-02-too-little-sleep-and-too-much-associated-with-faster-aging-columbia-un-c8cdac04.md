@@ -21,19 +21,27 @@ image_source_url: "https://www.pexels.com/photo/man-laying-on-a-hospital-bed-wit
 image_review_status: "pending"
 image_avg_color: "#A6A1A5"
 ---
-A Columbia University study suggests that both too little and too much sleep may speed biological aging.
+A new study using organ-specific 'aging clocks' finds that both too little and too much sleep are tied to faster aging across the body.
 
 ## Three things to remember
 
-- Short and long sleep linked to faster aging.
-- Columbia researchers found the association.
-- Causality and mechanisms remain unclear.
+- Short and long sleep linked to faster organ aging.
+- Optimal sleep range: 6.4 to 7.8 hours.
+- Sleep duration tied to depression, heart disease, diabetes.
 
 <aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for steadier routines</h3>
 <p>For readers interested in taking the ideas in this sleep health brief a step further, we’ve included an optional resource that may be useful.</p>
 <p><a class="resource-link" href="https://3342c50per1ucmcrzlgeu6jm52.hop.clickbank.net?tid=agewell_sleep_health_c8cdac0431effbbe72ebf5e9" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
+
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for steadier routines</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://b52a6dthnsfp7u1cz8sd19x75g.hop.clickbank.net?tid=agewell_sleep_health_c8cdac0431effbbe72ebf5e9" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
@@ -58,4 +66,4 @@ This signal is based on [Too Little Sleep—and Too Much—Associated with Faste
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
-> **Health note:** Observational study; does not prove causation or specify durations.
+> **Health note:** Observational study; sleep was self-reported, so causation isn't proven.

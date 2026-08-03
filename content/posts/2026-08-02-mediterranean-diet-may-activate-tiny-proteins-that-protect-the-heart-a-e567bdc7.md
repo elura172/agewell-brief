@@ -26,9 +26,9 @@ A small pilot study finds that older adults who closely follow a Mediterranean e
 
 ## Three things to remember
 
-- 49 older adults; closer diet adherence linked to higher humanin and SHMOOSE.
+- Higher adherence to Mediterranean diet linked to more humanin and SHMOOSE.
 - Olive oil, fish, legumes tied to humanin; olive oil and fewer refined carbs to SHMOOSE.
-- Observational study; cannot prove cause, other factors may influence results.
+- Study is observational; cannot prove diet causes changes.
 
 ### Source
 
@@ -36,4 +36,4 @@ This signal is based on [Mediterranean diet may activate tiny proteins that prot
 
 Primary study: [Frontiers in Nutrition — Mediterranean diet adherence and mitochondrial microproteins](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full).
 
-> **Health note:** This was a small observational study, so it cannot prove the diet directly raises these proteins. Larger, controlled trials are needed.
+> **Health note:** This was a small observational study, so it can't prove cause and effect. Other lifestyle factors may play a role.
