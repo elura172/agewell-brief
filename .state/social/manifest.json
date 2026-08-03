@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-03T02:32:47.045061+00:00",
+  "updated_at": "2026-08-03T02:58:15.516973+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -55,16 +55,16 @@
           "updated_at": "2026-08-03T02:00:28.131720+00:00"
         },
         "tiktok": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T01:57:36.021584+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd",
+          "job_id": "6e21b69913564e8c923e89dc7fbf07e3",
+          "updated_at": "2026-08-03T02:58:15.516162+00:00"
         },
         "youtube": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T01:57:36.021587+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd",
+          "job_id": "6e21b69913564e8c923e89dc7fbf07e3",
+          "updated_at": "2026-08-03T02:58:15.516197+00:00"
         }
       },
       "updated_at": "2026-08-03T02:32:47.045053+00:00"
