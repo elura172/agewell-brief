@@ -26,14 +26,10 @@ METRICS = (
 
 
 def fetch_report(api_key: str, account: str, start: str, end: str) -> tuple[int, object]:
-    params = {
-        "account": account,
-        "startDate": start,
-        "endDate": end,
-        "orderBy": "NET_SALE_AMOUNT",
-        "sortAscending": "false",
-    }
-    params["select"] = list(METRICS)
+    # Start with the documented required account/date filters. ClickBank's
+    # endpoint is stricter than its prose examples about optional selectors;
+    # the response includes the available metrics by default.
+    params = {"account": account, "startDate": start, "endDate": end}
     # ClickBank documents the route with uppercase placeholders, but the
     # deployed REST service expects the concrete role/dimension path lowercase.
     url = f"{BASE_URL}/affiliate/tracking_id?{urllib.parse.urlencode(params, doseq=True)}"
