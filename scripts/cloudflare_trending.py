@@ -12,7 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "src/data/trending.json"
 API_URL = "https://api.cloudflare.com/client/v4/graphql"
-WINDOW_DAYS = int(os.getenv("TRENDING_WINDOW_DAYS", "7"))
+# Some Cloudflare plans cap this dataset at a one-day query window.
+WINDOW_DAYS = min(int(os.getenv("TRENDING_WINDOW_DAYS", "1")), 1)
 LIMIT = int(os.getenv("TRENDING_LIMIT", "5"))
 
 QUERY = """
