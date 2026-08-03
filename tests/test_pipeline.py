@@ -485,6 +485,32 @@ def test_markdown_renders_two_or_three_contextual_affiliate_placements():
     assert result.count("Commission-supported; no added cost to you.") == 3
 
 
+def test_markdown_renders_first_party_program_resource_separately():
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
+    content = {
+        "headline": "A useful finding",
+        "dek": "A clear introduction.",
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "The study was small.",
+        "sections": [],
+    }
+
+    result = markdown(
+        item,
+        "longevity",
+        content,
+        "https://example.hop.clickbank.net",
+        content_type="evergreen",
+        program_url="https://example.test/spiral",
+    )
+
+    assert "https://example.test/spiral" in result
+    assert "This is our program; the link supports its continued development." in result
+    assert 'rel="noopener noreferrer"' in result
+    assert 'content_type: "evergreen"' in result
+    assert "Commission-supported; no added cost to you." in result
+
+
 def test_auto_publish_window_expires(monkeypatch):
     monkeypatch.setattr(pipeline, "AUTO_PUBLISH", True)
     monkeypatch.setattr(pipeline, "AUTO_PUBLISH_UNTIL", "2026-08-09")

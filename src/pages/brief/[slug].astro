@@ -23,7 +23,7 @@ const formatDateTime = entry.data.date.toLocaleString("en-CA", {
   timeZone: "America/Toronto",
   timeZoneName: "short"
 });
-const isLead = entry.data.content_type === "lead";
+const isLongform = ["lead", "evergreen", "editorial"].includes(entry.data.content_type);
 const description = plainTextExcerpt((entry.body ?? "").split("\n\n")[0], 190);
 const articleURL = new URL(`/brief/${entry.id}/`, Astro.site).href;
 const authorURL = new URL("/about/#editorial-desk", Astro.site).href;
@@ -70,7 +70,7 @@ const structuredData = {
   modifiedTime={entry.data.updated ?? entry.data.date}
   structuredData={structuredData}
 >
-  <article class:list={["article-page", { "is-lead": isLead }]}>
+  <article class:list={["article-page", { "is-lead": isLongform }]}>
     <a class="back-link" href="/">← All briefs</a>
     <div class="article-intro-bar">
       <p class="eyebrow">Agewell Brief <span aria-hidden="true">·</span> Clear signals. Better questions.</p>

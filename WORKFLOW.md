@@ -67,6 +67,8 @@ GitHub Actions secrets. The current workflow uses:
 - `DEEPSEEK_API_KEY` and `LLM_BASE_URL`/`LLM_MODEL` for generation.
 - `RSS_FEED_URL` or `RSS_FEEDS_JSON` for the feed portfolio.
 - `AFFILIATE_OFFERS_JSON` for reviewed commercial links.
+- `PROGRAM_RESOURCES_JSON` for separately disclosed first-party resources,
+  keyed by exact editorial category.
 - `PEXELS_API_KEY` and `PIXABAY_API_KEY` for image search.
 - Optional publishing controls: `AUTO_PUBLISH`, `AUTO_PUBLISH_UNTIL`,
   `MAX_ITEMS`, and `MAX_ITEMS_PER_PUBLISHER`.
@@ -238,6 +240,12 @@ Each article is a Markdown file under `content/posts/` with frontmatter for:
 - image URL/path, provider, creator, dimensions, source URL, and review state;
 - affiliate disclosure and any release metadata.
 
+Use `content_type` deliberately: `signal` is a concise current item, `lead`
+is the main edition analysis, `evergreen` is durable background or an
+explainer, and `editorial` is an explicitly labeled publication perspective.
+The latter two render with the long-form section structure but remain separate
+from current reporting in the content record.
+
 Each run writes an audit bundle under `.state/editions/`, including candidates,
 sources, evidence, drafts, image briefs, visual reviews, failures, context
 metadata, and a release manifest. `.state/processed.json` tracks processed
@@ -253,6 +261,11 @@ Reviewed ClickBank HopLinks are supplied through the
 `AFFILIATE_OFFERS_JSON` secret and routed by category. The configuration can
 contain multiple offers per category; the selector chooses up to three stable,
 relevant offers for an article and adds tracking identifiers where supported.
+
+First-party program resources use `PROGRAM_RESOURCES_JSON` instead. They are
+rendered as a separate practical-follow-up card with a first-party disclosure,
+so readers and the release audit can distinguish an Agewell-owned resource
+from a commission-supported external offer.
 
 The process is:
 

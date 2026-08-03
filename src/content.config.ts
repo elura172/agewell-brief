@@ -9,7 +9,7 @@ const briefs = defineCollection({
     updated: z.coerce.date().optional(),
     draft: z.boolean().default(true),
     category: z.string().default("general wellness"),
-    content_type: z.enum(["lead", "signal"]).default("signal"),
+    content_type: z.enum(["lead", "signal", "evergreen", "editorial"]).default("signal"),
     edition_rank: z.number().int().positive().default(99),
     edition_id: z.string().optional(),
     source_url: z.string().url(),

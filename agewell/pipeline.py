@@ -69,6 +69,7 @@ IMAGE_LEDGER_FILE = Path(os.getenv("IMAGE_LEDGER_FILE", ROOT / ".state/image-led
 AFFILIATE_HEALTH_FILE = Path(os.getenv("AFFILIATE_HEALTH_FILE", ROOT / ".state/affiliate-health.json"))
 AFFILIATE_REVIEW_FILE = Path(os.getenv("AFFILIATE_REVIEW_FILE", ROOT / "config/affiliate-offer-review.json"))
 TREND_RADAR_FILE = Path(os.getenv("TREND_RADAR_FILE", ROOT / ".state/trend-radar.json"))
+PROGRAM_RESOURCES_JSON = os.getenv("PROGRAM_RESOURCES_JSON", "{}")
 
 PUBLICATION_STYLE_REQUIREMENTS = (
     "Use Agewell's publication register: clear, spirited, respectful, and concrete.",
@@ -572,7 +573,7 @@ def draft(
     evidence: EvidencePacket | None = None,
     evergreen_context: list[ContextHit] | None = None,
 ) -> dict[str, Any]:
-    is_lead = content_type == "lead"
+    is_longform = content_type in {"lead", "evergreen", "editorial"}
     source_material = source_text or item.summary
     source_is_deep = len(source_material) >= MIN_LEAD_SOURCE_CHARS
     minimum_lead_words = 500 if source_is_deep else 300
@@ -580,7 +581,7 @@ def draft(
     prompt: dict[str, Any] = {
         "source_title": item.title,
         "source_summary": item.summary[:5000],
-        "source_material": source_material[:LEAD_SOURCE_CHARS] if is_lead else item.summary[:5000],
+        "source_material": source_material[:LEAD_SOURCE_CHARS] if is_longform else item.summary[:5000],
         "source_url": item.link,
         "source_name": item.source_name,
         "category": category,
@@ -597,7 +598,7 @@ def draft(
             *PUBLICATION_STYLE_REQUIREMENTS,
         ],
     }
-    if is_lead:
+    if is_longform:
         prompt["requirements"].extend(
             [
                 (
@@ -651,14 +652,14 @@ def draft(
             response = client.chat.completions.create(
                 model=MODEL,
                 temperature=0.2,
-                max_tokens=3200 if is_lead else 1400,
+                max_tokens=3200 if is_longform else 1400,
                 response_format={"type": "json_object"},
                 messages=messages,
                 extra_body={"thinking": {"type": "disabled"}},
             )
             raw_content = response.choices[0].message.content or "{}"
             candidate = parse_model_json(raw_content)
-            if is_lead:
+            if is_longform:
                 raw_sections = candidate.get("sections")
                 if not isinstance(raw_sections, list) or len(raw_sections) != 4:
                     raise ValueError("lead draft requires four sections")
@@ -692,7 +693,7 @@ def draft(
             )
             if (
                 attempt_number == 2
-                and is_lead
+                and is_longform
                 and isinstance(exc, LeadTooShortError)
                 and exc.word_count >= focused_fallback_words
                 and candidate is not None
@@ -713,7 +714,7 @@ def draft(
                         "Return every required field and the complete article, not a patch or commentary.",
                     ],
                 }
-                if is_lead:
+                if is_longform:
                     repair_request["requirements"].append(
                         f"Expand the four sections to at least {minimum_lead_words} words total without repetition or unsupported detail."
                     )
@@ -733,7 +734,7 @@ def draft(
         bullets = ["The source reports a new health-related finding.", "The result needs context before changing routines.", "Discuss personal decisions with a qualified clinician."]
     caveat = clean_text(result.get("caveat")) or "This brief is informational and is not medical advice."
     sections: list[dict[str, Any]] = []
-    if is_lead:
+    if is_longform:
         raw_sections = result.get("sections")
         if not isinstance(raw_sections, list) or len(raw_sections) != 4:
             raise RuntimeError("DeepSeek lead draft did not contain four sections")
@@ -780,7 +781,7 @@ def resource_heading(category: str) -> str:
     return headings.get(category.lower(), "A practical follow-up to explore")
 
 
-def resource_card(url: str, category: str, *, primary: bool = False) -> str:
+def resource_card(url: str, category: str, *, primary: bool = False, first_party: bool = False) -> str:
     label = "Practical follow-up" if primary else "More to explore"
     heading = resource_heading(category)
     intro = (
@@ -789,13 +790,29 @@ def resource_card(url: str, category: str, *, primary: bool = False) -> str:
         if primary
         else "An optional resource for readers who want another place to begin."
     )
+    disclosure = "This is our program; the link supports its continued development." if first_party else "Commission-supported; no added cost to you."
+    rel = "noopener noreferrer" if first_party else "sponsored noopener noreferrer"
     return f'''\n\n<aside class="resource-card{' resource-card--primary' if primary else ''}" aria-label="{label}">
 <p class="resource-kicker">{label}</p>
 <h3>{heading}</h3>
 <p>{intro}</p>
-<p><a class="resource-link" href="{url}" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<p><a class="resource-link" href="{url}" rel="{rel}">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">{disclosure}</p>
 </aside>'''
+
+
+def program_resources() -> dict[str, str]:
+    try:
+        value = json.loads(PROGRAM_RESOURCES_JSON)
+    except json.JSONDecodeError:
+        return {}
+    if not isinstance(value, dict):
+        return {}
+    return {
+        str(category).lower(): str(url)
+        for category, url in value.items()
+        if isinstance(url, str) and url.startswith("https://")
+    }
 
 
 def markdown(
@@ -808,6 +825,7 @@ def markdown(
     edition_time: dt.datetime | None = None,
     photo: PublishedImage | None = None,
     draft: bool = True,
+    program_url: str | None = None,
 ) -> str:
     published_at = edition_time or dt.datetime.now(dt.timezone.utc)
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
@@ -816,6 +834,7 @@ def markdown(
     offer_urls = list(offer_urls or [])[:3]
     recommendation_top = ""
     recommendation = ""
+    program_card = resource_card(program_url, category, primary=True, first_party=True) if program_url else ""
     if offer_urls:
         placement_count = min(3, max(2, len(offer_urls)))
         placements = [offer_urls[index % len(offer_urls)] for index in range(placement_count)]
@@ -827,13 +846,13 @@ def markdown(
         if len(offer_urls) > 2:
             recommendation += resource_card(placements[2], category)
     sections = ""
-    if content_type == "lead":
+    if content_type in {"lead", "evergreen", "editorial"}:
         section_blocks = [
             f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
             for section in content.get("sections", [])
         ]
-        if section_blocks and recommendation_top:
-            section_blocks.insert(1, recommendation_top)
+        if section_blocks and (program_card or recommendation_top):
+            section_blocks.insert(1, program_card or recommendation_top)
         sections = "\n\n".join(section_blocks)
     health_note = content["caveat"]
     image_frontmatter = ""
@@ -871,11 +890,11 @@ source_name: "{quote(item.source_name)}"
 ## Three things to remember
 
 {bullets}
-{recommendation_top if content_type != "lead" or not sections else ""}
+{(program_card or recommendation_top) if not sections else (recommendation_top if content_type not in {"lead", "evergreen", "editorial"} else "")}
 
 ### Source
 
-This {"analysis" if content_type == "lead" else "signal"} is based on [{item.title}]({item.link}) from {item.source_name}. Read the original report for full context.
+This {"analysis" if content_type == "lead" else content_type} is based on [{item.title}]({item.link}) from {item.source_name}. Read the original report for full context.
 {recommendation}
 
 > **Health note:** {health_note}
@@ -898,6 +917,7 @@ def run() -> int:
     state = load_state()
     client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=LLM_BASE_URL)
     configured_offers = offers()
+    configured_program_resources = program_resources()
     affiliate_health = load_health_status(AFFILIATE_HEALTH_FILE)
     image_cache = ImageSearchCache(IMAGE_CACHE_FILE)
     used_image_ids = load_image_ledger(IMAGE_LEDGER_FILE)
@@ -1133,6 +1153,7 @@ def run() -> int:
                 edition_time,
                 photo,
                 draft=not (publish_automatically and release_check.publishable),
+                program_url=configured_program_resources.get(category),
             ),
             encoding="utf-8",
         )

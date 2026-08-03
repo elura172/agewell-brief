@@ -27,6 +27,18 @@ stable article-level tracking ID automatically:
 export AFFILIATE_OFFERS_JSON='{"mobility":"https://YOUR_ENCRYPTED_VALUE.hop.clickbank.net"}'
 ```
 
+First-party program resources are configured separately, so an Agewell-owned
+program is not mislabeled as a ClickBank offer. Match the key to the exact
+editorial category:
+
+```bash
+export PROGRAM_RESOURCES_JSON='{"longevity":"https://your-program.example/spirals/senescence"}'
+```
+
+The rendered card is disclosed as a first-party resource. Keep program links
+out of the commercial offer configuration and add them only after reviewing
+the destination and its claims.
+
 Offers are matched by exact editorial category. The pipeline does not place a
 general-wellness offer in a mobility, brain-health, metabolic-health, or
 longevity article unless that category has its own reviewed HopLink. Men's
@@ -57,6 +69,12 @@ routing, technical checks, article-level TIDs, and later conversion reporting
 are automated after approval.
 
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
+
+Long-form content supports four explicit types: `lead` for the main edition
+analysis, `signal` for a concise current item, `evergreen` for durable
+explainers and reference pieces, and `editorial` for clearly labeled Agewell
+perspective. Evergreen and editorial pieces use the same expanded section
+layout as leads while remaining distinct in frontmatter and editorial review.
 
 ## Evergreen context layer
 
