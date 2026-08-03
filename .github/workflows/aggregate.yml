@@ -47,6 +47,21 @@ jobs:
           AUTO_PUBLISH: true
           AUTO_PUBLISH_UNTIL: "2026-08-09"
           AFFILIATE_OFFERS_JSON: ${{ secrets.AFFILIATE_OFFERS_JSON }}
+      - name: Validate Upload-Post account
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        continue-on-error: true
+        run: |
+          curl --fail --silent --show-error \
+            -H "Authorization: Apikey ${UPLOAD_POST_API_KEY}" \
+            https://api.upload-post.com/api/uploadposts/me
+        env:
+          UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
+      - name: Prepare social packages (dry run)
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        run: python3 -m scripts.social_package --output .state/social/latest.json
+      - name: Sync persistent social manifest
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        run: python3 -m scripts.social_manifest sync --packages .state/social/latest.json
       - name: Commit generated drafts
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         run: |

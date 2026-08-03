@@ -38,6 +38,7 @@ Current production components:
 - Feed and trend configuration in `config/`.
 - Scheduled GitHub Actions in `.github/workflows/aggregate.yml`.
 - Static deployment through Cloudflare Workers Builds.
+- Social distribution through Upload-Post, currently in dry-run package mode.
 - Public site: `https://agewellbrief.com`.
 - Repository: `https://github.com/elura172/agewell-brief`.
 
@@ -324,7 +325,45 @@ site after generated commits. If a build fails, inspect the Cloudflare build
 log first; a successful GitHub commit does not by itself prove that the public
 deployment succeeded.
 
-## 11. Review, rollback, and incident handling
+## 11. Social distribution
+
+Upload-Post is connected to the publication's Facebook, TikTok, and YouTube
+accounts. The first integration phase validates the account and writes
+channel-specific packages under `.state/social/` for released articles only.
+It does not publish automatically yet.
+
+The formats are deliberately platform-aware:
+
+- Facebook receives a concise link-post caption and canonical Agewell URL.
+- TikTok receives a hook, short script, caption, and link-in-bio URL; it still
+  requires a vertical video asset.
+- YouTube receives a short-form title and description; it also requires a video
+  asset.
+
+Keep the article URL canonical and do not place affiliate links directly in
+social captions. Review the generated package before enabling live publishing.
+Upload-Post's current API supports text, photo, and video endpoints, but the
+connected platforms do not all accept the same media type. The API key remains
+in the `UPLOAD_POST_API_KEY` GitHub secret.
+
+Every released article also receives a persistent record under
+`.state/content-records/`, a MoneyPrinterTurbo handoff under
+`.state/video-jobs/`, and platform state in `.state/social/manifest.json`.
+Upload-Post request and job IDs are registered there, then reconciled by
+`.github/workflows/social-status.yml` every 15 minutes. The monitor records
+completed URLs, failures, and retry context without creating duplicate jobs.
+
+Register a job after an Upload-Post submission with:
+
+```bash
+python3 -m scripts.social_manifest register \
+  --article-id ARTICLE_ID \
+  --platform youtube \
+  --request-id REQUEST_ID \
+  --job-id JOB_ID
+```
+
+## 12. Review, rollback, and incident handling
 
 For a controlled release:
 
@@ -345,7 +384,7 @@ rerun the health check, and regenerate affected drafts. If a model or provider
 fails, deterministic fallback content may keep the run alive, but the result
 should remain a draft until reviewed.
 
-## 12. Measurement and first-week calibration
+## 13. Measurement and first-week calibration
 
 Track the system as an editorial product, not only as an ad funnel:
 
@@ -363,7 +402,7 @@ source weights, topic seeds, headline patterns, image queries, and edition times
 from observed evidence. Do not optimize from one viral article, a single payout
 claim, or a search result snapshot.
 
-## 13. Reproduction template for another publication
+## 14. Reproduction template for another publication
 
 1. Copy the repository and change publication identity, domain, logo, and
    design tokens.
