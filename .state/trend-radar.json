@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T05:55:05.859318+00:00",
+  "generated_at": "2026-08-03T05:57:08.238671+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -652,7 +652,7 @@
       "topic": "facilitate healthy travel",
       "headline": "Travel can facilitate healthy aging - Tahoe Daily Tribune",
       "category": "general wellness",
-      "score": 10.31,
+      "score": 10.3,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -675,7 +675,7 @@
       "topic": "being choices everyday healthy lifestyle longevity support tips well",
       "headline": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - Rock Hill Herald",
       "category": "general wellness",
-      "score": 7.43,
+      "score": 7.42,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -1316,6 +1316,29 @@
       ]
     },
     {
+      "topic": "forty just kyung management professor publishes sign survival warning weight",
+      "headline": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - 스포츠조선",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "스포츠조선"
+      ],
+      "newest": "2026-07-05T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - 스포츠조선",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa3FUYndaTzhhYlNpeC0taWJ6dzhxa0EtTkZiQmYwbDkwdTJ1WU05cEhfUTc3UVBGVjZFYWhZV2lQRTBhdmNlS2RjMGFHRjZkSFNjQ0lGbFVFbnYwSUp3QlV3cTBsQ2FWaGNUUVJyd3R0blpwLXUzaWtlVTR3QVFscA?oc=5",
+          "source": "스포츠조선",
+          "published": "Sun, 05 Jul 2026 07:00:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
       "topic": "altered flexibility glucose kinetics metabolic occurs outlook",
       "headline": "Altered glucose kinetics occurs with aging: a new outlook on metabolic flexibility - American Physiological Society Journal",
       "category": "metabolic health",
@@ -1356,29 +1379,6 @@
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGZvaWpuY0dwbkFBcEFDZDFmS211NEF1NmlOLXh3bVNWVVppdHJjS0poWWl1dVRoLWNEWXRBVUF2VkNQbjN3Y1hpOEdvVXdlUHRJWDVjVElBNlFiNWF6bEt3NlpVMUJmYlVvVzI1elRWaU5IS0NkRnctbjZ2cHZZcUtRV0pvLVRKd29PaVZfckFEMW8?oc=5",
           "source": "Frontiers",
           "published": "Mon, 05 Feb 2024 12:15:07 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        }
-      ]
-    },
-    {
-      "topic": "diabetes novel obesity peptide promise shows therapy treating",
-      "headline": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - Johns Hopkins Medicine",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Johns Hopkins Medicine"
-      ],
-      "newest": "2023-11-21T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - Johns Hopkins Medicine",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbTZxeHZLQVliZjNfZTZjU3FKVTdjTzFfWmgxVnVPLVVjWGZrWDMzTnN5OElIc2lIdTUwcTdOXzhVZXpJRXVLMk1xVUpONGE5Y2ZKRTJOOVY3eWJ3c0thLTVyYnoyQ0RaR1lPWUlZdU5IRmxCZW4wVkhSSWxkSmhCbGtoSlZXSnpHdlFJN3V2X0NKamlvdDdEOGgtVlgyWFc0SWNvdlYza1dpTlZKNUdEOWM4ZDBiRFNrd1dXbGxMdUFSNE1aR2RwSXRNR3pEbXVhaVlvenFJeXNKRzQ?oc=5",
-          "source": "Johns Hopkins Medicine",
-          "published": "Tue, 21 Nov 2023 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }

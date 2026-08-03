@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "24697ba75f4dc73e1450c7aa",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:3862140",
+      "score": 70,
+      "rationale": "The candidate image depicts a woman analyzing data on a computer screen, which aligns with the editorial intent of a researcher examining brain scans. The setting is modern and technological, matching the lab environment. The mood is focused and analytical, consistent with the story's tone.",
+      "concerns": [
+        "The alt text does not explicitly mention brain scans or neuroscience, and the image may be generic office work rather than specific to brain imaging. However, it is the only candidate and reasonably fits the intent."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-03/mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7-pexels-3862140.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

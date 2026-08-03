@@ -1,0 +1,27 @@
+[
+  {
+    "article_id": "24697ba75f4dc73e1450c7aa",
+    "study_type": "observational study using fMRI data and machine learning",
+    "key_claims": [
+      "MPP-GNN performs adaptive graph partitioning hierarchically to discover subject-specific brain modules.",
+      "The discovered brain modules are used as an explicit prior to guide edge refinement and representation learning.",
+      "MPP-GNN achieves the highest AUC compared to established baselines on two public datasets for AD classification.",
+      "MPP-GNN shows significant alignment with the canonical functional-network organization defined by the Yeo brain atlas.",
+      "MPP-GNN reveals a network-level dedifferentiation pattern for AD."
+    ],
+    "limitations": [
+      "The source is an abstract and does not provide details on dataset sizes, preprocessing, or statistical significance.",
+      "The abstract does not specify the exact AUC values or the baselines compared.",
+      "The generalizability to other populations or imaging protocols is not discussed.",
+      "The abstract does not mention potential biases or limitations of the proposed method."
+    ],
+    "what_not_to_say": [
+      "MPP-GNN is clinically validated or ready for clinical use.",
+      "MPP-GNN outperforms all existing methods in all settings.",
+      "The dedifferentiation pattern is causal or directly linked to AD pathology.",
+      "The method is superior to other GNN approaches without direct comparison.",
+      "The study provides evidence for a specific biological mechanism."
+    ],
+    "confidence": "moderate"
+  }
+]
