@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-03T02:58:15.516973+00:00",
+  "updated_at": "2026-08-03T03:20:57.563559+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -78,22 +78,22 @@
       "video_job": ".state/video-jobs/2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61.json",
       "platforms": {
         "facebook": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T02:32:47.043436+00:00"
+          "status": "queued",
+          "request_id": "agewell-facebook-2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
+          "job_id": "0ccebba52128400fb9faa934c5b84ab3",
+          "updated_at": "2026-08-03T03:20:51.505128+00:00"
         },
         "tiktok": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T02:32:47.043441+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
+          "job_id": "5f246e709e974bbbb6fe59f5966b47cc",
+          "updated_at": "2026-08-03T03:20:57.561833+00:00"
         },
         "youtube": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T02:32:47.043446+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
+          "job_id": "5f246e709e974bbbb6fe59f5966b47cc",
+          "updated_at": "2026-08-03T03:20:57.561892+00:00"
         }
       },
       "updated_at": "2026-08-03T02:32:47.043880+00:00"
