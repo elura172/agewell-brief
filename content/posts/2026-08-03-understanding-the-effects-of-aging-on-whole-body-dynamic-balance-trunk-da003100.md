@@ -1,14 +1,14 @@
 ---
-title: "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature"
+title: "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength"
 date: 2026-08-03T00:03:54.932016+00:00
 draft: false
 category: "longevity"
 content_type: "lead"
 edition_rank: 1
 edition_id: "2026-08-03"
-source_url: "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiblFvZ0ZrWEpicVRLU0tsSGMzdmQwOTJrWV9UUnJNb1dfTjlJWkVfLXpZelVLX2xXWS1XajhwMUtSc1ZXYUVLbVRjWFZnTWhyWWVhTlpieXlQUUJpb2Q4?oc=5"
-source_title: "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature"
-source_name: "Nature"
+source_url: "https://www.nature.com/articles/s41598-026-35724-x"
+source_title: "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength"
+source_name: "Scientific Reports"
 image_provider: "Pexels"
 image_provider_id: "6815699"
 image: "/images/editions/2026-08-03/understanding-the-effects-of-aging-on-whole-body-dynamic-balance-trunk-da003100-pexels-6815699.webp"
@@ -73,7 +73,7 @@ The takeaway isn't to worry, but to be proactive. By understanding how aging can
 
 ### Source
 
-This analysis is based on [Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiblFvZ0ZrWEpicVRLU0tsSGMzdmQwOTJrWV9UUnJNb1dfTjlJWkVfLXpZelVLX2xXWS1XajhwMUtSc1ZXYUVLbVRjWFZnTWhyWWVhTlpieXlQUUJpb2Q4?oc=5) from Nature. Read the original report for full context.
+This analysis is based on [Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength](https://www.nature.com/articles/s41598-026-35724-x) from Scientific Reports. Read the original report for full context.
 
 
 <aside class="resource-card" aria-label="More to explore">
