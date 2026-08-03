@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-03T03:44:08.147089+00:00",
+  "updated_at": "2026-08-03T04:09:45.762076+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -136,22 +136,22 @@
       "video_job": ".state/video-jobs/2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b.json",
       "platforms": {
         "facebook": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T02:32:47.044195+00:00"
+          "status": "queued",
+          "request_id": "agewell-facebook-2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b",
+          "job_id": "ec67758aad1048978b94811e14bbf4e5",
+          "updated_at": "2026-08-03T04:09:41.178512+00:00"
         },
         "tiktok": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T02:32:47.044197+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b",
+          "job_id": "9fe4f575acca4966b9c614427c278b22",
+          "updated_at": "2026-08-03T04:09:45.761033+00:00"
         },
         "youtube": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T02:32:47.044199+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b",
+          "job_id": "9fe4f575acca4966b9c614427c278b22",
+          "updated_at": "2026-08-03T04:09:45.761132+00:00"
         }
       },
       "updated_at": "2026-08-03T02:32:47.044506+00:00"
