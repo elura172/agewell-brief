@@ -1,7 +1,7 @@
 ---
 title: "The Luminous Mind framework treats brain health as a whole-system project"
 date: 2026-08-03T00:00:00-04:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "evergreen"
 edition_rank: 99

@@ -1,7 +1,7 @@
 ---
 title: "What the Dark Mirror mineral-clearing framework is trying to do"
 date: 2026-08-03T00:00:00-04:00
-draft: true
+draft: false
 category: "detoxification"
 content_type: "editorial"
 edition_rank: 99

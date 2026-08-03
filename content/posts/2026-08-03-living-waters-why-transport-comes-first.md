@@ -1,7 +1,7 @@
 ---
 title: "Why the Living Waters framework puts transport before clearing"
 date: 2026-08-03T00:00:00-04:00
-draft: true
+draft: false
 category: "detoxification"
 content_type: "evergreen"
 edition_rank: 99

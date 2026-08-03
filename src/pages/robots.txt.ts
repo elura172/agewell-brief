@@ -3,6 +3,9 @@ import type { APIRoute } from "astro";
 export const GET: APIRoute = ({ site }) => {
   const base = site ?? new URL("https://agewellbrief.com");
   const body = [
+    "User-agent: OAI-SearchBot",
+    "Allow: /",
+    "",
     "User-agent: *",
     "Allow: /",
     "",
