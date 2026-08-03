@@ -23,6 +23,7 @@ from agewell.pipeline import (
     markdown,
     normalize_source_url,
     parse_model_json,
+    program_resource_for,
     relevance_score,
     sanitize_feed_xml,
     select_ranked_items,
@@ -509,6 +510,24 @@ def test_markdown_renders_first_party_program_resource_separately():
     assert 'rel="noopener noreferrer"' in result
     assert 'content_type: "evergreen"' in result
     assert "Commission-supported; no added cost to you." in result
+
+
+def test_program_resource_router_matches_spiral_topics():
+    resources = {
+        "dark mirror": "https://example.test/dark-mirror",
+        "living waters": "https://example.test/living-waters",
+        "cell shedding": "https://example.test/cell-shedding",
+        "inner garden": "https://example.test/inner-garden",
+        "higher flame": "https://example.test/higher-flame",
+        "luminous mind": "https://example.test/luminous-mind",
+    }
+
+    assert classify(FeedItem("Senolytic compounds", "Fisetin and quercetin in senescent cells", "https://example.test/1", "", "Test")) == "cellular senescence"
+    assert classify(FeedItem("Gut microbiome", "A probiotic and prebiotic study", "https://example.test/2", "", "Test")) == "gut health"
+    assert classify(FeedItem("Liver phase 1 and phase 2", "A detoxification study", "https://example.test/3", "", "Test")) == "detoxification"
+    assert program_resource_for("cellular senescence", FeedItem("Senolytics", "", "https://example.test/1", "", "Test"), resources) == resources["cell shedding"]
+    assert program_resource_for("gut health", FeedItem("Microbiome", "", "https://example.test/2", "", "Test"), resources) == resources["inner garden"]
+    assert program_resource_for("detoxification", FeedItem("Mineral chelation", "zeolite and heavy metal clearing", "https://example.test/3", "", "Test"), resources) == resources["dark mirror"]
 
 
 def test_auto_publish_window_expires(monkeypatch):

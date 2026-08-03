@@ -528,6 +528,9 @@ def classify(item: FeedItem) -> str:
             "libido",
         ),
         "metabolic health": ("blood sugar", "glucose", "insulin", "metabolic", "diabetes", "obesity", "lipid"),
+        "detoxification": ("detox", "detoxification", "chelation", "heavy metal", "phase 1", "phase 2", "transport clearing", "elimination pathway"),
+        "gut health": ("gut health", "microbiome", "candida", "probiotic", "prebiotic", "bloating", "digestive"),
+        "cellular senescence": ("senescent", "senolytic", "zombie cell", "cell shedding", "fisetin", "quercetin", "cellular senescence"),
         "mobility": ("joint", "arthritis", "knee", "back pain", "balance training", "fall prevention", "walking"),
         "brain health": ("memory", "cognition", "brain", "dementia", "alzheimer", "parkinson"),
         "sleep health": ("sleep", "insomnia", "circadian", "bedtime", "rem sleep", "night waking"),
@@ -774,6 +777,9 @@ def resource_heading(category: str) -> str:
     headings = {
         "sleep health": "A practical follow-up for steadier routines",
         "brain health": "A practical follow-up for staying mentally engaged",
+        "cellular senescence": "A practical follow-up for the cellular-aging conversation",
+        "detoxification": "A structured resource for the body's clearing pathways",
+        "gut health": "A practical follow-up for a steadier gut routine",
         "mobility": "A practical follow-up for everyday movement",
         "longevity": "A practical follow-up for healthy aging",
         "metabolic health": "A practical follow-up for everyday habits",
@@ -813,6 +819,23 @@ def program_resources() -> dict[str, str]:
         for category, url in value.items()
         if isinstance(url, str) and url.startswith("https://")
     }
+
+
+def program_resource_for(category: str, item: FeedItem, resources: dict[str, str]) -> str | None:
+    """Choose a first-party resource by editorial category and article wording."""
+    normalized_category = category.strip().lower()
+    text = f"{item.title} {item.summary}".lower()
+    if normalized_category == "detoxification":
+        if any(term in text for term in ("mineral", "chelation", "heavy metal", "zeolite", "kaolin", "charcoal")):
+            return resources.get("dark mirror") or resources.get("detoxification")
+        return resources.get("living waters") or resources.get("detoxification")
+    aliases = {
+        "cellular senescence": "cell shedding",
+        "gut health": "inner garden",
+        "metabolic health": "higher flame",
+        "brain health": "luminous mind",
+    }
+    return resources.get(aliases.get(normalized_category, normalized_category))
 
 
 def markdown(
@@ -1153,7 +1176,7 @@ def run() -> int:
                 edition_time,
                 photo,
                 draft=not (publish_automatically and release_check.publishable),
-                program_url=configured_program_resources.get(category),
+                program_url=program_resource_for(category, item, configured_program_resources),
             ),
             encoding="utf-8",
         )
