@@ -281,7 +281,11 @@ def feed_sources() -> list[FeedSource]:
 def fetch_items(source: FeedSource) -> list[FeedItem]:
     request = urllib.request.Request(
         source.url,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; AgewellBrief/0.6; +https://agewellbrief.com/about)"},
+        headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Accept": "application/rss+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
     )
     with urllib.request.urlopen(request, timeout=30) as response:
         root = ET.fromstring(sanitize_feed_xml(response.read()))
