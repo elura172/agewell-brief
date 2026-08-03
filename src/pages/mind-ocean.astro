@@ -62,46 +62,6 @@ const nodes = [
   })
 ];
 
-// Add Dream Seeds (Provisional Nocturnal Biophysics Hypotheses)
-const dreamSeeds = [
-  {
-    id: "dream-seed-1",
-    name: "Dream Seed: Biophotonic Serotonin-Water Coherence",
-    category: "Dream Hypothesis",
-    type: "dream",
-    evidence: "speculative",
-    seedIdea: "Provisional synthesis connecting serotonergic motor subspace dynamics with mitochondrial exclusion zone water polarization in deep brain nuclei.",
-    ancestralInsight: "Echoes Fritz-Albert Popp biophotonic coherence (1975) & Gerald Pollack EZ water dynamics (2013).",
-    url: "#",
-    antecedents: [{ scientist: "Popp & Pollack", year: "2026 Dream", discovery: "Biophotonic serotonin-water coherence in subcortical circuits" }],
-    baseX: 180,
-    baseY: -220,
-    x: 180,
-    y: -220,
-    radius: 14,
-    color: "oklch(0.70 0.22 310)"
-  },
-  {
-    id: "dream-seed-2",
-    name: "Dream Seed: Mitochondrial Quantum Tunneling in Senescent Fibroblasts",
-    category: "Dream Hypothesis",
-    type: "dream",
-    evidence: "speculative",
-    seedIdea: "Hypothesizes that senescent cell clearing can be accelerated via pulsed low-level far-red light matching mitochondrial citrate transporter resonance.",
-    ancestralInsight: "Echoes Otto Warburg metabolic respiration (1924) & Alexander Gurwitsch mitogenetic rays (1923).",
-    url: "#",
-    antecedents: [{ scientist: "Warburg & Gurwitsch", year: "2026 Dream", discovery: "Mitochondrial quantum resonance in senolytic clearance" }],
-    baseX: -240,
-    baseY: 210,
-    x: -240,
-    y: 210,
-    radius: 14,
-    color: "oklch(0.72 0.24 330)"
-  }
-];
-
-const allNodes = [...nodes, ...dreamSeeds];
-
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -123,9 +83,9 @@ const structuredData = {
         <h1>Mind <em>Ocean.</em></h1>
       </div>
       <div class="ocean-controls">
-        <button id="dream-toggle-btn" type="button" class="ocean-btn ocean-btn--dream" aria-label="Toggle Dream State">
-          <span class="btn-icon">🌙</span>
-          <span class="btn-text">Dream State: Off</span>
+        <button id="live-toggle-btn" type="button" class="ocean-btn ocean-btn--live is-active" aria-label="Toggle Live Stream">
+          <span class="btn-icon">✨</span>
+          <span class="btn-text">Live View: Active</span>
         </button>
         <button id="audio-toggle-btn" type="button" class="ocean-btn ocean-btn--audio" aria-label="Toggle ambient audio">
           <span class="btn-icon">🔇</span>
@@ -145,12 +105,11 @@ const structuredData = {
         <button class="filter-pill" data-category="longevity">Living Waters</button>
         <button class="filter-pill" data-category="metabolic-health">Higher Flame</button>
         <button class="filter-pill" data-category="detoxification">Dark Mirror</button>
-        <button class="filter-pill filter-pill--dream" data-category="Dream Hypothesis">✨ Dream Hypotheses</button>
       </div>
     </div>
 
     <div class="ocean-stage-container" id="ocean-stage">
-      <canvas id="mind-ocean-canvas" data-nodes={JSON.stringify(allNodes)}></canvas>
+      <canvas id="mind-ocean-canvas" data-nodes={JSON.stringify(nodes)}></canvas>
       
       <div id="node-tooltip" class="node-tooltip is-hidden"></div>
 
@@ -217,11 +176,11 @@ const structuredData = {
     color: var(--paper);
     border-color: var(--saffron);
   }
-  .ocean-btn--dream.is-active {
-    background: oklch(0.25 0.18 310);
-    color: oklch(0.95 0.15 310);
-    border-color: oklch(0.70 0.22 310);
-    box-shadow: 0 0 20px rgba(220, 100, 255, 0.4);
+  .ocean-btn--live.is-active {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--saffron);
+    box-shadow: 0 0 16px rgba(230, 160, 40, 0.3);
   }
   .ocean-filter-bar {
     display: flex;
@@ -397,27 +356,27 @@ const structuredData = {
 
   const audioEngine = new MindOceanAudio();
   const audioBtn = document.getElementById("audio-toggle-btn");
-  const dreamBtn = document.getElementById("dream-toggle-btn");
-  const stage = document.getElementById("ocean-stage");
+  const liveBtn = document.getElementById("live-toggle-btn");
   const searchInput = document.getElementById("ocean-search-input") as HTMLInputElement;
   const filterPills = document.getElementById("filter-pills");
 
-  let isDreamState = false;
+  let isLiveStreaming = true;
   let activeCategoryFilter = "all";
   let searchQuery = "";
 
-  if (dreamBtn && stage) {
-    dreamBtn.addEventListener("click", () => {
-      isDreamState = !isDreamState;
-      const text = dreamBtn.querySelector(".btn-text");
-      if (isDreamState) {
-        dreamBtn.classList.add("is-active");
-        stage.classList.add("is-dreaming");
-        if (text) text.textContent = "Dream State: Active ✨";
+  if (liveBtn) {
+    liveBtn.addEventListener("click", () => {
+      isLiveStreaming = !isLiveStreaming;
+      const text = liveBtn.querySelector(".btn-text");
+      const icon = liveBtn.querySelector(".btn-icon");
+      if (isLiveStreaming) {
+        liveBtn.classList.add("is-active");
+        if (icon) icon.textContent = "✨";
+        if (text) text.textContent = "Live View: Active";
       } else {
-        dreamBtn.classList.remove("is-active");
-        stage.classList.remove("is-dreaming");
-        if (text) text.textContent = "Dream State: Off";
+        liveBtn.classList.remove("is-active");
+        if (icon) icon.textContent = "⏸️";
+        if (text) text.textContent = "Live View: Paused";
       }
     });
   }
