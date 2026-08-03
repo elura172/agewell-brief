@@ -21,20 +21,16 @@ image_source_url: "https://www.pexels.com/photo/adult-woman-looking-at-the-medic
 image_review_status: "human-reviewed"
 image_avg_color: "#7C7D7F"
 ---
-
-The FDA’s running health-fraud list identifies products that may contain undeclared drug ingredients. Recent entries include PRE-FORMANCE BLACK and RAPTURE Preworkout, alongside earlier notices covering products marketed for sleep, skin, sexual enhancement, pain, and bodybuilding.
-
-
+The agency's health-fraud list now includes pre-workout products, alongside earlier alerts for supplements marketed for sleep, skin, pain, and bodybuilding.
 
 ## Three things to remember
 
-- Check the FDA list before using a product named in a health-fraud alert.
-- Hidden ingredients can interact with medicines or cause serious health problems.
-- A product absent from the list is not automatically proven safe.
+- FDA's list flags products with undeclared drug ingredients.
+- Recent additions: PRE-FORMANCE BLACK and RAPTURE Preworkout.
+- Earlier alerts cover sleep, skin, pain, and bodybuilding products.
 
 ### Source
 
 This signal is based on [Sleep, Skin, Bodybuilding and Other Product Notifications](https://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications) from FDA Tainted Supplements. Read the original report for full context.
 
-
-> **Health note:** The FDA page links to product-specific notices and is updated as new products are tested. Use the current list for names and details.
+> **Health note:** The FDA notice doesn't specify which ingredients were found or their risks. The list isn't exhaustive.

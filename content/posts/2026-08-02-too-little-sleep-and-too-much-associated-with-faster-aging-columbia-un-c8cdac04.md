@@ -21,20 +21,27 @@ image_source_url: "https://www.pexels.com/photo/man-laying-on-a-hospital-bed-wit
 image_review_status: "pending"
 image_avg_color: "#A6A1A5"
 ---
+A Columbia University study suggests that both too little and too much sleep may speed biological aging.
 
-A Columbia University study finds both short and long sleep may speed biological aging.
 ## Three things to remember
 
-- Both too little and too much sleep tied to faster aging.
-- Study from Columbia University Irving Medical Center.
-- Association only; not proof of cause and effect.
-
+- Short and long sleep linked to faster aging.
+- Columbia researchers found the association.
+- Causality and mechanisms remain unclear.
 
 <aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for steadier routines</h3>
 <p>For readers interested in taking the ideas in this sleep health brief a step further, we’ve included an optional resource that may be useful.</p>
 <p><a class="resource-link" href="https://3342c50per1ucmcrzlgeu6jm52.hop.clickbank.net?tid=agewell_sleep_health_c8cdac0431effbbe72ebf5e9" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
+
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for steadier routines</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://b52a6dthnsfp7u1cz8sd19x75g.hop.clickbank.net?tid=agewell_sleep_health_c8cdac0431effbbe72ebf5e9" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
@@ -51,4 +58,4 @@ This signal is based on [Too Little Sleep—and Too Much—Associated with Faste
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
-> **Health note:** News report, not original study; details limited.
+> **Health note:** Observational study; does not prove causation or specify durations.

@@ -22,20 +22,16 @@ image_source_url: "https://www.pexels.com/photo/two-scientists-working-inside-th
 image_review_status: "human-reviewed"
 image_avg_color: "#C1C2BD"
 ---
-
-Products marketed as “all natural,” foods, or dietary supplements can still contain undeclared drug ingredients. The FDA maintains a searchable notification list for checking specific products.
-
-
+Some products marketed as dietary supplements or foods contain undeclared drugs. The FDA's searchable list can help you check.
 
 ## Three things to remember
 
-- Some products in these categories have contained dangerous hidden ingredients.
-- Labels such as “all natural” or “dietary supplement” do not guarantee safety.
-- Search the FDA database for a specific product before buying or using it.
+- Hidden drug ingredients can appear in 'all natural' products.
+- The FDA maintains a searchable notification list online.
+- Check specific products before you buy or use them.
 
 ### Source
 
 This signal is based on [Sleep, Skin, Bodybuilding and Other Product Notifications](https://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications) from FDA Tainted Supplements. Read the original report for full context.
 
-
-> **Health note:** The warning does not apply to every product in these categories. Use the FDA’s notifications to check a specific name and follow any listed safety instructions.
+> **Health note:** The FDA list does not specify which products are affected or how often it is updated. This does not mean all supplements are unsafe.

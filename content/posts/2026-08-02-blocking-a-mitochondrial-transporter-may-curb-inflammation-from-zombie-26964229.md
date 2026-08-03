@@ -22,14 +22,13 @@ image_source_url: "https://www.pexels.com/photo/scientist-using-microscope-39380
 image_review_status: "human-reviewed"
 image_avg_color: "#A9B6C3"
 ---
-
-Experiments in cells and aged mice traced part of the inflammatory output of senescent cells to mitochondrial citrate metabolism. Inhibiting the transporter SLC25A1 reduced inflammatory signalling without making the cells resume division.
+New lab research traces part of the inflammatory output of senescent cells to mitochondrial citrate metabolism, and finds that inhibiting a key transporter reduces that signaling without waking the cells.
 
 ## Three things to remember
 
-- Mitochondrial citrate supplied material that helped switch inflammatory genes on.
-- Blocking SLC25A1 reduced inflammatory signals in laboratory and mouse experiments.
-- No human treatment was tested, and SLC25A1 is not a consumer target.
+- Inhibiting SLC25A1 reduced inflammatory signaling in cells and aged mice.
+- The treatment did not cause senescent cells to resume dividing.
+- Findings are preliminary; human relevance remains unknown.
 
 ### Source
 
@@ -37,4 +36,4 @@ This signal is based on [Blocking a mitochondrial transporter may curb inflammat
 
 Primary study: [Nature — Mitochondrial metabolism and epigenetic crosstalk drive the SASP](https://www.nature.com/articles/s41586-026-10791-2).
 
-> **Health note:** These mechanistic findings come from cell and mouse research. They do not establish the safety or effectiveness of blocking this pathway in people.
+> **Health note:** This is a laboratory study; it does not prove that blocking SLC25A1 is safe or effective in humans.

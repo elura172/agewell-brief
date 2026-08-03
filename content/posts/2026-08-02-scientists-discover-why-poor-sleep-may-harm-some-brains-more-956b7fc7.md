@@ -21,20 +21,16 @@ image_source_url: "https://pixabay.com/photos/working-lab-tech-8499918/"
 image_review_status: "pending"
 image_avg_color: "#cad4cf"
 ---
-
 A gene involved in the brain's overnight cleaning system may alter how strongly poor sleep impacts Alzheimer's-related changes, pointing to personalized prevention.
-
-
 
 ## Three things to remember
 
-- Gene in brain's cleaning system may modify sleep's effect on Alzheimer's changes.
-- Findings suggest personalized prevention based on genetics and sleep habits.
-- Study type not specified; details on gene and mechanism limited.
+- The AQP4 gene helps control the brain's waste-clearing system.
+- Sleep effects on brain structure varied by gene variant.
+- Findings suggest personalized Alzheimer's prevention may be needed.
 
 ### Source
 
 This signal is based on [Scientists discover why poor sleep may harm some brains more](https://www.sciencedaily.com/releases/2026/07/260729051529.htm) from ScienceDaily Healthy Aging. Read the original report for full context.
 
-
-> **Health note:** This was an observational study; it does not prove poor sleep causes Alzheimer's, nor that the gene directly changes risk.
+> **Health note:** The study relied on self-reported sleep and needs replication in larger, diverse groups. It does not prove causation, and genetic testing is not yet recommended.

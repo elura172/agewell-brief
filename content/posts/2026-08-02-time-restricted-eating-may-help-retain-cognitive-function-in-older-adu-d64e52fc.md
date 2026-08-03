@@ -21,20 +21,16 @@ image_source_url: "https://www.pexels.com/photo/elderly-woman-eating-her-healthy
 image_review_status: "human-reviewed"
 image_avg_color: "#A69A8D"
 ---
-
-A six-month pilot study of 47 women ages 50 to 79 found a modest improvement in spatial planning and problem-solving with time-restricted eating. The participants had overweight or obesity, and the small trial cannot show that the approach prevents dementia.
-
-
+A six-month pilot study of 47 women ages 50 to 79 found modest gains in spatial planning and problem-solving with time-restricted eating. But the small trial can’t show it prevents dementia.
 
 ## Three things to remember
 
-- The pilot trial followed 47 women for six months.
-- Gains appeared in spatial planning and problem-solving, not every cognitive measure.
-- The study did not establish that time-restricted eating prevents dementia.
+- 47 women with overweight or obesity tried time-restricted eating for six months.
+- They showed modest improvement in spatial planning and problem-solving.
+- Small pilot study can’t prove dementia prevention or broad benefits.
 
 ### Source
 
 This signal is based on [Time-restricted eating may help retain cognitive function in older adults](https://medicalxpress.com/news/2026-07-restricted-retain-cognitive-function-older.html) from Medical Xpress Nutrition. Read the original report for full context.
-
 
 > **Health note:** This was a small pilot study, so results are preliminary and may not apply to everyone.

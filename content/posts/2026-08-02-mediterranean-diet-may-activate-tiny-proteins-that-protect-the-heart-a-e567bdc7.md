@@ -22,16 +22,13 @@ image_source_url: "https://www.pexels.com/photo/healthy-couple-love-laptop-69730
 image_review_status: "human-reviewed"
 image_avg_color: "#77685F"
 ---
-
-A 49-person pilot study found higher levels of two mitochondrial microproteins among older adults who reported closer adherence to a Mediterranean eating pattern.
-
-
+A small pilot study finds that older adults who closely follow a Mediterranean eating pattern have higher blood levels of two mitochondrial microproteins tied to cellular health.
 
 ## Three things to remember
 
-- The cross-sectional study involved 49 patients with atrial fibrillation.
-- Higher adherence tracked higher Humanin and SHMOOSE blood levels.
-- The study cannot show that the diet caused those biological differences.
+- 49 older adults; closer diet adherence linked to higher humanin and SHMOOSE.
+- Olive oil, fish, legumes tied to humanin; olive oil and fewer refined carbs to SHMOOSE.
+- Observational study; cannot prove cause, other factors may influence results.
 
 ### Source
 
@@ -39,5 +36,4 @@ This signal is based on [Mediterranean diet may activate tiny proteins that prot
 
 Primary study: [Frontiers in Nutrition — Mediterranean diet adherence and mitochondrial microproteins](https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1727012/full).
 
-
-> **Health note:** This was a small, cross-sectional convenience sample. It identifies associations and does not test whether changing diet raises these proteins or prevents disease.
+> **Health note:** This was a small observational study, so it cannot prove the diet directly raises these proteins. Larger, controlled trials are needed.

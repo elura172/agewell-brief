@@ -21,20 +21,27 @@ image_source_url: "https://pixabay.com/photos/chestnut-autumn-thorns-spikes-2810
 image_review_status: "pending"
 image_avg_color: "#cad4cf"
 ---
+They're popular, but the evidence is thin. Here's what a small study and users suggest.
 
-Spiky mats are popular, but evidence is thin. Here's what to know before you lie down.
 ## Three things to remember
 
-- Mats inspired by ancient beds of nails, now a wellness trend.
-- No compelling evidence they relieve pain, stress, or insomnia.
-- Anecdotes suggest some people find them helpful, but risks include skin irritation.
-
+- A 2023 student study found no significant physical changes from using spiky mats.
+- Both spiky and smooth mats reduced perceived stress by about 7%.
+- Users report relief, but experts advise caution and moderation.
 
 <aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for steadier routines</h3>
 <p>For readers interested in taking the ideas in this sleep health brief a step further, we’ve included an optional resource that may be useful.</p>
 <p><a class="resource-link" href="https://3342c50per1ucmcrzlgeu6jm52.hop.clickbank.net?tid=agewell_sleep_health_ea34a07cdf0ae83e7fde7bd9" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
+
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for steadier routines</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://b52a6dthnsfp7u1cz8sd19x75g.hop.clickbank.net?tid=agewell_sleep_health_ea34a07cdf0ae83e7fde7bd9" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
@@ -51,4 +58,4 @@ This signal is based on [The spikiness secret: can acupressure mats help with pa
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
-> **Health note:** Individual experiences vary; consult a healthcare provider before trying acupressure for medical conditions.
+> **Health note:** Evidence is mostly anecdotal; more research is needed, especially for chronic pain.

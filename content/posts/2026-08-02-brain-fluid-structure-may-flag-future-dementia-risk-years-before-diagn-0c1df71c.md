@@ -22,14 +22,13 @@ image_source_url: "https://www.pexels.com/photo/a-doctor-holding-an-mri-result-o
 image_review_status: "human-reviewed"
 image_avg_color: "#8C95A0"
 ---
-
-In 45,306 UK Biobank participants, a larger choroid plexus and lower MRI signal intensity in that structure were associated with higher dementia risk during follow-up. The choroid plexus helps produce cerebrospinal fluid; this was not a test of the fluid itself.
+A large UK study finds that MRI measures of the choroid plexus—a structure that makes cerebrospinal fluid—track with later dementia risk. The finding is a signal, not a test.
 
 ## Three things to remember
 
-- Researchers recorded 118 dementia cases over an average 4.3 years.
-- Each standard-deviation larger plexus volume tracked a 61% higher adjusted risk.
-- The MRI measures are research markers, not a dementia screening test.
+- 45,306 UK Biobank participants were followed over time.
+- Larger choroid plexus and lower signal intensity raised risk.
+- This is an association, not a diagnostic tool.
 
 ### Source
 
@@ -37,4 +36,4 @@ This signal is based on [Brain fluid structure may flag future dementia risk yea
 
 Primary study: [Molecular Psychiatry — The choroid plexus, cognitive decline, and incident dementia](https://www.nature.com/articles/s41380-026-03739-5).
 
-> **Health note:** The cohort was large, but only 118 participants developed dementia during the relatively short follow-up. The association needs replication before it can guide individual care.
+> **Health note:** This is an observational finding. It does not prove cause and effect, and it is not a clinical test. More research is needed.
