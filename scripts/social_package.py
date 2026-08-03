@@ -94,6 +94,21 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
         else None
     )
     script = generate_cosmic_reel_script(title, category, body)
+    # Category-specific biophysics highlight colors
+    cat_lower = category.lower()
+    if "brain" in cat_lower or "sleep" in cat_lower:
+        highlight_color = "#00F0FF"  # Electric Cyan
+    elif "gut" in cat_lower:
+        highlight_color = "#10B981"  # Emerald Ecology
+    elif "metabolic" in cat_lower or "flame" in cat_lower:
+        highlight_color = "#F59E0B"  # Solar Gold
+    elif "senescence" in cat_lower or "longevity" in cat_lower:
+        highlight_color = "#F97316"  # Amber Renewal
+    elif "detox" in cat_lower:
+        highlight_color = "#A855F7"  # Biophotonic Violet
+    else:
+        highlight_color = "#38BDF8"  # Quantum Azure
+
     return {
         "article": path.stem,
         "url": url,
@@ -118,12 +133,13 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
             "source_url": source_url,
             "trend": trend_note,
             "text_fore_color": "#FEFEFE",
-            "highlight_color": "#F59E0B",
+            "highlight_color": highlight_color,
             "stroke_color": "#0B0F19",
             "stroke_width": 2,
             "font_size": 48,
             "subtitle_bottom_margin": 210,
             "max_words_per_line": 3,
+            "uppercase_keywords": True,
             "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
             "subtitle_bg_padding": 12,
             "requires_video_qa": False,
