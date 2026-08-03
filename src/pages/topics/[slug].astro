@@ -18,20 +18,62 @@ export async function getStaticPaths() {
 }
 
 const { category, briefs } = Astro.props;
-const description = `Agewell Brief reporting and useful signals on ${category}, with original sources and practical context.`;
+const topicGuides: Record<string, { lede: string; question: string; resource?: { label: string; href: string } }> = {
+  "brain health": {
+    lede: "Readable reporting on memory, sleep, stress, learning, and the conditions that help a mind stay engaged.",
+    question: "What helps the brain stay capable, curious, and well supported?",
+    resource: { label: "Explore Luminous Mind", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" }
+  },
+  "cellular senescence": {
+    lede: "A grounded guide to senescence research, healthspan questions, and what remains unsettled about senolytic approaches.",
+    question: "What can senescence research tell us, and what is still a hypothesis?",
+    resource: { label: "Explore Cell Shedding", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" }
+  },
+  "detoxification": {
+    lede: "Context for liver processing, elimination pathways, mineral-clearing ideas, and the questions worth asking before an intensive protocol.",
+    question: "What does clearing mean, and how should a person think about sequence and safety?",
+    resource: { label: "Explore Living Waters", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" }
+  },
+  "gut health": {
+    lede: "Reporting and practical context on the gut ecosystem, digestion, microbial balance, and the gut-brain conversation.",
+    question: "How do we make sense of gut health without reducing it to one microbe or one product?",
+    resource: { label: "Explore Inner Garden", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" }
+  },
+  "metabolic health": {
+    lede: "Clear signals on blood sugar, fuel use, fasting, food timing, and the everyday choices that shape metabolic health.",
+    question: "Which metabolic ideas are useful, and which deserve a closer look?",
+    resource: { label: "Explore Higher Flame", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" }
+  }
+};
+const guide = topicGuides[category.toLowerCase()] ?? {
+  lede: `Agewell Brief reporting and useful signals on ${category}, with original sources and practical context.`,
+  question: `What is worth understanding about ${category}?`
+};
+const description = `${guide.lede} Original sources, useful context, and questions worth carrying forward.`;
 ---
 <Layout title={`${category} — Agewell Brief`} description={description}>
   <main class="topic-page">
     <a class="back-link" href="/">← Today’s edition</a>
     <header class="topic-header">
-      <p class="eyebrow">Agewell topic desk</p>
+      <div class="topic-header-topline"><p class="eyebrow">Agewell topic desk</p><span>{briefs.length} {briefs.length === 1 ? "brief" : "briefs"}</span></div>
       <h1>{category}</h1>
-      <p>Readable reporting on {category}, with the source, the context, and the questions worth carrying forward.</p>
+      <p>{guide.lede}</p>
     </header>
+    <section class="topic-context" aria-labelledby="topic-context-heading">
+      <div>
+        <p class="eyebrow">The useful question</p>
+        <h2 id="topic-context-heading">{guide.question}</h2>
+      </div>
+      {guide.resource && <div class="topic-resource">
+        <p>Program perspective</p>
+        <a href={guide.resource.href} rel="noopener noreferrer">{guide.resource.label} <span aria-hidden="true">→</span></a>
+        <small>Commission-supported; no added cost to you.</small>
+      </div>}
+    </section>
     <section class="topic-list" aria-labelledby="topic-list-heading">
       <div class="section-heading">
         <h2 id="topic-list-heading" class="section-title">Published briefs</h2>
-        <p class="section-caption">{briefs.length} {briefs.length === 1 ? "brief" : "briefs"}</p>
+        <p class="section-caption">Source-linked reading</p>
       </div>
       <ol>
         {briefs.map((entry, index) => <li>
