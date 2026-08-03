@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-03T06:39:31.530616+00:00",
+  "updated_at": "2026-08-03T06:58:58.533948+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -235,22 +235,22 @@
       "video_job": ".state/video-jobs/2026-08-03-research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c.json",
       "platforms": {
         "facebook": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T05:58:53.606920+00:00"
+          "status": "queued",
+          "request_id": "agewell-facebook-2026-08-03-research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c",
+          "job_id": "6a7e3ef023e24926b12f570c4faf8ac6",
+          "updated_at": "2026-08-03T06:58:54.854852+00:00"
         },
         "tiktok": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T05:58:53.606926+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c",
+          "job_id": "5f1e76be6a05485b82b5e71ead69ac37",
+          "updated_at": "2026-08-03T06:58:58.533042+00:00"
         },
         "youtube": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T05:58:53.606930+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c",
+          "job_id": "5f1e76be6a05485b82b5e71ead69ac37",
+          "updated_at": "2026-08-03T06:58:58.533089+00:00"
         }
       },
       "updated_at": "2026-08-03T05:58:53.607305+00:00"
