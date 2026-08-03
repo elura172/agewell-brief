@@ -9,14 +9,14 @@ interface Props {
   imageHeight?: number;
   publishedTime?: Date;
   modifiedTime?: Date;
-  structuredData?: Record<string, unknown>;
+  structuredData?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 import "../styles/global.css";
 
 const {
-  title = "Agewell Brief — clear signals for a longer life",
-  description = "Readable, source-linked health and longevity news for staying capable, curious, and independent.",
+  title = "Agewell Brief — Global Biophysics & Longevity Science Intelligence",
+  description = "Independent daily synthesis of biophysics, cellular longevity, quantum biology, and healthspan preprints. Source-linked, direct science for sovereign minds.",
   ogType = "website",
   image,
   imageAlt,

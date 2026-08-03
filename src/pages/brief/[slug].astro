@@ -33,32 +33,43 @@ const related = publishedBriefs(await getCollection("briefs"))
   .filter((candidate) => candidate.id !== entry.id && candidate.data.category === entry.data.category)
   .slice(0, 2);
 const frontierLinks = frontierForCategory(entry.data.category);
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  headline: entry.data.title,
-  description,
-  datePublished: entry.data.date.toISOString(),
-  dateModified: (entry.data.updated ?? entry.data.date).toISOString(),
-  mainEntityOfPage: { "@type": "WebPage", "@id": articleURL },
-  isAccessibleForFree: true,
-  articleSection: entry.data.category,
-  about: { "@type": "Thing", name: entry.data.category },
-  keywords: [entry.data.category, "healthy aging", "health news"],
-  author: {
-    "@type": "Organization",
-    name: entry.data.author,
-    url: authorURL
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: entry.data.title,
+    description,
+    datePublished: entry.data.date.toISOString(),
+    dateModified: (entry.data.updated ?? entry.data.date).toISOString(),
+    mainEntityOfPage: { "@type": "WebPage", "@id": articleURL },
+    isAccessibleForFree: true,
+    articleSection: entry.data.category,
+    about: { "@type": "Thing", name: entry.data.category },
+    keywords: [entry.data.category, "biophysics", "longevity science", "healthspan"],
+    author: {
+      "@type": "Organization",
+      name: entry.data.author,
+      url: authorURL
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Agewell Brief",
+      url: new URL("/", Astro.site).href,
+      logo: { "@type": "ImageObject", url: logoURL, width: 512, height: 512 }
+    },
+    citation: entry.data.source_url,
+    ...(entry.data.image ? { image: [new URL(entry.data.image, Astro.site).href] } : {})
   },
-  publisher: {
-    "@type": "Organization",
-    name: "Agewell Brief",
-    url: new URL("/", Astro.site).href,
-    logo: { "@type": "ImageObject", url: logoURL, width: 512, height: 512 }
-  },
-  citation: entry.data.source_url,
-  ...(entry.data.image ? { image: [new URL(entry.data.image, Astro.site).href] } : {})
-};
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site).href },
+      { "@type": "ListItem", position: 2, name: entry.data.category, item: new URL(`/topics/${topicSlug(entry.data.category)}/`, Astro.site).href },
+      { "@type": "ListItem", position: 3, name: entry.data.title, item: articleURL }
+    ]
+  }
+];
 ---
 <Layout
   title={`${entry.data.title} — Agewell Brief`}
