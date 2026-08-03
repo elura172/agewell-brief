@@ -79,7 +79,14 @@ const structuredData = {
       <a href="/#subscribe">Get tomorrow’s edition <span aria-hidden="true">→</span></a>
     </div>
     <header class="article-header">
-      <div class="signal-rail"><span>{entry.data.category}</span><i></i><span>{formatDate}</span></div>
+      <div class="signal-rail">
+        <div class="signal-rail-tags">
+          <span>{entry.data.category}</span>
+          <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
+        </div>
+        <i></i>
+        <span>{formatDate}</span>
+      </div>
       <h1>{entry.data.title}</h1>
       <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <time datetime={entry.data.date.toISOString()}>Published {formatDateTime}</time></p>
       <p class="article-source">Original reporting: <a href={entry.data.source_url} rel="noopener noreferrer">{entry.data.source_title}</a></p>
