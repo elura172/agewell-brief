@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T05:58:20.198364+00:00",
+  "generated_at": "2026-08-03T15:47:23.922407+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -169,7 +169,7 @@
       "topic": "eating healthy less most news protein suggests",
       "headline": "Eating less protein could slow aging, major review finds - ScienceDaily",
       "category": "general wellness",
-      "score": 16.39,
+      "score": 15.37,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
@@ -244,8 +244,8 @@
       "mention_count": 2,
       "source_count": 2,
       "sources": [
-        "Inside Precision Medicine",
-        "everydayhealth.com"
+        "Everyday Health",
+        "Inside Precision Medicine"
       ],
       "newest": "2026-07-31T15:00:57+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
@@ -259,44 +259,12 @@
           "category": "general wellness"
         },
         {
-          "title": "How Optimizing Metabolic Health Can Promote Longevity - everydayhealth.com",
+          "title": "How Optimizing Metabolic Health Can Promote Longevity - Everyday Health",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVU1UckxfMkdGQnBJaXFBQ2ZaTEZIRWxzZ3RwRXVTc2lLZndndjd6UUE3dVI5NnRaN3c0UURDUnp5V2tUaGNrOW5BOXJHYlBDRkpZczVwLS13Q010cmEyZWdveXptc2k5TTJETk5DSmVmZ2FiOVNtczZZVUxibVlpVWZ1aXM3WmwwRDZKdnZoaU9kWmVBaVlHLXB0UQ?oc=5",
-          "source": "everydayhealth.com",
+          "source": "Everyday Health",
           "published": "Mon, 27 Jul 2026 21:19:48 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
-        }
-      ]
-    },
-    {
-      "topic": "brain into supplements",
-      "headline": "Do Brain Health Supplements Really Work? - Cleveland Clinic Health Essentials",
-      "category": "brain health",
-      "score": 14.0,
-      "mention_count": 2,
-      "source_count": 2,
-      "sources": [
-        "Cleveland Clinic Health Essentials",
-        "Harvard Health"
-      ],
-      "newest": "2026-06-10T07:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "Don't buy into brain health supplements - Harvard Health",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWi1YWXdBMVBfR3RPbXZPX0F0NzVlRERSQTNFQlFNMFliSXlQQ3FpaHBodHllbTNRVEN2M0JQVE5JcUNGcU1EZ1gwMVZfdEk5Wkoxa0dldmhUS2lacUk3U0t4dndUeFUyUVNpbjVQa3JzbmotVUpMUDVYVHVzYUNQVGxCNUJ6VDk1TVE?oc=5",
-          "source": "Harvard Health",
-          "published": "Fri, 20 Feb 2026 08:00:00 GMT",
-          "seed": "brain health",
-          "category": "brain health"
-        },
-        {
-          "title": "Do Brain Health Supplements Really Work? - Cleveland Clinic Health Essentials",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GQUlBdF9JSVhwaTRaN3UydVBwZWl5anBUQTlVZG9RQS1EY09BVEZ6RUE3N0xVVHl3djFTUWM5NDB0aGctT2hKY1JFUW5hbmt0a2dJd3loRGFORjBjOWR2bV9fMmt1Z0UwRFdJVg?oc=5",
-          "source": "Cleveland Clinic Health Essentials",
-          "published": "Wed, 10 Jun 2026 07:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
         }
       ]
     },
@@ -398,30 +366,30 @@
     },
     {
       "topic": "balance emerges marker stability strength stronger than trunk",
-      "headline": "Trunk stability emerges as stronger balance marker than hip strength in older adults - Medical Xpress",
+      "headline": "Trunk stability emerges as stronger balance marker than hip strength in older adults - medicalxpress.com",
       "category": "mobility",
       "score": 14.0,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
-        "Medical Xpress",
-        "Nature"
+        "medicalxpress.com",
+        "nature.com"
       ],
       "newest": "2026-07-28T08:00:01+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
       "items": [
         {
-          "title": "Trunk stability emerges as stronger balance marker than hip strength in older adults - Medical Xpress",
+          "title": "Trunk stability emerges as stronger balance marker than hip strength in older adults - medicalxpress.com",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNXzNVQ0Y4VnNrY3hiZ3ZYSmhoWmtjSmZVNzlfOXJEZ0pFd09JQW1PY1M2SWxERXRsQkxNTU9MYUxtUGhMZkt2ZWV5TFVGS0NobEhxeTJlM2NpQ2xCTU5IeXFsQ0Z6NEhOSUxoME1ZYWZjb2F0clhfRExVQ3EzamQ3MWZLemJabW9DYnY4?oc=5",
-          "source": "Medical Xpress",
+          "source": "medicalxpress.com",
           "published": "Tue, 28 Jul 2026 08:00:01 GMT",
           "seed": "mobility",
           "category": "mobility"
         },
         {
-          "title": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
+          "title": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiblFvZ0ZrWEpicVRLU0tsSGMzdmQwOTJrWV9UUnJNb1dfTjlJWkVfLXpZelVLX2xXWS1XajhwMUtSc1ZXYUVLbVRjWFZnTWhyWWVhTlpieXlQUUJpb2Q4?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Tue, 20 Jan 2026 08:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
@@ -525,30 +493,53 @@
       ]
     },
     {
+      "topic": "body creatures down evening every finally found habit have help mind repetition rigid same something take that they time walk",
+      "headline": "Adults who take the same walk at the same time every evening may not be creatures of rigid habit; they may have found that repetition in the body can help the mind finally set something down - Silicon Canals",
+      "category": "brain health",
+      "score": 11.53,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Silicon Canals"
+      ],
+      "newest": "2026-08-03T11:18:49+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Adults who take the same walk at the same time every evening may not be creatures of rigid habit; they may have found that repetition in the body can help the mind finally set something down - Silicon Canals",
+          "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPM0NodklVVmMwRTdhQ3hzR3N6RXY1TFJxMjZ0dTYzRE1jOVZodm1oRlF6THFYcHl5RS1BVU5KSXdPMDNVUEctdHpFTU9tSF81TVJKV251OVRoampoYkJ0Y0tCV21TU3QyYzJPVU1peWpWWmlMSkQyT1dtZFVQcXdVMmR1SWVQSUVKWEFXOTdQZi0xYkY3U3A5Yy1FMWhGYXRudzBGeUh6aS02dGhQcHlpbVgzSERJTHE5UENWTUR2TWEwZzctelRXOG5SNnNGUGcyemN3a0N5X1NZUUZXNzA3YkJadDF3eW1ORDJSdWFncG5PX3lYalpYX09hOTBuQkM3Nk1odU9Sa0s3ZS14QktBakhkWUJheDRKT3pNbmg0dTA2SXcwaXQ4TXBRamRNOU1jZWZSalNLLVBiaHdhV0ZuQU5EWQ?oc=5",
+          "source": "Silicon Canals",
+          "published": "Mon, 03 Aug 2026 11:18:49 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
       "topic": "getting less more quality sleep sleeping",
-      "headline": "Getting older, sleeping less? What older adults can do to get more quality sleep. - uchealth.org",
+      "headline": "Getting older, sleeping less? What older adults can do to get more quality sleep. - UCHealth",
       "category": "sleep health",
       "score": 11.0,
       "mention_count": 2,
       "source_count": 1,
       "sources": [
-        "uchealth.org"
+        "UCHealth"
       ],
       "newest": "2026-04-17T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Getting older, sleeping less? What older adults can do to get more quality sleep. - uchealth.org",
+          "title": "Getting older, sleeping less? What older adults can do to get more quality sleep. - UCHealth",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWmJPemt1ZDdKWEJBazc3dmhkWHI3WXV2MWZtRmhyY1hjZkhMZ1p0UEhZNkJNOUswaVJUdzZWSlZwbEZPSld0YjFSWF91djBwd0YxbTlBMVlCamlIRGY0SVJEMXNMUWNVYjJmTVJRZHFwaW5XeS1jc3dHNG1hVGhDVmE1eHFSc0NDUEQ1Zllja014Zw?oc=5",
-          "source": "uchealth.org",
+          "source": "UCHealth",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         },
         {
-          "title": "Getting older, sleeping less? What older adults can do to get more quality sleep. - uchealth.org",
+          "title": "Getting older, sleeping less? What older adults can do to get more quality sleep. - UCHealth",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWmJPemt1ZDdKWEJBazc3dmhkWHI3WXV2MWZtRmhyY1hjZkhMZ1p0UEhZNkJNOUswaVJUdzZWSlZwbEZPSld0YjFSWF91djBwd0YxbTlBMVlCamlIRGY0SVJEMXNMUWNVYjJmTVJRZHFwaW5XeS1jc3dHNG1hVGhDVmE1eHFSc0NDUEQ1Zllja014Zw?oc=5",
-          "source": "uchealth.org",
+          "source": "UCHealth",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
@@ -588,29 +579,29 @@
     },
     {
       "topic": "aged association between chinese cross dietary metabolic middle obesity patterns phenotypes related sectional",
-      "headline": "Association between dietary patterns and obesity-related metabolic phenotypes in Chinese middle-aged and older adults: a cross-sectional study - Nature",
+      "headline": "Association between dietary patterns and obesity-related metabolic phenotypes in Chinese middle-aged and older adults: a cross-sectional study - nature.com",
       "category": "metabolic health",
       "score": 11.0,
       "mention_count": 2,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "nature.com"
       ],
       "newest": "2025-10-06T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Association between dietary patterns and obesity-related metabolic phenotypes in Chinese middle-aged and older adults: a cross-sectional study - Nature",
+          "title": "Association between dietary patterns and obesity-related metabolic phenotypes in Chinese middle-aged and older adults: a cross-sectional study - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXQ1JVYXB3VTQwNS1xTjhROEpXM1ZmNWpjdERLbUtTMW5VUzFBZkxBNzhrR3dadlR6ejVQRjRLU3JOdDdjc0lhV3F1RjVNcU1POEdIWEJxNzUtQjB4Y0Fj?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Mon, 06 Oct 2025 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         },
         {
-          "title": "Associations between dynapenic abdominal obesity and diabetes in middle aged and older Chinese - Nature",
+          "title": "Associations between dynapenic abdominal obesity and diabetes in middle aged and older Chinese - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zaEkzS3c3RUI3RkdvdHVsRUVJOHFZcnl6WmR6SDdiREpHaXVERHVrRmd4Zzd3M0J5ejdDSnNKcGx6eUFVTEhUS3V6cUNWUDNYencwYm04ZzliM0ZqMW9z?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Wed, 27 Aug 2025 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
@@ -652,7 +643,7 @@
       "topic": "facilitate healthy travel",
       "headline": "Travel can facilitate healthy aging - Tahoe Daily Tribune",
       "category": "general wellness",
-      "score": 10.3,
+      "score": 9.28,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -672,45 +663,22 @@
       ]
     },
     {
-      "topic": "being choices everyday healthy lifestyle longevity support tips well",
-      "headline": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - Rock Hill Herald",
-      "category": "general wellness",
-      "score": 7.42,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Rock Hill Herald"
-      ],
-      "newest": "2026-08-01T10:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - Rock Hill Herald",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43WEdHc2taUENmUGVjazRwWGoxUUNfYXpIU2VLcUdPaFUxMURDSXkwZnYtVU9CV3hYVy00SG9qaUdERmxvUUZ1R1Q5cjYyU203Q2NnV0FNc01JaHk2clhNcUpEYk5hQXFLLUlyRnE2Tmg4aXd2MmZmdlRfZ2hYN2s?oc=5",
-          "source": "Rock Hill Herald",
-          "published": "Sat, 01 Aug 2026 10:00:00 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "healthy independence launches mexico program support",
-      "headline": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - hscnews.unm.edu",
+      "headline": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "hscnews.unm.edu"
+        "UNM HSC Newsroom"
       ],
       "newest": "2026-07-28T19:43:03+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - hscnews.unm.edu",
+          "title": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVhqZDVMTGFoY3V4YzFaLVBqWmx5NmdoQ2k2dndleGdGMEZtWXZCUXUtNk5WR044bmRDbFpMbGZJMm1OdkhIcWxmNTFuc2RPQ2ZJNEx5NzU3eVI5MzM2RzZNa1ZiY2k1Szk2cTJ4OUZ0TXF2Q0VtNGV6cFRuY0tGVmRDQkFoWFg0UE5ZX01Cd0kxZnJiOWRxRC1MeDFrQTZ0SmVMRXJ0anRUUjRDZnB6U2ZsN25mZw?oc=5",
-          "source": "hscnews.unm.edu",
+          "source": "UNM HSC Newsroom",
           "published": "Tue, 28 Jul 2026 19:43:03 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
@@ -718,23 +686,69 @@
       ]
     },
     {
-      "topic": "ballad center friendly healthy recognized system",
-      "headline": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - greenevillesun.com",
+      "topic": "being choices everyday healthy lifestyle longevity support tips well",
+      "headline": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - heraldonline.com",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "greenevillesun.com"
+        "heraldonline.com"
+      ],
+      "newest": "2026-08-01T10:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - heraldonline.com",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43WEdHc2taUENmUGVjazRwWGoxUUNfYXpIU2VLcUdPaFUxMURDSXkwZnYtVU9CV3hYVy00SG9qaUdERmxvUUZ1R1Q5cjYyU203Q2NnV0FNc01JaHk2clhNcUpEYk5hQXFLLUlyRnE2Tmg4aXd2MmZmdlRfZ2hYN2s?oc=5",
+          "source": "heraldonline.com",
+          "published": "Sat, 01 Aug 2026 10:00:00 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "ballad center friendly healthy recognized system",
+      "headline": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - GreenevilleSun.com",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "GreenevilleSun.com"
       ],
       "newest": "2026-08-01T03:30:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - greenevillesun.com",
+          "title": "Ballad Center for Healthy Aging recognized as Age-Friendly Health System - GreenevilleSun.com",
           "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQb3k1eTBEZ0lGMzdHVWtVYUJScGdRbGE0andMTWUxZVVrd1ZzYnNsZnlvdkNVMmx3UzdqWXdHeGRjbFdHeVJJWlRRU0hUZjk5RFRYcFZvVy16SVdBdTU1b1hwMXVjOHA3M2JiWFJwOF9raUhDa1Bqd1RUdmRPSWRuYVFhdXJybE5VTU12Z3pqcnFadjF1S1g2NmtCUFRuX0hPLS1TRjhVUzUzNTlWRzdKUWZsYmhiOUVtMWdLUlh3R3MxZmFpWGlxbzJQMzk0NFBvZzhjeUU5bktYSEZHNGpBeUNHOGZmRGtrUUQ3UFplZ0hpQVRlVnJFV2ZjdEJfQQ?oc=5",
-          "source": "greenevillesun.com",
+          "source": "GreenevilleSun.com",
           "published": "Sat, 01 Aug 2026 03:30:00 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "mental",
+      "headline": "Mental health of older adults - who.int",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "who.int"
+      ],
+      "newest": "2026-07-20T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Mental health of older adults - who.int",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb0FEUG1tSFp1NkJSMDVJbmxoZFlXNDBiUms2aWstYnpFVm9ZblBaVi1lX21iclNySTdudS1Pb3FabjM1OThGVElrNmZFb1ZzOGFxX19KNW4zakhXV0JWSWx4UmJtM0QybFZHU1k0d0NIMVZyS3VacGtOM3NfWlI0WmNLWWU?oc=5",
+          "source": "who.int",
+          "published": "Mon, 20 Jul 2026 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -787,6 +801,29 @@
       ]
     },
     {
+      "topic": "healthy intake metabolism protein reducing reshaping support",
+      "headline": "Reducing protein intake could support healthy aging by reshaping metabolism - medicalxpress.com",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "medicalxpress.com"
+      ],
+      "newest": "2026-07-31T15:00:03+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Reducing protein intake could support healthy aging by reshaping metabolism - medicalxpress.com",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPelJfT0RzMEZjSTllV21oTkV6Q0JzOHphNXdDTk1RRWRwU0VfcUlQcy1mT0ptZ0ZCVWZXQ2tTUjZzWi1FVkVuM2Z3WWNham5vVUlfSFY3OXhrdUJlS0dSM3ptaEp6YjRjb1F3MktkbUtYMV9WeVU2Z3Y5dEhHUk5BcFg5TENDTmhvZkE?oc=5",
+          "source": "medicalxpress.com",
+          "published": "Fri, 31 Jul 2026 15:00:03 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "care lancet paradigm recommends report shift",
       "headline": "Lancet Report Recommends Paradigm Shift in Care for Older Adults with HIV - Johns Hopkins Bloomberg School of Public Health",
       "category": "general wellness",
@@ -804,52 +841,6 @@
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcWJGTTNXdS11VDd1RjJFSTk3aHFBRVYtSTNkVmpMbVFSVm40cGt6cXV6c2JsTWdOMENtUmpqbHFKVzAxSldBVGpMOTlrcTlpS19icE5aYzFNVmlVS3g2a3hjNDh3a1hmaUpfN3poT3puQlpucFFDMHkzQ18xcS1TYVJFV055WE1IQk5rcWozMHpGRnFhakUtYUxFdWx4WXlid1BSUXJOa2F3TUE?oc=5",
           "source": "Johns Hopkins Bloomberg School of Public Health",
           "published": "Mon, 27 Jul 2026 17:02:56 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "healthy intake metabolism protein reducing reshaping support",
-      "headline": "Reducing protein intake could support healthy aging by reshaping metabolism - Medical Xpress",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Medical Xpress"
-      ],
-      "newest": "2026-07-31T15:00:03+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Reducing protein intake could support healthy aging by reshaping metabolism - Medical Xpress",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPelJfT0RzMEZjSTllV21oTkV6Q0JzOHphNXdDTk1RRWRwU0VfcUlQcy1mT0ptZ0ZCVWZXQ2tTUjZzWi1FVkVuM2Z3WWNham5vVUlfSFY3OXhrdUJlS0dSM3ptaEp6YjRjb1F3MktkbUtYMV9WeVU2Z3Y5dEhHUk5BcFg5TENDTmhvZkE?oc=5",
-          "source": "Medical Xpress",
-          "published": "Fri, 31 Jul 2026 15:00:03 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "does healthy resilience show trauma",
-      "headline": "What does resilience show about healthy aging after trauma? - UC Davis Health",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "UC Davis Health"
-      ],
-      "newest": "2026-07-14T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "What does resilience show about healthy aging after trauma? - UC Davis Health",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUjd3M0VDVnZQV0NFMDRXOUtwdl8weHJjXzYycS1YQ3RPRlJrZFBZWVh5bjhHbFZDQUsxMmxyX3F4TVo0Y3pNZXpfRkZ4aVRPbWdwRmFOUEhjbVdFYnFDZFdselAzMWZYdmNEa0tXU2F3LXBFQWFTNDlpdzY0SWNaUGtYRGoxREpfeUlqQmVYNktJWm9GblpXZjZvd284Wjd2VXhXOS1KNTM2X25rUmc?oc=5",
-          "source": "UC Davis Health",
-          "published": "Tue, 14 Jul 2026 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -880,21 +871,21 @@
     },
     {
       "topic": "dementia",
-      "headline": "Dementia - World Health Organization (WHO)",
+      "headline": "Dementia - who.int",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "World Health Organization (WHO)"
+        "who.int"
       ],
       "newest": "2026-07-03T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Dementia - World Health Organization (WHO)",
+          "title": "Dementia - who.int",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ScjREckRoYUQ0Q1hUVVpUcGxqVDNIM21rZkJ3VTNIMnJrVzRRQ0lOYWFxd2lib3RUMVh3UUp3NExtSWxHTEM4QkI3UFl6Nkh5TGp6ZG1ZamhBcVhxY0RYSDQ5bUkzck5f?oc=5",
-          "source": "World Health Organization (WHO)",
+          "source": "who.int",
           "published": "Fri, 03 Jul 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -926,21 +917,21 @@
     },
     {
       "topic": "attack declines faster heart linked memory prior skills thinking",
-      "headline": "Prior heart attack linked to faster declines in thinking and memory skills - www.heart.org",
+      "headline": "Prior heart attack linked to faster declines in thinking and memory skills - newsroom.heart.org",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "www.heart.org"
+        "newsroom.heart.org"
       ],
       "newest": "2026-05-14T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Prior heart attack linked to faster declines in thinking and memory skills - www.heart.org",
+          "title": "Prior heart attack linked to faster declines in thinking and memory skills - newsroom.heart.org",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTVNzZ2g4RVI3MlcyQk8tYnBNNDMycDl1OE95cHFQQi1QZXFZazJoNUxKNEFXM2tiOF9tN05DcUgycVoycENoMlJTa2pZVHFQTzVhMXUxY05zcVlaWlpJVDUzM2NtUzdZakI1bWt5VjBSdW4wYl9XQXBmS2ctNHA5X3luUlR3MTRJLXItak5jN3BJSUhnbnEzbDBCY2Y4UUp4bzJPbWwtN1RPdw?oc=5",
-          "source": "www.heart.org",
+          "source": "newsroom.heart.org",
           "published": "Thu, 14 May 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -971,29 +962,6 @@
       ]
     },
     {
-      "topic": "cognitive decline fast half risk walkers",
-      "headline": "Fast walkers in their 80s cut their risk of cognitive decline by half, a study finds - NPR",
-      "category": "brain health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "NPR"
-      ],
-      "newest": "2026-07-06T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Fast walkers in their 80s cut their risk of cognitive decline by half, a study finds - NPR",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaDhXcHdXNEVrWkFSaHNsR2dYTHYxVVNEVUphaVBOeC13MzM2Y183WWh5WXlxQTF1UDB6RDFMaUs3anZicDVkbXcycW5oczJJQWlGNEtYM2lJWHFDa2Izbl9vTjVsVnUwV3FYYTFxTVZWdzFJZ3ItN3FmRlFUaE5JSFcxOFVYd2xweGc?oc=5",
-          "source": "NPR",
-          "published": "Mon, 06 Jul 2026 07:00:00 GMT",
-          "seed": "brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
       "topic": "brain helping omega supplement take your",
       "headline": "The omega-3 supplement you take may not be helping your brain - CNN",
       "category": "brain health",
@@ -1011,6 +979,29 @@
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYU5DWWlpSGlYZ29mbzJkZmhUOGY5bGlvU2VwNTFUUFJMQ2ZQRjh4SEtXWWNSZ1lMS2tXVFhkMTV5SnN0MWI3b3h4Tl84VG1oX3U0amViTndpYTRQMm5oVS1kLWY0Vjd6RERYVEtlYml3V0J3WGNsU0FvLUx2MnQ1UV80ZUpjUjg?oc=5",
           "source": "CNN",
           "published": "Thu, 18 Jun 2026 07:00:00 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
+      "topic": "brain into supplements",
+      "headline": "Don't buy into brain health supplements - Harvard Health",
+      "category": "brain health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Harvard Health"
+      ],
+      "newest": "2026-02-20T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Don't buy into brain health supplements - Harvard Health",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWi1YWXdBMVBfR3RPbXZPX0F0NzVlRERSQTNFQlFNMFliSXlQQ3FpaHBodHllbTNRVEN2M0JQVE5JcUNGcU1EZ1gwMVZfdEk5Wkoxa0dldmhUS2lacUk3U0t4dndUeFUyUVNpbjVQa3JzbmotVUpMUDVYVHVzYUNQVGxCNUJ6VDk1TVE?oc=5",
+          "source": "Harvard Health",
+          "published": "Fri, 20 Feb 2026 08:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
         }
@@ -1063,22 +1054,45 @@
       ]
     },
     {
+      "topic": "alzheimer breakthroughs next science treatment",
+      "headline": "The next big breakthroughs in Alzheimer’s science and treatment - University of California",
+      "category": "brain health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "University of California"
+      ],
+      "newest": "2025-12-04T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "The next big breakthroughs in Alzheimer’s science and treatment - University of California",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNkk3bUxzTGlsbGZZWm1oYUZET3NmZWU0ajh6S3hoaXc0ckFXSFhod2R2VFozd1RJS0hiSktvRV9DWk5NOEtkR0xIaktPYmU3ZlNiWWZXZnpSdm8zSFdYWDdwV3RncTZMaWhrQld2SzBseF9UdTdoMEp4TGh1R19OLXBJZS10bVF0aVkwTGxOMnBnY21NRlotRGxRVkhzNDk3?oc=5",
+          "source": "University of California",
+          "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
       "topic": "attenuates attenuating circadian cognitive dysfunctions exercise manner neuroinflammation obesity related sleep specific stat",
-      "headline": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - Nature",
+      "headline": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - nature.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "nature.com"
       ],
       "newest": "2026-06-02T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - Nature",
+          "title": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOEZLYWFxZTFDcVlHb0dBU01yMndIcGZiZF9LUHhDU0JtOU9oT3A3T3c3ZlZKeEV0dEhoUEl6R2k3R2JaYkdmTDBaWGl1d3p0N0VLbW94NGh6c1MzYjgw?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Tue, 02 Jun 2026 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
@@ -1202,21 +1216,21 @@
     },
     {
       "topic": "ageing blend compound damage obesity reverses sugar tackle",
-      "headline": "New compound blend reverses sugar damage to tackle ageing and obesity - drugtargetreview.com",
+      "headline": "New compound blend reverses sugar damage to tackle ageing and obesity - Drug Target Review",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "drugtargetreview.com"
+        "Drug Target Review"
       ],
       "newest": "2025-10-24T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "New compound blend reverses sugar damage to tackle ageing and obesity - drugtargetreview.com",
+          "title": "New compound blend reverses sugar damage to tackle ageing and obesity - Drug Target Review",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaFFUOWJ4YmY0WjJmNGF1Mjhna0NwRldLV1JKbndpV1AzU1dWaWtYSFFZbzYtVk1RUUJXdFpkRV9BcUtfSURseWlOelBjRG5Xb1F0ck1Sdlc5eVlFc0VoS0ppWGJxSXY4c1FUSkhPM1dEcnVvLTZVLTNjS3BPSlZlbDVLeUhRakc0Ti10ejBOUlYzQldUcnRCYTk4ZDdaRHBMZHRQcUREaS1IT2twV2tZQXN3N09zUVpG?oc=5",
-          "source": "drugtargetreview.com",
+          "source": "Drug Target Review",
           "published": "Fri, 24 Oct 2025 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
@@ -1224,8 +1238,8 @@
       ]
     },
     {
-      "topic": "alzheimer blood meal raise risk spike sugar this",
-      "headline": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
+      "topic": "biggest debunks dieting fear",
+      "headline": "New study debunks the biggest fear about yo-yo dieting - ScienceDaily",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
@@ -1233,14 +1247,14 @@
       "sources": [
         "ScienceDaily"
       ],
-      "newest": "2026-01-15T08:00:00+00:00",
+      "newest": "2026-05-17T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aUDk3LXZBd3NkV05XMk9XaWpPSjl2VGFYRVlETGFNZnVhQlRWTXQ3WGRhMnpJTzhqQ0V1aV90TVkxaThvUjdGRXM0dFktODItZTE0Wk9tdHNwcXBVS3RNcmwwaU5Xdi1fdTlxV2gzYw?oc=5",
+          "title": "New study debunks the biggest fear about yo-yo dieting - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yemhkNDFid3ZQNnJzbm01ZUlud3lnRFVxU21JUXl3VE1ZT1NGbzlmZ09FLWxXNEZWSEF4U0phTmZWS2hIU1B1RlZiaHZUR0FxekhRZ2ZOMjZWNE9kNXM2UkZFWmtqUjNLUVVzTFM5UQ?oc=5",
           "source": "ScienceDaily",
-          "published": "Thu, 15 Jan 2026 08:00:00 GMT",
+          "published": "Sun, 17 May 2026 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1293,22 +1307,45 @@
       ]
     },
     {
-      "topic": "forty just kyung management professor publishes sign survival warning weight",
-      "headline": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - sportschosun.com",
+      "topic": "alzheimer blood meal raise risk spike sugar this",
+      "headline": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "sportschosun.com"
+        "ScienceDaily"
+      ],
+      "newest": "2026-01-15T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "This after-meal blood sugar spike may raise Alzheimer’s risk - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aUDk3LXZBd3NkV05XMk9XaWpPSjl2VGFYRVlETGFNZnVhQlRWTXQ3WGRhMnpJTzhqQ0V1aV90TVkxaThvUjdGRXM0dFktODItZTE0Wk9tdHNwcXBVS3RNcmwwaU5Xdi1fdTlxV2gzYw?oc=5",
+          "source": "ScienceDaily",
+          "published": "Thu, 15 Jan 2026 08:00:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "forty just kyung management professor publishes sign survival warning weight",
+      "headline": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - 스포츠조선",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "스포츠조선"
       ],
       "newest": "2026-07-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - sportschosun.com",
+          "title": "\"It's Not Just Aging Weight, It's a Warning Sign\"...Professor Kim Kyung-gon Publishes 'Survival Weight Management from Forty' - 스포츠조선",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa3FUYndaTzhhYlNpeC0taWJ6dzhxa0EtTkZiQmYwbDkwdTJ1WU05cEhfUTc3UVBGVjZFYWhZV2lQRTBhdmNlS2RjMGFHRjZkSFNjQ0lGbFVFbnYwSUp3QlV3cTBsQ2FWaGNUUVJyd3R0blpwLXUzaWtlVTR3QVFscA?oc=5",
-          "source": "sportschosun.com",
+          "source": "스포츠조선",
           "published": "Sun, 05 Jul 2026 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
@@ -1333,29 +1370,6 @@
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MU3FNLUEwVXk2S294cUJOVHoyNnJwbXNjTWpkNkZ5bEFBSF83dUJjeUw1YVZ3MFVQRy1VRGl0ZlF1aXRHQUVTQ29iWjR2aVdrdEVxcUg1NmE1c01pM0JONXdnM3RQa05OcmQ1TWVJU01qb0dic1E?oc=5",
           "source": "American Physiological Society Journal",
           "published": "Thu, 10 Jul 2025 14:57:50 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        }
-      ]
-    },
-    {
-      "topic": "brain cost have hidden losing midlife weight",
-      "headline": "Losing weight in midlife may have a hidden brain cost - ScienceDaily",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "ScienceDaily"
-      ],
-      "newest": "2025-12-28T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Losing weight in midlife may have a hidden brain cost - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHUkxGTnF5c1UtVERqUWlpZlIzUFZ2UTh2MFR1cFBqbFFQanZWUUZZRWc0NmxHN2QyS0NvMy1PZHBMZnBWcnFLYlh0QlJ1cFFOM2VORlp2ODFwenZTbFY0S0NsNnpUMTBsY2lfNC12TQ?oc=5",
-          "source": "ScienceDaily",
-          "published": "Sun, 28 Dec 2025 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1570,21 +1584,21 @@
     },
     {
       "topic": "contain oleander supplements these toxic update yellow",
-      "headline": "FDA update: These supplements contain toxic yellow oleander - Center for Science in the Public Interest",
+      "headline": "FDA update: These supplements contain toxic yellow oleander - cspi.org",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Center for Science in the Public Interest"
+        "cspi.org"
       ],
       "newest": "2025-11-03T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA update: These supplements contain toxic yellow oleander - Center for Science in the Public Interest",
+          "title": "FDA update: These supplements contain toxic yellow oleander - cspi.org",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNakRMYnBNamdFTGx1YmZMeWhJTjRiNFF2Vk1GRDlyRlRyLWFnMXJfUmhDVXpjaDlVakdvdUs2MU1fYVg5dUlieElCc05fMnRIY05VWFhSTUR4RkZpaGhOSF9VaUZqcVNMMG5QRUZqLWtIdW0ya1J5WTU5S3pCclZ6cWdqdUxXMjk2TnJDVG1aVkctYnc?oc=5",
-          "source": "Center for Science in the Public Interest",
+          "source": "cspi.org",
           "published": "Mon, 03 Nov 2025 08:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1685,21 +1699,21 @@
     },
     {
       "topic": "alert amazon drugs poison sold supplements",
-      "headline": "FDA alert: Supplements sold on Amazon may be poison or drugs - Center for Science in the Public Interest",
+      "headline": "FDA alert: Supplements sold on Amazon may be poison or drugs - cspi.org",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Center for Science in the Public Interest"
+        "cspi.org"
       ],
       "newest": "2024-01-05T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA alert: Supplements sold on Amazon may be poison or drugs - Center for Science in the Public Interest",
+          "title": "FDA alert: Supplements sold on Amazon may be poison or drugs - cspi.org",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TbUQwOVgzd3RNY2JYUmNUcExjdDY1RmhFTmdGVy1NU0hQZnNGUkhkWHBEeXFNeGlxZjJyX3lpOUM1Z3RIZVZ6QUYwcTZKYUpYdVRiaVpqM0pZSlJlT2h6b1VXelNkX1BiLXRNcWY4MmtTSnktTlphX0V3?oc=5",
-          "source": "Center for Science in the Public Interest",
+          "source": "cspi.org",
           "published": "Fri, 05 Jan 2024 08:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1822,6 +1836,29 @@
       ]
     },
     {
+      "topic": "down really slow supplements they",
+      "headline": "NAD+ Supplements: Can They Really Slow Down Aging? - Cleveland Clinic Health Essentials",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Cleveland Clinic Health Essentials"
+      ],
+      "newest": "2026-02-26T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "NAD+ Supplements: Can They Really Slow Down Aging? - Cleveland Clinic Health Essentials",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jenNOaU5KNXVpb3EwUXdDVlVlYzhZeTBOV1hCNGQ1RzA5Uk5KVC1PWndCdTZEc2h0OVN4dFU5VzNoQTd1OHBuaWJJZGJhX1RZZUVia2hRVXVQdVBzaFE?oc=5",
+          "source": "Cleveland Clinic Health Essentials",
+          "published": "Thu, 26 Feb 2026 08:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "actually growth hair that vitamins worth",
       "headline": "Hair Growth Vitamins That Are Actually Worth It - The National Council on Aging (NCOA)",
       "category": "general wellness",
@@ -1868,45 +1905,22 @@
       ]
     },
     {
-      "topic": "down really slow supplements they",
-      "headline": "NAD+ Supplements: Can They Really Slow Down Aging? - Cleveland Clinic Health Essentials",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Cleveland Clinic Health Essentials"
-      ],
-      "newest": "2026-02-26T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "NAD+ Supplements: Can They Really Slow Down Aging? - Cleveland Clinic Health Essentials",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jenNOaU5KNXVpb3EwUXdDVlVlYzhZeTBOV1hCNGQ1RzA5Uk5KVC1PWndCdTZEc2h0OVN4dFU5VzNoQTd1OHBuaWJJZGJhX1RZZUVia2hRVXVQdVBzaFE?oc=5",
-          "source": "Cleveland Clinic Health Essentials",
-          "published": "Thu, 26 Feb 2026 08:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "beneficial common dietary money supplements these vitamins waste",
-      "headline": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - uchealth.org",
+      "headline": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - UCHealth",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "uchealth.org"
+        "UCHealth"
       ],
       "newest": "2025-06-15T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - uchealth.org",
+          "title": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - UCHealth",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVnF4eVJDWDI4eEdicHp2UG5xTjBkV2Q4SFM4VWN2bHFKRElybUluemhXRFNSeml0ZEk4Wkd4a1lfQ3NyYURhb2luTDhqLUJPVmtXQ0lIZ0tXRVUzaWdEdzU5VHlDZEdLWTN0WXRGTnlJdXBJQkRNdndQRUdNZENvMndMcXRPTGs2QjctdVdmcXZoYU82Z1E?oc=5",
-          "source": "uchealth.org",
+          "source": "UCHealth",
           "published": "Sun, 15 Jun 2025 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
@@ -1914,22 +1928,45 @@
       ]
     },
     {
+      "topic": "benefits gelatin more nutrition",
+      "headline": "Gelatin: Benefits, Nutrition, and More - Verywell Health",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Verywell Health"
+      ],
+      "newest": "2026-06-02T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Gelatin: Benefits, Nutrition, and More - Verywell Health",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XVnpDSFlLbDlodGJMbjl6U1M2VS1BdW4wVFF5OVlBb2QyeDhTYjF6RUp5TTJSemdfbUsxMEdWUzVhYU1uUGtkMUY3WWJkWDJmeGhPX3dCeHZ2OHJkZUVLOW5MdWhxVXZJUFhkM294VWx2ellMNy1aV0JR?oc=5",
+          "source": "Verywell Health",
+          "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "ageing biological chart clocks late life middle sleep",
-      "headline": "Sleep chart of biological ageing clocks in middle and late life - Nature",
+      "headline": "Sleep chart of biological ageing clocks in middle and late life - nature.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "nature.com"
       ],
       "newest": "2026-05-13T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Sleep chart of biological ageing clocks in middle and late life - Nature",
+          "title": "Sleep chart of biological ageing clocks in middle and late life - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TZGlfTFdsdXVLVi1lUzh0el9ZUm0zbjVkUEJXNGJfcm5DZEh6X2cwWW15QzlxNXl5aVJsTGJxUlVmU1dTekYxeWZTSWUtMHhkRFdXQmJXQXl2MjlkT3ow?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Wed, 13 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
@@ -1983,29 +2020,6 @@
       ]
     },
     {
-      "topic": "behind biology dinner early tick tiktok tock trend",
-      "headline": "Tick-Tock: The biology behind TikTok's early dinner trend - American Council on Science and Health",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "American Council on Science and Health"
-      ],
-      "newest": "2026-07-28T04:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Tick-Tock: The biology behind TikTok's early dinner trend - American Council on Science and Health",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQm44SEhWengwYmhQa1VjWnlJVlI5Uzl4RlZGelliaTU4OERKcHk4UE9SMk9iX0RXc25hWmEwampqbDlSVVZfMEdubDhVWnRJczhqYnBFYV80bnVKUUVyRE9jS19COUI3WDRoa3pSSXB6ajlFdEZ6ZzFVblR5Q054R2wtbmVLVUJtemZ6bm9Vc1V5LW0tN2dLMVhB?oc=5",
-          "source": "American Council on Science and Health",
-          "published": "Tue, 28 Jul 2026 04:00:00 GMT",
-          "seed": "sleep and biological aging",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
       "topic": "accelerated duration linked sleep",
       "headline": "Sleep Duration Linked to Accelerated Aging - neurosciencenews.com",
       "category": "sleep health",
@@ -2023,6 +2037,29 @@
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhMUdOUnd0eEVxaW9rX1piX21TTUdON2FRX2wyYmRSWG9TZmVQTkwzY21RR2h3NTQyV2J3LXNGU3NnZU13eWREWExuZ08wZ05mLXhJdVJiQnVLS2Q2RzE5N19qNTRWbVRPNXhXSmsxbFExWWlWYk9sSw?oc=5",
           "source": "neurosciencenews.com",
           "published": "Wed, 13 May 2026 07:00:00 GMT",
+          "seed": "sleep and biological aging",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "behind biology dinner early tick tiktok tock trend",
+      "headline": "Tick-Tock: The biology behind TikTok's early dinner trend - American Council on Science and Health",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "American Council on Science and Health"
+      ],
+      "newest": "2026-07-28T04:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Tick-Tock: The biology behind TikTok's early dinner trend - American Council on Science and Health",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQm44SEhWengwYmhQa1VjWnlJVlI5Uzl4RlZGelliaTU4OERKcHk4UE9SMk9iX0RXc25hWmEwampqbDlSVVZfMEdubDhVWnRJczhqYnBFYV80bnVKUUVyRE9jS19COUI3WDRoa3pSSXB6ajlFdEZ6ZzFVblR5Q054R2wtbmVLVUJtemZ6bm9Vc1V5LW0tN2dLMVhB?oc=5",
+          "source": "American Council on Science and Health",
+          "published": "Tue, 28 Jul 2026 04:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
         }
@@ -2075,29 +2112,6 @@
       ]
     },
     {
-      "topic": "activity consistent healthy patterns rest slow",
-      "headline": "Healthy aging: Consistent activity and rest patterns may slow aging - Medical News Today",
-      "category": "brain health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Medical News Today"
-      ],
-      "newest": "2026-05-13T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Healthy aging: Consistent activity and rest patterns may slow aging - Medical News Today",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTENYcmhvVXdVYXhkcllHMlhfcFEwQnk4ak9EVFFkWUR6WWtvS0cwT2l2c0hBWnVkTDJ5d3BTS3RhUlNaWGd3MGREeUZ5WHJkSDY1dktlTXZ5bjhPTXNpMkMwM1FlUzJaTlJ4bkdLZnA0WDUxWTJXdFZVczBIRFlsWVdYUml1MW9sQ0h5MS1NSW1aN0Jqb1d3eW9QSUNKT1pfeWJDaWd2SjdVd2kxQUtrZmc2ZmhEUQ?oc=5",
-          "source": "Medical News Today",
-          "published": "Wed, 13 May 2026 07:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
       "topic": "changes circadian dementia higher linked newsroom rhythms risk",
       "headline": "Changes in circadian rhythms linked to higher dementia risk: Newsroom - UT Southwestern",
       "category": "brain health",
@@ -2122,21 +2136,21 @@
     },
     {
       "topic": "axis body brain circadian control organization salience",
-      "headline": "Control vs. salience: a new axis of circadian brain-body organization - Nature",
+      "headline": "Control vs. salience: a new axis of circadian brain-body organization - nature.com",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "nature.com"
       ],
       "newest": "2026-02-16T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Control vs. salience: a new axis of circadian brain-body organization - Nature",
+          "title": "Control vs. salience: a new axis of circadian brain-body organization - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Zb1dLOTRWeVlKbWV0REZubW12Ym9SeG1BZTBpTmVqa2pWbnM4SmtYaWQxdlRKNUxxdHJqdnIwMDBEWG5zY1hoMGYxRUk2OTRVZGJIUWxEcXpRVDR2WXl3?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Mon, 16 Feb 2026 08:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -2167,46 +2181,46 @@
       ]
     },
     {
-      "topic": "body clocks dementia irregular raise risk",
-      "headline": "Irregular body clocks may raise the risk of dementia - earth.com",
+      "topic": "activity consistent healthy patterns rest slow",
+      "headline": "Healthy aging: Consistent activity and rest patterns may slow aging - Medical News Today",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "earth.com"
+        "Medical News Today"
       ],
-      "newest": "2026-01-03T08:00:00+00:00",
+      "newest": "2026-05-13T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Irregular body clocks may raise the risk of dementia - earth.com",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMnVIV0t4Q1BtWS10OC1lMV9lSlhFMmt3LXV0a0ZLTGt0Y1dhcDJVNkgwd1dWcW90Z0ZTaG8xazVReUg2bWQ5TjFBLUJha1NJY0ZRb09WaGUzWlAzTnloelRtdDM3MXlHV3ZoRHFpV0owaC1FTS1DNm1vRGNPME0zcGYtaEJicTQ?oc=5",
-          "source": "earth.com",
-          "published": "Sat, 03 Jan 2026 08:00:00 GMT",
+          "title": "Healthy aging: Consistent activity and rest patterns may slow aging - Medical News Today",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTENYcmhvVXdVYXhkcllHMlhfcFEwQnk4ak9EVFFkWUR6WWtvS0cwT2l2c0hBWnVkTDJ5d3BTS3RhUlNaWGd3MGREeUZ5WHJkSDY1dktlTXZ5bjhPTXNpMkMwM1FlUzJaTlJ4bkdLZnA0WDUxWTJXdFZVczBIRFlsWVdYUml1MW9sQ0h5MS1NSW1aN0Jqb1d3eW9QSUNKT1pfeWJDaWd2SjdVd2kxQUtrZmc2ZmhEUQ?oc=5",
+          "source": "Medical News Today",
+          "published": "Wed, 13 May 2026 07:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
         }
       ]
     },
     {
-      "topic": "accelerometer circadian cohort cycle derived measures profiles rhythm sleep studies wake",
-      "headline": "Circadian rhythm profiles derived from accelerometer measures of the sleep-wake cycle in two cohort studies - Nature",
+      "topic": "body clocks dementia irregular raise risk",
+      "headline": "Irregular body clocks may raise the risk of dementia - Earth.com",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "Earth.com"
       ],
-      "newest": "2025-12-13T08:00:00+00:00",
+      "newest": "2026-01-03T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Circadian rhythm profiles derived from accelerometer measures of the sleep-wake cycle in two cohort studies - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03WmtWcnJLZ3Jzd1RaUHBkRGh6bG5ob1JHQUQ5SXFUU2g0OFpYOHJ3UHlFLUMyeDNlLS1FaHBGcGtmanFtNWE4VExkdmpESXFyM3JxamIwei1yc2FtQTg0?oc=5",
-          "source": "Nature",
-          "published": "Sat, 13 Dec 2025 08:00:00 GMT",
+          "title": "Irregular body clocks may raise the risk of dementia - Earth.com",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMnVIV0t4Q1BtWS10OC1lMV9lSlhFMmt3LXV0a0ZLTGt0Y1dhcDJVNkgwd1dWcW90Z0ZTaG8xazVReUg2bWQ5TjFBLUJha1NJY0ZRb09WaGUzWlAzTnloelRtdDM3MXlHV3ZoRHFpV0owaC1FTS1DNm1vRGNPME0zcGYtaEJicTQ?oc=5",
+          "source": "Earth.com",
+          "published": "Sat, 03 Jan 2026 08:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
         }
@@ -2237,21 +2251,21 @@
     },
     {
       "topic": "ballistographic behavioural medicine potential sleep technology untapped",
-      "headline": "The untapped potential of ballistographic technology in behavioural sleep medicine - Nature",
+      "headline": "The untapped potential of ballistographic technology in behavioural sleep medicine - nature.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "nature.com"
       ],
       "newest": "2026-03-25T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "The untapped potential of ballistographic technology in behavioural sleep medicine - Nature",
+          "title": "The untapped potential of ballistographic technology in behavioural sleep medicine - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vN1ZMc25YZTV3M0U0VUZSMWxTQ0w3czZLMFp5Y3EtaVd3WmczUU8xaUFZanlabENYbVFTTXljQmNmT0ZPaHo0Y2lZekg0VVlXaHB4aWVsMDhacWFVeWZz?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Wed, 25 Mar 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
@@ -2259,8 +2273,8 @@
       ]
     },
     {
-      "topic": "cardiorespiratory home longitudinal sleep staging wearable",
-      "headline": "Longitudinal cardiorespiratory wearable sleep staging in the home - Frontiers",
+      "topic": "devices editorial methods modulate neurotechnology sleep wearables",
+      "headline": "Editorial: Methods to modulate sleep with neurotechnology, devices, or wearables - Frontiers",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
@@ -2268,14 +2282,37 @@
       "sources": [
         "Frontiers"
       ],
-      "newest": "2026-01-27T12:59:37+00:00",
+      "newest": "2026-01-30T20:54:25+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Longitudinal cardiorespiratory wearable sleep staging in the home - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPenB3UTIzNWZWZWpRejZYNFRaMTVvZ3BTNUVVUUN2eWRaX2U4QlRST0NkZkNBdkRERWN4M0o3eWJoN1NucC1pdEszWWpSTVo1bmN1b2wxV1BlWEg2V3B5Y185MlhkejBpVTRfZGNIdHg3LVVBQlVlaWNQSkVrWFdjdEhsalRvSzhEWWZubnZoU0VWWmRS?oc=5",
+          "title": "Editorial: Methods to modulate sleep with neurotechnology, devices, or wearables - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRmtLVHBuUzEtMDlhVzQwWVRZWVBxa1JiTTR3bXRnUkhnUUlhajVONFNyMXJfNWY1alNfT3lUTmx1MlhFeERFUy1Ed0VueUhXRDVCUzBhUnVjNHA2Z29oWlpzRHBkd3QwRHBBTUpLLUNvdEVrYUw5WFptZklsVUNpeW5USmlYcFdVYjNKMS1tdzhNQ3lR?oc=5",
           "source": "Frontiers",
-          "published": "Tue, 27 Jan 2026 12:59:37 GMT",
+          "published": "Fri, 30 Jan 2026 20:54:25 GMT",
+          "seed": "intervention sleep technology",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "2034 australia chart growth market share size sleep tech",
+      "headline": "Australia Sleep Tech Market Size, Share & Growth Chart by 2034 - straitsresearch.com",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "straitsresearch.com"
+      ],
+      "newest": "2026-07-10T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Australia Sleep Tech Market Size, Share & Growth Chart by 2034 - straitsresearch.com",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nVVV4ZTBsbFVrUmZDN08yNnV0T1lSNlBQV2NSa2N5STk3c2JTTTN1eURDZTNrVktvVFh5YUZMWmNtN1JFX3I5aC1ibEFiN3FUOFNWcFZrQnN5YXI3a2pPcW8tQl9QR2NqOE9VZmplZw?oc=5",
+          "source": "straitsresearch.com",
+          "published": "Fri, 10 Jul 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
         }
@@ -2299,29 +2336,6 @@
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZkJlVnVVaVJqM01vRmV0dUdkSklyS0VjRVRPdXlrX1B4RXFMd25YWUoyRzVmcXF4ZDBCOWlWRzNoRDBJQ1Zxai1ESmZxalV1QURpYzBDZ3E0Z2E2T0Q0TVpuWTVWTzJxYV9laU1OOE9DNi10OW1reE9kUDZYY3NpSGxEMWhLSkU?oc=5",
           "source": "Market Business Insights",
           "published": "Wed, 29 Jul 2026 07:00:00 GMT",
-          "seed": "intervention sleep technology",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
-      "topic": "2034 australia chart growth market share size sleep tech",
-      "headline": "Australia Sleep Tech Market Size, Share & Growth Chart by 2034 - Straits Research",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Straits Research"
-      ],
-      "newest": "2026-07-10T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Australia Sleep Tech Market Size, Share & Growth Chart by 2034 - Straits Research",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nVVV4ZTBsbFVrUmZDN08yNnV0T1lSNlBQV2NSa2N5STk3c2JTTTN1eURDZTNrVktvVFh5YUZMWmNtN1JFX3I5aC1ibEFiN3FUOFNWcFZrQnN5YXI3a2pPcW8tQl9QR2NqOE9VZmplZw?oc=5",
-          "source": "Straits Research",
-          "published": "Fri, 10 Jul 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
         }
@@ -2397,6 +2411,29 @@
       ]
     },
     {
+      "topic": "cardiorespiratory home longitudinal sleep staging wearable",
+      "headline": "Longitudinal cardiorespiratory wearable sleep staging in the home - Frontiers",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Frontiers"
+      ],
+      "newest": "2026-01-27T12:59:37+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Longitudinal cardiorespiratory wearable sleep staging in the home - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPenB3UTIzNWZWZWpRejZYNFRaMTVvZ3BTNUVVUUN2eWRaX2U4QlRST0NkZkNBdkRERWN4M0o3eWJoN1NucC1pdEszWWpSTVo1bmN1b2wxV1BlWEg2V3B5Y185MlhkejBpVTRfZGNIdHg3LVVBQlVlaWNQSkVrWFdjdEhsalRvSzhEWWZubnZoU0VWWmRS?oc=5",
+          "source": "Frontiers",
+          "published": "Tue, 27 Jan 2026 12:59:37 GMT",
+          "seed": "intervention sleep technology",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
       "topic": "digital doors have opened pathways reimbursement therapeutics using",
       "headline": "New reimbursement pathways have opened doors for using digital therapeutics - apaservices.org",
       "category": "sleep health",
@@ -2421,21 +2458,21 @@
     },
     {
       "topic": "checkups circadian improving medicine preventive sleep",
-      "headline": "Preventive circadian medicine: improving health with sleep checkups - Nature",
+      "headline": "Preventive circadian medicine: improving health with sleep checkups - nature.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "nature.com"
       ],
       "newest": "2025-09-04T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Preventive circadian medicine: improving health with sleep checkups - Nature",
+          "title": "Preventive circadian medicine: improving health with sleep checkups - nature.com",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCU19jRklRaFNJdXhMSzNUdms3OTJlQ2E4dHN3QXRnbTZmZ2RNQXhBOXE3TFpnLW9LNjJqZlRMeC0tLVpURF9ySFdFY0RYZFdmS2lJcGFSeHJ0cklKcmlv?oc=5",
-          "source": "Nature",
+          "source": "nature.com",
           "published": "Thu, 04 Sep 2025 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
@@ -2443,45 +2480,22 @@
       ]
     },
     {
-      "topic": "neurotech powered revolutionize secures sleep somnee wearables",
-      "headline": "Somnee Secures $10M to Revolutionize Sleep with New AI-Powered Neurotech Sleep Wearables - Business Wire",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Wire"
-      ],
-      "newest": "2025-06-10T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Somnee Secures $10M to Revolutionize Sleep with New AI-Powered Neurotech Sleep Wearables - Business Wire",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcm1sZldiUUItRWlMSF9SeU05RjE5NjZmSFoyLUFQZk1CaUlmSHFFRXJMcDVnUkZVT0swZjhUVlBPVGVIb1Y1V2hKNjh3NG02WnFFajN5T3FFMU44QU5CV0JublNrRnpKSzNFY1R1UGdLQWljM3BuenlVeFk5ekt4Vmp2SF9FMFduOGJVb19Eb2FDRzB1WUt2N09LeTVzVHJuYVJ4Si1QY3hTMHNvcGFEd3dKaVhFcEFwc29WZTFnSTB5VDdkSTJaRVZGUnRCeDRsQy13bmdkRVdWaVVjM3JFXw?oc=5",
-          "source": "Business Wire",
-          "published": "Tue, 10 Jun 2025 07:00:00 GMT",
-          "seed": "intervention sleep technology",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
       "topic": "being frailty inevitable threatens well",
-      "headline": "Frailty threatens the health and well-being of older adults, but it’s not inevitable - uchealth.org",
+      "headline": "Frailty threatens the health and well-being of older adults, but it’s not inevitable - UCHealth",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "uchealth.org"
+        "UCHealth"
       ],
       "newest": "2026-04-22T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Frailty threatens the health and well-being of older adults, but it’s not inevitable - uchealth.org",
+          "title": "Frailty threatens the health and well-being of older adults, but it’s not inevitable - UCHealth",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01UFRFb1lQZ1BKRm1naHpaRE9ZN3V3a3hibFkxcnJnNjJYMUswNXZ1alZDN2xjNkFpRWZMOTBJNW1tYU53M2cwQS1kRjZwcFlseUxxYjhmS0xHTjZYOXN5Qmx3dnYyUTNEel9UNnhBZU5RdVpoOHdRM3hR?oc=5",
-          "source": "uchealth.org",
+          "source": "UCHealth",
           "published": "Wed, 22 Apr 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"

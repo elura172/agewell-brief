@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "8525ef13643e6f8227285638",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:5118461",
+      "score": 70,
+      "rationale": "The image depicts a scientist in a laboratory holding a transparent test sheet, which aligns with the editorial intent of a researcher analyzing data in a lab setting. The setting and mood are consistent with the story's focus on AI analysis of sleep studies.",
+      "concerns": [
+        "The image does not specifically show sleep data or a sleep lab; it shows a generic laboratory scene. The subject is not clearly analyzing sleep patterns, which may reduce specificity."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-03/ai-identifies-previously-unrecognized-health-insights-in-routine-sleep-8525ef13-pexels-5118461.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

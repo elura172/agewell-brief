@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "375fb29d7511db082bed2796": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies specific cerebellar networks and dynamic connectivity patterns that support episodic memory in aging, offering a new mechanistic angle beyond the usual hippocampal focus.",
+      "angle": "The cerebellum's dynamic network coordination, not just static connectivity, may be key to preserving memory in older adults.",
+      "mode": "agent"
+    },
+    "616f0fc71a48824a3135566c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "comparative",
+      "reason": "Compares effects of nicotinamide riboside and exercise on epigenetic aging, but lacks specific findings or surprising results in the summary.",
+      "angle": "How do NR and exercise differentially impact epigenetic clocks in muscle? A head-to-head comparison could reveal distinct aging pathways.",
+      "mode": "agent"
+    },
+    "8525ef13643e6f8227285638": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "frontier_technology",
+      "reason": "AI model extracts hidden health risks from routine sleep studies, a novel application with broad implications for preventive care.",
+      "angle": "AI turns ordinary sleep tests into a crystal ball for heart disease and cognitive decline—no extra tests needed.",
+      "mode": "agent"
+    },
+    "11abe8f3fd3c8d6a3a5a424a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "observational",
+      "reason": "Cross-sectional association between exercise capacity and brain characteristics; lacks novelty as similar findings exist.",
+      "angle": "Does lactate threshold, not just VO2max, predict brain health in athletes? A closer look at training-specific neural adaptations.",
+      "mode": "agent"
+    },
+    "de2477f7de5571dbdbe656e9": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "unexpected_finding",
+      "reason": "Challenges previous reports of tumor age acceleration by showing bidirectional epigenetic age shifts across cancers, a significant discrepancy.",
+      "angle": "Some tumors age faster, others slower—why the discrepancy? New study questions the 'tumor age acceleration' dogma.",
+      "mode": "agent"
+    },
+    "8ceb4683a1d2939678198258": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "technical",
+      "reason": "Technical framework for fault diagnosis in hybrid power systems; not directly relevant to aging or health, and lacks broad appeal.",
+      "angle": "How AI and physics combine to keep island microgrids running—a blueprint for resilient energy systems.",
+      "mode": "agent"
+    },
+    "08d7b162c10f162f1aa18f74": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies lactate receptor GPR81 as a target to ameliorate senescence and improve muscle function, a novel therapeutic avenue.",
+      "angle": "Activating the lactate receptor could reverse aging hallmarks in muscle—new hope for progeria and sarcopenia.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "lifestyle",
+      "reason": "Generic advice on senior workouts; lacks specific new findings or unique angle.",
+      "angle": "A trainer's simple daily routine to boost balance and strength—what makes it effective for seniors?",
+      "mode": "agent"
+    },
+    "628fba671bb13fc20dfac71b": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "protective_factor",
+      "reason": "Highlights overall brain health as a protective factor against early Alzheimer's memory decline, offering a positive, actionable message.",
+      "angle": "Keeping your brain healthy overall may shield memory from early Alzheimer's—new study shows protective effect.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "375fb29d7511db082bed2796",
+    "8525ef13643e6f8227285638",
+    "de2477f7de5571dbdbe656e9",
+    "08d7b162c10f162f1aa18f74",
+    "628fba671bb13fc20dfac71b"
+  ],
+  "held_back": [
+    "616f0fc71a48824a3135566c",
+    "11abe8f3fd3c8d6a3a5a424a",
+    "8ceb4683a1d2939678198258",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

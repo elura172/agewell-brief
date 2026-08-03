@@ -1,0 +1,25 @@
+[
+  {
+    "article_id": "8525ef13643e6f8227285638",
+    "study_type": "observational study using AI on sleep data",
+    "key_claims": [
+      "A novel AI model can use information from routine sleep studies to identify long-term health risks.",
+      "The model uncovered hidden sleep patterns linked to risks including heart disease, cognitive decline, and death.",
+      "The study was published in Nature Communications.",
+      "The model was developed by a multidisciplinary research team."
+    ],
+    "limitations": [
+      "The source does not specify the size or demographics of the study population.",
+      "The source does not detail the AI model's methodology or validation.",
+      "The source does not provide effect sizes or statistical significance.",
+      "The source does not mention potential biases or limitations of the study."
+    ],
+    "what_not_to_say": [
+      "The AI model can predict individual health outcomes.",
+      "The AI model is ready for clinical use.",
+      "The study proves a causal link between sleep patterns and health risks.",
+      "The AI model is superior to existing methods."
+    ],
+    "confidence": "limited"
+  }
+]
