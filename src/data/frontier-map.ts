@@ -15,8 +15,8 @@ export const frontierTerritories: FrontierTerritory[] = [
     slug: "functional-health",
     name: "Functional health",
     shortName: "Function",
-    description: "The everyday systems that help a person remain capable, steady, curious, and independent.",
-    question: "What keeps the body useful in the world it actually lives in?",
+    description: "The physical, metabolic, and neural foundations that maintain daily vigor, sharp cognition, and physical autonomy.",
+    question: "How do we keep the human vessel resilient, strong, and thriving throughout life?",
     status: "established",
     categories: ["brain health", "gut health", "metabolic health", "mobility", "sleep health", "general wellness"]
   },
@@ -24,8 +24,8 @@ export const frontierTerritories: FrontierTerritory[] = [
     slug: "regenerative-health",
     name: "Regenerative health",
     shortName: "Regeneration",
-    description: "Research on repair, resilience, senescence, mitochondrial function, epigenetics, and healthspan.",
-    question: "How does the body repair, adapt, and recover over time?",
+    description: "Mitochondrial dynamics, senolytic cell clearing, NRF-2 antioxidant activation, and epigenetic renewal.",
+    question: "How do living tissues clean house, evict senescent cells, and reboot endogenous repair?",
     status: "emerging",
     categories: ["cellular senescence", "longevity", "detoxification", "metabolic health"]
   },
@@ -33,17 +33,17 @@ export const frontierTerritories: FrontierTerritory[] = [
     slug: "quantum-biology",
     name: "Quantum biology",
     shortName: "Quantum biology",
-    description: "The frontier where quantum processes, molecular biology, light, energy transfer, and living systems meet.",
-    question: "Which quantum effects can be measured in living systems, and what might they explain?",
+    description: "The frontier where subatomic quantum tunneling, electron transport, magnetoreception, and living systems meet.",
+    question: "How do quantum phenomena govern enzyme catalysis, neural processing, and energy transfer inside living cells?",
     status: "emerging",
     categories: ["cellular senescence", "longevity", "brain health", "metabolic health"]
   },
   {
     slug: "vibrational-regenerative-health",
-    name: "Vibrational and biophotonic health",
-    shortName: "Vibration",
-    description: "A historical and emerging field of inquiry into biophotons, coherence, frequency, water, sound, and biological signaling.",
-    question: "What signals travel through a living system, and how confidently can we measure them?",
+    name: "Vibrational & biophotonic health",
+    shortName: "Vibration & light",
+    description: "Biophoton emissions (Fritz-Albert Popp), structured cellular water, electromagnetic signaling, and living matrix coherence.",
+    question: "How do light and electromagnetic frequencies coordinate signaling across 37 trillion cells simultaneously?",
     status: "contested",
     categories: ["general wellness", "cellular senescence", "detoxification", "brain health"]
   }
