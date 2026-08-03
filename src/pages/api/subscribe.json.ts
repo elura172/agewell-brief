@@ -16,8 +16,9 @@ export const POST: APIRoute = async ({ request }) => {
 
     if (LOOPS_API_KEY) {
       try {
-        await fetch("https://app.loops.so/api/v1/contacts/create", {
-          method: "POST",
+        // 1. Upsert contact in Loops audience
+        await fetch("https://app.loops.so/api/v1/contacts/update", {
+          method: "PUT",
           headers: {
             "Authorization": `Bearer ${LOOPS_API_KEY}`,
             "Content-Type": "application/json"
@@ -27,6 +28,24 @@ export const POST: APIRoute = async ({ request }) => {
             source: "Agewell Brief Homepage & Lead Magnet",
             userGroup: "Agewell Subscribers",
             subscribed: true
+          })
+        });
+
+        // 2. Trigger automated signup event in Loops for automated campaign delivery
+        await fetch("https://app.loops.so/api/v1/events/send", {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${LOOPS_API_KEY}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            email,
+            eventName: "agewell_subscriber_signup",
+            eventProperties: {
+              lead_magnet_delivered: true,
+              field_guides_count: 6,
+              source: "Agewell Brief Web"
+            }
           })
         });
       } catch (err) {
