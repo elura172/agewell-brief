@@ -363,6 +363,14 @@ python3 -m scripts.social_manifest register \
   --job-id JOB_ID
 ```
 
+The local content-factory runner consumes `ready_for_mpt` jobs from the
+manifest, invokes MoneyPrinterTurbo with the configured English voice and
+high-contrast captions, submits the resulting video to Upload-Post, and pushes
+only state changes back to GitHub. `ops/com.elura.agewell-content-factory.plist`
+provides a macOS LaunchAgent schedule at 15-minute intervals; a lock prevents
+overlapping renders. The runner defaults to one article per pass so a slow
+video job cannot flood the connected accounts.
+
 ## 12. Review, rollback, and incident handling
 
 For a controlled release:
