@@ -23,14 +23,18 @@ image_avg_color: "#323E3E"
 ---
 
 Researchers used patient-derived brain organoids to reveal why some people with Alzheimer's may respond to an antidepressant while others don't, and identified tiny particles that could one day aid diagnosis.
-
-
-> **Related resource — affiliate link:** We may earn a commission if you choose to visit an optional resource. [Explore a related brain health resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_737201fd1edda9bd5cda0be7).
-
-
 ## Why this matters
 
 Alzheimer's disease affects more than 7 million Americans, and while there is no cure, medications like antidepressants are often used to manage symptoms such as anxiety, depression, and agitation. But responses vary widely from person to person, leaving doctors without a reliable way to predict who will benefit.
+
+
+<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
+<p class="resource-kicker">Practical follow-up</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_737201fd1edda9bd5cda0be7" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 This study, led by scientists at Johns Hopkins Medicine, suggests that miniature brain models grown from a patient's own cells could help change that. By observing how these 'organoids' respond to a drug, researchers hope to identify subgroups of patients who are more likely to respond to specific treatments, moving closer to personalized care.
 
@@ -69,6 +73,12 @@ If these efforts succeed, organoids and vesicle-based biomarkers could eventuall
 This analysis is based on [Lab-grown mini brains may predict which Alzheimer’s treatments will work](https://www.sciencedaily.com/releases/2026/07/260721000844.htm) from ScienceDaily Healthy Aging. Read the original report for full context.
 
 
-> **Affiliate disclosure:** These optional resources may earn us a commission. [View the related resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_737201fd1edda9bd5cda0be7).
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_737201fd1edda9bd5cda0be7" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 > **Health note:** This was a laboratory study using cell models, not a clinical trial. Findings do not prove that organoid responses predict patient outcomes or that the antidepressant is effective for Alzheimer's symptoms.

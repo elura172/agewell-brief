@@ -23,6 +23,12 @@ New research suggests that lack of sleep might cause a harmful immune response i
 This brief is based on [Two hours of sleep restored: Researchers make Alzheimer's breakthrough](https://medicalxpress.com/news/2026-07-hours-alzheimer-breakthrough.html) from Medical Xpress Sleep. Read the original report for full context.
 
 
-> **Affiliate disclosure:** This optional recommendation may earn us a commission. [View the related resource](https://94aa4zrcl06n5o0hi88fd24ra3.hop.clickbank.net?tid=agewell_brain_health_4a857d522998779bfa5d6ab1).
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://94aa4zrcl06n5o0hi88fd24ra3.hop.clickbank.net?tid=agewell_brain_health_4a857d522998779bfa5d6ab1" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 > **Health note:** This is early research; no treatment or cure is available yet. Consult a qualified healthcare professional for personal advice.

@@ -23,14 +23,18 @@ image_avg_color: "#736158"
 ---
 
 A sweeping analysis of over 350 studies suggests that many sedentary people may be consuming more protein than they need, and that cutting back could improve metabolism and reduce inflammation. But experts caution that the right amount depends on age and activity level.
-
-
-> **Related resource — affiliate link:** We may earn a commission if you choose to visit an optional resource. [Explore a related longevity resource](https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_e7e51910ab26fbbacce2e4fc).
-
-
 ## Why this matters
 
 Protein is everywhere these days – in cereal, coffee, even water. But a new review of more than 350 studies suggests that for many of us, especially those who are not very active, eating less protein might be better for our health and longevity. The review, published in the journal Cell Press Blue, found that reducing protein intake can improve metabolism, reduce inflammation, and help cells function better. These effects are linked to healthier aging and a longer life, according to the researchers.
+
+
+<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
+<p class="resource-kicker">Practical follow-up</p>
+<h3>A practical follow-up for healthy aging</h3>
+<p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
+<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_e7e51910ab26fbbacce2e4fc" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 This is important because current dietary guidelines encourage higher protein intake, especially for older adults. The new recommendations call for daily protein consumption of 1.2-1.6 grams per kilogram of body weight, nearly twice the previous amount. But the new evidence suggests that a one-size-fits-all approach may not be right for everyone. As Americans consume more protein than ever, it's crucial to understand whether that extra protein is helping or harming our health.
 
@@ -71,6 +75,12 @@ The review's findings suggest that protein restriction may offer an alternative 
 This analysis is based on [Eating less protein could slow aging, major review finds](https://www.sciencedaily.com/releases/2026/08/260801042811.htm) from ScienceDaily Top Health. Read the original report for full context.
 
 
-> **Affiliate disclosure:** These optional resources may earn us a commission. [View the related resource](https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_e7e51910ab26fbbacce2e4fc).
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for healthy aging</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_e7e51910ab26fbbacce2e4fc" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 > **Health note:** This review is based on a mix of animal and human studies, and the effects in humans may differ. The source does not specify exact amounts or durations, and some groups may need more protein. Consult a healthcare provider before making significant dietary changes.

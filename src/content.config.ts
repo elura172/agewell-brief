@@ -21,6 +21,7 @@ const briefs = defineCollection({
     image_provider_id: z.string().optional(),
     image: z.string().refine((value) => value.startsWith("/") || URL.canParse(value), "Expected a local or absolute image URL").optional(),
     image_alt: z.string().optional(),
+    image_caption: z.string().optional(),
     image_width: z.number().int().positive().default(1200),
     image_height: z.number().int().positive().default(627),
     image_photographer: z.string().optional(),

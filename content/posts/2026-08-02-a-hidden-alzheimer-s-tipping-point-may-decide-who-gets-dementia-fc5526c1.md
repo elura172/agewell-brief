@@ -67,6 +67,12 @@ Stay informed about Alzheimer's research, but be wary of headlines that promise 
 This analysis is based on [A hidden Alzheimer’s tipping point may decide who gets dementia](https://www.sciencedaily.com/releases/2026/07/260726015257.htm) from ScienceDaily Healthy Aging. Read the original report for full context.
 
 
-> **Affiliate disclosure:** This optional recommendation may earn us a commission. [View the related resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_fc5526c13bb1c2b350d5380e).
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_fc5526c13bb1c2b350d5380e" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 > **Health note:** This study is observational and based on brain tissue; it does not prove causation or provide clinical recommendations.

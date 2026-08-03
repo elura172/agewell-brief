@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import EditorialImage from "../components/EditorialImage.astro";
+import trendingData from "../data/trending.json";
 
 const showDrafts = import.meta.env.DEV;
 const entries = (await getCollection("briefs"))
@@ -16,6 +17,10 @@ const latestIds = new Set([featured?.id, ...recent.map((entry) => entry.id)]);
 const earlier = entries.filter((entry) => !latestIds.has(entry.id));
 const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
 const editionDate = featured ? formatDate(featured.data.date) : formatDate(new Date());
+const formatVisits = (value: number) => new Intl.NumberFormat("en-CA", { notation: "compact", maximumFractionDigits: 1 }).format(value);
+const trending = (trendingData.articles ?? [])
+  .map((item) => ({ item, entry: entries.find((entry) => entry.id === item.slug) }))
+  .filter((row) => Boolean(row.entry && row.item.visits > 0));
 ---
 <Layout>
   {showDrafts && <div class="edition-strip" aria-label="Preview status"><span>LOCAL DRAFT PREVIEW</span><span>NOT PUBLIC</span></div>}
@@ -90,6 +95,23 @@ const editionDate = featured ? formatDate(featured.data.date) : formatDate(new D
       <ul><li>Readable reporting</li><li>Visible sources</li><li>Questions worth asking</li></ul>
     </div>
   </section>
+
+  {trending.length > 0 && <section class="trending-section" aria-labelledby="trending-heading">
+    <div class="trending-heading">
+      <div>
+        <p class="eyebrow">Reader signal</p>
+        <h2 id="trending-heading">Trending this week</h2>
+      </div>
+      <p>Most visited briefs over the last {trendingData.window_days} days.</p>
+    </div>
+    <ol class="trending-list">
+      {trending.map(({ item, entry }, index) => <li>
+        <span class="trending-index">{String(index + 1).padStart(2, "0")}</span>
+        <a href={`/brief/${entry.id}/`}>{entry.data.title}</a>
+        <span class="trending-views">{formatVisits(item.visits)} reader visits</span>
+      </li>)}
+    </ol>
+  </section>}
 
   {earlier.length > 0 && <section id="archive" class="archive-section" aria-labelledby="archive-heading">
     <div class="section-heading archive-heading">

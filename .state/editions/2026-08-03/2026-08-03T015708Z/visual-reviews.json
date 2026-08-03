@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "924241cde4ecb8e14876a259",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:11730899",
+      "score": 85,
+      "rationale": "The image depicts a scientist using a microscope in a modern laboratory, which aligns with the editorial intent of showing scientific research on cellular aging. The metadata indicates a bright, modern lab setting and a researcher at work, matching the subject and mood of the story. It avoids the prohibited elements such as pills, miracle imagery, or stereotypes.",
+      "concerns": [
+        "The image does not explicitly show cellular imagery or 'zombie cells', but it conveys the scientific process. The alt text is generic but acceptable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-03/could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd-pexels-11730899.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
