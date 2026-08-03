@@ -34,7 +34,7 @@ const {
     width={width}
     height={height}
     loading={eager ? "eager" : "lazy"}
-    fetchpriority={eager ? "high" : "auto"}
+    {...(eager ? { fetchpriority: "high" } : {})}
     decoding="async"
   />
   <figcaption>
