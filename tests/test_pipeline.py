@@ -703,8 +703,9 @@ def test_run_writes_complete_shadow_edition_audit(monkeypatch, tmp_path: Path):
             "failed-drafts.json",
             "visual-reviews.json",
             "evergreen-context.json",
-            "assignments.json",
-            "copy-reviews.json",
+        "assignments.json",
+        "novelty-reviews.json",
+        "copy-reviews.json",
             "commercial-reviews.json",
             "release-manifest.json",
     }

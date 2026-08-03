@@ -19,7 +19,7 @@ from bs4 import BeautifulSoup
 from openai import OpenAI
 
 from agewell.affiliates import load_health_status, select_offer, select_offers, tracked_offer_url
-from agewell.agents import assignment_editor, commercial_integrity, copy_edit, release_manager
+from agewell.agents import assignment_editor, commercial_integrity, copy_edit, novelty_editor, release_manager
 from agewell.context import ContextHit, build_context_index, retrieve_context
 from agewell.edition import EditionRecorder, audit_release
 from agewell.editorial import (
@@ -60,6 +60,7 @@ LEAD_SOURCE_CHARS = int(os.getenv("LEAD_SOURCE_CHARS", "18000"))
 MIN_LEAD_SOURCE_CHARS = int(os.getenv("MIN_LEAD_SOURCE_CHARS", "2500"))
 CANDIDATE_POOL_SIZE = int(os.getenv("CANDIDATE_POOL_SIZE", "9"))
 TREND_CANDIDATE_MIN_SCORE = float(os.getenv("TREND_CANDIDATE_MIN_SCORE", "14"))
+NOVELTY_MIN_SCORE = int(os.getenv("NOVELTY_MIN_SCORE", "58"))
 AUTO_PUBLISH = os.getenv("AUTO_PUBLISH", "false").lower() in {"1", "true", "yes"}
 AUTO_PUBLISH_UNTIL = os.getenv("AUTO_PUBLISH_UNTIL", "")
 PUBLIC_ROOT = Path(os.getenv("PUBLIC_ROOT", ROOT / "public"))
@@ -991,7 +992,18 @@ def run() -> int:
     candidates = fetch_ranked_items(sources, state, max(MAX_ITEMS, CANDIDATE_POOL_SIZE))
     trend_topics = load_trend_topics()
     recent_titles = [path.stem for path in sorted(OUTPUT_DIR.glob("*.md"))[-40:]]
-    assignment = assignment_editor(client, MODEL, candidates, trend_topics, recent_titles, MAX_ITEMS)
+    novelty = novelty_editor(client, MODEL, candidates, trend_topics, recent_titles, NOVELTY_MIN_SCORE)
+    novelty_scores = novelty.get("scores", {})
+    commissioned = [
+        item for item in candidates
+        if novelty_scores.get(item_id(item), {}).get("score", 0) >= NOVELTY_MIN_SCORE
+    ]
+    if not commissioned and candidates:
+        # Keep the desk alive during a quiet news cycle, but only rescue its
+        # strongest candidate instead of publishing a full batch of filler.
+        commissioned = [max(candidates, key=lambda item: novelty_scores.get(item_id(item), {}).get("score", 0))]
+        novelty["rescue"] = "No candidate cleared the novelty threshold; retained the strongest available story."
+    assignment = assignment_editor(client, MODEL, commissioned, trend_topics, recent_titles, MAX_ITEMS)
     candidate_by_id = {item_id(item): item for item in candidates}
     assigned_candidates = [
         candidate_by_id[row["article_id"]]
@@ -1233,6 +1245,7 @@ def run() -> int:
     recorder.write("evergreen-context", context_artifacts)
     recorder.write("failed-drafts", failure_artifacts)
     recorder.write("assignments", assignment)
+    recorder.write("novelty-reviews", novelty)
     recorder.write("copy-reviews", copy_artifacts)
     recorder.write("commercial-reviews", commercial_artifacts)
     recorder.write(
