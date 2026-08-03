@@ -1,14 +1,18 @@
 {
-  "status": "upload_failed",
+  "status": "ready_for_mpt",
   "subject": "Could this enzyme help remove 'zombie' cells from our tissues?",
   "article_url": "https://agewellbrief.com/brief/2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd/",
   "video_aspect": "9:16",
   "voice_name": "en-US-JennyNeural",
+  "script": "Could this enzyme help remove 'zombie' cells from our tissues?. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
+  "source_url": "https://medicalxpress.com/news/2026-07-enzyme-zombie-cells-tissues.html",
+  "trend": {
+    "rank": 5,
+    "reader_visits": 11
+  },
   "text_fore_color": "#FFFFFF",
   "stroke_color": "#000000",
   "stroke_width": 4,
   "font_size": 64,
-  "requires_video_qa": true,
-  "updated_at": "2026-08-03T02:30:31.155465+00:00",
-  "last_error": "IsADirectoryError"
+  "requires_video_qa": true
 }
