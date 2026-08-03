@@ -32,6 +32,46 @@ const logoURL = new URL("/logo.svg", Astro.site).href;
 const related = publishedBriefs(await getCollection("briefs"))
   .filter((candidate) => candidate.id !== entry.id && candidate.data.category === entry.data.category)
   .slice(0, 2);
+const categoryToProtocol: Record<string, { name: string; focus: string; href: string; pdfUrl: string }> = {
+  "brain health": {
+    name: "Luminous Mind Protocol",
+    focus: "Whole-system cognitive care, sleep, and neural resilience",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
+    pdfUrl: "/downloads/field-guides/luminous-mind-field-guide.pdf"
+  },
+  "cellular senescence": {
+    name: "Cell Shedding Protocol",
+    focus: "Targeted cellular renewal and senolytic support",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
+    pdfUrl: "/downloads/field-guides/cell-shedding-field-guide.pdf"
+  },
+  "gut health": {
+    name: "Inner Garden Protocol",
+    focus: "Microbiome balance, gut mucosal integrity, and motility",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
+    pdfUrl: "/downloads/field-guides/inner-garden-field-guide.pdf"
+  },
+  "metabolic health": {
+    name: "Higher Flame Protocol",
+    focus: "Metabolic flexibility, glucose transport, and mitochondrial energy",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
+    pdfUrl: "/downloads/field-guides/higher-flame-field-guide.pdf"
+  },
+  "detoxification": {
+    name: "Living Waters Protocol",
+    focus: "Liver sequence processing, hydration, and cellular transport",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
+    pdfUrl: "/downloads/field-guides/living-waters-field-guide.pdf"
+  },
+  "longevity": {
+    name: "Dark Mirror Protocol",
+    focus: "Advanced mineral clearing and biological aging support",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
+    pdfUrl: "/downloads/field-guides/dark-mirror-field-guide.pdf"
+  }
+};
+
+const protocolCard = categoryToProtocol[entry.data.category.toLowerCase()] ?? categoryToProtocol["brain health"];
 const frontierLinks = frontierForCategory(entry.data.category);
 const structuredData = [
   {
@@ -120,6 +160,24 @@ const structuredData = [
       <p class="article-image-note"><span>In the frame</span> {entry.data.image_caption ?? "A glimpse of the everyday routines behind this story."}</p>
     </div>}
     <div class="article-content"><Content /></div>
+
+    <aside class="article-protocol-card" aria-label="Recommended Fullscript Protocol">
+      <div class="protocol-card-header">
+        <span class="protocol-eyebrow">Program Protocol · Fullscript Direct</span>
+        <h3>{protocolCard.name}</h3>
+        <p class="protocol-focus">{protocolCard.focus}</p>
+      </div>
+      <div class="protocol-card-actions">
+        <a class="protocol-primary-btn" href={protocolCard.href} rel="noopener noreferrer" target="_blank">
+          View Protocol on Fullscript <span aria-hidden="true">→</span>
+        </a>
+        <a class="protocol-pdf-btn" href={protocolCard.pdfUrl} download>
+          📄 Download Companion Guide (PDF)
+        </a>
+      </div>
+      <p class="protocol-disclosure">Verified practitioner formulation. Commission-supported; no added cost to you.</p>
+    </aside>
+
     {related.length > 0 && <section class="related-briefs" aria-labelledby="related-heading">
       <div>
         <p class="eyebrow">Continue the thread</p>
@@ -133,3 +191,80 @@ const structuredData = [
     <footer class="article-footer"><span>Keep asking better questions.</span><a href="/#subscribe">Get tomorrow’s edition →</a></footer>
   </article>
 </Layout>
+
+<style>
+  .article-protocol-card {
+    margin: 40px 0;
+    padding: 28px 32px;
+    background: var(--cream);
+    border: 1px solid var(--saffron-soft);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+  }
+  .protocol-eyebrow {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--saffron-ink);
+    margin-bottom: 6px;
+  }
+  .article-protocol-card h3 {
+    font-family: var(--serif);
+    font-size: 1.35rem;
+    color: var(--ink);
+    margin: 0 0 6px;
+  }
+  .protocol-focus {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: 18px;
+  }
+  .protocol-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .protocol-primary-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 18px;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  .protocol-primary-btn:hover {
+    background: var(--saffron-ink);
+  }
+  .protocol-pdf-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 16px;
+    background: var(--paper);
+    color: var(--ink);
+    font-size: 0.82rem;
+    font-weight: 600;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .protocol-pdf-btn:hover {
+    border-color: var(--saffron);
+    background: var(--cream);
+  }
+  .protocol-disclosure {
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin: 0;
+  }
+</style>
