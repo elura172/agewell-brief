@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "dfbdeb5d4a3fc197bbfd03d9",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:4149034",
+      "score": 85,
+      "rationale": "The image depicts a scientist in protective gear examining a blood sample through a magnifying glass, which directly aligns with the story's focus on blood-based biomarkers for Alzheimer's detection. The setting is a laboratory, matching the editorial intent. The mood is focused and scientific, without negative stereotypes.",
+      "concerns": [
+        "The image shows a magnifying glass, which may not be the most modern representation of blood analysis, but it is still relevant. The protective gear is appropriate for lab work."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-03/technological-advances-in-detecting-and-managing-cognitive-impairment--dfbdeb5d-pexels-4149034.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

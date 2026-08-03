@@ -1,0 +1,27 @@
+[
+  {
+    "article_id": "dfbdeb5d4a3fc197bbfd03d9",
+    "study_type": "review",
+    "key_claims": [
+      "Routine assessment often misses the earliest signs of cognitive decline from mild cognitive impairment to dementia.",
+      "EEG markers and deep learning models report strong accuracy but many rely on small, single-site datasets unlikely to survive rigorous external validation.",
+      "Plasma p-tau217 has reached clinical utility, with the first blood test cleared to aid Alzheimer's diagnosis in 2025.",
+      "Anti-amyloid therapies (lecanemab, donanemab) are approved despite modest, contested benefits.",
+      "Wearable, remote, speech, and virtual-reality tools enable continuous, ecologically valid monitoring, and multimodal fusion improves sensitivity and specificity.",
+      "Barriers remain: standardization, explainability, data privacy, and equitable, externally validated deployment."
+    ],
+    "limitations": [
+      "The source is an abstract and may not include full methodological details.",
+      "The source does not specify the number of studies reviewed or the criteria for inclusion.",
+      "The source does not provide quantitative effect sizes or confidence intervals for the reported findings.",
+      "The source does not detail the specific barriers or how they might be overcome."
+    ],
+    "what_not_to_say": [
+      "The source does not claim that EEG or deep learning models are clinically validated or ready for widespread use.",
+      "The source does not claim that anti-amyloid therapies are definitively effective or safe.",
+      "The source does not claim that the blood test is universally available or recommended for all patients.",
+      "The source does not claim that wearable or remote monitoring tools are superior to traditional assessments in all settings."
+    ],
+    "confidence": "moderate"
+  }
+]

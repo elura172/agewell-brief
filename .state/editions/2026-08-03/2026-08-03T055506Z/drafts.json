@@ -1,0 +1,47 @@
+[
+  {
+    "article_id": "dfbdeb5d4a3fc197bbfd03d9",
+    "content_type": "lead",
+    "headline": "Technological Advances in Detecting and Managing Cognitive Impairment in Older Adults: Trends, Challenges, and Future Directions",
+    "dek": "A sweeping review of recent research finds real progress in blood tests and digital monitoring, but many AI-driven detection tools still need rigorous validation before they're ready for the clinic.",
+    "bullets": [
+      "Blood test for Alzheimer's is now clinically available.",
+      "AI detection tools need more rigorous external validation.",
+      "Lifestyle changes remain the most reliable brain health strategy."
+    ],
+    "caveat": "This article is based on a preprint review and should not be used for self-diagnosis or treatment decisions. Consult a healthcare professional for personalized advice.",
+    "sections": [
+      {
+        "heading": "Why this matters",
+        "paragraphs": [
+          "For the millions of older adults who worry about memory lapses, the prospect of catching cognitive decline early is both hopeful and fraught. The stakes are high: early detection could open the door to interventions that slow progression, yet a missed diagnosis can mean lost time. Routine checkups often miss the earliest signs, leaving families to wonder what's normal aging and what's not.",
+          "This review, posted on the arXiv preprint server, takes stock of the technological landscape—from EEG brain-wave caps to blood tests and smartphone apps—and asks which tools are truly ready for prime time. The answer is nuanced: some advances are already changing practice, while others remain promising but unproven."
+        ]
+      },
+      {
+        "heading": "What the review found",
+        "paragraphs": [
+          "The most tangible breakthrough is in blood-based biomarkers. Plasma p-tau217, a protein linked to Alzheimer's disease, has reached clinical utility, and the first blood test to aid Alzheimer's diagnosis was cleared in 2025. This is a genuine shift, offering a less invasive and more accessible way to detect amyloid pathology than PET scans or spinal taps.",
+          "Meanwhile, wearable devices, speech analysis, and virtual reality tools are enabling continuous, real-world monitoring of cognitive function. These digital markers, combined with AI, can improve sensitivity and specificity when used together—a multimodal approach that captures a fuller picture than any single test.",
+          "But the review is candid about the limits. Many EEG-based markers and deep learning models report high accuracy, yet they often rely on small, single-site datasets that may not hold up in broader populations. The authors stress the need for external validation before these tools can be trusted in everyday practice."
+        ]
+      },
+      {
+        "heading": "How to interpret the news",
+        "paragraphs": [
+          "It's easy to get swept up in headlines about AI detecting dementia or a simple blood test predicting Alzheimer's. But this review reminds us that the evidence is uneven. The blood test is a real advance, but it's not a standalone diagnosis—it's one piece of a larger puzzle. Anti-amyloid drugs like lecanemab and donanemab are approved, but their benefits are modest and contested, so they're not a cure.",
+          "The review's call for rigorous, externally validated studies is a healthy corrective. It doesn't mean these tools are useless; it means we should be cautious about adopting them wholesale. For now, the most reliable path to brain health remains the basics: regular checkups, managing cardiovascular risk factors, staying socially and mentally active, and seeking evaluation if you or a loved one notice persistent changes.",
+          "As the field moves forward, expect more multimodal systems that combine blood tests, digital monitoring, and clinical judgment. The promise is real, but so is the need for patience and scrutiny."
+        ]
+      },
+      {
+        "heading": "Practical next steps",
+        "paragraphs": [
+          "If you're concerned about memory changes, start with a conversation with your primary care provider. They can assess your risk factors and refer you to a specialist if needed. Ask about cognitive screening and whether a blood test might be appropriate for your situation—but understand that it's not a routine test for everyone yet.",
+          "Stay informed about new developments, but be wary of overhyped claims. Look for studies that have been validated in diverse, real-world populations, not just in a single lab. And remember that lifestyle factors—diet, exercise, sleep, social engagement—remain powerful tools for brain health, even as technology advances.",
+          "Finally, consider participating in research if you're able. Many studies need volunteers to help validate new tools, and your participation could help ensure they work for people like you."
+        ]
+      }
+    ]
+  }
+]
