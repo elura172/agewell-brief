@@ -801,7 +801,7 @@ def resource_card(url: str, category: str, *, primary: bool = False, first_party
         if first_party
         else "Commission-supported; no added cost to you."
     )
-    rel = "sponsored noopener noreferrer"
+    rel = "noopener noreferrer"
     return f'''\n\n<aside class="resource-card{' resource-card--primary' if primary else ''}" aria-label="{label}">
 <p class="resource-kicker">{label}</p>
 <h3>{heading}</h3>
