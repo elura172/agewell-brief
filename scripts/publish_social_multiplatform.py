@@ -88,6 +88,15 @@ def publish_video_reel(article_id: str, video_path: Path, title: str, caption: s
         return json.loads(resp.read().decode("utf-8"))
 
 def main():
+    # Load .env if available
+    env_file = ROOT / ".env"
+    if env_file.exists():
+        for line in env_file.read_text().splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+
     api_key = os.environ.get("UPLOAD_POST_API_KEY", "").strip()
     username = os.environ.get("UPLOAD_POST_USERNAME", "").strip()
 
@@ -97,7 +106,8 @@ def main():
         return
 
     latest = read_json(LATEST_FILE, {"packages": []})
-    manifest = read_json(MANIFEST_FILE, {"articles": {}})
+    manifest = read_json(MANIFEST_FILE, {"schema_version": 1, "articles": {}})
+    articles_manifest = manifest.setdefault("articles", {})
 
     print(f"🚀 Processing Multi-Platform Handoff for {len(latest.get('packages', []))} articles...\n")
 
@@ -105,23 +115,49 @@ def main():
         article_id = str(pkg["article"])
         title = str(pkg.get("content_record", {}).get("title", article_id))
         category = str(pkg.get("category", "Biophysics"))
-        url = str(pkg.get("url", ""))
+        
+        art_entry = articles_manifest.setdefault(article_id, {
+            "article_id": article_id,
+            "title": title,
+            "category": category,
+            "platforms": {}
+        })
+        platforms_state = art_entry.setdefault("platforms", {})
 
         caption = f"✨ {title}\n\nDeep biophysics analysis on {category}. Tap link in bio to read full study + unlock 6 Free Field Guides at AgewellBrief.com\n\n#Biophysics #Longevity #CellularLight #AgewellBrief"
 
         # Check for rendered video reel
         video_file = ROOT / f".state/social/videos/{article_id}.mp4"
         if video_file.exists():
-            print(f"  📹 Uploading 9:16 Video Reel for '{article_id}' to Instagram, TikTok, YouTube Shorts...")
-            try:
-                res = publish_video_reel(article_id, video_file, title, caption, ["instagram", "tiktok", "youtube"], api_key, username)
-                print(f"    ✓ Video Reel queued! Job ID: {res.get('job_id')}")
-            except Exception as err:
-                print(f"    ⚠️ Video upload notice: {err}")
+            # Determine which platforms still need upload
+            pending_platforms = []
+            for p in ["tiktok", "youtube", "instagram"]:
+                p_status = platforms_state.get(p, {}).get("status")
+                if p_status not in {"queued", "processing", "completed"}:
+                    pending_platforms.append(p)
+
+            if pending_platforms:
+                print(f"  📹 Uploading 9:16 Video Reel for '{article_id}' to {', '.join(pending_platforms)}...")
+                try:
+                    res = publish_video_reel(article_id, video_file, title, caption, pending_platforms, api_key, username)
+                    job_id = res.get("job_id") or res.get("request_id")
+                    for p in pending_platforms:
+                        platforms_state[p] = {
+                            "status": "queued",
+                            "job_id": job_id,
+                            "updated_at": now()
+                        }
+                    print(f"    ✓ Video Reel queued! Job ID: {job_id}")
+                except Exception as err:
+                    print(f"    ⚠️ Video upload notice for '{article_id}': {err}")
+            else:
+                print(f"  🛡️ Video reel for '{article_id}' already uploaded/queued to TikTok, YouTube, Instagram (Duplicate Blocked).")
         else:
             print(f"  ℹ️ Video reel for '{article_id}' pending MoneyPrinterTurbo render. Prepared in manifest.")
 
-    print("\n✅ Multi-Platform Social Handoff Check Complete!")
+    manifest["updated_at"] = now()
+    write_json(MANIFEST_FILE, manifest)
+    print("\n✅ Multi-Platform Social Handoff Check Complete! Manifest synced.")
 
 if __name__ == "__main__":
     main()
