@@ -1,10 +1,12 @@
-// Native Web Audio API Ambient Synthesizer for Mind Ocean
+// Native Web Audio API Ambient Synthesizer for Mind Ocean (432 Hz & 528 Hz Cellular Light Frequencies)
 export class MindOceanAudio {
   private ctx: AudioContext | null = null;
   private masterGain: GainNode | null = null;
   private isMuted: boolean = true;
-  private droneOsc1: OscillatorNode | null = null;
-  private droneOsc2: OscillatorNode | null = null;
+  private drone432: OscillatorNode | null = null;
+  private drone528: OscillatorNode | null = null;
+  private subDrone: OscillatorNode | null = null;
+  private lfo: OscillatorNode | null = null;
   private isInitialized: boolean = false;
 
   public init() {
@@ -17,29 +19,50 @@ export class MindOceanAudio {
     this.masterGain.gain.value = 0; // Starts muted by default
     this.masterGain.connect(this.ctx.destination);
 
-    // Deep ambient ocean drone (432 Hz harmonics)
-    this.droneOsc1 = this.ctx.createOscillator();
-    this.droneOsc1.type = "sine";
-    this.droneOsc1.frequency.value = 108; // Sub-octave
+    // 1. Sub-Harmonic Foundation (108 Hz)
+    this.subDrone = this.ctx.createOscillator();
+    this.subDrone.type = "sine";
+    this.subDrone.frequency.value = 108;
 
-    this.droneOsc2 = this.ctx.createOscillator();
-    this.droneOsc2.type = "triangle";
-    this.droneOsc2.frequency.value = 216; // Harmonic
+    // 2. 432 Hz Natural Tuning Foundation
+    this.drone432 = this.ctx.createOscillator();
+    this.drone432.type = "sine";
+    this.drone432.frequency.value = 432;
+
+    // 3. 528 Hz Cellular DNA Repair & Biophotonic Light Frequency
+    this.drone528 = this.ctx.createOscillator();
+    this.drone528.type = "triangle";
+    this.drone528.frequency.value = 528;
+
+    // 4. Slow LFO Modulation for Organic Wave Swell (0.1 Hz)
+    this.lfo = this.ctx.createOscillator();
+    this.lfo.type = "sine";
+    this.lfo.frequency.value = 0.1;
+
+    const lfoGain = this.ctx.createGain();
+    lfoGain.gain.value = 0.08;
+    this.lfo.connect(lfoGain);
 
     const droneGain = this.ctx.createGain();
-    droneGain.gain.value = 0.15;
+    droneGain.gain.value = 0.12;
+    lfoGain.connect(droneGain.gain);
 
     const filter = this.ctx.createBiquadFilter();
     filter.type = "lowpass";
-    filter.frequency.value = 400;
+    filter.frequency.value = 650;
 
-    this.droneOsc1.connect(droneGain);
-    this.droneOsc2.connect(droneGain);
+    this.subDrone.connect(droneGain);
+    this.drone432.connect(droneGain);
+    this.drone528.connect(droneGain);
+
     droneGain.connect(filter);
     filter.connect(this.masterGain);
 
-    this.droneOsc1.start();
-    this.droneOsc2.start();
+    this.subDrone.start();
+    this.drone432.start();
+    this.drone528.start();
+    this.lfo.start();
+
     this.isInitialized = true;
   }
 
@@ -52,14 +75,19 @@ export class MindOceanAudio {
     this.isMuted = !this.isMuted;
     if (this.masterGain && this.ctx) {
       const now = this.ctx.currentTime;
-      const targetGain = this.isMuted ? 0 : 0.25;
-      this.masterGain.gain.linearRampToValueAtTime(targetGain, now + 0.4);
+      const targetGain = this.isMuted ? 0 : 0.22;
+      this.masterGain.gain.linearRampToValueAtTime(targetGain, now + 0.5);
     }
     return this.isMuted;
   }
 
-  public playNodeAudition(freq: number = 432, duration: number = 0.8) {
+  public playNodeAudition(index: number = 0, duration: number = 1.2) {
     if (this.isMuted || !this.ctx || !this.masterGain) return;
+
+    // Solfeggio Biophotonic Scale Frequencies (Hz)
+    const solfeggioScale = [432, 528, 639, 741, 852, 963, 1080];
+    const freq = solfeggioScale[index % solfeggioScale.length];
+
     const now = this.ctx.currentTime;
     const osc = this.ctx.createOscillator();
     const gain = this.ctx.createGain();
@@ -68,7 +96,7 @@ export class MindOceanAudio {
     osc.frequency.setValueAtTime(freq, now);
 
     gain.gain.setValueAtTime(0.01, now);
-    gain.gain.exponentialRampToValueAtTime(0.18, now + 0.08);
+    gain.gain.exponentialRampToValueAtTime(0.2, now + 0.1);
     gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
 
     osc.connect(gain);
