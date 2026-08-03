@@ -25,6 +25,8 @@ def frontmatter_value(text: str, key: str) -> str:
 
 def clean_markdown(text: str) -> str:
     text = re.sub(r"^---.*?---\s*", "", text, count=1, flags=re.DOTALL)
+    text = re.sub(r"<aside\b.*?</aside>", "", text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", "", text)
     text = re.sub(r"!\[[^]]*\]\([^)]*\)", "", text)
     text = re.sub(r"\[([^]]+)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[*_`>#]", "", text)
@@ -46,7 +48,18 @@ def changed_posts() -> list[Path]:
     return list(dict.fromkeys(paths))
 
 
-def package(path: Path) -> dict[str, object] | None:
+def trending_items(path: Path = Path("src/data/trending.json")) -> dict[str, dict[str, int]]:
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return {
+        str(item["slug"]): {"rank": index + 1, "visits": int(item.get("visits", 0))}
+        for index, item in enumerate(payload.get("articles", []))
+        if item.get("slug") and int(item.get("visits", 0)) > 0
+    }
+
+
+def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object] | None:
     text = path.read_text(encoding="utf-8")
     if frontmatter_value(text, "draft").lower() == "true":
         return None
@@ -55,17 +68,28 @@ def package(path: Path) -> dict[str, object] | None:
     body = clean_markdown(text)
     hook = body[:280].rstrip(".") + "."
     url = f"{BASE_URL}/brief/{path.stem}/"
+    source_url = frontmatter_value(text, "source_url") or frontmatter_value(text, "original_source")
+    trend_note = (
+        {"rank": trend["rank"], "reader_visits": trend["visits"]}
+        if trend
+        else None
+    )
+    script = (
+        f"{title}. Here is the useful signal, what the source found, and what it does not prove. "
+        f"Read the full Agewell Brief for the context and original source."
+    )
     return {
         "article": path.stem,
         "url": url,
         "category": category,
-        "source_url": frontmatter_value(text, "original_source"),
+        "trend": trend_note,
+        "source_url": source_url,
         "content_record": {
             "article_id": path.stem,
             "article_url": url,
             "title": title,
             "category": category,
-            "source_url": frontmatter_value(text, "original_source"),
+            "source_url": source_url,
             "editorial_body": body,
         },
         "mpt_job": {
@@ -74,6 +98,9 @@ def package(path: Path) -> dict[str, object] | None:
             "article_url": url,
             "video_aspect": "9:16",
             "voice_name": "en-US-JennyNeural",
+            "script": script,
+            "source_url": source_url,
+            "trend": trend_note,
             "text_fore_color": "#FFFFFF",
             "stroke_color": "#000000",
             "stroke_width": 4,
@@ -86,8 +113,8 @@ def package(path: Path) -> dict[str, object] | None:
         },
         "tiktok": {
             "hook": title,
-            "script": f"{title}. Here is what the source found, what it does not prove, and why it matters.",
-            "caption": f"{title} — read the full brief at Agewell Brief.",
+            "script": script,
+            "caption": f"{title}. Read the full brief at Agewell Brief. #healthyaging #healthnews",
             "link_in_bio": url,
             "media_status": "needs_vertical_video",
         },
@@ -102,12 +129,22 @@ def package(path: Path) -> dict[str, object] | None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default=".state/social/latest.json")
+    parser.add_argument("--trending", action="store_true", help="Also package the current reader-trending briefs")
+    parser.add_argument("--max-trending", type=int, default=5)
     args = parser.parse_args()
-    packages = [item for path in changed_posts() if (item := package(path))]
+    paths = changed_posts()
+    trends = trending_items() if args.trending else {}
+    for slug in list(trends)[: args.max_trending]:
+        path = Path("content/posts") / f"{slug}.md"
+        if path.exists():
+            paths.append(path)
+    paths = list(dict.fromkeys(paths))
+    packages = [item for path in paths if (item := package(path, trends.get(path.stem)))]
     payload = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "dry_run": True,
-        "schema_version": 2,
+        "schema_version": 3,
+        "includes_trending": args.trending,
         "packages": packages,
     }
     output = Path(args.output)
