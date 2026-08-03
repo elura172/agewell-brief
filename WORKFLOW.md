@@ -91,6 +91,12 @@ Use a balanced portfolio:
 - carefully selected general-interest or alternative-health sources for
   reader relevance, with claims checked against stronger sources where needed.
 
+Selected arXiv, bioRxiv, and medRxiv feeds are included for early discovery.
+Preprints are deliberately marked as a separate authority class and require a
+secondary check. They can surface an important direction quickly, but they are
+not peer-reviewed evidence and should never be framed as established clinical
+guidance.
+
 The active portfolio includes NIH, FDA, MedlinePlus, Medical Xpress,
 ScienceDaily, The Guardian's alternative-medicine feed, and Alternative
 Medicine Magazine. WorldwideHealth remains in
@@ -254,6 +260,13 @@ article hashes so repeated runs do not create duplicates.
 The public page adds original-source attribution, category navigation, related
 published briefs, and an accessible reading layout. Content should be useful on
 its own; affiliate placement must not obscure the reporting.
+
+For each selected edition item, the pipeline attempts to fetch readable source
+text from the linked article page, including structured article-body data or
+the main article paragraphs, up to the configured source limit. If extraction
+fails or produces less than 500 characters, it falls back to the RSS summary.
+The source character count and URL are retained in the run audit, making thin
+or summary-only inputs visible for review.
 
 ## 8. Affiliate and commercial routing
 

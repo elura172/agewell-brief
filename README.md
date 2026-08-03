@@ -103,6 +103,16 @@ provide a separately authorized private context bundle or companion repository
 and point the same variables at its checked-out path. Until that is configured,
 cloud editions continue normally without evergreen context.
 
+## Preprint discovery
+
+The feed portfolio includes selected arXiv categories (`q-bio`, `cs.LG`,
+`cs.AI`, and `physics.med-ph`), bioRxiv subject collections, and a medRxiv
+clinical/public-health collection. These are discovery sources, not proof of
+clinical effectiveness. They are marked as preprint sources and require a
+secondary check before publication. The article should identify the work as a
+preprint and distinguish its abstract or manuscript findings from peer-reviewed
+evidence.
+
 ## Editorial agents and image direction
 
 Each edition moves through an evidence analyst, story editor, image director,

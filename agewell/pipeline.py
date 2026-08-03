@@ -511,7 +511,8 @@ def choose_edition(candidates: list[FeedItem]) -> list[tuple[FeedItem, str, str 
             break
 
     signals = [candidate for candidate in candidates if candidate.link != lead.link][: max(0, MAX_ITEMS - 1)]
-    return [(lead, "lead", lead_source)] + [(signal, "signal", None) for signal in signals]
+    signal_entries = [(signal, "signal", fetch_article_text(signal)) for signal in signals]
+    return [(lead, "lead", lead_source)] + signal_entries
 
 
 def classify(item: FeedItem) -> str:
@@ -584,7 +585,7 @@ def draft(
     prompt: dict[str, Any] = {
         "source_title": item.title,
         "source_summary": item.summary[:5000],
-        "source_material": source_material[:LEAD_SOURCE_CHARS] if is_longform else item.summary[:5000],
+        "source_material": source_material[:LEAD_SOURCE_CHARS],
         "source_url": item.link,
         "source_name": item.source_name,
         "category": category,

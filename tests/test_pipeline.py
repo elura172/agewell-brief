@@ -1152,3 +1152,4 @@ def test_choose_edition_promotes_source_rich_story(monkeypatch):
     assert edition[0][0].link == "https://example.test/2"
     assert edition[0][1] == "lead"
     assert [entry[1] for entry in edition[1:]] == ["signal", "signal"]
+    assert all(entry[2] for entry in edition)

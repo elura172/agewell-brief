@@ -163,5 +163,82 @@
     "categories": ["general wellness", "mobility", "sleep health"],
     "max_daily_items": 1,
     "requires_secondary_check": true
+  },
+  {
+    "name": "arXiv q-bio",
+    "url": "https://export.arxiv.org/rss/q-bio",
+    "priority": 4,
+    "headline_mode": "preserve",
+    "publisher": "arXiv",
+    "authority": "preprint",
+    "categories": ["longevity", "gut health", "brain health", "metabolic health"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "arXiv machine learning",
+    "url": "https://export.arxiv.org/rss/cs.LG",
+    "priority": 3,
+    "headline_mode": "preserve",
+    "publisher": "arXiv",
+    "authority": "preprint",
+    "categories": ["brain health", "general wellness"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "arXiv artificial intelligence",
+    "url": "https://export.arxiv.org/rss/cs.AI",
+    "priority": 3,
+    "headline_mode": "preserve",
+    "publisher": "arXiv",
+    "authority": "preprint",
+    "categories": ["brain health", "general wellness"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "arXiv medical physics",
+    "url": "https://export.arxiv.org/rss/physics.med-ph",
+    "priority": 4,
+    "headline_mode": "preserve",
+    "publisher": "arXiv",
+    "authority": "preprint",
+    "categories": ["brain health", "mobility", "general wellness"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "bioRxiv neuroscience, genetics, physiology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience+genetics+physiology",
+    "priority": 4,
+    "headline_mode": "preserve",
+    "publisher": "bioRxiv",
+    "authority": "preprint",
+    "categories": ["brain health", "longevity", "metabolic health"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "bioRxiv immunology and cell biology",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=immunology+cell_biology",
+    "priority": 4,
+    "headline_mode": "preserve",
+    "publisher": "bioRxiv",
+    "authority": "preprint",
+    "categories": ["longevity", "general wellness"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "medRxiv clinical and public health",
+    "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=geriatrics+endocrinology+gastroenterology+neurology+public_health",
+    "priority": 5,
+    "headline_mode": "preserve",
+    "publisher": "medRxiv",
+    "authority": "preprint",
+    "categories": ["brain health", "metabolic health", "gut health", "general wellness"],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
   }
 ]
