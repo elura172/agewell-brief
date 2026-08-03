@@ -1,0 +1,56 @@
+---
+title: "Gut health is an ecology, not a single supplement"
+date: 2026-08-03T00:00:00-04:00
+draft: true
+category: "gut health"
+content_type: "evergreen"
+edition_rank: 99
+source_url: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ=="
+source_title: "The Spiral of the Inner Garden — Gut Reclamation Protocol"
+source_name: "Spiral of Cellular Light companion guide"
+author: "Agewell Brief Editorial Desk"
+---
+
+The Inner Garden guide treats the gut as a living ecology. Its focus is not a quick reset, but the conditions that help a person build steadier routines around food, digestion, and microbial balance.
+
+## Why this matters
+
+Digestive symptoms are often discussed as if they have one cause. In reality, bloating, altered bowel habits, reflux, food intolerance, and brain fog can have many explanations. Antibiotics, diet changes, stress, infection, medication, and underlying disease can all matter.
+
+The companion guide uses the image of a garden to make one point memorable: removing one organism or adding one probiotic does not automatically restore an ecosystem. The surrounding environment matters too.
+
+## What the framework emphasizes
+
+The program gives particular attention to the relationship between beneficial microbes, dietary fibre, fermented foods, and the yeast Saccharomyces boulardii. It also emphasizes reducing the conditions that can make a person feel worse, including abrupt dietary changes and excessive reliance on sugar-heavy foods.
+
+That framework can be useful as a checklist without treating every program claim as settled science. Probiotics are not interchangeable, products vary, and the right choice depends on the person and the reason for using one.
+
+## How to interpret it
+
+The guide’s language about Candida, cravings, serotonin, and “reclamation” is a program narrative. It should not be used to diagnose an overgrowth or explain every digestive or mood symptom. Persistent symptoms deserve an assessment, particularly when there is weight loss, bleeding, fever, severe pain, anemia, or a major change in bowel habits.
+
+The more durable idea is environmental: regular meals, adequate fibre and fluids, movement, sleep, and careful use of antibiotics all shape the context in which the gut operates.
+
+## Practical next steps
+
+Begin with observation. Track meals, symptoms, bowel patterns, sleep, and recent medications for a week. Then bring that record to a clinician or dietitian. If using a probiotic or supplement, introduce one product at a time and follow the label rather than combining several new products at once.
+
+<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
+<p class="resource-kicker">Practical follow-up</p>
+<h3>Inner Garden gut-reclamation framework</h3>
+<p>Explore the companion protocol behind this program perspective.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you.</p>
+</aside>
+
+## Three things to remember
+
+- The gut is an ecosystem, not a single target.
+- Digestive symptoms have many possible causes.
+- Change one variable at a time and keep a useful record.
+
+### Source
+
+This evergreen program perspective is based on [The Spiral of the Inner Garden — Gut Reclamation Protocol](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==), supplied as a companion guide for the Spiral of Cellular Light.
+
+> **Health note:** This article is informational and does not diagnose Candida, dysbiosis, or any other digestive condition.
