@@ -13,6 +13,11 @@
   <integer>900</integer>
   <key>RunAtLoad</key>
   <true/>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
   <key>StandardOutPath</key>
   <string>/Users/mirrr/agewell-brief/.state/content-factory.log</string>
   <key>StandardErrorPath</key>

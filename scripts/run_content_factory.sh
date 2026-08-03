@@ -11,7 +11,7 @@ trap 'rmdir "$LOCK"' EXIT
 
 cd "$REPO"
 git pull --rebase origin main
-python3 -m scripts.mpt_content_runner --max-items 1 --publish
+uv run --no-project --python 3.11 python -m scripts.mpt_content_runner --max-items 1 --publish
 git add .state/social .state/content-records .state/video-jobs
 if ! git diff --cached --quiet; then
   git config user.name "agewell-bot"
