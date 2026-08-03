@@ -1,0 +1,20 @@
+{
+  "retrieved_at": "2026-08-03T03:57:41.816502+00:00",
+  "account": "elr72",
+  "start_date": "2026-07-04",
+  "end_date": "2026-08-03",
+  "http_status": null,
+  "status": "unavailable",
+  "metrics": [
+    "DIMENSION_VALUE",
+    "HOP_COUNT",
+    "SALE_COUNT",
+    "NET_SALE_AMOUNT",
+    "REFUND_COUNT",
+    "REFUND_AMOUNT",
+    "EARNINGS_PER_HOP"
+  ],
+  "data": {},
+  "error": "ClickBank analytics rejected the request with HTTP 400. Confirm the API key has the Analytics role and the account nickname is correct. Response: {\"timestamp\":\"2026-08-03T03:57:41.784Z\",\"path\":\"/rest/1.3/analytics/affiliate/tracking_id/summary\",\"status\":400,\"error\":\"Bad Request\",\"requestId\":\"d476a246-233395\"}",
+  "note": "Read-only performance data. Use it to tune offer rotation; it does not change editorial selection or health claims."
+}
