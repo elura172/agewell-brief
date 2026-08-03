@@ -72,11 +72,14 @@ def run_mpt(job: dict) -> tuple[Path, str]:
         "--subject", str(job["subject"]), "--",
         "--voice-name", str(job.get("voice_name", "en-US-AvaNeural")),
         "--text-fore-color", str(job.get("text_fore_color", "#FEFEFE")),
+        "--highlight-color", str(job.get("highlight_color", "#F59E0B")),
         "--stroke-color", str(job.get("stroke_color", "#0B0F19")),
         "--stroke-width", str(job.get("stroke_width", 2)),
-        "--font-size", str(job.get("font_size", 52)),
-        "--subtitle-bottom-margin", str(job.get("subtitle_bottom_margin", 180)),
-        "--no-subtitle-background-enabled",
+        "--font-size", str(job.get("font_size", 48)),
+        "--subtitle-bottom-margin", str(job.get("subtitle_bottom_margin", 210)),
+        "--max-words-per-line", str(job.get("max_words_per_line", 3)),
+        "--subtitle-bg-color", str(job.get("subtitle_bg_color", "rgba(11, 15, 25, 0.75)")),
+        "--subtitle-bg-padding", str(job.get("subtitle_bg_padding", 12)),
     ]
     result = subprocess.run(args, cwd=MPT_HOME / "docs/skill", capture_output=True, text=True, check=False)
     if result.returncode != 0:

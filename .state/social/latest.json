@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T21:58:42.012610+00:00",
+  "generated_at": "2026-08-03T21:59:13.036165+00:00",
   "release_status": "published",
   "dry_run": false,
   "schema_version": 3,
@@ -35,10 +35,14 @@
           "reader_visits": 57
         },
         "text_fore_color": "#FEFEFE",
+        "highlight_color": "#F59E0B",
         "stroke_color": "#0B0F19",
         "stroke_width": 2,
-        "font_size": 52,
-        "subtitle_bottom_margin": 180,
+        "font_size": 48,
+        "subtitle_bottom_margin": 210,
+        "max_words_per_line": 3,
+        "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
+        "subtitle_bg_padding": 12,
         "requires_video_qa": false
       },
       "facebook": {
@@ -88,10 +92,14 @@
           "reader_visits": 52
         },
         "text_fore_color": "#FEFEFE",
+        "highlight_color": "#F59E0B",
         "stroke_color": "#0B0F19",
         "stroke_width": 2,
-        "font_size": 52,
-        "subtitle_bottom_margin": 180,
+        "font_size": 48,
+        "subtitle_bottom_margin": 210,
+        "max_words_per_line": 3,
+        "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
+        "subtitle_bg_padding": 12,
         "requires_video_qa": false
       },
       "facebook": {
@@ -141,10 +149,14 @@
           "reader_visits": 51
         },
         "text_fore_color": "#FEFEFE",
+        "highlight_color": "#F59E0B",
         "stroke_color": "#0B0F19",
         "stroke_width": 2,
-        "font_size": 52,
-        "subtitle_bottom_margin": 180,
+        "font_size": 48,
+        "subtitle_bottom_margin": 210,
+        "max_words_per_line": 3,
+        "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
+        "subtitle_bg_padding": 12,
         "requires_video_qa": false
       },
       "facebook": {
@@ -194,10 +206,14 @@
           "reader_visits": 48
         },
         "text_fore_color": "#FEFEFE",
+        "highlight_color": "#F59E0B",
         "stroke_color": "#0B0F19",
         "stroke_width": 2,
-        "font_size": 52,
-        "subtitle_bottom_margin": 180,
+        "font_size": 48,
+        "subtitle_bottom_margin": 210,
+        "max_words_per_line": 3,
+        "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
+        "subtitle_bg_padding": 12,
         "requires_video_qa": false
       },
       "facebook": {
@@ -247,10 +263,14 @@
           "reader_visits": 41
         },
         "text_fore_color": "#FEFEFE",
+        "highlight_color": "#F59E0B",
         "stroke_color": "#0B0F19",
         "stroke_width": 2,
-        "font_size": 52,
-        "subtitle_bottom_margin": 180,
+        "font_size": 48,
+        "subtitle_bottom_margin": 210,
+        "max_words_per_line": 3,
+        "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
+        "subtitle_bg_padding": 12,
         "requires_video_qa": false
       },
       "facebook": {
