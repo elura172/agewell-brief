@@ -54,6 +54,30 @@ def trending_items(path: Path = Path("src/data/trending.json")) -> dict[str, dic
     }
 
 
+def generate_cosmic_reel_script(title: str, category: str, body: str) -> str:
+    """Generate a high-frequency, magnetically captivating reel script in the voice of a Prismatic Cosmic Medicine Science Reporter."""
+    summary_sentence = body[:220].rstrip(".") + "."
+    
+    cat_lower = category.lower()
+    if "brain" in cat_lower or "sleep" in cat_lower:
+        hook_angle = "Your brain isn't just firing electrical pulses—it is a quantum biophotonic resonator entrained to the rhythm of the cosmos."
+    elif "senescence" in cat_lower or "longevity" in cat_lower:
+        hook_angle = "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways."
+    elif "gut" in cat_lower:
+        hook_angle = "Your microbiome is an inner living ecology—an elemental garden dictating your neurotransmitters and systemic light."
+    elif "metabolic" in cat_lower:
+        hook_angle = "Metabolism is pure solar transformation—how your mitochondria convert living light into cellular ATP energy."
+    else:
+        hook_angle = "Nature operates on universal biophysical laws, and your physical body is the living laboratory."
+
+    return (
+        f"{hook_angle} "
+        f"A new biophysics study just dropped on '{title}'. {summary_sentence} "
+        f"The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. "
+        f"Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides."
+    )
+
+
 def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object] | None:
     text = path.read_text(encoding="utf-8")
     if frontmatter_value(text, "draft").lower() == "true":
@@ -69,10 +93,7 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
         if trend
         else None
     )
-    script = (
-        f"{title}. Here is the useful signal, what the source found, and what it does not prove. "
-        f"Read the full Agewell Brief for the context and original source."
-    )
+    script = generate_cosmic_reel_script(title, category, body)
     return {
         "article": path.stem,
         "url": url,
@@ -103,19 +124,19 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
             "requires_video_qa": False,
         },
         "facebook": {
-            "title": f"{title}\n\n{hook}",
+            "title": f"✨ [Cosmic Biophysics] {title}\n\n{hook}",
             "link_url": url,
         },
         "tiktok": {
-            "hook": title,
+            "hook": f"✨ {title}",
             "script": script,
-            "caption": f"{title}. Read the full brief at Agewell Brief. #healthyaging #healthnews",
+            "caption": f"✨ {title}. Quantum biophysics breakdown from Agewell Brief. Tap bio link for full study & 6 free Field Guides! #biophysics #cellularlongevity #cosmicmedicine #healthyaging",
             "link_in_bio": url,
             "media_status": "ready_for_mpt",
         },
         "youtube": {
-            "title": title[:100],
-            "description": f"{hook}\n\nRead the full brief: {url}\n\nSource-led health reporting from Agewell Brief.",
+            "title": f"✨ {title[:95]}",
+            "description": f"{script}\n\nRead the full biophysics brief & download the 6 Field Guides: {url}\n\nSource-led biophysics reporting from Agewell Brief.",
             "media_status": "ready_for_mpt",
         },
     }
