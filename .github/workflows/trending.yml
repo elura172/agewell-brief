@@ -1,0 +1,30 @@
+name: Refresh reader trends
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  trending:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Update reader trends
+        run: python3 -m scripts.cloudflare_trending
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+      - name: Commit reader trends
+        run: |
+          git config user.name "agewell-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/trending.json
+          git diff --cached --quiet || git commit -m "chore: refresh reader trends"
+          git push
