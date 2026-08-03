@@ -7,6 +7,19 @@ import { plainTextExcerpt } from "../lib/publishing";
 const entries = (await getCollection("briefs"))
   .filter((entry) => import.meta.env.DEV || !entry.data.draft);
 
+const categoryColors: Record<string, string> = {
+  "brain-health": "oklch(0.72 0.16 220)",
+  "cellular-senescence": "oklch(0.75 0.18 55)",
+  "gut-health": "oklch(0.70 0.17 145)",
+  "longevity": "oklch(0.74 0.15 190)",
+  "metabolic-health": "oklch(0.72 0.18 35)",
+  "detoxification": "oklch(0.68 0.14 290)",
+  "general-wellness": "oklch(0.70 0.12 120)",
+  "consumer-safety": "oklch(0.65 0.15 15)",
+  "nutrition": "oklch(0.72 0.15 80)",
+  "sleep-health": "oklch(0.68 0.15 250)"
+};
+
 // Build graph nodes from collection
 const nodes = [
   ...frontierTerritories.map((t, i) => ({
@@ -18,26 +31,35 @@ const nodes = [
     seedIdea: t.description,
     url: `/frontier-map/#${t.slug}`,
     antecedents: [],
+    baseX: (i % 2 === 0 ? -1 : 1) * (260 + i * 40),
+    baseY: (i < 2 ? -1 : 1) * (180 + i * 30),
     x: (i % 2 === 0 ? -1 : 1) * (260 + i * 40),
     y: (i < 2 ? -1 : 1) * (180 + i * 30),
-    radius: 22,
-    color: "oklch(0.72 0.18 55)"
+    radius: 20,
+    color: "oklch(0.75 0.18 55)"
   })),
-  ...entries.map((e, i) => ({
-    id: e.id,
-    name: e.data.title,
-    category: e.data.category,
-    type: "brief",
-    evidence: e.data.evidence_position,
-    seedIdea: plainTextExcerpt((e.body ?? "").split("\n\n")[0], 220),
-    ancestralInsight: e.data.ancestral_insight || "",
-    url: `/brief/${e.id}/`,
-    antecedents: e.data.autoresearch_antecedents || [],
-    x: Math.cos(i * 0.35) * (140 + (i % 5) * 65),
-    y: Math.sin(i * 0.35) * (140 + (i % 5) * 65),
-    radius: 12,
-    color: "oklch(0.68 0.15 200)"
-  }))
+  ...entries.map((e, i) => {
+    const color = categoryColors[e.data.category] || "oklch(0.68 0.15 200)";
+    const baseX = Math.cos(i * 0.35) * (140 + (i % 5) * 65);
+    const baseY = Math.sin(i * 0.35) * (140 + (i % 5) * 65);
+    return {
+      id: e.id,
+      name: e.data.title,
+      category: e.data.category,
+      type: "brief",
+      evidence: e.data.evidence_position,
+      seedIdea: plainTextExcerpt((e.body ?? "").split("\n\n")[0], 220),
+      ancestralInsight: e.data.ancestral_insight || "",
+      url: `/brief/${e.id}/`,
+      antecedents: e.data.autoresearch_antecedents || [],
+      baseX,
+      baseY,
+      x: baseX,
+      y: baseY,
+      radius: 12,
+      color
+    };
+  })
 ];
 
 const structuredData = {
@@ -72,6 +94,8 @@ const structuredData = {
     <div class="ocean-stage-container">
       <canvas id="mind-ocean-canvas" data-nodes={JSON.stringify(nodes)}></canvas>
       
+      <div id="node-tooltip" class="node-tooltip is-hidden"></div>
+
       <div id="ocean-inspector" class="ocean-inspector is-hidden" aria-label="Node inspector">
         <button id="inspector-close-btn" class="inspector-close" type="button">×</button>
         <span id="inspector-category" class="inspector-badge">Topic</span>
@@ -138,10 +162,10 @@ const structuredData = {
   .ocean-stage-container {
     position: relative;
     width: 100%;
-    height: 680px;
-    border-radius: 12px;
+    height: 720px;
+    border-radius: 16px;
     border: 1px solid var(--line);
-    background: oklch(0.96 0.015 85);
+    background: oklch(0.96 0.012 85);
     overflow: hidden;
     box-shadow: var(--shadow-md);
   }
@@ -154,14 +178,33 @@ const structuredData = {
   #mind-ocean-canvas:active {
     cursor: grabbing;
   }
+  .node-tooltip {
+    position: absolute;
+    padding: 6px 12px;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 6px;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+    z-index: 20;
+    box-shadow: var(--shadow-sm);
+  }
+  .node-tooltip.is-hidden {
+    opacity: 0;
+  }
   .ocean-inspector {
     position: absolute;
     top: 24px;
     right: 24px;
-    width: 340px;
+    width: 360px;
+    max-height: calc(100% - 48px);
+    overflow-y: auto;
     background: var(--paper);
     border: 1px solid var(--line);
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 24px;
     box-shadow: var(--shadow-lg);
     transition: opacity 0.3s ease, transform 0.3s ease;
@@ -193,20 +236,40 @@ const structuredData = {
   }
   .ocean-inspector h3 {
     margin: 0 0 10px;
-    font-size: 1.4rem;
-    line-height: 1.2;
+    font-size: 1.35rem;
+    line-height: 1.25;
   }
   .inspector-meta {
-    margin: 0 0 16px;
+    margin: 0 0 14px;
     color: var(--muted);
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 0.78rem;
+    font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .inspector-seed-idea {
+    font-family: var(--serif);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--ink);
+    margin-bottom: 16px;
   }
   .inspector-antecedents {
     margin-bottom: 18px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     line-height: 1.45;
+    background: var(--cream);
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  .inspector-antecedents h4 {
+    margin: 0 0 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
   }
 </style>
 
@@ -236,6 +299,16 @@ const structuredData = {
 
   // Interactive 2D Force Field Canvas Initialization
   const canvas = document.getElementById("mind-ocean-canvas") as HTMLCanvasElement;
+  const inspector = document.getElementById("ocean-inspector");
+  const closeBtn = document.getElementById("inspector-close-btn");
+  const tooltip = document.getElementById("node-tooltip");
+
+  if (closeBtn && inspector) {
+    closeBtn.addEventListener("click", () => {
+      inspector.classList.add("is-hidden");
+    });
+  }
+
   if (canvas) {
     const ctx = canvas.getContext("2d");
     const rawNodesData = canvas.dataset.nodes || "[]";
@@ -249,6 +322,7 @@ const structuredData = {
     let isDragging = false;
     let dragStartX = 0;
     let dragStartY = 0;
+    let hoveredNode: any = null;
     let selectedNode: any = null;
 
     function resize() {
@@ -264,39 +338,60 @@ const structuredData = {
       if (!ctx) return;
       ctx.clearRect(0, 0, width, height);
 
+      // Organic sine wave floating motion
+      nodes.forEach((n: any) => {
+        n.x = n.baseX + Math.sin(time * 0.0012 + n.baseY * 0.02) * 12;
+        n.y = n.baseY + Math.cos(time * 0.0015 + n.baseX * 0.02) * 12;
+      });
+
       ctx.save();
       ctx.translate(panX, panY);
       ctx.scale(zoom, zoom);
 
       // Draw biophotonic connecting currents
       ctx.lineWidth = 1;
-      ctx.strokeStyle = "rgba(180, 195, 210, 0.25)";
       for (let i = 0; i < nodes.length; i++) {
         for (let j = i + 1; j < nodes.length; j++) {
           const dx = nodes[j].x - nodes[i].x;
           const dy = nodes[j].y - nodes[i].y;
           const dist = Math.sqrt(dx * dx + dy * dy);
           if (dist < 180) {
+            const isHighlighted = (hoveredNode && (hoveredNode.id === nodes[i].id || hoveredNode.id === nodes[j].id)) ||
+                                  (selectedNode && (selectedNode.id === nodes[i].id || selectedNode.id === nodes[j].id));
+            ctx.strokeStyle = isHighlighted ? nodes[i].color : "rgba(180, 195, 210, 0.25)";
+            ctx.lineWidth = isHighlighted ? 2 : 1;
             ctx.beginPath();
             ctx.moveTo(nodes[i].x, nodes[i].y);
             ctx.lineTo(nodes[j].x, nodes[j].y);
             ctx.stroke();
+
+            // Moving biophotonic light bead along stream
+            const progress = (time * 0.0006 + (i + j) * 0.1) % 1;
+            const beadX = nodes[i].x + dx * progress;
+            const beadY = nodes[i].y + dy * progress;
+            ctx.fillStyle = isHighlighted ? nodes[i].color : "rgba(200, 220, 240, 0.6)";
+            ctx.beginPath();
+            ctx.arc(beadX, beadY, isHighlighted ? 3 : 1.8, 0, Math.PI * 2);
+            ctx.fill();
           }
         }
       }
 
       // Draw living nodes
       nodes.forEach((n: any) => {
+        const isSelected = selectedNode && selectedNode.id === n.id;
+        const isHovered = hoveredNode && hoveredNode.id === n.id;
+
         ctx.fillStyle = n.color || "oklch(0.68 0.15 200)";
         ctx.beginPath();
-        ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
+        ctx.arc(n.x, n.y, isSelected ? n.radius * 1.4 : isHovered ? n.radius * 1.2 : n.radius, 0, Math.PI * 2);
         ctx.fill();
 
         // Node aura pulse
         ctx.fillStyle = n.color || "oklch(0.68 0.15 200)";
-        ctx.globalAlpha = 0.15 + Math.sin(time * 0.002 + n.x) * 0.08;
+        ctx.globalAlpha = isSelected ? 0.4 : isHovered ? 0.3 : 0.15 + Math.sin(time * 0.002 + n.x) * 0.08;
         ctx.beginPath();
-        ctx.arc(n.x, n.y, n.radius * 2.2, 0, Math.PI * 2);
+        ctx.arc(n.x, n.y, n.radius * (isSelected ? 3.2 : 2.2), 0, Math.PI * 2);
         ctx.fill();
         ctx.globalAlpha = 1;
       });
@@ -309,18 +404,91 @@ const structuredData = {
     resize();
     requestAnimationFrame(render);
 
+    // Node hit testing helper
+    function getCanvasCoords(e: MouseEvent) {
+      const rect = canvas.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+      const worldX = (mouseX - panX) / zoom;
+      const worldY = (mouseY - panY) / zoom;
+      return { mouseX, mouseY, worldX, worldY };
+    }
+
+    function findNodeAt(worldX: number, worldY: number) {
+      return nodes.find((n: any) => {
+        const dx = n.x - worldX;
+        const dy = n.y - worldY;
+        return Math.sqrt(dx * dx + dy * dy) <= n.radius * 1.5;
+      });
+    }
+
+    // Hover tooltip
+    canvas.addEventListener("mousemove", (e) => {
+      const { mouseX, mouseY, worldX, worldY } = getCanvasCoords(e);
+      if (isDragging) {
+        panX = e.clientX - dragStartX;
+        panY = e.clientY - dragStartY;
+        if (tooltip) tooltip.classList.add("is-hidden");
+        return;
+      }
+
+      hoveredNode = findNodeAt(worldX, worldY);
+      if (hoveredNode && tooltip) {
+        tooltip.textContent = hoveredNode.name;
+        tooltip.style.left = `${mouseX + 15}px`;
+        tooltip.style.top = `${mouseY + 15}px`;
+        tooltip.classList.remove("is-hidden");
+      } else if (tooltip) {
+        tooltip.classList.add("is-hidden");
+      }
+    });
+
+    // Node Selection & Audition
+    canvas.addEventListener("click", (e) => {
+      const { worldX, worldY } = getCanvasCoords(e);
+      const clicked = findNodeAt(worldX, worldY);
+      if (clicked) {
+        selectedNode = clicked;
+        audioEngine.playNodeAudition(220 + (nodes.indexOf(clicked) % 8) * 54);
+
+        if (inspector) {
+          const categoryEl = document.getElementById("inspector-category");
+          const titleEl = document.getElementById("inspector-title");
+          const evidenceEl = document.getElementById("inspector-evidence");
+          const seedEl = document.getElementById("inspector-seed-idea");
+          const antEl = document.getElementById("inspector-antecedents");
+          const linkEl = document.getElementById("inspector-link") as HTMLAnchorElement;
+
+          if (categoryEl) categoryEl.textContent = clicked.category;
+          if (titleEl) titleEl.textContent = clicked.name;
+          if (evidenceEl) evidenceEl.textContent = `Evidence Position: ${clicked.evidence}`;
+          if (seedEl) seedEl.textContent = clicked.seedIdea || "";
+
+          if (antEl) {
+            if (clicked.antecedents && clicked.antecedents.length > 0) {
+              antEl.innerHTML = `<h4>Historical Biophysics Lineage</h4>` + 
+                clicked.antecedents.map((a: any) => `<div><strong>${a.scientist} (${a.year}):</strong> ${a.discovery}</div>`).join("");
+              antEl.style.display = "block";
+            } else {
+              antEl.style.display = "none";
+            }
+          }
+
+          if (linkEl) {
+            linkEl.href = clicked.url;
+            linkEl.style.display = clicked.url ? "inline-flex" : "none";
+          }
+
+          inspector.classList.remove("is-hidden");
+        }
+      }
+    });
+
     // Pan & Zoom controls
     canvas.addEventListener("mousedown", (e) => {
       isDragging = true;
       dragStartX = e.clientX - panX;
       dragStartY = e.clientY - panY;
-    });
-
-    window.addEventListener("mousemove", (e) => {
-      if (isDragging) {
-        panX = e.clientX - dragStartX;
-        panY = e.clientY - dragStartY;
-      }
     });
 
     window.addEventListener("mouseup", () => {
