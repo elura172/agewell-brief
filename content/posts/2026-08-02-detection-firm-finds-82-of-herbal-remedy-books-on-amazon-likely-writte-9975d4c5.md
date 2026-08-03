@@ -23,24 +23,32 @@ image_avg_color: "#393531"
 ---
 
 A new analysis by Originality.ai suggests most herbal remedy books on Amazon may be AI-generated, raising concerns about quality and accuracy.
-
-
-> **Related resource — affiliate link:** We may earn a commission if you choose to visit an optional resource. [Explore a related brain health resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_9975d4c5425886f5698d8008).
-
-
-
-
 ## Three things to remember
 
 - Originality.ai scanned 558 herbal remedy titles on Amazon.
 - Found 82% likely written by AI, from January to September.
 - Examples include ginkgo tinctures and citrus-immune gummies.
 
+
+<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
+<p class="resource-kicker">Practical follow-up</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_9975d4c5425886f5698d8008" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
+
 ### Source
 
 This signal is based on [Detection firm finds 82% of herbal remedy books on Amazon ‘likely written’ by AI](https://www.theguardian.com/books/2025/oct/22/detection-firm-finds-82-of-herbal-remedy-books-on-amazon-likely-written-by-ai) from The Guardian | Alternative medicine. Read the original report for full context.
 
 
-> **Affiliate disclosure:** These optional resources may earn us a commission. [View the related resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_9975d4c5425886f5698d8008).
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_9975d4c5425886f5698d8008" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 > **Health note:** The study was conducted by an AI-detection company and has not been independently verified.

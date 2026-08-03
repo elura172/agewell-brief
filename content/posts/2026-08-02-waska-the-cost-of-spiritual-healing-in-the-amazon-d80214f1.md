@@ -23,24 +23,32 @@ image_avg_color: "#474933"
 ---
 
 Indigenous voices highlight the commodification of sacred plant medicine in the Amazon.
-
-
-> **Related resource — affiliate link:** We may earn a commission if you choose to visit an optional resource. [Explore a related brain health resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_d80214f15a0a72af98648677).
-
-
-
-
 ## Three things to remember
 
 - Ayahuasca marketed as shortcut to healing and enlightenment.
 - Indigenous storyteller Nina Gualinga calls it commodification and extractivism.
 - Cultural appropriation and environmental destruction continue in the Amazon.
 
+
+<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
+<p class="resource-kicker">Practical follow-up</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_d80214f15a0a72af98648677" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
+
 ### Source
 
 This signal is based on [Waska: the cost of spiritual healing in the Amazon](https://www.theguardian.com/environment/ng-interactive/2025/jun/17/waska-the-cost-of-spiritual-healing-in-the-amazon) from The Guardian | Alternative medicine. Read the original report for full context.
 
 
-> **Affiliate disclosure:** These optional resources may earn us a commission. [View the related resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_d80214f15a0a72af98648677).
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_d80214f15a0a72af98648677" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 > **Health note:** This report reflects the views of Indigenous storyteller Nina Gualinga and does not evaluate the efficacy or safety of ayahuasca.

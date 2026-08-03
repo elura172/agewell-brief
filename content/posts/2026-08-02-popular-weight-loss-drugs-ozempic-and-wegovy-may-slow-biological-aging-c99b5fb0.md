@@ -23,24 +23,32 @@ image_avg_color: "#818682"
 ---
 
 New research in adults with HIV suggests semaglutide could influence aging markers, but experts urge caution.
-
-
-> **Related resource — affiliate link:** We may earn a commission if you choose to visit an optional resource. [Explore a related longevity resource](https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_c99b5fb04db2673528bc45ea).
-
-
-
-
 ## Three things to remember
 
 - Semaglutide slowed biological aging markers in adults with HIV.
 - First clinical evidence the drug may influence human aging.
 - Larger studies needed before confirming anti-aging effects.
 
+
+<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
+<p class="resource-kicker">Practical follow-up</p>
+<h3>A practical follow-up for healthy aging</h3>
+<p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
+<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_c99b5fb04db2673528bc45ea" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
+
 ### Source
 
 This signal is based on [Popular weight-loss drugs Ozempic and Wegovy may slow biological aging](https://www.sciencedaily.com/releases/2026/07/260713084907.htm) from ScienceDaily Healthy Aging. Read the original report for full context.
 
 
-> **Affiliate disclosure:** These optional resources may earn us a commission. [View the related resource](https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_c99b5fb04db2673528bc45ea).
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for healthy aging</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_c99b5fb04db2673528bc45ea" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 > **Health note:** Findings are preliminary; not a proven anti-aging treatment.

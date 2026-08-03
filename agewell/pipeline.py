@@ -739,6 +739,36 @@ def quote(value: str) -> str:
     return value.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ")
 
 
+def resource_heading(category: str) -> str:
+    """Give a resource card a useful editorial heading without making claims."""
+    headings = {
+        "sleep health": "A practical follow-up for steadier routines",
+        "brain health": "A practical follow-up for staying mentally engaged",
+        "mobility": "A practical follow-up for everyday movement",
+        "longevity": "A practical follow-up for healthy aging",
+        "metabolic health": "A practical follow-up for everyday habits",
+    }
+    return headings.get(category.lower(), "A practical follow-up to explore")
+
+
+def resource_card(url: str, category: str, *, primary: bool = False) -> str:
+    label = "Practical follow-up" if primary else "More to explore"
+    heading = resource_heading(category)
+    intro = (
+        f"For readers interested in taking the ideas in this {category} brief a step further, "
+        "we’ve included an optional resource that may be useful."
+        if primary
+        else "An optional resource for readers who want another place to begin."
+    )
+    return f'''\n\n<aside class="resource-card{' resource-card--primary' if primary else ''}" aria-label="{label}">
+<p class="resource-kicker">{label}</p>
+<h3>{heading}</h3>
+<p>{intro}</p>
+<p><a class="resource-link" href="{url}" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>'''
+
+
 def markdown(
     item: FeedItem,
     category: str,
@@ -754,10 +784,13 @@ def markdown(
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
     sections = ""
     if content_type == "lead":
-        sections = "\n\n".join(
+        section_blocks = [
             f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
             for section in content.get("sections", [])
-        )
+        ]
+        if section_blocks and recommendation_top:
+            section_blocks.insert(1, recommendation_top)
+        sections = "\n\n".join(section_blocks)
     if isinstance(offer_urls, str):
         offer_urls = [offer_urls] if offer_urls else []
     offer_urls = list(offer_urls or [])[:3]
@@ -766,18 +799,13 @@ def markdown(
     if offer_urls:
         placement_count = min(3, max(2, len(offer_urls)))
         placements = [offer_urls[index % len(offer_urls)] for index in range(placement_count)]
-        recommendation_top = (
-            "\n\n> **Related resource — affiliate link:** We may earn a commission if you choose to visit an optional resource. "
-            f"[Explore a related {category} resource]({placements[0]}).\n"
-        )
+        recommendation_top = resource_card(placements[0], category, primary=True)
         if len(offer_urls) > 1:
-            recommendation_top += (
-                f"\n> **Reader resource:** [See another option for {category}]({placements[1]}).\n"
-            )
-        recommendation = (
-            "\n\n> **Affiliate disclosure:** These optional resources may earn us a commission. "
-            f"[View the related resource]({placements[-1]})."
-        )
+            recommendation = resource_card(placements[1], category)
+        else:
+            recommendation = resource_card(placements[0], category)
+        if len(offer_urls) > 2:
+            recommendation += resource_card(placements[2], category)
     health_note = content["caveat"]
     image_frontmatter = ""
     if photo:
@@ -785,6 +813,7 @@ def markdown(
 image_provider_id: "{quote(photo.provider_id)}"
 image: "{quote(photo.local_url)}"
 image_alt: "{quote(photo.alt)}"
+image_caption: "A glimpse of the everyday routines behind this story."
 image_width: {photo.width}
 image_height: {photo.height}
 image_photographer: "{quote(photo.creator)}"
@@ -807,13 +836,13 @@ source_name: "{quote(item.source_name)}"
 {image_frontmatter}---
 
 {content["dek"]}
-{recommendation_top}
 
 {sections}
 
 ## Three things to remember
 
 {bullets}
+{recommendation_top if content_type != "lead" or not sections else ""}
 
 ### Source
 

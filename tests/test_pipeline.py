@@ -459,8 +459,9 @@ def test_lead_affiliate_offer_is_visible_near_intro_and_source():
     result = markdown(item, "brain health", content, "https://example.hop.clickbank.net")
 
     assert result.count("https://example.hop.clickbank.net") == 2
-    assert result.index("Related resource — affiliate link") < result.index("### Source")
-    assert result.lower().count("affiliate") == 2
+    assert result.index('class="resource-card resource-card--primary"') < result.index("### Source")
+    assert result.count("class=\"resource-card") == 2
+    assert "Commission-supported; no added cost to you." in result
 
 
 def test_markdown_renders_two_or_three_contextual_affiliate_placements():
@@ -479,9 +480,9 @@ def test_markdown_renders_two_or_three_contextual_affiliate_placements():
     ]
     result = markdown(item, "brain health", content, urls)
     assert result.count("hop.clickbank.net") == 3
-    assert "Related resource" in result
-    assert "Reader resource" in result
-    assert "Affiliate disclosure" in result
+    assert "Practical follow-up" in result
+    assert "More to explore" in result
+    assert result.count("Commission-supported; no added cost to you.") == 3
 
 
 def test_auto_publish_window_expires(monkeypatch):

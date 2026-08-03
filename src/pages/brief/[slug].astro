@@ -24,7 +24,7 @@ const formatDateTime = entry.data.date.toLocaleString("en-CA", {
   timeZoneName: "short"
 });
 const isLead = entry.data.content_type === "lead";
-const description = plainTextExcerpt(entry.body ?? "", 190);
+const description = plainTextExcerpt((entry.body ?? "").split("\n\n")[0], 190);
 const articleURL = new URL(`/brief/${entry.id}/`, Astro.site).href;
 const authorURL = new URL("/about/#editorial-desk", Astro.site).href;
 const logoURL = new URL("/logo.svg", Astro.site).href;
@@ -72,25 +72,32 @@ const structuredData = {
 >
   <article class:list={["article-page", { "is-lead": isLead }]}>
     <a class="back-link" href="/">← All briefs</a>
+    <div class="article-intro-bar">
+      <p class="eyebrow">Agewell Brief <span aria-hidden="true">·</span> Clear signals. Better questions.</p>
+      <a href="/#subscribe">Get tomorrow’s edition <span aria-hidden="true">→</span></a>
+    </div>
     <header class="article-header">
       <div class="signal-rail"><span>{entry.data.category}</span><i></i><span>{formatDate}</span></div>
       <h1>{entry.data.title}</h1>
       <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <time datetime={entry.data.date.toISOString()}>Published {formatDateTime}</time></p>
       <p class="article-source">Original reporting: <a href={entry.data.source_url} rel="noopener noreferrer">{entry.data.source_title}</a></p>
     </header>
-    {entry.data.image && <EditorialImage
-      src={entry.data.image}
-      alt={entry.data.image_alt ?? "Illustrative photograph for this Agewell Brief article"}
-      photographer={entry.data.image_photographer}
-      photographerUrl={entry.data.image_photographer_url}
-      sourceUrl={entry.data.image_source_url}
-      provider={entry.data.image_provider}
-      width={entry.data.image_width}
-      height={entry.data.image_height}
-      avgColor={entry.data.image_avg_color}
-      variant="article"
-      eager={true}
-    />}
+    {entry.data.image && <div class="article-hero">
+      <EditorialImage
+        src={entry.data.image}
+        alt={entry.data.image_alt ?? "Illustrative photograph for this Agewell Brief article"}
+        photographer={entry.data.image_photographer}
+        photographerUrl={entry.data.image_photographer_url}
+        sourceUrl={entry.data.image_source_url}
+        provider={entry.data.image_provider}
+        width={entry.data.image_width}
+        height={entry.data.image_height}
+        avgColor={entry.data.image_avg_color}
+        variant="article"
+        eager={true}
+      />
+      <p class="article-image-note"><span>In the frame</span> {entry.data.image_caption ?? "A glimpse of the everyday routines behind this story."}</p>
+    </div>}
     <div class="article-content"><Content /></div>
     {related.length > 0 && <section class="related-briefs" aria-labelledby="related-heading">
       <div>

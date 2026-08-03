@@ -23,14 +23,18 @@ image_avg_color: "#7F8B91"
 ---
 
 A new observational study links aging to declines in balance, trunk stability, mobility, and hip strength. Here's what it means for you.
-
-
-> **Related resource — affiliate link:** We may earn a commission if you choose to visit an optional resource. [Explore a related longevity resource](https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_da0031008e0311661bd5d57b).
-
-
 ## Why this matters
 
 As we age, maintaining balance and mobility becomes increasingly important for staying independent and avoiding falls. A recent study published in Nature highlights how aging affects key physical functions that underpin our ability to move safely through daily life.
+
+
+<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
+<p class="resource-kicker">Practical follow-up</p>
+<h3>A practical follow-up for healthy aging</h3>
+<p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
+<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_da0031008e0311661bd5d57b" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 Understanding these changes can help you and your healthcare provider focus on exercises and strategies to maintain strength and stability. While aging is inevitable, the rate of decline may be modifiable with targeted interventions.
 
@@ -63,6 +67,12 @@ Simple activities like tai chi, yoga, or resistance training may help improve ba
 This analysis is based on [Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiblFvZ0ZrWEpicVRLU0tsSGMzdmQwOTJrWV9UUnJNb1dfTjlJWkVfLXpZelVLX2xXWS1XajhwMUtSc1ZXYUVLbVRjWFZnTWhyWWVhTlpieXlQUUJpb2Q4?oc=5) from Nature. Read the original report for full context.
 
 
-> **Affiliate disclosure:** These optional resources may earn us a commission. [View the related resource](https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_da0031008e0311661bd5d57b).
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for healthy aging</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_da0031008e0311661bd5d57b" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 > **Health note:** This study is observational and limited in detail. It does not establish cause and effect, nor does it provide specific exercise recommendations. Consult a healthcare provider before starting any new fitness regimen.

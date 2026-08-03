@@ -23,14 +23,18 @@ image_avg_color: "#76716B"
 ---
 
 A new global analysis of more than 214,000 older adults reveals that dementia risk factors vary widely by country, but some patterns are surprisingly consistent.
-
-
-> **Related resource — affiliate link:** We may earn a commission if you choose to visit this optional resource. [Explore the related resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_8c294954ae5e5b72e0354302).
-
-
 ## Why this matters
 
 For decades, most research on dementia prevention has come from high-income countries like the U.S. and Western Europe. That left a big question: do those findings apply everywhere? A new study suggests the answer is no—and that has real implications for how we think about brain health as we age.
+
+
+<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
+<p class="resource-kicker">Practical follow-up</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_8c294954ae5e5b72e0354302" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 The study, led by researchers at the University of Southern California, looked at data from 14 countries and regions, including the U.S., England, China, India, and Brazil. It found that the prevalence of key dementia risk factors—like low education, high blood pressure, and smoking—varies dramatically from place to place. That means a one-size-fits-all approach to prevention is unlikely to work globally.
 
@@ -71,6 +75,12 @@ The researchers plan to expand their work to more countries, including Kenya and
 This analysis is based on [Where you live could shape your dementia risk, massive study finds](https://www.sciencedaily.com/releases/2026/07/260713000753.htm) from ScienceDaily Healthy Aging. Read the original report for full context.
 
 
-> **Affiliate disclosure:** This optional recommendation may earn us a commission. [View the related resource](https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_8c294954ae5e5b72e0354302).
+<aside class="resource-card" aria-label="More to explore">
+<p class="resource-kicker">More to explore</p>
+<h3>A practical follow-up for staying mentally engaged</h3>
+<p>An optional resource for readers who want another place to begin.</p>
+<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_8c294954ae5e5b72e0354302" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+</aside>
 
 > **Health note:** This was an observational study, so it cannot prove cause and effect. The data may not reflect current trends, and the study only examined 12 risk factors.
