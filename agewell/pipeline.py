@@ -782,15 +782,6 @@ def markdown(
 ) -> str:
     published_at = edition_time or dt.datetime.now(dt.timezone.utc)
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
-    sections = ""
-    if content_type == "lead":
-        section_blocks = [
-            f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
-            for section in content.get("sections", [])
-        ]
-        if section_blocks and recommendation_top:
-            section_blocks.insert(1, recommendation_top)
-        sections = "\n\n".join(section_blocks)
     if isinstance(offer_urls, str):
         offer_urls = [offer_urls] if offer_urls else []
     offer_urls = list(offer_urls or [])[:3]
@@ -806,6 +797,15 @@ def markdown(
             recommendation = resource_card(placements[0], category)
         if len(offer_urls) > 2:
             recommendation += resource_card(placements[2], category)
+    sections = ""
+    if content_type == "lead":
+        section_blocks = [
+            f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
+            for section in content.get("sections", [])
+        ]
+        if section_blocks and recommendation_top:
+            section_blocks.insert(1, recommendation_top)
+        sections = "\n\n".join(section_blocks)
     health_note = content["caveat"]
     image_frontmatter = ""
     if photo:
