@@ -67,6 +67,7 @@ EDITION_STATE_ROOT = Path(os.getenv("EDITION_STATE_ROOT", ROOT / ".state/edition
 IMAGE_CACHE_FILE = Path(os.getenv("IMAGE_CACHE_FILE", ROOT / ".state/image-search-cache.json"))
 IMAGE_LEDGER_FILE = Path(os.getenv("IMAGE_LEDGER_FILE", ROOT / ".state/image-ledger.json"))
 AFFILIATE_HEALTH_FILE = Path(os.getenv("AFFILIATE_HEALTH_FILE", ROOT / ".state/affiliate-health.json"))
+AFFILIATE_REVIEW_FILE = Path(os.getenv("AFFILIATE_REVIEW_FILE", ROOT / "config/affiliate-offer-review.json"))
 TREND_RADAR_FILE = Path(os.getenv("TREND_RADAR_FILE", ROOT / ".state/trend-radar.json"))
 
 PUBLICATION_STYLE_REQUIREMENTS = (
@@ -541,10 +542,27 @@ def offers() -> dict[str, Any]:
     raw = os.getenv("AFFILIATE_OFFERS_JSON", "{}")
     try:
         value = json.loads(raw)
-        return value if isinstance(value, dict) else {}
+        configured = value if isinstance(value, dict) else {}
     except json.JSONDecodeError:
         print("Ignoring invalid AFFILIATE_OFFERS_JSON", file=sys.stderr)
-        return {}
+        configured = {}
+
+    # A reviewed file can replace the neutral general-wellness bucket with a
+    # contextual category after a landing-page classification pass.  URLs are
+    # de-duplicated by the reviewed entry, so the secret remains the fallback.
+    try:
+        reviewed = json.loads(AFFILIATE_REVIEW_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        reviewed = {}
+    reviewed_offers = reviewed.get("offers", []) if isinstance(reviewed, dict) else []
+    if not isinstance(reviewed_offers, list) or not reviewed_offers:
+        return configured
+    base_offers = configured.get("offers", []) if isinstance(configured.get("offers"), list) else []
+    reviewed_urls = {str(item.get("url", "")) for item in reviewed_offers if isinstance(item, dict)}
+    merged = [item for item in base_offers if not (isinstance(item, dict) and item.get("url") in reviewed_urls)]
+    configured = dict(configured)
+    configured["offers"] = merged + reviewed_offers
+    return configured
 def draft(
     client: OpenAI,
     item: FeedItem,
