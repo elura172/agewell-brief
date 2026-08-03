@@ -15,6 +15,8 @@ const briefs = defineCollection({
     source_url: z.string().url(),
     source_title: z.string(),
     source_name: z.string().default("Original source"),
+    frontier_vectors: z.array(z.string()).default([]),
+    evidence_position: z.enum(["established", "emerging", "contested", "historical", "speculative"]).default("emerging"),
     author: z.string().default("Agewell Brief Editorial Desk"),
     image_id: z.number().int().positive().optional(),
     image_provider: z.enum(["Pexels", "Pixabay"]).default("Pexels"),

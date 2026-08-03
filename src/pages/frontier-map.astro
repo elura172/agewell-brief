@@ -1,0 +1,65 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import { publishedBriefs, topicSlug } from "../lib/publishing";
+import { frontierStatusLabels, frontierTerritories } from "../data/frontier-map";
+
+const briefs = publishedBriefs(await getCollection("briefs"));
+const countFor = (category: string) => briefs.filter((entry) => entry.data.category.toLowerCase() === category).length;
+---
+<Layout
+  title="The frontier map — Agewell Brief"
+  description="A living map of functional, regenerative, quantum, and vibrational health research."
+>
+  <main class="frontier-page">
+    <a class="back-link" href="/">← Today’s edition</a>
+    <header class="frontier-header">
+      <p class="eyebrow">Agewell’s living map</p>
+      <h1>Where health is going next.</h1>
+      <p class="frontier-lede">A readable field guide to the ideas, measurements, and questions shaping functional, regenerative, quantum, and vibrational health.</p>
+    </header>
+
+    <section class="frontier-intro" aria-labelledby="frontier-intro-heading">
+      <div>
+        <p class="eyebrow">How to read it</p>
+        <h2 id="frontier-intro-heading">Old vectors. New measurements. Better questions.</h2>
+      </div>
+      <div>
+        <p>The map connects current research with earlier lines of inquiry. A connection is context, not proof. Each frontier is followed for what it clarifies, what it challenges, and what still needs to be measured.</p>
+        <p class="frontier-takeaway"><strong>Three things to remember:</strong> evidence moves, language changes, and useful questions outlast confident predictions.</p>
+      </div>
+    </section>
+
+    <section class="frontier-territories" aria-labelledby="territories-heading">
+      <div class="section-heading">
+        <h2 id="territories-heading" class="section-title">The territories</h2>
+        <p class="section-caption">{briefs.length} published briefs in the map</p>
+      </div>
+      <div class="frontier-grid">
+        {frontierTerritories.map((territory, index) => (
+          <article id={territory.slug} class={`frontier-territory frontier-territory--${index + 1}`}>
+            <div class="frontier-territory-topline">
+              <span class="frontier-index">{String(index + 1).padStart(2, "0")}</span>
+              <span class={`frontier-status frontier-status--${territory.status}`}>{frontierStatusLabels[territory.status]}</span>
+            </div>
+            <h3>{territory.name}</h3>
+            <p>{territory.description}</p>
+            <p class="frontier-question">{territory.question}</p>
+            <div class="frontier-topics">
+              {territory.categories.map((category) => (
+                <a href={`/topics/${topicSlug(category)}/`}>{category} <span aria-hidden="true">↗</span><small>{countFor(category)}</small></a>
+              ))}
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="frontier-method" aria-labelledby="method-heading">
+      <p class="eyebrow">The map’s discipline</p>
+      <h2 id="method-heading">Curiosity without collapse.</h2>
+      <p>Established findings, emerging mechanisms, historical ideas, and open hypotheses can sit on the same map without being treated as the same kind of knowledge. Agewell follows the trail, shows the source, and keeps the uncertainty visible.</p>
+      <a class="primary-link" href="/editorial-policy/">Read the editorial policy <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+</Layout>

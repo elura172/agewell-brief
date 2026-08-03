@@ -3,6 +3,7 @@ import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import { plainTextExcerpt, publishedBriefs, topicSlug } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
+import { frontierForCategory } from "../../data/frontier-map";
 
 export async function getStaticPaths() {
   const entries = await getCollection("briefs");
@@ -31,6 +32,7 @@ const logoURL = new URL("/logo.svg", Astro.site).href;
 const related = publishedBriefs(await getCollection("briefs"))
   .filter((candidate) => candidate.id !== entry.id && candidate.data.category === entry.data.category)
   .slice(0, 2);
+const frontierLinks = frontierForCategory(entry.data.category);
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
@@ -81,6 +83,7 @@ const structuredData = {
       <h1>{entry.data.title}</h1>
       <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <time datetime={entry.data.date.toISOString()}>Published {formatDateTime}</time></p>
       <p class="article-source">Original reporting: <a href={entry.data.source_url} rel="noopener noreferrer">{entry.data.source_title}</a></p>
+      {frontierLinks.length > 0 && <p class="article-frontier">On the frontier: {frontierLinks.slice(0, 2).map((frontier, index) => <><a href={`/frontier-map/#${frontier.slug}`}>{frontier.shortName}</a>{index < Math.min(frontierLinks.length, 2) - 1 ? ", " : ""}</>)}</p>}
     </header>
     {entry.data.image && <div class="article-hero">
       <EditorialImage
