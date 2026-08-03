@@ -1,0 +1,71 @@
+[
+  {
+    "article_id": "ddade535e7a9d6b82af76362",
+    "study_type": "experimental animal study",
+    "key_claims": [
+      "Optogenetic activation of DRN 5-HT neurons in larval zebrafish induced a quiescent state and reduced response to acoustic stimuli.",
+      "The induced quiescent state was not accompanied by loss of postural control, and nighttime activation led to subsequent sleep rebound.",
+      "Whole-brain imaging and dPCA revealed distinct neural subspaces for DRN activation, sound responses, and motor activity.",
+      "DRN 5-HT activation selectively modulated the motor-related subspace while leaving the sound-evoked subspace unaffected.",
+      "Sleep induced by mepyramine significantly altered sound-evoked neuronal activity patterns, unlike DRN activation.",
+      "The degree of curvature in motor population activity scales with behavioral suppression across animals."
+    ],
+    "limitations": [
+      "The study was conducted in larval zebrafish, which may not fully represent mammalian systems.",
+      "Optogenetic activation may not precisely mimic natural serotonergic activity patterns.",
+      "The study focused on short-term effects; long-term consequences were not examined.",
+      "The source does not provide details on potential off-target effects of optogenetic stimulation."
+    ],
+    "what_not_to_say": [
+      "The source does not claim that serotonin directly causes sleep.",
+      "The source does not claim that DRN activation enhances vigilance.",
+      "The source does not claim that the findings apply to humans.",
+      "The source does not claim that the quiescent state is identical to natural sleep."
+    ],
+    "confidence": "high"
+  },
+  {
+    "article_id": "45515d21ddd7c4d1ad31ef15",
+    "study_type": "news article",
+    "key_claims": [
+      "Sleeping 6.4 to 7.8 hours a night may help slow biological aging.",
+      "The article suggests a specific sleep duration range associated with slower biological aging.",
+      "The source is a news article from Healthline."
+    ],
+    "limitations": [
+      "The source is a news article, not a peer-reviewed study.",
+      "The article does not provide detailed methodology or data.",
+      "The article may not include all context or caveats from the original research."
+    ],
+    "what_not_to_say": [
+      "The source does not specify the exact study design or population.",
+      "The source does not claim that sleeping more or less than this range accelerates aging.",
+      "The source does not provide causal evidence that sleep duration directly affects biological aging."
+    ],
+    "confidence": "limited"
+  },
+  {
+    "article_id": "3b9c316af3c8088e0f74037b",
+    "study_type": "preclinical laboratory study",
+    "key_claims": [
+      "Serum-derived circulating cell-free chromatin particles (cfChPs) are rapidly internalized by human peripheral blood mononuclear cells.",
+      "cfChPs trigger a biphasic STING signaling response: an early phase with STING trafficking to perinuclear region and nucleus, and activation of IRF3 and NF-κB before detectable DNA damage; a later phase with STING phosphorylation, puncta formation, persistent DNA damage, and robust inflammatory cytokine production.",
+      "Pharmacological inhibition or genetic deletion of STING markedly attenuated these responses.",
+      "cfChPs are identified as endogenous DNA-damaging agents, linking cell death, DNA damage, and sterile inflammation."
+    ],
+    "limitations": [
+      "The study is a preprint and has not been peer-reviewed.",
+      "The findings are based on in vitro experiments with human peripheral blood mononuclear cells; in vivo relevance is not established.",
+      "The exact mechanisms of cfChP internalization and STING activation are not fully detailed.",
+      "The study does not provide quantitative data on the magnitude of effects or clinical implications."
+    ],
+    "what_not_to_say": [
+      "Do not claim that cfChPs cause ageing or specific diseases in humans.",
+      "Do not claim that STING inhibitors are therapeutic for any condition.",
+      "Do not claim that the biphasic STING response occurs in vivo.",
+      "Do not claim that cfChPs are the only link between cell death and inflammation.",
+      "Do not mention specific numbers or statistics not present in the source."
+    ],
+    "confidence": "moderate"
+  }
+]

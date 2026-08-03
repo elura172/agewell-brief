@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "f70d1aea0cb7a8acd593b2b9": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Introduces a novel bioluminescent optogenetic technique to reversibly perturb proprioception in mice, enabling causal testing of embodied cognition—a frontier method with broad implications.",
+      "angle": "Bypassing the brain: a new optogenetic tool to switch off proprioception in mice could reveal how the body shapes memory.",
+      "mode": "agent"
+    },
+    "8256e59bc511896e66949f0e": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Provides mechanistic insights into how a new adjuvant enhances influenza vaccine responses in older adults, reducing age-related differences—a concrete advance in vaccinology.",
+      "angle": "New adjuvant narrows the immune response gap in older adults—early IgG3 and memory T cells explain how.",
+      "mode": "agent"
+    },
+    "45515d21ddd7c4d1ad31ef15": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Repeats a familiar sleep-duration recommendation with a specific range, but lacks a novel mechanism or surprising finding.",
+      "angle": "The sweet spot for sleep and biological aging: 6.4–7.8 hours—but why?",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic home workout advice for seniors; no new data or unique angle.",
+      "angle": "A senior trainer's simple daily routine to keep you steady on your feet.",
+      "mode": "agent"
+    },
+    "628fba671bb13fc20dfac71b": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Confirms that overall brain health protects memory in early Alzheimer's, but lacks a specific new mechanism or intervention.",
+      "angle": "Why a healthy brain resists early Alzheimer's—and what that means for prevention.",
+      "mode": "agent"
+    },
+    "41eaae732adb31fac06e30fe": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier theory",
+      "reason": "Proposes a falsifiable boundary between plastic and non-plastic neural systems using critical flicker fusion frequency—a novel theoretical framework.",
+      "angle": "The flicker threshold that refuses to learn: a new boundary for brain plasticity.",
+      "mode": "agent"
+    },
+    "260faf343e6db83913a54b38": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "First open-access annotated CBCT dataset for image quality assessment, enabling benchmarking—a valuable resource for medical imaging.",
+      "angle": "A new public dataset could standardize how we judge CT image quality.",
+      "mode": "agent"
+    },
+    "a3c844dcb3d1d0b9ae00d26d": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Links disrupted body clock to dementia risk, but this association is already widely reported.",
+      "angle": "Your body clock and dementia: what the latest research really says.",
+      "mode": "agent"
+    },
+    "6f6cf84a5f7b2c0274480fae": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "recycled supplement claim",
+      "reason": "Protein restriction for longevity is a recurring topic; no new mechanism or data presented.",
+      "angle": "Protein restriction and longevity: separating fact from fad.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "f70d1aea0cb7a8acd593b2b9",
+    "8256e59bc511896e66949f0e",
+    "41eaae732adb31fac06e30fe",
+    "260faf343e6db83913a54b38"
+  ],
+  "held_back": [
+    "45515d21ddd7c4d1ad31ef15",
+    "256b3e11dfff849235aebba7",
+    "628fba671bb13fc20dfac71b",
+    "a3c844dcb3d1d0b9ae00d26d",
+    "6f6cf84a5f7b2c0274480fae"
+  ],
+  "mode": "agent"
+}

@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "11abe8f3fd3c8d6a3a5a424a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "incremental research",
+      "reason": "Extends known exercise-brain associations with more metrics; no surprising or actionable finding.",
+      "angle": "Which endurance metric matters most for brain plasticity? Could be a practical training guide.",
+      "mode": "agent"
+    },
+    "45515d21ddd7c4d1ad31ef15": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific sleep range",
+      "reason": "Specific sleep duration range tied to biological aging is a concrete, actionable finding.",
+      "angle": "Why 6.4-7.8 hours? The sweet spot for aging clocks.",
+      "mode": "agent"
+    },
+    "3b9c316af3c8088e0f74037b": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies a novel biphasic STING signaling pathway linking cell death to DNA damage and inflammation.",
+      "angle": "Cell-free chromatin particles: the hidden trigger of sterile inflammation?",
+      "mode": "agent"
+    },
+    "8ceb4683a1d2939678198258": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "technical framework",
+      "reason": "Specialized engineering framework; low general reader interest.",
+      "angle": "How AI and physics team up to keep island power grids alive.",
+      "mode": "agent"
+    },
+    "4f1c97320c9958b6379f15ad": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "basic neuroscience",
+      "reason": "Interesting but incremental; confirms balance despite turnover, not a major shift.",
+      "angle": "How brain circuits stay stable while constantly rewiring.",
+      "mode": "agent"
+    },
+    "ddade535e7a9d6b82af76362": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Reveals serotonin's role in a distinct quiescent state, separate from sleep, with neural subspace evidence.",
+      "angle": "Serotonin: the brain's 'pause' button that isn't sleep.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Useful but generic; similar senior workout advice is common.",
+      "angle": "A trainer's 10-minute routine that targets balance and strength.",
+      "mode": "agent"
+    },
+    "628fba671bb13fc20dfac71b": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "confirmatory study",
+      "reason": "Reinforces known concept of cognitive reserve; not novel enough.",
+      "angle": "Why some brains resist Alzheimer's: the resilience factor.",
+      "mode": "agent"
+    },
+    "260faf343e6db83913a54b38": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "resource announcement",
+      "reason": "Dataset release is valuable for specialists but not broadly engaging.",
+      "angle": "A new benchmark to ensure AI sees clearly in 3D X-rays.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "45515d21ddd7c4d1ad31ef15",
+    "3b9c316af3c8088e0f74037b",
+    "ddade535e7a9d6b82af76362"
+  ],
+  "held_back": [
+    "11abe8f3fd3c8d6a3a5a424a",
+    "8ceb4683a1d2939678198258",
+    "4f1c97320c9958b6379f15ad",
+    "256b3e11dfff849235aebba7",
+    "628fba671bb13fc20dfac71b",
+    "260faf343e6db83913a54b38"
+  ],
+  "mode": "agent"
+}

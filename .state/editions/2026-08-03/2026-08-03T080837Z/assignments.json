@@ -1,0 +1,28 @@
+{
+  "edition_angle": "What matters in health today",
+  "assignments": [
+    {
+      "article_id": "8256e59bc511896e66949f0e",
+      "role": "lead",
+      "angle": "Explain what this means for readers over 50.",
+      "confidence": 0.5,
+      "reason": "Selected for relevance and freshness."
+    },
+    {
+      "article_id": "f70d1aea0cb7a8acd593b2b9",
+      "role": "signal",
+      "angle": "Explain what this means for readers over 50.",
+      "confidence": 0.5,
+      "reason": "Selected for relevance and freshness."
+    },
+    {
+      "article_id": "41eaae732adb31fac06e30fe",
+      "role": "signal",
+      "angle": "Explain what this means for readers over 50.",
+      "confidence": 0.5,
+      "reason": "Selected for relevance and freshness."
+    }
+  ],
+  "held_back": [],
+  "mode": "agent"
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "article_id": "4f1c97320c9958b6379f15ad",
+    "editorial_intent": "Show the dynamic yet balanced nature of synapses through a visually engaging scientific or abstract representation.",
+    "subject": "A researcher observing a live imaging screen displaying colorful synaptic activity",
+    "setting": "A modern neuroscience laboratory with advanced microscopy equipment",
+    "mood": "intriguing, precise, hopeful",
+    "composition": "Close-up of the researcher's face and the screen, with the lab softly blurred in the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses"
+    ],
+    "search_queries": [
+      "neuroscientist looking at microscope screen",
+      "colorful neurons firing under microscope",
+      "brain synapse animation on computer screen"
+    ]
+  },
+  {
+    "article_id": "a3c844dcb3d1d0b9ae00d26d",
+    "editorial_intent": "Show a person in later life maintaining a consistent daily routine with natural light exposure to illustrate the connection between circadian rhythms and brain health.",
+    "subject": "an older adult sitting by a bright window in the morning, with a clock visible",
+    "setting": "a cozy, sunlit living room with plants and a visible wall clock",
+    "mood": "calm, hopeful, routine",
+    "composition": "landscape orientation, subject positioned to the left, window light streaming in from the right, clock in the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "dark or gloomy settings",
+      "clinical settings without context"
+    ],
+    "search_queries": [
+      "older adult morning sunlight window",
+      "senior checking clock morning routine",
+      "elderly person by window with clock"
+    ]
+  },
+  {
+    "article_id": "260faf343e6db83913a54b38",
+    "editorial_intent": "Show researchers analyzing cone-beam CT scans on a monitor, emphasizing the balance between image quality and radiation dose.",
+    "subject": "A radiologist or researcher pointing at a cone-beam CT scan on a monitor",
+    "setting": "A modern radiology lab with a high-resolution monitor displaying a CBCT image",
+    "mood": "focused, analytical, professional",
+    "composition": "Medium shot, eye-level, subject on the left, monitor on the right, with a shallow depth of field",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "lifestyle scenes unrelated to medical imaging"
+    ],
+    "search_queries": [
+      "radiologist analyzing CT scan monitor",
+      "cone-beam CT scan displayed on screen",
+      "researcher pointing at medical scan"
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "article_id": "ddade535e7a9d6b82af76362",
+    "editorial_intent": "Show a serene, alert state of restful vigilance, with a focus on stillness and sensory awareness.",
+    "subject": "A person sitting calmly with eyes closed, but with a subtle alert posture, perhaps in a natural setting.",
+    "setting": "A quiet, natural environment like a forest or garden, with soft light filtering through leaves.",
+    "mood": "serene, alert, contemplative",
+    "composition": "Close-up on the person's face and upper body, with a shallow depth of field to blur the background, emphasizing stillness and focus.",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "clinical settings",
+      "medical equipment",
+      "sleeping people",
+      "obvious technology"
+    ],
+    "search_queries": [
+      "person sitting still eyes closed forest",
+      "meditation nature alert posture",
+      "calm person resting outdoors"
+    ]
+  },
+  {
+    "article_id": "45515d21ddd7c4d1ad31ef15",
+    "editorial_intent": "Show a mature adult sleeping peacefully in a dark, quiet bedroom, with a clock indicating the optimal sleep duration, to illustrate the concept of healthy sleep duration linked to slower biological aging.",
+    "subject": "A mature adult sleeping peacefully in bed",
+    "setting": "A dark, quiet bedroom with soft morning light and a clock showing 7:00",
+    "mood": "calm, restful, serene",
+    "composition": "Close-up on the sleeping person's face and upper body, with the clock in the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "medical equipment",
+      "clinical settings"
+    ],
+    "search_queries": [
+      "senior sleeping peacefully in bed",
+      "mature adult deep sleep bedroom",
+      "older person restful sleep night"
+    ]
+  },
+  {
+    "article_id": "3b9c316af3c8088e0f74037b",
+    "editorial_intent": "Show the microscopic and cellular drama of cfChPs entering immune cells and triggering STING, emphasizing the biphasic nature and potential for therapeutic intervention.",
+    "subject": "A scientist's gloved hand holding a petri dish with cultured immune cells, with a microscope in the background",
+    "setting": "A modern biomedical research laboratory with fluorescent microscopy equipment and computer screens displaying cellular images",
+    "mood": "focused, scientific, dynamic",
+    "composition": "Close-up on the petri dish and hand, with the microscope and screens softly blurred in the background, conveying precision and investigation",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "abstract concepts",
+      "generic wellness scenes"
+    ],
+    "search_queries": [
+      "scientist examining petri dish in lab",
+      "immune cells under microscope fluorescent",
+      "DNA damage inflammation laboratory research"
+    ]
+  }
+]

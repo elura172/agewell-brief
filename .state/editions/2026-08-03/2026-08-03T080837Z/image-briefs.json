@@ -1,0 +1,66 @@
+[
+  {
+    "article_id": "8256e59bc511896e66949f0e",
+    "editorial_intent": "Show a researcher in a lab examining immune response data, conveying scientific progress and hope for better flu vaccines for older adults.",
+    "subject": "a researcher in a lab coat looking at a computer screen with graphs",
+    "setting": "a modern laboratory with microscopes and test tubes",
+    "mood": "focused, hopeful, scientific",
+    "composition": "landscape orientation, researcher on one side, lab equipment and screens on the other",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "overly clinical or sterile scenes",
+      "people receiving injections"
+    ],
+    "search_queries": [
+      "researcher analyzing immune response data",
+      "scientist in lab with microscope and computer",
+      "lab technician examining blood samples"
+    ]
+  },
+  {
+    "article_id": "f70d1aea0cb7a8acd593b2b9",
+    "editorial_intent": "Show a close-up of a researcher's hands adjusting a small device on a mouse in a lab, conveying precision and scientific inquiry.",
+    "subject": "researcher's hands with a small device on a mouse",
+    "setting": "modern neuroscience laboratory with equipment",
+    "mood": "focused, clinical, curious",
+    "composition": "close-up, shallow depth of field, hands and mouse in sharp focus, background softly blurred",
+    "avoid": [
+      "frightened mice",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses"
+    ],
+    "search_queries": [
+      "researcher hands adjusting mouse device",
+      "neuroscience lab mouse experiment close-up",
+      "scientist handling mouse in laboratory"
+    ]
+  },
+  {
+    "article_id": "41eaae732adb31fac06e30fe",
+    "editorial_intent": "To visually represent the concept of a stable perceptual threshold in the adult brain, using imagery of visual perception and neural research.",
+    "subject": "A close-up of a human eye with a subtle reflection of a flickering light pattern",
+    "setting": "A dimly lit neuroscience laboratory with a visual perception testing apparatus",
+    "mood": "intriguing, precise, contemplative",
+    "composition": "Close-up, shallow depth of field, focusing on the eye and the light reflection, with the lab equipment softly blurred in the background",
+    "avoid": [
+      "frightened expressions",
+      "disability stereotypes",
+      "pills in hands",
+      "miracle imagery",
+      "generic retirement poses",
+      "abstract concepts",
+      "generic wellness scenes"
+    ],
+    "search_queries": [
+      "eye close-up light reflection",
+      "neuroscientist visual perception experiment",
+      "flickering light test vision lab"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "article_id": "8256e59bc511896e66949f0e",
+    "study_type": "reported health research",
+    "key_claims": [
+      "Vaccine immunogenicity declines with age due to immunosenescence, underscoring the need for improved adjuvants. LiteVax Adjuvant (LVA), a squalane-in-water emulsion containing carbohydrate fatty-acid monosulphate esters, has shown potential to enhance influenza vaccine responses, but its mechanisms in humans remain unclear. We performed a longitudinal systems vaccinology study in 56 younger (18-45 years) and older ([≥]60 years) adults receiving a quadrivalent influenza vaccine with or without LVA. Multi-omics analyses, including bulk and single-cell transcriptomics, flow cytometry, and serology, revealed that LVA induced a rapid, transient interferon-driven innate response, primarily in monocytes, associated with enhanced antigen processing and dendritic cell to T cell interactions. LVA promoted differentiation of influenza-specific CD4+ T cells toward CD45RO+ memory phenotypes, accelerated early IgG3 antibody responses, and increased IgG-producing plasmablast frequencies without affecting overall antibody magnitude. Importantly, LVA reduced age-related differences in early immune responses, improving response quality and supporting vaccine performance in older adults."
+    ],
+    "limitations": [],
+    "what_not_to_say": [],
+    "confidence": "unclear"
+  },
+  {
+    "article_id": "f70d1aea0cb7a8acd593b2b9",
+    "study_type": "experimental animal study",
+    "key_claims": [
+      "A murine experimental system was developed to manipulate proprioceptive inputs during a memory-dependent localization task in spatial virtual reality.",
+      "Bioluminescent optogenetics (luminopsin) was selectively expressed in parvalbumin-positive neurons of the dorsal root ganglia in mice.",
+      "The effects of luminopsin last for roughly 20 minutes based on in-vivo IVIS imaging and behavior.",
+      "Mice exhibited normal performance in tasks relying on gross motor skills but showed subtle deficits in challenging spatial tasks requiring integration of past movements.",
+      "The study provides a first causal demonstration for acute participation of proprioception in path-integration biomechanics."
+    ],
+    "limitations": [
+      "The study is a preprint and has not been peer-reviewed.",
+      "The effects of luminopsin were only tested for a short duration (roughly 20 minutes).",
+      "The study was conducted in mice, and results may not directly translate to humans.",
+      "The method for activating opsins with millisecond precision is mentioned as future work, indicating current limitations in temporal precision."
+    ],
+    "what_not_to_say": [
+      "The study proves that proprioception is essential for all spatial behaviors.",
+      "The study provides a method for human proprioception manipulation.",
+      "The study shows that proprioception deficits affect gross motor skills.",
+      "The study demonstrates that proprioception is the sole mechanism for path integration.",
+      "The study has been peer-reviewed and validated."
+    ],
+    "confidence": "moderate"
+  },
+  {
+    "article_id": "41eaae732adb31fac06e30fe",
+    "study_type": "review",
+    "key_claims": [
+      "Critical flicker fusion frequency (CFFF) shows exceptional within-individual stability in adults.",
+      "CFFF stability contrasts with the highly plastic spatial abilities processed through the same cortical pathways.",
+      "CFFF is unresponsive to non-specific cognitive training but modifiable by perceptual-learning paradigms engaging the magnocellular-dorsal stream.",
+      "CFFF may serve as a trait marker, but links to working memory precision, metacognitive accuracy, and capacity limits are testable hypotheses, not established findings.",
+      "CFFF emerges from convergent constraints across processing levels."
+    ],
+    "limitations": [
+      "The source is an abstract, so details of the review methodology are not provided.",
+      "The proposed framework is based on a review, not original empirical data.",
+      "The links between CFFF and cognitive traits are hypotheses, not established findings."
+    ],
+    "what_not_to_say": [
+      "Do not claim that CFFF is definitively a trait marker for cognitive abilities.",
+      "Do not claim that CFFF stability is caused by any single mechanism.",
+      "Do not claim that CFFF is completely unmodifiable.",
+      "Do not claim that the review provides causal evidence."
+    ],
+    "confidence": "moderate"
+  }
+]
