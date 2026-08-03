@@ -105,6 +105,10 @@ const structuredData = {
         <button class="filter-pill" data-category="longevity">Living Waters</button>
         <button class="filter-pill" data-category="metabolic-health">Higher Flame</button>
         <button class="filter-pill" data-category="detoxification">Dark Mirror</button>
+        <span class="filter-divider">|</span>
+        <button class="filter-pill pill-evidence" data-evidence="established">Established</button>
+        <button class="filter-pill pill-evidence" data-evidence="emerging">Emerging</button>
+        <button class="filter-pill pill-evidence" data-evidence="contested">Contested & Frontier</button>
       </div>
     </div>
 
@@ -601,6 +605,45 @@ const structuredData = {
       e.preventDefault();
       const zoomFactor = e.deltaY < 0 ? 1.08 : 0.92;
       zoom = Math.max(0.4, Math.min(2.5, zoom * zoomFactor));
+    });
+
+    // Category and Evidence Position Filter Pills
+    const filterPills = document.querySelectorAll<HTMLButtonElement>("#filter-pills .filter-pill");
+    let activeCategory = "all";
+    let activeEvidence = "all";
+
+    filterPills.forEach((pill) => {
+      pill.addEventListener("click", () => {
+        const cat = pill.getAttribute("data-category");
+        const ev = pill.getAttribute("data-evidence");
+
+        if (cat) {
+          activeCategory = cat;
+          document.querySelectorAll<HTMLButtonElement>("[data-category]").forEach(p => p.classList.remove("is-active"));
+          pill.classList.add("is-active");
+        } else if (ev) {
+          if (activeEvidence === ev) {
+            activeEvidence = "all";
+            pill.classList.remove("is-active");
+          } else {
+            activeEvidence = ev;
+            document.querySelectorAll<HTMLButtonElement>("[data-evidence]").forEach(p => p.classList.remove("is-active"));
+            pill.classList.add("is-active");
+          }
+        }
+
+        // Filter canvas nodes dynamically
+        nodes.forEach((n: any) => {
+          const matchCat = activeCategory === "all" || n.category === activeCategory || n.category === "Frontier Territory";
+          const matchEv = activeEvidence === "all" || n.evidence === activeEvidence || (activeEvidence === "contested" && (n.evidence === "contested" || n.evidence === "speculative"));
+          
+          if (matchCat && matchEv) {
+            n.radius = n.type === "territory" ? 20 : 12;
+          } else {
+            n.radius = 0; // hide node
+          }
+        });
+      });
     });
   }
 </script>
