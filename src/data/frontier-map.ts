@@ -1,3 +1,5 @@
+import type { PaletteKey } from "../components/QuantumLuminanceCanvas.astro";
+
 export type FrontierStatus = "established" | "emerging" | "contested" | "historical" | "speculative";
 
 export interface FrontierTerritory {
@@ -8,6 +10,7 @@ export interface FrontierTerritory {
   question: string;
   status: FrontierStatus;
   categories: string[];
+  palette: PaletteKey;
 }
 
 export const frontierTerritories: FrontierTerritory[] = [
@@ -18,7 +21,8 @@ export const frontierTerritories: FrontierTerritory[] = [
     description: "The physical, metabolic, and neural foundations that maintain daily vigor, sharp cognition, and physical autonomy.",
     question: "How do we keep the human vessel resilient, strong, and thriving throughout life?",
     status: "established",
-    categories: ["brain health", "gut health", "metabolic health", "mobility", "sleep health", "general wellness"]
+    categories: ["brain health", "gut health", "metabolic health", "mobility", "sleep health", "general wellness"],
+    palette: "functional-health"
   },
   {
     slug: "regenerative-health",
@@ -27,7 +31,8 @@ export const frontierTerritories: FrontierTerritory[] = [
     description: "Mitochondrial dynamics, senolytic cell clearing, NRF-2 antioxidant activation, and epigenetic renewal.",
     question: "How do living tissues clean house, evict senescent cells, and reboot endogenous repair?",
     status: "emerging",
-    categories: ["cellular senescence", "longevity", "detoxification", "metabolic health"]
+    categories: ["cellular senescence", "longevity", "detoxification", "metabolic health"],
+    palette: "regenerative-health"
   },
   {
     slug: "quantum-biology",
@@ -36,7 +41,8 @@ export const frontierTerritories: FrontierTerritory[] = [
     description: "The frontier where subatomic quantum tunneling, electron transport, magnetoreception, and living systems meet.",
     question: "How do quantum phenomena govern enzyme catalysis, neural processing, and energy transfer inside living cells?",
     status: "emerging",
-    categories: ["cellular senescence", "longevity", "brain health", "metabolic health"]
+    categories: ["cellular senescence", "longevity", "brain health", "metabolic health"],
+    palette: "quantum-biology"
   },
   {
     slug: "vibrational-regenerative-health",
@@ -45,7 +51,8 @@ export const frontierTerritories: FrontierTerritory[] = [
     description: "Biophoton emissions (Fritz-Albert Popp), structured cellular water, electromagnetic signaling, and living matrix coherence.",
     question: "How do light and electromagnetic frequencies coordinate signaling across 37 trillion cells simultaneously?",
     status: "contested",
-    categories: ["general wellness", "cellular senescence", "detoxification", "brain health"]
+    categories: ["general wellness", "cellular senescence", "detoxification", "brain health"],
+    palette: "vibrational-health"
   }
 ];
 

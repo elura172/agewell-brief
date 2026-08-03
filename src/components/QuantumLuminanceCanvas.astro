@@ -1,5 +1,5 @@
 ---
-export type PaletteKey = "default" | "living-waters" | "inner-garden" | "cell-shedding" | "higher-flame" | "luminous-mind" | "dark-mirror";
+export type PaletteKey = "default" | "living-waters" | "inner-garden" | "cell-shedding" | "higher-flame" | "luminous-mind" | "dark-mirror" | "functional-health" | "regenerative-health" | "quantum-biology" | "vibrational-health";
 
 interface Props {
   class?: string;
@@ -108,6 +108,46 @@ const { class: className = "", height = 340, palette = "default" } = Astro.props
       w0: "oklch(0.48 0.08 260 / 0.28)",
       w1: "oklch(0.38 0.08 250 / 0.22)",
       w2: "oklch(0.65 0.12 70 / 0.25)"
+    },
+    "functional-health": {
+      p1: "oklch(0.65 0.16 160)",
+      p2: "oklch(0.72 0.14 85)",
+      bg0: "oklch(0.97 0.018 150)",
+      bg1: "oklch(0.94 0.025 140)",
+      bg2: "oklch(0.91 0.03 160 / 0.18)",
+      w0: "oklch(0.65 0.16 160 / 0.28)",
+      w1: "oklch(0.50 0.14 140 / 0.22)",
+      w2: "oklch(0.72 0.14 85 / 0.25)"
+    },
+    "regenerative-health": {
+      p1: "oklch(0.70 0.18 50)",
+      p2: "oklch(0.62 0.15 20)",
+      bg0: "oklch(0.97 0.02 55)",
+      bg1: "oklch(0.94 0.03 40)",
+      bg2: "oklch(0.91 0.035 30 / 0.18)",
+      w0: "oklch(0.70 0.18 50 / 0.28)",
+      w1: "oklch(0.52 0.15 35 / 0.22)",
+      w2: "oklch(0.62 0.15 20 / 0.25)"
+    },
+    "quantum-biology": {
+      p1: "oklch(0.60 0.18 290)",
+      p2: "oklch(0.68 0.15 200)",
+      bg0: "oklch(0.96 0.02 290)",
+      bg1: "oklch(0.93 0.03 270)",
+      bg2: "oklch(0.90 0.04 240 / 0.18)",
+      w0: "oklch(0.60 0.18 290 / 0.28)",
+      w1: "oklch(0.46 0.15 260 / 0.22)",
+      w2: "oklch(0.68 0.15 200 / 0.25)"
+    },
+    "vibrational-health": {
+      p1: "oklch(0.74 0.15 85)",
+      p2: "oklch(0.65 0.14 175)",
+      bg0: "oklch(0.97 0.016 85)",
+      bg1: "oklch(0.945 0.022 175)",
+      bg2: "oklch(0.92 0.028 200 / 0.18)",
+      w0: "oklch(0.74 0.15 85 / 0.28)",
+      w1: "oklch(0.52 0.14 120 / 0.22)",
+      w2: "oklch(0.65 0.14 175 / 0.25)"
     }
   };
 

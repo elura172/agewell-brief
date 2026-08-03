@@ -40,17 +40,20 @@ const countFor = (category: string) => briefs.filter((entry) => entry.data.categ
       <div class="frontier-grid">
         {frontierTerritories.map((territory, index) => (
           <article id={territory.slug} class={`frontier-territory frontier-territory--${index + 1}`}>
-            <div class="frontier-territory-topline">
-              <span class="frontier-index">{String(index + 1).padStart(2, "0")}</span>
-              <span class={`frontier-status frontier-status--${territory.status}`}>{frontierStatusLabels[territory.status]}</span>
-            </div>
-            <h3>{territory.name}</h3>
-            <p>{territory.description}</p>
-            <p class="frontier-question">{territory.question}</p>
-            <div class="frontier-topics">
-              {territory.categories.map((category) => (
-                <a href={`/topics/${topicSlug(category)}/`}>{category} <span aria-hidden="true">↗</span><small>{countFor(category)}</small></a>
-              ))}
+            <QuantumLuminanceCanvas height={160} palette={territory.palette} />
+            <div class="frontier-territory-body">
+              <div class="frontier-territory-topline">
+                <span class="frontier-index">{String(index + 1).padStart(2, "0")}</span>
+                <span class={`frontier-status frontier-status--${territory.status}`}>{frontierStatusLabels[territory.status]}</span>
+              </div>
+              <h3>{territory.name}</h3>
+              <p>{territory.description}</p>
+              <p class="frontier-question">{territory.question}</p>
+              <div class="frontier-topics">
+                {territory.categories.map((category) => (
+                  <a href={`/topics/${topicSlug(category)}/`}>{category} <span aria-hidden="true">↗</span><small>{countFor(category)}</small></a>
+                ))}
+              </div>
             </div>
           </article>
         ))}
