@@ -993,12 +993,15 @@ def run() -> int:
     sources = feed_sources()
     if not sources:
         raise RuntimeError("RSS_FEEDS_JSON or RSS_FEED_URL is required")
-    if not DEEPSEEK_API_KEY:
-        raise RuntimeError("DEEPSEEK_API_KEY is required")
+    api_key = DEEPSEEK_API_KEY or os.getenv("OPENROUTER_API_KEY") or os.getenv("OPENAI_API_KEY")
+    base_url = LLM_BASE_URL
+    if not api_key:
+        api_key = "freedom"
+        base_url = "http://127.0.0.1:1234/v1"
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     state = load_state()
-    client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=LLM_BASE_URL)
+    client = OpenAI(api_key=api_key, base_url=base_url)
     configured_offers = offers()
     configured_program_resources = program_resources()
     affiliate_health = load_health_status(AFFILIATE_HEALTH_FILE)
