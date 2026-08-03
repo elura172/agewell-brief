@@ -41,7 +41,7 @@ Current production components:
 - Scheduled GitHub Actions in `.github/workflows/aggregate.yml`.
 - Static deployment through Cloudflare Workers Builds.
 - Social distribution through Upload-Post, with trend-ranked packages and
-  publishing still gated behind review.
+  automated publishing through the local content-factory runner.
 - Public site: `https://agewellbrief.com`.
 - Repository: `https://github.com/elura172/agewell-brief`.
 
@@ -344,8 +344,8 @@ deployment succeeded.
 ## 11. Social distribution
 
 Upload-Post is connected to the publication's Facebook, TikTok, and YouTube
-accounts. The current system automates the preparation and tracking layers; it
-does not yet publish new posts automatically.
+accounts. The system now automates preparation, rendering, submission, and
+status tracking through the local content-factory runner.
 
 The live flow is:
 
@@ -358,7 +358,7 @@ Facebook / TikTok / YouTube copy + MoneyPrinterTurbo job
           ↓
 scripts/social_manifest.py sync
           ↓
-review → render → optional Upload-Post submission
+render → Upload-Post submission → status reconciliation
 ```
 
 The trend-aware package generator reads `src/data/trending.json`, selects the
@@ -369,16 +369,16 @@ voice and high-contrast caption settings.
 
 The formats are deliberately platform-aware:
 
-- Facebook receives a concise link-post caption and canonical Agewell URL. The
-  caption is generated automatically, but the post is not submitted to
-  Facebook by the trend workflow yet.
+- Facebook receives and publishes a concise link-post caption with the
+  canonical Agewell URL.
 - TikTok receives a hook, short script, caption, and link-in-bio URL; it still
   requires a vertical video asset.
 - YouTube receives a short-form title and description; it also requires a video
   asset.
 
 Keep the article URL canonical and do not place affiliate links directly in
-social captions. Review the generated package before enabling live publishing.
+social captions. The article itself carries the disclosure and contextual
+resource cards.
 Upload-Post's current API supports text, photo, and video endpoints, but the
 connected platforms do not all accept the same media type. The API key remains
 in the `UPLOAD_POST_API_KEY` GitHub secret.
@@ -411,14 +411,15 @@ video job cannot flood the connected accounts.
 Current automation boundary:
 
 - Automated: trend selection, Facebook copy, TikTok copy, YouTube copy,
-  canonical links, MoneyPrinterTurbo job creation, manifest synchronization,
-  and Upload-Post status reconciliation.
-- Review-gated: final script/video QA and new Upload-Post submissions.
-- Not automated: direct Facebook publishing from the trend refresh workflow.
+  canonical links, MoneyPrinterTurbo rendering, Facebook/TikTok/YouTube
+  submissions, manifest synchronization, and Upload-Post status reconciliation.
+- Release gate: deterministic source, evidence, disclosure, and link checks
+  still run before an article enters the published queue. The factory does not
+  invent supplement efficacy claims or turn a trend signal into medical advice.
 
-When live publishing is enabled, keep the same review gate for the first batch
-and confirm that the manifest records a request ID and resulting post URL for
-each platform.
+The manifest must record a request ID and resulting post URL for each platform.
+Failed submissions remain retryable without reposting completed jobs because
+each request uses a stable idempotency key.
 
 ## 12. Review, rollback, and incident handling
 

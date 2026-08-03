@@ -49,9 +49,20 @@ def pending_articles(manifest: dict) -> list[dict]:
             continue
         job = load(Path(video))
         platforms = article.get("platforms", {})
-        if job.get("status") in {"ready_for_mpt", "generated", "upload_failed"}:
-            if any(platforms.get(name, {}).get("status") not in {"completed", "queued", "processing"} for name in ("tiktok", "youtube")):
-                items.append({"article": article, "job": job, "video_path": Path(job.get("video_path", ""))})
+        if job.get("status") in {"ready_for_mpt", "generated", "uploaded", "upload_failed"}:
+            video_pending = any(
+                platforms.get(name, {}).get("status") not in {"completed", "queued", "processing"}
+                for name in ("tiktok", "youtube")
+            )
+            facebook_pending = platforms.get("facebook", {}).get("status") not in {"completed", "queued", "processing"}
+            if video_pending or facebook_pending:
+                items.append({
+                    "article": article,
+                    "job": job,
+                    "video_path": Path(job.get("video_path", "")),
+                    "video_pending": video_pending,
+                    "facebook_pending": facebook_pending,
+                })
     return items
 
 
@@ -157,37 +168,40 @@ def main() -> int:
     for item in items:
         dirty = True
         article, job, video_path = item["article"], item["job"], item["video_path"]
-        if not video_path.exists():
+        if item["video_pending"] and not video_path.is_file():
             video_path, task_dir = run_mpt(job)
             set_job_status(article, job, "generated", video_path=str(video_path), task_dir=task_dir)
         if not args.publish:
             print(f"MPT dry run: generated/ready {article['article_id']}")
             processed += 1
             continue
-        try:
-            facebook_state = manifest["articles"][article["article_id"]]["platforms"]["facebook"]
-            if facebook_state.get("status") not in {"queued", "processing", "completed"}:
+        if item["facebook_pending"]:
+            try:
+                facebook_state = manifest["articles"][article["article_id"]]["platforms"]["facebook"]
                 record = load(Path(article["content_record"]))
                 result = upload_facebook(config, article, record["article"])
                 facebook_state.update({
                     "status": "queued", "request_id": result.get("request_id"),
                     "job_id": result.get("job_id"), "updated_at": now(),
                 })
-        except (OSError, urllib.error.HTTPError, urllib.error.URLError) as error:
-            manifest["articles"][article["article_id"]]["platforms"]["facebook"].update({
-                "status": "upload_failed", "last_error": type(error).__name__, "updated_at": now(),
-            })
-        try:
-            result = upload_video(config, article, job, video_path)
-            for platform in ("tiktok", "youtube"):
-                manifest["articles"][article["article_id"]]["platforms"][platform].update({
-                    "status": "queued", "request_id": result.get("request_id"), "job_id": result.get("job_id"), "updated_at": now(),
+            except (OSError, urllib.error.HTTPError, urllib.error.URLError) as error:
+                manifest["articles"][article["article_id"]]["platforms"]["facebook"].update({
+                    "status": "upload_failed", "last_error": type(error).__name__, "updated_at": now(),
                 })
-            set_job_status(article, job, "uploaded", upload_request_id=result.get("request_id"), upload_job_id=result.get("job_id"))
+        if item["video_pending"]:
+            try:
+                result = upload_video(config, article, job, video_path)
+                for platform in ("tiktok", "youtube"):
+                    manifest["articles"][article["article_id"]]["platforms"][platform].update({
+                        "status": "queued", "request_id": result.get("request_id"), "job_id": result.get("job_id"), "updated_at": now(),
+                    })
+                set_job_status(article, job, "uploaded", upload_request_id=result.get("request_id"), upload_job_id=result.get("job_id"))
+                processed += 1
+            except (OSError, urllib.error.HTTPError, urllib.error.URLError, IsADirectoryError) as error:
+                set_job_status(article, job, "upload_failed", last_error=type(error).__name__)
+                print(f"MPT upload failed for {article['article_id']}: {type(error).__name__}")
+        elif item["facebook_pending"]:
             processed += 1
-        except (OSError, urllib.error.HTTPError, urllib.error.URLError) as error:
-            set_job_status(article, job, "upload_failed", last_error=type(error).__name__)
-            print(f"MPT upload failed for {article['article_id']}: {type(error).__name__}")
     if dirty:
         manifest["updated_at"] = now()
         save(MANIFEST, manifest)
