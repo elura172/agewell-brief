@@ -152,6 +152,19 @@ def main() -> int:
         before = len(summary)
         try:
             source_text = fetch_article_text(item)
+            if len(source_text) < args.min_source_chars:
+                audit.append({
+                    "article": path.name,
+                    "source_url": link,
+                    "source_name": source_name,
+                    "content_type": content_type,
+                    "source_characters_before": int(row.get("source_characters", before) or before),
+                    "source_characters_after": len(source_text),
+                    "status": "skipped_thin_source",
+                    "reason": f"Extracted source remained below {args.min_source_chars} characters.",
+                })
+                print(f"skipped {path.name}: {len(source_text)} source characters remain below threshold")
+                continue
             evidence = build_evidence_packet(client, model, title, summary, source_text, link)
             content = draft(client, item, category, content_type, source_text, evidence, [])
             after = len(source_text)
