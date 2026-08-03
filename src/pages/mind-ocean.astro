@@ -236,10 +236,10 @@ const structuredData = {
     width: 100%;
     height: 720px;
     border-radius: 16px;
-    border: 1px solid var(--line);
-    background: oklch(0.96 0.012 85);
+    border: 1px solid oklch(0.25 0.04 250);
+    background: oklch(0.10 0.03 250);
     overflow: hidden;
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 12px 40px rgba(10, 20, 35, 0.6);
     transition: background 0.6s ease, border-color 0.6s ease;
   }
   .ocean-stage-container.is-dreaming {
@@ -460,7 +460,7 @@ const structuredData = {
           if (dist < 180) {
             const isHighlighted = (hoveredNode && (hoveredNode.id === nodes[i].id || hoveredNode.id === nodes[j].id)) ||
                                   (selectedNode && (selectedNode.id === nodes[i].id || selectedNode.id === nodes[j].id));
-            ctx.strokeStyle = isHighlighted ? nodes[i].color : "rgba(180, 195, 210, 0.25)";
+            ctx.strokeStyle = isHighlighted ? nodes[i].color : "rgba(80, 120, 160, 0.35)";
             ctx.lineWidth = isHighlighted ? 2 : 1;
             ctx.beginPath();
             ctx.moveTo(nodes[i].x, nodes[i].y);
@@ -471,7 +471,7 @@ const structuredData = {
             const progress = (time * 0.0006 + (i + j) * 0.1) % 1;
             const beadX = nodes[i].x + dx * progress;
             const beadY = nodes[i].y + dy * progress;
-            ctx.fillStyle = isHighlighted ? nodes[i].color : "rgba(200, 220, 240, 0.6)";
+            ctx.fillStyle = isHighlighted ? nodes[i].color : "rgba(150, 210, 255, 0.75)";
             ctx.beginPath();
             ctx.arc(beadX, beadY, isHighlighted ? 3 : 1.8, 0, Math.PI * 2);
             ctx.fill();
