@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-03T03:20:57.563559+00:00",
+  "updated_at": "2026-08-03T03:44:08.147089+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -107,22 +107,22 @@
       "video_job": ".state/video-jobs/2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1.json",
       "platforms": {
         "facebook": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T02:32:47.043888+00:00"
+          "status": "queued",
+          "request_id": "agewell-facebook-2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1",
+          "job_id": "1097be4dd61e48a988035fc6f1cd42df",
+          "updated_at": "2026-08-03T03:44:03.383963+00:00"
         },
         "tiktok": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T02:32:47.043890+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1",
+          "job_id": "91d42ee5c95643f48426ebb80028c725",
+          "updated_at": "2026-08-03T03:44:08.146693+00:00"
         },
         "youtube": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T02:32:47.043892+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1",
+          "job_id": "91d42ee5c95643f48426ebb80028c725",
+          "updated_at": "2026-08-03T03:44:08.146713+00:00"
         }
       },
       "updated_at": "2026-08-03T02:32:47.044188+00:00"
