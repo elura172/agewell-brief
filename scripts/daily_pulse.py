@@ -59,7 +59,14 @@ def run_pulse():
     else:
         print("  ✓ Static build completed successfully.")
 
-    # Step 4: Record Journal Log
+    # Step 4: Sync into Mind Ocean Metaphysical Brain Vault
+    try:
+        from scripts.sync_to_mind_ocean import sync_agewell_to_mind_ocean
+        sync_agewell_to_mind_ocean()
+    except Exception as exc:
+        print(f"⚠️ Mind Ocean sync warning: {exc}")
+
+    # Step 5: Record Journal Log
     end_time = dt.datetime.now(dt.timezone.utc)
     duration = (end_time - start_time).total_seconds()
     
