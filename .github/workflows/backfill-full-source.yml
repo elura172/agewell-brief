@@ -33,6 +33,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Install browser for Google News URL resolution
+        run: python -m playwright install chromium
       - name: Regenerate thin articles from source pages
         run: >-
           python3 -m scripts.backfill_full_source

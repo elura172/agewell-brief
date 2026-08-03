@@ -165,6 +165,37 @@ def normalize_source_url(value: str) -> str:
     return value
 
 
+def resolve_source_url(value: str) -> str:
+    """Resolve a Google News wrapper when optional browser support is available.
+
+    Google now resolves many ``news.google.com/rss/articles`` links only in a
+    browser context.  The resolver is deliberately best-effort: if Playwright
+    or its browser is unavailable, the original URL remains the source of
+    record and the caller can fall back to the feed summary.
+    """
+    parsed = urlsplit(value)
+    if parsed.hostname not in {"news.google.com", "news.google.ca"}:
+        return normalize_source_url(value)
+    try:
+        from playwright.sync_api import sync_playwright
+
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=True)
+            try:
+                page = browser.new_page(user_agent="Mozilla/5.0 (compatible; AgewellBrief/0.7; editorial research)")
+                page.goto(value, wait_until="domcontentloaded", timeout=20_000)
+                page.wait_for_timeout(750)
+                resolved = page.url
+            finally:
+                browser.close()
+        resolved_host = urlsplit(resolved).hostname
+        if resolved_host not in {"news.google.com", "news.google.ca"} and resolved.startswith("http"):
+            return normalize_source_url(resolved)
+    except Exception as exc:
+        print(f"Google News URL resolution unavailable: {exc}", file=sys.stderr)
+    return value
+
+
 def sanitize_feed_xml(payload: bytes) -> bytes:
     """Replace HTML-only named entities that make otherwise useful XML invalid.
 
@@ -483,8 +514,9 @@ def extract_article_text(document: bytes | str) -> str:
 
 def fetch_article_text(item: FeedItem) -> str:
     """Fetch lead-story source material, falling back safely to the RSS summary."""
+    source_url = resolve_source_url(item.link)
     request = urllib.request.Request(
-        item.link,
+        source_url,
         headers={"User-Agent": "Mozilla/5.0 (compatible; AgewellBrief/0.3; editorial research)"},
     )
     try:

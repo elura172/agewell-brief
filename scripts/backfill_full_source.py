@@ -23,6 +23,7 @@ from agewell.pipeline import (
     build_evidence_packet,
     draft,
     fetch_article_text,
+    resolve_source_url,
 )
 
 
@@ -148,7 +149,8 @@ def main() -> int:
         source_name = frontmatter_value(old_text, "source_name") or str(row.get("source_name", "Unknown source"))
         category = frontmatter_value(old_text, "category") or str(row.get("category", "general wellness"))
         content_type = frontmatter_value(old_text, "content_type") or str(row.get("content_type", "signal"))
-        item = FeedItem(title, summary, link, frontmatter_value(old_text, "date"), source_name)
+        resolved_link = resolve_source_url(link)
+        item = FeedItem(title, summary, resolved_link, frontmatter_value(old_text, "date"), source_name)
         before = len(summary)
         try:
             source_text = fetch_article_text(item)
@@ -156,6 +158,7 @@ def main() -> int:
                 audit.append({
                     "article": path.name,
                     "source_url": link,
+                    "resolved_source_url": resolved_link,
                     "source_name": source_name,
                     "content_type": content_type,
                     "source_characters_before": int(row.get("source_characters", before) or before),
@@ -165,7 +168,7 @@ def main() -> int:
                 })
                 print(f"skipped {path.name}: {len(source_text)} source characters remain below threshold")
                 continue
-            evidence = build_evidence_packet(client, model, title, summary, source_text, link)
+            evidence = build_evidence_packet(client, model, title, summary, source_text, resolved_link)
             content = draft(client, item, category, content_type, source_text, evidence, [])
             after = len(source_text)
             if not args.dry_run:
@@ -173,6 +176,7 @@ def main() -> int:
             audit.append({
                 "article": path.name,
                 "source_url": link,
+                "resolved_source_url": resolved_link,
                 "source_name": source_name,
                 "content_type": content_type,
                 "source_characters_before": int(row.get("source_characters", before) or before),
