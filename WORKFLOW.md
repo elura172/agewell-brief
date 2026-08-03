@@ -180,7 +180,7 @@ causation, institutions, quotations, or treatment advice.
 Creates structured content: headline, dek, introduction, sections, three
 takeaways, source context, and caveat. The factual boundary is the source page
 and evidence packet. The register is clear, spirited, respectful, concrete,
-and human; it is not a rigid “Boomer psychology” template.
+and human; it is an authoritative, biophysically precise register for sovereign minds.
 
 ### Copy Editor
 
