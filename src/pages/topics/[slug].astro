@@ -18,31 +18,60 @@ export async function getStaticPaths() {
 }
 
 const { category, briefs } = Astro.props;
-const topicGuides: Record<string, { lede: string; question: string; resource?: { label: string; href: string } }> = {
+const topicGuides: Record<string, { lede: string; question: string; resource?: { label: string; href: string; pdfUrl: string } }> = {
   "brain health": {
     lede: "Readable reporting on memory, sleep, stress, learning, and the conditions that help a mind stay engaged.",
     question: "What helps the brain stay capable, curious, and well supported?",
-    resource: { label: "Explore Luminous Mind", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" }
+    resource: {
+      label: "Explore Luminous Mind",
+      href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
+      pdfUrl: "/downloads/field-guides/luminous-mind-field-guide.pdf"
+    }
   },
   "cellular senescence": {
     lede: "A grounded guide to senescence research, healthspan questions, and what remains unsettled about senolytic approaches.",
     question: "What can senescence research tell us, and what is still a hypothesis?",
-    resource: { label: "Explore Cell Shedding", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" }
+    resource: {
+      label: "Explore Cell Shedding",
+      href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
+      pdfUrl: "/downloads/field-guides/cell-shedding-field-guide.pdf"
+    }
   },
   "detoxification": {
     lede: "Context for liver processing, elimination pathways, mineral-clearing ideas, and the questions worth asking before an intensive protocol.",
     question: "What does clearing mean, and how should a person think about sequence and safety?",
-    resource: { label: "Explore Living Waters", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" }
+    resource: {
+      label: "Explore Living Waters",
+      href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
+      pdfUrl: "/downloads/field-guides/living-waters-field-guide.pdf"
+    }
   },
   "gut health": {
     lede: "Reporting and practical context on the gut ecosystem, digestion, microbial balance, and the gut-brain conversation.",
     question: "How do we make sense of gut health without reducing it to one microbe or one product?",
-    resource: { label: "Explore Inner Garden", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" }
+    resource: {
+      label: "Explore Inner Garden",
+      href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
+      pdfUrl: "/downloads/field-guides/inner-garden-field-guide.pdf"
+    }
   },
   "metabolic health": {
     lede: "Clear signals on blood sugar, fuel use, fasting, food timing, and the everyday choices that shape metabolic health.",
     question: "Which metabolic ideas are useful, and which deserve a closer look?",
-    resource: { label: "Explore Higher Flame", href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" }
+    resource: {
+      label: "Explore Higher Flame",
+      href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
+      pdfUrl: "/downloads/field-guides/higher-flame-field-guide.pdf"
+    }
+  },
+  "longevity": {
+    lede: "Biophysical precision on lifespan extensions, cellular resilience, and systemic vitality.",
+    question: "What drives physical longevity beyond genetic predisposition?",
+    resource: {
+      label: "Explore Dark Mirror",
+      href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
+      pdfUrl: "/downloads/field-guides/dark-mirror-field-guide.pdf"
+    }
   }
 };
 const guide = topicGuides[category.toLowerCase()] ?? {
@@ -68,6 +97,7 @@ const description = `${guide.lede} Original sources, useful context, and questio
         <p>Program perspective</p>
         <a class="topic-framework-link" href="/spiral-of-cellular-light/">About the framework <span aria-hidden="true">→</span></a>
         <a href={guide.resource.href} rel="noopener noreferrer">{guide.resource.label} <span aria-hidden="true">→</span></a>
+        <a href={guide.resource.pdfUrl} download class="topic-pdf-download">📄 Download Companion Field Guide (PDF)</a>
         <small>Commission-supported; no added cost to you.</small>
       </div>}
     </section>
@@ -88,3 +118,23 @@ const description = `${guide.lede} Original sources, useful context, and questio
     </section>
   </main>
 </Layout>
+
+<style>
+  .topic-pdf-download {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--saffron-ink);
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--paper);
+    transition: all 0.2s ease;
+  }
+  .topic-pdf-download:hover {
+    border-color: var(--saffron);
+    background: var(--cream);
+  }
+</style>
