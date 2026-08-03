@@ -139,9 +139,12 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
             "font_size": 48,
             "subtitle_bottom_margin": 210,
             "max_words_per_line": 3,
+            "active_word_scale": 1.12,
             "uppercase_keywords": True,
+            "bold_keywords": True,
             "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
             "subtitle_bg_padding": 12,
+            "subtitle_glow_enabled": True,
             "requires_video_qa": False,
         },
         "facebook": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T22:00:43.071816+00:00",
+  "generated_at": "2026-08-03T22:00:58.770766+00:00",
   "release_status": "published",
   "dry_run": false,
   "schema_version": 3,
@@ -41,9 +41,12 @@
         "font_size": 48,
         "subtitle_bottom_margin": 210,
         "max_words_per_line": 3,
+        "active_word_scale": 1.12,
         "uppercase_keywords": true,
+        "bold_keywords": true,
         "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
         "subtitle_bg_padding": 12,
+        "subtitle_glow_enabled": true,
         "requires_video_qa": false
       },
       "facebook": {
@@ -99,9 +102,12 @@
         "font_size": 48,
         "subtitle_bottom_margin": 210,
         "max_words_per_line": 3,
+        "active_word_scale": 1.12,
         "uppercase_keywords": true,
+        "bold_keywords": true,
         "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
         "subtitle_bg_padding": 12,
+        "subtitle_glow_enabled": true,
         "requires_video_qa": false
       },
       "facebook": {
@@ -157,9 +163,12 @@
         "font_size": 48,
         "subtitle_bottom_margin": 210,
         "max_words_per_line": 3,
+        "active_word_scale": 1.12,
         "uppercase_keywords": true,
+        "bold_keywords": true,
         "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
         "subtitle_bg_padding": 12,
+        "subtitle_glow_enabled": true,
         "requires_video_qa": false
       },
       "facebook": {
@@ -215,9 +224,12 @@
         "font_size": 48,
         "subtitle_bottom_margin": 210,
         "max_words_per_line": 3,
+        "active_word_scale": 1.12,
         "uppercase_keywords": true,
+        "bold_keywords": true,
         "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
         "subtitle_bg_padding": 12,
+        "subtitle_glow_enabled": true,
         "requires_video_qa": false
       },
       "facebook": {
@@ -273,9 +285,12 @@
         "font_size": 48,
         "subtitle_bottom_margin": 210,
         "max_words_per_line": 3,
+        "active_word_scale": 1.12,
         "uppercase_keywords": true,
+        "bold_keywords": true,
         "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
         "subtitle_bg_padding": 12,
+        "subtitle_glow_enabled": true,
         "requires_video_qa": false
       },
       "facebook": {

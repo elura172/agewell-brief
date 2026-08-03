@@ -78,8 +78,10 @@ def run_mpt(job: dict) -> tuple[Path, str]:
         "--font-size", str(job.get("font_size", 48)),
         "--subtitle-bottom-margin", str(job.get("subtitle_bottom_margin", 210)),
         "--max-words-per-line", str(job.get("max_words_per_line", 3)),
+        "--active-word-scale", str(job.get("active_word_scale", 1.12)),
         "--subtitle-bg-color", str(job.get("subtitle_bg_color", "rgba(11, 15, 25, 0.75)")),
         "--subtitle-bg-padding", str(job.get("subtitle_bg_padding", 12)),
+        "--subtitle-glow-enabled",
     ]
     result = subprocess.run(args, cwd=MPT_HOME / "docs/skill", capture_output=True, text=True, check=False)
     if result.returncode != 0:
