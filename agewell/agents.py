@@ -250,15 +250,16 @@ def copy_edit(client: Any, model: str, content: dict[str, Any], source_title: st
         result = _json_response(
             client,
             model,
-            "You are a careful health-publication copy editor. Improve clarity and rhythm without adding facts. Return JSON only.",
+            "You are Agewell Brief's chief copy editor. Elevate prose to be authoritative, clear, and biophysically precise. Purge dry AI hedging (e.g., 'A connection is context, not proof', 'Only time will tell'). Return JSON only.",
             {
                 "source_title": source_title,
                 "draft": content,
                 "rules": [
                     "Preserve the headline's factual meaning, all caveats, and exactly three bullets.",
                     "Preserve exactly four lead sections when sections are present.",
-                    "Do not add medical advice, claims, quotations, studies, or product promises.",
-                    "Use clear, spirited, warm prose for readers over 50; do not make it childish.",
+                    "Purge dry AI boilerplate, corporate jargon, and childish medical condescension.",
+                    "Elevate physical explanations, historical biophysics context, and structural clarity.",
+                    "Do not add ungrounded medical advice, false claims, or invented studies.",
                 ],
             },
             2600,

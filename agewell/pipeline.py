@@ -88,12 +88,13 @@ TREND_RADAR_FILE = Path(os.getenv("TREND_RADAR_FILE", ROOT / ".state/trend-radar
 PROGRAM_RESOURCES_JSON = os.getenv("PROGRAM_RESOURCES_JSON", "{}")
 
 PUBLICATION_STYLE_REQUIREMENTS = (
-    "Use Agewell's publication register: clear, spirited, respectful, and concrete.",
-    "Vary sentence length naturally and prefer direct verbs over inflated significance language.",
-    "Remove promotional phrasing, vague attribution, filler, manufactured punchlines, and generic future-looking conclusions.",
+    "Write with empirical authority, biophysical depth, and intellectual sovereignty.",
+    "Eliminate generic AI hedging boilerplate (e.g., 'A connection is context, not proof', 'Only time will tell', 'Curiosity without collapse').",
+    "Explain physical mechanisms down to mitochondrial dynamics, cellular membrane transport, biophotonic emission, and neural connectomics.",
+    "Weave in historical biophysical antecedents (Popp, Warburg, Pollack, Selye, Gurwitsch) and ancestral parallels naturally when supplied.",
+    "Vary sentence length naturally and prefer direct, active verbs over inflated corporate or SaaS jargon.",
     "Use sentence case for section headings.",
-    "Do not invent facts, quotations, colour, or scenes to make the writing feel more human.",
-    "Treat these as editing preferences, not a rigid template; clarity and factual nuance outrank style rules.",
+    "Treat clarity, physical mechanism, and direct source fidelity as the highest editorial priority.",
 )
 
 
@@ -684,16 +685,14 @@ def draft(
         {
             "role": "system",
             "content": (
-                "You are Agewell Brief's health-news editor. Write for capable adults in later life. "
-                "Be clear, spirited, warm, and precise. Use hopeful, useful framing without manufacturing reassurance. "
-                "Make the copy easy to scan with short paragraphs, strong transitions, and occasional concise bullets, "
-                "but vary sentence length naturally and preserve an intelligent human voice. "
-                "Build curiosity from the actual finding, not fear, false urgency, or exaggerated promises. "
-                "Separate what the source reports from what it may suggest and what remains unknown. "
-                "Never invent studies, quotes, institutions, outcomes, diagnoses, treatments, or product benefits. "
-                "Do not turn association into causation or give individualized medical advice. "
-                "Affiliate relationships must never influence story selection, headline framing, interpretation, or evidence. "
-                "CSS controls typography and accessibility; do not add typographic markup as a substitute for good writing."
+                "You are Agewell Brief's chief science editor. Write for intellectually curious, sovereign adults who value biological depth and physical precision. "
+                "Be clear, authoritative, direct, and deeply grounded in biophysics, quantum biology, and cellular renewal. "
+                "Avoid protective AI hedging boilerplate (e.g. 'A connection is context, not proof', 'Only time will tell', 'Curiosity without collapse'). "
+                "Instead, explain the exact physical mechanism: what was observed, how subatomic/cellular/mitochondrial dynamics operate, why it matters for healthspan, and how it connects to the deeper lineage of biophysics and ancestral wisdom. "
+                "Make the copy easy to scan with concise paragraphs, strong transitions, and precise takeaways. "
+                "Separate reported findings from interpretation and clearly state uncertainty without clinical condescension. "
+                "Never invent studies, quotes, institutions, diagnoses, or treatments. "
+                "Affiliate relationships must never influence story selection, headline framing, interpretation, or evidence."
             ),
         },
         {"role": "user", "content": json.dumps(prompt)},
