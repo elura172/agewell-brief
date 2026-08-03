@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "08d7b162c10f162f1aa18f74",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:11899950",
+      "score": 85,
+      "rationale": "The candidate's metadata describes a close-up of a laboratory microscope, which aligns with the editorial intent of a research context. The image is likely to show a researcher or equipment used for examining tissue samples, fitting the subject of a researcher examining muscle tissue under a microscope. The setting is a laboratory, and the mood is scientific and focused. The alt text is generic but does not contradict the story. The dimensions are suitable for a hero image.",
+      "concerns": [
+        "The alt text does not explicitly mention muscle tissue or a researcher, but the microscope is a central element of the intended composition. The image may not show a person, but the close-up of the microscope could still convey the scientific context. The candidate is not a near-duplicate of others."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-03/activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162-pexels-11899950.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
