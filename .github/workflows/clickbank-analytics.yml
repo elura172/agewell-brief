@@ -17,6 +17,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Fetch read-only analytics
+        continue-on-error: true
         run: python -m scripts.clickbank_analytics
         env:
           CLICKBANK_API_KEY: ${{ secrets.CLICKBANK_API_KEY }}

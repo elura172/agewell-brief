@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-08-03T03:56:04.545308+00:00",
+  "window": "current Cloudflare trend window",
+  "available_metrics": {
+    "published_articles": 24,
+    "top_articles": [
+      {
+        "slug": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
+        "visits": 41,
+        "requests": 46
+      },
+      {
+        "slug": "2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
+        "visits": 12,
+        "requests": 24
+      },
+      {
+        "slug": "2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1",
+        "visits": 11,
+        "requests": 17
+      },
+      {
+        "slug": "2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b",
+        "visits": 11,
+        "requests": 20
+      },
+      {
+        "slug": "2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd",
+        "visits": 11,
+        "requests": 12
+      }
+    ],
+    "social_status_counts": {
+      "facebook:completed": 1,
+      "facebook:pending": 1,
+      "facebook:queued": 3,
+      "tiktok:completed": 1,
+      "tiktok:pending": 1,
+      "tiktok:queued": 3,
+      "youtube:completed": 1,
+      "youtube:pending": 1,
+      "youtube:queued": 3
+    },
+    "clickbank_status": "missing",
+    "clickbank_error": null
+  },
+  "not_yet_connected": [
+    "Facebook reach and video-platform views APIs",
+    "first-party outbound affiliate click events",
+    "multi-day historical trend series"
+  ]
+}

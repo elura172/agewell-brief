@@ -63,20 +63,35 @@ def main() -> int:
     today = dt.date.today()
     start = os.getenv("CLICKBANK_START_DATE", (today - dt.timedelta(days=30)).isoformat())
     end = os.getenv("CLICKBANK_END_DATE", today.isoformat())
-    status, payload = fetch_report(api_key, account, start, end)
+    try:
+        status, payload = fetch_report(api_key, account, start, end)
+        cb_status = "live"
+        error = None
+    except (RuntimeError, OSError, ValueError) as exc:
+        cb_status = "stale" if OUTPUT.exists() else "unavailable"
+        error = str(exc)
+        try:
+            previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
+            payload = previous.get("data", {})
+            status = previous.get("http_status")
+        except (OSError, json.JSONDecodeError):
+            payload = {}
+            status = None
     report = {
         "retrieved_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "account": account,
         "start_date": start,
         "end_date": end,
         "http_status": status,
+        "status": cb_status,
         "metrics": list(METRICS),
         "data": payload,
+        "error": error,
         "note": "Read-only performance data. Use it to tune offer rotation; it does not change editorial selection or health claims.",
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Wrote ClickBank analytics for {start} through {end} to {OUTPUT}")
+    print(f"Wrote ClickBank analytics ({cb_status}) for {start} through {end} to {OUTPUT}")
     return 0
 
 
