@@ -1,0 +1,110 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const resources = [
+  {
+    name: "Living Waters",
+    focus: "Transport and clearing",
+    description: "A foundation-oriented framework for thinking about sequence, liver processing, hydration, bowel regularity, and recovery.",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA=="
+  },
+  {
+    name: "Inner Garden",
+    focus: "Gut ecology",
+    description: "A gut-health framework that looks at food, fibre, microbial balance, and the environment around digestion.",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ=="
+  },
+  {
+    name: "Cell Shedding",
+    focus: "Senescence and renewal",
+    description: "A program perspective on senescence research, cycles, recovery, and the difference between a research target and a proven treatment.",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA=="
+  },
+  {
+    name: "Higher Flame",
+    focus: "Metabolic flexibility",
+    description: "A framework for exploring meal timing, fuel use, plant compounds, and the practical questions around fasting.",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ=="
+  },
+  {
+    name: "Luminous Mind",
+    focus: "Brain health",
+    description: "A whole-system approach to sleep, learning, stress, movement, nutrition, and cognitive care.",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA=="
+  },
+  {
+    name: "Dark Mirror",
+    focus: "Advanced mineral clearing",
+    description: "An advanced program perspective on mineral blends, timing, interaction risks, and the distinction between supplements and clinical chelation.",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw=="
+  }
+];
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Spiral of Cellular Light — Agewell Brief",
+  description: "A transparent overview of the Spiral of Cellular Light companion frameworks and their relationship to Agewell Brief coverage.",
+  url: new URL("/spiral-of-cellular-light/", Astro.site).href,
+  isPartOf: { "@type": "WebSite", name: "Agewell Brief", url: new URL("/", Astro.site).href }
+};
+---
+<Layout
+  title="Spiral of Cellular Light — Agewell Brief"
+  description="A transparent overview of the Spiral of Cellular Light companion frameworks and their relationship to Agewell Brief coverage."
+  structuredData={structuredData}
+>
+  <main class="spiral-page">
+    <a class="back-link" href="/">← Today’s edition</a>
+    <header class="spiral-header">
+      <p class="eyebrow">Program perspective · Agewell Brief</p>
+      <h1>Spiral of<br /><em>Cellular Light.</em></h1>
+      <p class="spiral-lede">A regenerative health framework organized around transport, ecology, renewal, metabolism, cognition, and practice.</p>
+      <p class="spiral-credit">Created by Elura, drawing on study, practice, and a body of research that informs the companion guides.</p>
+    </header>
+
+    <section class="spiral-intro" aria-labelledby="spiral-intro-heading">
+      <div>
+        <p class="eyebrow">How to read this page</p>
+        <h2 id="spiral-intro-heading">A framework, not a promise.</h2>
+      </div>
+      <div>
+        <p>The Spirals are paid supplement protocols and companion practices. Agewell Brief may earn a commission when a reader purchases through these links, at no added cost to the reader.</p>
+        <p>Agewell coverage treats the Spirals as a first-party program perspective. Current research, clinical guidance, and the program’s own interpretation are kept distinct so readers can decide what deserves a closer look.</p>
+      </div>
+    </section>
+
+    <section class="spiral-resources" aria-labelledby="spiral-resources-heading">
+      <div class="section-heading">
+        <h2 id="spiral-resources-heading" class="section-title">The companion Spirals</h2>
+        <p class="section-caption">Six ways into the framework</p>
+      </div>
+      <ol>
+        {resources.map((resource, index) => <li>
+          <span class="spiral-index">{String(index + 1).padStart(2, "0")}</span>
+          <div class="spiral-resource-copy">
+            <p>{resource.focus}</p>
+            <h3>{resource.name}</h3>
+            <p>{resource.description}</p>
+            <a href={resource.href} rel="noopener noreferrer">Explore {resource.name} <span aria-hidden="true">→</span></a>
+          </div>
+        </li>)}
+      </ol>
+    </section>
+
+    <section class="spiral-reading" aria-labelledby="spiral-reading-heading">
+      <p class="eyebrow">Read alongside the program</p>
+      <h2 id="spiral-reading-heading">Research, questions, and useful context.</h2>
+      <p>Agewell’s topic hubs connect these frameworks to current reporting. Start with <a href="/topics/gut-health/">gut health</a>, <a href="/topics/cellular-senescence/">cellular senescence</a>, <a href="/topics/detoxification/">detoxification</a>, <a href="/topics/metabolic-health/">metabolic health</a>, or <a href="/topics/brain-health/">brain health</a>.</p>
+    </section>
+
+    <section class="spiral-note">
+      <h2>Questions worth carrying forward</h2>
+      <ul>
+        <li>What does the current human evidence actually show?</li>
+        <li>Which parts are framework language, and which are established clinical guidance?</li>
+        <li>What should be reviewed with a qualified healthcare professional first?</li>
+      </ul>
+    </section>
+  </main>
+</Layout>
