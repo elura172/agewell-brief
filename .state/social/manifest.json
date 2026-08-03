@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-03T06:19:47.895113+00:00",
+  "updated_at": "2026-08-03T06:39:31.530616+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -206,22 +206,22 @@
       "video_job": ".state/video-jobs/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7.json",
       "platforms": {
         "facebook": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T05:57:45.791227+00:00"
+          "status": "queued",
+          "request_id": "agewell-facebook-2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+          "job_id": "94e3b639e42640db86ed533b616f59a8",
+          "updated_at": "2026-08-03T06:39:27.291426+00:00"
         },
         "tiktok": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T05:57:45.791230+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+          "job_id": "14954672d0de4eec9c7954cda35b879e",
+          "updated_at": "2026-08-03T06:39:31.528848+00:00"
         },
         "youtube": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T05:57:45.791232+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+          "job_id": "14954672d0de4eec9c7954cda35b879e",
+          "updated_at": "2026-08-03T06:39:31.528898+00:00"
         }
       },
       "updated_at": "2026-08-03T05:57:45.791491+00:00"

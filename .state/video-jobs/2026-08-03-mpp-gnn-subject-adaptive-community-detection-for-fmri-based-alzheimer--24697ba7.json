@@ -1,5 +1,5 @@
 {
-  "status": "ready_for_mpt",
+  "status": "uploaded",
   "subject": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification",
   "article_url": "https://agewellbrief.com/brief/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7/",
   "video_aspect": "9:16",
@@ -11,5 +11,10 @@
   "stroke_color": "#000000",
   "stroke_width": 4,
   "font_size": 64,
-  "requires_video_qa": true
+  "requires_video_qa": true,
+  "updated_at": "2026-08-03T06:39:31.528912+00:00",
+  "video_path": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/ef0b49f8-2fc6-4491-bd38-0f17eace5d1e/final-1.mp4",
+  "task_dir": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/ef0b49f8-2fc6-4491-bd38-0f17eace5d1e",
+  "upload_request_id": "agewell-video-2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+  "upload_job_id": "14954672d0de4eec9c7954cda35b879e"
 }
