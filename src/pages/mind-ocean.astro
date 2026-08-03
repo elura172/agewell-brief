@@ -1,0 +1,331 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import { frontierTerritories } from "../data/frontier-map";
+
+const entries = (await getCollection("briefs"))
+  .filter((entry) => import.meta.env.DEV || !entry.data.draft);
+
+// Build graph nodes from collection
+const nodes = [
+  ...frontierTerritories.map((t, i) => ({
+    id: `territory-${t.slug}`,
+    name: t.name,
+    category: "Frontier Territory",
+    type: "territory",
+    evidence: t.status,
+    url: `/frontier-map/#${t.slug}`,
+    antecedents: [],
+    x: (i % 2 === 0 ? -1 : 1) * (260 + i * 40),
+    y: (i < 2 ? -1 : 1) * (180 + i * 30),
+    radius: 22,
+    color: "oklch(0.72 0.18 55)"
+  })),
+  ...entries.map((e, i) => ({
+    id: e.id,
+    name: e.data.title,
+    category: e.data.category,
+    type: "brief",
+    evidence: e.data.evidence_position,
+    url: `/brief/${e.id}/`,
+    antecedents: e.data.autoresearch_antecedents || [],
+    x: Math.cos(i * 0.35) * (140 + (i % 5) * 65),
+    y: Math.sin(i * 0.35) * (140 + (i % 5) * 65),
+    radius: 12,
+    color: "oklch(0.68 0.15 200)"
+  }))
+];
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Mind Ocean — Agewell Brief",
+  description: "An interactive biophotonic semantic ocean visualizing thought lineages, cellular evidence, and biophysics antecedents.",
+  url: new URL("/mind-ocean/", Astro.site).href
+};
+---
+<Layout
+  title="Mind Ocean — Agewell Brief"
+  description="An interactive biophotonic semantic ocean visualizing thought lineages, cellular evidence, and biophysics antecedents."
+  structuredData={structuredData}
+>
+  <main class="mind-ocean-page">
+    <header class="ocean-header">
+      <div>
+        <a class="back-link" href="/">← Today’s edition</a>
+        <p class="eyebrow">Metaphysical Brain Vault · Agewell Brief</p>
+        <h1>Mind <em>Ocean.</em></h1>
+      </div>
+      <div class="ocean-controls">
+        <button id="audio-toggle-btn" type="button" class="ocean-btn ocean-btn--audio" aria-label="Toggle ambient audio">
+          <span class="btn-icon">🔇</span>
+          <span class="btn-text">Ambient Sound: Muted</span>
+        </button>
+        <a class="ocean-btn" href="/frontier-map/">Frontier Map ↗</a>
+      </div>
+    </header>
+
+    <div class="ocean-stage-container">
+      <canvas id="mind-ocean-canvas" data-nodes={JSON.stringify(nodes)}></canvas>
+      
+      <div id="ocean-inspector" class="ocean-inspector is-hidden" aria-label="Node inspector">
+        <button id="inspector-close-btn" class="inspector-close" type="button">×</button>
+        <span id="inspector-category" class="inspector-badge">Topic</span>
+        <h3 id="inspector-title">Select a node</h3>
+        <p id="inspector-evidence" class="inspector-meta"></p>
+        <div id="inspector-antecedents" class="inspector-antecedents"></div>
+        <a id="inspector-link" class="primary-link" href="#" target="_blank">Open article <span>→</span></a>
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .mind-ocean-page {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 40px 5vw 80px;
+  }
+  .ocean-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 24px;
+  }
+  .ocean-header h1 {
+    margin: 0;
+    font-size: clamp(2.8rem, 5vw, 4.5rem);
+    line-height: 1;
+  }
+  .ocean-header h1 em {
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .ocean-controls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .ocean-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border-radius: 30px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .ocean-btn:hover {
+    border-color: var(--saffron);
+    box-shadow: var(--shadow-sm);
+  }
+  .ocean-btn--audio.is-active {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--saffron);
+  }
+  .ocean-stage-container {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: oklch(0.96 0.015 85);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+  }
+  #mind-ocean-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+  }
+  #mind-ocean-canvas:active {
+    cursor: grabbing;
+  }
+  .ocean-inspector {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 340px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: var(--shadow-lg);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 10;
+  }
+  .ocean-inspector.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(20px);
+  }
+  .inspector-close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--muted);
+  }
+  .inspector-badge {
+    display: inline-block;
+    color: var(--saffron-ink);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 8px;
+  }
+  .ocean-inspector h3 {
+    margin: 0 0 10px;
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+  .inspector-meta {
+    margin: 0 0 16px;
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .inspector-antecedents {
+    margin-bottom: 18px;
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+</style>
+
+<script>
+  import { MindOceanAudio } from "../lib/mind-ocean-audio";
+
+  const audioEngine = new MindOceanAudio();
+  const audioBtn = document.getElementById("audio-toggle-btn");
+  
+  if (audioBtn) {
+    audioBtn.addEventListener("click", () => {
+      const isMuted = audioEngine.toggleMute();
+      const icon = audioBtn.querySelector(".btn-icon");
+      const text = audioBtn.querySelector(".btn-text");
+      
+      if (isMuted) {
+        audioBtn.classList.remove("is-active");
+        if (icon) icon.textContent = "🔇";
+        if (text) text.textContent = "Ambient Sound: Muted";
+      } else {
+        audioBtn.classList.add("is-active");
+        if (icon) icon.textContent = "🔊";
+        if (text) text.textContent = "Ambient Sound: Playing";
+      }
+    });
+  }
+
+  // Interactive 2D Force Field Canvas Initialization
+  const canvas = document.getElementById("mind-ocean-canvas") as HTMLCanvasElement;
+  if (canvas) {
+    const ctx = canvas.getContext("2d");
+    const rawNodesData = canvas.dataset.nodes || "[]";
+    const nodes = JSON.parse(rawNodesData);
+
+    let width = canvas.clientWidth;
+    let height = canvas.clientHeight;
+    let panX = width / 2;
+    let panY = height / 2;
+    let zoom = 1;
+    let isDragging = false;
+    let dragStartX = 0;
+    let dragStartY = 0;
+    let selectedNode: any = null;
+
+    function resize() {
+      if (!canvas || !ctx) return;
+      width = canvas.clientWidth;
+      height = canvas.clientHeight;
+      canvas.width = width * window.devicePixelRatio;
+      canvas.height = height * window.devicePixelRatio;
+      ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+    }
+
+    function render(time: number) {
+      if (!ctx) return;
+      ctx.clearRect(0, 0, width, height);
+
+      ctx.save();
+      ctx.translate(panX, panY);
+      ctx.scale(zoom, zoom);
+
+      // Draw biophotonic connecting currents
+      ctx.lineWidth = 1;
+      ctx.strokeStyle = "rgba(180, 195, 210, 0.25)";
+      for (let i = 0; i < nodes.length; i++) {
+        for (let j = i + 1; j < nodes.length; j++) {
+          const dx = nodes[j].x - nodes[i].x;
+          const dy = nodes[j].y - nodes[i].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 180) {
+            ctx.beginPath();
+            ctx.moveTo(nodes[i].x, nodes[i].y);
+            ctx.lineTo(nodes[j].x, nodes[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+
+      // Draw living nodes
+      nodes.forEach((n: any) => {
+        ctx.fillStyle = n.color || "oklch(0.68 0.15 200)";
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
+        ctx.fill();
+
+        // Node aura pulse
+        ctx.fillStyle = n.color || "oklch(0.68 0.15 200)";
+        ctx.globalAlpha = 0.15 + Math.sin(time * 0.002 + n.x) * 0.08;
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, n.radius * 2.2, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.globalAlpha = 1;
+      });
+
+      ctx.restore();
+      requestAnimationFrame(render);
+    }
+
+    window.addEventListener("resize", resize);
+    resize();
+    requestAnimationFrame(render);
+
+    // Pan & Zoom controls
+    canvas.addEventListener("mousedown", (e) => {
+      isDragging = true;
+      dragStartX = e.clientX - panX;
+      dragStartY = e.clientY - panY;
+    });
+
+    window.addEventListener("mousemove", (e) => {
+      if (isDragging) {
+        panX = e.clientX - dragStartX;
+        panY = e.clientY - dragStartY;
+      }
+    });
+
+    window.addEventListener("mouseup", () => {
+      isDragging = false;
+    });
+
+    canvas.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      const zoomFactor = e.deltaY < 0 ? 1.08 : 0.92;
+      zoom = Math.max(0.4, Math.min(2.5, zoom * zoomFactor));
+    });
+  }
+</script>
