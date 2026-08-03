@@ -59,6 +59,13 @@ jobs:
       - name: Prepare social packages (dry run)
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         run: python3 -m scripts.social_package --output .state/social/latest.json
+      - name: Update reader trends
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        continue-on-error: true
+        run: python3 -m scripts.cloudflare_trending
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
       - name: Sync persistent social manifest
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         run: python3 -m scripts.social_manifest sync --packages .state/social/latest.json
