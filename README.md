@@ -38,8 +38,9 @@ export PROGRAM_RESOURCES_JSON='{"dark mirror":"https://...","living waters":"htt
 The current router maps cellular-senescence, gut-health, detoxification,
 metabolic-health, and brain-health coverage to those named resources. For
 detoxification, mineral and chelation language selects Dark Mirror; other
-clearing-pathway coverage selects Living Waters. The rendered card is
-disclosed as a first-party resource. Keep program links out of the commercial
+clearing-pathway coverage selects Living Waters. The rendered card says that
+the resource is part of our program, that we may earn a commission, and that
+there is no added cost to the reader. Keep program links out of the commercial
 offer configuration and add them only after reviewing the destination and its
 claims.
 

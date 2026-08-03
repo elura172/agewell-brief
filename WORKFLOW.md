@@ -263,7 +263,8 @@ contain multiple offers per category; the selector chooses up to three stable,
 relevant offers for an article and adds tracking identifiers where supported.
 
 First-party program resources use `PROGRAM_RESOURCES_JSON` instead. They are
-rendered as a separate practical-follow-up card with a first-party disclosure,
+rendered as a separate practical-follow-up card with a first-party commission
+disclosure,
 so readers and the release audit can distinguish an Agewell-owned resource
 from a commission-supported external offer. The current resource vocabulary
 includes Dark Mirror, Living Waters, Cell Shedding, Inner Garden, Higher Flame,

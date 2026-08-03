@@ -796,8 +796,12 @@ def resource_card(url: str, category: str, *, primary: bool = False, first_party
         if primary
         else "An optional resource for readers who want another place to begin."
     )
-    disclosure = "This is our program; the link supports its continued development." if first_party else "Commission-supported; no added cost to you."
-    rel = "noopener noreferrer" if first_party else "sponsored noopener noreferrer"
+    disclosure = (
+        "This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you."
+        if first_party
+        else "Commission-supported; no added cost to you."
+    )
+    rel = "sponsored noopener noreferrer"
     return f'''\n\n<aside class="resource-card{' resource-card--primary' if primary else ''}" aria-label="{label}">
 <p class="resource-kicker">{label}</p>
 <h3>{heading}</h3>

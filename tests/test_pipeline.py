@@ -506,8 +506,8 @@ def test_markdown_renders_first_party_program_resource_separately():
     )
 
     assert "https://example.test/spiral" in result
-    assert "This is our program; the link supports its continued development." in result
-    assert 'rel="noopener noreferrer"' in result
+    assert "This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you." in result
+    assert 'rel="sponsored noopener noreferrer"' in result
     assert 'content_type: "evergreen"' in result
     assert "Commission-supported; no added cost to you." in result
 
