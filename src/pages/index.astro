@@ -21,14 +21,15 @@ const formatVisits = (value: number) => new Intl.NumberFormat("en-CA", { notatio
 const trending = (trendingData.articles ?? [])
   .map((item) => ({ item, entry: entries.find((entry) => entry.id === item.slug) }))
   .filter((row) => Boolean(row.entry && row.item.visits > 0));
+const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.category.toLowerCase()))).sort();
 ---
 <Layout>
   {showDrafts && <div class="edition-strip" aria-label="Preview status"><span>LOCAL DRAFT PREVIEW</span><span>NOT PUBLIC</span></div>}
   <section id="latest" class="edition-hero" aria-labelledby="edition-heading">
     <div class="edition-mast">
-      <span>Today’s edition · {editionDate}</span>
+      <span><span class="live-dot" aria-hidden="true"></span> Today’s edition · {editionDate}</span>
       <span>One deep read · Two signals · Original sources</span>
-      <span>About 8 minutes</span>
+      <span>⏱ About 8 min read</span>
     </div>
     {featured ? (
       <article class:list={["lead-story", { "has-image": featured.data.image }]}>
@@ -115,12 +116,30 @@ const trending = (trendingData.articles ?? [])
 
   {earlier.length > 0 && <section id="archive" class="archive-section" aria-labelledby="archive-heading">
     <div class="section-heading archive-heading">
-      <h2 id="archive-heading" class="section-title">Earlier briefs</h2>
+      <div>
+        <p class="eyebrow">Archive Index</p>
+        <h2 id="archive-heading" class="section-title">Earlier briefs</h2>
+      </div>
       <p class="section-caption">The useful signals stay available.</p>
     </div>
-    <ol class="archive-list">
+
+    {earlierCategories.length > 0 && (
+      <div class="topic-filter-bar" aria-label="Filter earlier briefs by topic">
+        <button type="button" class="filter-pill is-active" data-topic="all">All topics ({earlier.length})</button>
+        {earlierCategories.map((cat) => {
+          const count = earlier.filter((e) => e.data.category.toLowerCase() === cat).length;
+          return (
+            <button type="button" class="filter-pill" data-topic={cat}>
+              {cat} ({count})
+            </button>
+          );
+        })}
+      </div>
+    )}
+
+    <ol class="archive-list" id="archive-list">
       {earlier.map((entry, index) => (
-        <li>
+        <li class="archive-item" data-category={entry.data.category.toLowerCase()}>
           <article class="archive-entry">
             <div class="archive-index">{String(index + 4).padStart(2, "0")}</div>
             <div class="archive-copy">
@@ -133,6 +152,29 @@ const trending = (trendingData.articles ?? [])
       ))}
     </ol>
   </section>}
+
+  <script>
+    const filterPills = document.querySelectorAll<HTMLButtonElement>(".filter-pill");
+    const archiveItems = document.querySelectorAll<HTMLLIElement>(".archive-item");
+
+    filterPills.forEach((pill) => {
+      pill.addEventListener("click", () => {
+        const topic = pill.getAttribute("data-topic");
+
+        filterPills.forEach((p) => p.classList.remove("is-active"));
+        pill.classList.add("is-active");
+
+        archiveItems.forEach((item) => {
+          const cat = item.getAttribute("data-category");
+          if (topic === "all" || cat === topic) {
+            item.style.display = "";
+          } else {
+            item.style.display = "none";
+          }
+        });
+      });
+    });
+  </script>
 
   <section id="about" class="about-band">
     <div><h2>Good health reporting<br /><em>leaves you more capable.</em></h2></div>
