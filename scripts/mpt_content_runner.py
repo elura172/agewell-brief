@@ -149,7 +149,13 @@ def main() -> int:
         raise SystemExit("Upload-Post is not configured in MoneyPrinterTurbo config.toml")
 
     processed = 0
-    for item in pending_articles(manifest)[: args.max_items]:
+    dirty = False
+    items = pending_articles(manifest)[: args.max_items]
+    if not items:
+        print("MPT content runner: no pending content jobs")
+        return 0
+    for item in items:
+        dirty = True
         article, job, video_path = item["article"], item["job"], item["video_path"]
         if not video_path.exists():
             video_path, task_dir = run_mpt(job)
@@ -182,8 +188,9 @@ def main() -> int:
         except (OSError, urllib.error.HTTPError, urllib.error.URLError) as error:
             set_job_status(article, job, "upload_failed", last_error=type(error).__name__)
             print(f"MPT upload failed for {article['article_id']}: {type(error).__name__}")
-    manifest["updated_at"] = now()
-    save(MANIFEST, manifest)
+    if dirty:
+        manifest["updated_at"] = now()
+        save(MANIFEST, manifest)
     print(f"MPT content runner: processed {processed} article(s)")
     return 0
 
