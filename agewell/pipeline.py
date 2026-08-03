@@ -15,11 +15,26 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit, urlunsplit
 
+env_path = Path(__file__).resolve().parent.parent / ".env"
+if env_path.exists():
+    for line in env_path.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip())
+
 from bs4 import BeautifulSoup
 from openai import OpenAI
 
 from agewell.affiliates import load_health_status, select_offer, select_offers, tracked_offer_url
-from agewell.agents import assignment_editor, commercial_integrity, copy_edit, novelty_editor, release_manager
+from agewell.agents import (
+    autoresearch_context_subagent,
+    assignment_editor,
+    commercial_integrity,
+    copy_edit,
+    novelty_editor,
+    release_manager,
+)
 from agewell.context import ContextHit, build_context_index, retrieve_context
 from agewell.edition import EditionRecorder, audit_release
 from agewell.editorial import (
@@ -615,6 +630,7 @@ def draft(
     source_is_deep = len(source_material) >= MIN_LEAD_SOURCE_CHARS
     minimum_lead_words = 500 if source_is_deep else 300
     focused_fallback_words = 350 if source_is_deep else 250
+    deep_context = autoresearch_context_subagent(client, MODEL, item.title, source_material, category)
     prompt: dict[str, Any] = {
         "source_title": item.title,
         "source_summary": item.summary[:5000],
@@ -624,10 +640,12 @@ def draft(
         "category": category,
         "content_type": content_type,
         "evidence_packet": evidence.to_dict() if evidence else None,
+        "autoresearch_deep_context": deep_context,
         "evergreen_context": [hit.prompt_dict() for hit in (evergreen_context or [])],
         "requirements": [
             "Write clear, engaging health journalism for readers over 50.",
             "Use only claims supported by the supplied source material.",
+            "If historical biophysical antecedents (e.g. Fritz-Albert Popp biophotons, Gerald Pollack EZ water, Otto Warburg metabolic respiration, Hans Selye stress adaptation) or ancestral parallels are present in autoresearch_deep_context, incorporate them explicitly to trace the deep scientific lineage.",
             "Do not diagnose, prescribe, promise results, or invent institutions or studies.",
             "Do not imply that a supplement treats or cures a disease.",
             "Write with tension, specificity, agency, and warmth; avoid hype and filler.",
