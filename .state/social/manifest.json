@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-03T05:58:53.607312+00:00",
+  "updated_at": "2026-08-03T06:19:47.895113+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -177,22 +177,22 @@
       "video_job": ".state/video-jobs/2026-08-03-technological-advances-in-detecting-and-managing-cognitive-impairment--dfbdeb5d.json",
       "platforms": {
         "facebook": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T05:55:48.138377+00:00"
+          "status": "queued",
+          "request_id": "agewell-facebook-2026-08-03-technological-advances-in-detecting-and-managing-cognitive-impairment--dfbdeb5d",
+          "job_id": "6ad0c09166b445bb9a87e23c42f4fac4",
+          "updated_at": "2026-08-03T06:19:42.985148+00:00"
         },
         "tiktok": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T05:55:48.138380+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-technological-advances-in-detecting-and-managing-cognitive-impairment--dfbdeb5d",
+          "job_id": "73b3c30e2ab7478da8ce96ae637f8f02",
+          "updated_at": "2026-08-03T06:19:47.894154+00:00"
         },
         "youtube": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T05:55:48.138382+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-technological-advances-in-detecting-and-managing-cognitive-impairment--dfbdeb5d",
+          "job_id": "73b3c30e2ab7478da8ce96ae637f8f02",
+          "updated_at": "2026-08-03T06:19:47.894249+00:00"
         }
       },
       "updated_at": "2026-08-03T05:55:48.138709+00:00"
