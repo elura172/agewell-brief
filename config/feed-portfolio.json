@@ -179,19 +179,6 @@
     "requires_secondary_check": true
   },
   {
-    "name": "The Guardian | Alternative medicine",
-    "url": "https://www.theguardian.com/lifeandstyle/alternative-medicine/rss",
-    "priority": 2,
-    "headline_mode": "preserve",
-    "publisher": "The Guardian",
-    "authority": "editorial",
-    "categories": [
-      "general wellness"
-    ],
-    "max_daily_items": 1,
-    "requires_secondary_check": true
-  },
-  {
     "name": "Alternative Medicine Magazine",
     "url": "https://alternativemedicine.com/feed/",
     "priority": 1,
