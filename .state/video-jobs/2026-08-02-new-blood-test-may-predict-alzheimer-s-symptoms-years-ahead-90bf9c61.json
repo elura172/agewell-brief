@@ -1,5 +1,5 @@
 {
-  "status": "uploaded",
+  "status": "ready_for_mpt",
   "subject": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead",
   "article_url": "https://agewellbrief.com/brief/2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61/",
   "video_aspect": "9:16",
@@ -7,17 +7,12 @@
   "script": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
   "source_url": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner",
   "trend": {
-    "rank": 2,
-    "reader_visits": 12
+    "rank": 1,
+    "reader_visits": 57
   },
   "text_fore_color": "#FFFFFF",
   "stroke_color": "#000000",
   "stroke_width": 4,
   "font_size": 64,
-  "requires_video_qa": true,
-  "updated_at": "2026-08-03T03:20:57.561906+00:00",
-  "video_path": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/caf9e610-9aeb-44ed-b997-8ee727fba082/final-1.mp4",
-  "task_dir": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/caf9e610-9aeb-44ed-b997-8ee727fba082",
-  "upload_request_id": "agewell-video-2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
-  "upload_job_id": "5f246e709e974bbbb6fe59f5966b47cc"
+  "requires_video_qa": false
 }

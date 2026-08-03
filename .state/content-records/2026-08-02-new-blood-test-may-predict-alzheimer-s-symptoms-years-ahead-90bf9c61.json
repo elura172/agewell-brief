@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-03T02:32:47.043451+00:00",
+  "generated_at": "2026-08-03T10:04:38.996382+00:00",
   "article": {
     "article": "2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
     "url": "https://agewellbrief.com/brief/2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61/",
     "category": "brain health",
     "trend": {
-      "rank": 2,
-      "reader_visits": 12
+      "rank": 1,
+      "reader_visits": 57
     },
     "source_url": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner",
     "content_record": {
@@ -27,14 +27,14 @@
       "script": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
       "source_url": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner",
       "trend": {
-        "rank": 2,
-        "reader_visits": 12
+        "rank": 1,
+        "reader_visits": 57
       },
       "text_fore_color": "#FFFFFF",
       "stroke_color": "#000000",
       "stroke_width": 4,
       "font_size": 64,
-      "requires_video_qa": true
+      "requires_video_qa": false
     },
     "facebook": {
       "title": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead\n\nA new biomarker model could sharpen forecasts of disease progression years before symptoms begin. Why This Matters For people living with Alzheimer's disease and their families, one of the hardest questions is: \"How fast will this progress?\" Current biomarkers can identify Alzhei.",
@@ -45,32 +45,35 @@
       "script": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
       "caption": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead. Read the full brief at Agewell Brief. #healthyaging #healthnews",
       "link_in_bio": "https://agewellbrief.com/brief/2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61/",
-      "media_status": "needs_vertical_video"
+      "media_status": "ready_for_mpt"
     },
     "youtube": {
       "title": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead",
       "description": "A new biomarker model could sharpen forecasts of disease progression years before symptoms begin. Why This Matters For people living with Alzheimer's disease and their families, one of the hardest questions is: \"How fast will this progress?\" Current biomarkers can identify Alzhei.\n\nRead the full brief: https://agewellbrief.com/brief/2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61/\n\nSource-led health reporting from Agewell Brief.",
-      "media_status": "needs_vertical_video"
+      "media_status": "ready_for_mpt"
     }
   },
   "platforms": {
     "facebook": {
-      "status": "pending",
-      "request_id": null,
-      "job_id": null,
-      "updated_at": "2026-08-03T02:32:47.043436+00:00"
+      "status": "queued",
+      "request_id": "agewell-facebook-2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
+      "job_id": "0ccebba52128400fb9faa934c5b84ab3",
+      "updated_at": "2026-08-03T08:43:25.488769+00:00",
+      "last_error": "HTTPError"
     },
     "tiktok": {
-      "status": "pending",
-      "request_id": null,
-      "job_id": null,
-      "updated_at": "2026-08-03T02:32:47.043441+00:00"
+      "status": "queued",
+      "request_id": "agewell-video-2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
+      "job_id": "5f246e709e974bbbb6fe59f5966b47cc",
+      "updated_at": "2026-08-03T08:43:25.890242+00:00",
+      "last_error": "HTTPError"
     },
     "youtube": {
-      "status": "pending",
-      "request_id": null,
-      "job_id": null,
-      "updated_at": "2026-08-03T02:32:47.043446+00:00"
+      "status": "queued",
+      "request_id": "agewell-video-2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
+      "job_id": "5f246e709e974bbbb6fe59f5966b47cc",
+      "updated_at": "2026-08-03T08:43:26.269459+00:00",
+      "last_error": "HTTPError"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "status": "uploaded",
+  "status": "ready_for_mpt",
   "subject": "A potential sleep crisis among workers over 50: Study links work-related stress to range of well-being issues",
   "article_url": "https://agewellbrief.com/brief/2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b/",
   "video_aspect": "9:16",
@@ -7,17 +7,12 @@
   "script": "A potential sleep crisis among workers over 50: Study links work-related stress to range of well-being issues. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
   "source_url": "https://medicalxpress.com/news/2026-07-potential-crisis-workers-links-stress.html",
   "trend": {
-    "rank": 4,
-    "reader_visits": 11
+    "rank": 2,
+    "reader_visits": 52
   },
   "text_fore_color": "#FFFFFF",
   "stroke_color": "#000000",
   "stroke_width": 4,
   "font_size": 64,
-  "requires_video_qa": true,
-  "updated_at": "2026-08-03T04:09:45.761142+00:00",
-  "video_path": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/426e89ad-3185-41c6-b4e2-d88138630589/final-1.mp4",
-  "task_dir": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/426e89ad-3185-41c6-b4e2-d88138630589",
-  "upload_request_id": "agewell-video-2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b",
-  "upload_job_id": "9fe4f575acca4966b9c614427c278b22"
+  "requires_video_qa": false
 }

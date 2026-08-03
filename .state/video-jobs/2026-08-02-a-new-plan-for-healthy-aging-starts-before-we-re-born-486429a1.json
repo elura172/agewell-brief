@@ -1,23 +1,18 @@
 {
-  "status": "uploaded",
-  "subject": "A new plan for healthy aging starts before we're born",
+  "status": "ready_for_mpt",
+  "subject": "2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1",
   "article_url": "https://agewellbrief.com/brief/2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1/",
   "video_aspect": "9:16",
   "voice_name": "en-US-JennyNeural",
-  "script": "A new plan for healthy aging starts before we're born. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
+  "script": "2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
   "source_url": "https://medicalxpress.com/news/2026-07-healthy-aging-born.html",
   "trend": {
     "rank": 3,
-    "reader_visits": 11
+    "reader_visits": 51
   },
   "text_fore_color": "#FFFFFF",
   "stroke_color": "#000000",
   "stroke_width": 4,
   "font_size": 64,
-  "requires_video_qa": true,
-  "updated_at": "2026-08-03T03:44:08.146718+00:00",
-  "video_path": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/28b6d228-9e8d-48cf-acab-b17d2f26e197/final-1.mp4",
-  "task_dir": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/28b6d228-9e8d-48cf-acab-b17d2f26e197",
-  "upload_request_id": "agewell-video-2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1",
-  "upload_job_id": "91d42ee5c95643f48426ebb80028c725"
+  "requires_video_qa": false
 }
