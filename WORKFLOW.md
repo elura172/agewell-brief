@@ -24,6 +24,8 @@ commercial integrity → release manager
 Markdown + audit bundle
             ↓
 Astro build → Cloudflare deployment → RSS / sitemaps / search discovery
+            ↓
+Cloudflare reader trends → social packages → MoneyPrinterTurbo handoff
 ```
 
 The pipeline is an editorial desk with deterministic safeguards around the
@@ -38,7 +40,8 @@ Current production components:
 - Feed and trend configuration in `config/`.
 - Scheduled GitHub Actions in `.github/workflows/aggregate.yml`.
 - Static deployment through Cloudflare Workers Builds.
-- Social distribution through Upload-Post, currently in dry-run package mode.
+- Social distribution through Upload-Post, with trend-ranked packages and
+  publishing still gated behind review.
 - Public site: `https://agewellbrief.com`.
 - Repository: `https://github.com/elura172/agewell-brief`.
 
@@ -133,6 +136,19 @@ python3 -m scripts.trend_radar
 
 Treat trend scores as editorial leads, not proof of medical importance or search
 demand. Verify every selected item against the linked source.
+
+### Reader-trend ranking
+
+`scripts/cloudflare_trending.py` queries Cloudflare GraphQL Analytics for the
+most visited `/brief/.../` paths and writes `src/data/trending.json`. The current
+zone permits a one-day query window, so the ranking is refreshed daily rather
+than presented as a misleading seven-day total. Only published article slugs
+are admitted to the manifest.
+
+The standalone `.github/workflows/trending.yml` job refreshes the ranking,
+packages the selected articles for social distribution, synchronizes the
+persistent manifest, and commits the resulting state. This keeps trend
+measurement independent from a slow or failed LLM generation run.
 
 ## 5. Editorial desk and subagents
 
@@ -328,13 +344,34 @@ deployment succeeded.
 ## 11. Social distribution
 
 Upload-Post is connected to the publication's Facebook, TikTok, and YouTube
-accounts. The first integration phase validates the account and writes
-channel-specific packages under `.state/social/` for released articles only.
-It does not publish automatically yet.
+accounts. The current system automates the preparation and tracking layers; it
+does not yet publish new posts automatically.
+
+The live flow is:
+
+```text
+Cloudflare reader ranking
+          ↓
+scripts/social_package.py --trending
+          ↓
+Facebook / TikTok / YouTube copy + MoneyPrinterTurbo job
+          ↓
+scripts/social_manifest.py sync
+          ↓
+review → render → optional Upload-Post submission
+```
+
+The trend-aware package generator reads `src/data/trending.json`, selects the
+top five published briefs, and writes `.state/social/trending.json`. Each
+package preserves its trend rank and reader-visit count, includes the canonical
+article URL, and creates a `ready_for_mpt` video job with the configured Jenny
+voice and high-contrast caption settings.
 
 The formats are deliberately platform-aware:
 
-- Facebook receives a concise link-post caption and canonical Agewell URL.
+- Facebook receives a concise link-post caption and canonical Agewell URL. The
+  caption is generated automatically, but the post is not submitted to
+  Facebook by the trend workflow yet.
 - TikTok receives a hook, short script, caption, and link-in-bio URL; it still
   requires a vertical video asset.
 - YouTube receives a short-form title and description; it also requires a video
@@ -371,6 +408,18 @@ provides a macOS LaunchAgent schedule at 15-minute intervals; a lock prevents
 overlapping renders. The runner defaults to one article per pass so a slow
 video job cannot flood the connected accounts.
 
+Current automation boundary:
+
+- Automated: trend selection, Facebook copy, TikTok copy, YouTube copy,
+  canonical links, MoneyPrinterTurbo job creation, manifest synchronization,
+  and Upload-Post status reconciliation.
+- Review-gated: final script/video QA and new Upload-Post submissions.
+- Not automated: direct Facebook publishing from the trend refresh workflow.
+
+When live publishing is enabled, keep the same review gate for the first batch
+and confirm that the manifest records a request ID and resulting post URL for
+each platform.
+
 ## 12. Review, rollback, and incident handling
 
 For a controlled release:
@@ -401,6 +450,7 @@ Track the system as an editorial product, not only as an ad funnel:
 - source and category diversity;
 - evidence completeness and editor fallbacks;
 - article impressions, clicks, referrals, and reading behavior;
+- daily reader-trend rankings and social package performance by article;
 - image reuse and attribution issues;
 - affiliate clicks and conversions where available;
 - release failures and Cloudflare build health.
