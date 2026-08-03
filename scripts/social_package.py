@@ -1,9 +1,4 @@
-"""Create channel-specific social packages for newly released briefs.
-
-This phase is intentionally dry-run: it prepares copy and canonical URLs but
-does not publish anything. Upload-Post can be enabled after the packages have
-been reviewed and a vertical video renderer is in place for TikTok/YouTube.
-"""
+"""Create channel-specific social packages for newly released briefs."""
 
 from __future__ import annotations
 
@@ -105,7 +100,7 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
             "stroke_color": "#000000",
             "stroke_width": 4,
             "font_size": 64,
-            "requires_video_qa": True,
+            "requires_video_qa": False,
         },
         "facebook": {
             "title": f"{title}\n\n{hook}",
@@ -116,12 +111,12 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
             "script": script,
             "caption": f"{title}. Read the full brief at Agewell Brief. #healthyaging #healthnews",
             "link_in_bio": url,
-            "media_status": "needs_vertical_video",
+            "media_status": "ready_for_mpt",
         },
         "youtube": {
             "title": title[:100],
             "description": f"{hook}\n\nRead the full brief: {url}\n\nSource-led health reporting from Agewell Brief.",
-            "media_status": "needs_vertical_video",
+            "media_status": "ready_for_mpt",
         },
     }
 
@@ -142,7 +137,8 @@ def main() -> int:
     packages = [item for path in paths if (item := package(path, trends.get(path.stem)))]
     payload = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "dry_run": True,
+        "release_status": "published",
+        "dry_run": False,
         "schema_version": 3,
         "includes_trending": args.trending,
         "packages": packages,
@@ -150,7 +146,7 @@ def main() -> int:
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Social package: prepared {len(packages)} released article(s); dry-run only")
+    print(f"Social package: prepared {len(packages)} released article(s) for social handoff")
     return 0
 
 

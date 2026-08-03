@@ -56,7 +56,7 @@ jobs:
             https://api.upload-post.com/api/uploadposts/me
         env:
           UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
-      - name: Prepare social packages (dry run)
+      - name: Prepare social packages for release
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         run: python3 -m scripts.social_package --output .state/social/latest.json
       - name: Update reader trends
@@ -97,6 +97,21 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add -A -- content/posts public/images public/*.txt .state
           git diff --cached --quiet || git commit -m "chore: add aggregated health briefs"
+          git push
+      - name: Submit released article copy to Facebook
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        continue-on-error: true
+        run: python3 -m scripts.publish_facebook --packages .state/social/latest.json
+        env:
+          UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
+          UPLOAD_POST_USERNAME: ${{ secrets.UPLOAD_POST_USERNAME }}
+      - name: Commit social handoff state
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        run: |
+          git config user.name "agewell-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .state/social .state/content-records .state/video-jobs
+          git diff --cached --quiet || git commit -m "chore: record social publishing handoff"
           git push
       - name: Notify IndexNow
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
