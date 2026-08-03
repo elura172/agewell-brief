@@ -70,11 +70,12 @@ def run_mpt(job: dict) -> tuple[Path, str]:
     args = [
         "uv", "run", "--no-project", "--python", "3.11", "python", "mpt_agent.py",
         "--subject", str(job["subject"]), "--",
-        "--voice-name", str(job.get("voice_name", "en-US-JennyNeural")),
-        "--text-fore-color", str(job.get("text_fore_color", "#FFFFFF")),
-        "--stroke-color", str(job.get("stroke_color", "#000000")),
-        "--stroke-width", str(job.get("stroke_width", 4)),
-        "--font-size", str(job.get("font_size", 64)),
+        "--voice-name", str(job.get("voice_name", "en-US-AvaNeural")),
+        "--text-fore-color", str(job.get("text_fore_color", "#FEFEFE")),
+        "--stroke-color", str(job.get("stroke_color", "#0B0F19")),
+        "--stroke-width", str(job.get("stroke_width", 2)),
+        "--font-size", str(job.get("font_size", 52)),
+        "--subtitle-bottom-margin", str(job.get("subtitle_bottom_margin", 180)),
         "--no-subtitle-background-enabled",
     ]
     result = subprocess.run(args, cwd=MPT_HOME / "docs/skill", capture_output=True, text=True, check=False)
