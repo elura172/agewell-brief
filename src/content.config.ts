@@ -33,7 +33,7 @@ const briefs = defineCollection({
     image_avg_color: z.string().regex(/^#[0-9a-fA-F]{6}$/).default("#cad4cf"),
     autoresearch_antecedents: z.array(z.object({
       scientist: z.string(),
-      year: z.string(),
+      year: z.union([z.string(), z.number()]).transform((v) => String(v)),
       discovery: z.string()
     })).optional().default([]),
     ancestral_insight: z.string().optional()
