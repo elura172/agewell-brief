@@ -648,9 +648,10 @@ def draft(
         "autoresearch_deep_context": deep_context,
         "evergreen_context": [hit.prompt_dict() for hit in (evergreen_context or [])],
         "requirements": [
-            "Write clear, engaging health journalism for readers over 50.",
+            "Write clear, authoritative health and biophysics journalism for sovereign minds.",
             "Use only claims supported by the supplied source material.",
             "If historical biophysical antecedents (e.g. Fritz-Albert Popp biophotons, Gerald Pollack EZ water, Otto Warburg metabolic respiration, Hans Selye stress adaptation) or ancestral parallels are present in autoresearch_deep_context, incorporate them explicitly to trace the deep scientific lineage.",
+            *(["This is an Editorial Novel Medical Theory piece. Synthesize the biophysical mechanisms, historical antecedents (Popp, Warburg, Pollack, Selye, Gurwitsch), and modern preprints into a groundbreaking, original medical theory hypothesis."] if content_type == "editorial" else []),
             "Do not diagnose, prescribe, promise results, or invent institutions or studies.",
             "Do not imply that a supplement treats or cures a disease.",
             "Write with tension, specificity, agency, and warmth; avoid hype and filler.",
