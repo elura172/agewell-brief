@@ -7,6 +7,7 @@ import json
 import os
 import sys
 import urllib.parse
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -38,8 +39,16 @@ def fetch_report(api_key: str, account: str, start: str, end: str) -> tuple[int,
         url,
         headers={"Authorization": api_key, "Accept": "application/json", "User-Agent": "AgewellBrief/1.0"},
     )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return int(getattr(response, "status", 200)), json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return int(getattr(response, "status", 200)), json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        detail = exc.read(1000).decode("utf-8", errors="replace").strip()
+        raise RuntimeError(
+            f"ClickBank analytics rejected the request with HTTP {exc.code}. "
+            "Confirm the API key has the Analytics role and the account nickname is correct. "
+            f"Response: {detail[:300]}"
+        ) from exc
 
 
 def main() -> int:
