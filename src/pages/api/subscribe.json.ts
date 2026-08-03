@@ -2,8 +2,15 @@ import type { APIRoute } from "astro";
 
 export const POST: APIRoute = async ({ request }) => {
   try {
-    const data = await request.json();
-    const email = data.email?.trim();
+    let email = "";
+    if (request && typeof request.json === "function") {
+      try {
+        const data = await request.json();
+        email = data.email?.trim() || "";
+      } catch (e) {
+        // Fallback for body parsing
+      }
+    }
 
     if (!email || !email.includes("@")) {
       return new Response(
