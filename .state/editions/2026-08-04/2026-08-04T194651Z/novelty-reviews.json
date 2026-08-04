@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "768c6a3b7ed700c723bdf32a": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "systematic review",
+      "reason": "Systematic scoping review of adult L2 neuroplasticity; useful synthesis but not a single new finding.",
+      "angle": "What does the latest neuroimaging evidence say about whether learning a language in adulthood can actually reshape the brain?",
+      "mode": "agent"
+    },
+    "616f0fc71a48824a3135566c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "comparative intervention",
+      "reason": "Direct comparison of nicotinamide riboside vs. high-intensity exercise on epigenetic aging; specific but niche.",
+      "angle": "Pill vs. sweat: which actually slows muscle aging at the epigenetic level?",
+      "mode": "agent"
+    },
+    "11abe8f3fd3c8d6a3a5a424a": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Cross-sectional link between exercise capacity and brain characteristics; expected direction, limited novelty.",
+      "angle": "Does a higher lactate threshold mean a younger-looking brain? New MRI study explores.",
+      "mode": "agent"
+    },
+    "f0e1657204cbafe3dfa75622": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "AI maps local brain aging with detailed precision, offering new insights into dementia; high novelty and visual potential.",
+      "angle": "AI reveals your brain's 'age spots': new maps show how different regions age at different rates.",
+      "mode": "agent"
+    },
+    "6970e64e6fca5b752bf57332": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "unexpected finding",
+      "reason": "Striking discordance in isogenic mice with 16p11.2 deletion; half show seizure susceptibility, revealing compensatory circuits.",
+      "angle": "Same genetic deletion, opposite outcomes: why half of these mice resist seizures.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies glial cell-surface protein DIP-β that extends lifespan in flies; novel pro-longevity factor with mechanistic insight.",
+      "angle": "A single protein on glial cells extends fly lifespan—could it work in humans?",
+      "mode": "agent"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "counterintuitive finding",
+      "reason": "REM sleep preserves internal sensory signals while dampening external ones; challenges view of sleep as isolation.",
+      "angle": "Your brain listens inward during REM sleep: why internal signals stay loud.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic daily workout advice for seniors; no new data or unique angle.",
+      "angle": "A senior fitness trainer's 10-minute routine to improve balance and strength at home.",
+      "mode": "agent"
+    },
+    "628fba671bb13fc20dfac71b": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Overall brain health linked to memory protection in early Alzheimer's; broad concept, not novel.",
+      "angle": "Keeping your brain fit may shield memory from early Alzheimer's damage.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "f0e1657204cbafe3dfa75622",
+    "6970e64e6fca5b752bf57332",
+    "c376819f2d54a4df1d317aee",
+    "95c882437216b7799a061c53"
+  ],
+  "held_back": [
+    "768c6a3b7ed700c723bdf32a",
+    "616f0fc71a48824a3135566c",
+    "11abe8f3fd3c8d6a3a5a424a",
+    "256b3e11dfff849235aebba7",
+    "628fba671bb13fc20dfac71b"
+  ],
+  "mode": "agent"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "f0e1657204cbafe3dfa75622",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "0ab8467caacde078",
+        "source": "Dr. Mae-Wan Ho (1993) — The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 16
+      },
+      {
+        "source_id": "048bf7cd36116322",
+        "source": "Dr. Gerald Pollack (2013) — The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 13
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

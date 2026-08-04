@@ -1,0 +1,25 @@
+[
+  {
+    "article_id": "f0e1657204cbafe3dfa75622",
+    "study_type": "observational study",
+    "key_claims": [
+      "USC researchers developed an AI-based approach to generate detailed maps of brain aging.",
+      "The maps highlight differences in how distinct parts of the brain age.",
+      "The model provides insights into how patterns of brain changes correlate with cognitive function changes across the lifespan.",
+      "The study was published in the journal Proceedings of the National Academy of Sciences."
+    ],
+    "limitations": [
+      "The source does not specify the sample size or demographics.",
+      "The source does not detail the AI model's methodology or validation.",
+      "The source does not mention potential biases or limitations of the AI approach.",
+      "The source does not provide effect sizes or statistical significance."
+    ],
+    "what_not_to_say": [
+      "The AI model can predict dementia.",
+      "The study proves a causal link between brain aging and cognitive decline.",
+      "The approach is ready for clinical use.",
+      "The study provides specific numerical results."
+    ],
+    "confidence": "moderate"
+  }
+]
