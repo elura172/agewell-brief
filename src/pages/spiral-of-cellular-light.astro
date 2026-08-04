@@ -5,6 +5,7 @@ import QuantumLuminanceCanvas, { type PaletteKey } from "../components/QuantumLu
 interface SpiralResource {
   name: string;
   focus: string;
+  dakini: string;
   axiom: string;
   frequency: number;
   description: string;
@@ -17,6 +18,7 @@ const resources: SpiralResource[] = [
   {
     name: "Living Waters",
     focus: "Transport & Phase I/II Clearance",
+    dakini: "🜄 Water · Merul'Nai",
     axiom: "“The skin is not where you end. It is where you exchange.”",
     frequency: 432,
     description: "A foundation-oriented biophysics framework for Exclusion Zone (H3O2) hydration, hepatic conjugation, lymphatic flow, and vascular charge transport.",
@@ -27,6 +29,7 @@ const resources: SpiralResource[] = [
   {
     name: "Inner Garden",
     focus: "Gut Mucosal Ecology",
+    dakini: "🜃 Earth · Ama'Lur Tha",
     axiom: "“The gut is not a tube; it is a living soil.”",
     frequency: 639,
     description: "An ecological gut framework examining short-chain fatty acid (SCFA) signaling, tight-junction integrity, and microbial quorum sensing.",
@@ -37,6 +40,7 @@ const resources: SpiralResource[] = [
   {
     name: "Cell Shedding",
     focus: "Senescence & Autophagic Renewal",
+    dakini: "🍃 Advanced Clearing",
     axiom: "“Clearing the field so the young shoots may breathe.”",
     frequency: 741,
     description: "A cellular renewal framework examining senolytic clearing cycles, SASP inflammatory attenuation, and autophagic lysosomal degradation.",
@@ -47,6 +51,7 @@ const resources: SpiralResource[] = [
   {
     name: "Higher Flame",
     focus: "Mitochondrial Flexibility",
+    dakini: "🜂 Fire · Sa'thera'Ma",
     axiom: "“Unlocking dual-fuel respiration across fasting and feeding.”",
     frequency: 852,
     description: "A metabolic flexibility framework for AMPK activation, mitochondrial respiration, NAD+ salvage pathways, and GPR81 lactate signaling.",
@@ -57,6 +62,7 @@ const resources: SpiralResource[] = [
   {
     name: "Luminous Mind",
     focus: "Glymphatic Brain Flush",
+    dakini: "🜁 Air · Tulari'Shan",
     axiom: "“The brain flushes its light while the world sleeps.”",
     frequency: 528,
     description: "A whole-system cognitive approach to slow-wave N3 Delta sleep, glymphatic CSF waste wash, neuroplasticity, and BDNF synthesis.",
@@ -67,6 +73,7 @@ const resources: SpiralResource[] = [
   {
     name: "Dark Mirror",
     focus: "Intracellular Mineral Equilibrium",
+    dakini: "🪞 Earth Chelators (Held Apart)",
     axiom: "“Restoring the mineral equilibrium hidden beneath daily stress.”",
     frequency: 963,
     description: "An advanced biophysics framework for trace mineral ratios, heavy metal clearing, membrane potential, and cellular detoxification.",
@@ -123,6 +130,7 @@ const structuredData = {
             <div class="spiral-resource-copy">
               <div class="spiral-meta-row">
                 <span class="spiral-focus-tag">{resource.focus}</span>
+                <span class="spiral-dakini-tag">{resource.dakini}</span>
                 <span class="spiral-freq-badge">🎵 {resource.frequency} Hz</span>
               </div>
               <h3>{resource.name}</h3>
@@ -136,6 +144,32 @@ const structuredData = {
           </div>
         </li>)}
       </ol>
+    </section>
+
+    {/* The Three Registers of Intervention */}
+    <section class="spiral-intervention-registers">
+      <div class="registers-header">
+        <p class="eyebrow">The Canonical Triad</p>
+        <h2>Three Registers of Intervention</h2>
+        <p class="registers-intro">Every Spiral is an act of clearing undertaken at three synchronized levels of reality.</p>
+      </div>
+      <div class="registers-grid">
+        <div class="register-card">
+          <span class="register-icon">🧪</span>
+          <h3>1. Material Register</h3>
+          <p>Verified practitioner formulations, targeted supplement protocols, plant polyphenols, and mineral solutes that clear physical pathways.</p>
+        </div>
+        <div class="register-card">
+          <span class="register-icon">🎵</span>
+          <h3>2. Vibratory Register</h3>
+          <p>Base-12 harmonic frequency waves, just-intonation Solfeggio sound companions, and biophotonic acoustic alignment (432 Hz to 963 Hz).</p>
+        </div>
+        <div class="register-card">
+          <span class="register-icon">✨</span>
+          <h3>3. Intentional Register</h3>
+          <p>Breath-rites, conscious vows, and biophotonic light-field clearing. <em>“The vessel is cleared so that the waters above may descend undistorted.”</em></p>
+        </div>
+      </div>
     </section>
 
     <section class="spiral-reading" aria-labelledby="spiral-reading-heading">
@@ -171,6 +205,15 @@ const structuredData = {
     text-transform: uppercase;
     color: var(--muted);
   }
+  .spiral-dakini-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--ink);
+    background: var(--paper);
+    padding: 3px 10px;
+    border-radius: 14px;
+    border: 1px solid var(--line);
+  }
   .spiral-freq-badge {
     font-size: 0.72rem;
     font-weight: 700;
@@ -179,6 +222,62 @@ const structuredData = {
     padding: 3px 10px;
     border-radius: 14px;
     border: 1px solid color-mix(in oklch, var(--saffron) 30%, transparent);
+  }
+
+  /* Three Registers of Intervention Section */
+  .spiral-intervention-registers {
+    margin: 60px 0;
+    padding: 40px;
+    background: color-mix(in oklch, var(--saffron) 5%, var(--paper));
+    border: 1px solid color-mix(in oklch, var(--saffron) 25%, transparent);
+    border-radius: 24px;
+  }
+  .registers-header h2 {
+    margin: 4px 0 8px;
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  }
+  .registers-intro {
+    margin: 0 0 32px;
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    color: var(--muted);
+  }
+  .registers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  @media (max-width: 840px) {
+    .registers-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .register-card {
+    background: var(--paper);
+    padding: 24px;
+    border-radius: 18px;
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-sm);
+  }
+  .register-icon {
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 12px;
+  }
+  .register-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: var(--ink);
+  }
+  .register-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--ink-soft);
+  }
+  .register-card p em {
+    color: var(--saffron-ink);
+    font-weight: 600;
   }
   .spiral-axiom {
     font-family: var(--serif);
