@@ -1,23 +1,27 @@
 {
-  "status": "uploaded",
-  "subject": "Could this enzyme help remove 'zombie' cells from our tissues?",
+  "status": "ready_for_mpt",
+  "subject": "2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd",
   "article_url": "https://agewellbrief.com/brief/2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd/",
   "video_aspect": "9:16",
-  "voice_name": "en-US-JennyNeural",
-  "script": "Could this enzyme help remove 'zombie' cells from our tissues?. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
+  "voice_name": "en-US-AvaNeural",
+  "script": "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways. A new biophysics study just dropped on '2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd'. Scientists are homing in on an enzyme that may help remove senescent cells—the so-called 'zombie' cells that accumulate with age. Here's what the research suggests and what it doesn't. Why this matters Living longer does. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
   "source_url": "https://medicalxpress.com/news/2026-07-enzyme-zombie-cells-tissues.html",
   "trend": {
-    "rank": 5,
-    "reader_visits": 11
+    "rank": 2,
+    "reader_visits": 15
   },
-  "text_fore_color": "#FFFFFF",
-  "stroke_color": "#000000",
-  "stroke_width": 4,
-  "font_size": 64,
-  "requires_video_qa": true,
-  "updated_at": "2026-08-03T02:58:15.516206+00:00",
-  "video_path": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/81a3fb5f-149d-4cde-9462-641e5fcebc5c/final-1.mp4",
-  "task_dir": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/81a3fb5f-149d-4cde-9462-641e5fcebc5c",
-  "upload_request_id": "agewell-video-2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd",
-  "upload_job_id": "6e21b69913564e8c923e89dc7fbf07e3"
+  "text_fore_color": "#FEFEFE",
+  "highlight_color": "#F97316",
+  "stroke_color": "#0B0F19",
+  "stroke_width": 2,
+  "font_size": 48,
+  "subtitle_bottom_margin": 210,
+  "max_words_per_line": 3,
+  "active_word_scale": 1.12,
+  "uppercase_keywords": true,
+  "bold_keywords": true,
+  "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
+  "subtitle_bg_padding": 12,
+  "subtitle_glow_enabled": true,
+  "requires_video_qa": false
 }
