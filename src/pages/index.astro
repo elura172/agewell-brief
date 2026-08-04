@@ -25,6 +25,25 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
 ---
 <Layout>
   {showDrafts && <div class="edition-strip" aria-label="Preview status"><span>LOCAL DRAFT PREVIEW</span><span>NOT PUBLIC</span></div>}
+  
+  {/* 1. Explicit Brand Hero Banner */}
+  <header class="brand-hero" aria-labelledby="hero-title">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Source-Led Biophysics & Functional Longevity Intelligence</p>
+      <h1 id="hero-title">Health reporting built <em>for human vitality.</em></h1>
+      <p class="hero-lede">
+        Clear signals. Better questions. We translate cutting-edge arXiv preprints, biophotonic research, and cellular renewal into daily, source-linked actionable intelligence—with zero medical condescension.
+      </p>
+
+      {/* Lightweight Top Email Capture Bar */}
+      <form class="top-subscribe-bar" action="#subscribe">
+        <span class="bar-pill">📩 Daily Briefs + 6 PDF Field Guides</span>
+        <a href="#subscribe" class="hero-join-btn">Subscribe Free <span aria-hidden="true">→</span></a>
+      </form>
+    </div>
+  </header>
+
+  {/* 2. Today's Edition */}
   <section id="latest" class="edition-hero" aria-labelledby="edition-heading">
     <div class="edition-mast">
       <span><span class="live-dot" aria-hidden="true"></span> Today’s edition · {editionDate}</span>
@@ -90,13 +109,9 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
         ))}
       </div>
     </div>}
-
-    <div class="edition-promise" aria-label="Agewell editorial promise">
-      <p>Stay capable. <em>Stay curious.</em></p>
-      <ul><li>Readable reporting</li><li>Visible sources</li><li>Questions worth asking</li></ul>
-    </div>
   </section>
 
+  {/* 3. Trending This Week (Social Proof) */}
   {trending.length > 0 && <section class="trending-section" aria-labelledby="trending-heading">
     <div class="trending-heading">
       <div>
@@ -114,6 +129,56 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     </ol>
   </section>}
 
+  {/* 4. Our Biophysics Frameworks (Demystifying Jargon & Key Concepts) */}
+  <section class="frameworks-guide-section" aria-labelledby="frameworks-heading">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Proprietary Lens</p>
+        <h2 id="frameworks-heading" class="section-title">Our Biophysics Frameworks</h2>
+      </div>
+      <p class="section-caption">Six foundational lenses translating cellular physics into everyday healthspan.</p>
+    </div>
+    <div class="frameworks-grid">
+      <article class="framework-card">
+        <span class="framework-icon">🌊</span>
+        <h3>Living Waters</h3>
+        <p class="framework-tag">Fluid & Micro-Circulation</p>
+        <p>Interfacial exclusion zone (EZ) structured water ($H_3O_2$) and vascular transport kinetics.</p>
+      </article>
+      <article class="framework-card">
+        <span class="framework-icon">🌱</span>
+        <h3>Inner Garden</h3>
+        <p class="framework-tag">Gut Microbiome Ecology</p>
+        <p>Short-chain fatty acid signaling, gut barrier integrity, and microbial circadian rhythmicity.</p>
+      </article>
+      <article class="framework-card">
+        <span class="framework-icon">🍃</span>
+        <h3>Cell Shedding</h3>
+        <p class="framework-tag">Senescence & Cellular Renewal</p>
+        <p>Targeted senolytic clearing, autophagy activation, and SASP inflammatory reduction.</p>
+      </article>
+      <article class="framework-card">
+        <span class="framework-icon">🔥</span>
+        <h3>Higher Flame</h3>
+        <p class="framework-tag">Metabolic Resilience & Mitochondria</p>
+        <p>Mitochondrial respiration voltage, metabolic flexibility, and non-shivering thermogenesis.</p>
+      </article>
+      <article class="framework-card">
+        <span class="framework-icon">⚡</span>
+        <h3>Luminous Mind</h3>
+        <p class="framework-tag">Cognitive & Neural Coherence</p>
+        <p>Glymphatic clearance during sleep, neuro-plasticity, and biophotonic brain entrainment.</p>
+      </article>
+      <article class="framework-card">
+        <span class="framework-icon">🪞</span>
+        <h3>Dark Mirror</h3>
+        <p class="framework-tag">Mineral Balance & Bio-Clearing</p>
+        <p>Heavy metal chelation, systemic mineral ratios, and deep tissue clearing pathways.</p>
+      </article>
+    </div>
+  </section>
+
+  {/* 5. Archive Index */}
   {earlier.length > 0 && <section id="archive" class="archive-section" aria-labelledby="archive-heading">
     <div class="section-heading archive-heading">
       <div>
@@ -164,10 +229,14 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
         filterPills.forEach((p) => p.classList.remove("is-active"));
         pill.classList.add("is-active");
 
+        let visibleCount = 0;
         archiveItems.forEach((item) => {
           const cat = item.getAttribute("data-category");
           if (topic === "all" || cat === topic) {
             item.style.display = "";
+            visibleCount++;
+            const indexEl = item.querySelector(".archive-index");
+            if (indexEl) indexEl.textContent = String(visibleCount + 3).padStart(2, "0");
           } else {
             item.style.display = "none";
           }
@@ -176,11 +245,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     });
   </script>
 
-  <section id="about" class="about-band">
-    <div><h2>Health reporting built<br /><em>for human vitality.</em></h2></div>
-    <p>We translate biophysics, cellular longevity, and clinical research into direct intelligence you can use immediately. Direct sources, clear physics, zero medical condescension.</p>
-  </section>
-
+  {/* 6. Subscribe Card with Explicit Parenthetical Lead Magnet Labels */}
   <section id="subscribe" class="subscribe-card">
     <div class="subscribe-heading">
       <img src="/logo-mark.svg" width="72" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async" />
@@ -211,12 +276,12 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
         <h3>You’re subscribed!</h3>
         <p>Your 6 Biophysics Field Guides (PDF) are ready for instant download:</p>
         <div class="lead-magnet-grid">
-          <a href="/downloads/field-guides/living-waters-field-guide.pdf" download class="magnet-link">📄 Living Waters (Transport)</a>
-          <a href="/downloads/field-guides/inner-garden-field-guide.pdf" download class="magnet-link">📄 Inner Garden (Gut Ecology)</a>
-          <a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download class="magnet-link">📄 Cell Shedding (Senescence)</a>
-          <a href="/downloads/field-guides/higher-flame-field-guide.pdf" download class="magnet-link">📄 Higher Flame (Metabolism)</a>
-          <a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download class="magnet-link">📄 Luminous Mind (Cognition)</a>
-          <a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download class="magnet-link">📄 Dark Mirror (Mineral Balance)</a>
+          <a href="/downloads/field-guides/living-waters-field-guide.pdf" download class="magnet-link">📄 Living Waters <em>(Fluid & Transport)</em></a>
+          <a href="/downloads/field-guides/inner-garden-field-guide.pdf" download class="magnet-link">📄 Inner Garden <em>(Gut Ecology)</em></a>
+          <a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download class="magnet-link">📄 Cell Shedding <em>(Senescence & Renewal)</em></a>
+          <a href="/downloads/field-guides/higher-flame-field-guide.pdf" download class="magnet-link">📄 Higher Flame <em>(Metabolism & Respiration)</em></a>
+          <a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download class="magnet-link">📄 Luminous Mind <em>(Cognition & Neural Coherence)</em></a>
+          <a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download class="magnet-link">📄 Dark Mirror <em>(Mineral & Bio-clearing)</em></a>
         </div>
       </div>
     </div>
@@ -338,5 +403,122 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
   .magnet-link:hover {
     border-color: var(--saffron);
     background: var(--paper);
+  }
+
+  /* 1. Explicit Brand Hero Banner */
+  .brand-hero {
+    padding: 60px 5vw 40px;
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(180deg, var(--paper) 0%, var(--cream) 100%);
+  }
+  .hero-inner {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .hero-eyebrow {
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--saffron-ink);
+    margin-bottom: 12px;
+  }
+  .hero-inner h1 {
+    font-size: clamp(2.6rem, 5vw, 4.2rem);
+    line-height: 1.05;
+    margin: 0 0 16px;
+    letter-spacing: -0.03em;
+  }
+  .hero-inner h1 em {
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .hero-lede {
+    font-family: var(--serif);
+    font-size: clamp(1.15rem, 2.2vw, 1.4rem);
+    line-height: 1.45;
+    color: var(--ink);
+    max-width: 780px;
+    margin: 0 0 24px;
+  }
+  .top-subscribe-bar {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 20px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  }
+  .bar-pill {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .hero-join-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 8px 18px;
+    border-radius: 20px;
+    background: var(--saffron-ink);
+    color: #ffffff;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  .hero-join-btn:hover {
+    background: var(--ink);
+  }
+
+  /* 4. Biophysics Frameworks Section */
+  .frameworks-guide-section {
+    padding: 60px 5vw;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+  }
+  .frameworks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 28px;
+  }
+  .framework-card {
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 24px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+  }
+  .framework-card:hover {
+    border-color: var(--saffron);
+    transform: translateY(-2px);
+  }
+  .framework-icon {
+    font-size: 1.6rem;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .framework-card h3 {
+    margin: 0 0 4px;
+    font-size: 1.2rem;
+  }
+  .framework-tag {
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--saffron-ink);
+    margin: 0 0 10px;
+  }
+  .framework-card p:last-child {
+    font-size: 0.88rem;
+    line-height: 1.45;
+    color: var(--muted);
+    margin: 0;
   }
 </style>
