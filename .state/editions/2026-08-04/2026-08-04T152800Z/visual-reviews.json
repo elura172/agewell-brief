@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "901ecdfc76fc0ec0250a2651",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:11354239",
+      "score": 85,
+      "rationale": "The image depicts an adult using a glucometer, directly matching the story's emphasis on monitoring glucose tolerance as an early marker of muscle aging. The setting and action align with the editorial intent of showing a metabolic test in a clinical or home context, and the subject is a middle-aged adult, fitting the target demographic.",
+      "concerns": [
+        "The image may not explicitly show a clinical lab setting, but the glucometer use is a clear metabolic monitoring action. The absence of a lab coat or clinical equipment is acceptable given the story's focus on accessible biomarkers."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-04/supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc-pexels-11354239.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

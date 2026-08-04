@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "901ecdfc76fc0ec0250a2651": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies a specific early biomarker (impaired glucose tolerance) preceding muscle aging and shows omega-3 supplementation improves function without hypertrophy, offering a novel preventive angle.",
+      "angle": "Early glucose intolerance as a harbinger of muscle aging: omega-3s preserve function without building mass",
+      "mode": "agent"
+    },
+    "616f0fc71a48824a3135566c": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Directly compares nicotinamide riboside and high-intensity exercise on epigenetic aging in muscle, a specific and underreported comparison with potential practical implications.",
+      "angle": "NR vs. HIIT: which truly reverses muscle epigenetic age?",
+      "mode": "agent"
+    },
+    "11abe8f3fd3c8d6a3a5a424a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "observational",
+      "reason": "Cross-sectional association between fitness and brain structure; lacks novelty and causal insight, similar to prior endurance-brain studies.",
+      "angle": "Beyond VO2max: lactate threshold as a sharper marker of brain fitness",
+      "mode": "agent"
+    },
+    "f0e1657204cbafe3dfa75622": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "technology",
+      "reason": "AI-based 'local brain aging' maps offer a novel tool for dementia prediction, with potential clinical utility and visual appeal.",
+      "angle": "AI maps of brain aging: a new way to spot dementia risk early",
+      "mode": "agent"
+    },
+    "2d981d8e12919da8ac66f441": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "technology",
+      "reason": "Machine learning predicts tDCS response for anxiety in older adults, but small sample (n=20) and niche application limit broad interest.",
+      "angle": "Personalized brain stimulation: AI predicts who benefits from tDCS for anxiety",
+      "mode": "agent"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Reveals a specific shift in sensory processing during REM sleep, offering a new understanding of sleep's function and potential implications for sleep health.",
+      "angle": "REM sleep turns the brain inward: why outside signals fade but body signals persist",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "practice",
+      "reason": "Generic senior workout advice; lacks specific new findings or unique angle, similar to countless existing articles.",
+      "angle": "A trainer's 10-minute daily routine for senior balance and strength",
+      "mode": "agent"
+    },
+    "628fba671bb13fc20dfac71b": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "observational",
+      "reason": "Reinforces known concept that overall brain health protects against Alzheimer's; lacks novel mechanism or data.",
+      "angle": "Why a healthy brain resists Alzheimer's: new insights into cognitive reserve",
+      "mode": "agent"
+    },
+    "06b914f2820f8fbce6ce9e3b": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "technology",
+      "reason": "Technical bioinformatics tool for gene ontology clustering; too specialized for general aging audience.",
+      "angle": "AI clusters gene functions to reveal Alzheimer's pathways",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "901ecdfc76fc0ec0250a2651",
+    "616f0fc71a48824a3135566c",
+    "f0e1657204cbafe3dfa75622",
+    "95c882437216b7799a061c53"
+  ],
+  "held_back": [
+    "11abe8f3fd3c8d6a3a5a424a",
+    "2d981d8e12919da8ac66f441",
+    "256b3e11dfff849235aebba7",
+    "628fba671bb13fc20dfac71b",
+    "06b914f2820f8fbce6ce9e3b"
+  ],
+  "mode": "agent"
+}
