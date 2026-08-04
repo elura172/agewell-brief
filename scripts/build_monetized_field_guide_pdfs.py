@@ -160,7 +160,10 @@ def build_pdf(guide):
         leftMargin=0.55 * inch,
         rightMargin=0.55 * inch,
         topMargin=0.55 * inch,
-        bottomMargin=0.55 * inch
+        bottomMargin=0.55 * inch,
+        title=f"{guide['title']} — Spiral of Cellular Light",
+        author="Spiral of Cellular Light — Certified Regenerative Health Program",
+        creator="Spiral of Cellular Light"
     )
 
     styles = getSampleStyleSheet()
