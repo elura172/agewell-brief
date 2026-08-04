@@ -549,3 +549,38 @@ html[data-font-size="large"] .font-size-btn {
   background: var(--saffron-soft);
   color: var(--saffron-ink);
 }
+
+/* Phase 1: Luminous Editorial Drop-Cap & Blockquote Styling */
+.article-content > p:first-of-type::first-letter,
+.info-content > p:first-of-type::first-letter {
+  float: left;
+  font-family: var(--serif);
+  font-size: 4.2rem;
+  line-height: 0.75;
+  margin-top: 0.15rem;
+  margin-right: 0.8rem;
+  margin-bottom: -0.2rem;
+  color: var(--saffron-ink);
+  font-weight: 700;
+  text-shadow: 0 2px 14px color-mix(in oklch, var(--saffron) 35%, transparent);
+}
+
+.article-content blockquote,
+.info-content blockquote {
+  margin: 32px 0;
+  padding: 24px 28px;
+  background: color-mix(in oklch, var(--saffron) 8%, var(--paper));
+  border-left: 3px solid var(--saffron);
+  border-radius: 0 12px 12px 0;
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--ink);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.article-content blockquote p,
+.info-content blockquote p {
+  margin: 0;
+}
