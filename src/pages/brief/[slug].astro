@@ -32,38 +32,44 @@ const logoURL = new URL("/logo.svg", Astro.site).href;
 const related = publishedBriefs(await getCollection("briefs"))
   .filter((candidate) => candidate.id !== entry.id && candidate.data.category === entry.data.category)
   .slice(0, 2);
-const categoryToProtocol: Record<string, { name: string; focus: string; href: string; pdfUrl: string }> = {
+const categoryToProtocol: Record<string, { icon: string; name: string; focus: string; href: string; pdfUrl: string }> = {
   "brain health": {
+    icon: "⚡",
     name: "Luminous Mind Protocol",
     focus: "Whole-system cognitive care, sleep, and neural resilience",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
     pdfUrl: "/downloads/field-guides/luminous-mind-field-guide.pdf"
   },
   "cellular senescence": {
+    icon: "🍃",
     name: "Cell Shedding Protocol",
     focus: "Targeted cellular renewal and senolytic support",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
     pdfUrl: "/downloads/field-guides/cell-shedding-field-guide.pdf"
   },
   "gut health": {
+    icon: "🌱",
     name: "Inner Garden Protocol",
     focus: "Microbiome balance, gut mucosal integrity, and motility",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
     pdfUrl: "/downloads/field-guides/inner-garden-field-guide.pdf"
   },
   "metabolic health": {
+    icon: "🔥",
     name: "Higher Flame Protocol",
     focus: "Metabolic flexibility, glucose transport, and mitochondrial energy",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
     pdfUrl: "/downloads/field-guides/higher-flame-field-guide.pdf"
   },
   "detoxification": {
+    icon: "🌊",
     name: "Living Waters Protocol",
     focus: "Liver sequence processing, hydration, and cellular transport",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
     pdfUrl: "/downloads/field-guides/living-waters-field-guide.pdf"
   },
   "longevity": {
+    icon: "🪞",
     name: "Dark Mirror Protocol",
     focus: "Advanced mineral clearing and biological aging support",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
@@ -187,7 +193,7 @@ const structuredData = [
     <aside class="article-protocol-card" aria-label="Recommended Fullscript Protocol">
       <div class="protocol-card-header">
         <span class="protocol-eyebrow">Program Protocol · Fullscript Direct</span>
-        <h3>{protocolCard.name}</h3>
+        <h3>{protocolCard.icon} {protocolCard.name}</h3>
         <p class="protocol-focus">{protocolCard.focus}</p>
       </div>
       <div class="protocol-card-actions">
