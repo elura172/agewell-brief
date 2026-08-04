@@ -19,6 +19,7 @@ except ImportError:
 SUBSTACK_DOMAIN = os.getenv("SUBSTACK_DOMAIN", "agewellbrief")
 SUBSTACK_EMAIL = os.getenv("SUBSTACK_EMAIL", "")
 SUBSTACK_PASSWORD = os.getenv("SUBSTACK_PASSWORD", "")
+SUBSTACK_SID = os.getenv("SUBSTACK_SID", "")
 
 def get_latest_brief_path():
     brief_files = sorted(glob.glob("content/posts/*.md") + glob.glob("content/posts/*.mdx"), key=os.path.getmtime, reverse=True)
@@ -68,11 +69,19 @@ def parse_brief_markdown(filepath):
     return title, substack_md
 
 def main():
-    if not SUBSTACK_EMAIL or not SUBSTACK_PASSWORD:
+    if not SUBSTACK_SID and not (SUBSTACK_EMAIL and SUBSTACK_PASSWORD):
         print("💡 Substack Auto-Publisher Engine Ready!")
-        print("To auto-publish daily posts to agewellbrief.substack.com, set environment variables:")
-        print("  export SUBSTACK_EMAIL='your-email@proton.me'")
-        print("  export SUBSTACK_PASSWORD='your-substack-password'")
+        print("Since Substack uses passwordless magic-link login, you can authenticate via Session Cookie OR RSS Import:")
+        print("\nOption 1: Session Cookie Auth (Passwordless)")
+        print("  1. Open Chrome/Safari on agewellbrief.substack.com (where you are logged in)")
+        print("  2. Open DevTools (F12 / Cmd+Opt+I) -> Application/Storage -> Cookies -> substack.sid")
+        print("  3. Run:")
+        print("     export SUBSTACK_SID='your_substack_sid_cookie_value'")
+        print("     python3.13 scripts/substack_publisher.py --publish")
+        print("\nOption 2: 100% Automated Substack RSS Importer (Zero Code)")
+        print("  • Go to Substack Settings -> Import -> Import RSS Feed")
+        print("  • Enter: https://agewellbrief.com/rss.xml")
+        print("  • Substack will automatically publish every new Agewell Brief article!")
         print("\nLatest Brief Inspected:")
         latest_brief = get_latest_brief_path()
         title, md = parse_brief_markdown(latest_brief)
@@ -82,7 +91,10 @@ def main():
         return
 
     print(f"🔐 Authenticating with Substack for domain: {SUBSTACK_DOMAIN}...")
-    api = Api(email=SUBSTACK_EMAIL, password=SUBSTACK_PASSWORD, publication_url=f"https://{SUBSTACK_DOMAIN}.substack.com")
+    if SUBSTACK_SID:
+        api = Api(cookies={"substack.sid": SUBSTACK_SID}, publication_url=f"https://{SUBSTACK_DOMAIN}.substack.com")
+    else:
+        api = Api(email=SUBSTACK_EMAIL, password=SUBSTACK_PASSWORD, publication_url=f"https://{SUBSTACK_DOMAIN}.substack.com")
     
     latest_brief = get_latest_brief_path()
     title, md = parse_brief_markdown(latest_brief)
