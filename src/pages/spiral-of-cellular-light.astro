@@ -170,6 +170,105 @@ const structuredData = {
           <p>Breath-rites, conscious vows, and biophotonic light-field clearing. <em>“The vessel is cleared so that the waters above may descend undistorted.”</em></p>
         </div>
       </div>
+    {/* The Four Medicine Dakinis & Elemental Regulators */}
+    <section class="dakini-archetypes-section">
+      <div class="dakini-header">
+        <p class="eyebrow">Elemental Regulators · CANON §3</p>
+        <h2>The Four Medicine Dakinis</h2>
+        <p class="dakini-intro">Relational archetypes and nervous-system regulators through which the biophotonic field reorganizes toward coherence.</p>
+      </div>
+      <div class="dakinis-grid">
+        <div class="dakini-card">
+          <div class="dakini-top">
+            <span class="dakini-symbol">🜄</span>
+            <span class="dakini-element">Water · Merul'Nai</span>
+          </div>
+          <h4>She Who Carries Memory in Liquid Light</h4>
+          <p class="dakini-teaching">“What is frozen must be allowed to move again.”</p>
+          <div class="dakini-meta">
+            <span><strong>Nervous System:</strong> Feeling without drowning</span>
+            <span><strong>Mantra:</strong> Na Miru Elai Shun Dhi</span>
+          </div>
+        </div>
+
+        <div class="dakini-card">
+          <div class="dakini-top">
+            <span class="dakini-symbol">🜃</span>
+            <span class="dakini-element">Earth · Ama'Lur Tha</span>
+          </div>
+          <h4>She Who Grounds Roots into Form</h4>
+          <p class="dakini-teaching">“Safety is the soil in which consciousness flowers.”</p>
+          <div class="dakini-meta">
+            <span><strong>Nervous System:</strong> Rest without collapse</span>
+            <span><strong>Mantra:</strong> Thae Lun Ama Ka Tu</span>
+          </div>
+        </div>
+
+        <div class="dakini-card">
+          <div class="dakini-top">
+            <span class="dakini-symbol">🜂</span>
+            <span class="dakini-element">Fire · Sa'thera'Ma</span>
+          </div>
+          <h4>She Who Kindles Mitochondrial Flame</h4>
+          <p class="dakini-teaching">“Burn without consuming yourself.”</p>
+          <div class="dakini-meta">
+            <span><strong>Nervous System:</strong> Mobilization without panic</span>
+            <span><strong>Mantra:</strong> Ka Sha Tha Ri Elun'Ma</span>
+          </div>
+        </div>
+
+        <div class="dakini-card">
+          <div class="dakini-top">
+            <span class="dakini-symbol">🜁</span>
+            <span class="dakini-element">Air · Tulari'Shan</span>
+          </div>
+          <h4>She Who Breathes the Wind of Mind</h4>
+          <p class="dakini-teaching">“Thought must become spacious enough for truth to land.”</p>
+          <div class="dakini-meta">
+            <span><strong>Nervous System:</strong> Lightness without dissociation</span>
+            <span><strong>Mantra:</strong> Sha'Lun Na Rei Ta Vuma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* The Daily Nutrient Invocation Rite */}
+    <section class="invocation-rite-section">
+      <div class="rite-header">
+        <p class="eyebrow">Diurnal Arc · CANON §4</p>
+        <h2>The Daily Nutrient Invocation Arc</h2>
+        <p class="rite-intro">“The supplement is not a pill; it is a key.” Four synchronized daily milestones to align light, solutes, and recovery.</p>
+      </div>
+      <div class="rite-steps">
+        <div class="rite-step">
+          <span class="step-num">01</span>
+          <div class="step-content">
+            <h4>Opening of the Vessel (Dawn)</h4>
+            <p>Living Waters (H3O2 hydration + electrolyte solutes + morning infrared light). Preparing Phase I/II hepatic clearance.</p>
+          </div>
+        </div>
+        <div class="rite-step">
+          <span class="step-num">02</span>
+          <div class="step-content">
+            <h4>The Inward Soil (Midday)</h4>
+            <p>Inner Garden (SCFA prebiotic fibers + microbial probiotics). Nurturing microbial soil and tight-junction barrier integrity.</p>
+          </div>
+        </div>
+        <div class="rite-step">
+          <span class="step-num">03</span>
+          <div class="step-content">
+            <h4>Kindling of the Hearth (Afternoon)</h4>
+            <p>Higher Flame (Mitochondrial NRF-2 polyphenols + dual-fuel respiration). Activating AMPK and ATP energy generation.</p>
+          </div>
+        </div>
+        <div class="rite-step">
+          <span class="step-num">04</span>
+          <div class="step-content">
+            <h4>The Nightly Flush (Dusk to Delta)</h4>
+            <p>Luminous Mind (Glymphatic slow-wave Delta sleep + CSF brain wash). Clearing Amyloid-Beta and Tau metabolic debris.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="spiral-reading" aria-labelledby="spiral-reading-heading">
@@ -279,6 +378,139 @@ const structuredData = {
     color: var(--saffron-ink);
     font-weight: 600;
   }
+
+  /* Medicine Dakinis Section */
+  .dakini-archetypes-section {
+    margin: 60px 0;
+  }
+  .dakini-header h2 {
+    margin: 4px 0 8px;
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  }
+  .dakini-intro {
+    margin: 0 0 32px;
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    color: var(--muted);
+  }
+  .dakinis-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  @media (max-width: 768px) {
+    .dakinis-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .dakini-card {
+    background: var(--paper);
+    padding: 28px;
+    border-radius: 20px;
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-sm);
+  }
+  .dakini-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  .dakini-symbol {
+    font-size: 1.4rem;
+  }
+  .dakini-element {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--saffron-ink);
+  }
+  .dakini-card h4 {
+    margin: 0 0 8px;
+    font-size: 1.25rem;
+    color: var(--ink);
+  }
+  .dakini-teaching {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--saffron-ink);
+    margin: 0 0 16px;
+  }
+  .dakini-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    border-top: 1px solid var(--line);
+    padding-top: 12px;
+  }
+
+  /* Invocation Rite Section */
+  .invocation-rite-section {
+    margin: 60px 0;
+    padding: 40px;
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: 24px;
+  }
+  .rite-header .eyebrow {
+    color: var(--muted-light);
+  }
+  .rite-header h2 {
+    margin: 4px 0 8px;
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    color: var(--paper);
+  }
+  .rite-intro {
+    margin: 0 0 36px;
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    color: var(--muted-light);
+  }
+  .rite-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  @media (max-width: 900px) {
+    .rite-steps {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 580px) {
+    .rite-steps {
+      grid-template-columns: 1fr;
+    }
+  }
+  .rite-step {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 22px;
+    border-radius: 18px;
+  }
+  .step-num {
+    display: block;
+    font-family: var(--serif);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--saffron);
+    margin-bottom: 8px;
+  }
+  .step-content h4 {
+    margin: 0 0 8px;
+    font-size: 1.05rem;
+    color: var(--paper);
+  }
+  .step-content p {
+    margin: 0;
+    font-size: 0.84rem;
+    line-height: 1.5;
+    color: var(--muted-light);
+  }
+
   .spiral-axiom {
     font-family: var(--serif);
     font-size: 1.12rem;
