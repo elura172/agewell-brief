@@ -259,7 +259,7 @@ def build_pdf(guide):
     # Header Bar
     header_table_data = [[
         Paragraph(f"<b>AGEWELL BRIEF FIELD GUIDE</b> · {guide['domain'].upper()}", ParagraphStyle('HeadTop', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=8, textColor=dark_gold)),
-        Paragraph("<b>100% SOURCE-LED BIOPHYSICS</b>", ParagraphStyle('HeadRight', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=8, textColor=muted_gray, alignment=2))
+        Paragraph("<b>PREPARED BY SPIRAL OF CELLULAR LIGHT</b>", ParagraphStyle('HeadRight', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=8, textColor=muted_gray, alignment=2))
     ]]
     header_table = Table(header_table_data, colWidths=[4.0*inch, 3.4*inch])
     header_table.setStyle(TableStyle([('VALIGN', (0,0), (-1,-1), 'MIDDLE')]))
@@ -314,7 +314,7 @@ def build_pdf(guide):
     story.append(Spacer(1, 10))
     story.append(Paragraph(
         f'Fullscript Link: <a href="{guide["fullscript_url"]}">{guide["fullscript_url"]}</a><br/>'
-        'Disclaimer: Agewell Brief receives practitioner affiliate commission on Fullscript orders at no added cost to you. Always consult your qualified healthcare practitioner before beginning any new health protocol.',
+        'Prepared by Spiral of Cellular Light — Certified Regenerative Health Program. Agewell Brief receives practitioner affiliate commission on Fullscript orders at no added cost to you.',
         disc_style
     ))
 
