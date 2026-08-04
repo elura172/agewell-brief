@@ -55,6 +55,19 @@ const structuredDataJSON = structuredData
           capture_pageview: true,
           capture_pageleave: true
         });
+
+        // Global Event Listeners for Conversion Tracking
+        document.addEventListener("click", (e) => {
+          const target = (e.target as HTMLElement)?.closest("a");
+          if (!target) return;
+          const href = target.getAttribute("href") || "";
+          
+          if (href.includes("fullscript.com")) {
+            posthog.capture("fullscript_link_clicked", { url: href, text: target.innerText });
+          } else if (href.includes(".pdf")) {
+            posthog.capture("pdf_download_clicked", { pdf: href, name: target.innerText });
+          }
+        });
       }
     </script>
 
