@@ -513,3 +513,39 @@ nav a { display: inline-flex; min-height: 44px; align-items: center; }
   .editorial-image img { transition: none; }
   .lead-story:hover .editorial-image img, .quick-story:hover .editorial-image img { transform: none; }
 }
+
+/* Accessible Reader Font Size Customizer */
+html[data-font-size="medium"] {
+  font-size: 112%;
+}
+html[data-font-size="large"] {
+  font-size: 125%;
+}
+
+.font-size-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  font-weight: 700;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-right: 4px;
+}
+.font-size-btn:hover {
+  border-color: var(--saffron);
+  color: var(--saffron-ink);
+  background: var(--cream);
+}
+html[data-font-size="medium"] .font-size-btn,
+html[data-font-size="large"] .font-size-btn {
+  border-color: var(--saffron);
+  background: var(--saffron-soft);
+  color: var(--saffron-ink);
+}

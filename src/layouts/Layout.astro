@@ -75,6 +75,9 @@ const structuredDataJSON = structuredData
         <a href="/frontier-map/" title="Frontier Map — Visual Index of Biophysics Research Territories">Frontier map</a>
         <a href="/mind-ocean/" title="Mind Ocean — Interactive Biophotonic Semantic Canvas">Mind ocean</a>
         <a href="/about/" title="About — Editorial Discipline & Mission">About</a>
+        <button type="button" id="font-size-btn" class="font-size-btn" title="Toggle Reader Text Size (Normal / Medium / Large)">
+          <span aria-hidden="true">Aa</span>
+        </button>
         <a class="nav-subscribe" href="/#subscribe">Get the brief</a>
       </nav>
     </header>
@@ -91,5 +94,26 @@ const structuredDataJSON = structuredData
         <a href="/rss.xml">RSS</a>
       </nav>
     </footer>
+
+    <script>
+      const SIZES = ["normal", "medium", "large"];
+      let currentIdx = 0;
+
+      const savedSize = localStorage.getItem("agewell_font_size");
+      if (savedSize && SIZES.includes(savedSize)) {
+        document.documentElement.setAttribute("data-font-size", savedSize);
+        currentIdx = SIZES.indexOf(savedSize);
+      }
+
+      const btn = document.getElementById("font-size-btn");
+      if (btn) {
+        btn.addEventListener("click", () => {
+          currentIdx = (currentIdx + 1) % SIZES.length;
+          const nextSize = SIZES[currentIdx];
+          document.documentElement.setAttribute("data-font-size", nextSize);
+          localStorage.setItem("agewell_font_size", nextSize);
+        });
+      }
+    </script>
   </body>
 </html>
