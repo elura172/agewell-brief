@@ -5,6 +5,8 @@ import QuantumLuminanceCanvas, { type PaletteKey } from "../components/QuantumLu
 interface SpiralResource {
   name: string;
   focus: string;
+  axiom: string;
+  frequency: number;
   description: string;
   href: string;
   pdfUrl: string;
@@ -14,48 +16,60 @@ interface SpiralResource {
 const resources: SpiralResource[] = [
   {
     name: "Living Waters",
-    focus: "Transport and clearing",
-    description: "A foundation-oriented framework for thinking about sequence, liver processing, hydration, bowel regularity, and recovery.",
+    focus: "Transport & Phase I/II Clearance",
+    axiom: "“The skin is not where you end. It is where you exchange.”",
+    frequency: 432,
+    description: "A foundation-oriented biophysics framework for Exclusion Zone (H3O2) hydration, hepatic conjugation, lymphatic flow, and vascular charge transport.",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
     pdfUrl: "/downloads/field-guides/living-waters-field-guide.pdf",
     palette: "living-waters"
   },
   {
     name: "Inner Garden",
-    focus: "Gut ecology",
-    description: "A gut-health framework that looks at food, fibre, microbial balance, and the environment around digestion.",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
+    focus: "Gut Mucosal Ecology",
+    axiom: "“The gut is not a tube; it is a living soil.”",
+    frequency: 639,
+    description: "An ecological gut framework examining short-chain fatty acid (SCFA) signaling, tight-junction integrity, and microbial quorum sensing.",
+    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
     pdfUrl: "/downloads/field-guides/inner-garden-field-guide.pdf",
     palette: "inner-garden"
   },
   {
     name: "Cell Shedding",
-    focus: "Senescence and renewal",
-    description: "A program perspective on senescence research, cycles, recovery, and the difference between a research target and a proven treatment.",
+    focus: "Senescence & Autophagic Renewal",
+    axiom: "“Clearing the field so the young shoots may breathe.”",
+    frequency: 741,
+    description: "A cellular renewal framework examining senolytic clearing cycles, SASP inflammatory attenuation, and autophagic lysosomal degradation.",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
     pdfUrl: "/downloads/field-guides/cell-shedding-field-guide.pdf",
     palette: "cell-shedding"
   },
   {
     name: "Higher Flame",
-    focus: "Metabolic flexibility",
-    description: "A framework for exploring meal timing, fuel use, plant compounds, and the practical questions around fasting.",
+    focus: "Mitochondrial Flexibility",
+    axiom: "“Unlocking dual-fuel respiration across fasting and feeding.”",
+    frequency: 852,
+    description: "A metabolic flexibility framework for AMPK activation, mitochondrial respiration, NAD+ salvage pathways, and GPR81 lactate signaling.",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
     pdfUrl: "/downloads/field-guides/higher-flame-field-guide.pdf",
     palette: "higher-flame"
   },
   {
     name: "Luminous Mind",
-    focus: "Brain health",
-    description: "A whole-system approach to sleep, learning, stress, movement, nutrition, and cognitive care.",
+    focus: "Glymphatic Brain Flush",
+    axiom: "“The brain flushes its light while the world sleeps.”",
+    frequency: 528,
+    description: "A whole-system cognitive approach to slow-wave N3 Delta sleep, glymphatic CSF waste wash, neuroplasticity, and BDNF synthesis.",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
     pdfUrl: "/downloads/field-guides/luminous-mind-field-guide.pdf",
     palette: "luminous-mind"
   },
   {
     name: "Dark Mirror",
-    focus: "Advanced mineral clearing",
-    description: "An advanced program perspective on mineral blends, timing, interaction risks, and the distinction between supplements and clinical chelation.",
+    focus: "Intracellular Mineral Equilibrium",
+    axiom: "“Restoring the mineral equilibrium hidden beneath daily stress.”",
+    frequency: 963,
+    description: "An advanced biophysics framework for trace mineral ratios, heavy metal clearing, membrane potential, and cellular detoxification.",
     href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
     pdfUrl: "/downloads/field-guides/dark-mirror-field-guide.pdf",
     palette: "dark-mirror"
@@ -107,11 +121,15 @@ const structuredData = {
           <div class="spiral-card-content">
             <span class="spiral-index">{String(index + 1).padStart(2, "0")}</span>
             <div class="spiral-resource-copy">
-              <p>{resource.focus}</p>
+              <div class="spiral-meta-row">
+                <span class="spiral-focus-tag">{resource.focus}</span>
+                <span class="spiral-freq-badge">🎵 {resource.frequency} Hz</span>
+              </div>
               <h3>{resource.name}</h3>
-              <p>{resource.description}</p>
+              <p class="spiral-axiom">{resource.axiom}</p>
+              <p class="spiral-desc">{resource.description}</p>
               <div class="spiral-card-actions">
-                <a href={resource.href} rel="noopener noreferrer">Explore {resource.name} <span aria-hidden="true">→</span></a>
+                <a href={resource.href} target="_blank" rel="noopener noreferrer" class="spiral-action-btn">Explore Protocol <span>→</span></a>
                 <a href={resource.pdfUrl} download class="pdf-download-link">📄 Field Guide (PDF)</a>
               </div>
             </div>
@@ -138,26 +156,85 @@ const structuredData = {
 </Layout>
 
 <style>
+  .spiral-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .spiral-focus-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .spiral-freq-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--saffron-ink);
+    background: color-mix(in oklch, var(--saffron) 15%, transparent);
+    padding: 3px 10px;
+    border-radius: 14px;
+    border: 1px solid color-mix(in oklch, var(--saffron) 30%, transparent);
+  }
+  .spiral-axiom {
+    font-family: var(--serif);
+    font-size: 1.12rem;
+    font-style: italic;
+    color: var(--saffron-ink);
+    line-height: 1.45;
+    margin: 6px 0 12px;
+  }
+  .spiral-desc {
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    margin-bottom: 16px;
+  }
   .spiral-card-actions {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
     margin-top: 14px;
   }
+  .spiral-action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    background: var(--saffron-ink);
+    color: var(--paper);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .spiral-action-btn:hover {
+    background: var(--ink);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  }
   .pdf-download-link {
+    display: inline-flex;
+    align-items: center;
     font-size: 0.82rem;
     font-weight: 600;
-    color: var(--saffron-ink);
+    color: var(--ink);
     text-decoration: none;
-    padding: 4px 10px;
+    padding: 7px 14px;
     border: 1px solid var(--line);
-    border-radius: 6px;
+    border-radius: 16px;
     background: var(--paper);
     transition: all 0.2s ease;
   }
   .pdf-download-link:hover {
     border-color: var(--saffron);
     background: var(--cream);
+    color: var(--saffron-ink);
   }
 </style>
