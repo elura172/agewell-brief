@@ -9,8 +9,8 @@ export async function GET(context: { site?: URL }) {
   const site = context.site ?? new URL("https://agewellbrief.com");
 
   return rss({
-    title: "Agewell Brief",
-    description: "Clear, source-linked health and longevity reporting for staying capable and curious.",
+    title: "Agewell Brief · Biophysics & Cellular Longevity",
+    description: "Source-led biophysics, Exclusion Zone transport, and functional longevity intelligence—translated daily from preprints and original research with zero medical condescension.",
     site,
     xmlns: {
       atom: "http://www.w3.org/2005/Atom",
@@ -18,6 +18,7 @@ export async function GET(context: { site?: URL }) {
     },
     customData:
       '<language>en-ca</language>' +
+      '<managingEditor>elura172@proton.me (Elura · Agewell Brief)</managingEditor>' +
       `<atom:link href="${new URL("/rss.xml", site).href}" rel="self" type="application/rss+xml" />`,
     items: entries.map((entry) => {
       const feedMarkdown = withoutAffiliatePlacement(entry.body ?? "");
@@ -38,6 +39,7 @@ export async function GET(context: { site?: URL }) {
         link: `/brief/${entry.id}/`,
         pubDate: entry.data.date,
         description: plainTextExcerpt(feedMarkdown),
+        author: "Elura · Agewell Brief Editorial Desk",
         content,
         categories: [entry.data.category, entry.data.content_type === "lead" ? "Deep Read" : "Signal"],
         source: { title: entry.data.source_name, url: entry.data.source_url },
