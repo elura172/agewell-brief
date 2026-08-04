@@ -259,7 +259,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 .article-intro-bar a span { padding-left: 6px; color: var(--saffron-ink); }
 .article-header { position: relative; margin: 80px 0 65px; border-top: 1px solid var(--ink); padding-top: 30px; }
 .article-header .signal-rail { position: absolute; right: 0; top: 0; height: 100%; padding: 30px 0 0 22px; }
-.article-header h1 { max-width: 760px; margin: 0 0 20px; font-size: clamp(3rem, 7vw, 6rem); }
+.article-header h1 { max-width: 760px; margin: 0 0 20px; font-size: clamp(1.85rem, 3.8vw, 3.2rem); line-height: 1.15; letter-spacing: -0.02em; }
 .article-frontier { margin: 10px 0 0; color: var(--muted); font-size: .78rem; }
 .article-frontier a { color: var(--ink); font-weight: 700; text-decoration-color: var(--saffron); }
 .article-byline { max-width: 720px; margin: 0 0 12px; color: var(--ink-soft); font-size: .82rem; }
