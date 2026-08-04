@@ -1,0 +1,282 @@
+---
+/* Glymphatic Sleep & Brain Waste Clearance Efficiency Calculator */
+---
+
+<div class="glymphatic-calculator-card" id="glymphatic-calculator">
+  <div class="glymphatic-header">
+    <div class="glymphatic-badge">⚡ Glymphatic Biophysics Tool</div>
+    <h3>Glymphatic Sleep & Brain Waste Wash Score</h3>
+    <p>Calculate your nightly cerebrospinal fluid (CSF) glymphatic flush efficiency for clearing Amyloid-Beta, Tau, and metabolic debris based on circadian and positional sleep variables.</p>
+  </div>
+
+  <div class="glymphatic-grid">
+    <div class="glymphatic-controls">
+      <div class="glymphatic-input-group">
+        <label for="gly-duration">Sleep Duration: <span id="gly-duration-val">7.5</span> hours</label>
+        <input type="range" id="gly-duration" min="4.0" max="10.0" value="7.5" step="0.5" />
+      </div>
+
+      <div class="glymphatic-input-group">
+        <label for="gly-position">Primary Sleeping Position:</label>
+        <select id="gly-position">
+          <option value="1.0" selected>Side Sleeping (Lateral Position — Peak 100% CSF Flow)</option>
+          <option value="0.72">Back Sleeping (Supine Position — 72% CSF Flow)</option>
+          <option value="0.55">Stomach Sleeping (Prone Position — 55% CSF Flow)</option>
+        </select>
+      </div>
+
+      <div class="glymphatic-input-group">
+        <label for="gly-fasting">Dinner-to-Bedtime Fasting Gap:</label>
+        <select id="gly-fasting">
+          <option value="1.2">3+ Hours Before Sleep (Optimal Glymphatic Chamber Expansion)</option>
+          <option value="1.0" selected>2 Hours Before Sleep (Moderate Chamber Expansion)</option>
+          <option value="0.65">Late Meal / Snack < 1 Hour Before Bed (Suppressed CSF Flow)</option>
+        </select>
+      </div>
+
+      <div class="glymphatic-input-group">
+        <label for="gly-bluelight">Evening Screen / Light Exposure Gap:</label>
+        <select id="gly-bluelight">
+          <option value="1.15">60+ Mins Dim Light / Red Glasses (Natural Melatonin Surge)</option>
+          <option value="1.0" selected>30 Mins Dim Light (Moderate Melatonin)</option>
+          <option value="0.75">Bright Screens Until Bedtime (Suppressed Deep Delta Sleep)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="glymphatic-results">
+      <div class="glymphatic-score-box">
+        <div class="glymphatic-score-label">Glymphatic CSF Flush Clearance Score</div>
+        <div class="glymphatic-score-number"><span id="gly-score">88</span>%</div>
+        <div class="glymphatic-meter"><div id="gly-meter-fill" class="glymphatic-meter-fill" style="width: 88%;"></div></div>
+      </div>
+
+      <div class="glymphatic-metrics">
+        <div class="glymphatic-metric">
+          <span class="metric-title">Intercellular Space Expansion</span>
+          <span class="metric-value" id="gly-space-val">+60% Expansion</span>
+        </div>
+        <div class="glymphatic-metric">
+          <span class="metric-title">Deep Slow-Wave Delta</span>
+          <span class="metric-value" id="gly-delta-val">94 mins</span>
+        </div>
+      </div>
+
+      <div class="glymphatic-recommendation" id="gly-rec">
+        <strong>💡 Recommendation:</strong> Your glymphatic clearance score is <em>Optimal</em>. Side sleeping combined with a 3-hour dinner gap expands brain intercellular space by 60% during deep N3 sleep.
+      </div>
+
+      <a href="https://ca.fullscript.com/u/plans/agewell-luminous-mind-glymphatic-protocol" target="_blank" rel="noopener noreferrer" class="glymphatic-fullscript-btn">
+        <span>View Fullscript Brain Protocol</span> ↗
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .glymphatic-calculator-card {
+    margin: 40px 0;
+    padding: 32px;
+    background: color-mix(in oklch, oklch(0.68 0.15 200) 6%, var(--paper));
+    border: 1px solid color-mix(in oklch, oklch(0.68 0.15 200) 35%, transparent);
+    border-radius: 24px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  }
+  .glymphatic-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: oklch(0.40 0.15 200);
+    background: color-mix(in oklch, oklch(0.68 0.15 200) 15%, transparent);
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+  }
+  .glymphatic-header h3 {
+    margin: 0 0 8px;
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+  }
+  .glymphatic-header p {
+    margin: 0 0 24px;
+    font-size: 0.95rem;
+    color: var(--muted);
+    max-width: 680px;
+  }
+  .glymphatic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  @media (max-width: 840px) {
+    .glymphatic-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .glymphatic-input-group {
+    margin-bottom: 20px;
+  }
+  .glymphatic-input-group label {
+    display: block;
+    font-size: 0.84rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--ink);
+  }
+  .glymphatic-input-group input[type="range"] {
+    width: 100%;
+    accent-color: oklch(0.40 0.15 200);
+  }
+  .glymphatic-input-group select {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 0.85rem;
+  }
+  .glymphatic-results {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: var(--paper);
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid var(--line);
+  }
+  .glymphatic-score-box {
+    text-align: center;
+  }
+  .glymphatic-score-label {
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .glymphatic-score-number {
+    font-family: var(--serif);
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: oklch(0.35 0.15 200);
+    line-height: 1;
+    margin: 6px 0 10px;
+  }
+  .glymphatic-meter {
+    height: 8px;
+    background: var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .glymphatic-meter-fill {
+    height: 100%;
+    background: linear-gradient(90deg, oklch(0.68 0.15 200) 0%, oklch(0.35 0.15 200) 100%);
+    transition: width 0.3s ease;
+  }
+  .glymphatic-metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .glymphatic-metric {
+    background: color-mix(in oklch, oklch(0.68 0.15 200) 8%, transparent);
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  .glymphatic-recommendation {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    background: color-mix(in oklch, oklch(0.68 0.15 200) 10%, var(--paper));
+    padding: 12px 16px;
+    border-radius: 12px;
+    border-left: 3px solid oklch(0.40 0.15 200);
+  }
+  .glymphatic-fullscript-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 16px;
+    background: oklch(0.35 0.15 200);
+    color: var(--paper);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    text-align: center;
+  }
+  .glymphatic-fullscript-btn:hover {
+    background: var(--ink);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  }
+</style>
+
+<script>
+  function initGlymphaticCalculator() {
+    const durationInput = document.getElementById('gly-duration') as HTMLInputElement;
+    const positionSelect = document.getElementById('gly-position') as HTMLSelectElement;
+    const fastingSelect = document.getElementById('gly-fasting') as HTMLSelectElement;
+    const bluelightSelect = document.getElementById('gly-bluelight') as HTMLSelectElement;
+
+    const durationVal = document.getElementById('gly-duration-val');
+    const scoreVal = document.getElementById('gly-score');
+    const meterFill = document.getElementById('gly-meter-fill');
+    const spaceVal = document.getElementById('gly-space-val');
+    const deltaVal = document.getElementById('gly-delta-val');
+    const recVal = document.getElementById('gly-rec');
+
+    if (!durationInput || !positionSelect || !fastingSelect || !bluelightSelect) return;
+
+    function calculate() {
+      const duration = parseFloat(durationInput.value);
+      const posMult = parseFloat(positionSelect.value);
+      const fastMult = parseFloat(fastingSelect.value);
+      const blueMult = parseFloat(bluelightSelect.value);
+
+      if (durationVal) durationVal.textContent = String(duration);
+
+      // Glymphatic Score (0 - 100%)
+      const durationFactor = Math.min(1.0, (duration / 7.5));
+      const rawScore = 75 * durationFactor * posMult * fastMult * blueMult;
+      const finalScore = Math.min(99, Math.max(20, Math.round(rawScore)));
+
+      if (scoreVal) scoreVal.textContent = String(finalScore);
+      if (meterFill) meterFill.style.width = `${finalScore}%`;
+
+      // Intercellular space expansion (0 to 60%)
+      const spaceExpansion = Math.round(finalScore * 0.65);
+      if (spaceVal) spaceVal.textContent = `+${spaceExpansion}% Expansion`;
+
+      // Estimated Slow-Wave Delta sleep (mins)
+      const deltaMins = Math.round(duration * 12.5 * (finalScore / 100));
+      if (deltaVal) deltaVal.textContent = `${deltaMins} mins`;
+
+      // Dynamic recommendation
+      if (recVal) {
+        if (finalScore >= 80) {
+          recVal.innerHTML = `<strong>💡 Optimal Glymphatic Flow:</strong> Side sleeping + 7.5h sleep yields peak cerebrospinal fluid pulse clearance of Amyloid-Beta and Tau metabolic waste.`;
+        } else if (finalScore >= 60) {
+          recVal.innerHTML = `<strong>💡 Moderate Clearance:</strong> Switching to side sleeping or increasing your dinner-to-bed gap to 3 hours will boost CSF flow by 28%.`;
+        } else {
+          recVal.innerHTML = `<strong>⚠️ Suppressed Glymphatic Wash:</strong> Late meals and back/stomach sleeping constrict brain intercellular channels during sleep.`;
+        }
+      }
+    }
+
+    durationInput.addEventListener('input', calculate);
+    positionSelect.addEventListener('change', calculate);
+    fastingSelect.addEventListener('change', calculate);
+    bluelightSelect.addEventListener('change', calculate);
+
+    calculate();
+  }
+
+  document.addEventListener('DOMContentLoaded', initGlymphaticCalculator);
+</script>

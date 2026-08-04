@@ -3,6 +3,8 @@ import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import { plainTextExcerpt, publishedBriefs, topicSlug } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
+import EZWaterCalculator from "../../components/EZWaterCalculator.astro";
+import GlymphaticCalculator from "../../components/GlymphaticCalculator.astro";
 import { frontierForCategory } from "../../data/frontier-map";
 
 export async function getStaticPaths() {
@@ -169,8 +171,15 @@ const structuredData = [
         eager={true}
       />
       <p class="article-image-note"><span>In the frame</span> {entry.data.image_caption ?? "A glimpse of the everyday routines behind this story."}</p>
-    </div>}
     <div class="article-content"><Content /></div>
+
+    {/* Interactive Biophysics Calculators */}
+    {(entry.data.category === "longevity" || entry.id.includes("water") || entry.id.includes("living") || entry.id.includes("hydration")) && (
+      <EZWaterCalculator />
+    )}
+    {(entry.data.category === "brain health" || entry.data.category === "sleep health" || entry.id.includes("sleep") || entry.id.includes("mind") || entry.id.includes("alzheimer")) && (
+      <GlymphaticCalculator />
+    )}
 
     {entry.data.autoresearch_antecedents && entry.data.autoresearch_antecedents.length > 0 && (
       <aside class="article-lineage-card" aria-label="Historical Biophysics Antecedents">
