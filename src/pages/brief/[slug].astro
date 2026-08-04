@@ -134,6 +134,9 @@ const structuredData = [
         <div class="signal-rail-tags">
           <span>{entry.data.category}</span>
           <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
+          <a class="framework-header-badge" href={protocolCard.pdfUrl} download title="Download Field Guide PDF">
+            ⚡ {protocolCard.name.replace("Protocol", "Framework")}
+          </a>
         </div>
         <i></i>
         <span>{formatDate}</span>
@@ -190,6 +193,14 @@ const structuredData = [
     </section>}
     <footer class="article-footer"><span>Keep asking better questions.</span><a href="/#subscribe">Get tomorrow’s edition →</a></footer>
   </article>
+
+  {/* Floating Sticky Reader Bar */}
+  <aside id="floating-reader-bar" class="floating-reader-bar" aria-label="Subscribe reminder">
+    <div class="reader-bar-inner">
+      <span>📩 Enjoying this biophysics analysis? Get 3x daily signals + 6 PDF Field Guides.</span>
+      <a href="/#subscribe" class="reader-bar-btn">Get Free Briefs <span aria-hidden="true">→</span></a>
+    </div>
+  </aside>
 </Layout>
 
 <style>
@@ -266,5 +277,66 @@ const structuredData = [
     font-size: 0.75rem;
     color: var(--muted);
     margin: 0;
+  }
+
+  .framework-header-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 12px;
+    background: var(--cream);
+    color: var(--saffron-ink);
+    border: 1px solid var(--saffron-soft);
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .framework-header-badge:hover {
+    background: var(--saffron-soft);
+    color: var(--ink);
+  }
+
+  /* Floating Sticky Reader Bar */
+  .floating-reader-bar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    max-width: 680px;
+    width: 90vw;
+    background: var(--paper);
+    border: 1px solid var(--saffron-soft);
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    padding: 10px 20px;
+  }
+  .reader-bar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 0.84rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .reader-bar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 14px;
+    background: var(--saffron-ink);
+    color: #ffffff;
+    font-size: 0.78rem;
+    font-weight: 700;
+    border-radius: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+  }
+  .reader-bar-btn:hover {
+    background: var(--ink);
   }
 </style>

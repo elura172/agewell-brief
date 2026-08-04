@@ -136,40 +136,40 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
         <p class="eyebrow">Proprietary Lens</p>
         <h2 id="frameworks-heading" class="section-title">Our Biophysics Frameworks</h2>
       </div>
-      <p class="section-caption">Six foundational lenses translating cellular physics into everyday healthspan.</p>
+      <p class="section-caption">Six foundational lenses translating cellular physics into everyday healthspan. Click any card to filter briefs.</p>
     </div>
     <div class="frameworks-grid">
-      <article class="framework-card">
+      <article class="framework-card" data-framework-topic="longevity">
         <span class="framework-icon">🌊</span>
         <h3>Living Waters</h3>
         <p class="framework-tag">Fluid & Micro-Circulation</p>
         <p>Interfacial exclusion zone (EZ) structured water ($H_3O_2$) and vascular transport kinetics.</p>
       </article>
-      <article class="framework-card">
+      <article class="framework-card" data-framework-topic="gut health">
         <span class="framework-icon">🌱</span>
         <h3>Inner Garden</h3>
         <p class="framework-tag">Gut Microbiome Ecology</p>
         <p>Short-chain fatty acid signaling, gut barrier integrity, and microbial circadian rhythmicity.</p>
       </article>
-      <article class="framework-card">
+      <article class="framework-card" data-framework-topic="cellular senescence">
         <span class="framework-icon">🍃</span>
         <h3>Cell Shedding</h3>
         <p class="framework-tag">Senescence & Cellular Renewal</p>
         <p>Targeted senolytic clearing, autophagy activation, and SASP inflammatory reduction.</p>
       </article>
-      <article class="framework-card">
+      <article class="framework-card" data-framework-topic="metabolic health">
         <span class="framework-icon">🔥</span>
         <h3>Higher Flame</h3>
         <p class="framework-tag">Metabolic Resilience & Mitochondria</p>
         <p>Mitochondrial respiration voltage, metabolic flexibility, and non-shivering thermogenesis.</p>
       </article>
-      <article class="framework-card">
+      <article class="framework-card" data-framework-topic="brain health">
         <span class="framework-icon">⚡</span>
         <h3>Luminous Mind</h3>
         <p class="framework-tag">Cognitive & Neural Coherence</p>
         <p>Glymphatic clearance during sleep, neuro-plasticity, and biophotonic brain entrainment.</p>
       </article>
-      <article class="framework-card">
+      <article class="framework-card" data-framework-topic="detoxification">
         <span class="framework-icon">🪞</span>
         <h3>Dark Mirror</h3>
         <p class="framework-tag">Mineral Balance & Bio-Clearing</p>
@@ -221,26 +221,49 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
   <script>
     const filterPills = document.querySelectorAll<HTMLButtonElement>(".filter-pill");
     const archiveItems = document.querySelectorAll<HTMLLIElement>(".archive-item");
+    const frameworkCards = document.querySelectorAll<HTMLElement>(".framework-card");
+    const archiveSection = document.getElementById("archive");
+
+    function applyTopicFilter(topic: string) {
+      filterPills.forEach((p) => {
+        const cat = p.getAttribute("data-topic");
+        if (cat === topic) {
+          p.classList.add("is-active");
+        } else {
+          p.classList.remove("is-active");
+        }
+      });
+
+      let visibleCount = 0;
+      archiveItems.forEach((item) => {
+        const cat = item.getAttribute("data-category");
+        if (topic === "all" || cat === topic) {
+          item.style.display = "";
+          visibleCount++;
+          const indexEl = item.querySelector(".archive-index");
+          if (indexEl) indexEl.textContent = String(visibleCount + 3).padStart(2, "0");
+        } else {
+          item.style.display = "none";
+        }
+      });
+    }
 
     filterPills.forEach((pill) => {
       pill.addEventListener("click", () => {
-        const topic = pill.getAttribute("data-topic");
+        const topic = pill.getAttribute("data-topic") || "all";
+        applyTopicFilter(topic);
+      });
+    });
 
-        filterPills.forEach((p) => p.classList.remove("is-active"));
-        pill.classList.add("is-active");
-
-        let visibleCount = 0;
-        archiveItems.forEach((item) => {
-          const cat = item.getAttribute("data-category");
-          if (topic === "all" || cat === topic) {
-            item.style.display = "";
-            visibleCount++;
-            const indexEl = item.querySelector(".archive-index");
-            if (indexEl) indexEl.textContent = String(visibleCount + 3).padStart(2, "0");
-          } else {
-            item.style.display = "none";
+    frameworkCards.forEach((card) => {
+      card.addEventListener("click", () => {
+        const topic = card.getAttribute("data-framework-topic");
+        if (topic) {
+          applyTopicFilter(topic);
+          if (archiveSection) {
+            archiveSection.scrollIntoView({ behavior: "smooth" });
           }
-        });
+        }
       });
     });
   </script>
@@ -492,11 +515,13 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     border: 1px solid var(--line);
     border-radius: 14px;
     padding: 24px;
-    transition: border-color 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
   }
   .framework-card:hover {
     border-color: var(--saffron);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(217, 119, 6, 0.12);
   }
   .framework-icon {
     font-size: 1.6rem;
