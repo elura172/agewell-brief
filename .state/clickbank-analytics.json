@@ -1,8 +1,8 @@
 {
-  "retrieved_at": "2026-08-03T10:11:55.750049+00:00",
+  "retrieved_at": "2026-08-04T09:19:10.181725+00:00",
   "account": "elr72",
-  "start_date": "2026-07-04",
-  "end_date": "2026-08-03",
+  "start_date": "2026-07-05",
+  "end_date": "2026-08-04",
   "http_status": 200,
   "status": "live",
   "metrics": [
@@ -80,14 +80,14 @@
               "attribute": "HOPS_PER_SALE",
               "value": {
                 "@type": "xs:decimal",
-                "$": "0.0"
+                "$": "Infinity"
               }
             },
             {
               "attribute": "HOPS_PER_ORDER_FORM_IMPRESSION",
               "value": {
                 "@type": "xs:decimal",
-                "$": "0.0"
+                "$": "Infinity"
               }
             },
             {
@@ -274,14 +274,14 @@
               "attribute": "HOPS_PER_SALE",
               "value": {
                 "@type": "xs:decimal",
-                "$": "0.0"
+                "$": "Infinity"
               }
             },
             {
               "attribute": "HOPS_PER_ORDER_FORM_IMPRESSION",
               "value": {
                 "@type": "xs:decimal",
-                "$": "0.0"
+                "$": "Infinity"
               }
             },
             {
@@ -406,7 +406,7 @@
           ]
         },
         {
-          "dimensionValue": "agewell_brain_health_a3c844dcb3d1d0b9ae00d26d",
+          "dimensionValue": "agewell_brain_health_dfbdeb5d4a3fc197bbfd03d9",
           "data": [
             {
               "attribute": "CHARGEBACK_AMOUNT",
@@ -461,7 +461,7 @@
               "attribute": "HOP_COUNT",
               "value": {
                 "@type": "xs:long",
-                "$": "1"
+                "$": "2"
               }
             },
             {
@@ -792,6 +792,200 @@
               }
             }
           ]
+        },
+        {
+          "dimensionValue": "agewell_brain_health_a3c844dcb3d1d0b9ae00d26d",
+          "data": [
+            {
+              "attribute": "CHARGEBACK_AMOUNT",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "CHARGEBACK_COUNT",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "CHARGEBACK_RATE",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "EARNINGS_PER_CLICK",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "EARNINGS_PER_HOP",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "GROSS_SALE_AMOUNT",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "GROSS_SALE_COUNT",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "HOP_COUNT",
+              "value": {
+                "@type": "xs:long",
+                "$": "1"
+              }
+            },
+            {
+              "attribute": "HOPS_PER_SALE",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "HOPS_PER_ORDER_FORM_IMPRESSION",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "INITIAL_ORDER_IMPRESSION",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "NET_SALE_AMOUNT",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "NET_SALE_COUNT",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "ORDER_FORM_SALE_CONVERSION",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "ORDER_IMPRESSION",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "ORDER_SUBMISSION",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "REBILL_AMOUNT",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "REBILL_COUNT",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "REFUND_AMOUNT",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "REFUND_COUNT",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "REFUND_RATE",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "SALE_AMOUNT",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "SALE_COUNT",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "TOTAL_ORDER_IMPRESSION",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "UPSELL_AMOUNT",
+              "value": {
+                "@type": "xs:decimal",
+                "$": "0.0"
+              }
+            },
+            {
+              "attribute": "UPSELL_COUNT",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            },
+            {
+              "attribute": "UPSELL_ORDER_IMPRESSION",
+              "value": {
+                "@type": "xs:long",
+                "$": "0"
+              }
+            }
+          ]
         }
       ]
     },
@@ -857,7 +1051,7 @@
           "attribute": "HOP_COUNT",
           "value": {
             "@type": "xs:long",
-            "$": "7"
+            "$": "9"
           }
         },
         {
