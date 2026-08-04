@@ -122,7 +122,11 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
         <p class="eyebrow">Reader signal</p>
         <h2 id="trending-heading">Trending this week</h2>
       </div>
-      <p>Most visited briefs over the last {trendingData.window_days} days.</p>
+      <p>
+        {trendingData.window_days === 1
+          ? "Most visited briefs over the last 24 hours."
+          : `Most visited briefs over the last ${trendingData.window_days} days.`}
+      </p>
     </div>
     <ol class="trending-list">
       {trending.map(({ item, entry }, index) => <li>
