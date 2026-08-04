@@ -340,38 +340,40 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
 
         try {
           // Direct real-time event & contact registration to Loops
-          const apiKey = "2a924e83d3341c03f47bdf441b27bfe9";
-          const headers = {
-            "Authorization": `Bearer ${apiKey}`,
-            "Content-Type": "application/json",
-            "User-Agent": "AgewellBrief/1.0 (Loops Email Integration)"
-          };
+          const apiKey = import.meta.env.PUBLIC_LOOPS_API_KEY || "";
+          if (apiKey) {
+            const headers = {
+              "Authorization": `Bearer ${apiKey}`,
+              "Content-Type": "application/json",
+              "User-Agent": "AgewellBrief/1.0 (Loops Email Integration)"
+            };
 
-          // 1. Create/update contact in Loops
-          fetch("https://app.loops.so/api/v1/contacts/create", {
-            method: "POST",
-            headers,
-            body: JSON.stringify({
-              email,
-              source: "Agewell Brief Homepage",
-              userGroup: "Agewell Subscribers",
-              subscribed: true
-            })
-          }).catch(() => {});
+            // 1. Create/update contact in Loops
+            fetch("https://app.loops.so/api/v1/contacts/create", {
+              method: "POST",
+              headers,
+              body: JSON.stringify({
+                email,
+                source: "Agewell Brief Homepage",
+                userGroup: "Agewell Subscribers",
+                subscribed: true
+              })
+            }).catch(() => {});
 
-          // 2. Send event to trigger automated email workflow
-          fetch("https://app.loops.so/api/v1/events/send", {
-            method: "POST",
-            headers,
-            body: JSON.stringify({
-              email,
-              eventName: "agewell_subscriber_signup",
-              eventProperties: {
-                source: "website_subscribe_card",
-                field_guides_unlocked: 6
-              }
-            })
-          }).catch(() => {});
+            // 2. Send event to trigger automated email workflow
+            fetch("https://app.loops.so/api/v1/events/send", {
+              method: "POST",
+              headers,
+              body: JSON.stringify({
+                email,
+                eventName: "agewell_subscriber_signup",
+                eventProperties: {
+                  source: "website_subscribe_card",
+                  field_guides_unlocked: 6
+                }
+              })
+            }).catch(() => {});
+          }
 
           form.style.display = "none";
           successBox.classList.remove("is-hidden");
