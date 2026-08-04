@@ -1,7 +1,7 @@
 ---
 title: "AI identifies previously unrecognized health insights in routine sleep studies"
 date: 2026-08-03T15:47:24.744940+00:00
-draft: true
+draft: false
 category: "sleep health"
 content_type: "lead"
 edition_rank: 1
