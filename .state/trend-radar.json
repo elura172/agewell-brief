@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T19:48:07.333675+00:00",
+  "generated_at": "2026-08-04T00:13:02.730809+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -81,47 +81,6 @@
           "published": "Thu, 26 Feb 2026 08:21:13 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
-        }
-      ]
-    },
-    {
-      "topic": "body clock dementia early warning weak",
-      "headline": "Your body clock may hold clues to dementia risk - ConsumerAffairs",
-      "category": "brain health",
-      "score": 21.0,
-      "mention_count": 3,
-      "source_count": 3,
-      "sources": [
-        "ConsumerAffairs",
-        "SciTechDaily",
-        "ScienceDaily"
-      ],
-      "newest": "2026-03-05T08:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "A weak body clock may be an early warning for dementia - ScienceDaily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PbWttb3VWVkxtQ2lhZlgtMEtGT2J6S0FLc19FbHAwTlhTX0N6RVROV0U5bVBRaHQ4UXFFVGR5NDQ1WkxGS3FIQ0c4aWViSXNzRW1kSk9wWXg0a29lVkl0MFQ2Zm4wd3Q3SHhOSmRLYw?oc=5",
-          "source": "ScienceDaily",
-          "published": "Sat, 03 Jan 2026 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        },
-        {
-          "title": "A Disrupted Body Clock Is Linked to Higher Dementia Risk - SciTechDaily",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX0VXcXBrc2dkMEVrdjQ2Y3c0NWRqVXhCRThacGJvNTNCMHlzTzJjTmZSVUVWM2JybUJYbzJpUmY3bnJTVmpkdERsMzhRWmF0ajNSa05TWTl2cnlZWnVTUUNPQTZoWmVWVlZSMTJHbDJ1SGJHM1pGN252QlZ3SjY3Wm5lcjJKazRFMVE?oc=5",
-          "source": "SciTechDaily",
-          "published": "Fri, 09 Jan 2026 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        },
-        {
-          "title": "Your body clock may hold clues to dementia risk - ConsumerAffairs",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM3I5dlZSUjk3ZFNlaGQxdTI2OXBMcHRLV2ZONEx0RENlQ1VnVzAzWkxONkdvNG5mT1ZGeW1RekkzTlJ3SnkwOTAxQTB1UzJ2b2pkSldzRGdCeEphUmY3cUctQkthOGZnSmU1MG1RcURBZEVSTVRNUGNiMTQ5bXNyZ1pzNVg3YUlyVHpaaF8tWTBvV2Z3NmtEbmwtZFE?oc=5",
-          "source": "ConsumerAffairs",
-          "published": "Thu, 05 Mar 2026 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
         }
       ]
     },
@@ -208,7 +167,7 @@
       "topic": "eating healthy less most news protein suggests",
       "headline": "Eating less protein could slow aging, major review finds - ScienceDaily",
       "category": "general wellness",
-      "score": 14.95,
+      "score": 14.49,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
@@ -437,15 +396,15 @@
       "source_count": 2,
       "sources": [
         "CNN",
-        "Fortune"
+        "fortune.com"
       ],
       "newest": "2026-07-01T07:00:00+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
       "items": [
         {
-          "title": "What Is NMN: Everything You Need to Know From Experts - Fortune",
+          "title": "What Is NMN: Everything You Need to Know From Experts - fortune.com",
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mZE15WktEZEgxQkUzUjRkcnd0VG8wVFdGeGU5VmtjMWdCTU9DQjJ1MG44V0FDRWl6RjJqR3N6eUxGb1d6SkY1TVhDaldSRVRjaVE?oc=5",
-          "source": "Fortune",
+          "source": "fortune.com",
           "published": "Fri, 03 Apr 2026 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
@@ -525,10 +484,42 @@
       ]
     },
     {
+      "topic": "body clock dementia early warning weak",
+      "headline": "A Disrupted Body Clock Is Linked to Higher Dementia Risk - SciTechDaily",
+      "category": "brain health",
+      "score": 14.0,
+      "mention_count": 2,
+      "source_count": 2,
+      "sources": [
+        "SciTechDaily",
+        "ScienceDaily"
+      ],
+      "newest": "2026-01-09T08:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "A weak body clock may be an early warning for dementia - ScienceDaily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PbWttb3VWVkxtQ2lhZlgtMEtGT2J6S0FLc19FbHAwTlhTX0N6RVROV0U5bVBRaHQ4UXFFVGR5NDQ1WkxGS3FIQ0c4aWViSXNzRW1kSk9wWXg0a29lVkl0MFQ2Zm4wd3Q3SHhOSmRLYw?oc=5",
+          "source": "ScienceDaily",
+          "published": "Sat, 03 Jan 2026 08:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        },
+        {
+          "title": "A Disrupted Body Clock Is Linked to Higher Dementia Risk - SciTechDaily",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX0VXcXBrc2dkMEVrdjQ2Y3c0NWRqVXhCRThacGJvNTNCMHlzTzJjTmZSVUVWM2JybUJYbzJpUmY3bnJTVmpkdERsMzhRWmF0ajNSa05TWTl2cnlZWnVTUUNPQTZoWmVWVlZSMTJHbDJ1SGJHM1pGN252QlZ3SjY3Wm5lcjJKazRFMVE?oc=5",
+          "source": "SciTechDaily",
+          "published": "Fri, 09 Jan 2026 08:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
       "topic": "during jamaica jams photos provided resources screenings",
       "headline": "Photos | Health screenings and resources provided to older adults during Jamaica Jams - qns.com",
       "category": "general wellness",
-      "score": 11.66,
+      "score": 11.2,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -544,29 +535,6 @@
           "published": "Mon, 03 Aug 2026 16:30:45 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "body creatures down evening every finally found habit have help mind repetition rigid same something take that they time walk",
-      "headline": "Adults who take the same walk at the same time every evening may not be creatures of rigid habit; they may have found that repetition in the body can help the mind finally set something down - Silicon Canals",
-      "category": "brain health",
-      "score": 11.12,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Silicon Canals"
-      ],
-      "newest": "2026-08-03T11:18:49+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Adults who take the same walk at the same time every evening may not be creatures of rigid habit; they may have found that repetition in the body can help the mind finally set something down - Silicon Canals",
-          "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPM0NodklVVmMwRTdhQ3hzR3N6RXY1TFJxMjZ0dTYzRE1jOVZodm1oRlF6THFYcHl5RS1BVU5KSXdPMDNVUEctdHpFTU9tSF81TVJKV251OVRoampoYkJ0Y0tCV21TU3QyYzJPVU1peWpWWmlMSkQyT1dtZFVQcXdVMmR1SWVQSUVKWEFXOTdQZi0xYkY3U3A5Yy1FMWhGYXRudzBGeUh6aS02dGhQcHlpbVgzSERJTHE5UENWTUR2TWEwZzctelRXOG5SNnNGUGcyemN3a0N5X1NZUUZXNzA3YkJadDF3eW1ORDJSdWFncG5PX3lYalpYX09hOTBuQkM3Nk1odU9Sa0s3ZS14QktBakhkWUJheDRKT3pNbmg0dTA2SXcwaXQ4TXBRamRNOU1jZWZSalNLLVBiaHdhV0ZuQU5EWQ?oc=5",
-          "source": "Silicon Canals",
-          "published": "Mon, 03 Aug 2026 11:18:49 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
         }
       ]
     },
@@ -603,29 +571,29 @@
     },
     {
       "topic": "affect brain circadian disrupted might rhythm",
-      "headline": "How might a disrupted circadian rhythm affect brain health? - Medical News Today",
+      "headline": "How might a disrupted circadian rhythm affect brain health? - medicalnewstoday.com",
       "category": "sleep health",
       "score": 11.0,
       "mention_count": 2,
       "source_count": 1,
       "sources": [
-        "Medical News Today"
+        "medicalnewstoday.com"
       ],
       "newest": "2026-04-17T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "How might a disrupted circadian rhythm affect brain health? - Medical News Today",
+          "title": "How might a disrupted circadian rhythm affect brain health? - medicalnewstoday.com",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTWRtdWdYNHZTenJ0bExWazlHQWg5NVFudGZoTVAwclFROVhMTTBYVWVzdTcxY3YyaG5uekpnQlllNFI3SGh2UmJKMldHX2xfSTdiaHBPTlJub3dQQmxHZXVxa0JtWFRaOHVDWTI4dVBQLXBvU3R6c1hHSDNTNHRRaERxT0VHcWhIRHNuRk4tdFhmb0ZoRWg0eXJiVXJHNFlXOWlsRU01Q2ZMR2FxeGFDc0IydEpadw?oc=5",
-          "source": "Medical News Today",
+          "source": "medicalnewstoday.com",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         },
         {
-          "title": "How might a disrupted circadian rhythm affect brain health? - Medical News Today",
+          "title": "How might a disrupted circadian rhythm affect brain health? - medicalnewstoday.com",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTWRtdWdYNHZTenJ0bExWazlHQWg5NVFudGZoTVAwclFROVhMTTBYVWVzdTcxY3YyaG5uekpnQlllNFI3SGh2UmJKMldHX2xfSTdiaHBPTlJub3dQQmxHZXVxa0JtWFRaOHVDWTI4dVBQLXBvU3R6c1hHSDNTNHRRaERxT0VHcWhIRHNuRk4tdFhmb0ZoRWg0eXJiVXJHNFlXOWlsRU01Q2ZMR2FxeGFDc0IydEpadw?oc=5",
-          "source": "Medical News Today",
+          "source": "medicalnewstoday.com",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -695,10 +663,33 @@
       ]
     },
     {
+      "topic": "body creatures down evening every finally found habit have help mind repetition rigid same something take that they time walk",
+      "headline": "Adults who take the same walk at the same time every evening may not be creatures of rigid habit; they may have found that repetition in the body can help the mind finally set something down - Silicon Canals",
+      "category": "brain health",
+      "score": 10.66,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Silicon Canals"
+      ],
+      "newest": "2026-08-03T11:18:49+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Adults who take the same walk at the same time every evening may not be creatures of rigid habit; they may have found that repetition in the body can help the mind finally set something down - Silicon Canals",
+          "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPM0NodklVVmMwRTdhQ3hzR3N6RXY1TFJxMjZ0dTYzRE1jOVZodm1oRlF6THFYcHl5RS1BVU5KSXdPMDNVUEctdHpFTU9tSF81TVJKV251OVRoampoYkJ0Y0tCV21TU3QyYzJPVU1peWpWWmlMSkQyT1dtZFVQcXdVMmR1SWVQSUVKWEFXOTdQZi0xYkY3U3A5Yy1FMWhGYXRudzBGeUh6aS02dGhQcHlpbVgzSERJTHE5UENWTUR2TWEwZzctelRXOG5SNnNGUGcyemN3a0N5X1NZUUZXNzA3YkJadDF3eW1ORDJSdWFncG5PX3lYalpYX09hOTBuQkM3Nk1odU9Sa0s3ZS14QktBakhkWUJheDRKT3pNbmg0dTA2SXcwaXQ4TXBRamRNOU1jZWZSalNLLVBiaHdhV0ZuQU5EWQ?oc=5",
+          "source": "Silicon Canals",
+          "published": "Mon, 03 Aug 2026 11:18:49 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
       "topic": "facilitate healthy travel",
       "headline": "Travel can facilitate healthy aging - TahoeDailyTribune.com",
       "category": "general wellness",
-      "score": 8.86,
+      "score": 8.4,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -719,21 +710,21 @@
     },
     {
       "topic": "healthy independence launches mexico program support",
-      "headline": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
+      "headline": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - hscnews.unm.edu",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "UNM HSC Newsroom"
+        "hscnews.unm.edu"
       ],
       "newest": "2026-07-28T19:43:03+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
+          "title": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - hscnews.unm.edu",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVhqZDVMTGFoY3V4YzFaLVBqWmx5NmdoQ2k2dndleGdGMEZtWXZCUXUtNk5WR044bmRDbFpMbGZJMm1OdkhIcWxmNTFuc2RPQ2ZJNEx5NzU3eVI5MzM2RzZNa1ZiY2k1Szk2cTJ4OUZ0TXF2Q0VtNGV6cFRuY0tGVmRDQkFoWFg0UE5ZX01Cd0kxZnJiOWRxRC1MeDFrQTZ0SmVMRXJ0anRUUjRDZnB6U2ZsN25mZw?oc=5",
-          "source": "UNM HSC Newsroom",
+          "source": "hscnews.unm.edu",
           "published": "Tue, 28 Jul 2026 19:43:03 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
@@ -742,22 +733,45 @@
     },
     {
       "topic": "being choices everyday healthy lifestyle longevity support tips well",
-      "headline": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - heraldonline.com",
+      "headline": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - Rock Hill Herald",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "heraldonline.com"
+        "Rock Hill Herald"
       ],
       "newest": "2026-08-01T10:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - heraldonline.com",
+          "title": "Healthy Aging Tips: How Everyday Lifestyle Choices Support Longevity and Well-Being - Rock Hill Herald",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43WEdHc2taUENmUGVjazRwWGoxUUNfYXpIU2VLcUdPaFUxMURDSXkwZnYtVU9CV3hYVy00SG9qaUdERmxvUUZ1R1Q5cjYyU203Q2NnV0FNc01JaHk2clhNcUpEYk5hQXFLLUlyRnE2Tmg4aXd2MmZmdlRfZ2hYN2s?oc=5",
-          "source": "heraldonline.com",
+          "source": "Rock Hill Herald",
           "published": "Sat, 01 Aug 2026 10:00:00 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "mental",
+      "headline": "Mental health of older adults - World Health Organization (WHO)",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "World Health Organization (WHO)"
+      ],
+      "newest": "2026-07-20T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Mental health of older adults - World Health Organization (WHO)",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb0FEUG1tSFp1NkJSMDVJbmxoZFlXNDBiUms2aWstYnpFVm9ZblBaVi1lX21iclNySTdudS1Pb3FabjM1OThGVElrNmZFb1ZzOGFxX19KNW4zakhXV0JWSWx4UmJtM0QybFZHU1k0d0NIMVZyS3VacGtOM3NfWlI0WmNLWWU?oc=5",
+          "source": "World Health Organization (WHO)",
+          "published": "Mon, 20 Jul 2026 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -787,23 +801,23 @@
       ]
     },
     {
-      "topic": "mental",
-      "headline": "Mental health of older adults - who.int",
+      "topic": "daily help longer multivitamin stay stronger",
+      "headline": "Could a daily multivitamin help older adults stay stronger for longer? - medicalnewstoday.com",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "who.int"
+        "medicalnewstoday.com"
       ],
-      "newest": "2026-07-20T07:00:00+00:00",
+      "newest": "2026-07-31T16:45:46+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Mental health of older adults - who.int",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb0FEUG1tSFp1NkJSMDVJbmxoZFlXNDBiUms2aWstYnpFVm9ZblBaVi1lX21iclNySTdudS1Pb3FabjM1OThGVElrNmZFb1ZzOGFxX19KNW4zakhXV0JWSWx4UmJtM0QybFZHU1k0d0NIMVZyS3VacGtOM3NfWlI0WmNLWWU?oc=5",
-          "source": "who.int",
-          "published": "Mon, 20 Jul 2026 07:00:00 GMT",
+          "title": "Could a daily multivitamin help older adults stay stronger for longer? - medicalnewstoday.com",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkFuNF9vSmVYMjNFb2VLRXY0aDg2TnZ0NkRTQ1FsLXZ1OWJzN3BhckFWQUFpS0JDZzJNM3ZZX3RKemNMcHdWX3Q1UDdtMzNsejFsXzZIaFkyN05wc2ZKdUYyV0Ftd21RblpoWUFKMFQzSm5vVnJWMkcxQ3RKTUNsUEdUdWs2RXNxeF9SOW9jVFA0cUZ3OWVfOHV4QmNCdDlzTVpSSkxsMA?oc=5",
+          "source": "medicalnewstoday.com",
+          "published": "Fri, 31 Jul 2026 16:45:46 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -827,29 +841,6 @@
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUS12X3dmVEhjUmhkLUwyOHU5TlYwV0hfTWYyWEV2WGtLb3haNEJ1Nk5fUk0xMzZKUXdoUmI1OExEWGFRYnNBdDV2ZkdISmNkQmtacnJvQXNNdzFQUTl2WWt2T01yeDFocDB2UEZ2VjU3WklzdjQwUjFFVmIxakNQMVdqQW9BODd5N3EwSHlZWnZSOXNNdUVBeUltZw?oc=5",
           "source": "Point/Plover Metro Wire",
           "published": "Thu, 30 Jul 2026 18:29:09 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "daily help longer multivitamin stay stronger",
-      "headline": "Could a daily multivitamin help older adults stay stronger for longer? - Medical News Today",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Medical News Today"
-      ],
-      "newest": "2026-07-31T16:45:46+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Could a daily multivitamin help older adults stay stronger for longer? - Medical News Today",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMkFuNF9vSmVYMjNFb2VLRXY0aDg2TnZ0NkRTQ1FsLXZ1OWJzN3BhckFWQUFpS0JDZzJNM3ZZX3RKemNMcHdWX3Q1UDdtMzNsejFsXzZIaFkyN05wc2ZKdUYyV0Ftd21RblpoWUFKMFQzSm5vVnJWMkcxQ3RKTUNsUEdUdWs2RXNxeF9SOW9jVFA0cUZ3OWVfOHV4QmNCdDlzTVpSSkxsMA?oc=5",
-          "source": "Medical News Today",
-          "published": "Fri, 31 Jul 2026 16:45:46 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -903,21 +894,21 @@
     },
     {
       "topic": "dementia",
-      "headline": "Dementia - who.int",
+      "headline": "Dementia - World Health Organization (WHO)",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "who.int"
+        "World Health Organization (WHO)"
       ],
       "newest": "2026-07-03T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Dementia - who.int",
+          "title": "Dementia - World Health Organization (WHO)",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ScjREckRoYUQ0Q1hUVVpUcGxqVDNIM21rZkJ3VTNIMnJrVzRRQ0lOYWFxd2lib3RUMVh3UUp3NExtSWxHTEM4QkI3UFl6Nkh5TGp6ZG1ZamhBcVhxY0RYSDQ5bUkzck5f?oc=5",
-          "source": "who.int",
+          "source": "World Health Organization (WHO)",
           "published": "Fri, 03 Jul 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -926,21 +917,21 @@
     },
     {
       "topic": "before dementia diagnosis show symptoms that years",
-      "headline": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
+      "headline": "6 dementia symptoms that can show up years before a diagnosis - washingtonpost.com",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "The Washington Post"
+        "washingtonpost.com"
       ],
       "newest": "2026-07-21T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
+          "title": "6 dementia symptoms that can show up years before a diagnosis - washingtonpost.com",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTE0tQjEtVUhFUEctclZWcGQ4X0NNNEY5c0Rfd0VnT2xPQThycTVSanRueUtZOFhTMWVhQ3AxWHZuQXVDTlJraXFXQkYtSk1lclN4dWJrZ0tIMTc2WFdLekpQZVRWZmJEVUpRaEM3UC1PSEZWd3NpR04zNUR5Uk9Wd3J1bC1vbEJqN09Ca3QySkZmQnVMcHdfNS1zMkhWNENHZXh1Q2lwVmU5YVFUbUx3?oc=5",
-          "source": "The Washington Post",
+          "source": "washingtonpost.com",
           "published": "Tue, 21 Jul 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -1178,29 +1169,6 @@
       ]
     },
     {
-      "topic": "long matter more sleep than when",
-      "headline": "When you go to bed may matter more than how long you sleep - nationalgeographic.com",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "nationalgeographic.com"
-      ],
-      "newest": "2025-09-25T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "When you go to bed may matter more than how long you sleep - nationalgeographic.com",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUlJ0Tm1XNUUyZlIwdlVuYW1jYzhtcHgyb1gxQnFRZTFITWZkd1gtbFdnZWtDcnRfcWg1bkw0VFlOOFBUYXJ2amhGZWRBVmVENjhTdGFwQmlINU9SeEdEcm1paEdOeUYyVmJxYkI0cFZFQjUtQnA1NWRydk9RZkE4cFczU3ljQXhf?oc=5",
-          "source": "nationalgeographic.com",
-          "published": "Thu, 25 Sep 2025 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
       "topic": "both circadian interact system times where",
       "headline": "Circadian system and aging: where both times interact - Frontiers",
       "category": "sleep health",
@@ -1241,6 +1209,29 @@
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdmFZc202VERKT0FSMzV2SnJkcHJ3VGpxNWpZQ3FnMWFMVXdMek9FMDBic3QtaHlPeW1OZ0N4ZWpmZ25GWmFya1MtTDhmeVZaTFpRbjNsdlFReUxtVlh4MDR0ZjVBSkFGVnJOVG14dXJfbzVuQ0FncmFiV3MxVEZSdXZ2aU5GNHRt?oc=5",
           "source": "Simon Fraser University",
           "published": "Thu, 02 Apr 2026 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "cardiometabolic circadian disease disruption irregularity risk sleep",
+      "headline": "Sleep Irregularity, Circadian Disruption, and Cardiometabolic Disease Risk - American Heart Association Journals",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "American Heart Association Journals"
+      ],
+      "newest": "2025-08-14T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Sleep Irregularity, Circadian Disruption, and Cardiometabolic Disease Risk - American Heart Association Journals",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiQ2RCMUVJa2RKemtySXZKRjBkTlF0OUN2R0s3UTNuaE5xMkhEQ3JDbWJ2ekg4blVDMFNmU1NEd0tvRnRiMmt2X2xMWEc0Uy1GOGV6TnhscFI2LWVzSjQ3bElEZ09iVER1eU1zUF9n?oc=5",
+          "source": "American Heart Association Journals",
+          "published": "Thu, 14 Aug 2025 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         }
@@ -1616,21 +1607,21 @@
     },
     {
       "topic": "contain oleander supplements these toxic update yellow",
-      "headline": "FDA update: These supplements contain toxic yellow oleander - Center for Science in the Public Interest",
+      "headline": "FDA update: These supplements contain toxic yellow oleander - cspi.org",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Center for Science in the Public Interest"
+        "cspi.org"
       ],
       "newest": "2025-11-03T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA update: These supplements contain toxic yellow oleander - Center for Science in the Public Interest",
+          "title": "FDA update: These supplements contain toxic yellow oleander - cspi.org",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNakRMYnBNamdFTGx1YmZMeWhJTjRiNFF2Vk1GRDlyRlRyLWFnMXJfUmhDVXpjaDlVakdvdUs2MU1fYVg5dUlieElCc05fMnRIY05VWFhSTUR4RkZpaGhOSF9VaUZqcVNMMG5QRUZqLWtIdW0ya1J5WTU5S3pCclZ6cWdqdUxXMjk2TnJDVG1aVkctYnc?oc=5",
-          "source": "Center for Science in the Public Interest",
+          "source": "cspi.org",
           "published": "Mon, 03 Nov 2025 08:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1662,21 +1653,21 @@
     },
     {
       "topic": "centre founder goodenowe patient recent risk supplement that warns",
-      "headline": "FDA warns ‘Dr. Goodenowe’ health centre founder that his recent supplement study put patient health at risk - cbc.ca",
+      "headline": "FDA warns ‘Dr. Goodenowe’ health centre founder that his recent supplement study put patient health at risk - CBC",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "cbc.ca"
+        "CBC"
       ],
       "newest": "2026-02-01T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA warns ‘Dr. Goodenowe’ health centre founder that his recent supplement study put patient health at risk - cbc.ca",
+          "title": "FDA warns ‘Dr. Goodenowe’ health centre founder that his recent supplement study put patient health at risk - CBC",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYW44MEpnLU5MS0MtRkdQaFZxQ09tT1hDMThBUUthTnZjbVZMNGljV0xESzZ2b0pWMEdjT1hQbHdVelEtUEZ5aXNQLV9YZmVVUmZSamZEX2NBWE1PaVVaQ3RoNDFEUTlxU1R6UDV6M0NzOVRMOUZkZHh0QzBjVDZFMDZyX2pWSVZOTkZOUlhSMFFhWlppeHJRank4cUhPMkxsMjkxQms5Z0c4R3JWWUJVTHh6UVRTRFJKZ3Fr?oc=5",
-          "source": "cbc.ca",
+          "source": "CBC",
           "published": "Sun, 01 Feb 2026 08:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1731,21 +1722,21 @@
     },
     {
       "topic": "alert amazon drugs poison sold supplements",
-      "headline": "FDA alert: Supplements sold on Amazon may be poison or drugs - Center for Science in the Public Interest",
+      "headline": "FDA alert: Supplements sold on Amazon may be poison or drugs - cspi.org",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Center for Science in the Public Interest"
+        "cspi.org"
       ],
       "newest": "2024-01-05T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA alert: Supplements sold on Amazon may be poison or drugs - Center for Science in the Public Interest",
+          "title": "FDA alert: Supplements sold on Amazon may be poison or drugs - cspi.org",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TbUQwOVgzd3RNY2JYUmNUcExjdDY1RmhFTmdGVy1NU0hQZnNGUkhkWHBEeXFNeGlxZjJyX3lpOUM1Z3RIZVZ6QUYwcTZKYUpYdVRiaVpqM0pZSlJlT2h6b1VXelNkX1BiLXRNcWY4MmtTSnktTlphX0V3?oc=5",
-          "source": "Center for Science in the Public Interest",
+          "source": "cspi.org",
           "published": "Fri, 05 Jan 2024 08:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1800,21 +1791,21 @@
     },
     {
       "topic": "busting clarity five myths search supplements worth",
-      "headline": "In search of clarity on supplements: Five myths worth busting - Stanford Medicine",
+      "headline": "In search of clarity on supplements: Five myths worth busting - med.stanford.edu",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Stanford Medicine"
+        "med.stanford.edu"
       ],
       "newest": "2025-12-09T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "In search of clarity on supplements: Five myths worth busting - Stanford Medicine",
+          "title": "In search of clarity on supplements: Five myths worth busting - med.stanford.edu",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYllzTm9kT3lKS3hKMGdJMWlyem5FMEloeUJtdDkzOXM0LXRwemNRX0Y0N0d3Z2dYNFBmVFVoT0hGTWJoVUgxQnlyZmxKU3VVOHo2S3VwUUhuUXJsZXNyaktlZlktUjVPajkxWmNaX1ZDTHRjR0E3dHR6dnhZSFIweGc5dU8xSVlydFE0SFlNX3hudw?oc=5",
-          "source": "Stanford Medicine",
+          "source": "med.stanford.edu",
           "published": "Tue, 09 Dec 2025 08:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
@@ -2007,21 +1998,21 @@
     },
     {
       "topic": "boost brain daily eating hour window",
-      "headline": "Aging: 8 to 9-hour daily eating window may boost brain health - Medical News Today",
+      "headline": "Aging: 8 to 9-hour daily eating window may boost brain health - medicalnewstoday.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Medical News Today"
+        "medicalnewstoday.com"
       ],
       "newest": "2026-07-29T17:31:26+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Aging: 8 to 9-hour daily eating window may boost brain health - Medical News Today",
+          "title": "Aging: 8 to 9-hour daily eating window may boost brain health - medicalnewstoday.com",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOci1uQU8xbTZJU1NsQVBSRGFYRzU4VmJ2bm5CdmJYMUVDVHR5Z2ktV1dMMXJFSUhMSlVpd0VxZUM0ZjF0a2kyQWhjbE1aWm9jelJzZk1sYkRrRzhpWDlWTkdzV2dGNENQVzBtWXR4djV5QkZSRUlXU2pqNkE2RFNSZzN0YWppeFVheG9CbXc1WEFjcEVTb0JSa2R1Z09hM0xNMFRTeThKaTVhRHRuUTdiSDdn?oc=5",
-          "source": "Medical News Today",
+          "source": "medicalnewstoday.com",
           "published": "Wed, 29 Jul 2026 17:31:26 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
@@ -2098,6 +2089,29 @@
       ]
     },
     {
+      "topic": "alzheimer cellular circadian decline disease rhythms timing",
+      "headline": "Timing the decline: Cellular circadian rhythms and Alzheimer’s disease - PNAS",
+      "category": "brain health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "PNAS"
+      ],
+      "newest": "2026-04-06T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Timing the decline: Cellular circadian rhythms and Alzheimer’s disease - PNAS",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsTERBN05PY3pvNlBlUWd3bWFUOUJiRHExZEJvWjE3N3RLb1lMc2ZJTXR5NUxPTkt3X183TVNKZ3dlVzA5MWhzQWZOa1Q3YzBQcV9SU1VBMkZLTHZw?oc=5",
+          "source": "PNAS",
+          "published": "Mon, 06 Apr 2026 07:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
       "topic": "changes circadian dementia higher linked newsroom rhythms risk",
       "headline": "Changes in circadian rhythms linked to higher dementia risk: Newsroom - UT Southwestern",
       "category": "brain health",
@@ -2168,21 +2182,21 @@
     },
     {
       "topic": "activity consistent healthy patterns rest slow",
-      "headline": "Healthy aging: Consistent activity and rest patterns may slow aging - Medical News Today",
+      "headline": "Healthy aging: Consistent activity and rest patterns may slow aging - medicalnewstoday.com",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Medical News Today"
+        "medicalnewstoday.com"
       ],
       "newest": "2026-05-13T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Healthy aging: Consistent activity and rest patterns may slow aging - Medical News Today",
+          "title": "Healthy aging: Consistent activity and rest patterns may slow aging - medicalnewstoday.com",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTENYcmhvVXdVYXhkcllHMlhfcFEwQnk4ak9EVFFkWUR6WWtvS0cwT2l2c0hBWnVkTDJ5d3BTS3RhUlNaWGd3MGREeUZ5WHJkSDY1dktlTXZ5bjhPTXNpMkMwM1FlUzJaTlJ4bkdLZnA0WDUxWTJXdFZVczBIRFlsWVdYUml1MW9sQ0h5MS1NSW1aN0Jqb1d3eW9QSUNKT1pfeWJDaWd2SjdVd2kxQUtrZmc2ZmhEUQ?oc=5",
-          "source": "Medical News Today",
+          "source": "medicalnewstoday.com",
           "published": "Wed, 13 May 2026 07:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -2306,21 +2320,21 @@
     },
     {
       "topic": "2026 2035 devices industry report sleep tech",
-      "headline": "Sleep Tech Devices Industry Report 2026 -2035 - Market Business Insights",
+      "headline": "Sleep Tech Devices Industry Report 2026 -2035 - marketbusinessinsights.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Market Business Insights"
+        "marketbusinessinsights.com"
       ],
       "newest": "2026-07-29T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Sleep Tech Devices Industry Report 2026 -2035 - Market Business Insights",
+          "title": "Sleep Tech Devices Industry Report 2026 -2035 - marketbusinessinsights.com",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZkJlVnVVaVJqM01vRmV0dUdkSklyS0VjRVRPdXlrX1B4RXFMd25YWUoyRzVmcXF4ZDBCOWlWRzNoRDBJQ1Zxai1ESmZxalV1QURpYzBDZ3E0Z2E2T0Q0TVpuWTVWTzJxYV9laU1OOE9DNi10OW1reE9kUDZYY3NpSGxEMWhLSkU?oc=5",
-          "source": "Market Business Insights",
+          "source": "marketbusinessinsights.com",
           "published": "Wed, 29 Jul 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
@@ -2352,21 +2366,21 @@
     },
     {
       "topic": "audio best brain headbands more personalized sleep that training",
-      "headline": "The Best Sleep Headbands That Use Personalized Audio, Brain Training And More - forbes.com",
+      "headline": "The Best Sleep Headbands That Use Personalized Audio, Brain Training And More - Forbes",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "forbes.com"
+        "Forbes"
       ],
       "newest": "2026-03-10T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "The Best Sleep Headbands That Use Personalized Audio, Brain Training And More - forbes.com",
+          "title": "The Best Sleep Headbands That Use Personalized Audio, Brain Training And More - Forbes",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVjFPZ0VqaWxOV1FKVkJOR0llcU9hZDVIWWNYMkxSOXBsSk5KZHNHc1lSWW1xNV92WF9oajd1blJaUEIzMzFCVUJ4UEd2b3lLSEkzX1cySkhlX1JRcXMweFhwZUhCSzRoVm81cUJRNXlHeGxoamRvZVpDU2hjVnRZLTdaQXUxN3VDTWc?oc=5",
-          "source": "forbes.com",
+          "source": "Forbes",
           "published": "Tue, 10 Mar 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
@@ -2490,21 +2504,21 @@
     },
     {
       "topic": "benefits beyond loss semaglutide weight",
-      "headline": "Semaglutide and aging: New study finds benefits beyond weight loss - Medical News Today",
+      "headline": "Semaglutide and aging: New study finds benefits beyond weight loss - medicalnewstoday.com",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Medical News Today"
+        "medicalnewstoday.com"
       ],
       "newest": "2026-06-09T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Semaglutide and aging: New study finds benefits beyond weight loss - Medical News Today",
+          "title": "Semaglutide and aging: New study finds benefits beyond weight loss - medicalnewstoday.com",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN1ZqUkFvVU9oem40S19KaWh0Rm4tdXBocThqbDhmcDJ3N1ZZMVhCaEVHSnpWT3ZZYUFCdm94anprZGN2cDRhakJRM2lORzlSVi01VldpRFZJbEF0LW9YZTBuWGxXY05ONzEzcFZmekxCZm1EcTFxWXJTdmJEMm5EczVIVjBHc0hZaVpqTlB4dkJQSHloTFQ3ZVFn?oc=5",
-          "source": "Medical News Today",
+          "source": "medicalnewstoday.com",
           "published": "Tue, 09 Jun 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -2512,8 +2526,8 @@
       ]
     },
     {
-      "topic": "americans drugs experts medicare millions safety specific standards starting under without",
-      "headline": "Millions of Older Americans Are Starting GLP-1 Drugs Under Medicare Without Age-Specific Safety Standards, Experts Say - Medical Daily",
+      "topic": "active biological clinical first human ingredient ozempic slow trial",
+      "headline": "Ozempic's Active Ingredient May Slow Biological Aging, First Human Clinical Trial Finds - Medical Daily",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
@@ -2521,14 +2535,14 @@
       "sources": [
         "Medical Daily"
       ],
-      "newest": "2026-07-25T01:00:36+00:00",
+      "newest": "2026-07-15T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Millions of Older Americans Are Starting GLP-1 Drugs Under Medicare Without Age-Specific Safety Standards, Experts Say - Medical Daily",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNV0NLVWJrMEoyNUtZQlRoR2ZPbTVOWlltTS1iamswc1ZUaWVGV3Nhak5mWHA0eHJINW9mbFVVRzZsaTNhM0NEN3NVLVp0ZDFaNmlvNGROdk5sQ05NS2tGZzFieUItLVAzTkZIY2M0bkdnQ2VISjJJbzczMTQtMkd5anczQldkVWJqLWNrY3YwX0dJR0FvTGpKOXRGeC1DSHhxOC03UmZLbm44V0I1WUw4?oc=5",
+          "title": "Ozempic's Active Ingredient May Slow Biological Aging, First Human Clinical Trial Finds - Medical Daily",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMFlyT2JKUnRVNkhoZkRpOGpFNWpTZGJtUlBfbGE2cEVOeERzdnF3WmdNelcxODBucUxYaEFPS1M3ZEZrREZIaHk4YUxKT2VjRlhRN19nSU9pczFwQ1d2RTItSDlJSVFXWjlOVzNvVnhlYTFHSHl5bzNGZlRkNmozOE9tR1hDNklCQS1FUk9LWU15d240MXNn?oc=5",
           "source": "Medical Daily",
-          "published": "Sat, 25 Jul 2026 01:00:36 GMT",
+          "published": "Wed, 15 Jul 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
         }
@@ -2559,21 +2573,21 @@
     },
     {
       "topic": "drug during enhances loss mice muscle repair treatment weight",
-      "headline": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - Stanford Medicine",
+      "headline": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - med.stanford.edu",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Stanford Medicine"
+        "med.stanford.edu"
       ],
       "newest": "2026-06-02T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - Stanford Medicine",
+          "title": "Drug enhances muscle repair during GLP-1 weight-loss treatment in mice - med.stanford.edu",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKVDBWQ3otcWN3TG43NzlkX1dRSHZ5bXhBdy1FMGNFaVRGcHd5NlZ0eExvc0pwWEgtMXRkQVlHOHBNcDRmcVBFbUVMN2kxOG5fTlpJbzVuYWhMekd2VUN4SWs2MjBWNXp1NXJoRm9hUGVQZw?oc=5",
-          "source": "Stanford Medicine",
+          "source": "med.stanford.edu",
           "published": "Tue, 02 Jun 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -2674,7 +2688,7 @@
     },
     {
       "topic": "aged blood cedars cells diseases drive metabolic sinai vessel",
-      "headline": "Aged Blood Vessel Cells Drive Metabolic Diseases - Cedars-Sinai",
+      "headline": "Aged Blood Vessel Cells Drive Metabolic Diseases - cedars-sinai.org",
       "category": "metabolic health",
       "score": 4.0,
       "mention_count": 1,
@@ -2684,7 +2698,7 @@
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Aged Blood Vessel Cells Drive Metabolic Diseases - Cedars-Sinai",
+          "title": "Aged Blood Vessel Cells Drive Metabolic Diseases - cedars-sinai.org",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTWpWaE5uWkRiRUR3aGpBWnVHN1BkdXg4Tk5kbzgxV294SG1FNUZ6VFZYTlZ2LWp2VVNyZ1hheC05aENDR1FVdTNBcEZ1X3hDSTdZcm1ySW1OT3RkS2RweU5iLXNXWUpjNlB1RFY5bHNfVzViRWdqcDdiYWtKZzNYaUNUVk96bFNTWl81cEpyWEM?oc=5",
           "source": "",
           "published": "Thu, 20 Nov 2025 08:00:00 GMT",

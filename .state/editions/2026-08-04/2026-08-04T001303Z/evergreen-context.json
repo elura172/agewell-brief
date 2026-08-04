@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "375fb29d7511db082bed2796",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "048bf7cd36116322",
+        "source": "Dr. Gerald Pollack (2013) — The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 15
+      },
+      {
+        "source_id": "0273efb6277f6937",
+        "source": "Dr. Emilio Del Giudice (1988) — Water Coherence Domains and Quantum Electrodynamics (QED)",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

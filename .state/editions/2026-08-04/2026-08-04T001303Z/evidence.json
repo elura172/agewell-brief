@@ -1,0 +1,28 @@
+[
+  {
+    "article_id": "375fb29d7511db082bed2796",
+    "study_type": "observational fMRI study",
+    "key_claims": [
+      "Episodic memory decline in ageing is typically attributed to the cortico-hippocampal system, but the cerebellar contribution via cerebellar-cerebral circuits is underexplored.",
+      "Using task-based fMRI data from 821 older adults, including a longitudinal subset of 78 participants followed for four years, three non-motor cerebellar networks were identified: a bilateral lobule VI/Crus I mnemonic monitoring network, a right lobule Crus I/II default mode aligned network, and a right lobule VIIb/VIIIa evidence evaluation network.",
+      "Network recruitment varied with task demands and was associated with memory performance.",
+      "Phase-specific static cerebellar-cerebral functional connectivity showed stable organization but limited behavioural specificity.",
+      "Dynamic functional connectivity patterns effectively distinguished memory performance groups.",
+      "Greater instability in dynamic functional connectivity during encoding predicted longitudinal retrieval slowing."
+    ],
+    "limitations": [
+      "The study is based on a specific sample of older adults and may not generalize to other populations.",
+      "The longitudinal subset is small (78 participants) relative to the full sample.",
+      "The study is observational and cannot establish causality.",
+      "The source does not provide effect sizes or statistical details."
+    ],
+    "what_not_to_say": [
+      "The study proves that cerebellar networks cause episodic memory decline.",
+      "The study provides a clinical intervention or treatment for memory decline.",
+      "The study identifies specific genes or molecular mechanisms.",
+      "The study shows that static functional connectivity is not important for memory.",
+      "The study claims that all older adults show the same pattern of network instability."
+    ],
+    "confidence": "moderate"
+  }
+]

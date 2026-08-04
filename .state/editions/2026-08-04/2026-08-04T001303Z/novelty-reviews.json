@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "375fb29d7511db082bed2796": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies specific cerebellar networks and dynamic connectivity patterns that predict episodic memory decline, offering a novel mechanistic angle beyond the usual hippocampal focus.",
+      "angle": "Cerebellar network instability during encoding as an early marker for memory decline in aging",
+      "mode": "agent"
+    },
+    "616f0fc71a48824a3135566c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "comparative",
+      "reason": "Compares two known interventions but lacks a striking new finding or clear practical implication; title is generic.",
+      "angle": "Why nicotinamide riboside and exercise may affect epigenetic aging differently",
+      "mode": "agent"
+    },
+    "11abe8f3fd3c8d6a3a5a424a": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "association",
+      "reason": "Routine cross-sectional correlation between fitness and brain metrics; incremental novelty over existing endurance-brain studies is low.",
+      "angle": "Lactate threshold as a more sensitive predictor of brain plasticity than VO2 max",
+      "mode": "agent"
+    },
+    "f0e1657204cbafe3dfa75622": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "technology",
+      "reason": "AI-based local brain aging maps offer a new tool with potential for early dementia detection and personalized insights; strong visual and practical appeal.",
+      "angle": "AI maps of 'local brain age' could spot early signs of dementia years before symptoms",
+      "mode": "agent"
+    },
+    "0aaa82d2c67262199472027c": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Clarifies age-related alpha slowing by separating aperiodic components, resolving a debate and providing a more precise neural marker of aging.",
+      "angle": "Why older brains slow down: separating true alpha changes from background noise",
+      "mode": "agent"
+    },
+    "2d981d8e12919da8ac66f441": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "technology",
+      "reason": "Machine learning predicts tDCS response for anxiety in older adults using individual brain current maps, enabling personalized treatment; high practical relevance.",
+      "angle": "Personalized brain stimulation: AI predicts who will benefit from tDCS for anxiety",
+      "mode": "agent"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Reveals a specific shift in sensory processing during REM sleep, offering a new understanding of brain-body communication and potential implications for sleep disorders.",
+      "angle": "REM sleep turns the brain inward: how external signals fade and internal ones amplify",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle",
+      "reason": "Generic exercise advice for seniors; no new data or unique angle beyond common recommendations.",
+      "angle": "A simple daily routine to improve balance and strength at home",
+      "mode": "agent"
+    },
+    "628fba671bb13fc20dfac71b": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "association",
+      "reason": "Reinforces known link between overall brain health and Alzheimer's resilience; lacks a specific new finding or actionable insight.",
+      "angle": "How overall brain health may shield memory from early Alzheimer's pathology",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "375fb29d7511db082bed2796",
+    "f0e1657204cbafe3dfa75622",
+    "0aaa82d2c67262199472027c",
+    "2d981d8e12919da8ac66f441",
+    "95c882437216b7799a061c53"
+  ],
+  "held_back": [
+    "616f0fc71a48824a3135566c",
+    "11abe8f3fd3c8d6a3a5a424a",
+    "256b3e11dfff849235aebba7",
+    "628fba671bb13fc20dfac71b"
+  ],
+  "mode": "agent"
+}

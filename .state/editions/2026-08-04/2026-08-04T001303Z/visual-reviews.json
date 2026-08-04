@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "375fb29d7511db082bed2796",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:37538884",
+      "score": 85,
+      "rationale": "The image depicts a close-up of hands playing a piano, which aligns with the editorial intent of showing an older adult engaged in a coordination task. The metadata does not specify age, but the search query 'older adult playing piano close-up' and the absence of contradictory details make it a suitable match. The setting is not described, but the focus on hands and instrument matches the composition requirement. The mood is implied as focused and engaged.",
+      "concerns": [
+        "The alt text does not explicitly mention an older adult, so there is some uncertainty about the subject's age. However, the search query and the nature of the activity (piano playing) are consistent with the story's emphasis on motor-skill training and cerebellar coordination."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-04/spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d-pexels-37538884.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
