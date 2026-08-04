@@ -41,6 +41,23 @@ const structuredDataJSON = structuredData
     <link rel="canonical" href={canonicalURL} />
     <link rel="alternate" type="application/rss+xml" title="Agewell Brief RSS" href={new URL("/rss.xml", Astro.site)} />
     <link rel="sitemap" href={new URL("/sitemap-index.xml", Astro.site)} />
+
+    {/* PostHog Analytics Initialization */}
+    <script>
+      import posthog from "posthog-js";
+      const phKey = import.meta.env.PUBLIC_POSTHOG_KEY;
+      const phHost = import.meta.env.PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com";
+
+      if (phKey) {
+        posthog.init(phKey, {
+          api_host: phHost,
+          person_profiles: "identified_only",
+          capture_pageview: true,
+          capture_pageleave: true
+        });
+      }
+    </script>
+
     <meta property="og:site_name" content="Agewell Brief" />
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />

@@ -13,6 +13,7 @@
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^5.0.0",
     "marked": "^18.0.7",
+    "posthog-js": "^1.410.6",
     "sanitize-html": "^2.17.6"
   },
   "devDependencies": {
