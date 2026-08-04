@@ -1,5 +1,5 @@
 {
-  "status": "upload_failed",
+  "status": "uploaded",
   "subject": "Activation of the Lactate Receptor GPR81 Ameliorates Senescence Hallmarks and Improves Muscle Function in Cellular and Progeroid Models of Aging",
   "article_url": "https://agewellbrief.com/brief/2026-08-03-activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162/",
   "video_aspect": "9:16",
@@ -12,8 +12,10 @@
   "stroke_width": 4,
   "font_size": 64,
   "requires_video_qa": false,
-  "updated_at": "2026-08-03T22:55:17.559672+00:00",
+  "updated_at": "2026-08-04T02:55:26.142785+00:00",
   "video_path": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/45084d1c-8fbc-4239-9394-e09688655076/final-1.mp4",
   "task_dir": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/45084d1c-8fbc-4239-9394-e09688655076",
-  "last_error": "HTTPError"
+  "last_error": "HTTPError",
+  "upload_request_id": "agewell-video-2026-08-03-activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162",
+  "upload_job_id": "5dc84d72d00f4968aa5c73f41d245fbf"
 }

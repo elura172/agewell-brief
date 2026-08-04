@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-04T00:15:57.629984+00:00",
+  "updated_at": "2026-08-04T02:55:26.145706+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -280,16 +280,16 @@
           "last_error": "HTTPError"
         },
         "tiktok": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T19:48:58.507036+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162",
+          "job_id": "5dc84d72d00f4968aa5c73f41d245fbf",
+          "updated_at": "2026-08-04T02:55:26.142525+00:00"
         },
         "youtube": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-03T19:48:58.507039+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-03-activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162",
+          "job_id": "5dc84d72d00f4968aa5c73f41d245fbf",
+          "updated_at": "2026-08-04T02:55:26.142756+00:00"
         }
       },
       "updated_at": "2026-08-03T19:48:58.507507+00:00"
