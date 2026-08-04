@@ -1,5 +1,4 @@
---- 
-title: "Why the Living Waters framework puts transport before clearing"
+---title: "Why the Living Waters framework puts transport before clearing"
 date: 2026-08-03T00:00:00-04:00
 draft: false
 category: "detoxification"
@@ -15,6 +14,8 @@ image_photographer: "Cottonbro Studio / Pexels"
 image_photographer_url: "https://www.pexels.com/@cottonbro"
 image_provider: "Pexels"
 image_avg_color: "#2a1a3a"
+topics: ['detoxification', 'gut health', 'metabolic health']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Inner Garden']
 ---
 
 Many health programs begin with a question of what to remove. The Living Waters framework begins one step earlier: can the body transport and eliminate what has already been mobilised?

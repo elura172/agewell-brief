@@ -1,5 +1,4 @@
----
-title: "Too Little Sleep—and Too Much—Associated with Faster Aging - Columbia University Irving Medical Center"
+---title: "Too Little Sleep—and Too Much—Associated with Faster Aging - Columbia University Irving Medical Center"
 date: 2026-08-02T22:41:51.690760+00:00
 draft: false
 category: "sleep health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@enginakyurt"
 image_source_url: "https://www.pexels.com/photo/man-laying-on-a-hospital-bed-with-a-manometer-20897580/"
 image_review_status: "pending"
 image_avg_color: "#A6A1A5"
+topics: ['gut health', 'longevity', 'sleep health']
+frameworks: ['Inner Garden', 'Living Waters', 'Luminous Mind']
 ---
 A new study using organ-specific 'aging clocks' finds that both too little and too much sleep are tied to faster aging across the body.
 

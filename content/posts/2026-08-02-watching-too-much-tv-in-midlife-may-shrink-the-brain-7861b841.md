@@ -1,5 +1,4 @@
----
-title: "Watching too much TV in midlife may shrink the brain"
+---title: "Watching too much TV in midlife may shrink the brain"
 date: 2026-08-02T18:08:37.559736+00:00
 draft: true
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@ian-panelo"
 image_source_url: "https://www.pexels.com/photo/faceless-person-switching-channels-on-tv-7400892/"
 image_review_status: "pending"
 image_avg_color: "#47435D"
+topics: ['brain health', 'longevity']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A new study of 1,700 adults finds that frequent TV viewing in midlife is associated with smaller brain regions and more white matter damage in later years.

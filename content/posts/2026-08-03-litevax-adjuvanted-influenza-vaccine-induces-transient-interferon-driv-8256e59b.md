@@ -1,5 +1,4 @@
---- 
-title: "LiteVax-adjuvanted influenza vaccine induces transient interferon-driven innate activation and accelerates early IgG3 responses in older adults"
+---title: "LiteVax-adjuvanted influenza vaccine induces transient interferon-driven innate activation and accelerates early IgG3 responses in older adults"
 date: 2026-08-03T08:08:37.903119+00:00
 draft: false
 category: "brain health"
@@ -15,6 +14,8 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
+topics: ['brain health', 'cellular senescence', 'mobility', 'sleep health']
+frameworks: ['Cell Shedding', 'Living Waters', 'Luminous Mind']
 ---
 
 A study finds an experimental adjuvant may help rebalance immune responses in people over 60, improving early antibody quality without changing overall levels.

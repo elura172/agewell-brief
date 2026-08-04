@@ -1,5 +1,4 @@
----
-title: "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength"
+---title: "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength"
 date: 2026-08-03T00:03:54.932016+00:00
 draft: false
 category: "longevity"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@yankrukov"
 image_source_url: "https://www.pexels.com/photo/elderly-people-working-out-at-the-gym-6815699/"
 image_review_status: "pending"
 image_avg_color: "#7F8B91"
+topics: ['longevity', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 New research links aging to declines in balance, trunk stability, mobility, and hip strength. Here's what to make of it.
 

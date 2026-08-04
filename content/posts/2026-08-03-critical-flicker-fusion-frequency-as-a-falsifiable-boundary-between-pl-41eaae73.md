@@ -1,5 +1,4 @@
---- 
-title: "Critical Flicker Fusion Frequency As A Falsifiable Boundary Between Plastic And Non-Plastic Neural Systems"
+---title: "Critical Flicker Fusion Frequency As A Falsifiable Boundary Between Plastic And Non-Plastic Neural Systems"
 date: 2026-08-03T08:08:37.903119+00:00
 draft: false
 category: "metabolic health"
@@ -15,6 +14,8 @@ image_photographer: "Karolina Grabowska / Pexels"
 image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
 image_provider: "Pexels"
 image_avg_color: "#3a1a1a"
+topics: ['brain health', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 ---
 
 A new review explores critical flicker fusion frequency—the point where flickering light looks steady—as a stable trait that may mark the edge of adult brain plasticity.

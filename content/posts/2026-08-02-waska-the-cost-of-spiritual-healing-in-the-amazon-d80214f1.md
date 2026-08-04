@@ -1,5 +1,4 @@
----
-title: "Waska: the cost of spiritual healing in the Amazon"
+---title: "Waska: the cost of spiritual healing in the Amazon"
 date: 2026-08-02T22:38:23.084822+00:00
 draft: true
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@franssy-acosta-571467985"
 image_source_url: "https://www.pexels.com/photo/traditional-amazonian-tribal-attire-in-peru-31378663/"
 image_review_status: "pending"
 image_avg_color: "#474933"
+topics: ['brain health', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 
 Indigenous voices highlight the commodification of sacred plant medicine in the Amazon.

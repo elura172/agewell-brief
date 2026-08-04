@@ -1,5 +1,4 @@
---- 
-title: "The Higher Flame framework asks what fuel flexibility might change"
+---title: "The Higher Flame framework asks what fuel flexibility might change"
 date: 2026-08-03T00:00:00-04:00
 draft: false
 category: "metabolic health"
@@ -15,6 +14,8 @@ image_photographer: "Karolina Grabowska / Pexels"
 image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
 image_provider: "Pexels"
 image_avg_color: "#3a1a1a"
+topics: ['brain health', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 ---
 
 The Higher Flame guide is built around metabolic flexibility: the ability to move between carbohydrate and fat as fuel. It combines a time-limited eating window with plant compounds that the program describes as signals for the body’s own antioxidant systems.

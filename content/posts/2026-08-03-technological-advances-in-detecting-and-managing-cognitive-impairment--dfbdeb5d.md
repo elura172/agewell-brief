@@ -1,5 +1,4 @@
----
-title: "Technological Advances in Detecting and Managing Cognitive Impairment in Older Adults: Trends, Challenges, and Future Directions"
+---title: "Technological Advances in Detecting and Managing Cognitive Impairment in Older Adults: Trends, Challenges, and Future Directions"
 date: 2026-08-03T05:55:06.448083+00:00
 draft: false
 category: "brain health"
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@gustavo-fring"
 image_source_url: "https://www.pexels.com/photo/person-wearing-personal-protective-equipment-while-holding-magnifying-glass-and-test-tube-4149034/"
 image_review_status: "pending"
 image_avg_color: "#B8BABE"
+topics: ['brain health', 'consumer safety', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A sweeping review of recent research finds real progress in blood tests and digital monitoring, but many AI-driven detection tools still need rigorous validation before they're ready for the clinic.

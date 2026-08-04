@@ -1,5 +1,4 @@
----
-title: "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification"
+---title: "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification"
 date: 2026-08-03T05:57:09.388462+00:00
 draft: false
 category: "brain health"
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@thisisengineering"
 image_source_url: "https://www.pexels.com/photo/woman-using-computer-on-table-3862140/"
 image_review_status: "pending"
 image_avg_color: "#454B4B"
+topics: ['brain health', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.'

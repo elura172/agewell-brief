@@ -21,6 +21,8 @@ image_review_status: "pending"
 image_avg_color: "#cad4cf"
 autoresearch_antecedents: [{"scientist": "Franz Halberg", "year": 1959, "discovery": "Coined the term 'circadian' and established the field of chronobiology, demonstrating that biological rhythms are fundamental to health and disease."}, {"scientist": "Hans Selye", "year": 1936, "discovery": "Developed the concept of the General Adaptation Syndrome, showing that chronic stress disrupts physiological rhythms and contributes to disease."}]
 ancestral_insight: "Traditional hunter-gatherer lifestyles, such as those of the Hadza, are characterized by strong daily rhythms tied to natural light-dark cycles and physical activity. These patterns synchronize the SCN and peripheral clocks, optimizing metabolic and immune function. In contrast, modern sedentary indoor living with artificial lighting and irregular schedules weakens these rhythms, potentially increasing dementia risk. The physical mechanism involves light exposure regulating the SCN via the retinohypothalamic tract, which then modulates cortisol and melatonin secretion, affecting neuronal health and amyloid clearance."
+topics: ['brain health', 'consumer safety', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 ---
 New research links weaker daily rhythms to increased dementia risk in older adults.
 

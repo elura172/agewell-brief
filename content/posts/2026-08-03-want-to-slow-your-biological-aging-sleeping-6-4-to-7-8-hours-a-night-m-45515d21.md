@@ -1,5 +1,4 @@
---- 
-title: "Want to Slow Your Biological Aging? Sleeping 6.4 to 7.8 Hours a Night May Help - Healthline"
+---title: "Want to Slow Your Biological Aging? Sleeping 6.4 to 7.8 Hours a Night May Help - Healthline"
 date: 2026-08-03T08:28:52.841371+00:00
 draft: false
 category: "sleep health"
@@ -15,6 +14,8 @@ image_photographer: "Mikhail Nilov / Pexels"
 image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
 image_provider: "Pexels"
 image_avg_color: "#2a3a2a"
+topics: ['longevity', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A new analysis links sleep duration to epigenetic aging, with a sweet spot that echoes ancestral patterns and the restorative biology first mapped by Kleitman.

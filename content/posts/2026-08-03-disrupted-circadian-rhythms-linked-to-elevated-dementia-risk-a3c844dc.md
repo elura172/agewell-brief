@@ -1,5 +1,4 @@
---- 
-title: "Disrupted Circadian Rhythms Linked to Elevated Dementia Risk"
+---title: "Disrupted Circadian Rhythms Linked to Elevated Dementia Risk"
 date: 2026-08-03T08:39:18.814899+00:00
 draft: false
 category: "brain health"
@@ -15,6 +14,8 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
+topics: ['brain health', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 
 New research indicates that circadian misalignment may heighten dementia risk, reflecting chronobiology's foundational principle that human physiology is tuned to ancestral light-dark cycles.

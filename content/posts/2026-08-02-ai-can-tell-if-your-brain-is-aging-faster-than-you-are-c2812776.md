@@ -1,5 +1,4 @@
----
-title: "A sleep EEG 'brain age' score tracked future dementia risk"
+---title: "A sleep EEG 'brain age' score tracked future dementia risk"
 date: 2026-08-02T10:32:43.853848+00:00
 updated: 2026-08-02T11:02:46+00:00
 draft: false
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@rdne"
 image_source_url: "https://www.pexels.com/photo/doctor-looking-at-an-x-ray-image-6129042/"
 image_review_status: "human-reviewed"
 image_avg_color: "#99ABB8"
+topics: ['brain health', 'longevity', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A machine-learning model estimated “brain age” from overnight sleep recordings. Across five long-running cohorts, each additional 10 years between estimated brain age and chronological age was associated with a 39% higher risk of dementia.

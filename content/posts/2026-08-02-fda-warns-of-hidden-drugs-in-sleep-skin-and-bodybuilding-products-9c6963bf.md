@@ -1,5 +1,4 @@
----
-title: "FDA flags hidden drug ingredients in products sold for sleep, skin, and bodybuilding"
+---title: "FDA flags hidden drug ingredients in products sold for sleep, skin, and bodybuilding"
 date: 2026-08-02T19:14:38Z
 draft: false
 category: "consumer safety"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@cottonbro"
 image_source_url: "https://www.pexels.com/photo/adult-woman-looking-at-the-medicine-bottle-8657375/"
 image_review_status: "human-reviewed"
 image_avg_color: "#7C7D7F"
+topics: ['consumer safety', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 The agency's health-fraud list now includes pre-workout products, alongside earlier alerts for supplements marketed for sleep, skin, pain, and bodybuilding.
 

@@ -1,5 +1,4 @@
----
-title: "Your gut can get jet lag too: How not to waste the first days of your vacation"
+---title: "Your gut can get jet lag too: How not to waste the first days of your vacation"
 date: 2026-08-02T22:24:36.983685+00:00
 draft: false
 category: "sleep health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@adrienn-638530"
 image_source_url: "https://www.pexels.com/photo/selective-focus-photo-of-woman-sitting-on-chair-looking-outside-window-on-plane-1458302/"
 image_review_status: "pending"
 image_avg_color: "#987F7E"
+topics: ['gut health', 'sleep health']
+frameworks: ['Inner Garden', 'Luminous Mind']
 ---
 Long flights disrupt more than sleep—your gut bacteria may also feel the time change, leading to fatigue and digestive issues.
 

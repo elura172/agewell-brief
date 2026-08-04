@@ -1,5 +1,4 @@
---- 
-title: "The Luminous Mind framework treats brain health as a whole-system project"
+---title: "The Luminous Mind framework treats brain health as a whole-system project"
 date: 2026-08-03T00:00:00-04:00
 draft: false
 category: "brain health"
@@ -15,6 +14,8 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
+topics: ['brain health', 'consumer safety', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 
 The Luminous Mind guide approaches brain health through several tracks at once: sleep, stress, movement, nutrition, learning, and the program’s own supplement framework. Its strongest editorial idea is that cognition is not a single switch.

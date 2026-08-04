@@ -1,5 +1,4 @@
---- 
-title: "CBCT-IQ: A Publicly Available Annotated Cone-Beam CT Dataset for Image Quality Assessment and Benchmarking"
+---title: "CBCT-IQ: A Publicly Available Annotated Cone-Beam CT Dataset for Image Quality Assessment and Benchmarking"
 date: 2026-08-03T08:39:18.814899+00:00
 draft: false
 category: "longevity"
@@ -15,6 +14,8 @@ image_photographer: "RF._.studio / Pexels"
 image_photographer_url: "https://www.pexels.com/@rfstudio"
 image_provider: "Pexels"
 image_avg_color: "#1a3a3a"
+topics: ['longevity', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose.

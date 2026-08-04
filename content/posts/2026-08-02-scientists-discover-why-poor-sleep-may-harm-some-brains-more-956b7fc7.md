@@ -1,5 +1,4 @@
----
-title: "Scientists discover why poor sleep may harm some brains more"
+---title: "Scientists discover why poor sleep may harm some brains more"
 date: 2026-08-02T19:42:45.995186+00:00
 draft: false
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://pixabay.com/users/this_is_engineering-11384528/
 image_source_url: "https://pixabay.com/photos/working-lab-tech-8499918/"
 image_review_status: "pending"
 image_avg_color: "#cad4cf"
+topics: ['brain health', 'longevity', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 New research links sleep quality, genetics, and Alzheimer's-related brain changes, suggesting a personalized approach to prevention.
 

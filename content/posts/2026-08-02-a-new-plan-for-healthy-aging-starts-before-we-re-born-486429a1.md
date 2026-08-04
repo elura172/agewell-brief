@@ -22,6 +22,8 @@ image_review_status: "human-reviewed"
 image_avg_color: "#6E4531"
 autoresearch_antecedents: [{"scientist": "David Barker", "year": 1986, "discovery": "Barker hypothesis: fetal undernutrition and low birth weight program later-life cardiovascular and metabolic disease risk."}, {"scientist": "Peter Gluckman and Mark Hanson", "year": 2004, "discovery": "Developmental plasticity and predictive adaptive responses: early environmental cues shape long-term health trajectories."}]
 ancestral_insight: "Traditional societies often emphasize maternal nutrition and prenatal care, such as the 'first 1000 days' concept in many cultures. Physical mechanisms include the thrifty phenotype hypothesis, where early nutritional cues adjust metabolic set points for anticipated environments. This parallels ancestral practices of ensuring nutrient-dense foods for pregnant women, which may have evolved to optimize offspring survival and long-term health in fluctuating environments."
+topics: ['longevity', 'metabolic health']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 Scientists are developing a new field to help us stay healthier longer, with roots in early life.

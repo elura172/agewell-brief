@@ -1,5 +1,4 @@
----
-title: "Spatiotemporal coordination of specialized cerebellar networks supports episodic memory in older adults"
+---title: "Spatiotemporal coordination of specialized cerebellar networks supports episodic memory in older adults"
 date: 2026-08-04T00:13:03.467783+00:00
 draft: false
 category: "brain health"
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@zulfugarkarimov"
 image_source_url: "https://www.pexels.com/photo/close-up-of-hands-playing-piano-indoors-37538884/"
 image_review_status: "pending"
 image_avg_color: "#736E68"
+topics: ['brain health', 'consumer safety', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New fMRI evidence shows that dynamic coordination of specialized cerebellar circuits with cerebral networks supports episodic memory in older adults—and that instability during encoding predicts future retrieval slowing.

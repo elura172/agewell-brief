@@ -1,5 +1,4 @@
---- 
-title: "Brain's Immune System Changes at Midlife, NIH Study Finds"
+---title: "Brain's Immune System Changes at Midlife, NIH Study Finds"
 date: 2026-08-02T07:25:38.220408+00:00
 draft: true
 category: "brain health"
@@ -12,6 +11,8 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
+topics: ['brain health', 'longevity']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 ## Brain's Immune System Changes at Midlife, NIH Study Finds

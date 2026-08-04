@@ -1,5 +1,4 @@
---- 
-title: "How exercise keeps our brains healthy as we age"
+---title: "How exercise keeps our brains healthy as we age"
 date: 2026-08-02T07:25:33.779985+00:00
 draft: true
 category: "brain health"
@@ -12,6 +11,8 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
+topics: ['brain health', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 ## How exercise keeps our brains healthy as we age

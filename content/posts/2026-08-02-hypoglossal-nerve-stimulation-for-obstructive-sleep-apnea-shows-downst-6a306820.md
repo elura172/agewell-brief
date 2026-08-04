@@ -1,5 +1,4 @@
----
-title: "Hypoglossal nerve stimulation for obstructive sleep apnea shows downstream health benefits"
+---title: "Hypoglossal nerve stimulation for obstructive sleep apnea shows downstream health benefits"
 date: 2026-08-02T19:57:57.163527+00:00
 draft: true
 category: "metabolic health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@dauphotographer"
 image_source_url: "https://www.pexels.com/photo/modern-medical-equipment-in-minimalist-setting-31188648/"
 image_review_status: "pending"
 image_avg_color: "#F4F4F6"
+topics: ['metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 ---
 
 A new analysis suggests that treating obstructive sleep apnea with hypoglossal nerve stimulation could improve overall health, but experts urge caution.

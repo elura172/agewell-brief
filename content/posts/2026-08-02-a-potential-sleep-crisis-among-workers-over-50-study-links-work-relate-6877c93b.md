@@ -1,5 +1,4 @@
----
-title: "A potential sleep crisis among workers over 50: Study links work-related stress to range of well-being issues"
+---title: "A potential sleep crisis among workers over 50: Study links work-related stress to range of well-being issues"
 date: 2026-08-02T09:07:46+00:00
 draft: false
 category: "brain health"
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@shvets-production"
 image_source_url: "https://www.pexels.com/photo/a-couple-sleeping-on-the-bed-8972607/"
 image_review_status: "human-reviewed"
 image_avg_color: "#BAB6AB"
+topics: ['brain health', 'longevity', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A new study finds that work-related stress is associated with significant sleep disturbances in people over 50, with many experiencing persistent issues.

@@ -1,5 +1,4 @@
---- 
-title: "What the cell-shedding framework gets right about senescence research"
+---title: "What the cell-shedding framework gets right about senescence research"
 date: 2026-08-03T00:00:00-04:00
 draft: false
 category: "cellular senescence"
@@ -15,6 +14,8 @@ image_photographer: "Polina Kovaleva / Pexels"
 image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
 image_provider: "Pexels"
 image_avg_color: "#3a2a1a"
+topics: ['cellular senescence', 'detoxification', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 Senescent cells are often called “zombie cells” because they may stop dividing while remaining metabolically active. The Cell Shedding guide turns that research idea into a program framework built around renewal, transport, and deliberate cycles.

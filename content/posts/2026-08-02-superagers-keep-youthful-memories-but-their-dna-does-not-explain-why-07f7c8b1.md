@@ -1,5 +1,4 @@
----
-title: "Superagers keep youthful memories but their DNA does not explain why"
+---title: "Superagers keep youthful memories but their DNA does not explain why"
 date: 2026-08-02T19:42:45.995186+00:00
 draft: false
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@ron-lach"
 image_source_url: "https://www.pexels.com/photo/woman-in-beige-top-reading-7968805/"
 image_review_status: "pending"
 image_avg_color: "#534E4A"
+topics: ['brain health', 'longevity', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A new study finds that people in their 80s and 90s with exceptional memory don't carry fewer Alzheimer's-related genes. The search for what protects them continues.

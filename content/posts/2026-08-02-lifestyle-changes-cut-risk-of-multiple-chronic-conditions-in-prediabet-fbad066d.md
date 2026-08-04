@@ -1,5 +1,4 @@
---- 
-title: "Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes"
+---title: "Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes"
 date: 2026-08-02T07:25:40.377109+00:00
 draft: true
 category: "metabolic health"
@@ -12,6 +11,8 @@ image_photographer: "Karolina Grabowska / Pexels"
 image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
 image_provider: "Pexels"
 image_avg_color: "#3a1a1a"
+topics: ['metabolic health']
+frameworks: ['Higher Flame']
 ---
 
 ## Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes

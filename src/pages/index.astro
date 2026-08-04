@@ -203,18 +203,21 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     )}
 
     <ol class="archive-list" id="archive-list">
-      {earlier.map((entry, index) => (
-        <li class="archive-item" data-category={entry.data.category.toLowerCase()}>
-          <article class="archive-entry">
-            <div class="archive-index">{String(index + 4).padStart(2, "0")}</div>
-            <div class="archive-copy">
-              <p>{entry.data.category} · {formatDate(entry.data.date)}</p>
-              <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
-            </div>
-            <a class="archive-source" href={entry.data.source_url} rel="noopener noreferrer">Original source <span>↗</span></a>
-          </article>
-        </li>
-      ))}
+      {earlier.map((entry, index) => {
+        const allTopics = (entry.data.topics && entry.data.topics.length > 0 ? entry.data.topics : [entry.data.category.toLowerCase()]).map(t => t.toLowerCase());
+        return (
+          <li class="archive-item" data-topics={allTopics.join("|")}>
+            <article class="archive-entry">
+              <div class="archive-index">{String(index + 4).padStart(2, "0")}</div>
+              <div class="archive-copy">
+                <p>{entry.data.category} · {formatDate(entry.data.date)}</p>
+                <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
+              </div>
+              <a class="archive-source" href={entry.data.source_url} rel="noopener noreferrer">Original source <span>↗</span></a>
+            </article>
+          </li>
+        );
+      })}
     </ol>
   </section>}
 
@@ -236,8 +239,10 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
 
       let visibleCount = 0;
       archiveItems.forEach((item) => {
-        const cat = item.getAttribute("data-category");
-        if (topic === "all" || cat === topic) {
+        const rawTopics = item.getAttribute("data-topics") || "";
+        const topicList = rawTopics.split("|");
+
+        if (topic === "all" || topicList.includes(topic)) {
           item.style.display = "";
           visibleCount++;
           const indexEl = item.querySelector(".archive-index");

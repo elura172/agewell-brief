@@ -21,6 +21,8 @@ image_review_status: "pending"
 image_avg_color: "#A8A299"
 autoresearch_antecedents: [{"scientist": "William H. Dietz", "year": 1984, "discovery": "Proposed the 'adiposity rebound' concept, noting that BMI increases around age 6 and that earlier rebound is associated with later obesity."}, {"scientist": "Ancel Keys", "year": 1972, "discovery": "Developed the BMI as a population-level measure of body fatness, but acknowledged its limitations in distinguishing fat from lean mass."}]
 ancestral_insight: "In ancestral hunter-gatherer societies, childhood growth spurts were likely characterized by increases in lean mass and muscle development, essential for survival skills like hunting and gathering. The modern finding that BMI rise in children is due to muscle growth parallels this ancestral pattern, where physical activity and protein-rich diets supported lean mass accretion. This contrasts with modern sedentary lifestyles and processed diets that may promote fat accumulation, highlighting the importance of physical activity and whole foods for healthy growth."
+topics: ['longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 A more accurate measure shows body fat doesn't rebound in kids; BMI rise may be muscle growth.

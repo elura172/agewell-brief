@@ -1,5 +1,4 @@
---- 
-title: "Circulating Cell-Free Chromatin Particles Trigger a Unique Biphasic STING Signaling Program that Drives DNA Damage and Inflammation"
+---title: "Circulating Cell-Free Chromatin Particles Trigger a Unique Biphasic STING Signaling Program that Drives DNA Damage and Inflammation"
 date: 2026-08-03T08:28:52.841371+00:00
 draft: false
 category: "longevity"
@@ -15,6 +14,8 @@ image_photographer: "RF._.studio / Pexels"
 image_photographer_url: "https://www.pexels.com/@rfstudio"
 image_provider: "Pexels"
 image_avg_color: "#1a3a3a"
+topics: ['cellular senescence', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 Cell-free chromatin particles from dying cells enter immune cells and activate STING in a biphasic pattern, linking cell death to DNA damage and sterile inflammation—a mechanism with deep roots in the biology of stress and adaptation.

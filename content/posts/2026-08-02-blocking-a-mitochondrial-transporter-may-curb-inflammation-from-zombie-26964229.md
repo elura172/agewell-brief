@@ -1,5 +1,4 @@
----
-title: "A mitochondrial transport route helped senescent cells drive inflammation"
+---title: "A mitochondrial transport route helped senescent cells drive inflammation"
 date: 2026-08-02T11:23:45+00:00
 updated: 2026-08-02T11:23:45+00:00
 draft: false
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@chokniti-khongchum-1197604/"
 image_source_url: "https://www.pexels.com/photo/scientist-using-microscope-3938022/"
 image_review_status: "human-reviewed"
 image_avg_color: "#A9B6C3"
+topics: ['cellular senescence', 'longevity', 'metabolic health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 ---
 New lab research traces part of the inflammatory output of senescent cells to mitochondrial citrate metabolism, and finds that inhibiting a key transporter reduces that signaling without waking the cells.
 

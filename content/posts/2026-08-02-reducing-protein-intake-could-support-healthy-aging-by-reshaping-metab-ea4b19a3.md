@@ -1,5 +1,4 @@
----
-title: "Reducing protein intake could support healthy aging by reshaping metabolism"
+---title: "Reducing protein intake could support healthy aging by reshaping metabolism"
 date: 2026-08-02T21:44:38.665835+00:00
 draft: true
 category: "longevity"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@kampus"
 image_source_url: "https://www.pexels.com/photo/a-person-slicing-peppers-8629042/"
 image_review_status: "pending"
 image_avg_color: "#7C7C72"
+topics: ['longevity', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A sweeping review of over 350 studies hints that eating less protein could boost health and lifespan, but experts urge caution.

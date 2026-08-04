@@ -134,9 +134,11 @@ const structuredData = [
         <div class="signal-rail-tags">
           <span>{entry.data.category}</span>
           <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
-          <a class="framework-header-badge" href={protocolCard.pdfUrl} download title="Download Field Guide PDF">
-            ⚡ {protocolCard.name.replace("Protocol", "Framework")}
-          </a>
+          {(entry.data.frameworks && entry.data.frameworks.length > 0 ? entry.data.frameworks : [protocolCard.name.replace("Protocol", "Framework")]).map((fw) => (
+            <a class="framework-header-badge" href={protocolCard.pdfUrl} download title="Download Biophysics Field Guide PDF">
+              ⚡ {fw}
+            </a>
+          ))}
         </div>
         <i></i>
         <span>{formatDate}</span>

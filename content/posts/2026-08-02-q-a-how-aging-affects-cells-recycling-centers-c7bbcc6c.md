@@ -1,5 +1,4 @@
---- 
-title: "Q&A: How aging affects cells' recycling centers"
+---title: "Q&A: How aging affects cells' recycling centers"
 date: 2026-08-02T07:25:42.491122+00:00
 draft: true
 category: "longevity"
@@ -12,6 +11,8 @@ image_photographer: "RF._.studio / Pexels"
 image_photographer_url: "https://www.pexels.com/@rfstudio"
 image_provider: "Pexels"
 image_avg_color: "#1a3a3a"
+topics: ['brain health', 'longevity', 'metabolic health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 ## Q&A: How aging affects cells' recycling centers

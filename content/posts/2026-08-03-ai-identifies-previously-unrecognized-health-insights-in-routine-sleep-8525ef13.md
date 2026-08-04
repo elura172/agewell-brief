@@ -1,5 +1,4 @@
----
-title: "AI identifies previously unrecognized health insights in routine sleep studies"
+---title: "AI identifies previously unrecognized health insights in routine sleep studies"
 date: 2026-08-03T15:47:24.744940+00:00
 draft: false
 category: "sleep health"
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@3430425"
 image_source_url: "https://www.pexels.com/photo/woman-holding-chemistry-results-5118461/"
 image_review_status: "pending"
 image_avg_color: "#C3C5AC"
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A new AI model mines routine sleep studies for subtle patterns that predict heart disease, cognitive decline, and mortality—turning the sleep lab into a window on systemic health.

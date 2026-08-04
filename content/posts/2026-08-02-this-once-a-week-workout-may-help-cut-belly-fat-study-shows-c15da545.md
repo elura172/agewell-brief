@@ -1,5 +1,4 @@
----
-title: "This once-a-week workout may help cut belly fat, study shows"
+---title: "This once-a-week workout may help cut belly fat, study shows"
 date: 2026-08-02T21:44:38.665835+00:00
 draft: true
 category: "metabolic health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@anastasia-shuraeva"
 image_source_url: "https://www.pexels.com/photo/man-and-woman-running-on-pathway-between-green-grass-field-8795580/"
 image_review_status: "pending"
 image_avg_color: "#52685B"
+topics: ['metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 A small dose of interval walking could offer big benefits for adults with excess waist fat, a new trial suggests.

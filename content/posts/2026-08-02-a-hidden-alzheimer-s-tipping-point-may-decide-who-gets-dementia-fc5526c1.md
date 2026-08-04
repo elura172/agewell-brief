@@ -1,5 +1,4 @@
----
-title: "A hidden Alzheimer’s tipping point may decide who gets dementia"
+---title: "A hidden Alzheimer’s tipping point may decide who gets dementia"
 date: 2026-08-02T19:57:57.163527+00:00
 draft: true
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@karola-g"
 image_source_url: "https://www.pexels.com/photo/woman-using-a-microscope-on-a-white-table-8539453/"
 image_review_status: "pending"
 image_avg_color: "#879AA0"
+topics: ['brain health', 'consumer safety', 'detoxification', 'longevity', 'mobility']
+frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
 ---
 
 New research pinpoints a shift in brain immune cells that may separate those who stay sharp from those who decline.

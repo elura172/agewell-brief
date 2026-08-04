@@ -1,5 +1,4 @@
----
-title: "Lab-grown mini brains may predict which Alzheimer’s treatments will work"
+---title: "Lab-grown mini brains may predict which Alzheimer’s treatments will work"
 date: 2026-08-02T22:19:44.677591+00:00
 draft: true
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@jahratreza"
 image_source_url: "https://www.pexels.com/photo/close-up-of-microscope-slide-examination-36417809/"
 image_review_status: "pending"
 image_avg_color: "#323E3E"
+topics: ['brain health', 'consumer safety', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 Researchers used patient-derived brain organoids to reveal why some people with Alzheimer's may respond to an antidepressant while others don't, and identified tiny particles that could one day aid diagnosis.

@@ -1,5 +1,4 @@
----
-title: "In mice, removing brain immune cells restored two hours of sleep"
+---title: "In mice, removing brain immune cells restored two hours of sleep"
 date: 2026-08-02T19:14:38Z
 draft: false
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@tima-miroshnichenko"
 image_source_url: "https://www.pexels.com/photo/a-woman-in-white-lab-gown-looking-at-the-monitor-9574516/"
 image_review_status: "human-reviewed"
 image_avg_color: "#B0B7C1"
+topics: ['brain health', 'consumer safety', 'detoxification', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
 ---
 
 An experiment in mice has separated two features of Alzheimer’s disease that are often treated as one problem. Amyloid plaques remained in place, yet sleep improved sharply when researchers removed most of the brain’s microglia—the immune cells that react to those plaques.

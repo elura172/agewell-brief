@@ -1,5 +1,4 @@
----
-title: "Research Shows Sleeping 6.4 to 7.8 Hours a Night May Help Slow Aging - Verywell Health"
+---title: "Research Shows Sleeping 6.4 to 7.8 Hours a Night May Help Slow Aging - Verywell Health"
 date: 2026-08-03T05:58:21.035386+00:00
 draft: false
 category: "sleep health"
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@anastasiya-vragova-22991246"
 image_source_url: "https://www.pexels.com/photo/an-alarm-clock-on-bedside-near-a-sleeping-woman-8346006/"
 image_review_status: "pending"
 image_avg_color: "#CFCFCF"
+topics: ['longevity', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 New research suggests a specific sleep duration range could be linked to slower biological aging. Here's what to make of the findings.

@@ -1,5 +1,4 @@
----
-title: "FDA warns of hidden ingredients in some sleep, skin, and bodybuilding products"
+---title: "FDA warns of hidden ingredients in some sleep, skin, and bodybuilding products"
 date: 2026-08-02T10:32:43.853848+00:00
 updated: 2026-08-02T11:02:46+00:00
 draft: false
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@edward-jenner"
 image_source_url: "https://www.pexels.com/photo/two-scientists-working-inside-the-laboratory-4031693/"
 image_review_status: "human-reviewed"
 image_avg_color: "#C1C2BD"
+topics: ['consumer safety', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 Some products marketed as dietary supplements or foods contain undeclared drugs. The FDA's searchable list can help you check.
 

@@ -36,7 +36,9 @@ const briefs = defineCollection({
       year: z.union([z.string(), z.number()]).transform((v) => String(v)),
       discovery: z.string()
     })).optional().default([]),
-    ancestral_insight: z.string().optional()
+    ancestral_insight: z.string().optional(),
+    topics: z.array(z.string()).optional().default([]),
+    frameworks: z.array(z.string()).optional().default([])
   })
 });
 

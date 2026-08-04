@@ -1,5 +1,4 @@
----
-title: "Researchers map how single neurons assemble spoken language"
+---title: "Researchers map how single neurons assemble spoken language"
 date: 2026-08-02T11:23:45+00:00
 updated: 2026-08-02T11:23:45+00:00
 draft: false
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@laura-garcia-1597504841/"
 image_source_url: "https://www.pexels.com/photo/elderly-man-speaking-with-microphone-at-event-31589574/"
 image_review_status: "human-reviewed"
 image_avg_color: "#4D4C4C"
+topics: ['brain health', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 
 Recordings from eight people revealed how individual neurons tracked grammar, meaning, and sentence context during natural conversation. The work maps part of language production at cellular scale; it does not read private thoughts or demonstrate a speech prosthesis.

@@ -1,5 +1,4 @@
----
-title: "Detection firm finds 82% of herbal remedy books on Amazon ‘likely written’ by AI"
+---title: "Detection firm finds 82% of herbal remedy books on Amazon ‘likely written’ by AI"
 date: 2026-08-02T22:38:23.084822+00:00
 draft: true
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@koolshooters"
 image_source_url: "https://www.pexels.com/photo/a-long-haired-man-holding-a-magnifying-glass-6981528/"
 image_review_status: "pending"
 image_avg_color: "#393531"
+topics: ['brain health', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 
 A new analysis by Originality.ai suggests most herbal remedy books on Amazon may be AI-generated, raising concerns about quality and accuracy.

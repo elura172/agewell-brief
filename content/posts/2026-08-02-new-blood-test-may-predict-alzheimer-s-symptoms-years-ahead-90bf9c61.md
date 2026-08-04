@@ -1,5 +1,4 @@
----
-title: "New Blood Test May Predict Alzheimer's Symptoms Years Ahead"
+---title: "New Blood Test May Predict Alzheimer's Symptoms Years Ahead"
 date: 2026-08-02T09:07:46+00:00
 draft: false
 category: "brain health"
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@karola-g"
 image_source_url: "https://www.pexels.com/photo/laboratory-worker-using-modern-hospital-equipment-6627687/"
 image_review_status: "human-reviewed"
 image_avg_color: "#7DABA7"
+topics: ['brain health', 'consumer safety', 'mobility']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A new biomarker model could sharpen forecasts of disease progression years before symptoms begin.

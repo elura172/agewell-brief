@@ -1,5 +1,4 @@
---- 
-title: "Stable excitatory-inhibitory synapse balance despite dynamic turnover"
+---title: "Stable excitatory-inhibitory synapse balance despite dynamic turnover"
 date: 2026-08-03T08:39:18.814899+00:00
 draft: false
 category: "brain health"
@@ -15,6 +14,8 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New live-imaging research reveals that excitatory and inhibitory synapses remodel continuously, yet their overall balance remains steady—a finding with deep implications for brain health and aging.

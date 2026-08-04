@@ -1,5 +1,4 @@
---- 
-title: "Two hours of sleep restored: Researchers make Alzheimer's breakthrough"
+---title: "Two hours of sleep restored: Researchers make Alzheimer's breakthrough"
 date: 2026-08-02T07:25:36.040015+00:00
 draft: true
 category: "brain health"
@@ -12,6 +11,8 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
+topics: ['brain health', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 
 ## Two hours of sleep restored: Researchers make Alzheimer's breakthrough

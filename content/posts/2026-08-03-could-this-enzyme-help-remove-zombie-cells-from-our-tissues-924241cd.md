@@ -1,5 +1,4 @@
----
-title: "Could this enzyme help remove 'zombie' cells from our tissues?"
+---title: "Could this enzyme help remove 'zombie' cells from our tissues?"
 date: 2026-08-03T01:57:08.954082+00:00
 draft: false
 category: "longevity"
@@ -21,6 +20,8 @@ image_photographer_url: "https://www.pexels.com/@zeoxs"
 image_source_url: "https://www.pexels.com/photo/woman-in-white-robe-looking-through-microscope-11730899/"
 image_review_status: "pending"
 image_avg_color: "#BFBEBA"
+topics: ['cellular senescence', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Cell Shedding', 'Living Waters', 'Luminous Mind']
 ---
 Scientists are homing in on an enzyme that may help remove senescent cells—the so-called 'zombie' cells that accumulate with age. Here's what the research suggests and what it doesn't.
 

@@ -1,5 +1,4 @@
----
-title: "Rhythms of life: melatonin, nutrition, sleep, and antioxidant strategies for healthy aging - Frontiers"
+---title: "Rhythms of life: melatonin, nutrition, sleep, and antioxidant strategies for healthy aging - Frontiers"
 date: 2026-08-02T22:48:43.676383+00:00
 draft: false
 category: "sleep health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@apurva-chandwadkar-2156423320"
 image_source_url: "https://www.pexels.com/photo/traditional-indian-cooking-process-with-sliced-vegetables-37330104/"
 image_review_status: "pending"
 image_avg_color: "#805F36"
+topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 A new review explains how the body's daily rhythms change with age and why meal timing and certain foods might help keep them strong.
 

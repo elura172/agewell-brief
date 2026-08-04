@@ -1,5 +1,4 @@
----
-title: "APOE2 may protect the brain from Alzheimer’s and aging"
+---title: "APOE2 may protect the brain from Alzheimer’s and aging"
 date: 2026-08-02T18:08:37.559736+00:00
 draft: true
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@thirdman"
 image_source_url: "https://www.pexels.com/photo/a-person-in-white-lab-gown-looking-through-microscope-8940359/"
 image_review_status: "pending"
 image_avg_color: "#B9BEC4"
+topics: ['brain health', 'longevity']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A new lab study reveals how the longevity-linked APOE2 variant protects neurons from DNA damage and stress, offering a potential path for Alzheimer's therapies.

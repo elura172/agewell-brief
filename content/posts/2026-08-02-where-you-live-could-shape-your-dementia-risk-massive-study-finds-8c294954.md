@@ -1,5 +1,4 @@
----
-title: "Where you live could shape your dementia risk, massive study finds"
+---title: "Where you live could shape your dementia risk, massive study finds"
 date: 2026-08-02T21:44:38.665835+00:00
 draft: true
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@centre-for-ageing-better-559546
 image_source_url: "https://www.pexels.com/photo/diverse-people-engaging-in-hula-hoop-exercise-indoors-33768815/"
 image_review_status: "pending"
 image_avg_color: "#76716B"
+topics: ['brain health', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A new global analysis of more than 214,000 older adults reveals that dementia risk factors vary widely by country, but some patterns are surprisingly consistent.

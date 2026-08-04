@@ -1,5 +1,4 @@
----
-title: "Researchers find simple habit to improve physical and mental health"
+---title: "Researchers find simple habit to improve physical and mental health"
 date: 2026-08-02T22:19:44.677591+00:00
 draft: true
 category: "sleep health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@shvets-production"
 image_source_url: "https://www.pexels.com/photo/elderly-man-sitting-on-the-bed-8899502/"
 image_review_status: "pending"
 image_avg_color: "#6B6764"
+topics: ['longevity', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 New research from the University of Missouri suggests that sticking to a regular daily schedule could improve well-being, especially for older adults struggling with insomnia.

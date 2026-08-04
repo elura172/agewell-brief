@@ -1,5 +1,4 @@
----
-title: "Eating less protein could slow aging, major review finds"
+---title: "Eating less protein could slow aging, major review finds"
 date: 2026-08-02T22:24:36.983685+00:00
 draft: false
 category: "longevity"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@askar-abayev"
 image_source_url: "https://www.pexels.com/photo/happy-family-enjoying-dinner-in-garden-5638644/"
 image_review_status: "pending"
 image_avg_color: "#736158"
+topics: ['longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A sweeping analysis of over 350 studies suggests that many sedentary people may be consuming more protein than they need, and that cutting back could improve metabolism and reduce inflammation. But experts caution that the right amount depends on age and activity level.

@@ -1,5 +1,4 @@
----
-title: "First-of-its-kind study reveals how sleep strengthens memory and how epilepsy can disrupt the process"
+---title: "First-of-its-kind study reveals how sleep strengthens memory and how epilepsy can disrupt the process"
 date: 2026-08-02T19:42:45.995186+00:00
 draft: false
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_source_url: "https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-how-machine-learning-is-inspired-by-neuroscience-and-the-human-brain-it-was-created-by-novoto-studio-as-par-17483869/"
 image_review_status: "pending"
 image_avg_color: "#C0CEDB"
+topics: ['brain health', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 A first-of-its-kind study shows three brain regions working together during sleep to strengthen memories—and how epilepsy can disrupt that process.
 

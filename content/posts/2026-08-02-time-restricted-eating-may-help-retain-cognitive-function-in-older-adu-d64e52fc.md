@@ -1,5 +1,4 @@
----
-title: "Time-restricted eating may help retain cognitive function in older adults"
+---title: "Time-restricted eating may help retain cognitive function in older adults"
 date: 2026-08-02T19:14:38Z
 draft: false
 category: "brain health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@cristian-rojas"
 image_source_url: "https://www.pexels.com/photo/elderly-woman-eating-her-healthy-breakfast-7261107/"
 image_review_status: "human-reviewed"
 image_avg_color: "#A69A8D"
+topics: ['brain health', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 A six-month pilot study of 47 women ages 50 to 79 found modest gains in spatial planning and problem-solving with time-restricted eating. But the small trial can’t show it prevents dementia.
 

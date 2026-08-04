@@ -1,5 +1,4 @@
---- 
-title: "Gut health is an ecology, not a single supplement"
+---title: "Gut health is an ecology, not a single supplement"
 date: 2026-08-03T00:00:00-04:00
 draft: false
 category: "gut health"
@@ -15,6 +14,8 @@ image_photographer: "Kat Smith / Pexels"
 image_photographer_url: "https://www.pexels.com/@katsmith"
 image_provider: "Pexels"
 image_avg_color: "#1a3a2a"
+topics: ['brain health', 'gut health', 'mobility', 'sleep health']
+frameworks: ['Inner Garden', 'Living Waters', 'Luminous Mind']
 ---
 
 The Inner Garden guide treats the gut as a living ecology. Its focus is not a quick reset, but the conditions that help a person build steadier routines around food, digestion, and microbial balance.

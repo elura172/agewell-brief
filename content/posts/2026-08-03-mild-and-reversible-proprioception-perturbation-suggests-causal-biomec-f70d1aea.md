@@ -1,5 +1,4 @@
---- 
-title: "Mild and Reversible Proprioception Perturbation Suggests Causal Biomechanics for Memory-Dependent Spatial Behavior in Mice"
+---title: "Mild and Reversible Proprioception Perturbation Suggests Causal Biomechanics for Memory-Dependent Spatial Behavior in Mice"
 date: 2026-08-03T08:08:37.903119+00:00
 draft: false
 category: "brain health"
@@ -15,6 +14,8 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
+topics: ['brain health', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 A new study in mice finds that temporarily disrupting proprioception—the sense of body position—causes subtle navigation errors, offering a fresh window into how the brain builds spatial memory.

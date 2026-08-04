@@ -1,5 +1,4 @@
----
-title: "Scientists discover how obesity may fuel Alzheimer’s disease"
+---title: "Scientists discover how obesity may fuel Alzheimer’s disease"
 date: 2026-08-02T18:12:33.536021+00:00
 draft: true
 category: "metabolic health"
@@ -20,6 +19,8 @@ image_photographer_url: "https://www.pexels.com/@shvetsa"
 image_source_url: "https://www.pexels.com/photo/close-up-shot-of-mri-results-4226264/"
 image_review_status: "pending"
 image_avg_color: "#868E93"
+topics: ['brain health', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New research in Alzheimer's models suggests obesity-related fats can reach the brain, disrupt immune defenses, and boost amyloid buildup. Correcting the imbalance improved memory.
