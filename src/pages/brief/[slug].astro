@@ -166,6 +166,24 @@ const structuredData = [
     </div>}
     <div class="article-content"><Content /></div>
 
+    {entry.data.autoresearch_antecedents && entry.data.autoresearch_antecedents.length > 0 && (
+      <aside class="article-lineage-card" aria-label="Historical Biophysics Antecedents">
+        <div class="lineage-card-header">
+          <span class="lineage-eyebrow">Pioneer Lineage · Historical Precursors</span>
+          <h3>Scientific Precursors & Foundational Discoveries</h3>
+        </div>
+        <div class="lineage-timeline">
+          {entry.data.autoresearch_antecedents.map((item) => (
+            <div class="lineage-item">
+              <span class="lineage-year">{item.year}</span>
+              <span class="lineage-scientist">{item.scientist}</span>
+              <p class="lineage-discovery">{item.discovery}</p>
+            </div>
+          ))}
+        </div>
+      </aside>
+    )}
+
     <aside class="article-protocol-card" aria-label="Recommended Fullscript Protocol">
       <div class="protocol-card-header">
         <span class="protocol-eyebrow">Program Protocol · Fullscript Direct</span>
@@ -213,6 +231,51 @@ const structuredData = [
     border: 1px solid var(--saffron-soft);
     border-radius: 12px;
     box-shadow: var(--shadow-sm);
+  }
+
+  .article-lineage-card {
+    margin: 40px 0;
+    padding: 28px 32px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+  }
+  .lineage-eyebrow {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--saffron-ink);
+  }
+  .article-lineage-card h3 {
+    margin: 4px 0 20px;
+    font-size: 1.3rem;
+  }
+  .lineage-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .lineage-item {
+    padding-left: 16px;
+    border-left: 2px solid var(--saffron);
+  }
+  .lineage-year {
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--saffron-ink);
+    margin-right: 8px;
+  }
+  .lineage-scientist {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--ink);
+  }
+  .lineage-discovery {
+    margin: 4px 0 0;
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.4;
   }
   .protocol-eyebrow {
     display: inline-block;

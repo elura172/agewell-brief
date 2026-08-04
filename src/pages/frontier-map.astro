@@ -8,7 +8,11 @@ import { frontierStatusLabels, frontierTerritories } from "../data/frontier-map"
 import lineageData from "../../config/biophysics-lineage.json";
 
 const briefs = publishedBriefs(await getCollection("briefs"));
-const countFor = (category: string) => briefs.filter((entry) => entry.data.category.toLowerCase() === category).length;
+const countFor = (category: string) => briefs.filter((entry) => {
+  const cat = entry.data.category.toLowerCase();
+  const topics = (entry.data.topics || []).map((t) => t.toLowerCase());
+  return cat === category || topics.includes(category);
+}).length;
 const pioneers = lineageData.pioneers || [];
 ---
 <Layout
