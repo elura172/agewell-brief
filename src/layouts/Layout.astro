@@ -64,6 +64,8 @@ const structuredDataJSON = structuredData
           
           if (href.includes("fullscript.com")) {
             posthog.capture("fullscript_link_clicked", { url: href, text: target.innerText });
+          } else if (href.includes("substack.com")) {
+            posthog.capture("substack_link_clicked", { url: href, text: target.innerText });
           } else if (href.includes(".pdf")) {
             posthog.capture("pdf_download_clicked", { pdf: href, name: target.innerText });
           }
@@ -104,6 +106,7 @@ const structuredDataJSON = structuredData
         <a href="/#latest" title="Today's Lead Feature & Signals">Latest</a>
         <a href="/frontier-map/" title="Frontier Map — Visual Index of Biophysics Research Territories">Frontier map</a>
         <a href="/mind-ocean/" title="Mind Ocean — Interactive Biophotonic Semantic Canvas">Mind ocean</a>
+        <a href="https://agewellbrief.substack.com" target="_blank" rel="noopener noreferrer" title="Agewell Brief on Substack">Substack ↗</a>
         <a href="/about/" title="About — Editorial Discipline & Mission">About</a>
         <button type="button" id="font-size-btn" class="font-size-btn" title="Toggle Reader Text Size (Normal / Medium / Large)">
           <span aria-hidden="true">Aa</span>
@@ -116,6 +119,7 @@ const structuredDataJSON = structuredData
       <div class="footer-signature"><span>AGEWELL BRIEF</span><span>Clear signals. Better questions.</span></div>
       <nav class="footer-links" aria-label="Publication information">
         <a href="/about/">About</a>
+        <a href="https://agewellbrief.substack.com" target="_blank" rel="noopener noreferrer">Substack ↗</a>
         <a href="/editorial-policy/">Editorial policy</a>
         <a href="/spiral-of-cellular-light/">Spiral framework</a>
         <a href="/affiliate-disclosure/">Disclosure</a>
