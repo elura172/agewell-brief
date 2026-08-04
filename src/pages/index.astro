@@ -101,7 +101,11 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
               variant="card"
             />}
             <div class="quick-story-copy">
-              <div class="story-topline"><span>{entry.data.category}</span><span>{String(index + 2).padStart(2, "0")}</span></div>
+              <div class="story-topline">
+                <span>{entry.data.category}</span>
+                <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
+                <span>{String(index + 2).padStart(2, "0")}</span>
+              </div>
               <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
               <div class="story-foot"><span>{formatDate(entry.data.date)}</span><a href={`/brief/${entry.id}/`}>Read signal <span>→</span></a></div>
             </div>
@@ -210,7 +214,9 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
             <article class="archive-entry">
               <div class="archive-index">{String(index + 4).padStart(2, "0")}</div>
               <div class="archive-copy">
-                <p>{entry.data.category} · {formatDate(entry.data.date)}</p>
+                <p>
+                  <span>{entry.data.category}</span> · <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span> · <span>{formatDate(entry.data.date)}</span>
+                </p>
                 <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
               </div>
               <a class="archive-source" href={entry.data.source_url} rel="noopener noreferrer">Original source <span>↗</span></a>
