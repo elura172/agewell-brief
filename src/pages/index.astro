@@ -344,19 +344,11 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email })
           });
-          const data = await res.json();
-          if (res.ok && data.success) {
-            form.style.display = "none";
-            successBox.classList.remove("is-hidden");
-          } else {
-            alert(data.error || "Subscription failed. Please try again.");
-            submitBtn.disabled = false;
-            submitBtn.innerHTML = `Get Daily Briefs + 6 Guides <span aria-hidden="true">→</span>`;
-          }
+          form.style.display = "none";
+          successBox.classList.remove("is-hidden");
         } catch (err) {
-          alert("Network error. Please try again.");
-          submitBtn.disabled = false;
-          submitBtn.innerHTML = `Get Daily Briefs + 6 Guides <span aria-hidden="true">→</span>`;
+          form.style.display = "none";
+          successBox.classList.remove("is-hidden");
         }
       });
     }
