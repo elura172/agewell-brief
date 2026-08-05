@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-05T07:19:21.734197+00:00",
+  "updated_at": "2026-08-05T08:51:40.089454+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -70,7 +70,7 @@
           "last_error": "HTTPError"
         }
       },
-      "updated_at": "2026-08-04T09:06:48.432998+00:00"
+      "updated_at": "2026-08-05T08:51:40.088850+00:00"
     },
     "2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61": {
       "article_id": "2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
@@ -294,7 +294,7 @@
           "last_error": "HTTPError"
         }
       },
-      "updated_at": "2026-08-04T09:06:48.432617+00:00"
+      "updated_at": "2026-08-05T08:51:40.088333+00:00"
     },
     "2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d": {
       "article_id": "2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d",
@@ -381,7 +381,7 @@
           "updated_at": "2026-08-04T15:28:58.593690+00:00"
         }
       },
-      "updated_at": "2026-08-04T15:28:58.594176+00:00"
+      "updated_at": "2026-08-05T08:51:40.087826+00:00"
     },
     "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7": {
       "article_id": "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7",
@@ -410,7 +410,36 @@
           "updated_at": "2026-08-05T00:11:36.509462+00:00"
         }
       },
-      "updated_at": "2026-08-05T00:11:36.509815+00:00"
+      "updated_at": "2026-08-05T08:51:40.089445+00:00"
+    },
+    "2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910": {
+      "article_id": "2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910",
+      "article_url": "https://agewellbrief.com/brief/2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910/",
+      "title": "2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910",
+      "category": "longevity",
+      "content_record": ".state/content-records/2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910.json",
+      "video_job": ".state/video-jobs/2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-05T08:51:40.086767+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-05T08:51:40.086773+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-05T08:51:40.086777+00:00"
+        }
+      },
+      "updated_at": "2026-08-05T08:51:40.087261+00:00"
     }
   }
 }
