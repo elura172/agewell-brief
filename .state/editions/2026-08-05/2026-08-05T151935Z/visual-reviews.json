@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "a3e2f9830ab284770cca6b41",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:24346263",
+      "score": 85,
+      "rationale": "The image metadata depicts a man using a neurofeedback device, which aligns with the story's focus on EEG and auditory processing in older adults. The setting appears to be a research or clinical environment, and the subject is engaged with the device, matching the editorial intent of showing an older adult in a research setting with EEG equipment. The mood is calm and scientific, fitting the story's tone.",
+      "concerns": [
+        "The metadata does not explicitly state the subject's age, so it may not be an older adult. Additionally, the device is described as a 'neurofeedback device' rather than an EEG cap, but it is likely similar. The image may not show the subject listening to sounds, but the focus on EEG equipment is sufficient."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-05/effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983-pexels-24346263.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

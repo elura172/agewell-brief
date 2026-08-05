@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-05T14:55:45.205810+00:00",
+  "updated_at": "2026-08-05T15:21:15.949126+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -440,6 +440,35 @@
         }
       },
       "updated_at": "2026-08-05T08:51:40.087261+00:00"
+    },
+    "2026-08-05-effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983": {
+      "article_id": "2026-08-05-effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983",
+      "article_url": "https://agewellbrief.com/brief/2026-08-05-effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983/",
+      "title": "Effects of neural aging on speech perception in bilinguals vs. monolinguals",
+      "category": "brain health",
+      "content_record": ".state/content-records/2026-08-05-effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983.json",
+      "video_job": ".state/video-jobs/2026-08-05-effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-05T15:21:15.948576+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-05T15:21:15.948583+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-05T15:21:15.948586+00:00"
+        }
+      },
+      "updated_at": "2026-08-05T15:21:15.949118+00:00"
     }
   }
 }

@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Comprehensive review of locus coeruleus role in cognition, but it's a broad overview without a single new finding or breakthrough. The mechanisms described are well-established in the field.",
+      "angle": "Focus on the specific new insight that LC dysfunction is an early marker for Alzheimer's, and how NM-MRI could be used for early diagnosis.",
+      "mode": "agent"
+    },
+    "a3e2f9830ab284770cca6b41": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific finding",
+      "reason": "Provides a specific, counterintuitive finding: bilingualism may protect against age-related delays in auditory processing, with older bilinguals showing fewer neural delays than monolinguals. This has clear implications for cognitive aging.",
+      "angle": "Could bilingualism delay age-related hearing decline? New EEG study shows older bilinguals' brains respond faster to speech sounds.",
+      "mode": "agent"
+    },
+    "82c9e6fa1bf6e0c034d4806e": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies a novel mechanism: Clusterin acts as a negative feedback regulator of microglial inflammation, independent of amyloid pathology. This challenges current understanding and offers a new therapeutic target.",
+      "angle": "New Alzheimer's clue: Clusterin protein may be a master switch for brain inflammation, independent of amyloid plaques.",
+      "mode": "agent"
+    },
+    "9a016694c3393bf06f5f3ba6": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "therapeutic advance",
+      "reason": "Presents a potential new therapy: delivering recombinant ApoE2 to the brain to counteract ApoE4, the strongest genetic risk factor for Alzheimer's. This is a novel approach with promising results in mice.",
+      "angle": "Can we 'override' the Alzheimer's gene? New therapy delivers protective ApoE2 protein to the brain, boosting metabolism and cognition in mice.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "new technology",
+      "reason": "Applies a novel in-situ cell-surface proteomic profiling method to identify a new pro-longevity factor, DIP-β, in glial cells. This is a technical advance that opens new avenues for aging research.",
+      "angle": "First-ever map of glial cell surface proteins in the brain reveals a new protein that extends lifespan when boosted.",
+      "mode": "agent"
+    },
+    "f3f1884b751fabdbbdb611bd": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "technical improvement",
+      "reason": "Technical machine learning paper on coreset selection. Highly specialized and not directly relevant to the aging-focused audience.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Generic advice on a daily workout for seniors. While useful, it lacks a specific new finding or unique angle. Similar content is widely available.",
+      "angle": "Could focus on the specific trainer's credentials and the 'simple and safe' aspect, but still generic.",
+      "mode": "agent"
+    },
+    "628fba671bb13fc20dfac71b": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "observational",
+      "reason": "Headline suggests a study on brain health protecting memory in early Alzheimer's, but the summary is just a headline with no details. Needs more substance to be compelling.",
+      "angle": "Investigate the underlying study to see if it offers a new metric or intervention.",
+      "mode": "agent"
+    },
+    "ecf3b9ec01e047b31f242baf": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific finding",
+      "reason": "Explains a specific and curious phenomenon: why laughter triggers cataplexy in narcolepsy. This is a focused, interesting question with a clear mechanism.",
+      "angle": "Why laughter makes some people collapse: New research pinpoints the brain circuit behind cataplexy.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "a3e2f9830ab284770cca6b41",
+    "82c9e6fa1bf6e0c034d4806e",
+    "9a016694c3393bf06f5f3ba6",
+    "c376819f2d54a4df1d317aee",
+    "ecf3b9ec01e047b31f242baf"
+  ],
+  "held_back": [
+    "29ba27a2d854f8745e1ea94c",
+    "f3f1884b751fabdbbdb611bd",
+    "256b3e11dfff849235aebba7",
+    "628fba671bb13fc20dfac71b"
+  ],
+  "mode": "agent"
+}
