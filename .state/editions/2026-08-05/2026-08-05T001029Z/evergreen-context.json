@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "616f0fc71a48824a3135566c",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "7cd643e6f594a31c",
+        "source": "Dr. Otto Warburg (1924) — The Metabolism of Tumours & Oxygen Respiration",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      },
+      {
+        "source_id": "048bf7cd36116322",
+        "source": "Dr. Gerald Pollack (2013) — The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 13
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

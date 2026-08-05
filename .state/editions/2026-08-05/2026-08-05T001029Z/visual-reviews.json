@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "616f0fc71a48824a3135566c",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:15290013",
+      "score": 85,
+      "rationale": "The image depicts a researcher examining a sample through a microscope, which aligns with the editorial intent of showing a researcher analyzing epigenetic data. The setting is a laboratory, matching the described setting. The mood is analytical and focused, fitting the story's scientific theme.",
+      "concerns": [
+        "The image shows a microscope rather than a computer monitor with DNA methylation data, but it still conveys scientific research. It does not include the athlete component, but the split composition can be achieved by pairing with an exercise image."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-05/the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7-pexels-15290013.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
