@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "628fba671bb13fc20dfac71b",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:17979470",
+      "score": 85,
+      "rationale": "The image depicts a senior woman jogging outdoors, which aligns with the editorial intent of showing a mature adult engaged in a brain-healthy activity. The setting (rural landscape with mountains) conveys a natural, energetic mood, and the subject matches the specified 'senior woman' and 'jogging' criteria. The metadata does not suggest fear, sickness, or stereotypes, and it is not a generic lifestyle image but directly illustrates the story's theme of proactive cognitive resilience through physical activity.",
+      "concerns": [
+        "The setting is a dirt road in a rural landscape, not a park as specified in the image brief, but this is a minor deviation. The image is not a close-up and avoids negative connotations."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-05/overall-brain-health-protects-memory-from-early-alzheimer-s-neuroscien-628fba67-pexels-17979470.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

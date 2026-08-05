@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic review",
+      "reason": "Comprehensive review of locus coeruleus and cognition, but largely a synthesis of known mechanisms; lacks a specific new finding or breakthrough.",
+      "angle": "Focus on the newly detailed tonic-phasic firing switch and co-release of noradrenaline/dopamine as a potential unified model for cognitive decline.",
+      "mode": "agent"
+    },
+    "412ab6a9d01aee6fee0e19af": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "novel biomarker",
+      "reason": "Introduces a novel imaging biomarker (PReFx) for cerebral arterial elasticity, linking it to cardiovascular risk burden in older adults. Offers a new tool for early detection.",
+      "angle": "Can a simple optical scan of brain artery elasticity predict cardiovascular risk years before symptoms?",
+      "mode": "agent"
+    },
+    "768c6a3b7ed700c723bdf32a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "systematic review",
+      "reason": "Systematic review of neuroplasticity in adult L2 learning; findings are heterogeneous and not yet conclusive. Lacks a clear, actionable takeaway.",
+      "angle": "Why learning a new language in adulthood may be the best brain workout: separating evidence from hype.",
+      "mode": "agent"
+    },
+    "bc707cbe6e54dbf13904c36c": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Provides a detailed multimodal analysis of immune dysregulation in Down syndrome, linking interferon hyperactivity to progressive B cell loss and repertoire deterioration. Offers new mechanistic insights.",
+      "angle": "How trisomy 21 accelerates immune aging: a new window into the link between genetics and immunity.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "novel intervention",
+      "reason": "Identifies a specific glial cell-surface protein (DIP-β) that extends lifespan when overexpressed in flies. First in-situ glial proteomics in intact brains, offering a new target for aging interventions.",
+      "angle": "A single protein on brain support cells extends lifespan in flies: could it work in humans?",
+      "mode": "agent"
+    },
+    "f3f1884b751fabdbbdb611bd": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "technical method",
+      "reason": "Technical machine learning paper on coreset selection; highly specialized and not directly relevant to aging or health. Low reader interest for our audience.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Generic workout advice for seniors; similar content widely available. Lacks a new scientific finding or unique angle.",
+      "angle": "Could a 4-minute daily routine be enough? We break down the science behind the latest senior fitness trend.",
+      "mode": "agent"
+    },
+    "628fba671bb13fc20dfac71b": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "public health insight",
+      "reason": "Highlights a new study showing overall brain health protects memory even in early Alzheimer's, shifting focus from amyloid to holistic brain health. Offers a hopeful, actionable message.",
+      "angle": "Brain health may shield memory from Alzheimer's: why lifestyle could be your best defense.",
+      "mode": "agent"
+    },
+    "ecf3b9ec01e047b31f242baf": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Explains the mechanism behind cataplexy triggered by laughter, a specific and intriguing symptom of narcolepsy. Provides a clear neurological explanation.",
+      "angle": "Why a good laugh can make you collapse: the brain science of cataplexy.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "412ab6a9d01aee6fee0e19af",
+    "bc707cbe6e54dbf13904c36c",
+    "c376819f2d54a4df1d317aee",
+    "628fba671bb13fc20dfac71b",
+    "ecf3b9ec01e047b31f242baf"
+  ],
+  "held_back": [
+    "29ba27a2d854f8745e1ea94c",
+    "768c6a3b7ed700c723bdf32a",
+    "f3f1884b751fabdbbdb611bd",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}
