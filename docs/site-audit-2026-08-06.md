@@ -27,7 +27,11 @@ simply never wired to a build-time public var. PostHog by contrast DOES load in 
 
 ## HIGH — headlines are unedited source titles
 
-`title == source_title` on every brief that carries both (6/6). Archive shows raw
+52 of 70 briefs ship the source title verbatim; only 18 were rewritten. (An earlier
+count of "6/6" here was wrong — the regex missed the 64 files whose line 1 is
+`---title:`.) The 18 rewrites show the mechanism works well when it fires: "Gut health
+is an ecology, not a single supplement", "A sleep EEG 'brain age' score tracked future
+dementia risk". Archive shows raw
 academic paper titles: "Regional cerebral arterial elasticity is associated with
 cardiovascular health in cognitively healthy older adults" (114 chars),
 "LiteVax-adjuvanted influenza vaccine induces transient interferon-driven innate
@@ -43,7 +47,8 @@ the setting is inverted relative to need: `rewrite` on the 5 NIH/FDA feeds, whic
 already publish plain-English titles, and `preserve` on all 26 journal/preprint
 feeds (arXiv, bioRxiv, medRxiv, Nature Aging, eLife, GeroScience, Frontiers) whose
 titles are exactly the unreadable ones. Flipping the journal feeds to `rewrite` is a
-config change, no code. Keeping FDA/NIH on `preserve` is defensible — regulatory
+config change, no code. Note this is TWO changes, not one: FDA/NIH are currently on
+`rewrite`, so moving them to `preserve` is a real edit — worth doing, since regulatory
 recall wording is the one place verbatim fidelity actually matters.
 
 Two decisions this needs from the user, not silent defaults:

@@ -314,10 +314,20 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
       <div id="subscribe-success-box" class="subscribe-success is-hidden">
         <span class="success-icon">✨</span>
         <h3>One step left — confirm on Substack.</h3>
-        <p>
+        <p id="subscribe-handoff-lead">
           We opened Substack in a new tab; your subscription is live once you confirm there.
-          Meanwhile, all 6 Biophysics Field Guides (PDF) are yours to download right now:
         </p>
+        <p>
+          <a
+            id="subscribe-handoff-link"
+            href="https://agewellbrief.substack.com/subscribe"
+            target="_blank"
+            rel="noopener"
+            class="magnet-link"
+            >→ Confirm your subscription on Substack</a
+          >
+        </p>
+        <p>All 6 Biophysics Field Guides (PDF) are yours to download right now:</p>
         <div class="lead-magnet-grid">
           <a href="/downloads/field-guides/living-waters-field-guide.pdf" download class="magnet-link">🌊 Living Waters <em>(Fluid & Transport)</em></a>
           <a href="/downloads/field-guides/inner-garden-field-guide.pdf" download class="magnet-link">🌱 Inner Garden <em>(Gut Ecology)</em></a>
@@ -347,10 +357,20 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
         // the reader only ever sees "subscribed" from Substack itself.
         const handoff =
           "https://agewellbrief.substack.com/subscribe?email=" + encodeURIComponent(email);
-        window.open(handoff, "_blank", "noopener");
+        const opened = window.open(handoff, "_blank", "noopener");
+
+        // If the popup was blocked there is no Substack tab, so the copy must not
+        // claim one opened. Point the reader at a link they can actually click.
+        const link = document.getElementById("subscribe-handoff-link") as HTMLAnchorElement;
+        const lead = document.getElementById("subscribe-handoff-lead");
+        if (link) link.href = handoff;
+        if (lead && !opened) {
+          lead.textContent =
+            "Your browser blocked the new tab. Finish subscribing here — it takes one click:";
+        }
 
         submitBtn.disabled = true;
-        submitBtn.textContent = "Opened in a new tab →";
+        submitBtn.textContent = opened ? "Opened in a new tab →" : "Finish on Substack →";
         form.style.display = "none";
         successBox.classList.remove("is-hidden");
       });
