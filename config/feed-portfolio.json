@@ -72,7 +72,7 @@
     "name": "MedlinePlus Healthy Aging",
     "url": "https://medlineplus.gov/feeds/topics/healthyaging.xml",
     "priority": 3,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "MedlinePlus",
     "authority": "primary",
     "categories": [
@@ -86,7 +86,7 @@
     "name": "MedlinePlus Exercise for Older Adults",
     "url": "https://medlineplus.gov/feeds/topics/exerciseforolderadults.xml",
     "priority": 3,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "MedlinePlus",
     "authority": "primary",
     "categories": [
@@ -100,7 +100,7 @@
     "name": "Medical Xpress Healthy Aging",
     "url": "https://medicalxpress.com/rss-feed/breaking/healthy-aging-news/",
     "priority": 5,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Medical Xpress",
     "authority": "editorial",
     "categories": [
@@ -113,7 +113,7 @@
     "name": "Medical Xpress Nutrition",
     "url": "https://medicalxpress.com/rss-feed/breaking/nutrition-healthy-eating-news/",
     "priority": 3,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Medical Xpress",
     "authority": "editorial",
     "categories": [
@@ -127,7 +127,7 @@
     "name": "Medical Xpress Sleep",
     "url": "https://medicalxpress.com/rss-feed/breaking/sleep-news/",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Medical Xpress",
     "authority": "editorial",
     "categories": [
@@ -140,7 +140,7 @@
     "name": "Medical Xpress Neurology",
     "url": "https://medicalxpress.com/rss-feed/breaking/neurology-news/",
     "priority": 3,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Medical Xpress",
     "authority": "editorial",
     "categories": [
@@ -154,7 +154,7 @@
     "name": "ScienceDaily Healthy Aging",
     "url": "https://www.sciencedaily.com/rss/health_medicine/healthy_aging.xml",
     "priority": 5,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "ScienceDaily",
     "authority": "editorial",
     "categories": [
@@ -167,7 +167,7 @@
     "name": "ScienceDaily Top Health",
     "url": "https://www.sciencedaily.com/rss/top/health.xml",
     "priority": 2,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "ScienceDaily",
     "authority": "editorial",
     "categories": [
@@ -182,7 +182,7 @@
     "name": "Alternative Medicine Magazine",
     "url": "https://alternativemedicine.com/feed/",
     "priority": 1,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Alternative Medicine Magazine",
     "authority": "editorial",
     "categories": [
@@ -197,7 +197,7 @@
     "name": "arXiv q-bio",
     "url": "https://export.arxiv.org/rss/q-bio",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "arXiv",
     "authority": "preprint",
     "categories": [
@@ -213,7 +213,7 @@
     "name": "arXiv machine learning",
     "url": "https://export.arxiv.org/rss/cs.LG",
     "priority": 3,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "arXiv",
     "authority": "preprint",
     "categories": [
@@ -227,7 +227,7 @@
     "name": "arXiv artificial intelligence",
     "url": "https://export.arxiv.org/rss/cs.AI",
     "priority": 3,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "arXiv",
     "authority": "preprint",
     "categories": [
@@ -241,7 +241,7 @@
     "name": "arXiv medical physics",
     "url": "https://export.arxiv.org/rss/physics.med-ph",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "arXiv",
     "authority": "preprint",
     "categories": [
@@ -256,7 +256,7 @@
     "name": "bioRxiv neuroscience, genetics, physiology",
     "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience+genetics+physiology",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "bioRxiv",
     "authority": "preprint",
     "categories": [
@@ -271,7 +271,7 @@
     "name": "bioRxiv immunology and cell biology",
     "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=immunology+cell_biology",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "bioRxiv",
     "authority": "preprint",
     "categories": [
@@ -285,7 +285,7 @@
     "name": "medRxiv clinical and public health",
     "url": "https://connect.medrxiv.org/medrxiv_xml.php?subject=geriatrics+endocrinology+gastroenterology+neurology+public_health",
     "priority": 5,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "medRxiv",
     "authority": "preprint",
     "categories": [
@@ -301,7 +301,7 @@
     "name": "Frontiers in Physics (Biophysics)",
     "url": "https://www.frontiersin.org/journals/physics/rss",
     "priority": 5,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Frontiers",
     "authority": "primary",
     "categories": [
@@ -316,7 +316,7 @@
     "name": "Light: Science & Applications",
     "url": "https://www.nature.com/lsa.rss",
     "priority": 5,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Nature Publishing Group",
     "authority": "primary",
     "categories": [
@@ -331,7 +331,7 @@
     "name": "Photochemical & Photobiological Sciences",
     "url": "https://link.springer.com/search.rss?facet-journal-id=43630",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Springer / RSC",
     "authority": "primary",
     "categories": [
@@ -345,7 +345,7 @@
     "name": "Aging Cell",
     "url": "https://onlinelibrary.wiley.com/feed/14749726/most-recent",
     "priority": 5,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Wiley / Anatomical Society",
     "authority": "primary",
     "categories": [
@@ -360,7 +360,7 @@
     "name": "Nature Aging",
     "url": "https://www.nature.com/nataging.rss",
     "priority": 5,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Nature Publishing Group",
     "authority": "primary",
     "categories": [
@@ -375,7 +375,7 @@
     "name": "GeroScience",
     "url": "https://link.springer.com/search.rss?facet-journal-id=11357",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "American Aging Association",
     "authority": "primary",
     "categories": [
@@ -390,7 +390,7 @@
     "name": "Gut Microbes",
     "url": "https://www.tandfonline.com/feed/rss/kgmi20",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Taylor & Francis",
     "authority": "primary",
     "categories": [
@@ -404,7 +404,7 @@
     "name": "The ISME Journal (Microbial Ecology)",
     "url": "https://www.nature.com/ismej.rss",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Nature Publishing Group",
     "authority": "primary",
     "categories": [
@@ -418,7 +418,7 @@
     "name": "eLife Neuroscience",
     "url": "https://elifesciences.org/rss/subject/neuroscience.xml",
     "priority": 5,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "eLife Sciences",
     "authority": "primary",
     "categories": [
@@ -432,7 +432,7 @@
     "name": "Frontiers in Human Neuroscience",
     "url": "https://www.frontiersin.org/journals/human-neuroscience/rss",
     "priority": 4,
-    "headline_mode": "preserve",
+    "headline_mode": "rewrite",
     "publisher": "Frontiers",
     "authority": "primary",
     "categories": [
