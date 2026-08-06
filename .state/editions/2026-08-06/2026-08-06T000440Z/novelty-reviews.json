@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanism review",
+      "reason": "Comprehensive review of locus coeruleus in cognition, but largely consolidates known mechanisms; lacks a single striking new finding.",
+      "angle": "Focus on the LC's role as an early vulnerability node and its potential as a therapeutic target for cognitive decline.",
+      "mode": "agent"
+    },
+    "daff93d653d3ec4f454a94e7": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "longitudinal cohort",
+      "reason": "Longitudinal adolescent brain-age study linking suicidal ideation to brain maturation; novel use of latent profile analysis.",
+      "angle": "Adolescents with suicidal ideation show advanced brain aging? Implications for early intervention.",
+      "mode": "agent"
+    },
+    "768c6a3b7ed700c723bdf32a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "systematic review",
+      "reason": "Scoping review of adult L2 neuroplasticity; useful but not surprising, findings remain heterogeneous.",
+      "angle": "Highlight gaps in evidence for L2 learning as a cognitive reserve strategy in aging.",
+      "mode": "agent"
+    },
+    "412ab6a9d01aee6fee0e19af": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "biomarker",
+      "reason": "New optical imaging measure (PReFx) links arterial elasticity to cardiovascular risk in older adults; potential early marker.",
+      "angle": "Can a light-based brain scan predict cardiovascular risk before symptoms appear?",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanism discovery",
+      "reason": "First glial cell-surface proteomics in intact fly brains identifies DIP-β as pro-longevity factor; novel and specific.",
+      "angle": "New surface protein in glia extends lifespan: a target for brain aging therapies?",
+      "mode": "agent"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "surprising finding",
+      "reason": "EEG study shows REM sleep shifts brain processing from external to internal signals; counterintuitive and accessible.",
+      "angle": "Why your brain turns inward during dreams: new insights into sensory processing.",
+      "mode": "agent"
+    },
+    "f3f1884b751fabdbbdb611bd": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "technical method",
+      "reason": "Machine learning coreset selection method; highly technical and not directly relevant to aging audience.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Generic senior workout advice; similar content widely available.",
+      "angle": "Could tie to recent research on four-minute workouts for older adults.",
+      "mode": "agent"
+    },
+    "ecf3b9ec01e047b31f242baf": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "explainer",
+      "reason": "Explains cataplexy and laughter; interesting but not new, likely well-covered.",
+      "angle": "Focus on the neural mechanism and potential new treatments.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "daff93d653d3ec4f454a94e7",
+    "412ab6a9d01aee6fee0e19af",
+    "c376819f2d54a4df1d317aee",
+    "95c882437216b7799a061c53"
+  ],
+  "held_back": [
+    "29ba27a2d854f8745e1ea94c",
+    "768c6a3b7ed700c723bdf32a",
+    "f3f1884b751fabdbbdb611bd",
+    "256b3e11dfff849235aebba7",
+    "ecf3b9ec01e047b31f242baf"
+  ],
+  "mode": "agent"
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "412ab6a9d01aee6fee0e19af",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:12197297",
+      "score": 85,
+      "rationale": "The image depicts a young woman wearing an electronic headband, which aligns with the story's focus on optical imaging of the brain. The close-up and indoor setting suggest a clinical or research context, matching the editorial intent of showing a researcher and participant with an optical imaging device. The mood is focused and innovative, fitting the story's tone.",
+      "concerns": [
+        "The subject is a young woman, while the study participants are older adults (60-70 years). This age mismatch could be misleading. However, the image is not explicitly stated to be a participant in the study, and the headband is a reasonable visual metaphor for the technology."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-06/regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9-pexels-12197297.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
