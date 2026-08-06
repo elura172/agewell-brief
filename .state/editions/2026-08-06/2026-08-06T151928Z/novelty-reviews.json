@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic review",
+      "reason": "Comprehensive review of locus coeruleus function, but largely a synthesis of known mechanisms; lacks a specific new finding or breakthrough.",
+      "angle": "Focus on the LC's role as an early vulnerability node and potential therapeutic target for cognitive decline.",
+      "mode": "agent"
+    },
+    "abdc380548de0bde5169f1a3": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "molecular mechanism",
+      "reason": "Identifies a specific molecular interaction between CHCHD10 and TDP-43, potentially explaining a key pathway in ALS/FTD; novel mechanistic insight.",
+      "angle": "How a mitochondrial protein may regulate TDP-43 aggregation: a new target for ALS/FTD therapy.",
+      "mode": "agent"
+    },
+    "dad5e389f30c3e322ed374dc": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "drug mechanism",
+      "reason": "Shows semaglutide activates orexin and cholinergic systems, increasing hippocampal acetylcholine in aged rats; novel CNS mechanism for GLP-1 agonists.",
+      "angle": "Semaglutide's brain effects: could it boost memory by activating wakefulness and attention circuits?",
+      "mode": "agent"
+    },
+    "768c6a3b7ed700c723bdf32a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "systematic review",
+      "reason": "Scoping review of neuroplasticity in adult L2 learning; findings are heterogeneous and not yet conclusive, limiting immediate novelty.",
+      "angle": "What brain imaging reveals about learning a new language in adulthood: a critical look at the evidence.",
+      "mode": "agent"
+    },
+    "a6dbdd415ae548511c85bcd1": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "public health finding",
+      "reason": "Quantifies that nearly half of dementia cases may be linked to modifiable risks, reinforcing prevention; strong public interest.",
+      "angle": "Nearly half of dementia cases linked to modifiable risks: lifestyle changes that could delay cognitive decline.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "novel technology + discovery",
+      "reason": "First in-situ glial cell-surface proteomics in intact brains; identifies DIP-β as a pro-longevity factor, opening new avenues for brain aging research.",
+      "angle": "New technique reveals a glial protein that extends lifespan in flies: implications for brain aging.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "molecular mechanism",
+      "reason": "Reports a specific succinylation modification affecting mitochondrial metabolism in AD, but the broader significance is unclear without more context.",
+      "angle": "How a chemical modification on RNA-binding proteins may drive Alzheimer's neurodegeneration.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Generic workout advice for seniors; lacks specific new research or unique angle.",
+      "angle": "A trainer's simple daily workout for seniors: what to know before you start.",
+      "mode": "agent"
+    },
+    "ecf3b9ec01e047b31f242baf": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "explainer",
+      "reason": "Explains cataplexy in narcolepsy, but the mechanism is well-known; lacks new findings.",
+      "angle": "Why laughter can cause sudden muscle weakness in narcolepsy: the brain mechanism explained.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "abdc380548de0bde5169f1a3",
+    "dad5e389f30c3e322ed374dc",
+    "a6dbdd415ae548511c85bcd1",
+    "c376819f2d54a4df1d317aee"
+  ],
+  "held_back": [
+    "29ba27a2d854f8745e1ea94c",
+    "768c6a3b7ed700c723bdf32a",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7",
+    "ecf3b9ec01e047b31f242baf"
+  ],
+  "mode": "agent"
+}

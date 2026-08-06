@@ -1,64 +1,8 @@
 {
-  "generated_at": "2026-08-06T00:05:38.707735+00:00",
+  "generated_at": "2026-08-06T15:20:25.993489+00:00",
   "release_status": "published",
   "dry_run": false,
   "schema_version": 3,
   "includes_trending": false,
-  "packages": [
-    {
-      "article": "2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9",
-      "url": "https://agewellbrief.com/brief/2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9/",
-      "category": "metabolic health",
-      "trend": null,
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.30.740814v1?rss=1",
-      "content_record": {
-        "article_id": "2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9",
-        "article_url": "https://agewellbrief.com/brief/2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9/",
-        "title": "Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults",
-        "category": "metabolic health",
-        "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.30.740814v1?rss=1",
-        "editorial_body": "A novel optical technique reveals that cerebral arterial elasticity declines measurably in just 18 months, and cardiovascular risk burden is the hidden driver. why this matters Your brain is a vascular glutton. It consumes roughly 20% of your cardiac output, yet it has no energy reserves. That means every pulse of blood must be precisely buffered by elastic arteries before it reaches delicate capillary beds. When those arteries stiffen, the pulse wave slams into the microcirculation with excessive force, silently damaging the very tissue that generates your thoughts and memories. This is not abstract gerontology. The Windkessel model, formalized by Otto Frank in 1899, described how arterial elasticity converts the heart's pulsatile output into steady capillary flow. Nicolas Westerhof refined this in 1969 with the three-element model, adding characteristic impedance and peripheral resistance. The new study applies this century-old physics to the living human brain, using light to measure arterial compliance in real time. what was found Researchers used pulse diffuse optical tomography (pulse-DOT) to derive the pulse relaxation function (PReFx)—a direct measure of regional cerebral arterial elasticity—in 60–70 year old cognitively healthy, highly active adults. They found that higher cardiovascular risk factor (CVRF) burden—hypertension, cholesterol, diabetes, obesity—was linearly associated with lower cerebral arterial elasticity. The more risk factors, the stiffer the brain's arteries. Critically, the relationship between age and arterial elasticity was partially mediated by pulse pressure, an index of hypertension. This is the Windkessel signature: stiff arteries raise pulse pressure, which in turn drives further stiffening. And the decline was not hypothetical—PReFx dropped significantly over just 1.5 years, regardless of baseline risk factor levels. The aging brain's vascular compliance is eroding in real time. how to interpret it This is an observational study, so causality cannot be claimed. But the mechanistic bridge is solid: arterial stiffness reduces compliance, increasing pulse pressure and pulsatile energy transmission into the brain's low-impedance vascular bed. The partial mediation by pulse pressure is exactly what the Windkessel model predicts. The fact that decline occurred even in highly active, cognitively healthy adults suggests that vascular aging is relentless—but not necessarily immutable. The study's cohort is narrow (60–70, active, healthy), so generalizability is limited. Effect sizes and confidence intervals are not reported, and PReFx is not yet a validated clinical biomarker. However, the ability to non-invasively track regional cerebral arterial elasticity with light is a promising step toward early detection of cerebrovascular aging, potentially before cognitive symptoms emerge. practical next steps For the sovereign individual, the actionable insight is that cardiovascular risk factors—hypertension, cholesterol, diabetes, obesity—are not just heart problems; they are brain problems. The same arterial stiffness that drives pulse pressure also erodes cerebral compliance. Managing these factors through diet, exercise, and medical oversight is the most direct way to protect your brain's vascular tree. Ancestral patterns support this: hunter-gatherer lifestyles with high physical activity and low sodium intake are associated with lower blood pressure and better arterial elasticity. The mechanism is clear—exercise increases shear stress on endothelium, boosting nitric oxide and arterial compliance; low sodium reduces vascular smooth muscle tone. You can apply this today: prioritize aerobic exercise, reduce processed sodium, and monitor your blood pressure. Your brain's arteries will thank you. Three things to remember - Cerebral arterial elasticity declines measurably in just 1.5 years. - Cardiovascular risk burden linearly correlates with stiffer brain arteries. - Pulse pressure partially mediates age-related arterial stiffening. Source This analysis is based on Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults from bioRxiv neuroscience, genetics, physiology. Read the original report for full context. Health note: This preprint is observational and not yet peer-reviewed. It does not prove causality or establish PReFx as a clinical biomarker. Consult a physician before making medical decisions."
-      },
-      "mpt_job": {
-        "status": "ready_for_mpt",
-        "subject": "Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults",
-        "article_url": "https://agewellbrief.com/brief/2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9/",
-        "video_aspect": "9:16",
-        "voice_name": "en-US-AvaNeural",
-        "script": "Metabolism is pure solar transformation—how your mitochondria convert living light into cellular ATP energy. A new biophysics study just dropped on 'Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults'. A novel optical technique reveals that cerebral arterial elasticity declines measurably in just 18 months, and cardiovascular risk burden is the hidden driver. why this matters Your brain is a vascular glutton. It consum. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
-        "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.30.740814v1?rss=1",
-        "trend": null,
-        "text_fore_color": "#FEFEFE",
-        "highlight_color": "#F59E0B",
-        "stroke_color": "#0B0F19",
-        "stroke_width": 2,
-        "font_size": 48,
-        "subtitle_bottom_margin": 210,
-        "max_words_per_line": 3,
-        "active_word_scale": 1.12,
-        "uppercase_keywords": true,
-        "bold_keywords": true,
-        "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
-        "subtitle_bg_padding": 12,
-        "subtitle_glow_enabled": true,
-        "requires_video_qa": false
-      },
-      "facebook": {
-        "title": "✨ [Cosmic Biophysics] Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults\n\nA novel optical technique reveals that cerebral arterial elasticity declines measurably in just 18 months, and cardiovascular risk burden is the hidden driver. why this matters Your brain is a vascular glutton. It consumes roughly 20% of your cardiac output, yet it has no energy .",
-        "link_url": "https://agewellbrief.com/brief/2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9/"
-      },
-      "tiktok": {
-        "hook": "✨ Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults",
-        "script": "Metabolism is pure solar transformation—how your mitochondria convert living light into cellular ATP energy. A new biophysics study just dropped on 'Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults'. A novel optical technique reveals that cerebral arterial elasticity declines measurably in just 18 months, and cardiovascular risk burden is the hidden driver. why this matters Your brain is a vascular glutton. It consum. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
-        "caption": "✨ Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults. Quantum biophysics breakdown from Agewell Brief. Tap bio link for full study & 6 free Field Guides! #biophysics #cellularlongevity #cosmicmedicine #healthyaging",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9/",
-        "media_status": "ready_for_mpt"
-      },
-      "youtube": {
-        "title": "✨ Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively h",
-        "description": "Metabolism is pure solar transformation—how your mitochondria convert living light into cellular ATP energy. A new biophysics study just dropped on 'Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults'. A novel optical technique reveals that cerebral arterial elasticity declines measurably in just 18 months, and cardiovascular risk burden is the hidden driver. why this matters Your brain is a vascular glutton. It consum. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.\n\nRead the full biophysics brief & download the 6 Field Guides: https://agewellbrief.com/brief/2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9/\n\nSource-led biophysics reporting from Agewell Brief.",
-        "media_status": "ready_for_mpt"
-      }
-    }
-  ]
+  "packages": []
 }
