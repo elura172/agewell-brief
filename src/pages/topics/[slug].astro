@@ -79,8 +79,54 @@ const guide = topicGuides[category.toLowerCase()] ?? {
   question: `What is worth understanding about ${category}?`
 };
 const description = `${guide.lede} Original sources, useful context, and questions worth carrying forward.`;
+const topicURL = new URL(`/topics/${topicSlug(category)}/`, Astro.site).href;
+
+// Topic pages are the surface a topical query lands on, so they carry their own
+// schema: the collection itself, its ordered briefs, and the framing question
+// answered in prose above.
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${category} — Agewell Brief`,
+    description,
+    url: topicURL,
+    about: { "@type": "Thing", name: category },
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Agewell Brief",
+      url: new URL("/", Astro.site).href
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Agewell Brief",
+      url: new URL("/", Astro.site).href
+    },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: briefs.length,
+      itemListElement: briefs.map((entry, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: new URL(`/brief/${entry.id}/`, Astro.site).href,
+        name: entry.data.title
+      }))
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: guide.question,
+        acceptedAnswer: { "@type": "Answer", text: guide.lede }
+      }
+    ]
+  }
+];
 ---
-<Layout title={`${category} — Agewell Brief`} description={description}>
+<Layout title={`${category} — Agewell Brief`} description={description} structuredData={structuredData}>
   <main class="topic-page">
     <a class="back-link" href="/">← Today’s edition</a>
     <header class="topic-header">
