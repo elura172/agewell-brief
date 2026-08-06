@@ -28,18 +28,18 @@ A new global analysis of more than 214,000 older adults reveals that dementia ri
 
 For decades, most research on dementia prevention has come from high-income countries like the U.S. and Western Europe. That left a big question: do those findings apply everywhere? A new study suggests the answer is no—and that has real implications for how we think about brain health as we age.
 
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_8c294954ae5e5b72e0354302" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 The study, led by researchers at the University of Southern California, looked at data from 14 countries and regions, including the U.S., England, China, India, and Brazil. It found that the prevalence of key dementia risk factors—like low education, high blood pressure, and smoking—varies dramatically from place to place. That means a one-size-fits-all approach to prevention is unlikely to work globally.
 
 But the findings also carry a hopeful message: many of the biggest risk factors are modifiable. You can't change your genes, but you can take steps to address things like high blood pressure, smoking, and physical inactivity. And understanding how these risks differ across populations can help public health officials target their efforts more effectively.
+
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>This is Luminous Mind territory</h3>
+<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 
 ## What the study found
 
@@ -71,6 +71,15 @@ The researchers plan to expand their work to more countries, including Kenya and
 - Low education affects 85.6% in China vs. 12% in U.S.
 - High BMI found in 44.9% of Americans vs. 13.3% in India.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Where you live could shape your dementia risk, massive study finds](https://www.sciencedaily.com/releases/2026/07/260713000753.htm) from ScienceDaily Healthy Aging. Read the original report for full context.

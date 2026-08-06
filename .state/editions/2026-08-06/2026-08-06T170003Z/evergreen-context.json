@@ -1,0 +1,44 @@
+[
+  {
+    "article_id": "dad5e389f30c3e322ed374dc",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "3199d23705ba918b",
+        "source": "Dr. Herbert Fröhlich (1968) — Long-Range Coherence and Energy Storage in Biological Systems",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/Users/mirrr/agewell-brief/config/biophysics-lineage.json",
+        "score": 21
+      },
+      {
+        "source_id": "2cd8729bdce3f913",
+        "source": "Dr. Robert O. Becker (1985) — The Body Electric: Electromagnetism and the Foundation of Life",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/Users/mirrr/agewell-brief/config/biophysics-lineage.json",
+        "score": 19
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  },
+  {
+    "article_id": "44d85c20f70b28aea7edb7f1",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "7cd643e6f594a31c",
+        "source": "Dr. Otto Warburg (1924) — The Metabolism of Tumours & Oxygen Respiration",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/Users/mirrr/agewell-brief/config/biophysics-lineage.json",
+        "score": 13
+      },
+      {
+        "source_id": "c7c3927f5f0a450a",
+        "source": "Dr. Erwin Schrödinger (1944) — What is Life? The Physical Aspect of the Living Cell",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/Users/mirrr/agewell-brief/config/biophysics-lineage.json",
+        "score": 10
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

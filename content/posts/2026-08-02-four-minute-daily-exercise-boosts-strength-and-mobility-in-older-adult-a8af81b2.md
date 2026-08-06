@@ -32,6 +32,15 @@ This new study from Penn State College of Medicine offers a simpler possibility.
 
 That’s a hopeful message for anyone who has felt that exercise is out of reach. It also points to a practical way to support independence, which is central to quality of life as we age.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>This is Dark Mirror territory</h3>
+<p>Mineral balance and bio-clearing — heavy metal chelation, mineral ratios, and deep tissue clearing. The Dark Mirror spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What the study found
 
 The research, published in PLOS One, followed 97 adults aged 65 and older, with an average age of 74. Participants were randomly assigned to either a four-minute daily routine called FAST-2 or to continue their usual activities. At the start, they were quite inactive, averaging only about 18 minutes of exercise per week.
@@ -62,6 +71,15 @@ The study’s message is encouraging: small, consistent efforts can lead to mean
 - Participants completed exercises on 81% of days.
 - Study was small and short; more research needed.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Four-minute daily exercise boosts strength and mobility in older adults - The Brighter Side of News](https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNWctSXQzdGMzdGVpUzVlc0NaS3hWUThQUnhCWVlObGxhWmpNVUwyel92M01BekJEWDRVdXFtR1lYaHVLQmFBbmJfNUR6cHVtclAxY2RMeGRQWmprRUJXRHIxV0VlMnhFcDBoMEhqQWNGSG5tZzRoYmIyS2dMZHZUSGhrSXpOWDV4OXRNMVoxUkptVElueDRBM0hmTURfM0VVcjNUT2Zr?oc=5) from The Brighter Side of News. Read the original report for full context.

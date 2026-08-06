@@ -292,7 +292,14 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 .resource-card h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 1.75rem; line-height: 1.1; }
 .resource-card .resource-link { display: inline-flex; align-items: center; color: var(--ink); font-weight: 700; text-decoration-thickness: 2px; }
 .resource-card .resource-link span { padding-left: 8px; color: var(--saffron-ink); }
+.resource-card .resource-guide { margin: 10px 0 0; font-size: .82rem; }
+.resource-card .resource-guide a { color: var(--saffron-ink); font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .resource-card .resource-disclosure { margin: 14px 0 0; color: var(--muted); font-size: .75rem; }
+/* A brief carries the same spiral up to three times. The closing card is the one
+   the reader should land on, so it gets the weight; the mid card stays quietest. */
+.resource-card--closing { border-left: 3px solid var(--saffron); }
+.resource-card--mid { background: color-mix(in oklch, var(--mist) 30%, var(--paper)); }
+.resource-card--mid h3 { font-size: 1.45rem; }
 .article-content h3 + ul, .article-content h2 + ul { margin: 1em 0 2.2em; border: 1px solid var(--line); background: color-mix(in oklch, var(--mist) 42%, var(--paper)); padding: 20px 26px 20px 48px; font-family: var(--sans); font-size: 1rem; line-height: 1.55; }
 .article-content h3 + ul li, .article-content h2 + ul li { margin: 7px 0; padding-left: 5px; }
 .article-content h3 + ul li::marker, .article-content h2 + ul li::marker { color: var(--saffron-ink); font-weight: 700; }

@@ -30,6 +30,15 @@ A first-of-its-kind study shows three brain regions working together during slee
 - Epilepsy can interfere with this memory-strengthening process.
 - Study is observational; details on methods are not yet available.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This signal is based on [First-of-its-kind study reveals how sleep strengthens memory and how epilepsy can disrupt the process](https://medicalxpress.com/news/2026-07-kind-reveals-memory-epilepsy-disrupt.html) from Medical Xpress Sleep. Read the original report for full context.

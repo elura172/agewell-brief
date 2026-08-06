@@ -1,0 +1,91 @@
+{
+  "scores": {
+    "375fb29d7511db082bed2796": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise; specific result or population detail; frontier source deserves contextual reporting",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "11abe8f3fd3c8d6a3a5a424a": {
+      "score": 46,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise; headline contains a concrete news hook",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "f0e1657204cbafe3dfa75622": {
+      "score": 66,
+      "decision": "commission",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism; headline contains a concrete news hook",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "de2477f7de5571dbdbe656e9": {
+      "score": 53,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "frontier source deserves contextual reporting",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "8ceb4683a1d2939678198258": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "628fba671bb13fc20dfac71b": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "6f6cf84a5f7b2c0274480fae": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    }
+  },
+  "commissioned_ids": [
+    "f0e1657204cbafe3dfa75622"
+  ],
+  "held_back": [
+    "375fb29d7511db082bed2796",
+    "11abe8f3fd3c8d6a3a5a424a",
+    "de2477f7de5571dbdbe656e9",
+    "8ceb4683a1d2939678198258",
+    "256b3e11dfff849235aebba7",
+    "628fba671bb13fc20dfac71b",
+    "95c882437216b7799a061c53",
+    "6f6cf84a5f7b2c0274480fae"
+  ],
+  "mode": "deterministic_fallback",
+  "error": "Error code: 400 - {'error': {'message': \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}"
+}

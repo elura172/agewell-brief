@@ -26,6 +26,15 @@ Cellular senescence is a real area of aging biology. Researchers study how senes
 
 That distinction matters. A person reading about senolytics may encounter strong claims about clearing aging, reversing disease, or restoring every system at once. The research is more specific and more cautious than that.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>This is Cell Shedding territory</h3>
+<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this cellular senescence story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What the framework emphasizes
 
 The guide presents cell shedding as a sequence: prepare transport, use a short plant-compound phase, and allow time for recovery and elimination. It also treats practice, sleep, food, and attention as part of the protocol rather than as accessories to a capsule schedule.
@@ -42,20 +51,21 @@ Senolytic research remains an evolving field. The intervention, dose, tissue, ti
 
 Use the guide as a reading map. Ask what the human evidence shows, what remains preclinical, how the proposed compounds interact with current medication, and what monitoring would be appropriate. The ordinary foundations of healthy aging remain relevant while the field develops: movement, sleep, nutrition, social connection, and preventive care.
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>Cell Shedding senolytic framework</h3>
-<p>Explore the companion protocol behind this program perspective.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you.</p>
-</aside>
-
 ## Three things to remember
 
 - Senescence is a legitimate research topic, not a settled treatment pathway.
 - A supplement protocol cannot be inferred from a laboratory finding.
 - Ask about evidence, interactions, dose, and monitoring before acting.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This evergreen program perspective is based on [The Spiral of Cell Shedding — A Senolytic Protocol Guide](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==), supplied as a companion guide for the Spiral of Cellular Light.

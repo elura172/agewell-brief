@@ -1,0 +1,37 @@
+[
+  {
+    "article_id": "f0e1657204cbafe3dfa75622",
+    "title": "AI-enabled measurements of 'local brain aging' offer detailed insights on dementia and more",
+    "source_url": "https://medicalxpress.com/news/2026-08-ai-enabled-local-brain-aging.html",
+    "source_name": "Medical Xpress Healthy Aging",
+    "stage": "draft",
+    "requested_content_type": "lead",
+    "error": "DeepSeek returned an invalid draft twice: Error code: 400 - {'error': {'message': \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}",
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "Error code: 400 - {'error': {'message': \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}",
+        "raw_response": ""
+      },
+      {
+        "attempt": 2,
+        "error": "Error code: 400 - {'error': {'message': \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}",
+        "raw_response": ""
+      }
+    ],
+    "resolution": "skipped",
+    "fallback_error": "DeepSeek returned an invalid draft twice: Error code: 400 - {'error': {'message': \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}",
+    "fallback_attempts": [
+      {
+        "attempt": 1,
+        "error": "Error code: 400 - {'error': {'message': \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}",
+        "raw_response": ""
+      },
+      {
+        "attempt": 2,
+        "error": "Error code: 400 - {'error': {'message': \"No models loaded. Please load a model in the developer page or use the 'lms load' command.\", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}",
+        "raw_response": ""
+      }
+    ]
+  }
+]

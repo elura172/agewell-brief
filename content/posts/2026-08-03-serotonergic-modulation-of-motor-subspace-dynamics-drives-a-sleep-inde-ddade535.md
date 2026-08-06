@@ -26,14 +26,13 @@ For over half a century, serotonin’s role in sleep and arousal has been a neur
 
 This distinction is crucial for understanding how we rest without losing awareness, a state that may be central to practices like meditation or ‘yoga nidra.’ It also has implications for conditions like insomnia or motor disorders, where serotonin signaling is often targeted. By pinpointing the exact neural subspaces affected, we move closer to designing interventions that promote rest without cognitive dulling.
 
-
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://bc1997qedzev4y5lgq-n2a2z05.hop.clickbank.net?tid=agewell_brain_health_ddade535e7a9d6b82af76362" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>This is Luminous Mind territory</h3>
+<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## What was found
@@ -67,6 +66,14 @@ As we age, sleep quality often declines, and understanding these mechanisms coul
 - Biophysical links: biophotons, EZ water, and metabolic shifts.
 
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Serotonergic modulation of motor subspace dynamics drives a sleep-independent quiescent state](https://elifesciences.org/articles/110370) from eLife Neuroscience. Read the original report for full context.

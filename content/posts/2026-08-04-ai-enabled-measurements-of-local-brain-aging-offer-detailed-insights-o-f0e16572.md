@@ -21,14 +21,13 @@ This new AI model, built on structural MRI scans, generates detailed maps of 'lo
 
 For sovereign adults who want to protect their cognitive future, this is a step toward personalized brain health. Instead of a single 'brain age' number, you get a regional blueprint—where your hippocampus is aging faster than your prefrontal cortex, for instance. That is actionable intelligence.
 
-
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://7dbe25ykandw5k5drftiwfy5b8.hop.clickbank.net?tid=agewell_brain_health_f0e1657204cbafe3dfa75622" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>This is Luminous Mind territory</h3>
+<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## What was found
@@ -62,6 +61,14 @@ Stay tuned for validation studies. The next step is to see if these maps can pre
 - Not yet a clinical diagnostic tool.
 
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [AI-enabled measurements of 'local brain aging' offer detailed insights on dementia and more](https://medicalxpress.com/news/2026-08-ai-enabled-local-brain-aging.html) from Medical Xpress Healthy Aging. Read the original report for full context.

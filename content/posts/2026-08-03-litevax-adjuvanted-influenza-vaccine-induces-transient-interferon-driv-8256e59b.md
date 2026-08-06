@@ -26,14 +26,13 @@ As we age, our immune system changes in ways that can weaken vaccine responses�
 
 Adjuvants are ingredients added to vaccines to boost the immune response. The new LiteVax Adjuvant (LVA) is designed to do this more effectively in older adults. If it works, it could lead to flu vaccines that offer better protection for people over 60.
 
-
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://7dbe25ykandw5k5drftiwfy5b8.hop.clickbank.net?tid=agewell_brain_health_8256e59bc511896e66949f0e" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>This is Dark Mirror territory</h3>
+<p>Mineral balance and bio-clearing — heavy metal chelation, mineral ratios, and deep tissue clearing. The Dark Mirror spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## What the study found
@@ -67,6 +66,14 @@ Keep an eye on future research about LVA and other adjuvants. This study is a st
 - More research is needed before it becomes available.
 
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [LiteVax-adjuvanted influenza vaccine induces transient interferon-driven innate activation and accelerates early IgG3 responses in older adults](https://www.biorxiv.org/content/10.64898/2026.07.28.741158v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

@@ -30,6 +30,15 @@ Your body runs on a roughly 24-hour cycle, orchestrated by a master clock in the
 
 But aging doesn't have to mean your internal clock falls apart. A recent review in Frontiers in Neuroscience suggests that some of these changes are a normal part of aging, not a disease. The key is distinguishing between healthy adjustments and harmful disruptions—and learning what you can do to support your body's natural rhythms.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>This is Luminous Mind territory</h3>
+<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this sleep health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What the review found
 
 The review, published in March 2026, pulls together decades of research on melatonin, the hormone that signals darkness and helps regulate sleep. It found that melatonin levels naturally decline with age, and that this drop is linked to weaker circadian rhythms, more fragmented sleep, and increased oxidative stress and inflammation.
@@ -60,14 +69,15 @@ If you're considering melatonin supplements, talk to your doctor first. The revi
 - Meal timing may help sync your body's internal clocks.
 - Tryptophan-rich foods might support natural melatonin production.
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for steadier routines</h3>
-<p>For readers interested in taking the ideas in this sleep health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://3342c50per1ucmcrzlgeu6jm52.hop.clickbank.net?tid=agewell_sleep_health_8112ba27cb9695e280fc6a08" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Rhythms of life: melatonin, nutrition, sleep, and antioxidant strategies for healthy aging - Frontiers](https://news.google.com/rss/articles/CBMilAFBVV95cUxObXlNT0JxbmZTbUY4R29kT3d5U1c2Ujl2b09fYXVJd3JQYTZvSzkxaDlyMTZFeENLcFhicEFkaEhhaHRiVHJ4RTBMZGhodHFrb3B3cjNzWjlVUXllQ01xQXlmQVNXWFZrVmdIQ1g1Rk16dVlfc0o5MFhfRVQ1V0h6NzZ4WVA0Wm9NeG1PZUZTRkZoOUV5?oc=5) from Frontiers. Read the original report for full context.

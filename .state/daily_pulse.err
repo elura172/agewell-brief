@@ -1,0 +1,114 @@
+Feed failed (NIH Research Matters): HTTP Error 403: Forbidden
+Feed failed (NIH News Releases): HTTP Error 403: Forbidden
+Feed failed (Photochemical & Photobiological Sciences): not well-formed (invalid token): line 14, column 4
+Feed failed (Aging Cell): HTTP Error 403: Forbidden
+Feed failed (Nature Aging): not well-formed (invalid token): line 14, column 4
+Feed failed (GeroScience): not well-formed (invalid token): line 14, column 4
+Feed failed (Gut Microbes): HTTP Error 403: Forbidden
+Feed failed (The ISME Journal (Microbial Ecology)): not well-formed (invalid token): line 14, column 4
+Source page failed (Medical Xpress Healthy Aging): HTTP Error 403: Forbidden
+Evidence agent fallback (Medical Xpress Healthy Aging): Error code: 400 - {'error': {'message': "No models loaded. Please load a model in the developer page or use the 'lms load' command.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}
+Draft skipped (Medical Xpress Healthy Aging): DeepSeek returned an invalid draft twice: Error code: 400 - {'error': {'message': "No models loaded. Please load a model in the developer page or use the 'lms load' command.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}
+Traceback (most recent call last):
+  File "/Users/mirrr/agewell-brief/scripts/daily_pulse.py", line 86, in <module>
+    run_pulse()
+    ~~~~~~~~~^^
+  File "/Users/mirrr/agewell-brief/scripts/daily_pulse.py", line 55, in run_pulse
+    build_result = subprocess.run(["npm", "run", "build"], cwd=ROOT, capture_output=True, text=True)
+  File "/Users/mirrr/.local/share/uv/python/cpython-3.13-macos-aarch64-none/lib/python3.13/subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mirrr/.local/share/uv/python/cpython-3.13-macos-aarch64-none/lib/python3.13/subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mirrr/.local/share/uv/python/cpython-3.13-macos-aarch64-none/lib/python3.13/subprocess.py", line 1972, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'npm'
+Could not find platform independent libraries <prefix>
+Could not find platform dependent libraries <exec_prefix>
+Fatal Python error: Failed to import encodings module
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000001f3f7dd80 (most recent call first):
+  <no Python frame>
+Could not find platform independent libraries <prefix>
+Could not find platform dependent libraries <exec_prefix>
+Fatal Python error: Failed to import encodings module
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000001f3f7dd80 (most recent call first):
+  <no Python frame>
+Could not find platform independent libraries <prefix>
+Could not find platform dependent libraries <exec_prefix>
+Fatal Python error: Failed to import encodings module
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000001f3f7dd80 (most recent call first):
+  <no Python frame>
+Could not find platform independent libraries <prefix>
+Could not find platform dependent libraries <exec_prefix>
+Fatal Python error: Failed to import encodings module
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000001ee02dd80 (most recent call first):
+  <no Python frame>
+Could not find platform independent libraries <prefix>
+Could not find platform dependent libraries <exec_prefix>
+Fatal Python error: Failed to import encodings module
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000001ee02dd80 (most recent call first):
+  <no Python frame>
+Could not find platform independent libraries <prefix>
+Could not find platform dependent libraries <exec_prefix>
+Fatal Python error: Failed to import encodings module
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000001ee02dd80 (most recent call first):
+  <no Python frame>
+Feed failed (NIH Research Matters): HTTP Error 403: Forbidden
+Feed failed (NIH News Releases): HTTP Error 403: Forbidden
+Feed failed (Photochemical & Photobiological Sciences): not well-formed (invalid token): line 14, column 4
+Feed failed (GeroScience): not well-formed (invalid token): line 14, column 4
+Feed failed (The ISME Journal (Microbial Ecology)): not well-formed (invalid token): line 14, column 4
+Source page failed (Aging Cell): HTTP Error 403: Forbidden
+Source page failed (Aging Cell): HTTP Error 403: Forbidden
+Evidence agent fallback (bioRxiv neuroscience, genetics, physiology): Connection error.
+Draft skipped (bioRxiv neuroscience, genetics, physiology): DeepSeek returned an invalid draft twice: Connection error.
+Evidence agent fallback (Aging Cell): Connection error.
+Draft skipped (Aging Cell): DeepSeek returned an invalid draft twice: Connection error.
+Traceback (most recent call last):
+  File "/Users/mirrr/agewell-brief/scripts/daily_pulse.py", line 86, in <module>
+    run_pulse()
+    ~~~~~~~~~^^
+  File "/Users/mirrr/agewell-brief/scripts/daily_pulse.py", line 55, in run_pulse
+    build_result = subprocess.run(["npm", "run", "build"], cwd=ROOT, capture_output=True, text=True)
+  File "/Users/mirrr/.local/share/uv/python/cpython-3.13.5-macos-aarch64-none/lib/python3.13/subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mirrr/.local/share/uv/python/cpython-3.13.5-macos-aarch64-none/lib/python3.13/subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mirrr/.local/share/uv/python/cpython-3.13.5-macos-aarch64-none/lib/python3.13/subprocess.py", line 1972, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'npm'

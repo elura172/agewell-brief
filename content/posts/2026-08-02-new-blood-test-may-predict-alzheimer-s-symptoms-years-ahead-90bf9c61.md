@@ -34,6 +34,15 @@ Now, researchers funded by the National Institutes of Health have identified a n
 
 The possible value reaches beyond forecasting. Identifying people who are close to developing symptoms could help researchers choose the right participants for clinical trials and judge more clearly whether a treatment delays cognitive decline.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>This is Luminous Mind territory</h3>
+<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What the Study Found
 
 The research, published in Nature Medicine, analyzed blood data from more than 1,200 people across multiple independent cohorts. The team, led by Dr. Carlos Cruchaga at Washington University School of Medicine in St. Louis, identified a set of 34 circRNAs associated with Alzheimer's disease. They then built predictive models based on these circRNAs and compared them to models based on pTau217, the leading clinical blood biomarker for Alzheimer's.
@@ -62,6 +71,15 @@ Anyone noticing persistent changes in memory or thinking can bring a written lis
 - They outperform pTau217 in forecasting disease progression.
 - Test not yet available; more research needed.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [New Alzheimer’s blood test may tell when symptoms are around the corner](https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner) from NIH News Releases. Read the original report for full context.

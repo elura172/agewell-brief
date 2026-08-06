@@ -28,18 +28,18 @@ A new study finds that people in their 80s and 90s with exceptional memory don't
 
 Forgetting names or where you left your keys can feel like an inevitable part of aging. But a small group of older adults, called SuperAgers, seem to defy that trend. They reach their 80s and 90s with memory abilities that rival people decades younger. Understanding what makes them different could help all of us protect our brains as we age.
 
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net/?tid=agewell_brain_health_07f7c8b122a9b70c692156be" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 For nearly 20 years, scientists have studied SuperAgers to uncover their secrets. One obvious guess was that these individuals simply inherited fewer genetic risk factors for Alzheimer's disease. If true, a simple blood test could identify them. But a new study, published in Alzheimer's Research & Therapy, challenges that idea, suggesting the reasons for their cognitive resilience are more complex.
 
 The stakes are high. Alzheimer's disease is a leading cause of dementia, and as the population ages, finding ways to preserve memory is more urgent than ever. SuperAgers offer a living proof that cognitive decline is not inevitable, and their study may reveal pathways to healthier aging for everyone.
+
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>This is Luminous Mind territory</h3>
+<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 
 ## What the study found
 
@@ -71,6 +71,15 @@ In the meantime, the findings support a broader view of brain health. Rather tha
 - Genetic risk scores didn't separate SuperAgers from peers.
 - Protective factors beyond genes are likely at play.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Superagers keep youthful memories but their DNA does not explain why](https://www.sciencedaily.com/releases/2026/07/260723084045.htm) from ScienceDaily Healthy Aging. Read the original report for full context.

@@ -31,14 +31,14 @@ New research from the University of Missouri suggests that sticking to a regular
 - Benefits appear strongest for older adults with insomnia.
 
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for steadier routines</h3>
-<p>For readers interested in taking the ideas in this sleep health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://b52a6dthnsfp7u1cz8sd19x75g.hop.clickbank.net?tid=agewell_sleep_health_383802cd993d84e3894e8290" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
-
 ### Source
 
 This signal is based on [Researchers find simple habit to improve physical and mental health](https://medicalxpress.com/news/2026-07-simple-habit-physical-mental-health.html) from Medical Xpress Healthy Aging. Read the original report for full context.

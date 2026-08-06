@@ -30,14 +30,15 @@ Long flights disrupt more than sleep—your gut bacteria may also feel the time 
 - Gut disruption can cause fatigue and digestive discomfort.
 - Plan ahead to help your gut adjust to new time zones.
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for steadier routines</h3>
-<p>For readers interested in taking the ideas in this sleep health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://3342c50per1ucmcrzlgeu6jm52.hop.clickbank.net?tid=agewell_sleep_health_383365b2eedf64e24a6db060" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This signal is based on [Your gut can get jet lag too: How not to waste the first days of your vacation](https://medicalxpress.com/news/2026-07-gut-jet-lag-days-vacation.html) from Medical Xpress Sleep. Read the original report for full context.

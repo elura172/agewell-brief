@@ -26,7 +26,6 @@ if env_path.exists():
 from bs4 import BeautifulSoup
 from openai import OpenAI
 
-from agewell.affiliates import load_health_status, select_offer, select_offers, tracked_offer_url
 from agewell.agents import (
     autoresearch_context_subagent,
     assignment_editor,
@@ -843,93 +842,142 @@ def resource_heading(category: str) -> str:
     return headings.get(category.lower(), "A practical follow-up to explore")
 
 
-def resource_card(url: str, category: str, *, primary: bool = False, first_party: bool = False) -> str:
-    label = "Practical follow-up" if primary else "More to explore"
-    heading = resource_heading(category)
-    intro = (
-        f"For readers interested in taking the ideas in this {category} brief a step further, "
-        "we’ve included an optional resource that may be useful."
-        if primary
-        else "An optional resource for readers who want another place to begin."
+def spiral_card(spiral: dict[str, Any], category: str, *, placement: str = "mid") -> str:
+    """Render one Spiral of Cellular Light call to action.
+
+    Up to three placements per brief, each written to stand alone so a reader who
+    lands mid-article still sees the connection. The register is confident rather
+    than apologetic: this is a real protocol addressing the mechanism the story is
+    about. The commission disclosure stays, because it is required and because
+    saying it plainly costs nothing.
+    """
+    name = spiral.get("name", "Spiral of Cellular Light")
+    domain = spiral.get("domain", "")
+    promise = spiral.get("promise", "")
+    url = spiral["url"]
+    guide = spiral.get("guide", "")
+
+    copy = {
+        "opening": (
+            f"<h3>This is {name} territory</h3>\n"
+            f"<p>{domain} — {promise}. The {name} spiral is the protocol built for the "
+            f"exact mechanism this {category} story turns on.</p>"
+        ),
+        "mid": (
+            f"<h3>Work with this mechanism directly</h3>\n"
+            f"<p>{name} turns {promise} into a practitioner-designed protocol you can "
+            f"actually run, rather than a finding you can only read about.</p>"
+        ),
+        "closing": (
+            f"<h3>Where to take this next</h3>\n"
+            f"<p>Reading the research is the first move. {name} — {domain.lower()} — is "
+            f"the second: a structured protocol for {promise}.</p>"
+        ),
+    }[placement]
+
+    guide_link = (
+        f'<p class="resource-guide"><a href="{guide}" download>'
+        f"Download the {name} field guide (PDF)</a></p>"
+        if guide
+        else ""
     )
-    disclosure = (
-        "This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you."
-        if first_party
-        else "Commission-supported; no added cost to you."
+    # Commission-earning links must be rel="sponsored". Passing ranking signals through a
+    # paid link is a link scheme, and the trust cost lands on the editorial pages we
+    # want cited.
+    card = (
+        f'\n\n<aside class="resource-card resource-card--primary resource-card--{placement}"'
+        f' aria-label="{name} program">\n'
+        f'<p class="resource-kicker">Spiral of Cellular Light · {name}</p>\n'
+        f"{copy}\n"
+        f'<p><a class="resource-link" href="{url}" rel="sponsored noopener noreferrer">'
+        f'Open the {name} protocol <span aria-hidden="true">→</span></a></p>\n'
+        f"{guide_link}\n"
+        f'<p class="resource-disclosure">{name} is our own program. We earn a commission '
+        f"when you enrol; there is no added cost to you.</p>\n"
+        f"</aside>"
     )
-    # Commission-earning links must be rel="sponsored" whether the offer is a third-party
-    # affiliate or our own program. Passing ranking signals through a paid link is a link
-    # scheme, and the trust cost lands on the editorial pages we want cited.
-    rel = "sponsored noopener noreferrer"
-    return f'''\n\n<aside class="resource-card{' resource-card--primary' if primary else ''}" aria-label="{label}">
-<p class="resource-kicker">{label}</p>
-<h3>{heading}</h3>
-<p>{intro}</p>
-<p><a class="resource-link" href="{url}" rel="{rel}">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">{disclosure}</p>
-</aside>'''
+    return card
 
 
-def program_resources() -> dict[str, str]:
+SPIRAL_CONFIG_FILE = Path(os.getenv("SPIRAL_CONFIG_FILE", ROOT / "config/spiral-programs.json"))
+
+
+def spiral_config() -> dict[str, Any]:
+    """Load the Spiral of Cellular Light program map."""
     try:
-        value = json.loads(PROGRAM_RESOURCES_JSON)
+        return json.loads(SPIRAL_CONFIG_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"Could not read {SPIRAL_CONFIG_FILE}: {exc}", file=sys.stderr)
+        return {}
+
+
+def program_resources() -> dict[str, Any]:
+    """Spirals keyed by slug. PROGRAM_RESOURCES_JSON can override individual URLs."""
+    config = spiral_config()
+    spirals = {str(k).lower(): dict(v) for k, v in (config.get("spirals") or {}).items()}
+    try:
+        override = json.loads(PROGRAM_RESOURCES_JSON)
     except json.JSONDecodeError:
-        return {}
-    if not isinstance(value, dict):
-        return {}
-    return {
-        str(category).lower(): str(url)
-        for category, url in value.items()
-        if isinstance(url, str) and url.startswith("https://")
-    }
+        override = {}
+    if isinstance(override, dict):
+        for key, url in override.items():
+            slug = str(key).lower()
+            if isinstance(url, str) and url.startswith("https://") and slug in spirals:
+                spirals[slug]["url"] = url
+    return {"spirals": spirals, **{k: v for k, v in config.items() if k != "spirals"}}
 
 
-def program_resource_for(category: str, item: FeedItem, resources: dict[str, str]) -> str | None:
-    """Choose a first-party resource by editorial category and article wording."""
-    normalized_category = category.strip().lower()
+def spiral_for(category: str, item: FeedItem, resources: dict[str, Any]) -> dict[str, Any] | None:
+    """Pick the one spiral this brief belongs to.
+
+    A story's actual subject beats the category it was filed under, so keyword
+    overrides are checked first. Every brief gets a spiral; there is no offer path.
+    """
+    spirals = resources.get("spirals") or {}
+    if not spirals:
+        return None
     text = f"{item.title} {item.summary}".lower()
-    if normalized_category == "detoxification":
-        if any(term in text for term in ("mineral", "chelation", "heavy metal", "zeolite", "kaolin", "charcoal")):
-            return resources.get("dark mirror") or resources.get("detoxification")
-        return resources.get("living waters") or resources.get("detoxification")
-    aliases = {
-        "cellular senescence": "cell shedding",
-        "gut health": "inner garden",
-        "metabolic health": "higher flame",
-        "brain health": "luminous mind",
-    }
-    return resources.get(aliases.get(normalized_category, normalized_category))
+
+    best: tuple[int, str] | None = None
+    for slug, terms in (resources.get("keyword_overrides") or {}).items():
+        if slug not in spirals or not isinstance(terms, list):
+            continue
+        hits = sum(1 for term in terms if isinstance(term, str) and term in text)
+        if hits and (best is None or hits > best[0]):
+            best = (hits, slug)
+    if best:
+        return spirals[best[1]]
+
+    routed = (resources.get("category_routes") or {}).get(category.strip().lower())
+    return spirals.get(routed) if routed else None
 
 
 def markdown(
     item: FeedItem,
     category: str,
     content: dict[str, Any],
-    offer_urls: list[str] | str | None,
     content_type: str = "signal",
     edition_rank: int = 1,
     edition_time: dt.datetime | None = None,
     photo: PublishedImage | None = None,
     draft: bool = True,
-    program_url: str | None = None,
+    spiral: dict[str, Any] | None = None,
 ) -> str:
     published_at = edition_time or dt.datetime.now(dt.timezone.utc)
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
-    if isinstance(offer_urls, str):
-        offer_urls = [offer_urls] if offer_urls else []
-    offer_urls = list(offer_urls or [])[:1]
-    recommendation_top = ""
-    program_card = resource_card(program_url, category, primary=True, first_party=True) if program_url else ""
-    if offer_urls:
-        recommendation_top = resource_card(offer_urls[0], category, primary=True)
     sections = ""
+    closing_card = spiral_card(spiral, category, placement="closing") if spiral else ""
     if content_type in {"lead", "evergreen", "editorial"}:
         section_blocks = [
             f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
             for section in content.get("sections", [])
         ]
-        if section_blocks and (program_card or recommendation_top):
-            section_blocks.insert(1, program_card or recommendation_top)
+        if section_blocks and spiral:
+            # Long-form briefs carry the spiral twice inside the body — once early, once
+            # deeper in — so a reader who lands mid-article still meets the connection.
+            section_blocks.insert(1, spiral_card(spiral, category, placement="opening"))
+            if len(section_blocks) > 4:
+                section_blocks.insert(4, spiral_card(spiral, category, placement="mid"))
         sections = "\n\n".join(section_blocks)
     health_note = content["caveat"]
     image_frontmatter = ""
@@ -967,7 +1015,7 @@ source_name: "{quote(item.source_name)}"
 ## Three things to remember
 
 {bullets}
-{(program_card or recommendation_top) if not sections else ""}
+{closing_card}
 
 ### Source
 
@@ -995,9 +1043,7 @@ def run() -> int:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     state = load_state()
     client = OpenAI(api_key=api_key, base_url=base_url)
-    configured_offers = offers()
     configured_program_resources = program_resources()
-    affiliate_health = load_health_status(AFFILIATE_HEALTH_FILE)
     image_cache = ImageSearchCache(IMAGE_CACHE_FILE)
     used_image_ids = load_image_ledger(IMAGE_LEDGER_FILE)
     used_image_creators = load_image_creators(IMAGE_LEDGER_FILE)
@@ -1214,11 +1260,10 @@ def run() -> int:
             }
         )
 
-        offer_urls = [
-            tracked_offer_url(url, category, key)
-            for url in select_offers(configured_offers, category, key, affiliate_health, limit=3)
-        ]
-        offer_review = commercial_integrity(category, offer_urls)
+        # Third-party affiliate offers are retired. Every brief routes to the one Spiral
+        # of Cellular Light program that matches the mechanism the story is about.
+        spiral = spiral_for(category, item, configured_program_resources)
+        offer_review = commercial_integrity(category, [spiral["url"]] if spiral else [])
         commercial_artifacts.append({"article_id": key, **offer_review})
         release_review = release_manager(item.link, content, offer_review)
         release_check = audit_release(
@@ -1237,13 +1282,12 @@ def run() -> int:
                 item,
                 category,
                 content,
-                offer_urls,
                 content_type,
                 generated_count,
                 edition_time,
                 photo,
                 draft=not (publish_automatically and release_check.publishable),
-                program_url=program_resource_for(category, item, configured_program_resources),
+                spiral=spiral,
             ),
             encoding="utf-8",
         )

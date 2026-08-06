@@ -32,14 +32,13 @@ Aging is not a single failure but a systemic loss of resilience. Cellular senesc
 
 This study identifies GPR81, a receptor activated by lactate, as such a switch. Lactate, once dismissed as a metabolic waste product, is now recognized as a signaling molecule. The work connects exercise-induced lactate to direct anti-aging effects, offering a plausible mechanism for why physical activity extends healthspan.
 
-
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://19bd060jcnau0mcmgq4ki1ne-n.hop.clickbank.net?tid=agewell_longevity_08d7b162c10f162f1aa18f74" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>This is Cell Shedding territory</h3>
+<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## what was found
@@ -73,6 +72,14 @@ Stay informed about clinical trials targeting GPR81. If human studies confirm th
 - Lactate from exercise may naturally activate this anti-aging pathway.
 
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Activation of the Lactate Receptor GPR81 Ameliorates Senescence Hallmarks and Improves Muscle Function in Cellular and Progeroid Models of Aging](https://onlinelibrary.wiley.com/doi/10.1111/acel.70647?af=R) from Aging Cell. Read the original report for full context.

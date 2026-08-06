@@ -5,7 +5,7 @@ from types import SimpleNamespace
 import pytest
 
 from agewell import pipeline
-from agewell.affiliates import parse_offer_config, select_offers
+from agewell.affiliates import parse_offer_config, select_offer, select_offers, tracked_offer_url
 from agewell.agents import commercial_integrity, copy_edit, release_manager
 from agewell.context import ContextDocument, retrieve_context
 from agewell.trends import TrendItem, rank_items
@@ -23,13 +23,11 @@ from agewell.pipeline import (
     markdown,
     normalize_source_url,
     parse_model_json,
-    program_resource_for,
+    spiral_for,
     relevance_score,
     sanitize_feed_xml,
     select_ranked_items,
-    select_offer,
     slug,
-    tracked_offer_url,
 )
 from agewell.edition import audit_release
 from agewell.editorial import (
@@ -437,7 +435,7 @@ def test_markdown_keeps_photo_and_attribution_metadata_together():
         avg_color="#aabbcc",
     )
 
-    result = markdown(item, "mobility", content, None, photo=photo)
+    result = markdown(item, "mobility", content, photo=photo)
 
     assert 'image_provider: "Pexels"' in result
     assert 'image_provider_id: "123"' in result
@@ -447,9 +445,26 @@ def test_markdown_keeps_photo_and_attribution_metadata_together():
     assert 'image_source_url: "https://www.pexels.com/photo/example-123/"' in result
 
 
-def test_lead_affiliate_offer_is_visible_near_intro_and_source():
-    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
-    content = {
+SPIRALS = {
+    "spirals": {
+        "cell shedding": {"name": "Cell Shedding", "domain": "Senescence and cellular renewal", "url": "https://example.test/cell-shedding", "guide": "/g/cs.pdf", "promise": "senolytic clearing"},
+        "inner garden": {"name": "Inner Garden", "domain": "Gut microbiome ecology", "url": "https://example.test/inner-garden", "guide": "/g/ig.pdf", "promise": "gut barrier integrity"},
+        "dark mirror": {"name": "Dark Mirror", "domain": "Mineral balance and bio-clearing", "url": "https://example.test/dark-mirror", "guide": "/g/dm.pdf", "promise": "heavy metal chelation"},
+        "luminous mind": {"name": "Luminous Mind", "domain": "Cognitive and neural coherence", "url": "https://example.test/luminous-mind", "guide": "/g/lm.pdf", "promise": "glymphatic clearance"},
+    },
+    "category_routes": {
+        "cellular senescence": "cell shedding",
+        "gut health": "inner garden",
+        "detoxification": "dark mirror",
+        "brain health": "luminous mind",
+        "longevity": "cell shedding",
+    },
+    "keyword_overrides": {"dark mirror": ["chelation", "heavy metal", "zeolite"]},
+}
+
+
+def _content():
+    return {
         "headline": "A useful finding",
         "dek": "A clear introduction.",
         "bullets": ["First point", "Second point", "Third point"],
@@ -457,77 +472,58 @@ def test_lead_affiliate_offer_is_visible_near_intro_and_source():
         "sections": [],
     }
 
-    result = markdown(item, "brain health", content, "https://example.hop.clickbank.net")
 
-    assert result.count("https://example.hop.clickbank.net") == 1
-    assert result.index('class="resource-card resource-card--primary"') < result.index("### Source")
+def test_signal_brief_carries_one_spiral_card_before_the_source():
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
+    result = markdown(item, "brain health", _content(), spiral=SPIRALS["spirals"]["luminous mind"])
+
+    assert result.count("https://example.test/luminous-mind") == 1
+    assert result.index('class="resource-card') < result.index("### Source")
     assert result.count('class="resource-card') == 1
-    assert "Commission-supported; no added cost to you." in result
+    assert "is our own program" in result
 
 
-def test_markdown_renders_single_contextual_affiliate_placement():
+def test_no_third_party_affiliate_links_are_ever_emitted():
     item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
-    content = {
-        "headline": "A useful finding",
-        "dek": "A clear introduction.",
-        "bullets": ["First point", "Second point", "Third point"],
-        "caveat": "The study was small.",
-        "sections": [],
-    }
-    urls = [
-        "https://one.hop.clickbank.net",
-        "https://two.hop.clickbank.net",
-        "https://three.hop.clickbank.net",
+    result = markdown(item, "brain health", _content(), spiral=SPIRALS["spirals"]["luminous mind"])
+    assert "clickbank" not in result.lower()
+
+
+def test_commercial_links_are_marked_sponsored():
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
+    result = markdown(item, "brain health", _content(), spiral=SPIRALS["spirals"]["luminous mind"])
+    assert 'rel="sponsored noopener noreferrer"' in result
+
+
+def test_long_form_brief_repeats_the_spiral_in_the_body():
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
+    content = _content()
+    content["sections"] = [
+        {"heading": f"section {n}", "paragraphs": ["Body copy."]} for n in range(6)
     ]
-    result = markdown(item, "brain health", content, urls)
-    assert result.count("hop.clickbank.net") == 1
-    assert "https://one.hop.clickbank.net" in result
-    assert "Practical follow-up" in result
-    assert result.count('class="resource-card') == 1
-    assert result.count("Commission-supported; no added cost to you.") == 1
+    result = markdown(item, "longevity", content, content_type="evergreen", spiral=SPIRALS["spirals"]["cell shedding"])
 
-
-def test_markdown_renders_first_party_program_resource_separately():
-    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
-    content = {
-        "headline": "A useful finding",
-        "dek": "A clear introduction.",
-        "bullets": ["First point", "Second point", "Third point"],
-        "caveat": "The study was small.",
-        "sections": [],
-    }
-
-    result = markdown(
-        item,
-        "longevity",
-        content,
-        "https://example.hop.clickbank.net",
-        content_type="evergreen",
-        program_url="https://example.test/spiral",
-    )
-
-    assert "https://example.test/spiral" in result
-    assert "This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you." in result
-    assert 'rel="noopener noreferrer"' in result
+    assert result.count('class="resource-card') == 3
     assert 'content_type: "evergreen"' in result
 
 
-def test_program_resource_router_matches_spiral_topics():
-    resources = {
-        "dark mirror": "https://example.test/dark-mirror",
-        "living waters": "https://example.test/living-waters",
-        "cell shedding": "https://example.test/cell-shedding",
-        "inner garden": "https://example.test/inner-garden",
-        "higher flame": "https://example.test/higher-flame",
-        "luminous mind": "https://example.test/luminous-mind",
-    }
+def test_brief_without_a_matching_spiral_carries_no_card():
+    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
+    result = markdown(item, "brain health", _content(), spiral=None)
+    assert 'class="resource-card' not in result
 
+
+def test_spiral_router_matches_topics_and_prefers_keywords():
     assert classify(FeedItem("Senolytic compounds", "Fisetin and quercetin in senescent cells", "https://example.test/1", "", "Test")) == "cellular senescence"
     assert classify(FeedItem("Gut microbiome", "A probiotic and prebiotic study", "https://example.test/2", "", "Test")) == "gut health"
     assert classify(FeedItem("Liver phase 1 and phase 2", "A detoxification study", "https://example.test/3", "", "Test")) == "detoxification"
-    assert program_resource_for("cellular senescence", FeedItem("Senolytics", "", "https://example.test/1", "", "Test"), resources) == resources["cell shedding"]
-    assert program_resource_for("gut health", FeedItem("Microbiome", "", "https://example.test/2", "", "Test"), resources) == resources["inner garden"]
-    assert program_resource_for("detoxification", FeedItem("Mineral chelation", "zeolite and heavy metal clearing", "https://example.test/3", "", "Test"), resources) == resources["dark mirror"]
+
+    pick = lambda cat, title, summary="": spiral_for(cat, FeedItem(title, summary, "https://example.test/1", "", "Test"), SPIRALS)
+    assert pick("cellular senescence", "Senolytics")["name"] == "Cell Shedding"
+    assert pick("gut health", "Microbiome")["name"] == "Inner Garden"
+    # A story's actual subject beats the category it was filed under.
+    assert pick("brain health", "Mineral chelation", "zeolite and heavy metal clearing")["name"] == "Dark Mirror"
+    assert pick("unmapped category", "Nothing in particular") is None
 
 
 def test_auto_publish_window_expires(monkeypatch):

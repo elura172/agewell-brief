@@ -29,14 +29,14 @@ Cell-free chromatin particles from dying cells enter immune cells and activate S
 - Blocking STING halts both waves, suggesting a therapeutic target.
 
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://1e2b3b-hi02yeuc7m91h7aay4n.hop.clickbank.net?tid=agewell_longevity_3b9c316af3c8088e0f74037b" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
-
 ### Source
 
 This signal is based on [Circulating Cell-Free Chromatin Particles Trigger a Unique Biphasic STING Signaling Program that Drives DNA Damage and Inflammation](https://www.biorxiv.org/content/10.64898/2026.07.28.741182v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

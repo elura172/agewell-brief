@@ -1,0 +1,59 @@
+[
+  {
+    "article_id": "dad5e389f30c3e322ed374dc",
+    "title": "Semaglutide Activates the Orexin/Hypocretin and Basal Forebrain Cholinergic Systems and Increases Acetylcholine Levels in the Hippocampus of Young and Aged Rats",
+    "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742612v1?rss=1",
+    "source_name": "bioRxiv neuroscience, genetics, physiology",
+    "stage": "draft",
+    "requested_content_type": "lead",
+    "error": "DeepSeek returned an invalid draft twice: Connection error.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "Connection error.",
+        "raw_response": ""
+      },
+      {
+        "attempt": 2,
+        "error": "Connection error.",
+        "raw_response": ""
+      }
+    ],
+    "resolution": "skipped",
+    "fallback_error": "DeepSeek returned an invalid draft twice: Connection error.",
+    "fallback_attempts": [
+      {
+        "attempt": 1,
+        "error": "Connection error.",
+        "raw_response": ""
+      },
+      {
+        "attempt": 2,
+        "error": "Connection error.",
+        "raw_response": ""
+      }
+    ]
+  },
+  {
+    "article_id": "44d85c20f70b28aea7edb7f1",
+    "title": "HNRNPC Succinylation Influences the Neurodegeneration of Alzheimer's Disease Through YME1L1‐Mediated Mitochondrial Metabolism",
+    "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.70646?af=R",
+    "source_name": "Aging Cell",
+    "stage": "draft",
+    "requested_content_type": "signal",
+    "error": "DeepSeek returned an invalid draft twice: Connection error.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "Connection error.",
+        "raw_response": ""
+      },
+      {
+        "attempt": 2,
+        "error": "Connection error.",
+        "raw_response": ""
+      }
+    ],
+    "resolution": "skipped"
+  }
+]

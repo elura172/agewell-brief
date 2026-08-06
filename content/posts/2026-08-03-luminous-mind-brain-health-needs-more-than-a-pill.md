@@ -26,6 +26,15 @@ Memory concerns can be frightening, especially when a person notices a change in
 
 That is why a brain-health framework should widen the conversation rather than promise a fast “upgrade.” A good plan makes room for assessment and for the daily conditions in which memory either struggles or recovers.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>This is Luminous Mind territory</h3>
+<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What the framework emphasizes
 
 The guide gives attention to deep sleep, the brain’s nightly fluid movement, the hippocampus, omega-3 fats, and the relationship between stress and learning. It also recommends giving the brain new material to work with: language, music, social connection, and deliberate practice.
@@ -42,20 +51,21 @@ If a change in memory is sudden, progressive, or affecting daily safety, the rig
 
 Protect the basics first: keep a regular sleep schedule, address hearing and vision, move regularly, review medications with a clinician, and give the brain meaningful new learning. If you explore the program’s supplement layer, make the plan visible to your healthcare team.
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>Luminous Mind brain-health framework</h3>
-<p>Explore the companion protocol behind this program perspective.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you.</p>
-</aside>
-
 ## Three things to remember
 
 - Brain health is shaped by sleep, stress, movement, learning, and more.
 - Memory change deserves assessment, not a sales promise.
 - Keep supplement plans visible to the healthcare team.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This evergreen program perspective is based on [The Spiral of the Luminous Mind — Brain Upgrade Protocol](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==), supplied as a companion guide for the Spiral of Cellular Light.

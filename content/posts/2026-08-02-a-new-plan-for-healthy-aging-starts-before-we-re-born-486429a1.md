@@ -36,6 +36,15 @@ Scientists are developing a new field to help us stay healthier longer, with roo
 - Longevity medicine aims to extend healthy years, not just life.
 - New approaches may start before we're born, shaping future health.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>This is Cell Shedding territory</h3>
+<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## How to interpret it
 
 
@@ -44,6 +53,15 @@ The modern proposal for a new field in longevity medicine builds directly on the
 
 **Ancestral parallel:** Traditional societies often emphasize maternal nutrition and prenatal care, such as the 'first 1000 days' concept in many cultures. Physical mechanisms include the thrifty phenotype hypothesis, where early nutritional cues adjust metabolic set points for anticipated environments. This parallels ancestral practices of ensuring nutrient-dense foods for pregnant women, which may have evolved to optimize offspring survival and long-term health in fluctuating environments.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This signal is based on [A new plan for healthy aging starts before we're born](https://medicalxpress.com/news/2026-07-healthy-aging-born.html) from Medical Xpress. Read the original report for full context.

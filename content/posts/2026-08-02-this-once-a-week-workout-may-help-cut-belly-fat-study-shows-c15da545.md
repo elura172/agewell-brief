@@ -34,6 +34,15 @@ A small dose of interval walking could offer big benefits for adults with excess
 - One weekly session reduced body fat and waist size similarly to three sessions.
 - Cardiovascular fitness improved equally in both groups after four months.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Living Waters program">
+<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Living Waters — fluid and micro-circulation — is the second: a structured protocol for structured water, vascular transport, and clearing pathways.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
+<p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This signal is based on [This once-a-week workout may help cut belly fat, study shows](https://www.sciencedaily.com/releases/2026/08/260801042831.htm) from ScienceDaily Top Health. Read the original report for full context.

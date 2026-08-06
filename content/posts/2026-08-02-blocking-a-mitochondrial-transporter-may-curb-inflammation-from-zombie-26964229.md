@@ -31,6 +31,15 @@ New lab research traces part of the inflammatory output of senescent cells to mi
 - The treatment did not cause senescent cells to resume dividing.
 - Findings are preliminary; human relevance remains unknown.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This signal is based on [Blocking a mitochondrial transporter may curb inflammation from 'zombie' cells without killing them](https://medicalxpress.com/news/2026-07-blocking-mitochondrial-curb-inflammation-zombie.html) from Medical Xpress Healthy Aging.

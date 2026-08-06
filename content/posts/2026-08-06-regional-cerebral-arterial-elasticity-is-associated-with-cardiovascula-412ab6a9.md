@@ -31,14 +31,13 @@ Your brain is a vascular glutton. It consumes roughly 20% of your cardiac output
 
 This is not abstract gerontology. The Windkessel model, formalized by Otto Frank in 1899, described how arterial elasticity converts the heart's pulsatile output into steady capillary flow. Nicolas Westerhof refined this in 1969 with the three-element model, adding characteristic impedance and peripheral resistance. The new study applies this century-old physics to the living human brain, using light to measure arterial compliance in real time.
 
-
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for everyday habits</h3>
-<p>For readers interested in taking the ideas in this metabolic health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://1e28e0tknzfl1od5lj2p2qt666.hop.clickbank.net?tid=agewell_metabolic_health_412ab6a9d01aee6fee0e19af" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Living Waters program">
+<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
+<h3>This is Living Waters territory</h3>
+<p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
+<p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## what was found
@@ -66,6 +65,14 @@ Ancestral patterns support this: hunter-gatherer lifestyles with high physical a
 - Pulse pressure partially mediates age-related arterial stiffening.
 
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Living Waters program">
+<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Living Waters — fluid and micro-circulation — is the second: a structured protocol for structured water, vascular transport, and clearing pathways.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
+<p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults](https://www.biorxiv.org/content/10.64898/2026.07.30.740814v1?rss=1) from bioRxiv neuroscience, genetics, physiology. Read the original report for full context.

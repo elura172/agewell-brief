@@ -28,18 +28,18 @@ A sweeping analysis of over 350 studies suggests that many sedentary people may 
 
 Protein is everywhere these days – in cereal, coffee, even water. But a new review of more than 350 studies suggests that for many of us, especially those who are not very active, eating less protein might be better for our health and longevity. The review, published in the journal Cell Press Blue, found that reducing protein intake can improve metabolism, reduce inflammation, and help cells function better. These effects are linked to healthier aging and a longer life, according to the researchers.
 
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_e7e51910ab26fbbacce2e4fc" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 This is important because current dietary guidelines encourage higher protein intake, especially for older adults. The new recommendations call for daily protein consumption of 1.2-1.6 grams per kilogram of body weight, nearly twice the previous amount. But the new evidence suggests that a one-size-fits-all approach may not be right for everyone. As Americans consume more protein than ever, it's crucial to understand whether that extra protein is helping or harming our health.
 
 The review's lead author, Dudley Lamming of the University of Wisconsin-Madison, notes that while protein is beneficial for muscle growth and exercise response in active individuals, most people are relatively sedentary and may be consuming more protein than they actually need, which could have negative health consequences.
+
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>This is Cell Shedding territory</h3>
+<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 
 ## What the review found
 
@@ -71,6 +71,15 @@ The review's findings suggest that protein restriction may offer an alternative 
 - Hormone FGF21 rises with protein restriction, aiding longevity.
 - Excess certain amino acids may accelerate aging.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Eating less protein could slow aging, major review finds](https://www.sciencedaily.com/releases/2026/08/260801042811.htm) from ScienceDaily Top Health. Read the original report for full context.

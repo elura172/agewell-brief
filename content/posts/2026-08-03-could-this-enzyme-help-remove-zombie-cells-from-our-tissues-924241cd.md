@@ -31,6 +31,15 @@ Living longer doesn't always mean living healthier. As populations age, the gap 
 
 One suspect is cellular senescence. When cells stop dividing but refuse to die, they linger in tissues, secreting inflammatory signals that can damage nearby cells. These 'zombie' cells accumulate over time and are linked to many age-related conditions. Finding ways to clear them could be a key to healthier aging.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>This is Cell Shedding territory</h3>
+<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What was found
 
 The report highlights an enzyme that may play a role in removing these senescent cells. The details are still emerging, but the idea is that boosting or activating this enzyme could help the body clear out the cellular debris that contributes to aging.
@@ -55,14 +64,15 @@ Keep an eye on this research, but don't wait for a magic bullet. The best strate
 - An enzyme could help clear these 'zombie' cells.
 - Early research, not yet a proven therapy.
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_924241cde4ecb8e14876a259" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Could this enzyme help remove 'zombie' cells from our tissues?](https://medicalxpress.com/news/2026-07-enzyme-zombie-cells-tissues.html) from Medical Xpress Healthy Aging. Read the original report for full context.

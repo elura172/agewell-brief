@@ -30,6 +30,15 @@ The agency's health-fraud list now includes pre-workout products, alongside earl
 - Recent additions: PRE-FORMANCE BLACK and RAPTURE Preworkout.
 - Earlier alerts cover sleep, skin, pain, and bodybuilding products.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This signal is based on [Sleep, Skin, Bodybuilding and Other Product Notifications](https://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications) from FDA Tainted Supplements. Read the original report for full context.

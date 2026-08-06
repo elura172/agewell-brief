@@ -1,5 +1,5 @@
 {
-  "status": "ready_for_mpt",
+  "status": "generated",
   "subject": "Spatiotemporal coordination of specialized cerebellar networks supports episodic memory in older adults",
   "article_url": "https://agewellbrief.com/brief/2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d/",
   "video_aspect": "9:16",
@@ -20,5 +20,8 @@
   "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
   "subtitle_bg_padding": 12,
   "subtitle_glow_enabled": true,
-  "requires_video_qa": false
+  "requires_video_qa": false,
+  "updated_at": "2026-08-06T12:53:21.667405+00:00",
+  "video_path": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/6173d224-021b-4b9a-b5cf-8f917a329371/final-1.mp4",
+  "task_dir": "/Users/mirrr/MoneyPrinterTurbo/storage/tasks/6173d224-021b-4b9a-b5cf-8f917a329371"
 }

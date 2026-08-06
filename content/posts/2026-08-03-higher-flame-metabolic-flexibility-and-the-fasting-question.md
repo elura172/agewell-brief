@@ -26,6 +26,15 @@ Fasting is no longer a fringe topic. It is studied in relation to body weight, g
 
 The useful question is not whether fasting is universally good. It is whether a particular pattern fits a person’s health, medication, work, sleep, and relationship with food.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
+<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
+<h3>This is Higher Flame territory</h3>
+<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
+<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What the framework emphasizes
 
 The guide pairs an 18:6 eating window with broccoli sprouts, sulforaphane, resveratrol, curcumin, and NAC. Its conceptual centre is hormesis: a small stress signal that may prompt adaptive responses. It also emphasizes that growing broccoli sprouts can be an inexpensive food-based experiment.
@@ -42,20 +51,21 @@ People with diabetes, a history of eating disorders, frailty, pregnancy, or medi
 
 Start with the least dramatic version: consistent meal timing, fewer ultra-processed snacks, adequate protein and fibre, and a sleep schedule that supports appetite regulation. If you experiment with a shorter eating window, keep it gradual and track energy, sleep, mood, and medication effects.
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>Higher Flame metabolic framework</h3>
-<p>Explore the companion protocol behind this program perspective.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you.</p>
-</aside>
-
 ## Three things to remember
 
 - Metabolic flexibility is a research question, not a guarantee.
 - Fasting needs to fit the person, not the other way around.
 - Begin gently and review medication or health risks first.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
+<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
+<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This evergreen program perspective is based on [The Spiral of the Higher Flame — Fat-Fuel Switch Protocol](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==), supplied as a companion guide for the Spiral of Cellular Light.

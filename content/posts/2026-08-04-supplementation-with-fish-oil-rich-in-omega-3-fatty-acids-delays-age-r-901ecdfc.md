@@ -31,14 +31,13 @@ Skeletal muscle aging has long been measured by the tape and the dynamometer—m
 
 This reframes the clinical problem. If functional and organizational decline precedes mass loss, then interventions aimed at preserving muscle mass alone may miss the critical window. The study identifies a midlife metabolic inflection point as the true sentinel, and suggests that nutritional timing—not just dose—may be the key lever.
 
-
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for everyday habits</h3>
-<p>For readers interested in taking the ideas in this metabolic health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://fba56bygau7xby2toyeh9q3qc2.hop.clickbank.net?tid=agewell_metabolic_health_901ecdfc76fc0ec0250a2651" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
+<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
+<h3>This is Higher Flame territory</h3>
+<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
+<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## What was found
@@ -70,6 +69,14 @@ Stay tuned for human trials that test this critical window hypothesis. Until the
 - Monitor glucose tolerance early; it may signal muscle health.
 
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
+<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
+<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Supplementation with Fish Oil Rich in Omega-3 Fatty Acids Delays Age-Related Muscle Changes](https://www.biorxiv.org/content/10.64898/2026.08.02.742308v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

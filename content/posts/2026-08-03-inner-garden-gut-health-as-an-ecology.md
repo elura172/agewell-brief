@@ -26,6 +26,15 @@ Digestive symptoms are often discussed as if they have one cause. In reality, bl
 
 The companion guide uses the image of a garden to make one point memorable: removing one organism or adding one probiotic does not automatically restore an ecosystem. The surrounding environment matters too.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Inner Garden program">
+<p class="resource-kicker">Spiral of Cellular Light · Inner Garden</p>
+<h3>This is Inner Garden territory</h3>
+<p>Gut microbiome ecology — short-chain fatty acid signaling and gut barrier integrity. The Inner Garden spiral is the protocol built for the exact mechanism this gut health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="sponsored noopener noreferrer">Open the Inner Garden protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/inner-garden-field-guide.pdf" download>Download the Inner Garden field guide (PDF)</a></p>
+<p class="resource-disclosure">Inner Garden is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What the framework emphasizes
 
 The program gives particular attention to the relationship between beneficial microbes, dietary fibre, fermented foods, and the yeast Saccharomyces boulardii. It also emphasizes reducing the conditions that can make a person feel worse, including abrupt dietary changes and excessive reliance on sugar-heavy foods.
@@ -42,20 +51,21 @@ The more durable idea is environmental: regular meals, adequate fibre and fluids
 
 Begin with observation. Track meals, symptoms, bowel patterns, sleep, and recent medications for a week. Then bring that record to a clinician or dietitian. If using a probiotic or supplement, introduce one product at a time and follow the label rather than combining several new products at once.
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>Inner Garden gut-reclamation framework</h3>
-<p>Explore the companion protocol behind this program perspective.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you.</p>
-</aside>
-
 ## Three things to remember
 
 - The gut is an ecosystem, not a single target.
 - Digestive symptoms have many possible causes.
 - Change one variable at a time and keep a useful record.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Inner Garden program">
+<p class="resource-kicker">Spiral of Cellular Light · Inner Garden</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Inner Garden — gut microbiome ecology — is the second: a structured protocol for short-chain fatty acid signaling and gut barrier integrity.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="sponsored noopener noreferrer">Open the Inner Garden protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/inner-garden-field-guide.pdf" download>Download the Inner Garden field guide (PDF)</a></p>
+<p class="resource-disclosure">Inner Garden is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This evergreen program perspective is based on [The Spiral of the Inner Garden — Gut Reclamation Protocol](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==), supplied as a companion guide for the Spiral of Cellular Light.

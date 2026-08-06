@@ -25,17 +25,17 @@ New research suggests a major shift in brain immunity around middle age, which m
 - Midlife immune changes may contribute to age-related cognitive decline.
 - This discovery could help understand dementia risk in older adults.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This brief is based on [Brain immunity may undergo a major midlife overhaul](https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul) from NIH News Releases. Read the original report for full context.
-
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://94aa4zrcl06n5o0hi88fd24ra3.hop.clickbank.net?tid=agewell_brain_health_e05c96ff152c08a024c2085e" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
 
 > **Health note:** This is early research; more studies are needed to understand implications for prevention or treatment. Consult a qualified healthcare professional for personal advice.

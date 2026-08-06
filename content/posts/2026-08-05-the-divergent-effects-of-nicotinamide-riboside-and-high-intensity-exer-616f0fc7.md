@@ -31,14 +31,13 @@ Skeletal muscle is not just a motor; it's a metabolic organ whose epigenetic sta
 
 This matters because healthspan depends on maintaining mitochondrial respiration voltage, the foundational principle articulated by Otto Warburg nearly a century ago. If NR and exercise remodel the epigenome differently, they may be tuning distinct aspects of cellular energetics—one supporting NAD+ pools, the other driving oxidative capacity through mechanical stress.
 
-
-
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://1e2b3b-hi02yeuc7m91h7aay4n.hop.clickbank.net?tid=agewell_longevity_616f0fc71a48824a3135566c" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
+<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
+<h3>This is Higher Flame territory</h3>
+<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
+<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## what was found
@@ -66,6 +65,14 @@ The most robust strategy remains to maintain metabolic flexibility through regul
 - Exercise remains foundational; NR is not a substitute.
 
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
+<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
+<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [The Divergent Effects of Nicotinamide Riboside and High‐Intensity Exercise Training on Skeletal Muscle Epigenetic Aging](https://onlinelibrary.wiley.com/doi/10.1111/acel.70638?af=R) from Aging Cell. Read the original report for full context.

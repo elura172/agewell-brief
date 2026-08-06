@@ -25,17 +25,17 @@ A long-term NIH trial found lifestyle intervention reduced risk of developing se
 - Long-term NIH-supported trial compared lifestyle changes, metformin, and placebo.
 - Metformin showed no difference from placebo in reducing risk of these conditions.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
+<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
+<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This brief is based on [For adults with prediabetes, lifestyle intervention lowered risk of developing multiple chronic conditions](https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions) from NIH News Releases. Read the original report for full context.
-
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for everyday habits</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://94aa4zrcl06n5o0hi88fd24ra3.hop.clickbank.net?tid=agewell_metabolic_health_fbad066d53d166dadbb4e924" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
 
 > **Health note:** This study does not imply that any supplement treats or cures disease. Consult your healthcare provider for personalized advice. Consult a qualified healthcare professional for personal advice.

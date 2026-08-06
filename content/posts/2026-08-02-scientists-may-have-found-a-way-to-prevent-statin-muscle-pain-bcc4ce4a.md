@@ -32,6 +32,15 @@ Statins are among the most prescribed drugs worldwide, taken by millions to lowe
 
 Until now, the biological reasons behind these muscle symptoms were poorly understood. This study, published in Science Advances, offers a new explanation: statins may disrupt how muscle cells produce energy, which in turn triggers an immune response that damages muscle tissue. The finding is a step toward separating the side effects from the benefits, potentially allowing more people to stay on these lifesaving drugs.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>This is Dark Mirror territory</h3>
+<p>Mineral balance and bio-clearing — heavy metal chelation, mineral ratios, and deep tissue clearing. The Dark Mirror spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What the study found
 
 Researchers at McMaster University, working with international collaborators, focused on a cellular pathway involving a protein called NLRP3, which is part of the immune system's inflammatory response. In experiments with muscle cells and mice, they showed that statins interfere with the production of energy in mitochondria, the cell's powerhouses. This metabolic stress activates NLRP3, leading to inflammation and muscle damage.
@@ -58,6 +67,15 @@ The researchers emphasize that more work is needed before this discovery can be 
 - Blocking this response prevented damage in lab tests.
 - More research is needed before human treatments emerge.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Scientists may have found a way to prevent statin muscle pain](https://www.sciencedaily.com/releases/2026/07/260731034152.htm) from ScienceDaily Top Health. Read the original report for full context.

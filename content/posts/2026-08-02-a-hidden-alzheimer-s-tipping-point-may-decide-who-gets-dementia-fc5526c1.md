@@ -33,6 +33,15 @@ Now, a study published in Nature Medicine offers a possible explanation: the bra
 
 For the millions of people over 50 worried about Alzheimer's, this research shifts the focus from simply clearing plaques to understanding how the brain defends itself. It also opens the door to treatments that might extend that defense.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>This is Luminous Mind territory</h3>
+<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What was found
 
 Researchers analyzed donated brain tissue from older adults with and without dementia, including cognitively healthy centenarians. Using advanced techniques that examine individual cells, they identified six distinct tissue domains representing different stages of Alzheimer's progression.
@@ -63,17 +72,17 @@ Stay informed about Alzheimer's research, but be wary of headlines that promise 
 - Two distinct resilience pathways seen in octogenarians and centenarians.
 - Findings suggest new targets for therapies, but more research is needed.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
+<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
+<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [A hidden Alzheimer’s tipping point may decide who gets dementia](https://www.sciencedaily.com/releases/2026/07/260726015257.htm) from ScienceDaily Healthy Aging. Read the original report for full context.
-
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_fc5526c13bb1c2b350d5380e" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
 
 > **Health note:** This study is observational and based on brain tissue; it does not prove causation or provide clinical recommendations.

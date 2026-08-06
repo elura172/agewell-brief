@@ -26,6 +26,15 @@ Dark Mirror is the advanced mineral-clearing layer of the Spiral of Cellular Lig
 
 That distinction is the place to begin. The Dark Mirror guide is a program document describing a complementary approach. It is not a substitute for testing, diagnosis, or medically indicated treatment for heavy-metal exposure.
 
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>This is Dark Mirror territory</h3>
+<p>Mineral balance and bio-clearing — heavy metal chelation, mineral ratios, and deep tissue clearing. The Dark Mirror spiral is the protocol built for the exact mechanism this detoxification story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
+
 ## What the framework emphasizes
 
 The guide presents two linked ideas: binding and removal, alongside transport and delivery. It discusses earth minerals, activated charcoal, and fulvic or humic compounds as different parts of that picture. It also emphasizes spacing these materials away from food and other supplements.
@@ -42,20 +51,21 @@ If exposure to lead, mercury, arsenic, or another toxin is a real concern, testi
 
 Treat Dark Mirror as an advanced program perspective, not a casual cleanse. Review the ingredient list, check for medication interactions, confirm quality testing, and ask what evidence supports the intended use. Stop and seek help for severe symptoms rather than assuming they are part of a clearing cycle.
 
-<aside class="resource-card resource-card--primary" aria-label="Practical follow-up">
-<p class="resource-kicker">Practical follow-up</p>
-<h3>Dark Mirror mineral-clearing framework</h3>
-<p>Explore the companion protocol behind this program perspective.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you.</p>
-</aside>
-
 ## Three things to remember
 
 - A supplement blend is not the same as clinical chelation therapy.
 - Charcoal and minerals can affect medication and nutrient absorption.
 - Suspected toxic exposure deserves professional testing and care.
 
+
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
+<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
+<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This editorial program perspective is based on [The Dark Mirror of Immunity — Advanced Earth Mineral Clearing](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==), supplied as a companion guide for the Spiral of Cellular Light.

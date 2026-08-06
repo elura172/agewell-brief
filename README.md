@@ -19,59 +19,43 @@ export RSS_FEED_URL="https://example.com/feed.xml"
 python -m agewell.pipeline
 ```
 
-Optional affiliate configuration is supplied as JSON. Use encrypted HopLinks
-created and tested in ClickBank's Affiliate Link Tools; the pipeline appends a
-stable article-level tracking ID automatically:
+## Commercial routing
+
+Agewell Brief carries no third-party affiliate offers. Every brief routes to exactly
+one of the six **Spiral of Cellular Light** programs — our own — chosen to match the
+biological mechanism the story is about.
+
+The routing table lives in `config/spiral-programs.json`:
+
+- `spirals` — the six programs, each with its Fullscript URL, field-guide PDF, domain,
+  and the mechanism it addresses.
+- `category_routes` — the default spiral for each editorial category.
+- `keyword_overrides` — checked against title and summary *before* the category route,
+  so a story's actual subject wins over the category it was filed under. A brain-health
+  story about heavy-metal chelation routes to Dark Mirror, not Luminous Mind.
+
+Every brief gets the spiral card up to three times: after the opening section, again
+mid-article in longer pieces, and once more before the source note. Signals get one.
+
+`PROGRAM_RESOURCES_JSON` can still override individual spiral URLs at runtime without
+editing the config, keyed by spiral slug (`"cell shedding"`, `"luminous mind"`, …).
+
+To re-route already-published briefs after editing the config:
 
 ```bash
-export AFFILIATE_OFFERS_JSON='{"mobility":"https://YOUR_ENCRYPTED_VALUE.hop.clickbank.net"}'
+PYTHONPATH=. python scripts/rewire_spiral_cards.py
 ```
 
-First-party program resources are configured separately, so an Agewell-owned
-program is not mislabeled as a ClickBank offer. Match the key to the exact
-editorial category:
+It strips existing cards and rebuilds them, so it is safe to run repeatedly.
 
-```bash
-export PROGRAM_RESOURCES_JSON='{"dark mirror":"https://...","living waters":"https://...","cell shedding":"https://...","inner garden":"https://...","higher flame":"https://...","luminous mind":"https://..."}'
-```
+Commission-earning links are always emitted with `rel="sponsored"`, enforced in three
+places: `resource_card`/`spiral_card` in the pipeline, `linkRel()` in
+`src/lib/publishing.ts` for template links, and a rehype plugin in `astro.config.mjs`
+for plain markdown links in brief bodies. Editorial citations to journals and image
+credits stay followed.
 
-The current router maps cellular-senescence, gut-health, detoxification,
-metabolic-health, and brain-health coverage to those named resources. For
-detoxification, mineral and chelation language selects Dark Mirror; other
-clearing-pathway coverage selects Living Waters. The rendered card says that
-the resource is part of our program, that we may earn a commission, and that
-there is no added cost to the reader. Keep program links out of the commercial
-offer configuration and add them only after reviewing the destination and its
-claims.
-
-Offers are matched by exact editorial category. The pipeline does not place a
-general-wellness offer in a mobility, brain-health, metabolic-health, or
-longevity article unless that category has its own reviewed HopLink. Men's
-health is also routed independently, so sexual-wellness offers never spill into
-unrelated health coverage. Sleep health has its own category as well, preventing
-sleep offers from appearing beside dementia coverage that merely mentions sleep.
-
-Several reviewed offers can be routed within one category using the richer
-format below. `approved` is deliberately fail-closed, `priority` selects the
-preferred tier, and equal-priority links rotate deterministically by article:
-
-```bash
-export AFFILIATE_OFFERS_JSON='{"offers":[{"category":"brain health","name":"Reviewed offer A","url":"https://ENCRYPTED.hop.clickbank.net","approved":true,"priority":10}]}'
-```
-
-Run `python -m scripts.check_affiliate_offers` to write a redacted technical
-health report to `.state/affiliate-health.json`. The daily workflow performs
-this check before drafting and suppresses links that return a recognizable
-ClickBank HopLink error page. A successful redirect confirms reachability only;
-each offer still needs a one-time attribution check through ClickBank's order
-form and HopLink tools.
-
-ClickBank's current APIs expose analytics, orders, seller-owned products, and
-account statistics, but not a public affiliate-marketplace catalog. For that
-reason Agewell does not scrape the logged-in marketplace or auto-promote an
-unknown vendor. Marketplace discovery remains a reviewed onboarding step;
-routing, technical checks, article-level TIDs, and later conversion reporting
-are automated after approval.
+`agewell/affiliates.py` and the `scripts/*affiliate*`/`clickbank_analytics.py` tooling
+remain in the tree but are no longer called by the pipeline.
 
 Generated files land in `content/posts/`; processing state is stored in `.state/processed.json`.
 
@@ -184,7 +168,7 @@ them into ranking, drafting, or publication yet.
 ## GitHub Actions
 
 Add `DEEPSEEK_API_KEY`, `PEXELS_API_KEY`, `PIXABAY_API_KEY`, and optionally
-`AFFILIATE_OFFERS_JSON` as repository secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
+repository secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
 `RSS_FEEDS_JSON` can override it. The workflow runs daily and commits new
 drafts. Its commit step also preserves diagnostics when every story fails, while
 the generation step remains visibly failed in GitHub Actions.
