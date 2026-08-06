@@ -72,20 +72,19 @@ def run_mpt(job: dict) -> tuple[Path, str]:
         "--subject", str(job["subject"]), "--",
         "--voice-name", str(job.get("voice_name", "en-US-AvaNeural")),
         "--text-fore-color", str(job.get("text_fore_color", "#FEFEFE")),
-        "--highlight-color", str(job.get("highlight_color", "#F59E0B")),
         "--stroke-color", str(job.get("stroke_color", "#0B0F19")),
         "--stroke-width", str(job.get("stroke_width", 2)),
         "--font-size", str(job.get("font_size", 48)),
-        "--subtitle-bottom-margin", str(job.get("subtitle_bottom_margin", 210)),
-        "--max-words-per-line", str(job.get("max_words_per_line", 3)),
-        "--active-word-scale", str(job.get("active_word_scale", 1.12)),
-        "--subtitle-bg-color", str(job.get("subtitle_bg_color", "rgba(11, 15, 25, 0.75)")),
-        "--subtitle-bg-padding", str(job.get("subtitle_bg_padding", 12)),
-        "--subtitle-glow-enabled",
+        "--subtitle-background-enabled",
+        "--subtitle-background-color", str(job.get("subtitle_background_color", "#0B0F19")),
+        "--rounded-subtitle-background",
     ]
     result = subprocess.run(args, cwd=MPT_HOME / "docs/skill", capture_output=True, text=True, check=False)
     if result.returncode != 0:
-        raise RuntimeError(f"MoneyPrinterTurbo failed with exit code {result.returncode}")
+        stderr_tail = "\n".join(result.stderr.strip().splitlines()[-15:])
+        raise RuntimeError(
+            f"MoneyPrinterTurbo failed with exit code {result.returncode}\n{stderr_tail}"
+        )
     values = {}
     for line in result.stdout.splitlines():
         if line.startswith("VIDEO_FILE=") or line.startswith("TASK_DIR=") or line.startswith("LOG_FILE="):
