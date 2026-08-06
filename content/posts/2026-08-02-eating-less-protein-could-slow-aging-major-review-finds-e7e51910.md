@@ -75,13 +75,4 @@ The review's findings suggest that protein restriction may offer an alternative 
 
 This analysis is based on [Eating less protein could slow aging, major review finds](https://www.sciencedaily.com/releases/2026/08/260801042811.htm) from ScienceDaily Top Health. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_e7e51910ab26fbbacce2e4fc" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This review is based on a mix of animal and human studies, and the effects in humans may differ. The source does not specify exact amounts or durations, and some groups may need more protein. Consult a healthcare provider before making significant dietary changes.

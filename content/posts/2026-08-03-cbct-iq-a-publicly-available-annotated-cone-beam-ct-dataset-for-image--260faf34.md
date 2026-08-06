@@ -41,21 +41,4 @@ A new annotated dataset of 1,764 cone-beam CT slices enables reproducible resear
 
 This signal is based on [CBCT-IQ: A Publicly Available Annotated Cone-Beam CT Dataset for Image Quality Assessment and Benchmarking](https://arxiv.org/abs/2607.29253) from arXiv medical physics. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://6e8b8zrmkq7p4u6f47s6u7xgu1.hop.clickbank.net?tid=agewell_longevity_260faf343e6db83913a54b38" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://1e2b3b-hi02yeuc7m91h7aay4n.hop.clickbank.net?tid=agewell_longevity_260faf343e6db83913a54b38" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** Dataset is for research benchmarking; not clinically validated for diagnostic use.

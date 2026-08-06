@@ -41,21 +41,4 @@ Cell-free chromatin particles from dying cells enter immune cells and activate S
 
 This signal is based on [Circulating Cell-Free Chromatin Particles Trigger a Unique Biphasic STING Signaling Program that Drives DNA Damage and Inflammation](https://www.biorxiv.org/content/10.64898/2026.07.28.741182v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://19bd060jcnau0mcmgq4ki1ne-n.hop.clickbank.net?tid=agewell_longevity_3b9c316af3c8088e0f74037b" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://6e8b8zrmkq7p4u6f47s6u7xgu1.hop.clickbank.net?tid=agewell_longevity_3b9c316af3c8088e0f74037b" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** Preprint, in vitro only; human relevance unproven.

@@ -76,13 +76,4 @@ The deeper lesson is that the brain is not a passive receiver of sound—it is a
 
 This analysis is based on [Effects of neural aging on speech perception in bilinguals vs. monolinguals](https://www.frontiersin.org/articles/10.3389/fnhum.2026.1913294) from Frontiers in Human Neuroscience. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://bc1997qedzev4y5lgq-n2a2z05.hop.clickbank.net?tid=agewell_brain_health_a3e2f9830ab284770cca6b41" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This was a cross-sectional study with small groups; causation cannot be inferred. The findings are promising but require replication and longitudinal confirmation.

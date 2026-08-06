@@ -43,13 +43,4 @@ New research from the University of Missouri suggests that sticking to a regular
 
 This signal is based on [Researchers find simple habit to improve physical and mental health](https://medicalxpress.com/news/2026-07-simple-habit-physical-mental-health.html) from Medical Xpress Healthy Aging. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for steadier routines</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://93bc1zyjgn0u3r2s2qzrpzpb8t.hop.clickbank.net?tid=agewell_sleep_health_383802cd993d84e3894e8290" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This was an observational study, so it can't prove cause and effect. The source didn't provide details on sample size or effect sizes.

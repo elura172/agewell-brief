@@ -43,13 +43,4 @@ A new analysis by Originality.ai suggests most herbal remedy books on Amazon may
 
 This signal is based on [Detection firm finds 82% of herbal remedy books on Amazon ‘likely written’ by AI](https://www.theguardian.com/books/2025/oct/22/detection-firm-finds-82-of-herbal-remedy-books-on-amazon-likely-written-by-ai) from The Guardian | Alternative medicine. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://4e48b2rpl-8r4xe9vxu8dygn0u.hop.clickbank.net?tid=agewell_brain_health_9975d4c5425886f5698d8008" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** The study was conducted by an AI-detection company and has not been independently verified.

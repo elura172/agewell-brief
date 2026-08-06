@@ -70,21 +70,4 @@ Ancestral patterns support this: hunter-gatherer lifestyles with high physical a
 
 This analysis is based on [Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults](https://www.biorxiv.org/content/10.64898/2026.07.30.740814v1?rss=1) from bioRxiv neuroscience, genetics, physiology. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for everyday habits</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://fba56bygau7xby2toyeh9q3qc2.hop.clickbank.net?tid=agewell_metabolic_health_412ab6a9d01aee6fee0e19af" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for everyday habits</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://6c6dd1oecx1pemf4uqr0vxbk0b.hop.clickbank.net?tid=agewell_metabolic_health_412ab6a9d01aee6fee0e19af" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This preprint is observational and not yet peer-reviewed. It does not prove causality or establish PReFx as a clinical biomarker. Consult a physician before making medical decisions.

@@ -71,13 +71,4 @@ As we age, sleep quality often declines, and understanding these mechanisms coul
 
 This analysis is based on [Serotonergic modulation of motor subspace dynamics drives a sleep-independent quiescent state](https://elifesciences.org/articles/110370) from eLife Neuroscience. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://7dbe25ykandw5k5drftiwfy5b8.hop.clickbank.net?tid=agewell_brain_health_ddade535e7a9d6b82af76362" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This study was conducted in larval zebrafish; human applications are speculative. Optogenetic activation may not replicate natural serotonin patterns. Consult a physician before making any health changes.

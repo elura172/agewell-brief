@@ -77,21 +77,4 @@ Stay informed about clinical trials targeting GPR81. If human studies confirm th
 
 This analysis is based on [Activation of the Lactate Receptor GPR81 Ameliorates Senescence Hallmarks and Improves Muscle Function in Cellular and Progeroid Models of Aging](https://onlinelibrary.wiley.com/doi/10.1111/acel.70647?af=R) from Aging Cell. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://6e8b8zrmkq7p4u6f47s6u7xgu1.hop.clickbank.net?tid=agewell_longevity_08d7b162c10f162f1aa18f74" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://1e2b3b-hi02yeuc7m91h7aay4n.hop.clickbank.net?tid=agewell_longevity_08d7b162c10f162f1aa18f74" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This is a preclinical study in cellular and mouse models. Human relevance is not yet established, and no clinical recommendations can be made.

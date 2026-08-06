@@ -41,21 +41,4 @@ A new review explores critical flicker fusion frequency—the point where flicke
 
 This signal is based on [Critical Flicker Fusion Frequency As A Falsifiable Boundary Between Plastic And Non-Plastic Neural Systems](https://arxiv.org/abs/2607.29068) from arXiv q-bio. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for everyday habits</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://1e28e0tknzfl1od5lj2p2qt666.hop.clickbank.net?tid=agewell_metabolic_health_41eaae732adb31fac06e30fe" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for everyday habits</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://fba56bygau7xby2toyeh9q3qc2.hop.clickbank.net?tid=agewell_metabolic_health_41eaae732adb31fac06e30fe" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This is a review, not new research; its proposals are testable ideas, not established findings.

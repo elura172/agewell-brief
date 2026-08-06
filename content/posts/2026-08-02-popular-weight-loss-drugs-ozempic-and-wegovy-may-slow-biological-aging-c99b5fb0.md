@@ -43,13 +43,4 @@ New research in adults with HIV suggests semaglutide could influence aging marke
 
 This signal is based on [Popular weight-loss drugs Ozempic and Wegovy may slow biological aging](https://www.sciencedaily.com/releases/2026/07/260713084907.htm) from ScienceDaily Healthy Aging. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_c99b5fb04db2673528bc45ea" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** Findings are preliminary; not a proven anti-aging treatment.

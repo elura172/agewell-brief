@@ -74,21 +74,4 @@ Stay tuned for human trials that test this critical window hypothesis. Until the
 
 This analysis is based on [Supplementation with Fish Oil Rich in Omega-3 Fatty Acids Delays Age-Related Muscle Changes](https://www.biorxiv.org/content/10.64898/2026.08.02.742308v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for everyday habits</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://6c6dd1oecx1pemf4uqr0vxbk0b.hop.clickbank.net?tid=agewell_metabolic_health_901ecdfc76fc0ec0250a2651" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for everyday habits</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://1e28e0tknzfl1od5lj2p2qt666.hop.clickbank.net?tid=agewell_metabolic_health_901ecdfc76fc0ec0250a2651" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This is a preprint animal study. Findings are not directly transferable to humans, and no clinical recommendations are implied.

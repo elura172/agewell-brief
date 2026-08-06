@@ -459,13 +459,13 @@ def test_lead_affiliate_offer_is_visible_near_intro_and_source():
 
     result = markdown(item, "brain health", content, "https://example.hop.clickbank.net")
 
-    assert result.count("https://example.hop.clickbank.net") == 2
+    assert result.count("https://example.hop.clickbank.net") == 1
     assert result.index('class="resource-card resource-card--primary"') < result.index("### Source")
-    assert result.count("class=\"resource-card") == 2
+    assert result.count('class="resource-card') == 1
     assert "Commission-supported; no added cost to you." in result
 
 
-def test_markdown_renders_two_or_three_contextual_affiliate_placements():
+def test_markdown_renders_single_contextual_affiliate_placement():
     item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
     content = {
         "headline": "A useful finding",
@@ -480,10 +480,11 @@ def test_markdown_renders_two_or_three_contextual_affiliate_placements():
         "https://three.hop.clickbank.net",
     ]
     result = markdown(item, "brain health", content, urls)
-    assert result.count("hop.clickbank.net") == 3
+    assert result.count("hop.clickbank.net") == 1
+    assert "https://one.hop.clickbank.net" in result
     assert "Practical follow-up" in result
-    assert "More to explore" in result
-    assert result.count("Commission-supported; no added cost to you.") == 3
+    assert result.count('class="resource-card') == 1
+    assert result.count("Commission-supported; no added cost to you.") == 1
 
 
 def test_markdown_renders_first_party_program_resource_separately():
@@ -509,7 +510,6 @@ def test_markdown_renders_first_party_program_resource_separately():
     assert "This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you." in result
     assert 'rel="noopener noreferrer"' in result
     assert 'content_type: "evergreen"' in result
-    assert "Commission-supported; no added cost to you." in result
 
 
 def test_program_resource_router_matches_spiral_topics():

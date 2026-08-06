@@ -70,21 +70,4 @@ The most robust strategy remains to maintain metabolic flexibility through regul
 
 This analysis is based on [The Divergent Effects of Nicotinamide Riboside and High‐Intensity Exercise Training on Skeletal Muscle Epigenetic Aging](https://onlinelibrary.wiley.com/doi/10.1111/acel.70638?af=R) from Aging Cell. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://19bd060jcnau0mcmgq4ki1ne-n.hop.clickbank.net?tid=agewell_longevity_616f0fc71a48824a3135566c" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://6e8b8zrmkq7p4u6f47s6u7xgu1.hop.clickbank.net?tid=agewell_longevity_616f0fc71a48824a3135566c" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This analysis is based on a journal reference without full methodology. Reported findings are preliminary; interpretation is speculative. Consult a physician before changing supplementation or exercise regimens.

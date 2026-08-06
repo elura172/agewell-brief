@@ -66,13 +66,4 @@ Stay tuned for validation studies. The next step is to see if these maps can pre
 
 This analysis is based on [AI-enabled measurements of 'local brain aging' offer detailed insights on dementia and more](https://medicalxpress.com/news/2026-08-ai-enabled-local-brain-aging.html) from Medical Xpress Healthy Aging. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://bc1997qedzev4y5lgq-n2a2z05.hop.clickbank.net?tid=agewell_brain_health_f0e1657204cbafe3dfa75622" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This is an observational study; no causal claims are made. The AI model is not ready for clinical use, and specific numerical results were not provided in the source.

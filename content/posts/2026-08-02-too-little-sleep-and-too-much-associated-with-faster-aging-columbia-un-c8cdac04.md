@@ -38,33 +38,8 @@ A new study using organ-specific 'aging clocks' finds that both too little and t
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for steadier routines</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://b52a6dthnsfp7u1cz8sd19x75g.hop.clickbank.net?tid=agewell_sleep_health_c8cdac0431effbbe72ebf5e9" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for steadier routines</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://b52a6dthnsfp7u1cz8sd19x75g.hop.clickbank.net?tid=agewell_sleep_health_c8cdac0431effbbe72ebf5e9" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 ### Source
 
 This signal is based on [Too Little Sleep—and Too Much—Associated with Faster Aging - Columbia University Irving Medical Center](https://news.google.com/rss/articles/CBMikwFBVV95cUxQUDNjVWVkTzBGOTlhOE04NjBSZW5TNGNhLXRwMWR1RzJacXlHdTY5SF94WjJfSVhta0pOWVh5eXM2UjY5TUJELUZxcFMtZVRJR3VGUThMWVJkc2t0UzlNTm9ISHpTWUZtWXJfdzlNdnplZjZqOFFUSmRJQVhiRjhlc3lsRWFROUlmUW8ybkVuOXU5eDQ?oc=5) from Columbia University Irving Medical Center. Read the original report for full context.
-
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for steadier routines</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://b52a6dthnsfp7u1cz8sd19x75g.hop.clickbank.net?tid=agewell_sleep_health_c8cdac0431effbbe72ebf5e9" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
 
 > **Health note:** Observational study; sleep was self-reported, so causation isn't proven.

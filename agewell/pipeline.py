@@ -914,20 +914,11 @@ def markdown(
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
     if isinstance(offer_urls, str):
         offer_urls = [offer_urls] if offer_urls else []
-    offer_urls = list(offer_urls or [])[:3]
+    offer_urls = list(offer_urls or [])[:1]
     recommendation_top = ""
-    recommendation = ""
     program_card = resource_card(program_url, category, primary=True, first_party=True) if program_url else ""
     if offer_urls:
-        placement_count = min(3, max(2, len(offer_urls)))
-        placements = [offer_urls[index % len(offer_urls)] for index in range(placement_count)]
-        recommendation_top = resource_card(placements[0], category, primary=True)
-        if len(offer_urls) > 1:
-            recommendation = resource_card(placements[1], category)
-        else:
-            recommendation = resource_card(placements[0], category)
-        if len(offer_urls) > 2:
-            recommendation += resource_card(placements[2], category)
+        recommendation_top = resource_card(offer_urls[0], category, primary=True)
     sections = ""
     if content_type in {"lead", "evergreen", "editorial"}:
         section_blocks = [
@@ -973,12 +964,11 @@ source_name: "{quote(item.source_name)}"
 ## Three things to remember
 
 {bullets}
-{(program_card or recommendation_top) if not sections else (recommendation_top if content_type not in {"lead", "evergreen", "editorial"} else "")}
+{(program_card or recommendation_top) if not sections else ""}
 
 ### Source
 
 This {"analysis" if content_type == "lead" else content_type} is based on [{item.title}]({item.link}) from {item.source_name}. Read the original report for full context.
-{recommendation}
 
 > **Health note:** {health_note}
 '''

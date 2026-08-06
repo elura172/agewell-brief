@@ -63,25 +63,8 @@ Keep an eye on this research, but don't wait for a magic bullet. The best strate
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_924241cde4ecb8e14876a259" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 ### Source
 
 This analysis is based on [Could this enzyme help remove 'zombie' cells from our tissues?](https://medicalxpress.com/news/2026-07-enzyme-zombie-cells-tissues.html) from Medical Xpress Healthy Aging. Read the original report for full context.
-
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for healthy aging</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://a68ea2zqnn6r2p59igofui2m2q.hop.clickbank.net?tid=agewell_longevity_924241cde4ecb8e14876a259" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
 
 > **Health note:** This article is based on a news summary and does not include original study data. The enzyme's identity and effects remain unconfirmed. Consult a healthcare professional for personalized advice.

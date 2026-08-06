@@ -38,25 +38,8 @@ Long flights disrupt more than sleep—your gut bacteria may also feel the time 
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for steadier routines</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://b52a6dthnsfp7u1cz8sd19x75g.hop.clickbank.net?tid=agewell_sleep_health_383365b2eedf64e24a6db060" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 ### Source
 
 This signal is based on [Your gut can get jet lag too: How not to waste the first days of your vacation](https://medicalxpress.com/news/2026-07-gut-jet-lag-days-vacation.html) from Medical Xpress Sleep. Read the original report for full context.
-
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for steadier routines</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://b52a6dthnsfp7u1cz8sd19x75g.hop.clickbank.net?tid=agewell_sleep_health_383365b2eedf64e24a6db060" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
 
 > **Health note:** This is based on reported research; individual effects may vary.

@@ -71,13 +71,4 @@ If you're concerned about memory or thinking, talk to your doctor. They can asse
 
 This analysis is based on [MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification](https://arxiv.org/abs/2607.28681) from arXiv q-bio. Read the original report for full context.
 
-
-<aside class="resource-card" aria-label="More to explore">
-<p class="resource-kicker">More to explore</p>
-<h3>A practical follow-up for staying mentally engaged</h3>
-<p>An optional resource for readers who want another place to begin.</p>
-<p><a class="resource-link" href="https://7dbe25ykandw5k5drftiwfy5b8.hop.clickbank.net?tid=agewell_brain_health_24697ba75f4dc73e1450c7aa" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
-<p class="resource-disclosure">Commission-supported; no added cost to you.</p>
-</aside>
-
 > **Health note:** This study is based on an abstract and has not been peer-reviewed. The findings are preliminary and should not be used for medical decisions.
