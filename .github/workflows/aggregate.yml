@@ -23,11 +23,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - name: Check configured ClickBank links
-        continue-on-error: true
-        run: python -m scripts.check_affiliate_offers
-        env:
-          AFFILIATE_OFFERS_JSON: ${{ secrets.AFFILIATE_OFFERS_JSON }}
       - name: Build trend radar
         continue-on-error: true
         run: python -m scripts.trend_radar
@@ -46,7 +41,6 @@ jobs:
           MAX_ITEMS_PER_PUBLISHER: 2
           AUTO_PUBLISH: true
           AUTO_PUBLISH_UNTIL: "2026-08-09"
-          AFFILIATE_OFFERS_JSON: ${{ secrets.AFFILIATE_OFFERS_JSON }}
       - name: Validate Upload-Post account
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         continue-on-error: true
@@ -69,6 +63,12 @@ jobs:
       - name: Sync persistent social manifest
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         run: python3 -m scripts.social_manifest sync --packages .state/social/latest.json
+      - name: Submit URLs to IndexNow
+        # Was only ever run by the local pulse, which is now retired in favour of this
+        # workflow. Bing freshness depends on it, so it belongs where generation happens.
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        continue-on-error: true
+        run: PYTHONPATH=. python3 scripts/run_indexnow_full_site.py
       - name: Commit generated drafts
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         run: |
