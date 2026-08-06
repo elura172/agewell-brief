@@ -313,8 +313,11 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
 
       <div id="subscribe-success-box" class="subscribe-success is-hidden">
         <span class="success-icon">✨</span>
-        <h3>You’re subscribed!</h3>
-        <p>Your 6 Biophysics Field Guides (PDF) are ready for instant download:</p>
+        <h3>One step left — confirm on Substack.</h3>
+        <p>
+          We opened Substack in a new tab; your subscription is live once you confirm there.
+          Meanwhile, all 6 Biophysics Field Guides (PDF) are yours to download right now:
+        </p>
         <div class="lead-magnet-grid">
           <a href="/downloads/field-guides/living-waters-field-guide.pdf" download class="magnet-link">🌊 Living Waters <em>(Fluid & Transport)</em></a>
           <a href="/downloads/field-guides/inner-garden-field-guide.pdf" download class="magnet-link">🌱 Inner Garden <em>(Gut Ecology)</em></a>
@@ -339,52 +342,17 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
         const email = emailInput.value.trim();
         if (!email) return;
 
+        // Subscription is completed on Substack, which owns the list. Handing off
+        // rather than posting in the background keeps the confirmation honest:
+        // the reader only ever sees "subscribed" from Substack itself.
+        const handoff =
+          "https://agewellbrief.substack.com/subscribe?email=" + encodeURIComponent(email);
+        window.open(handoff, "_blank", "noopener");
+
         submitBtn.disabled = true;
-        submitBtn.textContent = "Joining...";
-
-        try {
-          // Direct real-time event & contact registration to Loops
-          const apiKey = import.meta.env.PUBLIC_LOOPS_API_KEY || "";
-          if (apiKey) {
-            const headers = {
-              "Authorization": `Bearer ${apiKey}`,
-              "Content-Type": "application/json",
-              "User-Agent": "AgewellBrief/1.0 (Loops Email Integration)"
-            };
-
-            // 1. Create/update contact in Loops
-            fetch("https://app.loops.so/api/v1/contacts/create", {
-              method: "POST",
-              headers,
-              body: JSON.stringify({
-                email,
-                source: "Agewell Brief Homepage",
-                userGroup: "Agewell Subscribers",
-                subscribed: true
-              })
-            }).catch(() => {});
-
-            // 2. Send event to trigger automated email workflow
-            fetch("https://app.loops.so/api/v1/events/send", {
-              method: "POST",
-              headers,
-              body: JSON.stringify({
-                email,
-                eventName: "agewell_subscriber_signup",
-                eventProperties: {
-                  source: "website_subscribe_card",
-                  field_guides_unlocked: 6
-                }
-              })
-            }).catch(() => {});
-          }
-
-          form.style.display = "none";
-          successBox.classList.remove("is-hidden");
-        } catch (err) {
-          form.style.display = "none";
-          successBox.classList.remove("is-hidden");
-        }
+        submitBtn.textContent = "Opened in a new tab →";
+        form.style.display = "none";
+        successBox.classList.remove("is-hidden");
       });
     }
   </script>
