@@ -8,3 +8,7 @@ __pycache__/
 *.py[cod]
 *.DS_Store
 .state/content-factory*.log
+.state/*.log
+.state/*.err
+scratch/
+venv.broken-*/

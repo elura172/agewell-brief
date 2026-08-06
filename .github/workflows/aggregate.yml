@@ -63,12 +63,6 @@ jobs:
       - name: Sync persistent social manifest
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         run: python3 -m scripts.social_manifest sync --packages .state/social/latest.json
-      - name: Submit URLs to IndexNow
-        # Was only ever run by the local pulse, which is now retired in favour of this
-        # workflow. Bing freshness depends on it, so it belongs where generation happens.
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
-        continue-on-error: true
-        run: PYTHONPATH=. python3 scripts/run_indexnow_full_site.py
       - name: Commit generated drafts
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         run: |
