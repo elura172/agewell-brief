@@ -37,7 +37,7 @@ This reframes the clinical problem. If functional and organizational decline pre
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for everyday habits</h3>
 <p>For readers interested in taking the ideas in this metabolic health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://fba56bygau7xby2toyeh9q3qc2.hop.clickbank.net?tid=agewell_metabolic_health_901ecdfc76fc0ec0250a2651" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://fba56bygau7xby2toyeh9q3qc2.hop.clickbank.net?tid=agewell_metabolic_health_901ecdfc76fc0ec0250a2651" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 

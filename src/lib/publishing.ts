@@ -67,3 +67,22 @@ export function mediaRssData(data: ImageData, base = new URL("https://agewellbri
   const imageUrl = new URL(data.image, base).href;
   return `<media:content url="${escapeXml(imageUrl)}" medium="image" width="${data.image_width}" height="${data.image_height}"><media:description type="plain">${escapeXml(data.image_alt ?? "Illustrative Agewell Brief photograph")}</media:description><media:credit role="photographer">${escapeXml(data.image_photographer ?? "Photo contributor")}</media:credit></media:content>`;
 }
+
+// Hosts we earn commission from. Any link to one of these must be rel="sponsored",
+// whether it is a third-party affiliate offer or our own program, so that editorial
+// pages never pass ranking signals through a paid link.
+const COMMERCIAL_HOSTS = ["hop.clickbank.net", "fullscript.com"];
+
+export function isCommercialLink(href: string | undefined | null): boolean {
+  if (!href) return false;
+  try {
+    const host = new URL(href).hostname.toLowerCase();
+    return COMMERCIAL_HOSTS.some((h) => host === h || host.endsWith(`.${h}`));
+  } catch {
+    return false;
+  }
+}
+
+export function linkRel(href: string | undefined | null): string {
+  return isCommercialLink(href) ? "sponsored noopener noreferrer" : "noopener noreferrer";
+}

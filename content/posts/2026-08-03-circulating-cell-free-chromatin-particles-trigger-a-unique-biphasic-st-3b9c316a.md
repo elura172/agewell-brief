@@ -33,7 +33,7 @@ Cell-free chromatin particles from dying cells enter immune cells and activate S
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for healthy aging</h3>
 <p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://1e2b3b-hi02yeuc7m91h7aay4n.hop.clickbank.net?tid=agewell_longevity_3b9c316af3c8088e0f74037b" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://1e2b3b-hi02yeuc7m91h7aay4n.hop.clickbank.net?tid=agewell_longevity_3b9c316af3c8088e0f74037b" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 

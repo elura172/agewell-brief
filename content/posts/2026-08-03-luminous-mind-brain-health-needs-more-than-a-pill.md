@@ -46,7 +46,7 @@ Protect the basics first: keep a regular sleep schedule, address hearing and vis
 <p class="resource-kicker">Practical follow-up</p>
 <h3>Luminous Mind brain-health framework</h3>
 <p>Explore the companion protocol behind this program perspective.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">This is part of our program. We may earn a commission if you purchase through this link; there is no added cost to you.</p>
 </aside>
 

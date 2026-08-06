@@ -857,7 +857,10 @@ def resource_card(url: str, category: str, *, primary: bool = False, first_party
         if first_party
         else "Commission-supported; no added cost to you."
     )
-    rel = "noopener noreferrer"
+    # Commission-earning links must be rel="sponsored" whether the offer is a third-party
+    # affiliate or our own program. Passing ranking signals through a paid link is a link
+    # scheme, and the trust cost lands on the editorial pages we want cited.
+    rel = "sponsored noopener noreferrer"
     return f'''\n\n<aside class="resource-card{' resource-card--primary' if primary else ''}" aria-label="{label}">
 <p class="resource-kicker">{label}</p>
 <h3>{heading}</h3>

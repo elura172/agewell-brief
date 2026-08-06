@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import EditorialImage from "../components/EditorialImage.astro";
 import trendingData from "../data/trending.json";
+import { linkRel } from "../lib/publishing";
 
 const showDrafts = import.meta.env.DEV;
 const entries = (await getCollection("briefs"))
@@ -58,7 +59,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
           <p class="lead-dek">Cutting-edge research translated into actionable intelligence: what was discovered, why it matters for cellular & functional health, and where the science is heading.</p>
           <div class="lead-actions">
             <a class="primary-link" href={`/brief/${featured.id}/`}>Read the full analysis <span>→</span></a>
-            <p>Original reporting: <a href={featured.data.source_url} rel="noopener noreferrer">{featured.data.source_name}</a></p>
+            <p>Original reporting: <a href={featured.data.source_url} rel={linkRel(featured.data.source_url)}>{featured.data.source_name}</a></p>
           </div>
         </div>
         {featured.data.image && <EditorialImage
@@ -223,7 +224,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
                 </p>
                 <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
               </div>
-              <a class="archive-source" href={entry.data.source_url} rel="noopener noreferrer">Original source <span>↗</span></a>
+              <a class="archive-source" href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>Original source <span>↗</span></a>
             </article>
           </li>
         );

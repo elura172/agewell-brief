@@ -32,7 +32,7 @@ Adjuvants are ingredients added to vaccines to boost the immune response. The ne
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for staying mentally engaged</h3>
 <p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://7dbe25ykandw5k5drftiwfy5b8.hop.clickbank.net?tid=agewell_brain_health_8256e59bc511896e66949f0e" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://7dbe25ykandw5k5drftiwfy5b8.hop.clickbank.net?tid=agewell_brain_health_8256e59bc511896e66949f0e" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 

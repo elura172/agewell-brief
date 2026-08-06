@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { plainTextExcerpt, publishedBriefs, topicSlug } from "../../lib/publishing";
+import { linkRel, plainTextExcerpt, publishedBriefs, topicSlug } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
 import EZWaterCalculator from "../../components/EZWaterCalculator.astro";
 import GlymphaticCalculator from "../../components/GlymphaticCalculator.astro";
@@ -153,7 +153,7 @@ const structuredData = [
       </div>
       <h1>{entry.data.title}</h1>
       <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <time datetime={entry.data.date.toISOString()}>Published {formatDateTime}</time></p>
-      <p class="article-source">Original reporting: <a href={entry.data.source_url} rel="noopener noreferrer">{entry.data.source_title}</a></p>
+      <p class="article-source">Original reporting: <a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
       {frontierLinks.length > 0 && <p class="article-frontier">On the frontier: {frontierLinks.slice(0, 2).map((frontier, index) => <><a href={`/frontier-map/#${frontier.slug}`}>{frontier.shortName}</a>{index < Math.min(frontierLinks.length, 2) - 1 ? ", " : ""}</>)}</p>}
     </header>
     {entry.data.image && <div class="article-hero">
@@ -206,7 +206,7 @@ const structuredData = [
         <p class="protocol-focus">{protocolCard.focus}</p>
       </div>
       <div class="protocol-card-actions">
-        <a class="protocol-primary-btn" href={protocolCard.href} rel="noopener noreferrer" target="_blank">
+        <a class="protocol-primary-btn" href={protocolCard.href} rel="sponsored noopener noreferrer" target="_blank">
           View Protocol on Fullscript <span aria-hidden="true">→</span>
         </a>
         <a class="protocol-pdf-btn" href={protocolCard.pdfUrl} download>

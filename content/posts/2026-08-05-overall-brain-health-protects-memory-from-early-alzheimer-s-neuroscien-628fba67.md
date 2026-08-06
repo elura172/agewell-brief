@@ -37,7 +37,7 @@ For sovereign adults who refuse to be passive passengers in their own aging, thi
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for staying mentally engaged</h3>
 <p>For readers interested in taking the ideas in this brain health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://bc1997qedzev4y5lgq-n2a2z05.hop.clickbank.net?tid=agewell_brain_health_628fba671bb13fc20dfac71b" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://bc1997qedzev4y5lgq-n2a2z05.hop.clickbank.net?tid=agewell_brain_health_628fba671bb13fc20dfac71b" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 

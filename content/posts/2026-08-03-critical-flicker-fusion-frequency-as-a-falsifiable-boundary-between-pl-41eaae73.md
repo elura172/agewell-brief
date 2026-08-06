@@ -33,7 +33,7 @@ A new review explores critical flicker fusion frequency—the point where flicke
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for everyday habits</h3>
 <p>For readers interested in taking the ideas in this metabolic health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://6c6dd1oecx1pemf4uqr0vxbk0b.hop.clickbank.net?tid=agewell_metabolic_health_41eaae732adb31fac06e30fe" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://6c6dd1oecx1pemf4uqr0vxbk0b.hop.clickbank.net?tid=agewell_metabolic_health_41eaae732adb31fac06e30fe" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 

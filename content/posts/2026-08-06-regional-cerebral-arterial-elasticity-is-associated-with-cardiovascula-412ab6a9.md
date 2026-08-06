@@ -37,7 +37,7 @@ This is not abstract gerontology. The Windkessel model, formalized by Otto Frank
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for everyday habits</h3>
 <p>For readers interested in taking the ideas in this metabolic health brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://1e28e0tknzfl1od5lj2p2qt666.hop.clickbank.net?tid=agewell_metabolic_health_412ab6a9d01aee6fee0e19af" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://1e28e0tknzfl1od5lj2p2qt666.hop.clickbank.net?tid=agewell_metabolic_health_412ab6a9d01aee6fee0e19af" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 

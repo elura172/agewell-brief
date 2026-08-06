@@ -38,7 +38,7 @@ This study identifies GPR81, a receptor activated by lactate, as such a switch. 
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for healthy aging</h3>
 <p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://19bd060jcnau0mcmgq4ki1ne-n.hop.clickbank.net?tid=agewell_longevity_08d7b162c10f162f1aa18f74" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://19bd060jcnau0mcmgq4ki1ne-n.hop.clickbank.net?tid=agewell_longevity_08d7b162c10f162f1aa18f74" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 

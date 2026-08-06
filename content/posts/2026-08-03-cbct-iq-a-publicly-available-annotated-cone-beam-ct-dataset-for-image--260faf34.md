@@ -33,7 +33,7 @@ A new annotated dataset of 1,764 cone-beam CT slices enables reproducible resear
 <p class="resource-kicker">Practical follow-up</p>
 <h3>A practical follow-up for healthy aging</h3>
 <p>For readers interested in taking the ideas in this longevity brief a step further, we’ve included an optional resource that may be useful.</p>
-<p><a class="resource-link" href="https://19bd060jcnau0mcmgq4ki1ne-n.hop.clickbank.net?tid=agewell_longevity_260faf343e6db83913a54b38" rel="noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://19bd060jcnau0mcmgq4ki1ne-n.hop.clickbank.net?tid=agewell_longevity_260faf343e6db83913a54b38" rel="sponsored noopener noreferrer">Explore the resource <span aria-hidden="true">→</span></a></p>
 <p class="resource-disclosure">Commission-supported; no added cost to you.</p>
 </aside>
 
