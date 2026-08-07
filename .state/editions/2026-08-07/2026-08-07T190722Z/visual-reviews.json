@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "92137747c9365d28a5541c91",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "The candidate image metadata describes a lab flask with purple liquid and test tubes, which does not depict a researcher examining muscle tissue or any specific scientific process related to the story. The alt text and tags are generic and do not match the editorial intent of showing a researcher in a lab with muscle samples. The image appears to be a generic laboratory shot, lacking the specificity required to illustrate the scientific process of enzyme inhibition and muscle growth.",
+      "concerns": [
+        "The image does not show a researcher, muscle tissue, or any elements directly tied to the story's subject. It may mislead viewers into thinking the story is about chemistry rather than muscle biology. The metadata does not support the intended narrative."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]

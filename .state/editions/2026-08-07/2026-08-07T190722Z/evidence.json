@@ -1,0 +1,25 @@
+[
+  {
+    "article_id": "92137747c9365d28a5541c91",
+    "study_type": "preclinical animal study",
+    "key_claims": [
+      "Pharmacological inhibition of 15-PGDH restores PGE2 bioavailability in aged muscle.",
+      "Inhibition of 15-PGDH rescues the anabolic response to mechanical overload in geriatric mice, increasing muscle growth and contractile strength.",
+      "Single-nuclei RNA-seq revealed a paracrine circuit where PGE2 drives IGF1 synthesis in type IIb myonuclei, signaling to stromal, myogenic, myonuclear, and immune cells.",
+      "Blocking IGF1 receptor signaling abolished the gains, placing PGE2 upstream of an IGF1-mediated circuit that coordinates multicellular hypertrophy."
+    ],
+    "limitations": [
+      "The study was conducted in geriatric mice, not humans.",
+      "The source does not provide details on the specific pharmacological inhibitor used or its long-term safety.",
+      "The source does not specify the exact magnitude of muscle growth or strength increase.",
+      "The source does not discuss potential side effects or translation challenges."
+    ],
+    "what_not_to_say": [
+      "The source does not support that 15-PGDH inhibition is a proven treatment for sarcopenia in humans.",
+      "The source does not support that PGE2 directly causes muscle growth without IGF1 mediation.",
+      "The source does not support that the findings apply to all ages or muscle types.",
+      "The source does not support that the inhibitor is safe or effective for long-term use."
+    ],
+    "confidence": "high"
+  }
+]

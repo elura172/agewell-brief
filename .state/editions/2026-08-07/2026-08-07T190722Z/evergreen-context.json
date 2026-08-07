@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "92137747c9365d28a5541c91",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "12c50a361ed4f0b3",
+        "source": "Dr. Fritz-Albert Popp (1975) — Biophotonics and Cellular Coherence",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      },
+      {
+        "source_id": "9e57321706444f06",
+        "source": "Dr. Harold Saxton Burr (1935) — The Fields of Life: Our Links with the Universe (L-Fields)",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
