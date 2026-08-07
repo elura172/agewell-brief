@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic review",
+      "reason": "Comprehensive review of locus coeruleus in cognition, but it's a synthesis of known mechanisms, not a specific new finding.",
+      "angle": "Could be pitched as 'The brain's alarm system: how the locus coeruleus orchestrates cognition and fails in aging' if tied to recent imaging advances.",
+      "mode": "agent"
+    },
+    "b216b7d2d3e85f8d4887b525": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "new mechanism",
+      "reason": "Specific age-related shift in brain's immune cells around 50, potentially linking normal aging to Alzheimer's. Novel and impactful.",
+      "angle": "Why your brain's immune system changes at 50—and what it means for Alzheimer's risk.",
+      "mode": "agent"
+    },
+    "92137747c9365d28a5541c91": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "therapeutic target",
+      "reason": "Identifies a specific enzyme (15-PGDH) and mechanism (PGE2-IGF1 circuit) that restores muscle growth in aged mice. High novelty and potential clinical relevance.",
+      "angle": "A single enzyme could reverse age-related muscle loss: new study in mice.",
+      "mode": "agent"
+    },
+    "36612fb4c8df4b859a2f7d1e": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "new biomarker",
+      "reason": "Uses EEG complexity and stability to distinguish healthy aging from MCI/AD, offering a potential new diagnostic approach.",
+      "angle": "Brain signal complexity could spot early Alzheimer's—before symptoms.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "new mechanism",
+      "reason": "Identifies a specific glial surface protein (DIP-β) that extends lifespan in flies, opening new avenues for brain aging research.",
+      "angle": "A single protein on brain support cells extends lifespan in flies.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "new mechanism",
+      "reason": "Links a specific protein modification (succinylation) to mitochondrial dysfunction in Alzheimer's, providing a novel molecular pathway.",
+      "angle": "How a chemical tweak to a brain protein fuels Alzheimer's.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Generic workout advice for seniors, no new scientific finding. Low novelty.",
+      "angle": "Could be repackaged as 'A trainer's 10-minute daily routine to keep you steady on your feet' if tied to specific exercises.",
+      "mode": "agent"
+    },
+    "35aaa96783778cedbc0aaec0": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "tool/resource",
+      "reason": "Open benchmark for MS classification from blood RNA, useful but niche and not a major breakthrough.",
+      "angle": "Could be pitched as 'AI can now diagnose MS from a blood test—here's the open-source tool' if emphasizing accessibility.",
+      "mode": "agent"
+    },
+    "81974528b97244f04e952260": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "new biomarker",
+      "reason": "Metabolic brain network hyperconnectivity predicts Alzheimer's conversion years before symptoms, offering a potential early warning sign.",
+      "angle": "Brain network 'overconnectivity' may predict Alzheimer's years early.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "b216b7d2d3e85f8d4887b525",
+    "92137747c9365d28a5541c91",
+    "36612fb4c8df4b859a2f7d1e",
+    "c376819f2d54a4df1d317aee",
+    "44d85c20f70b28aea7edb7f1",
+    "81974528b97244f04e952260"
+  ],
+  "held_back": [
+    "29ba27a2d854f8745e1ea94c",
+    "256b3e11dfff849235aebba7",
+    "35aaa96783778cedbc0aaec0"
+  ],
+  "mode": "agent"
+}

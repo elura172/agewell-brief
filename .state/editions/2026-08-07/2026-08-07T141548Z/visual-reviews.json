@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "b216b7d2d3e85f8d4887b525",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:3082455",
+      "score": 75,
+      "rationale": "The image depicts a scientist using a microscope in a laboratory, which aligns with the editorial intent of showing scientific research and the setting of a laboratory with a microscope. The subject is not explicitly brain cells, but the scientific context is appropriate and avoids stereotypes or misleading imagery.",
+      "concerns": [
+        "The image does not directly show brain cells or immune cells, but it conveys the scientific process. It is generic but relevant to the research context."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-07/your-brain-s-immune-system-is-being-replaced-starting-at-50-b216b7d2-pexels-3082455.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
