@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "818885b0019299eba21ce9fd",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "0ab8467caacde078",
+        "source": "Dr. Mae-Wan Ho (1993) — The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 21
+      },
+      {
+        "source_id": "9e57321706444f06",
+        "source": "Dr. Harold Saxton Burr (1935) — The Fields of Life: Our Links with the Universe (L-Fields)",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 20
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

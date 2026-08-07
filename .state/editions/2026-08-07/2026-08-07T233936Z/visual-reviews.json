@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "818885b0019299eba21ce9fd",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:36625069",
+      "score": 85,
+      "rationale": "The candidate's alt text describes a contemplative senior woman by a window, which aligns with the image brief's subject and mood. The metadata does not contradict the story's themes of sleep, anxiety, and social isolation. The image is landscape orientation with high resolution, suitable for editorial use.",
+      "concerns": [
+        "The metadata does not explicitly mention Chinese ethnicity or the presence of a yoga mat and smartphone, which are part of the brief. However, the alt text and search query suggest a close match to the intended subject."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-07/sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0-pexels-36625069.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "edition_id": "2026-08-07",
+  "run_id": "2026-08-07T233936Z",
+  "generated_at": "2026-08-07T23:39:36.850734+00:00",
+  "attempted_stories": 1,
+  "generated_stories": 1,
+  "failed_stories": 0,
+  "publishable": true,
+  "checks": [
+    {
+      "article_id": "818885b0019299eba21ce9fd",
+      "publishable": true,
+      "reasons": [],
+      "source_status": "linked",
+      "editorial_status": "automated-checks",
+      "metadata_review_status": "approved",
+      "visual_review_status": "pending",
+      "desk_review": {
+        "status": "ready_for_human_review",
+        "reasons": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanism review",
+      "reason": "Review of locus coeruleus role in cognition; comprehensive but not a single new finding.",
+      "angle": "Focus on the LC as an early vulnerability node and its potential as a biomarker for cognitive decline.",
+      "mode": "agent"
+    },
+    "818885b0019299eba21ce9fd": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "observational study",
+      "reason": "Specific data on sleep-anxiety link in empty-nest older adults, with mediation analysis; actionable.",
+      "angle": "Highlight the mediating roles of exercise and social participation as intervention targets.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic listicle",
+      "reason": "Generic balance exercise listicle; low novelty.",
+      "angle": "Could be repackaged with expert tips or specific routines.",
+      "mode": "agent"
+    },
+    "36612fb4c8df4b859a2f7d1e": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "methodological advance",
+      "reason": "Novel distribution-level analysis of EEG stability and complexity; reveals aging and disease patterns.",
+      "angle": "Explain how this method could improve early detection of cognitive decline.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "new mechanism",
+      "reason": "Identifies DIP-β as a pro-longevity factor in glia; first in-situ glial surface proteomics in flies.",
+      "angle": "Could this glial protein be a target for brain aging therapies?",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic daily workout advice; low novelty.",
+      "angle": "Could be personalized or include specific modifications.",
+      "mode": "agent"
+    },
+    "35aaa96783778cedbc0aaec0": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "open benchmark",
+      "reason": "Open ML benchmark for MS classification from blood RNA; reproducible and useful.",
+      "angle": "Emphasize the potential for blood-based MS diagnosis and the benchmark's accessibility.",
+      "mode": "agent"
+    },
+    "233aa9f4f228faaab14a1859": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "new mechanism",
+      "reason": "Shows neuromelanin accumulation drives neuroinflammatory signatures; identifies GPNMB as target.",
+      "angle": "Could GPNMB be a therapeutic target for Parkinson's disease?",
+      "mode": "agent"
+    },
+    "8ceb4683a1d2939678198258": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "technical framework",
+      "reason": "Fault diagnosis framework for islanded power systems; not directly relevant to aging audience.",
+      "angle": "Could be reframed for smart home energy management for seniors.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "818885b0019299eba21ce9fd",
+    "36612fb4c8df4b859a2f7d1e",
+    "c376819f2d54a4df1d317aee",
+    "35aaa96783778cedbc0aaec0",
+    "233aa9f4f228faaab14a1859"
+  ],
+  "held_back": [
+    "29ba27a2d854f8745e1ea94c",
+    "cadce59ed8f9539ef7a34ac6",
+    "256b3e11dfff849235aebba7",
+    "8ceb4683a1d2939678198258"
+  ],
+  "mode": "agent"
+}
