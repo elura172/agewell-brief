@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "e7da10a8d4bbd6f2219f661d",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:26184267",
+      "score": 85,
+      "rationale": "The image depicts a female researcher using a microscope in a laboratory, which aligns with the editorial intent of showing a neuroscientist examining mitochondrial activity. The setting is a modern lab, and the mood is focused and analytical, matching the story's scientific tone. The alt text and metadata support the subject and setting without any conflicting elements.",
+      "concerns": [
+        "The image does not explicitly show mitochondrial images on a screen, but the microscope use implies cellular examination. The metadata does not specify the exact research focus, but it is sufficiently aligned with the story's context."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-07/tau-s-mitochondrial-sabotage-reversing-electron-flow-in-alzheimer-s-e7da10a8-pexels-26184267.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

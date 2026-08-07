@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Comprehensive review of locus coeruleus role in cognition, but lacks a specific new finding or breakthrough.",
+      "angle": "Focus on the LC's dual role in learning and memory as a potential target for cognitive enhancement.",
+      "mode": "agent"
+    },
+    "abdc380548de0bde5169f1a3": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies a specific molecular interaction between CHCHD10 and TDP-43, potentially explaining ALS/FTD pathology.",
+      "angle": "How a mitochondrial protein's interaction with TDP-43 could open new therapeutic avenues for ALS/FTD.",
+      "mode": "agent"
+    },
+    "dad5e389f30c3e322ed374dc": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "drug repurposing",
+      "reason": "Semaglutide activates orexin and cholinergic systems, increasing hippocampal acetylcholine, suggesting new mechanisms for cognitive effects.",
+      "angle": "Could semaglutide boost memory by activating brain wakefulness circuits? New mechanism in rats.",
+      "mode": "agent"
+    },
+    "768c6a3b7ed700c723bdf32a": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "systematic review",
+      "reason": "Scoping review of L2 learning neuroplasticity, but findings are heterogeneous and not novel.",
+      "angle": "Highlight gaps in research on L2 learning and cognitive reserve in aging.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "novel technology",
+      "reason": "First in-situ glial cell-surface proteomics in intact brains, identifies DIP-β as a pro-longevity factor.",
+      "angle": "New technique reveals glial surface protein DIP-β extends lifespan in flies, offering a target for brain aging.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "HNRNPC succinylation affects mitochondrial metabolism in AD, but the novelty is incremental.",
+      "angle": "Targeting protein succinylation may offer a new approach to Alzheimer's treatment.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle advice",
+      "reason": "Generic workout advice for seniors, not novel.",
+      "angle": "No unique angle.",
+      "mode": "agent"
+    },
+    "e7da10a8d4bbd6f2219f661d": {
+      "score": 80,
+      "decision": "commission",
+      "novelty_type": "paradigm shift",
+      "reason": "Tau disrupts mitochondria by reversing electron flow, a novel mechanism distinct from usual tau pathology.",
+      "angle": "Tau's new trick: reversing mitochondrial electron flow may drive Alzheimer's, offering a fresh therapeutic target.",
+      "mode": "agent"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "surprising finding",
+      "reason": "REM sleep enhances internal sensory processing while reducing external, providing insight into brain's sensory balance.",
+      "angle": "During REM sleep, your brain turns inward: new EEG study shows how it prioritizes internal signals.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "abdc380548de0bde5169f1a3",
+    "dad5e389f30c3e322ed374dc",
+    "c376819f2d54a4df1d317aee",
+    "e7da10a8d4bbd6f2219f661d",
+    "95c882437216b7799a061c53"
+  ],
+  "held_back": [
+    "29ba27a2d854f8745e1ea94c",
+    "768c6a3b7ed700c723bdf32a",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}
