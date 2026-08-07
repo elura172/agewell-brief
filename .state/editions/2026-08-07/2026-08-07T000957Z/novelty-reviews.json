@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Comprehensive review of locus coeruleus in cognition, but it's a synthesis of known research, not a specific new finding.",
+      "angle": "Focus on the novel techniques (NM-MRI, optogenetics) that are enabling new insights into LC function and its role in early neurodegeneration.",
+      "mode": "agent"
+    },
+    "abdc380548de0bde5169f1a3": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies a specific molecular interaction between CHCHD10 and TDP-43, a key protein in ALS/FTD, providing a new mechanistic link.",
+      "angle": "How this interaction could be targeted for therapy in ALS/FTD.",
+      "mode": "agent"
+    },
+    "dad5e389f30c3e322ed374dc": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "drug repurposing",
+      "reason": "Shows semaglutide activates orexin and cholinergic systems, increasing hippocampal acetylcholine, suggesting a new mechanism for cognitive effects.",
+      "angle": "Could semaglutide be repurposed for cognitive enhancement or neuroprotection in aging?",
+      "mode": "agent"
+    },
+    "768c6a3b7ed700c723bdf32a": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Systematic review of neuroplasticity in adult L2 learning; useful but not a single novel finding, and the topic is niche.",
+      "angle": "Highlight the most promising evidence for L2 learning as a cognitive reserve intervention in older adults.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "new technology",
+      "reason": "First in-situ glial cell-surface proteomics in intact brains, identifying DIP-β as a pro-longevity factor. Novel technology and specific finding.",
+      "angle": "How this new proteomics method could accelerate aging research and the potential of DIP-β as a therapeutic target.",
+      "mode": "agent"
+    },
+    "ecf3b9ec01e047b31f242baf": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "explainer",
+      "reason": "Explains the mechanism behind cataplexy triggered by laughter, a specific and interesting phenomenon for narcolepsy patients.",
+      "angle": "The neuroscience of laughter and its connection to muscle control.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Links HNRNPC succinylation to mitochondrial metabolism and neurodegeneration in Alzheimer's, a novel post-translational modification pathway.",
+      "angle": "Targeting succinylation as a potential therapeutic strategy for Alzheimer's.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Generic workout advice for seniors, not novel or specific enough.",
+      "angle": "Could be improved by highlighting the specific exercises and their evidence base.",
+      "mode": "agent"
+    },
+    "e7da10a8d4bbd6f2219f661d": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Reveals a new mechanism for tau toxicity: disrupting mitochondrial electron flow, which is different from the usual pathway.",
+      "angle": "How this mitochondrial dysfunction could be targeted to prevent neurodegeneration.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "abdc380548de0bde5169f1a3",
+    "dad5e389f30c3e322ed374dc",
+    "c376819f2d54a4df1d317aee",
+    "ecf3b9ec01e047b31f242baf",
+    "44d85c20f70b28aea7edb7f1",
+    "e7da10a8d4bbd6f2219f661d"
+  ],
+  "held_back": [
+    "29ba27a2d854f8745e1ea94c",
+    "768c6a3b7ed700c723bdf32a",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

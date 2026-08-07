@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "ecf3b9ec01e047b31f242baf",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:10549076",
+      "score": 85,
+      "rationale": "The image depicts two friends laughing together in a cozy living room, matching the editorial intent of showing a person with narcolepsy experiencing sudden muscle weakness during laughter. The setting and mood align with the story's context, and the metadata does not suggest any negative stereotypes or clinical settings.",
+      "concerns": [
+        "The image shows two people, not specifically a middle-aged woman slumping, but it captures the essence of laughter in a social setting. The lack of explicit depiction of muscle weakness may reduce specificity, but it is the best match among candidates."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-07/the-laughter-cataplexy-link-a-neurological-short-circuit-in-narcolepsy-ecf3b9ec-pexels-10549076.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
