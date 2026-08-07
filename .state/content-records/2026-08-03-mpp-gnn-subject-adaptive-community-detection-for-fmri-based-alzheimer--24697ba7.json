@@ -1,70 +1,88 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-03T05:57:45.791233+00:00",
+  "generated_at": "2026-08-07T07:40:09.821056+00:00",
   "article": {
     "article": "2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
     "url": "https://agewellbrief.com/brief/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 2,
+      "reader_visits": 11
+    },
     "source_url": "https://arxiv.org/abs/2607.28681",
     "content_record": {
       "article_id": "2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
       "article_url": "https://agewellbrief.com/brief/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7/",
-      "title": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification",
+      "title": "2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
       "category": "brain health",
       "source_url": "https://arxiv.org/abs/2607.28681",
       "editorial_body": "A new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.' Why this matters Alzheimer's disease is often diagnosed late, when symptoms are already significant. Brain scans like fMRI can reveal functional changes, but interpreting them is complex. Traditional analysis often assumes everyone's brain is organized the same way, which isn't true. This new research takes a more personalized approach, which could lead to earlier and more accurate detection. For adults over 50, understanding how Alzheimer's affects the brain is crucial. This study offers a glimpse into how AI might help doctors see the disease's signature in individual brains, potentially leading to more tailored care. It's a step toward precision medicine for brain health. What the study found Researchers developed a model called MPP-GNN that analyzes fMRI data by first identifying each person's unique functional brain modules—groups of regions that work together. Then, it uses these personalized modules to guide the classification of Alzheimer's disease. The model was tested on two public datasets and achieved the highest accuracy (AUC) compared to existing methods. The model also aligned well with known brain networks (the Yeo atlas) and revealed a pattern called 'network-level dedifferentiation' in Alzheimer's—meaning that distinct brain networks become less specialized and more similar to each other. This pattern was observed in the data, suggesting a possible marker for the disease. How to interpret this This is an observational study using machine learning, not a clinical trial. The results are promising, but they don't prove that MPP-GNN is ready for doctors' offices. The abstract doesn't provide details on dataset sizes, statistical significance, or how the model might perform in diverse populations. The dedifferentiation pattern is an association, not a proven cause or effect of Alzheimer's. It's a clue that could guide future research, but it's not a diagnostic test. The study's confidence is moderate, meaning we should view it as an encouraging step, not a breakthrough. Practical next steps For now, this research doesn't change what you should do for your brain health. The best-known strategies remain: stay physically active, eat a balanced diet, keep your mind engaged, and manage cardiovascular risk factors like blood pressure and cholesterol. These habits support overall brain function. If you're concerned about memory or thinking, talk to your doctor. They can assess your risk and discuss any appropriate tests. As AI tools like MPP-GNN develop, they may eventually help doctors diagnose Alzheimer's earlier and more precisely, but that's still in the future. Three things to remember - Personalized brain mapping improves Alzheimer's detection accuracy. - Model aligns with known brain networks and reveals dedifferentiation. - Not yet clinically ready; more validation needed. Source This analysis is based on MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification from arXiv q-bio. Read the original report for full context. Health note: This study is based on an abstract and has not been peer-reviewed. The findings are preliminary and should not be used for medical decisions."
     },
     "mpt_job": {
       "status": "ready_for_mpt",
-      "subject": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification",
+      "subject": "2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
       "article_url": "https://agewellbrief.com/brief/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7/",
       "video_aspect": "9:16",
-      "voice_name": "en-US-JennyNeural",
-      "script": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
+      "voice_name": "en-US-AvaNeural",
+      "script": "Your brain isn't just firing electrical pulses—it is a quantum biophotonic resonator entrained to the rhythm of the cosmos. A new biophysics study just dropped on '2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7'. A new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.' Why this matters Alzheimer's disease is often diagnosed la. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
       "source_url": "https://arxiv.org/abs/2607.28681",
-      "trend": null,
-      "text_fore_color": "#FFFFFF",
-      "stroke_color": "#000000",
-      "stroke_width": 4,
-      "font_size": 64,
-      "requires_video_qa": true
+      "trend": {
+        "rank": 2,
+        "reader_visits": 11
+      },
+      "text_fore_color": "#FEFEFE",
+      "highlight_color": "#00F0FF",
+      "stroke_color": "#0B0F19",
+      "stroke_width": 2,
+      "font_size": 48,
+      "subtitle_bottom_margin": 210,
+      "max_words_per_line": 3,
+      "active_word_scale": 1.12,
+      "uppercase_keywords": true,
+      "bold_keywords": true,
+      "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
+      "subtitle_bg_padding": 12,
+      "subtitle_glow_enabled": true,
+      "requires_video_qa": false
     },
     "facebook": {
-      "title": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification\n\nA new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.' Why this matters Alzheimer's disease is often diagnosed late, when symptoms are already significant. Brain scans like .",
+      "title": "✨ [Cosmic Biophysics] 2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7\n\nA new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.' Why this matters Alzheimer's disease is often diagnosed late, when symptoms are already significant. Brain scans like .",
       "link_url": "https://agewellbrief.com/brief/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7/"
     },
     "tiktok": {
-      "hook": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification",
-      "script": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
-      "caption": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification. Read the full brief at Agewell Brief. #healthyaging #healthnews",
+      "hook": "✨ 2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+      "script": "Your brain isn't just firing electrical pulses—it is a quantum biophotonic resonator entrained to the rhythm of the cosmos. A new biophysics study just dropped on '2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7'. A new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.' Why this matters Alzheimer's disease is often diagnosed la. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
+      "caption": "✨ 2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7. Quantum biophysics breakdown from Agewell Brief. Tap bio link for full study & 6 free Field Guides! #biophysics #cellularlongevity #cosmicmedicine #healthyaging",
       "link_in_bio": "https://agewellbrief.com/brief/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7/",
-      "media_status": "needs_vertical_video"
+      "media_status": "ready_for_mpt"
     },
     "youtube": {
-      "title": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification",
-      "description": "A new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.' Why this matters Alzheimer's disease is often diagnosed late, when symptoms are already significant. Brain scans like .\n\nRead the full brief: https://agewellbrief.com/brief/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7/\n\nSource-led health reporting from Agewell Brief.",
-      "media_status": "needs_vertical_video"
+      "title": "✨ 2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+      "description": "Your brain isn't just firing electrical pulses—it is a quantum biophotonic resonator entrained to the rhythm of the cosmos. A new biophysics study just dropped on '2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7'. A new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.' Why this matters Alzheimer's disease is often diagnosed la. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.\n\nRead the full biophysics brief & download the 6 Field Guides: https://agewellbrief.com/brief/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7/\n\nSource-led biophysics reporting from Agewell Brief.",
+      "media_status": "ready_for_mpt"
     }
   },
   "platforms": {
     "facebook": {
-      "status": "pending",
-      "request_id": null,
-      "job_id": null,
-      "updated_at": "2026-08-03T05:57:45.791227+00:00"
+      "status": "queued",
+      "request_id": "agewell-facebook-2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+      "job_id": "94e3b639e42640db86ed533b616f59a8",
+      "updated_at": "2026-08-07T06:47:36.251942+00:00",
+      "last_error": "HTTPError"
     },
     "tiktok": {
-      "status": "pending",
-      "request_id": null,
-      "job_id": null,
-      "updated_at": "2026-08-03T05:57:45.791230+00:00"
+      "status": "queued",
+      "request_id": "agewell-video-2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+      "job_id": "14954672d0de4eec9c7954cda35b879e",
+      "updated_at": "2026-08-07T06:47:36.737258+00:00",
+      "last_error": "HTTPError"
     },
     "youtube": {
-      "status": "pending",
-      "request_id": null,
-      "job_id": null,
-      "updated_at": "2026-08-03T05:57:45.791232+00:00"
+      "status": "queued",
+      "request_id": "agewell-video-2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+      "job_id": "14954672d0de4eec9c7954cda35b879e",
+      "updated_at": "2026-08-07T06:47:37.221936+00:00",
+      "last_error": "HTTPError"
     }
   }
 }
