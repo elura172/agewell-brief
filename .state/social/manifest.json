@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-08T07:02:23.959341+00:00",
+  "updated_at": "2026-08-08T07:13:12.564047+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -230,7 +230,7 @@
           "last_error": "HTTPError"
         }
       },
-      "updated_at": "2026-08-07T07:40:09.821571+00:00"
+      "updated_at": "2026-08-08T07:13:12.564039+00:00"
     },
     "2026-08-03-research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c": {
       "article_id": "2026-08-03-research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c",
@@ -352,7 +352,7 @@
           "updated_at": "2026-08-04T09:06:48.433645+00:00"
         }
       },
-      "updated_at": "2026-08-04T09:06:48.433968+00:00"
+      "updated_at": "2026-08-08T07:13:12.563495+00:00"
     },
     "2026-08-04-supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc": {
       "article_id": "2026-08-04-supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc",
@@ -381,7 +381,7 @@
           "updated_at": "2026-08-04T15:28:58.593690+00:00"
         }
       },
-      "updated_at": "2026-08-05T08:51:40.087826+00:00"
+      "updated_at": "2026-08-08T07:13:12.561995+00:00"
     },
     "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7": {
       "article_id": "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7",
@@ -555,7 +555,7 @@
           "updated_at": "2026-08-06T09:04:53.872822+00:00"
         }
       },
-      "updated_at": "2026-08-07T07:40:09.823198+00:00"
+      "updated_at": "2026-08-08T07:13:12.562934+00:00"
     },
     "2026-08-03-inner-garden-gut-health-as-an-ecology": {
       "article_id": "2026-08-03-inner-garden-gut-health-as-an-ecology",
@@ -730,6 +730,35 @@
         }
       },
       "updated_at": "2026-08-07T23:40:31.673286+00:00"
+    },
+    "2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229": {
+      "article_id": "2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229",
+      "article_url": "https://agewellbrief.com/brief/2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229/",
+      "title": "2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229",
+      "category": "longevity",
+      "content_record": ".state/content-records/2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229.json",
+      "video_job": ".state/video-jobs/2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-08T07:13:12.562005+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-08T07:13:12.562008+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-08T07:13:12.562010+00:00"
+        }
+      },
+      "updated_at": "2026-08-08T07:13:12.562444+00:00"
     }
   }
 }
