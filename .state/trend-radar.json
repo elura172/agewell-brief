@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T13:50:01.259955+00:00",
+  "generated_at": "2026-08-08T18:49:42.699432+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -11,16 +11,16 @@
       "source_count": 3,
       "sources": [
         "NBC News",
-        "fda.gov.ph",
-        "pharmacytimes.com"
+        "Pharmacy Times",
+        "fda.gov.ph"
       ],
       "newest": "2026-02-26T08:21:13+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
       "items": [
         {
-          "title": "FDA May Relax Dietary Supplement Warning Label Rules: Implications for Public Health - pharmacytimes.com",
+          "title": "FDA May Relax Dietary Supplement Warning Label Rules: Implications for Public Health - Pharmacy Times",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ2pTd2g1QVVnTVVrYjRSLUV1ZVBiVU1PeG52dGdFNVk2REE3QzJCUTZSazRPX3o0NjFEa2hCZ3p4X2wwWXhadk9VTl91NktobmdPVi1tTy1WODJvUVVNR2dNT01yaDEtT1dkNnFQLVQ5ejdjNWtNRmRZNURfelJ2a0k4NE1vWG9POGZNWUhZa05kcVlNWGt1cWRjbWk2UFR3Wm04SmZ1WmI5UHM3dk9qaVpLMW93bjFNTXc?oc=5",
-          "source": "pharmacytimes.com",
+          "source": "Pharmacy Times",
           "published": "Fri, 02 Jan 2026 08:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -109,50 +109,10 @@
       ]
     },
     {
-      "topic": "activity brain circadian faster fragmented linked over rest rhythms shrinkage time",
-      "headline": "Metabolic syndrome linked to faster brain ageing - Karolinska Institutet",
-      "category": "sleep health",
-      "score": 18.0,
-      "mention_count": 3,
-      "source_count": 2,
-      "sources": [
-        "Johns Hopkins Bloomberg School of Public Health",
-        "Karolinska Institutet"
-      ],
-      "newest": "2026-07-14T07:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "In Older Adults, Fragmented Circadian Rest-Activity Rhythms Linked to Faster Brain Shrinkage Over Time - Johns Hopkins Bloomberg School of Public Health",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGRvVTU1MzZtSFpWSXJPODVDSEtSMzRVN3RCdTE4V3NkMXgwODNiX2NsRFZmWGhxdWg2RjAzSm9SalRoRUFrMkdITERLMjI5dmdCQ1d0ZGtlRjA5Y0tfMzFFaTdJckVyM1duaHhqWFhwQ2VPc0N3SWI0b0RxZWM4LVVYdENMN1o3NmlJOGJsU2pRQXBzODc0N09fSWhuR0pJQkRSWWlCVGhLNWstWkE1b0JpcHFOZUt6RHhMNTZsS05VWUREODlLMnF5SFBLcFlN?oc=5",
-          "source": "Johns Hopkins Bloomberg School of Public Health",
-          "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Metabolic syndrome linked to faster brain ageing - Karolinska Institutet",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02bnJxWW9yTnRSVHJQOTItWEFiT1p0VTJfdjFzaDJTaXc1WUZFMXBoTUdPN240VW1HRUdnUWxRTDh3eTZySG0wc3Q3NFgxRXhGRkRYR185T3VlT055LTBXVWZtdWhMNmFmMkRDa2t0MlJ5a3ZsTmc?oc=5",
-          "source": "Karolinska Institutet",
-          "published": "Tue, 14 Jul 2026 07:00:00 GMT",
-          "seed": "sleep and biological aging",
-          "category": "sleep health"
-        },
-        {
-          "title": "In Older Adults, Fragmented Circadian Rest-Activity Rhythms Linked to Faster Brain Shrinkage Over Time - Johns Hopkins Bloomberg School of Public Health",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGRvVTU1MzZtSFpWSXJPODVDSEtSMzRVN3RCdTE4V3NkMXgwODNiX2NsRFZmWGhxdWg2RjAzSm9SalRoRUFrMkdITERLMjI5dmdCQ1d0ZGtlRjA5Y0tfMzFFaTdJckVyM1duaHhqWFhwQ2VPc0N3SWI0b0RxZWM4LVVYdENMN1o3NmlJOGJsU2pRQXBzODc0N09fSWhuR0pJQkRSWWlCVGhLNWstWkE1b0JpcHFOZUt6RHhMNTZsS05VWUREODlLMnF5SFBLcFlN?oc=5",
-          "source": "Johns Hopkins Bloomberg School of Public Health",
-          "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
       "topic": "balance build minute mobility squat strength this",
       "headline": "This One-Minute Squat Can Build Balance, Strength, And Mobility As You Age - AOL.com",
       "category": "mobility",
-      "score": 16.66,
+      "score": 16.14,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
@@ -412,6 +372,38 @@
       ]
     },
     {
+      "topic": "associated faster little much sleep",
+      "headline": "Too Much Sleep May Age Your Body Faster, New Study Warns - SciTechDaily",
+      "category": "sleep health",
+      "score": 14.0,
+      "mention_count": 2,
+      "source_count": 2,
+      "sources": [
+        "SciTechDaily",
+        "cuimc.columbia.edu"
+      ],
+      "newest": "2026-05-18T07:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "Too Little Sleep—and Too Much—Associated with Faster Aging - cuimc.columbia.edu",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUDNjVWVkTzBGOTlhOE04NjBSZW5TNGNhLXRwMWR1RzJacXlHdTY5SF94WjJfSVhta0pOWVh5eXM2UjY5TUJELUZxcFMtZVRJR3VGUThMWVJkc2t0UzlNTm9ISHpTWUZtWXJfdzlNdnplZjZqOFFUSmRJQVhiRjhlc3lsRWFROUlmUW8ybkVuOXU5eDQ?oc=5",
+          "source": "cuimc.columbia.edu",
+          "published": "Wed, 13 May 2026 07:00:00 GMT",
+          "seed": "sleep and biological aging",
+          "category": "sleep health"
+        },
+        {
+          "title": "Too Much Sleep May Age Your Body Faster, New Study Warns - SciTechDaily",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdEVTQWEtTTZsWmRvYmV4LWgyRmc2TTVkWjJ1bWduX2hSQUVBSkJQZzRVMkJtQnpPLWxUMldpOE9HZUtYdXJDWUJqUXM1dGpnVzF5UUJQNGc5dUNTOVFQd1NsWXYwQ1dvQkl5ZTJjSmZMV0kyRVplVXhnUDJid1pfZjNRS0dtMjBk?oc=5",
+          "source": "SciTechDaily",
+          "published": "Mon, 18 May 2026 07:00:00 GMT",
+          "seed": "sleep and biological aging",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
       "topic": "help hours night research shows sleeping slow",
       "headline": "Research Shows Sleeping 6.4 to 7.8 Hours a Night May Help Slow Aging - Verywell Health",
       "category": "sleep health",
@@ -452,7 +444,7 @@
       "source_count": 2,
       "sources": [
         "Tom's Guide",
-        "trendhunter.com"
+        "Trend Hunter"
       ],
       "newest": "2026-08-01T05:37:21+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
@@ -466,43 +458,12 @@
           "category": "sleep health"
         },
         {
-          "title": "Real-Time Sleep Support Wearables - trendhunter.com",
+          "title": "Real-Time Sleep Support Wearables - Trend Hunter",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zVUtjaWRWVl9LOGpJU1ZHOWJJVXJKOWVXRUxoS3gwRHRQcjFQV2ViQTBYNGRxNFZfZW1xRmk4SDUyUWs0TXVGd3l1TS1FYUJ2LXhjUF9hem5tek1uM0wxTGVzNGFaZlVQWWfSAW9BVV95cUxQM09IdnBTS0FZczNrOHBvMHJGb0NWOVFTN2RqUkhKbS1tNFhVQnlhSmpmckw2VndrUG5RMXE1SHdPNWNhLUtCRk9rQ0o4TDZPZUMzTjdsamZUTmtVYVlPVjA5ZDUtdnNvSlBkVFhGSHM?oc=5",
-          "source": "trendhunter.com",
+          "source": "Trend Hunter",
           "published": "Thu, 11 Jun 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
-        }
-      ]
-    },
-    {
-      "topic": "acids amino benefits healthy medical mimic news protein restricting restriction select",
-      "headline": "Longevity and protein: Restricting 3 amino acids may help extend life - Medical News Today",
-      "category": "general wellness",
-      "score": 11.0,
-      "mention_count": 2,
-      "source_count": 1,
-      "sources": [
-        "Medical News Today"
-      ],
-      "newest": "2026-08-04T18:33:57+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Restricting select amino acids may mimic protein restriction’s healthy aging benefits - News-Medical",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZk1rX3E4N3pENXJTQ1dhejhpQ1JyeTE1ZmJNQmxQanczWWhjUTVXa1FHcEVaeWZfZm8tZWdNNHN3VGlRSnhWazF2YlNwYmRJdFk1QjZzb3JUdHNiUVR3N1hUWTk1S2t6bVJJMnQ0SWJjMTc0TEk1NG5sZ01EYy1QQVNBVVNSekc5Qkh0UUJlNUx0RUF0akZ6bU9iZ24zNlBVM09FUFQyUnlUOWpORFpYN3MxTDdwbzhQT3VnZkYzRzhLMENYV2diYUpwSWozdUlWNzRacA?oc=5",
-          "source": "",
-          "published": "Tue, 04 Aug 2026 02:47:00 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        },
-        {
-          "title": "Longevity and protein: Restricting 3 amino acids may help extend life - Medical News Today",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYlNjWklWSGtDVXBiRldXSS1kRkRlbEloUHl1d2JPa3dlUXpmMU9Pd2RzdXFhZXIxa1FCdTFqTEhWQ0dNbkJiNk5MdWwyR1Q5bE5JanU2QzVXZUR3dEZxNkRPOFFkakhOR3ZOb2Q5ZmpNU21LREw0UGlDZUg0OER3cnNDU2NHN1J6MWVhaUUteElDQmNHbWdqRHdaYjlXNW9ZcnV6Q0VUNTFuSHlSUmFv?oc=5",
-          "source": "Medical News Today",
-          "published": "Tue, 04 Aug 2026 18:33:57 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
         }
       ]
     },
@@ -534,6 +495,37 @@
           "published": "Fri, 20 Feb 2026 08:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "activity brain circadian faster fragmented linked over rest rhythms shrinkage time",
+      "headline": "In Older Adults, Fragmented Circadian Rest-Activity Rhythms Linked to Faster Brain Shrinkage Over Time - Johns Hopkins Bloomberg School of Public Health",
+      "category": "sleep health",
+      "score": 11.0,
+      "mention_count": 2,
+      "source_count": 1,
+      "sources": [
+        "Johns Hopkins Bloomberg School of Public Health"
+      ],
+      "newest": "2026-04-14T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "In Older Adults, Fragmented Circadian Rest-Activity Rhythms Linked to Faster Brain Shrinkage Over Time - Johns Hopkins Bloomberg School of Public Health",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGRvVTU1MzZtSFpWSXJPODVDSEtSMzRVN3RCdTE4V3NkMXgwODNiX2NsRFZmWGhxdWg2RjAzSm9SalRoRUFrMkdITERLMjI5dmdCQ1d0ZGtlRjA5Y0tfMzFFaTdJckVyM1duaHhqWFhwQ2VPc0N3SWI0b0RxZWM4LVVYdENMN1o3NmlJOGJsU2pRQXBzODc0N09fSWhuR0pJQkRSWWlCVGhLNWstWkE1b0JpcHFOZUt6RHhMNTZsS05VWUREODlLMnF5SFBLcFlN?oc=5",
+          "source": "Johns Hopkins Bloomberg School of Public Health",
+          "published": "Tue, 14 Apr 2026 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        },
+        {
+          "title": "In Older Adults, Fragmented Circadian Rest-Activity Rhythms Linked to Faster Brain Shrinkage Over Time - Johns Hopkins Bloomberg School of Public Health",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGRvVTU1MzZtSFpWSXJPODVDSEtSMzRVN3RCdTE4V3NkMXgwODNiX2NsRFZmWGhxdWg2RjAzSm9SalRoRUFrMkdITERLMjI5dmdCQ1d0ZGtlRjA5Y0tfMzFFaTdJckVyM1duaHhqWFhwQ2VPc0N3SWI0b0RxZWM4LVVYdENMN1o3NmlJOGJsU2pRQXBzODc0N09fSWhuR0pJQkRSWWlCVGhLNWstWkE1b0JpcHFOZUt6RHhMNTZsS05VWUREODlLMnF5SFBLcFlN?oc=5",
+          "source": "Johns Hopkins Bloomberg School of Public Health",
+          "published": "Tue, 14 Apr 2026 07:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
         }
       ]
     },
@@ -663,21 +655,21 @@
     },
     {
       "topic": "changes circadian dementia higher linked newsroom rhythms risk",
-      "headline": "Changes in circadian rhythms linked to higher dementia risk: Newsroom - UT Southwestern",
+      "headline": "Changes in circadian rhythms linked to higher dementia risk: Newsroom - utsouthwestern.edu",
       "category": "brain health",
       "score": 11.0,
       "mention_count": 2,
       "source_count": 1,
       "sources": [
-        "UT Southwestern"
+        "utsouthwestern.edu"
       ],
       "newest": "2026-01-26T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Changes in circadian rhythms linked to higher dementia risk: Newsroom - UT Southwestern",
+          "title": "Changes in circadian rhythms linked to higher dementia risk: Newsroom - utsouthwestern.edu",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOG5nLXEwMEg0aDdOM3Q0eko3NkV5RUFXNGJ2SGZZTjRjaHBnV0lUSGl2NTY1Z2dzbTBVdGdMWnV3WXRfZVl3WENDRlFZbGdiS0VRdU1Oa1liM2Z0UU5wZ3hQWlZxQnVSalhRMWxzdWd0NDVvSlFOYzByZ2RwdlFCSU5rcGFaYlpDemQ0V1pmNTNmUFRoVWZlNDBWOFhmM2pYbkMweWxHUXVTdw?oc=5",
-          "source": "UT Southwestern",
+          "source": "utsouthwestern.edu",
           "published": "Mon, 26 Jan 2026 08:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -717,21 +709,21 @@
     },
     {
       "topic": "closer extreme heat home keeps shows",
-      "headline": "Study shows extreme heat keeps older adults closer to home - Stanford Report",
+      "headline": "Study shows extreme heat keeps older adults closer to home - news.stanford.edu",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Stanford Report"
+        "news.stanford.edu"
       ],
       "newest": "2026-08-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Study shows extreme heat keeps older adults closer to home - Stanford Report",
+          "title": "Study shows extreme heat keeps older adults closer to home - news.stanford.edu",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNHNJS0pUc2dWR0FhNFlnUnNlNktOSzhrVDZ1TjRGRmVwTVgteElMZXNIUTRRTUdRTVBnTDhXdXpOeVNBWFhoTkNrSmhfWjc5OFFFSzh4RUd3MjhUUVU0WHRCTUJRYmxDLXY3bDNpLTM2eVFLQzlVeXVtLXV1MkZzUGEtN0syVzVZNjV4LVlndE9zZw?oc=5",
-          "source": "Stanford Report",
+          "source": "news.stanford.edu",
           "published": "Wed, 05 Aug 2026 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
@@ -756,6 +748,29 @@
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb0FEUG1tSFp1NkJSMDVJbmxoZFlXNDBiUms2aWstYnpFVm9ZblBaVi1lX21iclNySTdudS1Pb3FabjM1OThGVElrNmZFb1ZzOGFxX19KNW4zakhXV0JWSWx4UmJtM0QybFZHU1k0d0NIMVZyS3VacGtOM3NfWlI0WmNLWWU?oc=5",
           "source": "World Health Organization (WHO)",
           "published": "Mon, 20 Jul 2026 07:00:00 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "achieves ballad center friendly healthy recognition system",
+      "headline": "Ballad Center for Healthy Aging achieves recognition as Age-Friendly Health System - elizabethton.com",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "elizabethton.com"
+      ],
+      "newest": "2026-08-03T18:47:58+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Ballad Center for Healthy Aging achieves recognition as Age-Friendly Health System - elizabethton.com",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYnVpbzAtUzJwcmlTTjRjTDcweEtfVE1CZXV4elNGUGRwTThLUnNVaWhCWU9yQXZPOHA3Nk96T1VENmhpemlYejNCNjY5dzJ5c3RYN1FLb1dWdmV1eWpQNHkzYWQwMW44WGxKNjYybDFHb0lsQU9feGFEc3NUNjdiZXA3S0NpQ1pnVDVPWWxteU1UWksybFNmV3ZMbTNyc3dpSjhGZ3czUEdkeHo5X2tBbHYzb0NnN1FoWU5J?oc=5",
+          "source": "elizabethton.com",
+          "published": "Mon, 03 Aug 2026 18:47:58 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -809,21 +824,21 @@
     },
     {
       "topic": "care establish experts pillars",
-      "headline": "Experts Establish Pillars of Care for Older Adults With HIV - MedPage Today",
+      "headline": "Experts Establish Pillars of Care for Older Adults With HIV - medpagetoday.com",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "MedPage Today"
+        "medpagetoday.com"
       ],
       "newest": "2026-08-05T19:31:36+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Experts Establish Pillars of Care for Older Adults With HIV - MedPage Today",
+          "title": "Experts Establish Pillars of Care for Older Adults With HIV - medpagetoday.com",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yVjMtU2pBUFFuWXFOUUhGQTVqT1VsTXJQMnFxb3djU003c1NtLVpnOWpNSFZfR0JrZmZ3Rnc3TmVSZkhuYS14WjJXZG90aHljMWUyYU5QSmRZbHlTUk5XX2J5REtiZw?oc=5",
-          "source": "MedPage Today",
+          "source": "medpagetoday.com",
           "published": "Wed, 05 Aug 2026 19:31:36 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
@@ -878,21 +893,21 @@
     },
     {
       "topic": "commission connections forum free healthy host policy public silver social spring thursday",
-      "headline": "Commission on Aging to Host Free Public Policy Forum on Social Connections and Healthy Aging on Thursday, May 28, in Silver Spring - montgomerycountymd.gov",
+      "headline": "Commission on Aging to Host Free Public Policy Forum on Social Connections and Healthy Aging on Thursday, May 28, in Silver Spring - Montgomery County, MD (.gov)",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "montgomerycountymd.gov"
+        "Montgomery County, MD (.gov)"
       ],
       "newest": "2026-05-06T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Commission on Aging to Host Free Public Policy Forum on Social Connections and Healthy Aging on Thursday, May 28, in Silver Spring - montgomerycountymd.gov",
+          "title": "Commission on Aging to Host Free Public Policy Forum on Social Connections and Healthy Aging on Thursday, May 28, in Silver Spring - Montgomery County, MD (.gov)",
           "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWVY5OE5kcXN0TzhoUF9TVmg1MkhxRVRMNlh1WTNYczdEbDJqU0RiVE9lYjRNaWdjVElxMDVMREtucmpRc0pJM2tlVE81aWxKTDhkR0hfN2xWdWhOVVpjRmktYTBNejRQZXJNeUhQdGVYOXczeTlnNGdvXzI4dE1KZWFzQlZfMEhsREpBdTFiUG10WEFpZ01oVk90UzQ1SkRIYUtNMzRkcHRCbDZ1c2NSTG5TZzhpOHc3S0FPblR6OWRSdGEzcUZmcmhNby1CbEp5ZkJ6ZG5Fa0REd05nTV90VHNybw?oc=5",
-          "source": "montgomerycountymd.gov",
+          "source": "Montgomery County, MD (.gov)",
           "published": "Wed, 06 May 2026 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
@@ -923,29 +938,6 @@
       ]
     },
     {
-      "topic": "before dementia diagnosis show symptoms that years",
-      "headline": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
-      "category": "brain health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "The Washington Post"
-      ],
-      "newest": "2026-07-21T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTE0tQjEtVUhFUEctclZWcGQ4X0NNNEY5c0Rfd0VnT2xPQThycTVSanRueUtZOFhTMWVhQ3AxWHZuQXVDTlJraXFXQkYtSk1lclN4dWJrZ0tIMTc2WFdLekpQZVRWZmJEVUpRaEM3UC1PSEZWd3NpR04zNUR5Uk9Wd3J1bC1vbEJqN09Ca3QySkZmQnVMcHdfNS1zMkhWNENHZXh1Q2lwVmU5YVFUbUx3?oc=5",
-          "source": "The Washington Post",
-          "published": "Tue, 21 Jul 2026 07:00:00 GMT",
-          "seed": "brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
       "topic": "dementia",
       "headline": "Dementia - World Health Organization (WHO)",
       "category": "brain health",
@@ -969,23 +961,23 @@
       ]
     },
     {
-      "topic": "according brain improve memory research ways your",
-      "headline": "6 ways to improve your memory according to UTD brain research - KERA News",
+      "topic": "before dementia diagnosis show symptoms that years",
+      "headline": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "KERA News"
+        "The Washington Post"
       ],
-      "newest": "2026-07-31T10:55:00+00:00",
+      "newest": "2026-07-21T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "6 ways to improve your memory according to UTD brain research - KERA News",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNamF3eFZlaTctSmdzbnFpSTFHOWk2Mzc3QmdQWlQ3dnBIQUZBOVdBM0J2b0VyUkZFaVRROVFvcFR5Rzd3RHdVWkN6RjlYYzN4Zk1xYjdGcmNpd251MFBlTERWZWxydEU5dlgyZ1ZCRGVpc0xkOElwU01xSjQyT1l6ZVVwcUQ?oc=5",
-          "source": "KERA News",
-          "published": "Fri, 31 Jul 2026 10:55:00 GMT",
+          "title": "6 dementia symptoms that can show up years before a diagnosis - The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTE0tQjEtVUhFUEctclZWcGQ4X0NNNEY5c0Rfd0VnT2xPQThycTVSanRueUtZOFhTMWVhQ3AxWHZuQXVDTlJraXFXQkYtSk1lclN4dWJrZ0tIMTc2WFdLekpQZVRWZmJEVUpRaEM3UC1PSEZWd3NpR04zNUR5Uk9Wd3J1bC1vbEJqN09Ca3QySkZmQnVMcHdfNS1zMkhWNENHZXh1Q2lwVmU5YVFUbUx3?oc=5",
+          "source": "The Washington Post",
+          "published": "Tue, 21 Jul 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
         }
@@ -993,21 +985,21 @@
     },
     {
       "topic": "attack declines faster heart linked memory prior skills thinking",
-      "headline": "Prior heart attack linked to faster declines in thinking and memory skills - www.heart.org",
+      "headline": "Prior heart attack linked to faster declines in thinking and memory skills - newsroom.heart.org",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "www.heart.org"
+        "newsroom.heart.org"
       ],
       "newest": "2026-05-14T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Prior heart attack linked to faster declines in thinking and memory skills - www.heart.org",
+          "title": "Prior heart attack linked to faster declines in thinking and memory skills - newsroom.heart.org",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTVNzZ2g4RVI3MlcyQk8tYnBNNDMycDl1OE95cHFQQi1QZXFZazJoNUxKNEFXM2tiOF9tN05DcUgycVoycENoMlJTa2pZVHFQTzVhMXUxY05zcVlaWlpJVDUzM2NtUzdZakI1bWt5VjBSdW4wYl9XQXBmS2ctNHA5X3luUlR3MTRJLXItak5jN3BJSUhnbnEzbDBCY2Y4UUp4bzJPbWwtN1RPdw?oc=5",
-          "source": "www.heart.org",
+          "source": "newsroom.heart.org",
           "published": "Thu, 14 May 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -1016,21 +1008,21 @@
     },
     {
       "topic": "cognitive dementia incidence later linked lower speed training years",
-      "headline": "Cognitive Speed Training Linked to Lower Dementia Incidence Up To 20 Years Later - hopkinsmedicine.org",
+      "headline": "Cognitive Speed Training Linked to Lower Dementia Incidence Up To 20 Years Later - Johns Hopkins Medicine",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "hopkinsmedicine.org"
+        "Johns Hopkins Medicine"
       ],
       "newest": "2026-02-09T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Cognitive Speed Training Linked to Lower Dementia Incidence Up To 20 Years Later - hopkinsmedicine.org",
+          "title": "Cognitive Speed Training Linked to Lower Dementia Incidence Up To 20 Years Later - Johns Hopkins Medicine",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOF9XOGE2elY1S09yUkIycjZUVWVIX09keUx1V2ItakI2alN1amFIcnRGbFREdm9VaUNDZzVfeHgtUnlVeTF2M0xEWmN2cVRZOU9ybmN1azlYNjNReV9oaVZZWVpSa1BPQmw2bXBESU9FREdTN25WSWFnZ3U2LXpiVWFCUTB4bDliQ2xnaHp2TG9LUUgzREY4SEZtLUJRcFFCWlo5cTJxTk1oLVE5OW04MWVab0NjdUFRRC1lNHd2WUE4Z3dXUlV4aGtUcFhHeERUcWNRbHhaWGxrZ0NPVmhRSHFn?oc=5",
-          "source": "hopkinsmedicine.org",
+          "source": "Johns Hopkins Medicine",
           "published": "Mon, 09 Feb 2026 08:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -1107,23 +1099,46 @@
       ]
     },
     {
-      "topic": "brain nasal reversed scientists simple spray they",
-      "headline": "Scientists say they’ve reversed brain aging with a simple nasal spray - sciencedaily.com",
+      "topic": "alzheimer breakthroughs next science treatment",
+      "headline": "The next big breakthroughs in Alzheimer’s science and treatment - University of California",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "sciencedaily.com"
+        "University of California"
       ],
-      "newest": "2026-05-26T07:00:00+00:00",
+      "newest": "2025-12-04T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Scientists say they’ve reversed brain aging with a simple nasal spray - sciencedaily.com",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wRDdOTHVFdi1EVXFUeU43OTJkOFdtRUNwVVFPdE1QbDFXcDk0LWdXLU4tNElpX3JXcWhZa2xZbENaSGo5cV9mTDBoUWVWT3JuQkt4eGU2WWhCMG5CUnMxYW5kbkUtcmlXTmFrdTFaTQ?oc=5",
-          "source": "sciencedaily.com",
-          "published": "Tue, 26 May 2026 07:00:00 GMT",
+          "title": "The next big breakthroughs in Alzheimer’s science and treatment - University of California",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNkk3bUxzTGlsbGZZWm1oYUZET3NmZWU0ajh6S3hoaXc0ckFXSFhod2R2VFozd1RJS0hiSktvRV9DWk5NOEtkR0xIaktPYmU3ZlNiWWZXZnpSdm8zSFdYWDdwV3RncTZMaWhrQld2SzBseF9UdTdoMEp4TGh1R19OLXBJZS10bVF0aVkwTGxOMnBnY21NRlotRGxRVkhzNDk3?oc=5",
+          "source": "University of California",
+          "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
+      "topic": "blood brain hours over poorer pressure swings tied",
+      "headline": "Blood pressure swings over 24 hours tied to poorer brain health - Medical Xpress",
+      "category": "brain health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Medical Xpress"
+      ],
+      "newest": "2026-05-25T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Blood pressure swings over 24 hours tied to poorer brain health - Medical Xpress",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUU85a2k1ektVbWFnbDNfUzBHdWdYbVc4c1NTNUViRWNfZUhnYWE5TUhHNDV5bWhNNERMdEJBUXctdXp1cDM0N1VqT2h4NGlMZDNzdVZtaW1CVHk5TXJaWmRfQ2d4UjZKVFZEOGlUb3FFRE1qT1pZcEdpV002QUtST0FnVQ?oc=5",
+          "source": "Medical Xpress",
+          "published": "Mon, 25 May 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
         }
@@ -1246,21 +1261,21 @@
     },
     {
       "topic": "alzheimer before body clock disruptions loss memory occur years",
-      "headline": "Body clock disruptions occur years before memory loss in Alzheimer’s - WashU Medicine",
+      "headline": "Body clock disruptions occur years before memory loss in Alzheimer’s - medicine.washu.edu",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "WashU Medicine"
+        "medicine.washu.edu"
       ],
       "newest": "2024-10-05T09:18:09+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Body clock disruptions occur years before memory loss in Alzheimer’s - WashU Medicine",
+          "title": "Body clock disruptions occur years before memory loss in Alzheimer’s - medicine.washu.edu",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEFEei1UNEFRM1RuZnJUaE81VTJidTlLMm9iU3JsbUpYV3hkQnhLM3psOWZPRDRocFI0V09NZ0kzcmVSTE1IMUpGUGFNeXF6dFN0NjcyM0d6ejJ0TkpjVWJuTUFkUjJ5cUFHRXRyYzV1d3gyd0lSMzhNUG1ZWHlsTXh4aFo3NUdEbW5pQlkydng0OGhQdHRJ?oc=5",
-          "source": "WashU Medicine",
+          "source": "medicine.washu.edu",
           "published": "Sat, 05 Oct 2024 09:18:09 GMT",
           "seed": "sleep health",
           "category": "sleep health"
@@ -1315,21 +1330,21 @@
     },
     {
       "topic": "brain cost have hidden losing midlife weight",
-      "headline": "Losing weight in midlife may have a hidden brain cost - sciencedaily.com",
+      "headline": "Losing weight in midlife may have a hidden brain cost - ScienceDaily",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "sciencedaily.com"
+        "ScienceDaily"
       ],
       "newest": "2025-12-28T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Losing weight in midlife may have a hidden brain cost - sciencedaily.com",
+          "title": "Losing weight in midlife may have a hidden brain cost - ScienceDaily",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHUkxGTnF5c1UtVERqUWlpZlIzUFZ2UTh2MFR1cFBqbFFQanZWUUZZRWc0NmxHN2QyS0NvMy1PZHBMZnBWcnFLYlh0QlJ1cFFOM2VORlp2ODFwenZTbFY0S0NsNnpUMTBsY2lfNC12TQ?oc=5",
-          "source": "sciencedaily.com",
+          "source": "ScienceDaily",
           "published": "Sun, 28 Dec 2025 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
@@ -1475,29 +1490,6 @@
       ]
     },
     {
-      "topic": "better dangerous falls help minute prevent researchers routine want",
-      "headline": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
-      "category": "mobility",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Fox News"
-      ],
-      "newest": "2026-06-23T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcVpvX05fcE9OT2hxRmpjMEVWRDJrTGVfazlDNHlpbWltSWIxRTlfMnpkNkxGZDFucklvbF9LLThZM0lBamkweDhKTmUzQVVjanRONW1wWUo4SFI4R05SZ0g3ZkZjeE1HZml3d1hiTmc4bTA1VTZ5b3hCNjVCZDJoejNuTkpGZmxRNlBpeFdKMnVfZjY5R01BYnZjSmRXUW5TOGF4OVAwdFQ0bnVzV0NLY2Jn0gG3AUFVX3lxTFBkeXNkcUNtTG9ma0tfWThIUDlzX2g1R1RiVjBqSWltMWZtQWwwdDE1Vy15NEhGdVIwMloxTnI3czE5V1lQbFZTSXowNlpra3gxUmdDenJpcHJlZWltRGM0NkxDUndhRXBuczBFaFlUMWRhZTBaZGFvb1pYaVdLalJfOUFhdmF5X0hGeHRjdjA1ZjdHWVdOVlZPdVJnTlA5M2R0ZE9RbXNDbWZoZC01UGhjTHZ6RHRLUQ?oc=5",
-          "source": "Fox News",
-          "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
-        }
-      ]
-    },
-    {
       "topic": "healthy improved markers minute routine strength this",
       "headline": "This 4-Minute Strength Routine Improved Key Markers Of Healthy Aging - MindBodyGreen",
       "category": "mobility",
@@ -1515,6 +1507,29 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ1RfNjVTQ2ZGMWN1YWFlb0lVenpxd3RkM04yNE5CaVFuTHBZcHRnVDB5UVJxYUJ5RDZ0UHlkTGFydklhcVA5RDFPaS1MN2pwS2ozZGp5M0tucFpuTXNQMjRIbTdHaVZIdlVIeGxLaVFjNVRjMlhXRkFIQ0t4SVVIQUR6bHJSbG5uWHBpVUhoa29FQXdQRE5pMktjN2lMQmwxU21pQUtB?oc=5",
           "source": "MindBodyGreen",
           "published": "Fri, 26 Jun 2026 07:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
+        }
+      ]
+    },
+    {
+      "topic": "better dangerous falls help minute prevent researchers routine want",
+      "headline": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
+      "category": "mobility",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Fox News"
+      ],
+      "newest": "2026-06-23T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcVpvX05fcE9OT2hxRmpjMEVWRDJrTGVfazlDNHlpbWltSWIxRTlfMnpkNkxGZDFucklvbF9LLThZM0lBamkweDhKTmUzQVVjanRONW1wWUo4SFI4R05SZ0g3ZkZjeE1HZml3d1hiTmc4bTA1VTZ5b3hCNjVCZDJoejNuTkpGZmxRNlBpeFdKMnVfZjY5R01BYnZjSmRXUW5TOGF4OVAwdFQ0bnVzV0NLY2Jn0gG3AUFVX3lxTFBkeXNkcUNtTG9ma0tfWThIUDlzX2g1R1RiVjBqSWltMWZtQWwwdDE1Vy15NEhGdVIwMloxTnI3czE5V1lQbFZTSXowNlpra3gxUmdDenJpcHJlZWltRGM0NkxDUndhRXBuczBFaFlUMWRhZTBaZGFvb1pYaVdLalJfOUFhdmF5X0hGeHRjdjA1ZjdHWVdOVlZPdVJnTlA5M2R0ZE9RbXNDbWZoZC01UGhjTHZ6RHRLUQ?oc=5",
+          "source": "Fox News",
+          "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
         }
@@ -1637,21 +1652,21 @@
     },
     {
       "topic": "pose risks serious sold stations supplements warns",
-      "headline": "FDA warns 2 supplements sold at gas stations pose serious health risks - LiveNOW from FOX",
+      "headline": "FDA warns 2 supplements sold at gas stations pose serious health risks - livenowfox.com",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "LiveNOW from FOX"
+        "livenowfox.com"
       ],
       "newest": "2026-04-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA warns 2 supplements sold at gas stations pose serious health risks - LiveNOW from FOX",
+          "title": "FDA warns 2 supplements sold at gas stations pose serious health risks - livenowfox.com",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORFh4NGhwQjF4YmRUOGEyQzRzNGlzal84ZzVkTFVUT0RVMTJjUHZOYjRaSVJOdkNBVEh5d3M4aU5UbGRUWjE1YXBkUGVrNF9BRmZ4S3hXZDlPc1VuTW0yYk5NM3ZSajRBQ05nalBMSGx3Q3lHSDZTZmkyWFR6RWFFU0Z6d0ZnNWVoUW1YRDdSaDBSZW5n?oc=5",
-          "source": "LiveNOW from FOX",
+          "source": "livenowfox.com",
           "published": "Sun, 05 Apr 2026 07:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1889,29 +1904,6 @@
       ]
     },
     {
-      "topic": "associated faster little much sleep",
-      "headline": "Too Little Sleep—and Too Much—Associated with Faster Aging - Columbia University Irving Medical Center",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Columbia University Irving Medical Center"
-      ],
-      "newest": "2026-05-13T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Too Little Sleep—and Too Much—Associated with Faster Aging - Columbia University Irving Medical Center",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUDNjVWVkTzBGOTlhOE04NjBSZW5TNGNhLXRwMWR1RzJacXlHdTY5SF94WjJfSVhta0pOWVh5eXM2UjY5TUJELUZxcFMtZVRJR3VGUThMWVJkc2t0UzlNTm9ISHpTWUZtWXJfdzlNdnplZjZqOFFUSmRJQVhiRjhlc3lsRWFROUlmUW8ybkVuOXU5eDQ?oc=5",
-          "source": "Columbia University Irving Medical Center",
-          "published": "Wed, 13 May 2026 07:00:00 GMT",
-          "seed": "sleep and biological aging",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
       "topic": "between healthy hours longevity sleep",
       "headline": "Between 6.4 and 7.8 hours of sleep may aid healthy aging, longevity - Medical News Today",
       "category": "sleep health",
@@ -1959,21 +1951,21 @@
     },
     {
       "topic": "found half healthy million people scientists sleep spot studied sweet",
-      "headline": "Scientists Studied Half A Million People And Found A Sleep Sweet Spot For Healthy Aging - ZME Science",
+      "headline": "Scientists Studied Half A Million People And Found A Sleep Sweet Spot For Healthy Aging - zmescience.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "ZME Science"
+        "zmescience.com"
       ],
       "newest": "2026-05-15T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Scientists Studied Half A Million People And Found A Sleep Sweet Spot For Healthy Aging - ZME Science",
+          "title": "Scientists Studied Half A Million People And Found A Sleep Sweet Spot For Healthy Aging - zmescience.com",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fVzhwYTREVmpEZEgwWUF4UUlEVWItWlc0ZXJlSml2M3ZodlFZWXUtTWxKcUZfSmFmYTNkaWdnZmVpVUUtM2Z2Nk9pU3hxYnYtMW9od0dGS2NmM3Jva0IyeVRmeFgtWG83WnE0R3dERkNYcGRaSFE?oc=5",
-          "source": "ZME Science",
+          "source": "zmescience.com",
           "published": "Fri, 15 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
@@ -2051,21 +2043,21 @@
     },
     {
       "topic": "body clock dementia early warning weak",
-      "headline": "A weak body clock may be an early warning for dementia - sciencedaily.com",
+      "headline": "A weak body clock may be an early warning for dementia - ScienceDaily",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "sciencedaily.com"
+        "ScienceDaily"
       ],
       "newest": "2026-01-03T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "A weak body clock may be an early warning for dementia - sciencedaily.com",
+          "title": "A weak body clock may be an early warning for dementia - ScienceDaily",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PbWttb3VWVkxtQ2lhZlgtMEtGT2J6S0FLc19FbHAwTlhTX0N6RVROV0U5bVBRaHQ4UXFFVGR5NDQ1WkxGS3FIQ0c4aWViSXNzRW1kSk9wWXg0a29lVkl0MFQ2Zm4wd3Q3SHhOSmRLYw?oc=5",
-          "source": "sciencedaily.com",
+          "source": "ScienceDaily",
           "published": "Sat, 03 Jan 2026 08:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -2143,21 +2135,21 @@
     },
     {
       "topic": "atrophy autism brain circadian data donation fluoride rhythms",
-      "headline": "Brain Atrophy and Circadian Rhythms; New Fluoride and IQ Data; Autism Brain Donation - MedPage Today",
+      "headline": "Brain Atrophy and Circadian Rhythms; New Fluoride and IQ Data; Autism Brain Donation - medpagetoday.com",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "MedPage Today"
+        "medpagetoday.com"
       ],
       "newest": "2026-04-14T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Brain Atrophy and Circadian Rhythms; New Fluoride and IQ Data; Autism Brain Donation - MedPage Today",
+          "title": "Brain Atrophy and Circadian Rhythms; New Fluoride and IQ Data; Autism Brain Donation - medpagetoday.com",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtVWpwcXRFdi1GVXRxUUw0LXV4UFFLbFZudXh1ZWdZVFpMYmhwSElneTM0YWoxbUpBSUl1MmwyaWZlVjY3aFBHWDBib21heGwwQ3pIWDJKczVPVkt3TkJKZmhRMXhWTWxXQVF5QzIzbw?oc=5",
-          "source": "MedPage Today",
+          "source": "medpagetoday.com",
           "published": "Tue, 14 Apr 2026 07:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -2510,45 +2502,22 @@
       ]
     },
     {
-      "topic": "extension healthy human life longevity shift valuing",
-      "headline": "The Longevity Shift: Valuing The Extension Of Healthy Human Life - Ark Invest",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Ark Invest"
-      ],
-      "newest": "2026-05-20T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "The Longevity Shift: Valuing The Extension Of Healthy Human Life - Ark Invest",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRDJqUzVERGNsdXhNY3U5c1cwM09ORU9XbV82U3lXZGVqY2VYb1N6bXFuZ1ZQX0h0eHVfWjh4LWxPcE9Lam9SYVhrczNMbmZqZWNQS3NfV2JKbTRSekpEcGNfT3lBMkM4NVBjV3NMMjNOaVR0VTBpSWZiek1ZOS1NSHVKLUZzVUtvZzRvUE1HMVR3MkxGbUdIZ1RhMTM4bzFmdDhJUnhVVzI3RVd5dVU5dVFqcmhNSjg?oc=5",
-          "source": "Ark Invest",
-          "published": "Wed, 20 May 2026 07:00:00 GMT",
-          "seed": "GLP-1 and healthy aging",
-          "category": "metabolic health"
-        }
-      ]
-    },
-    {
       "topic": "associations between healthy lifestyle multimorbidity socioeconomic status",
-      "headline": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - The American Journal of Managed Care",
+      "headline": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - The American Journal of Managed Care® (AJMC®)",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "The American Journal of Managed Care"
+        "The American Journal of Managed Care® (AJMC®)"
       ],
       "newest": "2026-06-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - The American Journal of Managed Care",
+          "title": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - The American Journal of Managed Care® (AJMC®)",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWjBWUDFzOHNGRUJVOGhSQjVvZUJMYlk5Z0tVYWlIY2dJR0xBWXhsRFV4ampQa2JzY3l5V2g3d1dwVU02WElJZFR2VExIdjdDSndkM2V1aW5vcDBBYjkySjFfOW5wQllvWDBRMFU2QkxJbm1tYWYzWWhvUkI5ZVhuWnRGVUF1TExfMTQ4Z2lXWnFOME56dFBlVEUxMVVxYm4tZjkwZkZJSkdLOEtTdnJ0Q2hsS1Y?oc=5",
-          "source": "The American Journal of Managed Care",
+          "source": "The American Journal of Managed Care® (AJMC®)",
           "published": "Fri, 05 Jun 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -2580,21 +2549,21 @@
     },
     {
       "topic": "biggest blind medicine spot",
-      "headline": "Aging Is Medicine’s Biggest Blind Spot - time.com",
+      "headline": "Aging Is Medicine’s Biggest Blind Spot - Time Magazine",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "time.com"
+        "Time Magazine"
       ],
       "newest": "2026-02-26T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Aging Is Medicine’s Biggest Blind Spot - time.com",
+          "title": "Aging Is Medicine’s Biggest Blind Spot - Time Magazine",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xSjUxbUdLeXFRYTk5cGxETzVqb2dkQTZHRmpNRmJOSUVsQ01xMTdWM2FzTkxkY2lIcmdXSVl4SS05X01OWVZkTmxjcWw3eXZlVmN4NDd3eE5pMnZfTF9pc3ZjNUZmd1RQWkNsVWJaZnAydlU?oc=5",
-          "source": "time.com",
+          "source": "Time Magazine",
           "published": "Thu, 26 Feb 2026 08:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -2603,21 +2572,21 @@
     },
     {
       "topic": "biological clock daily multivitamin slow ticking",
-      "headline": "Daily Multivitamin May Slow Ticking of Biological Aging Clock - MedPage Today",
+      "headline": "Daily Multivitamin May Slow Ticking of Biological Aging Clock - medpagetoday.com",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "MedPage Today"
+        "medpagetoday.com"
       ],
       "newest": "2026-03-09T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Daily Multivitamin May Slow Ticking of Biological Aging Clock - MedPage Today",
+          "title": "Daily Multivitamin May Slow Ticking of Biological Aging Clock - medpagetoday.com",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4ZkhIcDVNQkh2cXpRd3lZMWRKUE9ZNHFQNEtfUVJteUtlSEVaS2p5cFlvdkRmU3Y3SEtjUFdUeTh0amQxNTc2TFBVWGxna0ZJUjRDZnhlVEVFUVZGUmh6dDVXcHhacmFLZ0E?oc=5",
-          "source": "MedPage Today",
+          "source": "medpagetoday.com",
           "published": "Mon, 09 Mar 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -2625,8 +2594,29 @@
       ]
     },
     {
+      "topic": "acids amino benefits healthy medical mimic news protein restricting restriction select",
+      "headline": "Restricting select amino acids may mimic protein restriction’s healthy aging benefits - News-Medical",
+      "category": "general wellness",
+      "score": 4.0,
+      "mention_count": 1,
+      "source_count": 0,
+      "sources": [],
+      "newest": "2026-08-04T02:47:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Restricting select amino acids may mimic protein restriction’s healthy aging benefits - News-Medical",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZk1rX3E4N3pENXJTQ1dhejhpQ1JyeTE1ZmJNQmxQanczWWhjUTVXa1FHcEVaeWZfZm8tZWdNNHN3VGlRSnhWazF2YlNwYmRJdFk1QjZzb3JUdHNiUVR3N1hUWTk1S2t6bVJJMnQ0SWJjMTc0TEk1NG5sZ01EYy1QQVNBVVNSekc5Qkh0UUJlNUx0RUF0akZ6bU9iZ24zNlBVM09FUFQyUnlUOWpORFpYN3MxTDdwbzhQT3VnZkYzRzhLMENYV2diYUpwSWozdUlWNzRacA?oc=5",
+          "source": "",
+          "published": "Tue, 04 Aug 2026 02:47:00 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "aged blood cedars cells diseases drive metabolic sinai vessel",
-      "headline": "Aged Blood Vessel Cells Drive Metabolic Diseases - Cedars-Sinai",
+      "headline": "Aged Blood Vessel Cells Drive Metabolic Diseases - cedars-sinai.org",
       "category": "metabolic health",
       "score": 4.0,
       "mention_count": 1,
@@ -2636,11 +2626,32 @@
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Aged Blood Vessel Cells Drive Metabolic Diseases - Cedars-Sinai",
+          "title": "Aged Blood Vessel Cells Drive Metabolic Diseases - cedars-sinai.org",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTWpWaE5uWkRiRUR3aGpBWnVHN1BkdXg4Tk5kbzgxV294SG1FNUZ6VFZYTlZ2LWp2VVNyZ1hheC05aENDR1FVdTNBcEZ1X3hDSTdZcm1ySW1OT3RkS2RweU5iLXNXWUpjNlB1RFY5bHNfVzViRWdqcDdiYWtKZzNYaUNUVk96bFNTWl81cEpyWEM?oc=5",
           "source": "",
           "published": "Thu, 20 Nov 2025 08:00:00 GMT",
           "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "extension healthy human invest life longevity shift valuing",
+      "headline": "The Longevity Shift: Valuing The Extension Of Healthy Human Life - ark-invest.com",
+      "category": "metabolic health",
+      "score": 4.0,
+      "mention_count": 1,
+      "source_count": 0,
+      "sources": [],
+      "newest": "2026-05-20T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "The Longevity Shift: Valuing The Extension Of Healthy Human Life - ark-invest.com",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRDJqUzVERGNsdXhNY3U5c1cwM09ORU9XbV82U3lXZGVqY2VYb1N6bXFuZ1ZQX0h0eHVfWjh4LWxPcE9Lam9SYVhrczNMbmZqZWNQS3NfV2JKbTRSekpEcGNfT3lBMkM4NVBjV3NMMjNOaVR0VTBpSWZiek1ZOS1NSHVKLUZzVUtvZzRvUE1HMVR3MkxGbUdIZ1RhMTM4bzFmdDhJUnhVVzI3RVd5dVU5dVFqcmhNSjg?oc=5",
+          "source": "",
+          "published": "Wed, 20 May 2026 07:00:00 GMT",
+          "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
         }
       ]

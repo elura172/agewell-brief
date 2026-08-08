@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "mechanistic review",
+      "reason": "Comprehensive but largely a review of known LC functions; no single new finding or breakthrough.",
+      "angle": "Focus on the LC's dual role in cognition and early vulnerability to neurodegeneration as a potential early biomarker.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic listicle",
+      "reason": "Routine list of balance exercises; no new data or unique angle.",
+      "angle": "Highlight specific exercises with evidence for fall prevention, perhaps with expert commentary.",
+      "mode": "agent"
+    },
+    "de12de7b94526d78e587b5af": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "specific immune mechanism",
+      "reason": "Identifies specific T-cell co-stimulatory/inhibitory states (ICOS, PD-1) linked to AD vulnerability/resilience, offering a novel mechanistic insight.",
+      "angle": "Could peripheral T-cell states predict Alzheimer's progression? Explore the balance between ICOS and PD-1 as a potential therapeutic target.",
+      "mode": "agent"
+    },
+    "47dc92aadb4af8170fb10e4b": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "challenging guideline",
+      "reason": "Directly challenges current exercise guidelines with a large study suggesting much higher weekly exercise for heart protection.",
+      "angle": "Is 150 minutes of exercise per week enough? New study suggests 9-10 hours may be needed for substantial heart benefits.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "novel longevity factor",
+      "reason": "Identifies a specific glial cell-surface protein (DIP-β) that extends lifespan in flies, a novel pro-longevity factor with potential translational relevance.",
+      "angle": "Could boosting a specific glial protein help slow brain aging? New study in flies identifies DIP-β as a key player.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic detail",
+      "reason": "Adds detail to known Alzheimer's pathways (succinylation, mitochondrial metabolism) but lacks a striking new concept.",
+      "angle": "Targeting HNRNPC succinylation to restore mitochondrial function in Alzheimer's: a new therapeutic avenue?",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another routine workout article for seniors; no new research or unique angle.",
+      "angle": "Could emphasize the trainer's credentials and specific safety tips for at-home workouts.",
+      "mode": "agent"
+    },
+    "8ceb4683a1d2939678198258": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "technical niche",
+      "reason": "Highly technical and niche topic (fault diagnosis in islanded power systems) with limited relevance to aging audience.",
+      "angle": "Unlikely to resonate with Agewell Brief readers; skip.",
+      "mode": "agent"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "counterintuitive finding",
+      "reason": "Reveals that during REM sleep, the brain prioritizes internal signals over external ones, a counterintuitive and novel insight into sleep function.",
+      "angle": "Why does the brain 'listen inward' during REM sleep? New study suggests a shift in sensory processing that may impact memory consolidation.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "de12de7b94526d78e587b5af",
+    "47dc92aadb4af8170fb10e4b",
+    "c376819f2d54a4df1d317aee",
+    "95c882437216b7799a061c53"
+  ],
+  "held_back": [
+    "29ba27a2d854f8745e1ea94c",
+    "cadce59ed8f9539ef7a34ac6",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7",
+    "8ceb4683a1d2939678198258"
+  ],
+  "mode": "agent"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-08T18:38:36.337101+00:00",
+  "updated_at": "2026-08-08T18:50:42.441186+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -788,6 +788,35 @@
         }
       },
       "updated_at": "2026-08-08T13:50:53.995290+00:00"
+    },
+    "2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa": {
+      "article_id": "2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa",
+      "article_url": "https://agewellbrief.com/brief/2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa/",
+      "title": "The Heart's True Exercise Threshold: Why 150 Minutes May Be Just the Beginning",
+      "category": "mobility",
+      "content_record": ".state/content-records/2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa.json",
+      "video_job": ".state/video-jobs/2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-08T18:50:42.440640+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-08T18:50:42.440648+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-08T18:50:42.440651+00:00"
+        }
+      },
+      "updated_at": "2026-08-08T18:50:42.441178+00:00"
     }
   }
 }

@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "47dc92aadb4af8170fb10e4b",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:32213422",
+      "score": 85,
+      "rationale": "The image depicts a female scientist in a modern laboratory, which aligns with the story's research context and the editorial intent to show the practical human context without making a medical promise. It avoids stereotypes and conveys capability and alertness, matching the mood. The setting is credible and uses natural light, fitting the composition requirements.",
+      "concerns": [
+        "The subject is a scientist rather than an exercising adult, which may not directly illustrate the exercise findings. However, it effectively represents the research aspect of the story."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-08/the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa-pexels-32213422.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
