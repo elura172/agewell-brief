@@ -33,8 +33,6 @@ For decades, scientists assumed microglia—the brain's resident immune cells—
 
 This is not just a curiosity. Chronic inflammation in the brain is a hallmark of Alzheimer's and other dementias. If we can understand why and how this immune remodeling happens, we may find new ways to preserve cognitive function and reduce vulnerability to neurodegeneration.
 
-
-
 <aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
@@ -60,17 +58,6 @@ From a biophysical perspective, this immune remodeling may be linked to the brea
 
 The key takeaway is that aging is not a passive decline but an active, coordinated reprogramming of cellular identity. The brain's immune system is not just 'getting old'—it is being replaced by a different, more inflammatory population. This is a critical clue, but it is not yet a proven cause.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--mid" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Work with this mechanism directly</h3>
-<p>Luminous Mind turns glymphatic clearance, neuroplasticity, and brain entrainment into a practitioner-designed protocol you can actually run, rather than a finding you can only read about.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
-
 ## Practical next steps
 
 What can you do with this information? First, recognize that midlife is a critical window. The shift begins around age 50, so lifestyle interventions that support brain health may be most impactful in your 40s and 50s. This includes maintaining cardiovascular health, managing blood pressure, and staying physically active—all of which support the blood-brain barrier and reduce systemic inflammation.
@@ -86,6 +73,7 @@ Finally, consider the broader biophysical context. The brain is a liquid crystal
 - Genome's 3D structure changes across brain cell types.
 
 
+
 <aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>Where to take this next</h3>
@@ -94,7 +82,6 @@ Finally, consider the broader biophysical context. The brain is a liquid crystal
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
-
 ### Source
 
 This analysis is based on [Scientists discover a hidden brain shift that begins around age 50](https://www.sciencedaily.com/releases/2026/08/260806050700.htm) from ScienceDaily Top Health. Read the original report for full context.

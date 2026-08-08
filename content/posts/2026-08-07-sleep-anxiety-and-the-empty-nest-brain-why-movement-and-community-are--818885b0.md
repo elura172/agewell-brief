@@ -31,8 +31,6 @@ Sleep is not a passive off-switch. It is an active, energy-intensive state where
 
 For older adults living alone—the 'empty-nest' population—this loop tightens. Social isolation and reduced physical activity compound the neurobiological strain. The new study, drawn from the Chinese Longitudinal Healthy Longevity Survey, quantifies the stakes: poor sleep quality was associated with a 3.23-fold higher odds of anxiety, while short sleep duration carried a 1.34-fold risk. These are not trivial numbers. They point to modifiable levers that sit squarely within an individual's control.
 
-
-
 <aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
@@ -54,17 +52,6 @@ This is a cross-sectional study, so causality cannot be inferred. The arrow coul
 
 Yet the biological plausibility is strong. Physical exercise enhances mitochondrial biogenesis and neuroplasticity, increasing brain-derived neurotrophic factor (BDNF) and improving stress resilience. Social participation engages the default mode network and oxytocinergic pathways, dampening sympathetic arousal. Both are known to improve sleep architecture. The mediation findings suggest that sleep, exercise, and social connection form a triad—each reinforcing the others. From a biophysical standpoint, this aligns with the work of pioneers like Mae-Wan Ho, who described living tissues as quantum coherent liquid crystals, where energetic flow depends on the integrity of the whole matrix. Disrupted sleep, inactivity, and isolation are not separate problems; they are fractures in the same bioenergetic web.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--mid" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Work with this mechanism directly</h3>
-<p>Luminous Mind turns glymphatic clearance, neuroplasticity, and brain entrainment into a practitioner-designed protocol you can actually run, rather than a finding you can only read about.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
-
 ## Practical next steps
 
 For the empty-nest elder—or anyone living alone—the takeaway is not to obsess over sleep duration alone. Sleep quality matters more. The study found that poor sleep quality had a far stronger association with anxiety than short duration. So prioritize sleep hygiene: consistent timing, dark and cool environment, and avoiding stimulants in the evening. If sleep is short, don't panic—focus on depth and continuity.
@@ -80,6 +67,7 @@ Finally, recognize that these are modifiable factors. You are not a passive vict
 - Exercise and social participation mediated the sleep–anxiety link.
 
 
+
 <aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>Where to take this next</h3>
@@ -88,7 +76,6 @@ Finally, recognize that these are modifiable factors. You are not a passive vict
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
-
 ### Source
 
 This analysis is based on [Association of Sleep with Anxiety in Chinese Empty-Nest Older Adults: The Mediating Roles of Physical Exercise and Social Participation](https://www.biorxiv.org/content/10.64898/2026.08.06.743184v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

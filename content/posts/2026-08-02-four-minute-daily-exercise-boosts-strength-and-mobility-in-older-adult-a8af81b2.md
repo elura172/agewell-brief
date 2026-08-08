@@ -32,13 +32,13 @@ This new study from Penn State College of Medicine offers a simpler possibility.
 
 That’s a hopeful message for anyone who has felt that exercise is out of reach. It also points to a practical way to support independence, which is central to quality of life as we age.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Dark Mirror program">
-<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
-<h3>This is Dark Mirror territory</h3>
-<p>Mineral balance and bio-clearing — heavy metal chelation, mineral ratios, and deep tissue clearing. The Dark Mirror spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
-<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Living Waters program">
+<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
+<h3>This is Living Waters territory</h3>
+<p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
+<p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## What the study found
@@ -72,13 +72,13 @@ The study’s message is encouraging: small, consistent efforts can lead to mean
 - Study was small and short; more research needed.
 
 
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
-<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Living Waters program">
+<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
 <h3>Where to take this next</h3>
-<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
-<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<p>Reading the research is the first move. Living Waters — fluid and micro-circulation — is the second: a structured protocol for structured water, vascular transport, and clearing pathways.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
+<p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 ### Source
 

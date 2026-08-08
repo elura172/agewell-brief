@@ -31,15 +31,13 @@ Alzheimer's disease has long been defined by amyloid plaques and tau tangles. Bu
 
 This isn't just about brain plaques. It's about energy. Neurons are among the most energy-hungry cells in the body. When mitochondrial electron transport is disrupted, the entire synaptic machinery starves. Understanding this mechanism could redefine how we approach neurodegeneration.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
+<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
+<h3>This is Higher Flame territory</h3>
+<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
+<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## what was found
@@ -56,17 +54,6 @@ The reversal of electron flow at Complex I is a known source of superoxide produ
 
 It's crucial to note this is a preprint—not yet peer-reviewed. The exact in vivo relevance and whether this mechanism is primary or secondary in human Alzheimer's remains uncertain. But the biophysical logic is compelling.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--mid" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Work with this mechanism directly</h3>
-<p>Luminous Mind turns glymphatic clearance, neuroplasticity, and brain entrainment into a practitioner-designed protocol you can actually run, rather than a finding you can only read about.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
-
 ## practical next steps
 
 For the sovereign individual, the takeaway is to support mitochondrial resilience. Ancestral practices—intermittent fasting, regular physical activity, and a nutrient-dense diet—are known to enhance mitochondrial efficiency and upregulate antioxidant defenses.
@@ -82,15 +69,15 @@ Stay informed as this research develops. The shift from tangles to mitochondrial
 - Ancestral lifestyle supports mitochondrial resilience.
 
 
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
+<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
+<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Alzheimer's-linked tau disrupts mitochondria, reversing electron flow in nerve cells](https://medicalxpress.com/news/2026-08-alzheimer-linked-tau-disrupts-mitochondria.html) from Medical Xpress Neurology. Read the original report for full context.

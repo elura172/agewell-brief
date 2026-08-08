@@ -31,8 +31,6 @@ For over a century, the brain has been treated as an immune sanctuary—a privil
 
 The stakes are concrete: every heartbeat delivers blood-borne signals and cells to the brain's doorstep. If aging changes the rules of entry, then systemic inflammation, immune exhaustion, or even exercise-induced immune shifts could directly influence the brain's inflammatory tone. That would reframe healthspan interventions—diet, movement, stress management—as direct modulators of brain immunity, not just systemic benefits.
 
-
-
 <aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
@@ -54,17 +52,6 @@ This is a preliminary report, not a peer-reviewed study. The source does not spe
 
 The physical mechanism likely involves changes in endothelial tight junctions, increased expression of adhesion molecules, and chemokine gradients that guide leukocytes across the BBB. Aging is associated with chronic low-grade inflammation ('inflammaging'), which can upregulate these trafficking signals. However, whether these reinforcements are protective (clearing debris) or pathological (driving neuroinflammation) remains unknown. The source does not provide evidence for either outcome.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--mid" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Work with this mechanism directly</h3>
-<p>Luminous Mind turns glymphatic clearance, neuroplasticity, and brain entrainment into a practitioner-designed protocol you can actually run, rather than a finding you can only read about.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
-
 ## Practical next steps
 
 Do not change your health protocol based on this headline. The finding is a lead, not a prescription. What you can do is support BBB integrity and reduce systemic inflammation through evidence-based lifestyle levers: regular aerobic exercise, which improves endothelial function and tight junction proteins; and a diet rich in polyphenols and omega-3s, which lower oxidative stress.
@@ -78,6 +65,7 @@ Intermittent fasting and resistance training have also been shown to enhance aut
 - Lifestyle levers like exercise and fasting may modulate brain-immune traffic.
 
 
+
 <aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>Where to take this next</h3>
@@ -86,7 +74,6 @@ Intermittent fasting and resistance training have also been shown to enhance aut
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
-
 ### Source
 
 This analysis is based on [Discovery reveals aging human brains receive immune cell reinforcements from blood](https://medicalxpress.com/news/2026-08-discovery-reveals-aging-human-brains.html) from Medical Xpress Healthy Aging. Read the original report for full context.

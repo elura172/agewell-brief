@@ -19,15 +19,13 @@ Sarcopenia—the progressive loss of muscle mass and strength—afflicts over 10
 
 The new study identifies a specific molecular culprit: the enzyme 15-prostaglandin dehydrogenase (15-PGDH), which degrades prostaglandin E2 (PGE2). In geriatric mice, 15-PGDH activity is elevated, suppressing PGE2 levels and silencing the muscle's growth response. Inhibiting this enzyme restores PGE2, reawakening the anabolic machinery—a potential pharmacological lever to combat sarcopenia.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Dark Mirror program">
-<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
-<h3>This is Dark Mirror territory</h3>
-<p>Mineral balance and bio-clearing — heavy metal chelation, mineral ratios, and deep tissue clearing. The Dark Mirror spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
-<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>This is Cell Shedding territory</h3>
+<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 
 ## What was found
@@ -42,17 +40,6 @@ This is a preclinical animal study, not a human trial. The findings are mechanis
 
 The study echoes historical insights: Otto Warburg's emphasis on metabolic control of tissue function, and Hans Selye's concept that stress can drive adaptation when regulatory systems are intact. Here, mechanical overload is the stress, and PGE2 is the permissive signal that allows adaptation. Restoring that signal re-enables the body's innate capacity for repair—a principle that resonates with ancestral patterns of regular physical activity and dietary omega-3s, which support balanced prostaglandin production.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--mid" aria-label="Dark Mirror program">
-<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
-<h3>Work with this mechanism directly</h3>
-<p>Dark Mirror turns heavy metal chelation, mineral ratios, and deep tissue clearing into a practitioner-designed protocol you can actually run, rather than a finding you can only read about.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
-<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
-
 ## Practical next steps
 
 For now, the actionable takeaway is to maintain mechanical loading and adequate omega-3 intake, which support PGE2 signaling naturally. Resistance training remains the most effective stimulus for muscle growth, even if blunted with age. The study suggests that future therapies might combine exercise with 15-PGDH inhibitors to overcome anabolic resistance.
@@ -66,15 +53,15 @@ Watch for human trials of 15-PGDH inhibitors, which are already being explored f
 - PGE2 drives IGF1 in type IIb myonuclei, coordinating hypertrophy.
 
 
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
-<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
-<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
+<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
+<h3>Where to take this next</h3>
+<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
+<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+</aside>
 ### Source
 
 This analysis is based on [Restoration of Capacity to Build Muscle Strength in Geriatric Mice by Inhibition of the Gerozyme 15-Prostaglandin Dehydrogenase](https://www.biorxiv.org/content/10.64898/2026.08.06.743387v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

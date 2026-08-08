@@ -31,13 +31,13 @@ Long flights disrupt more than sleep—your gut bacteria may also feel the time 
 - Plan ahead to help your gut adjust to new time zones.
 
 
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
-<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
+<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Inner Garden program">
+<p class="resource-kicker">Spiral of Cellular Light · Inner Garden</p>
 <h3>Where to take this next</h3>
-<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
-<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<p>Reading the research is the first move. Inner Garden — gut microbiome ecology — is the second: a structured protocol for short-chain fatty acid signaling and gut barrier integrity.</p>
+<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="sponsored noopener noreferrer">Open the Inner Garden protocol <span aria-hidden="true">→</span></a></p>
+<p class="resource-guide"><a href="/downloads/field-guides/inner-garden-field-guide.pdf" download>Download the Inner Garden field guide (PDF)</a></p>
+<p class="resource-disclosure">Inner Garden is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
 ### Source
 

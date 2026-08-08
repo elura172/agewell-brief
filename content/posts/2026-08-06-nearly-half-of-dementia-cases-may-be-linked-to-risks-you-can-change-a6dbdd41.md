@@ -53,8 +53,6 @@ For individuals, this means regular monitoring of blood pressure and lipid profi
 - Managing these factors could delay dementia by reducing brain damage.
 
 
-
-
 <aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>Where to take this next</h3>

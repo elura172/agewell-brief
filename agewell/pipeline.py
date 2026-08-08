@@ -942,14 +942,28 @@ def spiral_for(category: str, item: FeedItem, resources: dict[str, Any]) -> dict
     for slug, terms in (resources.get("keyword_overrides") or {}).items():
         if slug not in spirals or not isinstance(terms, list):
             continue
-        hits = sum(1 for term in terms if isinstance(term, str) and term in text)
+        # Whole words and phrases only. Plain substring matching sent every
+        # story containing "leads to" into heavy-metal clearing, because
+        # "lead" is a substring of it.
+        hits = sum(
+            1
+            for term in terms
+            if isinstance(term, str)
+            and re.search(rf"(?<!\w){re.escape(term)}(?!\w)", text)
+        )
         if hits and (best is None or hits > best[0]):
             best = (hits, slug)
     if best:
         return spirals[best[1]]
 
     routed = (resources.get("category_routes") or {}).get(category.strip().lower())
-    return spirals.get(routed) if routed else None
+    if routed and routed in spirals:
+        return spirals[routed]
+
+    # A brief with no spiral has no path into the program at all, so an
+    # unmapped category falls back rather than shipping a dead end.
+    fallback = resources.get("default_route")
+    return spirals.get(fallback) if fallback else None
 
 
 def markdown(

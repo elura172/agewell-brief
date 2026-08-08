@@ -31,8 +31,6 @@ Narcolepsy is not simply 'being tired.' It is a chronic neurological condition t
 
 This phenomenon is more than a clinical curiosity. It exposes the deep wiring between emotional processing and motor control, a circuit that normally runs silently beneath awareness. Understanding why laughter triggers this collapse is a window into how the brain maintains—or fails to maintain—the integrity of voluntary movement.
 
-
-
 <aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
@@ -54,17 +52,6 @@ This is a plain-language summary, not a peer-reviewed study. It provides no data
 
 From a biophysical perspective, one might consider the role of hypocretin neurons in the hypothalamus, which are lost in narcolepsy. These neurons stabilize wakefulness and suppress REM sleep. Their absence could leave the brainstem's motor inhibitory circuits—normally active only during REM—vulnerable to emotional inputs. This is interpretation, not reported fact.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--mid" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Work with this mechanism directly</h3>
-<p>Luminous Mind turns glymphatic clearance, neuroplasticity, and brain entrainment into a practitioner-designed protocol you can actually run, rather than a finding you can only read about.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
-
 ## practical next steps
 
 If you or someone you know experiences sudden muscle weakness with emotion, consult a neurologist or sleep specialist. A proper diagnosis requires a clinical evaluation and sleep studies, not self-diagnosis.
@@ -80,6 +67,7 @@ Stay informed through reputable sources, but be wary of oversimplified explanati
 - Laughter can trigger cataplexy, but not all patients experience it.
 
 
+
 <aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>Where to take this next</h3>
@@ -88,7 +76,6 @@ Stay informed through reputable sources, but be wary of oversimplified explanati
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
-
 ### Source
 
 This analysis is based on [Why laughter can trigger sudden muscle weakness in people with narcolepsy](https://medicalxpress.com/news/2026-08-laughter-trigger-sudden-muscle-weakness.html) from Medical Xpress Sleep. Read the original report for full context.

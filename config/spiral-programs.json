@@ -54,20 +54,27 @@
     "nutrition": "higher flame",
     "detoxification": "living waters",
     "consumer safety": "dark mirror",
-    "general wellness": "living waters"
+    "general wellness": "living waters",
+    "mobility": "higher flame"
   },
   "keyword_overrides": {
-    "_comment": "Checked against title+summary before category_routes, so a story's actual subject wins over its filed category.",
+    "_comment": "Matched as whole words/phrases against title+summary BEFORE category_routes, so a story's actual subject beats the category it was filed under. Keep entries unambiguous: bare 'lead' matched 'leads to' and sent brain-health stories to heavy-metal clearing.",
     "dark mirror": [
-      "mineral",
+      "lead exposure",
+      "lead poisoning",
+      "blood lead",
+      "mercury exposure",
+      "methylmercury",
+      "cadmium exposure",
+      "arsenic exposure",
+      "toxic metal",
+      "mineral ratio",
+      "mineral balance",
+      "trace mineral",
       "chelation",
       "heavy metal",
       "zeolite",
       "charcoal",
-      "lead",
-      "mercury",
-      "cadmium",
-      "arsenic",
       "tainted",
       "contaminant",
       "hidden drug"
@@ -114,5 +121,6 @@
       "arterial",
       "blood flow"
     ]
-  }
+  },
+  "default_route": "living waters"
 }
