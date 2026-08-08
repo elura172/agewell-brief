@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "29ba27a2d854f8745e1ea94c",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "0273efb6277f6937",
+        "source": "Dr. Emilio Del Giudice (1988) — Water Coherence Domains and Quantum Electrodynamics (QED)",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 23
+      },
+      {
+        "source_id": "0ab8467caacde078",
+        "source": "Dr. Mae-Wan Ho (1993) — The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 22
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

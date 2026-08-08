@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "29ba27a2d854f8745e1ea94c",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:15410078",
+      "score": 85,
+      "rationale": "The candidate image depicts a human brain model, which directly matches the story's subject of the locus coeruleus in the brain. The alt text and metadata do not suggest any fear, stereotypes, or unrelated content. The image is a close-up of the brain model, which aligns with the editorial intent to show the brain region. The setting is not explicitly a lab, but the brain model is the primary subject, making it a suitable choice.",
+      "concerns": [
+        "The image does not show a glowing locus coeruleus or neural pathways, but the brain model is a clear representation of the subject. The background is pastel, which may not match the intended dark, high-tech lab setting, but this is a minor concern."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-08/the-locus-coeruleus-a-tiny-brain-nucleus-that-orchestrates-cognition-a-29ba27a2-pexels-15410078.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

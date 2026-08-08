@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Synthesizes recent optogenetics, chemogenetics, and NM-MRI advances to explain LC's role in cognition, offering a mechanistic update beyond generic reviews.",
+      "angle": "How new imaging and genetic tools are revealing the brain's 'alarm system' as a key to memory and attention in aging.",
+      "mode": "agent"
+    },
+    "de12de7b94526d78e587b5af": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Identifies specific T-cell co-stimulatory/inhibitory states (ICOS, PD-1) linked to Alzheimer's vulnerability and resilience, a novel mechanistic insight with potential biomarkers.",
+      "angle": "Immune cell 'checkpoints' in blood may predict who resists Alzheimer's brain changes, pointing to new therapeutic targets.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic list of balance exercises; no new finding or unique angle, likely recycled content.",
+      "angle": "Could be repackaged as '13 balance moves that target the real culprit: trunk stability' if tied to recent research.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "First in-situ glial cell-surface proteomics in intact brains identifies DIP-β as a pro-longevity factor, a novel mechanism with lifespan extension evidence.",
+      "angle": "A single surface protein on brain support cells extends lifespan in flies—could this be a new target for brain aging?",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic insight",
+      "reason": "Specific molecular pathway (HNRNPC succinylation, YME1L1) in Alzheimer's neurodegeneration, but highly technical and incremental for a general audience.",
+      "angle": "Could be framed as 'how a chemical modification on a common protein disrupts mitochondrial energy in Alzheimer's' if simplified.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another generic senior workout article; no unique data or novel angle, similar to other exercise pieces.",
+      "angle": "Could highlight the trainer's specific 'simple and safe' routine as a practical guide, but low novelty.",
+      "mode": "agent"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Reveals that during REM sleep the brain prioritizes internal signals over external ones, a counterintuitive finding with implications for sensory processing and sleep function.",
+      "angle": "Your brain turns down the volume on the outside world during REM sleep—but listens more to your body. What does that mean for dreaming?",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Reviews taVNS for disorders of consciousness, a promising non-invasive neuromodulation approach with mechanistic and clinical evidence, though still preliminary.",
+      "angle": "Can a gentle ear stimulation device wake the brain after severe injury? The evidence is growing, but not all patients respond.",
+      "mode": "agent"
+    },
+    "3406303dda526473a9b97205": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Challenges common belief that reducing sweet intake curbs cravings; six-month trial shows no effect on preference or health markers, a counterintuitive finding.",
+      "angle": "Cutting back on sweets doesn't make you crave them less—a new trial upends a dieting assumption.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "29ba27a2d854f8745e1ea94c",
+    "de12de7b94526d78e587b5af",
+    "c376819f2d54a4df1d317aee",
+    "95c882437216b7799a061c53",
+    "a69b88ecd3c8d0a8a837a768",
+    "3406303dda526473a9b97205"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}
