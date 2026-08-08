@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "51930a9030b94fc11f856578",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "2cd8729bdce3f913",
+        "source": "Dr. Robert O. Becker (1985) — The Body Electric: Electromagnetism and the Foundation of Life",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 18
+      },
+      {
+        "source_id": "c7c3927f5f0a450a",
+        "source": "Dr. Erwin Schrödinger (1944) — What is Life? The Physical Aspect of the Living Cell",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 16
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

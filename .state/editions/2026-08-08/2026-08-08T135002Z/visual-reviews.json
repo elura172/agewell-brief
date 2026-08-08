@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "51930a9030b94fc11f856578",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:28570735",
+      "score": 75,
+      "rationale": "The image depicts a close-up of a microscope in a laboratory setting, which aligns with the editorial intent of showing a researcher examining brain scans or microscope images. The metadata suggests a scientific research context, fitting the story's theme of brain immune system discovery. The absence of human subjects avoids potential stereotypes and focuses on the scientific aspect.",
+      "concerns": [
+        "The image does not explicitly show brain cells or immune cells crossing a barrier, but it conveys the laboratory research environment. It may be less dynamic than desired, but it is specific to scientific research."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-08/aging-brains-draft-blood-borne-immune-reinforcements-the-blood-brain-b-51930a90-pexels-28570735.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

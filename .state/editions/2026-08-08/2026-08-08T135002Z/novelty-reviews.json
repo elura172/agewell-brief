@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "29ba27a2d854f8745e1ea94c": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Provides a comprehensive synthesis of the locus coeruleus's role in cognition, integrating recent optogenetics and neuroimaging advances. The tonic-phasic firing and co-release of noradrenaline/dopamine offer a specific mechanistic angle.",
+      "angle": "How the brain's 'alarm system' switches modes to control memory and attention, and why it's an early target in aging.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "A listicle of balance exercises; common knowledge with no new findings or unique angle.",
+      "angle": "Could be repackaged with a specific focus on preventing falls, but lacks novelty.",
+      "mode": "agent"
+    },
+    "de12de7b94526d78e587b5af": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies specific T-cell co-stimulatory states (ICOS, PD-1) that mark vulnerability or resilience to Alzheimer's pathology, offering a potential blood-based biomarker and new therapeutic target.",
+      "angle": "Immune cells in your blood may predict Alzheimer's resilience: the ICOS/PD-1 balance.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "First in-situ glial cell-surface proteomics in flies identifies DIP-β as a pro-longevity factor, linking glial communication to lifespan. Novel method and specific gene.",
+      "angle": "A single glial protein extends lifespan in flies by improving brain cell communication.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Links HNRNPC succinylation to mitochondrial metabolism via YME1L1 in Alzheimer's, a specific post-translational modification with a clear pathway.",
+      "angle": "How a chemical tag on an RNA-binding protein disrupts mitochondria and drives neurodegeneration.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another senior workout article; similar to existing content, no new data or unique perspective.",
+      "angle": "Could be combined with the four-minute workout trend, but lacks novelty.",
+      "mode": "agent"
+    },
+    "8ceb4683a1d2939678198258": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "off-topic",
+      "reason": "Fault diagnosis for hybrid power systems is unrelated to aging or health.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "New EEG evidence shows REM sleep shifts brain processing from external to internal signals, offering a fresh perspective on sleep's function.",
+      "angle": "During REM sleep, your brain turns its attention inward: what it means for memory and dreaming.",
+      "mode": "agent"
+    },
+    "51930a9030b94fc11f856578": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "discovery",
+      "reason": "Challenges the long-held belief that the brain's immune system is isolated, showing blood-borne immune cells infiltrate the aging brain. Major paradigm shift.",
+      "angle": "Your brain's immune system gets reinforcements from your blood as you age—a new frontier in neurodegeneration.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "29ba27a2d854f8745e1ea94c",
+    "de12de7b94526d78e587b5af",
+    "c376819f2d54a4df1d317aee",
+    "44d85c20f70b28aea7edb7f1",
+    "95c882437216b7799a061c53",
+    "51930a9030b94fc11f856578"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "256b3e11dfff849235aebba7",
+    "8ceb4683a1d2939678198258"
+  ],
+  "mode": "agent"
+}
