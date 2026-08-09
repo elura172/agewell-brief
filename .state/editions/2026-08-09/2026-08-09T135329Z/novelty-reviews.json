@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "de12de7b94526d78e587b5af": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Identifies specific T-cell co-stimulatory/inhibitory states (ICOS, PD-1) that modulate Alzheimer's vulnerability and resilience, offering a mechanistic link and potential biomarkers.",
+      "angle": "Your immune system's 'checkpoint' molecules may decide how Alzheimer's affects you—new study pinpoints ICOS and PD-1 as key switches.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic list of balance exercises for seniors; no new finding or unique angle.",
+      "angle": "13 balance exercises that actually target age-related decline—ranked by difficulty and benefit.",
+      "mode": "agent"
+    },
+    "874167e02202e764f6697a57": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Introduces a novel computational framework (MDSI-AVI) for whole-brain modeling, revealing new insights into working memory circuits with potential broad applications.",
+      "angle": "AI decodes the brain's 'traffic control' during working memory—new model identifies a key hub in the insula.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "First in-situ glial cell-surface proteomics in flies identifies DIP-β as a pro-longevity factor, opening new avenues for brain aging interventions.",
+      "angle": "A surface protein on brain support cells extends lifespan in flies—new target for anti-aging therapies.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic insight",
+      "reason": "Provides mechanistic detail on HNRNPC succinylation in Alzheimer's, but the finding is incremental and may not capture broad reader interest.",
+      "angle": "How a chemical modification on a RNA-binding protein disrupts mitochondria in Alzheimer's—potential new drug target.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another senior workout routine; lacks novelty and specific actionable insight beyond common knowledge.",
+      "angle": "A trainer's 'simple and safe' daily routine—what makes it effective for seniors?",
+      "mode": "agent"
+    },
+    "95c882437216b7799a061c53": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Challenges the notion that sleep isolates the brain; shows REM sleep preserves internal sensory processing, offering a new perspective on sleep function.",
+      "angle": "During REM sleep, your brain turns inward—new study shows external signals fade while internal ones are amplified.",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Comprehensive review of taVNS for disorders of consciousness, highlighting promising but preliminary evidence and a clear need for more research.",
+      "angle": "Ear stimulation for coma patients: a promising new therapy or premature hype? A balanced look at the evidence.",
+      "mode": "agent"
+    },
+    "3406303dda526473a9b97205": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Six-month trial finds cutting sweet foods doesn't reduce cravings or improve health markers, contradicting common dietary advice.",
+      "angle": "Cutting sugar doesn't curb cravings—new study challenges a core dieting belief.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "de12de7b94526d78e587b5af",
+    "874167e02202e764f6697a57",
+    "c376819f2d54a4df1d317aee",
+    "95c882437216b7799a061c53",
+    "a69b88ecd3c8d0a8a837a768",
+    "3406303dda526473a9b97205"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

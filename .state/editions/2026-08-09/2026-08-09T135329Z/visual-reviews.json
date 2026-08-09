@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "95c882437216b7799a061c53",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8560285",
+      "score": 85,
+      "rationale": "The selected candidate depicts a young man sleeping peacefully, which aligns with the story's subject of a sleeping adult. The alt text mentions 'peacefully sleeping' and 'cozy couch,' matching the serene, introspective mood. Although the image does not explicitly show EEG electrodes, the story's focus is on the brain's inward focus during REM sleep, and the image conveys a calm, restful state. The other candidate shows a foot with a medical electrode, which is less relevant to the story's focus on the head and brain.",
+      "concerns": [
+        "The image does not explicitly show EEG electrodes on the head, which is a key element of the editorial intent. However, the alt text and general composition suggest a peaceful sleep scene, which may be acceptable if the absence of electrodes is not critical. The image is a close-up of a young man, which may not represent the broader adult population, but this is a minor concern."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-09/rem-sleep-turns-the-brain-inward-new-eeg-evidence-of-sensory-gating-95c88243-pexels-8560285.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
