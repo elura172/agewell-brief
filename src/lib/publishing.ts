@@ -89,6 +89,21 @@ export function isCommercialLink(href: string | undefined | null): boolean {
   }
 }
 
+/** Unlink commercial URLs in rendered HTML, keeping their anchor text.
+ *
+ * The syndicated copy carries no commission links: the programme cards are
+ * stripped, and the link home is the route back to the offer. Prose links
+ * slipped past that — the six programme explainers cite the storefront in their
+ * Source line, and `marked` renders a bare <a> with no rel="sponsored", which
+ * would then be republished on someone else's platform.
+ */
+export function stripCommercialLinks(html: string): string {
+  return html.replace(
+    /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi,
+    (match, href: string, text: string) => (isCommercialLink(href) ? text : match)
+  );
+}
+
 export function linkRel(href: string | undefined | null): string {
   return isCommercialLink(href) ? "sponsored noopener noreferrer" : "noopener noreferrer";
 }

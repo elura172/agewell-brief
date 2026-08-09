@@ -1,0 +1,558 @@
+{
+  "_comment": "Seeded from the 2026-08-09 Substack archive re-import, which delivered the whole site. Without this the first automated run would repost all 79 briefs as duplicates. substack_id is null because the importer created these, not this script.",
+  "posts": {
+    "2026-08-02-a-42-year-old-childhood-obesity-theory-may-be-wrong-a9e38e1b": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A better body-fat measure undercuts the childhood 'fat rebound' theory",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-a-hidden-alzheimer-s-tipping-point-may-decide-who-gets-dementia-fc5526c1": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A microglial switch may separate who declines from who stays sharp",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Researchers are building a healthspan field rooted in early life",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Work stress tracked persistent sleep problems in 70% of over-50s",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-a-weak-body-clock-may-be-an-early-warning-for-dementia-sciencedaily-4e3cf41d": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Weaker daily rhythms carried nearly 2.5 times the dementia risk",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-ai-can-tell-if-your-brain-is-aging-faster-than-you-are-c2812776": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A sleep EEG 'brain age' score tracked future dementia risk",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-alzheimer-s-breakthrough-scientists-restore-two-hours-of-sleep-without-935dcd2d": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "In mice, removing brain immune cells restored two hours of sleep",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-apoe2-may-protect-the-brain-from-alzheimer-s-and-aging-8de342d7": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "APOE2 neurons showed less DNA damage and better repair",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A mitochondrial transport route helped senescent cells drive inflammation",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Researchers map how single neurons assemble spoken language",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-brain-fluid-structure-may-flag-future-dementia-risk-years-before-diagn-0c1df71c": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Choroid plexus MRI measures tracked later dementia risk",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-brain-s-immune-system-changes-at-midlife-nih-study-finds-e05c96ff": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Brain's Immune System Changes at Midlife, NIH Study Finds",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-detection-firm-finds-82-of-herbal-remedy-books-on-amazon-likely-writte-9975d4c5": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A scan of 558 herbal remedy books found 82% likely AI-written",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A review of 350+ studies tied lower protein intake to better metabolism",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-fda-warns-hidden-drugs-in-sleep-skin-and-bodybuilding-supplements-bdfc047d": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "FDA warns of hidden ingredients in some sleep, skin, and bodybuilding products",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-fda-warns-of-hidden-drugs-in-sleep-skin-and-bodybuilding-products-9c6963bf": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "FDA flags hidden drug ingredients in products sold for sleep, skin, and bodybuilding",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-first-of-its-kind-study-reveals-how-sleep-strengthens-memory-and-how-e-ff4c8e8c": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Three brain regions synchronised during sleep to consolidate memory",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A four-minute daily routine improved chair-stand and balance scores",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-how-exercise-keeps-our-brains-healthy-as-we-age-847a8e4f": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "More evidence tied physical activity to lower dementia risk",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea-shows-downst-6a306820": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Nerve stimulation for sleep apnea showed wider health gains",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-lab-grown-mini-brains-may-predict-which-alzheimer-s-treatments-will-wo-737201fd": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Patient-derived brain organoids predicted who responded to an antidepressant",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-lifestyle-changes-cut-risk-of-multiple-chronic-conditions-in-prediabet-fbad066d": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-mediterranean-diet-may-activate-tiny-proteins-that-protect-the-heart-a-e567bdc7": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Mediterranean eating pattern linked to two mitochondrial microproteins",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-popular-weight-loss-drugs-ozempic-and-wegovy-may-slow-biological-aging-c99b5fb0": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "In adults with HIV, semaglutide slowed biological aging markers",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-q-a-how-aging-affects-cells-recycling-centers-c7bbcc6c": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "How the cell's recycling hubs falter with age",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-reducing-protein-intake-could-support-healthy-aging-by-reshaping-metab-ea4b19a3": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A 350-study review linked protein restriction to slower aging",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-researchers-find-simple-habit-to-improve-physical-and-mental-health-383802cd": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A consistent daily routine tracked less pain and better sleep",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "How meal timing and melatonin shape the aging body clock",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-scientists-discover-how-obesity-may-fuel-alzheimer-s-disease-c13bc031": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "In Alzheimer's models, obesity-related fats reached the brain and raised amyloid",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-scientists-discover-why-poor-sleep-may-harm-some-brains-more-956b7fc7": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A brain waste-clearance gene altered how much poor sleep costs",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-scientists-may-have-found-a-way-to-prevent-statin-muscle-pain-bcc4ce4a": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "In mice, an immune reaction explained statin muscle damage",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-superagers-keep-youthful-memories-but-their-dna-does-not-explain-why-07f7c8b1": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "SuperAgers' memory advantage was not explained by their Alzheimer's genes",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-this-once-a-week-workout-may-help-cut-belly-fat-study-shows-c15da545": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "75 minutes of weekly interval walking cut central fat in 315 adults",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-time-restricted-eating-may-help-retain-cognitive-function-in-older-adu-d64e52fc": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "In 47 older women, six months of time-restricted eating aided spatial planning",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-too-little-sleep-and-too-much-associated-with-faster-aging-columbia-un-c8cdac04": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Both short and long sleep tracked faster organ aging",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-two-hours-of-sleep-restored-researchers-make-alzheimer-s-breakthrough-4a857d52": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Sleep loss triggered a brain immune response that damaged tissue",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-waska-the-cost-of-spiritual-healing-in-the-amazon-d80214f1": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Indigenous voices on the cost of commodified plant medicine",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-watching-too-much-tv-in-midlife-may-shrink-the-brain-7861b841": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "In 1,700 adults, frequent midlife TV tracked smaller memory regions",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-where-you-live-could-shape-your-dementia-risk-massive-study-finds-8c294954": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Across 214,000 older adults, dementia risk factors varied by country",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-02-your-gut-can-get-jet-lag-too-how-not-to-waste-the-first-days-of-your-v-383365b2": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Long flights shift the gut microbiome, not just sleep",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Activating a lactate receptor eased senescence markers in progeroid mice",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-ai-identifies-previously-unrecognized-health-insights-in-routine-sleep-8525ef13": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "An AI model pulled disease signals from routine sleep studies",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A public CT dataset sets a benchmark for image-quality scoring",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-cell-shedding-what-senescence-research-can-and-cannot-say": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "What the cell-shedding framework gets right about senescence research",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-circulating-cell-free-chromatin-particles-trigger-a-unique-biphasic-st-3b9c316a": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Chromatin particles from dying cells drove a two-phase inflammatory response",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "An enzyme may help clear senescent cells from tissue",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-critical-flicker-fusion-frequency-as-a-falsifiable-boundary-between-pl-41eaae73": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A flicker-perception threshold may mark the edge of adult brain plasticity",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-dark-mirror-what-a-mineral-clearing-framework-is-trying-to-do": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "What the Dark Mirror mineral-clearing framework is trying to do",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-disrupted-circadian-rhythms-linked-to-elevated-dementia-risk-a3c844dc": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Disrupted Circadian Rhythms Linked to Elevated Dementia Risk",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-higher-flame-metabolic-flexibility-and-the-fasting-question": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "The Higher Flame framework asks what fuel flexibility might change",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-inner-garden-gut-health-as-an-ecology": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Gut health is an ecology, not a single supplement",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-litevax-adjuvanted-influenza-vaccine-induces-transient-interferon-driv-8256e59b": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "An experimental flu adjuvant sped early antibody quality in over-60s",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-living-waters-why-transport-comes-first": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Why the Living Waters framework puts transport before clearing",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-luminous-mind-brain-health-needs-more-than-a-pill": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "The Luminous Mind framework treats brain health as a whole-system project",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-mild-and-reversible-proprioception-perturbation-suggests-causal-biomec-f70d1aea": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "In mice, briefly disrupting body-position sense caused navigation errors",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Person-specific brain mapping improved Alzheimer's detection from fMRI",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A 6.4-to-7.8-hour sleep window tracked slower biological aging",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-serotonergic-modulation-of-motor-subspace-dynamics-drives-a-sleep-inde-ddade535": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "In zebrafish, serotonin neurons induced stillness without dulling the senses",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-stable-excitatory-inhibitory-synapse-balance-despite-dynamic-turnover-4f1c9732": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Synapses turned over constantly while their excitatory-inhibitory balance held",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-technological-advances-in-detecting-and-managing-cognitive-impairment--dfbdeb5d": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Blood tests advanced while many AI cognition tools still await validation",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-understanding-the-effects-of-aging-on-whole-body-dynamic-balance-trunk-da003100": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Aging tracked declines in balance, trunk stability and hip strength",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-03-want-to-slow-your-biological-aging-sleeping-6-4-to-7-8-hours-a-night-m-45515d21": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Epigenetic aging was slowest in a 6.4-to-7.8-hour sleep window",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-04-ai-enabled-measurements-of-local-brain-aging-offer-detailed-insights-o-f0e16572": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "An AI model charted how separate brain regions age at different rates",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Cerebellar network timing supported episodic memory in older adults",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-04-supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "In rats, midlife omega-3s durably shifted the muscle-aging trajectory",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-05-effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Lifelong bilingualism preserved pre-attentive hearing discrimination with age",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-05-overall-brain-health-protects-memory-from-early-alzheimer-s-neuroscien-628fba67": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Overall brain health buffered memory against early Alzheimer's pathology",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Nicotinamide riboside and hard training remodelled muscle epigenetics differently",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "A four-year study tied smoking and hypertension to white matter damage",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Cerebral artery elasticity declined measurably in just 18 months",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Restoring muscle's lost signal: how a prostaglandin enzyme unlocks strength in aging",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-07-sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Sleep, Anxiety, and the Empty-Nest Brain: Why Movement and Community Are Biological Levers",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-07-tau-s-mitochondrial-sabotage-reversing-electron-flow-in-alzheimer-s-e7da10a8": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Tau's mitochondrial sabotage: reversing electron flow in Alzheimer's",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-07-the-laughter-cataplexy-link-a-neurological-short-circuit-in-narcolepsy-ecf3b9ec": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "The Laughter-Cataplexy Link: A Neurological Short-Circuit in Narcolepsy",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-07-your-brain-s-immune-system-is-being-replaced-starting-at-50-b216b7d2": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Your Brain's Immune System Is Being Replaced\u2014Starting at 50",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-08-aging-brains-draft-blood-borne-immune-reinforcements-the-blood-brain-b-51930a90": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "Aging brains draft blood-borne immune reinforcements: the blood-brain barrier is not a wall",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "The Heart's True Exercise Threshold: Why 150 Minutes May Be Just the Beginning",
+      "via": "substack-rss-archive-import"
+    },
+    "2026-08-08-the-locus-coeruleus-a-tiny-brain-nucleus-that-orchestrates-cognition-a-29ba27a2": {
+      "sent_at": "2026-08-09T00:00:00+00:00",
+      "state": "published",
+      "substack_id": null,
+      "title": "The Locus Coeruleus: A Tiny Brain Nucleus That Orchestrates Cognition and Predicts Neurodegeneration",
+      "via": "substack-rss-archive-import"
+    }
+  }
+}

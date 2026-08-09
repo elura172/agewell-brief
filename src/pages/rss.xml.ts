@@ -2,7 +2,7 @@ import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 import { marked } from "marked";
 import sanitizeHtml from "sanitize-html";
-import { imageFigureHtml, isCommercialLink, mediaRssData, plainTextExcerpt, publishedBriefs, withoutAffiliatePlacement } from "../lib/publishing";
+import { imageFigureHtml, isCommercialLink, mediaRssData, plainTextExcerpt, publishedBriefs, stripCommercialLinks, withoutAffiliatePlacement } from "../lib/publishing";
 
 export async function GET(context: { site?: URL }) {
   const entries = publishedBriefs(await getCollection("briefs"));
@@ -34,7 +34,7 @@ export async function GET(context: { site?: URL }) {
         `field guide for this topic.</em></p>`;
       const rendered =
         imageFigureHtml(entry.data, site) +
-        (marked.parse(feedMarkdown, { async: false }) as string) +
+        stripCommercialLinks(marked.parse(feedMarkdown, { async: false }) as string) +
         backlink;
       const content = sanitizeHtml(rendered, {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(["figure", "figcaption", "img", "small"]),
