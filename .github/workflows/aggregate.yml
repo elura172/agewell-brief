@@ -99,9 +99,14 @@ jobs:
       # each Substack post links back to already exists. Substack's RSS import
       # is a one-time archive import, not a live sync, so delivery has to be
       # pushed. Skips cleanly (exit 0) when SUBSTACK_SID is unset.
+      # Deliberately not continue-on-error. The script exits 0 for every benign
+      # outcome — nothing to send, no credential set, a transient error the next
+      # run retries — and non-zero only when Substack rejects the credential.
+      # That is the one state that never recovers on its own, so it should turn
+      # the run red and send the failure notification rather than stalling
+      # quietly while briefs pile up unsent.
       - name: Publish briefs to Substack
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
-        continue-on-error: true
         run: python3 scripts/substack_publisher.py --publish --limit 3
         env:
           SUBSTACK_SID: ${{ secrets.SUBSTACK_SID }}

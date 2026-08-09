@@ -128,6 +128,30 @@ def publishable_briefs() -> list[tuple[str, dict[str, str], str]]:
     return out
 
 
+# Exit codes are the signal to CI. 0 covers every benign outcome — nothing to
+# send, no credential configured, a transient error that the next run retries.
+# Only a rejected credential exits non-zero, because that is the one state that
+# never recovers on its own and needs a person.
+EXIT_OK = 0
+EXIT_AUTH_REJECTED = 2
+
+AUTH_MARKERS = ("401", "403", "unauthor", "forbidden", "login", "sign in", "session", "cookie")
+
+
+class AuthRejected(RuntimeError):
+    """The credential exists but Substack refused it — almost always an expired sid."""
+
+
+def looks_like_auth_failure(exc: Exception) -> bool:
+    # TypeError/AttributeError mean this script is calling the library wrong —
+    # a bug to fix here, not a credential to refresh. Without this guard a
+    # signature mismatch reported itself as "credential rejected", because the
+    # message happened to contain the word "cookie".
+    if isinstance(exc, (TypeError, AttributeError, ImportError)):
+        return False
+    return any(m in f"{type(exc).__name__} {exc}".lower() for m in AUTH_MARKERS)
+
+
 def build_api():
     try:
         from substack.api import Api
@@ -135,9 +159,33 @@ def build_api():
         print("python-substack is not installed. Run: pip install python-substack")
         sys.exit(1)
     url = f"https://{SUBSTACK_DOMAIN}.substack.com"
-    if SUBSTACK_SID:
-        return Api(cookies={"substack.sid": SUBSTACK_SID}, publication_url=url)
-    return Api(email=SUBSTACK_EMAIL, password=SUBSTACK_PASSWORD, publication_url=url)
+    try:
+        if SUBSTACK_SID:
+            # python-substack takes a semicolon-separated cookie string, not a
+            # dict — the previous `cookies={...}` call raised TypeError, so this
+            # would have failed on its first real run. Accept either a bare sid
+            # value or a full cookie string pasted from DevTools.
+            cookie_string = SUBSTACK_SID if "=" in SUBSTACK_SID else f"substack.sid={SUBSTACK_SID}"
+            return Api(cookies_string=cookie_string, publication_url=url)
+        return Api(email=SUBSTACK_EMAIL, password=SUBSTACK_PASSWORD, publication_url=url)
+    except Exception as exc:
+        if looks_like_auth_failure(exc):
+            raise AuthRejected(str(exc)) from exc
+        raise
+
+
+def report_auth_rejected(pending_count: int, detail: str) -> None:
+    print("\n" + "=" * 62)
+    print("❌ SUBSTACK CREDENTIAL REJECTED — subscribers are not receiving briefs")
+    print("=" * 62)
+    print(f"   {pending_count} brief(s) are queued and will keep piling up until this is fixed.")
+    print(f"   Substack said: {detail[:200]}")
+    print("\n   A session cookie expires; this is the expected way it ends.")
+    print("   Refresh it:")
+    print("     1. Log in at agewellbrief.substack.com")
+    print("     2. DevTools → Application → Cookies → copy 'substack.sid'")
+    print("     3. Update the SUBSTACK_SID secret in GitHub repo settings")
+    print("=" * 62)
 
 
 def explain_missing_credentials(pending: list) -> None:
@@ -184,7 +232,12 @@ def main() -> int:
             print(f"   {fm.get('date', '')[:10]}  {fm.get('title', '')[:64]}  ({len(md)} chars)")
         return 0
 
-    api = build_api()
+    try:
+        api = build_api()
+    except AuthRejected as exc:
+        report_auth_rejected(len(pending), str(exc))
+        return EXIT_AUTH_REJECTED
+
     sent = 0
     for brief_id, fm, body in batch:
         title = fm.get("title", "Agewell Brief")
@@ -202,14 +255,22 @@ def main() -> int:
             }
             sent += 1
             print(f"   ✅ {'published' if args.publish else 'drafted'}: {title[:64]}")
-        except Exception as exc:  # one bad post must not strand the rest
+        except Exception as exc:
+            # A dead cookie fails every post identically, so stop rather than
+            # printing the same rejection once per brief.
+            if looks_like_auth_failure(exc):
+                save_state(state)
+                report_auth_rejected(len(pending) - sent, str(exc))
+                return EXIT_AUTH_REJECTED
             print(f"   ❌ failed: {title[:56]} — {exc}")
         finally:
             # Persist after each post so a mid-run crash cannot cause a repost.
             save_state(state)
 
-    print(f"\n{sent}/{len(batch)} sent · {len(pending) - sent} still pending")
-    return 0 if sent else 1
+    still = len(pending) - sent
+    print(f"\n{sent}/{len(batch)} sent · {still} still pending")
+    # A transient failure is not worth waking anyone for; the next run retries.
+    return EXIT_OK
 
 
 if __name__ == "__main__":
