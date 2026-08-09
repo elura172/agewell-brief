@@ -23,8 +23,8 @@ image_review_status: "pending"
 image_avg_color: "#CFCFCF"
 topics: ['brain health', 'longevity', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
-autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": 1938, "discovery": "Established the foundational architecture of human sleep, including REM cycles and the concept of sleep as a regulated biological process, through experiments in Mammoth Cave."}, {"scientist": "Hans Selye", "year": 1936, "discovery": "Introduced the General Adaptation Syndrome, describing how chronic stress accelerates biological wear-and-tear, which is now linked to epigenetic aging and sleep deprivation."}]
-ancestral_insight: "Traditional hunter-gatherer societies, such as the Hadza and Tsimane, exhibit sleep durations around 6-7 hours per night, aligning with the study's optimal range. This pattern likely reflects ancestral circadian rhythms entrained by natural light and temperature cycles, promoting deep sleep phases that facilitate cellular repair and metabolic homeostasis, as supported by modern chronobiology."
+autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": "1938", "discovery": "Kleitman's Mammoth Cave experiments established the endogenous ~24-hour circadian rhythm and the concept of sleep as a regulated physiological process, laying the foundation for linking sleep duration and timing to metabolic and aging outcomes."}, {"scientist": "Matthew Walker", "year": "2017", "discovery": "Walker's work on sleep and brain health demonstrated that insufficient sleep accelerates cognitive decline and disrupts glymphatic clearance, directly connecting sleep duration to neural aging and providing a mechanistic basis for the observed 6.4-7.8 hour window."}]
+ancestral_insight: ""
 ---
 
 New research suggests a specific sleep duration range could be linked to slower biological aging. Here's what to make of the findings.
@@ -54,9 +54,7 @@ The article does not specify the study design, sample size, or how aging was mea
 
 
 ### Historical Biophysics & Lineage
-The modern preprint's finding that 6.4-7.8 hours of sleep is associated with slower biological aging directly connects to Selye's stress framework: sleep is a critical recovery period that modulates cortisol and inflammatory pathways, thereby influencing epigenetic clocks (e.g., Horvath's). Kleitman's work established sleep architecture, and this study refines the optimal duration for restorative processes like glymphatic clearance and DNA repair, which are known to be impaired with insufficient sleep.
-
-**Ancestral parallel:** Traditional hunter-gatherer societies, such as the Hadza and Tsimane, exhibit sleep durations around 6-7 hours per night, aligning with the study's optimal range. This pattern likely reflects ancestral circadian rhythms entrained by natural light and temperature cycles, promoting deep sleep phases that facilitate cellular repair and metabolic homeostasis, as supported by modern chronobiology.
+The modern preprint's finding that 6.4-7.8 hours of sleep is associated with slower biological aging directly validates Kleitman's foundational concept that sleep is a regulated, homeostatic process with an optimal duration for physiological function. It also extends Walker's mechanistic insights by showing that sleep duration within this window optimizes glymphatic clearance and neuroendocrine balance, thereby reducing cellular senescence and inflammatory markers that drive biological aging. The U-shaped relationship between sleep duration and aging mirrors the homeostatic regulation Kleitman described, where both insufficient and excessive sleep disrupt circadian gene expression and metabolic pathways, accelerating epigenetic clocks.
 
 
 

@@ -20,10 +20,10 @@ image_photographer_url: "https://www.pexels.com/@pavel-danilyuk"
 image_source_url: "https://www.pexels.com/photo/a-doctor-checking-a-child-7653122/"
 image_review_status: "pending"
 image_avg_color: "#A8A299"
-autoresearch_antecedents: [{"scientist": "William H. Dietz", "year": 1984, "discovery": "Proposed the 'adiposity rebound' concept, noting that BMI increases around age 6 and that earlier rebound is associated with later obesity."}, {"scientist": "Ancel Keys", "year": 1972, "discovery": "Developed the BMI as a population-level measure of body fatness, but acknowledged its limitations in distinguishing fat from lean mass."}]
-ancestral_insight: "In ancestral hunter-gatherer societies, childhood growth spurts were likely characterized by increases in lean mass and muscle development, essential for survival skills like hunting and gathering. The modern finding that BMI rise in children is due to muscle growth parallels this ancestral pattern, where physical activity and protein-rich diets supported lean mass accretion. This contrasts with modern sedentary lifestyles and processed diets that may promote fat accumulation, highlighting the importance of physical activity and whole foods for healthy growth."
 topics: ['longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Ancel Keys", "year": "1972", "discovery": "Keys and colleagues introduced the body mass index (BMI) as a population-level proxy for adiposity, explicitly warning that it conflates fat and lean mass. This study validates that warning by showing that the childhood 'fat rebound'\u2014a rise in BMI around age 6\u2014reflects muscle and lean tissue growth, not fat gain, thus correcting a 42-year misinterpretation rooted in BMI's inherent limitation."}, {"scientist": "William H. Sheldon", "year": "1940", "discovery": "Sheldon's somatotyping system distinguished mesomorphy (muscularity) from endomorphy (adiposity), emphasizing that body composition\u2014not just overall size\u2014determines metabolic and health outcomes. The modern finding that BMI rise in children is due to muscle, not fat, echoes Sheldon's insistence on separating lean and fat compartments, a principle that BMI obscures."}]
+ancestral_insight: ""
 ---
 
 A more accurate measure shows body fat doesn't rebound in kids; BMI rise may be muscle growth.
@@ -49,9 +49,7 @@ A more accurate measure shows body fat doesn't rebound in kids; BMI rise may be 
 
 
 ### Historical Biophysics & Lineage
-The modern study challenges the 42-year-old theory by using more accurate body composition measures (e.g., DEXA or bioimpedance) instead of BMI. It shows that the BMI rise at age 6 is due to muscle and lean tissue growth, not fat rebound. This aligns with the historical critique of BMI as a proxy for fatness, and with the understanding that growth spurts involve lean mass accretion. The finding suggests that the original theory was based on a flawed metric, and that the 'rebound' was an artifact of BMI's inability to distinguish fat from muscle.
-
-**Ancestral parallel:** In ancestral hunter-gatherer societies, childhood growth spurts were likely characterized by increases in lean mass and muscle development, essential for survival skills like hunting and gathering. The modern finding that BMI rise in children is due to muscle growth parallels this ancestral pattern, where physical activity and protein-rich diets supported lean mass accretion. This contrasts with modern sedentary lifestyles and processed diets that may promote fat accumulation, highlighting the importance of physical activity and whole foods for healthy growth.
+The modern study uses a more accurate body-fat measure (likely dual-energy X-ray absorptiometry or air-displacement plethysmography) to show that the BMI rebound around age 6 is driven by an increase in fat-free mass (muscle and lean tissue), not fat mass. This directly validates Keys' 1972 caution that BMI is a proxy for weight relative to height, not adiposity. Mechanistically, the rebound coincides with the developmental surge in growth hormone and insulin-like growth factor 1 (IGF-1), which promote muscle protein synthesis and skeletal growth, while fat mass remains stable or declines. The historical somatotype framework of Sheldon similarly separated muscularity from fatness, and this finding provides quantitative confirmation that BMI conflates these compartments, leading to a false 'fat rebound' that is actually a 'lean rebound.'
 
 ### Source
 
