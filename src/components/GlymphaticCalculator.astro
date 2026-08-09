@@ -78,6 +78,23 @@ const {
         <strong>💡 Recommendation:</strong> Your glymphatic clearance score is <em>Optimal</em>. Side sleeping combined with a 3-hour dinner gap expands brain intercellular space by 60% during deep N3 sleep.
       </div>
 
+      <form class="gly-email-row" id="gly-email-form">
+        <label for="gly-email-input" class="gly-email-label">Get the daily briefs, 6 field guides & every calculator update</label>
+        <div class="gly-email-fields">
+          <input
+            type="email"
+            id="gly-email-input"
+            name="email"
+            placeholder="Enter your email address..."
+            required
+            class="gly-email-input"
+            aria-label="Email address"
+          />
+          <button type="submit" id="gly-email-submit" class="gly-email-submit">Email me this</button>
+        </div>
+        <p class="gly-email-sent" id="gly-email-sent" hidden>We opened Substack in a new tab — confirm there to finish.</p>
+      </form>
+
       <a href={protocolHref} target="_blank" rel="noopener noreferrer" class="glymphatic-fullscript-btn">
         <span>View the {protocolName} protocol</span> ↗
       </a>
@@ -208,6 +225,53 @@ const {
     border-radius: 12px;
     border-left: 3px solid oklch(0.40 0.15 200);
   }
+  .gly-email-row {
+    background: color-mix(in oklch, oklch(0.68 0.15 200) 8%, transparent);
+    padding: 14px 16px;
+    border-radius: 12px;
+  }
+  .gly-email-label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .gly-email-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .gly-email-input {
+    flex: 1 1 12rem;
+    min-width: 0;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: var(--white);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.85rem;
+  }
+  .gly-email-submit {
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 10px;
+    background: oklch(0.35 0.15 200);
+    color: #fff;
+    font: inherit;
+    font-size: 0.83rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .gly-email-submit:hover { background: var(--ink); }
+  .gly-email-submit:disabled { cursor: default; opacity: 0.7; }
+  .gly-email-sent {
+    margin: 8px 0 0;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
   .glymphatic-fullscript-btn {
     display: inline-flex;
     align-items: center;
@@ -288,6 +352,35 @@ const {
     bluelightSelect.addEventListener('change', calculate);
 
     calculate();
+
+    const emailForm = document.getElementById('gly-email-form') as HTMLFormElement | null;
+    const emailInput = document.getElementById('gly-email-input') as HTMLInputElement | null;
+    const emailSubmit = document.getElementById('gly-email-submit') as HTMLButtonElement | null;
+    const emailSent = document.getElementById('gly-email-sent');
+
+    emailForm?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = emailInput?.value.trim();
+      if (!email) return;
+
+      // Same Substack handoff as the rest of the site: the list is owned there,
+      // so this is a lead capture that finishes on their confirmation page.
+      const handoff = "https://agewellbrief.substack.com/subscribe?email=" + encodeURIComponent(email);
+      window.open(handoff, "_blank", "noopener");
+
+      try {
+        localStorage.setItem("agewell:guide-email-given", "1");
+      } catch {
+        /* blocked storage: the field guide gate defaults to open */
+      }
+
+      if (emailSubmit) {
+        emailSubmit.disabled = true;
+        emailSubmit.textContent = "Opened in a new tab →";
+      }
+      if (emailForm) emailForm.style.display = "none";
+      if (emailSent) emailSent.hidden = false;
+    });
   }
 
   document.addEventListener('DOMContentLoaded', initGlymphaticCalculator);

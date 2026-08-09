@@ -76,6 +76,23 @@ const {
         <strong>💡 Recommendation:</strong> Your EZ formation potential is in the <em>Optimal Range</em>. To boost cellular charge, pair morning infrared sunlight with ionic trace minerals.
       </div>
 
+      <form class="ez-email-row" id="ez-email-form">
+        <label for="ez-email-input" class="ez-email-label">Get the daily briefs, 6 field guides & every calculator update</label>
+        <div class="ez-email-fields">
+          <input
+            type="email"
+            id="ez-email-input"
+            name="email"
+            placeholder="Enter your email address..."
+            required
+            class="ez-email-input"
+            aria-label="Email address"
+          />
+          <button type="submit" id="ez-email-submit" class="ez-email-submit">Email my breakdown</button>
+        </div>
+        <p class="ez-email-sent" id="ez-email-sent" hidden>We opened Substack in a new tab — confirm there to finish.</p>
+      </form>
+
       <a href={protocolHref} target="_blank" rel="noopener noreferrer" class="ez-fullscript-btn">
         <span>View the {protocolName} protocol</span> ↗
       </a>
@@ -220,6 +237,53 @@ const {
     border-radius: 12px;
     border-left: 3px solid var(--saffron);
   }
+  .ez-email-row {
+    background: color-mix(in oklch, var(--saffron) 6%, transparent);
+    padding: 14px 16px;
+    border-radius: 12px;
+  }
+  .ez-email-label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .ez-email-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .ez-email-input {
+    flex: 1 1 12rem;
+    min-width: 0;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: var(--white);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.85rem;
+  }
+  .ez-email-submit {
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 10px;
+    background: var(--saffron-ink);
+    color: #fff;
+    font: inherit;
+    font-size: 0.83rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .ez-email-submit:hover { background: var(--ink); }
+  .ez-email-submit:disabled { cursor: default; opacity: 0.7; }
+  .ez-email-sent {
+    margin: 8px 0 0;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
   .ez-fullscript-btn {
     display: inline-flex;
     align-items: center;
@@ -303,6 +367,35 @@ const {
     electrolyteSelect.addEventListener('change', calculate);
 
     calculate();
+
+    const emailForm = document.getElementById('ez-email-form') as HTMLFormElement | null;
+    const emailInput = document.getElementById('ez-email-input') as HTMLInputElement | null;
+    const emailSubmit = document.getElementById('ez-email-submit') as HTMLButtonElement | null;
+    const emailSent = document.getElementById('ez-email-sent');
+
+    emailForm?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = emailInput?.value.trim();
+      if (!email) return;
+
+      // Same Substack handoff as the rest of the site: the list is owned there,
+      // so this is a lead capture that finishes on their confirmation page.
+      const handoff = "https://agewellbrief.substack.com/subscribe?email=" + encodeURIComponent(email);
+      window.open(handoff, "_blank", "noopener");
+
+      try {
+        localStorage.setItem("agewell:guide-email-given", "1");
+      } catch {
+        /* blocked storage: the field guide gate defaults to open */
+      }
+
+      if (emailSubmit) {
+        emailSubmit.disabled = true;
+        emailSubmit.textContent = "Opened in a new tab →";
+      }
+      if (emailForm) emailForm.style.display = "none";
+      if (emailSent) emailSent.hidden = false;
+    });
   }
 
   document.addEventListener('DOMContentLoaded', initEZCalculator);
