@@ -1,4 +1,6 @@
 ---
+import FieldGuideGate from "../components/FieldGuideGate.astro";
+
 interface Props {
   title?: string;
   description?: string;
@@ -115,6 +117,7 @@ const structuredDataJSON = structuredData
       </nav>
     </header>
     <main><slot /></main>
+    <FieldGuideGate />
     <footer class="site-footer">
       <div class="footer-signature"><span>AGEWELL BRIEF</span><span>Clear signals. Better questions.</span></div>
       <nav class="footer-links" aria-label="Publication information">

@@ -370,6 +370,15 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
             "Your browser blocked the new tab. Finish subscribing here — it takes one click:";
         }
 
+        // This reader has just given an email, and the success box hands them all
+        // six guides. Record it before revealing the box, or the field-guide gate
+        // will stop them on the very links they were just promised.
+        try {
+          localStorage.setItem("agewell:guide-email-given", "1");
+        } catch {
+          /* blocked storage: the gate defaults to open, so the links still work */
+        }
+
         submitBtn.disabled = true;
         submitBtn.textContent = opened ? "Opened in a new tab →" : "Finish on Substack →";
         form.style.display = "none";

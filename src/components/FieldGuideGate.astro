@@ -1,0 +1,270 @@
+---
+/* Email capture in front of the field guides.
+ *
+ * The guides were the reward offered for subscribing while also sitting on every
+ * brief page as a direct download, three links deep — so the subscribe box asked
+ * for an email in exchange for something the reader could already take. This
+ * puts the ask in front of the file.
+ *
+ * It is a soft gate by construction: the site is static, so the PDF URL stays
+ * publicly fetchable and anyone reading the markup can skip this. Enforcing it
+ * would need signed URLs from a Worker. The copy therefore never claims the file
+ * is locked.
+ */
+---
+
+<div id="guide-gate" class="guide-gate" hidden>
+  <div class="guide-gate-backdrop" data-gate-dismiss></div>
+  <div
+    class="guide-gate-panel"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="guide-gate-title"
+  >
+    <button type="button" class="guide-gate-close" data-gate-dismiss aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+    <p class="guide-gate-kicker">Spiral of Cellular Light · Field guide</p>
+    <h2 id="guide-gate-title">Get the <span id="guide-gate-name">field guide</span></h2>
+    <p class="guide-gate-lead">
+      Enter your email and the PDF downloads straight away. You'll also get the
+      Agewell Brief — three source-led signals a day, and the other five guides.
+    </p>
+    <form id="guide-gate-form" novalidate>
+      <label class="guide-gate-label" for="guide-gate-email">Email address</label>
+      <div class="guide-gate-row">
+        <input
+          id="guide-gate-email"
+          name="email"
+          type="email"
+          required
+          autocomplete="email"
+          placeholder="you@example.com"
+          class="guide-gate-input"
+        />
+        <button type="submit" class="guide-gate-submit">Send the guide</button>
+      </div>
+      <p class="guide-gate-error" id="guide-gate-error" hidden>
+        That doesn't look like an email address.
+      </p>
+    </form>
+    <p class="guide-gate-fine">
+      Subscribing finishes on Substack, which owns the list. Unsubscribe anytime.
+    </p>
+  </div>
+</div>
+
+<style>
+  .guide-gate {
+    position: fixed;
+    inset: 0;
+    /* The sticky reader bar sits at 99. */
+    z-index: 400;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+  }
+  .guide-gate[hidden] { display: none; }
+  .guide-gate-backdrop {
+    position: absolute;
+    inset: 0;
+    background: color-mix(in oklch, var(--ink) 55%, transparent);
+    backdrop-filter: blur(2px);
+  }
+  .guide-gate-panel {
+    position: relative;
+    width: min(30rem, 100%);
+    max-height: 90vh;
+    overflow-y: auto;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--saffron);
+    box-shadow: var(--shadow-lg);
+    padding: 30px 32px 26px;
+  }
+  .guide-gate-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--muted);
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .guide-gate-close:hover { background: var(--mist); color: var(--ink); }
+  .guide-gate-kicker {
+    margin: 0 0 8px;
+    color: var(--saffron-ink);
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+  }
+  .guide-gate-panel h2 {
+    margin: 0 0 10px;
+    font-family: var(--serif);
+    font-size: 1.75rem;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  .guide-gate-lead { margin: 0 0 18px; color: var(--ink-soft); font-size: .95rem; line-height: 1.5; }
+  .guide-gate-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .guide-gate-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .guide-gate-input {
+    flex: 1 1 12rem;
+    min-width: 0;
+    padding: 11px 13px;
+    border: 1px solid var(--line);
+    background: var(--white);
+    color: var(--ink);
+    font: inherit;
+    font-size: .95rem;
+  }
+  .guide-gate-input:focus-visible { outline: 2px solid var(--saffron); outline-offset: 1px; }
+  .guide-gate-submit {
+    flex: 0 0 auto;
+    padding: 11px 18px;
+    border: 0;
+    background: var(--saffron-ink);
+    color: #fff;
+    font: inherit;
+    font-size: .9rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .guide-gate-submit:hover { background: var(--ink); }
+  .guide-gate-error { margin: 8px 0 0; color: var(--saffron-ink); font-size: .82rem; }
+  .guide-gate-fine { margin: 16px 0 0; color: var(--muted); font-size: .74rem; line-height: 1.45; }
+  @media (max-width: 700px) {
+    .guide-gate-panel { padding: 26px 20px 20px; }
+    .guide-gate-submit { flex: 1 1 100%; }
+  }
+</style>
+
+<script>
+  const GUIDE_PATH = "/downloads/field-guides/";
+  const UNLOCK_KEY = "agewell:guide-email-given";
+
+  const gate = document.getElementById("guide-gate");
+  const form = document.getElementById("guide-gate-form") as HTMLFormElement | null;
+  const input = document.getElementById("guide-gate-email") as HTMLInputElement | null;
+  const nameEl = document.getElementById("guide-gate-name");
+  const errorEl = document.getElementById("guide-gate-error");
+
+  const hasEmail = () => {
+    try {
+      return localStorage.getItem(UNLOCK_KEY) === "1";
+    } catch {
+      // Blocked storage: never trap the reader behind a gate we cannot remember.
+      return true;
+    }
+  };
+  const rememberEmail = () => {
+    try {
+      localStorage.setItem(UNLOCK_KEY, "1");
+    } catch {
+      /* the download still proceeds for this page view */
+    }
+  };
+
+  let pendingHref: string | null = null;
+  let lastFocused: HTMLElement | null = null;
+
+  function startDownload(href: string) {
+    const a = document.createElement("a");
+    a.href = href;
+    a.setAttribute("download", "");
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  }
+
+  function closeGate() {
+    if (!gate) return;
+    gate.hidden = true;
+    pendingHref = null;
+    lastFocused?.focus();
+  }
+
+  function openGate(href: string, label: string, trigger: HTMLElement) {
+    if (!gate || !input) return;
+    pendingHref = href;
+    lastFocused = trigger;
+    if (nameEl) nameEl.textContent = label;
+    if (errorEl) errorEl.hidden = true;
+    gate.hidden = false;
+    input.value = "";
+    input.focus();
+  }
+
+  function guideLabel(link: HTMLAnchorElement): string {
+    const file = (link.getAttribute("href") || "").split("/").pop() || "";
+    const stem = file.replace(/-field-guide\.pdf$/i, "").replace(/-/g, " ");
+    return stem ? `${stem.replace(/\b\w/g, (c) => c.toUpperCase())} field guide` : "field guide";
+  }
+
+  document.addEventListener("click", (event) => {
+    const link = (event.target as HTMLElement | null)?.closest("a");
+    if (!link) return;
+    const href = link.getAttribute("href") || "";
+    if (!href.includes(GUIDE_PATH)) return;
+    // The subscribe success panel hands over all six guides to somebody who
+    // subscribed seconds ago. Asking them again would be absurd.
+    if (link.closest("#subscribe-success-box")) return;
+    if (hasEmail()) return;
+
+    event.preventDefault();
+    openGate(href, guideLabel(link as HTMLAnchorElement), link as HTMLElement);
+  });
+
+  form?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const email = (input?.value || "").trim();
+    // Deliberately loose: this is a lead capture, not an auth system, and a
+    // rejected address the reader believes is fine costs more than a bad one.
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+      if (errorEl) errorEl.hidden = false;
+      input?.focus();
+      return;
+    }
+
+    const href = pendingHref;
+    rememberEmail();
+
+    // Download first: it is the promise made, and it needs no popup permission.
+    if (href) startDownload(href);
+
+    // Then hand off to Substack, which owns the list. If the tab is blocked the
+    // reader still has the guide, and the subscribe box on the home page remains
+    // the route to finish.
+    const handoff =
+      "https://agewellbrief.substack.com/subscribe?email=" + encodeURIComponent(email);
+    window.open(handoff, "_blank", "noopener");
+
+    closeGate();
+  });
+
+  gate?.addEventListener("click", (event) => {
+    if ((event.target as HTMLElement | null)?.hasAttribute("data-gate-dismiss")) closeGate();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && gate && !gate.hidden) closeGate();
+  });
+</script>
