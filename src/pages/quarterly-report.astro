@@ -1,0 +1,136 @@
+---
+import InfoPage from "../layouts/InfoPage.astro";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: "Agewell Brief Quarterly Report",
+  description: "A synthesis of what held up, what didn't, and what we changed our mind about across a quarter of daily briefs.",
+  offers: {
+    "@type": "Offer",
+    price: "59",
+    priceCurrency: "USD",
+    availability: "https://schema.org/PreOrder"
+  }
+};
+---
+<InfoPage
+  title="The Quarterly Report"
+  eyebrow="Not yet published — email waitlist open"
+  lede="What actually held up across a quarter of daily briefs — what contradicted what, what we changed our mind about, and what's worth carrying forward. $59, one time, no subscription."
+>
+  <h2>What it is</h2>
+  <p>Every daily brief stands on its own: one deep read, two signals, original sources. A quarter of them accumulates something a single brief can't show — which findings kept replicating, which got quietly walked back by later research, and which two "established" claims turned out to disagree with each other. The Quarterly Report is that synthesis: written once every three months, sold once, no subscription required.</p>
+
+  <h2>What's in it</h2>
+  <ul>
+    <li>What held up: findings from the quarter that were independently corroborated by later coverage.</li>
+    <li>What didn't: claims we ran that newer evidence complicated or reversed, named directly.</li>
+    <li>Where evidence positions moved — emerging → established, or established → contested — and why.</li>
+    <li>Full-text search across every brief published that quarter.</li>
+  </ul>
+
+  <h2>Who it's for</h2>
+  <p>Readers who don't want a daily habit but want the signal every few months. Also useful to practitioners and researchers who want the synthesis without following daily coverage.</p>
+
+  <h2>Price</h2>
+  <p>$59 per report, one time. No subscription, no auto-renewal. Each report stands alone.</p>
+
+  <h2>Not published yet</h2>
+  <p>This page describes a report we haven't written. We'd rather say so plainly than sell something that doesn't exist. There's no separate waitlist yet — the button below joins the same free daily briefs, and we'll announce the first Quarterly Report there the moment it's ready to buy.</p>
+
+  <div class="qr-waitlist">
+    <form id="qr-waitlist-form" class="qr-waitlist-form">
+      <input
+        type="email"
+        id="qr-waitlist-email"
+        name="email"
+        placeholder="Enter your email address..."
+        required
+        class="qr-waitlist-input"
+        aria-label="Email address"
+      />
+      <button type="submit" id="qr-waitlist-submit" class="qr-waitlist-submit">Join the free briefs</button>
+    </form>
+    <p class="qr-waitlist-sent" id="qr-waitlist-sent" hidden>We opened Substack in a new tab — confirm there, and we'll announce the report to the list when it ships.</p>
+  </div>
+</InfoPage>
+
+<script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+<style>
+  .qr-waitlist {
+    margin: 32px 0 0;
+    padding: 20px 22px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+  }
+  .qr-waitlist-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .qr-waitlist-input {
+    flex: 1 1 14rem;
+    min-width: 0;
+    padding: 11px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: var(--white);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.9rem;
+  }
+  .qr-waitlist-submit {
+    flex: 0 0 auto;
+    padding: 11px 18px;
+    border: 0;
+    border-radius: 10px;
+    background: var(--saffron-ink);
+    color: #fff;
+    font: inherit;
+    font-size: 0.87rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .qr-waitlist-submit:hover { background: var(--ink); }
+  .qr-waitlist-submit:disabled { cursor: default; opacity: 0.7; }
+  .qr-waitlist-sent {
+    margin: 10px 0 0;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+</style>
+
+<script>
+  const form = document.getElementById("qr-waitlist-form") as HTMLFormElement | null;
+  const emailInput = document.getElementById("qr-waitlist-email") as HTMLInputElement | null;
+  const submitBtn = document.getElementById("qr-waitlist-submit") as HTMLButtonElement | null;
+  const sentMsg = document.getElementById("qr-waitlist-sent");
+
+  form?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const email = emailInput?.value.trim();
+    if (!email) return;
+
+    // There's no separate waitlist system, and the copy above says so: this
+    // is the same Substack handoff as the rest of the site, and the report
+    // will be announced to that list, not sent to a segmented one.
+    const handoff = "https://agewellbrief.substack.com/subscribe?email=" + encodeURIComponent(email);
+    window.open(handoff, "_blank", "noopener");
+
+    try {
+      localStorage.setItem("agewell:guide-email-given", "1");
+    } catch {
+      /* blocked storage: the field guide gate defaults to open */
+    }
+
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Opened in a new tab →";
+    }
+    if (form) form.style.display = "none";
+    if (sentMsg) sentMsg.hidden = false;
+  });
+</script>
