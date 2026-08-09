@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@jahratreza"
 image_source_url: "https://www.pexels.com/photo/close-up-of-microscope-slide-examination-36417809/"
 image_review_status: "pending"
 image_avg_color: "#323E3E"
-topics: ['brain health', 'consumer safety', 'longevity', 'mobility', 'sleep health']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['brain health', 'consumer safety', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Paul Ehrlich", "year": "1885", "discovery": "Ehrlich's side-chain theory and his work on the blood-brain barrier (demonstrating that certain dyes injected into the bloodstream stain all organs except the brain) established the concept of selective cellular uptake and barrier function. This directly anticipates the modern use of patient-derived organoids to test individual drug responses, as Ehrlich's principle of 'corpora non agunt nisi fixata' (agents act only when bound) underpins the idea that drug efficacy depends on specific molecular interactions within a patient's unique cellular context."}, {"scientist": "Gordon M. Shepherd", "year": "1970s", "discovery": "Shepherd pioneered the systematic study of neuronal circuits and synaptic organization in the olfactory bulb, developing the concept of 'neural microcircuits' and emphasizing that brain function arises from the precise wiring of individual neurons. His work laid the foundation for understanding how cellular-level variations in receptor expression and synaptic connectivity can lead to differential drug responses, a principle now applied in organoid-based personalized medicine where patient-specific neural networks are modeled in vitro."}]
 ancestral_insight: ""
 ---

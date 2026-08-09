@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@adrienn-638530"
 image_source_url: "https://www.pexels.com/photo/selective-focus-photo-of-woman-sitting-on-chair-looking-outside-window-on-plane-1458302/"
 image_review_status: "pending"
 image_avg_color: "#987F7E"
-topics: ['gut health', 'sleep health']
-frameworks: ['Inner Garden', 'Luminous Mind']
+topics: ['brain health', 'gut health', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Inner Garden', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "John F. Cryan and Ted Dinan", "year": "2010s", "discovery": "Coined the term 'psychobiotics' and demonstrated that gut microbiota communicate bidirectionally with the brain via the vagus nerve, immune signaling, and microbial metabolites, establishing the gut-brain axis as a key mediator of stress, mood, and circadian-related physiology."}, {"scientist": "Michael Rosbash, Jeffrey C. Hall, and Michael W. Young", "year": "2017", "discovery": "Awarded the Nobel Prize for their discovery of the molecular mechanisms controlling the circadian clock, including the role of clock genes (e.g., Per, Tim) in peripheral tissues such as the gut, which are entrained by feeding and light, providing the framework for understanding how jet lag disrupts gut microbial rhythms."}]
 ancestral_insight: "Traditional hunter-gatherer and agrarian lifestyles were tightly coupled to natural light-dark cycles and seasonal food availability, which likely maintained stable gut microbial rhythms. Practices such as time-restricted eating (eating only during daylight hours) and consuming fermented foods rich in probiotics and prebiotics (e.g., kimchi, kefir, and cultured vegetables) would have supported microbial resilience against circadian disruptions. The physical mechanism is that these practices reinforce the host's circadian clock and provide substrates for beneficial bacteria that produce short-chain fatty acids, which help regulate intestinal barrier integrity and immune function, thereby mitigating the effects of travel-induced jet lag on the gut."
 ---

@@ -15,8 +15,8 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
-topics: ['brain health', 'sleep health']
-frameworks: ['Luminous Mind']
+topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Franz Halberg", "year": "1959", "discovery": "Coined the term 'circadian' and established the field of chronobiology, demonstrating that physiological rhythms are endogenous and entrained to environmental light-dark cycles. His foundational work on the suprachiasmatic nucleus and circadian disruption laid the groundwork for linking rhythm disturbances to disease, including the modern finding that circadian misalignment elevates dementia risk."}, {"scientist": "Clifford Saper", "year": "2005", "discovery": "Identified the suprachiasmatic nucleus (SCN) as the master circadian clock and showed that its degeneration in aging and Alzheimer's disease correlates with sleep-wake fragmentation. This directly anticipates the modern report's association between circadian disruption and dementia, providing a neural basis for how clock dysfunction may drive neurodegeneration."}]
 ancestral_insight: "Ancestral humans lived in strict synchrony with solar light-dark cycles, with no artificial light after dusk. This ensured robust circadian entrainment, optimal sleep, and efficient glymphatic clearance of metabolic waste. Modern artificial lighting and irregular schedules disrupt this ancient rhythm, increasing dementia risk. Traditional practices like morning sunlight exposure and consistent sleep schedules mirror ancestral patterns and support circadian stability, offering a protective lifestyle parallel."
 ---

@@ -21,8 +21,8 @@ image_photographer_url: "https://www.pexels.com/@shvetsa/"
 image_source_url: "https://www.pexels.com/photo/a-doctor-holding-an-mri-result-of-the-brain-4226219/"
 image_review_status: "human-reviewed"
 image_avg_color: "#8C95A0"
-topics: ['brain health', 'longevity']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['brain health', 'longevity', 'metabolic health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Helen F. Cserr", "year": "1970s", "discovery": "Cserr's pioneering work on cerebrospinal fluid (CSF) physiology demonstrated that the choroid plexus actively regulates the brain's interstitial fluid composition and that its function is central to brain homeostasis. Her studies on blood-CSF barrier permeability and bulk flow of CSF laid the foundation for understanding how choroid plexus dysfunction could contribute to neurodegeneration, directly anticipating the modern finding that choroid plexus MRI measures track dementia risk."}, {"scientist": "Milos Juda\u0161 and Ivica Kostovi\u0107", "year": "1980s", "discovery": "Their neuroanatomical studies on the developing human brain highlighted the choroid plexus as a dynamic structure with regional heterogeneity and age-related changes. They showed that choroid plexus morphology and signal intensity on imaging reflect underlying cellular and vascular alterations, providing a basis for interpreting MRI-based choroid plexus measures as biomarkers of brain aging and disease."}]
 ancestral_insight: ""
 ---

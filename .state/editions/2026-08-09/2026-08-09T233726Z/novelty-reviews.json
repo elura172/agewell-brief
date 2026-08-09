@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "de12de7b94526d78e587b5af": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies specific T-cell co-stimulatory/inhibitory states (ICOS, PD-1) that differentially link amyloid pathology to neurodegeneration and resilience, offering a new immune-based framework for AD heterogeneity.",
+      "angle": "Why some seniors' immune systems fight Alzheimer's: two T-cell checkpoints that predict resilience",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic",
+      "reason": "Generic list of balance exercises for seniors; no new finding or unique angle.",
+      "angle": "13 balance exercises that target the specific muscles you lose fastest after 60",
+      "mode": "agent"
+    },
+    "874167e02202e764f6697a57": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "technology",
+      "reason": "Introduces a novel computational framework (MDSI-AVI) that efficiently models whole-brain directed connectivity, revealing the dorsal anterior insula as a key hub in working memory.",
+      "angle": "AI maps the brain's 'traffic controller' for working memory in real time",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "First in-situ glial cell-surface proteomics in intact fly brains identifies DIP-β as a pro-longevity factor, with functional validation showing lifespan extension and improved cell communication.",
+      "angle": "A protein on brain support cells extends lifespan in flies—and it declines with age",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Links a specific post-translational modification (succinylation of HNRNPC) to mitochondrial dysfunction in Alzheimer's, revealing a novel molecular pathway.",
+      "angle": "How a chemical tweak to a common protein starves Alzheimer's neurons",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic",
+      "reason": "Another senior workout routine; no new data or unique insight.",
+      "angle": "A trainer's 10-minute daily routine that targets the #1 cause of falls",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Narrative review of taVNS for disorders of consciousness; preliminary and inconclusive, but covers a frontier neuromodulation approach.",
+      "angle": "Can a nerve in your ear wake the brain? The promise and limits of taVNS",
+      "mode": "agent"
+    },
+    "8ceb4683a1d2939678198258": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "technology",
+      "reason": "Technical fault diagnosis framework for hybrid power systems; niche engineering topic with limited reader appeal.",
+      "angle": "How AI keeps island microgrids alive when equipment fails",
+      "mode": "agent"
+    },
+    "c882a14afc3ffe66ff502479": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Reveals LRRK2's role in synaptic function via actin remodeling, linking Parkinson's genetics to early synaptic dysfunction before neuronal loss.",
+      "angle": "Parkinson's may start at the synapse: how a key gene disrupts brain connections",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "de12de7b94526d78e587b5af",
+    "874167e02202e764f6697a57",
+    "c376819f2d54a4df1d317aee",
+    "44d85c20f70b28aea7edb7f1",
+    "c882a14afc3ffe66ff502479"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "256b3e11dfff849235aebba7",
+    "a69b88ecd3c8d0a8a837a768",
+    "8ceb4683a1d2939678198258"
+  ],
+  "mode": "agent"
+}

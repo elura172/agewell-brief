@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@shvetsa"
 image_source_url: "https://www.pexels.com/photo/close-up-shot-of-mri-results-4226264/"
 image_review_status: "pending"
 image_avg_color: "#868E93"
-topics: ['brain health', 'metabolic health', 'mobility']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'cellular senescence', 'metabolic health', 'mobility']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Alois Alzheimer", "year": "1906", "discovery": "First described the neuropathological hallmarks of Alzheimer's disease (amyloid plaques and neurofibrillary tangles) in a patient with progressive dementia, establishing the disease as a distinct entity and laying the foundation for all subsequent research into its molecular mechanisms, including the role of metabolic factors."}, {"scientist": "George A. Bray", "year": "1970s", "discovery": "Pioneered research on the role of adipose tissue as an endocrine organ, demonstrating that fat cells secrete hormones and inflammatory cytokines that can cross the blood-brain barrier and influence brain function, directly anticipating the modern finding that obesity-related fats reach the brain and disrupt immune defenses."}]
 ancestral_insight: "Traditional hunter-gatherer and agrarian societies typically maintained low chronic inflammation and metabolic flexibility through periodic fasting, high physical activity, and diets low in refined sugars and excess saturated fats. These lifestyles prevented the chronic elevation of pro-inflammatory lipids that, as shown in the preprint, can cross the blood-brain barrier and impair microglial function. Intermittent fasting and exercise, common in ancestral patterns, enhance autophagy and lipid oxidation, reducing circulating ceramides and supporting microglial amyloid clearance—mechanisms that directly counter the obesity-driven pathway identified in the study."
 ---

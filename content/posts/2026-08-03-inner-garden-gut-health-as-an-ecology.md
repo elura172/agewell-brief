@@ -15,8 +15,8 @@ image_photographer: "Kat Smith / Pexels"
 image_photographer_url: "https://www.pexels.com/@katsmith"
 image_provider: "Pexels"
 image_avg_color: "#1a3a2a"
-topics: ['brain health', 'gut health', 'mobility', 'sleep health']
-frameworks: ['Inner Garden', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'gut health', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Theodor Escherich", "year": "1885", "discovery": "Discovered Bacterium coli commune (now Escherichia coli) in infant feces, establishing that the gut harbors a resident microbial community whose composition shifts with diet and health\u2014the foundational observation that the gut is an ecosystem, not a sterile organ."}, {"scientist": "Ren\u00e9 Dubos", "year": "1960s", "discovery": "Championed the concept of the 'microbial ecology of the gut' and showed that the indigenous microbiota is shaped by the host's environment and history, and that disrupting this ecology (e.g., by antibiotics) has long-term consequences\u2014directly anticipating the modern view that gut health depends on ecological balance rather than single interventions."}]
 ancestral_insight: ""
 ---

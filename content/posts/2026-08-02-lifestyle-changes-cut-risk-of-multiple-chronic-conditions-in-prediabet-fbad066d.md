@@ -12,8 +12,8 @@ image_photographer: "Karolina Grabowska / Pexels"
 image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
 image_provider: "Pexels"
 image_avg_color: "#3a1a1a"
-topics: ['metabolic health']
-frameworks: ['Higher Flame']
+topics: ['metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Jean Vague", "year": "1947", "discovery": "Vague identified android (upper-body) obesity as a major risk factor for diabetes, atherosclerosis, and gout, coining the concept of 'diabesity' and linking fat distribution to metabolic disease\u2014directly anticipating the multimorbidity outcomes tracked in the DPP."}, {"scientist": "Gerald Reaven", "year": "1988", "discovery": "Reaven's Banting Lecture introduced 'Syndrome X' (now metabolic syndrome), showing that insulin resistance underlies a cluster of conditions including type 2 diabetes, hypertension, and dyslipidemia\u2014providing the mechanistic framework for why lifestyle intervention in prediabetes reduces multiple chronic conditions simultaneously."}]
 ancestral_insight: "Traditional hunter-gatherer and agrarian lifestyles inherently incorporated intermittent physical activity and periodic caloric scarcity, which maintained insulin sensitivity and low visceral fat stores. The DPP's lifestyle arm mimics these ancestral patterns—regular movement and modest energy restriction—whereas modern sedentary, energy-dense diets promote chronic hyperinsulinemia and ectopic fat accumulation. This evolutionary mismatch explains why lifestyle intervention, not metformin, restores the metabolic flexibility that ancestral humans possessed, thereby preventing the cluster of chronic diseases that arise from insulin resistance."
 ---

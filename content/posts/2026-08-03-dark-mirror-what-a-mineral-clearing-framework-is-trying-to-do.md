@@ -15,8 +15,8 @@ image_photographer: "Cottonbro Studio / Pexels"
 image_photographer_url: "https://www.pexels.com/@cottonbro"
 image_provider: "Pexels"
 image_avg_color: "#2a1a3a"
-topics: ['brain health', 'detoxification', 'mobility']
-frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'consumer safety', 'detoxification', 'gut health', 'mobility']
+frameworks: ['Dark Mirror', 'Inner Garden', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Albert Schatz", "year": "1954", "discovery": "Schatz and colleagues demonstrated that the soil bacterium Streptomyces pilosus produces a siderophore, desferrioxamine B, which binds ferric iron with extraordinary affinity. This discovery laid the mechanistic foundation for using microbial iron-chelating molecules to mobilize and clear metals from biological systems, directly informing modern mineral-clearing frameworks that employ binding agents to sequester and transport metals out of tissues."}, {"scientist": "Jack Schubert", "year": "1955", "discovery": "Schubert, a radiochemist at Argonne National Laboratory, systematically studied the use of chelating agents (e.g., EDTA, DTPA) to enhance the excretion of radioactive and heavy metals from the body. His work established the quantitative principles of chelation therapy\u2014how ligand-metal stability constants and biodistribution kinetics determine efficacy\u2014and highlighted the risks of redistributing metals to organs like the brain and bone, a caution that remains central to any modern mineral-clearing protocol."}]
 ancestral_insight: ""
 ---

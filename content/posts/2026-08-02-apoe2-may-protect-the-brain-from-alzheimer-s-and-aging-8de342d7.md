@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@thirdman"
 image_source_url: "https://www.pexels.com/photo/a-person-in-white-lab-gown-looking-through-microscope-8940359/"
 image_review_status: "pending"
 image_avg_color: "#B9BEC4"
-topics: ['brain health', 'longevity']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['brain health', 'longevity', 'metabolic health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Tomas Lindahl", "year": "1974", "discovery": "Discovered base excision repair (BER), the pathway that removes oxidative DNA damage (e.g., 8-oxoguanine) from neurons. This is directly relevant because APOE2 neurons show less DNA damage and better repair, likely through enhanced BER efficiency, linking APOE genotype to the fundamental repair mechanism Lindahl identified."}, {"scientist": "Mark Mattson", "year": "1990s", "discovery": "Showed that APOE isoforms differentially affect neuronal vulnerability to oxidative stress and DNA damage, with APOE4 increasing susceptibility and APOE2 conferring protection. This work directly anticipated the finding that APOE2 neurons exhibit less DNA damage and better repair, providing the cellular context for APOE's role in Alzheimer's and aging."}]
 ancestral_insight: "The APOE2 variant is the ancestral form of the APOE gene, predating the APOE3 and APOE4 mutations that arose in modern humans. Ancestral human populations, living as hunter-gatherers with high physical activity and intermittent fasting, likely experienced lower chronic oxidative stress, reducing the need for robust DNA repair. APOE2's superior DNA repair capacity may have been advantageous in environments with high UV exposure or dietary toxins, but in modern sedentary, high-calorie diets, APOE4 carriers face increased oxidative stress, making APOE2's protective repair mechanisms particularly beneficial. This parallels traditional lifestyles that emphasize plant-based diets rich in antioxidants and regular physical activity, which reduce DNA damage and support the repair pathways that APOE2 enhances."
 ---

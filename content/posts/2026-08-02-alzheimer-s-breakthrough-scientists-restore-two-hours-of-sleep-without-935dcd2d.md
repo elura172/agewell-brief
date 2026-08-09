@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@tima-miroshnichenko"
 image_source_url: "https://www.pexels.com/photo/a-woman-in-white-lab-gown-looking-at-the-monitor-9574516/"
 image_review_status: "human-reviewed"
 image_avg_color: "#B0B7C1"
-topics: ['brain health', 'consumer safety', 'detoxification', 'longevity', 'mobility', 'sleep health']
-frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "P\u00edo del R\u00edo Hortega", "year": "1919", "discovery": "Identified and named microglia as a distinct cell type in the central nervous system, using a silver carbonate staining method. He described their role as 'third element' of the nervous system, capable of phagocytosis and responding to injury, laying the foundation for understanding their immune functions in brain pathology."}, {"scientist": "Carol Colton", "year": "1980s", "discovery": "Demonstrated that microglia produce reactive oxygen species and nitric oxide upon activation, establishing their role as immune effector cells in the brain. This work linked microglial activation to neuroinflammation, providing a mechanistic basis for how microglial responses to amyloid plaques could disrupt neuronal function and sleep."}]
 ancestral_insight: "Traditional practices such as periodic fasting or anti-inflammatory diets (e.g., Mediterranean diet) may modulate microglial activation through metabolic and immune pathways. For instance, ketone bodies produced during fasting can reduce microglial inflammation, potentially preserving sleep quality. This parallels the finding that dampening microglial activity—whether by depletion or dietary intervention—could mitigate sleep disturbances, suggesting that ancestral lifestyle patterns that limit chronic inflammation might protect against age-related sleep decline."
 ---

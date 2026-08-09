@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@kampus"
 image_source_url: "https://www.pexels.com/photo/a-person-slicing-peppers-8629042/"
 image_review_status: "pending"
 image_avg_color: "#7C7C72"
-topics: ['longevity', 'metabolic health', 'sleep health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['cellular senescence', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Linda Partridge", "year": "2005", "discovery": "Demonstrated that dietary protein restriction, specifically reduced amino acid intake, extends lifespan in Drosophila melanogaster independently of caloric restriction, identifying the insulin/IGF-1 signaling (IIS) and TOR pathways as key mediators. This work directly anticipated the modern review's conclusion that protein restriction slows aging by reshaping metabolism."}, {"scientist": "Roy Walford", "year": "1986", "discovery": "Proposed the 'rate of living' theory and conducted pioneering studies on caloric restriction in rodents, showing that reduced food intake (including protein) extends maximum lifespan and delays age-related diseases. His work laid the empirical foundation for later protein-specific restriction studies, linking nutrient intake to cellular damage and metabolic rate."}]
 ancestral_insight: "Traditional hunter-gatherer diets, such as those of the Hadza or !Kung, were often protein-scarce relative to modern diets, with protein intake fluctuating seasonally and typically lower than current Western levels. This intermittent protein scarcity likely activated the same nutrient-sensing pathways (mTOR inhibition, autophagy) that the review links to slower aging. Additionally, many traditional cultures practice periodic fasting or consume plant-based proteins with lower leucine content, which mimics protein restriction and may have provided ancestral protection against age-related metabolic decline."
 ---

@@ -21,8 +21,8 @@ image_photographer_url: "https://www.pexels.com/@laura-garcia-1597504841/"
 image_source_url: "https://www.pexels.com/photo/elderly-man-speaking-with-microphone-at-event-31589574/"
 image_review_status: "human-reviewed"
 image_avg_color: "#4D4C4C"
-topics: ['brain health', 'sleep health']
-frameworks: ['Luminous Mind']
+topics: ['brain health', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Wilder Penfield", "year": "1930s-1950s", "discovery": "During awake brain surgery, Penfield mapped cortical areas by electrically stimulating the brain, producing speech arrest and vocalizations, and identifying the motor cortex's somatotopic organization for speech articulation. This established the cellular-to-regional mapping of language production that the current single-neuron recordings refine."}, {"scientist": "Jerome Lettvin, Humberto Maturana, Warren McCulloch, Walter Pitts", "year": "1959", "discovery": "In 'What the Frog's Eye Tells the Frog's Brain', they showed that individual neurons in the frog retina respond to specific stimulus features (e.g., moving edges, dark spots), demonstrating that single cells can encode abstract, behaviorally relevant categories. This principle of sparse, feature-selective neural coding underpins the current finding that single neurons track grammatical roles and sentence context during language production."}]
 ancestral_insight: ""
 ---

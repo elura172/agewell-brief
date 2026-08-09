@@ -21,8 +21,8 @@ image_photographer_url: "https://www.pexels.com/@zandatsu"
 image_source_url: "https://www.pexels.com/photo/female-scientist-in-modern-laboratory-setting-32213422/"
 image_review_status: "pending"
 image_avg_color: "#7A8B93"
-topics: ['metabolic health', 'mobility']
-frameworks: ['Higher Flame', 'Living Waters']
+topics: ['metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Jeremy N. Morris", "year": "1953", "discovery": "Morris's landmark study of London bus conductors versus drivers showed that conductors, who climbed stairs and walked constantly, had roughly half the coronary heart disease incidence of sedentary drivers. This was the first epidemiological evidence of a dose-response relationship between physical activity and cardiovascular health, directly anticipating the new finding that higher volumes of activity confer substantially greater protection."}, {"scientist": "Bengt Saltin", "year": "1968", "discovery": "Saltin's Dallas Bed Rest and Training Study demonstrated that healthy young men who underwent 20 days of bed rest showed dramatic declines in maximal oxygen uptake (VO2max), and that a subsequent 8-week intensive training program not only restored but exceeded baseline fitness. This established the principle of cardiovascular plasticity and the need for progressive overload to maintain and enhance cardiac function, underpinning the modern study's implication that the heart requires substantial mechanical work to achieve optimal adaptive resilience."}]
 ancestral_insight: ""
 ---

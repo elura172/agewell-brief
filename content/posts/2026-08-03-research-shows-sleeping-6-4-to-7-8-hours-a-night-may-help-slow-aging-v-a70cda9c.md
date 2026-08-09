@@ -21,8 +21,8 @@ image_photographer_url: "https://www.pexels.com/@anastasiya-vragova-22991246"
 image_source_url: "https://www.pexels.com/photo/an-alarm-clock-on-bedside-near-a-sleeping-woman-8346006/"
 image_review_status: "pending"
 image_avg_color: "#CFCFCF"
-topics: ['brain health', 'longevity', 'mobility', 'sleep health']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": "1938", "discovery": "Kleitman's Mammoth Cave experiments established the endogenous ~24-hour circadian rhythm and the concept of sleep as a regulated physiological process, laying the foundation for linking sleep duration and timing to metabolic and aging outcomes."}, {"scientist": "Matthew Walker", "year": "2017", "discovery": "Walker's work on sleep and brain health demonstrated that insufficient sleep accelerates cognitive decline and disrupts glymphatic clearance, directly connecting sleep duration to neural aging and providing a mechanistic basis for the observed 6.4-7.8 hour window."}]
 ancestral_insight: ""
 ---

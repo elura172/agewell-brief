@@ -15,7 +15,7 @@ image_photographer: "RF._.studio / Pexels"
 image_photographer_url: "https://www.pexels.com/@rfstudio"
 image_provider: "Pexels"
 image_avg_color: "#1a3a3a"
-topics: ['cellular senescence', 'longevity', 'metabolic health', 'sleep health']
+topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "A.T. Ganesan", "year": "1958", "discovery": "Demonstrated that DNA damage can be repaired by a recombination-like process in bacteria, establishing the concept of DNA damage response pathways that are now linked to STING activation and inflammation."}, {"scientist": "Glen Barber", "year": "2011", "discovery": "Identified STING as a central signaling molecule for cytosolic DNA sensing, which is now shown to mediate the biphasic inflammatory response to cell-free chromatin particles."}]
 ancestral_insight: "In ancestral environments, intermittent stressors such as infections or tissue injury would cause localized cell death and release of chromatin, activating STING to promote inflammation and tissue repair. Modern sedentary lifestyles with chronic low-grade cell death (e.g., from metabolic stress) may lead to persistent STING activation, contributing to chronic inflammation. Periodic fasting or exercise, which induce controlled stress and cell turnover, may help reset this response, mimicking ancestral patterns of acute stress followed by recovery."

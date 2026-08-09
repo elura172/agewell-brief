@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "de12de7b94526d78e587b5af",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "12c50a361ed4f0b3",
+        "source": "Dr. Fritz-Albert Popp (1975) — Biophotonics and Cellular Coherence",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      },
+      {
+        "source_id": "cb6b4432b48211c4",
+        "source": "Dr. Gilbert Ling (1962) — A Physical Theory of the Living State: Association-Induction Hypothesis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

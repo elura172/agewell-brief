@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@karola-g"
 image_source_url: "https://www.pexels.com/photo/woman-using-a-microscope-on-a-white-table-8539453/"
 image_review_status: "pending"
 image_avg_color: "#879AA0"
-topics: ['brain health', 'consumer safety', 'detoxification', 'longevity', 'mobility']
-frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "P\u00edo del R\u00edo Hortega", "year": "1919", "discovery": "Discovered and named microglia, identifying them as distinct brain cells of mesodermal origin that respond to injury and disease. This foundational work established microglia as the brain's immune cells, directly anticipating the modern finding that a microglial state switch (from homeostatic to disease-associated) determines cognitive resilience versus decline in Alzheimer's disease."}, {"scientist": "Alois Alzheimer", "year": "1906", "discovery": "First described the neuropathological hallmarks of Alzheimer's disease\u2014amyloid plaques and neurofibrillary tangles\u2014in a patient with dementia. However, he also noted the presence of reactive glial cells around plaques, hinting at an immune component. The modern study validates and extends this by showing that microglial activation state, not just plaque burden, is the critical determinant of whether pathology leads to cognitive decline, explaining the clinicopathological dissociation observed for decades."}]
 ancestral_insight: ""
 ---

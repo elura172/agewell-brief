@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@cottonbro"
 image_source_url: "https://www.pexels.com/photo/adult-woman-looking-at-the-medicine-bottle-8657375/"
 image_review_status: "human-reviewed"
 image_avg_color: "#7C7D7F"
-topics: ['consumer safety', 'sleep health']
-frameworks: ['Luminous Mind']
+topics: ['consumer safety', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Arthur C. Guyton", "year": "1960s", "discovery": "Guyton's quantitative physiology of drug absorption and metabolism established the foundational framework for understanding how undeclared active pharmaceutical ingredients in dietary supplements can exert systemic effects, including cardiovascular and metabolic perturbations, at doses that may be subtherapeutic or supratherapeutic."}, {"scientist": "Frances Kelsey", "year": "1962", "discovery": "Kelsey's rigorous enforcement of the Kefauver-Harris Amendments, which required proof of safety and efficacy for drugs, set the precedent for regulatory scrutiny of hidden drug ingredients in consumer products, directly anticipating the FDA's current tainted supplement surveillance program."}]
 ancestral_insight: "Traditional herbal remedies, such as those used in Ayurveda or Traditional Chinese Medicine, were prepared from whole plants with complex phytochemical mixtures, relying on synergistic and often mild effects. In contrast, modern tainted supplements often contain isolated synthetic drugs at high potency, which disrupt the body's homeostatic feedback loops (e.g., thyroid or adrenal axes) in ways that whole-plant preparations rarely do. This highlights a mechanistic divergence: ancestral practices favored gradual modulation of physiological set-points, whereas hidden drug ingredients impose abrupt, supraphysiological stimuli, increasing risk of adverse events."
 ---

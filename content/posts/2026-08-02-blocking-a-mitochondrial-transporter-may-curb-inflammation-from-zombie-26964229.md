@@ -21,8 +21,8 @@ image_photographer_url: "https://www.pexels.com/@chokniti-khongchum-1197604/"
 image_source_url: "https://www.pexels.com/photo/scientist-using-microscope-3938022/"
 image_review_status: "human-reviewed"
 image_avg_color: "#A9B6C3"
-topics: ['cellular senescence', 'longevity', 'metabolic health']
-frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
+topics: ['cellular senescence', 'detoxification', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Hans Krebs", "year": "1937", "discovery": "Elucidated the citric acid (Krebs) cycle, identifying citrate as a central mitochondrial metabolite. This work established the biochemical framework for understanding how mitochondrial citrate metabolism can be diverted to produce acetyl-CoA and other precursors for lipid synthesis and protein acetylation, which are now implicated in driving the senescence-associated secretory phenotype (SASP)."}, {"scientist": "John M. Gunn", "year": "1975", "discovery": "Characterized the mitochondrial citrate transporter (later identified as SLC25A1) in rat liver mitochondria, demonstrating its role in exporting citrate to the cytosol for fatty acid synthesis and providing acetyl-CoA for biosynthetic pathways. This directly anticipates the modern finding that inhibiting SLC25A1 reduces inflammatory signaling in senescent cells by blocking citrate export and downstream epigenetic modifications."}]
 ancestral_insight: "Traditional lifestyles characterized by intermittent fasting or caloric restriction reduce overall nutrient flux and mitochondrial citrate export, potentially lowering acetyl-CoA pools and histone acetylation. This may explain the anti-inflammatory effects of such dietary patterns, as they would naturally downregulate the same metabolic-epigenetic axis that drives SASP in senescence. Physical activity, also common in ancestral lifestyles, enhances mitochondrial function and may similarly modulate citrate metabolism to reduce chronic inflammation."
 ---

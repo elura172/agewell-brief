@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@imadclicks"
 image_source_url: "https://www.pexels.com/photo/a-doctor-taking-a-patient-s-blood-pressure-14558560/"
 image_review_status: "pending"
 image_avg_color: "#818682"
-topics: ['consumer safety', 'longevity', 'sleep health']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['cellular senescence', 'consumer safety', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Caleb Finch", "year": "1990", "discovery": "Finch's 'senescence' theory and the 'inflammaging' concept (with Claudio Franceschi, 2000) established that chronic low-grade inflammation drives biological aging. Semaglutide's anti-inflammatory effects, reducing IL-6 and TNF-\u03b1, directly target this mechanism, linking GLP-1 receptor activation to slowed epigenetic aging clocks."}, {"scientist": "Steve Horvath", "year": "2013", "discovery": "Horvath developed the epigenetic clock, a DNA methylation-based biomarker of biological age. The preprint uses such clocks to measure aging deceleration in HIV patients on semaglutide, validating the drug's effect on a molecular level that Horvath's work made measurable."}]
 ancestral_insight: "Traditional lifestyle practices such as intermittent fasting and calorie restriction (common in ancestral hunter-gatherer diets) naturally increase endogenous GLP-1 secretion, which mimics semaglutide's effects. These practices reduce inflammation and improve metabolic health, paralleling the drug's mechanism. The Okinawan concept of 'Hara Hachi Bu' (eating until 80% full) and traditional fasting in various cultures (e.g., Ramadan) similarly enhance GLP-1 and autophagy, supporting longevity through the same pathways."
 ---

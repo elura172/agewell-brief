@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "de12de7b94526d78e587b5af",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:7394787",
+      "score": 85,
+      "rationale": "The image depicts an elderly woman reading a book at home, which aligns with the editorial intent of showing an older adult engaged in a cognitive activity in a comfortable, natural setting. The mood is calm and focused, matching the story's themes of resilience and cognitive engagement. The metadata does not suggest fear, medical procedures, or stereotypes, and it avoids clinical or abstract imagery.",
+      "concerns": [
+        "The image is a generic lifestyle photo and does not explicitly convey the immune-brain connection, but it fits the brief's request for a realistic, hopeful image of an older adult engaged in a cognitive activity. The setting and mood are appropriate, though the connection to the specific scientific content is subtle."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-09/t-cell-checkpoints-the-immune-dial-that-tunes-brain-resilience-to-amyl-de12de7b-pexels-7394787.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

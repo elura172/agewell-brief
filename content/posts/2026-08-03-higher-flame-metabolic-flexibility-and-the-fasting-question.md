@@ -15,8 +15,8 @@ image_photographer: "Karolina Grabowska / Pexels"
 image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
 image_provider: "Pexels"
 image_avg_color: "#3a1a1a"
-topics: ['brain health', 'metabolic health', 'sleep health']
-frameworks: ['Higher Flame', 'Luminous Mind']
+topics: ['brain health', 'detoxification', 'metabolic health', 'sleep health']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "George F. Cahill Jr.", "year": "1966", "discovery": "Cahill's starvation studies at Harvard demonstrated that the human brain can switch from glucose to ketone bodies (beta-hydroxybutyrate and acetoacetate) as its primary fuel during prolonged fasting, establishing the physiological basis of metabolic flexibility and the 'thrifty' adaptation to fuel scarcity."}, {"scientist": "Hans Krebs", "year": "1937", "discovery": "Krebs discovered the citric acid cycle (Krebs cycle), the central hub of mitochondrial respiration that integrates carbohydrate, fat, and protein oxidation. This cycle is the biochemical nexus where fuel flexibility is executed, and its regulation by substrate availability and redox state underpins the modern understanding of mitochondrial metabolic switching."}]
 ancestral_insight: ""
 ---

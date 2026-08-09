@@ -12,8 +12,8 @@ image_photographer: "RF._.studio / Pexels"
 image_photographer_url: "https://www.pexels.com/@rfstudio"
 image_provider: "Pexels"
 image_avg_color: "#1a3a3a"
-topics: ['brain health', 'longevity', 'metabolic health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Christian de Duve", "year": "1955", "discovery": "Discovered lysosomes as distinct organelles containing hydrolytic enzymes, coining the term 'lysosome' and establishing them as the cell's digestive and recycling centers. This foundational work directly underpins modern research on lysosomal dysfunction in aging and age-related diseases like Alzheimer's and Parkinson's."}, {"scientist": "Ana Maria Cuervo", "year": "2000s", "discovery": "Pioneered research on chaperone-mediated autophagy (CMA) and demonstrated that lysosomal function declines with age, showing that decreased activity of lysosomal enzymes and impaired autophagy contribute to the accumulation of damaged proteins and organelles, linking lysosomal failure to neurodegeneration and other age-related pathologies."}]
 ancestral_insight: "Traditional lifestyle practices such as intermittent fasting and caloric restriction have been shown to upregulate autophagy and enhance lysosomal function, mirroring ancestral eating patterns where food scarcity was common. This physical mechanism—activation of cellular recycling pathways during fasting—likely evolved to maintain cellular health during periods of nutrient deprivation, and modern research suggests that mimicking these ancestral conditions can mitigate age-related lysosomal decline and reduce risk of neurodegenerative diseases."
 ---
