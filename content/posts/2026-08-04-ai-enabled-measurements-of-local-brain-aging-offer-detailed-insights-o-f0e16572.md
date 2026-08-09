@@ -1,5 +1,4 @@
----
-title: "An AI model charted how separate brain regions age at different rates"
+---title: "An AI model charted how separate brain regions age at different rates"
 date: 2026-08-04T19:46:51.306331+00:00
 draft: false
 category: "brain health"
@@ -10,6 +9,8 @@ source_url: "https://medicalxpress.com/news/2026-08-ai-enabled-local-brain-aging
 source_title: "AI-enabled measurements of 'local brain aging' offer detailed insights on dementia and more"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 USC researchers use AI to chart how distinct brain regions age, linking regional patterns to cognitive changes across life.

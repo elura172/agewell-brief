@@ -1,5 +1,4 @@
----
-title: "A four-year study tied smoking and hypertension to white matter damage"
+---title: "A four-year study tied smoking and hypertension to white matter damage"
 date: 2026-08-06T15:19:28.150134+00:00
 draft: false
 category: "metabolic health"
@@ -10,6 +9,8 @@ source_url: "https://www.sciencedaily.com/releases/2026/08/260803080923.htm"
 source_title: "Nearly half of dementia cases may be linked to risks you can change"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
+topics: ['brain health', 'detoxification', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A four-year Lund University study shows smoking, hypertension, and cardiovascular disease accelerate white matter damage, a key driver of vascular dementia. The findings suggest that addressing these risks could delay cognitive decline by reducing multiple brain insults simultaneously.

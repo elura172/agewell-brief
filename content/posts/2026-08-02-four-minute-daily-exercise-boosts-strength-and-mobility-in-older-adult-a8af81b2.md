@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@leish"
 image_source_url: "https://www.pexels.com/photo/man-raising-hands-and-woman-stretching-in-yoga-mats-6974989/"
 image_review_status: "pending"
 image_avg_color: "#A0998E"
-topics: ['general wellness', 'longevity', 'mobility', 'sleep health']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['detoxification', 'general wellness', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
 ---
 New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove.
 

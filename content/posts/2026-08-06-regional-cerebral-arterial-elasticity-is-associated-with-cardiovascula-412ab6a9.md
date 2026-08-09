@@ -1,5 +1,4 @@
----
-title: "Cerebral artery elasticity declined measurably in just 18 months"
+---title: "Cerebral artery elasticity declined measurably in just 18 months"
 date: 2026-08-06T00:04:40.285708+00:00
 draft: false
 category: "metabolic health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@vantik93"
 image_source_url: "https://www.pexels.com/photo/young-woman-in-electronic-headband-12197297/"
 image_review_status: "pending"
 image_avg_color: "#6E6256"
+topics: ['brain health', 'detoxification', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A novel optical technique reveals that cerebral arterial elasticity declines measurably in just 18 months, and cardiovascular risk burden is the hidden driver.

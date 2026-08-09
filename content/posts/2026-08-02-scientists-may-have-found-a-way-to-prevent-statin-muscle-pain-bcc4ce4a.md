@@ -20,8 +20,8 @@ image_photographer_url: "https://pixabay.com/users/clickerhappy-324082/"
 image_source_url: "https://pixabay.com/photos/bicycle-bike-biking-sport-cycle-384566/"
 image_review_status: "pending"
 image_avg_color: "#cad4cf"
-topics: ['consumer safety', 'general wellness', 'metabolic health', 'mobility']
-frameworks: ['Higher Flame', 'Living Waters']
+topics: ['consumer safety', 'detoxification', 'general wellness', 'metabolic health', 'mobility']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters']
 ---
 
 New research in mice and cells identifies an immune reaction triggered by statins that may cause muscle damage. The finding could lead to treatments that protect muscles without blunting the drugs' heart benefits.

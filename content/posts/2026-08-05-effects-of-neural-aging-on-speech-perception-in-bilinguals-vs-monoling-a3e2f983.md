@@ -1,5 +1,4 @@
----
-title: "Lifelong bilingualism preserved pre-attentive hearing discrimination with age"
+---title: "Lifelong bilingualism preserved pre-attentive hearing discrimination with age"
 date: 2026-08-05T15:19:35.954766+00:00
 draft: false
 category: "brain health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@mindfield-biosystems-ltd-564865
 image_source_url: "https://www.pexels.com/photo/man-using-eeg-biofeedback-24346263/"
 image_review_status: "pending"
 image_avg_color: "#8B8B89"
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New EEG research reveals that lifelong bilingualism preserves the brain's pre-attentive auditory discrimination, offering a buffer against age-related neural slowing.

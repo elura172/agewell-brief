@@ -44,6 +44,10 @@ jobs:
           # the runs — and the LLM spend — carried on. auto_publish_enabled()
           # still honours the variable if it is ever set again.
           AUTO_PUBLISH: true
+      - name: Cross-tag topics & frameworks
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        continue-on-error: true
+        run: python3 -m scripts.verify_and_cross_tag_briefs
       - name: Validate Upload-Post account
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         continue-on-error: true

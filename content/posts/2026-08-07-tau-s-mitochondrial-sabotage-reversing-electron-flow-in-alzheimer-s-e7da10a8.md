@@ -1,5 +1,4 @@
----
-title: "Tau's mitochondrial sabotage: reversing electron flow in Alzheimer's"
+---title: "Tau's mitochondrial sabotage: reversing electron flow in Alzheimer's"
 date: 2026-08-07T01:43:00.845328+00:00
 draft: false
 category: "brain health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@igorejov"
 image_source_url: "https://www.pexels.com/photo/woman-using-microscope-26184267/"
 image_review_status: "pending"
 image_avg_color: "#716A64"
+topics: ['brain health', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New research suggests tau protein disrupts mitochondrial electron transport, reversing flow at Complex I, boosting ROS and cutting ATP—a mechanism distinct from the classic tangles.

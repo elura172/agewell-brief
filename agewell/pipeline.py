@@ -816,6 +816,27 @@ def draft(
         "caveat": caveat,
         "sections": sections,
     }
+    # deep_context was already computed above to shape the prose (the prompt
+    # instructs the model to "incorporate them explicitly"); this is the same
+    # data made structured. No second API call — it costs nothing extra to
+    # keep what was already paid for instead of discarding it after the draft
+    # prompt used it.
+    raw_antecedents = deep_context.get("historical_antecedents", [])
+    if isinstance(raw_antecedents, list):
+        antecedents = [
+            {
+                "scientist": clean_text(str(a.get("scientist", ""))),
+                "year": str(a.get("year", "")).strip(),
+                "discovery": clean_text(str(a.get("discovery", ""))),
+            }
+            for a in raw_antecedents
+            if isinstance(a, dict) and clean_text(str(a.get("scientist", "")))
+        ]
+        if antecedents:
+            normalized["autoresearch_antecedents"] = antecedents
+    ancestral_insight = clean_text(str(deep_context.get("ancestral_insight", "")))
+    if ancestral_insight:
+        normalized["ancestral_insight"] = ancestral_insight
     if result.get("generation_status"):
         normalized["generation_status"] = clean_text(str(result["generation_status"]))
     if result.get("generation_note"):
@@ -1020,6 +1041,14 @@ def markdown(
     # the page name the same program even when a keyword override sends a brief
     # somewhere its category alone would not.
     spiral_frontmatter = f'spiral: "{quote(spiral["name"])}"\n' if spiral else ""
+    antecedents = content.get("autoresearch_antecedents")
+    antecedents_frontmatter = (
+        f"autoresearch_antecedents: {json.dumps(antecedents)}\n" if antecedents else ""
+    )
+    ancestral_insight = content.get("ancestral_insight")
+    ancestral_insight_frontmatter = (
+        f'ancestral_insight: "{quote(ancestral_insight)}"\n' if ancestral_insight else ""
+    )
     image_frontmatter = ""
     if photo:
         image_frontmatter = f'''image_provider: "{quote(photo.provider)}"
@@ -1046,7 +1075,7 @@ edition_id: "{published_at.date().isoformat()}"
 source_url: "{quote(item.link)}"
 source_title: "{quote(item.title)}"
 source_name: "{quote(item.source_name)}"
-{spiral_frontmatter}{image_frontmatter}---
+{spiral_frontmatter}{antecedents_frontmatter}{ancestral_insight_frontmatter}{image_frontmatter}---
 
 {content["dek"]}
 

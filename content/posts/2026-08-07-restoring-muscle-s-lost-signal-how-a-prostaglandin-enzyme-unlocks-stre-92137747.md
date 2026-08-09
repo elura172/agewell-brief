@@ -1,5 +1,4 @@
----
-title: "Restoring muscle's lost signal: how a prostaglandin enzyme unlocks strength in aging"
+---title: "Restoring muscle's lost signal: how a prostaglandin enzyme unlocks strength in aging"
 date: 2026-08-07T19:07:22.366319+00:00
 draft: false
 category: "longevity"
@@ -10,6 +9,8 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.08.06.743387v1?rss=1"
 source_title: "Restoration of Capacity to Build Muscle Strength in Geriatric Mice by Inhibition of the Gerozyme 15-Prostaglandin Dehydrogenase"
 source_name: "bioRxiv immunology and cell biology"
 spiral: "Cell Shedding"
+topics: ['cellular senescence', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A new preprint shows that inhibiting 15-PGDH in geriatric mice reawakens a PGE2–IGF1 paracrine circuit, overcoming anabolic resistance and rebuilding muscle strength.

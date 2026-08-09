@@ -1,5 +1,4 @@
----
-title: "REM Sleep Turns the Brain Inward: New EEG Evidence of Sensory Gating"
+---title: "REM Sleep Turns the Brain Inward: New EEG Evidence of Sensory Gating"
 date: 2026-08-09T13:53:29.982645+00:00
 draft: false
 category: "brain health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@timur-weber"
 image_source_url: "https://www.pexels.com/photo/close-up-of-a-young-man-sleeping-8560285/"
 image_review_status: "pending"
 image_avg_color: "#87827C"
+topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A Swiss EEG study reveals that during REM sleep, the brain dials down external signals while preserving internal bodily input—a shift that may underpin memory consolidation and emotional regulation.

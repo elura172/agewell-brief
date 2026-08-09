@@ -15,8 +15,8 @@ image_photographer: "Cottonbro Studio / Pexels"
 image_photographer_url: "https://www.pexels.com/@cottonbro"
 image_provider: "Pexels"
 image_avg_color: "#2a1a3a"
-topics: ['brain health', 'detoxification']
-frameworks: ['Dark Mirror', 'Luminous Mind']
+topics: ['brain health', 'detoxification', 'mobility']
+frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
 ---
 
 Dark Mirror is the advanced mineral-clearing layer of the Spiral of Cellular Light. Its framework combines binding materials with mineral transport, then places the cycle between broader protocol phases.

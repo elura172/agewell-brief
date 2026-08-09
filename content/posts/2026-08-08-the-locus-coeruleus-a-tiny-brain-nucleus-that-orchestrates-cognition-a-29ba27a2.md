@@ -1,5 +1,4 @@
----
-title: "The Locus Coeruleus: A Tiny Brain Nucleus That Orchestrates Cognition and Predicts Neurodegeneration"
+---title: "The Locus Coeruleus: A Tiny Brain Nucleus That Orchestrates Cognition and Predicts Neurodegeneration"
 date: 2026-08-08T23:35:25.111282+00:00
 draft: false
 category: "brain health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@amel-uzunovic-440739273"
 image_source_url: "https://www.pexels.com/photo/brain-model-on-plate-15410078/"
 image_review_status: "pending"
 image_avg_color: "#D6D4C7"
+topics: ['brain health', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 New research reveals how a cluster of ~1,600 neurons in the brainstem governs attention, memory, and decision-making—and why its early decline may be the first domino in Alzheimer’s and Parkinson’s.

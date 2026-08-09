@@ -1,5 +1,4 @@
----
-title: "Aging brains draft blood-borne immune reinforcements: the blood-brain barrier is not a wall"
+---title: "Aging brains draft blood-borne immune reinforcements: the blood-brain barrier is not a wall"
 date: 2026-08-08T13:50:02.074738+00:00
 draft: false
 category: "brain health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@indraprojectsofficial"
 image_source_url: "https://www.pexels.com/photo/close-up-of-microscope-in-laboratory-setting-28570735/"
 image_review_status: "pending"
 image_avg_color: "#9EA3A9"
+topics: ['brain health', 'cellular senescence', 'detoxification', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New findings suggest that the brain's immune isolation is not absolute—aging may open a regulated door for peripheral immune cells to enter and reshape neuroinflammation.

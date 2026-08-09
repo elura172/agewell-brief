@@ -1,5 +1,4 @@
----
-title: "Sleep, Anxiety, and the Empty-Nest Brain: Why Movement and Community Are Biological Levers"
+---title: "Sleep, Anxiety, and the Empty-Nest Brain: Why Movement and Community Are Biological Levers"
 date: 2026-08-07T23:39:36.850734+00:00
 draft: false
 category: "sleep health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@patricia-bozan-2151752743"
 image_source_url: "https://www.pexels.com/photo/contemplative-senior-woman-by-the-window-36625069/"
 image_review_status: "pending"
 image_avg_color: "#62584F"
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A new cross-sectional study of 6,106 Chinese empty-nest elders finds poor sleep triples anxiety risk—and reveals how physical exercise and social participation act as biological mediators.

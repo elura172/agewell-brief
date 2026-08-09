@@ -1,5 +1,4 @@
----
-title: "Overall brain health buffered memory against early Alzheimer's pathology"
+---title: "Overall brain health buffered memory against early Alzheimer's pathology"
 date: 2026-08-05T19:46:33.266948+00:00
 draft: false
 category: "brain health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@pexels-latam-478514802"
 image_source_url: "https://www.pexels.com/photo/elderly-woman-running-on-dirt-road-17979470/"
 image_review_status: "pending"
 image_avg_color: "#9DA79C"
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New research suggests that maintaining overall brain health may buffer memory against early Alzheimer's pathology, pointing to a holistic approach to cognitive resilience.

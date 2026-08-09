@@ -1,5 +1,4 @@
----
-title: "Sweetness Is a Signal, Not a Switch: Why Cutting Sweet Foods Won't Rewire Your Taste"
+---title: "Sweetness Is a Signal, Not a Switch: Why Cutting Sweet Foods Won't Rewire Your Taste"
 date: 2026-08-09T18:52:37.482134+00:00
 draft: false
 category: "metabolic health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@fahri-tokcan-522576348"
 image_source_url: "https://www.pexels.com/photo/close-up-of-woman-eating-a-juicy-strawberry-30830502/"
 image_review_status: "pending"
 image_avg_color: "#C1917A"
+topics: ['brain health', 'detoxification', 'metabolic health', 'sleep health']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Luminous Mind']
 ---
 
 A six-month randomized trial finds that altering dietary sweetness doesn't change cravings, weight, or metabolic markers. The real target may be sugar and energy density, not taste.

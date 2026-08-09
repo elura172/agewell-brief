@@ -1,5 +1,4 @@
----
-title: "In rats, midlife omega-3s durably shifted the muscle-aging trajectory"
+---title: "In rats, midlife omega-3s durably shifted the muscle-aging trajectory"
 date: 2026-08-04T15:28:00.013349+00:00
 draft: false
 category: "metabolic health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@towfiqu-barbhuiya-3440682"
 image_source_url: "https://www.pexels.com/photo/close-up-of-a-person-using-a-glucometer-11354239/"
 image_review_status: "pending"
 image_avg_color: "#867A84"
+topics: ['longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New longitudinal data in rats show that muscle aging begins with metabolic decline, not mass loss—and a short course of omega-3s at midlife durably reprograms the trajectory.

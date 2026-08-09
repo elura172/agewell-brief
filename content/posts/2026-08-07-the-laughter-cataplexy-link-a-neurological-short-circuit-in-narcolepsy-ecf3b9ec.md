@@ -1,5 +1,4 @@
----
-title: "The Laughter-Cataplexy Link: A Neurological Short-Circuit in Narcolepsy"
+---title: "The Laughter-Cataplexy Link: A Neurological Short-Circuit in Narcolepsy"
 date: 2026-08-07T00:09:57.050160+00:00
 draft: false
 category: "sleep health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@jeff-vinluan-20921030"
 image_source_url: "https://www.pexels.com/photo/photograph-of-women-sitting-on-a-purple-sofa-while-smiling-10549076/"
 image_review_status: "pending"
 image_avg_color: "#8F8A87"
+topics: ['brain health', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 New insights into how a sudden emotional spike can trigger a collapse of muscle tone, revealing the fragile boundary between arousal and paralysis.

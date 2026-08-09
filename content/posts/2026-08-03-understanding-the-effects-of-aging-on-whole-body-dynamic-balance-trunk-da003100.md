@@ -20,8 +20,8 @@ image_photographer_url: "https://www.pexels.com/@yankrukov"
 image_source_url: "https://www.pexels.com/photo/elderly-people-working-out-at-the-gym-6815699/"
 image_review_status: "pending"
 image_avg_color: "#7F8B91"
-topics: ['longevity', 'mobility', 'sleep health']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['cellular senescence', 'detoxification', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Cell Shedding', 'Dark Mirror', 'Living Waters', 'Luminous Mind']
 ---
 New research links aging to declines in balance, trunk stability, mobility, and hip strength. Here's what to make of it.
 

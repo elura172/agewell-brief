@@ -1,5 +1,4 @@
----
-title: "Nicotinamide riboside and hard training remodelled muscle epigenetics differently"
+---title: "Nicotinamide riboside and hard training remodelled muscle epigenetics differently"
 date: 2026-08-05T00:10:29.542309+00:00
 draft: false
 category: "longevity"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@vladimirsrajber"
 image_source_url: "https://www.pexels.com/photo/a-person-using-microscope-15290013/"
 image_review_status: "pending"
 image_avg_color: "#817B6F"
+topics: ['longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 A new RCT reveals that nicotinamide riboside and high-intensity exercise remodel the muscle epigenome differently—what that means for cellular voltage and healthspan.

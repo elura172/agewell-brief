@@ -1,5 +1,4 @@
----
-title: "Your Brain's Immune System Is Being Replaced—Starting at 50"
+---title: "Your Brain's Immune System Is Being Replaced—Starting at 50"
 date: 2026-08-07T14:15:48.613143+00:00
 draft: false
 category: "brain health"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@chokniti-khongchum-1197604"
 image_source_url: "https://www.pexels.com/photo/unrecognizable-scientist-using-microscope-in-lab-3082455/"
 image_review_status: "pending"
 image_avg_color: "#9092A0"
+topics: ['brain health', 'longevity', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 New single-cell mapping reveals a hidden midlife overhaul in the hippocampus: resident microglia decline, inflammatory replacements arrive, and the blood-brain barrier weakens. Here's what that means for your healthspan.

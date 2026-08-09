@@ -21,7 +21,7 @@ image_photographer_url: "https://www.pexels.com/@anastasiya-vragova-22991246"
 image_source_url: "https://www.pexels.com/photo/an-alarm-clock-on-bedside-near-a-sleeping-woman-8346006/"
 image_review_status: "pending"
 image_avg_color: "#CFCFCF"
-topics: ['longevity', 'mobility', 'sleep health']
+topics: ['brain health', 'longevity', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 ---
 

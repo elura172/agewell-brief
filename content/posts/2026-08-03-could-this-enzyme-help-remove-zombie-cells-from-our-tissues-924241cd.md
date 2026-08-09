@@ -21,8 +21,8 @@ image_photographer_url: "https://www.pexels.com/@zeoxs"
 image_source_url: "https://www.pexels.com/photo/woman-in-white-robe-looking-through-microscope-11730899/"
 image_review_status: "pending"
 image_avg_color: "#BFBEBA"
-topics: ['cellular senescence', 'longevity', 'mobility', 'sleep health']
-frameworks: ['Cell Shedding', 'Living Waters', 'Luminous Mind']
+topics: ['cellular senescence', 'detoxification', 'longevity', 'mobility', 'sleep health']
+frameworks: ['Cell Shedding', 'Dark Mirror', 'Living Waters', 'Luminous Mind']
 ---
 Scientists are homing in on an enzyme that may help remove senescent cells—the so-called 'zombie' cells that accumulate with age. Here's what the research suggests and what it doesn't.
 

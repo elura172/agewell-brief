@@ -1,5 +1,4 @@
----
-title: "The Heart's True Exercise Threshold: Why 150 Minutes May Be Just the Beginning"
+---title: "The Heart's True Exercise Threshold: Why 150 Minutes May Be Just the Beginning"
 date: 2026-08-08T18:49:43.595927+00:00
 draft: false
 category: "mobility"
@@ -22,6 +21,8 @@ image_photographer_url: "https://www.pexels.com/@zandatsu"
 image_source_url: "https://www.pexels.com/photo/female-scientist-in-modern-laboratory-setting-32213422/"
 image_review_status: "pending"
 image_avg_color: "#7A8B93"
+topics: ['metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 New research suggests that substantial cardiovascular protection may require nearly 10 hours of weekly activity—far beyond current guidelines. Here's what the dose-response curve really means for your heart.
