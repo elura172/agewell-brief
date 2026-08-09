@@ -61,6 +61,7 @@ For individuals, this means regular monitoring of blood pressure and lipid profi
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Nearly half of dementia cases may be linked to risks you can change](https://www.sciencedaily.com/releases/2026/08/260803080923.htm) from ScienceDaily Healthy Aging. Read the original report for full context.

@@ -39,6 +39,7 @@ New research from the University of Missouri suggests that sticking to a regular
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Researchers find simple habit to improve physical and mental health](https://medicalxpress.com/news/2026-07-simple-habit-physical-mental-health.html) from Medical Xpress Healthy Aging. Read the original report for full context.

@@ -80,6 +80,7 @@ Stay tuned for replication studies with larger samples and more detailed statist
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Spatiotemporal coordination of specialized cerebellar networks supports episodic memory in older adults](https://www.biorxiv.org/content/10.64898/2026.08.03.742395v1?rss=1) from bioRxiv neuroscience, genetics, physiology. Read the original report for full context.

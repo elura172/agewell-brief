@@ -73,6 +73,7 @@ Ancestral patterns support this: hunter-gatherer lifestyles with high physical a
 <p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
 <p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults](https://www.biorxiv.org/content/10.64898/2026.07.30.740814v1?rss=1) from bioRxiv neuroscience, genetics, physiology. Read the original report for full context.

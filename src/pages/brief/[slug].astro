@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { linkRel, plainTextExcerpt, publishedBriefs, topicSlug } from "../../lib/publishing";
+import { linkRel, plainTextExcerpt, publishedBriefs, topicSlug, typographic } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
 import EZWaterCalculator from "../../components/EZWaterCalculator.astro";
 import GlymphaticCalculator from "../../components/GlymphaticCalculator.astro";
@@ -120,7 +120,7 @@ const structuredData = [
 ];
 ---
 <Layout
-  title={`${entry.data.title} — Agewell Brief`}
+  title={`${typographic(entry.data.title)} — Agewell Brief`}
   description={description}
   ogType="article"
   image={entry.data.image}
@@ -143,15 +143,22 @@ const structuredData = [
           <span>{entry.data.category}</span>
           <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
           {(entry.data.frameworks && entry.data.frameworks.length > 0 ? entry.data.frameworks : [protocolCard.name.replace("Protocol", "Framework")]).map((fw) => (
-            <a class="framework-header-badge" href={protocolCard.pdfUrl} download title="Download Biophysics Field Guide PDF">
+            <a
+              class="framework-header-badge"
+              href={protocolCard.pdfUrl}
+              download
+              title={`Download the ${fw} field guide (PDF)`}
+              aria-label={`Download the ${fw} field guide (PDF)`}
+            >
               ⚡ {fw}
+              <span class="framework-badge-dl" aria-hidden="true">↓ PDF</span>
             </a>
           ))}
         </div>
         <i></i>
         <span>{formatDate}</span>
       </div>
-      <h1>{entry.data.title}</h1>
+      <h1>{typographic(entry.data.title)}</h1>
       <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <time datetime={entry.data.date.toISOString()}>Published {formatDateTime}</time></p>
       <p class="article-source">Original reporting: <a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
       {frontierLinks.length > 0 && <p class="article-frontier">On the frontier: {frontierLinks.slice(0, 2).map((frontier, index) => <><a href={`/frontier-map/#${frontier.slug}`}>{frontier.shortName}</a>{index < Math.min(frontierLinks.length, 2) - 1 ? ", " : ""}</>)}</p>}
@@ -170,7 +177,8 @@ const structuredData = [
         variant="article"
         eager={true}
       />
-      <p class="article-image-note"><span>In the frame</span> {entry.data.image_caption ?? "A glimpse of the everyday routines behind this story."}</p>
+      <p class="article-image-note"><span>In the frame</span> {typographic(entry.data.image_caption) || "A glimpse of the everyday routines behind this story."}</p>
+    </div>}
     <div class="article-content"><Content /></div>
 
     {/* Interactive Biophysics Calculators */}
@@ -223,7 +231,7 @@ const structuredData = [
         <a class="topic-link" href={`/topics/${topicSlug(entry.data.category)}/`}>Browse the full topic <span>→</span></a>
       </div>
       <ol>
-        {related.map((candidate) => <li><a href={`/brief/${candidate.id}/`}>{candidate.data.title}</a><span>{candidate.data.source_name}</span></li>)}
+        {related.map((candidate) => <li><a href={`/brief/${candidate.id}/`}>{typographic(candidate.data.title)}</a><span>{candidate.data.source_name}</span></li>)}
       </ol>
     </section>}
     <footer class="article-footer"><span>Keep asking better questions.</span><a href="/#subscribe">Get tomorrow’s edition →</a></footer>
@@ -234,6 +242,9 @@ const structuredData = [
     <div class="reader-bar-inner">
       <span>📩 Enjoying this biophysics analysis? Get 3x daily signals + 6 PDF Field Guides.</span>
       <a href="/#subscribe" class="reader-bar-btn">Get Free Briefs <span aria-hidden="true">→</span></a>
+      <button type="button" id="reader-bar-close" class="reader-bar-close" aria-label="Dismiss subscribe reminder">
+        <span aria-hidden="true">×</span>
+      </button>
     </div>
   </aside>
 </Layout>
@@ -359,10 +370,13 @@ const structuredData = [
     margin: 0;
   }
 
+  /* Inline rather than inline-flex: in the 226px rail the framework name wraps,
+     and as a flex container the download marker got stranded beside the wrapped
+     text instead of following it. As inline text it stays with the last word. */
   .framework-header-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
     font-size: 0.72rem;
     font-weight: 700;
     padding: 3px 10px;
@@ -376,6 +390,15 @@ const structuredData = [
   .framework-header-badge:hover {
     background: var(--saffron-soft);
     color: var(--ink);
+  }
+  /* The chip reads as a category tag but is really a file download, so it needs
+     to say so before the click rather than after. */
+  .framework-badge-dl {
+    white-space: nowrap;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    opacity: 0.8;
   }
 
   /* Floating Sticky Reader Bar */
@@ -419,4 +442,62 @@ const structuredData = [
   .reader-bar-btn:hover {
     background: var(--ink);
   }
+  .reader-bar-close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 26px;
+    height: 26px;
+    margin-right: -6px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--muted);
+    font-size: 1.15rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .reader-bar-close:hover {
+    background: var(--cream);
+    color: var(--ink);
+  }
+  .floating-reader-bar[hidden] {
+    display: none;
+  }
 </style>
+
+<script>
+  // The bar covers ~55px of content at every scroll position and overlaps the
+  // footer nav at the bottom of the page, so it has to be dismissible. The
+  // choice is remembered for the session — long enough not to nag a reader
+  // working through several briefs, short enough that it is not a one-time
+  // decision made permanently on the reader's behalf.
+  const bar = document.getElementById("floating-reader-bar");
+  const close = document.getElementById("reader-bar-close");
+  const KEY = "agewell:reader-bar-dismissed";
+
+  if (bar && close) {
+    let dismissed = false;
+    try {
+      dismissed = sessionStorage.getItem(KEY) === "1";
+    } catch {
+      // Private-mode or blocked storage: fall back to showing the bar.
+    }
+
+    if (dismissed) {
+      bar.hidden = true;
+    }
+
+    close.addEventListener("click", () => {
+      bar.hidden = true;
+      try {
+        sessionStorage.setItem(KEY, "1");
+      } catch {
+        // Dismissal still applies for this page view.
+      }
+    });
+  }
+</script>

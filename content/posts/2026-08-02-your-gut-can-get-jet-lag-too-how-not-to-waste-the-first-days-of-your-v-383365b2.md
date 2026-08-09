@@ -39,6 +39,7 @@ Long flights disrupt more than sleep—your gut bacteria may also feel the time 
 <p class="resource-guide"><a href="/downloads/field-guides/inner-garden-field-guide.pdf" download>Download the Inner Garden field guide (PDF)</a></p>
 <p class="resource-disclosure">Inner Garden is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Your gut can get jet lag too: How not to waste the first days of your vacation](https://medicalxpress.com/news/2026-07-gut-jet-lag-days-vacation.html) from Medical Xpress Sleep. Read the original report for full context.

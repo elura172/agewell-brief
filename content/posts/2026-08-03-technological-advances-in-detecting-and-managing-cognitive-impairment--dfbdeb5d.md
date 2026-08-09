@@ -80,6 +80,7 @@ Finally, consider participating in research if you're able. Many studies need vo
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Technological Advances in Detecting and Managing Cognitive Impairment in Older Adults: Trends, Challenges, and Future Directions](https://arxiv.org/abs/2607.28687) from arXiv machine learning. Read the original report for full context.

@@ -39,6 +39,7 @@ New research in adults with HIV suggests semaglutide could influence aging marke
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Popular weight-loss drugs Ozempic and Wegovy may slow biological aging](https://www.sciencedaily.com/releases/2026/07/260713084907.htm) from ScienceDaily Healthy Aging. Read the original report for full context.

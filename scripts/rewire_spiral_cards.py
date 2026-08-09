@@ -50,9 +50,14 @@ def rewire(path: Path, resources: dict) -> str | None:
     sections = [m.start() for m in re.finditer(r"^## ", body, re.M)]
 
     # Closing card goes above the source note so the article ends on the program.
+    # The trailing "\n" is required, not cosmetic: spiral_card ends on "</aside>"
+    # and source_at points at the newline before "### Source", so without it the
+    # heading lands on the line straight after the closing tag. Markdown keeps an
+    # HTML block open until a blank line, so the heading gets swallowed into the
+    # block and renders as literal "### Source" text.
     source_at = body.find("\n### Source")
     closing = spiral_card(spiral, category, placement="closing")
-    body = body[:source_at] + "\n" + closing + body[source_at:] if source_at != -1 else body + closing
+    body = body[:source_at] + "\n" + closing + "\n" + body[source_at:] if source_at != -1 else body + closing
 
     # Opening card after the first section, mirroring the pipeline's placement.
     if len(sections) >= 2:

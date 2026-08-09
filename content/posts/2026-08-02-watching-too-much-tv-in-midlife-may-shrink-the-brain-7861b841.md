@@ -42,6 +42,7 @@ A new study of 1,700 adults finds that frequent TV viewing in midlife is associa
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Watching too much TV in midlife may shrink the brain](https://www.sciencedaily.com/releases/2026/07/260721000822.htm) from ScienceDaily Healthy Aging. Read the original report for full context.

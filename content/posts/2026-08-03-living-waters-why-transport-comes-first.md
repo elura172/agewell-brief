@@ -66,6 +66,7 @@ Readers can use the Living Waters guide as a question set: What is the intended 
 <p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
 <p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This evergreen program perspective is based on [The Spiral of Living Waters — Transport Clearing Protocol](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==), supplied as a companion guide for the Spiral of Cellular Light.

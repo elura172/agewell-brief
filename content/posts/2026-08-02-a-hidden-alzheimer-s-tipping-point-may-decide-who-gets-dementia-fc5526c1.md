@@ -81,6 +81,7 @@ Stay informed about Alzheimer's research, but be wary of headlines that promise 
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [A hidden Alzheimer’s tipping point may decide who gets dementia](https://www.sciencedaily.com/releases/2026/07/260726015257.htm) from ScienceDaily Healthy Aging. Read the original report for full context.

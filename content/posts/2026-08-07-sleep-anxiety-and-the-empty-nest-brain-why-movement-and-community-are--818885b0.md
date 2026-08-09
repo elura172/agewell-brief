@@ -76,6 +76,7 @@ Finally, recognize that these are modifiable factors. You are not a passive vict
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Association of Sleep with Anxiety in Chinese Empty-Nest Older Adults: The Mediating Roles of Physical Exercise and Social Participation](https://www.biorxiv.org/content/10.64898/2026.08.06.743184v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

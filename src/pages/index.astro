@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import EditorialImage from "../components/EditorialImage.astro";
 import trendingData from "../data/trending.json";
-import { linkRel } from "../lib/publishing";
+import { linkRel, typographic } from "../lib/publishing";
 
 const showDrafts = import.meta.env.DEV;
 const entries = (await getCollection("briefs"))
@@ -55,7 +55,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
       <article class:list={["lead-story", { "has-image": featured.data.image }]}>
         <div class="lead-story-copy">
           <div class="lead-kicker"><span>Today’s deep read</span><span>{featured.data.category}</span></div>
-          <h1 id="edition-heading"><a href={`/brief/${featured.id}/`}>{featured.data.title}</a></h1>
+          <h1 id="edition-heading"><a href={`/brief/${featured.id}/`}>{typographic(featured.data.title)}</a></h1>
           <p class="lead-dek">Cutting-edge research translated into actionable intelligence: what was discovered, why it matters for cellular & functional health, and where the science is heading.</p>
           <div class="lead-actions">
             <a class="primary-link" href={`/brief/${featured.id}/`}>Read the full analysis <span>→</span></a>
@@ -107,7 +107,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
                 <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
                 <span>{String(index + 2).padStart(2, "0")}</span>
               </div>
-              <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
+              <h3><a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a></h3>
               <div class="story-foot"><span>{formatDate(entry.data.date)}</span><a href={`/brief/${entry.id}/`}>Read signal <span>→</span></a></div>
             </div>
           </article>
@@ -132,7 +132,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     <ol class="trending-list">
       {trending.map(({ item, entry }, index) => <li>
         <span class="trending-index">{String(index + 1).padStart(2, "0")}</span>
-        <a href={`/brief/${entry.id}/`}>{entry.data.title}</a>
+        <a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a>
         <span class="trending-views">{formatVisits(item.visits)} reader visits</span>
       </li>)}
     </ol>
@@ -222,7 +222,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
                 <p>
                   <span>{entry.data.category}</span> · <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span> · <span>{formatDate(entry.data.date)}</span>
                 </p>
-                <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
+                <h3><a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a></h3>
               </div>
               <a class="archive-source" href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>Original source <span>↗</span></a>
             </article>

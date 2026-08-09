@@ -43,6 +43,7 @@ A sweeping review of over 350 studies hints that eating less protein could boost
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Reducing protein intake could support healthy aging by reshaping metabolism](https://medicalxpress.com/news/2026-07-protein-intake-healthy-aging-reshaping.html) from Medical Xpress Healthy Aging. Read the original report for full context.

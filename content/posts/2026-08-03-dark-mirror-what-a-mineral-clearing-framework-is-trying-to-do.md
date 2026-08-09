@@ -66,6 +66,7 @@ Treat Dark Mirror as an advanced program perspective, not a casual cleanse. Revi
 <p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
 <p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This editorial program perspective is based on [The Dark Mirror of Immunity — Advanced Earth Mineral Clearing](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==), supplied as a companion guide for the Spiral of Cellular Light.

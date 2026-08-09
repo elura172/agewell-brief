@@ -42,6 +42,7 @@ A new lab study reveals how the longevity-linked APOE2 variant protects neurons 
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [APOE2 may protect the brain from Alzheimer’s and aging](https://www.sciencedaily.com/releases/2026/07/260723084856.htm) from ScienceDaily Healthy Aging. Read the original report for full context.

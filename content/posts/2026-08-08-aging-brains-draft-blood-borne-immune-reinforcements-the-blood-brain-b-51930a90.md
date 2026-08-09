@@ -74,6 +74,7 @@ Intermittent fasting and resistance training have also been shown to enhance aut
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Discovery reveals aging human brains receive immune cell reinforcements from blood](https://medicalxpress.com/news/2026-08-discovery-reveals-aging-human-brains.html) from Medical Xpress Healthy Aging. Read the original report for full context.

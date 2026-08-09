@@ -86,3 +86,20 @@ export function isCommercialLink(href: string | undefined | null): boolean {
 export function linkRel(href: string | undefined | null): string {
   return isCommercialLink(href) ? "sponsored noopener noreferrer" : "noopener noreferrer";
 }
+
+/** Curl the quotes in text that never passes through the Markdown renderer.
+ *
+ * Brief bodies get smart quotes from the Markdown pipeline, but frontmatter
+ * strings (titles, deks, captions) are interpolated straight into the template,
+ * so a generated headline like "Heart's" kept a typewriter apostrophe next to
+ * body copy that is curly throughout.
+ */
+export function typographic(value: string | undefined | null): string {
+  if (!value) return "";
+  return value
+    .replace(/(\w)'(\w)/g, "$1’$2") // contractions: don't, Heart's
+    .replace(/'(?=\w)/g, "‘") // opening single
+    .replace(/'/g, "’") // closing single / possessive plural
+    .replace(/"(?=[^\s])/g, "“") // opening double
+    .replace(/"/g, "”"); // closing double
+}

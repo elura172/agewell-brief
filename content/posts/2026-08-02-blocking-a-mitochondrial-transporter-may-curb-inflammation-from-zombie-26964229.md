@@ -40,6 +40,7 @@ New lab research traces part of the inflammatory output of senescent cells to mi
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Blocking a mitochondrial transporter may curb inflammation from 'zombie' cells without killing them](https://medicalxpress.com/news/2026-07-blocking-mitochondrial-curb-inflammation-zombie.html) from Medical Xpress Healthy Aging.

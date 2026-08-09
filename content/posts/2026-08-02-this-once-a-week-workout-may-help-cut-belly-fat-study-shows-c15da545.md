@@ -43,6 +43,7 @@ A small dose of interval walking could offer big benefits for adults with excess
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [This once-a-week workout may help cut belly fat, study shows](https://www.sciencedaily.com/releases/2026/08/260801042831.htm) from ScienceDaily Top Health. Read the original report for full context.

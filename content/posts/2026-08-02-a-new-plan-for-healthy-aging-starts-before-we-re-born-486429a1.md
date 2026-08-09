@@ -62,6 +62,7 @@ The modern proposal for a new field in longevity medicine builds directly on the
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [A new plan for healthy aging starts before we're born](https://medicalxpress.com/news/2026-07-healthy-aging-born.html) from Medical Xpress. Read the original report for full context.

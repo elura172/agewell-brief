@@ -62,6 +62,7 @@ Watch for human trials of 15-PGDH inhibitors, which are already being explored f
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Restoration of Capacity to Build Muscle Strength in Geriatric Mice by Inhibition of the Gerozyme 15-Prostaglandin Dehydrogenase](https://www.biorxiv.org/content/10.64898/2026.08.06.743387v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

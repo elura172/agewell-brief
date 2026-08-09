@@ -34,6 +34,7 @@ New research suggests a major shift in brain immunity around middle age, which m
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This brief is based on [Brain immunity may undergo a major midlife overhaul](https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul) from NIH News Releases. Read the original report for full context.

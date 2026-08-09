@@ -82,6 +82,7 @@ If changes in memory, thinking, or sleep are interfering with daily life, those 
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [AI can tell if your brain is aging faster than you are](https://www.sciencedaily.com/releases/2026/07/260729051540.htm) from ScienceDaily Healthy Aging. Read the original report for full context.

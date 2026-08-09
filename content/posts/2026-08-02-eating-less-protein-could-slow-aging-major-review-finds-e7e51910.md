@@ -80,6 +80,7 @@ The review's findings suggest that protein restriction may offer an alternative 
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Eating less protein could slow aging, major review finds](https://www.sciencedaily.com/releases/2026/08/260801042811.htm) from ScienceDaily Top Health. Read the original report for full context.

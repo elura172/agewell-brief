@@ -78,6 +78,7 @@ Keep a consistent sleep schedule, even on weekends. Create a relaxing bedtime ro
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Research Shows Sleeping 6.4 to 7.8 Hours a Night May Help Slow Aging - Verywell Health](https://news.google.com/rss/articles/CBMickFVX3lxTE45RFNpSXJ4bENSUjhPaFAwUlR4eGxZVGpZYlBKN29nVUtfT3JUS3hBTWFLcVpwZC0tVE04RmRPaVZnejZyQ1VKajdGR0Q5Rk9DcTl3WmE0M3pQUlMxZkVVcmhrVXRRYkhnTjZWbE5ubzN2dw?oc=5) from Verywell Health. Read the original report for full context.

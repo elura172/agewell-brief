@@ -39,6 +39,7 @@ A six-month pilot study of 47 women ages 50 to 79 found modest gains in spatial 
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Time-restricted eating may help retain cognitive function in older adults](https://medicalxpress.com/news/2026-07-restricted-retain-cognitive-function-older.html) from Medical Xpress Nutrition. Read the original report for full context.

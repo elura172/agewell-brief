@@ -79,6 +79,7 @@ The deeper lesson is that the brain is not a passive receiver of sound—it is a
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Effects of neural aging on speech perception in bilinguals vs. monolinguals](https://www.frontiersin.org/articles/10.3389/fnhum.2026.1913294) from Frontiers in Human Neuroscience. Read the original report for full context.

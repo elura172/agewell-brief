@@ -73,6 +73,7 @@ Keep an eye on this research, but don't wait for a magic bullet. The best strate
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Could this enzyme help remove 'zombie' cells from our tissues?](https://medicalxpress.com/news/2026-07-enzyme-zombie-cells-tissues.html) from Medical Xpress Healthy Aging. Read the original report for full context.

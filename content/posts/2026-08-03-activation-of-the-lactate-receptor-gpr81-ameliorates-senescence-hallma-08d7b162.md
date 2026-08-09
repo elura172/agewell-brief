@@ -80,6 +80,7 @@ Stay informed about clinical trials targeting GPR81. If human studies confirm th
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Activation of the Lactate Receptor GPR81 Ameliorates Senescence Hallmarks and Improves Muscle Function in Cellular and Progeroid Models of Aging](https://onlinelibrary.wiley.com/doi/10.1111/acel.70647?af=R) from Aging Cell. Read the original report for full context.

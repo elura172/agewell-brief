@@ -66,6 +66,7 @@ Protect the basics first: keep a regular sleep schedule, address hearing and vis
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This evergreen program perspective is based on [The Spiral of the Luminous Mind — Brain Upgrade Protocol](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==), supplied as a companion guide for the Spiral of Cellular Light.

@@ -39,6 +39,7 @@ Indigenous voices highlight the commodification of sacred plant medicine in the 
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Waska: the cost of spiritual healing in the Amazon](https://www.theguardian.com/environment/ng-interactive/2025/jun/17/waska-the-cost-of-spiritual-healing-in-the-amazon) from The Guardian | Alternative medicine. Read the original report for full context.

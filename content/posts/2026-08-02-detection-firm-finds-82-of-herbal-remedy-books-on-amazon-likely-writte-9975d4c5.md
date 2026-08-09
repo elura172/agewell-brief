@@ -39,6 +39,7 @@ A new analysis by Originality.ai suggests most herbal remedy books on Amazon may
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Detection firm finds 82% of herbal remedy books on Amazon ‘likely written’ by AI](https://www.theguardian.com/books/2025/oct/22/detection-firm-finds-82-of-herbal-remedy-books-on-amazon-likely-written-by-ai) from The Guardian | Alternative medicine. Read the original report for full context.

@@ -76,6 +76,7 @@ The researchers emphasize that more work is needed before this discovery can be 
 <p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
 <p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Scientists may have found a way to prevent statin muscle pain](https://www.sciencedaily.com/releases/2026/07/260731034152.htm) from ScienceDaily Top Health. Read the original report for full context.

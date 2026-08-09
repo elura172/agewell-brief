@@ -37,6 +37,7 @@ A new study in mice finds that temporarily disrupting proprioception—the sense
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Mild and Reversible Proprioception Perturbation Suggests Causal Biomechanics for Memory-Dependent Spatial Behavior in Mice](https://www.biorxiv.org/content/10.64898/2026.07.28.740838v1?rss=1) from bioRxiv neuroscience, genetics, physiology. Read the original report for full context.

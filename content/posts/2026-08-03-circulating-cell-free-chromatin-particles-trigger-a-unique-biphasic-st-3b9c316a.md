@@ -37,6 +37,7 @@ Cell-free chromatin particles from dying cells enter immune cells and activate S
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Circulating Cell-Free Chromatin Particles Trigger a Unique Biphasic STING Signaling Program that Drives DNA Damage and Inflammation](https://www.biorxiv.org/content/10.64898/2026.07.28.741182v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

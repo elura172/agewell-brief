@@ -74,6 +74,7 @@ The takeaway isn't to worry, but to be proactive. By understanding how aging can
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength](https://www.nature.com/articles/s41598-026-35724-x) from Scientific Reports. Read the original report for full context.

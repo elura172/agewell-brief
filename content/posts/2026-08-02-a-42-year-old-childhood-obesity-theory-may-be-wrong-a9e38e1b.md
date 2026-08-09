@@ -61,6 +61,7 @@ The modern study challenges the 42-year-old theory by using more accurate body c
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [A 42-year-old childhood obesity theory may be wrong](https://www.sciencedaily.com/releases/2026/07/260729051534.htm) from ScienceDaily Healthy Aging. Read the original report for full context.

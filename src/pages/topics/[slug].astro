@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { publishedBriefs, topicSlug } from "../../lib/publishing";
+import { publishedBriefs, topicSlug, typographic } from "../../lib/publishing";
 
 export async function getStaticPaths() {
   const entries = publishedBriefs(await getCollection("briefs"));
@@ -157,7 +157,7 @@ const structuredData = [
           <span class="topic-index">{String(index + 1).padStart(2, "0")}</span>
           <div>
             <p>{entry.data.date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" })} · {entry.data.source_name}</p>
-            <h3><a href={`/brief/${entry.id}/`}>{entry.data.title}</a></h3>
+            <h3><a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a></h3>
           </div>
         </li>)}
       </ol>

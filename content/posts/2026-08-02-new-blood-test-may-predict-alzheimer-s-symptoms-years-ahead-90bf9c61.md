@@ -80,6 +80,7 @@ Anyone noticing persistent changes in memory or thinking can bring a written lis
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [New Alzheimer’s blood test may tell when symptoms are around the corner](https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner) from NIH News Releases. Read the original report for full context.

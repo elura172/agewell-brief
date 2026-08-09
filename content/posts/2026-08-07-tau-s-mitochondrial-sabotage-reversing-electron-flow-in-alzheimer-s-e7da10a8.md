@@ -78,6 +78,7 @@ Stay informed as this research develops. The shift from tangles to mitochondrial
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Alzheimer's-linked tau disrupts mitochondria, reversing electron flow in nerve cells](https://medicalxpress.com/news/2026-08-alzheimer-linked-tau-disrupts-mitochondria.html) from Medical Xpress Neurology. Read the original report for full context.

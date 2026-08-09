@@ -40,6 +40,7 @@ A large UK study finds that MRI measures of the choroid plexus—a structure tha
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Brain fluid structure may flag future dementia risk years before diagnosis](https://medicalxpress.com/news/2026-07-brain-fluid-flag-future-dementia.html) from Medical Xpress Healthy Aging.

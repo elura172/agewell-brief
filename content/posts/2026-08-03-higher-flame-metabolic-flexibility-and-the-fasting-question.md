@@ -66,6 +66,7 @@ Start with the least dramatic version: consistent meal timing, fewer ultra-proce
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This evergreen program perspective is based on [The Spiral of the Higher Flame — Fat-Fuel Switch Protocol](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==), supplied as a companion guide for the Spiral of Cellular Light.

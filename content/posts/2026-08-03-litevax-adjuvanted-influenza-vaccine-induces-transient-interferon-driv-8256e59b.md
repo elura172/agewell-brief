@@ -74,6 +74,7 @@ Keep an eye on future research about LVA and other adjuvants. This study is a st
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [LiteVax-adjuvanted influenza vaccine induces transient interferon-driven innate activation and accelerates early IgG3 responses in older adults](https://www.biorxiv.org/content/10.64898/2026.07.28.741158v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

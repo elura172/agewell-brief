@@ -77,6 +77,7 @@ Stay tuned for human trials that test this critical window hypothesis. Until the
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Supplementation with Fish Oil Rich in Omega-3 Fatty Acids Delays Age-Related Muscle Changes](https://www.biorxiv.org/content/10.64898/2026.08.02.742308v1?rss=1) from bioRxiv immunology and cell biology. Read the original report for full context.

@@ -66,6 +66,7 @@ Begin with observation. Track meals, symptoms, bowel patterns, sleep, and recent
 <p class="resource-guide"><a href="/downloads/field-guides/inner-garden-field-guide.pdf" download>Download the Inner Garden field guide (PDF)</a></p>
 <p class="resource-disclosure">Inner Garden is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This evergreen program perspective is based on [The Spiral of the Inner Garden — Gut Reclamation Protocol](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==), supplied as a companion guide for the Spiral of Cellular Light.

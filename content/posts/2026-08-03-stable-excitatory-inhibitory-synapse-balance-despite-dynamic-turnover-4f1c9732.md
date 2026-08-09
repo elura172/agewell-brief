@@ -74,6 +74,7 @@ As we age, the brain's ability to remodel synapses may decline, but this researc
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Stable excitatory-inhibitory synapse balance despite dynamic turnover](https://elifesciences.org/articles/107635) from eLife Neuroscience. Read the original report for full context.

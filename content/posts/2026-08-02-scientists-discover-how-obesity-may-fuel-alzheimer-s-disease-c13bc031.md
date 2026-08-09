@@ -42,6 +42,7 @@ New research in Alzheimer's models suggests obesity-related fats can reach the b
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [Scientists discover how obesity may fuel Alzheimer’s disease](https://www.sciencedaily.com/releases/2026/07/260729051531.htm) from ScienceDaily Top Health. Read the original report for full context.

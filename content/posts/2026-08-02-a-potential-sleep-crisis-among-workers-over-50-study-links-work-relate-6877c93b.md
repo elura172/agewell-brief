@@ -43,6 +43,7 @@ A new study finds that work-related stress is associated with significant sleep 
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This signal is based on [A potential sleep crisis among workers over 50: Study links work-related stress to range of well-being issues](https://medicalxpress.com/news/2026-07-potential-crisis-workers-links-stress.html) from Medical Xpress Healthy Aging. Read the original report for full context.

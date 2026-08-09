@@ -82,6 +82,7 @@ Finally, consider the broader biophysical context. The brain is a liquid crystal
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This analysis is based on [Scientists discover a hidden brain shift that begins around age 50](https://www.sciencedaily.com/releases/2026/08/260806050700.htm) from ScienceDaily Top Health. Read the original report for full context.

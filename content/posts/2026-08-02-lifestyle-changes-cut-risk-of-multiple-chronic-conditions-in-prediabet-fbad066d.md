@@ -34,6 +34,7 @@ A long-term NIH trial found lifestyle intervention reduced risk of developing se
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This brief is based on [For adults with prediabetes, lifestyle intervention lowered risk of developing multiple chronic conditions](https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions) from NIH News Releases. Read the original report for full context.

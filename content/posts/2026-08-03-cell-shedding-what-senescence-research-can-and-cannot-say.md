@@ -66,6 +66,7 @@ Use the guide as a reading map. Ask what the human evidence shows, what remains 
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This evergreen program perspective is based on [The Spiral of Cell Shedding — A Senolytic Protocol Guide](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==), supplied as a companion guide for the Spiral of Cellular Light.

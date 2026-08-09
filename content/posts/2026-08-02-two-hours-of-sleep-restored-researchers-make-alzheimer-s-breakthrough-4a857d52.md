@@ -34,6 +34,7 @@ New research suggests that lack of sleep might cause a harmful immune response i
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
+
 ### Source
 
 This brief is based on [Two hours of sleep restored: Researchers make Alzheimer's breakthrough](https://medicalxpress.com/news/2026-07-hours-alzheimer-breakthrough.html) from Medical Xpress Sleep. Read the original report for full context.
