@@ -74,7 +74,7 @@ FIELD_GUIDES = [
         "subtitle": "Fluid Dynamics, Interfacial EZ Water & Vascular Transport Kinetics",
         "emoji": "🌊",
         "domain": "Fluid & Micro-Circulation",
-        "fullscript_url": "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
+        "fullscript_url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
         "fullscript_plan_name": "Living Waters Practitioner Protocol",
         "summary": "Water inside human tissue is not mere bulk fluid—it forms structured Exclusion Zone (EZ) water (H3O2) along hydrophilic cell membranes, driving vascular micro-circulation and cellular clearing.",
         "introduction": (
@@ -124,7 +124,7 @@ FIELD_GUIDES = [
         "subtitle": "Gut Microbiome Ecology, SCFA Signaling & Mucosal Barrier Integrity",
         "emoji": "🌱",
         "domain": "Gut Microbiome Ecology",
-        "fullscript_url": "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
+        "fullscript_url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
         "fullscript_plan_name": "Inner Garden Practitioner Protocol",
         "summary": "The human gut is a living microbial rainforest where short-chain fatty acids (butyrate, acetate, propionate) communicate with the vagus nerve, regulate mucosal integrity, and coordinate systemic metabolism.",
         "introduction": (
@@ -168,7 +168,7 @@ FIELD_GUIDES = [
         "subtitle": "Targeted Senolytic Clearing, Autophagy Activation & SASP Reduction",
         "emoji": "🍃",
         "domain": "Senescence & Cellular Renewal",
-        "fullscript_url": "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
+        "fullscript_url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
         "fullscript_plan_name": "Cell Shedding Practitioner Protocol",
         "summary": "Senescent cells are non-dividing 'zombie' cells that linger in tissue, secreting pro-inflammatory SASP cytokines that degrade surrounding cellular architecture. Periodic senolytic clearing restores youthful tissue dynamics.",
         "introduction": (
@@ -211,7 +211,7 @@ FIELD_GUIDES = [
         "subtitle": "Metabolic Flexibility, Mitochondrial Respiration Voltage & Fuel Switching",
         "emoji": "🔥",
         "domain": "Metabolic Resilience & Mitochondria",
-        "fullscript_url": "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
+        "fullscript_url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
         "fullscript_plan_name": "Higher Flame Practitioner Protocol",
         "summary": "Metabolic health is defined by metabolic flexibility—the capacity to seamlessly transition between burning glucose and burning fatty acids based on fuel availability. High mitochondrial voltage (ΔΨm) fuels human vitality.",
         "introduction": (
@@ -255,7 +255,7 @@ FIELD_GUIDES = [
         "subtitle": "Glymphatic Sleep Clearance, Neuro-Plasticity & Biophotonic Brain Coherence",
         "emoji": "⚡",
         "domain": "Cognitive & Neural Coherence",
-        "fullscript_url": "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
+        "fullscript_url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
         "fullscript_plan_name": "Luminous Mind Practitioner Protocol",
         "summary": "Brain health requires deep slow-wave sleep, during which Astrocyte-mediated glymphatic channels expand by 60% to flush neurotoxic metabolic waste (amyloid beta, tau) into lymphatic circulation.",
         "introduction": (
@@ -298,7 +298,7 @@ FIELD_GUIDES = [
         "subtitle": "Mineral Balance, Heavy Metal Chelation & Deep Tissue Bio-Clearing",
         "emoji": "🪞",
         "domain": "Mineral Balance & Bio-Clearing",
-        "fullscript_url": "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
+        "fullscript_url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
         "fullscript_plan_name": "Dark Mirror Practitioner Protocol",
         "summary": "Heavy metals and bio-unavailable minerals bind to cellular enzymes, suppressing bioenergetic voltage. Systematic mineral replacement coupled with clinical-grade natural chelators restores enzyme kinetics and cellular vitality.",
         "introduction": (

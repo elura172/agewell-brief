@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.theguardian.com/environment/ng-interactive/2025/jun/17/waska-the-cost-of-spiritual-healing-in-the-amazon"
 source_title: "Waska: the cost of spiritual healing in the Amazon"
 source_name: "The Guardian | Alternative medicine"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "31378663"
 image: "/images/editions/2026-08-02/waska-the-cost-of-spiritual-healing-in-the-amazon-d80214f1-pexels-31378663.webp"
@@ -29,16 +30,6 @@ Indigenous voices highlight the commodification of sacred plant medicine in the 
 - Ayahuasca marketed as shortcut to healing and enlightenment.
 - Indigenous storyteller Nina Gualinga calls it commodification and extractivism.
 - Cultural appropriation and environmental destruction continue in the Amazon.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

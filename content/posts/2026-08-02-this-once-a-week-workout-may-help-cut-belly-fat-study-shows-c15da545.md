@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.sciencedaily.com/releases/2026/08/260801042831.htm"
 source_title: "This once-a-week workout may help cut belly fat, study shows"
 source_name: "ScienceDaily Top Health"
+spiral: "Higher Flame"
 image_provider: "Pexels"
 image_provider_id: "8795580"
 image: "/images/editions/2026-08-02/this-once-a-week-workout-may-help-cut-belly-fat-study-shows-c15da545-pexels-8795580.webp"
@@ -33,16 +34,6 @@ A small dose of interval walking could offer big benefits for adults with excess
 - 315 adults with central obesity walked briskly in intervals for 75 minutes weekly.
 - One weekly session reduced body fat and waist size similarly to three sessions.
 - Cardiovascular fitness improved equally in both groups after four months.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

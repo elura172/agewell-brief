@@ -8,6 +8,7 @@ edition_id: "2026-08-03"
 source_url: "https://arxiv.org/abs/2607.29068"
 source_title: "Critical Flicker Fusion Frequency As A Falsifiable Boundary Between Plastic And Non-Plastic Neural Systems"
 source_name: "arXiv q-bio"
+spiral: "Luminous Mind"
 image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 image_alt: "Mitochondrial metabolic energy dynamics"
 image_photographer: "Karolina Grabowska / Pexels"
@@ -27,16 +28,6 @@ A new review explores critical flicker fusion frequency—the point where flicke
 - CFFF is highly stable within individuals, unlike spatial skills.
 - It resists general training but may change with specific visual tasks.
 - Links to memory or focus remain hypotheses, not proven facts.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

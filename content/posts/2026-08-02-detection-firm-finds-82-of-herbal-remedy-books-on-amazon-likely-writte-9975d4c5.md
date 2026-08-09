@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.theguardian.com/books/2025/oct/22/detection-firm-finds-82-of-herbal-remedy-books-on-amazon-likely-written-by-ai"
 source_title: "Detection firm finds 82% of herbal remedy books on Amazon ‘likely written’ by AI"
 source_name: "The Guardian | Alternative medicine"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "6981528"
 image: "/images/editions/2026-08-02/detection-firm-finds-82-of-herbal-remedy-books-on-amazon-likely-writte-9975d4c5-pexels-6981528.webp"
@@ -29,16 +30,6 @@ A new analysis by Originality.ai suggests most herbal remedy books on Amazon may
 - Originality.ai scanned 558 herbal remedy titles on Amazon.
 - Found 82% likely written by AI, from January to September.
 - Examples include ginkgo tinctures and citrus-immune gummies.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

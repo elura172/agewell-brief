@@ -1,5 +1,17 @@
 ---
 /* Glymphatic Sleep & Brain Waste Clearance Efficiency Calculator */
+
+/* See EZWaterCalculator: the protocol comes from the page so one brief cannot
+   point at two different programs, and the old hardcoded slug was not a real
+   plan id. */
+interface Props {
+  protocolName?: string;
+  protocolHref?: string;
+}
+const {
+  protocolName = "Luminous Mind",
+  protocolHref = "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA=="
+} = Astro.props;
 ---
 
 <div class="glymphatic-calculator-card" id="glymphatic-calculator">
@@ -66,8 +78,8 @@
         <strong>💡 Recommendation:</strong> Your glymphatic clearance score is <em>Optimal</em>. Side sleeping combined with a 3-hour dinner gap expands brain intercellular space by 60% during deep N3 sleep.
       </div>
 
-      <a href="https://ca.fullscript.com/u/plans/agewell-luminous-mind-glymphatic-protocol" target="_blank" rel="sponsored noopener noreferrer" class="glymphatic-fullscript-btn">
-        <span>View Fullscript Brain Protocol</span> ↗
+      <a href={protocolHref} target="_blank" rel="sponsored noopener noreferrer" class="glymphatic-fullscript-btn">
+        <span>View the {protocolName} protocol</span> ↗
       </a>
     </div>
   </div>

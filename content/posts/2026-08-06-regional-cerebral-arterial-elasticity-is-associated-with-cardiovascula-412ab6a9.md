@@ -9,6 +9,7 @@ edition_id: "2026-08-06"
 source_url: "https://www.biorxiv.org/content/10.64898/2026.07.30.740814v1?rss=1"
 source_title: "Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults"
 source_name: "bioRxiv neuroscience, genetics, physiology"
+spiral: "Living Waters"
 image_provider: "Pexels"
 image_provider_id: "12197297"
 image: "/images/editions/2026-08-06/regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9-pexels-12197297.webp"
@@ -35,7 +36,7 @@ This is not abstract gerontology. The Windkessel model, formalized by Otto Frank
 <p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
 <h3>This is Living Waters territory</h3>
 <p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
 <p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -63,16 +64,6 @@ Ancestral patterns support this: hunter-gatherer lifestyles with high physical a
 - Cerebral arterial elasticity declines measurably in just 1.5 years.
 - Cardiovascular risk burden linearly correlates with stiffer brain arteries.
 - Pulse pressure partially mediates age-related arterial stiffening.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Living Waters program">
-<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Living Waters — fluid and micro-circulation — is the second: a structured protocol for structured water, vascular transport, and clearing pathways.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
-<p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

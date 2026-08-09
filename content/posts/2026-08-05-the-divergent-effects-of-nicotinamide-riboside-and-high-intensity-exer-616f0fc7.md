@@ -9,6 +9,7 @@ edition_id: "2026-08-05"
 source_url: "https://onlinelibrary.wiley.com/doi/10.1111/acel.70638?af=R"
 source_title: "The Divergent Effects of Nicotinamide Riboside and High‐Intensity Exercise Training on Skeletal Muscle Epigenetic Aging"
 source_name: "Aging Cell"
+spiral: "Higher Flame"
 image_provider: "Pexels"
 image_provider_id: "15290013"
 image: "/images/editions/2026-08-05/the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7-pexels-15290013.webp"
@@ -35,7 +36,7 @@ This matters because healthspan depends on maintaining mitochondrial respiration
 <p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
 <h3>This is Higher Flame territory</h3>
 <p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -63,16 +64,6 @@ The most robust strategy remains to maintain metabolic flexibility through regul
 - RCT shows NR and HIIT alter muscle epigenetics differently.
 - No evidence either intervention reverses aging.
 - Exercise remains foundational; NR is not a substitute.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

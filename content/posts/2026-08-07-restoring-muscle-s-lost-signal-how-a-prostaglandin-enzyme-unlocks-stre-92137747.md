@@ -9,6 +9,7 @@ edition_id: "2026-08-07"
 source_url: "https://www.biorxiv.org/content/10.64898/2026.08.06.743387v1?rss=1"
 source_title: "Restoration of Capacity to Build Muscle Strength in Geriatric Mice by Inhibition of the Gerozyme 15-Prostaglandin Dehydrogenase"
 source_name: "bioRxiv immunology and cell biology"
+spiral: "Cell Shedding"
 ---
 
 A new preprint shows that inhibiting 15-PGDH in geriatric mice reawakens a PGE2–IGF1 paracrine circuit, overcoming anabolic resistance and rebuilding muscle strength.
@@ -23,7 +24,7 @@ The new study identifies a specific molecular culprit: the enzyme 15-prostagland
 <p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
 <h3>This is Cell Shedding territory</h3>
 <p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -51,17 +52,6 @@ Watch for human trials of 15-PGDH inhibitors, which are already being explored f
 - 15-PGDH degrades PGE2, silencing muscle growth in aging.
 - Inhibiting it restores PGE2 and rescues anabolic response.
 - PGE2 drives IGF1 in type IIb myonuclei, coordinating hypertrophy.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

@@ -39,47 +39,57 @@ const categoryToProtocol: Record<string, { icon: string; name: string; focus: st
     icon: "⚡",
     name: "Luminous Mind Protocol",
     focus: "Whole-system cognitive care, sleep, and neural resilience",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
+    href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
     pdfUrl: "/downloads/field-guides/luminous-mind-field-guide.pdf"
   },
   "cellular senescence": {
     icon: "🍃",
     name: "Cell Shedding Protocol",
     focus: "Targeted cellular renewal and senolytic support",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
+    href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
     pdfUrl: "/downloads/field-guides/cell-shedding-field-guide.pdf"
   },
   "gut health": {
     icon: "🌱",
     name: "Inner Garden Protocol",
     focus: "Microbiome balance, gut mucosal integrity, and motility",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
+    href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
     pdfUrl: "/downloads/field-guides/inner-garden-field-guide.pdf"
   },
   "metabolic health": {
     icon: "🔥",
     name: "Higher Flame Protocol",
     focus: "Metabolic flexibility, glucose transport, and mitochondrial energy",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
+    href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
     pdfUrl: "/downloads/field-guides/higher-flame-field-guide.pdf"
   },
   "detoxification": {
     icon: "🌊",
     name: "Living Waters Protocol",
     focus: "Liver sequence processing, hydration, and cellular transport",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
+    href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
     pdfUrl: "/downloads/field-guides/living-waters-field-guide.pdf"
   },
   "longevity": {
     icon: "🪞",
     name: "Dark Mirror Protocol",
     focus: "Advanced mineral clearing and biological aging support",
-    href: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
+    href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
     pdfUrl: "/downloads/field-guides/dark-mirror-field-guide.pdf"
   }
 };
 
-const protocolCard = categoryToProtocol[entry.data.category.toLowerCase()] ?? categoryToProtocol["brain health"];
+// Prefer the spiral the pipeline actually routed this brief to. Routing applies
+// keyword overrides on top of the category — a chelation story filed under brain
+// health goes to Dark Mirror — so resolving the closing card from the category
+// alone made the two cards on the page recommend different programs.
+const protocolByName = Object.fromEntries(
+  Object.values(categoryToProtocol).map((p) => [p.name.replace(" Protocol", "").toLowerCase(), p])
+);
+const protocolCard =
+  protocolByName[(entry.data.spiral ?? "").toLowerCase()] ??
+  categoryToProtocol[entry.data.category.toLowerCase()] ??
+  categoryToProtocol["brain health"];
 const frontierLinks = frontierForCategory(entry.data.category);
 const structuredData = [
   {
@@ -183,10 +193,10 @@ const structuredData = [
 
     {/* Interactive Biophysics Calculators */}
     {(entry.data.category === "longevity" || entry.id.includes("water") || entry.id.includes("living") || entry.id.includes("hydration")) && (
-      <EZWaterCalculator />
+      <EZWaterCalculator protocolName={protocolCard.name.replace(" Protocol", "")} protocolHref={protocolCard.href} />
     )}
     {(entry.data.category === "brain health" || entry.data.category === "sleep health" || entry.id.includes("sleep") || entry.id.includes("mind") || entry.id.includes("alzheimer")) && (
-      <GlymphaticCalculator />
+      <GlymphaticCalculator protocolName={protocolCard.name.replace(" Protocol", "")} protocolHref={protocolCard.href} />
     )}
 
     {entry.data.autoresearch_antecedents && entry.data.autoresearch_antecedents.length > 0 && (

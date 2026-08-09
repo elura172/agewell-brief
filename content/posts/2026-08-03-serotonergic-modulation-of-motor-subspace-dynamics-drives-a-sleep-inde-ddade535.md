@@ -8,6 +8,7 @@ edition_id: "2026-08-03"
 source_url: "https://elifesciences.org/articles/110370"
 source_title: "Serotonergic modulation of motor subspace dynamics drives a sleep-independent quiescent state"
 source_name: "eLife Neuroscience"
+spiral: "Luminous Mind"
 image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 image_alt: "Abstract biophotonic neural subspace visualization"
 image_photographer: "Google DeepMind / Pexels"
@@ -30,7 +31,7 @@ This distinction is crucial for understanding how we rest without losing awarene
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
 <p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -64,16 +65,6 @@ As we age, sleep quality often declines, and understanding these mechanisms coul
 - Serotonin selectively suppresses motor circuits, not sensory processing.
 - Quiescence without postural loss may reflect ancestral restful vigilance.
 - Biophysical links: biophotons, EZ water, and metabolic shifts.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

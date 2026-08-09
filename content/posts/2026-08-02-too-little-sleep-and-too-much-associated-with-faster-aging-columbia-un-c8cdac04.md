@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUDNjVWVkTzBGOTlhOE04NjBSZW5TNGNhLXRwMWR1RzJacXlHdTY5SF94WjJfSVhta0pOWVh5eXM2UjY5TUJELUZxcFMtZVRJR3VGUThMWVJkc2t0UzlNTm9ISHpTWUZtWXJfdzlNdnplZjZqOFFUSmRJQVhiRjhlc3lsRWFROUlmUW8ybkVuOXU5eDQ?oc=5"
 source_title: "Too Little Sleep—and Too Much—Associated with Faster Aging - Columbia University Irving Medical Center"
 source_name: "Columbia University Irving Medical Center"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "20897580"
 image: "/images/editions/2026-08-02/too-little-sleep-and-too-much-associated-with-faster-aging-columbia-un-c8cdac04-pexels-20897580.webp"
@@ -29,16 +30,6 @@ A new study using organ-specific 'aging clocks' finds that both too little and t
 - Short and long sleep linked to faster organ aging.
 - Optimal sleep range: 6.4 to 7.8 hours.
 - Sleep duration tied to depression, heart disease, diabetes.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

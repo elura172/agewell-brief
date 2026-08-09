@@ -9,6 +9,7 @@ edition_id: "2026-08-08"
 source_url: "https://www.sciencedaily.com/releases/2026/08/260806050724.htm"
 source_title: "Scientists reveal how much exercise you really need to protect your heart"
 source_name: "ScienceDaily Top Health"
+spiral: "Higher Flame"
 image_provider: "Pexels"
 image_provider_id: "32213422"
 image: "/images/editions/2026-08-08/the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa-pexels-32213422.webp"
@@ -37,7 +38,7 @@ For sovereign adults who view their bodies as adaptive systems, this reframes ex
 <p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
 <h3>This is Higher Flame territory</h3>
 <p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this mobility story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -71,18 +72,6 @@ Finally, view this as a spectrum, not a binary. Even if you can't reach 10 hours
 - 150 minutes weekly cuts cardiovascular risk by only 8–9%.
 - Substantial protection (>30%) may require 560–610 minutes weekly.
 - Lower fitness demands 30–50 extra minutes for equal benefit.
-
-
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

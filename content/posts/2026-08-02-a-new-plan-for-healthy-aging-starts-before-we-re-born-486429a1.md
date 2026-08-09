@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://medicalxpress.com/news/2026-07-healthy-aging-born.html"
 source_title: "A new plan for healthy aging starts before we're born"
 source_name: "Medical Xpress"
+spiral: "Cell Shedding"
 image_id: 5638414
 image_provider: "Pexels"
 image_provider_id: "5638414"
@@ -40,7 +41,7 @@ Scientists are developing a new field to help us stay healthier longer, with roo
 <p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
 <h3>This is Cell Shedding territory</h3>
 <p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -52,16 +53,6 @@ Scientists are developing a new field to help us stay healthier longer, with roo
 The modern proposal for a new field in longevity medicine builds directly on the Barker hypothesis and developmental plasticity. It extends the concept of early-life programming to include not only fetal nutrition but also maternal stress, environmental exposures, and epigenetic modifications. The mechanistic bridge is the recognition that early-life conditions induce persistent epigenetic changes (e.g., DNA methylation) that influence aging trajectories, as later shown by Horvath's epigenetic clocks. Thus, interventions before birth could optimize healthspan by resetting these epigenetic marks.
 
 **Ancestral parallel:** Traditional societies often emphasize maternal nutrition and prenatal care, such as the 'first 1000 days' concept in many cultures. Physical mechanisms include the thrifty phenotype hypothesis, where early nutritional cues adjust metabolic set points for anticipated environments. This parallels ancestral practices of ensuring nutrient-dense foods for pregnant women, which may have evolved to optimize offspring survival and long-term health in fluctuating environments.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

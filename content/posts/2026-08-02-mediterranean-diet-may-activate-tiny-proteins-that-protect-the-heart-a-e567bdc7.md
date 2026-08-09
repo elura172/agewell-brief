@@ -9,6 +9,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.sciencedaily.com/releases/2026/07/260716023605.htm"
 source_title: "Mediterranean diet may activate tiny proteins that protect the heart and brain"
 source_name: "ScienceDaily Healthy Aging"
+spiral: "Higher Flame"
 image_provider: "Pexels"
 image_provider_id: "6973090"
 image: "/images/editions/2026-08-02/mediterranean-diet-may-activate-tiny-proteins-that-protect-the-heart-a-e567bdc7-pexels-6973090.webp"
@@ -30,16 +31,6 @@ A small pilot study finds that older adults who closely follow a Mediterranean e
 - Higher adherence to Mediterranean diet linked to more humanin and SHMOOSE.
 - Olive oil, fish, legumes tied to humanin; olive oil and fewer refined carbs to SHMOOSE.
 - Study is observational; cannot prove diet causes changes.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

@@ -9,6 +9,7 @@ edition_id: "2026-08-08"
 source_url: "https://medicalxpress.com/news/2026-08-discovery-reveals-aging-human-brains.html"
 source_title: "Discovery reveals aging human brains receive immune cell reinforcements from blood"
 source_name: "Medical Xpress Healthy Aging"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "28570735"
 image: "/images/editions/2026-08-08/aging-brains-draft-blood-borne-immune-reinforcements-the-blood-brain-b-51930a90-pexels-28570735.webp"
@@ -35,7 +36,7 @@ The stakes are concrete: every heartbeat delivers blood-borne signals and cells 
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
 <p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -63,17 +64,6 @@ Intermittent fasting and resistance training have also been shown to enhance aut
 - Brain immune isolation is not absolute; aging may open a regulated door.
 - Historical BBB work by Ehrlich and Goldman supports selective permeability.
 - Lifestyle levers like exercise and fasting may modulate brain-immune traffic.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

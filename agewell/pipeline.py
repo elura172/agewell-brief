@@ -980,20 +980,24 @@ def markdown(
     published_at = edition_time or dt.datetime.now(dt.timezone.utc)
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
     sections = ""
-    closing_card = spiral_card(spiral, category, placement="closing") if spiral else ""
+    # One card in the body, placed after the opening section, and one at the very
+    # end of the page (the protocol card, rendered by the brief template from the
+    # `spiral` frontmatter below). Three near-identical cards plus the sticky bar
+    # read as pressure rather than as a recommendation, and the opening and
+    # closing cards pointed at a byte-identical URL and PDF.
     if content_type in {"lead", "evergreen", "editorial"}:
         section_blocks = [
             f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
             for section in content.get("sections", [])
         ]
         if section_blocks and spiral:
-            # Long-form briefs carry the spiral twice inside the body — once early, once
-            # deeper in — so a reader who lands mid-article still meets the connection.
             section_blocks.insert(1, spiral_card(spiral, category, placement="opening"))
-            if len(section_blocks) > 4:
-                section_blocks.insert(4, spiral_card(spiral, category, placement="mid"))
         sections = "\n\n".join(section_blocks)
     health_note = content["caveat"]
+    # The template resolves the closing protocol card from this, so both cards on
+    # the page name the same program even when a keyword override sends a brief
+    # somewhere its category alone would not.
+    spiral_frontmatter = f'spiral: "{quote(spiral["name"])}"\n' if spiral else ""
     image_frontmatter = ""
     if photo:
         image_frontmatter = f'''image_provider: "{quote(photo.provider)}"
@@ -1020,7 +1024,7 @@ edition_id: "{published_at.date().isoformat()}"
 source_url: "{quote(item.link)}"
 source_title: "{quote(item.title)}"
 source_name: "{quote(item.source_name)}"
-{image_frontmatter}---
+{spiral_frontmatter}{image_frontmatter}---
 
 {content["dek"]}
 
@@ -1029,7 +1033,6 @@ source_name: "{quote(item.source_name)}"
 ## Three things to remember
 
 {bullets}
-{closing_card}
 
 ### Source
 

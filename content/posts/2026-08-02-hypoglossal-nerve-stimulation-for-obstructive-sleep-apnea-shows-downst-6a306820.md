@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://medicalxpress.com/news/2026-07-hypoglossal-nerve-obstructive-apnea-downstream.html"
 source_title: "Hypoglossal nerve stimulation for obstructive sleep apnea shows downstream health benefits"
 source_name: "Medical Xpress Sleep"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "31188648"
 image: "/images/editions/2026-08-02/hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea-shows-downst-6a306820-pexels-31188648.webp"
@@ -32,16 +33,6 @@ A new analysis suggests that treating obstructive sleep apnea with hypoglossal n
 - Over 80 million U.S. adults have sleep apnea.
 - The condition raises risks for diabetes and heart disease.
 - Nerve stimulation may ease apnea and improve health.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

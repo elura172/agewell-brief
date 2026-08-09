@@ -8,6 +8,7 @@ edition_id: "2026-08-03"
 source_url: "https://medicalxpress.com/news/2026-07-enzyme-zombie-cells-tissues.html"
 source_title: "Could this enzyme help remove 'zombie' cells from our tissues?"
 source_name: "Medical Xpress Healthy Aging"
+spiral: "Cell Shedding"
 image_provider: "Pexels"
 image_provider_id: "11730899"
 image: "/images/editions/2026-08-03/could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd-pexels-11730899.webp"
@@ -35,7 +36,7 @@ One suspect is cellular senescence. When cells stop dividing but refuse to die, 
 <p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
 <h3>This is Cell Shedding territory</h3>
 <p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -63,16 +64,6 @@ Keep an eye on this research, but don't wait for a magic bullet. The best strate
 - Senescent cells accumulate with age and may drive inflammation.
 - An enzyme could help clear these 'zombie' cells.
 - Early research, not yet a proven therapy.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

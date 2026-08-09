@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.sciencedaily.com/releases/2026/07/260713000753.htm"
 source_title: "Where you live could shape your dementia risk, massive study finds"
 source_name: "ScienceDaily Healthy Aging"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "33768815"
 image: "/images/editions/2026-08-02/where-you-live-could-shape-your-dementia-risk-massive-study-finds-8c294954-pexels-33768815.webp"
@@ -36,7 +37,7 @@ But the findings also carry a hopeful message: many of the biggest risk factors 
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
 <p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -70,16 +71,6 @@ The researchers plan to expand their work to more countries, including Kenya and
 - Dementia risk factors vary widely by country, study finds.
 - Low education affects 85.6% in China vs. 12% in U.S.
 - High BMI found in 44.9% of Americans vs. 13.3% in India.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

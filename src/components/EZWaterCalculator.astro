@@ -1,5 +1,17 @@
 ---
 /* EZ Water & Cellular Charge Transport Interactive Calculator */
+
+/* The protocol this tool points at is passed in by the page, so the calculator
+   cannot recommend a different program than the rest of the brief. The former
+   hardcoded slug was not a real plan id and bounced to the store front door. */
+interface Props {
+  protocolName?: string;
+  protocolHref?: string;
+}
+const {
+  protocolName = "Living Waters",
+  protocolHref = "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA=="
+} = Astro.props;
 ---
 
 <div class="ez-calculator-card" id="ez-water-calculator">
@@ -63,8 +75,8 @@
         <strong>💡 Recommendation:</strong> Your EZ formation potential is in the <em>Optimal Range</em>. To boost cellular charge, pair morning infrared sunlight with ionic trace minerals.
       </div>
 
-      <a href="https://ca.fullscript.com/u/plans/agewell-living-waters-cellular-transport-protocol" target="_blank" rel="sponsored noopener noreferrer" class="ez-fullscript-btn">
-        <span>View Fullscript Transport Protocol</span> ↗
+      <a href={protocolHref} target="_blank" rel="sponsored noopener noreferrer" class="ez-fullscript-btn">
+        <span>View the {protocolName} protocol</span> ↗
       </a>
     </div>
   </div>

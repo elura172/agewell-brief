@@ -9,6 +9,7 @@ edition_id: "2026-08-08"
 source_url: "https://www.frontiersin.org/articles/10.3389/fnhum.2026.1830622"
 source_title: "Research progress on the role of the locus coeruleus in cognitive function"
 source_name: "Frontiers in Human Neuroscience"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "15410078"
 image: "/images/editions/2026-08-08/the-locus-coeruleus-a-tiny-brain-nucleus-that-orchestrates-cognition-a-29ba27a2-pexels-15410078.webp"
@@ -33,13 +34,11 @@ Its ~1,600 neurons project diffusely to the hippocampus, prefrontal cortex, and 
 
 Understanding the LC is not just academic. It offers a unifying framework for why Alzheimer’s, Parkinson’s, ADHD, and autism share cognitive deficits, and it points to early biomarkers that could transform prevention.
 
-
-
 <aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
 <p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -60,17 +59,6 @@ The proposed four-pathway framework—neuromodulator imbalance, inflammatory-pha
 
 For the sovereign reader, the takeaway is mechanistic clarity: the LC is a hub that integrates fast state control (noradrenaline) with slow plasticity (dopamine). Its decline is a plausible early biomarker, but we are not yet at the point of clinical intervention.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--mid" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Work with this mechanism directly</h3>
-<p>Luminous Mind turns glymphatic clearance, neuroplasticity, and brain entrainment into a practitioner-designed protocol you can actually run, rather than a finding you can only read about.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
-
 ## Practical next steps
 
 For now, the most actionable insight is lifestyle: protect your LC by supporting cardiovascular health, sleep, and stress resilience. Chronic stress drives LC hyperactivity, which may accelerate its degeneration. Regular aerobic exercise and mindfulness-based stress reduction have been shown to modulate LC-NE function.
@@ -84,16 +72,6 @@ Stay tuned for clinical trials targeting the LC-NE system, such as noradrenergic
 - LC is the brain’s sole noradrenaline source, regulating arousal and cognition.
 - Early LC degeneration may predict Alzheimer’s and Parkinson’s years ahead.
 - Protect LC via sleep, exercise, and stress management.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

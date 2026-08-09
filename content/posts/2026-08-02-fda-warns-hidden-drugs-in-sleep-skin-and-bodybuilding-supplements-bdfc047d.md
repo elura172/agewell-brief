@@ -9,6 +9,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.fda.gov/drugs/medication-health-fraud-notifications/sleep-skin-bodybuilding-and-other-product-notifications"
 source_title: "Sleep, Skin, Bodybuilding and Other Product Notifications"
 source_name: "FDA Tainted Supplements"
+spiral: "Dark Mirror"
 image_provider: "Pexels"
 image_provider_id: "4031693"
 image: "/images/editions/2026-08-02/fda-warns-hidden-drugs-in-sleep-skin-and-bodybuilding-supplements-bdfc047d-pexels-4031693.webp"
@@ -30,16 +31,6 @@ Some products marketed as dietary supplements or foods contain undeclared drugs.
 - Hidden drug ingredients can appear in 'all natural' products.
 - The FDA maintains a searchable notification list online.
 - Check specific products before you buy or use them.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Dark Mirror program">
-<p class="resource-kicker">Spiral of Cellular Light · Dark Mirror</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Dark Mirror — mineral balance and bio-clearing — is the second: a structured protocol for heavy metal chelation, mineral ratios, and deep tissue clearing.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
-<p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

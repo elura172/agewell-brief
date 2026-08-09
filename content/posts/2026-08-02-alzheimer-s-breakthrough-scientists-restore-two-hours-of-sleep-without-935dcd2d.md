@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.sciencedaily.com/releases/2026/07/260719035931.htm"
 source_title: "Alzheimer’s breakthrough: Scientists restore two hours of sleep without clearing brain plaques"
 source_name: "ScienceDaily Healthy Aging"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "9574516"
 image: "/images/editions/2026-08-02/alzheimer-s-breakthrough-scientists-restore-two-hours-of-sleep-without-935dcd2d-pexels-9574516.webp"
@@ -37,7 +38,7 @@ That distinction matters because plaque burden alone did not track neatly with t
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
 <p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -71,16 +72,6 @@ For readers, the immediate takeaway is not a new remedy. It is a sharper picture
 - Sleep disruption did not rise as plaque burden increased in the mice.
 - Removing about 87 percent of microglia restored more than two hours of sleep.
 - The experiment identifies a mechanism to test; it is not a human treatment.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

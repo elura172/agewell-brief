@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.sciencedaily.com/releases/2026/07/260723084856.htm"
 source_title: "APOE2 may protect the brain from Alzheimer’s and aging"
 source_name: "ScienceDaily Healthy Aging"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "8940359"
 image: "/images/editions/2026-08-02/apoe2-may-protect-the-brain-from-alzheimer-s-and-aging-8de342d7-pexels-8940359.webp"
@@ -32,16 +33,6 @@ A new lab study reveals how the longevity-linked APOE2 variant protects neurons 
 - APOE2 neurons show less DNA damage and better repair than APOE3 or APOE4.
 - Adding APOE2 protein to APOE4 neurons reduced DNA damage signaling.
 - Older APOE2 mice had healthier aging markers in the hippocampus.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

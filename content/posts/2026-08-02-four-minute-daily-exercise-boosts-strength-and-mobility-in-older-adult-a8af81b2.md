@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNWctSXQzdGMzdGVpUzVlc0NaS3hWUThQUnhCWVlObGxhWmpNVUwyel92M01BekJEWDRVdXFtR1lYaHVLQmFBbmJfNUR6cHVtclAxY2RMeGRQWmprRUJXRHIxV0VlMnhFcDBoMEhqQWNGSG5tZzRoYmIyS2dMZHZUSGhrSXpOWDV4OXRNMVoxUkptVElueDRBM0hmTURfM0VVcjNUT2Zr?oc=5"
 source_title: "Four-minute daily exercise boosts strength and mobility in older adults - The Brighter Side of News"
 source_name: "The Brighter Side of News"
+spiral: "Living Waters"
 image_provider: "Pexels"
 image_provider_id: "6974989"
 image: "/images/editions/2026-08-02/four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2-pexels-6974989.webp"
@@ -36,7 +37,7 @@ That’s a hopeful message for anyone who has felt that exercise is out of reach
 <p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
 <h3>This is Living Waters territory</h3>
 <p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
 <p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -70,16 +71,6 @@ The study’s message is encouraging: small, consistent efforts can lead to mean
 - Four-minute daily routine improved chair stand and balance tests.
 - Participants completed exercises on 81% of days.
 - Study was small and short; more research needed.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Living Waters program">
-<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Living Waters — fluid and micro-circulation — is the second: a structured protocol for structured water, vascular transport, and clearing pathways.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
-<p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

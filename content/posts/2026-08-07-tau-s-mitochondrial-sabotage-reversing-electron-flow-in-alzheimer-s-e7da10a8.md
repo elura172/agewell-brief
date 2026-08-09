@@ -9,6 +9,7 @@ edition_id: "2026-08-07"
 source_url: "https://medicalxpress.com/news/2026-08-alzheimer-linked-tau-disrupts-mitochondria.html"
 source_title: "Alzheimer's-linked tau disrupts mitochondria, reversing electron flow in nerve cells"
 source_name: "Medical Xpress Neurology"
+spiral: "Higher Flame"
 image_provider: "Pexels"
 image_provider_id: "26184267"
 image: "/images/editions/2026-08-07/tau-s-mitochondrial-sabotage-reversing-electron-flow-in-alzheimer-s-e7da10a8-pexels-26184267.webp"
@@ -35,7 +36,7 @@ This isn't just about brain plaques. It's about energy. Neurons are among the mo
 <p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
 <h3>This is Higher Flame territory</h3>
 <p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -67,17 +68,6 @@ Stay informed as this research develops. The shift from tangles to mitochondrial
 - Tau reverses electron flow at Complex I, boosting ROS.
 - ATP synthesis drops, starving energy-hungry neurons.
 - Ancestral lifestyle supports mitochondrial resilience.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

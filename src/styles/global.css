@@ -306,11 +306,12 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 /* Overrides the 58ch on .resource-card p: 58ch at .75rem is only ~509px, which
    orphans the last two words of the disclosure onto their own line. */
 .resource-card .resource-disclosure { max-width: 620px; margin: 14px 0 0; color: var(--muted); font-size: .75rem; }
-/* A brief carries the same spiral up to three times. The closing card is the one
-   the reader should land on, so it gets the weight; the mid card stays quietest. */
-.resource-card--closing { border-left: 3px solid var(--saffron); }
-.resource-card--mid { background: color-mix(in oklch, var(--mist) 30%, var(--paper)); }
-.resource-card--mid h3 { font-size: 1.45rem; }
+/* A brief now carries the spiral once in the body and once as the closing
+   protocol card. The two former in-body variants gave the same program three
+   different weights on one page — a 1px accent, a flat tint, and a 3px bar — so
+   the single body card takes one treatment and the closing card carries the
+   weight, as the last thing the reader passes. */
+.resource-card--opening { border-left: 3px solid var(--saffron); }
 .article-content h3 + ul, .article-content h2 + ul { margin: 1em 0 2.2em; border: 1px solid var(--line); background: color-mix(in oklch, var(--mist) 42%, var(--paper)); padding: 20px 26px 20px 48px; font-family: var(--sans); font-size: 1rem; line-height: 1.55; }
 .article-content h3 + ul li, .article-content h2 + ul li { margin: 7px 0; padding-left: 5px; }
 .article-content h3 + ul li::marker, .article-content h2 + ul li::marker { color: var(--saffron-ink); font-weight: 700; }

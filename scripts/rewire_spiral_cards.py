@@ -29,6 +29,20 @@ def field(text: str, key: str) -> str:
     return match.group(1) if match else ""
 
 
+def set_field(head: str, key: str, value: str) -> str:
+    """Upsert a quoted frontmatter field, keeping the block otherwise intact."""
+    line = f'{key}: "{value}"'
+    pattern = re.compile(rf'^{re.escape(key)}: ".*"$', re.M)
+    if pattern.search(head):
+        return pattern.sub(line, head)
+    # Append after source_name, which every brief carries, so the field lands in
+    # the editorial block rather than among the image metadata.
+    anchor = re.compile(r'^(source_name: ".*")$', re.M)
+    if anchor.search(head):
+        return anchor.sub(rf"\1\n{line}", head, count=1)
+    return head.rstrip("\n") + f"\n{line}"
+
+
 def rewire(path: Path, resources: dict) -> str | None:
     text = path.read_text(encoding="utf-8")
     head, sep, body = text.partition("\n---\n")
@@ -49,21 +63,15 @@ def rewire(path: Path, resources: dict) -> str | None:
     body = CARD_RE.sub("", body)
     sections = [m.start() for m in re.finditer(r"^## ", body, re.M)]
 
-    # Closing card goes above the source note so the article ends on the program.
-    # The trailing "\n" is required, not cosmetic: spiral_card ends on "</aside>"
-    # and source_at points at the newline before "### Source", so without it the
-    # heading lands on the line straight after the closing tag. Markdown keeps an
-    # HTML block open until a blank line, so the heading gets swallowed into the
-    # block and renders as literal "### Source" text.
-    source_at = body.find("\n### Source")
-    closing = spiral_card(spiral, category, placement="closing")
-    body = body[:source_at] + "\n" + closing + "\n" + body[source_at:] if source_at != -1 else body + closing
-
-    # Opening card after the first section, mirroring the pipeline's placement.
+    # One card in the body, after the opening section, mirroring the pipeline. The
+    # page's second and final call to action is the protocol card the template
+    # renders from the `spiral` frontmatter written below — so the two agree by
+    # construction instead of being routed by two independent maps.
     if len(sections) >= 2:
         cut = sections[1]
         body = body[:cut] + spiral_card(spiral, category, placement="opening").lstrip("\n") + "\n\n" + body[cut:]
 
+    head = set_field(head, "spiral", spiral["name"])
     path.write_text(head + sep + body, encoding="utf-8")
     return spiral["name"]
 

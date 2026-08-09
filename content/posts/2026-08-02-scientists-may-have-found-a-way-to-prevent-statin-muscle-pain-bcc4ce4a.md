@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.sciencedaily.com/releases/2026/07/260731034152.htm"
 source_title: "Scientists may have found a way to prevent statin muscle pain"
 source_name: "ScienceDaily Top Health"
+spiral: "Living Waters"
 image_provider: "Pixabay"
 image_provider_id: "384566"
 image: "/images/editions/2026-08-02/scientists-may-have-found-a-way-to-prevent-statin-muscle-pain-bcc4ce4a-pixabay-384566.webp"
@@ -36,7 +37,7 @@ Until now, the biological reasons behind these muscle symptoms were poorly under
 <p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
 <h3>This is Living Waters territory</h3>
 <p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
 <p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -66,16 +67,6 @@ The researchers emphasize that more work is needed before this discovery can be 
 - Statins may trigger muscle damage via an immune response.
 - Blocking this response prevented damage in lab tests.
 - More research is needed before human treatments emerge.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Living Waters program">
-<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Living Waters — fluid and micro-circulation — is the second: a structured protocol for structured water, vascular transport, and clearing pathways.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
-<p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

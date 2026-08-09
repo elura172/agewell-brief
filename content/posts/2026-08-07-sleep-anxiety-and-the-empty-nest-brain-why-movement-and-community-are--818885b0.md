@@ -9,6 +9,7 @@ edition_id: "2026-08-07"
 source_url: "https://www.biorxiv.org/content/10.64898/2026.08.06.743184v1?rss=1"
 source_title: "Association of Sleep with Anxiety in Chinese Empty-Nest Older Adults: The Mediating Roles of Physical Exercise and Social Participation"
 source_name: "bioRxiv immunology and cell biology"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "36625069"
 image: "/images/editions/2026-08-07/sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0-pexels-36625069.webp"
@@ -35,7 +36,7 @@ For older adults living alone—the 'empty-nest' population—this loop tightens
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
 <p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this sleep health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -65,17 +66,6 @@ Finally, recognize that these are modifiable factors. You are not a passive vict
 - Poor sleep quality tripled anxiety odds in empty-nest elders.
 - Short sleep raised anxiety risk by 34%.
 - Exercise and social participation mediated the sleep–anxiety link.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

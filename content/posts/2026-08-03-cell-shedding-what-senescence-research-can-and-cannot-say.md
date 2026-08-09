@@ -4,9 +4,10 @@ draft: false
 category: "cellular senescence"
 content_type: "evergreen"
 edition_rank: 99
-source_url: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA=="
+source_url: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA=="
 source_title: "The Spiral of Cell Shedding — A Senolytic Protocol Guide"
 source_name: "Spiral of Cellular Light companion guide"
+spiral: "Cell Shedding"
 author: "Agewell Brief Editorial Desk"
 image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 image_alt: "Microscopic cellular membrane and organelle renewal"
@@ -30,7 +31,7 @@ That distinction matters. A person reading about senolytics may encounter strong
 <p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
 <h3>This is Cell Shedding territory</h3>
 <p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this cellular senescence story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -57,18 +58,8 @@ Use the guide as a reading map. Ask what the human evidence shows, what remains 
 - A supplement protocol cannot be inferred from a laboratory finding.
 - Ask about evidence, interactions, dose, and monitoring before acting.
 
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
-
 ### Source
 
-This evergreen program perspective is based on [The Spiral of Cell Shedding — A Senolytic Protocol Guide](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==), supplied as a companion guide for the Spiral of Cellular Light.
+This evergreen program perspective is based on [The Spiral of Cell Shedding — A Senolytic Protocol Guide](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==), supplied as a companion guide for the Spiral of Cellular Light.
 
 > **Health note:** This article is informational and does not recommend a senolytic regimen or claim to clear senescent cells.

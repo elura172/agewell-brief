@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.sciencedaily.com/releases/2026/08/260801042811.htm"
 source_title: "Eating less protein could slow aging, major review finds"
 source_name: "ScienceDaily Top Health"
+spiral: "Cell Shedding"
 image_provider: "Pexels"
 image_provider_id: "5638644"
 image: "/images/editions/2026-08-02/eating-less-protein-could-slow-aging-major-review-finds-e7e51910-pexels-5638644.webp"
@@ -36,7 +37,7 @@ The review's lead author, Dudley Lamming of the University of Wisconsin-Madison,
 <p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
 <h3>This is Cell Shedding territory</h3>
 <p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -70,16 +71,6 @@ The review's findings suggest that protein restriction may offer an alternative 
 - Review of 350+ studies links lower protein to better metabolism.
 - Hormone FGF21 rises with protein restriction, aiding longevity.
 - Excess certain amino acids may accelerate aging.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Cell Shedding — senescence and cellular renewal — is the second: a structured protocol for senolytic clearing, autophagy activation, and SASP reduction.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

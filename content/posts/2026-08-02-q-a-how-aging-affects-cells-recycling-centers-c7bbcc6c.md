@@ -5,6 +5,7 @@ category: "longevity"
 source_url: "https://medicalxpress.com/news/2026-07-qa-aging-affects-cells-recycling.html"
 source_title: "Q&A: How aging affects cells' recycling centers"
 source_name: "Medical Xpress Healthy Aging"
+spiral: "Luminous Mind"
 image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 image_alt: "Biological clock and mitochondrial vitality"
 image_photographer: "RF._.studio / Pexels"
@@ -24,16 +25,6 @@ Lysosomes, the cell's recycling hubs, may play a role in age-related diseases li
 - Lysosomes are cell recycling centers that break down harmful molecules.
 - Problems with lysosome function are linked to common age-related conditions.
 - Scientists are learning more about lysosomes' broader role in health.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

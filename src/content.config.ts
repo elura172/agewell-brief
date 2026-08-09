@@ -38,7 +38,11 @@ const briefs = defineCollection({
     })).optional().default([]),
     ancestral_insight: z.string().optional(),
     topics: z.array(z.string()).optional().default([]),
-    frameworks: z.array(z.string()).optional().default([])
+    frameworks: z.array(z.string()).optional().default([]),
+    // Which Spiral program this brief routes to. Written at generation time by the
+    // same routing that places the in-body card, so the closing card cannot
+    // recommend a different program than the body does.
+    spiral: z.string().optional()
   })
 });
 

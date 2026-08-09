@@ -8,6 +8,7 @@ edition_id: "2026-08-03"
 source_url: "https://onlinelibrary.wiley.com/doi/10.1111/acel.70647?af=R"
 source_title: "Activation of the Lactate Receptor GPR81 Ameliorates Senescence Hallmarks and Improves Muscle Function in Cellular and Progeroid Models of Aging"
 source_name: "Aging Cell"
+spiral: "Higher Flame"
 image_provider: "Pexels"
 image_provider_id: "11899950"
 image: "/images/editions/2026-08-03/activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162-pexels-11899950.webp"
@@ -36,7 +37,7 @@ This study identifies GPR81, a receptor activated by lactate, as such a switch. 
 <p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
 <h3>This is Higher Flame territory</h3>
 <p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -70,16 +71,6 @@ Stay informed about clinical trials targeting GPR81. If human studies confirm th
 - GPR81 activation reduces senescence markers in cells and mice.
 - Muscle function improved in progeroid mice after treatment.
 - Lactate from exercise may naturally activate this anti-aging pathway.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PbWttb3VWVkxtQ2lhZlgtMEtGT2J6S0FLc19FbHAwTlhTX0N6RVROV0U5bVBRaHQ4UXFFVGR5NDQ1WkxGS3FIQ0c4aWViSXNzRW1kSk9wWXg0a29lVkl0MFQ2Zm4wd3Q3SHhOSmRLYw?oc=5"
 source_title: "A weak body clock may be an early warning for dementia - ScienceDaily"
 source_name: "ScienceDaily"
+spiral: "Luminous Mind"
 image_provider: "Pixabay"
 image_provider_id: "2155376"
 image: "/images/editions/2026-08-02/a-weak-body-clock-may-be-an-early-warning-for-dementia-sciencedaily-4e3cf41d-pixabay-2155376.webp"
@@ -36,7 +37,7 @@ New research links weaker daily rhythms to increased dementia risk in older adul
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
 <p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -48,16 +49,6 @@ New research links weaker daily rhythms to increased dementia risk in older adul
 The modern finding that weaker circadian rhythms precede dementia aligns with Halberg's chronobiological framework, which posits that rhythm disruption is an early marker of pathology. Selye's work provides a mechanistic link: chronic stress (a known dementia risk factor) can desynchronize the suprachiasmatic nucleus (SCN), the brain's master clock, leading to the weakened daily activity patterns observed. This disruption may impair neuroimmune function, increase neuroinflammation, and accelerate neurodegeneration, as supported by recent studies on circadian gene knockouts in animal models.
 
 **Ancestral parallel:** Traditional hunter-gatherer lifestyles, such as those of the Hadza, are characterized by strong daily rhythms tied to natural light-dark cycles and physical activity. These patterns synchronize the SCN and peripheral clocks, optimizing metabolic and immune function. In contrast, modern sedentary indoor living with artificial lighting and irregular schedules weakens these rhythms, potentially increasing dementia risk. The physical mechanism involves light exposure regulating the SCN via the retinohypothalamic tract, which then modulates cortisol and melatonin secretion, affecting neuronal health and amyloid clearance.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

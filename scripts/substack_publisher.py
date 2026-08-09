@@ -60,9 +60,9 @@ def parse_brief_markdown(filepath):
 ---
 
 ### 🌊 Companion Field Manuals & Protocol Links
-* **Living Waters Protocol**: [View Practitioner Formulation](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==)
-* **Luminous Mind Protocol**: [View Brain & Sleep Support](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==)
-* **Inner Garden Protocol**: [View Gut Mucosal Care](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==)
+* **Living Waters Protocol**: [View Practitioner Formulation](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==)
+* **Luminous Mind Protocol**: [View Brain & Sleep Support](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==)
+* **Inner Garden Protocol**: [View Gut Mucosal Care](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==)
 
 *Clear signals. Better questions.*
 """

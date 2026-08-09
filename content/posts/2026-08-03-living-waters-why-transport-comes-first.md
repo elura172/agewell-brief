@@ -4,9 +4,10 @@ draft: false
 category: "detoxification"
 content_type: "evergreen"
 edition_rank: 99
-source_url: "https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA=="
+source_url: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA=="
 source_title: "The Spiral of Living Waters — Transport Clearing Protocol"
 source_name: "Spiral of Cellular Light companion guide"
+spiral: "Living Waters"
 author: "Agewell Brief Editorial Desk"
 image: "https://images.pexels.com/photos/4031693/pexels-photo-4031693.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
 image_alt: "Cellular clearance and autophagic purification"
@@ -30,7 +31,7 @@ This is a program perspective, not an independent clinical review. The guide use
 <p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
 <h3>This is Living Waters territory</h3>
 <p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this detoxification story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
 <p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -57,18 +58,8 @@ Readers can use the Living Waters guide as a question set: What is the intended 
 - Program language is not the same as independent clinical evidence.
 - Introduce changes carefully and discuss supplement plans with a clinician.
 
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Living Waters program">
-<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Living Waters — fluid and micro-circulation — is the second: a structured protocol for structured water, vascular transport, and clearing pathways.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
-<p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
-
 ### Source
 
-This evergreen program perspective is based on [The Spiral of Living Waters — Transport Clearing Protocol](https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==), supplied as a companion guide for the Spiral of Cellular Light.
+This evergreen program perspective is based on [The Spiral of Living Waters — Transport Clearing Protocol](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==), supplied as a companion guide for the Spiral of Cellular Light.
 
 > **Health note:** This article is informational and does not diagnose, treat, or recommend a detoxification protocol.

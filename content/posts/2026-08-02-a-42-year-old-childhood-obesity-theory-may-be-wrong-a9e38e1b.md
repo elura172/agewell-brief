@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://www.sciencedaily.com/releases/2026/07/260729051534.htm"
 source_title: "A 42-year-old childhood obesity theory may be wrong"
 source_name: "ScienceDaily Healthy Aging"
+spiral: "Higher Flame"
 image_provider: "Pexels"
 image_provider_id: "7653122"
 image: "/images/editions/2026-08-02/a-42-year-old-childhood-obesity-theory-may-be-wrong-a9e38e1b-pexels-7653122.webp"
@@ -39,7 +40,7 @@ A more accurate measure shows body fat doesn't rebound in kids; BMI rise may be 
 <p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
 <h3>This is Higher Flame territory</h3>
 <p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -51,16 +52,6 @@ A more accurate measure shows body fat doesn't rebound in kids; BMI rise may be 
 The modern study challenges the 42-year-old theory by using more accurate body composition measures (e.g., DEXA or bioimpedance) instead of BMI. It shows that the BMI rise at age 6 is due to muscle and lean tissue growth, not fat rebound. This aligns with the historical critique of BMI as a proxy for fatness, and with the understanding that growth spurts involve lean mass accretion. The finding suggests that the original theory was based on a flawed metric, and that the 'rebound' was an artifact of BMI's inability to distinguish fat from muscle.
 
 **Ancestral parallel:** In ancestral hunter-gatherer societies, childhood growth spurts were likely characterized by increases in lean mass and muscle development, essential for survival skills like hunting and gathering. The modern finding that BMI rise in children is due to muscle growth parallels this ancestral pattern, where physical activity and protein-rich diets supported lean mass accretion. This contrasts with modern sedentary lifestyles and processed diets that may promote fat accumulation, highlighting the importance of physical activity and whole foods for healthy growth.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Higher Flame — metabolic resilience and mitochondria — is the second: a structured protocol for mitochondrial respiration, fuel flexibility, and thermogenesis.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

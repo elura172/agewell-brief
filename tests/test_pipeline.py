@@ -473,14 +473,16 @@ def _content():
     }
 
 
-def test_signal_brief_carries_one_spiral_card_before_the_source():
+def test_signal_brief_carries_no_body_card_but_names_its_spiral():
+    """Short signals have no sections to place a card between, so their single
+    call to action is the protocol card the template renders at the end of the
+    page from the `spiral` frontmatter."""
     item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
     result = markdown(item, "brain health", _content(), spiral=SPIRALS["spirals"]["luminous mind"])
 
-    assert result.count("https://example.test/luminous-mind") == 1
-    assert result.index('class="resource-card') < result.index("### Source")
-    assert result.count('class="resource-card') == 1
-    assert "is our own program" in result
+    assert result.count('class="resource-card') == 0
+    assert 'spiral: "Luminous Mind"' in result
+    assert "### Source" in result
 
 
 def test_no_third_party_affiliate_links_are_ever_emitted():
@@ -491,11 +493,19 @@ def test_no_third_party_affiliate_links_are_ever_emitted():
 
 def test_commercial_links_are_marked_sponsored():
     item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
-    result = markdown(item, "brain health", _content(), spiral=SPIRALS["spirals"]["luminous mind"])
+    content = _content()
+    content["sections"] = [
+        {"heading": f"section {n}", "paragraphs": ["Body copy."]} for n in range(3)
+    ]
+    result = markdown(
+        item, "brain health", content, content_type="lead", spiral=SPIRALS["spirals"]["luminous mind"]
+    )
     assert 'rel="sponsored noopener noreferrer"' in result
 
 
-def test_long_form_brief_repeats_the_spiral_in_the_body():
+def test_long_form_brief_carries_exactly_one_body_card_after_the_opening_section():
+    """One card in the body and one at the end of the page. Three near-identical
+    cards pointing at the same URL read as pressure, not as a recommendation."""
     item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
     content = _content()
     content["sections"] = [
@@ -503,7 +513,10 @@ def test_long_form_brief_repeats_the_spiral_in_the_body():
     ]
     result = markdown(item, "longevity", content, content_type="evergreen", spiral=SPIRALS["spirals"]["cell shedding"])
 
-    assert result.count('class="resource-card') == 3
+    assert result.count('class="resource-card') == 1
+    # After the opening section, not before it.
+    assert result.index("## section 0") < result.index('class="resource-card') < result.index("## section 1")
+    assert 'spiral: "Cell Shedding"' in result
     assert 'content_type: "evergreen"' in result
 
 

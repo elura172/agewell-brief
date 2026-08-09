@@ -8,6 +8,7 @@ edition_id: "2026-08-02"
 source_url: "https://medicalxpress.com/news/2026-07-gut-jet-lag-days-vacation.html"
 source_title: "Your gut can get jet lag too: How not to waste the first days of your vacation"
 source_name: "Medical Xpress Sleep"
+spiral: "Inner Garden"
 image_provider: "Pexels"
 image_provider_id: "1458302"
 image: "/images/editions/2026-08-02/your-gut-can-get-jet-lag-too-how-not-to-waste-the-first-days-of-your-v-383365b2-pexels-1458302.webp"
@@ -29,16 +30,6 @@ Long flights disrupt more than sleep—your gut bacteria may also feel the time 
 - Jet lag affects your gut microbiome, not just your sleep.
 - Gut disruption can cause fatigue and digestive discomfort.
 - Plan ahead to help your gut adjust to new time zones.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Inner Garden program">
-<p class="resource-kicker">Spiral of Cellular Light · Inner Garden</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Inner Garden — gut microbiome ecology — is the second: a structured protocol for short-chain fatty acid signaling and gut barrier integrity.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="sponsored noopener noreferrer">Open the Inner Garden protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/inner-garden-field-guide.pdf" download>Download the Inner Garden field guide (PDF)</a></p>
-<p class="resource-disclosure">Inner Garden is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 

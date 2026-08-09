@@ -9,6 +9,7 @@ edition_id: "2026-08-05"
 source_url: "https://www.frontiersin.org/articles/10.3389/fnhum.2026.1913294"
 source_title: "Effects of neural aging on speech perception in bilinguals vs. monolinguals"
 source_name: "Frontiers in Human Neuroscience"
+spiral: "Luminous Mind"
 image_provider: "Pexels"
 image_provider_id: "24346263"
 image: "/images/editions/2026-08-05/effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983-pexels-24346263.webp"
@@ -35,7 +36,7 @@ This study zeroes in on a specific neural mechanism: the mismatch negativity (MM
 <p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
 <h3>This is Luminous Mind territory</h3>
 <p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
 </aside>
@@ -69,16 +70,6 @@ The deeper lesson is that the brain is not a passive receiver of sound—it is a
 - Older monolinguals showed delayed MMN in left hemisphere and midline.
 - Older bilinguals showed only a single frontal site delay.
 - Bilingualism may preserve automatic speech discrimination in aging.
-
-
-<aside class="resource-card resource-card--primary resource-card--closing" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>Where to take this next</h3>
-<p>Reading the research is the first move. Luminous Mind — cognitive and neural coherence — is the second: a structured protocol for glymphatic clearance, neuroplasticity, and brain entrainment.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/u/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-</aside>
 
 ### Source
 
