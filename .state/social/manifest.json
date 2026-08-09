@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-09T07:18:02.284058+00:00",
+  "updated_at": "2026-08-09T07:48:50.098379+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -305,22 +305,23 @@
       "video_job": ".state/video-jobs/2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d.json",
       "platforms": {
         "facebook": {
-          "status": "pending",
+          "status": "upload_failed",
           "request_id": null,
           "job_id": null,
-          "updated_at": "2026-08-04T00:14:01.562557+00:00"
+          "updated_at": "2026-08-09T07:48:42.082211+00:00",
+          "last_error": "HTTPError"
         },
         "tiktok": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-04T00:14:01.562562+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d",
+          "job_id": "2625db519a1c40f6b4ee045c6f30c22c",
+          "updated_at": "2026-08-09T07:48:50.092842+00:00"
         },
         "youtube": {
-          "status": "pending",
-          "request_id": null,
-          "job_id": null,
-          "updated_at": "2026-08-04T00:14:01.562565+00:00"
+          "status": "queued",
+          "request_id": "agewell-video-2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d",
+          "job_id": "2625db519a1c40f6b4ee045c6f30c22c",
+          "updated_at": "2026-08-09T07:48:50.092871+00:00"
         }
       },
       "updated_at": "2026-08-04T00:14:01.563027+00:00"
