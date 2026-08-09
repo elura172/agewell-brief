@@ -34,6 +34,7 @@ That distinction is the place to begin. The Dark Mirror guide is a program docum
 <p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==" rel="sponsored noopener noreferrer">Open the Dark Mirror protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/dark-mirror-field-guide.pdf" download>Download the Dark Mirror field guide (PDF)</a></p>
 <p class="resource-disclosure">Dark Mirror is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<p class="resource-shipping">Supplements ship within Canada while we expand internationally. The protocol itself — the full field guide — is yours anywhere.</p>
 </aside>
 
 ## What the framework emphasizes

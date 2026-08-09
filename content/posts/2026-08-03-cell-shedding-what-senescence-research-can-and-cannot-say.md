@@ -34,6 +34,7 @@ That distinction matters. A person reading about senolytics may encounter strong
 <p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">Open the Cell Shedding protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
 <p class="resource-disclosure">Cell Shedding is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<p class="resource-shipping">Supplements ship within Canada while we expand internationally. The protocol itself — the full field guide — is yours anywhere.</p>
 </aside>
 
 ## What the framework emphasizes

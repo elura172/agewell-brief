@@ -39,6 +39,7 @@ This is not abstract gerontology. The Windkessel model, formalized by Otto Frank
 <p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">Open the Living Waters protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
 <p class="resource-disclosure">Living Waters is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<p class="resource-shipping">Supplements ship within Canada while we expand internationally. The protocol itself — the full field guide — is yours anywhere.</p>
 </aside>
 
 ## what was found

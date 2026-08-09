@@ -29,6 +29,7 @@ For sovereign adults who want to protect their cognitive future, this is a step 
 <p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">Open the Luminous Mind protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
 <p class="resource-disclosure">Luminous Mind is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<p class="resource-shipping">Supplements ship within Canada while we expand internationally. The protocol itself — the full field guide — is yours anywhere.</p>
 </aside>
 
 ## What was found

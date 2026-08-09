@@ -894,6 +894,13 @@ def spiral_card(spiral: dict[str, Any], category: str, *, placement: str = "mid"
         f"{guide_link}\n"
         f'<p class="resource-disclosure">{name} is our own program. We earn a commission '
         f"when you enrol; there is no added cost to you.</p>\n"
+        # The dispensary is a Canadian Fullscript storefront and Fullscript does not
+        # ship across the border, so most non-Canadian readers cannot complete an
+        # order. Say so at the point of the click rather than at the checkout
+        # address field, and point at the field guide, which has no such limit.
+        f'<p class="resource-shipping">Supplements ship within Canada while we expand '
+        f"internationally. The protocol itself — the full field guide — is yours "
+        f"anywhere.</p>\n"
         f"</aside>"
     )
     return card

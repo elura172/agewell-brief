@@ -232,6 +232,7 @@ const structuredData = [
         </a>
       </div>
       <p class="protocol-disclosure">Verified practitioner formulation. Commission-supported; no added cost to you.</p>
+      <p class="protocol-shipping">Supplements ship within Canada while we expand internationally. The protocol itself — the full field guide — is yours anywhere.</p>
     </aside>
 
     {related.length > 0 && <section class="related-briefs" aria-labelledby="related-heading">
@@ -378,6 +379,16 @@ const structuredData = [
     font-size: 0.75rem;
     color: var(--muted);
     margin: 0;
+  }
+  /* See .resource-shipping in global.css — same purpose on the closing card. */
+  .protocol-shipping {
+    max-width: 62ch;
+    margin: 8px 0 0;
+    padding-left: 10px;
+    border-left: 2px solid color-mix(in oklch, var(--saffron) 55%, transparent);
+    color: var(--ink-soft);
+    font-size: 0.78rem;
+    line-height: 1.45;
   }
 
   /* Inline rather than inline-flex: in the 226px rail the framework name wraps,

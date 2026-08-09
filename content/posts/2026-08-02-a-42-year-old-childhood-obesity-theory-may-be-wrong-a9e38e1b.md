@@ -43,6 +43,7 @@ A more accurate measure shows body fat doesn't rebound in kids; BMI rise may be 
 <p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">Open the Higher Flame protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
 <p class="resource-disclosure">Higher Flame is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<p class="resource-shipping">Supplements ship within Canada while we expand internationally. The protocol itself — the full field guide — is yours anywhere.</p>
 </aside>
 
 ## How to interpret it

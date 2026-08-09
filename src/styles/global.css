@@ -306,6 +306,18 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 /* Overrides the 58ch on .resource-card p: 58ch at .75rem is only ~509px, which
    orphans the last two words of the disclosure onto their own line. */
 .resource-card .resource-disclosure { max-width: 620px; margin: 14px 0 0; color: var(--muted); font-size: .75rem; }
+/* Reads as useful information rather than more small print: the reader needs it
+   before the click, not at a checkout address field. Slightly darker than the
+   commission disclosure above it, and marked so the two do not merge. */
+.resource-card .resource-shipping {
+  max-width: 620px;
+  margin: 8px 0 0;
+  padding-left: 10px;
+  border-left: 2px solid color-mix(in oklch, var(--saffron) 55%, transparent);
+  color: var(--ink-soft);
+  font-size: .78rem;
+  line-height: 1.45;
+}
 /* A brief now carries the spiral once in the body and once as the closing
    protocol card. The two former in-body variants gave the same program three
    different weights on one page — a 1px accent, a flat tint, and a 3px bar — so
@@ -343,6 +355,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 .topic-resource a { display: block; color: var(--ink); font-weight: 700; text-decoration-color: var(--saffron); text-decoration-thickness: 2px; }
 .topic-resource a span { padding-left: 6px; color: var(--saffron-ink); }
 .topic-resource small { display: block; margin-top: 10px; color: var(--muted); font-size: .72rem; line-height: 1.4; }
+.topic-resource .topic-shipping { margin-top: 8px; padding-left: 9px; border-left: 2px solid color-mix(in oklch, var(--saffron) 55%, transparent); color: var(--ink-soft); }
 .topic-resource .topic-framework-link { margin-bottom: 8px; color: var(--muted); font-size: .8rem; font-weight: 600; text-decoration-thickness: 1px; }
 .topic-list { max-width: 900px; }
 .topic-list ol { margin: 0; border-top: 1px solid var(--ink); padding: 0; list-style: none; }

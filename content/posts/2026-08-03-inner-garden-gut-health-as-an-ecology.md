@@ -34,6 +34,7 @@ The companion guide uses the image of a garden to make one point memorable: remo
 <p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="sponsored noopener noreferrer">Open the Inner Garden protocol <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/inner-garden-field-guide.pdf" download>Download the Inner Garden field guide (PDF)</a></p>
 <p class="resource-disclosure">Inner Garden is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
+<p class="resource-shipping">Supplements ship within Canada while we expand internationally. The protocol itself — the full field guide — is yours anywhere.</p>
 </aside>
 
 ## What the framework emphasizes
