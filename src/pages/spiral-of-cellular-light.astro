@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import QuantumLuminanceCanvas, { type PaletteKey } from "../components/QuantumLuminanceCanvas.astro";
+import { spiralTeachingUrl, withUtm } from "../lib/publishing";
 
 interface SpiralResource {
   name: string;
@@ -112,7 +113,7 @@ const structuredData = {
         <h2 id="spiral-intro-heading">A framework, not a promise.</h2>
       </div>
       <div>
-        <p>The Spirals are paid supplement protocols and companion practices. Agewell Brief may earn a commission when a reader purchases through these links, at no added cost to the reader.</p>
+        <p>The Spirals are a paid teaching program, with companion supplement protocols and practices. The program is digital and available anywhere; the supplement sourcing linked from each card is a Canadian dispensary, and Agewell Brief may earn a commission there at no added cost to the reader.</p>
         <p>Agewell coverage treats the Spirals as a first-party program perspective. Current research, clinical guidance, and the program’s own interpretation are kept distinct so readers can decide what deserves a closer look.</p>
       </div>
     </section>
@@ -136,9 +137,14 @@ const structuredData = {
               <p class="spiral-axiom">{resource.axiom}</p>
               <p class="spiral-desc">{resource.description}</p>
               <div class="spiral-card-actions">
-                <a href={resource.href} target="_blank" rel="sponsored noopener noreferrer" class="spiral-action-btn">Explore Protocol <span>→</span></a>
+                <a href={spiralTeachingUrl(resource.name)} target="_blank" rel="noopener noreferrer" class="spiral-action-btn">Walk the {resource.name} spiral <span>→</span></a>
                 <a href={resource.pdfUrl} download class="pdf-download-link">📄 Field Guide (PDF)</a>
               </div>
+              <p class="spiral-sourcing">
+                In Canada, the supplements are stocked at
+                <a href={withUtm(resource.href, "spiral-page-sourcing")} target="_blank" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>.
+                Commission-supported; no added cost to you.
+              </p>
             </div>
           </div>
         </li>)}
@@ -470,6 +476,12 @@ const structuredData = {
     align-items: center;
     gap: 12px;
     margin-top: 14px;
+  }
+  .spiral-sourcing {
+    margin: 10px 0 0;
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.5;
   }
   .spiral-action-btn {
     display: inline-flex;

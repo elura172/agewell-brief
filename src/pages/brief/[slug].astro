@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { isCommercialLink, linkRel, plainTextExcerpt, publishedBriefs, topicSlug, typographic } from "../../lib/publishing";
+import { isCommercialLink, linkRel, plainTextExcerpt, publishedBriefs, spiralTeachingUrl, topicSlug, typographic, withUtm } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
 import EZWaterCalculator from "../../components/EZWaterCalculator.astro";
 import GlymphaticCalculator from "../../components/GlymphaticCalculator.astro";
@@ -91,24 +91,8 @@ const protocolCard =
   categoryToProtocol[entry.data.category.toLowerCase()] ??
   categoryToProtocol["brain health"];
 
-// The programme is the offer and it has no geography: digital, priced in USD,
-// ours rather than a commission. Roughly two thirds of readers sit outside
-// Canada and Fullscript will not ship to them, so a dispensary link cannot be
-// the primary action. These teaching slugs are permanent public URLs on the
-// Codex of Becoming — the price lives there, and deliberately not here, because
-// the founding rate rises once the first passages are claimed.
-const PROGRAM_SLUGS: Record<string, string> = {
-  "luminous mind": "mind",
-  "cell shedding": "shedding",
-  "living waters": "waters",
-  "inner garden": "garden",
-  "higher flame": "flame",
-  "dark mirror": "mirror"
-};
 const spiralName = protocolCard.name.replace(" Protocol", "");
-const protocolProgramUrl = `https://spiraloflight.life/teaching/${
-  PROGRAM_SLUGS[spiralName.toLowerCase()] ?? "mind"
-}`;
+const protocolProgramUrl = spiralTeachingUrl(spiralName);
 const frontierLinks = frontierForCategory(entry.data.category);
 const structuredData = [
   {
@@ -258,7 +242,7 @@ const structuredData = [
           It is a sourcing convenience, not the offer. */}
       <p class="protocol-sourcing">
         In Canada, the supplements for this protocol are stocked at
-        <a href={protocolCard.href} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>.
+        <a href={withUtm(protocolCard.href, "brief-page-sourcing")} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>.
         Commission-supported; no added cost to you.
       </p>
     </aside>

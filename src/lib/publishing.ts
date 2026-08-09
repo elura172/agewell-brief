@@ -108,6 +108,35 @@ export function linkRel(href: string | undefined | null): string {
   return isCommercialLink(href) ? "sponsored noopener noreferrer" : "noopener noreferrer";
 }
 
+/** Tag an outbound commercial link with UTM params so the placement that
+ * earned the click survives once the visitor lands off-site — PostHog only
+ * sees the click here, not what happens on Fullscript's side. */
+export function withUtm(href: string, content: string): string {
+  const url = new URL(href);
+  url.searchParams.set("utm_source", "agewellbrief");
+  url.searchParams.set("utm_medium", "referral");
+  url.searchParams.set("utm_content", content);
+  return url.toString();
+}
+
+/** The teaching program is the primary offer: digital, priced in USD, ours
+ * rather than a commission, and buyable from anywhere. Fullscript is a
+ * Canada-only dispensary and cannot be the primary action for readers outside
+ * Canada, so every spiral card should lead here first. */
+const PROGRAM_SLUGS: Record<string, string> = {
+  "luminous mind": "mind",
+  "cell shedding": "shedding",
+  "living waters": "waters",
+  "inner garden": "garden",
+  "higher flame": "flame",
+  "dark mirror": "mirror"
+};
+
+export function spiralTeachingUrl(spiralName: string): string {
+  const slug = PROGRAM_SLUGS[spiralName.toLowerCase()] ?? "mind";
+  return `https://spiraloflight.life/teaching/${slug}`;
+}
+
 /** Curl the quotes in text that never passes through the Markdown renderer.
  *
  * Brief bodies get smart quotes from the Markdown pipeline, but frontmatter

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { publishedBriefs, topicSlug, typographic } from "../../lib/publishing";
+import { publishedBriefs, spiralTeachingUrl, topicSlug, typographic, withUtm } from "../../lib/publishing";
 
 export async function getStaticPaths() {
   const entries = publishedBriefs(await getCollection("briefs"));
@@ -18,11 +18,12 @@ export async function getStaticPaths() {
 }
 
 const { category, briefs } = Astro.props;
-const topicGuides: Record<string, { lede: string; question: string; resource?: { label: string; href: string; pdfUrl: string } }> = {
+const topicGuides: Record<string, { lede: string; question: string; resource?: { name: string; label: string; href: string; pdfUrl: string } }> = {
   "brain health": {
     lede: "Readable reporting on memory, sleep, stress, learning, and the conditions that help a mind stay engaged.",
     question: "What helps the brain stay capable, curious, and well supported?",
     resource: {
+      name: "Luminous Mind",
       label: "Explore Luminous Mind",
       href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
       pdfUrl: "/downloads/field-guides/luminous-mind-field-guide.pdf"
@@ -32,6 +33,7 @@ const topicGuides: Record<string, { lede: string; question: string; resource?: {
     lede: "A grounded guide to senescence research, healthspan questions, and what remains unsettled about senolytic approaches.",
     question: "What can senescence research tell us, and what is still a hypothesis?",
     resource: {
+      name: "Cell Shedding",
       label: "Explore Cell Shedding",
       href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
       pdfUrl: "/downloads/field-guides/cell-shedding-field-guide.pdf"
@@ -41,6 +43,7 @@ const topicGuides: Record<string, { lede: string; question: string; resource?: {
     lede: "Context for liver processing, elimination pathways, mineral-clearing ideas, and the questions worth asking before an intensive protocol.",
     question: "What does clearing mean, and how should a person think about sequence and safety?",
     resource: {
+      name: "Living Waters",
       label: "Explore Living Waters",
       href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
       pdfUrl: "/downloads/field-guides/living-waters-field-guide.pdf"
@@ -50,6 +53,7 @@ const topicGuides: Record<string, { lede: string; question: string; resource?: {
     lede: "Reporting and practical context on the gut ecosystem, digestion, microbial balance, and the gut-brain conversation.",
     question: "How do we make sense of gut health without reducing it to one microbe or one product?",
     resource: {
+      name: "Inner Garden",
       label: "Explore Inner Garden",
       href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
       pdfUrl: "/downloads/field-guides/inner-garden-field-guide.pdf"
@@ -59,6 +63,7 @@ const topicGuides: Record<string, { lede: string; question: string; resource?: {
     lede: "Clear signals on blood sugar, fuel use, fasting, food timing, and the everyday choices that shape metabolic health.",
     question: "Which metabolic ideas are useful, and which deserve a closer look?",
     resource: {
+      name: "Higher Flame",
       label: "Explore Higher Flame",
       href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
       pdfUrl: "/downloads/field-guides/higher-flame-field-guide.pdf"
@@ -68,6 +73,7 @@ const topicGuides: Record<string, { lede: string; question: string; resource?: {
     lede: "Biophysical precision on lifespan extensions, cellular resilience, and systemic vitality.",
     question: "What drives physical longevity beyond genetic predisposition?",
     resource: {
+      name: "Dark Mirror",
       label: "Explore Dark Mirror",
       href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
       pdfUrl: "/downloads/field-guides/dark-mirror-field-guide.pdf"
@@ -142,10 +148,13 @@ const structuredData = [
       {guide.resource && <div class="topic-resource">
         <p>Program perspective</p>
         <a class="topic-framework-link" href="/spiral-of-cellular-light/">About the framework <span aria-hidden="true">→</span></a>
-        <a href={guide.resource.href} rel="sponsored noopener noreferrer">{guide.resource.label} <span aria-hidden="true">→</span></a>
+        <a href={spiralTeachingUrl(guide.resource.name)} rel="noopener noreferrer" target="_blank">Walk the {guide.resource.name} spiral <span aria-hidden="true">→</span></a>
         <a href={guide.resource.pdfUrl} download class="topic-pdf-download">📄 Download Companion Field Guide (PDF)</a>
-        <small>Commission-supported; no added cost to you.</small>
-        <small class="topic-shipping">Supplements ship within Canada while we expand internationally. The field guide is yours anywhere.</small>
+        <small>
+          In Canada, the supplements for this protocol are stocked at
+          <a href={withUtm(guide.resource.href, "topic-page-sourcing")} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>.
+          Commission-supported; no added cost to you.
+        </small>
       </div>}
     </section>
     <section class="topic-list" aria-labelledby="topic-list-heading">
