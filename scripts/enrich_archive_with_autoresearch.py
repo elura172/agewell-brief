@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import re
@@ -5,6 +6,7 @@ from pathlib import Path
 from openai import OpenAI
 import agewell.pipeline
 from agewell.agents import autoresearch_context_subagent, copy_edit, _json_response
+from agewell.pipeline import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "content/posts"
@@ -48,11 +50,13 @@ def enrich_article(filepath: Path):
     if not antecedents and not mechanistic_bridge:
         return False
         
-    # Append structured frontmatter
+    # Append structured frontmatter. Same escaping as the live pipeline
+    # (agewell.pipeline.quote) rather than the original's swap-to-single-quotes,
+    # which could still break YAML if the model's text contained a backslash.
     antecedents_json = json.dumps(antecedents)
     new_fm_lines = [
         f"autoresearch_antecedents: {antecedents_json}",
-        f'ancestral_insight: "{ancestral_insight.replace(chr(34), chr(39))}"'
+        f'ancestral_insight: "{quote(ancestral_insight)}"'
     ]
     
     updated_fm = frontmatter.strip() + "\n" + "\n".join(new_fm_lines) + "\n"
@@ -75,15 +79,22 @@ def enrich_article(filepath: Path):
     return True
 
 def main():
-    early_posts = sorted(list(POSTS_DIR.glob("2026-08-02-*.md")))
-    print(f"Found {len(early_posts)} early articles from 2026-08-02 to enrich.\n")
-    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--limit", type=int, default=None,
+                         help="enrich at most N un-enriched posts (default: all of them)")
+    args = parser.parse_args()
+
+    all_posts = sorted(POSTS_DIR.glob("*.md"))
+    pending = [p for p in all_posts if "autoresearch_antecedents" not in p.read_text(encoding="utf-8")]
+    targets = pending[: args.limit] if args.limit else pending
+    print(f"{len(all_posts)} briefs total, {len(pending)} not yet enriched, processing {len(targets)}.\n")
+
     count = 0
-    for p in early_posts[:5]: # Enrich top 5 early articles as demonstration
+    for p in targets:
         if enrich_article(p):
             count += 1
-            
-    print(f"\nDone! Enriched {count} early articles with AutoResearch Deep Context.")
+
+    print(f"\nDone! Enriched {count} of {len(targets)} attempted.")
 
 if __name__ == "__main__":
     main()

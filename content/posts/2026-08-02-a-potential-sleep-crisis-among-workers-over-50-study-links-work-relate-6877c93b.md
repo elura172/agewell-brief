@@ -23,6 +23,8 @@ image_review_status: "human-reviewed"
 image_avg_color: "#BAB6AB"
 topics: ['brain health', 'longevity', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Hans Selye", "year": 1936, "discovery": "General Adaptation Syndrome (GAS) - the three-stage response to stress (alarm, resistance, exhaustion) that includes sleep disruption as a key physiological marker."}, {"scientist": "Alexander Borb\u00e9ly", "year": 1982, "discovery": "Two-process model of sleep regulation - the interaction between homeostatic sleep drive (Process S) and circadian rhythm (Process C), which can be perturbed by stress hormones."}]
+ancestral_insight: "Traditional hunter-gatherer lifestyles, such as those of the Hadza or !Kung, exhibit lower stress-related sleep disturbances due to natural light exposure, physical activity, and social cohesion. Mechanistically, these factors promote robust circadian entrainment (via sunlight) and lower baseline cortisol, enhancing sleep quality. In contrast, modern work stress often involves artificial light, sedentary behavior, and psychosocial stressors, which disrupt the HPA axis and circadian rhythms. The ancestral pattern of 'work' as physical exertion followed by rest aligns with the body's evolved need for recovery, whereas chronic cognitive stress without physical outlet leads to persistent hyperarousal and sleep disruption."
 ---
 
 A new study finds that work-related stress is associated with significant sleep disturbances in people over 50, with many experiencing persistent issues.
@@ -34,6 +36,14 @@ A new study finds that work-related stress is associated with significant sleep 
 - Nearly 70% of participants had persistent, clinically significant sleep problems.
 - Almost 92% met the threshold for a sleep disorder at least once.
 - Work-related stress is linked to a range of well-being issues.
+
+## How to interpret it
+
+
+### Historical Biophysics & Lineage
+The modern study's finding that work-related stress is associated with persistent sleep problems in over-50s directly aligns with Selye's GAS: chronic stress leads to prolonged activation of the hypothalamic-pituitary-adrenal (HPA) axis, elevating cortisol and catecholamines, which disrupts the normal sleep-wake cycle. Borbély's model explains how stress-induced alterations in Process S (e.g., reduced sleep pressure due to hyperarousal) and Process C (e.g., circadian misalignment from work stress) result in fragmented and non-restorative sleep. The high prevalence of sleep disorders (92% at least once) mirrors the 'resistance' and 'exhaustion' stages of GAS, where the body's adaptive capacity is overwhelmed.
+
+**Ancestral parallel:** Traditional hunter-gatherer lifestyles, such as those of the Hadza or !Kung, exhibit lower stress-related sleep disturbances due to natural light exposure, physical activity, and social cohesion. Mechanistically, these factors promote robust circadian entrainment (via sunlight) and lower baseline cortisol, enhancing sleep quality. In contrast, modern work stress often involves artificial light, sedentary behavior, and psychosocial stressors, which disrupt the HPA axis and circadian rhythms. The ancestral pattern of 'work' as physical exertion followed by rest aligns with the body's evolved need for recovery, whereas chronic cognitive stress without physical outlet leads to persistent hyperarousal and sleep disruption.
 
 ### Source
 

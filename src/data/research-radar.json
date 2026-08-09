@@ -1,10 +1,561 @@
 {
-  "generated_at": "2026-08-09T15:16:23.559387+00:00",
-  "archive_size": 80,
+  "generated_at": "2026-08-09T20:51:27.601880+00:00",
+  "archive_size": 81,
   "archive_span": {
     "earliest": "2026-08-02",
     "latest": "2026-08-09"
   },
   "evidence_drift": [],
-  "citation_convergence": []
+  "citation_convergence": [
+    {
+      "mechanism": "citation_convergence",
+      "scientist": "Otto Warburg",
+      "category_count": 6,
+      "categories": [
+        "brain health",
+        "general wellness",
+        "longevity",
+        "metabolic health",
+        "nutrition",
+        "sleep health"
+      ],
+      "briefs": [
+        {
+          "slug": "2026-08-02-how-exercise-keeps-our-brains-healthy-as-we-age-847a8e4f",
+          "title": "More evidence tied physical activity to lower dementia risk",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-two-hours-of-sleep-restored-researchers-make-alzheimer-s-breakthrough-4a857d52",
+          "title": "Sleep loss triggered a brain immune response that damaged tissue",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-lifestyle-changes-cut-risk-of-multiple-chronic-conditions-in-prediabet-fbad066d",
+          "title": "Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
+          "title": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-ai-can-tell-if-your-brain-is-aging-faster-than-you-are-c2812776",
+          "title": "A sleep EEG 'brain age' score tracked future dementia risk",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-mediterranean-diet-may-activate-tiny-proteins-that-protect-the-heart-a-e567bdc7",
+          "title": "Mediterranean eating pattern linked to two mitochondrial microproteins",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229",
+          "title": "A mitochondrial transport route helped senescent cells drive inflammation",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-brain-fluid-structure-may-flag-future-dementia-risk-years-before-diagn-0c1df71c",
+          "title": "Choroid plexus MRI measures tracked later dementia risk",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-apoe2-may-protect-the-brain-from-alzheimer-s-and-aging-8de342d7",
+          "title": "APOE2 neurons showed less DNA damage and better repair",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-scientists-discover-how-obesity-may-fuel-alzheimer-s-disease-c13bc031",
+          "title": "In Alzheimer's models, obesity-related fats reached the brain and raised amyloid",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-time-restricted-eating-may-help-retain-cognitive-function-in-older-adu-d64e52fc",
+          "title": "In 47 older women, six months of time-restricted eating aided spatial planning",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-reducing-protein-intake-could-support-healthy-aging-by-reshaping-metab-ea4b19a3",
+          "title": "A 350-study review linked protein restriction to slower aging",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-lab-grown-mini-brains-may-predict-which-alzheimer-s-treatments-will-wo-737201fd",
+          "title": "Patient-derived brain organoids predicted who responded to an antidepressant",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-popular-weight-loss-drugs-ozempic-and-wegovy-may-slow-biological-aging-c99b5fb0",
+          "title": "In adults with HIV, semaglutide slowed biological aging markers",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910",
+          "title": "A review of 350+ studies tied lower protein intake to better metabolism",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-scientists-may-have-found-a-way-to-prevent-statin-muscle-pain-bcc4ce4a",
+          "title": "In mice, an immune reaction explained statin muscle damage",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-higher-flame-metabolic-flexibility-and-the-fasting-question",
+          "title": "The Higher Flame framework asks what fuel flexibility might change",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-luminous-mind-brain-health-needs-more-than-a-pill",
+          "title": "The Luminous Mind framework treats brain health as a whole-system project",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+          "title": "Person-specific brain mapping improved Alzheimer's detection from fMRI",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162",
+          "title": "Activating a lactate receptor eased senescence markers in progeroid mice",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-04-supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc",
+          "title": "In rats, midlife omega-3s durably shifted the muscle-aging trajectory",
+          "date": "2026-08-04",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7",
+          "title": "Nicotinamide riboside and hard training remodelled muscle epigenetics differently",
+          "date": "2026-08-05",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41",
+          "title": "A four-year study tied smoking and hypertension to white matter damage",
+          "date": "2026-08-06",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-07-tau-s-mitochondrial-sabotage-reversing-electron-flow-in-alzheimer-s-e7da10a8",
+          "title": "Tau's mitochondrial sabotage: reversing electron flow in Alzheimer's",
+          "date": "2026-08-07",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747",
+          "title": "Restoring muscle's lost signal: how a prostaglandin enzyme unlocks strength in aging",
+          "date": "2026-08-07",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-07-sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0",
+          "title": "Sleep, Anxiety, and the Empty-Nest Brain: Why Movement and Community Are Biological Levers",
+          "date": "2026-08-07",
+          "evidence_position": "emerging"
+        }
+      ]
+    },
+    {
+      "mechanism": "citation_convergence",
+      "scientist": "Fritz-Albert Popp",
+      "category_count": 6,
+      "categories": [
+        "brain health",
+        "detoxification",
+        "longevity",
+        "metabolic health",
+        "nutrition",
+        "sleep health"
+      ],
+      "briefs": [
+        {
+          "slug": "2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
+          "title": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-mediterranean-diet-may-activate-tiny-proteins-that-protect-the-heart-a-e567bdc7",
+          "title": "Mediterranean eating pattern linked to two mitochondrial microproteins",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-brain-fluid-structure-may-flag-future-dementia-risk-years-before-diagn-0c1df71c",
+          "title": "Choroid plexus MRI measures tracked later dementia risk",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-apoe2-may-protect-the-brain-from-alzheimer-s-and-aging-8de342d7",
+          "title": "APOE2 neurons showed less DNA damage and better repair",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-time-restricted-eating-may-help-retain-cognitive-function-in-older-adu-d64e52fc",
+          "title": "In 47 older women, six months of time-restricted eating aided spatial planning",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea-shows-downst-6a306820",
+          "title": "Nerve stimulation for sleep apnea showed wider health gains",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-your-gut-can-get-jet-lag-too-how-not-to-waste-the-first-days-of-your-v-383365b2",
+          "title": "Long flights shift the gut microbiome, not just sleep",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-understanding-the-effects-of-aging-on-whole-body-dynamic-balance-trunk-da003100",
+          "title": "Aging tracked declines in balance, trunk stability and hip strength",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-dark-mirror-what-a-mineral-clearing-framework-is-trying-to-do",
+          "title": "What the Dark Mirror mineral-clearing framework is trying to do",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-living-waters-why-transport-comes-first",
+          "title": "Why the Living Waters framework puts transport before clearing",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-technological-advances-in-detecting-and-managing-cognitive-impairment--dfbdeb5d",
+          "title": "Blood tests advanced while many AI cognition tools still await validation",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-critical-flicker-fusion-frequency-as-a-falsifiable-boundary-between-pl-41eaae73",
+          "title": "A flicker-perception threshold may mark the edge of adult brain plasticity",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-circulating-cell-free-chromatin-particles-trigger-a-unique-biphasic-st-3b9c316a",
+          "title": "Chromatin particles from dying cells drove a two-phase inflammatory response",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d",
+          "title": "Cerebellar network timing supported episodic memory in older adults",
+          "date": "2026-08-04",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7",
+          "title": "Nicotinamide riboside and hard training remodelled muscle epigenetics differently",
+          "date": "2026-08-05",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-05-overall-brain-health-protects-memory-from-early-alzheimer-s-neuroscien-628fba67",
+          "title": "Overall brain health buffered memory against early Alzheimer's pathology",
+          "date": "2026-08-05",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-07-tau-s-mitochondrial-sabotage-reversing-electron-flow-in-alzheimer-s-e7da10a8",
+          "title": "Tau's mitochondrial sabotage: reversing electron flow in Alzheimer's",
+          "date": "2026-08-07",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-08-the-locus-coeruleus-a-tiny-brain-nucleus-that-orchestrates-cognition-a-29ba27a2",
+          "title": "The Locus Coeruleus: A Tiny Brain Nucleus That Orchestrates Cognition and Predicts Neurodegeneration",
+          "date": "2026-08-08",
+          "evidence_position": "emerging"
+        }
+      ]
+    },
+    {
+      "mechanism": "citation_convergence",
+      "scientist": "Hans Selye",
+      "category_count": 5,
+      "categories": [
+        "brain health",
+        "general wellness",
+        "longevity",
+        "metabolic health",
+        "sleep health"
+      ],
+      "briefs": [
+        {
+          "slug": "2026-08-02-how-exercise-keeps-our-brains-healthy-as-we-age-847a8e4f",
+          "title": "More evidence tied physical activity to lower dementia risk",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-two-hours-of-sleep-restored-researchers-make-alzheimer-s-breakthrough-4a857d52",
+          "title": "Sleep loss triggered a brain immune response that damaged tissue",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-brain-s-immune-system-changes-at-midlife-nih-study-finds-e05c96ff",
+          "title": "Brain's Immune System Changes at Midlife, NIH Study Finds",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-lifestyle-changes-cut-risk-of-multiple-chronic-conditions-in-prediabet-fbad066d",
+          "title": "Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b",
+          "title": "Work stress tracked persistent sleep problems in 70% of over-50s",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229",
+          "title": "A mitochondrial transport route helped senescent cells drive inflammation",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-watching-too-much-tv-in-midlife-may-shrink-the-brain-7861b841",
+          "title": "In 1,700 adults, frequent midlife TV tracked smaller memory regions",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-scientists-discover-how-obesity-may-fuel-alzheimer-s-disease-c13bc031",
+          "title": "In Alzheimer's models, obesity-related fats reached the brain and raised amyloid",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea-shows-downst-6a306820",
+          "title": "Nerve stimulation for sleep apnea showed wider health gains",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-reducing-protein-intake-could-support-healthy-aging-by-reshaping-metab-ea4b19a3",
+          "title": "A 350-study review linked protein restriction to slower aging",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-where-you-live-could-shape-your-dementia-risk-massive-study-finds-8c294954",
+          "title": "Across 214,000 older adults, dementia risk factors varied by country",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-lab-grown-mini-brains-may-predict-which-alzheimer-s-treatments-will-wo-737201fd",
+          "title": "Patient-derived brain organoids predicted who responded to an antidepressant",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-popular-weight-loss-drugs-ozempic-and-wegovy-may-slow-biological-aging-c99b5fb0",
+          "title": "In adults with HIV, semaglutide slowed biological aging markers",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-researchers-find-simple-habit-to-improve-physical-and-mental-health-383802cd",
+          "title": "A consistent daily routine tracked less pain and better sleep",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910",
+          "title": "A review of 350+ studies tied lower protein intake to better metabolism",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-scientists-may-have-found-a-way-to-prevent-statin-muscle-pain-bcc4ce4a",
+          "title": "In mice, an immune reaction explained statin muscle damage",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-a-weak-body-clock-may-be-an-early-warning-for-dementia-sciencedaily-4e3cf41d",
+          "title": "Weaker daily rhythms carried nearly 2.5 times the dementia risk",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2",
+          "title": "A four-minute daily routine improved chair-stand and balance scores",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-02-too-little-sleep-and-too-much-associated-with-faster-aging-columbia-un-c8cdac04",
+          "title": "Both short and long sleep tracked faster organ aging",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-higher-flame-metabolic-flexibility-and-the-fasting-question",
+          "title": "The Higher Flame framework asks what fuel flexibility might change",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-luminous-mind-brain-health-needs-more-than-a-pill",
+          "title": "The Luminous Mind framework treats brain health as a whole-system project",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
+          "title": "Person-specific brain mapping improved Alzheimer's detection from fMRI",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c",
+          "title": "A 6.4-to-7.8-hour sleep window tracked slower biological aging",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-circulating-cell-free-chromatin-particles-trigger-a-unique-biphasic-st-3b9c316a",
+          "title": "Chromatin particles from dying cells drove a two-phase inflammatory response",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-disrupted-circadian-rhythms-linked-to-elevated-dementia-risk-a3c844dc",
+          "title": "Disrupted Circadian Rhythms Linked to Elevated Dementia Risk",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162",
+          "title": "Activating a lactate receptor eased senescence markers in progeroid mice",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d",
+          "title": "Cerebellar network timing supported episodic memory in older adults",
+          "date": "2026-08-04",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-04-supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc",
+          "title": "In rats, midlife omega-3s durably shifted the muscle-aging trajectory",
+          "date": "2026-08-04",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41",
+          "title": "A four-year study tied smoking and hypertension to white matter damage",
+          "date": "2026-08-06",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747",
+          "title": "Restoring muscle's lost signal: how a prostaglandin enzyme unlocks strength in aging",
+          "date": "2026-08-07",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-07-sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0",
+          "title": "Sleep, Anxiety, and the Empty-Nest Brain: Why Movement and Community Are Biological Levers",
+          "date": "2026-08-07",
+          "evidence_position": "emerging"
+        }
+      ]
+    },
+    {
+      "mechanism": "citation_convergence",
+      "scientist": "Gerald Pollack",
+      "category_count": 5,
+      "categories": [
+        "brain health",
+        "detoxification",
+        "longevity",
+        "metabolic health",
+        "sleep health"
+      ],
+      "briefs": [
+        {
+          "slug": "2026-08-02-your-gut-can-get-jet-lag-too-how-not-to-waste-the-first-days-of-your-v-383365b2",
+          "title": "Long flights shift the gut microbiome, not just sleep",
+          "date": "2026-08-02",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-understanding-the-effects-of-aging-on-whole-body-dynamic-balance-trunk-da003100",
+          "title": "Aging tracked declines in balance, trunk stability and hip strength",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-dark-mirror-what-a-mineral-clearing-framework-is-trying-to-do",
+          "title": "What the Dark Mirror mineral-clearing framework is trying to do",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-living-waters-why-transport-comes-first",
+          "title": "Why the Living Waters framework puts transport before clearing",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-03-critical-flicker-fusion-frequency-as-a-falsifiable-boundary-between-pl-41eaae73",
+          "title": "A flicker-perception threshold may mark the edge of adult brain plasticity",
+          "date": "2026-08-03",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-05-overall-brain-health-protects-memory-from-early-alzheimer-s-neuroscien-628fba67",
+          "title": "Overall brain health buffered memory against early Alzheimer's pathology",
+          "date": "2026-08-05",
+          "evidence_position": "emerging"
+        },
+        {
+          "slug": "2026-08-08-the-locus-coeruleus-a-tiny-brain-nucleus-that-orchestrates-cognition-a-29ba27a2",
+          "title": "The Locus Coeruleus: A Tiny Brain Nucleus That Orchestrates Cognition and Predicts Neurodegeneration",
+          "date": "2026-08-08",
+          "evidence_position": "emerging"
+        }
+      ]
+    }
+  ]
 }

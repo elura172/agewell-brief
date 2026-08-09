@@ -35,7 +35,15 @@ def _json_response(client: Any, model: str, system: str, payload: dict[str, Any]
         try:
             value, _ = json.JSONDecoder().raw_decode(raw_text)
         except Exception:
-            value = {}
+            # Observed failure mode: a "year": 1970s style decade written as a
+            # bare token instead of a quoted string. That single invalid token
+            # otherwise discards an entire, correct response as {} — quote it
+            # and retry once before giving up.
+            repaired = re.sub(r'(:\s*)(\d{3,4}s(?:-\d{3,4}s)?)(\s*[,}])', r'\1"\2"\3', raw_text)
+            try:
+                value = json.loads(repaired)
+            except Exception:
+                value = {}
     if not isinstance(value, dict):
         raise ValueError("agent response was not an object")
     return value
@@ -318,11 +326,20 @@ def autoresearch_context_subagent(
             "Identify 1-2 primary historical biophysical or clinical antecedents (specific scientists, years, and discoveries).",
             "Explain precisely how the modern preprint connects to or validates the historical work.",
             "Identify any ancestral or traditional lifestyle parallels backed by physical mechanisms.",
-            "Return JSON with 'historical_antecedents', 'mechanistic_bridge', and 'ancestral_insight'."
+            "Return JSON with 'historical_antecedents', 'mechanistic_bridge', and 'ancestral_insight'.",
+            "Each historical_antecedents entry's 'year' must be a JSON string, e.g. \"1970s\" or \"1975\" "
+            "— never a bare unquoted token like 1970s, which is invalid JSON and discards the whole response.",
+            "historical_antecedents must have exactly 1-2 entries, never more. "
+            "mechanistic_bridge and ancestral_insight must each be a single plain-text string, never an array or object.",
+            "Each historical_antecedents object has exactly these three keys: scientist, year, discovery. "
+            "No other keys (e.g. no separate 'connection' field) — fold any connection to the modern finding into 'discovery' itself.",
         ],
     }
     try:
-        return _json_response(client, model, system_prompt, payload, max_tokens=1200)
+        # 1200 was cutting off richer answers mid-JSON on finish_reason "length"
+        # (observed: 7 antecedents plus expanded mechanistic_bridge/ancestral_insight
+        # instead of the usual 1-2) — an unparseable truncated response, not a bad one.
+        return _json_response(client, model, system_prompt, payload, max_tokens=2000)
     except Exception as e:
         return {
             "historical_antecedents": [],
