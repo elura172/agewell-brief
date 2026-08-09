@@ -31,10 +31,9 @@ The companion guide uses the image of a garden to make one point memorable: remo
 <p class="resource-kicker">Spiral of Cellular Light · Inner Garden</p>
 <h3>This is Inner Garden territory</h3>
 <p>Gut microbiome ecology — short-chain fatty acid signaling and gut barrier integrity. The Inner Garden spiral is the protocol built for the exact mechanism this gut health story turns on.</p>
-<p><a class="resource-link" href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="sponsored noopener noreferrer">Open the Inner Garden protocol <span aria-hidden="true">→</span></a></p>
+<p><a class="resource-link" href="https://spiraloflight.life/teaching/garden" rel="noopener noreferrer">Walk the Inner Garden spiral <span aria-hidden="true">→</span></a></p>
 <p class="resource-guide"><a href="/downloads/field-guides/inner-garden-field-guide.pdf" download>Download the Inner Garden field guide (PDF)</a></p>
-<p class="resource-disclosure">Inner Garden is our own program. We earn a commission when you enrol; there is no added cost to you.</p>
-<p class="resource-shipping">Supplements ship within Canada while we expand internationally. The protocol itself — the full field guide — is yours anywhere.</p>
+<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
 </aside>
 
 ## What the framework emphasizes

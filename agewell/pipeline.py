@@ -855,6 +855,7 @@ def spiral_card(spiral: dict[str, Any], category: str, *, placement: str = "mid"
     domain = spiral.get("domain", "")
     promise = spiral.get("promise", "")
     url = spiral["url"]
+    program_url = spiral.get("program_url", "")
     guide = spiral.get("guide", "")
 
     copy = {
@@ -881,26 +882,40 @@ def spiral_card(spiral: dict[str, Any], category: str, *, placement: str = "mid"
         if guide
         else ""
     )
+    # The programme leads and the dispensary follows. Roughly two thirds of readers
+    # are outside Canada, and Fullscript will not ship to them — so a Fullscript
+    # link as the primary call to action is unbuyable for most of the audience.
+    # The programme is digital: it has no geography, it is priced in USD, and it is
+    # ours rather than a commission. Fullscript stays on as what it actually is,
+    # the apothecary of convenience for Canadian readers.
+    #
+    # No price is repeated here. The teaching page carries the live figure, and the
+    # founding rate rises once the first passages are claimed — a number baked into
+    # 79 briefs would go stale the day it changes.
+    program_link = (
+        f'<p><a class="resource-link" href="{program_url}" rel="noopener noreferrer">'
+        f'Walk the {name} spiral <span aria-hidden="true">→</span></a></p>\n'
+        if program_url
+        else ""
+    )
     # Commission-earning links must be rel="sponsored". Passing ranking signals through a
     # paid link is a link scheme, and the trust cost lands on the editorial pages we
     # want cited.
+    dispensary_link = (
+        f'<p class="resource-sourcing">In Canada, the supplements for this protocol are '
+        f'stocked at <a href="{url}" rel="sponsored noopener noreferrer">our Fullscript '
+        f'dispensary</a>. Commission-supported; no added cost to you.</p>\n'
+        if url
+        else ""
+    )
     card = (
         f'\n\n<aside class="resource-card resource-card--primary resource-card--{placement}"'
         f' aria-label="{name} program">\n'
         f'<p class="resource-kicker">Spiral of Cellular Light · {name}</p>\n'
         f"{copy}\n"
-        f'<p><a class="resource-link" href="{url}" rel="sponsored noopener noreferrer">'
-        f'Open the {name} protocol <span aria-hidden="true">→</span></a></p>\n'
+        f"{program_link}"
         f"{guide_link}\n"
-        f'<p class="resource-disclosure">{name} is our own program. We earn a commission '
-        f"when you enrol; there is no added cost to you.</p>\n"
-        # The dispensary is a Canadian Fullscript storefront and Fullscript does not
-        # ship across the border, so most non-Canadian readers cannot complete an
-        # order. Say so at the point of the click rather than at the checkout
-        # address field, and point at the field guide, which has no such limit.
-        f'<p class="resource-shipping">Supplements ship within Canada while we expand '
-        f"internationally. The protocol itself — the full field guide — is yours "
-        f"anywhere.</p>\n"
+        f"{dispensary_link}"
         f"</aside>"
     )
     return card

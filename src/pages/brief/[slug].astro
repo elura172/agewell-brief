@@ -90,6 +90,25 @@ const protocolCard =
   protocolByName[(entry.data.spiral ?? "").toLowerCase()] ??
   categoryToProtocol[entry.data.category.toLowerCase()] ??
   categoryToProtocol["brain health"];
+
+// The programme is the offer and it has no geography: digital, priced in USD,
+// ours rather than a commission. Roughly two thirds of readers sit outside
+// Canada and Fullscript will not ship to them, so a dispensary link cannot be
+// the primary action. These teaching slugs are permanent public URLs on the
+// Codex of Becoming — the price lives there, and deliberately not here, because
+// the founding rate rises once the first passages are claimed.
+const PROGRAM_SLUGS: Record<string, string> = {
+  "luminous mind": "mind",
+  "cell shedding": "shedding",
+  "living waters": "waters",
+  "inner garden": "garden",
+  "higher flame": "flame",
+  "dark mirror": "mirror"
+};
+const spiralName = protocolCard.name.replace(" Protocol", "");
+const protocolProgramUrl = `https://spiraloflight.life/teaching/${
+  PROGRAM_SLUGS[spiralName.toLowerCase()] ?? "mind"
+}`;
 const frontierLinks = frontierForCategory(entry.data.category);
 const structuredData = [
   {
@@ -196,10 +215,10 @@ const structuredData = [
 
     {/* Interactive Biophysics Calculators */}
     {(entry.data.category === "longevity" || entry.id.includes("water") || entry.id.includes("living") || entry.id.includes("hydration")) && (
-      <EZWaterCalculator protocolName={protocolCard.name.replace(" Protocol", "")} protocolHref={protocolCard.href} />
+      <EZWaterCalculator protocolName={spiralName} protocolHref={protocolProgramUrl} />
     )}
     {(entry.data.category === "brain health" || entry.data.category === "sleep health" || entry.id.includes("sleep") || entry.id.includes("mind") || entry.id.includes("alzheimer")) && (
-      <GlymphaticCalculator protocolName={protocolCard.name.replace(" Protocol", "")} protocolHref={protocolCard.href} />
+      <GlymphaticCalculator protocolName={spiralName} protocolHref={protocolProgramUrl} />
     )}
 
     {entry.data.autoresearch_antecedents && entry.data.autoresearch_antecedents.length > 0 && (
@@ -220,22 +239,28 @@ const structuredData = [
       </aside>
     )}
 
-    <aside class="article-protocol-card" aria-label="Recommended Fullscript Protocol">
+    <aside class="article-protocol-card" aria-label={`${protocolCard.name} programme`}>
       <div class="protocol-card-header">
-        <span class="protocol-eyebrow">Program Protocol · Fullscript Direct</span>
+        <span class="protocol-eyebrow">Spiral of Cellular Light · The walk</span>
         <h3>{protocolCard.icon} {protocolCard.name}</h3>
         <p class="protocol-focus">{protocolCard.focus}</p>
       </div>
       <div class="protocol-card-actions">
-        <a class="protocol-primary-btn" href={protocolCard.href} rel="sponsored noopener noreferrer" target="_blank">
-          View Protocol on Fullscript <span aria-hidden="true">→</span>
+        <a class="protocol-primary-btn" href={protocolProgramUrl} rel="noopener noreferrer" target="_blank">
+          Walk the {spiralName} spiral <span aria-hidden="true">→</span>
         </a>
         <a class="protocol-pdf-btn" href={protocolCard.pdfUrl} download>
           📄 Download Companion Guide (PDF)
         </a>
       </div>
-      <p class="protocol-disclosure">Verified practitioner formulation. Commission-supported; no added cost to you.</p>
-      <p class="protocol-shipping">Supplements ship within Canada while we expand internationally. The protocol itself — the full field guide — is yours anywhere.</p>
+      {/* The dispensary is a Canadian Fullscript storefront that will not ship
+          across the border, and about two thirds of readers are outside Canada.
+          It is a sourcing convenience, not the offer. */}
+      <p class="protocol-sourcing">
+        In Canada, the supplements for this protocol are stocked at
+        <a href={protocolCard.href} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>.
+        Commission-supported; no added cost to you.
+      </p>
     </aside>
 
     {related.length > 0 && <section class="related-briefs" aria-labelledby="related-heading">
@@ -384,6 +409,16 @@ const structuredData = [
     margin: 0;
   }
   /* See .resource-shipping in global.css — same purpose on the closing card. */
+  .protocol-sourcing {
+    max-width: 62ch;
+    margin: 8px 0 0;
+    padding-left: 10px;
+    border-left: 2px solid color-mix(in oklch, var(--saffron) 40%, transparent);
+    color: var(--muted);
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+  .protocol-sourcing a { color: var(--ink-soft); font-weight: 600; }
   .protocol-shipping {
     max-width: 62ch;
     margin: 8px 0 0;

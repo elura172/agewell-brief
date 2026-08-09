@@ -1,47 +1,59 @@
 {
-  "_comment": "Single source of truth for the six Spiral of Cellular Light programs and which editorial category routes to which spiral. Every brief routes to exactly one spiral; there are no third-party offers.",
+  "_comment": "Single source of truth for the six Spiral of Cellular Light programs and which editorial category routes to which spiral. Every brief routes to exactly one spiral; there are no third-party offers. program_url points at the Codex of Becoming teaching page for this spiral — the publication's primary call to action. It is a digital programme, so it has no geography; the Fullscript `url` is only where Canadian readers source supplements. The teaching page carries the live price, so no price is repeated here or in a brief.",
   "spirals": {
     "luminous mind": {
       "name": "Luminous Mind",
       "domain": "Cognitive and neural coherence",
       "url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
       "guide": "/downloads/field-guides/luminous-mind-field-guide.pdf",
-      "promise": "glymphatic clearance, neuroplasticity, and brain entrainment"
+      "promise": "glymphatic clearance, neuroplasticity, and brain entrainment",
+      "program_slug": "mind",
+      "program_url": "https://spiraloflight.life/teaching/mind"
     },
     "cell shedding": {
       "name": "Cell Shedding",
       "domain": "Senescence and cellular renewal",
       "url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
       "guide": "/downloads/field-guides/cell-shedding-field-guide.pdf",
-      "promise": "senolytic clearing, autophagy activation, and SASP reduction"
+      "promise": "senolytic clearing, autophagy activation, and SASP reduction",
+      "program_slug": "shedding",
+      "program_url": "https://spiraloflight.life/teaching/shedding"
     },
     "living waters": {
       "name": "Living Waters",
       "domain": "Fluid and micro-circulation",
       "url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
       "guide": "/downloads/field-guides/living-waters-field-guide.pdf",
-      "promise": "structured water, vascular transport, and clearing pathways"
+      "promise": "structured water, vascular transport, and clearing pathways",
+      "program_slug": "waters",
+      "program_url": "https://spiraloflight.life/teaching/waters"
     },
     "inner garden": {
       "name": "Inner Garden",
       "domain": "Gut microbiome ecology",
       "url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==",
       "guide": "/downloads/field-guides/inner-garden-field-guide.pdf",
-      "promise": "short-chain fatty acid signaling and gut barrier integrity"
+      "promise": "short-chain fatty acid signaling and gut barrier integrity",
+      "program_slug": "garden",
+      "program_url": "https://spiraloflight.life/teaching/garden"
     },
     "higher flame": {
       "name": "Higher Flame",
       "domain": "Metabolic resilience and mitochondria",
       "url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
       "guide": "/downloads/field-guides/higher-flame-field-guide.pdf",
-      "promise": "mitochondrial respiration, fuel flexibility, and thermogenesis"
+      "promise": "mitochondrial respiration, fuel flexibility, and thermogenesis",
+      "program_slug": "flame",
+      "program_url": "https://spiraloflight.life/teaching/flame"
     },
     "dark mirror": {
       "name": "Dark Mirror",
       "domain": "Mineral balance and bio-clearing",
       "url": "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
       "guide": "/downloads/field-guides/dark-mirror-field-guide.pdf",
-      "promise": "heavy metal chelation, mineral ratios, and deep tissue clearing"
+      "promise": "heavy metal chelation, mineral ratios, and deep tissue clearing",
+      "program_slug": "mirror",
+      "program_url": "https://spiraloflight.life/teaching/mirror"
     }
   },
   "category_routes": {

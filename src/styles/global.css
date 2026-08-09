@@ -309,6 +309,19 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 /* Reads as useful information rather than more small print: the reader needs it
    before the click, not at a checkout address field. Slightly darker than the
    commission disclosure above it, and marked so the two do not merge. */
+/* Sourcing, not the offer. Quieter than the programme link above it, and it
+   names Canada up front so two thirds of readers know it is not for them
+   before they click rather than at a checkout address field. */
+.resource-card .resource-sourcing {
+  max-width: 620px;
+  margin: 14px 0 0;
+  padding-left: 10px;
+  border-left: 2px solid color-mix(in oklch, var(--saffron) 40%, transparent);
+  color: var(--muted);
+  font-size: .78rem;
+  line-height: 1.45;
+}
+.resource-card .resource-sourcing a { color: var(--ink-soft); font-weight: 600; }
 .resource-card .resource-shipping {
   max-width: 620px;
   margin: 8px 0 0;
