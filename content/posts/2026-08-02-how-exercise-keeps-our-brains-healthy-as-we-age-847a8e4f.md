@@ -1,6 +1,6 @@
----title: "How exercise keeps our brains healthy as we age"
+---title: "More evidence tied physical activity to lower dementia risk"
 date: 2026-08-02T07:25:33.779985+00:00
-draft: true
+draft: false
 category: "brain health"
 source_url: "https://medicalxpress.com/news/2026-07-brains-healthy-age.html"
 source_title: "How exercise keeps our brains healthy as we age"

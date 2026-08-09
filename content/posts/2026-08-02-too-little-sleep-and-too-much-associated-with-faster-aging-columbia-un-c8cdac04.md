@@ -1,4 +1,4 @@
----title: "Too Little Sleep—and Too Much—Associated with Faster Aging - Columbia University Irving Medical Center"
+---title: "Both short and long sleep tracked faster organ aging"
 date: 2026-08-02T22:41:51.690760+00:00
 draft: false
 category: "sleep health"

@@ -1,4 +1,4 @@
----title: "A potential sleep crisis among workers over 50: Study links work-related stress to range of well-being issues"
+---title: "Work stress tracked persistent sleep problems in 70% of over-50s"
 date: 2026-08-02T09:07:46+00:00
 draft: false
 category: "brain health"

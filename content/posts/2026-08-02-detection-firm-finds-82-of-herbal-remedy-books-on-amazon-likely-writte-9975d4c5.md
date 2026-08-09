@@ -1,6 +1,6 @@
----title: "Detection firm finds 82% of herbal remedy books on Amazon ‘likely written’ by AI"
+---title: "A scan of 558 herbal remedy books found 82% likely AI-written"
 date: 2026-08-02T22:38:23.084822+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 2

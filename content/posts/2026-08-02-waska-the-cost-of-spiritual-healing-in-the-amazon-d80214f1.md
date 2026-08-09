@@ -1,6 +1,6 @@
----title: "Waska: the cost of spiritual healing in the Amazon"
+---title: "Indigenous voices on the cost of commodified plant medicine"
 date: 2026-08-02T22:38:23.084822+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 3

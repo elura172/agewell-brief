@@ -1,4 +1,4 @@
----title: "Mild and Reversible Proprioception Perturbation Suggests Causal Biomechanics for Memory-Dependent Spatial Behavior in Mice"
+---title: "In mice, briefly disrupting body-position sense caused navigation errors"
 date: 2026-08-03T08:08:37.903119+00:00
 draft: false
 category: "brain health"

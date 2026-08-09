@@ -1,6 +1,6 @@
----title: "Reducing protein intake could support healthy aging by reshaping metabolism"
+---title: "A 350-study review linked protein restriction to slower aging"
 date: 2026-08-02T21:44:38.665835+00:00
-draft: true
+draft: false
 category: "longevity"
 content_type: "signal"
 edition_rank: 3

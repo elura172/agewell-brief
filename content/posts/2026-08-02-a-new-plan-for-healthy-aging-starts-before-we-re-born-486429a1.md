@@ -1,4 +1,4 @@
----title: "A new plan for healthy aging starts before we're born"
+---title: "Researchers are building a healthspan field rooted in early life"
 date: 2026-08-02T09:07:46+00:00
 draft: false
 category: "longevity"

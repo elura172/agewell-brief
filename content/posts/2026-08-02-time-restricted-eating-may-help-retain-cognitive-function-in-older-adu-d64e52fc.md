@@ -1,4 +1,4 @@
----title: "Time-restricted eating may help retain cognitive function in older adults"
+---title: "In 47 older women, six months of time-restricted eating aided spatial planning"
 date: 2026-08-02T19:14:38Z
 draft: false
 category: "brain health"

@@ -1,6 +1,6 @@
----title: "Q&A: How aging affects cells' recycling centers"
+---title: "How the cell's recycling hubs falter with age"
 date: 2026-08-02T07:25:42.491122+00:00
-draft: true
+draft: false
 category: "longevity"
 source_url: "https://medicalxpress.com/news/2026-07-qa-aging-affects-cells-recycling.html"
 source_title: "Q&A: How aging affects cells' recycling centers"

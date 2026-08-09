@@ -1,7 +1,7 @@
 ---
-title: "Nearly half of dementia cases may be linked to risks you can change"
+title: "A four-year study tied smoking and hypertension to white matter damage"
 date: 2026-08-06T15:19:28.150134+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "lead"
 edition_rank: 1

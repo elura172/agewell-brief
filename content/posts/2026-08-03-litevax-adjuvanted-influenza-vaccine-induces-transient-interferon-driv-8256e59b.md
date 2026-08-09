@@ -1,4 +1,4 @@
----title: "LiteVax-adjuvanted influenza vaccine induces transient interferon-driven innate activation and accelerates early IgG3 responses in older adults"
+---title: "An experimental flu adjuvant sped early antibody quality in over-60s"
 date: 2026-08-03T08:08:37.903119+00:00
 draft: false
 category: "brain health"

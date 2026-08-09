@@ -1,4 +1,4 @@
----title: "Could this enzyme help remove 'zombie' cells from our tissues?"
+---title: "An enzyme may help clear senescent cells from tissue"
 date: 2026-08-03T01:57:08.954082+00:00
 draft: false
 category: "longevity"

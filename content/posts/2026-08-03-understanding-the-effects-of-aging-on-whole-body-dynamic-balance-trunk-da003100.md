@@ -1,4 +1,4 @@
----title: "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength"
+---title: "Aging tracked declines in balance, trunk stability and hip strength"
 date: 2026-08-03T00:03:54.932016+00:00
 draft: false
 category: "longevity"

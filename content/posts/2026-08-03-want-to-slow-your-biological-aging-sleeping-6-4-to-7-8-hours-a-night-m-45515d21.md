@@ -1,4 +1,4 @@
----title: "Want to Slow Your Biological Aging? Sleeping 6.4 to 7.8 Hours a Night May Help - Healthline"
+---title: "Epigenetic aging was slowest in a 6.4-to-7.8-hour sleep window"
 date: 2026-08-03T08:28:52.841371+00:00
 draft: false
 category: "sleep health"

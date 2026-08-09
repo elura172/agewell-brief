@@ -1,6 +1,6 @@
----title: "Scientists may have found a way to prevent statin muscle pain"
+---title: "In mice, an immune reaction explained statin muscle damage"
 date: 2026-08-02T22:38:23.084822+00:00
-draft: true
+draft: false
 category: "general wellness"
 content_type: "lead"
 edition_rank: 1

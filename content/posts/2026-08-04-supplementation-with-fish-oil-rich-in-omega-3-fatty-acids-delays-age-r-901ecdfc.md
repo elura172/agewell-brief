@@ -1,5 +1,5 @@
 ---
-title: "Supplementation with Fish Oil Rich in Omega-3 Fatty Acids Delays Age-Related Muscle Changes"
+title: "In rats, midlife omega-3s durably shifted the muscle-aging trajectory"
 date: 2026-08-04T15:28:00.013349+00:00
 draft: false
 category: "metabolic health"

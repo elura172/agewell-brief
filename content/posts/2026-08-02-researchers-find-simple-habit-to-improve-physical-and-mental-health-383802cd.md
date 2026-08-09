@@ -1,6 +1,6 @@
----title: "Researchers find simple habit to improve physical and mental health"
+---title: "A consistent daily routine tracked less pain and better sleep"
 date: 2026-08-02T22:19:44.677591+00:00
-draft: true
+draft: false
 category: "sleep health"
 content_type: "signal"
 edition_rank: 2

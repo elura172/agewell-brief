@@ -1,6 +1,6 @@
----title: "A 42-year-old childhood obesity theory may be wrong"
+---title: "A better body-fat measure undercuts the childhood 'fat rebound' theory"
 date: 2026-08-02T19:57:57.163527+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 3

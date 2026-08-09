@@ -1,6 +1,6 @@
----title: "Lab-grown mini brains may predict which Alzheimer’s treatments will work"
+---title: "Patient-derived brain organoids predicted who responded to an antidepressant"
 date: 2026-08-02T22:19:44.677591+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

@@ -1,4 +1,4 @@
----title: "Technological Advances in Detecting and Managing Cognitive Impairment in Older Adults: Trends, Challenges, and Future Directions"
+---title: "Blood tests advanced while many AI cognition tools still await validation"
 date: 2026-08-03T05:55:06.448083+00:00
 draft: false
 category: "brain health"

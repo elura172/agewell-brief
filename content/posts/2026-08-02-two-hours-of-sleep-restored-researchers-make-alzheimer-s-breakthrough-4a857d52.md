@@ -1,6 +1,6 @@
----title: "Two hours of sleep restored: Researchers make Alzheimer's breakthrough"
+---title: "Sleep loss triggered a brain immune response that damaged tissue"
 date: 2026-08-02T07:25:36.040015+00:00
-draft: true
+draft: false
 category: "brain health"
 source_url: "https://medicalxpress.com/news/2026-07-hours-alzheimer-breakthrough.html"
 source_title: "Two hours of sleep restored: Researchers make Alzheimer's breakthrough"

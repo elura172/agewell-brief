@@ -1,5 +1,5 @@
 ---
-title: "The Divergent Effects of Nicotinamide Riboside and High‐Intensity Exercise Training on Skeletal Muscle Epigenetic Aging"
+title: "Nicotinamide riboside and hard training remodelled muscle epigenetics differently"
 date: 2026-08-05T00:10:29.542309+00:00
 draft: false
 category: "longevity"

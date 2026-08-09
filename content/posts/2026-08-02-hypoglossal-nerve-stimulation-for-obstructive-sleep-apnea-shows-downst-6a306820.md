@@ -1,6 +1,6 @@
----title: "Hypoglossal nerve stimulation for obstructive sleep apnea shows downstream health benefits"
+---title: "Nerve stimulation for sleep apnea showed wider health gains"
 date: 2026-08-02T19:57:57.163527+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 2

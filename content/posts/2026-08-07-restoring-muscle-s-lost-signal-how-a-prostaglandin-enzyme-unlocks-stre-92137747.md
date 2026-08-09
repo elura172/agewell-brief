@@ -1,7 +1,7 @@
 ---
 title: "Restoring muscle's lost signal: how a prostaglandin enzyme unlocks strength in aging"
 date: 2026-08-07T19:07:22.366319+00:00
-draft: true
+draft: false
 category: "longevity"
 content_type: "lead"
 edition_rank: 1

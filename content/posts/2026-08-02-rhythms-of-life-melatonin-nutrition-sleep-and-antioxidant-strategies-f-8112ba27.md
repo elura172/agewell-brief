@@ -1,4 +1,4 @@
----title: "Rhythms of life: melatonin, nutrition, sleep, and antioxidant strategies for healthy aging - Frontiers"
+---title: "How meal timing and melatonin shape the aging body clock"
 date: 2026-08-02T22:48:43.676383+00:00
 draft: false
 category: "sleep health"

@@ -1,4 +1,4 @@
----title: "A weak body clock may be an early warning for dementia - ScienceDaily"
+---title: "Weaker daily rhythms carried nearly 2.5 times the dementia risk"
 date: 2026-08-02T22:41:51.690760+00:00
 draft: false
 category: "brain health"

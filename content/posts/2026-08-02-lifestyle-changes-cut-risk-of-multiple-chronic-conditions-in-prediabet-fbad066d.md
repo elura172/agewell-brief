@@ -1,6 +1,6 @@
 ---title: "Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes"
 date: 2026-08-02T07:25:40.377109+00:00
-draft: true
+draft: false
 category: "metabolic health"
 source_url: "https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions"
 source_title: "For adults with prediabetes, lifestyle intervention lowered risk of developing multiple chronic conditions"

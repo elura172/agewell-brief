@@ -1,6 +1,6 @@
----title: "APOE2 may protect the brain from Alzheimer’s and aging"
+---title: "APOE2 neurons showed less DNA damage and better repair"
 date: 2026-08-02T18:08:37.559736+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 1

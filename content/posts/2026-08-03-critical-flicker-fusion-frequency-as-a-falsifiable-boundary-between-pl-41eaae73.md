@@ -1,4 +1,4 @@
----title: "Critical Flicker Fusion Frequency As A Falsifiable Boundary Between Plastic And Non-Plastic Neural Systems"
+---title: "A flicker-perception threshold may mark the edge of adult brain plasticity"
 date: 2026-08-03T08:08:37.903119+00:00
 draft: false
 category: "metabolic health"

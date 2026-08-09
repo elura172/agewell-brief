@@ -1,4 +1,4 @@
----title: "CBCT-IQ: A Publicly Available Annotated Cone-Beam CT Dataset for Image Quality Assessment and Benchmarking"
+---title: "A public CT dataset sets a benchmark for image-quality scoring"
 date: 2026-08-03T08:39:18.814899+00:00
 draft: false
 category: "longevity"

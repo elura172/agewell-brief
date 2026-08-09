@@ -1,4 +1,4 @@
----title: "Scientists discover why poor sleep may harm some brains more"
+---title: "A brain waste-clearance gene altered how much poor sleep costs"
 date: 2026-08-02T19:42:45.995186+00:00
 draft: false
 category: "brain health"

@@ -1,6 +1,6 @@
----title: "Popular weight-loss drugs Ozempic and Wegovy may slow biological aging"
+---title: "In adults with HIV, semaglutide slowed biological aging markers"
 date: 2026-08-02T22:19:44.677591+00:00
-draft: true
+draft: false
 category: "longevity"
 content_type: "signal"
 edition_rank: 3

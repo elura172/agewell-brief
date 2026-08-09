@@ -1,7 +1,7 @@
 ---
-title: "AI-enabled measurements of 'local brain aging' offer detailed insights on dementia and more"
+title: "An AI model charted how separate brain regions age at different rates"
 date: 2026-08-04T19:46:51.306331+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

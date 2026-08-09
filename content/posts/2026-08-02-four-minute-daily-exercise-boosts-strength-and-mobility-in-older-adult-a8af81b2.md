@@ -1,4 +1,4 @@
----title: "Four-minute daily exercise boosts strength and mobility in older adults - The Brighter Side of News"
+---title: "A four-minute daily routine improved chair-stand and balance scores"
 date: 2026-08-02T22:41:51.690760+00:00
 draft: false
 category: "general wellness"

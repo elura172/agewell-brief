@@ -1,6 +1,6 @@
----title: "Watching too much TV in midlife may shrink the brain"
+---title: "In 1,700 adults, frequent midlife TV tracked smaller memory regions"
 date: 2026-08-02T18:08:37.559736+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 2

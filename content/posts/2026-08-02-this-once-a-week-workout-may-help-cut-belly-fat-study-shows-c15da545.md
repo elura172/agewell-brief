@@ -1,6 +1,6 @@
----title: "This once-a-week workout may help cut belly fat, study shows"
+---title: "75 minutes of weekly interval walking cut central fat in 315 adults"
 date: 2026-08-02T21:44:38.665835+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 2

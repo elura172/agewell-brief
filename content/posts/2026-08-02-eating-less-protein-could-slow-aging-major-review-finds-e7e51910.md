@@ -1,4 +1,4 @@
----title: "Eating less protein could slow aging, major review finds"
+---title: "A review of 350+ studies tied lower protein intake to better metabolism"
 date: 2026-08-02T22:24:36.983685+00:00
 draft: false
 category: "longevity"

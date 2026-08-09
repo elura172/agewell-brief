@@ -1,4 +1,4 @@
----title: "Your gut can get jet lag too: How not to waste the first days of your vacation"
+---title: "Long flights shift the gut microbiome, not just sleep"
 date: 2026-08-02T22:24:36.983685+00:00
 draft: false
 category: "sleep health"

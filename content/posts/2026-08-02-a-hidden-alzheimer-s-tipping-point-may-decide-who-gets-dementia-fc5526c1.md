@@ -1,6 +1,6 @@
----title: "A hidden Alzheimer’s tipping point may decide who gets dementia"
+---title: "A microglial switch may separate who declines from who stays sharp"
 date: 2026-08-02T19:57:57.163527+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

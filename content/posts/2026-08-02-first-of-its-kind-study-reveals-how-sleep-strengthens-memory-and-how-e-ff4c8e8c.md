@@ -1,4 +1,4 @@
----title: "First-of-its-kind study reveals how sleep strengthens memory and how epilepsy can disrupt the process"
+---title: "Three brain regions synchronised during sleep to consolidate memory"
 date: 2026-08-02T19:42:45.995186+00:00
 draft: false
 category: "brain health"

@@ -1,5 +1,5 @@
 ---
-title: "Overall Brain Health Protects Memory From Early Alzheimer’s - Neuroscience News"
+title: "Overall brain health buffered memory against early Alzheimer's pathology"
 date: 2026-08-05T19:46:33.266948+00:00
 draft: false
 category: "brain health"

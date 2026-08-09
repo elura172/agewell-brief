@@ -1,5 +1,5 @@
 ---
-title: "Effects of neural aging on speech perception in bilinguals vs. monolinguals"
+title: "Lifelong bilingualism preserved pre-attentive hearing discrimination with age"
 date: 2026-08-05T15:19:35.954766+00:00
 draft: false
 category: "brain health"

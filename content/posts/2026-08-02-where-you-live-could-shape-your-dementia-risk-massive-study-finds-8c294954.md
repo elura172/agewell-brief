@@ -1,6 +1,6 @@
----title: "Where you live could shape your dementia risk, massive study finds"
+---title: "Across 214,000 older adults, dementia risk factors varied by country"
 date: 2026-08-02T21:44:38.665835+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1
