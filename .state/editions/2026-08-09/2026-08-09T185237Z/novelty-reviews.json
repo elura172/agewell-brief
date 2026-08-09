@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "de12de7b94526d78e587b5af": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Identifies specific T-cell co-stimulatory/inhibitory states (ICOS, PD-1) that modulate Alzheimer's vulnerability and resilience, with mechanistic and longitudinal data.",
+      "angle": "Your immune system's 'checkpoint' molecules may decide how Alzheimer's affects you",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic list of balance exercises for seniors; no new findings or unique angle.",
+      "angle": "13 balance exercises that actually target age-related decline",
+      "mode": "agent"
+    },
+    "874167e02202e764f6697a57": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Novel computational framework (MDSI-AVI) for whole-brain modeling, revealing new insights into working memory networks; technically advanced and potentially impactful.",
+      "angle": "AI maps the brain's 'traffic control' during working memory",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "First in-situ glial cell-surface proteomics in Drosophila identifies DIP-β as a pro-longevity factor, with functional validation and mechanistic insights.",
+      "angle": "A surface protein on brain support cells extends lifespan in flies",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "Specific molecular mechanism (HNRNPC succinylation) in Alzheimer's, but incremental and not yet translated; may be too specialized for general audience.",
+      "angle": "How a chemical tweak to a brain protein fuels Alzheimer's",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another senior workout article; no unique data or novel angle.",
+      "angle": "A trainer's 10-minute daily routine to keep you steady on your feet",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Narrative review of taVNS for disorders of consciousness; useful but not novel, and preliminary evidence is mixed.",
+      "angle": "Can a nerve in your ear help wake the brain after injury?",
+      "mode": "agent"
+    },
+    "3406303dda526473a9b97205": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "counterintuitive result",
+      "reason": "Challenges common assumption that reducing sweet intake curbs cravings; six-month trial shows no effect on preference or health markers.",
+      "angle": "Cutting sweets doesn't stop cravings, study finds",
+      "mode": "agent"
+    },
+    "8ceb4683a1d2939678198258": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "technical paper",
+      "reason": "Highly technical engineering paper on fault diagnosis in power systems; irrelevant to aging audience.",
+      "angle": "Smart grids that self-diagnose faults in remote islands",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "de12de7b94526d78e587b5af",
+    "874167e02202e764f6697a57",
+    "c376819f2d54a4df1d317aee",
+    "3406303dda526473a9b97205"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7",
+    "a69b88ecd3c8d0a8a837a768",
+    "8ceb4683a1d2939678198258"
+  ],
+  "mode": "agent"
+}

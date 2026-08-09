@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "3406303dda526473a9b97205",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:30830502",
+      "score": 85,
+      "rationale": "The image closely matches the editorial intent of a close-up sensory experience of tasting a sweet food, with a focus on the mouth and tongue. The alt text describes an intimate close-up of a woman enjoying a ripe strawberry, which aligns with the story's theme of sweetness as a sensory signal. The setting and mood are neutral and observational, avoiding medical or staged elements.",
+      "concerns": [
+        "The image shows a woman eating a strawberry, which is a fruit, but the story discusses sweet foods broadly. However, the focus on the sensory experience is appropriate. The image is not a generic lifestyle shot but a specific close-up, which is suitable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-09/sweetness-is-a-signal-not-a-switch-why-cutting-sweet-foods-won-t-rewir-3406303d-pexels-30830502.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
