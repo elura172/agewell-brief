@@ -37,9 +37,18 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
       </p>
 
       {/* Lightweight Top Email Capture Bar */}
-      <form class="top-subscribe-bar" action="#subscribe">
+      <form id="hero-subscribe-form" class="top-subscribe-bar">
         <span class="bar-pill">📩 Daily Briefs + 6 PDF Field Guides</span>
-        <a href="#subscribe" class="hero-join-btn">Subscribe Free <span aria-hidden="true">→</span></a>
+        <input
+          type="email"
+          id="hero-email-input"
+          name="email"
+          placeholder="Enter your email address..."
+          required
+          class="hero-email-input"
+          aria-label="Email address"
+        />
+        <button type="submit" id="hero-submit-btn" class="hero-join-btn">Subscribe Free <span aria-hidden="true">→</span></button>
       </form>
     </div>
   </header>
@@ -354,42 +363,68 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     const submitBtn = document.getElementById("subscribe-submit-btn") as HTMLButtonElement;
     const successBox = document.getElementById("subscribe-success-box");
 
+    // Subscription is completed on Substack, which owns the list. Handing off
+    // rather than posting in the background keeps the confirmation honest:
+    // the reader only ever sees "subscribed" from Substack itself.
+    function handOffToSubstack(email: string) {
+      const handoff =
+        "https://agewellbrief.substack.com/subscribe?email=" + encodeURIComponent(email);
+      const opened = window.open(handoff, "_blank", "noopener");
+
+      // If the popup was blocked there is no Substack tab, so the copy must not
+      // claim one opened. Point the reader at a link they can actually click.
+      const link = document.getElementById("subscribe-handoff-link") as HTMLAnchorElement;
+      const lead = document.getElementById("subscribe-handoff-lead");
+      if (link) link.href = handoff;
+      if (lead && !opened) {
+        lead.textContent =
+          "Your browser blocked the new tab. Finish subscribing here — it takes one click:";
+      }
+
+      // This reader has just given an email, and the success box hands them all
+      // six guides. Record it before revealing the box, or the field-guide gate
+      // will stop them on the very links they were just promised.
+      try {
+        localStorage.setItem("agewell:guide-email-given", "1");
+      } catch {
+        /* blocked storage: the gate defaults to open, so the links still work */
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = opened ? "Opened in a new tab →" : "Finish on Substack →";
+      }
+      if (form) form.style.display = "none";
+      if (successBox) successBox.classList.remove("is-hidden");
+    }
+
     if (form && emailInput && submitBtn && successBox) {
-      form.addEventListener("submit", async (e) => {
+      form.addEventListener("submit", (e) => {
         e.preventDefault();
         const email = emailInput.value.trim();
         if (!email) return;
+        handOffToSubstack(email);
+      });
+    }
 
-        // Subscription is completed on Substack, which owns the list. Handing off
-        // rather than posting in the background keeps the confirmation honest:
-        // the reader only ever sees "subscribed" from Substack itself.
-        const handoff =
-          "https://agewellbrief.substack.com/subscribe?email=" + encodeURIComponent(email);
-        const opened = window.open(handoff, "_blank", "noopener");
+    // Hero bar: same handoff, but the reader hasn't scrolled to #subscribe yet,
+    // so bring the success box (and the six guide links it reveals) into view.
+    const heroForm = document.getElementById("hero-subscribe-form") as HTMLFormElement;
+    const heroEmailInput = document.getElementById("hero-email-input") as HTMLInputElement;
+    const heroSubmitBtn = document.getElementById("hero-submit-btn") as HTMLButtonElement;
 
-        // If the popup was blocked there is no Substack tab, so the copy must not
-        // claim one opened. Point the reader at a link they can actually click.
-        const link = document.getElementById("subscribe-handoff-link") as HTMLAnchorElement;
-        const lead = document.getElementById("subscribe-handoff-lead");
-        if (link) link.href = handoff;
-        if (lead && !opened) {
-          lead.textContent =
-            "Your browser blocked the new tab. Finish subscribing here — it takes one click:";
+    if (heroForm && heroEmailInput) {
+      heroForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const email = heroEmailInput.value.trim();
+        if (!email) return;
+        if (emailInput) emailInput.value = email;
+        handOffToSubstack(email);
+        if (heroSubmitBtn) {
+          heroSubmitBtn.disabled = true;
+          heroSubmitBtn.textContent = "Opened below ↓";
         }
-
-        // This reader has just given an email, and the success box hands them all
-        // six guides. Record it before revealing the box, or the field-guide gate
-        // will stop them on the very links they were just promised.
-        try {
-          localStorage.setItem("agewell:guide-email-given", "1");
-        } catch {
-          /* blocked storage: the gate defaults to open, so the links still work */
-        }
-
-        submitBtn.disabled = true;
-        submitBtn.textContent = opened ? "Opened in a new tab →" : "Finish on Substack →";
-        form.style.display = "none";
-        successBox.classList.remove("is-hidden");
+        successBox?.scrollIntoView({ behavior: "smooth", block: "center" });
       });
     }
   </script>
@@ -562,21 +597,38 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     font-weight: 600;
     color: var(--ink);
   }
+  .hero-email-input {
+    font-family: inherit;
+    font-size: 0.85rem;
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--line);
+    background: #ffffff;
+    color: var(--ink);
+    min-width: 220px;
+  }
   .hero-join-btn {
     display: inline-flex;
     align-items: center;
     gap: 6px;
+    font-family: inherit;
     font-size: 0.82rem;
     font-weight: 700;
     padding: 8px 18px;
+    border: none;
     border-radius: 20px;
     background: var(--saffron-ink);
     color: #ffffff;
     text-decoration: none;
+    cursor: pointer;
     transition: background 0.2s ease;
   }
   .hero-join-btn:hover {
     background: var(--ink);
+  }
+  .hero-join-btn:disabled {
+    cursor: default;
+    opacity: 0.7;
   }
 
   /* 4. Biophysics Frameworks Section */
