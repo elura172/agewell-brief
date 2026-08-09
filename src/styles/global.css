@@ -503,7 +503,13 @@ nav a { display: inline-flex; min-height: 44px; align-items: center; }
   .article-intro-bar a { display: inline-flex; margin-top: 6px; }
   /* The rail goes static here, so the reserved column must be given back. */
   .article-header { margin-top: 60px; padding-right: 0; }
-  .article-header .signal-rail { position: static; width: auto; height: 80px; padding: 0; margin-bottom: 28px; }
+  /* Height must follow the content here. At a fixed 80px the stacked rail —
+     category, evidence badge, framework chip, then the date — overflowed to
+     134px and dropped the date 27px into the headline. */
+  .article-header .signal-rail { position: static; width: auto; height: auto; padding: 0; margin-bottom: 28px; gap: 10px; }
+  /* The vertical rule spaces the two ends of the desktop column; stacked it
+     collapses to nothing but keeps its 15px margins as dead space. */
+  .article-header .signal-rail i { display: none; }
   .article-hero { margin: -20px -6vw 48px; }
   .editorial-image--article figcaption { display: block; padding-left: 6vw; padding-right: 6vw; }
   .article-image-note { margin: 12px 6vw 26px; font-size: .95rem; }
