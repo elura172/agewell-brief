@@ -152,37 +152,43 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
         <span class="framework-icon">🌊</span>
         <h3>Living Waters</h3>
         <p class="framework-tag">Fluid & Micro-Circulation</p>
-        <p>Interfacial exclusion zone (EZ) structured water ($H_3O_2$) and vascular transport kinetics.</p>
+        <p class="framework-desc">Interfacial exclusion zone (EZ) structured water ($H_3O_2$) and vascular transport kinetics.</p>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="gut health">
         <span class="framework-icon">🌱</span>
         <h3>Inner Garden</h3>
         <p class="framework-tag">Gut Microbiome Ecology</p>
-        <p>Short-chain fatty acid signaling, gut barrier integrity, and microbial circadian rhythmicity.</p>
+        <p class="framework-desc">Short-chain fatty acid signaling, gut barrier integrity, and microbial circadian rhythmicity.</p>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="cellular senescence">
         <span class="framework-icon">🍃</span>
         <h3>Cell Shedding</h3>
         <p class="framework-tag">Senescence & Cellular Renewal</p>
-        <p>Targeted senolytic clearing, autophagy activation, and SASP inflammatory reduction.</p>
+        <p class="framework-desc">Targeted senolytic clearing, autophagy activation, and SASP inflammatory reduction.</p>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="metabolic health">
         <span class="framework-icon">🔥</span>
         <h3>Higher Flame</h3>
         <p class="framework-tag">Metabolic Resilience & Mitochondria</p>
-        <p>Mitochondrial respiration voltage, metabolic flexibility, and non-shivering thermogenesis.</p>
+        <p class="framework-desc">Mitochondrial respiration voltage, metabolic flexibility, and non-shivering thermogenesis.</p>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="brain health">
         <span class="framework-icon">⚡</span>
         <h3>Luminous Mind</h3>
         <p class="framework-tag">Cognitive & Neural Coherence</p>
-        <p>Glymphatic clearance during sleep, neuro-plasticity, and biophotonic brain entrainment.</p>
+        <p class="framework-desc">Glymphatic clearance during sleep, neuro-plasticity, and biophotonic brain entrainment.</p>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="detoxification">
         <span class="framework-icon">🪞</span>
         <h3>Dark Mirror</h3>
         <p class="framework-tag">Mineral Balance & Bio-Clearing</p>
-        <p>Heavy metal chelation, systemic mineral ratios, and deep tissue clearing pathways.</p>
+        <p class="framework-desc">Heavy metal chelation, systemic mineral ratios, and deep tissue clearing pathways.</p>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
     </div>
   </section>
@@ -272,7 +278,8 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     });
 
     frameworkCards.forEach((card) => {
-      card.addEventListener("click", () => {
+      card.addEventListener("click", (event) => {
+        if (event.target.closest(".framework-spiral-link")) return;
         const topic = card.getAttribute("data-framework-topic");
         if (topic) {
           applyTopicFilter(topic);
@@ -615,10 +622,21 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     color: var(--saffron-ink);
     margin: 0 0 10px;
   }
-  .framework-card p:last-child {
+  .framework-desc {
     font-size: 0.88rem;
     line-height: 1.45;
     color: var(--muted);
     margin: 0;
+  }
+  .framework-spiral-link {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--saffron-ink);
+    text-decoration: none;
+  }
+  .framework-spiral-link:hover {
+    text-decoration: underline;
   }
 </style>
