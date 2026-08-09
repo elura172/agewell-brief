@@ -39,8 +39,11 @@ jobs:
           RSS_FEEDS_JSON: ${{ secrets.RSS_FEEDS_JSON }}
           MAX_ITEMS: 1
           MAX_ITEMS_PER_PUBLISHER: 2
+          # No AUTO_PUBLISH_UNTIL: the trial window expired on 2026-08-09 and
+          # would have silently turned every generated brief into a draft while
+          # the runs — and the LLM spend — carried on. auto_publish_enabled()
+          # still honours the variable if it is ever set again.
           AUTO_PUBLISH: true
-          AUTO_PUBLISH_UNTIL: "2026-08-09"
       - name: Validate Upload-Post account
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         continue-on-error: true
