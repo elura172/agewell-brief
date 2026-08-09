@@ -307,15 +307,26 @@ def autoresearch_context_subagent(
     category: str,
 ) -> dict[str, Any]:
     """AutoResearch & Deep Context Subagent:
-    Discovers historical antecedents (e.g. Fritz-Albert Popp, Gerald Pollack, Otto Warburg, Alexander Gurwitsch, Hans Selye),
-    mechanistic connections, ancestral/traditional health parallels, and exact citations to enhance signal value.
+    Discovers historical antecedents, mechanistic connections, ancestral/traditional
+    health parallels, and exact citations to enhance signal value. Deliberately does
+    not seed the prompt with named example scientists — see the comment on
+    system_prompt below for why.
     """
+    # No named examples here on purpose. A/B tested 2026-08-09 against 11 briefs
+    # spanning every category: naming Popp/Pollack/Warburg/Selye/Horvath as "e.g."
+    # examples caused the model to default to those same names even on a poor
+    # topical fit (a mineral-clearing detox brief got "Popp, Pollack" verbatim
+    # instead of a heavy-metal chelation specialist). Dropping the examples gave
+    # 22/22 unique citations across the sample (was 20/22, with repeats) while
+    # still independently converging on the same names where they were genuinely
+    # the correct answer (Hayflick on cellular senescence, Selye on stress/sleep).
     system_prompt = (
         "You are Agewell Brief's AutoResearch & Deep Context Subagent. "
         "Your task is to enrich cutting-edge scientific preprints with deep biophysical history, "
-        "historical antecedents (e.g., Fritz-Albert Popp biophotons, Gerald Pollack EZ water, Otto Warburg metabolic respiration, "
-        "Hans Selye stress adaptation, Horvath epigenetic clocks), precise mechanical connections, "
-        "and ancestral/traditional lifestyle parallels. "
+        "historical antecedents, precise mechanical connections, and ancestral/traditional lifestyle parallels. "
+        "Search broadly across the history of biophysics, cell biology, physiology, and medicine for the specific "
+        "researcher whose work most precisely anticipates or explains THIS finding — do not default to famous names "
+        "if a more specific, lesser-known antecedent fits the mechanism better. "
         "Provide specific, non-vague historical context, key researchers, and referenced connections."
     )
     payload = {
