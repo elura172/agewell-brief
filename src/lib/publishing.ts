@@ -16,7 +16,13 @@ export function publishedBriefs(entries: BriefEntry[]): BriefEntry[] {
 
 export function withoutAffiliatePlacement(markdown: string): string {
   return markdown
+    // The pipeline stopped emitting this line long ago; kept so older briefs
+    // that still carry it are handled.
     .replace(/^>\s*\*\*Affiliate disclosure:\*\*.*(?:\r?\n|$)/gim, "")
+    // Today's placement is an <aside class="resource-card"> block. Without this
+    // the function was a no-op against every current brief, and the card only
+    // stayed out of the feed because sanitize-html happened to drop <aside>.
+    .replace(/<aside\b[^>]*class="[^"]*resource-card[^"]*"[\s\S]*?<\/aside>/gi, "")
     .replace(/\n{3,}/g, "\n\n")
     .trim();
 }

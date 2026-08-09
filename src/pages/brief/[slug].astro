@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { linkRel, plainTextExcerpt, publishedBriefs, topicSlug, typographic } from "../../lib/publishing";
+import { isCommercialLink, linkRel, plainTextExcerpt, publishedBriefs, topicSlug, typographic } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
 import EZWaterCalculator from "../../components/EZWaterCalculator.astro";
 import GlymphaticCalculator from "../../components/GlymphaticCalculator.astro";
@@ -170,7 +170,10 @@ const structuredData = [
       </div>
       <h1>{typographic(entry.data.title)}</h1>
       <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <time datetime={entry.data.date.toISOString()}>Published {formatDateTime}</time></p>
-      <p class="article-source">Original reporting: <a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
+      {/* The six programme explainers cite our own storefront rather than a
+          study. It already carries rel="sponsored", but calling a shop
+          "Original reporting" is the part that misleads. */}
+      <p class="article-source">{isCommercialLink(entry.data.source_url) ? "Programme reference: " : "Original reporting: "}<a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
       {frontierLinks.length > 0 && <p class="article-frontier">On the frontier: {frontierLinks.slice(0, 2).map((frontier, index) => <><a href={`/frontier-map/#${frontier.slug}`}>{frontier.shortName}</a>{index < Math.min(frontierLinks.length, 2) - 1 ? ", " : ""}</>)}</p>}
     </header>
     {entry.data.image && <div class="article-hero">
