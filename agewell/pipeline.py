@@ -42,6 +42,7 @@ from agewell.editorial import (
     EvidencePacket,
     ImageBrief,
     build_evidence_packet,
+    caption_image,
     classify_evidence_position,
     direct_image,
     review_image_metadata,
@@ -1038,6 +1039,7 @@ def markdown(
     photo: PublishedImage | None = None,
     draft: bool = True,
     spiral: dict[str, Any] | None = None,
+    image_caption: str | None = None,
 ) -> str:
     published_at = edition_time or dt.datetime.now(dt.timezone.utc)
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
@@ -1078,7 +1080,7 @@ def markdown(
 image_provider_id: "{quote(photo.provider_id)}"
 image: "{quote(photo.local_url)}"
 image_alt: "{quote(photo.alt)}"
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "{quote(image_caption or 'A glimpse of the everyday routines behind this story.')}"
 image_width: {photo.width}
 image_height: {photo.height}
 image_photographer: "{quote(photo.creator)}"
@@ -1309,6 +1311,7 @@ def run() -> int:
         )
 
         photo: PublishedImage | None = None
+        image_caption: str | None = None
         alignment: AlignmentReview | None = None
         selected_candidate = None
         visual_review: dict[str, Any] = {
@@ -1341,6 +1344,10 @@ def run() -> int:
                 try:
                     article_slug = f"{slug(content['headline'])}-{key[:8]}"
                     photo = persist_image(selected_candidate, PUBLIC_ROOT, recorder.edition_id, article_slug)
+                    try:
+                        image_caption = caption_image(client, MODEL, photo.alt, content["headline"], content["dek"])
+                    except Exception as exc:
+                        print(f"Image caption failed ({item.source_name}): {exc}", file=sys.stderr)
                     visual_review = vision_reviewer.review(str(PUBLIC_ROOT / photo.local_url.lstrip("/")), image_brief, content)
                     append_image_ledger(IMAGE_LEDGER_FILE, selected_candidate, key, recorder.edition_id)
                     used_image_ids.add(selected_candidate.candidate_id)
@@ -1388,6 +1395,7 @@ def run() -> int:
                 photo,
                 draft=not (publish_automatically and release_check.publishable),
                 spiral=spiral,
+                image_caption=image_caption,
             ),
             encoding="utf-8",
         )

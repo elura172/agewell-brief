@@ -302,6 +302,50 @@ def verify_category(
     }
 
 
+def caption_image(
+    client: OpenAI,
+    model: str,
+    image_alt: str,
+    headline: str,
+    dek: str,
+) -> str:
+    """Write a one-sentence caption connecting the actual selected photo to
+    the actual article, instead of the generic placeholder every brief with
+    an image previously shipped ("A glimpse of the everyday routines behind
+    this story.") regardless of what the photo showed or what the piece was
+    about — flagged 2026-08-10 by request, with the example of a strawberry
+    close-up on a piece about sugar signaling.
+
+    Grounded in image_alt (the provider's own description of the photo, real
+    and specific — not invented) so the caption can't drift into describing a
+    scene that isn't actually in the image.
+    """
+    payload = {
+        "image_description": image_alt,
+        "headline": headline,
+        "dek": dek,
+        "output": {"caption": "one sentence, specific to both the image and the article's actual point"},
+    }
+    result = _json_agent(
+        client,
+        model,
+        (
+            "You write photo captions for Agewell Brief. Given the real description of the selected "
+            "photo and the article it illustrates, write one sentence that connects what's actually in "
+            "the frame to the article's specific point — not a generic mood line. "
+            "Example: a close-up of a strawberry, on a piece distinguishing natural fruit sugar from "
+            "processed sweetness, becomes something like 'A strawberry's sweetness is the real signal "
+            "this piece is about — not the metabolic switch that processed sugar flips.' "
+            "Stay factual to image_description; do not describe anything not stated in it. "
+            "No em dash required, but keep it to one sentence, plain language, no hedging."
+        ),
+        payload,
+        150,
+    )
+    caption = str(result.get("caption", "")).strip()
+    return caption or "A glimpse of the everyday routines behind this story."
+
+
 def direct_image(
     client: OpenAI,
     model: str,
