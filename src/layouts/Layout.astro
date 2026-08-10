@@ -18,12 +18,12 @@ import "../styles/global.css";
 
 const {
   title = "Agewell Brief — Global Biophysics & Longevity Science Intelligence",
-  description = "Independent daily synthesis of biophysics, cellular longevity, quantum biology, and healthspan preprints. Source-linked, direct science for sovereign minds.",
+  description = "Independent daily synthesis of biophysics, cellular longevity, quantum biology, and healthspan preprints. Source-linked, direct science for human vitality.",
   ogType = "website",
-  image,
-  imageAlt,
+  image = "/og-default.png",
+  imageAlt = "Agewell Brief — Clear signals. Better questions.",
   imageWidth = 1200,
-  imageHeight = 627,
+  imageHeight = 630,
   publishedTime,
   modifiedTime,
   structuredData
@@ -38,7 +38,7 @@ const structuredDataJSON = structuredData
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
     <link rel="alternate" type="application/rss+xml" title="Agewell Brief RSS" href={new URL("/rss.xml", Astro.site)} />
@@ -99,6 +99,7 @@ const structuredDataJSON = structuredData
     {structuredDataJSON && <script type="application/ld+json" set:html={structuredDataJSON} />}
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <a class="wordmark" href="/" aria-label="Agewell Brief home">
         <img class="wordmark-mark" src="/logo-mark.svg" width="36" height="36" alt="" aria-hidden="true" loading="eager" decoding="async" fetchpriority="high" />
@@ -111,13 +112,13 @@ const structuredDataJSON = structuredData
         <a href="/spiral-of-cellular-light/" title="The Spiral of Cellular Light — Protocol Program">Protocols</a>
         <a href="https://agewellbrief.substack.com" target="_blank" rel="noopener noreferrer" title="Agewell Brief on Substack">Substack ↗</a>
         <a href="/about/" title="About — Editorial Discipline & Mission">About</a>
-        <button type="button" id="font-size-btn" class="font-size-btn" title="Toggle Reader Text Size (Normal / Medium / Large)">
+        <button type="button" id="font-size-btn" class="font-size-btn" title="Toggle Reader Text Size (Normal / Medium / Large)" aria-label="Text size: Normal. Activate to change.">
           <span aria-hidden="true">Aa</span>
         </button>
         <a class="nav-subscribe" href="/#subscribe">Get the brief</a>
       </nav>
     </header>
-    <main><slot /></main>
+    <main id="main-content"><slot /></main>
     <FieldGuideGate />
     <footer class="site-footer">
       <div class="footer-signature"><span>AGEWELL BRIEF</span><span>Clear signals. Better questions.</span></div>
@@ -138,21 +139,29 @@ const structuredDataJSON = structuredData
 
     <script>
       const SIZES = ["normal", "medium", "large"];
+      const SIZE_LABELS = { normal: "Normal", medium: "Medium", large: "Large" };
       let currentIdx = 0;
+
+      const btn = document.getElementById("font-size-btn");
+
+      const announceSize = (size: string) => {
+        if (btn) btn.setAttribute("aria-label", `Text size: ${SIZE_LABELS[size as keyof typeof SIZE_LABELS]}. Activate to change.`);
+      };
 
       const savedSize = localStorage.getItem("agewell_font_size");
       if (savedSize && SIZES.includes(savedSize)) {
         document.documentElement.setAttribute("data-font-size", savedSize);
         currentIdx = SIZES.indexOf(savedSize);
+        announceSize(savedSize);
       }
 
-      const btn = document.getElementById("font-size-btn");
       if (btn) {
         btn.addEventListener("click", () => {
           currentIdx = (currentIdx + 1) % SIZES.length;
           const nextSize = SIZES[currentIdx];
           document.documentElement.setAttribute("data-font-size", nextSize);
           localStorage.setItem("agewell_font_size", nextSize);
+          announceSize(nextSize);
         });
       }
     </script>

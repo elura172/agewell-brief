@@ -18,11 +18,18 @@ const latestIds = new Set([featured?.id, ...recent.map((entry) => entry.id)]);
 const earlier = entries.filter((entry) => !latestIds.has(entry.id));
 const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
 const editionDate = featured ? formatDate(featured.data.date) : formatDate(new Date());
-const formatVisits = (value: number) => new Intl.NumberFormat("en-CA", { notation: "compact", maximumFractionDigits: 1 }).format(value);
 const trending = (trendingData.articles ?? [])
   .map((item) => ({ item, entry: entries.find((entry) => entry.id === item.slug) }))
   .filter((row) => Boolean(row.entry && row.item.visits > 0));
-const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.category.toLowerCase()))).sort();
+// Shared with the archive items' data-topics below: a brief with no explicit
+// topics falls back to its single category. Computing the pill list and
+// counts from this same multi-topic set (not just the primary category) is
+// required — the filter itself matches against the full topic list, so a
+// count computed only from primary category disagreed with what clicking
+// the pill actually returned (e.g. "Mobility (1)" showing 50 briefs).
+const topicsFor = (entry: (typeof earlier)[number]) =>
+  (entry.data.topics && entry.data.topics.length > 0 ? entry.data.topics : [entry.data.category]).map((t) => t.toLowerCase());
+const earlierCategories = Array.from(new Set(earlier.flatMap(topicsFor))).sort();
 ---
 <Layout>
   {showDrafts && <div class="edition-strip" aria-label="Preview status"><span>LOCAL DRAFT PREVIEW</span><span>NOT PUBLIC</span></div>}
@@ -33,7 +40,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
       <p class="hero-eyebrow">Source-Led Biophysics & Functional Longevity Intelligence</p>
       <h1 id="hero-title">Health reporting built <em>for human vitality.</em></h1>
       <p class="hero-lede">
-        Clear signals. Better questions. We translate cutting-edge arXiv preprints, biophotonic research, and cellular renewal into daily, source-linked actionable intelligence—with zero medical condescension.
+        Three source-linked briefs a day, translated from cutting-edge bioRxiv and PubMed research — cellular renewal, biophotonic biology, and functional longevity, with zero medical condescension.
       </p>
 
       {/* Lightweight Top Email Capture Bar */}
@@ -64,7 +71,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
       <article class:list={["lead-story", { "has-image": featured.data.image }]}>
         <div class="lead-story-copy">
           <div class="lead-kicker"><span>Today’s deep read</span><span>{featured.data.category}</span></div>
-          <h1 id="edition-heading"><a href={`/brief/${featured.id}/`}>{typographic(featured.data.title)}</a></h1>
+          <h2 id="edition-heading"><a href={`/brief/${featured.id}/`}>{typographic(featured.data.title)}</a></h2>
           <p class="lead-dek">Cutting-edge research translated into actionable intelligence: what was discovered, why it matters for cellular & functional health, and where the science is heading.</p>
           <div class="lead-actions">
             <a class="primary-link" href={`/brief/${featured.id}/`}>Read the full analysis <span>→</span></a>
@@ -130,7 +137,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
     <div class="trending-heading">
       <div>
         <p class="eyebrow">Reader signal</p>
-        <h2 id="trending-heading">Trending this week</h2>
+        <h2 id="trending-heading">{trendingData.window_days === 1 ? "Trending today" : "Trending this week"}</h2>
       </div>
       <p>
         {trendingData.window_days === 1
@@ -142,7 +149,6 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
       {trending.map(({ item, entry }, index) => <li>
         <span class="trending-index">{String(index + 1).padStart(2, "0")}</span>
         <a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a>
-        <span class="trending-views">{formatVisits(item.visits)} reader visits</span>
       </li>)}
     </ol>
   </section>}
@@ -154,50 +160,50 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
         <p class="eyebrow">Proprietary Lens</p>
         <h2 id="frameworks-heading" class="section-title">Our Biophysics Frameworks</h2>
       </div>
-      <p class="section-caption">Six foundational lenses translating cellular physics into everyday healthspan. Click any card to filter briefs.</p>
+      <p class="section-caption">Six foundational lenses translating cellular physics into everyday healthspan. Click a card to filter briefs by lens, or walk the spiral to explore the framework.</p>
     </div>
     <div class="frameworks-grid">
       <article class="framework-card" data-framework-topic="longevity">
         <span class="framework-icon">🌊</span>
         <h3>Living Waters</h3>
         <p class="framework-tag">Fluid & Micro-Circulation</p>
-        <p class="framework-desc">Interfacial exclusion zone (EZ) structured water ($H_3O_2$) and vascular transport kinetics.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
+        <p class="framework-desc">Interfacial exclusion zone (EZ) structured water (H₃O₂) and vascular transport kinetics.</p>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Living Waters spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="gut health">
         <span class="framework-icon">🌱</span>
         <h3>Inner Garden</h3>
         <p class="framework-tag">Gut Microbiome Ecology</p>
         <p class="framework-desc">Short-chain fatty acid signaling, gut barrier integrity, and microbial circadian rhythmicity.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Inner Garden spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="cellular senescence">
         <span class="framework-icon">🍃</span>
         <h3>Cell Shedding</h3>
         <p class="framework-tag">Senescence & Cellular Renewal</p>
         <p class="framework-desc">Targeted senolytic clearing, autophagy activation, and SASP inflammatory reduction.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Cell Shedding spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="metabolic health">
         <span class="framework-icon">🔥</span>
         <h3>Higher Flame</h3>
         <p class="framework-tag">Metabolic Resilience & Mitochondria</p>
         <p class="framework-desc">Mitochondrial respiration voltage, metabolic flexibility, and non-shivering thermogenesis.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Higher Flame spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="brain health">
         <span class="framework-icon">⚡</span>
         <h3>Luminous Mind</h3>
         <p class="framework-tag">Cognitive & Neural Coherence</p>
         <p class="framework-desc">Glymphatic clearance during sleep, neuro-plasticity, and biophotonic brain entrainment.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Luminous Mind spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card" data-framework-topic="detoxification">
         <span class="framework-icon">🪞</span>
         <h3>Dark Mirror</h3>
         <p class="framework-tag">Mineral Balance & Bio-Clearing</p>
         <p class="framework-desc">Heavy metal chelation, systemic mineral ratios, and deep tissue clearing pathways.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link">Walk this spiral <span aria-hidden="true">→</span></a>
+        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Dark Mirror spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
     </div>
   </section>
@@ -216,7 +222,7 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
       <div class="topic-filter-bar" aria-label="Filter earlier briefs by topic">
         <button type="button" class="filter-pill is-active" data-topic="all">All topics ({earlier.length})</button>
         {earlierCategories.map((cat) => {
-          const count = earlier.filter((e) => e.data.category.toLowerCase() === cat).length;
+          const count = earlier.filter((e) => topicsFor(e).includes(cat)).length;
           return (
             <button type="button" class="filter-pill" data-topic={cat}>
               {cat} ({count})
@@ -226,9 +232,11 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
       </div>
     )}
 
+    <p id="filter-status" class="sr-only" role="status" aria-live="polite"></p>
+
     <ol class="archive-list" id="archive-list">
       {earlier.map((entry, index) => {
-        const allTopics = (entry.data.topics && entry.data.topics.length > 0 ? entry.data.topics : [entry.data.category.toLowerCase()]).map(t => t.toLowerCase());
+        const allTopics = topicsFor(entry);
         return (
           <li class="archive-item" data-topics={allTopics.join("|")}>
             <article class="archive-entry">
@@ -277,6 +285,12 @@ const earlierCategories = Array.from(new Set(earlier.map((entry) => entry.data.c
           item.style.display = "none";
         }
       });
+
+      const statusEl = document.getElementById("filter-status");
+      if (statusEl) {
+        const label = topic === "all" ? "all topics" : topic;
+        statusEl.textContent = `Showing ${visibleCount} ${visibleCount === 1 ? "brief" : "briefs"} for ${label}.`;
+      }
     }
 
     filterPills.forEach((pill) => {
