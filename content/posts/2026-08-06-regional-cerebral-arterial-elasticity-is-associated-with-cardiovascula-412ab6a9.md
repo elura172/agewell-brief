@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "12197297"
 image: "/images/editions/2026-08-06/regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9-pexels-12197297.webp"
 image_alt: "Close-up of a young woman wearing an EEG headband, showcasing modern technology indoors."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The EEG headband on the young woman's head is a modern tool for monitoring brain activity, but the article's focus is on a different kind of measurement—cerebral artery elasticity—which declines measurably in just 18 months, driven by cardiovascular risk burden."
 image_width: 1200
 image_height: 627
 image_photographer: "Михаил Крамор"

@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "28570735"
 image: "/images/editions/2026-08-08/aging-brains-draft-blood-borne-immune-reinforcements-the-blood-brain-b-51930a90-pexels-28570735.webp"
 image_alt: "Detailed view of a microscope in a laboratory used in scientific research."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The microscope in the lab is the tool that revealed how aging brains selectively let blood-borne immune cells through the blood-brain barrier, challenging the idea that it's a wall."
 image_width: 1200
 image_height: 627
 image_photographer: "indra projects"

@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "11899950"
 image: "/images/editions/2026-08-03/activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162-pexels-11899950.webp"
 image_alt: "Detailed view of a laboratory microscope, essential for scientific research and analysis."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The microscope's lens, a tool for molecular observation, is where researchers would confirm that activating the lactate receptor GPR81 eases senescence markers in progeroid mice."
 image_width: 1200
 image_height: 627
 image_photographer: "Jeff Burkholder"

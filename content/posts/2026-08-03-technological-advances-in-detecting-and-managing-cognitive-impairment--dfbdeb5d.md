@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "4149034"
 image: "/images/editions/2026-08-03/technological-advances-in-detecting-and-managing-cognitive-impairment--dfbdeb5d-pexels-4149034.webp"
 image_alt: "A scientist in protective gear examines a blood sample through a magnifying glass."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The scientist's magnifying glass on a blood sample underscores the article's point that blood tests are advancing, while AI cognition tools still await validation."
 image_width: 1200
 image_height: 627
 image_photographer: "Gustavo Fring"

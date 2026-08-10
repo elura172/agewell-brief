@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "30830502"
 image: "/images/editions/2026-08-09/sweetness-is-a-signal-not-a-switch-why-cutting-sweet-foods-won-t-rewir-3406303d-pexels-30830502.webp"
 image_alt: "An intimate close-up of a woman enjoying a ripe strawberry with freckles visible on her face."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The freckled face savoring a strawberry illustrates the article's finding that sweetness itself isn't the metabolic switch, but the fruit's natural sugar and energy density are what matter."
 image_width: 1200
 image_height: 627
 image_photographer: "fahri tokcan"

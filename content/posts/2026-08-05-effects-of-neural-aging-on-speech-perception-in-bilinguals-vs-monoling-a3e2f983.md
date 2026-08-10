@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "24346263"
 image: "/images/editions/2026-08-05/effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983-pexels-24346263.webp"
 image_alt: "Man sitting in an armchair using a neurofeedback device, illustrating modern technology in healthcare."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The man's neurofeedback device, like the EEG in the study, tracks brain activity, but the article's point is that lifelong bilingualism, not technology, preserves the brain's automatic sound discrimination with age."
 image_width: 1200
 image_height: 627
 image_photographer: "Mindfield Biosystems Ltd."

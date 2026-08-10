@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "3082455"
 image: "/images/editions/2026-08-07/your-brain-s-immune-system-is-being-replaced-starting-at-50-b216b7d2-pexels-3082455.webp"
 image_alt: "Blurred unrecognizable person placing sample on microscope while making research during work in modern laboratory"
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "A researcher places a sample under a microscope, a process that could reveal the midlife shift in hippocampal microglia that the article describes."
 image_width: 1200
 image_height: 627
 image_photographer: "Chokniti Khongchum"

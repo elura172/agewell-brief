@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "15410078"
 image: "/images/editions/2026-08-08/the-locus-coeruleus-a-tiny-brain-nucleus-that-orchestrates-cognition-a-29ba27a2-pexels-15410078.webp"
 image_alt: "A human brain model placed on a blue plate, viewed from above against a pastel background."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "This overhead view of a brain model on a plate mirrors the article's focus on the locus coeruleus, a minuscule brainstem nucleus whose early degeneration is now seen as a harbinger of Alzheimer's and Parkinson's."
 image_width: 1200
 image_height: 627
 image_photographer: "Amel Uzunovic"

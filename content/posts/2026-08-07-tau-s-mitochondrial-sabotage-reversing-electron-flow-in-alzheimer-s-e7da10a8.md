@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "26184267"
 image: "/images/editions/2026-08-07/tau-s-mitochondrial-sabotage-reversing-electron-flow-in-alzheimer-s-e7da10a8-pexels-26184267.webp"
 image_alt: "A female researcher examines samples with a microscope in a laboratory setting."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The researcher's microscope work zeroes in on how tau flips mitochondrial electron flow at Complex I, a sabotage that slashes ATP and fuels oxidative stress."
 image_width: 1200
 image_height: 627
 image_photographer: "Ejov Igor"

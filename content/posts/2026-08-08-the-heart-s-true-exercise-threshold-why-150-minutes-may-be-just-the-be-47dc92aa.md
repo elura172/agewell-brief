@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "32213422"
 image: "/images/editions/2026-08-08/the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa-pexels-32213422.webp"
 image_alt: "A confident female scientist in a lab coat with a hijab in a modern laboratory with microscopes and textbooks."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The scientist's focused gaze over the microscope mirrors the precision needed to recalibrate the heart's exercise threshold beyond the standard 150-minute guideline."
 image_width: 1200
 image_height: 627
 image_photographer: "Yusuf Çelik"

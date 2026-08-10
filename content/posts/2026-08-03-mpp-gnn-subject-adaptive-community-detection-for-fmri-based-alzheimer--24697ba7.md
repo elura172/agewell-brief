@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "3862140"
 image: "/images/editions/2026-08-03/mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7-pexels-3862140.webp"
 image_alt: "A woman analyzes data on a computer screen in a modern office setup, focusing on technological research."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The woman's focused analysis of data on the screen mirrors the study's use of machine learning to map individual brain networks, enhancing Alzheimer's detection through personalized patterns."
 image_width: 1200
 image_height: 627
 image_photographer: "ThisIsEngineering"

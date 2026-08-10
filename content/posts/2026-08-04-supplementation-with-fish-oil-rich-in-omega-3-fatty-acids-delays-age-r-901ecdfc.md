@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "11354239"
 image: "/images/editions/2026-08-04/supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc-pexels-11354239.webp"
 image_alt: "An adult using a glucometer to measure blood glucose levels, illustrating personal healthcare management."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "A glucometer reading in an adult's hand underscores the article's finding that muscle aging starts with metabolic decline, not mass loss, and that midlife omega-3s can durably shift that trajectory."
 image_width: 1200
 image_height: 627
 image_photographer: "Towfiqu barbhuiya"

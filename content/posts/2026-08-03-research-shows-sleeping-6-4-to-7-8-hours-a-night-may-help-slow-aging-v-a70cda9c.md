@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "8346006"
 image: "/images/editions/2026-08-03/research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c-pexels-8346006.webp"
 image_alt: "A retro alarm clock sits by a sleeping woman in a cozy bedroom setting."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The alarm clock beside the sleeping woman marks the 6.4-to-7.8-hour window that the study links to slower biological aging, not just a restful night."
 image_width: 1200
 image_height: 627
 image_photographer: "Anastasiya Vragova"

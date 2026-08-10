@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "17979470"
 image: "/images/editions/2026-08-05/overall-brain-health-protects-memory-from-early-alzheimer-s-neuroscien-628fba67-pexels-17979470.webp"
 image_alt: "Senior woman jogging on a dirt road in a rural landscape with mountains in the background."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "A senior woman jogging on a rural dirt road embodies the article's point that maintaining overall brain health through physical activity can buffer memory against early Alzheimer's pathology."
 image_width: 1200
 image_height: 627
 image_photographer: "Pexels LATAM"

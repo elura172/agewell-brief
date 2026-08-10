@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "8560285"
 image: "/images/editions/2026-08-09/rem-sleep-turns-the-brain-inward-new-eeg-evidence-of-sensory-gating-95c88243-pexels-8560285.webp"
 image_alt: "A young man with curly hair peacefully sleeping on a cozy couch with a soft pillow."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The young man's peaceful sleep on the couch illustrates the brain's inward focus during REM, as the EEG study shows it gating external sensory input while preserving internal signals for memory and emotion."
 image_width: 1200
 image_height: 627
 image_photographer: "Timur Weber"

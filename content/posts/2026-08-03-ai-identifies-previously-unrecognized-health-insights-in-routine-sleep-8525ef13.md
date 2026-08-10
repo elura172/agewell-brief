@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "5118461"
 image: "/images/editions/2026-08-03/ai-identifies-previously-unrecognized-health-insights-in-routine-sleep-8525ef13-pexels-5118461.webp"
 image_alt: "Scientist in protective gear holding a transparent test sheet in a laboratory."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The scientist's transparent test sheet holds the same kind of routine data that the AI model sifts through to uncover hidden disease signals."
 image_width: 1200
 image_height: 627
 image_photographer: "Российский центр  гибкой электроники"

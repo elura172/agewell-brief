@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "11730899"
 image: "/images/editions/2026-08-03/could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd-pexels-11730899.webp"
 image_alt: "A scientist works with a microscope in a bright, modern lab setting, wearing a lab coat."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The scientist's focused work at the microscope mirrors the precision needed to study the enzyme that could clear senescent cells, a key step in understanding age-related decline."
 image_width: 1200
 image_height: 627
 image_photographer: "Zakir Rushanly"

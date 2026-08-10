@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "7394787"
 image: "/images/editions/2026-08-09/t-cell-checkpoints-the-immune-dial-that-tunes-brain-resilience-to-amyl-de12de7b-pexels-7394787.webp"
 image_alt: "Senior woman relaxing and reading a book at home on a comfortable pink sofa."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "A senior woman reads at home, embodying the cognitive resilience that peripheral T-cell checkpoints like ICOS and PD-1 may help preserve against Alzheimer's-related hippocampal atrophy."
 image_width: 1200
 image_height: 627
 image_photographer: "Ivan S"

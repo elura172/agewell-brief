@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "36625069"
 image: "/images/editions/2026-08-07/sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0-pexels-36625069.webp"
 image_alt: "A thoughtful senior woman sitting by a window in a softly lit room, lost in contemplation."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The senior woman's quiet moment by the window mirrors the study's finding that empty-nest elders face heightened anxiety, yet her stillness underscores the article's call for movement and social engagement as biological levers against it."
 image_width: 1200
 image_height: 627
 image_photographer: "Patricia Bozan"

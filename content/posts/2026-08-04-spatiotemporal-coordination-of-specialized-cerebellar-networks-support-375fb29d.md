@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "37538884"
 image: "/images/editions/2026-08-04/spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d-pexels-37538884.webp"
 image_alt: "A close-up view of a female adult's hands playing a piano indoors, focusing on fingering technique and white nails."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The pianist's precise fingering mirrors the cerebellar timing that, per the fMRI study, underpins episodic memory in older adults."
 image_width: 1200
 image_height: 627
 image_photographer: "Zulfugar Karimov"

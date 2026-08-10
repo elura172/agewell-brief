@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "15290013"
 image: "/images/editions/2026-08-05/the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7-pexels-15290013.webp"
 image_alt: "Focused woman examining sample through microscope in lab."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The researcher's microscope view mirrors the study's cellular-level scrutiny, where nicotinamide riboside and hard training each left distinct epigenetic marks on muscle."
 image_width: 1200
 image_height: 627
 image_photographer: "Vladimir Srajber"

@@ -13,7 +13,7 @@ image_provider: "Pexels"
 image_provider_id: "10549076"
 image: "/images/editions/2026-08-07/the-laughter-cataplexy-link-a-neurological-short-circuit-in-narcolepsy-ecf3b9ec-pexels-10549076.webp"
 image_alt: "Two friends laughing together in a cozy living room setting, sitting on a comfy sofa with a decorative wreath."
-image_caption: "A glimpse of the everyday routines behind this story."
+image_caption: "The friends' shared laughter in this cozy living room is the very emotional trigger that, in narcolepsy, can abruptly short-circuit muscle tone and cause a sudden collapse."
 image_width: 1200
 image_height: 627
 image_photographer: "Jeff Vinluan"
