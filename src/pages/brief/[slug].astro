@@ -158,7 +158,7 @@ const structuredData = [
           {(entry.data.frameworks && entry.data.frameworks.length > 0 ? entry.data.frameworks : [protocolCard.name.replace("Protocol", "Framework")]).map((fw) => (
             <a
               class="framework-header-badge"
-              href={protocolCard.pdfUrl}
+              href={(protocolByName[fw.toLowerCase()] ?? protocolCard).pdfUrl}
               download
               title={`Download the ${fw} field guide (PDF)`}
               aria-label={`Download the ${fw} field guide (PDF)`}
