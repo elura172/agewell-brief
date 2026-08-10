@@ -21,8 +21,29 @@ const editionDate = featured ? formatDate(featured.data.date) : formatDate(new D
 const trending = (trendingData.articles ?? [])
   .map((item) => ({ item, entry: entries.find((entry) => entry.id === item.slug) }))
   .filter((row) => Boolean(row.entry && row.item.visits > 0));
+
+// Brief pages already carry NewsArticle + BreadcrumbList JSON-LD; the
+// homepage itself had none. Organization + WebSite here is what search
+// engines use to attribute the individual articles back to the publication.
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Agewell Brief",
+    url: new URL("/", Astro.site).href,
+    logo: new URL("/logo.svg", Astro.site).href,
+    sameAs: ["https://agewellbrief.substack.com"]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Agewell Brief",
+    url: new URL("/", Astro.site).href,
+    publisher: { "@type": "Organization", name: "Agewell Brief" }
+  }
+];
 ---
-<Layout>
+<Layout structuredData={structuredData}>
   {showDrafts && <div class="edition-strip" aria-label="Preview status"><span>LOCAL DRAFT PREVIEW</span><span>NOT PUBLIC</span></div>}
   
   {/* 1. Explicit Brand Hero Banner */}
