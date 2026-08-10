@@ -1,5 +1,4 @@
----
-title: "Flavonoid from vine tea selectively clears senescent microglia, repairs DNA in aging cells"
+---title: "Flavonoid from vine tea selectively clears senescent microglia, repairs DNA in aging cells"
 date: 2026-03-06T12:00:00+00:00
 draft: false
 category: "cellular senescence"
@@ -13,6 +12,8 @@ spiral: "Cell Shedding"
 autoresearch_antecedents: [{"scientist": "Leonard Hayflick", "year": "1961", "discovery": "Demonstrated that normal human fibroblasts have a finite replicative lifespan in culture, establishing the concept of cellular senescence as a distinct biological state. This directly underpins the modern study's use of senescent fibroblasts as a model and its targeting of senescence to alleviate age-related diseases."}, {"scientist": "Judith Campisi", "year": "2005", "discovery": "Characterized the senescence-associated secretory phenotype (SASP), showing that senescent cells secrete pro-inflammatory factors that drive tissue dysfunction and aging. This work provides the mechanistic basis for the senomorphic effects of dihydromyricetin described in the preprint, which attenuates the SASP to mitigate age-related pathology."}]
 ancestral_insight: "Dihydromyricetin is a flavonoid found in the vine tea plant (Ampelopsis grossedentata), traditionally consumed in southern China as a herbal infusion for longevity and metabolic health. The compound's ability to modulate oxidative stress via PRDX2 and mitochondrial function parallels the hormetic effects of dietary polyphenols in ancestral diets, which often included flavonoid-rich plants. This aligns with the concept that traditional plant-based remedies may exert senotherapeutic effects through conserved stress-response pathways, offering a physical mechanism for their historical use in promoting healthy aging."
 evidence_position: "emerging"
+topics: ['cellular senescence', 'longevity', 'metabolic health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 ---
 
 Dihydromyricetin, a natural flavonoid, acts as a senomorphic in fibroblasts by boosting PRDX2 nuclear translocation for DNA repair, and as a senolytic in microglia by disrupting mitochondrial function—offering a dual mechanism to combat age-related decline.

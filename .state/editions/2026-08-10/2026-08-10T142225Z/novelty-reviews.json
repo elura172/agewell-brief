@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "List of balance exercises for seniors is evergreen content, not a novel finding.",
+      "angle": "Could be repackaged with a specific new study or expert insight, but as is, it's a roundup.",
+      "mode": "agent"
+    },
+    "874167e02202e764f6697a57": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "New computational framework (MDSI-AVI) for whole-brain modeling, applied to large dataset, identifies novel hub (dorsal anterior insula) in working memory.",
+      "angle": "How AI-driven brain modeling is revealing the insula's role in working memory and what it means for cognitive decline.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "First in-situ glial cell-surface proteomics in intact brains; identifies DIP-β as a pro-longevity factor in Drosophila, with mechanistic insights.",
+      "angle": "Newly discovered surface protein DIP-β in glial cells extends lifespan in flies – could it be a target for brain aging?",
+      "mode": "agent"
+    },
+    "80ad473586f24eed36c2bf87": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Targeting RANKL prevents bone loss, improves muscle function, and extends lifespan in progeroid mice – a triple benefit with potential translational relevance.",
+      "angle": "One drug target, three aging benefits: RANKL inhibition in progeria mice.",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Narrative review of taVNS for disorders of consciousness, highlighting promising but preliminary evidence and the need for more research.",
+      "angle": "Can ear stimulation wake the brain? The promise and limits of taVNS for consciousness disorders.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Daily workout advice for seniors is common; no new data or unique angle.",
+      "angle": "Could be tied to a specific study or expert, but as is, it's a routine fitness article.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "Identifies HNRNPC succinylation as a novel post-translational modification influencing Alzheimer's neurodegeneration via YME1L1-mediated mitochondrial metabolism.",
+      "angle": "New culprit in Alzheimer's: succinylation of HNRNPC disrupts mitochondrial metabolism – a potential therapeutic target.",
+      "mode": "agent"
+    },
+    "0ebce163e7048e3109c67a0c": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "methodological advance",
+      "reason": "New statistical metric for model comparison, but highly technical and niche; may not have broad reader appeal.",
+      "angle": "Could be pitched as 'Why your favorite study might be wrong: new metric challenges significance' but needs simplification.",
+      "mode": "agent"
+    },
+    "bafea6d7490cbe734d5cc055": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Directed evolution of gut microbiome produces paraquat-resistant bacteria that extend lifespan in flies via acetate production – a concrete, surprising mechanism.",
+      "angle": "Evolved gut bacteria produce acetate to extend fly lifespan – could this work in humans?",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "874167e02202e764f6697a57",
+    "c376819f2d54a4df1d317aee",
+    "80ad473586f24eed36c2bf87",
+    "a69b88ecd3c8d0a8a837a768",
+    "44d85c20f70b28aea7edb7f1",
+    "bafea6d7490cbe734d5cc055"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "256b3e11dfff849235aebba7",
+    "0ebce163e7048e3109c67a0c"
+  ],
+  "mode": "agent"
+}

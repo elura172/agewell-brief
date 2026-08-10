@@ -1,5 +1,4 @@
----
-title: "Aging is a networked failure: mitochondria, circadian clocks, and oxygen delivery converge"
+---title: "Aging is a networked failure: mitochondria, circadian clocks, and oxygen delivery converge"
 date: 2025-12-15T12:00:00+00:00
 draft: false
 category: "metabolic health"
@@ -12,6 +11,8 @@ source_name: "PubMed"
 spiral: "Higher Flame"
 autoresearch_antecedents: [{"scientist": "Denham Harman", "year": "1956", "discovery": "Proposed the free radical theory of aging, positing that accumulated oxidative damage from mitochondrial metabolism drives cellular and organismal decline. This directly anticipates the modern focus on mitochondrial dysfunction as a shared mechanism of aging across tissues, and the emphasis on systemic stressors (e.g., hypoxia, metabolic shifts) that modulate redox balance."}, {"scientist": "August Krogh", "year": "1919", "discovery": "Established the principle that capillary density and oxygen delivery are tightly regulated to match tissue metabolic demand, and that local microenvironments (e.g., hypoxia) shape physiological responses. This underpins the modern finding that tissue-specific microenvironments determine how systemic stressors like hypoxia produce heterogeneous aging outcomes, and that vascular dysfunction is an upstream driver of multi-system decline."}]
 evidence_position: "emerging"
+topics: ['detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A new special issue reframes aging as a multi-system process driven by shared mechanisms—mitochondrial dysfunction, circadian disruption, hypoxia, and inter-organ signaling—with vascular and immune shifts as upstream drivers.

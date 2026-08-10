@@ -1,5 +1,4 @@
----
-title: "Chemical reprogramming extends lifespan in worms, reverses aging hallmarks in human cells"
+---title: "Chemical reprogramming extends lifespan in worms, reverses aging hallmarks in human cells"
 date: 2025-08-01T12:00:00+00:00
 draft: false
 category: "cellular senescence"
@@ -12,6 +11,8 @@ source_name: "PubMed"
 spiral: "Cell Shedding"
 autoresearch_antecedents: [{"scientist": "John Gurdon", "year": "1962", "discovery": "Demonstrated that the nucleus of a differentiated intestinal cell from a Xenopus tadpole could be transplanted into an enucleated egg and direct the development of a complete, fertile adult frog. This proved that the differentiated state is reversible and that the cytoplasm of the egg can reprogram the nucleus, laying the conceptual foundation for cellular reprogramming and the idea that age-associated epigenetic marks can be erased."}, {"scientist": "Shinya Yamanaka", "year": "2006", "discovery": "Identified four transcription factors (Oct4, Sox2, Klf4, c-Myc) that can reprogram mouse somatic fibroblasts into induced pluripotent stem cells (iPSCs). This established that defined factors can reverse cellular differentiation, and subsequent studies showed that iPSC generation resets epigenetic clocks and rejuvenates cellular hallmarks, directly inspiring the use of partial reprogramming to combat aging."}]
 evidence_position: "emerging"
+topics: ['cellular senescence', 'longevity', 'sleep health']
+frameworks: ['Cell Shedding', 'Living Waters', 'Luminous Mind']
 ---
 
 A two-molecule cocktail induces partial reprogramming, restoring genomic stability and reducing senescence, opening a new path to anti-aging therapy.

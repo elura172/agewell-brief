@@ -1,5 +1,4 @@
----
-title: "Cannabinoid receptor 2 activation locks breast cancer cells into a differentiated, therapy-sensitive state"
+---title: "Cannabinoid receptor 2 activation locks breast cancer cells into a differentiated, therapy-sensitive state"
 date: 2025-08-01T12:00:00+00:00
 draft: false
 category: "general wellness"
@@ -11,6 +10,8 @@ source_title: "CB2R-induced differentiation epigenetically restrains cancer plas
 source_name: "biorxiv"
 spiral: "Living Waters"
 evidence_position: "emerging"
+topics: ['general wellness', 'sleep health']
+frameworks: ['Luminous Mind']
 ---
 
 Brief, low-dose CB2R agonists trigger an epigenetic switch that curbs plasticity and boosts tamoxifen response in organoid models.

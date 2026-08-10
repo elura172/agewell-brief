@@ -1,0 +1,25 @@
+[
+  {
+    "article_id": "bafea6d7490cbe734d5cc055",
+    "study_type": "preclinical animal study",
+    "key_claims": [
+      "Directed evolution of a Drosophila gut microbiome produced a paraquat-resistant (PQR) microbiome.",
+      "Transplanting the PQR microbiome into Drosophila increased resistance to dietary paraquat, reduced age-related gut pathologies, and extended lifespan.",
+      "The beneficial species was identified as Lactiplantibacillus plantarum, with mutations linked to greater acetate production.",
+      "Directly feeding acetate to Drosophila extended lifespan similarly to PQR bacteria colonization."
+    ],
+    "limitations": [
+      "The study was conducted in Drosophila, not humans.",
+      "The source does not specify the magnitude of lifespan extension or the exact mutations.",
+      "The source does not provide details on the safety or efficacy of this approach in other organisms.",
+      "The source does not clarify whether the effects are solely due to acetate or other factors."
+    ],
+    "what_not_to_say": [
+      "The study proves that this approach works in humans.",
+      "The study identifies all mechanisms by which the microbiome affects aging.",
+      "The study shows that acetate is the only beneficial metabolite.",
+      "The study provides a ready-to-use therapeutic strategy for aging."
+    ],
+    "confidence": "moderate"
+  }
+]

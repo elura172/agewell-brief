@@ -1,5 +1,4 @@
----
-title: "Phase-separated translation hubs dock onto mitochondria to extend lifespan"
+---title: "Phase-separated translation hubs dock onto mitochondria to extend lifespan"
 date: 2025-10-01T12:00:00+00:00
 draft: false
 category: "longevity"
@@ -13,6 +12,8 @@ spiral: "Cell Shedding"
 autoresearch_antecedents: [{"scientist": "George Emil Palade", "year": "1953", "discovery": "Palade's electron microscopy of rat pancreas revealed ribosomes attached to the endoplasmic reticulum (rough ER), establishing the concept of membrane-associated translation. This directly anticipates the MATO mechanism, where LARP-1 organizes translation machinery into condensates that associate with mitochondria, extending the principle of localized protein synthesis to a membraneless organelle-mitochondria interface."}, {"scientist": "Clifford Brangwynne and Anthony Hyman", "year": "2009", "discovery": "Demonstrated that P granules in C. elegans are liquid-like droplets formed by phase separation, founding the modern field of biomolecular condensates. This work provides the physical framework for LARP-1 MATOs, which are phase-separated condensates that regulate mitochondrial homeostasis, directly validating the concept that membraneless organelles can interact with membrane-bound organelles to control cellular function."}]
 ancestral_insight: "Traditional practices of intermittent fasting and caloric restriction, common in ancestral lifestyles, may promote mitochondrial health by modulating stress responses that keep MATOs associated with mitochondria. The preprint shows that starvation causes MATO dissociation, but persistent MATOs extend lifespan, implying that controlled stress (e.g., short-term fasting) might trigger adaptive responses that later enhance mitochondrial maintenance. This parallels the hormesis concept, where mild stress (like fasting) upregulates protective mechanisms, including mitochondrial quality control, which aligns with the observed lifespan extension when MATOs remain mitochondrion-persistent."
 evidence_position: "emerging"
+topics: ['longevity', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 In C. elegans, LARP-1 forms liquid droplets that synthesize key mitochondrial proteins on-site. Keeping these droplets attached during aging preserves cristae and ATP, boosting longevity.

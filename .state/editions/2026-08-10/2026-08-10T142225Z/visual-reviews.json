@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "bafea6d7490cbe734d5cc055",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:34974302",
+      "score": 85,
+      "rationale": "The candidate image metadata aligns well with the editorial intent: a scientist holding a petri dish in a lab setting, which directly depicts the scientific process of evolving gut bacteria. The alt text mentions 'Scientist examines petri dish samples in a laboratory for research purposes,' which matches the subject and setting. The mood is scientific and precise, and the composition focuses on the researcher's hands and petri dish, as intended. No red flags for fear, products, or stereotypes.",
+      "concerns": [
+        "The image may not explicitly show bacterial colonies or a microscope, but the petri dish and lab setting are sufficient. The metadata does not specify the presence of a computer screen or blue lighting, but these are not critical. The image is from Pexels, a stock photo provider, which may not be as specific as a custom illustration, but it meets the requirements."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-10/evolved-gut-bacteria-extend-lifespan-in-flies-acetate-as-the-molecular-bafea6d7-pexels-34974302.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

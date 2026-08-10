@@ -1,5 +1,4 @@
----
-title: "Ribosome rescue factor Pelota extends lifespan and counters age-related pathology across species"
+---title: "Ribosome rescue factor Pelota extends lifespan and counters age-related pathology across species"
 date: 2025-08-12T12:00:00+00:00
 draft: false
 category: "brain health"
@@ -13,6 +12,8 @@ spiral: "Cell Shedding"
 autoresearch_antecedents: [{"scientist": "Elizabeth McFall and Amos B. Oppenheim", "year": "1970s", "discovery": "Identified the tmRNA (transfer-messenger RNA) system in bacteria, a precursor to ribosome-associated quality control (RQC), which rescues stalled ribosomes and targets incomplete proteins for degradation, establishing the concept of ribosome rescue and proteostasis maintenance."}, {"scientist": "David M. Sabatini and Stuart Schreiber", "year": "1994", "discovery": "Discovered the mechanistic target of rapamycin (mTOR) as a central regulator of cell growth and metabolism, linking nutrient sensing to protein synthesis and autophagy, which is now shown to be hyperactivated in Pelota-deficient aging models, connecting RQC to mTOR-mediated proteostasis."}]
 ancestral_insight: "Traditional caloric restriction (CR) and intermittent fasting, practiced across human cultures, are known to downregulate mTOR signaling and upregulate autophagy. The finding that Pelota prevents mTOR hyperactivation suggests that ancestral dietary patterns may have evolved to support RQC efficiency, reducing proteotoxic stress during aging. This parallels the observation that CR extends lifespan in multiple species, likely by enhancing proteostasis mechanisms that include ribosome-associated quality control."
 evidence_position: "emerging"
+topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New research reveals that Pelota, a ribosome-associated quality control factor, promotes longevity by preventing mTOR hyperactivation and preserving autophagy-mediated proteostasis.

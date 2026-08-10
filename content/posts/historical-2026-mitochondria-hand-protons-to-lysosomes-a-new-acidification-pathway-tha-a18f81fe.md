@@ -1,5 +1,4 @@
----
-title: "Mitochondria hand protons to lysosomes: a new acidification pathway that fails with age"
+---title: "Mitochondria hand protons to lysosomes: a new acidification pathway that fails with age"
 date: 2026-06-18T12:00:00+00:00
 draft: false
 category: "cellular senescence"
@@ -13,6 +12,8 @@ spiral: "Cell Shedding"
 autoresearch_antecedents: [{"scientist": "Christian de Duve", "year": "1955", "discovery": "Discovered lysosomes as membrane-bound organelles containing acid hydrolases, and established that their internal acidic pH (maintained by a proton pump) is essential for degradation. This work laid the foundation for understanding lysosomal acidification as a critical cellular process, which the preprint now shows is coupled to mitochondrial proton export via membrane contacts."}, {"scientist": "Peter Mitchell", "year": "1961", "discovery": "Proposed the chemiosmotic theory, explaining that the mitochondrial electron transport chain pumps protons out of the mitochondrial matrix to create an electrochemical gradient. The preprint extends this by showing that these protons can be directly transferred to lysosomes/vacuoles through membrane contacts, providing a new source of protons for lysosomal acidification beyond the traditional cytosolic pool."}]
 ancestral_insight: "In ancestral lifestyles, periodic fasting and caloric restriction are known to stimulate autophagy and lysosomal function. The preprint's finding that lysosomal acidification depends on mitochondrial proton export via membrane contacts suggests that metabolic states that enhance mitochondrial activity (e.g., fasting-induced mitochondrial biogenesis) could directly support lysosomal function. This provides a mechanistic basis for the traditional practice of fasting as a means to promote cellular rejuvenation, as it may enhance mitochondria-lysosome coupling and maintain lysosomal acidity, thereby supporting autophagic flux and delaying aging."
 evidence_position: "emerging"
+topics: ['cellular senescence', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A conserved mechanism shows mitochondrial proton export via membrane contacts drives lysosomal acidification; aging disrupts this coupling, but engineered links restore it.

@@ -1,5 +1,4 @@
----
-title: "Exercise's hidden signal: how ROS orchestrate whole-body resilience"
+---title: "Exercise's hidden signal: how ROS orchestrate whole-body resilience"
 date: 2026-01-01T12:00:00+00:00
 draft: false
 category: "metabolic health"
@@ -13,6 +12,8 @@ spiral: "Higher Flame"
 autoresearch_antecedents: [{"scientist": "Helmut Sies", "year": "1985", "discovery": "Coined the term 'oxidative stress' and established the concept of redox homeostasis, distinguishing between low-level physiological oxidants (eustress) that regulate signaling and excessive oxidants (distress) that cause damage. This framework directly underpins the review's central theme of exercise-induced ROS as beneficial modulators of redox-sensitive pathways, and its emphasis on the context-dependent nature of oxidative eustress versus distress."}, {"scientist": "Toren Finkel", "year": "2000", "discovery": "Demonstrated that reactive oxygen species (ROS) act as second messengers in cellular signaling, particularly through the reversible oxidation of cysteine residues in proteins such as phosphatases and kinases. This work established the mechanistic basis for how ROS generated during exercise can modulate intracellular signaling cascades, validating the review's focus on compartmentalized ROS production (mitochondrial and NADPH oxidase) and its role in initiating adaptive responses in skeletal muscle."}]
 ancestral_insight: "Traditional hunter-gatherer lifestyles inherently incorporated regular physical activity (e.g., persistence hunting, foraging) that would have generated periodic, moderate ROS bursts—matching the 'eustress' window described in the review. This ancestral pattern of intermittent exertion, interspersed with rest, likely optimized redox signaling for muscle maintenance and systemic resilience, contrasting with modern sedentary behavior that leads to chronic low-grade oxidative distress. The review's finding that exercise-induced EVs deliver redox-regulatory molecules to distant tissues echoes the evolutionary need for coordinated whole-body adaptation to physical challenges, a mechanism that would have been continuously engaged in ancestral environments but is now underutilized, contributing to age-related decline."
 evidence_position: "emerging"
+topics: ['detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New review maps the precise redox choreography behind exercise benefits, revealing how muscle-generated oxidants travel via extracellular vesicles to fortify distant tissues—and why aging scrambles the signal.

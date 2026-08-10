@@ -1,5 +1,4 @@
----
-title: "Memory's hidden order: uniform sampling, not surprise, shapes what we recall"
+---title: "Memory's hidden order: uniform sampling, not surprise, shapes what we recall"
 date: 2025-08-01T12:00:00+00:00
 draft: false
 category: "brain health"
@@ -13,6 +12,8 @@ spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Hermann Ebbinghaus", "year": "1885", "discovery": "Ebbinghaus's '\u00dcber das Ged\u00e4chtnis' established the forgetting curve and the serial position effect, showing that memory for items is non-uniform and depends on position in a sequence. His work introduced the idea that memory encoding is not a passive, uniform process but is shaped by the structure of the input, which the preprint's uniform sampling model reinterprets as a consequence of information-theoretic mutual information rather than surprise."}, {"scientist": "Frederic Bartlett", "year": "1932", "discovery": "Bartlett's 'Remembering' demonstrated that memory for narratives is reconstructive and schema-driven, with participants recalling the gist of stories while distorting details. This directly anticipates the preprint's focus on gist memory and the idea that central information is preferentially retained, which the uniform sampling model explains via mutual information rather than surprise."}]
 ancestral_insight: "In ancestral hunter-gatherer environments, narratives were oral and transmitted across generations, with survival-critical information (e.g., food sources, predator behaviors) embedded in stories. The uniform sampling model aligns with this: rather than relying on moment-to-moment surprise (which is costly and unreliable), the brain's default mode of uniformly sampling incoming information ensures that all experiences are encoded with equal probability, but retrieval is biased toward information that is mutually interconnected—such as the gist of a story—which enhances the fidelity of essential knowledge transmission. This is analogous to the way traditional oral traditions preserve core moral and practical lessons while allowing details to drift, a process that maximizes adaptive fitness by ensuring that critical information is retained across generations without requiring constant vigilance for novelty."
 evidence_position: "emerging"
+topics: ['brain health', 'consumer safety']
+frameworks: ['Luminous Mind']
 ---
 
 New preprint suggests the brain encodes all moments equally, but retrieval favors information-rich, interconnected details—explaining gist memory without costly feedback.

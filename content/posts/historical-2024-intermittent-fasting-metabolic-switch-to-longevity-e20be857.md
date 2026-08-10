@@ -1,5 +1,4 @@
----
-title: "Intermittent fasting: metabolic switch to longevity"
+---title: "Intermittent fasting: metabolic switch to longevity"
 date: 2024-01-01T12:00:00+00:00
 draft: false
 category: "longevity"
@@ -13,6 +12,8 @@ spiral: "Higher Flame"
 autoresearch_antecedents: [{"scientist": "Clive McCay", "year": "1935", "discovery": "Demonstrated that severe caloric restriction in rats extended lifespan by up to 40%, establishing the foundational link between reduced energy intake and longevity. This work directly anticipates intermittent fasting's longevity claims by showing that periodic or sustained energy restriction triggers conserved survival pathways."}, {"scientist": "Mark Mattson", "year": "2000s", "discovery": "Systematically characterized the cellular and molecular mechanisms of intermittent fasting, showing that fasting periods activate stress resistance pathways (e.g., BDNF, autophagy, mitochondrial biogenesis) that protect neurons and improve metabolic health. His work bridges the historical caloric restriction findings to modern time-restricted eating protocols, validating the preprint's claims of broad health benefits."}]
 ancestral_insight: "Hunter-gatherer and traditional agrarian societies naturally experienced intermittent fasting due to seasonal food scarcity and feast-famine cycles. This ancestral pattern is mirrored in the physical mechanism of metabolic switching: the human body evolved to function optimally when alternating between fed and fasted states, as evidenced by the upregulation of autophagy and DNA repair during fasting. The modern practice of time-restricted eating thus recapitulates an ancestral lifestyle that promoted metabolic resilience and longevity, with the gut microbiome co-evolving to thrive on periodic nutrient availability, enhancing host health through short-chain fatty acid production and immune modulation."
 evidence_position: "established"
+topics: ['cellular senescence', 'gut health', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
 ---
 
 A new review confirms that time-restricted eating triggers conserved survival pathways, extending lifespan and improving health across species.
