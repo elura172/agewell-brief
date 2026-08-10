@@ -1,7 +1,7 @@
 ---
 title: "Bone Marrow Fat Secretes Lipids That Drive Cellular Senescence—and a Targeted Framework May Stop It"
 date: 2026-08-10T00:53:21.934351+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 1

@@ -1,7 +1,7 @@
 ---
 title: "Targeting senescence: the new precision arsenal against aging"
 date: 2026-08-10T00:52:18.301810+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 1

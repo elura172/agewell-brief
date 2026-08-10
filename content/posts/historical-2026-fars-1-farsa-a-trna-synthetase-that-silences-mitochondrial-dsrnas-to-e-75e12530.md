@@ -1,7 +1,7 @@
 ---
 title: "FARS-1/FARSA: A tRNA Synthetase That Silences Mitochondrial dsRNAs to Extend Lifespan"
 date: 2026-08-10T00:53:07.067047+00:00
-draft: true
+draft: false
 category: "cellular senescence"
 content_type: "signal"
 edition_rank: 1

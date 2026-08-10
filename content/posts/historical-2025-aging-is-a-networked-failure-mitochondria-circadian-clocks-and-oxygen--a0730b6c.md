@@ -1,7 +1,7 @@
 ---
 title: "Aging is a networked failure: mitochondria, circadian clocks, and oxygen delivery converge"
 date: 2026-08-10T00:51:30.913626+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 1

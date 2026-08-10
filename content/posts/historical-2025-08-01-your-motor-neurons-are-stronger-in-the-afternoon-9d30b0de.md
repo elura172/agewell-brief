@@ -1,7 +1,7 @@
 ---
 title: "Your motor neurons are stronger in the afternoon"
 date: 2026-08-10T00:56:23.457848+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 1

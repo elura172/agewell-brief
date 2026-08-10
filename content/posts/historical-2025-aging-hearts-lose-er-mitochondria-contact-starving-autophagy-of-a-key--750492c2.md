@@ -1,7 +1,7 @@
 ---
 title: "Aging hearts lose ER-mitochondria contact, starving autophagy of a key lipid"
 date: 2026-08-10T00:53:53.934008+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 1

@@ -1,7 +1,7 @@
 ---
 title: "Memory's hidden order: uniform sampling, not surprise, shapes what we recall"
 date: 2026-08-10T00:55:00.640504+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 1

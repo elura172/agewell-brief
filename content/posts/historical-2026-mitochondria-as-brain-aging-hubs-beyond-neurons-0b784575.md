@@ -1,7 +1,7 @@
 ---
 title: "Mitochondria as Brain Aging Hubs: Beyond Neurons"
 date: 2026-08-10T00:51:46.825064+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 1

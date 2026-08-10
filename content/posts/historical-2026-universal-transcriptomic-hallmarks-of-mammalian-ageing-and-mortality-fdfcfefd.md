@@ -1,7 +1,7 @@
 ---
 title: "Universal transcriptomic hallmarks of mammalian ageing and mortality"
 date: 2026-08-10T00:57:19.988223+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "signal"
 edition_rank: 1

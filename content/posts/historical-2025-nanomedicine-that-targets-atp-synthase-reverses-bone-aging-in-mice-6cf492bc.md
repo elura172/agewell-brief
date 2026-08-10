@@ -1,7 +1,7 @@
 ---
 title: "Nanomedicine that targets ATP synthase reverses bone aging in mice"
 date: 2026-08-10T00:52:03.431282+00:00
-draft: true
+draft: false
 category: "cellular senescence"
 content_type: "signal"
 edition_rank: 1

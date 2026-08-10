@@ -1,7 +1,7 @@
 ---
 title: "Intermittent fasting: metabolic switch to longevity"
 date: 2026-08-10T00:39:17.407696+00:00
-draft: true
+draft: false
 category: "longevity"
 content_type: "signal"
 edition_rank: 1

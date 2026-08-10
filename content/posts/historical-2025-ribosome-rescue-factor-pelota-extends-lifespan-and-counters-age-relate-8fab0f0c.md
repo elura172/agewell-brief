@@ -1,7 +1,7 @@
 ---
 title: "Ribosome rescue factor Pelota extends lifespan and counters age-related pathology across species"
 date: 2026-08-10T00:52:32.080549+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 1

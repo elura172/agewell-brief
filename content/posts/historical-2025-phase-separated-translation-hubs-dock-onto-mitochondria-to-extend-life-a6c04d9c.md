@@ -1,7 +1,7 @@
 ---
 title: "Phase-separated translation hubs dock onto mitochondria to extend lifespan"
 date: 2026-08-10T00:57:01.106004+00:00
-draft: true
+draft: false
 category: "longevity"
 content_type: "signal"
 edition_rank: 1
