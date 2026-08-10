@@ -1,0 +1,94 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import { linkRel, typographic } from "../lib/publishing";
+
+const showDrafts = import.meta.env.DEV;
+const entries = (await getCollection("briefs"))
+  .filter((entry) => showDrafts || !entry.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.data.edition_rank - b.data.edition_rank);
+
+const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
+
+const topicsFor = (entry: (typeof entries)[number]) =>
+  (entry.data.topics && entry.data.topics.length > 0 ? entry.data.topics : [entry.data.category]).map((t) => t.toLowerCase());
+const categories = Array.from(new Set(entries.flatMap(topicsFor))).sort();
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Full archive — Agewell Brief",
+  description: "Every published Agewell Brief edition, filterable by topic.",
+  url: new URL("/archive/", Astro.site).href,
+  isPartOf: { "@type": "WebSite", name: "Agewell Brief", url: new URL("/", Astro.site).href }
+};
+---
+<Layout
+  title="Full archive — Agewell Brief"
+  description={`All ${entries.length} published Agewell Brief editions, filterable by topic.`}
+  structuredData={structuredData}
+>
+  <main class="archive-page-main">
+    <section class="archive-section" aria-labelledby="archive-heading">
+      <div class="section-heading archive-heading">
+        <div>
+          <p class="eyebrow">Full Archive</p>
+          <h1 id="archive-heading" class="section-title">Every brief</h1>
+        </div>
+        <p class="section-caption">{entries.length} editions, source-linked and evidence-graded.</p>
+      </div>
+
+      {categories.length > 0 && (
+        <div class="topic-filter-bar" aria-label="Filter briefs by topic">
+          <button type="button" class="filter-pill is-active" data-topic="all">All topics ({entries.length})</button>
+          {categories.map((cat) => {
+            const count = entries.filter((e) => topicsFor(e).includes(cat)).length;
+            return (
+              <button type="button" class="filter-pill" data-topic={cat}>
+                {cat} ({count})
+              </button>
+            );
+          })}
+        </div>
+      )}
+
+      <p id="filter-status" class="sr-only" role="status" aria-live="polite"></p>
+
+      <ol class="archive-list" id="archive-list">
+        {entries.map((entry, index) => {
+          const allTopics = topicsFor(entry);
+          return (
+            <li class="archive-item" data-topics={allTopics.join("|")}>
+              <article class="archive-entry">
+                <div class="archive-index">{String(index + 1).padStart(2, "0")}</div>
+                <div class="archive-copy">
+                  <p>
+                    <span>{entry.data.category}</span> · <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span> · <span>{formatDate(entry.data.date)}</span>
+                  </p>
+                  <h3><a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a></h3>
+                </div>
+                <a class="archive-source" href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>Original source <span>↗</span></a>
+              </article>
+            </li>
+          );
+        })}
+      </ol>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .archive-page-main {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 48px 5vw 90px;
+  }
+  .archive-heading {
+    margin-bottom: 24px;
+  }
+</style>
+
+<script>
+  import { initArchiveFilter } from "../lib/archive-filter";
+  initArchiveFilter();
+</script>

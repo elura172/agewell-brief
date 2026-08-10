@@ -21,15 +21,6 @@ const editionDate = featured ? formatDate(featured.data.date) : formatDate(new D
 const trending = (trendingData.articles ?? [])
   .map((item) => ({ item, entry: entries.find((entry) => entry.id === item.slug) }))
   .filter((row) => Boolean(row.entry && row.item.visits > 0));
-// Shared with the archive items' data-topics below: a brief with no explicit
-// topics falls back to its single category. Computing the pill list and
-// counts from this same multi-topic set (not just the primary category) is
-// required — the filter itself matches against the full topic list, so a
-// count computed only from primary category disagreed with what clicking
-// the pill actually returned (e.g. "Mobility (1)" showing 50 briefs).
-const topicsFor = (entry: (typeof earlier)[number]) =>
-  (entry.data.topics && entry.data.topics.length > 0 ? entry.data.topics : [entry.data.category]).map((t) => t.toLowerCase());
-const earlierCategories = Array.from(new Set(earlier.flatMap(topicsFor))).sort();
 ---
 <Layout>
   {showDrafts && <div class="edition-strip" aria-label="Preview status"><span>LOCAL DRAFT PREVIEW</span><span>NOT PUBLIC</span></div>}
@@ -57,6 +48,8 @@ const earlierCategories = Array.from(new Set(earlier.flatMap(topicsFor))).sort()
         />
         <button type="submit" id="hero-submit-btn" class="hero-join-btn">Subscribe Free <span aria-hidden="true">→</span></button>
       </form>
+
+      <p class="hero-desk-note">Written by the <a href="/about/#editorial-desk">Agewell Brief editorial desk</a> — systematic source monitoring, human review before every brief publishes.</p>
     </div>
   </header>
 
@@ -160,7 +153,7 @@ const earlierCategories = Array.from(new Set(earlier.flatMap(topicsFor))).sort()
         <p class="eyebrow">Proprietary Lens</p>
         <h2 id="frameworks-heading" class="section-title">Our Biophysics Frameworks</h2>
       </div>
-      <p class="section-caption">Six foundational lenses translating cellular physics into everyday healthspan. Click a card to filter briefs by lens, or walk the spiral to explore the framework.</p>
+      <p class="section-caption">Six foundational lenses translating cellular physics into everyday healthspan. Click a card to see related briefs, or walk the spiral to explore the framework.</p>
     </div>
     <div class="frameworks-grid">
       <article class="framework-card" data-framework-topic="longevity">
@@ -208,107 +201,50 @@ const earlierCategories = Array.from(new Set(earlier.flatMap(topicsFor))).sort()
     </div>
   </section>
 
-  {/* 5. Archive Index */}
+  {/* 5. Recent archive — capped and linked to the full filterable archive
+       rather than rendering all ~109 entries unpaginated. A homepage-scoped
+       filter bar was removed on purpose: with only 15 items in the DOM here,
+       pill counts drawn from the full archive would promise more results
+       than this page could ever show — the same mismatch bug fixed above,
+       just reintroduced a different way. */}
   {earlier.length > 0 && <section id="archive" class="archive-section" aria-labelledby="archive-heading">
     <div class="section-heading archive-heading">
       <div>
         <p class="eyebrow">Archive Index</p>
-        <h2 id="archive-heading" class="section-title">Earlier briefs</h2>
+        <h2 id="archive-heading" class="section-title">Recent briefs</h2>
       </div>
       <p class="section-caption">The useful signals stay available.</p>
     </div>
 
-    {earlierCategories.length > 0 && (
-      <div class="topic-filter-bar" aria-label="Filter earlier briefs by topic">
-        <button type="button" class="filter-pill is-active" data-topic="all">All topics ({earlier.length})</button>
-        {earlierCategories.map((cat) => {
-          const count = earlier.filter((e) => topicsFor(e).includes(cat)).length;
-          return (
-            <button type="button" class="filter-pill" data-topic={cat}>
-              {cat} ({count})
-            </button>
-          );
-        })}
-      </div>
-    )}
-
-    <p id="filter-status" class="sr-only" role="status" aria-live="polite"></p>
-
     <ol class="archive-list" id="archive-list">
-      {earlier.map((entry, index) => {
-        const allTopics = topicsFor(entry);
-        return (
-          <li class="archive-item" data-topics={allTopics.join("|")}>
-            <article class="archive-entry">
-              <div class="archive-index">{String(index + 4).padStart(2, "0")}</div>
-              <div class="archive-copy">
-                <p>
-                  <span>{entry.data.category}</span> · <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span> · <span>{formatDate(entry.data.date)}</span>
-                </p>
-                <h3><a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a></h3>
-              </div>
-              <a class="archive-source" href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>Original source <span>↗</span></a>
-            </article>
-          </li>
-        );
-      })}
+      {earlier.slice(0, 15).map((entry, index) => (
+        <li class="archive-item">
+          <article class="archive-entry">
+            <div class="archive-index">{String(index + 4).padStart(2, "0")}</div>
+            <div class="archive-copy">
+              <p>
+                <span>{entry.data.category}</span> · <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span> · <span>{formatDate(entry.data.date)}</span>
+              </p>
+              <h3><a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a></h3>
+            </div>
+            <a class="archive-source" href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>Original source <span>↗</span></a>
+          </article>
+        </li>
+      ))}
     </ol>
+
+    <p class="archive-view-all"><a href="/archive/">View the full archive ({entries.length} briefs) <span aria-hidden="true">→</span></a></p>
   </section>}
 
   <script>
-    const filterPills = document.querySelectorAll<HTMLButtonElement>(".filter-pill");
-    const archiveItems = document.querySelectorAll<HTMLLIElement>(".archive-item");
     const frameworkCards = document.querySelectorAll<HTMLElement>(".framework-card");
-    const archiveSection = document.getElementById("archive");
-
-    function applyTopicFilter(topic: string) {
-      filterPills.forEach((p) => {
-        const cat = p.getAttribute("data-topic");
-        if (cat === topic) {
-          p.classList.add("is-active");
-        } else {
-          p.classList.remove("is-active");
-        }
-      });
-
-      let visibleCount = 0;
-      archiveItems.forEach((item) => {
-        const rawTopics = item.getAttribute("data-topics") || "";
-        const topicList = rawTopics.split("|");
-
-        if (topic === "all" || topicList.includes(topic)) {
-          item.style.display = "";
-          visibleCount++;
-          const indexEl = item.querySelector(".archive-index");
-          if (indexEl) indexEl.textContent = String(visibleCount + 3).padStart(2, "0");
-        } else {
-          item.style.display = "none";
-        }
-      });
-
-      const statusEl = document.getElementById("filter-status");
-      if (statusEl) {
-        const label = topic === "all" ? "all topics" : topic;
-        statusEl.textContent = `Showing ${visibleCount} ${visibleCount === 1 ? "brief" : "briefs"} for ${label}.`;
-      }
-    }
-
-    filterPills.forEach((pill) => {
-      pill.addEventListener("click", () => {
-        const topic = pill.getAttribute("data-topic") || "all";
-        applyTopicFilter(topic);
-      });
-    });
 
     frameworkCards.forEach((card) => {
       card.addEventListener("click", (event) => {
-        if (event.target.closest(".framework-spiral-link")) return;
+        if ((event.target as HTMLElement).closest(".framework-spiral-link")) return;
         const topic = card.getAttribute("data-framework-topic");
         if (topic) {
-          applyTopicFilter(topic);
-          if (archiveSection) {
-            archiveSection.scrollIntoView({ behavior: "smooth" });
-          }
+          window.location.href = `/archive/?topic=${encodeURIComponent(topic)}`;
         }
       });
     });
@@ -594,6 +530,38 @@ const earlierCategories = Array.from(new Set(earlier.flatMap(topicsFor))).sort()
     color: var(--ink);
     max-width: 780px;
     margin: 0 0 24px;
+  }
+  .hero-desk-note {
+    margin: 16px 0 0;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .hero-desk-note a {
+    color: var(--ink-soft);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .archive-view-all {
+    margin: 32px 0 0;
+    text-align: center;
+  }
+  .archive-view-all a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 10px 22px;
+    border: 1px solid var(--line);
+    border-radius: 30px;
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 0.88rem;
+    text-decoration: none;
+    transition: border-color 0.2s ease, color 0.2s ease;
+  }
+  .archive-view-all a:hover {
+    border-color: var(--saffron-ink);
+    color: var(--saffron-ink);
   }
   .top-subscribe-bar {
     display: inline-flex;

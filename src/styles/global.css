@@ -510,7 +510,7 @@ nav a { display: inline-flex; min-height: 44px; align-items: center; }
    portrait — where the nav overflowed the viewport with no collapse. This is
    scoped to just the header so it doesn't also trigger the single-column
    mobile layout meant for phone widths. */
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .site-header nav a:not(.nav-subscribe) { display: none; }
 }
 
