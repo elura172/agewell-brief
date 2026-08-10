@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "1d0d43b92872610e91e8e608": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Uncovers a novel nuclear role for a muscle contraction protein in aging, with a specific mutation and mechanism.",
+      "angle": "A muscle protein moonlights in the nucleus to drive aging—can we stop it?",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic list of balance exercises, no new findings or unique angle.",
+      "angle": "13 balance moves that actually target age-related decline—ranked by difficulty",
+      "mode": "agent"
+    },
+    "874167e02202e764f6697a57": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "New AI framework for brain connectivity, reveals novel hub for working memory.",
+      "angle": "AI maps the brain's hidden control room for working memory",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "First glial surface proteome in flies, identifies DIP-β as longevity factor.",
+      "angle": "Boosting one brain cell protein extends lifespan—and it's not a neuron",
+      "mode": "agent"
+    },
+    "80ad473586f24eed36c2bf87": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "therapeutic target",
+      "reason": "Targeting RANKL improves bone, muscle, and lifespan in progeroid mice—potential for broader aging.",
+      "angle": "Osteoporosis drug extends lifespan in rapid-aging mice",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Links HNRNPC succinylation to mitochondrial metabolism in Alzheimer's, new pathway.",
+      "angle": "A chemical tweak on a common protein may drive Alzheimer's brain energy failure",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Narrative review, no new data; preliminary evidence, not practice-changing.",
+      "angle": "Ear stimulation for consciousness: hope or hype?",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic workout advice, no new findings.",
+      "angle": "A senior trainer's 10-minute daily routine for staying steady",
+      "mode": "agent"
+    },
+    "11eb8aa9986bde3aefb1a80d": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Confirms known benefits of strength training, but no novel mechanism or surprising result.",
+      "angle": "The exact weekly dose of weights that slashes death risk",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "1d0d43b92872610e91e8e608",
+    "874167e02202e764f6697a57",
+    "c376819f2d54a4df1d317aee",
+    "80ad473586f24eed36c2bf87",
+    "44d85c20f70b28aea7edb7f1"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "a69b88ecd3c8d0a8a837a768",
+    "256b3e11dfff849235aebba7",
+    "11eb8aa9986bde3aefb1a80d"
+  ],
+  "mode": "agent"
+}

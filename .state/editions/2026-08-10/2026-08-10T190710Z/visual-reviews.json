@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "80ad473586f24eed36c2bf87",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:34642915",
+      "score": 70,
+      "rationale": "The candidate image depicts a lab technician operating a clinical analyzer in a modern laboratory setting, which aligns with the editorial intent of showing a researcher in a lab examining scientific data. The metadata does not contain any red flags for fear, stereotypes, or inappropriate imagery. The subject is a technician, not explicitly a researcher, but the setting and activity are consistent with the story's focus on scientific research.",
+      "concerns": [
+        "The alt text mentions a 'clinical analyzer' which may imply a clinical rather than research context, but this is not a major issue. The image may not specifically show bone density scans or muscle tissue, but the general lab setting is acceptable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-10/rankl-blockade-one-molecule-three-wins-bone-muscle-lifespan-80ad4735-pexels-34642915.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
