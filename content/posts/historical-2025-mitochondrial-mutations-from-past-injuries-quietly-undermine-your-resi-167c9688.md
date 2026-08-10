@@ -1,6 +1,6 @@
 ---
 title: "Mitochondrial mutations from past injuries quietly undermine your resilience"
-date: 2026-08-10T00:56:05.177025+00:00
+date: 2025-10-09T12:00:00+00:00
 draft: false
 category: "metabolic health"
 content_type: "signal"

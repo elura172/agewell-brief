@@ -1,6 +1,6 @@
 ---
 title: "Naked mole-rat cGAS rewires DNA repair: four amino acids that slow aging"
-date: 2026-08-10T00:46:26.613505+00:00
+date: 2025-10-09T12:00:00+00:00
 draft: false
 category: "longevity"
 content_type: "signal"

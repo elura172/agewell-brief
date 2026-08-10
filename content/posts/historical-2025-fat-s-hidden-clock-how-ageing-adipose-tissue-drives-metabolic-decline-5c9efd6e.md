@@ -1,6 +1,6 @@
 ---
 title: "Fat's hidden clock: how ageing adipose tissue drives metabolic decline"
-date: 2026-08-10T00:57:43.754199+00:00
+date: 2025-10-01T12:00:00+00:00
 draft: false
 category: "metabolic health"
 content_type: "signal"

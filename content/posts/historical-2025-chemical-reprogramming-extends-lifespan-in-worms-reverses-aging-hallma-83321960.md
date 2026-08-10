@@ -1,6 +1,6 @@
 ---
 title: "Chemical reprogramming extends lifespan in worms, reverses aging hallmarks in human cells"
-date: 2026-08-10T00:58:12.034350+00:00
+date: 2025-08-01T12:00:00+00:00
 draft: false
 category: "cellular senescence"
 content_type: "signal"

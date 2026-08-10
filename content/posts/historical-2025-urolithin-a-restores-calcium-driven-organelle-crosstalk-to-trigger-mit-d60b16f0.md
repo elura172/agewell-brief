@@ -1,6 +1,6 @@
 ---
 title: "Urolithin A restores calcium-driven organelle crosstalk to trigger mitophagy and slow ageing"
-date: 2026-08-10T00:54:10.180073+00:00
+date: 2025-12-01T12:00:00+00:00
 draft: false
 category: "detoxification"
 content_type: "signal"

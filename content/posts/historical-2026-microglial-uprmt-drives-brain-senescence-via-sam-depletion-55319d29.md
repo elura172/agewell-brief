@@ -1,6 +1,6 @@
 ---
 title: "Microglial UPRmt drives brain senescence via SAM depletion"
-date: 2026-08-10T00:51:13.763980+00:00
+date: 2026-08-01T12:00:00+00:00
 draft: false
 category: "metabolic health"
 content_type: "signal"

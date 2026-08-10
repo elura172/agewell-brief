@@ -67,6 +67,19 @@ def existing_source_urls() -> set[str]:
     return urls
 
 
+_MONTHS = {
+    "jan": "01", "feb": "02", "mar": "03", "apr": "04", "may": "05", "jun": "06",
+    "jul": "07", "aug": "08", "sep": "09", "oct": "10", "nov": "11", "dec": "12",
+}
+
+
+def _pubmed_month_to_number(raw: str) -> str:
+    raw = raw.strip().lower()
+    if raw.isdigit():
+        return raw.zfill(2)
+    return _MONTHS.get(raw[:3], "01")
+
+
 def fetch_pubmed(query: str, date_from: str, date_to: str, max_results: int) -> list[FeedItem]:
     base = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
     search_params = urllib.parse.urlencode({
@@ -89,7 +102,7 @@ def fetch_pubmed(query: str, date_from: str, date_to: str, max_results: int) -> 
         title_el = article.find(".//ArticleTitle")
         abstract_el = article.find(".//AbstractText")
         pmid_el = article.find(".//PMID")
-        year_el = article.find(".//PubDate/Year")
+        pubdate_el = article.find(".//PubDate")
         if title_el is None or abstract_el is None or pmid_el is None:
             continue
         title = "".join(title_el.itertext()).strip()
@@ -97,12 +110,27 @@ def fetch_pubmed(query: str, date_from: str, date_to: str, max_results: int) -> 
         if not title or not abstract:
             continue
         pmid = pmid_el.text
-        year = year_el.text if year_el is not None else date_from[:4]
+        # PubMed's PubDate is often year-only in practice; capture Month/Day
+        # when present so the brief's real chronology survives, rather than
+        # collapsing to whatever day the script happened to run.
+        year = date_from[:4]
+        month, day = "01", "01"
+        if pubdate_el is not None:
+            year_el = pubdate_el.find("Year")
+            month_el = pubdate_el.find("Month")
+            day_el = pubdate_el.find("Day")
+            if year_el is not None and year_el.text:
+                year = year_el.text
+            if month_el is not None and month_el.text:
+                month = _pubmed_month_to_number(month_el.text)
+            if day_el is not None and day_el.text:
+                day = day_el.text.zfill(2)
+        published = f"{year}-{month}-{day}"
         items.append(FeedItem(
             title=title,
             summary=abstract,
             link=f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
-            published=year,
+            published=published,
             source_name="PubMed",
             source_group="PubMed",
         ))
@@ -181,7 +209,16 @@ def generate_brief(item: FeedItem, publish: bool) -> str | None:
     resources = program_resources()
     spiral = spiral_for(category, item, resources)
 
-    published_at = dt.datetime.now(dt.timezone.utc)
+    # The brief's `date` must be the real study date, not generation time — this
+    # is the field research_radar.py's evidence-drift mechanism reads to detect
+    # real chronological maturation, and a real 12-month archive collapsed to
+    # "today" for every entry defeats the entire point of a historical backfill.
+    try:
+        published_at = dt.datetime.strptime(item.published, "%Y-%m-%d").replace(
+            hour=12, tzinfo=dt.timezone.utc
+        )
+    except ValueError:
+        published_at = dt.datetime.now(dt.timezone.utc)
     md = markdown(item, category, content, "signal", 1, published_at, None, draft=not publish, spiral=spiral)
     target = POSTS_DIR / f"historical-{item.published}-{pipeline.slug(content['headline'])}-{key[:8]}.md"
     target.write_text(md, encoding="utf-8")

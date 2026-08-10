@@ -1,6 +1,6 @@
 ---
 title: "Ribonucleotide misincorporation into mtDNA triggers inflammation and senescence"
-date: 2026-08-10T00:47:00.340652+00:00
+date: 2025-11-01T12:00:00+00:00
 draft: false
 category: "metabolic health"
 content_type: "signal"

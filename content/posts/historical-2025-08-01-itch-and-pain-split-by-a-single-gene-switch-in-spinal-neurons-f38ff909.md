@@ -1,6 +1,6 @@
 ---
 title: "Itch and pain split by a single gene switch in spinal neurons"
-date: 2026-08-10T00:46:44.105822+00:00
+date: 2025-08-01T12:00:00+00:00
 draft: false
 category: "brain health"
 content_type: "signal"

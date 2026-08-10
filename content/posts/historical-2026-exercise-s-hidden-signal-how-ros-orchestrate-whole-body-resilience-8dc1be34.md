@@ -1,6 +1,6 @@
 ---
 title: "Exercise's hidden signal: how ROS orchestrate whole-body resilience"
-date: 2026-08-10T00:54:43.000617+00:00
+date: 2026-01-01T12:00:00+00:00
 draft: false
 category: "metabolic health"
 content_type: "signal"
