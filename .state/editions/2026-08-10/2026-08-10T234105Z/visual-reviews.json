@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "11eb8aa9986bde3aefb1a80d",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:36917072",
+      "score": 85,
+      "rationale": "The candidate metadata describes a middle-aged woman lifting a dumbbell indoors, which aligns with the editorial intent of showing a real person performing strength training with visible effort. The setting is indoors, which could be a home gym, and the mood is fitness-focused. The alt text mentions 'fitness and healthy lifestyle theme,' which matches the story's message. The age is 'middle-aged,' which is close to the 60s-70s target, though not exact. The image is not a near-duplicate of others and avoids stereotypes.",
+      "concerns": [
+        "The age is described as 'middle-aged' rather than explicitly 60s-70s, which may not perfectly match the intended subject. The setting is not specified as a home gym, but it is indoors and could be interpreted as such. The expression is not described, but the overall theme is fitness."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-10/the-strength-sweet-spot-how-90-minutes-of-lifting-rewires-your-biology-11eb8aa9-pexels-36917072.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

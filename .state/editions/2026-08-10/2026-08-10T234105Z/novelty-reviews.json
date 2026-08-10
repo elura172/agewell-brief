@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "1d0d43b92872610e91e8e608": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Uncovers a novel nuclear role for a muscle contraction protein in aging, with a specific mutation and mechanism.",
+      "angle": "A muscle protein moonlighting in the nucleus to control aging genes",
+      "mode": "agent"
+    },
+    "9acb4bbdf619f3ac1e235a21": {
+      "score": 80,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Provides direct evidence for distinct roles of NREM and REM sleep in emotional memory processing, with specific neural signatures.",
+      "angle": "Sleep's double act: how NREM and REM replay memories differently",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic list of balance exercises, no new findings or unique angle.",
+      "angle": "13 balance moves that actually target age-related decline",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies a specific glial surface protein that extends lifespan, with a novel in-situ proteomics method.",
+      "angle": "A glial surface protein that dials up longevity",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Links a specific post-translational modification to mitochondrial metabolism in Alzheimer's, offering a new target.",
+      "angle": "Succinylation: a new switch in Alzheimer's neurodegeneration",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another senior workout article, lacks specific new data or unique angle.",
+      "angle": "A trainer's 10-minute daily routine for senior strength",
+      "mode": "agent"
+    },
+    "11eb8aa9986bde3aefb1a80d": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "actionable finding",
+      "reason": "Quantifies optimal strength training duration for longevity, with specific numbers and combined effects.",
+      "angle": "The sweet spot: 90-120 minutes of weekly strength training for a longer life",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Narrative review, no new data, and notes lack of significant overall effect in the only RCT.",
+      "angle": "taVNS for consciousness: promising but unproven",
+      "mode": "agent"
+    },
+    "0ebce163e7048e3109c67a0c": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "methodological advance",
+      "reason": "Statistical methods paper, likely too technical for general audience.",
+      "angle": "A new metric to avoid overhyping tiny effects",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "1d0d43b92872610e91e8e608",
+    "9acb4bbdf619f3ac1e235a21",
+    "c376819f2d54a4df1d317aee",
+    "44d85c20f70b28aea7edb7f1",
+    "11eb8aa9986bde3aefb1a80d"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "256b3e11dfff849235aebba7",
+    "a69b88ecd3c8d0a8a837a768",
+    "0ebce163e7048e3109c67a0c"
+  ],
+  "mode": "agent"
+}
