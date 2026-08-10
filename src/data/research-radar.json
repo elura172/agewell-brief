@@ -1,11 +1,36 @@
 {
-  "generated_at": "2026-08-10T04:15:47.575802+00:00",
-  "archive_size": 112,
+  "generated_at": "2026-08-10T21:00:59.101597+00:00",
+  "archive_size": 114,
   "archive_span": {
     "earliest": "2024-01-01",
-    "latest": "2026-08-09"
+    "latest": "2026-08-10"
   },
   "evidence_drift": [
+    {
+      "mechanism": "evidence_drift",
+      "vector": "mobility",
+      "climb_count": 1,
+      "climbs": [
+        {
+          "from": {
+            "slug": "historical-2025-08-01-itch-and-pain-split-by-a-single-gene-switch-in-spinal-neurons-f38ff909",
+            "title": "Itch and pain split by a single gene switch in spinal neurons",
+            "date": "2025-08-01",
+            "evidence_position": "emerging"
+          },
+          "to": {
+            "slug": "2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910",
+            "title": "A review of 350+ studies tied lower protein intake to better metabolism",
+            "date": "2026-08-02",
+            "evidence_position": "established"
+          },
+          "from_position": "emerging",
+          "to_position": "established",
+          "gap_days": 366
+        }
+      ],
+      "brief_count": 64
+    },
     {
       "mechanism": "evidence_drift",
       "vector": "brain health",
@@ -29,7 +54,7 @@
           "gap_days": 367
         }
       ],
-      "brief_count": 62
+      "brief_count": 65
     },
     {
       "mechanism": "evidence_drift",
@@ -38,9 +63,9 @@
       "climbs": [
         {
           "from": {
-            "slug": "historical-2025-urolithin-a-restores-calcium-driven-organelle-crosstalk-to-trigger-mit-d60b16f0",
-            "title": "Urolithin A restores calcium-driven organelle crosstalk to trigger mitophagy and slow ageing",
-            "date": "2025-12-01",
+            "slug": "historical-2025-nanomedicine-that-targets-atp-synthase-reverses-bone-aging-in-mice-6cf492bc",
+            "title": "Nanomedicine that targets ATP synthase reverses bone aging in mice",
+            "date": "2025-09-01",
             "evidence_position": "emerging"
           },
           "to": {
@@ -51,35 +76,10 @@
           },
           "from_position": "emerging",
           "to_position": "established",
-          "gap_days": 244
+          "gap_days": 335
         }
       ],
-      "brief_count": 20
-    },
-    {
-      "mechanism": "evidence_drift",
-      "vector": "cellular senescence",
-      "climb_count": 1,
-      "climbs": [
-        {
-          "from": {
-            "slug": "historical-2025-chemical-reprogramming-extends-lifespan-in-worms-reverses-aging-hallma-83321960",
-            "title": "Chemical reprogramming extends lifespan in worms, reverses aging hallmarks in human cells",
-            "date": "2025-08-01",
-            "evidence_position": "emerging"
-          },
-          "to": {
-            "slug": "2026-08-02-reducing-protein-intake-could-support-healthy-aging-by-reshaping-metab-ea4b19a3",
-            "title": "A 350-study review linked protein restriction to slower aging",
-            "date": "2026-08-02",
-            "evidence_position": "established"
-          },
-          "from_position": "emerging",
-          "to_position": "established",
-          "gap_days": 366
-        }
-      ],
-      "brief_count": 21
+      "brief_count": 26
     }
   ],
   "citation_convergence": [
