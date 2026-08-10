@@ -91,8 +91,16 @@ def brief_ref(b: dict) -> dict:
     }
 
 
-def mechanism_evidence_drift(briefs: list[dict]) -> list[dict]:
-    """01. Which frontier vectors climbed the evidence ladder, and when."""
+def mechanism_evidence_drift(briefs: list[dict], min_drift_days: int = 7) -> list[dict]:
+    """01. Which frontier vectors climbed the evidence ladder, and when.
+
+    A "climb" only counts if the two briefs are at least min_drift_days apart.
+    Without this, two same-topic briefs published hours apart at different
+    evidence positions read as "drift over time" when they're really just two
+    different takes on the same day — observed 2026-08-10 on an archive still
+    mostly one week deep, e.g. "2026-08-02 emerging -> 2026-08-02 established".
+    That's not evidence maturing, it's same-day variance.
+    """
     by_vector: dict[str, list[dict]] = defaultdict(list)
     for b in briefs:
         vectors = b["frontier_vectors"] or b["topics"] or [b["category"]]
@@ -111,12 +119,14 @@ def mechanism_evidence_drift(briefs: list[dict]) -> list[dict]:
         high_water_brief = None
         for b in ladder_group:
             rung = LADDER[b["evidence_position"]]
-            if high_water_brief is not None and rung > high_water:
+            gap_days = (b["date"] - high_water_brief["date"]).days if high_water_brief else None
+            if high_water_brief is not None and rung > high_water and gap_days >= min_drift_days:
                 climbs.append({
                     "from": brief_ref(high_water_brief),
                     "to": brief_ref(b),
                     "from_position": high_water_brief["evidence_position"],
                     "to_position": b["evidence_position"],
+                    "gap_days": gap_days,
                 })
             if rung > high_water:
                 high_water = rung
@@ -166,9 +176,9 @@ def mechanism_citation_convergence(briefs: list[dict], min_categories: int) -> l
     return entries
 
 
-def run(min_categories: int) -> dict:
+def run(min_categories: int, min_drift_days: int = 7) -> dict:
     briefs = load_briefs()
-    drift = mechanism_evidence_drift(briefs)
+    drift = mechanism_evidence_drift(briefs, min_drift_days)
     convergence = mechanism_citation_convergence(briefs, min_categories)
 
     dates = [b["date"] for b in briefs]
@@ -189,19 +199,21 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--min-categories", type=int, default=3,
                          help="minimum distinct categories for a convergence hit (default 3)")
+    parser.add_argument("--min-drift-days", type=int, default=7,
+                         help="minimum days between briefs for a climb to count as real drift, not same-day variance (default 7)")
     parser.add_argument("--write", action="store_true",
                          help="write output to src/data/research-radar.json (default: print only)")
     args = parser.parse_args()
 
-    result = run(args.min_categories)
+    result = run(args.min_categories, args.min_drift_days)
 
     span = result["archive_span"]
     print(f"Archive: {result['archive_size']} briefs, {span['earliest']} to {span['latest']}")
-    print(f"Evidence drift: {len(result['evidence_drift'])} vector(s) climbed the ladder")
+    print(f"Evidence drift (min {args.min_drift_days}d gap): {len(result['evidence_drift'])} vector(s) climbed the ladder")
     for e in result["evidence_drift"]:
         print(f"  - {e['vector']}: {e['climb_count']} climb(s) across {e['brief_count']} briefs")
         for c in e["climbs"]:
-            print(f"      {c['from']['date']} {c['from_position']} -> {c['to']['date']} {c['to_position']}  ({c['to']['title'][:60]})")
+            print(f"      {c['from']['date']} {c['from_position']} -> {c['to']['date']} {c['to_position']} ({c['gap_days']}d)  ({c['to']['title'][:60]})")
     print(f"Citation convergence (min {args.min_categories} categories): {len(result['citation_convergence'])} scientist(s)")
     for e in result["citation_convergence"]:
         print(f"  - {e['scientist']}: {e['category_count']} categories ({', '.join(e['categories'])})")
