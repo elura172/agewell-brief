@@ -176,6 +176,62 @@ def build_evidence_packet(
     )
 
 
+EVIDENCE_POSITIONS = ("established", "emerging", "contested", "speculative")
+
+# Verbatim from editorial-policy.astro's public Layer 4 badging — the two must
+# stay in sync, since this classifier exists to make that public promise true
+# rather than the schema default ("emerging") applying to every brief silently.
+EVIDENCE_POSITION_RUBRIC = (
+    "established: Replicated clinical trials & systematic reviews.\n"
+    "emerging: Phase I/II trials, novel animal models, bioRxiv/medRxiv preprints.\n"
+    "contested: Conflicting trial data or competing mechanistic hypotheses.\n"
+    "speculative: Early theoretical biophysics & preliminary arXiv models."
+)
+
+
+def classify_evidence_position(
+    client: OpenAI,
+    model: str,
+    study_type: str,
+    key_claims: tuple[str, ...],
+    limitations: tuple[str, ...],
+) -> str:
+    """Classify a brief's evidence maturity using the same four-category rubric
+    already published to readers, rather than leaving every brief at the schema
+    default of "emerging" regardless of whether it's a systematic review or a
+    single unreplicated preprint.
+
+    Deliberately does NOT use EvidencePacket.confidence as an input: confidence
+    describes how clearly THIS ARTICLE stated its claims, not how mature the
+    underlying science is — a vague write-up of a landmark systematic review and
+    a crisply-written single preprint are different evidence_positions despite
+    similar confidence. study_type and the claims themselves are the right axis.
+    """
+    payload = {
+        "study_type": study_type,
+        "key_claims": list(key_claims),
+        "limitations": list(limitations),
+        "rubric": EVIDENCE_POSITION_RUBRIC,
+        "output": {"evidence_position": "one of established, emerging, contested, speculative"},
+    }
+    result = _json_agent(
+        client,
+        model,
+        (
+            "You are Agewell Brief's evidence-maturity classifier. Apply the supplied rubric literally: "
+            "match the study_type and claims to the closest single category. Do not default to 'emerging' "
+            "as a safe middle choice — pick 'established' when the study_type is a systematic review, "
+            "meta-analysis, or explicitly replicated trial; pick 'speculative' when the study_type is "
+            "theoretical, a preliminary model, or a single early-stage finding with no replication; "
+            "pick 'contested' only when limitations or claims describe actual disagreement with prior work."
+        ),
+        payload,
+        200,
+    )
+    position = str(result.get("evidence_position", "")).strip().lower()
+    return position if position in EVIDENCE_POSITIONS else "emerging"
+
+
 def direct_image(
     client: OpenAI,
     model: str,

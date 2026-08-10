@@ -42,6 +42,7 @@ from agewell.editorial import (
     EvidencePacket,
     ImageBrief,
     build_evidence_packet,
+    classify_evidence_position,
     direct_image,
     review_image_metadata,
 )
@@ -635,6 +636,18 @@ def draft(
     minimum_lead_words = 500 if source_is_deep else 300
     focused_fallback_words = 350 if source_is_deep else 250
     deep_context = autoresearch_context_subagent(client, MODEL, item.title, source_material, category)
+    # Only briefs that actually report a study get classified. evergreen/editorial
+    # pieces (framework explainers, program pages) aren't reporting a single
+    # study's maturity — tested 2026-08-09 and build_evidence_packet returns
+    # study_type values like "plain-language guide" for them, which the rubric
+    # then reads as "speculative", a mislabel for content that isn't unproven
+    # science at all. Leaving evidence_position unset for those keeps the
+    # existing schema default rather than guessing at something that doesn't apply.
+    evidence_position = (
+        classify_evidence_position(client, MODEL, evidence.study_type, evidence.key_claims, evidence.limitations)
+        if evidence and content_type in {"signal", "lead"}
+        else None
+    )
     prompt: dict[str, Any] = {
         "source_title": item.title,
         "source_summary": item.summary[:5000],
@@ -837,6 +850,8 @@ def draft(
     ancestral_insight = clean_text(str(deep_context.get("ancestral_insight", "")))
     if ancestral_insight:
         normalized["ancestral_insight"] = ancestral_insight
+    if evidence_position:
+        normalized["evidence_position"] = evidence_position
     if result.get("generation_status"):
         normalized["generation_status"] = clean_text(str(result["generation_status"]))
     if result.get("generation_note"):
@@ -1049,6 +1064,10 @@ def markdown(
     ancestral_insight_frontmatter = (
         f'ancestral_insight: "{quote(ancestral_insight)}"\n' if ancestral_insight else ""
     )
+    evidence_position = content.get("evidence_position")
+    evidence_position_frontmatter = (
+        f'evidence_position: "{quote(evidence_position)}"\n' if evidence_position else ""
+    )
     image_frontmatter = ""
     if photo:
         image_frontmatter = f'''image_provider: "{quote(photo.provider)}"
@@ -1075,7 +1094,7 @@ edition_id: "{published_at.date().isoformat()}"
 source_url: "{quote(item.link)}"
 source_title: "{quote(item.title)}"
 source_name: "{quote(item.source_name)}"
-{spiral_frontmatter}{antecedents_frontmatter}{ancestral_insight_frontmatter}{image_frontmatter}---
+{spiral_frontmatter}{antecedents_frontmatter}{ancestral_insight_frontmatter}{evidence_position_frontmatter}{image_frontmatter}---
 
 {content["dek"]}
 
