@@ -1,42 +1,46 @@
 {
-  "generated_at": "2026-08-03T15:37:20.436500+00:00",
+  "generated_at": "2026-08-10T14:13:22.198305+00:00",
   "window": "current Cloudflare trend window",
   "available_metrics": {
-    "published_articles": 41,
+    "published_articles": 112,
     "top_articles": [
       {
-        "slug": "2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
-        "visits": 57,
-        "requests": 65
+        "slug": "2026-08-07-your-brain-s-immune-system-is-being-replaced-starting-at-50-b216b7d2",
+        "visits": 11,
+        "requests": 12
       },
       {
-        "slug": "2026-08-02-a-potential-sleep-crisis-among-workers-over-50-study-links-work-relate-6877c93b",
-        "visits": 52,
-        "requests": 54
+        "slug": "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7",
+        "visits": 9,
+        "requests": 9
       },
       {
-        "slug": "2026-08-02-a-new-plan-for-healthy-aging-starts-before-we-re-born-486429a1",
-        "visits": 51,
-        "requests": 54
+        "slug": "2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa",
+        "visits": 8,
+        "requests": 9
       },
       {
-        "slug": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
-        "visits": 48,
-        "requests": 54
+        "slug": "2026-08-02-a-42-year-old-childhood-obesity-theory-may-be-wrong-a9e38e1b",
+        "visits": 7,
+        "requests": 7
       },
       {
-        "slug": "2026-08-03-technological-advances-in-detecting-and-managing-cognitive-impairment--dfbdeb5d",
-        "visits": 41,
-        "requests": 42
+        "slug": "2026-08-02-ai-can-tell-if-your-brain-is-aging-faster-than-you-are-c2812776",
+        "visits": 7,
+        "requests": 7
       }
     ],
     "social_status_counts": {
       "facebook:completed": 1,
-      "facebook:queued": 7,
+      "facebook:pending": 56,
+      "facebook:queued": 8,
+      "facebook:upload_failed": 1,
       "tiktok:completed": 1,
-      "tiktok:queued": 7,
+      "tiktok:pending": 56,
+      "tiktok:queued": 9,
       "youtube:completed": 1,
-      "youtube:queued": 7
+      "youtube:pending": 56,
+      "youtube:queued": 9
     },
     "clickbank_status": "live",
     "clickbank_error": null
