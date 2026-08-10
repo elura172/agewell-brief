@@ -25,17 +25,15 @@ def brief_link(ref: dict) -> str:
 def render_drift_section(drift: list[dict]) -> str:
     if not drift:
         return (
-            "No frontier vector cleared the drift threshold this period — no finding moved from "
-            "one evidence position to a higher one across a gap of 7+ days within the archive window.\n\n"
+            "No topic cleared the threshold this period — no pair of briefs under the same topic "
+            "moved from a lower evidence position to a higher one across a gap of 7+ days.\n\n"
             "This is expected on a young or narrow archive; it is reported here rather than "
-            "papered over. As the archive deepens, this section is where maturation velocity "
-            "becomes visible: which mechanisms are accumulating independent, higher-quality "
-            "support over time, not just repeated coverage.\n"
+            "papered over.\n"
         )
     lines = []
     for e in drift:
         lines.append(f"### {e['vector'].title()}")
-        lines.append(f"{e['climb_count']} climb(s) across {e['brief_count']} briefs tracking this vector.\n")
+        lines.append(f"{e['climb_count']} pair(s) found across {e['brief_count']} briefs tagged with this topic.\n")
         for c in e["climbs"]:
             lines.append(
                 f"- **{c['from_position']} → {c['to_position']}**, {c['gap_days']} days apart: "
@@ -67,38 +65,30 @@ def render_report(data: dict, period: str) -> str:
 
 *Generated {generated} · Archive: {data['archive_size']} briefs, {span['earliest']} to {span['latest']}*
 
-Every finding below traces to specific, dated briefs in the Agewell Brief archive — click through
-to the original source and evidence-position rationale. Nothing here is inferred without a citation
-you can check.
+Every finding below traces to a dated brief in the Agewell Brief archive — click through to check it.
 
-## Evidence Maturation
+## Confidence Shifts Within a Topic
 
-Which mechanisms moved from a lower evidence position (speculative, emerging) to a higher one
-(contested, established), with at least 7 days between the two briefs — same-day variance across
-different takes on one topic doesn't count as maturation.
+Pairs of briefs tagged with the same topic where the later brief sits higher on the evidence
+ladder (speculative → contested → emerging → established) than the earlier one, at least 7 days
+apart. This tracks a topic's confidence, not one mechanism maturing — the two briefs in a pair are
+often different findings that happen to share a topic tag, not the same claim re-confirmed. Read
+accordingly.
 
 {render_drift_section(data['evidence_drift'])}
 
 ## Cross-Framework Convergence
 
 Historical antecedents independently cited by briefs in unrelated categories — a signal that
-disparate current research is converging on the same underlying mechanism, not that we told the
-model to expect it (the prompt used to name examples; it no longer does, precisely to keep this
-section honest — see the 2026-08-09 methodology note below).
+disparate current research is converging on the same underlying mechanism.
 
 {render_convergence_section(data['citation_convergence'])}
 
 ## Methodology
 
-- **Evidence maturation** groups briefs by topic/frontier vector, sorts chronologically, and flags
-  when evidence_position climbs the established/emerging/contested/speculative ladder with a real
-  time gap. evidence_position is classified per brief against a published rubric (see
-  agewellbrief.com/editorial-policy), not left at a schema default.
-- **Citation convergence** requires two or more categories, computed from autoresearch_antecedents
-  — historical scientists whose work the current finding extends or validates, identified per brief
-  without prompt-suggested examples (an earlier version anchored on a handful of named scientists;
-  removed 2026-08-09 after it visibly biased the output).
-- Both mechanisms run against the full archive, published briefs only — draft content is excluded.
+Full methodology, the evidence-position rubric, and the changelog live at
+agewellbrief.com/research-radar-methodology — kept off this issue so findings aren't crowded by
+process notes.
 """
 
 

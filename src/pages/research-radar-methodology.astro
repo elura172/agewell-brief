@@ -1,0 +1,26 @@
+---
+import InfoPage from "../layouts/InfoPage.astro";
+---
+<InfoPage
+  title="Research Radar — Methodology"
+  eyebrow="How the two mechanisms are computed"
+  lede="Both mechanisms below run against frontmatter that already exists on every published brief — nothing is generated for the report itself. Every entry traces to specific, dated briefs you can open and check."
+>
+  <h2>01. Confidence Shifts Within a Topic</h2>
+  <p>Groups published briefs by topic tag, sorts each group chronologically, and flags a pair when a later brief sits higher on the evidence ladder (speculative → contested → emerging → established) than an earlier one, at least 7 days apart — a same-day gap between two takes on one story is treated as noise, not a shift.</p>
+  <p><strong>What this is not:</strong> a topic tag is not a mechanism or a single study. Two briefs in a pair are frequently different findings that happen to share a topic, not the same claim being re-confirmed over time. We tested a stricter version of this mechanism — grouping by shared historical antecedent instead of topic, so a pair only counts if it's plausibly the same underlying mechanism maturing — and it currently returns zero hits against the live archive. That version ships once the archive is deep enough to support it; until then, this section is reported as topic-level confidence movement, not mechanism maturation.</p>
+  <p><code>evidence_position</code> is classified per brief against the rubric on our <a href="/editorial-policy/">editorial policy</a> page, not left at a schema default.</p>
+
+  <h2>02. Cross-Framework Convergence</h2>
+  <p>Requires two or more distinct categories, computed from <code>autoresearch_antecedents</code> — historical scientists whose work a current finding extends or validates, identified per brief. An earlier version of the prompt suggested a handful of named scientists as examples; it visibly biased the output toward them and was removed 2026-08-09.</p>
+  <p>When two scientists' convergence lists overlap heavily (e.g. co-cited on most of the same briefs), that's noted inline rather than presented as two independent signals.</p>
+
+  <h2>Scope</h2>
+  <p>Both mechanisms run against the full archive, published briefs only — draft content is excluded.</p>
+
+  <h2>Changelog</h2>
+  <ul>
+    <li><strong>2026-08-10</strong> — Fixed a date-arithmetic bug where full-timestamp subtraction (rather than calendar-date subtraction) floor-divided some gaps short by a day. Reframed Confidence Shifts from "evidence maturation" to make the topic-vs-mechanism distinction explicit.</li>
+    <li><strong>2026-08-09</strong> — Removed named example scientists from the antecedent-finding prompt after A/B testing showed it biased output toward those examples.</li>
+  </ul>
+</InfoPage>

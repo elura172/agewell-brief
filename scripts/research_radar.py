@@ -4,8 +4,15 @@
 Two signal mechanisms that need no data collection beyond what every brief
 already carries in frontmatter:
 
-  01. Evidence-position drift — a frontier vector whose briefs climb the
+  01. Confidence shift within a topic — a topic tag whose briefs climb the
       speculative -> contested -> emerging -> established ladder over time.
+      NOTE: this groups by topic, not by mechanism or study. Two briefs in
+      the same climb are frequently different findings that happen to share
+      a topic tag, not the same claim being re-confirmed — a genuine
+      mechanism-level version (grouped by shared antecedent instead) was
+      tested 2026-08-10 and currently returns zero hits against this
+      archive, so topic-level is what ships until the archive is deep
+      enough to support the stricter definition. Report copy must say so.
   02. Cross-framework citation convergence — a historical antecedent
       (Popp, Pollack, Warburg, ...) cited by briefs from three or more
       distinct categories, independently arriving at the same root mechanism.
@@ -92,7 +99,13 @@ def brief_ref(b: dict) -> dict:
 
 
 def mechanism_evidence_drift(briefs: list[dict], min_drift_days: int = 7) -> list[dict]:
-    """01. Which frontier vectors climbed the evidence ladder, and when.
+    """01. Which topics climbed the evidence ladder, and when.
+
+    Groups by topic tag, not by underlying study or mechanism — a climb
+    pairs whichever two briefs under that topic sit lowest/highest on the
+    ladder, which are often two different findings, not one finding
+    re-confirmed. Report this as "confidence shifted within a topic," never
+    as "this mechanism matured."
 
     A "climb" only counts if the two briefs are at least min_drift_days apart.
     Without this, two same-topic briefs published hours apart at different
@@ -119,7 +132,12 @@ def mechanism_evidence_drift(briefs: list[dict], min_drift_days: int = 7) -> lis
         high_water_brief = None
         for b in ladder_group:
             rung = LADDER[b["evidence_position"]]
-            gap_days = (b["date"] - high_water_brief["date"]).days if high_water_brief else None
+            # Calendar-date subtraction, not full timestamp subtraction: two
+            # briefs a real calendar year apart but at different times of day
+            # (e.g. noon vs 8am) floor-divide to one day short of the true
+            # gap under naive .days subtraction — caught 2026-08-10 on a
+            # 367-day pair that reported as 366.
+            gap_days = (b["date"].date() - high_water_brief["date"].date()).days if high_water_brief else None
             if high_water_brief is not None and rung > high_water and gap_days >= min_drift_days:
                 climbs.append({
                     "from": brief_ref(high_water_brief),
