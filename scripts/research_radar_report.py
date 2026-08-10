@@ -13,7 +13,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "src/data/research-radar.json"
+TRIAL_DATA_FILE = ROOT / "src/data/trial-registry.json"
 OUTPUT_DIR = ROOT / ".state/research-radar-reports"
+
+CTGOV_URL = "https://clinicaltrials.gov/study"
 
 BASE_URL = "https://agewellbrief.com/brief"
 
@@ -58,7 +61,45 @@ def render_convergence_section(convergence: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def render_report(data: dict, period: str) -> str:
+def render_trial_section(trial_data: dict | None) -> str:
+    if trial_data is None:
+        return ""
+    specific = [e for e in trial_data["entries"] if e["specific"]]
+    generic = [e for e in trial_data["entries"] if not e["specific"]]
+    lines = [
+        "## Institutional Signal: Trial Registry Activity",
+        "",
+        "**Prototype — not yet a graded mechanism like the two above.** For each brief, a named "
+        "compound or intervention (if any) is extracted and checked against ClinicalTrials.gov. "
+        f"{trial_data['term_coverage']}/{trial_data['archive_size']} briefs in the archive named "
+        "something specific enough to check; most describe a bench-level mechanism with no named "
+        "intervention yet, which is reported honestly rather than forced.",
+        "",
+    ]
+    if not specific:
+        lines.append(
+            "No brief this period named a compound specific enough to be real signal — every match "
+            "was broad enough (100+ unrelated trials) to be noise, not signal, and is omitted below.\n"
+        )
+    for e in specific:
+        active = [t for t in e["trials"] if t["status"] in ("RECRUITING", "ACTIVE_NOT_RECRUITING", "NOT_YET_RECRUITING")]
+        lines.append(f"### {e['compound'].title()}")
+        lines.append(
+            f"{e['total_count']} trial(s) on ClinicalTrials.gov ({len(active)} active/recruiting). "
+            f"Named in: {', '.join(brief_link(b) for b in e['briefs'])}.\n"
+        )
+        for t in e["trials"][:5]:
+            lines.append(f"- [{t['nct_id']}]({CTGOV_URL}/{t['nct_id']}) — {t['status']}, phase {t['phase'] or 'N/A'}, {t['sponsor']}")
+        lines.append("")
+    if generic:
+        lines.append(
+            f"*{len(generic)} more term(s) matched but were too broad to be meaningful signal "
+            f"(100+ unrelated trials each) — {', '.join(e['compound'] for e in generic)}.*\n"
+        )
+    return "\n".join(lines)
+
+
+def render_report(data: dict, period: str, trial_data: dict | None = None) -> str:
     span = data["archive_span"]
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     return f"""# Research Radar — {period}
@@ -84,6 +125,7 @@ disparate current research is converging on the same underlying mechanism.
 
 {render_convergence_section(data['citation_convergence'])}
 
+{render_trial_section(trial_data)}
 ## Methodology
 
 Full methodology, the evidence-position rubric, and the changelog live at
@@ -99,8 +141,9 @@ def main():
 
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     period = args.period or f"{data['archive_span']['earliest']} to {data['archive_span']['latest']}"
+    trial_data = json.loads(TRIAL_DATA_FILE.read_text(encoding="utf-8")) if TRIAL_DATA_FILE.exists() else None
 
-    report = render_report(data, period)
+    report = render_report(data, period, trial_data)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")

@@ -1,0 +1,1944 @@
+{
+  "mechanism": "trial_registry_activity",
+  "status": "prototype",
+  "archive_size": 114,
+  "term_coverage": 20,
+  "entries": [
+    {
+      "compound": "litevax adjuvant",
+      "briefs": [
+        {
+          "slug": "2026-08-03-litevax-adjuvanted-influenza-vaccine-induces-transient-interferon-driv-8256e59b",
+          "title": "An experimental flu adjuvant sped early antibody quality in over-60s",
+          "date": "2026-08-03"
+        }
+      ],
+      "trial_count": 3,
+      "total_count": 3,
+      "specific": true,
+      "trials": [
+        {
+          "nct_id": "NCT05581407",
+          "title": "Safety, Tolerability, and Immunogenicity of TETRALITE, a Novel Adjuvanted, Low-dose Influenza Vaccin",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "LiteVax BV",
+          "start_date": "2022-10-03"
+        },
+        {
+          "nct_id": "NCT06294262",
+          "title": "Safety, Tolerability, Immunogenicity and Immunological Mechanisms of TETRALITE, a Novel Seasonal Influenza Vaccine",
+          "status": "UNKNOWN",
+          "phase": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "sponsor": "LiteVax BV",
+          "start_date": "2024-01-29"
+        },
+        {
+          "nct_id": "NCT06986239",
+          "title": "Safety and Immunogenicity of PCV-LITE, a Low-dose of Pneumococcal Conjugate Vaccine With LiteVax Adjuvant",
+          "status": "NOT_YET_RECRUITING",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "LiteVax BV",
+          "start_date": "2025-07-01"
+        }
+      ]
+    },
+    {
+      "compound": "dihydromyricetin",
+      "briefs": [
+        {
+          "slug": "historical-2026-flavonoid-from-vine-tea-selectively-clears-senescent-microglia-repairs-b6867533",
+          "title": "Flavonoid from vine tea selectively clears senescent microglia, repairs DNA in aging cells",
+          "date": "2026-03-06"
+        }
+      ],
+      "trial_count": 4,
+      "total_count": 4,
+      "specific": true,
+      "trials": [
+        {
+          "nct_id": "NCT06575972",
+          "title": "A Clinical Study to Assess the Effects of JoyRise Recovery Powder on Mitigating Alcohol Aftereffects.",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Joyrise",
+          "start_date": "2024-06-25"
+        },
+        {
+          "nct_id": "NCT05623501",
+          "title": "Phase I, Dose-Escalation Study of Dihydromyricetin (DHM) to Treat Alcohol-Associated Liver Disease",
+          "status": "NOT_YET_RECRUITING",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "University of Southern California",
+          "start_date": "2024-09-15"
+        },
+        {
+          "nct_id": "NCT03606694",
+          "title": "Effect of Dihydromirycetin on Glycemic Control, Insulin Sensitivity and Insulin Secretion in Type 2 Diabetes Mellitus",
+          "status": "UNKNOWN",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "University of Guadalajara",
+          "start_date": "2019-10-30"
+        },
+        {
+          "nct_id": "NCT05757089",
+          "title": "Efficacy of the Dietary Food Supplement ALCOFILTRUM in Alleviating Alcohol Hangover Symptoms",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "AVVA Pharmaceuticals Ltd.",
+          "start_date": "2022-03-03"
+        }
+      ]
+    },
+    {
+      "compound": "rankl inhibitor",
+      "briefs": [
+        {
+          "slug": "2026-08-10-rankl-blockade-one-molecule-three-wins-bone-muscle-lifespan-80ad4735",
+          "title": "RANKL blockade: one molecule, three wins\u2014bone, muscle, lifespan",
+          "date": "2026-08-10"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 11,
+      "specific": true,
+      "trials": [
+        {
+          "nct_id": "NCT03520231",
+          "title": "Study Comparing Denosumab With Standard Treatment in Urothelial Cancer Patients With Bone Metastases",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "University Health Network, Toronto",
+          "start_date": "2018-09-04"
+        },
+        {
+          "nct_id": "NCT03259152",
+          "title": "Characteristics and Mechanism of Denosumab-treated Giant Cell Tumor of Bone",
+          "status": "UNKNOWN",
+          "phase": [
+            "PHASE3"
+          ],
+          "sponsor": "Hebei Medical University Third Hospital",
+          "start_date": "2016-05-01"
+        },
+        {
+          "nct_id": "NCT06302465",
+          "title": "Narlumosbartmab Combined With Neoadjuvant Chemotherapy in Bone-derived Malignancies With Osteolytic Lesions and Multinucleated Giant Cells",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Peking University People's Hospital",
+          "start_date": "2024-05-01"
+        },
+        {
+          "nct_id": "NCT01624766",
+          "title": "Everolimus and Anakinra or Denosumab in Treating Participants With Relapsed or Refractory Advanced Cancers",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "M.D. Anderson Cancer Center",
+          "start_date": "2012-06-19"
+        },
+        {
+          "nct_id": "NCT06538896",
+          "title": "Tislelizumab Combined with Nab-Paclitaxel for First-Line Treatment of Advanced Triple-Negative Breast Cancer with Bone Metastasis\uff0can Exploratory, Single-Arm, Multicenter Phase II Clinical Study",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Zhejiang Cancer Hospital",
+          "start_date": "2024-08-20"
+        },
+        {
+          "nct_id": "NCT07043608",
+          "title": "Zanzalintinib for Metastatic Clear Cell Renal Cell Carcinoma With Bone Metastases",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Kelly Fitzgerald, MD",
+          "start_date": "2026-06-10"
+        },
+        {
+          "nct_id": "NCT03869762",
+          "title": "Denosumab in Combination With Enzalutamide in Progressive Metastatic Castrate-resistant Prostate Cancer and Bone Metastases.",
+          "status": "TERMINATED",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Cancer Trials Ireland",
+          "start_date": "2019-01-09"
+        },
+        {
+          "nct_id": "NCT01864798",
+          "title": "A Study to Evaluate Denosumab in Young Patients With Primary Breast Cancer",
+          "status": "TERMINATED",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Jules Bordet Institute",
+          "start_date": "2013-07"
+        },
+        {
+          "nct_id": "NCT04206618",
+          "title": "Circulating Myokine Levels and Bone Metabolism",
+          "status": "COMPLETED",
+          "phase": null,
+          "sponsor": "424 General Military Hospital",
+          "start_date": "2019-06-01"
+        },
+        {
+          "nct_id": "NCT01734824",
+          "title": "Treatment of Atraumatic Bone Marrow Edema With Denosumab and Teriparatide vs Placebo",
+          "status": "SUSPENDED",
+          "phase": [
+            "PHASE4"
+          ],
+          "sponsor": "Medical University of Vienna",
+          "start_date": "2012-05"
+        }
+      ]
+    },
+    {
+      "compound": "senolytic",
+      "briefs": [
+        {
+          "slug": "2026-08-03-cell-shedding-what-senescence-research-can-and-cannot-say",
+          "title": "What the cell-shedding framework gets right about senescence research",
+          "date": "2026-08-03"
+        },
+        {
+          "slug": "historical-2026-targeting-senescence-the-new-precision-arsenal-against-aging-5b1a4af2",
+          "title": "Targeting senescence: the new precision arsenal against aging",
+          "date": "2026-06-01"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 23,
+      "specific": true,
+      "trials": [
+        {
+          "nct_id": "NCT05482672",
+          "title": "GetHealthy-OA: A Program to Improve Pain and Function for Patients With Knee Osteoarthritis, Obesity, and Depression",
+          "status": "WITHDRAWN",
+          "phase": [
+            "PHASE2",
+            "PHASE3"
+          ],
+          "sponsor": "Cale Andrew Jacobs, PhD",
+          "start_date": "2023-04"
+        },
+        {
+          "nct_id": "NCT05653258",
+          "title": "Single Nuclei RNA-seq to Map Adipose Cellular Populations and Senescent Cells in Older Subjects",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE2",
+            "PHASE3"
+          ],
+          "sponsor": "Cedars-Sinai Medical Center",
+          "start_date": "2023-10-17"
+        },
+        {
+          "nct_id": "NCT06018467",
+          "title": "Senolytics to Improve Osteoporosis Therapy",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Odense University Hospital",
+          "start_date": "2023-09-06"
+        },
+        {
+          "nct_id": "NCT07637487",
+          "title": "Tocotrienol Supplementa as A Senolytic Agent in Middle-aged Adults",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "National University of Malaysia",
+          "start_date": "2023-10-31"
+        },
+        {
+          "nct_id": "NCT06280560",
+          "title": "Impact of IVF Hormonal Therapy on Endometrial Receptivity and Endometrial Senescent Cell Pathological Accumulation",
+          "status": "RECRUITING",
+          "phase": null,
+          "sponsor": "Fundaci\u00f3n IVI",
+          "start_date": "2024-02-01"
+        },
+        {
+          "nct_id": "NCT02848131",
+          "title": "Senescence in Chronic Kidney Disease",
+          "status": "ENROLLING_BY_INVITATION",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Mayo Clinic",
+          "start_date": "2016-07"
+        },
+        {
+          "nct_id": "NCT06953518",
+          "title": "An Open-Label Pilot Study of Qualia Senolytic Supplementation for the Attenuation of Systemic Inflammatory Cytokines",
+          "status": "NOT_YET_RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Qualia Life Sciences",
+          "start_date": "2025-05-12"
+        },
+        {
+          "nct_id": "NCT04770064",
+          "title": "Targeting Senescence to Reduce Osteoarthritis Pain and cartilagE Breakdown (ROPE)",
+          "status": "WITHDRAWN",
+          "phase": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "sponsor": "Austin V Stone",
+          "start_date": "2023-06"
+        },
+        {
+          "nct_id": "NCT04210986",
+          "title": "Senolytic Drugs Attenuate Osteoarthritis-Related Articular Cartilage Degeneration: A Clinical Trial",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "sponsor": "Steadman Philippon Research Institute",
+          "start_date": "2020-01-06"
+        },
+        {
+          "nct_id": "NCT04685590",
+          "title": "Senolytic Therapy to Modulate the Progression of Alzheimer's Disease (SToMP-AD) Study",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Washington University School of Medicine",
+          "start_date": "2021-12-22"
+        }
+      ]
+    },
+    {
+      "compound": "urolithin a",
+      "briefs": [
+        {
+          "slug": "historical-2025-urolithin-a-restores-calcium-driven-organelle-crosstalk-to-trigger-mit-d60b16f0",
+          "title": "Urolithin A restores calcium-driven organelle crosstalk to trigger mitophagy and slow ageing",
+          "date": "2025-12-01"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 32,
+      "specific": true,
+      "trials": [
+        {
+          "nct_id": "NCT07060898",
+          "title": "Impact of a Novel Brain Longevity Supplement Containing the Postbiotic Urolithin A (Mitopure) on Cognitive Function and Related Health Outcomes",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Amazentis SA",
+          "start_date": "2025-07-29"
+        },
+        {
+          "nct_id": "NCT04075032",
+          "title": "Pomegranate Consumption by Poly-medicated Metabolic Syndrome Patients",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "National Research Council, Spain",
+          "start_date": "2018-06-10"
+        },
+        {
+          "nct_id": "NCT06140602",
+          "title": "Postprandial Urolithin Patterns Following Pecan Consumption",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Georgia",
+          "start_date": "2023-07-18"
+        },
+        {
+          "nct_id": "NCT06619457",
+          "title": "Evaluation of the Anti-aging Efficacy of One Face Care Cosmetic Product",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Amazentis SA",
+          "start_date": "2024-09-25"
+        },
+        {
+          "nct_id": "NCT02790658",
+          "title": "Metabolomics Approach After Acute Intake of Grumixama Juice",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Sao Paulo",
+          "start_date": "2014-03"
+        },
+        {
+          "nct_id": "NCT06324214",
+          "title": "Oral Supplementation During PR Participation in COPD",
+          "status": "UNKNOWN",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "McGill University Health Centre/Research Institute of the McGill University Health Centre",
+          "start_date": "2024-03-11"
+        },
+        {
+          "nct_id": "NCT02061098",
+          "title": "Effect of a Pomegranate Extract on Cardiovascular Risk Markers in Overweight Healthy Subjects",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "sponsor": "National Research Council, Spain",
+          "start_date": "2014-02"
+        },
+        {
+          "nct_id": "NCT05735886",
+          "title": "Urolithin A Supplementation to Boost Immune Health",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Amazentis SA",
+          "start_date": "2023-01-30"
+        },
+        {
+          "nct_id": "NCT06274749",
+          "title": "Effects of Urolithin A Supplementation on Glucose Metabolism in Healthy Adults 55 >= Years Old: A Randomized Triple-Masked Controlled Clinical Trial",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "National Institute on Aging (NIA)",
+          "start_date": "2026-08-13"
+        },
+        {
+          "nct_id": "NCT04985630",
+          "title": "The Mitopure Challenge to Detect Levels of Urolithin A in Dried Blood Spots",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Amazentis SA",
+          "start_date": "2021-08-30"
+        }
+      ]
+    },
+    {
+      "compound": "hypoglossal nerve stimulation",
+      "briefs": [
+        {
+          "slug": "2026-08-02-hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea-shows-downst-6a306820",
+          "title": "Nerve stimulation for sleep apnea showed wider health gains",
+          "date": "2026-08-02"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 62,
+      "specific": true,
+      "trials": [
+        {
+          "nct_id": "NCT07577661",
+          "title": "Combination Upper-Airway Electrical and Pharmacological Stimulation for Obstructive Sleep Apnea",
+          "status": "NOT_YET_RECRUITING",
+          "phase": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "sponsor": "Brigham and Women's Hospital",
+          "start_date": "2026-06-01"
+        },
+        {
+          "nct_id": "NCT07303452",
+          "title": "Evaluation of the Restera\u2122 Serene\u2122 System in Adults With Obstructive Sleep Apnea",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Restera, Inc.",
+          "start_date": "2025-12"
+        },
+        {
+          "nct_id": "NCT06851338",
+          "title": "Pediatric Down Syndrome Post-Approval Study",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Inspire Medical Systems, Inc.",
+          "start_date": "2025-02"
+        },
+        {
+          "nct_id": "NCT04768543",
+          "title": "Stimulation Therapy for Apnea: Reporting Thoughts",
+          "status": "COMPLETED",
+          "phase": null,
+          "sponsor": "University of Pittsburgh",
+          "start_date": "2020-03-02"
+        },
+        {
+          "nct_id": "NCT06317701",
+          "title": "Metabolic Endpoints for Obstructive Sleep Apnea Following Twelfth Cranial Nerve Stimulation",
+          "status": "RECRUITING",
+          "phase": null,
+          "sponsor": "University of Chicago",
+          "start_date": "2024-04-04"
+        },
+        {
+          "nct_id": "NCT03359096",
+          "title": "Hypoglossal Nerve Stimulation on Cardiovascular Outcomes",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Pennsylvania",
+          "start_date": "2017-12-13"
+        },
+        {
+          "nct_id": "NCT05501236",
+          "title": "Ansa Cervicalis and Hypoglossal Nerve Stimulation in OSA",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Vanderbilt University Medical Center",
+          "start_date": "2022-11-03"
+        },
+        {
+          "nct_id": "NCT06720545",
+          "title": "Cardiometabolic Risk Effects of Short-term Cessation of Neurostimulation Therapy",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Columbia University",
+          "start_date": "2025-01-05"
+        },
+        {
+          "nct_id": "NCT06627127",
+          "title": "A Study to Investigate the Feasibility and Respiratory Effects of Stimulating Two Functional Targets (Neural and/or Muscular) for the Treatment of Obstructive Sleep Apnea",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Invicta Medical Inc.",
+          "start_date": "2023-11-06"
+        },
+        {
+          "nct_id": "NCT01211444",
+          "title": "US Clinical Study of the Apnex Medical Hypoglossal Nerve Stimulation (HGNS) System to Treat Obstructive Sleep Apnea",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE2",
+            "PHASE3"
+          ],
+          "sponsor": "Apnex Medical, Inc.",
+          "start_date": "2010-07"
+        }
+      ]
+    },
+    {
+      "compound": "nicotinamide riboside",
+      "briefs": [
+        {
+          "slug": "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7",
+          "title": "Nicotinamide riboside and hard training remodelled muscle epigenetics differently",
+          "date": "2026-08-05"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 121,
+      "specific": true,
+      "trials": [
+        {
+          "nct_id": "NCT03642990",
+          "title": "NR in Chemo-induced Peripheral Neuropathy",
+          "status": "TERMINATED",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Donna Hammond, PhD",
+          "start_date": "2019-11-08"
+        },
+        {
+          "nct_id": "NCT07344636",
+          "title": "Effects of NR Supplementation on Metabolic Flexibility in Zone 2 Training",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "ZHANG Jiaqi",
+          "start_date": "2026-01-06"
+        },
+        {
+          "nct_id": "NCT06005350",
+          "title": "Nicotinamide Riboside Impact on Extracellular Nicotinamide Adenine Dinucleotide (NAD+)",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Charite University, Berlin, Germany",
+          "start_date": "2023-11-01"
+        },
+        {
+          "nct_id": "NCT03727646",
+          "title": "Nicotinamide Riboside in LVAD Recipients",
+          "status": "COMPLETED",
+          "phase": [
+            "EARLY_PHASE1"
+          ],
+          "sponsor": "University of Washington",
+          "start_date": "2018-09-26"
+        },
+        {
+          "nct_id": "NCT06919328",
+          "title": "Absorption and Tolerability of Injectable Administration of Niagen\u00ae+, as Compared to NAD+",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Nutraceuticals Research Institute",
+          "start_date": "2024-10-31"
+        },
+        {
+          "nct_id": "NCT06208527",
+          "title": "The NADage Study: Nicotinamide Riboside Replenishment Therapy Against Functional Decline in Aging",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Haukeland University Hospital",
+          "start_date": "2025-01"
+        },
+        {
+          "nct_id": "NCT05483465",
+          "title": "The Effect of NAD Supplementation on Brain Vascular Health in Aging",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE4"
+          ],
+          "sponsor": "University of Oklahoma",
+          "start_date": "2023-05-03"
+        },
+        {
+          "nct_id": "NCT05243290",
+          "title": "Nicotinamide Riboside Clinical Trial for GWI",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Roskamp Institute Inc.",
+          "start_date": "2022-04-13"
+        },
+        {
+          "nct_id": "NCT02689882",
+          "title": "\"Pharmacokinetic Study of Nicotinamide Riboside\"",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "University of Washington",
+          "start_date": "2015-11"
+        },
+        {
+          "nct_id": "NCT03432871",
+          "title": "Nicotinamide Riboside and Mitochondrial Biogenesis",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Cambridge University Hospitals NHS Foundation Trust",
+          "start_date": "2017-12-08"
+        }
+      ]
+    },
+    {
+      "compound": "intermittent fasting",
+      "briefs": [
+        {
+          "slug": "historical-2024-intermittent-fasting-metabolic-switch-to-longevity-e20be857",
+          "title": "Intermittent fasting: metabolic switch to longevity",
+          "date": "2024-01-01"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 318,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT06123988",
+          "title": "Prolonged Overnight Fasting and/or Exercise on Fatigue and Other Patient Reported Outcomes in Women With Hormone Receptor Positive Advanced Breast Cancer",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Miami",
+          "start_date": "2024-09-09"
+        },
+        {
+          "nct_id": "NCT06664684",
+          "title": "Intermittent Fasting and Metabolic Dysfunction Associated Fatty Liver Disease",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Istanbul Bilgi University",
+          "start_date": "2022-05-23"
+        },
+        {
+          "nct_id": "NCT06552403",
+          "title": "Effect of a Modified 5:2 Intermittent Fasting Diet on Population With Overweight or Obesity in China",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Zhejiang Provincial Tongde Hospital",
+          "start_date": "2022-01-01"
+        },
+        {
+          "nct_id": "NCT04502329",
+          "title": "Does the Energy Restriction Intermittent Fasting Diet Alleviate Metabolic Syndrome Biomarkers?",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Istanbul Medipol University Hospital",
+          "start_date": "2019-01-30"
+        },
+        {
+          "nct_id": "NCT02629900",
+          "title": "The Effect of Time Restricted Feeding on Fat Mass in Overweight Women",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Western Ontario, Canada",
+          "start_date": "2016-01"
+        },
+        {
+          "nct_id": "NCT06106477",
+          "title": "Impact of Intermittent Fasting on Biomarkers of Inflammation and Health-Related Quality of Life: A Feasibility Trial for Women With HR+/HER2- Early Breast Cancer",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Medical College of Wisconsin",
+          "start_date": "2024-07-19"
+        },
+        {
+          "nct_id": "NCT05827965",
+          "title": "Ramadan Fasting in Secondary Adrenal Insufficiency Patients",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Hopital La Rabta",
+          "start_date": "2023-03-01"
+        },
+        {
+          "nct_id": "NCT02633722",
+          "title": "Intermittent Fasting for Metabolic Health, Does Meal Timing Matter?",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Adelaide",
+          "start_date": "2016-01"
+        },
+        {
+          "nct_id": "NCT05488652",
+          "title": "Cerebromicrovascular Effects of Time-Restricted Eating in Older Adults",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Oklahoma",
+          "start_date": "2022-11-17"
+        },
+        {
+          "nct_id": "NCT06546033",
+          "title": "Intermittent Fasting and Mediterranean Diet in Patient With Multiple Sclerosis",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Nigde Omer Halisdemir University",
+          "start_date": "2024-05-02"
+        }
+      ]
+    },
+    {
+      "compound": "time-restricted eating",
+      "briefs": [
+        {
+          "slug": "2026-08-02-time-restricted-eating-may-help-retain-cognitive-function-in-older-adu-d64e52fc",
+          "title": "In 47 older women, six months of time-restricted eating aided spatial planning",
+          "date": "2026-08-02"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 392,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT05167903",
+          "title": "The Effect of Time-restricted Eating Combined With Exercise Training on Body Composition and Cardiometabolic Health",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Tel Aviv University",
+          "start_date": "2022-05-15"
+        },
+        {
+          "nct_id": "NCT04877262",
+          "title": "Effects of Time-restricted Eating on Nutrient Absorption in Healthy Adults",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Florida State University",
+          "start_date": "2021-12-01"
+        },
+        {
+          "nct_id": "NCT07389603",
+          "title": "Effects of Restricted-time and Psychochrononutritional Feeding in People With Metabolic Syndrome",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Guadalajara",
+          "start_date": "2025-12-04"
+        },
+        {
+          "nct_id": "NCT06664684",
+          "title": "Intermittent Fasting and Metabolic Dysfunction Associated Fatty Liver Disease",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Istanbul Bilgi University",
+          "start_date": "2022-05-23"
+        },
+        {
+          "nct_id": "NCT07600671",
+          "title": "Eating Disorder Dynamic Intervention",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Trustees of Dartmouth College",
+          "start_date": "2026-07-08"
+        },
+        {
+          "nct_id": "NCT07634926",
+          "title": "Early Time-Restricted Eating for Cardiovascular Health",
+          "status": "NOT_YET_RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Alabama at Birmingham",
+          "start_date": "2026-08-01"
+        },
+        {
+          "nct_id": "NCT07726615",
+          "title": "Time-Restricted Eating and Staple Food Reduction Combined With App-Supported Exercise for Weight and Glycemic Control",
+          "status": "NOT_YET_RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Peking University",
+          "start_date": "2026-07"
+        },
+        {
+          "nct_id": "NCT01410838",
+          "title": "Effects of Monosodium Glutamate on Energy Balance and Eating Behavior",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "USDA, Western Human Nutrition Research Center",
+          "start_date": "2011-08"
+        },
+        {
+          "nct_id": "NCT03129581",
+          "title": "Metabolic Impact of Time Restricted Feeding",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Minnesota",
+          "start_date": "2017-09-01"
+        },
+        {
+          "nct_id": "NCT02629900",
+          "title": "The Effect of Time Restricted Feeding on Fat Mass in Overweight Women",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Western Ontario, Canada",
+          "start_date": "2016-01"
+        }
+      ]
+    },
+    {
+      "compound": "interval walking",
+      "briefs": [
+        {
+          "slug": "2026-08-02-this-once-a-week-workout-may-help-cut-belly-fat-study-shows-c15da545",
+          "title": "75 minutes of weekly interval walking cut central fat in 315 adults",
+          "date": "2026-08-02"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 529,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT03155074",
+          "title": "High-Intensity Training Following Lung Transplantation",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Oslo University Hospital",
+          "start_date": "2017-08-22"
+        },
+        {
+          "nct_id": "NCT02715063",
+          "title": "Cardiometabolic HIIT-RT Study",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Universidad Santo Tomas",
+          "start_date": "2016-01"
+        },
+        {
+          "nct_id": "NCT03945201",
+          "title": "Virtual Reality-enhanced Exercise and Education in Cardiac Rehabilitation",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Thomas Jefferson University",
+          "start_date": "2018-01-29"
+        },
+        {
+          "nct_id": "NCT05428709",
+          "title": "Women In Steady Exercise Research - Window of Opportunity for Exercise and Tumor Biology",
+          "status": "TERMINATED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Milton S. Hershey Medical Center",
+          "start_date": "2023-02-01"
+        },
+        {
+          "nct_id": "NCT03119493",
+          "title": "Periodized Aerobic Interval Training in Metabolic Syndrome",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Universidade Estadual Paulista J\u00falio de Mesquita Filho",
+          "start_date": "2015-06-01"
+        },
+        {
+          "nct_id": "NCT02209207",
+          "title": "Continuous Versus Interval Walking Training in Patients With COPD - a Pilot Study",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Sch\u00f6n Klinik Berchtesgadener Land",
+          "start_date": "2014-07"
+        },
+        {
+          "nct_id": "NCT07015619",
+          "title": "Task Specific vs Basketball-Based Balance Training in Children With Developmental Delay",
+          "status": "NOT_YET_RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Shalamar Institute of Health Sciences",
+          "start_date": "2025-06-28"
+        },
+        {
+          "nct_id": "NCT02039154",
+          "title": "The Effect of Long Duration Exercise on the Diastolic Function of the Heart",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Texas Southwestern Medical Center",
+          "start_date": "2012-07"
+        },
+        {
+          "nct_id": "NCT06192394",
+          "title": "Effect of Gum Chewing or Walking on Bowel Prep Quality and Patient Satisfaction Before Colonoscopy",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Istanbul University - Cerrahpasa",
+          "start_date": "2024-07-05"
+        },
+        {
+          "nct_id": "NCT03985202",
+          "title": "Structured Exercise Programme and Abdominal Aortic Aneurysm Surgery",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Torbay and South Devon NHS Foundation Trust",
+          "start_date": "2019-07-04"
+        }
+      ]
+    },
+    {
+      "compound": "melatonin",
+      "briefs": [
+        {
+          "slug": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
+          "title": "How meal timing and melatonin shape the aging body clock",
+          "date": "2026-08-02"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 708,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT06429059",
+          "title": "ROAR-DIGAP: A Widely Inclusive, Largely Virtual Pilot Trial Utilizing DIGAP (Deep Integrated Genomics Analysis Platform) To Personalize Treatments",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Duke University",
+          "start_date": "2024-06-12"
+        },
+        {
+          "nct_id": "NCT04784754",
+          "title": "Dose-Ranging Study to Assess the Safety and Efficacy of Melatonin in Outpatients Infected With COVID-19",
+          "status": "WITHDRAWN",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "State University of New York at Buffalo",
+          "start_date": "2021-04-01"
+        },
+        {
+          "nct_id": "NCT05084196",
+          "title": "Melatonin for Prevention of Kidney Injury",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE3"
+          ],
+          "sponsor": "Rutgers, The State University of New Jersey",
+          "start_date": "2023-06-05"
+        },
+        {
+          "nct_id": "NCT05474846",
+          "title": "Combination Therapy for Treatment of Sleep Disturbance in Patients With Advanced Cancer",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE2",
+            "PHASE3"
+          ],
+          "sponsor": "M.D. Anderson Cancer Center",
+          "start_date": "2022-11-21"
+        },
+        {
+          "nct_id": "NCT05483296",
+          "title": "Effects of Afternoon and Evening Light on Teenagers' Melatonin Levels, Alertness, Sleepiness and Sleep",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University Psychiatric Clinics Basel",
+          "start_date": "2022-09-22"
+        },
+        {
+          "nct_id": "NCT03953066",
+          "title": "Colostral Milk and Blood IL-6 Levels in Types of Labour",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Samsun Education and Research Hospital",
+          "start_date": "2019-06-12"
+        },
+        {
+          "nct_id": "NCT02319265",
+          "title": "Dose Assessment of Melatonin in Sepsis Trial",
+          "status": "WITHDRAWN",
+          "phase": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "sponsor": "University of Aberdeen",
+          "start_date": "2017-04"
+        },
+        {
+          "nct_id": "NCT04034771",
+          "title": "The Effect of Melatonin Administration on Sedation Level as Adjuvant to Propofol",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE3"
+          ],
+          "sponsor": "Cairo University",
+          "start_date": "2018-01-01"
+        },
+        {
+          "nct_id": "NCT06252571",
+          "title": "a Chronobiological Treatment Combining Evening Melatonin and Morning Light Therapy in Idiopathic Hypersomnia: a Prospective, Double Bind, Randomized, Placebo-controlled -Trial",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "University Hospital, Strasbourg, France",
+          "start_date": "2024-09-07"
+        },
+        {
+          "nct_id": "NCT00200863",
+          "title": "Effects of Different Colors of Light on Human Physiology",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Brigham and Women's Hospital",
+          "start_date": "2005-04"
+        }
+      ]
+    },
+    {
+      "compound": "protein restriction",
+      "briefs": [
+        {
+          "slug": "2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910",
+          "title": "A review of 350+ studies tied lower protein intake to better metabolism",
+          "date": "2026-08-02"
+        },
+        {
+          "slug": "2026-08-02-reducing-protein-intake-could-support-healthy-aging-by-reshaping-metab-ea4b19a3",
+          "title": "A 350-study review linked protein restriction to slower aging",
+          "date": "2026-08-02"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 724,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT04981366",
+          "title": "Protein Supplementation in Elderly With Sarcopenic Obesity Undergoing Caloric Restriction and Exercise",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Sao Paulo General Hospital",
+          "start_date": "2021-08-01"
+        },
+        {
+          "nct_id": "NCT04753359",
+          "title": "Mediterranean Diet and Weight Loss: Targeting the Bile Acid/Gut Microbiome Axis to Reduce Colorectal Cancer",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Illinois at Chicago",
+          "start_date": "2022-02-01"
+        },
+        {
+          "nct_id": "NCT02715063",
+          "title": "Cardiometabolic HIIT-RT Study",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Universidad Santo Tomas",
+          "start_date": "2016-01"
+        },
+        {
+          "nct_id": "NCT06664684",
+          "title": "Intermittent Fasting and Metabolic Dysfunction Associated Fatty Liver Disease",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Istanbul Bilgi University",
+          "start_date": "2022-05-23"
+        },
+        {
+          "nct_id": "NCT04415112",
+          "title": "Mediterranean Diet Treatment for NAFLD",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Antalya Training and Research Hospital",
+          "start_date": "2018-01-01"
+        },
+        {
+          "nct_id": "NCT01692587",
+          "title": "Does Protein Restriction Inhibit Prostrate Cancer Growth",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Washington University School of Medicine",
+          "start_date": "2011-01"
+        },
+        {
+          "nct_id": "NCT05107583",
+          "title": "Effects of Pre-exercise Carbohydrate Restriction Relative to Fasting on Metabolism, Appetite, and Energy Intake in Healthy Males.",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Nottingham Trent University",
+          "start_date": "2021-09-01"
+        },
+        {
+          "nct_id": "NCT06406270",
+          "title": "Alternative Protein Short Chronic Study",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Aberdeen",
+          "start_date": "2014-06-06"
+        },
+        {
+          "nct_id": "NCT04701957",
+          "title": "The Ketogenic Diet for Alzheimer's Disease",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Assistance Publique - H\u00f4pitaux de Paris",
+          "start_date": "2023-03-30"
+        },
+        {
+          "nct_id": "NCT05092178",
+          "title": "Calorie Restricted Diet and Exercise",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "The First People's Hospital of Jingzhou",
+          "start_date": "2019-01-06"
+        }
+      ]
+    },
+    {
+      "compound": "semaglutide",
+      "briefs": [
+        {
+          "slug": "2026-08-02-popular-weight-loss-drugs-ozempic-and-wegovy-may-slow-biological-aging-c99b5fb0",
+          "title": "In adults with HIV, semaglutide slowed biological aging markers",
+          "date": "2026-08-02"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 734,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT02079870",
+          "title": "Trial Investigating the Effect of Semaglutide on Energy Intake, Appetite Sensations, Postprandial Glucose and Triglyceride Metabolism and Gastric Emptying in Obese Subjects Compared With Placebo",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "Novo Nordisk A/S",
+          "start_date": "2014-03-06"
+        },
+        {
+          "nct_id": "NCT06914141",
+          "title": "Comparative Effectiveness of Tirzepatide Versus Semaglutide in Individuals With Heart Failure With Preserved Ejection Fraction",
+          "status": "COMPLETED",
+          "phase": null,
+          "sponsor": "Brigham and Women's Hospital",
+          "start_date": "2025-01-14"
+        },
+        {
+          "nct_id": "NCT06634927",
+          "title": "Pharmacokinetic Similarity, Safety, and Immunogenicity of Semaglutide Injection and Ozempic \u00ae Injection in Healthy Subjects.",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd.",
+          "start_date": "2024-09-22"
+        },
+        {
+          "nct_id": "NCT06118203",
+          "title": "Semaglutide Use in Acute Pulmonary Embolism",
+          "status": "COMPLETED",
+          "phase": null,
+          "sponsor": "Imperial College London",
+          "start_date": "2022-01-02"
+        },
+        {
+          "nct_id": "NCT07309094",
+          "title": "Clinical, Morphometric and Biochemical Effects on Adiposopathy Associated With the Use of GLP-1RA in CKD",
+          "status": "RECRUITING",
+          "phase": null,
+          "sponsor": "Cardenal Herrera University",
+          "start_date": "2023-09-15"
+        },
+        {
+          "nct_id": "NCT06903923",
+          "title": "Bone Metabolism in 12-21 Year Olds Undergoing Glucagon Like Peptide (GLP)-1 Receptor Agonist Therapy",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "University of Virginia",
+          "start_date": "2025-07-31"
+        },
+        {
+          "nct_id": "NCT05087342",
+          "title": "Latino Semaglutide Study",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE3"
+          ],
+          "sponsor": "Loma Linda University",
+          "start_date": "2022-12-13"
+        },
+        {
+          "nct_id": "NCT07010432",
+          "title": "The Role of the Amylin Analogue Cagrilintide in Bone Metabolism",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "Novo Nordisk A/S",
+          "start_date": "2025-06-12"
+        },
+        {
+          "nct_id": "NCT07430332",
+          "title": "GLP-1 RA for Stage 1 Type 1 Diabetes",
+          "status": "NOT_YET_RECRUITING",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Children's Hospital Medical Center, Cincinnati",
+          "start_date": "2027-09-01"
+        },
+        {
+          "nct_id": "NCT06706284",
+          "title": "Glycemic and Weight Loss Effects of GLP-1R Agonist Therapy in Subjects With Spinal Cord Injury and Type 2 Diabetes",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE4"
+          ],
+          "sponsor": "Marzieh Salehi",
+          "start_date": "2025-04-11"
+        }
+      ]
+    },
+    {
+      "compound": "mediterranean diet",
+      "briefs": [
+        {
+          "slug": "2026-08-02-mediterranean-diet-may-activate-tiny-proteins-that-protect-the-heart-a-e567bdc7",
+          "title": "Mediterranean eating pattern linked to two mitochondrial microproteins",
+          "date": "2026-08-02"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 758,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT04753359",
+          "title": "Mediterranean Diet and Weight Loss: Targeting the Bile Acid/Gut Microbiome Axis to Reduce Colorectal Cancer",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Illinois at Chicago",
+          "start_date": "2022-02-01"
+        },
+        {
+          "nct_id": "NCT03358797",
+          "title": "Community-Based Lifestyle Intervention for Diabetes Prevention in Arab Women",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Hadassah Medical Organization",
+          "start_date": "2016-12-29"
+        },
+        {
+          "nct_id": "NCT06646107",
+          "title": "Adherence to Mediterranean Diet in Type 1 Diabetes Initiating Minimed 780G: Glucose Metrics vs Insulin Metrics, is There a Difference",
+          "status": "RECRUITING",
+          "phase": null,
+          "sponsor": "Attikon Hospital",
+          "start_date": "2025-03-01"
+        },
+        {
+          "nct_id": "NCT04415112",
+          "title": "Mediterranean Diet Treatment for NAFLD",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Antalya Training and Research Hospital",
+          "start_date": "2018-01-01"
+        },
+        {
+          "nct_id": "NCT05921409",
+          "title": "Tool for Fibromyalgia Diagnosis and Effect of Extra Virgin Olive Oil",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Pronacera Therapeutics SL",
+          "start_date": "2021-01-01"
+        },
+        {
+          "nct_id": "NCT06670144",
+          "title": "Diet and Rheumatoid Arthritis Risk in the United Kingdom Women's Cohort",
+          "status": "COMPLETED",
+          "phase": null,
+          "sponsor": "University of Leeds",
+          "start_date": "1995-01-15"
+        },
+        {
+          "nct_id": "NCT06399432",
+          "title": "Mediterranean Diet vs no Dietary Intervention for Improving Signs and Symptoms of Psoriasis in Patients Treated With Anti-IL-17 or Anti-IL-23 Inhibitors",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University Hospitals Cleveland Medical Center",
+          "start_date": "2022-10-18"
+        },
+        {
+          "nct_id": "NCT06719999",
+          "title": "PRIMA Project- Box for Heath and Tradition (B4HT)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Bari",
+          "start_date": "2024-09-01"
+        },
+        {
+          "nct_id": "NCT06121999",
+          "title": "Behavioral Lifestyle Intervention for Metabolic Dysfunction-associated Steatotic Liver Disease (MASLD) in Adults",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Grand Valley State University",
+          "start_date": "2023-08-17"
+        },
+        {
+          "nct_id": "NCT04873167",
+          "title": "Effects of Adherence to a Mediterranean Diet Style on Cardiovascular Risk",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Palermo",
+          "start_date": "2018-09-01"
+        }
+      ]
+    },
+    {
+      "compound": "statin",
+      "briefs": [
+        {
+          "slug": "2026-08-02-scientists-may-have-found-a-way-to-prevent-statin-muscle-pain-bcc4ce4a",
+          "title": "In mice, an immune reaction explained statin muscle damage",
+          "date": "2026-08-02"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 1525,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT05563389",
+          "title": "Statin Impact on Hepatic Decompensation",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE2",
+            "PHASE3"
+          ],
+          "sponsor": "Tanta University",
+          "start_date": "2022-06-15"
+        },
+        {
+          "nct_id": "NCT01023503",
+          "title": "Observational Study To Evaluate Statins Patterns Of Use In Spain",
+          "status": "WITHDRAWN",
+          "phase": null,
+          "sponsor": "AstraZeneca",
+          "start_date": "2011-03"
+        },
+        {
+          "nct_id": "NCT02609256",
+          "title": "Stereotactic Infarct Tissue Aspiration for Malignant Infarction of Middle Cerebral Artery",
+          "status": "TERMINATED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "General Hospital of Shenyang Military Region",
+          "start_date": "2015-12"
+        },
+        {
+          "nct_id": "NCT03507374",
+          "title": "PCSK9 Inhibition in Patients With Symptomatic Intracranial Atherosclerosis",
+          "status": "TERMINATED",
+          "phase": [
+            "EARLY_PHASE1"
+          ],
+          "sponsor": "University of Utah",
+          "start_date": "2018-10-30"
+        },
+        {
+          "nct_id": "NCT01415713",
+          "title": "The Study of Metastatic Pancreatic Adenocarcinoma",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "sponsor": "National Health Research Institutes, Taiwan",
+          "start_date": "2012-03"
+        },
+        {
+          "nct_id": "NCT05586360",
+          "title": "T-reg Function Changes: a Novel Immune Regulatory Effect Underlying Benefit of Statin Use on Lethal Prostate Cancer",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE2"
+          ],
+          "sponsor": "Medical University of South Carolina",
+          "start_date": "2024-03-11"
+        },
+        {
+          "nct_id": "NCT00723723",
+          "title": "Compliance With LDL-Lowering Therapy (Study P05467)(COMPLETED)",
+          "status": "COMPLETED",
+          "phase": null,
+          "sponsor": "Organon and Co",
+          "start_date": "2008-01"
+        },
+        {
+          "nct_id": "NCT00995670",
+          "title": "Ischemia/Reperfusion Injury of Human Endothelium: Role of Glucose and Statins",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "US Department of Veterans Affairs",
+          "start_date": "2010-03"
+        },
+        {
+          "nct_id": "NCT02415114",
+          "title": "An Open Label Study Evaluating the Effectiveness of Omega Q Plus\u00ae Resveratrol at Increasing Blood Levels of CoQ10",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "KGK Science Inc.",
+          "start_date": "2015-03"
+        },
+        {
+          "nct_id": "NCT04807400",
+          "title": "Study in Primary Care Evaluating Inclisiran Delivery Implementation + Enhanced Support",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE3"
+          ],
+          "sponsor": "Novartis Pharmaceuticals",
+          "start_date": "2021-07-07"
+        }
+      ]
+    },
+    {
+      "compound": "omega-3 fatty acids",
+      "briefs": [
+        {
+          "slug": "2026-08-04-supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc",
+          "title": "In rats, midlife omega-3s durably shifted the muscle-aging trajectory",
+          "date": "2026-08-04"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 1553,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT01369550",
+          "title": "Efficacy Study of Stearidonic Acid (SDA) Soybean Oil-containing Foods on Red Blood Cell Fatty Acid Content",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Monsanto Company, LLC",
+          "start_date": "2010-08"
+        },
+        {
+          "nct_id": "NCT01692990",
+          "title": "Study on the Effect of Fish Oil and Appetite",
+          "status": "COMPLETED",
+          "phase": [
+            "EARLY_PHASE1"
+          ],
+          "sponsor": "AAstrup",
+          "start_date": "2011-10"
+        },
+        {
+          "nct_id": "NCT04645927",
+          "title": "Clinical Trial to Study the Effects of Dietary Flax Beverage on Memory and Cognition",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "St. Boniface Hospital",
+          "start_date": "2020-10-09"
+        },
+        {
+          "nct_id": "NCT01929070",
+          "title": "A Pilot Study to Evaluate the Pharmacokinetics of Omega-3 Between Rosuvastatin and Omega-3 Coadministration and HCP1007",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE1"
+          ],
+          "sponsor": "Hanmi Pharmaceutical Company Limited",
+          "start_date": "2013-02"
+        },
+        {
+          "nct_id": "NCT03638661",
+          "title": "n-3 Fatty Acids in Enteral Formula on NK Cell Activity",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Yonsei University",
+          "start_date": "2015-08-11"
+        },
+        {
+          "nct_id": "NCT01350973",
+          "title": "Efficacy of TAK-085 in Participants With Hypertriglyceridemia",
+          "status": "COMPLETED",
+          "phase": [
+            "PHASE3"
+          ],
+          "sponsor": "Takeda",
+          "start_date": "2009-11"
+        },
+        {
+          "nct_id": "NCT06531460",
+          "title": "Nutritional Therapy Enriched With Omega-3 in Patients With Lung Resection",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "National Institute of Respiratory Diseases, Mexico",
+          "start_date": "2024-07-25"
+        },
+        {
+          "nct_id": "NCT00211159",
+          "title": "OmegAD (Omega-3 and Alzheimer's Disease)",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Karolinska University Hospital",
+          "start_date": "2000-12"
+        },
+        {
+          "nct_id": "NCT00396461",
+          "title": "ICULIP, Influence of Two Lipid Emulsions in the Nosocomial Infection in Critical Patients",
+          "status": "TERMINATED",
+          "phase": [
+            "PHASE4"
+          ],
+          "sponsor": "B. Braun Medical SA",
+          "start_date": "2006-11"
+        },
+        {
+          "nct_id": "NCT03216057",
+          "title": "Effect of Omega-3 Fatty Acids Supplementation on Hypertriglyceridemia in Pediatric Patients With Obesity.",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Hospital Infantil de Mexico Federico Gomez",
+          "start_date": "2008-05-20"
+        }
+      ]
+    },
+    {
+      "compound": "lifestyle intervention",
+      "briefs": [
+        {
+          "slug": "2026-08-02-lifestyle-changes-cut-risk-of-multiple-chronic-conditions-in-prediabet-fbad066d",
+          "title": "Lifestyle Changes Cut Risk of Multiple Chronic Conditions in Prediabetes",
+          "date": "2026-08-02"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 5062,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT02864160",
+          "title": "Integrated Second Language Learning for Chronic Care",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Ohio State University",
+          "start_date": "2014-09"
+        },
+        {
+          "nct_id": "NCT04984070",
+          "title": "Research on Risk Factors and Interventions of Polycystic Ovary Syndrome Complicated With Depression and Anxiety",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Fudan University",
+          "start_date": "2021-01-01"
+        },
+        {
+          "nct_id": "NCT01639469",
+          "title": "Telemedicine Intervention to Improve Physical Function",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "VA Office of Research and Development",
+          "start_date": "2013-01"
+        },
+        {
+          "nct_id": "NCT02077179",
+          "title": "Health Improvement After Pregnancy (HIP) Program Randomized Control Trial",
+          "status": "TERMINATED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Queen's University",
+          "start_date": "2014-09"
+        },
+        {
+          "nct_id": "NCT01348646",
+          "title": "Adult Follow-up of Preventive Study With Brief Smoking Intervention for Adolescents",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Tampere University Hospital",
+          "start_date": "2008-05"
+        },
+        {
+          "nct_id": "NCT04272541",
+          "title": "Effectiveness of a Psychoeducation Program in Patients With Severe Mental Disorder",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Universidad de Granada",
+          "start_date": "2020-02-20"
+        },
+        {
+          "nct_id": "NCT02619318",
+          "title": "Balancing Everyday Life - A Lifestyle Intervention for People With Psychiatric Disorders",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Lund University",
+          "start_date": "2013-11"
+        },
+        {
+          "nct_id": "NCT05416424",
+          "title": "Life Study: Lifestyle Intervention in Fibroid Elimination",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "NYU Langone Health",
+          "start_date": "2022-05-23"
+        },
+        {
+          "nct_id": "NCT06425679",
+          "title": "Cost-effectiveness and Efficacy of Different Physical Exercise Interventions (ExerMOT4Health)",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Cadiz",
+          "start_date": "2023-11-01"
+        },
+        {
+          "nct_id": "NCT07447362",
+          "title": "Clinical Management of Cardiovascular Risk Factors in Adult Patients: A Before-and-After Interventional Study",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Universidad Cat\u00f3lica San Antonio de Murcia",
+          "start_date": "2024-07-24"
+        }
+      ]
+    },
+    {
+      "compound": "exercise",
+      "briefs": [
+        {
+          "slug": "2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa",
+          "title": "The Heart's True Exercise Threshold: Why 150 Minutes May Be Just the Beginning",
+          "date": "2026-08-08"
+        }
+      ],
+      "trial_count": 10,
+      "total_count": 44001,
+      "specific": false,
+      "trials": [
+        {
+          "nct_id": "NCT05794789",
+          "title": "\"We Are an Active Family\": Promoting Child Physical Activity Through Social Identity Formation in the Family System",
+          "status": "RECRUITING",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Victoria",
+          "start_date": "2023-08-10"
+        },
+        {
+          "nct_id": "NCT00714168",
+          "title": "Evaluating the Effectiveness of a Stepped-Care Approach to Long-Term Weight Loss (The Step-Up Study)",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Pittsburgh",
+          "start_date": "2008-03"
+        },
+        {
+          "nct_id": "NCT03155074",
+          "title": "High-Intensity Training Following Lung Transplantation",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Oslo University Hospital",
+          "start_date": "2017-08-22"
+        },
+        {
+          "nct_id": "NCT04807218",
+          "title": "Virta Intervention in CommuniTies in cOloRado (VICTOR-Pilot)",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Colorado Prevention Center",
+          "start_date": "2021-03-02"
+        },
+        {
+          "nct_id": "NCT05440890",
+          "title": "Early Treatment Based Neuroscience Education in Knee",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "University of Malaga",
+          "start_date": "2025-04-01"
+        },
+        {
+          "nct_id": "NCT06134310",
+          "title": "Efficacy of Manual Therapy Based on the Fascial Distortion Model in Individuals With Temporomandibular Disorder",
+          "status": "COMPLETED",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Hacettepe University",
+          "start_date": "2023-11-07"
+        },
+        {
+          "nct_id": "NCT01036360",
+          "title": "Acute Exercise and Energy Balance Regulation: Effect of Intensity",
+          "status": "UNKNOWN",
+          "phase": null,
+          "sponsor": "University Hospital, Clermont-Ferrand",
+          "start_date": "2009-12"
+        },
+        {
+          "nct_id": "NCT05006482",
+          "title": "Geriatric Evaluation and Management With Survivorship Health Education for Older Survivors of Cancer, GEM-S Trial",
+          "status": "RECRUITING",
+          "phase": [
+            "PHASE3"
+          ],
+          "sponsor": "University of Rochester",
+          "start_date": "2023-03-21"
+        },
+        {
+          "nct_id": "NCT03635723",
+          "title": "Breast: Recovery After Axillary Node Clearance - Evaluating Limbs With E-Technology (the BRACELET Study)",
+          "status": "UNKNOWN",
+          "phase": null,
+          "sponsor": "Imperial College London",
+          "start_date": "2018-04-23"
+        },
+        {
+          "nct_id": "NCT03273959",
+          "title": "Program Of Exercises During The Hospitalization Of Children And Adolescents With Cystic Fibrosis",
+          "status": "UNKNOWN",
+          "phase": [
+            "NA"
+          ],
+          "sponsor": "Hospital de Clinicas de Porto Alegre",
+          "start_date": "2017-08-28"
+        }
+      ]
+    }
+  ]
+}
