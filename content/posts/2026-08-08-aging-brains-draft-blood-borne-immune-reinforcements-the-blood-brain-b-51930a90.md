@@ -25,6 +25,7 @@ topics: ['brain health', 'cellular senescence', 'detoxification', 'longevity', '
 frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Edwin Goldmann", "year": "1913", "discovery": "Demonstrated that trypan blue injected into the bloodstream stained all organs except the brain and spinal cord, establishing the existence of a blood-brain barrier and coining the concept of the brain as an 'immune-privileged' site. This work set the stage for the modern finding that aging can open regulated routes for peripheral immune cells to enter the brain, challenging the notion of the BBB as an absolute wall."}, {"scientist": "William F. Hickey and Hiroshi Kimura", "year": "1988", "discovery": "Showed that circulating T cells can cross the intact blood-brain barrier and enter the central nervous system under normal conditions, demonstrating that the BBB is not an absolute immune barrier but a dynamic interface. This directly anticipates the preprint's finding that aging may open a regulated door for peripheral immune cells to reshape neuroinflammation."}]
 ancestral_insight: ""
+evidence_position: "emerging"
 ---
 
 New findings suggest that the brain's immune isolation is not absolute—aging may open a regulated door for peripheral immune cells to enter and reshape neuroinflammation.

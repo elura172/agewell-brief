@@ -19,6 +19,7 @@ topics: ['longevity', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": "1939", "discovery": "Kleitman's foundational work on sleep physiology, including the concept of basic rest-activity cycles and the identification of REM sleep, established the framework for understanding sleep as a regulated biological process. His studies on sleep deprivation and the effects of sleep duration on physiological function directly anticipate the modern finding that sleep duration outside an optimal window (6.4\u20137.8 hours) is associated with accelerated epigenetic aging, as Kleitman showed that both insufficient and excessive sleep disrupt restorative processes."}, {"scientist": "Steve Horvath", "year": "2013", "discovery": "Horvath developed the epigenetic clock, a DNA methylation-based biomarker of biological age, which is the very tool used in the modern preprint to measure epigenetic aging. His discovery that DNA methylation patterns change predictably with age provided the quantitative framework to link sleep duration to biological aging, and his subsequent work on age acceleration in various tissues directly enables the observation that sleep outside the optimal range accelerates epigenetic aging."}]
 ancestral_insight: ""
+evidence_position: "emerging"
 ---
 
 A new analysis links sleep duration to epigenetic aging, with a sweet spot that echoes ancestral patterns and the restorative biology first mapped by Kleitman.

@@ -23,6 +23,7 @@ image_review_status: "pending"
 image_avg_color: "#BDAAAF"
 topics: ['brain health', 'consumer safety', 'longevity', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
+evidence_position: "emerging"
 ---
 
 New mass cytometry data link ICOS and PD-1 on peripheral T-cells to hippocampal atrophy and cognitive resilience in Alzheimer's pathology—revealing a peripheral immune rheostat for neurodegeneration.

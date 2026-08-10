@@ -25,6 +25,7 @@ topics: ['brain health', 'longevity', 'metabolic health', 'nutrition']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "1980s", "discovery": "Wallace pioneered the concept of mitochondrial genetics and demonstrated that mitochondrial DNA (mtDNA) variants influence human health and aging, establishing mitochondria as central hubs for cellular energy and signaling. His work on mtDNA haplogroups and mitochondrial dysfunction laid the foundation for understanding how mitochondrial-derived peptides (MDPs) like humanin and SHMOOSE, which are encoded in mtDNA, could mediate the effects of diet on cellular health."}, {"scientist": "Pinchas Cohen", "year": "2001", "discovery": "Cohen discovered humanin, the first mitochondrial-derived peptide, and later identified SHMOOSE (in 2021), showing that these small peptides encoded by mtDNA have cytoprotective and metabolic functions. His research demonstrated that humanin levels decline with age and are influenced by lifestyle factors, directly linking mitochondrial microproteins to aging and age-related diseases, which the current study extends by associating Mediterranean diet adherence with higher circulating levels of these peptides."}]
 ancestral_insight: ""
+evidence_position: "emerging"
 ---
 A small pilot study finds that older adults who closely follow a Mediterranean eating pattern have higher blood levels of two mitochondrial microproteins tied to cellular health.
 

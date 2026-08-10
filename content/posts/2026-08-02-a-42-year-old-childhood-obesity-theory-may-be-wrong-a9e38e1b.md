@@ -24,6 +24,7 @@ topics: ['consumer safety', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Ancel Keys", "year": "1972", "discovery": "Keys and colleagues introduced the body mass index (BMI) as a population-level proxy for adiposity, explicitly warning that it conflates fat and lean mass. This study validates that warning by showing that the childhood 'fat rebound'\u2014a rise in BMI around age 6\u2014reflects muscle and lean tissue growth, not fat gain, thus correcting a 42-year misinterpretation rooted in BMI's inherent limitation."}, {"scientist": "William H. Sheldon", "year": "1940", "discovery": "Sheldon's somatotyping system distinguished mesomorphy (muscularity) from endomorphy (adiposity), emphasizing that body composition\u2014not just overall size\u2014determines metabolic and health outcomes. The modern finding that BMI rise in children is due to muscle, not fat, echoes Sheldon's insistence on separating lean and fat compartments, a principle that BMI obscures."}]
 ancestral_insight: ""
+evidence_position: "emerging"
 ---
 
 A more accurate measure shows body fat doesn't rebound in kids; BMI rise may be muscle growth.

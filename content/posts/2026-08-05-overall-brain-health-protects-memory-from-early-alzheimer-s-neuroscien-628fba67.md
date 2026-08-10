@@ -25,6 +25,7 @@ topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep hea
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Yaakov Stern", "year": "2002", "discovery": "Formalized the concept of 'cognitive reserve' \u2014 the idea that individual differences in brain networks and cognitive processing allow some people to tolerate more Alzheimer's pathology before showing clinical symptoms. Stern's work demonstrated that higher education, IQ, and occupational complexity are associated with delayed onset of dementia despite equivalent amyloid burden, directly predicting the modern finding that overall brain health buffers memory against early Alzheimer's pathology."}, {"scientist": "Denise Park", "year": "2009", "discovery": "Proposed the 'scaffolding theory of aging and cognition' (STAC), which posits that the brain actively builds compensatory neural scaffolding in response to age-related challenges, including amyloid accumulation. Park showed that engagement in cognitively and physically stimulating activities enhances this scaffolding, providing a mechanistic framework for how overall brain health \u2014 via neuroplasticity and network efficiency \u2014 can buffer memory against early Alzheimer's pathology."}]
 ancestral_insight: ""
+evidence_position: "speculative"
 ---
 
 New research suggests that maintaining overall brain health may buffer memory against early Alzheimer's pathology, pointing to a holistic approach to cognitive resilience.

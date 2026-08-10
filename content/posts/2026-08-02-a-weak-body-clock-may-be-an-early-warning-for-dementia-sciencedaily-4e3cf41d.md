@@ -24,6 +24,7 @@ topics: ['brain health', 'consumer safety', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Franz Halberg", "year": "1959", "discovery": "Coined the term 'circadian' and established the field of chronobiology, demonstrating that daily rhythms in physiology are endogenous and measurable. His concept of 'circadian amplitude' as a health biomarker directly anticipates the finding that weaker daily rhythms (reduced amplitude) predict dementia risk, validating his early claim that rhythm integrity reflects systemic health."}, {"scientist": "Clifford Saper", "year": "2005", "discovery": "Identified the suprachiasmatic nucleus (SCN) as the master circadian clock and showed that its degeneration occurs in Alzheimer's disease, linking circadian disruption to neurodegeneration. This provides the mechanistic basis for the modern finding: weaker rhythms may reflect early SCN dysfunction, serving as a preclinical marker for dementia."}]
 ancestral_insight: ""
+evidence_position: "emerging"
 ---
 New research links weaker daily rhythms to increased dementia risk in older adults.
 

@@ -25,6 +25,7 @@ topics: ['brain health', 'longevity', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "P\u00edo del R\u00edo-Hortega", "year": "1919", "discovery": "Discovered and named microglia using silver carbonate staining, establishing them as a distinct CNS cell type with phagocytic and inflammatory potential. This work laid the foundation for understanding microglial heterogeneity and their role in brain immunity, directly anticipating the modern finding that hippocampal microglia are replaced by peripheral-derived inflammatory cells during aging."}, {"scientist": "Michele De Nicola", "year": "1970s", "discovery": "Proposed the concept of 'microglial turnover' and demonstrated that microglia can be replenished from bone marrow-derived precursors under pathological conditions, challenging the dogma of lifelong self-renewal. This early work on microglial replacement from peripheral sources is directly validated by the preprint's single-cell evidence of peripheral-like inflammatory cells replacing resident microglia in the aging hippocampus."}]
 ancestral_insight: ""
+evidence_position: "emerging"
 ---
 
 New single-cell mapping reveals a hidden midlife overhaul in the hippocampus: resident microglia decline, inflammatory replacements arrive, and the blood-brain barrier weakens. Here's what that means for your healthspan.

@@ -24,6 +24,7 @@ topics: ['metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Per-Olof \u00c5strand", "year": "1960", "discovery": "\u00c5strand's pioneering work on interval training and maximal oxygen uptake established that short, high-intensity exercise bouts interspersed with recovery can produce cardiovascular and metabolic adaptations comparable to longer continuous exercise, providing the physiological foundation for the finding that 75 minutes of weekly interval walking can reduce central fat and improve fitness."}, {"scientist": "Jean Vague", "year": "1956", "discovery": "Vague first described the distinct metabolic risks of android (central) obesity versus gynoid (peripheral) obesity, linking upper-body fat distribution to diabetes and cardiovascular disease. This modern trial's focus on waist circumference and central fat directly validates Vague's clinical insight that central adiposity is a key therapeutic target."}]
 ancestral_insight: ""
+evidence_position: "emerging"
 ---
 
 A small dose of interval walking could offer big benefits for adults with excess waist fat, a new trial suggests.

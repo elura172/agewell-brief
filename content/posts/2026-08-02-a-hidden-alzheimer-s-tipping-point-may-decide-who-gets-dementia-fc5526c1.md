@@ -24,6 +24,7 @@ topics: ['brain health', 'consumer safety', 'detoxification', 'longevity', 'meta
 frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "P\u00edo del R\u00edo Hortega", "year": "1919", "discovery": "Discovered and named microglia, identifying them as distinct brain cells of mesodermal origin that respond to injury and disease. This foundational work established microglia as the brain's immune cells, directly anticipating the modern finding that a microglial state switch (from homeostatic to disease-associated) determines cognitive resilience versus decline in Alzheimer's disease."}, {"scientist": "Alois Alzheimer", "year": "1906", "discovery": "First described the neuropathological hallmarks of Alzheimer's disease\u2014amyloid plaques and neurofibrillary tangles\u2014in a patient with dementia. However, he also noted the presence of reactive glial cells around plaques, hinting at an immune component. The modern study validates and extends this by showing that microglial activation state, not just plaque burden, is the critical determinant of whether pathology leads to cognitive decline, explaining the clinicopathological dissociation observed for decades."}]
 ancestral_insight: ""
+evidence_position: "emerging"
 ---
 
 New research pinpoints a shift in brain immune cells that may separate those who stay sharp from those who decline.

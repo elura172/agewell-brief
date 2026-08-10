@@ -25,6 +25,7 @@ topics: ['cellular senescence', 'detoxification', 'longevity', 'metabolic health
 frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "David Barker", "year": "1986", "discovery": "Barker's fetal origins hypothesis, based on epidemiological studies in Hertfordshire, showed that low birth weight and poor early-life nutrition are linked to increased risk of cardiovascular disease and metabolic disorders in adulthood. This directly anticipates the modern preprint's claim that healthspan is shaped by conditions before birth, providing the foundational evidence that early-life programming determines later-life health trajectories."}, {"scientist": "Peter Gluckman and Mark Hanson", "year": "2004", "discovery": "Gluckman and Hanson's 'developmental plasticity' framework extended Barker's work, proposing that environmental cues during development induce persistent physiological changes via epigenetic mechanisms. Their concept of 'predictive adaptive responses' explains how early-life stressors can lead to mismatch with later environments, accelerating aging and reducing healthspan. This mechanistic bridge connects the preprint's focus on early-life interventions to the molecular pathways (e.g., epigenetic marks) that modulate senescence and cellular renewal."}]
 ancestral_insight: ""
+evidence_position: "speculative"
 ---
 
 Scientists are developing a new field to help us stay healthier longer, with roots in early life.

@@ -25,6 +25,7 @@ topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health',
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": "1938", "discovery": "Kleitman's Mammoth Cave experiments established the endogenous ~24-hour circadian rhythm and the concept of sleep as a regulated physiological process, laying the foundation for linking sleep duration and timing to metabolic and aging outcomes."}, {"scientist": "Matthew Walker", "year": "2017", "discovery": "Walker's work on sleep and brain health demonstrated that insufficient sleep accelerates cognitive decline and disrupts glymphatic clearance, directly connecting sleep duration to neural aging and providing a mechanistic basis for the observed 6.4-7.8 hour window."}]
 ancestral_insight: ""
+evidence_position: "speculative"
 ---
 
 New research suggests a specific sleep duration range could be linked to slower biological aging. Here's what to make of the findings.

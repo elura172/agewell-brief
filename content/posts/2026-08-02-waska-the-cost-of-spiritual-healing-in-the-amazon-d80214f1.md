@@ -24,6 +24,7 @@ topics: ['brain health', 'sleep health']
 frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Richard Evans Schultes", "year": "1941", "discovery": "Pioneering ethnobotanical fieldwork in the Amazon documented the ritual use of ayahuasca and other sacred plants, establishing the scientific foundation for understanding their cultural and pharmacological significance. His work directly connects to the modern finding by highlighting the deep-rooted traditional knowledge that is now being commodified."}, {"scientist": "Claude L\u00e9vi-Strauss", "year": "1955", "discovery": "In 'Tristes Tropiques', L\u00e9vi-Strauss analyzed the structural role of shamanic practices and plant medicines in Indigenous societies, framing them as complex cultural systems rather than mere pharmacological tools. This anticipates the modern critique of commodification, which strips these practices of their cultural and ecological context."}]
 ancestral_insight: ""
+evidence_position: "speculative"
 ---
 
 Indigenous voices highlight the commodification of sacred plant medicine in the Amazon.

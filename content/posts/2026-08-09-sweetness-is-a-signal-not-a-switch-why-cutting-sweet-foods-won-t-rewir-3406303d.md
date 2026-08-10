@@ -25,6 +25,7 @@ topics: ['brain health', 'detoxification', 'gut health', 'metabolic health', 'sl
 frameworks: ['Dark Mirror', 'Higher Flame', 'Inner Garden', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Paul Rozin", "year": "1976", "discovery": "Rozin's work on learned taste aversions and the 'adaptive conservatism' of food preferences showed that taste preferences are not simply a function of exposure, but are strongly shaped by post-ingestive consequences. This anticipates the Sweet Tooth Trial's finding that sweetness preference is not a plastic dial that turns down with reduced exposure, because the brain's reward circuitry tracks metabolic outcomes (calories, energy density) rather than mere sensory input."}, {"scientist": "John Blundell", "year": "1990s", "discovery": "Blundell's research on the satiety cascade and the dissociation between sensory (hedonic) and post-ingestive (metabolic) signals demonstrated that sweetness alone does not drive long-term intake regulation. His work showed that energy density and macronutrient composition, not taste per se, are the primary determinants of satiety and food choice, directly supporting the trial's conclusion that sugar and energy density, not sweetness, are the real targets for metabolic health."}]
 ancestral_insight: ""
+evidence_position: "emerging"
 ---
 
 A six-month randomized trial finds that altering dietary sweetness doesn't change cravings, weight, or metabolic markers. The real target may be sugar and energy density, not taste.
