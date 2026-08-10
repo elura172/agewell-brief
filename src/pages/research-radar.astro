@@ -4,15 +4,16 @@ import InfoPage from "../layouts/InfoPage.astro";
 <InfoPage
   title="Research Radar"
   eyebrow="Signal product · for investors & R&D teams"
-  lede="Which longevity mechanisms are maturing from speculative to established, and which historical antecedents unrelated research is independently converging on — computed from the daily archive, every finding sourced back to the brief that produced it."
+  lede="Which topics are gaining confidence over time, which historical antecedents unrelated research is independently converging on, and which of those findings already have real trial-registry activity behind them — computed from the daily archive, every finding sourced back to the brief that produced it."
 >
   <h2>What it is</h2>
-  <p>Not a summary of the news. Two computed signals, run monthly against the full Agewell Brief archive:</p>
+  <p>Not a summary of the news. Three computed signals, run monthly against the full Agewell Brief archive:</p>
   <ul>
-    <li><strong>Evidence maturation</strong> — which frontier vectors climbed from speculative or emerging toward contested or established, with a real gap in time between the two findings. Same-day variance across two takes on one topic doesn't count; this is about mechanisms genuinely gaining independent support over months.</li>
+    <li><strong>Confidence shifts within a topic</strong> — pairs of briefs under the same topic where the later one sits higher on the evidence ladder (speculative → contested → emerging → established) than the earlier one, with a real gap in time. Same-day variance across two takes on one topic doesn't count. This tracks a topic's confidence, not one mechanism proven out — the two briefs in a pair are often different findings that happen to share a topic tag.</li>
     <li><strong>Cross-framework convergence</strong> — historical antecedents independently cited by briefs in unrelated categories, surfacing which underlying mechanisms disparate current research is converging on without being told to look for it.</li>
+    <li><strong>Trial registry activity</strong> <em>(prototype)</em> — which named compounds or interventions mentioned in the archive already have real trials on ClinicalTrials.gov, and at what phase, sponsored by whom. Coverage is partial today (most briefs describe a bench-level mechanism with no named intervention yet); reported honestly rather than padded.</li>
   </ul>
-  <p>Every entry links to the specific, dated brief that produced it. Nothing is inferred without a citation you can open and check yourself.</p>
+  <p>Every entry links to the specific, dated brief — or trial ID — that produced it. Nothing is inferred without a citation you can open and check yourself. Full methodology: <a href="/research-radar-methodology/">agewellbrief.com/research-radar-methodology</a>.</p>
 
   <h2>Who this is for</h2>
   <ul>
@@ -22,7 +23,7 @@ import InfoPage from "../layouts/InfoPage.astro";
   </ul>
 
   <h2>How it works</h2>
-  <p>One issue a month, delivered by email. Each issue covers what moved since the last one — new maturation climbs, new convergence hits — plus a running methodology note so you always know exactly what's being measured and why. Monthly rather than weekly on purpose: a thin week padded to hit a schedule is worse than no issue at all, and every finding here has to be a real evidence-position climb or a real citation convergence computed from the archive — never a summary written to fill space.</p>
+  <p>One issue a month, delivered by email. Each issue covers what moved since the last one — new confidence shifts, new convergence hits, new trial-registry activity — plus a running methodology note so you always know exactly what's being measured and why. Monthly rather than weekly on purpose: a thin week padded to hit a schedule is worse than no issue at all, and every finding here has to be real, computed from the archive — never a summary written to fill space.</p>
 
   <h2>Price</h2>
   <p>$399/month, or $3,990/year. No trial, no self-serve checkout yet — every subscription starts as a conversation so the first issue actually reflects what you're trying to track.</p>
