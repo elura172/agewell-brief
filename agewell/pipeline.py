@@ -45,6 +45,7 @@ from agewell.editorial import (
     classify_evidence_position,
     direct_image,
     review_image_metadata,
+    verify_category,
 )
 from agewell.images import (
     ImageSearchCache,
@@ -571,7 +572,10 @@ def choose_edition(candidates: list[FeedItem]) -> list[tuple[FeedItem, str, str 
 def classify(item: FeedItem) -> str:
     text = f"{item.title} {item.summary}".lower()
     rules = {
-        "consumer safety": ("health fraud", "tainted", "hidden drug", "product notification", "recall"),
+        # "recall" alone matched memory-recall research ("...shapes what we recall") into
+        # this bucket — observed 2026-08-10 on a historical-backfill brief. Scoped to
+        # phrases that only occur in an actual product/drug recall context.
+        "consumer safety": ("health fraud", "tainted", "hidden drug", "product notification", "product recall", "drug recall", "supplement recall", "recalled"),
         "men's health": (
             "men's health",
             "male sexual health",
@@ -1180,6 +1184,15 @@ def run() -> int:
     for item, requested_content_type, source_text in edition_entries:
         key = item_id(item)
         category = classify(item)
+        try:
+            verified = verify_category(client, MODEL, item.title, item.summary, category)
+            if verified["category"] != category:
+                print(f"Category corrected ({item.source_name}): {category} -> {verified['category']} ({verified['reason']})", file=sys.stderr)
+            category = verified["category"]
+            if not verified["on_mission"]:
+                print(f"Off-mission flag ({item.source_name}): {item.title[:80]} — {verified['reason']}", file=sys.stderr)
+        except Exception as exc:
+            print(f"Category verification skipped ({item.source_name}): {exc}", file=sys.stderr)
         source_material = source_text or item.summary
         content_type = requested_content_type
         evergreen_context = retrieve_context(

@@ -232,6 +232,76 @@ def classify_evidence_position(
     return position if position in EVIDENCE_POSITIONS else "emerging"
 
 
+# Same category vocabulary as pipeline.classify()'s keyword rules, plus the
+# "general wellness" fallback. Kept as a separate constant rather than importing
+# from pipeline.py to avoid a circular import (pipeline.py already imports from
+# this module).
+CATEGORIES = (
+    "consumer safety", "men's health", "metabolic health", "detoxification",
+    "gut health", "cellular senescence", "mobility", "brain health",
+    "sleep health", "longevity", "general wellness",
+)
+
+
+def verify_category(
+    client: OpenAI,
+    model: str,
+    title: str,
+    summary: str,
+    proposed_category: str,
+) -> dict[str, Any]:
+    """Sanity-check classify()'s keyword-matched category against the actual
+    content, and flag content that doesn't belong on the site at all.
+
+    classify() is first-match-wins keyword matching over the raw title+summary,
+    which reliably breaks on multi-topic abstracts and incidental word overlap
+    — observed 2026-08-10: a memory-recall study filed as "consumer safety"
+    because its abstract contains the word "recall", and a general aging
+    proteomics paper filed as "gut health" because "microbiome" appeared as a
+    secondary detail. This is a second, independent pass reading the actual
+    subject rather than pattern-matching words.
+
+    Also flags on_mission=False for content classify() will happily tag with
+    *some* category but that isn't actually about human aging/longevity/
+    functional health — basic-biology tooling papers (a crustacean neuropeptide
+    database) or off-species research (an insect biofilm-sniffing biosensor)
+    that a keyword filter can't distinguish from genuinely relevant coverage.
+    """
+    payload = {
+        "title": title,
+        "summary": summary[:1500],
+        "proposed_category": proposed_category,
+        "valid_categories": list(CATEGORIES),
+    }
+    result = _json_agent(
+        client,
+        model,
+        (
+            "You are Agewell Brief's category verifier. The site covers human aging, longevity, "
+            "and functional health — biophysics, cellular senescence, metabolic health, brain health, "
+            "sleep, gut health, mobility, and consumer safety as they relate to healthy aging. "
+            "A proposed_category was assigned by keyword matching and may be wrong: multi-topic "
+            "abstracts and incidental word overlap (e.g. 'recall' in a memory study, not a product "
+            "recall) commonly produce mismatches. Read the actual subject and pick the single best-fit "
+            "category from valid_categories, or confirm the proposed one if it's already correct. "
+            "Separately, set on_mission=false only for content that isn't really about human aging/"
+            "longevity/health at all — basic-biology tooling papers, databases, or research in other "
+            "species with no stated human-health relevance. Being a preprint or narrow-topic study is "
+            "not by itself a reason to flag off-mission; being off-subject is."
+        ),
+        payload,
+        250,
+    )
+    category = str(result.get("category", "")).strip().lower()
+    if category not in CATEGORIES:
+        category = proposed_category
+    return {
+        "category": category,
+        "on_mission": bool(result.get("on_mission", True)),
+        "reason": str(result.get("reason", ""))[:300],
+    }
+
+
 def direct_image(
     client: OpenAI,
     model: str,

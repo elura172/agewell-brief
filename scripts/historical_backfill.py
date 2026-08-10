@@ -29,6 +29,7 @@ from openai import OpenAI
 
 import agewell.pipeline as pipeline
 from agewell.agents import article_id, novelty_editor
+from agewell.editorial import verify_category
 from agewell.pipeline import (
     FeedItem,
     NOVELTY_MIN_SCORE,
@@ -148,6 +149,22 @@ def generate_brief(item: FeedItem, publish: bool) -> str | None:
     existing = list(POSTS_DIR.glob(f"*{key[:8]}*.md"))
     if existing:
         return None
+
+    # classify()'s first-match keyword rules reliably misfire on the broader,
+    # less-curated bioRxiv/medRxiv pool (a crustacean neuropeptide database and
+    # an insect biofilm-sniffing biosensor both cleared the topic-term filter
+    # 2026-08-10 despite having no real human-aging relevance). Blocking here
+    # rather than just logging, unlike the daily pipeline: daily items already
+    # passed novelty/assignment scoring against a curated feed list, so a
+    # verification miss there is lower-stakes than an unreviewed bulk sweep.
+    try:
+        verified = verify_category(client, MODEL, item.title, item.summary, category)
+        category = verified["category"]
+        if not verified["on_mission"]:
+            print(f"  skipped (off-mission: {verified['reason']})")
+            return None
+    except Exception as exc:
+        print(f"  category verification failed, using keyword match: {exc}", file=sys.stderr)
 
     try:
         evidence = pipeline.build_evidence_packet(client, MODEL, item.title, item.summary, item.summary, item.link)
