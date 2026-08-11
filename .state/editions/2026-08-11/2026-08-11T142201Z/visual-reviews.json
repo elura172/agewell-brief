@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "c376819f2d54a4df1d317aee",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:8531354",
+      "score": 70,
+      "rationale": "The candidate image metadata depicts a scientist examining samples under a microscope in a laboratory, which aligns with the editorial intent of showing a researcher studying fly brains. The setting and mood are consistent with a scientific discovery narrative. However, the alt text does not specify Drosophila or fly brains, and the presence of a face mask may introduce a clinical or safety context not present in the story. The image is not a generic lifestyle shot but a laboratory scene, which is appropriate.",
+      "concerns": [
+        "The alt text mentions a face mask, which could imply a clinical or safety context not present in the story. The image may not specifically depict Drosophila or fly brain research, as the subject is generic. The metadata does not confirm the presence of a computer monitor with protein data, which was part of the editorial intent."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-11/glial-surface-protein-dip-extends-lifespan-in-flies-a-molecular-bridge-c376819f-pexels-8531354.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

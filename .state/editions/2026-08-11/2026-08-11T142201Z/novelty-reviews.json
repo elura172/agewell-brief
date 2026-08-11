@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "1d0d43b92872610e91e8e608": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "unexpected mechanism",
+      "reason": "A contractile protein unexpectedly localizes to the nucleus to regulate muscle aging, revealing a novel link between contraction machinery and gene expression.",
+      "angle": "A muscle contraction protein moonlights in the nucleus to control aging—disrupting its nuclear entry preserves muscle function.",
+      "mode": "agent"
+    },
+    "c69dcd5d1d53eed800887521": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "new finding",
+      "reason": "Time-restricted eating causes sustained fat loss independent of calorie restriction and circadian autophagy, and even improves muscle mass and performance.",
+      "angle": "Intermittent fasting melts fat without cutting calories—and unlike GLP-1 drugs, it builds muscle instead of wasting it.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic list of balance exercises for seniors; no new data or unique angle.",
+      "angle": "No compelling angle.",
+      "mode": "agent"
+    },
+    "c376819f2d54a4df1d317aee": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "First in-situ glial cell-surface proteomics in intact brains identifies DIP-β as a pro-longevity factor, opening new avenues for brain aging interventions.",
+      "angle": "New technique reveals a glial surface protein that extends lifespan when boosted—a fresh target for brain aging.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another senior workout routine; no novel findings or specific data.",
+      "angle": "No compelling angle.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "new mechanism",
+      "reason": "Identifies a specific post-translational modification (succinylation) on HNRNPC that affects mitochondrial metabolism in Alzheimer's, a novel molecular link.",
+      "angle": "A chemical tweak on a splicing protein disrupts mitochondrial energy in Alzheimer's—new target for therapy.",
+      "mode": "agent"
+    },
+    "c9587900d479d7e5d8d8ae7f": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Novel AI method disentangles technical MRI distortions from true brain changes, improving accuracy of longitudinal aging studies.",
+      "angle": "New AI separates scanner artifacts from real brain shrinkage—could correct years of aging research.",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Narrative review of taVNS for consciousness disorders; no new data, and evidence is preliminary.",
+      "angle": "No compelling angle.",
+      "mode": "agent"
+    },
+    "4f8cc6ffaeff1ed9ba77aa88": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Overview of archaeogenetics methods; not directly aging-related and lacks a specific new finding.",
+      "angle": "No compelling angle.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "1d0d43b92872610e91e8e608",
+    "c69dcd5d1d53eed800887521",
+    "c376819f2d54a4df1d317aee",
+    "44d85c20f70b28aea7edb7f1",
+    "c9587900d479d7e5d8d8ae7f"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "256b3e11dfff849235aebba7",
+    "a69b88ecd3c8d0a8a837a768",
+    "4f8cc6ffaeff1ed9ba77aa88"
+  ],
+  "mode": "agent"
+}
