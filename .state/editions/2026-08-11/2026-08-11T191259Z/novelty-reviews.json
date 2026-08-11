@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "f5e6735457337db516d08d7e": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "early detection",
+      "reason": "Sleep as an early Alzheimer's marker is a promising frontier, offering a non-invasive screening avenue.",
+      "angle": "Could sleep patterns become a routine Alzheimer's risk screening tool?",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "List of balance exercises is common, lacks a new finding or unique angle.",
+      "angle": "No sharper angle; standard senior fitness content.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Daily workout advice for seniors is routine, no novel science or specific result.",
+      "angle": "Could highlight the trainer's unique method, but low novelty.",
+      "mode": "agent"
+    },
+    "c9587900d479d7e5d8d8ae7f": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "DisMorph disentangles technical distortions from biological change in MRI, a novel method improving longitudinal brain imaging accuracy.",
+      "angle": "How separating scanner artifacts from real brain changes could refine aging studies.",
+      "mode": "agent"
+    },
+    "637cf05b67c7fdf25eeb372f": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies a specific protein from senescent immune cells driving brain aging, a concrete molecular target.",
+      "angle": "Targeting this secreted protein could be a new therapeutic strategy against cognitive decline.",
+      "mode": "agent"
+    },
+    "3ed5eb0cf4e84758dba65a65": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "biomarker research",
+      "reason": "CWD biomarkers in mice are relevant but niche; direct human relevance is limited.",
+      "angle": "Could connect to broader prion disease research, but not immediate.",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "emerging therapy",
+      "reason": "taVNS for disorders of consciousness is a novel non-invasive approach, though evidence is preliminary.",
+      "angle": "Could taVNS offer a new path for patients with severe brain injuries?",
+      "mode": "agent"
+    },
+    "17b5500404aed94e218268d6": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Vendor-agnostic MRI method for myelin mapping with motion correction is a technical advance enabling multi-site studies.",
+      "angle": "Standardizing brain imaging across scanners could accelerate research on myelin-related diseases.",
+      "mode": "agent"
+    },
+    "1bcb2dcabe9736d905576a30": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Reveals how macrophages selectively extract bacteria from apoptotic cells, a nuanced immune mechanism.",
+      "angle": "How immune cells prioritize targets could inform infection and inflammation treatments.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "f5e6735457337db516d08d7e",
+    "c9587900d479d7e5d8d8ae7f",
+    "637cf05b67c7fdf25eeb372f",
+    "a69b88ecd3c8d0a8a837a768",
+    "17b5500404aed94e218268d6",
+    "1bcb2dcabe9736d905576a30"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "256b3e11dfff849235aebba7",
+    "3ed5eb0cf4e84758dba65a65"
+  ],
+  "mode": "agent"
+}
