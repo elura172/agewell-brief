@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "f5e6735457337db516d08d7e": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "early detection",
+      "reason": "Sleep-based biomarkers for Alzheimer's are a frontier area with practical screening potential; this specific study from ULiège offers a concrete new angle.",
+      "angle": "Could sleep analysis become a non-invasive early warning system for Alzheimer's? New research suggests subtle sleep signs may precede memory loss by years.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "A list of balance exercises is routine wellness content with no new finding or unique angle.",
+      "angle": "Skip generic lists; instead, explore which balance exercises have the strongest evidence for preventing falls in older adults.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another daily workout routine for seniors; lacks novelty or a specific scientific hook.",
+      "angle": "Could highlight the trainer's specific method if it's evidence-based, but otherwise it's a routine fitness tip.",
+      "mode": "agent"
+    },
+    "c9587900d479d7e5d8d8ae7f": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "A novel AI method to disentangle technical distortions from true brain changes in MRI could improve longitudinal aging studies; technical but with clear implications.",
+      "angle": "New AI tool separates scanner artifacts from real brain shrinkage, promising more accurate tracking of aging and neurodegeneration.",
+      "mode": "agent"
+    },
+    "9af54fcebc8491d53418a991": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic insight",
+      "reason": "Detailed beta-cell biology is important but highly specialized; may not have broad reader appeal unless tied to diabetes prevention.",
+      "angle": "Could be framed as 'Why high insulin production makes beta cells fragile' but still niche.",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "emerging therapy",
+      "reason": "taVNS for disorders of consciousness is promising but the evidence is preliminary and the review format lacks a sharp new finding.",
+      "angle": "Could be a 'hope or hype?' piece on nerve stimulation for coma patients, but needs a stronger hook.",
+      "mode": "agent"
+    },
+    "0264423248c72fca6dd6977d": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "unifying mechanism",
+      "reason": "A shared cellular pathway between a rare childhood dementia and Alzheimer's is a surprising connection that could reshape understanding of neurodegeneration.",
+      "angle": "One rogue immune pathway may drive both a rare childhood dementia and Alzheimer's—what does this mean for future treatments?",
+      "mode": "agent"
+    },
+    "17b5500404aed94e218268d6": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "technical advance",
+      "reason": "Vendor-agnostic MRI mapping is useful for research but not directly actionable for readers; lacks a compelling narrative.",
+      "angle": "Could be framed as 'Standardizing brain scans across hospitals' but still niche.",
+      "mode": "agent"
+    },
+    "1bcb2dcabe9736d905576a30": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "basic science",
+      "reason": "Macrophage phagocytosis details are fascinating but far from clinical application; low reader relevance.",
+      "angle": "Could be 'How immune cells sort friend from foe' but too abstract for a general audience.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "f5e6735457337db516d08d7e",
+    "c9587900d479d7e5d8d8ae7f",
+    "0264423248c72fca6dd6977d"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "256b3e11dfff849235aebba7",
+    "9af54fcebc8491d53418a991",
+    "a69b88ecd3c8d0a8a837a768",
+    "17b5500404aed94e218268d6",
+    "1bcb2dcabe9736d905576a30"
+  ],
+  "mode": "agent"
+}

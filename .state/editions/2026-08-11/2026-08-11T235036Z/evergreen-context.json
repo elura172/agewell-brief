@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "0264423248c72fca6dd6977d",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "0ab8467caacde078",
+        "source": "Dr. Mae-Wan Ho (1993) — The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 19
+      },
+      {
+        "source_id": "0273efb6277f6937",
+        "source": "Dr. Emilio Del Giudice (1988) — Water Coherence Domains and Quantum Electrodynamics (QED)",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 17
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
