@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "3da0e8de6585e5e65dbe845a": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Identifies a specific brain-wide activation pattern during sleep rhythms, linking SO-spindle coupling to thalamus and hippocampus activity, offering a new mechanistic understanding of memory processing during sleep.",
+      "angle": "How the sleeping brain coordinates memory: a new study reveals the thalamus as a key conductor of hippocampal-cortical communication during deep sleep.",
+      "mode": "agent"
+    },
+    "9adae84f6c677f687ba334fa": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "lifestyle reminder",
+      "reason": "Reinforces known benefits of exercise for brain health, without a specific new finding or mechanism. Generic advice that could run any year.",
+      "angle": "Exercise helps the aging brain clear waste: what we know and what's still uncertain.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic listicle",
+      "reason": "A list of balance exercises for seniors, likely recycled content with no new research or unique angle.",
+      "angle": "13 balance exercises for seniors: a practical guide to improving stability and preventing falls.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample size, preliminary results. While relevant, it lacks the impact of a larger or more definitive study.",
+      "angle": "Yoga-based meditation may boost self-regulation in medical students: a pilot study shows promise.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another piece on senior workouts, likely similar to existing content. No specific new finding or unique angle.",
+      "angle": "A trainer's simple daily workout for seniors to improve balance, strength, and mobility at home.",
+      "mode": "agent"
+    },
+    "f25cdca6537d572e353a567e": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Reviews the entire chain of Compton imaging, highlighting a gap between component-level evidence and application-level claims. This is a critical analysis that could improve research practices in a niche but important field.",
+      "angle": "Compton cameras: why the gap between lab tests and real-world use matters for medical imaging and nuclear safety.",
+      "mode": "agent"
+    },
+    "c1ce90127c2e1be7cfe9eefe": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "methodological overview",
+      "reason": "Summarizes various methods for studying cardiomyocytes, but lacks a single groundbreaking finding. More of a technical review than a novel discovery.",
+      "angle": "New tools to study heart cells: from optogenetics to video-based analysis, a look at the latest methods.",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "emerging therapy",
+      "reason": "Reviews taVNS for disorders of consciousness, a promising non-invasive neuromodulation approach. Highlights subgroup-level signals and the need for more research, offering a balanced and timely perspective.",
+      "angle": "Can a nerve stimulation device help patients with consciousness disorders? A review of the evidence and what's next.",
+      "mode": "agent"
+    },
+    "d22df8f58abaa973d28ed3ab": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "diagnostic advance",
+      "reason": "Discusses the potential of a broader panel of protein markers for Alzheimer's blood tests, moving beyond traditional amyloid and tau. This could lead to earlier and more accurate diagnosis.",
+      "angle": "Beyond amyloid and tau: a broader protein panel could make Alzheimer's blood tests more accurate.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "3da0e8de6585e5e65dbe845a",
+    "f25cdca6537d572e353a567e",
+    "a69b88ecd3c8d0a8a837a768",
+    "d22df8f58abaa973d28ed3ab"
+  ],
+  "held_back": [
+    "9adae84f6c677f687ba334fa",
+    "cadce59ed8f9539ef7a34ac6",
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "c1ce90127c2e1be7cfe9eefe"
+  ],
+  "mode": "agent"
+}

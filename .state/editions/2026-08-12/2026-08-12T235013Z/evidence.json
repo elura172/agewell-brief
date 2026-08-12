@@ -1,0 +1,27 @@
+[
+  {
+    "article_id": "a69b88ecd3c8d0a8a837a768",
+    "study_type": "narrative review",
+    "key_claims": [
+      "taVNS is a promising non-invasive neuromodulation approach for disorders of consciousness, but evidence is preliminary.",
+      "Mechanistic models suggest taVNS may influence consciousness via the auricular branch of the vagus nerve, engaging brainstem nuclei and modulating cortical networks, but this is a working model, not a validated causal pathway.",
+      "Preliminary data suggest patients in minimally conscious state may respond more often than those with unresponsive wakefulness syndrome/vegetative state, but the only sham-controlled randomized trial found no significant overall between-group difference.",
+      "Multimodal tools like EEG, fNIRS, heart rate variability, and serum biomarkers may improve understanding and responder stratification, but integrated evidence within same cohorts is scarce.",
+      "taVNS appears promising as an adjunctive intervention, but routine clinical application remains provisional until ongoing trials clarify efficacy, durability, optimal parameters, and responder profiles."
+    ],
+    "limitations": [
+      "Evidence is limited by small samples, protocol heterogeneity, and short follow-up.",
+      "The review is narrative, not systematic, and no formal risk-of-bias assessment or quantitative synthesis was performed.",
+      "Direct evidence for the proposed mechanisms in DoC patients is incomplete; much is indirect from other populations or animal studies.",
+      "The only sham-controlled randomized trial found no significant overall between-group difference."
+    ],
+    "what_not_to_say": [
+      "taVNS is an established or proven treatment for disorders of consciousness.",
+      "taVNS has been shown to cause recovery of consciousness.",
+      "The proposed mechanisms are validated causal pathways.",
+      "taVNS is effective for all DoC patients.",
+      "The review provides quantitative evidence of efficacy."
+    ],
+    "confidence": "moderate"
+  }
+]

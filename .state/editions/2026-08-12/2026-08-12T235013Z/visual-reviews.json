@@ -1,0 +1,20 @@
+[
+  {
+    "article_id": "a69b88ecd3c8d0a8a837a768",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "None of the candidate images match the editorial intent of showing a person's ear with a small electrode attached in a clinical or research setting. The candidates include a foot electrode, a man with a hearing aid, laboratory scientists, a student with a jetstream apparatus, and headphones. None depict the ear or vagus nerve stimulation device as required.",
+      "concerns": [
+        "All candidates are either irrelevant or generic. The foot electrode image is not specific to the ear. The hearing aid image is not a stimulation device. The laboratory and student images do not show ear stimulation. The headphone images are consumer electronics, not medical devices.",
+        "No valid candidate was selected."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]
