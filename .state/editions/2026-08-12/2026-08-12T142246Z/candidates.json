@@ -1,0 +1,36 @@
+[
+  {
+    "article_id": "f5e6735457337db516d08d7e",
+    "query": "researcher analyzing EEG data in lab",
+    "candidates": [
+      {
+        "provider": "Pexels",
+        "provider_id": "28585010",
+        "source_url": "https://www.pexels.com/photo/detailed-view-of-ecg-equipment-and-readings-28585010/",
+        "creator": "Marta Branco",
+        "creator_url": "https://www.pexels.com/@martabranco",
+        "alt": "Close-up of ECG device with leads and electrodes on printed heart rate graph, showcasing medical technology.",
+        "tags": [],
+        "width": 6960,
+        "height": 4640,
+        "avg_color": "#B7BFCA",
+        "search_query": "sleep study EEG monitoring equipment",
+        "candidate_id": "Pexels:28585010"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "28585011",
+        "source_url": "https://www.pexels.com/photo/detailed-ecg-leads-on-heart-monitor-printout-28585011/",
+        "creator": "Marta Branco",
+        "creator_url": "https://www.pexels.com/@martabranco",
+        "alt": "Close-up of ECG monitor leads on a printed cardiogram, showcasing heart health diagnostics.",
+        "tags": [],
+        "width": 6960,
+        "height": 4640,
+        "avg_color": "#C3C6CD",
+        "search_query": "scientist examining brain wave printouts",
+        "candidate_id": "Pexels:28585011"
+      }
+    ]
+  }
+]

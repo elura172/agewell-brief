@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "f5e6735457337db516d08d7e",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:28585010",
+      "score": 70,
+      "rationale": "The image metadata shows a close-up of ECG equipment and readings, which aligns with the story's focus on using sleep EEG as a biomarker for Alzheimer's. The setting is a medical/lab context, and the mood is analytical. It avoids stereotypes and depicts relevant technology.",
+      "concerns": [
+        "The image is of ECG, not EEG, which is a different type of monitoring. However, the visual similarity and the search query 'sleep study EEG monitoring equipment' make it a reasonable fit. The metadata does not explicitly show a researcher, but the equipment is central to the story."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-12/sleep-architecture-as-an-early-sentinel-for-alzheimer-s-risk-f5e67354-pexels-28585010.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

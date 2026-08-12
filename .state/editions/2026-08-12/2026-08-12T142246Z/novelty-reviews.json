@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "3da0e8de6585e5e65dbe845a": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Large-scale human study (n=107) combining EEG and fMRI identifies a precise temporal coupling between slow oscillations and spindles, with spindle peaks just before the SO UP-state, and links this to specific brain activations (thalamus, hippocampus) and connectivity changes. This is a mechanistic advance in understanding sleep rhythms and memory consolidation.",
+      "angle": "Sleep's 'memory replay' moment: How the brain's slow oscillations and spindles sync to activate the hippocampus and thalamus.",
+      "mode": "agent"
+    },
+    "f5e6735457337db516d08d7e": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "early detection",
+      "reason": "Reports on research exploring sleep as an early indicator of Alzheimer's risk, potentially before memory symptoms appear. This is a promising avenue for earlier diagnosis and intervention, with practical implications.",
+      "angle": "Can your sleep patterns reveal Alzheimer's years before memory loss? New research says maybe.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic list of balance exercises for seniors, a common topic with no new findings or unique angle. Low novelty.",
+      "angle": "13 balance exercises to prevent falls: A senior's guide to staying steady.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study on yoga-based meditation for medical students, showing improvements in self-regulation and well-being. While relevant, it's a small pilot with expected outcomes, not a major breakthrough.",
+      "angle": "Can yoga-based meditation help medical students cope with stress? A pilot study offers hope.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another piece on senior workouts, this time a daily routine from a trainer. Similar to existing content, lacks a novel angle or specific new evidence.",
+      "angle": "A trainer's simple daily workout to improve balance, strength, and mobility at home.",
+      "mode": "agent"
+    },
+    "f25cdca6537d572e353a567e": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Comprehensive review of Compton imaging, highlighting a critical gap between component-level evidence and application-level claims. This is a meta-analysis that could reshape how the field evaluates technology transfer, with implications for medical and security applications.",
+      "angle": "Compton cameras: Why the gap between lab tests and real-world use is holding back the technology.",
+      "mode": "agent"
+    },
+    "c1ce90127c2e1be7cfe9eefe": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "methodological advance",
+      "reason": "Describes a suite of methods for manipulating cardiomyocyte physiology, including optogenetics and chemogenetics. While technically interesting, it's a methods paper with limited immediate reader appeal.",
+      "angle": "New tools to control heart cells: Optogenetics and chemogenetics in cardiac research.",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "safety warning",
+      "reason": "Narrative review on taVNS for disorders of consciousness, providing a balanced assessment of evidence, including a negative sham-controlled trial. This is important for clinicians and patients, highlighting the need for caution.",
+      "angle": "Vagus nerve stimulation for coma patients: Hope or hype? A critical review.",
+      "mode": "agent"
+    },
+    "d22df8f58abaa973d28ed3ab": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "early detection",
+      "reason": "Discusses the potential of a broader panel of protein markers to improve blood tests for Alzheimer's, moving beyond amyloid and tau. This could lead to more accurate and earlier diagnosis, a major clinical need.",
+      "angle": "Beyond amyloid: A new blood test for Alzheimer's could catch it earlier.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "3da0e8de6585e5e65dbe845a",
+    "f5e6735457337db516d08d7e",
+    "f25cdca6537d572e353a567e",
+    "a69b88ecd3c8d0a8a837a768",
+    "d22df8f58abaa973d28ed3ab"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "c1ce90127c2e1be7cfe9eefe"
+  ],
+  "mode": "agent"
+}
