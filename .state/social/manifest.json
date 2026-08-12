@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-12T06:02:32.990201+00:00",
+  "updated_at": "2026-08-12T07:50:56.215400+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -703,7 +703,7 @@
           "updated_at": "2026-08-07T14:16:36.991520+00:00"
         }
       },
-      "updated_at": "2026-08-11T07:35:24.124840+00:00"
+      "updated_at": "2026-08-12T07:50:56.213965+00:00"
     },
     "2026-08-07-sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0": {
       "article_id": "2026-08-07-sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0",
@@ -906,7 +906,7 @@
           "updated_at": "2026-08-09T18:53:28.816381+00:00"
         }
       },
-      "updated_at": "2026-08-09T23:38:20.532771+00:00"
+      "updated_at": "2026-08-12T07:50:56.214471+00:00"
     },
     "2026-08-02-a-42-year-old-childhood-obesity-theory-may-be-wrong-a9e38e1b": {
       "article_id": "2026-08-02-a-42-year-old-childhood-obesity-theory-may-be-wrong-a9e38e1b",
@@ -1341,7 +1341,7 @@
           "updated_at": "2026-08-09T23:38:20.523161+00:00"
         }
       },
-      "updated_at": "2026-08-09T23:38:20.523435+00:00"
+      "updated_at": "2026-08-12T07:50:56.214956+00:00"
     },
     "2026-08-02-reducing-protein-intake-could-support-healthy-aging-by-reshaping-metab-ea4b19a3": {
       "article_id": "2026-08-02-reducing-protein-intake-could-support-healthy-aging-by-reshaping-metab-ea4b19a3",
@@ -2908,6 +2908,64 @@
         }
       },
       "updated_at": "2026-08-11T07:35:24.125311+00:00"
+    },
+    "2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747": {
+      "article_id": "2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747",
+      "article_url": "https://agewellbrief.com/brief/2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747/",
+      "title": "2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747",
+      "category": "longevity",
+      "content_record": ".state/content-records/2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747.json",
+      "video_job": ".state/video-jobs/2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-12T07:50:56.212890+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-12T07:50:56.212900+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-12T07:50:56.212903+00:00"
+        }
+      },
+      "updated_at": "2026-08-12T07:50:56.213438+00:00"
+    },
+    "2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41": {
+      "article_id": "2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41",
+      "article_url": "https://agewellbrief.com/brief/2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41/",
+      "title": "2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41",
+      "category": "metabolic health",
+      "content_record": ".state/content-records/2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41.json",
+      "video_job": ".state/video-jobs/2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-12T07:50:56.214966+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-12T07:50:56.214970+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-12T07:50:56.214973+00:00"
+        }
+      },
+      "updated_at": "2026-08-12T07:50:56.215393+00:00"
     }
   }
 }
