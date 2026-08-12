@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "3da0e8de6585e5e65dbe845a": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Large-scale human study (n=107) identifies the thalamus as a key coordinator of hippocampal-cortical communication during sleep rhythms, with specific coupling patterns and functional connectivity changes. This is a concrete mechanistic insight into how the brain coordinates memory consolidation during sleep.",
+      "angle": "The brain's sleep orchestra: how the thalamus conducts memory consolidation",
+      "mode": "agent"
+    },
+    "9adae84f6c677f687ba334fa": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "broad lifestyle reminder",
+      "reason": "While the angle of exercise supporting the brain's waste-clearing system is interesting, the overall message is a familiar one: exercise is good for the aging brain. The summary lacks specific new data or a novel mechanism beyond what is already widely reported.",
+      "angle": "Exercise as brain plumbing: how physical activity may help clear out aging-related waste",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "This is a listicle of balance exercises for seniors, a topic that has been covered extensively. No new research or unique angle is presented.",
+      "angle": "13 balance exercises for seniors: a practical guide to improving stability",
+      "mode": "agent"
+    },
+    "b021a433229f2d43ada41e54": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "specific new finding",
+      "reason": "This study identifies specific biomarkers (renal disease and anemia) as primary predictors of survival in marmosets, offering a composite risk scale. While relevant to aging research, the direct applicability to humans is limited, and the topic is niche.",
+      "angle": "Kidney health and anemia as early warning signs: a new risk scale for aging marmosets",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "The finding that yoga-based meditation improves self-regulation in medical students is not surprising and has been reported in various forms. The pilot study design and lack of a control group limit its novelty.",
+      "angle": "Yoga for medical students: a pilot study on self-regulation and well-being",
+      "mode": "agent"
+    },
+    "27ba45a498060ca6b8774726": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "This study disentangles attention and listening engagement, showing that interpersonal synchronization reflects different aspects of the listening experience. The experimental design is clever and the findings could have implications for understanding communication and social bonding.",
+      "angle": "When brains sync: how attention and engagement shape interpersonal neural coupling",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another exercise routine for seniors, this time from a trainer. The content is likely practical but lacks novelty or a new scientific angle.",
+      "angle": "A senior fitness trainer's simple daily workout for balance and strength",
+      "mode": "agent"
+    },
+    "f25cdca6537d572e353a567e": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "frontier technology",
+      "reason": "This review of Compton imaging is highly technical and specialized, likely of interest only to a niche audience. The findings about performance reporting are important for the field but not broadly accessible.",
+      "angle": "Compton cameras: the gap between lab performance and real-world application",
+      "mode": "agent"
+    },
+    "a69b88ecd3c8d0a8a837a768": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "This narrative review covers a promising non-invasive neuromodulation technique (taVNS) for disorders of consciousness. It synthesizes recent evidence and highlights the need for more research, making it a timely and relevant topic for a health-conscious audience.",
+      "angle": "Can a nerve in the ear help wake the brain? The promise of taVNS for consciousness disorders",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "3da0e8de6585e5e65dbe845a",
+    "27ba45a498060ca6b8774726",
+    "a69b88ecd3c8d0a8a837a768"
+  ],
+  "held_back": [
+    "9adae84f6c677f687ba334fa",
+    "cadce59ed8f9539ef7a34ac6",
+    "b021a433229f2d43ada41e54",
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "f25cdca6537d572e353a567e"
+  ],
+  "mode": "agent"
+}

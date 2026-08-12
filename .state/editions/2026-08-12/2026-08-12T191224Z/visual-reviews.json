@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "27ba45a498060ca6b8774726",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:28993057",
+      "score": 65,
+      "rationale": "The image shows a person wearing headphones and engaged in an activity, which loosely matches the subject of listening. The setting appears to be a gaming or computer environment, which could be interpreted as a lab-like setting. The focus on the person's engagement aligns with the story's theme of attention and engagement.",
+      "concerns": [
+        "The image depicts a young gamer, not a middle-aged adult as specified in the image brief. The setting is not clearly a neuroscience lab, and there is no visible EEG cap or physiological sensors. The metadata does not confirm the presence of scientific equipment or a research context."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-12/your-brain-syncs-your-body-engages-new-eeg-study-dissects-attention-fr-27ba45a4-pexels-28993057.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
