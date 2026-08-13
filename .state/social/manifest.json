@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-13T06:02:46.594049+00:00",
+  "updated_at": "2026-08-13T07:51:40.056202+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -2124,7 +2124,7 @@
           "updated_at": "2026-08-10T14:23:27.409590+00:00"
         }
       },
-      "updated_at": "2026-08-10T14:23:27.410129+00:00"
+      "updated_at": "2026-08-13T07:51:40.054936+00:00"
     },
     "historical-2025-08-01-your-motor-neurons-are-stronger-in-the-afternoon-9d30b0de": {
       "article_id": "historical-2025-08-01-your-motor-neurons-are-stronger-in-the-afternoon-9d30b0de",
@@ -2327,7 +2327,7 @@
           "updated_at": "2026-08-10T14:23:27.412376+00:00"
         }
       },
-      "updated_at": "2026-08-10T14:23:27.412702+00:00"
+      "updated_at": "2026-08-13T07:51:40.055387+00:00"
     },
     "historical-2025-mitochondrial-mutations-from-past-injuries-quietly-undermine-your-resi-167c9688": {
       "article_id": "historical-2025-mitochondrial-mutations-from-past-injuries-quietly-undermine-your-resi-167c9688",
@@ -2936,7 +2936,7 @@
           "updated_at": "2026-08-12T07:50:56.212903+00:00"
         }
       },
-      "updated_at": "2026-08-12T07:50:56.213438+00:00"
+      "updated_at": "2026-08-13T07:51:40.054509+00:00"
     },
     "2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41": {
       "article_id": "2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41",
@@ -2995,6 +2995,64 @@
         }
       },
       "updated_at": "2026-08-12T14:23:43.179821+00:00"
+    },
+    "2026-08-04-ai-enabled-measurements-of-local-brain-aging-offer-detailed-insights-o-f0e16572": {
+      "article_id": "2026-08-04-ai-enabled-measurements-of-local-brain-aging-offer-detailed-insights-o-f0e16572",
+      "article_url": "https://agewellbrief.com/brief/2026-08-04-ai-enabled-measurements-of-local-brain-aging-offer-detailed-insights-o-f0e16572/",
+      "title": "2026-08-04-ai-enabled-measurements-of-local-brain-aging-offer-detailed-insights-o-f0e16572",
+      "category": "brain health",
+      "content_record": ".state/content-records/2026-08-04-ai-enabled-measurements-of-local-brain-aging-offer-detailed-insights-o-f0e16572.json",
+      "video_job": ".state/video-jobs/2026-08-04-ai-enabled-measurements-of-local-brain-aging-offer-detailed-insights-o-f0e16572.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-13T07:51:40.055395+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-13T07:51:40.055398+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-13T07:51:40.055400+00:00"
+        }
+      },
+      "updated_at": "2026-08-13T07:51:40.055805+00:00"
+    },
+    "2026-08-02-how-exercise-keeps-our-brains-healthy-as-we-age-847a8e4f": {
+      "article_id": "2026-08-02-how-exercise-keeps-our-brains-healthy-as-we-age-847a8e4f",
+      "article_url": "https://agewellbrief.com/brief/2026-08-02-how-exercise-keeps-our-brains-healthy-as-we-age-847a8e4f/",
+      "title": "2026-08-02-how-exercise-keeps-our-brains-healthy-as-we-age-847a8e4f",
+      "category": "brain health",
+      "content_record": ".state/content-records/2026-08-02-how-exercise-keeps-our-brains-healthy-as-we-age-847a8e4f.json",
+      "video_job": ".state/video-jobs/2026-08-02-how-exercise-keeps-our-brains-healthy-as-we-age-847a8e4f.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-13T07:51:40.055813+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-13T07:51:40.055815+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-13T07:51:40.055817+00:00"
+        }
+      },
+      "updated_at": "2026-08-13T07:51:40.056195+00:00"
     }
   }
 }
