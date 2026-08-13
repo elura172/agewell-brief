@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "3da0e8de6585e5e65dbe845a": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Identifies a specific neural mechanism: SO-spindle coupling linked to hippocampal-thalamic activation during sleep, with potential episodic memory implications.",
+      "angle": "How the sleeping brain coordinates memory consolidation: a new role for the thalamus.",
+      "mode": "agent"
+    },
+    "9adae84f6c677f687ba334fa": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "broad lifestyle reminder",
+      "reason": "Reinforces known benefits of exercise for brain health without a specific new finding or mechanism.",
+      "angle": "Exercise as a 'brain cleanse': what the glymphatic system needs to work.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Pilot study with small sample, no control group, and expected outcomes; lacks novelty.",
+      "angle": "Yoga for med students: does it actually improve focus and well-being?",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic workout advice for seniors, no specific new finding or unique angle.",
+      "angle": "A senior trainer's 10-minute daily routine for better balance and strength.",
+      "mode": "agent"
+    },
+    "30937b36486562f8e79f48ab": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "New MRI model detects microstructural brain changes in Huntington's, offering a potential biomarker for progression and treatment evaluation.",
+      "angle": "A new MRI model spots early brain changes in Huntington's disease.",
+      "mode": "agent"
+    },
+    "c1ce90127c2e1be7cfe9eefe": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "technical methodology",
+      "reason": "Technical methods paper with limited immediate reader relevance; not a major finding.",
+      "angle": "New tools to control heart cells: optogenetics and chemogenetics in cardiac research.",
+      "mode": "agent"
+    },
+    "5db24735609a4656939f933e": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Introduces a self-evolving memory framework for AI agents in materials science, showing significant performance gains; novel approach.",
+      "angle": "AI partners with memory: how a self-evolving framework boosts materials discovery.",
+      "mode": "agent"
+    },
+    "c94abb3a3234be367d4acf8d": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "frontier technology",
+      "reason": "Deep learning method to reconstruct OCT images from gapped spectra is innovative but highly technical and niche.",
+      "angle": "AI fills the gaps: super-resolution OCT imaging with low-cost lasers.",
+      "mode": "agent"
+    },
+    "c882a14afc3ffe66ff502479": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Reveals a novel mechanism linking LRRK2 to synaptic dysfunction via actin remodeling, with implications for early Parkinson's.",
+      "angle": "Parkinson's starts at the synapse: how LRRK2 disrupts brain connections.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "3da0e8de6585e5e65dbe845a",
+    "30937b36486562f8e79f48ab",
+    "5db24735609a4656939f933e",
+    "c882a14afc3ffe66ff502479"
+  ],
+  "held_back": [
+    "9adae84f6c677f687ba334fa",
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "c1ce90127c2e1be7cfe9eefe",
+    "c94abb3a3234be367d4acf8d"
+  ],
+  "mode": "agent"
+}

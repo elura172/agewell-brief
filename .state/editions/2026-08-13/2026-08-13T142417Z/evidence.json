@@ -1,0 +1,27 @@
+[
+  {
+    "article_id": "3da0e8de6585e5e65dbe845a",
+    "study_type": "Observational EEG-fMRI study",
+    "key_claims": [
+      "SO-spindle coupling occurs most frequently during N2/3 sleep.",
+      "SO-spindle coupling is associated with elevated activation in the thalamus and hippocampus.",
+      "SO-spindle coupling is linked to increased functional connectivity from the hippocampus to the thalamus and from the thalamus to the medial prefrontal cortex.",
+      "The findings suggest the thalamus coordinates hippocampal-cortical communication during sleep.",
+      "Cognitive state decoding suggested the activations may relate to episodic memory processes."
+    ],
+    "limitations": [
+      "The study used a fixed N2/3-derived threshold for detecting SOs and spindles in other sleep stages, so detections in N1 and REM are descriptive only.",
+      "Hippocampal ripples were not directly detected; the study inferred their co-occurrence with SO-spindle coupling.",
+      "The cognitive state decoding analysis was indirect and open-ended.",
+      "The study was conducted during nocturnal naps in the first half of the night, which may not generalize to full-night sleep."
+    ],
+    "what_not_to_say": [
+      "The study proves that SO-spindle coupling causes memory consolidation.",
+      "The study shows that the thalamus is the sole coordinator of hippocampal-cortical communication.",
+      "The study provides direct evidence for hippocampal ripples during sleep.",
+      "The study demonstrates that the activations are definitively related to episodic memory processes.",
+      "The study establishes a causal link between sleep rhythms and memory consolidation."
+    ],
+    "confidence": "high"
+  }
+]
