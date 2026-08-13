@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample, no control group, and yoga-based meditation is a well-trodden topic. Findings are preliminary and not particularly surprising.",
+      "angle": "Could focus on the specific cognitive tasks used and whether any showed differential improvement, but overall novelty is low.",
+      "mode": "agent"
+    },
+    "21724dc5541d27fa3bf7b289": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "systems biology",
+      "reason": "Large-scale integration of single-cell and proteomic data reveals a modular architecture of aging across organs, with 14 modules and extreme aging deviation in 34% of individuals. This is a novel conceptual framework with potential for broad impact.",
+      "angle": "Highlight the discovery of 14 cellular aging modules and the finding that 34% of people show extreme aging in at least one module, suggesting personalized aging patterns.",
+      "mode": "agent"
+    },
+    "eb053f14f4938e3974977b60": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Direct evidence that astrocytes regulate memory consolidation during sleep is a specific mechanistic finding that goes beyond the usual neuron-centric view. It's a clear advance in understanding sleep function.",
+      "angle": "Emphasize the shift from neurons to astrocytes as active regulators of memory during sleep, potentially opening new avenues for treating memory disorders.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle advice",
+      "reason": "Generic workout advice for seniors; similar content is abundant. No specific new finding or data.",
+      "angle": "Could be made more specific by detailing the workout and its purported benefits, but lacks novelty.",
+      "mode": "agent"
+    },
+    "d50b7ae65339681bb10432f2": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "microbiome-targeted therapy",
+      "reason": "Identifies a specific bacterial compound that increases Alzheimer's risk, offering a potential new target for intervention. This is a concrete, actionable finding with public health implications.",
+      "angle": "Focus on the specific compound and the potential for a treatment that reduces Alzheimer's risk by targeting gut bacteria.",
+      "mode": "agent"
+    },
+    "136acb656ff03362bc62b350": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "cognitive neuroscience",
+      "reason": "Shows vestibular stimulation disrupts source and reality monitoring, but the effect is modest and the study is limited to young adults. The link to DPDR is not fully explored.",
+      "angle": "Could be interesting for its implications for understanding depersonalization, but needs more direct relevance to aging.",
+      "mode": "agent"
+    },
+    "5db24735609a4656939f933e": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "AI for science",
+      "reason": "Introduces a self-evolving memory framework for AI agents in materials science, showing significant performance gains. This is a novel approach to making AI more useful for scientific discovery.",
+      "angle": "Highlight the concept of 'lifelong AI partners' with persistent memory, and the potential to accelerate materials research.",
+      "mode": "agent"
+    },
+    "c94abb3a3234be367d4acf8d": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "medical imaging",
+      "reason": "Technical improvement in OCT image reconstruction using deep learning. While useful, it's a niche technical advance that may not have broad reader appeal.",
+      "angle": "Could be framed as a cost-saving approach for high-quality imaging, but novelty is moderate.",
+      "mode": "agent"
+    },
+    "c882a14afc3ffe66ff502479": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Provides new insights into LRRK2's role in synaptic function via actin dynamics, linking it to early synaptic dysfunction in Parkinson's. This is a specific molecular mechanism that could inform early intervention.",
+      "angle": "Emphasize the finding that synaptic dysfunction precedes neuronal loss, and the potential for targeting LRRK2 to preserve synapses.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "21724dc5541d27fa3bf7b289",
+    "eb053f14f4938e3974977b60",
+    "d50b7ae65339681bb10432f2",
+    "5db24735609a4656939f933e",
+    "c882a14afc3ffe66ff502479"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "136acb656ff03362bc62b350",
+    "c94abb3a3234be367d4acf8d"
+  ],
+  "mode": "agent"
+}
