@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "9adae84f6c677f687ba334fa",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:32187960",
+      "score": 85,
+      "rationale": "The image metadata depicts a senior man jogging alone in a serene park at dawn, which aligns with the story's focus on exercise and brain health in aging. The setting and mood match the editorial intent of an older adult exercising outdoors in natural light, with a hopeful and energetic tone. The composition allows for copy space on the left, and the subject is in motion, fitting the brief.",
+      "concerns": [
+        "The image is a single subject, which may not fully convey the broader context of brain clearance, but it is appropriate for the story's emphasis on individual exercise. The metadata does not explicitly mention the brain or glymphatic system, but the visual metaphor is subtle and acceptable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-13/exercise-primes-the-brain-s-glymphatic-system-to-clear-metabolic-waste-9adae84f-pexels-32187960.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

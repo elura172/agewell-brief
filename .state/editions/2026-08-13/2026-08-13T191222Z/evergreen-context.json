@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "9adae84f6c677f687ba334fa",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "048bf7cd36116322",
+        "source": "Dr. Gerald Pollack (2013) — The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 13
+      },
+      {
+        "source_id": "cb6b4432b48211c4",
+        "source": "Dr. Gilbert Ling (1962) — A Physical Theory of the Living State: Association-Induction Hypothesis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 13
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

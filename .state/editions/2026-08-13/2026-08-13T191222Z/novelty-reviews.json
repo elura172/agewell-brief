@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "9adae84f6c677f687ba334fa": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Specific new finding: exercise supports the brain's glymphatic waste-clearance system, with named processes (sleep, inflammation, blood vessels). Directly actionable for older adults.",
+      "angle": "How exercise helps the aging brain 'take out the trash' — the glymphatic connection",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample, no control group, and outcomes are self-report and cognitive tasks. Generic wellness intervention.",
+      "angle": "Yoga-based meditation for medical students: a pilot on self-regulation and well-being",
+      "mode": "agent"
+    },
+    "dae1b03c57e1974f7aeea752": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "technology",
+      "reason": "New low-cost operant system for behavioral neuroscience, but highly technical and niche. Not directly relevant to aging audience.",
+      "angle": "NeuroHab: an open-source, low-cost system for precise behavioral tracking in neuroscience",
+      "mode": "agent"
+    },
+    "eb053f14f4938e3974977b60": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "New study reveals astrocytes directly regulate memory consolidation circuits during sleep. Specific cell type and function, novel mechanism.",
+      "angle": "Astrocytes: the unsung conductors of sleep's memory consolidation",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "practical advice",
+      "reason": "Practical daily workout from a senior-specialist trainer. Directly useful for older adults, actionable.",
+      "angle": "A senior trainer's 'simple and safe' daily workout for balance, strength, and mobility at home",
+      "mode": "agent"
+    },
+    "d50b7ae65339681bb10432f2": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Specific gut bacteria compound increases Alzheimer's risk and speeds cognitive decline. New target for treatment, named mechanism.",
+      "angle": "Gut bacteria compound linked to Alzheimer's risk: a new target for prevention",
+      "mode": "agent"
+    },
+    "136acb656ff03362bc62b350": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "mechanism",
+      "reason": "Vestibular stimulation disrupts source/reality monitoring, but small study, technical, and not directly actionable for aging.",
+      "angle": "How the vestibular system shapes memory: noisy stimulation disrupts source monitoring",
+      "mode": "agent"
+    },
+    "5db24735609a4656939f933e": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "technology",
+      "reason": "AI memory framework for materials science, not relevant to aging audience.",
+      "angle": "Lifelong AI partners for materials scientists: a memory-based approach",
+      "mode": "agent"
+    },
+    "c882a14afc3ffe66ff502479": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "LRRK2 regulates synaptic function via actin dynamics, linking Parkinson's to early synaptic dysfunction. Specific molecular pathway.",
+      "angle": "Parkinson's: LRRK2's role in synaptic health and early dysfunction",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "9adae84f6c677f687ba334fa",
+    "eb053f14f4938e3974977b60",
+    "256b3e11dfff849235aebba7",
+    "d50b7ae65339681bb10432f2",
+    "c882a14afc3ffe66ff502479"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "dae1b03c57e1974f7aeea752",
+    "136acb656ff03362bc62b350",
+    "5db24735609a4656939f933e"
+  ],
+  "mode": "agent"
+}
