@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "bf294fde60b3a2be2c5d7df1": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Large study (21,000+) links estrogen-only HRT later in life to 39% lower dementia odds and 35% lower Alzheimer's pathology at autopsy, including amyloid and tau. This is a specific, quantified finding with potential clinical impact, not generic advice.",
+      "angle": "Could HRT in later life be a double-edged sword? New data shows a 39% drop in dementia risk, but what about cancer and cardiovascular risks? Weighing the trade-offs.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Pilot study on yoga-based meditation for medical students; small sample (40), no control group, and benefits of meditation are well-established. Not novel enough.",
+      "angle": "Beyond stress relief: Can a structured yoga program measurably boost working memory in med students? A pilot study hints at cognitive gains, but the real test is a controlled trial.",
+      "mode": "agent"
+    },
+    "21724dc5541d27fa3bf7b289": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Integrates multi-organ single-cell atlas with plasma proteomics from ~50,000 participants to identify 14 cellular aging modules, revealing organ-spanning patterns and inter-individual heterogeneity. This is a novel, large-scale systems biology approach.",
+      "angle": "Your organs don't age in sync. A new 'aging atlas' from 50,000 people reveals 14 distinct cellular aging modules, and 34% of us have at least one organ aging faster than the rest.",
+      "mode": "agent"
+    },
+    "572e69abe16cbe0af50eed55": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Couples neuronal activity with epidemic spreading models on brain networks to predict Alzheimer's progression, showing activity shifts thresholds and redirects spread. This is a novel mechanistic model with potential predictive power.",
+      "angle": "Alzheimer's may spread like an epidemic through the brain, and your neural activity is the fuel. A new model shows how firing neurons can tip the balance from healthy to diseased.",
+      "mode": "agent"
+    },
+    "a6e320ba245546b793f0ca5b": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "meaningful disagreement",
+      "reason": "Highlights that Alzheimer's blood biomarkers may not perform equally across populations, specifically in African cohorts. Important for equity, but the finding is preliminary and lacks specific data.",
+      "angle": "Are Alzheimer's blood tests biased? New research in African populations suggests protein patterns differ, raising questions about the universal accuracy of these biomarkers.",
+      "mode": "agent"
+    },
+    "88d2505b0b54a08fd4834f70": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Proposes a learning-based hypnogram (LBH) that models individual scorer behavior to create more reliable sleep stage labels from multi-scored datasets. This is a methodological innovation that could improve sleep research accuracy.",
+      "angle": "Who's right when sleep experts disagree? A new AI model learns each scorer's quirks to create a 'consensus' sleep label, potentially making sleep studies more reliable.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "specific new finding",
+      "reason": "Focuses on transposable element transcript patterns in microglia across aging and Alzheimer's. Specific but niche; no headline numbers or broad implications provided.",
+      "angle": "Ancient viral DNA in our genes wakes up in aging brain cells. New research shows distinct patterns in microglia that could link to Alzheimer's.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "specific new finding",
+      "reason": "Details a molecular mechanism (HNRNPC succinylation affecting YME1L1 and mitochondrial metabolism) in Alzheimer's neurodegeneration. Mechanistic but highly specialized; likely too technical for a general audience.",
+      "angle": "A chemical tweak on a key protein disrupts mitochondrial energy in Alzheimer's. Could this be a new drug target?",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle advice",
+      "reason": "Generic workout advice for seniors from a trainer; no new data or specific findings. Recycled content.",
+      "angle": "Skip the gym: A senior fitness expert shares a 10-minute daily routine to improve balance and strength at home.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "bf294fde60b3a2be2c5d7df1",
+    "21724dc5541d27fa3bf7b289",
+    "572e69abe16cbe0af50eed55",
+    "88d2505b0b54a08fd4834f70"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "a6e320ba245546b793f0ca5b",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

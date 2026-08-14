@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "bf294fde60b3a2be2c5d7df1",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:5335409",
+      "score": 85,
+      "rationale": "The candidate's metadata describes a senior woman in a contemplative pose with soft lighting, which aligns with the editorial intent of a dignified, contemplative portrait. The subject is an older woman, matching the story's focus on women in later life. The setting and mood are not explicitly described, but the soft lighting and pose suggest a serene, thoughtful atmosphere. The image avoids clinical or stereotypical retirement imagery.",
+      "concerns": [
+        "The setting is not specified as a library, and the woman is wearing a black leather jacket, which may not perfectly match the described soft blue blouse and library setting. However, the overall mood and subject are appropriate."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-14/estrogen-only-therapy-in-later-life-linked-to-fewer-alzheimer-s-signs--bf294fde-pexels-5335409.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
