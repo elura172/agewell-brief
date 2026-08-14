@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "intervention study",
+      "reason": "Pilot study with small sample, no control group, and yoga-based meditation is a well-established topic. Findings are preliminary and not particularly surprising.",
+      "angle": "Can a short yoga-based program measurably improve working memory in stressed medical students? A pilot study offers hints but lacks controls.",
+      "mode": "agent"
+    },
+    "21724dc5541d27fa3bf7b289": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "systems biology",
+      "reason": "Large-scale integration of single-cell and proteomic data reveals modular architecture of aging across organs, with potential for personalized aging assessment. Novel framework with broad implications.",
+      "angle": "Aging is not one-size-fits-all: new study identifies 14 cellular aging modules, revealing why some people age faster in specific organs.",
+      "mode": "agent"
+    },
+    "572e69abe16cbe0af50eed55": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "computational model",
+      "reason": "Novel coupling of neuronal activity to epidemic spreading models on brain networks, providing testable predictions for Alzheimer's progression. Advances theoretical understanding.",
+      "angle": "Brain activity may dictate how Alzheimer's spreads: new model predicts where pathology begins and how it propagates.",
+      "mode": "agent"
+    },
+    "88d2505b0b54a08fd4834f70": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "methodology",
+      "reason": "Useful methodological contribution for sleep staging, but limited to specific datasets and classifiers. Not a major breakthrough for general readers.",
+      "angle": "When sleep experts disagree, a new algorithm finds the truth: learning-based hypnogram improves sleep stage labels.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "Specific molecular finding in microglia, but incremental and not yet translated. Limited immediate reader impact.",
+      "angle": "Jumping genes in brain immune cells: new patterns linked to aging and Alzheimer's.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "Another molecular pathway in Alzheimer's, but highly specialized and not yet actionable. Low novelty for general audience.",
+      "angle": "A chemical modification on a key RNA-binding protein disrupts mitochondrial function in Alzheimer's, offering a new drug target.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle advice",
+      "reason": "Generic workout advice for seniors, no new data or unique angle. Recycled content.",
+      "angle": "A senior fitness expert's simple daily routine to improve balance and strength at home.",
+      "mode": "agent"
+    },
+    "d50b7ae65339681bb10432f2": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "gut-brain axis",
+      "reason": "Specific bacterial compound linked to Alzheimer's risk and cognitive decline, offering a potential target for intervention. Novel and actionable.",
+      "angle": "Gut bacteria produce a compound that may fuel Alzheimer's: new study identifies a potential target for prevention.",
+      "mode": "agent"
+    },
+    "5f0b05f3c424f079542ea455": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "clinical trial",
+      "reason": "Randomized trial in older adults shows stopping statins doesn't affect short-term survival, challenging common practice. Direct clinical relevance.",
+      "angle": "For many over 75, stopping statins may be safe: new trial finds no survival difference over three years.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "21724dc5541d27fa3bf7b289",
+    "572e69abe16cbe0af50eed55",
+    "d50b7ae65339681bb10432f2",
+    "5f0b05f3c424f079542ea455"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "88d2505b0b54a08fd4834f70",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

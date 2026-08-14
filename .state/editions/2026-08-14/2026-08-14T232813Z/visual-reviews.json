@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "d50b7ae65339681bb10432f2",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "The only candidate image depicts a researcher explaining a chart to peers, which does not match the editorial intent of showing a researcher examining gut bacteria with a brain scan in the background. The metadata lacks any reference to microbiome, bacteria, or brain imaging, making it insufficiently specific to the story.",
+      "concerns": [
+        "The image is generic scientific collaboration and does not convey the gut-brain connection or Alzheimer's research focus. It may mislead viewers and fail to support the story's key message."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]
