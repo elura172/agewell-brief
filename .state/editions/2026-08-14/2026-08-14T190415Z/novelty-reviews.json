@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "628839a76d990a192b399148": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "intervention study",
+      "reason": "Yoga-based meditation for medical students is a familiar wellness topic with modest novelty; pilot study with small sample and no control group.",
+      "angle": "Can a short yoga program measurably boost working memory in stressed med students? A pilot study suggests yes.",
+      "mode": "agent"
+    },
+    "21724dc5541d27fa3bf7b289": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "systems biology",
+      "reason": "Large-scale multi-omics integration reveals 14 cellular aging modules across organs, with 34% of people showing extreme aging in at least one module. Novel organizing principle for human aging.",
+      "angle": "Your organs don't age in sync: 14 cellular aging modules identified, and a third of people have one aging faster than the rest.",
+      "mode": "agent"
+    },
+    "572e69abe16cbe0af50eed55": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "computational model",
+      "reason": "Couples neuronal activity with epidemic spreading on brain networks to predict Alzheimer's progression, a novel mechanistic angle that could improve predictive models.",
+      "angle": "Brain activity may drive Alzheimer's spread: new model predicts where pathology will grow.",
+      "mode": "agent"
+    },
+    "a6e320ba245546b793f0ca5b": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "health disparities",
+      "reason": "Highlights lack of diversity in Alzheimer's biomarker research, showing protein patterns vary across populations. Important for global applicability of blood tests.",
+      "angle": "Alzheimer's blood tests may not work for everyone: protein patterns differ across populations.",
+      "mode": "agent"
+    },
+    "88d2505b0b54a08fd4834f70": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "methodology",
+      "reason": "Proposes a learning-based method to combine multiple sleep scorers' labels, potentially improving reliability of sleep staging. Niche but useful for sleep research.",
+      "angle": "Who's right? New AI method combines multiple sleep experts to create more reliable sleep labels.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies distinct transposable element expression patterns in microglia during aging and Alzheimer's, a specific molecular mechanism that could be a target.",
+      "angle": "Jumping genes in brain immune cells may drive Alzheimer's: distinct patterns found.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Links HNRNPC succinylation to mitochondrial dysfunction in Alzheimer's neurodegeneration, a novel post-translational modification angle.",
+      "angle": "Chemical modification of a protein may trigger Alzheimer's neurodegeneration via mitochondrial failure.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "lifestyle advice",
+      "reason": "Generic senior workout advice from a trainer; no new data or unique angle.",
+      "angle": "A senior fitness trainer's simple daily routine to improve balance and strength at home.",
+      "mode": "agent"
+    },
+    "d50b7ae65339681bb10432f2": {
+      "score": 80,
+      "decision": "commission",
+      "novelty_type": "gut-brain axis",
+      "reason": "Identifies a specific gut bacterial compound that increases Alzheimer's risk and speeds cognitive decline, offering a potential new target for prevention.",
+      "angle": "Gut bacteria compound linked to higher Alzheimer's risk and faster decline: new target for treatment.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "21724dc5541d27fa3bf7b289",
+    "572e69abe16cbe0af50eed55",
+    "a6e320ba245546b793f0ca5b",
+    "88d2505b0b54a08fd4834f70",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "d50b7ae65339681bb10432f2"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

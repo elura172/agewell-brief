@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "a6e320ba245546b793f0ca5b",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "cb6b4432b48211c4",
+        "source": "Dr. Gilbert Ling (1962) — A Physical Theory of the Living State: Association-Induction Hypothesis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      },
+      {
+        "source_id": "0ab8467caacde078",
+        "source": "Dr. Mae-Wan Ho (1993) — The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 13
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

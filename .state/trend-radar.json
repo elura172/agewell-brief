@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T14:19:18.705641+00:00",
+  "generated_at": "2026-08-14T19:04:14.393508+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -69,15 +69,15 @@
       "sources": [
         "Fit&Well",
         "The Brighter Side of News",
-        "psu.edu"
+        "The Pennsylvania State University"
       ],
       "newest": "2026-06-26T07:00:00+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
       "items": [
         {
-          "title": "Four-minute daily workout improves strength, balance in older adults - psu.edu",
+          "title": "Four-minute daily workout improves strength, balance in older adults - The Pennsylvania State University",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVE9lUDlWTF84VWdfVHV6c0NjSi1BbnhKZTBIeE9xdDg0MUx1ZEw5QXRneWE5SGpMenUxaW44czhrNGhNNFRJZFNTNElfWC00R1NqMVpqWFRtUk95Q0ZVbnRwSGkzem5ibnFfU0g0ZVFGOFU4aG1tV3hLbDZ4RU1KM0JRS3VpQ2lrZ3c4blZXc3drN19vcDZ6S3p5RWo1QWt6NG1Oak1mZw?oc=5",
-          "source": "psu.edu",
+          "source": "The Pennsylvania State University",
           "published": "Tue, 09 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
@@ -97,46 +97,6 @@
           "published": "Fri, 26 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
-        }
-      ]
-    },
-    {
-      "topic": "help hours night research shows sleeping slow",
-      "headline": "Research Shows Sleeping 6.4 to 7.8 Hours a Night May Help Slow Aging - Verywell Health",
-      "category": "sleep health",
-      "score": 18.0,
-      "mention_count": 3,
-      "source_count": 2,
-      "sources": [
-        "Healthline",
-        "Verywell Health"
-      ],
-      "newest": "2026-06-07T07:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "Research Shows Sleeping 6.4 to 7.8 Hours a Night May Help Slow Aging - Verywell Health",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45RFNpSXJ4bENSUjhPaFAwUlR4eGxZVGpZYlBKN29nVUtfT3JUS3hBTWFLcVpwZC0tVE04RmRPaVZnejZyQ1VKajdGR0Q5Rk9DcTl3WmE0M3pQUlMxZkVVcmhrVXRRYkhnTjZWbE5ubzN2dw?oc=5",
-          "source": "Verywell Health",
-          "published": "Sun, 07 Jun 2026 07:00:00 GMT",
-          "seed": "sleep and biological aging",
-          "category": "sleep health"
-        },
-        {
-          "title": "Want to Slow Your Biological Aging? Sleeping 6.4 to 7.8 Hours a Night May Help - Healthline",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0pDLUg1UHFrYk9DanE2bTBNM0tpRGFFYW51NVdtaGtiWk1feGZ5a1hZNkNEcS12ZU5Ddm5lQTMyMUNkWndYV2V0RkM0dlVXZWl0Y0k4VVRZVmFuWGwwTF9NQzN6dGwxaUFXV1NqV2tWeXk5bGtxSzJSdHp2bldoR2NPUXg0WmRicEUyNmdvbkxtSGZmR2YwWA?oc=5",
-          "source": "Healthline",
-          "published": "Sat, 16 May 2026 07:00:00 GMT",
-          "seed": "sleep and biological aging",
-          "category": "sleep health"
-        },
-        {
-          "title": "Want to Slow Your Biological Aging? Sleeping 6.4 to 7.8 Hours a Night May Help - Healthline",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0pDLUg1UHFrYk9DanE2bTBNM0tpRGFFYW51NVdtaGtiWk1feGZ5a1hZNkNEcS12ZU5Ddm5lQTMyMUNkWndYV2V0RkM0dlVXZWl0Y0k4VVRZVmFuWGwwTF9NQzN6dGwxaUFXV1NqV2tWeXk5bGtxSzJSdHp2bldoR2NPUXg0WmRicEUyNmdvbkxtSGZmR2YwWA?oc=5",
-          "source": "Healthline",
-          "published": "Sat, 16 May 2026 07:00:00 GMT",
-          "seed": "GLP-1 and healthy aging",
-          "category": "metabolic health"
         }
       ]
     },
@@ -340,6 +300,38 @@
       ]
     },
     {
+      "topic": "help hours night research shows sleeping slow",
+      "headline": "Research Shows Sleeping 6.4 to 7.8 Hours a Night May Help Slow Aging - Verywell Health",
+      "category": "sleep health",
+      "score": 14.0,
+      "mention_count": 2,
+      "source_count": 2,
+      "sources": [
+        "Healthline",
+        "Verywell Health"
+      ],
+      "newest": "2026-06-07T07:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "Research Shows Sleeping 6.4 to 7.8 Hours a Night May Help Slow Aging - Verywell Health",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45RFNpSXJ4bENSUjhPaFAwUlR4eGxZVGpZYlBKN29nVUtfT3JUS3hBTWFLcVpwZC0tVE04RmRPaVZnejZyQ1VKajdGR0Q5Rk9DcTl3WmE0M3pQUlMxZkVVcmhrVXRRYkhnTjZWbE5ubzN2dw?oc=5",
+          "source": "Verywell Health",
+          "published": "Sun, 07 Jun 2026 07:00:00 GMT",
+          "seed": "sleep and biological aging",
+          "category": "sleep health"
+        },
+        {
+          "title": "Want to Slow Your Biological Aging? Sleeping 6.4 to 7.8 Hours a Night May Help - Healthline",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0pDLUg1UHFrYk9DanE2bTBNM0tpRGFFYW51NVdtaGtiWk1feGZ5a1hZNkNEcS12ZU5Ddm5lQTMyMUNkWndYV2V0RkM0dlVXZWl0Y0k4VVRZVmFuWGwwTF9NQzN6dGwxaUFXV1NqV2tWeXk5bGtxSzJSdHp2bldoR2NPUXg0WmRicEUyNmdvbkxtSGZmR2YwWA?oc=5",
+          "source": "Healthline",
+          "published": "Sat, 16 May 2026 07:00:00 GMT",
+          "seed": "sleep and biological aging",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
       "topic": "body clock dementia early warning weak",
       "headline": "A Disrupted Body Clock Is Linked to Higher Dementia Risk - SciTechDaily",
       "category": "brain health",
@@ -375,7 +367,7 @@
       "topic": "biological links lower risk stroke younger",
       "headline": "New Study Links A Younger Biological Age To 23% Lower Stroke Risk - MindBodyGreen",
       "category": "sleep health",
-      "score": 11.57,
+      "score": 11.07,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -489,29 +481,29 @@
     },
     {
       "topic": "longevity metabolic optimizing promote",
-      "headline": "How Optimizing Metabolic Health Can Promote Longevity - everydayhealth.com",
+      "headline": "How Optimizing Metabolic Health Can Promote Longevity - Everyday Health",
       "category": "metabolic health",
       "score": 11.0,
       "mention_count": 2,
       "source_count": 1,
       "sources": [
-        "everydayhealth.com"
+        "Everyday Health"
       ],
       "newest": "2026-07-27T21:19:48+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "How Optimizing Metabolic Health Can Promote Longevity - everydayhealth.com",
+          "title": "How Optimizing Metabolic Health Can Promote Longevity - Everyday Health",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVU1UckxfMkdGQnBJaXFBQ2ZaTEZIRWxzZ3RwRXVTc2lLZndndjd6UUE3dVI5NnRaN3c0UURDUnp5V2tUaGNrOW5BOXJHYlBDRkpZczVwLS13Q010cmEyZWdveXptc2k5TTJETk5DSmVmZ2FiOVNtczZZVUxibVlpVWZ1aXM3WmwwRDZKdnZoaU9kWmVBaVlHLXB0UQ?oc=5",
-          "source": "everydayhealth.com",
+          "source": "Everyday Health",
           "published": "Mon, 27 Jul 2026 21:19:48 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         },
         {
-          "title": "How Optimizing Metabolic Health Can Promote Longevity - everydayhealth.com",
+          "title": "How Optimizing Metabolic Health Can Promote Longevity - Everyday Health",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVU1UckxfMkdGQnBJaXFBQ2ZaTEZIRWxzZ3RwRXVTc2lLZndndjd6UUE3dVI5NnRaN3c0UURDUnp5V2tUaGNrOW5BOXJHYlBDRkpZczVwLS13Q010cmEyZWdveXptc2k5TTJETk5DSmVmZ2FiOVNtczZZVUxibVlpVWZ1aXM3WmwwRDZKdnZoaU9kWmVBaVlHLXB0UQ?oc=5",
-          "source": "everydayhealth.com",
+          "source": "Everyday Health",
           "published": "Mon, 27 Jul 2026 21:19:48 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -615,7 +607,7 @@
       "topic": "brain healthier prescription socializing",
       "headline": "Socializing: A prescription for healthier brain aging - Medical Xpress",
       "category": "general wellness",
-      "score": 10.4,
+      "score": 9.91,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -638,7 +630,7 @@
       "topic": "beauty becoming frontier next sleep tech",
       "headline": "Sleep Tech Is Becoming Beauty's Next Frontier - BeautyMatter",
       "category": "sleep health",
-      "score": 8.46,
+      "score": 7.96,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -661,7 +653,7 @@
       "topic": "helpline unaware",
       "headline": "Older adults are unaware of 9-8-8 helpline, study finds - WDET 101.9 FM",
       "category": "general wellness",
-      "score": 7.63,
+      "score": 7.13,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -727,6 +719,29 @@
       ]
     },
     {
+      "topic": "eating healthy less most protein suggests",
+      "headline": "Study suggests eating less protein could be key to healthy aging for most adults - abcnews.com",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "abcnews.com"
+      ],
+      "newest": "2026-07-31T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Study suggests eating less protein could be key to healthy aging for most adults - abcnews.com",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNTMyZk1CZ215SGJ0OVlHUUVMMktMWXh6b0pFbU9jVHBUb3hZaUdTTkdKRGdKU1FSWGJTcDd3dTdGdnJQMnV4Sk5kWmRVOGJEd2JyU2xUT09Na3VxV1Q1VmRiYTlaY3M1STBpOXBiNnVSRlZvSGVKLVUwMktJa2NiRjFHU0U5V2J3TmRpYzNlaHg3elZRdHVLOWQyUEpOelFENzVfdlVsd9IBrAFBVV95cUxNYUI1UTR3NlRUWVc5bW50aldhWm0yZUctQ21Sb3RBM29GTmxuazJLWHF6UWVBekZvMHZDVFdDUXBDdkpRUkJEOGljTmdRZmlVUmpPVl8zQjFPdVFfUTRwVElDS0dSZDhqaXowaC1XOGlwaVAxZVVsOTlvU3hfQ0pJaEtHampseVZKelN5RlJQZGIySDdkWnNJcFBJVjE3MWdnMENuRGdWYkVqZi02?oc=5",
+          "source": "abcnews.com",
+          "published": "Fri, 31 Jul 2026 07:00:00 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "basics care covid prevention vaccines",
       "headline": "COVID-19 Basics for Older Adults: Vaccines, Prevention, and Care - The National Council on Aging (NCOA)",
       "category": "general wellness",
@@ -744,29 +759,6 @@
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUEw0bmNkNFhaNXJjMEdNMC1taGtzdkJKc1NJbUczRjlqbDNFNmxoYnNNRTdOV0ZJekJxRXZZZV9Sci1PbUFPQWhDX0xWUUNLZVYwdHNpWWppN2dpU3NNY1NQbjZoVk5GU3FTUjhLNTE3ZHFHeEk4RzlZLWVWRHhEcFExR3hqQ3psOW9iS203V3BJZVNjNnZFWmJuN0JUa045UlE?oc=5",
           "source": "The National Council on Aging (NCOA)",
           "published": "Mon, 10 Aug 2026 00:00:00 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "eating healthy less most news protein suggests",
-      "headline": "Study suggests eating less protein could be key to healthy aging for most adults - ABC News - Breaking News, Latest News and Videos",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Breaking News, Latest News and Videos"
-      ],
-      "newest": "2026-07-31T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Study suggests eating less protein could be key to healthy aging for most adults - ABC News - Breaking News, Latest News and Videos",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNTMyZk1CZ215SGJ0OVlHUUVMMktMWXh6b0pFbU9jVHBUb3hZaUdTTkdKRGdKU1FSWGJTcDd3dTdGdnJQMnV4Sk5kWmRVOGJEd2JyU2xUT09Na3VxV1Q1VmRiYTlaY3M1STBpOXBiNnVSRlZvSGVKLVUwMktJa2NiRjFHU0U5V2J3TmRpYzNlaHg3elZRdHVLOWQyUEpOelFENzVfdlVsd9IBrAFBVV95cUxNYUI1UTR3NlRUWVc5bW50aldhWm0yZUctQ21Sb3RBM29GTmxuazJLWHF6UWVBekZvMHZDVFdDUXBDdkpRUkJEOGljTmdRZmlVUmpPVl8zQjFPdVFfUTRwVElDS0dSZDhqaXowaC1XOGlwaVAxZVVsOTlvU3hfQ0pJaEtHampseVZKelN5RlJQZGIySDdkWnNJcFBJVjE3MWdnMENuRGdWYkVqZi02?oc=5",
-          "source": "Breaking News, Latest News and Videos",
-          "published": "Fri, 31 Jul 2026 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -1096,21 +1088,21 @@
     },
     {
       "topic": "apnea brain dementia lower protect risk sleep treating your",
-      "headline": "How Treating Sleep Apnea May Protect Your Brain and Lower Dementia Risk - University of Miami",
+      "headline": "How Treating Sleep Apnea May Protect Your Brain and Lower Dementia Risk - news.med.miami.edu",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "University of Miami"
+        "news.med.miami.edu"
       ],
       "newest": "2026-03-13T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "How Treating Sleep Apnea May Protect Your Brain and Lower Dementia Risk - University of Miami",
+          "title": "How Treating Sleep Apnea May Protect Your Brain and Lower Dementia Risk - news.med.miami.edu",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KM3FFeGlBSVlPcktJZmdBSVZsVVctMUdVQXlDWEVFSVlYSzJGQjNGTlUtOGVFWDVXTm9uU2FGNzJyMWZGRnNTNmJ6dG5wY0N5d0tKUnJhenBfaENnTVRlUkNSZ3FBT1E3NUpoSmVDclI3VGJs?oc=5",
-          "source": "University of Miami",
+          "source": "news.med.miami.edu",
           "published": "Fri, 13 Mar 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
@@ -1188,21 +1180,21 @@
     },
     {
       "topic": "long matter more sleep than when",
-      "headline": "When you go to bed may matter more than how long you sleep - National Geographic",
+      "headline": "When you go to bed may matter more than how long you sleep - nationalgeographic.com",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "National Geographic"
+        "nationalgeographic.com"
       ],
       "newest": "2025-09-25T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "When you go to bed may matter more than how long you sleep - National Geographic",
+          "title": "When you go to bed may matter more than how long you sleep - nationalgeographic.com",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUlJ0Tm1XNUUyZlIwdlVuYW1jYzhtcHgyb1gxQnFRZTFITWZkd1gtbFdnZWtDcnRfcWg1bkw0VFlOOFBUYXJ2amhGZWRBVmVENjhTdGFwQmlINU9SeEdEcm1paEdOeUYyVmJxYkI0cFZFQjUtQnA1NWRydk9RZkE4cFczU3ljQXhf?oc=5",
-          "source": "National Geographic",
+          "source": "nationalgeographic.com",
           "published": "Thu, 25 Sep 2025 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
@@ -1303,21 +1295,21 @@
     },
     {
       "topic": "ageing blend compound damage obesity reverses sugar tackle",
-      "headline": "New compound blend reverses sugar damage to tackle ageing and obesity - Drug Target Review",
+      "headline": "New compound blend reverses sugar damage to tackle ageing and obesity - drugtargetreview.com",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Drug Target Review"
+        "drugtargetreview.com"
       ],
       "newest": "2025-10-24T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "New compound blend reverses sugar damage to tackle ageing and obesity - Drug Target Review",
+          "title": "New compound blend reverses sugar damage to tackle ageing and obesity - drugtargetreview.com",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaFFUOWJ4YmY0WjJmNGF1Mjhna0NwRldLV1JKbndpV1AzU1dWaWtYSFFZbzYtVk1RUUJXdFpkRV9BcUtfSURseWlOelBjRG5Xb1F0ck1Sdlc5eVlFc0VoS0ppWGJxSXY4c1FUSkhPM1dEcnVvLTZVLTNjS3BPSlZlbDVLeUhRakc0Ti10ejBOUlYzQldUcnRCYTk4ZDdaRHBMZHRQcUREaS1IT2twV2tZQXN3N09zUVpG?oc=5",
-          "source": "Drug Target Review",
+          "source": "drugtargetreview.com",
           "published": "Fri, 24 Oct 2025 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
@@ -1418,21 +1410,21 @@
     },
     {
       "topic": "cardiovascular changes circulation glucose hyperglycemia metabolism related research risk",
-      "headline": "Age-Related Changes in Glucose Metabolism, Hyperglycemia, and Cardiovascular Risk | Circulation Research - ahajournals.org",
+      "headline": "Age-Related Changes in Glucose Metabolism, Hyperglycemia, and Cardiovascular Risk | Circulation Research - American Heart Association Journals",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "ahajournals.org"
+        "American Heart Association Journals"
       ],
       "newest": "2018-09-13T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Age-Related Changes in Glucose Metabolism, Hyperglycemia, and Cardiovascular Risk | Circulation Research - ahajournals.org",
+          "title": "Age-Related Changes in Glucose Metabolism, Hyperglycemia, and Cardiovascular Risk | Circulation Research - American Heart Association Journals",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XZHFRWXJxcE41MnJkVk42NmJ2TmZiRnpTTjZxMk1kTU15R0NiWVNVRDh0Rmo5UEItbU1pdlB4VmkxMEVQVXVKZ0MxYTFSdEo1OWlEVGtMclE4Tzd1NF9FbmNDdW5QOUNpZmdsWG5B?oc=5",
-          "source": "ahajournals.org",
+          "source": "American Heart Association Journals",
           "published": "Thu, 13 Sep 2018 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
@@ -1480,6 +1472,29 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ1RfNjVTQ2ZGMWN1YWFlb0lVenpxd3RkM04yNE5CaVFuTHBZcHRnVDB5UVJxYUJ5RDZ0UHlkTGFydklhcVA5RDFPaS1MN2pwS2ozZGp5M0tucFpuTXNQMjRIbTdHaVZIdlVIeGxLaVFjNVRjMlhXRkFIQ0t4SVVIQUR6bHJSbG5uWHBpVUhoa29FQXdQRE5pMktjN2lMQmwxU21pQUtB?oc=5",
           "source": "MindBodyGreen",
           "published": "Fri, 26 Jun 2026 07:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
+        }
+      ]
+    },
+    {
+      "topic": "better dangerous falls help minute prevent researchers routine want",
+      "headline": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
+      "category": "mobility",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Fox News"
+      ],
+      "newest": "2026-06-23T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Want to age better? Researchers say 4-minute routine may help prevent dangerous falls - Fox News",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcVpvX05fcE9OT2hxRmpjMEVWRDJrTGVfazlDNHlpbWltSWIxRTlfMnpkNkxGZDFucklvbF9LLThZM0lBamkweDhKTmUzQVVjanRONW1wWUo4SFI4R05SZ0g3ZkZjeE1HZml3d1hiTmc4bTA1VTZ5b3hCNjVCZDJoejNuTkpGZmxRNlBpeFdKMnVfZjY5R01BYnZjSmRXUW5TOGF4OVAwdFQ0bnVzV0NLY2Jn0gG3AUFVX3lxTFBkeXNkcUNtTG9ma0tfWThIUDlzX2g1R1RiVjBqSWltMWZtQWwwdDE1Vy15NEhGdVIwMloxTnI3czE5V1lQbFZTSXowNlpra3gxUmdDenJpcHJlZWltRGM0NkxDUndhRXBuczBFaFlUMWRhZTBaZGFvb1pYaVdLalJfOUFhdmF5X0hGeHRjdjA1ZjdHWVdOVlZPdVJnTlA5M2R0ZE9RbXNDbWZoZC01UGhjTHZ6RHRLUQ?oc=5",
+          "source": "Fox News",
+          "published": "Tue, 23 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
         }
@@ -1556,21 +1571,21 @@
     },
     {
       "topic": "california early expand mobility opinion support",
-      "headline": "Opinion: How California can Expand Early Mobility Support for Older Adults - calhealthreport.org",
+      "headline": "Opinion: How California can Expand Early Mobility Support for Older Adults - California Health Report",
       "category": "mobility",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "calhealthreport.org"
+        "California Health Report"
       ],
       "newest": "2025-12-08T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Opinion: How California can Expand Early Mobility Support for Older Adults - calhealthreport.org",
+          "title": "Opinion: How California can Expand Early Mobility Support for Older Adults - California Health Report",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa2ZFakRpbEJkc2xGR2NnSlBmdGRPNFBSTTREcEtfd0tqLUpKN3lRYVN5ZHhIUk9INFZrcll0eEZzRWVFS2p2UW5qbks4OS1lSWRhVkFuZnM0R0ZzQmRFWWhhaTJYYUpHMEZPTzdmQ2VnWVBySjdyTmRoNXVEVkN4anhvNGNlV1JYVXRqRnNsLW8xaEs4YmQ1cmJNM2FCbEVrZ2stWDVkUGk0bDloTG9STm1odmpOU0My0gG-AUFVX3lxTE0xX0l4dHhOVkZkQzQzQ3lUZU03QVNVZmJJU0VlTnFNbmExWE1saFpQR3htWndnRjFEM2RNT1g0ZUU1ZklaQTBOaHFTWkR1a3dPdjAxTVN5bEluMnJWLTZaTUJVS3VUcW5nODFVcmEtTHRVZDdXQnRhNmJrSkNnRVppYXZ5UEFCVFFXRFI0eDNtSWxOdFppckcxamxjT0FweEpiQk9XVUdTcVM2OXZUOXVRR2M4SnRRMEhUc2hwSXc?oc=5",
-          "source": "calhealthreport.org",
+          "source": "California Health Report",
           "published": "Mon, 08 Dec 2025 08:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
@@ -1601,29 +1616,6 @@
       ]
     },
     {
-      "topic": "fitness home longevity tests",
-      "headline": "4 At-Home Fitness Tests for Aging and Longevity - Health.com",
-      "category": "mobility",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Health.com"
-      ],
-      "newest": "2026-02-23T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "4 At-Home Fitness Tests for Aging and Longevity - Health.com",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PSDFCVTFBZFY1bjN3OWtIUjF4WElsQ3NrQ3JpLWl1d2xuSHBwb3pqRWNMcHVkb3lZWnpxbDl1MmJwOEtYQTBMeUFjVFd2bkFobERHc1lWamkyS3c5LVVTaGpXd1J4UQ?oc=5",
-          "source": "Health.com",
-          "published": "Mon, 23 Feb 2026 08:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
-        }
-      ]
-    },
-    {
       "topic": "consumers product purchase risks serious tianeptine warns",
       "headline": "FDA warns consumers not to purchase or use any tianeptine product due to serious risks - fda.gov",
       "category": "consumer safety",
@@ -1648,21 +1640,21 @@
     },
     {
       "topic": "pose risks serious sold stations supplements warns",
-      "headline": "FDA warns 2 supplements sold at gas stations pose serious health risks - LiveNOW from FOX",
+      "headline": "FDA warns 2 supplements sold at gas stations pose serious health risks - livenowfox.com",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "LiveNOW from FOX"
+        "livenowfox.com"
       ],
       "newest": "2026-04-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "FDA warns 2 supplements sold at gas stations pose serious health risks - LiveNOW from FOX",
+          "title": "FDA warns 2 supplements sold at gas stations pose serious health risks - livenowfox.com",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORFh4NGhwQjF4YmRUOGEyQzRzNGlzal84ZzVkTFVUT0RVMTJjUHZOYjRaSVJOdkNBVEh5d3M4aU5UbGRUWjE1YXBkUGVrNF9BRmZ4S3hXZDlPc1VuTW0yYk5NM3ZSajRBQ05nalBMSGx3Q3lHSDZTZmkyWFR6RWFFU0Z6d0ZnNWVoUW1YRDdSaDBSZW5n?oc=5",
-          "source": "LiveNOW from FOX",
+          "source": "livenowfox.com",
           "published": "Sun, 05 Apr 2026 07:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1717,21 +1709,21 @@
     },
     {
       "topic": "administration associated dietary drug food included ingredients pharmaceutical supplements unapproved warnings",
-      "headline": "Unapproved Pharmaceutical Ingredients Included in Dietary Supplements Associated With US Food and Drug Administration Warnings - National Institutes of Health (NIH) | (.gov)",
+      "headline": "Unapproved Pharmaceutical Ingredients Included in Dietary Supplements Associated With US Food and Drug Administration Warnings - pubmed.ncbi.nlm.nih.gov",
       "category": "consumer safety",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "National Institutes of Health (NIH) | (.gov)"
+        "pubmed.ncbi.nlm.nih.gov"
       ],
       "newest": "2018-10-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Unapproved Pharmaceutical Ingredients Included in Dietary Supplements Associated With US Food and Drug Administration Warnings - National Institutes of Health (NIH) | (.gov)",
+          "title": "Unapproved Pharmaceutical Ingredients Included in Dietary Supplements Associated With US Food and Drug Administration Warnings - pubmed.ncbi.nlm.nih.gov",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ab2FIeHRzUTZNZlpfX24yV0NZLW8wZFRwWVlRVDJsTHBLcm1uSkd3OWdhVGE4Zkg0N1VWZmJhRU03QXRHb2hUQ2ZxeXoyWXR4OTJr?oc=5",
-          "source": "National Institutes of Health (NIH) | (.gov)",
+          "source": "pubmed.ncbi.nlm.nih.gov",
           "published": "Fri, 05 Oct 2018 07:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
@@ -1802,29 +1794,6 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYllzTm9kT3lKS3hKMGdJMWlyem5FMEloeUJtdDkzOXM0LXRwemNRX0Y0N0d3Z2dYNFBmVFVoT0hGTWJoVUgxQnlyZmxKU3VVOHo2S3VwUUhuUXJsZXNyaktlZlktUjVPajkxWmNaX1ZDTHRjR0E3dHR6dnhZSFIweGc5dU8xSVlydFE0SFlNX3hudw?oc=5",
           "source": "Stanford Medicine",
           "published": "Tue, 09 Dec 2025 08:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "doctors know patients supplements vitamins want",
-      "headline": "What doctors want patients to know about vitamins and supplements - American Medical Association | AMA",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "American Medical Association | AMA"
-      ],
-      "newest": "2025-09-29T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "What doctors want patients to know about vitamins and supplements - American Medical Association | AMA",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSEJ6ak5ZMkt6ZWlDelZVR2RLX1cxYXExdW80dldZMzN4WG9HYTNKYkpSeVFBR3BlbTdqMjdEdnFmdjFKYzNEYjFpa04yYnctNTFGRzlhZFFqSFlqQnpPLTZtaldfMXdtVFJsLTJ1TUZKZ0pXaXpaUjNBekl3ZHF4cjFHSUJHX2RvaEU3VHRzeHVDdzh4dDg2c2w4R1diQ0JkQ3hSOE1Dc1JacmxhTFNmT1o4dUlJbDY4UHYzdlRR?oc=5",
-          "source": "American Medical Association | AMA",
-          "published": "Mon, 29 Sep 2025 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -1970,21 +1939,21 @@
     },
     {
       "topic": "anti know seniors should supplements",
-      "headline": "What Seniors Should Know About Anti-Aging Supplements - Banner Health",
+      "headline": "What Seniors Should Know About Anti-Aging Supplements - bannerhealth.com",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Banner Health"
+        "bannerhealth.com"
       ],
       "newest": "2025-07-10T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "What Seniors Should Know About Anti-Aging Supplements - Banner Health",
+          "title": "What Seniors Should Know About Anti-Aging Supplements - bannerhealth.com",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObFhpOWpuZGVpVkFqQkJTaVl3Y2M2cUo0X0tRSTNWOXh2Mnp5S0VhSEdCb0E1ODFKYTB2SUVYOENQbk5aODBscUlqQmxmVWJxd0lvSXo1cE1Deko2Qnh2M3NEYTV1bUt3X3FtOFBYVnRuc29RNEhzb0NJaWFHNXJVQm83bmNEYXM3X002TVYyUldKelJOS19oMEs0MjBUdDIzVWpqY2VFQnUxSk0?oc=5",
-          "source": "Banner Health",
+          "source": "bannerhealth.com",
           "published": "Thu, 10 Jul 2025 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
@@ -2108,21 +2077,21 @@
     },
     {
       "topic": "alzheimer cellular circadian decline disease rhythms timing",
-      "headline": "Timing the decline: Cellular circadian rhythms and Alzheimer’s disease - pnas.org",
+      "headline": "Timing the decline: Cellular circadian rhythms and Alzheimer’s disease - PNAS",
       "category": "brain health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "pnas.org"
+        "PNAS"
       ],
       "newest": "2026-04-06T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Timing the decline: Cellular circadian rhythms and Alzheimer’s disease - pnas.org",
+          "title": "Timing the decline: Cellular circadian rhythms and Alzheimer’s disease - PNAS",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsTERBN05PY3pvNlBlUWd3bWFUOUJiRHExZEJvWjE3N3RLb1lMc2ZJTXR5NUxPTkt3X183TVNKZ3dlVzA5MWhzQWZOa1Q3YzBQcV9SU1VBMkZLTHZw?oc=5",
-          "source": "pnas.org",
+          "source": "PNAS",
           "published": "Mon, 06 Apr 2026 07:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
@@ -2239,29 +2208,6 @@
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRmtLVHBuUzEtMDlhVzQwWVRZWVBxa1JiTTR3bXRnUkhnUUlhajVONFNyMXJfNWY1alNfT3lUTmx1MlhFeERFUy1Ed0VueUhXRDVCUzBhUnVjNHA2Z29oWlpzRHBkd3QwRHBBTUpLLUNvdEVrYUw5WFptZklsVUNpeW5USmlYcFdVYjNKMS1tdzhNQ3lR?oc=5",
           "source": "Frontiers",
           "published": "Fri, 30 Jan 2026 20:54:25 GMT",
-          "seed": "intervention sleep technology",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
-      "topic": "device extending promising results sleep suggests tactile time total wearable",
-      "headline": "A tactile wearable device suggests promising results for extending total sleep time - PsyPost",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "PsyPost"
-      ],
-      "newest": "2026-07-18T18:24:52+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "A tactile wearable device suggests promising results for extending total sleep time - PsyPost",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdjh5Qm5oTWdIQS1MY1VfX1BtakVKSFdsTFVUcndic2Zxa2VocmJNVF81cTgwZ08zanh4UHVSMTdjR0t0ckY3T3NOdHZiTDVoUF9Pcjk2LWpwMjRGTk12bXZBRVZsb2lya2J1djdWaGQySXYtRE9DcHRoNFhVM25jNDdXbjZKZ2U4bjJ5dko0S1RNZzZ0aS1tdGVtTW9yTnM3MTVZYzk0dFNyTHFS?oc=5",
-          "source": "PsyPost",
-          "published": "Sat, 18 Jul 2026 18:24:52 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
         }
@@ -2429,6 +2375,29 @@
       ]
     },
     {
+      "topic": "digital doors have opened pathways reimbursement therapeutics using",
+      "headline": "New reimbursement pathways have opened doors for using digital therapeutics - apaservices.org",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "apaservices.org"
+      ],
+      "newest": "2025-11-12T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "New reimbursement pathways have opened doors for using digital therapeutics - apaservices.org",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWdOMi1wNlo4dDEwNjQtOHpHbTUzd09PVFNOdVpBOGltZlRFT1o5T2JyQ0VTcEJsMXhsd3h3MmZtaEZUaWhkenlLQXdLWFIzWERYRmVWX1djMDhmd1dYcGt6WDNOMV9mU2U3SmRHSzlBdWZMU21ud2FaLWVBVVFWNFhSRzJPbEVrR3ctZ2JOUUFaUW9GYzJFc0w3TTJOZXdXbU4tbW02dEhBSkROS2xV?oc=5",
+          "source": "apaservices.org",
+          "published": "Wed, 12 Nov 2025 08:00:00 GMT",
+          "seed": "intervention sleep technology",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
       "topic": "neurotech powered revolutionize secures sleep somnee wearables",
       "headline": "Somnee Secures $10M to Revolutionize Sleep with New AI-Powered Neurotech Sleep Wearables - Business Wire",
       "category": "sleep health",
@@ -2492,6 +2461,29 @@
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN1ZqUkFvVU9oem40S19KaWh0Rm4tdXBocThqbDhmcDJ3N1ZZMVhCaEVHSnpWT3ZZYUFCdm94anprZGN2cDRhakJRM2lORzlSVi01VldpRFZJbEF0LW9YZTBuWGxXY05ONzEzcFZmekxCZm1EcTFxWXJTdmJEMm5EczVIVjBHc0hZaVpqTlB4dkJQSHloTFQ3ZVFn?oc=5",
           "source": "Medical News Today",
           "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+          "seed": "GLP-1 and healthy aging",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "humans live longevity researchers years",
+      "headline": "Longevity: Humans Could Live for Up to 194 Years, Researchers Say - Healthline",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Healthline"
+      ],
+      "newest": "2026-08-01T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Longevity: Humans Could Live for Up to 194 Years, Researchers Say - Healthline",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPb3hrNDNZalgxODlfZ3FOZ0RhVWhsaEFGY1A4cTJfQnJHUW5iQkwyLXB5ZTNiTkt0djF2eDBDb1pnVFM5c1RZc1pNZWtMVk9ITXJseDhFd19SRHlKVjEzU3dXXzdfMDJ3YWcwalphYmswRjZFSm9OQTNFS05vT2RBQUJJRktfTFgwcmZMVQ?oc=5",
+          "source": "Healthline",
+          "published": "Sat, 01 Aug 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
         }
@@ -2591,21 +2583,21 @@
     },
     {
       "topic": "associations between healthy lifestyle multimorbidity socioeconomic status",
-      "headline": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - ajmc.com",
+      "headline": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - The American Journal of Managed Care",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "ajmc.com"
+        "The American Journal of Managed Care"
       ],
       "newest": "2026-06-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - ajmc.com",
+          "title": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - The American Journal of Managed Care",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWjBWUDFzOHNGRUJVOGhSQjVvZUJMYlk5Z0tVYWlIY2dJR0xBWXhsRFV4ampQa2JzY3l5V2g3d1dwVU02WElJZFR2VExIdjdDSndkM2V1aW5vcDBBYjkySjFfOW5wQllvWDBRMFU2QkxJbm1tYWYzWWhvUkI5ZVhuWnRGVUF1TExfMTQ4Z2lXWnFOME56dFBlVEUxMVVxYm4tZjkwZkZJSkdLOEtTdnJ0Q2hsS1Y?oc=5",
-          "source": "ajmc.com",
+          "source": "The American Journal of Managed Care",
           "published": "Fri, 05 Jun 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -2614,21 +2606,21 @@
     },
     {
       "topic": "2026 access beneficiaries bridge expanded july living medicare obesity starting through wegovy",
-      "headline": "Wegovy® access expanded for Medicare beneficiaries living with obesity through the Medicare GLP-1 Bridge starting July 1, 2026 - BioSpace",
+      "headline": "Wegovy® access expanded for Medicare beneficiaries living with obesity through the Medicare GLP-1 Bridge starting July 1, 2026 - biospace.com",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "BioSpace"
+        "biospace.com"
       ],
       "newest": "2026-05-07T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Wegovy® access expanded for Medicare beneficiaries living with obesity through the Medicare GLP-1 Bridge starting July 1, 2026 - BioSpace",
+          "title": "Wegovy® access expanded for Medicare beneficiaries living with obesity through the Medicare GLP-1 Bridge starting July 1, 2026 - biospace.com",
           "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPaFpTT3o0S3VjR1lJeE04eWRJdUZTT1pmemtwRDhiNm9FdGlqd2pqZTlnNHhVUDM1OWc5N3FjN0M1VjJDVENjWjJCd0RGWVQwY2xvaDNwTGVTdUctM0ZBSVk3bEhSWlVyQWdsdWJOZU5nMk1Qa0lGNVBDX2JoQWtFQ3JheDVabzc2ZTV6aE80dGdYM0c3Y2RBZzJaMVhtMzk5eWc4OGhYaU83b1hYNkt5amFWbTNPX2N4TGdSN2h0T0ZpMUJISGNhX3ctcktFaG1YS202SVlZUFR6NmluZ2tYMFJzZ25CZXViV241X1U1Wk10c2xONTFB?oc=5",
-          "source": "BioSpace",
+          "source": "biospace.com",
           "published": "Thu, 07 May 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
@@ -2697,6 +2689,27 @@
           "published": "Thu, 20 Nov 2025 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "assn doctors know patients supplements vitamins want",
+      "headline": "What doctors want patients to know about vitamins and supplements - ama-assn.org",
+      "category": "general wellness",
+      "score": 4.0,
+      "mention_count": 1,
+      "source_count": 0,
+      "sources": [],
+      "newest": "2025-09-29T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "What doctors want patients to know about vitamins and supplements - ama-assn.org",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSEJ6ak5ZMkt6ZWlDelZVR2RLX1cxYXExdW80dldZMzN4WG9HYTNKYkpSeVFBR3BlbTdqMjdEdnFmdjFKYzNEYjFpa04yYnctNTFGRzlhZFFqSFlqQnpPLTZtaldfMXdtVFJsLTJ1TUZKZ0pXaXpaUjNBekl3ZHF4cjFHSUJHX2RvaEU3VHRzeHVDdzh4dDg2c2w4R1diQ0JkQ3hSOE1Dc1JacmxhTFNmT1o4dUlJbDY4UHYzdlRR?oc=5",
+          "source": "",
+          "published": "Mon, 29 Sep 2025 07:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
         }
       ]
     }

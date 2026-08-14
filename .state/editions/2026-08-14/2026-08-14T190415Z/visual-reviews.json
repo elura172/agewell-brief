@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "a6e320ba245546b793f0ca5b",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:37548861",
+      "score": 70,
+      "rationale": "The image depicts blood sample vials in a laboratory setting, which directly relates to the story's focus on blood-based biomarkers for Alzheimer's disease. The metadata does not suggest any fear, stereotypes, or unrelated content. However, it lacks the diversity of researchers and the collaborative aspect emphasized in the image brief, and it does not show data screens or a wide shot of a team. The image is relevant but not fully aligned with the editorial intent.",
+      "concerns": [
+        "The image does not include researchers or data screens, which are key elements of the intended composition. It may be too generic and not sufficiently specific to the story's emphasis on population-specific calibration and diverse research teams."
+      ],
+      "metadata_status": "pending",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-14/blood-biomarkers-for-alzheimer-s-a-universal-protein-signature-but-pop-a6e320ba-pexels-37548861.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
