@@ -1,0 +1,28 @@
+[
+  {
+    "article_id": "af82708a2a5fe416de862f95",
+    "study_type": "observational sleep deprivation study",
+    "key_claims": [
+      "CSF low-frequency oscillations increase with time spent awake.",
+      "CSF low-frequency oscillations exhibit diurnal fluctuations, peaking in the early morning.",
+      "CSF low-frequency oscillations are strongly associated with vigilance and activity of the reticular activating system.",
+      "CSF low-frequency oscillations are not associated with plasma norepinephrine levels.",
+      "The observed changes in CSF low-frequency oscillations are not explained by EEG slow wave activity.",
+      "Time awake and diurnal time independently modulate vasomotion."
+    ],
+    "limitations": [
+      "The study is a preprint and has not been peer-reviewed.",
+      "The study involved a 34-hour sleep deprivation protocol, which may not reflect normal sleep-wake patterns.",
+      "The study used healthy individuals, so findings may not generalize to clinical populations.",
+      "The study measured CSF oscillations indirectly via fMRI and NIRS, which may not directly measure vasomotion."
+    ],
+    "what_not_to_say": [
+      "The study proves that sleep deprivation causes increased CSF oscillations.",
+      "The study shows that norepinephrine levels are unrelated to CSF oscillations in all contexts.",
+      "The study identifies a causal mechanism for CSF oscillations.",
+      "The study provides clinical recommendations for sleep or brain clearance.",
+      "The study demonstrates that wake-promoting nuclei directly drive CSF oscillations."
+    ],
+    "confidence": "moderate"
+  }
+]

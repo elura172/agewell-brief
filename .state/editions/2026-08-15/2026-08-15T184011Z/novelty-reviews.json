@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d9040fcd79c9006c391b1490": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "mechanistic advance",
+      "reason": "Resolves a key ambiguity in sleepiness prediction by decomposing it into intensity and phase axes, offering a new framework with potential for targeted interventions. Specific and novel.",
+      "angle": "Why you're sleepy isn't just how long you've been awake—it's a two-part signal that could lead to personalized wakefulness strategies.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample, no control group, and familiar topic of meditation benefits. Limited novelty.",
+      "angle": "Can a short yoga-based program rewire medical students' stress response? A pilot study offers hints but needs more.",
+      "mode": "agent"
+    },
+    "af82708a2a5fe416de862f95": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Shows CSF oscillations are driven by wake-promoting nuclei and time awake, independent of sleep pressure, challenging current understanding of brain clearance. Specific and novel.",
+      "angle": "Your brain's waste-clearing system revs up the longer you stay awake—but it's not the sleep pressure you'd expect.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific finding",
+      "reason": "Identifies distinct transposable element expression patterns in microglia during aging and Alzheimer's, a specific molecular insight with potential for new targets.",
+      "angle": "Jumping genes in brain immune cells may drive Alzheimer's—and they change with age.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Links HNRNPC succinylation to mitochondrial metabolism and neurodegeneration in Alzheimer's, a novel post-translational modification pathway.",
+      "angle": "A chemical tweak to a common protein may starve brain cells of energy in Alzheimer's—and it's reversible.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Generic exercise advice for seniors, no new data or specific finding. Low novelty.",
+      "angle": "A senior fitness trainer's simple daily routine to keep you steady on your feet.",
+      "mode": "agent"
+    },
+    "7fcb80edf1b26de406936826": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Large study but observational, and stair-climbing benefits are well-known. Not novel enough.",
+      "angle": "Stair climbing linked to lower heart disease risk—but is it the stairs or the lifestyle?",
+      "mode": "agent"
+    },
+    "3e5bbba96a6cde57d0630aba": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Introduces a novel framework for governing AI memory to prevent stale or contradictory outputs, with benchmark results. Highly relevant to AI safety.",
+      "angle": "AI agents with amnesia: a new system ensures they don't act on outdated or retracted information.",
+      "mode": "agent"
+    },
+    "420f57adb5fa028a574896a8": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies TIMP2 as a factor that restores healthy microglial function in aging brains, a specific protein with therapeutic potential.",
+      "angle": "A 'youth protein' in blood may rejuvenate the brain's immune cells—offering a new target for Alzheimer's.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "d9040fcd79c9006c391b1490",
+    "af82708a2a5fe416de862f95",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "3e5bbba96a6cde57d0630aba",
+    "420f57adb5fa028a574896a8"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "7fcb80edf1b26de406936826"
+  ],
+  "mode": "agent"
+}
