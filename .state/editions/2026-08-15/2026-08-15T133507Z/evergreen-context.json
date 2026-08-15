@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "5f0b05f3c424f079542ea455",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "0ab8467caacde078",
+        "source": "Dr. Mae-Wan Ho (1993) — The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 16
+      },
+      {
+        "source_id": "7cd643e6f594a31c",
+        "source": "Dr. Otto Warburg (1924) — The Metabolism of Tumours & Oxygen Respiration",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "5f0b05f3c424f079542ea455",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "The candidate image metadata describes two senior adults checking oxygen levels with a pulse oximeter at home. This does not match the editorial intent of a clinical consultation about statins, nor does it depict a doctor's office or a lipid panel chart. The subject and setting are inconsistent with the story's focus on statin discontinuation and cholesterol management.",
+      "concerns": [
+        "The image shows a home setting and a pulse oximeter, which is unrelated to the story's subject. It may imply a different medical context and could mislead viewers. The metadata lacks any indication of a physician or discussion about cholesterol."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]

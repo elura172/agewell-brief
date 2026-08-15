@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d9040fcd79c9006c391b1490": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Offers a novel decomposition of sleepiness into intensity and phase axes, resolving a mechanistic ambiguity and explaining paradoxical findings like blunted sleepiness in older adults.",
+      "angle": "Why older adults feel less sleepy: new model separates sleepiness into two distinct biological drivers",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample size; yoga-based meditation benefits are well-established, lacking a novel mechanism or surprising result.",
+      "angle": "Brief yoga program shows promise for medical student well-being: pilot data",
+      "mode": "agent"
+    },
+    "af82708a2a5fe416de862f95": {
+      "score": 80,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Links CSF oscillations to wake-promoting nuclei and disentangles effects of time awake and diurnal time, providing new insights into brain clearance mechanisms.",
+      "angle": "Brain's waste-clearing waves tied to wakefulness centers, not just sleep",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific finding",
+      "reason": "Specific transposable element patterns in microglia across aging and Alzheimer's could reveal new biomarkers or therapeutic targets.",
+      "angle": "Jumping genes in brain immune cells may mark Alzheimer's progression",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Identifies a novel post-translational modification (succinylation) linking RNA-binding protein to mitochondrial metabolism in neurodegeneration.",
+      "angle": "Chemical modification of RNA-binding protein disrupts mitochondria in Alzheimer's",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle advice",
+      "reason": "Generic workout advice for seniors; lacks specific new findings or data.",
+      "angle": "Simple daily workout for seniors: trainer shares tips for balance and strength",
+      "mode": "agent"
+    },
+    "5f0b05f3c424f079542ea455": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "clinical trial result",
+      "reason": "Randomized trial showing no survival benefit from continuing statins in older adults without prior CVD challenges common practice.",
+      "angle": "Stopping statins after 75: no survival benefit, but cholesterol spikes",
+      "mode": "agent"
+    },
+    "7fcb80edf1b26de406936826": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Large observational study but association between stair climbing and cardiovascular benefits is well-known; lacks novelty.",
+      "angle": "Stair climbing linked to lower heart disease risk: 480,000-person analysis",
+      "mode": "agent"
+    },
+    "3e5bbba96a6cde57d0630aba": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Introduces a novel framework for governed persistent memory in AI agents, addressing critical issues of data integrity and fail-closed release.",
+      "angle": "New memory system for AI agents prevents contradictory and stale data",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "d9040fcd79c9006c391b1490",
+    "af82708a2a5fe416de862f95",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "5f0b05f3c424f079542ea455",
+    "3e5bbba96a6cde57d0630aba"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "7fcb80edf1b26de406936826"
+  ],
+  "mode": "agent"
+}
