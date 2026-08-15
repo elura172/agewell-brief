@@ -1,0 +1,60 @@
+[
+  {
+    "article_id": "d9040fcd79c9006c391b1490",
+    "content_type": "lead",
+    "headline": "Sleepiness Decomposed: The Hidden Physics of Fatigue",
+    "dek": "A new model splits sleepiness into two physiological axes—intensity and phase—unifying aging, caffeine, and circadian misalignment under one quantitative framework.",
+    "bullets": [
+      "Sleepiness maps linearly to homeostatic pressure minus circadian threshold.",
+      "Intensity axis reflects average margin; phase axis captures circadian threshold shifts.",
+      "Model unifies aging, caffeine, and circadian misalignment under one framework."
+    ],
+    "caveat": "This is a preprint and has not been peer-reviewed. The model is theoretical and requires empirical validation. It does not provide specific clinical recommendations.",
+    "sections": [
+      {
+        "heading": "Why this matters",
+        "paragraphs": [
+          "Sleepiness is not a vague feeling. It is a physiological signal with measurable dynamics, yet it has resisted precise prediction. Drowsy driving, medical errors, and industrial accidents all trace back to this state, but until now, we lacked a mechanistic handle on it. The new preprint from bioRxiv offers exactly that: a quantitative decomposition of sleepiness into two independent axes—intensity and phase—that can be tracked and potentially managed.",
+          "This matters because the same level of sleepiness can arise from two entirely different causes. You might be sleepy because your homeostatic sleep pressure is high, or because your circadian threshold has shifted. These require different interventions. The new model separates these, allowing for targeted strategies to improve alertness and reduce risk."
+        ]
+      },
+      {
+        "heading": "What was found",
+        "paragraphs": [
+          "The researchers built on the classic two-process model of sleep regulation, first proposed by Alexander Borbély in 1982. That model distinguishes a homeostatic process (Process S) that rises during wakefulness and falls during sleep, from a circadian process (Process C) that modulates sleep propensity. The new work operationalizes this by defining a sleep-onset threshold H⁺(t) that varies with circadian phase. Subjective sleepiness maps linearly onto the signed distance H − H⁺ between homeostatic pressure and this threshold.",
+          "The key innovation is decomposing this distance into two axes. The intensity axis is the time-averaged margin ⟨H − H⁺⟩, reflecting how far homeostatic pressure sits from the sleep boundary on average. The phase axis captures the circadian modulation of the threshold itself. Using forced desynchrony—a protocol pioneered by Charles Czeisler in 1999—the authors dissociated these axes: sleepiness tracked the circadian profile of H⁺(t) while the intensity mapping remained unchanged.",
+          "This framework explains two long-standing puzzles. Older adults often report blunted sleepiness despite fragmented sleep; the model attributes this to slowed homeostatic accumulation, reducing the intensity margin. Caffeine's alerting effect is explained by pharmacological suppression of homeostatic pressure, shifting the intensity axis in a dose-dependent manner."
+        ]
+      },
+      {
+        "heading": "How to interpret it",
+        "paragraphs": [
+          "This is a theoretical model, not a clinical trial. It provides a unifying language for disparate findings, but it does not yet offer specific numbers or effect sizes. The preprint has not been peer-reviewed, and the authors themselves note that further empirical validation is needed. However, the framework is grounded in well-established physiology and aligns with decades of sleep research.",
+          "The distinction between intensity and phase is not just academic. It has practical implications: if your sleepiness is driven by phase (circadian misalignment), interventions like light exposure or melatonin timing may help; if it is driven by intensity (homeostatic pressure), sleep extension or caffeine might be more appropriate. The model also connects to deeper biophysical principles—the circadian clock is a cellular oscillator, and homeostatic pressure involves metabolic and neurochemical processes that ultimately trace back to mitochondrial function and cellular energetics.",
+          "The historical lineage is clear: from Borbély's two-process model to Czeisler's forced desynchrony, and now to this threshold-distance decomposition. It is a natural evolution, not a revolution. The model's power lies in its parsimony—it reduces complex sleepiness to two measurable degrees of freedom."
+        ]
+      },
+      {
+        "heading": "Practical next steps",
+        "paragraphs": [
+          "For the sovereign individual, the takeaway is to recognize that sleepiness is not a single signal. If you feel sleepy at the wrong time, consider whether it is due to insufficient sleep (intensity) or a misaligned circadian rhythm (phase). Track your sleep patterns and alertness to identify which axis dominates.",
+          "For researchers, the next step is to validate the model with empirical data, measuring homeostatic pressure and circadian phase in diverse populations. The framework could also be extended to predict fatigue risk in real-world settings, such as shift work or long-haul driving.",
+          "For clinicians, this model offers a way to personalize interventions. Instead of a one-size-fits-all approach to sleepiness, you can target the underlying axis. But remember, this is early-stage theory—apply it with caution and rely on established sleep hygiene practices as the foundation."
+        ]
+      }
+    ],
+    "autoresearch_antecedents": [
+      {
+        "scientist": "Alexander Borbély",
+        "year": "1982",
+        "discovery": "Proposed the two-process model of sleep regulation, distinguishing a homeostatic Process S (rising during wakefulness, declining during sleep) from a circadian Process C (modulating sleep propensity). This model provides the foundational framework for the preprint's decomposition of sleepiness into intensity (homeostatic pressure relative to threshold) and phase (circadian modulation of the threshold), directly anticipating the threshold-distance concept."
+      },
+      {
+        "scientist": "Charles A. Czeisler",
+        "year": "1999",
+        "discovery": "Used forced desynchrony protocols to demonstrate that circadian phase and homeostatic sleep pressure independently influence alertness and performance, showing that the circadian pacemaker modulates the threshold for sleep onset. This work established the experimental paradigm the preprint uses to dissociate intensity and phase axes, validating the mechanistic separation."
+      }
+    ],
+    "evidence_position": "speculative"
+  }
+]

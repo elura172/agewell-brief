@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d9040fcd79c9006c391b1490": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Offers a novel decomposition of sleepiness into intensity and phase axes, resolving a mechanistic ambiguity with potential for targeted interventions.",
+      "angle": "Why you're sleepy isn't just how tired you are: new model separates sleep pressure from circadian timing, with implications for personalized drowsiness prevention.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample; yoga/meditation benefits are well-known, limited novelty.",
+      "angle": "Brief yoga-based meditation shows promise in boosting medical students' self-regulation and well-being: a pilot study.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific finding",
+      "reason": "Specific transposable element expression patterns in microglia across aging and Alzheimer's could reveal new biomarkers or mechanisms.",
+      "angle": "Jumping genes in brain immune cells: distinct transposable element patterns may mark Alzheimer's progression.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Identifies a specific post-translational modification (succinylation) linking RNA-binding protein to mitochondrial metabolism in neurodegeneration, a novel pathway.",
+      "angle": "Chemical tag on RNA-binding protein disrupts mitochondrial energy production, offering new target for Alzheimer's intervention.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle advice",
+      "reason": "Generic exercise advice for seniors; lacks specific new findings or data.",
+      "angle": "Simple daily workout from senior fitness expert to improve balance, strength, and mobility at home.",
+      "mode": "agent"
+    },
+    "7fcb80edf1b26de406936826": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "observational study",
+      "reason": "Large observational study but association is well-known; lacks mechanistic novelty.",
+      "angle": "Climbing stairs linked to lower heart disease and death risk in 480,000-person analysis.",
+      "mode": "agent"
+    },
+    "2f7806a4b649cab506c38a1b": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Identifies HDAC4/5 as epigenetic regulators of skin barrier, with implications for aging and potential therapeutic targets.",
+      "angle": "Enzymes HDAC4/5 control skin barrier integrity; inhibiting them thins epidermis and disrupts lipid composition, revealing aging link.",
+      "mode": "agent"
+    },
+    "3e5bbba96a6cde57d0630aba": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Introduces a novel memory governance model for AI agents with fail-closed release, addressing a critical gap in long-horizon agent reliability.",
+      "angle": "New 'governed memory' system prevents AI agents from acting on outdated or retracted information, boosting reliability in long tasks.",
+      "mode": "agent"
+    },
+    "420f57adb5fa028a574896a8": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "specific finding",
+      "reason": "Identifies TIMP2 as a youth-associated protein that restores microglia function, offering a specific molecular target for brain aging.",
+      "angle": "Protein TIMP2 rejuvenates aging brain's immune cells, restoring their ability to clear debris and support cognitive health.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "d9040fcd79c9006c391b1490",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "2f7806a4b649cab506c38a1b",
+    "3e5bbba96a6cde57d0630aba",
+    "420f57adb5fa028a574896a8"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "7fcb80edf1b26de406936826"
+  ],
+  "mode": "agent"
+}

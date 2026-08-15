@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "d9040fcd79c9006c391b1490",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:17940257",
+      "score": 85,
+      "rationale": "The image metadata describes a high-tech laboratory setting with a computer system, which aligns with the editorial intent of a researcher analyzing sleep data in a modern sleep research laboratory. The setting and mood are consistent with the story's analytical and focused tone. The candidate avoids the listed negative elements and is sufficiently specific to the subject.",
+      "concerns": [
+        "The metadata does not explicitly mention a researcher or sleep-specific data, but the laboratory context and computer system are appropriate. The image may not show a person, but the editorial intent allows for a researcher in the foreground; however, the metadata does not confirm this. The absence of explicit sleep-related elements is a minor concern."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-15/sleepiness-decomposed-the-hidden-physics-of-fatigue-d9040fcd-pexels-17940257.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

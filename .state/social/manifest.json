@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-15T23:21:11.082257+00:00",
+  "updated_at": "2026-08-15T23:27:16.085948+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -3140,6 +3140,35 @@
         }
       },
       "updated_at": "2026-08-15T06:56:56.127835+00:00"
+    },
+    "2026-08-15-sleepiness-decomposed-the-hidden-physics-of-fatigue-d9040fcd": {
+      "article_id": "2026-08-15-sleepiness-decomposed-the-hidden-physics-of-fatigue-d9040fcd",
+      "article_url": "https://agewellbrief.com/brief/2026-08-15-sleepiness-decomposed-the-hidden-physics-of-fatigue-d9040fcd/",
+      "title": "2026-08-15-sleepiness-decomposed-the-hidden-physics-of-fatigue-d9040fcd",
+      "category": "sleep health",
+      "content_record": ".state/content-records/2026-08-15-sleepiness-decomposed-the-hidden-physics-of-fatigue-d9040fcd.json",
+      "video_job": ".state/video-jobs/2026-08-15-sleepiness-decomposed-the-hidden-physics-of-fatigue-d9040fcd.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-15T23:27:16.085434+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-15T23:27:16.085442+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-15T23:27:16.085445+00:00"
+        }
+      },
+      "updated_at": "2026-08-15T23:27:16.085941+00:00"
     }
   }
 }

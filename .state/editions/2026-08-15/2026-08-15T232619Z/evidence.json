@@ -1,0 +1,26 @@
+[
+  {
+    "article_id": "d9040fcd79c9006c391b1490",
+    "study_type": "theoretical/modeling study",
+    "key_claims": [
+      "Subjective sleepiness maps linearly onto the signed distance between homeostatic pressure and the circadian-modulated sleep-onset threshold.",
+      "The distance can be decomposed into two mechanistically separable axes: intensity (time-averaged margin) and phase (circadian modulation of the threshold).",
+      "Slowed homeostatic accumulation accounts for the blunted sleepiness of older adults.",
+      "Pharmacological suppression of homeostatic pressure accounts for the dose-dependent alerting effect of caffeine.",
+      "Under forced-desynchrony, sleepiness tracks the circadian profile of the threshold while the intensity mapping remains unchanged."
+    ],
+    "limitations": [
+      "The source is a preprint and may not have undergone peer review.",
+      "The framework is theoretical and may require further empirical validation.",
+      "The source does not provide specific quantitative details or effect sizes.",
+      "The source does not discuss potential limitations of the model."
+    ],
+    "what_not_to_say": [
+      "The source does not claim that sleepiness causes drowsy-driving fatalities or medical errors.",
+      "The source does not claim that the model is the only or best predictor of sleepiness.",
+      "The source does not provide specific numbers or statistics.",
+      "The source does not claim that caffeine directly suppresses homeostatic pressure in all contexts."
+    ],
+    "confidence": "moderate"
+  }
+]

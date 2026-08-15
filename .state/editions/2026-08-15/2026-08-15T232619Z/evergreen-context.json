@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "d9040fcd79c9006c391b1490",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "cb6b4432b48211c4",
+        "source": "Dr. Gilbert Ling (1962) — A Physical Theory of the Living State: Association-Induction Hypothesis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 21
+      },
+      {
+        "source_id": "0273efb6277f6937",
+        "source": "Dr. Emilio Del Giudice (1988) — Water Coherence Domains and Quantum Electrodynamics (QED)",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 20
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
