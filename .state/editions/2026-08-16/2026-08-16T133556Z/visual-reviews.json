@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "4e443a323379512f85764b92",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:15131939",
+      "score": 85,
+      "rationale": "The image depicts a lone senior adult walking along a stone path, which aligns with the story's focus on an older adult walking with effort. The setting is a natural outdoor environment, and the composition suggests a focus on the person's gait, though it is not a close-up of the legs. The mood is contemplative and determined, matching the editorial intent.",
+      "concerns": [
+        "The image is not a close-up of the ankle or lower legs, which is the specific subject of the story. The alt text does not mention visible tension or stiffness in the ankle. However, it is the best match among the candidates, as it shows an older adult walking alone in a natural setting without any assistive devices or negative stereotypes."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-16/why-walking-gets-harder-with-age-the-ankle-s-safety-first-trade-off-4e443a32-pexels-15131939.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

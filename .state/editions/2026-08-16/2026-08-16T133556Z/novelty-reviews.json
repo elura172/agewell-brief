@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "4e443a323379512f85764b92": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Reveals a specific trade-off mechanism (stiffening ankle for stability) that explains why walking gets harder with age, offering a fresh angle beyond generic 'exercise more' advice.",
+      "angle": "Why your walk slows with age: The stability-efficiency trade-off your body makes",
+      "mode": "agent"
+    },
+    "99d90dab72d8422a3873d1f6": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "common advice",
+      "reason": "Repeats well-known advice that movement helps joints; lacks a new finding or specific mechanism.",
+      "angle": "The 'use it or lose it' truth about aging joints",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample; yoga-based meditation benefits are not novel, though specific to medical students.",
+      "angle": "Can yoga-based meditation help medical students cope with pressure?",
+      "mode": "agent"
+    },
+    "1cf5c2434f6983648cd5d756": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "sex-specific mechanism",
+      "reason": "Identifies a sex-specific molecular pathway (β-arrestin2) in Alzheimer's, which is a significant and novel finding with therapeutic implications.",
+      "angle": "Alzheimer's: A single protein drives the disease differently in men and women",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific finding",
+      "reason": "Specific transposable element patterns in microglia across aging and Alzheimer's could offer a new biomarker or target; title is vague but the topic is promising.",
+      "angle": "Jumping genes in brain immune cells: A new clue to Alzheimer's?",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "molecular mechanism",
+      "reason": "Links a specific protein modification (succinylation) to mitochondrial metabolism in neurodegeneration, a novel mechanistic angle.",
+      "angle": "A chemical tweak on a brain protein may drive Alzheimer's neurodegeneration",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Generic daily workout advice for seniors; no new science or unique angle.",
+      "angle": "A senior trainer's simple daily workout for balance and strength",
+      "mode": "agent"
+    },
+    "2f7806a4b649cab506c38a1b": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Identifies HDAC4/5 as regulators of skin barrier function via epigenetic changes, a specific mechanism with potential for skin aging interventions.",
+      "angle": "Skin aging: How epigenetic enzymes control your skin's barrier",
+      "mode": "agent"
+    },
+    "7885530a286246ee9456058d": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "risk factor",
+      "reason": "Links circadian rhythm changes to dementia risk, a growing area with practical implications; adds to recent coverage but with a strong source.",
+      "angle": "Your body clock's rhythm may predict dementia risk",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "4e443a323379512f85764b92",
+    "1cf5c2434f6983648cd5d756",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "2f7806a4b649cab506c38a1b",
+    "7885530a286246ee9456058d"
+  ],
+  "held_back": [
+    "99d90dab72d8422a3873d1f6",
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}
