@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "99d90dab72d8422a3873d1f6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle advice",
+      "reason": "Repeats well-known advice that exercise helps joints; no new mechanism or specific finding.",
+      "angle": "Could focus on the specific low-impact exercises and how they nourish cartilage, but still lacks novelty.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample, no control group; yoga-based meditation benefits are not new.",
+      "angle": "Focus on the specific cognitive measures improved and the potential for medical education, but still preliminary.",
+      "mode": "agent"
+    },
+    "1cf5c2434f6983648cd5d756": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "sex-specific mechanism",
+      "reason": "Identifies a sex-specific molecular mechanism in Alzheimer's, which is a novel and important finding for personalized treatment.",
+      "angle": "Could highlight the male-specific protection and the potential for sex-informed therapies.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific molecular pattern",
+      "reason": "Specific transposable element patterns in microglia across aging and Alzheimer's could reveal new biomarkers or targets.",
+      "angle": "Focus on the distinct patterns and their potential as early diagnostic markers.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "novel post-translational modification",
+      "reason": "HNRNPC succinylation and its role in mitochondrial metabolism is a specific and novel mechanism in neurodegeneration.",
+      "angle": "Highlight the succinylation angle and the potential for therapeutic intervention.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic workout advice",
+      "reason": "Another senior workout article; no new science, just practical tips.",
+      "angle": "Could extract the specific routine and its safety aspects, but low novelty.",
+      "mode": "agent"
+    },
+    "7fcb80edf1b26de406936826": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Large study but observational; stair climbing benefits are well-known, though the large sample adds some weight.",
+      "angle": "Could emphasize the dose-response and the specific risk reductions, but still not highly novel.",
+      "mode": "agent"
+    },
+    "2f7806a4b649cab506c38a1b": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "Mechanistic study on skin aging, but HDAC4/5 role is not entirely new; relevance to aging is indirect.",
+      "angle": "Could focus on the epigenetic regulation and potential for skin aging interventions, but needs more direct aging link.",
+      "mode": "agent"
+    },
+    "420f57adb5fa028a574896a8": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "youth-associated protein",
+      "reason": "TIMP2 restoring microglia function is a specific and promising finding for brain aging, with potential therapeutic implications.",
+      "angle": "Highlight the TIMP2 mechanism and its potential to rejuvenate aging immune cells in the brain.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "1cf5c2434f6983648cd5d756",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "420f57adb5fa028a574896a8"
+  ],
+  "held_back": [
+    "99d90dab72d8422a3873d1f6",
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "7fcb80edf1b26de406936826",
+    "2f7806a4b649cab506c38a1b"
+  ],
+  "mode": "agent"
+}

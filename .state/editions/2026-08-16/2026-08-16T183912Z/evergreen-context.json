@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "1cf5c2434f6983648cd5d756",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "7cd643e6f594a31c",
+        "source": "Dr. Otto Warburg (1924) — The Metabolism of Tumours & Oxygen Respiration",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      },
+      {
+        "source_id": "9e57321706444f06",
+        "source": "Dr. Harold Saxton Burr (1935) — The Fields of Life: Our Links with the Universe (L-Fields)",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
