@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "99d90dab72d8422a3873d1f6": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "lifestyle reminder",
+      "reason": "Repeats well-known advice that exercise helps joints; lacks a new mechanism or specific finding.",
+      "angle": "Focus on the specific low-impact exercises that most effectively nourish cartilage and reduce pain, with expert tips.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample; yoga-based meditation for medical students is not a novel topic.",
+      "angle": "Highlight the specific cognitive improvements measured (working memory, mindfulness) and implications for stress management in high-pressure careers.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies distinct transposable element patterns in microglia across aging and Alzheimer's, offering a new molecular angle.",
+      "angle": "Explain how these genetic 'jumping genes' in brain immune cells could serve as biomarkers or therapeutic targets.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Reveals a specific post-translational modification (succinylation) affecting mitochondrial metabolism in neurodegeneration, a novel pathway.",
+      "angle": "Delve into how HNRNPC succinylation disrupts mitochondrial function and could be targeted to slow Alzheimer's progression.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "practical advice",
+      "reason": "Generic daily workout advice for seniors; lacks new research or unique insights.",
+      "angle": "Feature the trainer's specific routine with step-by-step instructions and safety tips for home practice.",
+      "mode": "agent"
+    },
+    "7fcb80edf1b26de406936826": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "large-scale study",
+      "reason": "Large analysis (480k people) quantifies heart benefits of stair climbing, providing concrete numbers that are compelling.",
+      "angle": "Quantify the risk reduction and suggest practical ways to incorporate stair climbing into daily routines.",
+      "mode": "agent"
+    },
+    "2f7806a4b649cab506c38a1b": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Links HDAC4/5 to skin barrier function and aging via epigenetic regulation, offering a new target for skin health.",
+      "angle": "Explain how HDAC inhibitors affect skin lipids and barrier integrity, and potential implications for anti-aging skincare.",
+      "mode": "agent"
+    },
+    "12b4e4f50dbcd85e39e82dd2": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Reveals circuit-specific reorganization of memory networks across lifespan, refining systems consolidation theory.",
+      "angle": "Describe how memory recall shifts from hippocampus to broader cortical networks over time, and what this means for age-related memory decline.",
+      "mode": "agent"
+    },
+    "7885530a286246ee9456058d": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "risk factor",
+      "reason": "Links circadian rhythm changes to dementia risk, adding to growing evidence; specific and actionable.",
+      "angle": "Discuss how monitoring circadian rhythms could serve as an early warning sign for dementia and potential interventions.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "7fcb80edf1b26de406936826",
+    "2f7806a4b649cab506c38a1b",
+    "12b4e4f50dbcd85e39e82dd2",
+    "7885530a286246ee9456058d"
+  ],
+  "held_back": [
+    "99d90dab72d8422a3873d1f6",
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

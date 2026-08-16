@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "7fcb80edf1b26de406936826",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:12932540",
+      "score": 85,
+      "rationale": "The image metadata describes a person in athletic shoes climbing stone steps, which aligns with the story's focus on stair climbing as exercise. The low-angle perspective implied by 'climbing' and the athletic footwear suggest effort and vitality, matching the editorial intent. The setting is not specified but is likely a stairwell or outdoor stairs, which is acceptable. The subject is not explicitly identified as older, but the story's target audience is sovereign adults, and the image does not contradict that. The metadata does not suggest fear, disability, or medical clichés.",
+      "concerns": [
+        "The alt text does not specify the age of the subject, so it may not clearly depict an older adult as intended. However, the story's focus is on the activity, not the age, and the image is generic enough to be inclusive."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-16/stair-climbing-cuts-cardiovascular-death-risk-by-39-the-biophysics-of--7fcb80ed-pexels-12932540.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
