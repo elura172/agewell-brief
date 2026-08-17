@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "99d90dab72d8422a3873d1f6": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Common knowledge that exercise helps joints; no new finding or mechanism.",
+      "angle": "Could focus on specific low-impact exercises and their physiological benefits, but still not novel.",
+      "mode": "agent"
+    },
+    "e4c17d66b943f785c7093efa": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "new mechanism",
+      "reason": "Identifies a specific protein and a compound that blocks it, with potential multi-system benefits.",
+      "angle": "Explore the protein's role and the compound's mechanism, emphasizing the heart health and aging links.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample; yoga benefits are well-known.",
+      "angle": "Could highlight specific self-regulation improvements, but limited novelty.",
+      "mode": "agent"
+    },
+    "431abeffd59d6fed119a55dd": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "specific finding",
+      "reason": "Interesting but niche; body size predicts lifespan in ants, but not aging or heat death.",
+      "angle": "Could be a quirky science story, but not directly relevant to human aging.",
+      "mode": "agent"
+    },
+    "f632cd0caae53019db9cd92c": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Review of data-driven techniques; no new findings.",
+      "angle": "Could summarize key techniques, but not novel.",
+      "mode": "agent"
+    },
+    "0573d2aceeb1755d8469d042": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "new model",
+      "reason": "Novel approach to link brain circuits to symptoms across disorders, addressing comorbidity.",
+      "angle": "Highlight the 'disordered circuit' model and its potential for personalized psychiatry.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic workout advice for seniors; no new information.",
+      "angle": "Could provide specific exercises, but not novel.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "specific finding",
+      "reason": "Specific but niche; transposable elements in microglia may be interesting but not broadly compelling.",
+      "angle": "Could explain implications for Alzheimer's, but limited audience.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "specific mechanism",
+      "reason": "Specific mechanism involving HNRNPC succinylation and mitochondrial metabolism in Alzheimer's.",
+      "angle": "Could be a deep dive, but not yet broadly relevant.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "e4c17d66b943f785c7093efa",
+    "0573d2aceeb1755d8469d042"
+  ],
+  "held_back": [
+    "99d90dab72d8422a3873d1f6",
+    "628839a76d990a192b399148",
+    "431abeffd59d6fed119a55dd",
+    "f632cd0caae53019db9cd92c",
+    "256b3e11dfff849235aebba7",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1"
+  ],
+  "mode": "agent"
+}
