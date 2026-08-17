@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-08-10T14:13:22.198305+00:00",
+  "generated_at": "2026-08-17T13:32:15.466837+00:00",
   "window": "current Cloudflare trend window",
   "available_metrics": {
-    "published_articles": 112,
+    "published_articles": 121,
     "top_articles": [
       {
+        "slug": "2026-08-16-why-walking-gets-harder-with-age-the-ankle-s-safety-first-trade-off-4e443a32",
+        "visits": 7,
+        "requests": 8
+      },
+      {
+        "slug": "2026-08-10-evolved-gut-bacteria-extend-lifespan-in-flies-acetate-as-the-molecular-bafea6d7",
+        "visits": 6,
+        "requests": 7
+      },
+      {
+        "slug": "historical-2025-proteomic-atlas-reveals-aging-inflection-at-50-vascular-vulnerability--76b94a27",
+        "visits": 6,
+        "requests": 6
+      },
+      {
         "slug": "2026-08-07-your-brain-s-immune-system-is-being-replaced-starting-at-50-b216b7d2",
-        "visits": 11,
-        "requests": 12
+        "visits": 5,
+        "requests": 5
       },
       {
-        "slug": "2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7",
-        "visits": 9,
-        "requests": 9
-      },
-      {
-        "slug": "2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa",
-        "visits": 8,
-        "requests": 9
-      },
-      {
-        "slug": "2026-08-02-a-42-year-old-childhood-obesity-theory-may-be-wrong-a9e38e1b",
-        "visits": 7,
-        "requests": 7
-      },
-      {
-        "slug": "2026-08-02-ai-can-tell-if-your-brain-is-aging-faster-than-you-are-c2812776",
-        "visits": 7,
-        "requests": 7
+        "slug": "2026-08-09-sweetness-is-a-signal-not-a-switch-why-cutting-sweet-foods-won-t-rewir-3406303d",
+        "visits": 5,
+        "requests": 6
       }
     ],
     "social_status_counts": {
       "facebook:completed": 1,
-      "facebook:pending": 56,
+      "facebook:pending": 100,
       "facebook:queued": 8,
       "facebook:upload_failed": 1,
       "tiktok:completed": 1,
-      "tiktok:pending": 56,
+      "tiktok:pending": 100,
       "tiktok:queued": 9,
       "youtube:completed": 1,
-      "youtube:pending": 56,
+      "youtube:pending": 100,
       "youtube:queued": 9
     },
     "clickbank_status": "live",
