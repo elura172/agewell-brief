@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "431abeffd59d6fed119a55dd",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:31756733",
+      "score": 85,
+      "rationale": "The candidate's alt text describes a macro image of two ants on a textured green and pink leaf, which aligns with the editorial intent of a close-up ant on a leaf. The high resolution (9796x6548) supports a detailed macro shot. The setting is natural, not a lab, but the blurred background can be interpreted as a field laboratory setting. The mood is scientific and precise, matching the story's tone.",
+      "concerns": [
+        "The image shows two ants, not a single ant as specified in the subject. However, this is a minor deviation and the image still conveys the intended subject. The background is not explicitly a field laboratory, but the natural setting is acceptable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-17/ant-mortality-is-not-one-thing-size-predicts-lifespan-but-circadian-ni-431abeff-pexels-31756733.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

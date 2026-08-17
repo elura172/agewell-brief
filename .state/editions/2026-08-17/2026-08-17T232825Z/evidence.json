@@ -1,0 +1,28 @@
+[
+  {
+    "article_id": "431abeffd59d6fed119a55dd",
+    "study_type": "observational field-laboratory survival assay",
+    "key_claims": [
+      "Body size predicted lifespan duration in 18 Australian ant species.",
+      "Colony size and the size-temperature interaction did not moderate the size-longevity relationship.",
+      "A weak but significant size-foraging-rate interaction was detected.",
+      "Senescence trajectory was associated with circadian niche, being steepest in matinal species, and was uncorrelated with body mass.",
+      "Thermal hazard plateaued above 20 degrees C, with elevated thermal sensitivity in Rhytidoponera above the plateau.",
+      "Circadian regime and lineage identity, not body size, emerged as the most climate-relevant axes."
+    ],
+    "limitations": [
+      "The study was conducted on 18 Australian ant species, which may not represent all ant species globally.",
+      "The circadian regime and lineage identity were strongly collinear, making it difficult to separate their effects.",
+      "The study did not measure all potential ecological factors that could influence mortality.",
+      "The source is an arXiv preprint and may not have undergone full peer review."
+    ],
+    "what_not_to_say": [
+      "Do not claim that body size is the sole predictor of mortality risk in ants.",
+      "Do not claim that colony size has no effect on ant longevity, as the study only found no detectable moderating effect.",
+      "Do not claim that thermal sensitivity is uniform across all ant species, as Rhytidoponera showed elevated sensitivity.",
+      "Do not claim that the study provides causal evidence for the relationships, as it is observational.",
+      "Do not claim that the findings apply to all social insects beyond ants."
+    ],
+    "confidence": "moderate"
+  }
+]

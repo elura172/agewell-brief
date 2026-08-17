@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "99d90dab72d8422a3873d1f6": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "lifestyle reminder",
+      "reason": "Reinforces known advice that exercise helps joint pain; no new mechanism or surprising finding.",
+      "angle": "Could focus on the specific low-impact activities and how they mechanically nourish cartilage, but still generic.",
+      "mode": "agent"
+    },
+    "431abeffd59d6fed119a55dd": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "unexpected finding",
+      "reason": "Body size predicts ant lifespan but not aging rate or heat tolerance; challenges assumptions about longevity determinants.",
+      "angle": "Why bigger ants live longer but age the same: a surprising split in the biology of aging.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample; yoga benefits are well-known, limited novelty.",
+      "angle": "Could highlight specific cognitive improvements in medical students, but still preliminary.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic daily workout advice for seniors; no new data or unique angle.",
+      "angle": "Could extract the trainer's specific routine, but likely recycled content.",
+      "mode": "agent"
+    },
+    "f632cd0caae53019db9cd92c": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Review of existing techniques; no new findings, but useful overview.",
+      "angle": "Could focus on the convergence of methods for early detection, but not novel.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Specific transposable element patterns in microglia during aging and Alzheimer's; provides new molecular detail.",
+      "angle": "How jumping genes in brain immune cells may drive Alzheimer's: a new layer of genetic chaos.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Identifies a specific post-translational modification (succinylation) linking RNA binding protein to mitochondrial metabolism in neurodegeneration.",
+      "angle": "A chemical tweak on a protein may starve brain cells of energy: new route to Alzheimer's.",
+      "mode": "agent"
+    },
+    "4c24de06f8c2f0a423a7e187": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "genetic association",
+      "reason": "Rare gene variants in PLCG2 are known; this adds detail but not a breakthrough.",
+      "angle": "Could focus on the protective variant and potential drug target, but still incremental.",
+      "mode": "agent"
+    },
+    "280d53b2ddd8a52bc8725ba2": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Midlife exercise linked to slower cognitive decline is well-established; population-specific nuance is minor.",
+      "angle": "Could highlight the Mexican American difference, but not strong enough.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "431abeffd59d6fed119a55dd",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1"
+  ],
+  "held_back": [
+    "99d90dab72d8422a3873d1f6",
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7",
+    "f632cd0caae53019db9cd92c",
+    "4c24de06f8c2f0a423a7e187",
+    "280d53b2ddd8a52bc8725ba2"
+  ],
+  "mode": "agent"
+}
