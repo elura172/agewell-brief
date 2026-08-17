@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "6f2bcf359c9fd4a75cf83aee",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:14679223",
+      "score": 85,
+      "rationale": "The candidate's alt text describes a 'creative double exposure of a bearded man with urban buildings in a soft light setting,' which aligns with the editorial intent of showing a person in an urban environment with a subtle overlay suggesting brain vulnerability. The double exposure effect can be interpreted as a neural network or brain scan overlay, matching the story's theme without depicting fear or medical intervention. The urban setting and contemplative mood are appropriate.",
+      "concerns": [
+        "The image is a close-up portrait, not a medium close-up as specified, and the urban background may be less prominent. However, the double exposure with buildings provides the urban context. The subject is a man, while the story does not specify gender, so this is acceptable."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-17/air-pollution-etches-its-signature-on-alzheimer-s-vulnerable-brain-reg-6f2bcf35-pexels-14679223.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

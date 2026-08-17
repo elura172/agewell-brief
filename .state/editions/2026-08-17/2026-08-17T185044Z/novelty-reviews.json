@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "99d90dab72d8422a3873d1f6": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "lifestyle reminder",
+      "reason": "Repeats well-known advice that exercise helps joint pain; lacks a new mechanism or surprising finding.",
+      "angle": "Could focus on the specific low-impact exercises that most effectively nourish cartilage, but still generic.",
+      "mode": "agent"
+    },
+    "05397cdde4e960646fb04fef": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "frontier methodology",
+      "reason": "Introduces a novel data-driven approach (joint ICA) to map amyloid-tau covariance across the brain, potentially revealing new disease subtypes and stage-specific patterns.",
+      "angle": "How AI is uncovering hidden brain network patterns that could redefine Alzheimer's staging.",
+      "mode": "agent"
+    },
+    "6f2bcf359c9fd4a75cf83aee": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "environmental risk factor",
+      "reason": "Links specific air pollutants to structural changes in Alzheimer's-vulnerable brain regions, adding to evidence of modifiable risk factors.",
+      "angle": "Which pollutants are most harmful and what can individuals do to reduce exposure?",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Small pilot study on yoga for medical students; limited generalizability and not directly about aging.",
+      "angle": "Could be relevant to stress management in aging, but currently too narrow.",
+      "mode": "agent"
+    },
+    "431abeffd59d6fed119a55dd": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "basic biology",
+      "reason": "Interesting ant study but tangential to human aging; lacks direct translational relevance.",
+      "angle": "Could be a curiosity piece but not a priority for aging-focused readers.",
+      "mode": "agent"
+    },
+    "f632cd0caae53019db9cd92c": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "review",
+      "reason": "Comprehensive review of data-driven techniques for personalized neuro-health, highlighting emerging tools and challenges.",
+      "angle": "How AI and big data are paving the way for personalized brain health assessments.",
+      "mode": "agent"
+    },
+    "ebd7d1772812689b42b2e3a0": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "technical advance",
+      "reason": "Technical improvement in mouse sleep scoring; not directly applicable to human aging.",
+      "angle": "Could be relevant for preclinical aging research but too specialized.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Identifies distinct transposable element expression patterns in microglia across aging and Alzheimer's, potentially revealing new therapeutic targets.",
+      "angle": "How 'jumping genes' in brain immune cells might drive Alzheimer's and aging.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Reveals a specific molecular pathway (HNRNPC succinylation affecting YME1L1 and mitochondrial metabolism) in Alzheimer's neurodegeneration, offering a new drug target.",
+      "angle": "A new molecular switch in Alzheimer's: how protein modification disrupts mitochondrial energy and leads to neurodegeneration.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "05397cdde4e960646fb04fef",
+    "6f2bcf359c9fd4a75cf83aee",
+    "f632cd0caae53019db9cd92c",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1"
+  ],
+  "held_back": [
+    "99d90dab72d8422a3873d1f6",
+    "628839a76d990a192b399148",
+    "431abeffd59d6fed119a55dd",
+    "ebd7d1772812689b42b2e3a0"
+  ],
+  "mode": "agent"
+}
