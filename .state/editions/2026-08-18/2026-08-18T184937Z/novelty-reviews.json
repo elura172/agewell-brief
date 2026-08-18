@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "99d90dab72d8422a3873d1f6": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Repeats well-known advice that exercise helps joints; no new finding or mechanism.",
+      "angle": "Could focus on the specific low-impact activities and their comparative benefits, but still lacks novelty.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample; yoga-based meditation for medical students is not a novel topic.",
+      "angle": "Emphasize the specific cognitive improvements measured, but overall not compelling enough.",
+      "mode": "agent"
+    },
+    "d65624c062bd191503c57cd0": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Introduces a continuous 3-D latent diffusion model with significant speed and memory improvements for medical imaging.",
+      "angle": "How this AI breakthrough could enable faster, higher-resolution medical imaging in clinical settings.",
+      "mode": "agent"
+    },
+    "d781553f4761a92950a50843": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "new research",
+      "reason": "First study of Alzheimer's biomarkers in chimpanzees, but relevance to human aging is indirect.",
+      "angle": "Could highlight the evolutionary perspective on Alzheimer's, but may not resonate with general readers.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "Specific molecular mechanism in Alzheimer's, but highly technical and not yet translated.",
+      "angle": "Focus on the succinylation modification as a potential therapeutic target, but still niche.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Generic workout advice for seniors; no new data or unique angle.",
+      "angle": "Could extract the specific exercises, but lacks novelty.",
+      "mode": "agent"
+    },
+    "f0cfeeab6270ea5b8ec4abc3": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "observational study",
+      "reason": "Detailed spatial analysis of N-glycans in MOGHE, but very specialized and not broadly relevant.",
+      "angle": "Potential for epilepsy research, but too niche for general audience.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "Transposable element patterns in microglia across aging and Alzheimer's, but preliminary and technical.",
+      "angle": "Could highlight the role of transposable elements in brain aging, but still emerging.",
+      "mode": "agent"
+    },
+    "5e7c30340f46f22d574eb6e2": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "brain imaging",
+      "reason": "Imaging study on decision-making hub, but findings are incremental and not surprising.",
+      "angle": "Could focus on the specific brain regions involved, but lacks a strong hook.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "d65624c062bd191503c57cd0"
+  ],
+  "held_back": [
+    "99d90dab72d8422a3873d1f6",
+    "628839a76d990a192b399148",
+    "d781553f4761a92950a50843",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7",
+    "f0cfeeab6270ea5b8ec4abc3",
+    "7b4238d2d99be8b9520034ff",
+    "5e7c30340f46f22d574eb6e2"
+  ],
+  "mode": "agent"
+}

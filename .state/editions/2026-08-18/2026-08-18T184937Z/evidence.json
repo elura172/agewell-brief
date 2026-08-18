@@ -1,0 +1,28 @@
+[
+  {
+    "article_id": "d65624c062bd191503c57cd0",
+    "study_type": "technical report / methods paper",
+    "key_claims": [
+      "Introduces a continuous 3-D latent diffusion model framework for CT and MRI generation and reconstruction.",
+      "Uses a compact autoencoder with a coordinate-conditioned local implicit image function decoder.",
+      "On high-resolution CT, the proposed autoencoder is approximately 12-32 times faster than reference autoencoders and uses the lowest peak GPU memory.",
+      "The frozen 3-D latent prior generates coherent full volumes without visible patch seams.",
+      "Can be applied to sparse-view CT and accelerated MRI reconstruction without task-specific retraining.",
+      "Direct pixel-domain reconstruction remains more accurate than the latent prior approach."
+    ],
+    "limitations": [
+      "The proposed autoencoder shows a moderate reduction in voxel-level accuracy compared to reference autoencoders.",
+      "Direct pixel-domain reconstruction is more accurate than the latent prior approach.",
+      "The framework is evaluated on specific volume sizes (CT 512^3, MRI 256^3) and may not generalize to other resolutions.",
+      "The source is an arXiv preprint and may not have undergone full peer review."
+    ],
+    "what_not_to_say": [
+      "The framework is clinically validated or approved for medical use.",
+      "The latent prior approach is more accurate than direct pixel-domain reconstruction.",
+      "The framework is faster than all existing methods in all scenarios.",
+      "The framework can be used for other imaging modalities beyond CT and MRI.",
+      "The code is currently available at the provided GitHub link."
+    ],
+    "confidence": "moderate"
+  }
+]
