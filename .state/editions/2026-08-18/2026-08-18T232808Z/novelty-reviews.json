@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "99d90dab72d8422a3873d1f6": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Common knowledge that exercise helps joints; no new specific finding or mechanism.",
+      "angle": "Could focus on the specific low-impact exercises and their comparative benefits, but still not novel.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample; yoga-based meditation for medical students is not new, but specific outcomes may be of interest.",
+      "angle": "Focus on the specific cognitive improvements measured, but novelty is limited.",
+      "mode": "agent"
+    },
+    "3c387d7765cc011132f61e6c": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic finding",
+      "reason": "Specific epigenetic changes in rDNA during aging and stress; novel molecular insight.",
+      "angle": "How rDNA copy number and methylation change in muscle aging could be a target for interventions.",
+      "mode": "agent"
+    },
+    "d1cab4e8d8b4ed4928fe6bcb": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "neuroscience mechanism",
+      "reason": "Direct electrophysiological evidence distinguishing PCC subregions in decision-making; resolves a debate.",
+      "angle": "Dorsal PCC as a convergence hub for value and memory decisions – implications for brain disorders.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "molecular mechanism",
+      "reason": "Specific succinylation modification linking to mitochondrial metabolism in Alzheimer's; novel post-translational modification.",
+      "angle": "Targeting HNRNPC succinylation as a potential therapeutic avenue for Alzheimer's.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Routine workout advice for seniors; no new research or specific finding.",
+      "angle": "Could highlight the trainer's credentials, but low novelty.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "genomic pattern",
+      "reason": "Specific transposable element expression patterns in microglia across aging and Alzheimer's; novel cell-type-specific insight.",
+      "angle": "How retrotransposon activation in microglia might drive neuroinflammation and cognitive decline.",
+      "mode": "agent"
+    },
+    "5e7c30340f46f22d574eb6e2": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "neuroscience mechanism",
+      "reason": "New imaging evidence on how brain integrates multiple signals during decision-making; specific hub identified.",
+      "angle": "The posterior cingulate cortex as a hub for integrating memory and value – could inform AI models.",
+      "mode": "agent"
+    },
+    "03e77cf8f6bc250fd368bd38": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "technology advancement",
+      "reason": "Digital twin framework for heart motion prediction validated with MRI; novel application for device implantation.",
+      "angle": "How this model could improve placement of cardiac devices, reducing complications.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "3c387d7765cc011132f61e6c",
+    "d1cab4e8d8b4ed4928fe6bcb",
+    "44d85c20f70b28aea7edb7f1",
+    "7b4238d2d99be8b9520034ff",
+    "5e7c30340f46f22d574eb6e2",
+    "03e77cf8f6bc250fd368bd38"
+  ],
+  "held_back": [
+    "99d90dab72d8422a3873d1f6",
+    "628839a76d990a192b399148",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

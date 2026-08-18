@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "5e7c30340f46f22d574eb6e2",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "0ab8467caacde078",
+        "source": "Dr. Mae-Wan Ho (1993) — The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 13
+      },
+      {
+        "source_id": "3199d23705ba918b",
+        "source": "Dr. Herbert Fröhlich (1968) — Long-Range Coherence and Energy Storage in Biological Systems",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

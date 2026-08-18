@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-18T23:00:34.203240+00:00",
+  "updated_at": "2026-08-18T23:29:07.723585+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -3314,6 +3314,35 @@
         }
       },
       "updated_at": "2026-08-18T13:48:42.225829+00:00"
+    },
+    "2026-08-18-brain-imaging-reveals-how-an-information-hub-integrates-signals-during-5e7c3034": {
+      "article_id": "2026-08-18-brain-imaging-reveals-how-an-information-hub-integrates-signals-during-5e7c3034",
+      "article_url": "https://agewellbrief.com/brief/2026-08-18-brain-imaging-reveals-how-an-information-hub-integrates-signals-during-5e7c3034/",
+      "title": "2026-08-18-brain-imaging-reveals-how-an-information-hub-integrates-signals-during-5e7c3034",
+      "category": "brain health",
+      "content_record": ".state/content-records/2026-08-18-brain-imaging-reveals-how-an-information-hub-integrates-signals-during-5e7c3034.json",
+      "video_job": ".state/video-jobs/2026-08-18-brain-imaging-reveals-how-an-information-hub-integrates-signals-during-5e7c3034.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-18T23:29:07.722824+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-18T23:29:07.722837+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-18T23:29:07.722842+00:00"
+        }
+      },
+      "updated_at": "2026-08-18T23:29:07.723576+00:00"
     }
   }
 }

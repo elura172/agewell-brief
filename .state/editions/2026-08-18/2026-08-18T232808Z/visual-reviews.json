@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "5e7c30340f46f22d574eb6e2",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:15289804",
+      "score": 85,
+      "rationale": "The candidate's alt text describes a side profile of a woman driving, which aligns with the editorial intent of showing a mature adult in a real-world decision moment. The image is from a car interior setting, matching the story's context of decision-making while driving. The metadata does not suggest fear, products, or stereotypes, and the image is not generic lifestyle imagery but specifically depicts a driver.",
+      "concerns": [
+        "The alt text does not specify the age of the woman, so it may not clearly depict a senior. The brain scan overlay is not mentioned in the metadata, so the visual nod to brain integration may be absent. However, the core subject of a driver is present."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-18/brain-imaging-reveals-how-an-information-hub-integrates-signals-during-5e7c3034-pexels-15289804.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
