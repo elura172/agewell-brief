@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "3e24c2d0fc30faa7ebf4b6be",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:29479096",
+      "score": 72,
+      "rationale": "The image depicts an adult in a natural, everyday setting, which aligns with the editorial intent of showing practical human context without medical promises. The subject appears capable and alert, matching the mood. The setting is a credible real-world environment with natural light, and the composition is a landscape editorial photograph with a clear focal subject. The metadata does not suggest fear, products, procedures, or stereotypes.",
+      "concerns": [
+        "The image shows a person with a bicycle, which may not directly relate to battery prognostics or energy storage. However, the story's broader theme of early detection and proactive maintenance can be metaphorically linked to everyday life. The image is not a near-duplicate of other candidates."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-18/battery-prognostics-early-cycle-trajectories-predict-long-term-health-3e24c2d0-pexels-29479096.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "3e24c2d0fc30faa7ebf4b6be",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "4f70da432ef323fc",
+        "source": "Dr. Hans Selye (1956) — The Stress of Life & General Adaptation Syndrome",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 27
+      },
+      {
+        "source_id": "048bf7cd36116322",
+        "source": "Dr. Gerald Pollack (2013) — The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 22
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

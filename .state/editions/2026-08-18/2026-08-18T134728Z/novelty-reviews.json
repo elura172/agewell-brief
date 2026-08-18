@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "99d90dab72d8422a3873d1f6": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Common knowledge that exercise helps joints; no new finding or specific mechanism.",
+      "angle": "Could focus on the specific low-impact exercises and their biomechanical benefits for joint health.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study with small sample; findings are preliminary and not highly novel.",
+      "angle": "Highlight the specific cognitive improvements measured and potential for larger trials.",
+      "mode": "agent"
+    },
+    "3e24c2d0fc30faa7ebf4b6be": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Novel AI framework for predicting battery degradation from early cycles; specific and technical.",
+      "angle": "How FlowBD-E1 could revolutionize maintenance of flow batteries for grid storage.",
+      "mode": "agent"
+    },
+    "d65624c062bd191503c57cd0": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "New continuous 3D latent diffusion model for medical imaging; significant speed and memory improvements.",
+      "angle": "Potential to enable high-resolution 3D imaging in clinical settings with lower computational cost.",
+      "mode": "agent"
+    },
+    "d781553f4761a92950a50843": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "observational study",
+      "reason": "Interesting but observational; associations between biomarkers and atrophy in chimpanzees may not directly translate to humans.",
+      "angle": "Could explore implications for early Alzheimer's detection in humans.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "Specific but niche; transposable element patterns in microglia may not have broad reader appeal.",
+      "angle": "Focus on the role of transposable elements in neuroinflammation and potential therapeutic targets.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "Novel mechanism but highly technical; may not resonate with general audience.",
+      "angle": "Explain how HNRNPC succinylation affects mitochondrial metabolism and potential drug targets.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Routine workout advice for seniors; no new research or unique angle.",
+      "angle": "Could include specific exercises and safety tips from the trainer.",
+      "mode": "agent"
+    },
+    "4c24de06f8c2f0a423a7e187": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "genetic finding",
+      "reason": "Specific gene variants linked to Alzheimer's risk; adds to understanding of genetic factors.",
+      "angle": "How PLCG2 variants could lead to personalized prevention strategies.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "3e24c2d0fc30faa7ebf4b6be",
+    "d65624c062bd191503c57cd0",
+    "4c24de06f8c2f0a423a7e187"
+  ],
+  "held_back": [
+    "99d90dab72d8422a3873d1f6",
+    "628839a76d990a192b399148",
+    "d781553f4761a92950a50843",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

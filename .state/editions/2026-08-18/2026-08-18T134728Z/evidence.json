@@ -1,0 +1,27 @@
+[
+  {
+    "article_id": "3e24c2d0fc30faa7ebf4b6be",
+    "study_type": "observational study of an industrial battery with a machine learning model",
+    "key_claims": [
+      "Iron-chromium redox flow batteries are attractive for long-duration stationary energy storage because they use abundant and low-cost active species.",
+      "The operation of these batteries is shaped by slow chromium kinetics, hydrogen evolution, membrane crossover, and electrolyte imbalance.",
+      "FlowBD-E1 is an early-cycle generative forecasting framework that predicts complete future charge voltage/current trajectories from only the first few cycles.",
+      "Using the first 9 of 289 cycles, recursive latent forecasting achieved a joint V/I mean absolute percentage error of 0.731% over the remaining lifecycle and produced SOH estimates below 1% MAPE.",
+      "The age-aware generative architecture outperformed LSTM and TCN baselines in ablation and independent-sequence tests."
+    ],
+    "limitations": [
+      "The study is based on a single industrial 33 kW Fe-Cr redox flow battery, so generalizability to other batteries or operating conditions is unclear.",
+      "The abstract does not provide details on the variability across different batteries or the robustness of the model under diverse operational scenarios.",
+      "The specific mechanisms of degradation are not directly measured; the model predicts trajectories based on early cycles without explicit causal analysis.",
+      "The abstract does not mention potential limitations of the model in real-world deployment, such as computational cost or data requirements."
+    ],
+    "what_not_to_say": [
+      "The model can detect degradation before substantial capacity loss has accumulated (the abstract states this as a requirement, not a proven capability).",
+      "The model is clinically validated or applicable to human health.",
+      "The model outperforms all other methods in all settings; it only outperformed LSTM and TCN baselines in the described tests.",
+      "The study provides a causal explanation of battery degradation mechanisms.",
+      "The model is ready for commercial deployment without further validation."
+    ],
+    "confidence": "moderate"
+  }
+]
