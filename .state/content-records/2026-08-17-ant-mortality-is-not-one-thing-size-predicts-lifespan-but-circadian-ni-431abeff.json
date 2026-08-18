@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T23:29:34.921244+00:00",
+  "generated_at": "2026-08-18T07:02:54.219269+00:00",
   "article": {
     "article": "2026-08-17-ant-mortality-is-not-one-thing-size-predicts-lifespan-but-circadian-ni-431abeff",
     "url": "https://agewellbrief.com/brief/2026-08-17-ant-mortality-is-not-one-thing-size-predicts-lifespan-but-circadian-ni-431abeff/",
     "category": "longevity",
-    "trend": null,
+    "trend": {
+      "rank": 5,
+      "reader_visits": 5
+    },
     "source_url": "https://arxiv.org/abs/2608.14245",
     "content_record": {
       "article_id": "2026-08-17-ant-mortality-is-not-one-thing-size-predicts-lifespan-but-circadian-ni-431abeff",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways. A new biophysics study just dropped on '2026-08-17-ant-mortality-is-not-one-thing-size-predicts-lifespan-but-circadian-ni-431abeff'. A new study of 18 Australian ant species shows that body size predicts how long workers live, but not how they age or how they die from heat. The findings challenge size-based vulnerability indices and point to circadian. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
       "source_url": "https://arxiv.org/abs/2608.14245",
-      "trend": null,
+      "trend": {
+        "rank": 5,
+        "reader_visits": 5
+      },
       "text_fore_color": "#FEFEFE",
       "highlight_color": "#F97316",
       "stroke_color": "#0B0F19",
