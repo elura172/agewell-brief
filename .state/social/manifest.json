@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-19T18:00:20.911470+00:00",
+  "updated_at": "2026-08-19T18:46:22.801337+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -3372,6 +3372,35 @@
         }
       },
       "updated_at": "2026-08-19T13:50:25.423134+00:00"
+    },
+    "2026-08-19-vitamin-d-and-the-aging-brain-a-signal-worth-decoding-e6dd486b": {
+      "article_id": "2026-08-19-vitamin-d-and-the-aging-brain-a-signal-worth-decoding-e6dd486b",
+      "article_url": "https://agewellbrief.com/brief/2026-08-19-vitamin-d-and-the-aging-brain-a-signal-worth-decoding-e6dd486b/",
+      "title": "2026-08-19-vitamin-d-and-the-aging-brain-a-signal-worth-decoding-e6dd486b",
+      "category": "brain health",
+      "content_record": ".state/content-records/2026-08-19-vitamin-d-and-the-aging-brain-a-signal-worth-decoding-e6dd486b.json",
+      "video_job": ".state/video-jobs/2026-08-19-vitamin-d-and-the-aging-brain-a-signal-worth-decoding-e6dd486b.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-19T18:46:22.800738+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-19T18:46:22.800747+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-08-19T18:46:22.800751+00:00"
+        }
+      },
+      "updated_at": "2026-08-19T18:46:22.801309+00:00"
     }
   }
 }

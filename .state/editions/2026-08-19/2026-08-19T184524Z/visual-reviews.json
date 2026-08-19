@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "e6dd486b578413a8239f74a8",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:12319354",
+      "score": 85,
+      "rationale": "The image depicts a researcher explaining a cognitive science poster to peers, which aligns with the editorial intent of showing an older adult in a research or clinical setting, discussing brain-related findings. The setting and mood match the story's scientific context without showing pills or making medical promises.",
+      "concerns": [
+        "The alt text mentions 'peers' but does not specify if the researcher is an older adult. However, the context of cognitive science and research is appropriate."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-19/vitamin-d-and-the-aging-brain-a-signal-worth-decoding-e6dd486b-pexels-12319354.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

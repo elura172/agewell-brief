@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "e6dd486b578413a8239f74a8": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "High-dose vitamin D linked to better cognition in at-risk adults is a specific, actionable finding with a clear population and dose, offering a potential preventive strategy.",
+      "angle": "Could high-dose vitamin D be a simple, low-cost intervention to slow cognitive decline? New Emory study suggests it might—here's what it means for you.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "pilot study",
+      "reason": "Pilot study on yoga-based meditation for medical students is a small, preliminary study with limited generalizability and no major new insight.",
+      "angle": "Yoga for med students? A pilot study shows promise, but more research is needed.",
+      "mode": "agent"
+    },
+    "4bef74236a333ef66db31ead": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "AI-calculated brain age predicting dementia years before clinical symptoms is a novel, high-impact application of AI in early diagnosis, with clear practical implications.",
+      "angle": "Your brain's 'age' on a scan could predict dementia years early—AI makes it possible.",
+      "mode": "agent"
+    },
+    "d0817eaa776af64ca8db26c9": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic insight",
+      "reason": "Study distinguishes contributions of PTSD and working memory to chronic pain dimensions, but it's a complex correlational study without immediate actionable findings.",
+      "angle": "Chronic pain isn't one thing: PTSD and memory issues affect different aspects—new study untangles the web.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Distinct transposable element patterns in microglia across aging and Alzheimer's could reveal new biomarkers or therapeutic targets, offering a fresh angle on neurodegeneration.",
+      "angle": "Jumping genes in brain immune cells may drive Alzheimer's—new study reveals distinct patterns.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "HNRNPC succinylation affecting mitochondrial metabolism in Alzheimer's is a specific molecular mechanism that could lead to new drug targets, though it's early-stage research.",
+      "angle": "A chemical modification on a key protein may fuel Alzheimer's by disrupting mitochondria—new target for therapy?",
+      "mode": "agent"
+    },
+    "c9f745db16cc01a2afcda97e": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "case report",
+      "reason": "Atypical MRI presentation in adult MOGAD is a rare case report, interesting for specialists but not broadly novel or actionable for general readers.",
+      "angle": "Rare case: Adult MOGAD mimics Wernicke's encephalopathy on MRI—a diagnostic challenge.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Trainer shares daily workout for seniors is generic fitness advice, not a new finding or unique insight.",
+      "angle": "Simple daily workout for seniors to improve balance and strength at home.",
+      "mode": "agent"
+    },
+    "15bfe435d25ba28791b75f4c": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "program announcement",
+      "reason": "New Mexico launches healthy aging program is a local initiative, not broadly novel or of wide interest.",
+      "angle": "New Mexico's new program aims to help older adults age independently.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "e6dd486b578413a8239f74a8",
+    "4bef74236a333ef66db31ead",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "d0817eaa776af64ca8db26c9",
+    "c9f745db16cc01a2afcda97e",
+    "256b3e11dfff849235aebba7",
+    "15bfe435d25ba28791b75f4c"
+  ],
+  "mode": "agent"
+}
