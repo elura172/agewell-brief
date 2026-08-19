@@ -1,18 +1,27 @@
 {
   "status": "ready_for_mpt",
-  "subject": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead",
+  "subject": "2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61",
   "article_url": "https://agewellbrief.com/brief/2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61/",
   "video_aspect": "9:16",
-  "voice_name": "en-US-JennyNeural",
-  "script": "New Blood Test May Predict Alzheimer's Symptoms Years Ahead. Here is the useful signal, what the source found, and what it does not prove. Read the full Agewell Brief for the context and original source.",
+  "voice_name": "en-US-AvaNeural",
+  "script": "Your brain isn't just firing electrical pulses—it is a quantum biophotonic resonator entrained to the rhythm of the cosmos. A new biophysics study just dropped on '2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61'. A new biomarker model could sharpen forecasts of disease progression years before symptoms begin. Why This Matters For people living with Alzheimer's disease and their families, one of the hardest questions is: \"How fast. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
   "source_url": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner",
   "trend": {
-    "rank": 1,
-    "reader_visits": 57
+    "rank": 3,
+    "reader_visits": 7
   },
-  "text_fore_color": "#FFFFFF",
-  "stroke_color": "#000000",
-  "stroke_width": 4,
-  "font_size": 64,
+  "text_fore_color": "#FEFEFE",
+  "highlight_color": "#00F0FF",
+  "stroke_color": "#0B0F19",
+  "stroke_width": 2,
+  "font_size": 48,
+  "subtitle_bottom_margin": 210,
+  "max_words_per_line": 3,
+  "active_word_scale": 1.12,
+  "uppercase_keywords": true,
+  "bold_keywords": true,
+  "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
+  "subtitle_bg_padding": 12,
+  "subtitle_glow_enabled": true,
   "requires_video_qa": false
 }
