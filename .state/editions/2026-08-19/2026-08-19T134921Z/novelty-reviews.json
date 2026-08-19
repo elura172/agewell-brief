@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "826a9ed6d48b5ad697fc51ed": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Sleep duration and aging link is a familiar topic; this is a routine observational study without a novel mechanism or surprising twist.",
+      "angle": "Could focus on the specific biological aging markers measured and the exact sleep durations associated with faster aging.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "intervention study",
+      "reason": "Pilot study on yoga-based meditation for medical students' self-regulation is specific and actionable, though not entirely new. The focus on medical students adds a fresh angle.",
+      "angle": "Highlight the measurable cognitive improvements and potential for integrating such programs into medical curricula.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "List of balance exercises for seniors is evergreen content with no new information or unique angle.",
+      "angle": "Could curate the most effective exercises based on recent research, but still low novelty.",
+      "mode": "agent"
+    },
+    "b3d704ac2153fe3091adc11c": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "surprising finding",
+      "reason": "Coffee intake linked to less fat, more muscle, and hormone differences is a specific and somewhat counterintuitive finding, adding depth to a common topic.",
+      "angle": "Delve into the specific amino acids and metabolic markers affected, and what this means for body composition.",
+      "mode": "agent"
+    },
+    "f7fc198cf286192e31081c1a": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "frontier therapy",
+      "reason": "Gene replacement therapy for MEF2C haploinsufficiency in mice is a novel therapeutic approach with specific phenotypic improvements, appealing to a niche but interested audience.",
+      "angle": "Explain the potential of AAV-mediated gene therapy for neurodevelopmental disorders and the specific behavioral improvements observed.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "Transposable element patterns in microglia during aging and Alzheimer's is a detailed mechanistic study but may be too specialized for a general audience without a clear hook.",
+      "angle": "Could translate into implications for early detection or therapeutic targets, but needs a stronger angle.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "mechanistic study",
+      "reason": "HNRNPC succinylation in Alzheimer's neurodegeneration is a specific molecular finding, but the novelty is moderate and may not resonate broadly.",
+      "angle": "Focus on the potential for targeting succinylation as a therapeutic strategy, but still niche.",
+      "mode": "agent"
+    },
+    "c9f745db16cc01a2afcda97e": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "case report",
+      "reason": "Atypical MRI presentation of MOGAD misdiagnosed as Wernicke's encephalopathy is a clinically valuable case with diagnostic challenges, offering practical insights.",
+      "angle": "Highlight the diagnostic pitfalls and the importance of considering MOGAD in atypical brain lesions.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Daily workout for seniors is similar to existing content; lacks a novel angle or specific new research.",
+      "angle": "Could incorporate recent findings on exercise benefits, but still low novelty.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "628839a76d990a192b399148",
+    "b3d704ac2153fe3091adc11c",
+    "f7fc198cf286192e31081c1a",
+    "c9f745db16cc01a2afcda97e"
+  ],
+  "held_back": [
+    "826a9ed6d48b5ad697fc51ed",
+    "cadce59ed8f9539ef7a34ac6",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}

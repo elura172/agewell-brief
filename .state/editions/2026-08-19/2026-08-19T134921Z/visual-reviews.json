@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "b3d704ac2153fe3091adc11c",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:6248549",
+      "score": 85,
+      "rationale": "The image depicts a middle-aged ethnic man drinking coffee at home, which aligns with the story's subject of a fit, middle-aged person enjoying coffee. The setting is a kitchen, matching the brief's preference for a bright, modern kitchen or café. The man appears content and healthy, fitting the mood of energetic and confident. The metadata does not suggest any medical claims or stereotypes, and the image is not a near-duplicate of other candidates.",
+      "concerns": [
+        "The alt text mentions 'crop middle aged ethnic male' and 'closed eyes', which might imply a relaxed or contemplative state rather than energetic. However, this is a minor concern and does not disqualify the image."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-19/coffee-s-metabolic-edge-less-fat-more-muscle-and-a-hormonal-signature-b3d704ac-pexels-6248549.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
