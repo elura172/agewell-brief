@@ -1,0 +1,20 @@
+[
+  {
+    "article_id": "4bef74236a333ef66db31ead",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "The candidate image metadata describes a healthcare professional performing an ultrasound shoulder scan, which does not match the required subject of a neuroscientist analyzing brain MRI scans. The alt text explicitly mentions 'ultrasound shoulder scan', which is unrelated to brain imaging and dementia research. Therefore, the candidate is not sufficiently specific to the story's needs.",
+      "concerns": [
+        "The image depicts a shoulder ultrasound, not a brain MRI. This could mislead viewers and fail to convey the intended message about AI-based brain age prediction. The setting and subject are inconsistent with the editorial intent.",
+        "No valid candidate was selected."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]

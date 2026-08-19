@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "e94121602a75dc187f03d137": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Reveals a specific topological breakdown in hippocampal information processing in Alzheimer's, distinguishing between redundancy and synergy loss—a novel mechanistic insight.",
+      "angle": "Alzheimer's disrupts the brain's information 'wiring': synergy between cell assemblies collapses during exploration.",
+      "mode": "agent"
+    },
+    "826a9ed6d48b5ad697fc51ed": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Repeats a familiar sleep-duration and aging association without new mechanistic detail or actionable nuance.",
+      "angle": "Sleep sweet spot: 6.4–7.8 hours linked to slower biological aging—but why?",
+      "mode": "agent"
+    },
+    "82f875792554c0814e851be7": {
+      "score": 90,
+      "decision": "commission",
+      "novelty_type": "safety warning",
+      "reason": "Identifies a common class of pesticides that directly trigger TDP-43 aggregation, a key ALS/FTD pathology—a concrete environmental risk with public health implications.",
+      "angle": "Common pesticides may trigger ALS-linked protein clumping—new screening finds dithiocarbamates as culprits.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "intervention study",
+      "reason": "Pilot study with small sample; yoga-based meditation benefits are well-known, lacking a novel twist.",
+      "angle": "Yoga boosts medical students' self-regulation: a pilot study on stress and cognition.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Standard list of balance exercises for seniors; no new evidence or unique angle.",
+      "angle": "13 balance exercises to prevent falls and build strength at home.",
+      "mode": "agent"
+    },
+    "4bef74236a333ef66db31ead": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "predictive tool",
+      "reason": "AI-based brain age predicts dementia risk years in advance, offering a practical early-warning tool beyond current visual rating scales.",
+      "angle": "AI 'brain age' gap predicts dementia years before symptoms—could it transform memory clinic screening?",
+      "mode": "agent"
+    },
+    "d7a0c0f0e7ec7282f18da1af": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "technology application",
+      "reason": "Uses magnetic resonance elastography to detect estrogen-driven mechanical changes in the hippocampus across the cycle—a novel imaging application.",
+      "angle": "Hormone-driven brain 'stiffness' changes captured by new imaging—implications for memory and menopause.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Links specific transposable element expression patterns in microglia to aging and Alzheimer's, offering a new molecular signature.",
+      "angle": "Jumping genes in brain immune cells: a new fingerprint of aging and Alzheimer's.",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Identifies a novel post-translational modification (succinylation) on HNRNPC affecting mitochondrial metabolism in Alzheimer's—a specific new pathway.",
+      "angle": "Protein 'succinylation' disrupts mitochondria in Alzheimer's—a new target for therapy?",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "e94121602a75dc187f03d137",
+    "82f875792554c0814e851be7",
+    "4bef74236a333ef66db31ead",
+    "d7a0c0f0e7ec7282f18da1af",
+    "7b4238d2d99be8b9520034ff",
+    "44d85c20f70b28aea7edb7f1"
+  ],
+  "held_back": [
+    "826a9ed6d48b5ad697fc51ed",
+    "628839a76d990a192b399148",
+    "cadce59ed8f9539ef7a34ac6"
+  ],
+  "mode": "agent"
+}

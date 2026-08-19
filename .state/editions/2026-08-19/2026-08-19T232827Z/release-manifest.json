@@ -1,0 +1,26 @@
+{
+  "edition_id": "2026-08-19",
+  "run_id": "2026-08-19T232827Z",
+  "generated_at": "2026-08-19T23:28:27.022855+00:00",
+  "attempted_stories": 1,
+  "generated_stories": 1,
+  "failed_stories": 0,
+  "publishable": false,
+  "checks": [
+    {
+      "article_id": "4bef74236a333ef66db31ead",
+      "publishable": false,
+      "reasons": [
+        "image metadata alignment is not approved"
+      ],
+      "source_status": "linked",
+      "editorial_status": "automated-checks",
+      "metadata_review_status": "rejected",
+      "visual_review_status": "pending",
+      "desk_review": {
+        "status": "ready_for_human_review",
+        "reasons": []
+      }
+    }
+  ]
+}
