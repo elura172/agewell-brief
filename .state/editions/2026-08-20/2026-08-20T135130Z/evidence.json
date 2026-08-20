@@ -1,0 +1,26 @@
+[
+  {
+    "article_id": "e94121602a75dc187f03d137",
+    "study_type": "preclinical mouse model study",
+    "key_claims": [
+      "In healthy CA1, between-assembly pairs carried more joint spatial information than within-assembly pairs, and this surplus was synergistic.",
+      "In aged 5xFAD CA1, topological organization broke down through two routes: redundancy lost topology dependence and synergy lost context sensitivity during novel exploration.",
+      "The breakdown was greatest where ageing and the 5xFAD genotype coincided.",
+      "The genotype-age interaction resulted in reduced modularity, weighted clustering, and small-worldness in functional connectivity.",
+      "Community-level emergence revealed a cross-scale shift toward higher-order integration during ageing, which was reversed by the genotype-age interaction."
+    ],
+    "limitations": [
+      "The study is based on a mouse model (5xFAD) and may not fully replicate human Alzheimer's disease.",
+      "The findings are specific to CA1 hippocampal calcium imaging and may not generalize to other brain regions.",
+      "The study does not establish causality between the observed topological changes and behavioral or cognitive outcomes.",
+      "The source is a preprint and has not been peer-reviewed."
+    ],
+    "what_not_to_say": [
+      "Do not claim that the study proves a causal link between ageing and Alzheimer's disease.",
+      "Do not claim that the findings apply to humans without further evidence.",
+      "Do not claim that the study identifies a therapeutic target or treatment.",
+      "Do not claim that the study measured behavior or cognition."
+    ],
+    "confidence": "moderate"
+  }
+]

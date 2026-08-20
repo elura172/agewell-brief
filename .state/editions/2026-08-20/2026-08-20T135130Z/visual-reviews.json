@@ -1,0 +1,20 @@
+[
+  {
+    "article_id": "e94121602a75dc187f03d137",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "All three candidates fail to match the editorial intent of depicting a researcher with a mouse or brain scan in a neuroscience lab. Candidates 6608501 and 6608503 show a scientist holding a flask, not a mouse or brain scan. Candidate 7723395 shows medical research tools and anatomical models, which is generic and not specific to the story. None of the candidates' metadata supports the required subject or setting.",
+      "concerns": [
+        "The candidates are either irrelevant (flasks, medical tools) or too generic. There is no evidence of a mouse or brain scan in any candidate. The search queries were not effective in retrieving relevant images.",
+        "No valid candidate was selected."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]

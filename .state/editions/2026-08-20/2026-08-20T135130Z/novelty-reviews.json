@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "e94121602a75dc187f03d137": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Reveals a specific topological breakdown in hippocampal information processing in Alzheimer's, with distinct routes for redundancy and synergy loss. Offers a new organizing principle for spatial coding and a potential early biomarker.",
+      "angle": "How Alzheimer's dismantles the brain's information network: synergy loss and boundary dissolution as early markers",
+      "mode": "agent"
+    },
+    "826a9ed6d48b5ad697fc51ed": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Repeats a common sleep-health message without new mechanistic insight or specific data. The headline is generic and could have run any year.",
+      "angle": "The U-shaped sleep curve: what the latest aging clocks reveal about optimal sleep duration",
+      "mode": "agent"
+    },
+    "82f875792554c0814e851be7": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "environmental toxicant discovery",
+      "reason": "Identifies a specific class of common pesticides (dithiocarbamates) that directly trigger TDP-43 aggregation, a hallmark of ALS/FTD. Provides a plausible environmental link to neurodegeneration with mechanistic detail.",
+      "angle": "Common pesticides may trigger ALS-linked protein clumping: dithiocarbamates disrupt TDP-43",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "pilot intervention",
+      "reason": "Small pilot study with self-report measures and no control group. Yoga-based meditation benefits are well-known; lacks novelty and strong evidence.",
+      "angle": "Can a short yoga-based meditation program boost medical students' working memory and well-being? A pilot test",
+      "mode": "agent"
+    },
+    "b4cc7e9e901fe152a9915d85": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "lifestyle advice",
+      "reason": "Generic advice about exercise and weight loss for knee osteoarthritis. No new finding or specific data; could have been published any year.",
+      "angle": "Knee osteoarthritis isn't inevitable: how muscle strength and weight loss can slow progression",
+      "mode": "agent"
+    },
+    "d7a0c0f0e7ec7282f18da1af": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "imaging technology application",
+      "reason": "Applies magnetic resonance elastography to detect estrogen-dependent mechanical changes in the hippocampus across the reproductive cycle. Novel use of a specialized imaging technique to link hormones and brain structure.",
+      "angle": "Hormone-driven brain changes visualized: MRE reveals estrogen's effect on hippocampal stiffness",
+      "mode": "agent"
+    },
+    "50fb686985b7343e957e1964": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "early detection breakthrough",
+      "reason": "Claims Alzheimer's can be detected via brain imaging more than seven years earlier than previously thought. Significant shift in diagnostic timeline with potential for early intervention.",
+      "angle": "Alzheimer's detectable seven years earlier: new imaging approach could transform early diagnosis",
+      "mode": "agent"
+    },
+    "660dff1db05482a337e87779": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "conceptual framework",
+      "reason": "Interesting conceptual framework for reversible forgetting in AI agents, but highly technical and niche. Not directly relevant to aging audience; lacks practical application.",
+      "angle": "Forgetting on purpose: how AI agents can manage obsolete knowledge without losing adaptability",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Identifies distinct transposable element expression patterns in microglia across aging and Alzheimer's, suggesting a new role for these elements in neuroinflammation. Specific and novel.",
+      "angle": "Jumping genes in microglia: transposable element activity may drive Alzheimer's progression",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "e94121602a75dc187f03d137",
+    "82f875792554c0814e851be7",
+    "d7a0c0f0e7ec7282f18da1af",
+    "50fb686985b7343e957e1964",
+    "7b4238d2d99be8b9520034ff"
+  ],
+  "held_back": [
+    "826a9ed6d48b5ad697fc51ed",
+    "628839a76d990a192b399148",
+    "b4cc7e9e901fe152a9915d85",
+    "660dff1db05482a337e87779"
+  ],
+  "mode": "agent"
+}

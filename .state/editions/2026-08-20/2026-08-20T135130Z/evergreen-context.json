@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "e94121602a75dc187f03d137",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "0ab8467caacde078",
+        "source": "Dr. Mae-Wan Ho (1993) — The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 19
+      },
+      {
+        "source_id": "c282f56688b23539",
+        "source": "Dr. Vlail Kaznacheev (1976) — Cytopathic Mirror Effect & Ultra-Weak Biophotonic Information Transfer",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 16
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

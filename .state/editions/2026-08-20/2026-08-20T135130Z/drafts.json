@@ -1,0 +1,88 @@
+[
+  {
+    "article_id": "e94121602a75dc187f03d137",
+    "content_type": "lead",
+    "source_title": "Hippocampal information topology breaks down in a mouse model of Alzheimer's disease",
+    "draft": {
+      "headline": "Alzheimer's and ageing dismantle the brain's information topology",
+      "dek": "New mouse research shows that ageing and Alzheimer's pathology together dissolve the modular, synergistic architecture of hippocampal spatial coding—offering a biophysical map of cognitive decline.",
+      "bullets": [
+        "Between-assembly synergy is the healthy brain's spatial coding principle.",
+        "Ageing plus 5xFAD dissolves modular boundaries and synergy.",
+        "Network topology breakdown may underlie cognitive decline."
+      ],
+      "caveat": "This is a preprint, not peer-reviewed. Mouse findings may not translate to humans.",
+      "sections": [
+        {
+          "heading": "Why this matters",
+          "paragraphs": [
+            "The hippocampus is the brain's cartographer. It builds spatial maps from the coordinated firing of neuronal assemblies—clusters of cells that encode place, context, and memory. How these assemblies share information is not random; it follows a precise network topology. In healthy brains, information flows preferentially between assemblies, and this surplus is synergistic: the whole carries more than the sum of its parts.",
+            "This study reveals that ageing and Alzheimer's disease (AD) do not merely degrade individual neurons—they dismantle the information architecture itself. The breakdown is not uniform; it follows two distinct routes, and the damage is greatest where ageing and the 5xFAD genotype coincide. Understanding this topological collapse is essential for anyone who wants to grasp how cognitive decline physically unfolds at the network level."
+          ]
+        },
+        {
+          "heading": "What was found",
+          "paragraphs": [
+            "Using Partial Information Decomposition on calcium imaging from CA1 neurons in young and aged wild-type and 5xFAD mice, researchers quantified redundant and synergistic information sharing within and between assemblies. In healthy CA1, between-assembly pairs carried more joint spatial information than within-assembly pairs, and this surplus was synergistic—establishing network topology as an organizing principle of spatial coding.",
+            "In aged 5xFAD mice, this organization broke down through two routes: redundancy lost its topology dependence as modular boundaries dissolved, and synergy lost context sensitivity during novel exploration. The functional connectivity also showed reduced modularity, weighted clustering, and small-worldness. Community-level analysis revealed a cross-scale shift toward higher-order integration during ageing, which was reversed by the genotype-age interaction."
+          ]
+        },
+        {
+          "heading": "How to interpret it",
+          "paragraphs": [
+            "This is a mouse model study, not a human trial. The 5xFAD model recapitulates amyloid pathology but not the full complexity of human AD. The findings are specific to CA1 and may not generalize. Causality between topological changes and behavior was not established—no cognitive tests were performed.",
+            "Yet the biophysical mechanism is compelling: ageing and AD together erode the modular, synergistic structure that enables efficient spatial coding. The loss of synergy during novel exploration suggests a failure to integrate new contextual information—a hallmark of early cognitive decline. The reduced small-worldness implies less efficient information transfer, a physical correlate of mental fog.",
+            "This aligns with the biophysics lineage: Mae-Wan Ho's quantum coherent liquid crystals and Kaznacheev's biophotonic signaling remind us that living systems depend on coherent, low-dissipation information flow. When that coherence breaks down at the network level, cognition follows."
+          ]
+        },
+        {
+          "heading": "Practical next steps",
+          "paragraphs": [
+            "For the sovereign adult, this study underscores the importance of protecting hippocampal network integrity. While no supplement or intervention can yet target these topological changes, lifestyle factors that support mitochondrial health and reduce neuroinflammation—regular aerobic exercise, adequate sleep, and a low-glycemic diet—remain the most evidence-based strategies.",
+            "Stay alert for future research that translates these network biomarkers to humans. If we can measure topological breakdown in living brains, we may one day detect AD earlier and monitor interventions with precision. For now, the message is clear: the brain's information architecture is fragile, and ageing amplifies the damage."
+          ]
+        }
+      ],
+      "evidence_position": "emerging"
+    },
+    "bullets": [
+      "Between-assembly synergy is the healthy brain's spatial coding principle.",
+      "Ageing plus 5xFAD dissolves modular boundaries and synergy.",
+      "Network topology breakdown may underlie cognitive decline."
+    ],
+    "sections": [
+      {
+        "heading": "Why this matters",
+        "paragraphs": [
+          "The hippocampus is the brain's cartographer. It builds spatial maps from the coordinated firing of neuronal assemblies—clusters of cells that encode place, context, and memory. How these assemblies share information is not random; it follows a precise network topology. In healthy brains, information flows preferentially between assemblies, and this surplus is synergistic: the whole carries more than the sum of its parts.",
+          "This study reveals that ageing and Alzheimer's disease (AD) do not merely degrade individual neurons—they dismantle the information architecture itself. The breakdown is not uniform; it follows two distinct routes, and the damage is greatest where ageing and the 5xFAD genotype coincide. Understanding this topological collapse is essential for anyone who wants to grasp how cognitive decline physically unfolds at the network level."
+        ]
+      },
+      {
+        "heading": "What was found",
+        "paragraphs": [
+          "Using Partial Information Decomposition on calcium imaging from CA1 neurons in young and aged wild-type and 5xFAD mice, researchers quantified redundant and synergistic information sharing within and between assemblies. In healthy CA1, between-assembly pairs carried more joint spatial information than within-assembly pairs, and this surplus was synergistic—establishing network topology as an organizing principle of spatial coding.",
+          "In aged 5xFAD mice, this organization broke down through two routes: redundancy lost its topology dependence as modular boundaries dissolved, and synergy lost context sensitivity during novel exploration. The functional connectivity also showed reduced modularity, weighted clustering, and small-worldness. Community-level analysis revealed a cross-scale shift toward higher-order integration during ageing, which was reversed by the genotype-age interaction."
+        ]
+      },
+      {
+        "heading": "How to interpret it",
+        "paragraphs": [
+          "This is a mouse model study, not a human trial. The 5xFAD model recapitulates amyloid pathology but not the full complexity of human AD. The findings are specific to CA1 and may not generalize. Causality between topological changes and behavior was not established—no cognitive tests were performed.",
+          "Yet the biophysical mechanism is compelling: ageing and AD together erode the modular, synergistic structure that enables efficient spatial coding. The loss of synergy during novel exploration suggests a failure to integrate new contextual information—a hallmark of early cognitive decline. The reduced small-worldness implies less efficient information transfer, a physical correlate of mental fog.",
+          "This aligns with the biophysics lineage: Mae-Wan Ho's quantum coherent liquid crystals and Kaznacheev's biophotonic signaling remind us that living systems depend on coherent, low-dissipation information flow. When that coherence breaks down at the network level, cognition follows."
+        ]
+      },
+      {
+        "heading": "Practical next steps",
+        "paragraphs": [
+          "For the sovereign adult, this study underscores the importance of protecting hippocampal network integrity. While no supplement or intervention can yet target these topological changes, lifestyle factors that support mitochondrial health and reduce neuroinflammation—regular aerobic exercise, adequate sleep, and a low-glycemic diet—remain the most evidence-based strategies.",
+          "Stay alert for future research that translates these network biomarkers to humans. If we can measure topological breakdown in living brains, we may one day detect AD earlier and monitor interventions with precision. For now, the message is clear: the brain's information architecture is fragile, and ageing amplifies the damage."
+        ]
+      }
+    ],
+    "headline": "Alzheimer's and ageing dismantle the brain's information topology",
+    "dek": "New mouse research shows that ageing and Alzheimer's pathology together dissolve the modular, synergistic architecture of hippocampal spatial coding—offering a biophysical map of cognitive decline.",
+    "caveat": "This is a preprint, not peer-reviewed. Mouse findings may not translate to humans."
+  }
+]
