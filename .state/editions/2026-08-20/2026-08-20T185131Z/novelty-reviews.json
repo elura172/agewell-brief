@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "fee56aaf1dcd387b9209aa2f": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "New evidence that gray and white matter jointly shape cognition, with short-range wiring potentially buffering gray matter loss. Specific and actionable for understanding cognitive resilience.",
+      "angle": "Can the brain's short-range wiring protect against gray matter loss? New study reveals a compensatory mechanism.",
+      "mode": "agent"
+    },
+    "293575032d6d874d7f16b829": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "methodology",
+      "reason": "Introduces a quantitative framework (BFS) to validate explainability methods in Alzheimer's MRI classification, addressing a gap in individual-level biomarker alignment.",
+      "angle": "New 'Biomarker Fidelity Score' ranks AI explainability methods for Alzheimer's diagnosis—why Integrated Gradients outperforms GradCAM++.",
+      "mode": "agent"
+    },
+    "628839a76d990a192b399148": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "intervention",
+      "reason": "Pilot study on yoga-based meditation for medical students; small sample, preliminary, and similar benefits are widely reported.",
+      "angle": "Yoga-based meditation may boost self-regulation in med students—but is it the meditation or the break?",
+      "mode": "agent"
+    },
+    "b4cc7e9e901fe152a9915d85": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle",
+      "reason": "Generic advice on knee osteoarthritis prevention; no new findings or specific data.",
+      "angle": "Knee osteoarthritis isn't inevitable: simple steps to protect your knees.",
+      "mode": "agent"
+    },
+    "4dd904642ddb4884fe9ab412": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Reveals distinct prefrontal-amygdala connectivity patterns that drive consolidated fear memories, challenging static ensemble view and offering new circuit-level insights.",
+      "angle": "Fear memories aren't static: how brain circuits redistribute during consolidation.",
+      "mode": "agent"
+    },
+    "d7a0c0f0e7ec7282f18da1af": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "technology",
+      "reason": "First use of magnetic resonance elastography to detect estrogen-dependent mechanical changes in the hippocampus across the reproductive cycle, linking hormones to brain structure.",
+      "angle": "New imaging reveals estrogen's mechanical impact on the brain—could this reshape our understanding of memory?",
+      "mode": "agent"
+    },
+    "660dff1db05482a337e87779": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "concept",
+      "reason": "Proposes 'reversible forgetting' for continual learning in AI agents, a novel framework with operational memory states, addressing obsolete knowledge in dynamic environments.",
+      "angle": "Forgetting isn't failure: 'reversible forgetting' helps AI adapt to changing regulations and markets.",
+      "mode": "agent"
+    },
+    "7b4238d2d99be8b9520034ff": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanism",
+      "reason": "Study on transposable element expression in microglia across aging and Alzheimer's, but abstract lacks specific findings or novelty.",
+      "angle": "Transposable elements in microglia: new players in Alzheimer's and aging?",
+      "mode": "agent"
+    },
+    "44d85c20f70b28aea7edb7f1": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies HNRNPC succinylation as a driver of neurodegeneration via YME1L1-mediated mitochondrial metabolism, offering a new post-translational modification target in Alzheimer's.",
+      "angle": "Succinylation of HNRNPC disrupts mitochondrial metabolism—a new Alzheimer's pathway.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "fee56aaf1dcd387b9209aa2f",
+    "293575032d6d874d7f16b829",
+    "4dd904642ddb4884fe9ab412",
+    "d7a0c0f0e7ec7282f18da1af",
+    "660dff1db05482a337e87779",
+    "44d85c20f70b28aea7edb7f1"
+  ],
+  "held_back": [
+    "628839a76d990a192b399148",
+    "b4cc7e9e901fe152a9915d85",
+    "7b4238d2d99be8b9520034ff"
+  ],
+  "mode": "agent"
+}
