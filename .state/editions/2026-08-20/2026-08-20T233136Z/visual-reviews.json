@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "8630f55ce7df5df5f67f0059",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:6941101",
+      "score": 85,
+      "rationale": "This image directly depicts a person holding a glucose meter, which aligns with the story's focus on blood sugar monitoring in type 1 diabetes. The purple background is neutral and does not introduce fear or medical stereotypes. The metadata does not show any needles or complications, and the subject is actively engaged in glucose testing, which matches the editorial intent of showing control and normalcy.",
+      "concerns": [
+        "The image shows a glucose meter rather than a continuous glucose monitor (CGM) as specified in the brief. However, it is the closest match among candidates and effectively conveys the theme of blood sugar management. The setting is not a kitchen, but the focus on the device is more relevant than the setting."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-08-20/time-restricted-eating-shows-promise-for-type-1-diabetes-blood-sugar-c-8630f55c-pexels-6941101.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
