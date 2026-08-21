@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "293575032d6d874d7f16b829": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "methodological innovation",
+      "reason": "Introduces a quantitative framework (BFS) to validate explainability methods in Alzheimer's MRI at the individual level, addressing a gap in the field. Benchmarks five methods across three architectures, offering concrete comparative results.",
+      "angle": "Which AI explanation method best pinpoints Alzheimer's biomarkers? New 'fidelity score' puts them to the test.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "A list of balance exercises for seniors; common content with no new findings or unique angle.",
+      "angle": "13 balance exercises that actually prevent falls: a senior's guide.",
+      "mode": "agent"
+    },
+    "b4cc7e9e901fe152a9915d85": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "lifestyle reminder",
+      "reason": "Reinforces known benefits of exercise and diet for knee osteoarthritis; lacks a specific new study or mechanism.",
+      "angle": "Knee osteoarthritis isn't inevitable: the exact exercises and diet tweaks that cut risk.",
+      "mode": "agent"
+    },
+    "9c2455ea6f8cf1d3567b0615": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "methodological innovation",
+      "reason": "Presents a longitudinal Bayesian framework for continuous disease positioning in Alzheimer's using DTI, moving beyond discrete classification. Offers a novel score with uncertainty quantification.",
+      "angle": "A new 'disease continuum score' tracks Alzheimer's progression continuously, not just in stages.",
+      "mode": "agent"
+    },
+    "a206a150fae3086f3c2c5d4b": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "specific mechanism",
+      "reason": "Links aged mitochondrial DNA to aberrant exercise-induced redox responses in muscle, providing a mechanistic insight into aging and exercise response.",
+      "angle": "Why your muscles don't recover like they used to: aged mitochondrial DNA disrupts exercise's redox balance.",
+      "mode": "agent"
+    },
+    "d7a0c0f0e7ec7282f18da1af": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Uses magnetic resonance elastography to detect estrogen-dependent mechanical changes in the hippocampus across the reproductive cycle, a novel application of imaging technology.",
+      "angle": "Hormones physically reshape the brain: new imaging shows estrogen's mechanical impact on memory regions.",
+      "mode": "agent"
+    },
+    "50fb686985b7343e957e1964": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Claims Alzheimer's can be detected over seven years earlier than previously thought, a significant shift in early detection timeline.",
+      "angle": "Alzheimer's detectable 7+ years earlier: what this means for prevention trials.",
+      "mode": "agent"
+    },
+    "c9f745db16cc01a2afcda97e": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "case report",
+      "reason": "A single case report of atypical MOGAD presentation; interesting but limited generalizability and niche audience.",
+      "angle": "A rare autoimmune disease mimicking Wernicke's encephalopathy: a diagnostic challenge.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another senior workout routine; similar to existing content with no new data or unique perspective.",
+      "angle": "A trainer's 'simple and safe' daily routine to keep you steady on your feet.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "293575032d6d874d7f16b829",
+    "9c2455ea6f8cf1d3567b0615",
+    "a206a150fae3086f3c2c5d4b",
+    "d7a0c0f0e7ec7282f18da1af",
+    "50fb686985b7343e957e1964"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "b4cc7e9e901fe152a9915d85",
+    "c9f745db16cc01a2afcda97e",
+    "256b3e11dfff849235aebba7"
+  ],
+  "mode": "agent"
+}
