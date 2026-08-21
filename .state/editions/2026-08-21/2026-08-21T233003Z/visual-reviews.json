@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "b4cc7e9e901fe152a9915d85",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "The only candidate provided is a close-up of a man on a stationary bike, which does not match the required subject (a senior woman doing a wall sit) or the editorial intent of showing active leg strengthening. The metadata lacks sufficient detail to confirm relevance, and the image is a close-up, which is explicitly avoided in the brief.",
+      "concerns": [
+        "The candidate's subject, setting, and composition do not align with the image brief. The alt text indicates a close-up, which is listed under 'avoid'. The gender and activity differ from the specified subject."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]

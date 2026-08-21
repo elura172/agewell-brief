@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "specific sleep duration range",
+      "reason": "Specific sleep duration range tied to longevity is useful, but the story is a routine observational association that has been widely covered.",
+      "angle": "Why 6.4-7.8 hours? Unpack the biological mechanisms that make this range optimal for aging.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "mechanistic link",
+      "reason": "Explores the interplay between sleep, redox metabolism, and aging, offering a mechanistic angle, but it's a review rather than a new finding.",
+      "angle": "How sleep quality directly influences redox balance to slow brain aging.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "practical guide",
+      "reason": "Generic list of balance exercises for seniors; lacks novelty and could run any year.",
+      "angle": "Which balance exercises have the strongest evidence for preventing falls?",
+      "mode": "agent"
+    },
+    "b4cc7e9e901fe152a9915d85": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "actionable prevention",
+      "reason": "Challenges the inevitability of knee osteoarthritis with concrete preventive measures, offering a hopeful and actionable message.",
+      "angle": "New evidence shows knee osteoarthritis is not inevitable: specific exercises and weight loss strategies that work.",
+      "mode": "agent"
+    },
+    "a206a150fae3086f3c2c5d4b": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "mechanistic finding",
+      "reason": "Specific finding on aged mitochondrial DNA and aberrant exercise-induced redox responses; novel mechanism with implications for exercise in older adults.",
+      "angle": "Why your muscles' response to exercise changes with age: mitochondrial DNA damage and redox signaling.",
+      "mode": "agent"
+    },
+    "50fb686985b7343e957e1964": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "early detection breakthrough",
+      "reason": "Alzheimer's detectable seven years earlier via brain imaging is a significant advancement with high reader interest.",
+      "angle": "Alzheimer's detected 7 years earlier: what this means for prevention and treatment.",
+      "mode": "agent"
+    },
+    "c9f745db16cc01a2afcda97e": {
+      "score": 50,
+      "decision": "hold",
+      "novelty_type": "case report",
+      "reason": "Rare case report of MOGAD with atypical MRI presentation; interesting but niche for a general aging audience.",
+      "angle": "A rare autoimmune disease mimicking Wernicke's encephalopathy: diagnostic challenges in MOGAD.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "practical guide",
+      "reason": "Daily workout for seniors is useful but generic; similar content widely available.",
+      "angle": "A senior fitness expert's 'simple and safe' daily routine: what it includes and why it works.",
+      "mode": "agent"
+    },
+    "15bfe435d25ba28791b75f4c": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "program launch",
+      "reason": "Local program launch is newsworthy but limited appeal; not a major scientific or health breakthrough.",
+      "angle": "New Mexico's new program to help older adults age independently: what it offers and who qualifies.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "b4cc7e9e901fe152a9915d85",
+    "a206a150fae3086f3c2c5d4b",
+    "50fb686985b7343e957e1964"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "cadce59ed8f9539ef7a34ac6",
+    "c9f745db16cc01a2afcda97e",
+    "256b3e11dfff849235aebba7",
+    "15bfe435d25ba28791b75f4c"
+  ],
+  "mode": "agent"
+}
