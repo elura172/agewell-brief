@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "List of balance exercises is common, evergreen content with no new finding or specific hook.",
+      "angle": "Could be refreshed with expert commentary on why balance declines with age and how to progress safely.",
+      "mode": "agent"
+    },
+    "b4cc7e9e901fe152a9915d85": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "preventive health",
+      "reason": "Reinforces known benefits of exercise and weight loss for knee osteoarthritis; lacks a novel mechanism or breakthrough.",
+      "angle": "Focus on the specific exercise types and intensity that most effectively reduce knee pain, citing the latest evidence.",
+      "mode": "agent"
+    },
+    "9c2455ea6f8cf1d3567b0615": {
+      "score": 70,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Introduces a novel AI framework (DCP) for continuous disease staging in Alzheimer's using longitudinal imaging, a significant methodological advance.",
+      "angle": "How continuous disease scoring could enable earlier and more personalized Alzheimer's interventions.",
+      "mode": "agent"
+    },
+    "a206a150fae3086f3c2c5d4b": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Links aged mitochondrial DNA to aberrant exercise-induced redox responses, providing a specific molecular mechanism for age-related exercise intolerance.",
+      "angle": "Why older muscles respond differently to exercise at the mitochondrial level and what that means for workout recommendations.",
+      "mode": "agent"
+    },
+    "50fb686985b7343e957e1964": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "early detection",
+      "reason": "Claims Alzheimer's can be detected via brain imaging over seven years earlier than previously thought, a major shift in early diagnosis.",
+      "angle": "The promise and pitfalls of detecting Alzheimer's a decade before symptoms: what this means for clinical trials and prevention.",
+      "mode": "agent"
+    },
+    "c9f745db16cc01a2afcda97e": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "case report",
+      "reason": "A single case report of atypical MOGAD presentation is interesting but limited in generalizability.",
+      "angle": "Could be part of a broader piece on atypical presentations of autoimmune neurological diseases.",
+      "mode": "agent"
+    },
+    "256b3e11dfff849235aebba7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Another senior workout article with no new data or unique angle.",
+      "angle": "Could be combined with the four-minute workout trend to provide a practical guide.",
+      "mode": "agent"
+    },
+    "15bfe435d25ba28791b75f4c": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "program announcement",
+      "reason": "Local program launch is not broadly novel, but may be of regional interest.",
+      "angle": "Focus on the specific components of the program and how it could serve as a model for other states.",
+      "mode": "agent"
+    },
+    "311cd103c80a4a66b6582c38": {
+      "score": 80,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Reveals a novel mechanism where butyrate reprograms intestinal cells to have a lasting anti-inflammatory memory, going beyond transient effects.",
+      "angle": "How butyrate's epigenetic reprogramming of the gut could lead to new therapies for inflammatory bowel diseases.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "9c2455ea6f8cf1d3567b0615",
+    "a206a150fae3086f3c2c5d4b",
+    "50fb686985b7343e957e1964",
+    "311cd103c80a4a66b6582c38"
+  ],
+  "held_back": [
+    "cadce59ed8f9539ef7a34ac6",
+    "b4cc7e9e901fe152a9915d85",
+    "c9f745db16cc01a2afcda97e",
+    "256b3e11dfff849235aebba7",
+    "15bfe435d25ba28791b75f4c"
+  ],
+  "mode": "agent"
+}

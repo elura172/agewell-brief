@@ -1,0 +1,28 @@
+[
+  {
+    "article_id": "9c2455ea6f8cf1d3567b0615",
+    "study_type": "longitudinal Bayesian learning framework",
+    "key_claims": [
+      "Alzheimer's disease progresses as a continuous biological process.",
+      "Most existing neuroimaging-based AI methods are limited to discrete diagnosis or clinical score prediction from cross-sectional imaging.",
+      "The proposed Disease Continuum Positioning (DCP) framework continuously estimates disease severity from longitudinal diffusion tensor imaging (DTI).",
+      "DCP models disease severity as a low-dimensional probabilistic latent variable by integrating longitudinal observations with weak clinical supervision.",
+      "The Disease Continuum Score (DCS) quantifies an individual's position along the Alzheimer's disease continuum with associated uncertainty.",
+      "Experiments on the ADNI cohort show DCP consistently outperforms representative disease progression methods."
+    ],
+    "limitations": [
+      "The source is an abstract and does not provide detailed methodology or full results.",
+      "The specific performance metrics and statistical significance are not reported.",
+      "The generalizability to other cohorts or clinical settings is not addressed.",
+      "The source does not discuss potential limitations or biases of the approach."
+    ],
+    "what_not_to_say": [
+      "DCP is a causal model for Alzheimer's disease.",
+      "DCS is a validated clinical biomarker.",
+      "DCP has been approved for clinical use.",
+      "The study includes specific numerical results or effect sizes.",
+      "The framework is superior to all other methods in all settings."
+    ],
+    "confidence": "moderate"
+  }
+]

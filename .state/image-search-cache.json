@@ -12611,7 +12611,7 @@
     ]
   },
   "Pexels:neuroscientist analyzing brain scan monitor": {
-    "saved_at": "2026-08-15T18:41:10.323431+00:00",
+    "saved_at": "2026-08-21T18:50:30.438706+00:00",
     "candidates": [
       {
         "provider": "Pexels",
@@ -12657,20 +12657,6 @@
       },
       {
         "provider": "Pexels",
-        "provider_id": "4226264",
-        "download_url": "https://images.pexels.com/photos/4226264/pexels-photo-4226264.jpeg?auto=compress&cs=tinysrgb&w=1800",
-        "source_url": "https://www.pexels.com/photo/close-up-shot-of-mri-results-4226264/",
-        "creator": "Anna Shvets",
-        "creator_url": "https://www.pexels.com/@shvetsa",
-        "alt": "Radiologist pointing at brain MRI scans showing detailed medical examination.",
-        "tags": [],
-        "width": 6077,
-        "height": 4051,
-        "avg_color": "#868E93",
-        "search_query": "neuroscientist analyzing brain scan monitor"
-      },
-      {
-        "provider": "Pexels",
         "provider_id": "5723883",
         "download_url": "https://images.pexels.com/photos/5723883/pexels-photo-5723883.jpeg?auto=compress&cs=tinysrgb&w=1800",
         "source_url": "https://www.pexels.com/photo/mri-images-of-the-brain-5723883/",
@@ -12681,6 +12667,20 @@
         "width": 6240,
         "height": 4160,
         "avg_color": "#797C7C",
+        "search_query": "neuroscientist analyzing brain scan monitor"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "4226264",
+        "download_url": "https://images.pexels.com/photos/4226264/pexels-photo-4226264.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/close-up-shot-of-mri-results-4226264/",
+        "creator": "Anna Shvets",
+        "creator_url": "https://www.pexels.com/@shvetsa",
+        "alt": "Radiologist pointing at brain MRI scans showing detailed medical examination.",
+        "tags": [],
+        "width": 6077,
+        "height": 4051,
+        "avg_color": "#868E93",
         "search_query": "neuroscientist analyzing brain scan monitor"
       },
       {
@@ -57135,6 +57135,240 @@
         "height": 4480,
         "avg_color": "#222220",
         "search_query": "researcher examining brain imaging data"
+      }
+    ]
+  },
+  "Pexels:brain scan on computer screen lab": {
+    "saved_at": "2026-08-21T18:50:30.393121+00:00",
+    "candidates": [
+      {
+        "provider": "Pexels",
+        "provider_id": "6011611",
+        "download_url": "https://images.pexels.com/photos/6011611/pexels-photo-6011611.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/ct-scan-result-on-digital-tablet-6011611/",
+        "creator": "Tima Miroshnichenko",
+        "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "alt": "Close-up of brain CT scan display on tablet beside patient's legs in a hospital room.",
+        "tags": [],
+        "width": 6000,
+        "height": 4000,
+        "avg_color": "#586161",
+        "search_query": "brain scan on computer screen lab"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "7089305",
+        "download_url": "https://images.pexels.com/photos/7089305/pexels-photo-7089305.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/image-of-a-person-inside-the-mri-scanner-7089305/",
+        "creator": "MART  PRODUCTION",
+        "creator_url": "https://www.pexels.com/@mart-production",
+        "alt": "Close-up of an MRI scanner displayed on a monitor in a medical clinic.",
+        "tags": [],
+        "width": 6000,
+        "height": 4000,
+        "avg_color": "#6D6762",
+        "search_query": "brain scan on computer screen lab"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "6010927",
+        "download_url": "https://images.pexels.com/photos/6010927/pexels-photo-6010927.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/brain-image-on-digital-tablet-6010927/",
+        "creator": "Tima Miroshnichenko",
+        "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "alt": "Close-up view of a brain CT scan displayed on a digital tablet with a medical needle beside it.",
+        "tags": [],
+        "width": 6000,
+        "height": 4000,
+        "avg_color": "#434B4A",
+        "search_query": "brain scan on computer screen lab"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "4226264",
+        "download_url": "https://images.pexels.com/photos/4226264/pexels-photo-4226264.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/close-up-shot-of-mri-results-4226264/",
+        "creator": "Anna Shvets",
+        "creator_url": "https://www.pexels.com/@shvetsa",
+        "alt": "Radiologist pointing at brain MRI scans showing detailed medical examination.",
+        "tags": [],
+        "width": 6077,
+        "height": 4051,
+        "avg_color": "#868E93",
+        "search_query": "brain scan on computer screen lab"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "5723883",
+        "download_url": "https://images.pexels.com/photos/5723883/pexels-photo-5723883.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/mri-images-of-the-brain-5723883/",
+        "creator": "cottonbro studio",
+        "creator_url": "https://www.pexels.com/@cottonbro",
+        "alt": "Detailed brain MRI scans displayed on a lightbox, showcasing medical imaging techniques.",
+        "tags": [],
+        "width": 6240,
+        "height": 4160,
+        "avg_color": "#797C7C",
+        "search_query": "brain scan on computer screen lab"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "6234993",
+        "download_url": "https://images.pexels.com/photos/6234993/pexels-photo-6234993.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/a-skull-image-on-the-monitor-of-a-computer-6234993/",
+        "creator": "Tima Miroshnichenko",
+        "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "alt": "A black and white image of a skull on a computer monitor in a workspace.",
+        "tags": [],
+        "width": 6000,
+        "height": 4000,
+        "avg_color": "#2C2C2C",
+        "search_query": "brain scan on computer screen lab"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "4226219",
+        "download_url": "https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/a-doctor-holding-an-mri-result-of-the-brain-4226219/",
+        "creator": "Anna Shvets",
+        "creator_url": "https://www.pexels.com/@shvetsa",
+        "alt": "A medical professional reviewing MRI brain scans in a clinical setting, highlighting healthcare technology.",
+        "tags": [],
+        "width": 6240,
+        "height": 4160,
+        "avg_color": "#9AA0AA",
+        "search_query": "brain scan on computer screen lab"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "7089030",
+        "download_url": "https://images.pexels.com/photos/7089030/pexels-photo-7089030.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/photo-of-person-using-ultrasound-scan-7089030/",
+        "creator": "MART  PRODUCTION",
+        "creator_url": "https://www.pexels.com/@mart-production",
+        "alt": "A woman undergoing an ultrasound scan by a healthcare professional.",
+        "tags": [],
+        "width": 6000,
+        "height": 4000,
+        "avg_color": "#A3A19E",
+        "search_query": "brain scan on computer screen lab"
+      }
+    ]
+  },
+  "Pexels:researcher pointing at mri brain images": {
+    "saved_at": "2026-08-21T18:50:30.528755+00:00",
+    "candidates": [
+      {
+        "provider": "Pexels",
+        "provider_id": "4226264",
+        "download_url": "https://images.pexels.com/photos/4226264/pexels-photo-4226264.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/close-up-shot-of-mri-results-4226264/",
+        "creator": "Anna Shvets",
+        "creator_url": "https://www.pexels.com/@shvetsa",
+        "alt": "Radiologist pointing at brain MRI scans showing detailed medical examination.",
+        "tags": [],
+        "width": 6077,
+        "height": 4051,
+        "avg_color": "#868E93",
+        "search_query": "researcher pointing at MRI brain images"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "4226219",
+        "download_url": "https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/a-doctor-holding-an-mri-result-of-the-brain-4226219/",
+        "creator": "Anna Shvets",
+        "creator_url": "https://www.pexels.com/@shvetsa",
+        "alt": "A medical professional reviewing MRI brain scans in a clinical setting, highlighting healthcare technology.",
+        "tags": [],
+        "width": 6240,
+        "height": 4160,
+        "avg_color": "#9AA0AA",
+        "search_query": "researcher pointing at MRI brain images"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "6011611",
+        "download_url": "https://images.pexels.com/photos/6011611/pexels-photo-6011611.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/ct-scan-result-on-digital-tablet-6011611/",
+        "creator": "Tima Miroshnichenko",
+        "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "alt": "Close-up of brain CT scan display on tablet beside patient's legs in a hospital room.",
+        "tags": [],
+        "width": 6000,
+        "height": 4000,
+        "avg_color": "#586161",
+        "search_query": "researcher pointing at MRI brain images"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "5723883",
+        "download_url": "https://images.pexels.com/photos/5723883/pexels-photo-5723883.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/mri-images-of-the-brain-5723883/",
+        "creator": "cottonbro studio",
+        "creator_url": "https://www.pexels.com/@cottonbro",
+        "alt": "Detailed brain MRI scans displayed on a lightbox, showcasing medical imaging techniques.",
+        "tags": [],
+        "width": 6240,
+        "height": 4160,
+        "avg_color": "#797C7C",
+        "search_query": "researcher pointing at MRI brain images"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "6129042",
+        "download_url": "https://images.pexels.com/photos/6129042/pexels-photo-6129042.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/doctor-looking-at-an-x-ray-image-6129042/",
+        "creator": "RDNE Stock project",
+        "creator_url": "https://www.pexels.com/@rdne",
+        "alt": "A healthcare professional examines brain X-rays while wearing a face mask in a hospital setting.",
+        "tags": [],
+        "width": 6614,
+        "height": 4409,
+        "avg_color": "#99ABB8",
+        "search_query": "researcher pointing at MRI brain images"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "4226259",
+        "download_url": "https://images.pexels.com/photos/4226259/pexels-photo-4226259.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/a-doctor-holding-an-x-ray-result-4226259/",
+        "creator": "Anna Shvets",
+        "creator_url": "https://www.pexels.com/@shvetsa",
+        "alt": "Medical professional analyzing chest x-ray images in a clinical setting for diagnostic purposes.",
+        "tags": [],
+        "width": 6240,
+        "height": 4160,
+        "avg_color": "#A0ADB7",
+        "search_query": "researcher pointing at MRI brain images"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "6010927",
+        "download_url": "https://images.pexels.com/photos/6010927/pexels-photo-6010927.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/brain-image-on-digital-tablet-6010927/",
+        "creator": "Tima Miroshnichenko",
+        "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "alt": "Close-up view of a brain CT scan displayed on a digital tablet with a medical needle beside it.",
+        "tags": [],
+        "width": 6000,
+        "height": 4000,
+        "avg_color": "#434B4A",
+        "search_query": "researcher pointing at MRI brain images"
+      },
+      {
+        "provider": "Pexels",
+        "provider_id": "5723880",
+        "download_url": "https://images.pexels.com/photos/5723880/pexels-photo-5723880.jpeg?auto=compress&cs=tinysrgb&w=1800",
+        "source_url": "https://www.pexels.com/photo/medical-imaging-examination-of-the-spine-5723880/",
+        "creator": "cottonbro studio",
+        "creator_url": "https://www.pexels.com/@cottonbro",
+        "alt": "High-resolution radiological images showcasing the complex structure of the human spine for medical examination.",
+        "tags": [],
+        "width": 6187,
+        "height": 4125,
+        "avg_color": "#505351",
+        "search_query": "researcher pointing at MRI brain images"
       }
     ]
   }
