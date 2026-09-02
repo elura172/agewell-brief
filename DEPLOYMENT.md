@@ -61,6 +61,18 @@ Deploy command: npx wrangler deploy
 Static asset directory: dist
 ```
 
+If GitHub Actions or Workers Builds is unavailable, the same production Worker
+can be deployed directly after a local build:
+
+```bash
+npm run build
+npx wrangler deploy
+```
+
+The checked-in `wrangler.jsonc` keeps the Worker name, compatibility date, and
+static asset directory explicit so this fallback does not depend on dashboard
+configuration.
+
 Cloudflare's automatic Astro setup requires `public/.assetsignore`; Astro copies
 it to `dist/` so Worker output files are not uploaded as public assets. The
 custom domain is attached under **Settings → Domains & Routes**.
