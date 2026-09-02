@@ -71,7 +71,9 @@ def audit_file(filepath: Path) -> bool:
         # Append to frontmatter
         frontmatter = frontmatter.strip() + f"\n{topics_fm}\n{frameworks_fm}\n"
 
-    updated_file = f"---{frontmatter}---{body}"
+    # Keep canonical YAML delimiters on their own lines. Joining the split
+    # pieces directly produced a tolerated-but-malformed `---title:` opener.
+    updated_file = f"---\n{frontmatter.strip()}\n---\n\n{body.lstrip()}"
     filepath.write_text(updated_file, encoding="utf-8")
     return True
 

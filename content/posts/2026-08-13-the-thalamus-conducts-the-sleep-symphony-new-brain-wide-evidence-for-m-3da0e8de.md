@@ -1,6 +1,6 @@
 ---title: "The Thalamus Conducts the Sleep Symphony: New Brain-Wide Evidence for Memory Consolidation"
 date: 2026-08-13T14:24:17.569149+00:00
-draft: true
+draft: false
 category: "sleep health"
 content_type: "lead"
 edition_rank: 1

@@ -34,6 +34,29 @@ def default_platform() -> dict[str, object]:
     return {"status": "pending", "request_id": None, "job_id": None, "updated_at": now()}
 
 
+def update_platform_state(
+    state: dict[str, object],
+    updates: dict[str, object],
+    *,
+    clear: tuple[str, ...] = (),
+) -> bool:
+    """Apply a status update only when its meaningful fields changed.
+
+    Polling timestamps are deliberately excluded from the comparison. This
+    keeps transient, repeated API failures from producing a new Git commit on
+    every scheduled reconciliation run.
+    """
+    changed = any(state.get(key) != value for key, value in updates.items())
+    changed = changed or any(key in state for key in clear)
+    if not changed:
+        return False
+    state.update(updates)
+    for key in clear:
+        state.pop(key, None)
+    state["updated_at"] = now()
+    return True
+
+
 def sync(packages_path: Path, manifest_path: Path) -> int:
     payload = read_json(packages_path, {"packages": []})
     manifest = read_json(
@@ -109,23 +132,23 @@ def status(args: argparse.Namespace) -> int:
                 with urlopen(request, timeout=20) as response:
                     result = json.loads(response.read().decode("utf-8"))
             except (HTTPError, URLError, TimeoutError) as error:
-                state["last_error"] = type(error).__name__
-                state["updated_at"] = now()
-                changed += 1
+                changed += int(update_platform_state(state, {"last_error": type(error).__name__}))
                 continue
             for item in result.get("results", []):
                 if item.get("platform") != platform:
                     continue
-                state.update(
-                    {
-                        "status": item.get("status", result.get("status", "processing")),
-                        "success": item.get("success"),
-                        "post_id": item.get("post_id"),
-                        "url": item.get("url"),
-                        "updated_at": now(),
-                    }
+                changed += int(
+                    update_platform_state(
+                        state,
+                        {
+                            "status": item.get("status", result.get("status", "processing")),
+                            "success": item.get("success"),
+                            "post_id": item.get("post_id"),
+                            "url": item.get("url"),
+                        },
+                        clear=("last_error",),
+                    )
                 )
-                changed += 1
     if changed:
         manifest["updated_at"] = now()
         write_json(args.manifest, manifest)

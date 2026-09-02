@@ -1,6 +1,6 @@
 ---title: "Your brain's plumbing runs on a 24-hour clock: new study links wakefulness and CSF oscillations"
 date: 2026-08-15T18:40:11.954343+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

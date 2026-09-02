@@ -618,6 +618,27 @@ def test_release_audit_keeps_shadow_edition_in_draft():
     assert "human editorial review is pending" in result.reasons
 
 
+def test_automatic_release_can_ship_text_only_when_image_metadata_is_missing():
+    story = {
+        "headline": "A useful finding",
+        "dek": "A clear introduction.",
+        "bullets": ["One", "Two", "Three"],
+    }
+    result = audit_release(
+        "abc",
+        "https://example.test/source",
+        story,
+        "missing",
+        "pending",
+        require_human_review=False,
+        require_visual_review=False,
+        require_metadata_review=False,
+    )
+
+    assert result.publishable is True
+    assert result.metadata_review_status == "missing"
+
+
 def test_deferred_vision_reviewer_never_claims_pixel_review():
     brief = ImageBrief("intent", "subject", "setting", "mood", "composition", (), ("query",))
     result = DeferredVisionReviewer().review("/tmp/image.webp", brief, {"headline": "Story"})

@@ -1,6 +1,6 @@
 ---title: "Microglial Waste Clearance: The Shared Cellular Pathway Behind Childhood Dementia and Alzheimer's"
 date: 2026-08-11T23:50:36.336693+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

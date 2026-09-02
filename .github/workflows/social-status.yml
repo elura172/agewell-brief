@@ -3,7 +3,9 @@ name: Reconcile social publishing
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    # Upload-Post jobs do not need minute-scale polling. Four checks per day
+    # avoid needless Actions usage and repository churn.
+    - cron: "17 */6 * * *"
 
 concurrency:
   group: agewell-aggregation

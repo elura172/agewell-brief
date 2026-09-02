@@ -42,6 +42,7 @@ def audit_release(
     visual_status: str,
     require_human_review: bool = True,
     require_visual_review: bool = True,
+    require_metadata_review: bool = True,
 ) -> ReleaseCheck:
     reasons: list[str] = []
     if not source_url.startswith("https://"):
@@ -50,7 +51,7 @@ def audit_release(
         reasons.append("headline or introduction is missing")
     if len(story.get("bullets", [])) != 3:
         reasons.append("story does not contain exactly three takeaways")
-    if metadata_status != "approved":
+    if require_metadata_review and metadata_status != "approved":
         reasons.append("image metadata alignment is not approved")
     if require_visual_review and visual_status not in {"human-reviewed", "vision-approved"}:
         reasons.append("pixel-level image review is pending")

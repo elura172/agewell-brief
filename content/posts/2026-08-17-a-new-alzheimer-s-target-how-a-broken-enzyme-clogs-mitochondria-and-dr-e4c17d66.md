@@ -1,6 +1,6 @@
 ---title: "A New Alzheimer's Target: How a Broken Enzyme Clogs Mitochondria and Drives Dementia"
 date: 2026-08-17T13:43:32.787166+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

@@ -1,6 +1,6 @@
 ---title: "Glial Surface Protein DIP-β Extends Lifespan in Flies: A Molecular Bridge to Brain Aging"
 date: 2026-08-11T14:22:01.230194+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

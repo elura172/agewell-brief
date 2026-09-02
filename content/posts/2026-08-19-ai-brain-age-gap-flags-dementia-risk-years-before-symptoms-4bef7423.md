@@ -1,6 +1,6 @@
 ---title: "AI brain age gap flags dementia risk years before symptoms"
 date: 2026-08-19T23:28:27.022855+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

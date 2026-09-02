@@ -1,6 +1,6 @@
 ---title: "Hormonal tides reshape the brain: MRE reveals estrogen-driven mechanical plasticity in the hippocampus"
 date: 2026-08-21T13:50:43.139342+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

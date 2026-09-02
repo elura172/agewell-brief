@@ -1,6 +1,6 @@
 ---title: "Gut Bacterial Metabolite Raises Alzheimer's Risk: A New Target for Intervention"
 date: 2026-08-14T23:28:13.738947+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

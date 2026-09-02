@@ -1381,6 +1381,10 @@ def run() -> int:
             visual_status,
             require_human_review=not publish_automatically,
             require_visual_review=not publish_automatically,
+            # A missing or unsuitable stock image must not stop an unattended
+            # edition. In auto-publish mode the brief safely ships text-only;
+            # the image pipeline already refuses to persist rejected images.
+            require_metadata_review=not publish_automatically,
         )
         generated_count += 1
         target = OUTPUT_DIR / f"{recorder.edition_id}-{slug(content['headline'])}-{key[:8]}.md"

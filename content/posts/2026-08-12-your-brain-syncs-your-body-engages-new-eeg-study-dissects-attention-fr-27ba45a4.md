@@ -1,6 +1,6 @@
 ---title: "Your Brain Syncs, Your Body Engages: New EEG Study Dissects Attention from Listening Immersion"
 date: 2026-08-12T19:12:24.152729+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1

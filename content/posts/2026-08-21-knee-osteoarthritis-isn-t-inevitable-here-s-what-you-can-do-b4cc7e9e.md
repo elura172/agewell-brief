@@ -1,6 +1,6 @@
 ---title: "Knee osteoarthritis isn’t inevitable — here’s what you can do"
 date: 2026-08-21T23:30:03.206718+00:00
-draft: true
+draft: false
 category: "mobility"
 content_type: "lead"
 edition_rank: 1
