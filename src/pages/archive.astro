@@ -40,11 +40,11 @@ const structuredData = {
 
       {categories.length > 0 && (
         <div class="topic-filter-bar" aria-label="Filter briefs by topic">
-          <button type="button" class="filter-pill is-active" data-topic="all">All topics ({entries.length})</button>
+          <button type="button" class="filter-pill is-active" data-topic="all" aria-pressed="true">All topics ({entries.length})</button>
           {categories.map((cat) => {
             const count = entries.filter((e) => topicsFor(e).includes(cat)).length;
             return (
-              <button type="button" class="filter-pill" data-topic={cat}>
+              <button type="button" class="filter-pill" data-topic={cat} aria-pressed="false">
                 {cat} ({count})
               </button>
             );

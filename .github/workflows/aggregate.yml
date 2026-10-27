@@ -2,6 +2,15 @@ name: Aggregate health briefs
 
 on:
   workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "Preview stores a review artifact. Publish enables the existing release steps."
+        type: choice
+        required: true
+        default: preview
+        options:
+          - preview
+          - publish
   schedule:
     - cron: "0 13 * * *"
     - cron: "0 18 * * *"
@@ -39,17 +48,16 @@ jobs:
           RSS_FEEDS_JSON: ${{ secrets.RSS_FEEDS_JSON }}
           MAX_ITEMS: 1
           MAX_ITEMS_PER_PUBLISHER: 2
-          # No AUTO_PUBLISH_UNTIL: the trial window expired on 2026-08-09 and
-          # would have silently turned every generated brief into a draft while
-          # the runs — and the LLM spend — carried on. auto_publish_enabled()
-          # still honours the variable if it is ever set again.
-          AUTO_PUBLISH: true
+          # Scheduled runs retain the existing unattended-release behavior.
+          # Manual dispatches default to preview and create drafts; choosing
+          # publish explicitly opts into the release steps below.
+          AUTO_PUBLISH: ${{ github.event_name == 'schedule' || inputs.run_mode == 'publish' }}
       - name: Cross-tag topics & frameworks
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         continue-on-error: true
         run: python3 -m scripts.verify_and_cross_tag_briefs
       - name: Validate Upload-Post account
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         continue-on-error: true
         run: |
           curl --fail --silent --show-error \
@@ -58,20 +66,20 @@ jobs:
         env:
           UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
       - name: Prepare social packages for release
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         run: python3 -m scripts.social_package --output .state/social/latest.json
       - name: Update reader trends
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         continue-on-error: true
         run: python3 -m scripts.cloudflare_trending
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
       - name: Sync persistent social manifest
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         run: python3 -m scripts.social_manifest sync --packages .state/social/latest.json
       - name: Commit generated drafts
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -110,13 +118,13 @@ jobs:
       # the run red and send the failure notification rather than stalling
       # quietly while briefs pile up unsent.
       - name: Publish briefs to Substack
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         run: python3 scripts/substack_publisher.py --publish --limit 3
         env:
           SUBSTACK_SID: ${{ secrets.SUBSTACK_SID }}
           SUBSTACK_DOMAIN: agewellbrief
       - name: Commit Substack publish ledger
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         run: |
           git config user.name "agewell-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -126,14 +134,14 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: record Substack publish ledger"
           git push || true
       - name: Submit released article copy to Facebook
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         continue-on-error: true
         run: python3 -m scripts.publish_facebook --packages .state/social/latest.json
         env:
           UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
           UPLOAD_POST_USERNAME: ${{ secrets.UPLOAD_POST_USERNAME }}
       - name: Commit social handoff state
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         run: |
           git config user.name "agewell-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -141,7 +149,7 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: record social publishing handoff"
           git push
       - name: Notify IndexNow
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
+        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
         continue-on-error: true
         run: |
           if [ -s /tmp/agewell-indexnow-urls.txt ]; then
@@ -152,3 +160,41 @@ jobs:
         env:
           PUBLIC_SITE_URL: https://agewellbrief.com
           INDEXNOW_KEY_FILE: public/c82fc24c87f9437da381a53fd326273d.txt
+      - name: Package preview for review
+        if: ${{ always() && github.event_name == 'workflow_dispatch' && inputs.run_mode == 'preview' }}
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import shutil
+          import subprocess
+
+          output = Path("/tmp/agewell-preview")
+          output.mkdir(parents=True, exist_ok=True)
+          changed = subprocess.run(
+              ["git", "status", "--porcelain", "--untracked-files=all", "--", "content/posts", "public/images/editions", ".state/editions"],
+              check=True,
+              capture_output=True,
+              text=True,
+          ).stdout.splitlines()
+          for line in changed:
+              relative = line[3:].strip()
+              source = Path(relative)
+              if source.is_file():
+                  target = output / source
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  shutil.copy2(source, target)
+          (output / "README.txt").write_text(
+              "Agewell Brief editorial preview\n"
+              "This artifact contains only files generated or changed by this run.\n"
+              "Preview mode does not commit, publish to Substack or Facebook, update reader trends, or notify IndexNow.\n",
+              encoding="utf-8",
+          )
+          PY
+      - name: Upload review artifact
+        if: ${{ always() && github.event_name == 'workflow_dispatch' && inputs.run_mode == 'preview' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: agewell-preview-${{ github.run_id }}
+          path: /tmp/agewell-preview/
+          if-no-files-found: error
+          retention-days: 7

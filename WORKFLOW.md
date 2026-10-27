@@ -353,18 +353,11 @@ Each run:
 8. writes Markdown, images, state, and audit artifacts;
 9. commits generated changes back to `main`.
 
-The current first-week setting is:
-
-```text
-AUTO_PUBLISH=true
-AUTO_PUBLISH_UNTIL=2026-08-09
-MAX_ITEMS=1
-```
-
-This means the automated window is time-boxed through August 8, after which
-new material returns to `draft: true` unless the cutoff is intentionally
-extended. Change the cutoff only after reviewing the first-week evidence. A
-manual `workflow_dispatch` run is the preferred way to test configuration.
+Manual `workflow_dispatch` runs now default to `preview`: they force generated
+articles into draft status, skip every commit and distribution step, and upload
+the changed articles, images, and edition audit as a seven-day artifact. Choose
+`publish` explicitly to run the existing release path. Scheduled runs retain
+their existing unattended-release behavior.
 
 Cloudflare Workers Builds watches the GitHub repository and rebuilds the Astro
 site after generated commits. If a build fails, inspect the Cloudflare build

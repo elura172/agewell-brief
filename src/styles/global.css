@@ -4,8 +4,10 @@
   --muted: oklch(0.48 0.024 205);
   --muted-light: oklch(0.82 0.018 190);
   --paper: oklch(0.978 0.012 85);
+  --cream: oklch(0.955 0.018 82);
   --white: oklch(0.998 0.005 88);
   --saffron: oklch(0.72 0.15 62);
+  --saffron-soft: oklch(0.91 0.075 75);
   --saffron-ink: oklch(0.46 0.14 52);
   --mist: oklch(0.935 0.022 175);
   --line: oklch(0.86 0.018 170);
@@ -120,7 +122,9 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 .lead-story:hover {
   box-shadow: var(--shadow-lg);
 }
+.lead-story:not(.has-image) { grid-template-columns: minmax(0, 1fr); min-height: 0; }
 .lead-story-copy { align-self: center; min-width: 0; padding: clamp(42px, 6vw, 78px); }
+.lead-story:not(.has-image) .lead-story-copy { max-width: 960px; }
 .lead-kicker { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-bottom: 26px; color: var(--muted); font-size: .72rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
 .lead-kicker span:first-child {
   background: color-mix(in oklch, var(--saffron) 15%, transparent);
@@ -128,7 +132,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
   padding: 3px 10px;
   border-radius: 30px;
 }
-.lead-story h1 { max-width: 100%; margin: 0; overflow-wrap: break-word; font-size: clamp(1.75rem, 3.2vw, 2.75rem); line-height: 1.15; text-wrap: balance; }
+.lead-story h1 { max-width: 100%; margin: 0; overflow-wrap: break-word; font-size: clamp(2.15rem, 4.1vw, 3.55rem); line-height: 1.08; text-wrap: balance; }
 .lead-story h1 a { text-decoration: none; transition: color 0.2s ease; }
 .lead-story h1 a:hover { color: var(--saffron-ink); }
 .lead-dek { max-width: 53ch; margin: 30px 0; color: var(--ink-soft); font-size: 1.05rem; }
@@ -528,7 +532,7 @@ nav a { display: inline-flex; min-height: 44px; align-items: center; }
   .edition-mast span:nth-child(2) { display: none; }
   .lead-story { grid-template-columns: 1fr; min-height: 0; margin-top: 26px; }
   .lead-story-copy { padding: 38px 25px 44px; }
-  .lead-story h1 { font-size: clamp(3rem, 13.5vw, 4.8rem); }
+  .lead-story h1 { font-size: clamp(2.5rem, 11vw, 3.8rem); }
   .lead-dek { font-size: 1rem; }
   .lead-index { display: none; }
   .quick-signals { margin-top: 58px; }
@@ -635,12 +639,12 @@ html[data-font-size="large"] {
 .font-size-btn:hover {
   border-color: var(--saffron);
   color: var(--saffron-ink);
-  background: var(--cream);
+  background: var(--white);
 }
 html[data-font-size="medium"] .font-size-btn,
 html[data-font-size="large"] .font-size-btn {
   border-color: var(--saffron);
-  background: var(--saffron-soft);
+  background: color-mix(in oklch, var(--saffron) 18%, var(--paper));
   color: var(--saffron-ink);
 }
 

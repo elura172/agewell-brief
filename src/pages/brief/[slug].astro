@@ -263,7 +263,7 @@ const structuredData = [
   {/* Floating Sticky Reader Bar */}
   <aside id="floating-reader-bar" class="floating-reader-bar" aria-label="Subscribe reminder">
     <div class="reader-bar-inner">
-      <span>📩 Enjoying this biophysics analysis? Get 3x daily signals + 6 PDF Field Guides.</span>
+      <span>📩 Enjoying this analysis? Get one daily edition: a deep read, two signals, and six field guides.</span>
       <a href="/#subscribe" class="reader-bar-btn">Get Free Briefs <span aria-hidden="true">→</span></a>
       <button type="button" id="reader-bar-close" class="reader-bar-close" aria-label="Dismiss subscribe reminder">
         <span aria-hidden="true">×</span>
@@ -509,6 +509,27 @@ const structuredData = [
   }
   .floating-reader-bar[hidden] {
     display: none;
+  }
+
+  @media (max-width: 600px) {
+    .floating-reader-bar {
+      bottom: max(12px, env(safe-area-inset-bottom));
+      width: calc(100vw - 24px);
+      padding: 10px 14px;
+      border-radius: 18px;
+    }
+    .reader-bar-inner {
+      flex-wrap: wrap;
+      gap: 8px 10px;
+      font-size: 0.76rem;
+      line-height: 1.35;
+    }
+    .reader-bar-inner > span {
+      flex: 1 1 calc(100% - 42px);
+    }
+    .reader-bar-btn {
+      margin-left: auto;
+    }
   }
 </style>
 

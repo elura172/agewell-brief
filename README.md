@@ -141,8 +141,8 @@ stories remain Signals rather than being padded. Only the Deep Read receives a
 contextual affiliate slot. Invalid model output receives a validation-specific
 repair pass. A useful 350–499 word repaired lead can remain a focused draft for
 human review; a lead that still fails is retried as a Signal. Story failures are
-recorded and isolated so the rest of the edition continues. The checked-in workflow runs once each morning at
-11:17 UTC and can also be run manually.
+recorded and isolated so the rest of the edition continues. Scheduled runs are
+configured for 13:00, 18:00, and 23:00 UTC; manual runs default to preview mode.
 
 ## Feed portfolio
 
@@ -167,14 +167,15 @@ them into ranking, drafting, or publication yet.
 
 ## GitHub Actions
 
-Add `DEEPSEEK_API_KEY`, `PEXELS_API_KEY`, `PIXABAY_API_KEY`, and optionally
-repository secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
-`RSS_FEEDS_JSON` can override it. The workflow runs daily and commits new
-drafts. Its commit step also preserves diagnostics when every story fails, while
-the generation step remains visibly failed in GitHub Actions.
+Add `DEEPSEEK_API_KEY`, `PEXELS_API_KEY`, and `PIXABAY_API_KEY` as repository
+secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
+`RSS_FEEDS_JSON` can override it.
 
-Generated editions remain drafts until the release manifest records completed
-image and human editorial review.
+Manual **Aggregate health briefs** runs default to `preview`. They generate draft
+content and upload changed articles, selected images, and the edition audit as a
+seven-day artifact. Preview mode does not commit or publish content. Select
+`publish` only when you intend to run the existing publishing and distribution
+steps. Scheduled runs retain their configured release behavior.
 
 ## Trend radar
 

@@ -46,35 +46,7 @@ const structuredData = [
 <Layout structuredData={structuredData}>
   {showDrafts && <div class="edition-strip" aria-label="Preview status"><span>LOCAL DRAFT PREVIEW</span><span>NOT PUBLIC</span></div>}
   
-  {/* 1. Explicit Brand Hero Banner */}
-  <header class="brand-hero" aria-labelledby="hero-title">
-    <div class="hero-inner">
-      <p class="hero-eyebrow">Source-Led Biophysics & Functional Longevity Intelligence</p>
-      <h1 id="hero-title">Health reporting built <em>for human vitality.</em></h1>
-      <p class="hero-lede">
-        Three source-linked briefs a day, translated from cutting-edge bioRxiv and PubMed research — cellular renewal, biophotonic biology, and functional longevity, with zero medical condescension.
-      </p>
-
-      {/* Lightweight Top Email Capture Bar */}
-      <form id="hero-subscribe-form" class="top-subscribe-bar">
-        <span class="bar-pill">📩 Daily Briefs + 6 PDF Field Guides</span>
-        <input
-          type="email"
-          id="hero-email-input"
-          name="email"
-          placeholder="Enter your email address..."
-          required
-          class="hero-email-input"
-          aria-label="Email address"
-        />
-        <button type="submit" id="hero-submit-btn" class="hero-join-btn">Subscribe Free <span aria-hidden="true">→</span></button>
-      </form>
-
-      <p class="hero-desk-note">Written by the <a href="/about/#editorial-desk">Agewell Brief editorial desk</a> — systematic source monitoring, human review before every brief publishes.</p>
-    </div>
-  </header>
-
-  {/* 2. Today's Edition */}
+  {/* The edition leads; publication context lives in the masthead and about page. */}
   <section id="latest" class="edition-hero" aria-labelledby="edition-heading">
     <div class="edition-mast">
       <span><span class="live-dot" aria-hidden="true"></span> Today’s edition · {editionDate}</span>
@@ -85,8 +57,8 @@ const structuredData = [
       <article class:list={["lead-story", { "has-image": featured.data.image }]}>
         <div class="lead-story-copy">
           <div class="lead-kicker"><span>Today’s deep read</span><span>{featured.data.category}</span></div>
-          <h2 id="edition-heading"><a href={`/brief/${featured.id}/`}>{typographic(featured.data.title)}</a></h2>
-          <p class="lead-dek">Cutting-edge research translated into actionable intelligence: what was discovered, why it matters for cellular & functional health, and where the science is heading.</p>
+          <h1 id="edition-heading"><a href={`/brief/${featured.id}/`}>{typographic(featured.data.title)}</a></h1>
+          <p class="lead-dek">{featured.data.description ?? featured.body.split(/\n\s*\n/)[0]?.replace(/^#+\s*/, "")}</p>
           <div class="lead-actions">
             <a class="primary-link" href={`/brief/${featured.id}/`}>Read the full analysis <span>→</span></a>
             <p>Original reporting: <a href={featured.data.source_url} rel={linkRel(featured.data.source_url)}>{featured.data.source_name}</a></p>
@@ -108,7 +80,7 @@ const structuredData = [
         <div class="lead-index" aria-hidden="true">01</div>
       </article>
     ) : (
-      <div class="empty-state"><h2>The first signal is on its way.</h2><p>Fresh briefs appear here after editorial review.</p></div>
+      <div class="empty-state"><h1 id="edition-heading">The first signal is on its way.</h1><p>Fresh briefs appear here after editorial review.</p></div>
     )}
 
     {recent.length > 0 && <div class="quick-signals">
@@ -171,50 +143,50 @@ const structuredData = [
   <section class="frameworks-guide-section" aria-labelledby="frameworks-heading">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Proprietary Lens</p>
+        <p class="eyebrow">Six research lenses</p>
         <h2 id="frameworks-heading" class="section-title">Our Biophysics Frameworks</h2>
       </div>
-      <p class="section-caption">Six foundational lenses translating cellular physics into everyday healthspan. Click a card to see related briefs, or walk the spiral to explore the framework.</p>
+      <p class="section-caption">Follow a topic into the archive, or open its framework page.</p>
     </div>
     <div class="frameworks-grid">
-      <article class="framework-card" data-framework-topic="longevity">
-        <span class="framework-icon">🌊</span>
-        <h3>Living Waters</h3>
+      <article class="framework-card">
+        <span class="framework-icon" aria-hidden="true">🌊</span>
+        <h3><a href="/topics/longevity/">Living Waters</a></h3>
         <p class="framework-tag">Fluid & Micro-Circulation</p>
         <p class="framework-desc">Interfacial exclusion zone (EZ) structured water (H₃O₂) and vascular transport kinetics.</p>
         <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Living Waters spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
-      <article class="framework-card" data-framework-topic="gut health">
-        <span class="framework-icon">🌱</span>
-        <h3>Inner Garden</h3>
+      <article class="framework-card">
+        <span class="framework-icon" aria-hidden="true">🌱</span>
+        <h3><a href="/topics/gut-health/">Inner Garden</a></h3>
         <p class="framework-tag">Gut Microbiome Ecology</p>
         <p class="framework-desc">Short-chain fatty acid signaling, gut barrier integrity, and microbial circadian rhythmicity.</p>
         <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Inner Garden spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
-      <article class="framework-card" data-framework-topic="cellular senescence">
-        <span class="framework-icon">🍃</span>
-        <h3>Cell Shedding</h3>
+      <article class="framework-card">
+        <span class="framework-icon" aria-hidden="true">🍃</span>
+        <h3><a href="/topics/cellular-senescence/">Cell Shedding</a></h3>
         <p class="framework-tag">Senescence & Cellular Renewal</p>
         <p class="framework-desc">Targeted senolytic clearing, autophagy activation, and SASP inflammatory reduction.</p>
         <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Cell Shedding spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
-      <article class="framework-card" data-framework-topic="metabolic health">
-        <span class="framework-icon">🔥</span>
-        <h3>Higher Flame</h3>
+      <article class="framework-card">
+        <span class="framework-icon" aria-hidden="true">🔥</span>
+        <h3><a href="/topics/metabolic-health/">Higher Flame</a></h3>
         <p class="framework-tag">Metabolic Resilience & Mitochondria</p>
         <p class="framework-desc">Mitochondrial respiration voltage, metabolic flexibility, and non-shivering thermogenesis.</p>
         <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Higher Flame spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
-      <article class="framework-card" data-framework-topic="brain health">
-        <span class="framework-icon">⚡</span>
-        <h3>Luminous Mind</h3>
+      <article class="framework-card">
+        <span class="framework-icon" aria-hidden="true">⚡</span>
+        <h3><a href="/topics/brain-health/">Luminous Mind</a></h3>
         <p class="framework-tag">Cognitive & Neural Coherence</p>
         <p class="framework-desc">Glymphatic clearance during sleep, neuro-plasticity, and biophotonic brain entrainment.</p>
         <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Luminous Mind spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
-      <article class="framework-card" data-framework-topic="detoxification">
-        <span class="framework-icon">🪞</span>
-        <h3>Dark Mirror</h3>
+      <article class="framework-card">
+        <span class="framework-icon" aria-hidden="true">🪞</span>
+        <h3><a href="/topics/detoxification/">Dark Mirror</a></h3>
         <p class="framework-tag">Mineral Balance & Bio-Clearing</p>
         <p class="framework-desc">Heavy metal chelation, systemic mineral ratios, and deep tissue clearing pathways.</p>
         <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Dark Mirror spiral">Walk this spiral <span aria-hidden="true">→</span></a>
@@ -257,27 +229,13 @@ const structuredData = [
     <p class="archive-view-all"><a href="/archive/">View the full archive ({entries.length} briefs) <span aria-hidden="true">→</span></a></p>
   </section>}
 
-  <script>
-    const frameworkCards = document.querySelectorAll<HTMLElement>(".framework-card");
-
-    frameworkCards.forEach((card) => {
-      card.addEventListener("click", (event) => {
-        if ((event.target as HTMLElement).closest(".framework-spiral-link")) return;
-        const topic = card.getAttribute("data-framework-topic");
-        if (topic) {
-          window.location.href = `/archive/?topic=${encodeURIComponent(topic)}`;
-        }
-      });
-    });
-  </script>
-
   {/* 6. Subscribe Card with Explicit Parenthetical Lead Magnet Labels */}
   <section id="subscribe" class="subscribe-card">
     <div class="subscribe-heading">
       <img src="/logo-mark.svg" width="72" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async" />
       <div class="subscribe-title-wrap">
         <h2>Your morning<br />intelligence brief.</h2>
-        <p class="subscribe-lead-note">Subscribe for 3x daily scientific briefs & get instant access to all 6 Spiral Biophysics Field Guides (PDF).</p>
+        <p class="subscribe-lead-note">One daily edition: a deep read, two concise signals, and six biophysics field guides to explore.</p>
       </div>
     </div>
     <div class="subscribe-form-container">
@@ -378,26 +336,6 @@ const structuredData = [
       });
     }
 
-    // Hero bar: same handoff, but the reader hasn't scrolled to #subscribe yet,
-    // so bring the success box (and the six guide links it reveals) into view.
-    const heroForm = document.getElementById("hero-subscribe-form") as HTMLFormElement;
-    const heroEmailInput = document.getElementById("hero-email-input") as HTMLInputElement;
-    const heroSubmitBtn = document.getElementById("hero-submit-btn") as HTMLButtonElement;
-
-    if (heroForm && heroEmailInput) {
-      heroForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const email = heroEmailInput.value.trim();
-        if (!email) return;
-        if (emailInput) emailInput.value = email;
-        handOffToSubstack(email);
-        if (heroSubmitBtn) {
-          heroSubmitBtn.disabled = true;
-          heroSubmitBtn.textContent = "Opened below ↓";
-        }
-        successBox?.scrollIntoView({ behavior: "smooth", block: "center" });
-      });
-    }
   </script>
 </Layout>
 
@@ -516,52 +454,6 @@ const structuredData = [
     transform: translateY(-1px);
   }
 
-  /* 1. Explicit Brand Hero Banner */
-  .brand-hero {
-    padding: 60px 5vw 40px;
-    border-bottom: 1px solid var(--line);
-    background: linear-gradient(180deg, var(--paper) 0%, var(--cream) 100%);
-  }
-  .hero-inner {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  .hero-eyebrow {
-    font-size: 0.76rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--saffron-ink);
-    margin-bottom: 12px;
-  }
-  .hero-inner h1 {
-    font-size: clamp(2.6rem, 5vw, 4.2rem);
-    line-height: 1.05;
-    margin: 0 0 16px;
-    letter-spacing: -0.03em;
-  }
-  .hero-inner h1 em {
-    font-weight: 400;
-    color: var(--muted);
-  }
-  .hero-lede {
-    font-family: var(--serif);
-    font-size: clamp(1.15rem, 2.2vw, 1.4rem);
-    line-height: 1.45;
-    color: var(--ink);
-    max-width: 780px;
-    margin: 0 0 24px;
-  }
-  .hero-desk-note {
-    margin: 16px 0 0;
-    font-size: 0.82rem;
-    color: var(--muted);
-  }
-  .hero-desk-note a {
-    color: var(--ink-soft);
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
   .archive-view-all {
     margin: 32px 0 0;
     text-align: center;
@@ -584,56 +476,6 @@ const structuredData = [
     border-color: var(--saffron-ink);
     color: var(--saffron-ink);
   }
-  .top-subscribe-bar {
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 16px;
-    padding: 10px 20px;
-    background: var(--paper);
-    border: 1px solid var(--line);
-    border-radius: 30px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
-  }
-  .bar-pill {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--ink);
-  }
-  .hero-email-input {
-    font-family: inherit;
-    font-size: 0.85rem;
-    padding: 8px 14px;
-    border-radius: 20px;
-    border: 1px solid var(--line);
-    background: #ffffff;
-    color: var(--ink);
-    min-width: 220px;
-  }
-  .hero-join-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    font-family: inherit;
-    font-size: 0.82rem;
-    font-weight: 700;
-    padding: 8px 18px;
-    border: none;
-    border-radius: 20px;
-    background: var(--saffron-ink);
-    color: #ffffff;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background 0.2s ease;
-  }
-  .hero-join-btn:hover {
-    background: var(--ink);
-  }
-  .hero-join-btn:disabled {
-    cursor: default;
-    opacity: 0.7;
-  }
-
   /* 4. Biophysics Frameworks Section */
   .frameworks-guide-section {
     padding: 60px 5vw;
@@ -643,32 +485,29 @@ const structuredData = [
   }
   .frameworks-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 28px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(28px, 6vw, 88px);
+    margin-top: 16px;
   }
   .framework-card {
-    background: var(--cream);
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    padding: 24px;
-    cursor: pointer;
-    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  .framework-card:hover {
-    border-color: var(--saffron);
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(217, 119, 6, 0.12);
+    display: grid;
+    grid-template-columns: 36px minmax(0, 1fr);
+    column-gap: 14px;
+    align-content: start;
+    padding: 22px 0 24px;
+    border-top: 1px solid var(--line);
   }
   .framework-icon {
     font-size: 1.6rem;
-    display: block;
-    margin-bottom: 10px;
+    grid-row: 1 / span 4;
+    padding-top: 1px;
   }
   .framework-card h3 {
-    margin: 0 0 4px;
+    margin: 0 0 2px;
     font-size: 1.2rem;
   }
+  .framework-card h3 a { text-decoration: none; }
+  .framework-card h3 a:hover { text-decoration: underline; text-decoration-color: var(--saffron-ink); text-underline-offset: 4px; }
   .framework-tag {
     font-size: 0.76rem;
     font-weight: 700;
@@ -685,7 +524,7 @@ const structuredData = [
   }
   .framework-spiral-link {
     display: inline-block;
-    margin-top: 14px;
+    margin-top: 10px;
     font-size: 0.82rem;
     font-weight: 700;
     color: var(--saffron-ink);
@@ -693,5 +532,8 @@ const structuredData = [
   }
   .framework-spiral-link:hover {
     text-decoration: underline;
+  }
+  @media (max-width: 700px) {
+    .frameworks-grid { grid-template-columns: 1fr; }
   }
 </style>

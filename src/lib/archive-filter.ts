@@ -1,7 +1,7 @@
 // Shared by the homepage's frameworks-section shortcut and the dedicated
 // /archive/ page's topic filter bar — kept as one module so both call sites
 // filter against the exact same logic instead of two copies drifting apart.
-export function initArchiveFilter(indexOffset = 0) {
+export function initArchiveFilter() {
   const filterPills = document.querySelectorAll<HTMLButtonElement>(".filter-pill");
   const archiveItems = document.querySelectorAll<HTMLLIElement>(".archive-item");
 
@@ -10,8 +10,10 @@ export function initArchiveFilter(indexOffset = 0) {
       const cat = p.getAttribute("data-topic");
       if (cat === topic) {
         p.classList.add("is-active");
+        p.setAttribute("aria-pressed", "true");
       } else {
         p.classList.remove("is-active");
+        p.setAttribute("aria-pressed", "false");
       }
     });
 
@@ -44,10 +46,8 @@ export function initArchiveFilter(indexOffset = 0) {
     });
   });
 
-  // Framework cards on the homepage link here with ?topic=<slug> instead of
-  // filtering an in-page list — the homepage only renders 15 recent items,
-  // so filtering it further would show fewer results than the pill counts
-  // promise, the exact bug this file was written to fix.
+  // Keep topic filters linkable so a copied archive URL can reopen the same
+  // selection. Homepage topic links now lead to their dedicated topic pages.
   const requestedTopic = new URLSearchParams(window.location.search).get("topic");
   if (requestedTopic) {
     const match = [...filterPills].find((p) => p.getAttribute("data-topic") === requestedTopic);

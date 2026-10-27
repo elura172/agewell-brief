@@ -5,7 +5,7 @@
 - Python pipeline and tests
 - Astro static frontend
 - GitHub Actions workflow
-- Draft-first publishing mode
+- Manual editorial preview mode
 - Persistent feed-item state committed to the repository
 - Daily Lead + Signals edition structure
 - Cloudflare Worker deployment at `agewell-brief.elura172.workers.dev`
@@ -27,7 +27,8 @@
 6. Add `AFFILIATE_OFFERS_JSON` only after each encrypted ClickBank HopLink has
    been created, decoded, and tested in Affiliate Link Tools. The pipeline adds
    article-level `tid` parameters automatically.
-7. Push the repository to GitHub and run **Aggregate health briefs** manually.
+7. Run **Aggregate health briefs** in its default `preview` mode and review the
+   generated artifact before choosing any publishing path.
 
 The optional evergreen context layer is local-only by default. Do not commit
 the transcript library. A cloud run needs a separately authorized private
@@ -36,10 +37,10 @@ that background layer.
 
 ## Review loop
 
-Generated files are intentionally written with `draft: true`. Each edition
-contains one 600–900 word Deep Read and two compact Signals. Review the source,
-headline, claims, links, and commercial disclosure before changing a post to
-`draft: false`.
+Manual preview runs generate files with `draft: true` and upload the changed
+articles, images, and audit trail as a short-lived artifact. Review the source,
+headline, claims, links, and commercial disclosure before selecting a publishing
+mode. Scheduled runs retain their configured unattended-release behavior.
 
 Each run also writes an audit trail to `.state/editions/YYYY-MM-DD/`. Review
 `release-manifest.json` first: it names every incomplete source, editorial,

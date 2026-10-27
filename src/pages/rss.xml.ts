@@ -9,8 +9,8 @@ export async function GET(context: { site?: URL }) {
   const site = context.site ?? new URL("https://agewellbrief.com");
 
   return rss({
-    title: "Agewell Brief · Biophysics & Cellular Longevity",
-    description: "Source-led biophysics, Exclusion Zone transport, and functional longevity intelligence—translated daily from preprints and original research with zero medical condescension.",
+    title: "Agewell Brief · Health & Longevity Research",
+    description: "A source-linked daily edition on health and longevity research: one deep read, two concise signals, and original sources.",
     site,
     xmlns: {
       atom: "http://www.w3.org/2005/Atom",
