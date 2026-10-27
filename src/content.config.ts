@@ -19,7 +19,7 @@ const briefs = defineCollection({
     evidence_position: z.enum(["established", "emerging", "contested", "historical", "speculative"]).default("emerging"),
     author: z.string().default("Agewell Brief Editorial Desk"),
     image_id: z.number().int().positive().optional(),
-    image_provider: z.enum(["Pexels", "Pixabay"]).default("Pexels"),
+    image_provider: z.enum(["Pexels", "Pixabay", "Unsplash"]).default("Pexels"),
     image_provider_id: z.string().optional(),
     image: z.string().refine((value) => value.startsWith("/") || URL.canParse(value), "Expected a local or absolute image URL").optional(),
     image_alt: z.string().optional(),

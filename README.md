@@ -15,6 +15,7 @@ pip install -r requirements.txt
 export DEEPSEEK_API_KEY="..."
 export PEXELS_API_KEY="..."
 export PIXABAY_API_KEY="..."
+export UNSPLASH_ACCESS_KEY="..."
 export RSS_FEED_URL="https://example.com/feed.xml"
 python -m agewell.pipeline
 ```
@@ -167,9 +168,14 @@ them into ranking, drafting, or publication yet.
 
 ## GitHub Actions
 
-Add `DEEPSEEK_API_KEY`, `PEXELS_API_KEY`, and `PIXABAY_API_KEY` as repository
-secrets. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
+Add `DEEPSEEK_API_KEY`, `PEXELS_API_KEY`, `PIXABAY_API_KEY`, and optionally
+`UNSPLASH_ACCESS_KEY` as repository secrets. Unsplash is an optional third image
+source. The checked-in feed portfolio works without an `RSS_FEED_URL` secret;
 `RSS_FEEDS_JSON` can override it.
+Create an Unsplash application at [unsplash.com/developers](https://unsplash.com/developers)
+and save its access key as `UNSPLASH_ACCESS_KEY`. Selected Unsplash images stay
+hotlinked to the API-provided image URL, trigger the API download-tracking
+endpoint, and include photographer/profile attribution as required by Unsplash.
 
 Manual **Aggregate health briefs** runs default to `preview`. They generate draft
 content and upload changed articles, selected images, and the edition audit as a

@@ -68,6 +68,7 @@ FEED_CONFIG_FILE = Path(os.getenv("FEED_CONFIG_FILE", ROOT / "config/feed-portfo
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "")
 PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY", "")
+UNSPLASH_ACCESS_KEY = os.getenv("UNSPLASH_ACCESS_KEY", "")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.deepseek.com")
 MODEL = os.getenv("LLM_MODEL", "deepseek-v4-flash")
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "3"))
@@ -1301,6 +1302,7 @@ def run() -> int:
             image_cache,
             used_image_ids,
             used_image_creators,
+            UNSPLASH_ACCESS_KEY,
         )
         candidate_artifacts.append(
             {
@@ -1343,12 +1345,13 @@ def run() -> int:
             if selected_candidate and alignment.metadata_status != "rejected":
                 try:
                     article_slug = f"{slug(content['headline'])}-{key[:8]}"
-                    photo = persist_image(selected_candidate, PUBLIC_ROOT, recorder.edition_id, article_slug)
+                    photo = persist_image(selected_candidate, PUBLIC_ROOT, recorder.edition_id, article_slug, UNSPLASH_ACCESS_KEY)
                     try:
                         image_caption = caption_image(client, MODEL, photo.alt, content["headline"], content["dek"])
                     except Exception as exc:
                         print(f"Image caption failed ({item.source_name}): {exc}", file=sys.stderr)
-                    visual_review = vision_reviewer.review(str(PUBLIC_ROOT / photo.local_url.lstrip("/")), image_brief, content)
+                    image_review_path = photo.local_url if photo.local_url.startswith("https://") else str(PUBLIC_ROOT / photo.local_url.lstrip("/"))
+                    visual_review = vision_reviewer.review(image_review_path, image_brief, content)
                     append_image_ledger(IMAGE_LEDGER_FILE, selected_candidate, key, recorder.edition_id)
                     used_image_ids.add(selected_candidate.candidate_id)
                     if selected_candidate.creator_url:

@@ -19,6 +19,7 @@ from agewell.editorial import ImageBrief
 
 PEXELS_SEARCH_URL = "https://api.pexels.com/v1/search"
 PIXABAY_SEARCH_URL = "https://pixabay.com/api/"
+UNSPLASH_SEARCH_URL = "https://api.unsplash.com/search/photos"
 
 
 @dataclass(frozen=True)
@@ -35,6 +36,7 @@ class ImageCandidate:
     height: int
     avg_color: str = "#cad4cf"
     search_query: str = ""
+    download_location: str = ""
 
     @property
     def candidate_id(self) -> str:
@@ -181,6 +183,69 @@ def search_pixabay(api_key: str, query: str) -> list[ImageCandidate]:
     return candidates
 
 
+def search_unsplash(api_key: str, query: str) -> list[ImageCandidate]:
+    if not api_key:
+        return []
+    url = f"{UNSPLASH_SEARCH_URL}?{urlencode({'query': query, 'orientation': 'landscape', 'content_filter': 'high', 'per_page': 8})}"
+    payload = _read_json(
+        urllib.request.Request(
+            url,
+            headers={
+                "Authorization": f"Client-ID {api_key}",
+                "Accept-Version": "v1",
+                "User-Agent": "AgewellBrief/0.5 (editorial image search)",
+            },
+        )
+    )
+    candidates: list[ImageCandidate] = []
+    for value in payload.get("results", []):
+        if not isinstance(value, dict):
+            continue
+        urls = value.get("urls")
+        links = value.get("links")
+        user = value.get("user")
+        user_links = user.get("links") if isinstance(user, dict) else None
+        if not isinstance(urls, dict) or not isinstance(links, dict):
+            continue
+        image_url = str(urls.get("regular") or "")
+        source_url = str(links.get("html") or "")
+        creator_url = str(user_links.get("html") or "") if isinstance(user_links, dict) else ""
+        download_location = str(links.get("download_location") or "")
+        if not image_url.startswith("https://images.unsplash.com/"):
+            continue
+        if not source_url.startswith("https://unsplash.com/") or not creator_url.startswith("https://unsplash.com/"):
+            continue
+        if not download_location.startswith("https://api.unsplash.com/photos/"):
+            continue
+        attribution = {"utm_source": "agewellbrief", "utm_medium": "referral"}
+        color = str(value.get("color", "#cad4cf"))
+        if not re.fullmatch(r"#[0-9a-fA-F]{6}", color):
+            color = "#cad4cf"
+        candidates.append(
+            ImageCandidate(
+                provider="Unsplash",
+                provider_id=str(value.get("id", "")),
+                # Unsplash requires embedding the exact hotlinked URL from the API response.
+                download_url=image_url,
+                source_url=f"{source_url}{'&' if '?' in source_url else '?'}{urlencode(attribution)}",
+                creator=str(user.get("name", "Unsplash contributor")),
+                creator_url=f"{creator_url}{'&' if '?' in creator_url else '?'}{urlencode(attribution)}",
+                alt=str(value.get("alt_description") or value.get("description") or "Illustrative health and longevity photograph").strip(),
+                tags=tuple(
+                    str(tag.get("title", "")).strip()
+                    for tag in value.get("tags", [])
+                    if isinstance(tag, dict) and tag.get("title")
+                ),
+                width=int(value.get("width", 1200)),
+                height=int(value.get("height", 627)),
+                avg_color=color,
+                search_query=query,
+                download_location=download_location,
+            )
+        )
+    return candidates
+
+
 def search_image_candidates(
     brief: ImageBrief,
     pexels_key: str,
@@ -188,12 +253,14 @@ def search_image_candidates(
     cache: ImageSearchCache,
     excluded_ids: set[str] | None = None,
     excluded_creator_urls: set[str] | None = None,
+    unsplash_key: str = "",
 ) -> list[ImageCandidate]:
     excluded = excluded_ids or set()
     excluded_creators = excluded_creator_urls or set()
     providers: list[tuple[str, str, Callable[[str, str], list[ImageCandidate]]]] = [
         ("Pexels", pexels_key, search_pexels),
         ("Pixabay", pixabay_key, search_pixabay),
+        ("Unsplash", unsplash_key, search_unsplash),
     ]
 
     def load(
@@ -234,13 +301,41 @@ def search_image_candidates(
         query_terms = set(re.findall(r"[a-z]{4,}", candidate.search_query.lower()))
         metadata = f"{candidate.alt} {' '.join(candidate.tags)}".lower()
         overlap = sum(1 for term in query_terms if term in metadata)
-        return overlap, candidate.width * candidate.height, candidate.provider == "Pixabay"
+        return overlap, candidate.width * candidate.height, candidate.provider in {"Pixabay", "Unsplash"}
 
     candidates = sorted(unique.values(), key=relevance, reverse=True)
     return candidates[:18]
 
 
-def persist_image(candidate: ImageCandidate, public_root: Path, edition_id: str, article_slug: str) -> PublishedImage:
+def persist_image(
+    candidate: ImageCandidate,
+    public_root: Path,
+    edition_id: str,
+    article_slug: str,
+    unsplash_access_key: str = "",
+) -> PublishedImage:
+    if candidate.provider == "Unsplash":
+        if not candidate.download_location or not unsplash_access_key:
+            raise ValueError("Unsplash candidate is missing its download tracking URL or access key")
+        tracking_request = urllib.request.Request(
+            candidate.download_location,
+            headers={"Authorization": f"Client-ID {unsplash_access_key}", "Accept-Version": "v1"},
+        )
+        with urllib.request.urlopen(tracking_request, timeout=30):
+            pass
+        return PublishedImage(
+            provider=candidate.provider,
+            provider_id=candidate.provider_id,
+            local_url=candidate.download_url,
+            source_url=candidate.source_url,
+            creator=candidate.creator,
+            creator_url=candidate.creator_url,
+            alt=candidate.alt,
+            width=candidate.width,
+            height=candidate.height,
+            avg_color=candidate.avg_color,
+        )
+
     request = urllib.request.Request(
         candidate.download_url,
         headers={"User-Agent": "AgewellBrief/0.5 (+licensed editorial image download)"},
