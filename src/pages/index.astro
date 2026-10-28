@@ -2,26 +2,23 @@
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import EditorialImage from "../components/EditorialImage.astro";
-import trendingData from "../data/trending.json";
 import { linkRel, typographic } from "../lib/publishing";
 
 const showDrafts = import.meta.env.DEV;
 const entries = (await getCollection("briefs"))
   .filter((entry) => showDrafts || !entry.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.data.edition_rank - b.data.edition_rank);
-const featured = entries.find((entry) => entry.data.content_type === "lead") ?? entries[0];
-const featuredEdition = featured?.data.edition_id;
-const recent = entries
-  .filter((entry) => entry.id !== featured?.id && (!featuredEdition || entry.data.edition_id === featuredEdition))
-  .slice(0, 2);
+const editionKey = (entry: (typeof entries)[number]) =>
+  entry.data.edition_id ?? entry.data.date.toISOString().slice(0, 10);
+const latestEdition = entries[0] ? editionKey(entries[0]) : undefined;
+const editionEntries = entries.filter((entry) => editionKey(entry) === latestEdition);
+const featured = editionEntries.find((entry) => entry.data.content_type === "lead") ?? editionEntries[0];
+const recent = editionEntries.filter((entry) => entry.id !== featured?.id).slice(0, 2);
+const displayedCount = (featured ? 1 : 0) + recent.length;
 const latestIds = new Set([featured?.id, ...recent.map((entry) => entry.id)]);
 const earlier = entries.filter((entry) => !latestIds.has(entry.id));
 const formatDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
 const editionDate = featured ? formatDate(featured.data.date) : formatDate(new Date());
-const trending = (trendingData.articles ?? [])
-  .map((item) => ({ item, entry: entries.find((entry) => entry.id === item.slug) }))
-  .filter((row) => Boolean(row.entry && row.item.visits > 0));
-
 // Brief pages already carry NewsArticle + BreadcrumbList JSON-LD; the
 // homepage itself had none. Organization + WebSite here is what search
 // engines use to attribute the individual articles back to the publication.
@@ -49,14 +46,14 @@ const structuredData = [
   {/* The edition leads; publication context lives in the masthead and about page. */}
   <section id="latest" class="edition-hero" aria-labelledby="edition-heading">
     <div class="edition-mast">
-      <span><span class="live-dot" aria-hidden="true"></span> Today’s edition · {editionDate}</span>
-      <span>One deep read · Two signals · Original sources</span>
-      <span>⏱ About 8 min read</span>
+      <span>Latest edition{featured && <> · <time datetime={featured.data.date.toISOString()}>{editionDate}</time></>}</span>
+      <span>{displayedCount} {displayedCount === 1 ? "brief" : "briefs"}</span>
+      <span>Original sources</span>
     </div>
     {featured ? (
       <article class:list={["lead-story", { "has-image": featured.data.image }]}>
         <div class="lead-story-copy">
-          <div class="lead-kicker"><span>Today’s deep read</span><span>{featured.data.category}</span></div>
+          <div class="lead-kicker"><span>{featured.data.content_type === "lead" ? "The deep read" : "Featured brief"}</span><span>{featured.data.category}</span></div>
           <h1 id="edition-heading"><a href={`/brief/${featured.id}/`}>{typographic(featured.data.title)}</a></h1>
           <p class="lead-dek">{featured.data.description ?? featured.body.split(/\n\s*\n/)[0]?.replace(/^#+\s*/, "")}</p>
           <div class="lead-actions">
@@ -85,8 +82,8 @@ const structuredData = [
 
     {recent.length > 0 && <div class="quick-signals">
       <div class="quick-signals-heading">
-        <h2>Two more signals</h2>
-        <p>Useful in under two minutes each.</p>
+        <h2>{recent.length === 1 ? "One more brief" : "Two more briefs"}</h2>
+        <p>More from this edition.</p>
       </div>
       <div class="quick-signals-layout">
         {recent.map((entry, index) => (
@@ -118,28 +115,7 @@ const structuredData = [
     </div>}
   </section>
 
-  {/* 3. Trending This Week (Social Proof) */}
-  {trending.length > 0 && <section class="trending-section" aria-labelledby="trending-heading">
-    <div class="trending-heading">
-      <div>
-        <p class="eyebrow">Reader signal</p>
-        <h2 id="trending-heading">{trendingData.window_days === 1 ? "Trending today" : "Trending this week"}</h2>
-      </div>
-      <p>
-        {trendingData.window_days === 1
-          ? "Most visited briefs over the last 24 hours."
-          : `Most visited briefs over the last ${trendingData.window_days} days.`}
-      </p>
-    </div>
-    <ol class="trending-list">
-      {trending.map(({ item, entry }, index) => <li>
-        <span class="trending-index">{String(index + 1).padStart(2, "0")}</span>
-        <a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a>
-      </li>)}
-    </ol>
-  </section>}
-
-  {/* 4. Our Biophysics Frameworks (Demystifying Jargon & Key Concepts) */}
+  {/* 3. Research frameworks */}
   <section class="frameworks-guide-section" aria-labelledby="frameworks-heading">
     <div class="section-heading">
       <div>
@@ -154,47 +130,42 @@ const structuredData = [
         <h3><a href="/topics/longevity/">Living Waters</a></h3>
         <p class="framework-tag">Fluid & Micro-Circulation</p>
         <p class="framework-desc">Interfacial exclusion zone (EZ) structured water (H₃O₂) and vascular transport kinetics.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Living Waters spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card">
         <span class="framework-icon" aria-hidden="true">🌱</span>
         <h3><a href="/topics/gut-health/">Inner Garden</a></h3>
         <p class="framework-tag">Gut Microbiome Ecology</p>
         <p class="framework-desc">Short-chain fatty acid signaling, gut barrier integrity, and microbial circadian rhythmicity.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Inner Garden spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card">
         <span class="framework-icon" aria-hidden="true">🍃</span>
         <h3><a href="/topics/cellular-senescence/">Cell Shedding</a></h3>
         <p class="framework-tag">Senescence & Cellular Renewal</p>
         <p class="framework-desc">Targeted senolytic clearing, autophagy activation, and SASP inflammatory reduction.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Cell Shedding spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card">
         <span class="framework-icon" aria-hidden="true">🔥</span>
         <h3><a href="/topics/metabolic-health/">Higher Flame</a></h3>
         <p class="framework-tag">Metabolic Resilience & Mitochondria</p>
         <p class="framework-desc">Mitochondrial respiration voltage, metabolic flexibility, and non-shivering thermogenesis.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Higher Flame spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card">
         <span class="framework-icon" aria-hidden="true">⚡</span>
         <h3><a href="/topics/brain-health/">Luminous Mind</a></h3>
         <p class="framework-tag">Cognitive & Neural Coherence</p>
         <p class="framework-desc">Glymphatic clearance during sleep, neuro-plasticity, and biophotonic brain entrainment.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Luminous Mind spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
       <article class="framework-card">
         <span class="framework-icon" aria-hidden="true">🪞</span>
         <h3><a href="/topics/detoxification/">Dark Mirror</a></h3>
         <p class="framework-tag">Mineral Balance & Bio-Clearing</p>
         <p class="framework-desc">Heavy metal chelation, systemic mineral ratios, and deep tissue clearing pathways.</p>
-        <a href="/spiral-of-cellular-light/" class="framework-spiral-link" aria-label="Walk the Dark Mirror spiral">Walk this spiral <span aria-hidden="true">→</span></a>
       </article>
     </div>
+    <p class="frameworks-overview"><a href="/spiral-of-cellular-light/">Explore the Spiral of Cellular Light <span aria-hidden="true">→</span></a></p>
   </section>
 
-  {/* 5. Recent archive — capped and linked to the full filterable archive
+  {/* 4. Recent archive — capped and linked to the full filterable archive
        rather than rendering all ~109 entries unpaginated. A homepage-scoped
        filter bar was removed on purpose: with only 15 items in the DOM here,
        pill counts drawn from the full archive would promise more results
@@ -213,7 +184,7 @@ const structuredData = [
       {earlier.slice(0, 15).map((entry, index) => (
         <li class="archive-item">
           <article class="archive-entry">
-            <div class="archive-index">{String(index + 4).padStart(2, "0")}</div>
+            <div class="archive-index">{String(index + displayedCount + 1).padStart(2, "0")}</div>
             <div class="archive-copy">
               <p>
                 <span>{entry.data.category}</span> · <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span> · <span>{formatDate(entry.data.date)}</span>
@@ -229,7 +200,7 @@ const structuredData = [
     <p class="archive-view-all"><a href="/archive/">View the full archive ({entries.length} briefs) <span aria-hidden="true">→</span></a></p>
   </section>}
 
-  {/* 6. Subscribe Card with Explicit Parenthetical Lead Magnet Labels */}
+  {/* 5. Subscribe */}
   <section id="subscribe" class="subscribe-card">
     <div class="subscribe-heading">
       <img src="/logo-mark.svg" width="72" height="72" alt="" aria-hidden="true" loading="lazy" decoding="async" />
@@ -522,15 +493,17 @@ const structuredData = [
     color: var(--muted);
     margin: 0;
   }
-  .framework-spiral-link {
+  .frameworks-overview {
+    margin: 16px 0 0;
+  }
+  .frameworks-overview a {
     display: inline-block;
-    margin-top: 10px;
     font-size: 0.82rem;
     font-weight: 700;
     color: var(--saffron-ink);
     text-decoration: none;
   }
-  .framework-spiral-link:hover {
+  .frameworks-overview a:hover {
     text-decoration: underline;
   }
   @media (max-width: 700px) {

@@ -148,7 +148,6 @@ const structuredData = [
     <a class="back-link" href="/">← All briefs</a>
     <div class="article-intro-bar">
       <p class="eyebrow">Agewell Brief <span aria-hidden="true">·</span> Clear signals. Better questions.</p>
-      <a href="/#subscribe">Get tomorrow’s edition <span aria-hidden="true">→</span></a>
     </div>
     <header class="article-header">
       <div class="signal-rail">
@@ -260,16 +259,6 @@ const structuredData = [
     <footer class="article-footer"><span>Keep asking better questions.</span><a href="/#subscribe">Get tomorrow’s edition →</a></footer>
   </article>
 
-  {/* Floating Sticky Reader Bar */}
-  <aside id="floating-reader-bar" class="floating-reader-bar" aria-label="Subscribe reminder">
-    <div class="reader-bar-inner">
-      <span>📩 Enjoying this analysis? Get one daily edition: a deep read, two signals, and six field guides.</span>
-      <a href="/#subscribe" class="reader-bar-btn">Get Free Briefs <span aria-hidden="true">→</span></a>
-      <button type="button" id="reader-bar-close" class="reader-bar-close" aria-label="Dismiss subscribe reminder">
-        <span aria-hidden="true">×</span>
-      </button>
-    </div>
-  </aside>
 </Layout>
 
 <style>
@@ -444,124 +433,4 @@ const structuredData = [
     opacity: 0.8;
   }
 
-  /* Floating Sticky Reader Bar */
-  .floating-reader-bar {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 99;
-    max-width: 680px;
-    width: 90vw;
-    background: var(--paper);
-    border: 1px solid var(--saffron-soft);
-    border-radius: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
-    padding: 10px 20px;
-  }
-  .reader-bar-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    font-size: 0.84rem;
-    font-weight: 600;
-    color: var(--ink);
-  }
-  .reader-bar-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    padding: 6px 14px;
-    background: var(--saffron-ink);
-    color: #ffffff;
-    font-size: 0.78rem;
-    font-weight: 700;
-    border-radius: 20px;
-    text-decoration: none;
-    white-space: nowrap;
-    transition: background 0.2s ease;
-  }
-  .reader-bar-btn:hover {
-    background: var(--ink);
-  }
-  .reader-bar-close {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex: none;
-    width: 26px;
-    height: 26px;
-    margin-right: -6px;
-    padding: 0;
-    border: 0;
-    border-radius: 50%;
-    background: transparent;
-    color: var(--muted);
-    font-size: 1.15rem;
-    line-height: 1;
-    cursor: pointer;
-    transition: background 0.2s ease, color 0.2s ease;
-  }
-  .reader-bar-close:hover {
-    background: var(--cream);
-    color: var(--ink);
-  }
-  .floating-reader-bar[hidden] {
-    display: none;
-  }
-
-  @media (max-width: 600px) {
-    .floating-reader-bar {
-      bottom: max(12px, env(safe-area-inset-bottom));
-      width: calc(100vw - 24px);
-      padding: 10px 14px;
-      border-radius: 18px;
-    }
-    .reader-bar-inner {
-      flex-wrap: wrap;
-      gap: 8px 10px;
-      font-size: 0.76rem;
-      line-height: 1.35;
-    }
-    .reader-bar-inner > span {
-      flex: 1 1 calc(100% - 42px);
-    }
-    .reader-bar-btn {
-      margin-left: auto;
-    }
-  }
 </style>
-
-<script>
-  // The bar covers ~55px of content at every scroll position and overlaps the
-  // footer nav at the bottom of the page, so it has to be dismissible. The
-  // choice is remembered for the session — long enough not to nag a reader
-  // working through several briefs, short enough that it is not a one-time
-  // decision made permanently on the reader's behalf.
-  const bar = document.getElementById("floating-reader-bar");
-  const close = document.getElementById("reader-bar-close");
-  const KEY = "agewell:reader-bar-dismissed";
-
-  if (bar && close) {
-    let dismissed = false;
-    try {
-      dismissed = sessionStorage.getItem(KEY) === "1";
-    } catch {
-      // Private-mode or blocked storage: fall back to showing the bar.
-    }
-
-    if (dismissed) {
-      bar.hidden = true;
-    }
-
-    close.addEventListener("click", () => {
-      bar.hidden = true;
-      try {
-        sessionStorage.setItem(KEY, "1");
-      } catch {
-        // Dismissal still applies for this page view.
-      }
-    });
-  }
-</script>
