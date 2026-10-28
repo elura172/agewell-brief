@@ -1,4 +1,5 @@
----title: "Patient-derived brain organoids predicted who responded to an antidepressant"
+---
+title: "Patient-derived brain organoids predicted who responded to an antidepressant"
 date: 2026-08-02T22:19:44.677591+00:00
 draft: false
 category: "brain health"

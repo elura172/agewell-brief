@@ -1,4 +1,5 @@
----title: "What the cell-shedding framework gets right about senescence research"
+---
+title: "What the cell-shedding framework gets right about senescence research"
 date: 2026-08-03T00:00:00-04:00
 draft: false
 category: "cellular senescence"

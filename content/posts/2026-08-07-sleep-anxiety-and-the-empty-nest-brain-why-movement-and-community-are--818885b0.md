@@ -1,4 +1,5 @@
----title: "Sleep, Anxiety, and the Empty-Nest Brain: Why Movement and Community Are Biological Levers"
+---
+title: "Sleep, Anxiety, and the Empty-Nest Brain: Why Movement and Community Are Biological Levers"
 date: 2026-08-07T23:39:36.850734+00:00
 draft: false
 category: "sleep health"

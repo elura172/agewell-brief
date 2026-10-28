@@ -1,4 +1,5 @@
----title: "FDA warns of hidden ingredients in some sleep, skin, and bodybuilding products"
+---
+title: "FDA warns of hidden ingredients in some sleep, skin, and bodybuilding products"
 date: 2026-08-02T10:32:43.853848+00:00
 updated: 2026-08-02T11:02:46+00:00
 draft: false
@@ -27,6 +28,7 @@ autoresearch_antecedents: [{"scientist": "Arthur C. Guyton", "year": "1960s", "d
 ancestral_insight: "Traditional societies relied on whole-plant preparations (e.g., willow bark for pain, coca leaf for energy) where active compounds were present in low, naturally buffered concentrations, and knowledge of toxicity was passed down through generations. The modern problem of hidden synthetic drugs in 'natural' supplements breaks this ancestral safety mechanism: concentrated, isolated actives (e.g., sildenafil, anabolic steroids) lack the natural co-factors and dose-limiting plant matrices that historically provided a built-in safety margin. This underscores that ancestral practices were not 'drug-free' but rather relied on identifiable, whole-organism pharmacology—whereas today's undisclosed additives bypass both traditional knowledge and modern regulation, increasing risk of adverse effects."
 evidence_position: "emerging"
 ---
+
 Some products marketed as dietary supplements or foods contain undeclared drugs. The FDA's searchable list can help you check.
 
 ## Three things to remember

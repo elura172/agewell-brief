@@ -1,4 +1,5 @@
----title: "Itch and pain split by a single gene switch in spinal neurons"
+---
+title: "Itch and pain split by a single gene switch in spinal neurons"
 date: 2025-08-01T12:00:00+00:00
 draft: false
 category: "brain health"

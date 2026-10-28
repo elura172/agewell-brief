@@ -1,4 +1,5 @@
----title: "Mediterranean eating pattern linked to two mitochondrial microproteins"
+---
+title: "Mediterranean eating pattern linked to two mitochondrial microproteins"
 date: 2026-08-02T10:32:43.853848+00:00
 updated: 2026-08-02T11:02:46+00:00
 draft: false
@@ -27,6 +28,7 @@ autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "1980s", 
 ancestral_insight: ""
 evidence_position: "emerging"
 ---
+
 A small pilot study finds that older adults who closely follow a Mediterranean eating pattern have higher blood levels of two mitochondrial microproteins tied to cellular health.
 
 ## Three things to remember

@@ -1,4 +1,5 @@
----title: "Coffee's Metabolic Edge: Less Fat, More Muscle, and a Hormonal Signature"
+---
+title: "Coffee's Metabolic Edge: Less Fat, More Muscle, and a Hormonal Signature"
 date: 2026-08-19T13:49:21.602462+00:00
 draft: false
 category: "metabolic health"

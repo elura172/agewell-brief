@@ -1,4 +1,5 @@
----title: "Three brain regions synchronised during sleep to consolidate memory"
+---
+title: "Three brain regions synchronised during sleep to consolidate memory"
 date: 2026-08-02T19:42:45.995186+00:00
 draft: false
 category: "brain health"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "Gy\u00f6rgy Buzs\u00e1ki", "year": "19
 ancestral_insight: "Traditional sleep practices, such as segmented sleep (first and second sleep) common in pre-industrial societies, may have enhanced memory consolidation by aligning sleep cycles with natural light-dark rhythms, optimizing the duration and quality of slow-wave sleep when hippocampal-neocortical synchronization occurs. Additionally, ancestral diets low in refined sugars and high in omega-3 fatty acids support neuronal membrane integrity and synaptic plasticity, potentially reducing seizure susceptibility and preserving the precise temporal coordination of sleep rhythms—offering a lifestyle parallel to the modern finding that intact neural synchronization is crucial for memory."
 evidence_position: "emerging"
 ---
+
 A first-of-its-kind study shows three brain regions working together during sleep to strengthen memories—and how epilepsy can disrupt that process.
 
 ## Three things to remember

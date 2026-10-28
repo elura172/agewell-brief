@@ -1,4 +1,5 @@
----title: "Can a Nerve in Your Ear Wake the Unconscious Brain? The Biophysics of taVNS"
+---
+title: "Can a Nerve in Your Ear Wake the Unconscious Brain? The Biophysics of taVNS"
 date: 2026-08-12T23:50:13.009667+00:00
 draft: false
 category: "brain health"

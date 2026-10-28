@@ -1,4 +1,5 @@
----title: "A consistent daily routine tracked less pain and better sleep"
+---
+title: "A consistent daily routine tracked less pain and better sleep"
 date: 2026-08-02T22:19:44.677591+00:00
 draft: false
 category: "sleep health"

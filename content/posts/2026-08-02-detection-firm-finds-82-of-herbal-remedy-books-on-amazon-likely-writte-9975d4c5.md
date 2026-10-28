@@ -1,4 +1,5 @@
----title: "A scan of 558 herbal remedy books found 82% likely AI-written"
+---
+title: "A scan of 558 herbal remedy books found 82% likely AI-written"
 date: 2026-08-02T22:38:23.084822+00:00
 draft: false
 category: "brain health"

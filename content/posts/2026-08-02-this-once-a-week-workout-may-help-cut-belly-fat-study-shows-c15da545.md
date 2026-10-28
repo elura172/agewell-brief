@@ -1,4 +1,5 @@
----title: "75 minutes of weekly interval walking cut central fat in 315 adults"
+---
+title: "75 minutes of weekly interval walking cut central fat in 315 adults"
 date: 2026-08-02T21:44:38.665835+00:00
 draft: false
 category: "metabolic health"

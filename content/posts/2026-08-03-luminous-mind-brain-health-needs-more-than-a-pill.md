@@ -1,4 +1,5 @@
----title: "The Luminous Mind framework treats brain health as a whole-system project"
+---
+title: "The Luminous Mind framework treats brain health as a whole-system project"
 date: 2026-08-03T00:00:00-04:00
 draft: false
 category: "brain health"

@@ -1,4 +1,5 @@
----title: "Sleepiness Decomposed: The Hidden Physics of Fatigue"
+---
+title: "Sleepiness Decomposed: The Hidden Physics of Fatigue"
 date: 2026-08-15T23:26:19.311478+00:00
 draft: false
 category: "sleep health"

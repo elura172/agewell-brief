@@ -1,4 +1,5 @@
----title: "A brain waste-clearance gene altered how much poor sleep costs"
+---
+title: "A brain waste-clearance gene altered how much poor sleep costs"
 date: 2026-08-02T19:42:45.995186+00:00
 draft: false
 category: "brain health"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "d
 ancestral_insight: "Traditional hunter-gatherer lifestyles, such as those of the Hadza or San, often involve segmented or polyphasic sleep patterns with frequent daytime naps, which may enhance total sleep duration and glymphatic clearance. Physical activity and circadian alignment with natural light-dark cycles in these populations promote deeper slow-wave sleep, which is the most efficient phase for glymphatic flow. Additionally, ancestral diets low in inflammatory foods may reduce blood-brain barrier permeability, supporting waste clearance. These lifestyle factors could mitigate the genetic risk identified in the study, suggesting that optimizing sleep architecture and reducing inflammation may be universally protective, especially for genetically susceptible individuals."
 evidence_position: "emerging"
 ---
+
 New research links sleep quality, genetics, and Alzheimer's-related brain changes, suggesting a personalized approach to prevention.
 
 ## Three things to remember

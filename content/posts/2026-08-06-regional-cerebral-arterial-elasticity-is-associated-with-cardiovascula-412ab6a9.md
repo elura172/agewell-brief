@@ -1,4 +1,5 @@
----title: "Cerebral artery elasticity declined measurably in just 18 months"
+---
+title: "Cerebral artery elasticity declined measurably in just 18 months"
 date: 2026-08-06T00:04:40.285708+00:00
 draft: false
 category: "metabolic health"

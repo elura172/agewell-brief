@@ -1,35 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-08T07:13:12.562949+00:00",
+  "generated_at": "2026-10-28T02:00:36.487657+00:00",
   "article": {
     "article": "2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34",
     "url": "https://agewellbrief.com/brief/2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34/",
     "category": "longevity",
-    "trend": {
-      "rank": 4,
-      "reader_visits": 7
-    },
+    "trend": null,
     "source_url": "https://arxiv.org/abs/2607.29253",
     "content_record": {
       "article_id": "2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34",
       "article_url": "https://agewellbrief.com/brief/2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34/",
-      "title": "2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34",
+      "title": "A public CT dataset sets a benchmark for image-quality scoring",
       "category": "longevity",
       "source_url": "https://arxiv.org/abs/2607.29253",
-      "editorial_body": "A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated CBCT slices with expert scores for overall and ROI quality. - 26 full- and no-reference IQA measures benchmarked against expert annotations. - Exploratory ranking distinguishes subtle image quality differences for future research. Source This signal is based on CBCT-IQ: A Publicly Available Annotated Cone-Beam CT Dataset for Image Quality Assessment and Benchmarking from arXiv medical physics. Read the original report for full context. Health note: Dataset is for research benchmarking; not clinically validated for diagnostic use."
+      "editorial_body": "A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated CBCT slices with expert scores for overall and ROI quality. - 26 full- and no-reference IQA measures benchmarked against expert annotations. - Exploratory ranking distinguishes subtle image quality differences for future research. How to interpret it Historical Biophysics & Lineage The CBCT-IQ dataset provides a standardized, annotated set of cone-beam CT slices with expert quality scores, enabling rigorous benchmarking of IQA algorithms. This connects to Bucky's grid by addressing the physical challenge of scatter-induced degradation in cone-beam geometry, where scatter is more pronounced than in fan-beam CT. The dataset allows quantitative validation of algorithms that emulate human perception of quality, directly linking radiation dose management (a concern since the early days of radiography) to image fidelity. The inclusion of both full-reference and no-reference metrics bridges the gap between physics-based image quality metrics (e.g., MTF, NPS) and perceptual quality, as pioneered by Wang's work on structural similarity and later no-reference extensions. Ancestral parallel: Traditional diagnostic practices, such as the use of palpation and observation in ancient medicine (e.g., Hippocratic medicine), relied on maximizing information from minimal intervention, analogous to the principle of 'as low as reasonably achievable' (ALARA) in modern imaging. The dataset's emphasis on balancing dose and quality mirrors this ancestral wisdom: obtaining the necessary diagnostic information with the least possible harm. Physically, this parallels the evolutionary optimization of sensory systems, where organisms extract critical environmental cues with minimal energy expenditure, a principle now formalized in information-theoretic approaches to image quality assessment. Source This signal is based on CBCT-IQ: A Publicly Available Annotated Cone-Beam CT Dataset for Image Quality Assessment and Benchmarking from arXiv medical physics. Read the original report for full context. Health note: Dataset is for research benchmarking; not clinically validated for diagnostic use."
     },
     "mpt_job": {
       "status": "ready_for_mpt",
-      "subject": "2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34",
+      "subject": "A public CT dataset sets a benchmark for image-quality scoring",
       "article_url": "https://agewellbrief.com/brief/2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34/",
       "video_aspect": "9:16",
       "voice_name": "en-US-AvaNeural",
-      "script": "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways. A new biophysics study just dropped on '2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34'. A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated C. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
+      "script": "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways. A new biophysics study just dropped on 'A public CT dataset sets a benchmark for image-quality scoring'. A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated C. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
       "source_url": "https://arxiv.org/abs/2607.29253",
-      "trend": {
-        "rank": 4,
-        "reader_visits": 7
-      },
+      "trend": null,
       "text_fore_color": "#FEFEFE",
       "highlight_color": "#F97316",
       "stroke_color": "#0B0F19",
@@ -46,19 +40,19 @@
       "requires_video_qa": false
     },
     "facebook": {
-      "title": "✨ [Cosmic Biophysics] 2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34\n\nA new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated CBCT slices with expert scores for overall and ROI quality. -.",
+      "title": "✨ [Cosmic Biophysics] A public CT dataset sets a benchmark for image-quality scoring\n\nA new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated CBCT slices with expert scores for overall and ROI quality. -.",
       "link_url": "https://agewellbrief.com/brief/2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34/"
     },
     "tiktok": {
-      "hook": "✨ 2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34",
-      "script": "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways. A new biophysics study just dropped on '2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34'. A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated C. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
-      "caption": "✨ 2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34. Quantum biophysics breakdown from Agewell Brief. Tap bio link for full study & 6 free Field Guides! #biophysics #cellularlongevity #cosmicmedicine #healthyaging",
+      "hook": "✨ A public CT dataset sets a benchmark for image-quality scoring",
+      "script": "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways. A new biophysics study just dropped on 'A public CT dataset sets a benchmark for image-quality scoring'. A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated C. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
+      "caption": "✨ A public CT dataset sets a benchmark for image-quality scoring. Quantum biophysics breakdown from Agewell Brief. Tap bio link for full study & 6 free Field Guides! #biophysics #cellularlongevity #cosmicmedicine #healthyaging",
       "link_in_bio": "https://agewellbrief.com/brief/2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34/",
       "media_status": "ready_for_mpt"
     },
     "youtube": {
-      "title": "✨ 2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34",
-      "description": "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways. A new biophysics study just dropped on '2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34'. A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated C. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.\n\nRead the full biophysics brief & download the 6 Field Guides: https://agewellbrief.com/brief/2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34/\n\nSource-led biophysics reporting from Agewell Brief.",
+      "title": "✨ A public CT dataset sets a benchmark for image-quality scoring",
+      "description": "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways. A new biophysics study just dropped on 'A public CT dataset sets a benchmark for image-quality scoring'. A new annotated dataset of 1,764 cone-beam CT slices enables reproducible research on quantitative image quality assessment, balancing diagnostic accuracy with radiation dose. Three things to remember - 1,764 annotated C. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.\n\nRead the full biophysics brief & download the 6 Field Guides: https://agewellbrief.com/brief/2026-08-03-cbct-iq-a-publicly-available-annotated-cone-beam-ct-dataset-for-image--260faf34/\n\nSource-led biophysics reporting from Agewell Brief.",
       "media_status": "ready_for_mpt"
     }
   },

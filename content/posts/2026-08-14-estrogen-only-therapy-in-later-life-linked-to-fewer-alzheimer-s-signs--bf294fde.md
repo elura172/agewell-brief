@@ -1,4 +1,5 @@
----title: "Estrogen-only therapy in later life linked to fewer Alzheimer's signs in the brain"
+---
+title: "Estrogen-only therapy in later life linked to fewer Alzheimer's signs in the brain"
 date: 2026-08-14T14:19:19.826430+00:00
 draft: false
 category: "brain health"

@@ -1,4 +1,5 @@
----title: "Work stress tracked persistent sleep problems in 70% of over-50s"
+---
+title: "Work stress tracked persistent sleep problems in 70% of over-50s"
 date: 2026-08-02T09:07:46+00:00
 draft: false
 category: "brain health"

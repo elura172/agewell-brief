@@ -1,4 +1,5 @@
----title: "In 1,700 adults, frequent midlife TV tracked smaller memory regions"
+---
+title: "In 1,700 adults, frequent midlife TV tracked smaller memory regions"
 date: 2026-08-02T18:08:37.559736+00:00
 draft: false
 category: "brain health"

@@ -1,4 +1,5 @@
----title: "Lifelong bilingualism preserved pre-attentive hearing discrimination with age"
+---
+title: "Lifelong bilingualism preserved pre-attentive hearing discrimination with age"
 date: 2026-08-05T15:19:35.954766+00:00
 draft: false
 category: "brain health"

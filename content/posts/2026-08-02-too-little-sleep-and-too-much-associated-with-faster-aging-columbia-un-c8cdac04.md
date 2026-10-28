@@ -1,4 +1,5 @@
----title: "Both short and long sleep tracked faster organ aging"
+---
+title: "Both short and long sleep tracked faster organ aging"
 date: 2026-08-02T22:41:51.690760+00:00
 draft: false
 category: "sleep health"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": "1939", "
 ancestral_insight: ""
 evidence_position: "emerging"
 ---
+
 A new study using organ-specific 'aging clocks' finds that both too little and too much sleep are tied to faster aging across the body.
 
 ## Three things to remember

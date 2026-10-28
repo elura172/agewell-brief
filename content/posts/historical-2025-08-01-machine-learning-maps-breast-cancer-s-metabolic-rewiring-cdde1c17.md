@@ -1,4 +1,5 @@
----title: "Machine learning maps breast cancer's metabolic rewiring"
+---
+title: "Machine learning maps breast cancer's metabolic rewiring"
 date: 2025-08-01T12:00:00+00:00
 draft: false
 category: "metabolic health"

@@ -1,4 +1,5 @@
----title: "Gray and white matter jointly shape cognitive aging, new evidence shows"
+---
+title: "Gray and white matter jointly shape cognitive aging, new evidence shows"
 date: 2026-08-20T18:51:31.100109+00:00
 draft: false
 category: "brain health"

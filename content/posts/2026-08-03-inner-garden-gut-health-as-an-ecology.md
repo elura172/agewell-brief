@@ -1,4 +1,5 @@
----title: "Gut health is an ecology, not a single supplement"
+---
+title: "Gut health is an ecology, not a single supplement"
 date: 2026-08-03T00:00:00-04:00
 draft: false
 category: "gut health"

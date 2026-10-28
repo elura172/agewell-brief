@@ -1,4 +1,5 @@
----title: "Fat's hidden clock: how ageing adipose tissue drives metabolic decline"
+---
+title: "Fat's hidden clock: how ageing adipose tissue drives metabolic decline"
 date: 2025-10-01T12:00:00+00:00
 draft: false
 category: "metabolic health"

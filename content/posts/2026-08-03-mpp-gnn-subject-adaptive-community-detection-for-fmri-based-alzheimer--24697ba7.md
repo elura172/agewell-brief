@@ -1,4 +1,5 @@
----title: "Person-specific brain mapping improved Alzheimer's detection from fMRI"
+---
+title: "Person-specific brain mapping improved Alzheimer's detection from fMRI"
 date: 2026-08-03T05:57:09.388462+00:00
 draft: false
 category: "brain health"

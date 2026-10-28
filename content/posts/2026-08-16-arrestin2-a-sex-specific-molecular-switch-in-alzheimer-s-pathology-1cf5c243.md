@@ -1,4 +1,5 @@
----title: "β-Arrestin2: A Sex-Specific Molecular Switch in Alzheimer's Pathology"
+---
+title: "β-Arrestin2: A Sex-Specific Molecular Switch in Alzheimer's Pathology"
 date: 2026-08-16T18:39:12.239962+00:00
 draft: false
 category: "brain health"

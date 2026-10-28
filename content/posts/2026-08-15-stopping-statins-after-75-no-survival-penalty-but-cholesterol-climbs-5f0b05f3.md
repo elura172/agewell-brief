@@ -1,4 +1,5 @@
----title: "Stopping statins after 75: no survival penalty, but cholesterol climbs"
+---
+title: "Stopping statins after 75: no survival penalty, but cholesterol climbs"
 date: 2026-08-15T13:35:07.290007+00:00
 draft: false
 category: "longevity"

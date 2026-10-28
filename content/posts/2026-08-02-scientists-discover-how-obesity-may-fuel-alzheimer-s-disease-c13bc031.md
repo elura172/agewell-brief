@@ -1,4 +1,5 @@
----title: "In Alzheimer's models, obesity-related fats reached the brain and raised amyloid"
+---
+title: "In Alzheimer's models, obesity-related fats reached the brain and raised amyloid"
 date: 2026-08-02T18:12:33.536021+00:00
 draft: false
 category: "metabolic health"

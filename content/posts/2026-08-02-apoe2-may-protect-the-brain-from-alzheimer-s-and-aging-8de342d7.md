@@ -1,4 +1,5 @@
----title: "APOE2 neurons showed less DNA damage and better repair"
+---
+title: "APOE2 neurons showed less DNA damage and better repair"
 date: 2026-08-02T18:08:37.559736+00:00
 draft: false
 category: "brain health"

@@ -1,4 +1,5 @@
----title: "Time-restricted eating shows promise for type 1 diabetes blood sugar control"
+---
+title: "Time-restricted eating shows promise for type 1 diabetes blood sugar control"
 date: 2026-08-20T23:31:36.247619+00:00
 draft: false
 category: "metabolic health"

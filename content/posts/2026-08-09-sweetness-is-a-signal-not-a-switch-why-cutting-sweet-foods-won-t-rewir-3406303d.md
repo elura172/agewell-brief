@@ -1,4 +1,5 @@
----title: "Sweetness Is a Signal, Not a Switch: Why Cutting Sweet Foods Won't Rewire Your Taste"
+---
+title: "Sweetness Is a Signal, Not a Switch: Why Cutting Sweet Foods Won't Rewire Your Taste"
 date: 2026-08-09T18:52:37.482134+00:00
 draft: false
 category: "metabolic health"

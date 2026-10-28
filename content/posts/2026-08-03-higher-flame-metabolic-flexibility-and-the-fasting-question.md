@@ -1,4 +1,5 @@
----title: "The Higher Flame framework asks what fuel flexibility might change"
+---
+title: "The Higher Flame framework asks what fuel flexibility might change"
 date: 2026-08-03T00:00:00-04:00
 draft: false
 category: "metabolic health"

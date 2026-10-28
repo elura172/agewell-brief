@@ -1,4 +1,5 @@
----title: "REM Sleep Turns the Brain Inward: New EEG Evidence of Sensory Gating"
+---
+title: "REM Sleep Turns the Brain Inward: New EEG Evidence of Sensory Gating"
 date: 2026-08-09T13:53:29.982645+00:00
 draft: false
 category: "brain health"

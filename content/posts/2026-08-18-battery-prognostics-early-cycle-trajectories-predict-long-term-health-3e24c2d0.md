@@ -1,4 +1,5 @@
----title: "Battery Prognostics: Early-Cycle Trajectories Predict Long-Term Health"
+---
+title: "Battery Prognostics: Early-Cycle Trajectories Predict Long-Term Health"
 date: 2026-08-18T13:47:28.332033+00:00
 draft: false
 category: "general wellness"

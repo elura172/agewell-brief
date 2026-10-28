@@ -1,4 +1,5 @@
----title: "An AI model charted how separate brain regions age at different rates"
+---
+title: "An AI model charted how separate brain regions age at different rates"
 date: 2026-08-04T19:46:51.306331+00:00
 draft: false
 category: "brain health"

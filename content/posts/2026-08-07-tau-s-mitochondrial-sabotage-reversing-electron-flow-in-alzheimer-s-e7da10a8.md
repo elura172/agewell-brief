@@ -1,4 +1,5 @@
----title: "Tau's mitochondrial sabotage: reversing electron flow in Alzheimer's"
+---
+title: "Tau's mitochondrial sabotage: reversing electron flow in Alzheimer's"
 date: 2026-08-07T01:43:00.845328+00:00
 draft: false
 category: "brain health"

@@ -1,4 +1,5 @@
----title: "Universal transcriptomic hallmarks of mammalian ageing and mortality"
+---
+title: "Universal transcriptomic hallmarks of mammalian ageing and mortality"
 date: 2026-06-01T12:00:00+00:00
 draft: false
 category: "metabolic health"

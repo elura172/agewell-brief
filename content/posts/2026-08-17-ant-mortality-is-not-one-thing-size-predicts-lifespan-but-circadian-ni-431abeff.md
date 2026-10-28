@@ -1,4 +1,5 @@
----title: "Ant mortality is not one thing: size predicts lifespan, but circadian niche and lineage govern aging and heat death"
+---
+title: "Ant mortality is not one thing: size predicts lifespan, but circadian niche and lineage govern aging and heat death"
 date: 2026-08-17T23:28:25.516483+00:00
 draft: false
 category: "longevity"

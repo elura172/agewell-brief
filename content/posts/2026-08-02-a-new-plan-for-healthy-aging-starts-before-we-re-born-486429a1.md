@@ -1,4 +1,5 @@
----title: "Researchers are building a healthspan field rooted in early life"
+---
+title: "Researchers are building a healthspan field rooted in early life"
 date: 2026-08-02T09:07:46+00:00
 draft: false
 category: "longevity"

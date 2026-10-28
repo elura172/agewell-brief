@@ -1,4 +1,5 @@
----title: "In adults with HIV, semaglutide slowed biological aging markers"
+---
+title: "In adults with HIV, semaglutide slowed biological aging markers"
 date: 2026-08-02T22:19:44.677591+00:00
 draft: false
 category: "longevity"

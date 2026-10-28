@@ -1,4 +1,5 @@
----title: "Activating a lactate receptor eased senescence markers in progeroid mice"
+---
+title: "Activating a lactate receptor eased senescence markers in progeroid mice"
 date: 2026-08-03T19:48:08.407686+00:00
 draft: false
 category: "longevity"

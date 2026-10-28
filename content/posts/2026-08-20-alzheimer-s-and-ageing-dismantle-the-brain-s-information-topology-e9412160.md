@@ -1,4 +1,5 @@
----title: "Alzheimer's and ageing dismantle the brain's information topology"
+---
+title: "Alzheimer's and ageing dismantle the brain's information topology"
 date: 2026-08-20T13:51:30.850801+00:00
 draft: false
 category: "brain health"

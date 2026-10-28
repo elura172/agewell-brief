@@ -1,4 +1,5 @@
----title: "Evolved Gut Bacteria Extend Lifespan in Flies: Acetate as the Molecular Bridge"
+---
+title: "Evolved Gut Bacteria Extend Lifespan in Flies: Acetate as the Molecular Bridge"
 date: 2026-08-10T14:22:25.406489+00:00
 draft: false
 category: "gut health"

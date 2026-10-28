@@ -1,4 +1,5 @@
----title: "Your motor neurons are stronger in the afternoon"
+---
+title: "Your motor neurons are stronger in the afternoon"
 date: 2025-08-01T12:00:00+00:00
 draft: false
 category: "metabolic health"

@@ -1,4 +1,5 @@
----title: "The Heart's True Exercise Threshold: Why 150 Minutes May Be Just the Beginning"
+---
+title: "The Heart's True Exercise Threshold: Why 150 Minutes May Be Just the Beginning"
 date: 2026-08-08T18:49:43.595927+00:00
 draft: false
 category: "mobility"

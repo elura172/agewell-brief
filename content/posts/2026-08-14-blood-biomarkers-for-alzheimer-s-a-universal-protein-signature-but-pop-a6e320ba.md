@@ -1,4 +1,5 @@
----title: "Blood biomarkers for Alzheimer's: a universal protein signature, but population-specific calibration is critical"
+---
+title: "Blood biomarkers for Alzheimer's: a universal protein signature, but population-specific calibration is critical"
 date: 2026-08-14T19:04:15.233187+00:00
 draft: false
 category: "brain health"

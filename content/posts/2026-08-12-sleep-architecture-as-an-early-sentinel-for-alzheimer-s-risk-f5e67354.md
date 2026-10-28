@@ -1,4 +1,5 @@
----title: "Sleep architecture as an early sentinel for Alzheimer's risk"
+---
+title: "Sleep architecture as an early sentinel for Alzheimer's risk"
 date: 2026-08-12T14:22:46.080641+00:00
 draft: false
 category: "brain health"
