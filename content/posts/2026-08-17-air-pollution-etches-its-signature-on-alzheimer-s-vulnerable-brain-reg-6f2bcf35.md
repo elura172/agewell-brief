@@ -1,4 +1,5 @@
----title: "Air pollution etches its signature on Alzheimer's-vulnerable brain regions"
+---
+title: "Air pollution etches its signature on Alzheimer's-vulnerable brain regions"
 date: 2026-08-17T18:50:44.527390+00:00
 draft: false
 category: "brain health"

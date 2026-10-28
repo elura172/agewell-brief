@@ -1,4 +1,5 @@
----title: "A mitochondrial transport route helped senescent cells drive inflammation"
+---
+title: "A mitochondrial transport route helped senescent cells drive inflammation"
 date: 2026-08-02T11:23:45+00:00
 updated: 2026-08-02T11:23:45+00:00
 draft: false
@@ -27,6 +28,7 @@ autoresearch_antecedents: [{"scientist": "Hans Krebs", "year": "1937", "discover
 ancestral_insight: "Traditional lifestyles characterized by intermittent fasting or caloric restriction reduce overall nutrient flux and mitochondrial citrate export, potentially lowering acetyl-CoA pools and histone acetylation. This may explain the anti-inflammatory effects of such dietary patterns, as they would naturally downregulate the same metabolic-epigenetic axis that drives SASP in senescence. Physical activity, also common in ancestral lifestyles, enhances mitochondrial function and may similarly modulate citrate metabolism to reduce chronic inflammation."
 evidence_position: "emerging"
 ---
+
 New lab research traces part of the inflammatory output of senescent cells to mitochondrial citrate metabolism, and finds that inhibiting a key transporter reduces that signaling without waking the cells.
 
 ## Three things to remember

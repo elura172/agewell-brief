@@ -1,4 +1,5 @@
----title: "In mice, removing brain immune cells restored two hours of sleep"
+---
+title: "In mice, removing brain immune cells restored two hours of sleep"
 date: 2026-08-02T19:14:38Z
 draft: false
 category: "brain health"

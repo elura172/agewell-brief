@@ -1,4 +1,5 @@
----title: "In mice, an immune reaction explained statin muscle damage"
+---
+title: "In mice, an immune reaction explained statin muscle damage"
 date: 2026-08-02T22:38:23.084822+00:00
 draft: false
 category: "general wellness"

@@ -1,4 +1,5 @@
----title: "In 47 older women, six months of time-restricted eating aided spatial planning"
+---
+title: "In 47 older women, six months of time-restricted eating aided spatial planning"
 date: 2026-08-02T19:14:38Z
 draft: false
 category: "brain health"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "Mark Mattson", "year": "2014", "discov
 ancestral_insight: "Hunter-gatherer societies, such as the Hadza, naturally experience cycles of feast and famine due to seasonal food availability. Their daily foraging involves extensive spatial navigation and planning to locate resources, which would have selected for enhanced hippocampal function during periods of caloric restriction. Time-restricted eating mimics this ancestral pattern, potentially activating conserved metabolic pathways (e.g., AMPK, sirtuins) that support cognitive performance during food scarcity. This evolutionary parallel suggests that the cognitive benefits observed are not novel but a reversion to a physiological state for which the human brain is adapted."
 evidence_position: "emerging"
 ---
+
 A six-month pilot study of 47 women ages 50 to 79 found modest gains in spatial planning and problem-solving with time-restricted eating. But the small trial can’t show it prevents dementia.
 
 ## Three things to remember

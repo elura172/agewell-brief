@@ -1,4 +1,5 @@
----title: "Flavonoid from vine tea selectively clears senescent microglia, repairs DNA in aging cells"
+---
+title: "Flavonoid from vine tea selectively clears senescent microglia, repairs DNA in aging cells"
 date: 2026-03-06T12:00:00+00:00
 draft: false
 category: "cellular senescence"

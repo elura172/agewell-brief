@@ -1,4 +1,5 @@
----title: "Researchers map how single neurons assemble spoken language"
+---
+title: "Researchers map how single neurons assemble spoken language"
 date: 2026-08-02T11:23:45+00:00
 updated: 2026-08-02T11:23:45+00:00
 draft: false

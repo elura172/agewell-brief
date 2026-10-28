@@ -1,4 +1,5 @@
----title: "The Locus Coeruleus: A Tiny Brain Nucleus That Orchestrates Cognition and Predicts Neurodegeneration"
+---
+title: "The Locus Coeruleus: A Tiny Brain Nucleus That Orchestrates Cognition and Predicts Neurodegeneration"
 date: 2026-08-08T23:35:25.111282+00:00
 draft: false
 category: "brain health"

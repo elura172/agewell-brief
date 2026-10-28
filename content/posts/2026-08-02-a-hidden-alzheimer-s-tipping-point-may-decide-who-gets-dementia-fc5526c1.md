@@ -1,4 +1,5 @@
----title: "A microglial switch may separate who declines from who stays sharp"
+---
+title: "A microglial switch may separate who declines from who stays sharp"
 date: 2026-08-02T19:57:57.163527+00:00
 draft: false
 category: "brain health"

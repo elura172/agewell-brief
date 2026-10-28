@@ -1,4 +1,5 @@
----title: "A better body-fat measure undercuts the childhood 'fat rebound' theory"
+---
+title: "A better body-fat measure undercuts the childhood 'fat rebound' theory"
 date: 2026-08-02T19:57:57.163527+00:00
 draft: false
 category: "metabolic health"

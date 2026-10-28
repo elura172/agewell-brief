@@ -1,4 +1,5 @@
----title: "Senescent microglia secrete a protein that drives brain aging"
+---
+title: "Senescent microglia secrete a protein that drives brain aging"
 date: 2026-08-11T19:12:59.752371+00:00
 draft: false
 category: "brain health"

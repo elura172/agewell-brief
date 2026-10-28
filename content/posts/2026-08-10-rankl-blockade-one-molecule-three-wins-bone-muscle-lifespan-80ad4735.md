@@ -1,4 +1,5 @@
----title: "RANKL blockade: one molecule, three wins—bone, muscle, lifespan"
+---
+title: "RANKL blockade: one molecule, three wins—bone, muscle, lifespan"
 date: 2026-08-10T19:07:10.295361+00:00
 draft: false
 category: "longevity"

@@ -1,4 +1,5 @@
----title: "A sleep EEG 'brain age' score tracked future dementia risk"
+---
+title: "A sleep EEG 'brain age' score tracked future dementia risk"
 date: 2026-08-02T10:32:43.853848+00:00
 updated: 2026-08-02T11:02:46+00:00
 draft: false

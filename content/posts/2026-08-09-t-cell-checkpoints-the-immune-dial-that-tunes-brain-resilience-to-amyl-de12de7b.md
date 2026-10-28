@@ -1,4 +1,5 @@
----title: "T-cell checkpoints: the immune dial that tunes brain resilience to amyloid"
+---
+title: "T-cell checkpoints: the immune dial that tunes brain resilience to amyloid"
 date: 2026-08-09T23:37:26.362167+00:00
 draft: false
 category: "brain health"

@@ -1,4 +1,5 @@
----title: "Mitochondria hand protons to lysosomes: a new acidification pathway that fails with age"
+---
+title: "Mitochondria hand protons to lysosomes: a new acidification pathway that fails with age"
 date: 2026-06-18T12:00:00+00:00
 draft: false
 category: "cellular senescence"

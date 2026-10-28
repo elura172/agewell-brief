@@ -1,4 +1,5 @@
----title: "The Laughter-Cataplexy Link: A Neurological Short-Circuit in Narcolepsy"
+---
+title: "The Laughter-Cataplexy Link: A Neurological Short-Circuit in Narcolepsy"
 date: 2026-08-07T00:09:57.050160+00:00
 draft: false
 category: "sleep health"

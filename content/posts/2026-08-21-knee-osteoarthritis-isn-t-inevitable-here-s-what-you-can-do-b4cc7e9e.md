@@ -1,4 +1,5 @@
----title: "Knee osteoarthritis isn’t inevitable — here’s what you can do"
+---
+title: "Knee osteoarthritis isn’t inevitable — here’s what you can do"
 date: 2026-08-21T23:30:03.206718+00:00
 draft: false
 category: "mobility"

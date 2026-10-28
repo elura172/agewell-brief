@@ -1,4 +1,5 @@
----title: "Aging tracked declines in balance, trunk stability and hip strength"
+---
+title: "Aging tracked declines in balance, trunk stability and hip strength"
 date: 2026-08-03T00:03:54.932016+00:00
 draft: false
 category: "longevity"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "Fritz H. H. Hellebrandt", "year": "193
 ancestral_insight: ""
 evidence_position: "emerging"
 ---
+
 New research links aging to declines in balance, trunk stability, mobility, and hip strength. Here's what to make of it.
 
 ## Why this matters

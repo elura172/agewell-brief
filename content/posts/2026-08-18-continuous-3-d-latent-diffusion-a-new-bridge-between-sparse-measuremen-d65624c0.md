@@ -1,4 +1,5 @@
----title: "Continuous 3-D Latent Diffusion: A New Bridge Between Sparse Measurements and Full-Volume Imaging"
+---
+title: "Continuous 3-D Latent Diffusion: A New Bridge Between Sparse Measurements and Full-Volume Imaging"
 date: 2026-08-18T18:49:37.216487+00:00
 draft: false
 category: "general wellness"

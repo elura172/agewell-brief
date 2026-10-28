@@ -1,4 +1,5 @@
----title: "Exercise primes the brain's glymphatic system to clear metabolic waste"
+---
+title: "Exercise primes the brain's glymphatic system to clear metabolic waste"
 date: 2026-08-13T19:12:22.260529+00:00
 draft: false
 category: "brain health"

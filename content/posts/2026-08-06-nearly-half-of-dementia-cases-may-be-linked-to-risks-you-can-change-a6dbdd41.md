@@ -1,4 +1,5 @@
----title: "A four-year study tied smoking and hypertension to white matter damage"
+---
+title: "A four-year study tied smoking and hypertension to white matter damage"
 date: 2026-08-06T15:19:28.150134+00:00
 draft: false
 category: "metabolic health"

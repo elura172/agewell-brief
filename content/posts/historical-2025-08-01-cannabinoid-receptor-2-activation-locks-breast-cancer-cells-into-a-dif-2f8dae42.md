@@ -1,4 +1,5 @@
----title: "Cannabinoid receptor 2 activation locks breast cancer cells into a differentiated, therapy-sensitive state"
+---
+title: "Cannabinoid receptor 2 activation locks breast cancer cells into a differentiated, therapy-sensitive state"
 date: 2025-08-01T12:00:00+00:00
 draft: false
 category: "general wellness"

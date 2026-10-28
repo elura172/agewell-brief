@@ -1,4 +1,5 @@
----title: "A flicker-perception threshold may mark the edge of adult brain plasticity"
+---
+title: "A flicker-perception threshold may mark the edge of adult brain plasticity"
 date: 2026-08-03T08:08:37.903119+00:00
 draft: false
 category: "metabolic health"

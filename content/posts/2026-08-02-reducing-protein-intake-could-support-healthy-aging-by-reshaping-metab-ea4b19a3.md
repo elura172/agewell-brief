@@ -1,4 +1,5 @@
----title: "A 350-study review linked protein restriction to slower aging"
+---
+title: "A 350-study review linked protein restriction to slower aging"
 date: 2026-08-02T21:44:38.665835+00:00
 draft: false
 category: "longevity"

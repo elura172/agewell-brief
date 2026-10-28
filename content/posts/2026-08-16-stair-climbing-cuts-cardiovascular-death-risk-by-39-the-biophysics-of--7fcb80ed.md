@@ -1,4 +1,5 @@
----title: "Stair Climbing Cuts Cardiovascular Death Risk by 39%: The Biophysics of Vertical Exertion"
+---
+title: "Stair Climbing Cuts Cardiovascular Death Risk by 39%: The Biophysics of Vertical Exertion"
 date: 2026-08-16T23:26:28.325674+00:00
 draft: false
 category: "longevity"

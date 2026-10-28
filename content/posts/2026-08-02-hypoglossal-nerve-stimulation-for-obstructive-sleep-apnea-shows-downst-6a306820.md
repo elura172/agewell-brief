@@ -1,4 +1,5 @@
----title: "Nerve stimulation for sleep apnea showed wider health gains"
+---
+title: "Nerve stimulation for sleep apnea showed wider health gains"
 date: 2026-08-02T19:57:57.163527+00:00
 draft: false
 category: "metabolic health"

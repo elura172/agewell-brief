@@ -1,4 +1,5 @@
----title: "Chromatin particles from dying cells drove a two-phase inflammatory response"
+---
+title: "Chromatin particles from dying cells drove a two-phase inflammatory response"
 date: 2026-08-03T08:28:52.841371+00:00
 draft: false
 category: "longevity"

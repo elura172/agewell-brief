@@ -1,4 +1,5 @@
----title: "Choroid plexus MRI measures tracked later dementia risk"
+---
+title: "Choroid plexus MRI measures tracked later dementia risk"
 date: 2026-08-02T11:23:45+00:00
 updated: 2026-08-02T11:23:45+00:00
 draft: false
@@ -27,6 +28,7 @@ autoresearch_antecedents: [{"scientist": "Helen F. Cserr", "year": "1970s", "dis
 ancestral_insight: ""
 evidence_position: "emerging"
 ---
+
 A large UK study finds that MRI measures of the choroid plexus—a structure that makes cerebrospinal fluid—track with later dementia risk. The finding is a signal, not a test.
 
 ## Three things to remember

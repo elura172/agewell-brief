@@ -1,4 +1,5 @@
----title: "Weaker daily rhythms carried nearly 2.5 times the dementia risk"
+---
+title: "Weaker daily rhythms carried nearly 2.5 times the dementia risk"
 date: 2026-08-02T22:41:51.690760+00:00
 draft: false
 category: "brain health"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "Franz Halberg", "year": "1959", "disco
 ancestral_insight: ""
 evidence_position: "emerging"
 ---
+
 New research links weaker daily rhythms to increased dementia risk in older adults.
 
 ## Three things to remember

@@ -1,4 +1,5 @@
----title: "Your Brain's Immune System Is Being Replaced—Starting at 50"
+---
+title: "Your Brain's Immune System Is Being Replaced—Starting at 50"
 date: 2026-08-07T14:15:48.613143+00:00
 draft: false
 category: "brain health"

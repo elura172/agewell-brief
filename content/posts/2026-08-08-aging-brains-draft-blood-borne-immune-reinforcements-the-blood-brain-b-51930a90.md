@@ -1,4 +1,5 @@
----title: "Aging brains draft blood-borne immune reinforcements: the blood-brain barrier is not a wall"
+---
+title: "Aging brains draft blood-borne immune reinforcements: the blood-brain barrier is not a wall"
 date: 2026-08-08T13:50:02.074738+00:00
 draft: false
 category: "brain health"

@@ -1,4 +1,5 @@
----title: "A four-minute daily routine improved chair-stand and balance scores"
+---
+title: "A four-minute daily routine improved chair-stand and balance scores"
 date: 2026-08-02T22:41:51.690760+00:00
 draft: false
 category: "general wellness"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "Maria Fiatarone Singh", "year": "1994"
 ancestral_insight: ""
 evidence_position: "emerging"
 ---
+
 New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove.
 
 ## Why this matters

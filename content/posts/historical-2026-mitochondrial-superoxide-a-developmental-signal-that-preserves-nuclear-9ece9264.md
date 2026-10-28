@@ -1,4 +1,5 @@
----title: "Mitochondrial superoxide: a developmental signal that preserves nuclear envelope integrity"
+---
+title: "Mitochondrial superoxide: a developmental signal that preserves nuclear envelope integrity"
 date: 2026-02-01T12:00:00+00:00
 draft: false
 category: "metabolic health"

@@ -1,4 +1,5 @@
----title: "An enzyme may help clear senescent cells from tissue"
+---
+title: "An enzyme may help clear senescent cells from tissue"
 date: 2026-08-03T01:57:08.954082+00:00
 draft: false
 category: "longevity"
@@ -27,6 +28,7 @@ autoresearch_antecedents: [{"scientist": "Leonard Hayflick", "year": "1961", "di
 ancestral_insight: "Traditional lifestyle practices such as intermittent fasting and regular physical exercise have long been associated with longevity. Mechanistically, these practices activate autophagy and enhance immune surveillance, which are natural pathways for clearing senescent cells. For example, fasting-induced autophagy degrades damaged cellular components, while exercise promotes the release of myokines that stimulate immune cells to eliminate senescent cells. The enzyme identified in the preprint may mimic or amplify these ancestral adaptive responses, providing a pharmacological shortcut to the benefits that our ancestors achieved through periodic food scarcity and physical activity."
 evidence_position: "speculative"
 ---
+
 Scientists are homing in on an enzyme that may help remove senescent cells—the so-called 'zombie' cells that accumulate with age. Here's what the research suggests and what it doesn't.
 
 ## Why this matters

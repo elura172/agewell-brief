@@ -1,4 +1,5 @@
----title: "More evidence tied physical activity to lower dementia risk"
+---
+title: "More evidence tied physical activity to lower dementia risk"
 date: 2026-08-02T07:25:33.779985+00:00
 draft: false
 category: "brain health"

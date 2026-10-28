@@ -1,4 +1,5 @@
----title: "Synapses turned over constantly while their excitatory-inhibitory balance held"
+---
+title: "Synapses turned over constantly while their excitatory-inhibitory balance held"
 date: 2026-08-03T08:39:18.814899+00:00
 draft: false
 category: "brain health"

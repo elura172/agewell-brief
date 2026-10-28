@@ -1,4 +1,5 @@
----title: "Dermal Fibroblast Senescence: The Hidden Driver of Skin Aging and Systemic Inflammation"
+---
+title: "Dermal Fibroblast Senescence: The Hidden Driver of Skin Aging and Systemic Inflammation"
 date: 2024-02-01T12:00:00+00:00
 draft: false
 category: "metabolic health"

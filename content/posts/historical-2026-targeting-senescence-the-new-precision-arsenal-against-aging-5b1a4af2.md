@@ -1,4 +1,5 @@
----title: "Targeting senescence: the new precision arsenal against aging"
+---
+title: "Targeting senescence: the new precision arsenal against aging"
 date: 2026-06-01T12:00:00+00:00
 draft: false
 category: "metabolic health"

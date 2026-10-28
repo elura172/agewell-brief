@@ -1,4 +1,5 @@
----title: "The Strength Sweet Spot: How 90 Minutes of Lifting Rewires Your Biology for a Longer Life"
+---
+title: "The Strength Sweet Spot: How 90 Minutes of Lifting Rewires Your Biology for a Longer Life"
 date: 2026-08-10T23:41:05.795784+00:00
 draft: false
 category: "longevity"

@@ -1,4 +1,5 @@
----title: "Sleep loss triggered a brain immune response that damaged tissue"
+---
+title: "Sleep loss triggered a brain immune response that damaged tissue"
 date: 2026-08-02T07:25:36.040015+00:00
 draft: false
 category: "brain health"

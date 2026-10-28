@@ -1,4 +1,5 @@
----title: "An experimental flu adjuvant sped early antibody quality in over-60s"
+---
+title: "An experimental flu adjuvant sped early antibody quality in over-60s"
 date: 2026-08-03T08:08:37.903119+00:00
 draft: false
 category: "brain health"

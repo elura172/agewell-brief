@@ -1,4 +1,5 @@
----title: "Why Walking Gets Harder with Age: The Ankle's Safety-First Trade-Off"
+---
+title: "Why Walking Gets Harder with Age: The Ankle's Safety-First Trade-Off"
 date: 2026-08-16T13:35:56.240211+00:00
 draft: false
 category: "mobility"

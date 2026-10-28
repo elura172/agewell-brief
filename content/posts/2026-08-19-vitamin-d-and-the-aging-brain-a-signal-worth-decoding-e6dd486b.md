@@ -1,4 +1,5 @@
----title: "Vitamin D and the aging brain: a signal worth decoding"
+---
+title: "Vitamin D and the aging brain: a signal worth decoding"
 date: 2026-08-19T18:45:24.818492+00:00
 draft: false
 category: "brain health"

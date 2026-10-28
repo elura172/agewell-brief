@@ -1,4 +1,5 @@
----title: "In zebrafish, serotonin neurons induced stillness without dulling the senses"
+---
+title: "In zebrafish, serotonin neurons induced stillness without dulling the senses"
 date: 2026-08-03T08:28:52.841371+00:00
 draft: false
 category: "brain health"

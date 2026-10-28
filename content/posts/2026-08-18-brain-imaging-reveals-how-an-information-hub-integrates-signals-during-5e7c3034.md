@@ -1,4 +1,5 @@
----title: "Brain imaging reveals how an information hub integrates signals during decision-making"
+---
+title: "Brain imaging reveals how an information hub integrates signals during decision-making"
 date: 2026-08-18T23:28:08.398944+00:00
 draft: false
 category: "brain health"

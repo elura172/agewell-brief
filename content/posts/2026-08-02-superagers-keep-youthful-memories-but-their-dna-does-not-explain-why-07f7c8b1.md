@@ -1,4 +1,5 @@
----title: "SuperAgers' memory advantage was not explained by their Alzheimer's genes"
+---
+title: "SuperAgers' memory advantage was not explained by their Alzheimer's genes"
 date: 2026-08-02T19:42:45.995186+00:00
 draft: false
 category: "brain health"

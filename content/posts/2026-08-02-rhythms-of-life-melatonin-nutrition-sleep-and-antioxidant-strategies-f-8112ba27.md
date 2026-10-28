@@ -1,4 +1,5 @@
----title: "How meal timing and melatonin shape the aging body clock"
+---
+title: "How meal timing and melatonin shape the aging body clock"
 date: 2026-08-02T22:48:43.676383+00:00
 draft: false
 category: "sleep health"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "Franz Halberg", "year": "1959", "disco
 ancestral_insight: "Traditional hunter-gatherer lifestyles, such as those of the Hadza, naturally align eating with daylight hours and fasting during darkness, which reinforces circadian rhythms through time-restricted feeding. This parallels the review's recommendation for consistent meal timing, as ancestral patterns of light exposure and food intake would have maintained robust SCN signaling and metabolic synchrony, countering the age-related desynchronization seen in modern artificial-light and constant-snacking environments."
 evidence_position: "emerging"
 ---
+
 A new review explains how the body's daily rhythms change with age and why meal timing and certain foods might help keep them strong.
 
 ## Why this matters

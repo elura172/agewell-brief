@@ -1,4 +1,5 @@
----title: "Across 214,000 older adults, dementia risk factors varied by country"
+---
+title: "Across 214,000 older adults, dementia risk factors varied by country"
 date: 2026-08-02T21:44:38.665835+00:00
 draft: false
 category: "brain health"

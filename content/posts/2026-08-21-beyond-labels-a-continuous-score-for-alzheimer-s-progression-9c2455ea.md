@@ -1,4 +1,5 @@
----title: "Beyond Labels: A Continuous Score for Alzheimer's Progression"
+---
+title: "Beyond Labels: A Continuous Score for Alzheimer's Progression"
 date: 2026-08-21T18:48:20.002233+00:00
 draft: false
 category: "brain health"

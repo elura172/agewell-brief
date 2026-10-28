@@ -1,4 +1,5 @@
----title: "Long flights shift the gut microbiome, not just sleep"
+---
+title: "Long flights shift the gut microbiome, not just sleep"
 date: 2026-08-02T22:24:36.983685+00:00
 draft: false
 category: "sleep health"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "John F. Cryan and Ted Dinan", "year": 
 ancestral_insight: "Traditional hunter-gatherer and agrarian lifestyles were tightly coupled to natural light-dark cycles and seasonal food availability, which likely maintained stable gut microbial rhythms. Practices such as time-restricted eating (eating only during daylight hours) and consuming fermented foods rich in probiotics and prebiotics (e.g., kimchi, kefir, and cultured vegetables) would have supported microbial resilience against circadian disruptions. The physical mechanism is that these practices reinforce the host's circadian clock and provide substrates for beneficial bacteria that produce short-chain fatty acids, which help regulate intestinal barrier integrity and immune function, thereby mitigating the effects of travel-induced jet lag on the gut."
 evidence_position: "emerging"
 ---
+
 Long flights disrupt more than sleep—your gut bacteria may also feel the time change, leading to fatigue and digestive issues.
 
 ## Three things to remember

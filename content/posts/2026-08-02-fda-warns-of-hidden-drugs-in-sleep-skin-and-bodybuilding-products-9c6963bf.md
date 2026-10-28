@@ -1,4 +1,5 @@
----title: "FDA flags hidden drug ingredients in products sold for sleep, skin, and bodybuilding"
+---
+title: "FDA flags hidden drug ingredients in products sold for sleep, skin, and bodybuilding"
 date: 2026-08-02T19:14:38Z
 draft: false
 category: "consumer safety"
@@ -26,6 +27,7 @@ autoresearch_antecedents: [{"scientist": "Arthur C. Guyton", "year": "1960s", "d
 ancestral_insight: "Traditional herbal remedies, such as those used in Ayurveda or Traditional Chinese Medicine, were prepared from whole plants with complex phytochemical mixtures, relying on synergistic and often mild effects. In contrast, modern tainted supplements often contain isolated synthetic drugs at high potency, which disrupt the body's homeostatic feedback loops (e.g., thyroid or adrenal axes) in ways that whole-plant preparations rarely do. This highlights a mechanistic divergence: ancestral practices favored gradual modulation of physiological set-points, whereas hidden drug ingredients impose abrupt, supraphysiological stimuli, increasing risk of adverse events."
 evidence_position: "emerging"
 ---
+
 The agency's health-fraud list now includes pre-workout products, alongside earlier alerts for supplements marketed for sleep, skin, pain, and bodybuilding.
 
 ## Three things to remember
