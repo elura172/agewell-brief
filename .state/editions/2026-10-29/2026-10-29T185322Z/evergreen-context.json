@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "092774e28382bee306ff3d2f",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "4f70da432ef323fc",
+        "source": "Dr. Hans Selye (1956) — The Stress of Life & General Adaptation Syndrome",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 8
+      },
+      {
+        "source_id": "0273efb6277f6937",
+        "source": "Dr. Emilio Del Giudice (1988) — Water Coherence Domains and Quantum Electrodynamics (QED)",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 6
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
