@@ -1,0 +1,91 @@
+{
+  "scores": {
+    "8f4058cc2eea388db5f36a9f": {
+      "score": 46,
+      "decision": "hold",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism; familiar wellness framing with limited editorial surprise; headline contains a concrete news hook",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "092774e28382bee306ff3d2f": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "73c3f13fd7ee41c523b3a9e6": {
+      "score": 63,
+      "decision": "commission",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism; specific result or population detail",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "bab3b59090703bf250cc8778": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 28,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "132cda401ded1caf3c0e4210": {
+      "score": 53,
+      "decision": "hold",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism; familiar wellness framing with limited editorial surprise; frontier source deserves contextual reporting",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "0287455b3c4fb20f81ee1d0b": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "a5c80e8017fbb142f54e12ec": {
+      "score": 66,
+      "decision": "commission",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism; headline contains a concrete news hook",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    }
+  },
+  "commissioned_ids": [
+    "092774e28382bee306ff3d2f",
+    "73c3f13fd7ee41c523b3a9e6",
+    "a5c80e8017fbb142f54e12ec"
+  ],
+  "held_back": [
+    "8f4058cc2eea388db5f36a9f",
+    "bab3b59090703bf250cc8778",
+    "d1f0483bd285ad49a95ee3e5",
+    "132cda401ded1caf3c0e4210",
+    "e8c72c931a6031cef21b46e5",
+    "0287455b3c4fb20f81ee1d0b"
+  ],
+  "mode": "deterministic_fallback",
+  "error": "Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 71bcc31a-a494-4dc6-b0e2-d40910ac5432)', 'type': 'insufficient_balance_error', 'param': None, 'code': 'invalid_request_error'}}"
+}
