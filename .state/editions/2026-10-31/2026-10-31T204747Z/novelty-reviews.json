@@ -1,0 +1,91 @@
+{
+  "scores": {
+    "8f4058cc2eea388db5f36a9f": {
+      "score": 46,
+      "decision": "hold",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism; familiar wellness framing with limited editorial surprise; headline contains a concrete news hook",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "092774e28382bee306ff3d2f": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "bab3b59090703bf250cc8778": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "f89e8a853c8143bbdea1aa59": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "73c3f13fd7ee41c523b3a9e6": {
+      "score": 63,
+      "decision": "commission",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism; specific result or population detail",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 28,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "571c0de0c646f523c9c90387": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "96a3f96c0ff049e7ccd7f00b": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    }
+  },
+  "commissioned_ids": [
+    "092774e28382bee306ff3d2f",
+    "73c3f13fd7ee41c523b3a9e6"
+  ],
+  "held_back": [
+    "8f4058cc2eea388db5f36a9f",
+    "bab3b59090703bf250cc8778",
+    "f89e8a853c8143bbdea1aa59",
+    "d1f0483bd285ad49a95ee3e5",
+    "571c0de0c646f523c9c90387",
+    "cadce59ed8f9539ef7a34ac6",
+    "96a3f96c0ff049e7ccd7f00b"
+  ],
+  "mode": "deterministic_fallback",
+  "error": "Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: d81aae7e-0a7b-4eb3-9146-91256155db14)', 'type': 'insufficient_balance_error', 'param': None, 'code': 'invalid_request_error'}}"
+}
