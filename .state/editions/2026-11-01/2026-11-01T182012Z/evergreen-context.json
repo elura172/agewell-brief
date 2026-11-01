@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "a5c80e8017fbb142f54e12ec",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "2cd8729bdce3f913",
+        "source": "Dr. Robert O. Becker (1985) — The Body Electric: Electromagnetism and the Foundation of Life",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 15
+      },
+      {
+        "source_id": "4f70da432ef323fc",
+        "source": "Dr. Hans Selye (1956) — The Stress of Life & General Adaptation Syndrome",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
