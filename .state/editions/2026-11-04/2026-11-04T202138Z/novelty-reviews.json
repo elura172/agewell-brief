@@ -1,0 +1,91 @@
+{
+  "scores": {
+    "8f4058cc2eea388db5f36a9f": {
+      "score": 46,
+      "decision": "hold",
+      "novelty_type": "frontier_signal",
+      "reason": "specific frontier signal or meaningful new mechanism; familiar wellness framing with limited editorial surprise; headline contains a concrete news hook",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "6de37cde9637761908b280d7": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "e1d9813131de203235380757": {
+      "score": 51,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise; headline contains a concrete news hook; frontier source deserves contextual reporting",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 46,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise; headline contains a concrete news hook",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "5ed04244786fe3ac36210689": {
+      "score": 46,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise; headline contains a concrete news hook",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    }
+  },
+  "commissioned_ids": [],
+  "held_back": [
+    "8f4058cc2eea388db5f36a9f",
+    "d4018a08049e4ccb1eeedfee",
+    "6de37cde9637761908b280d7",
+    "e1d9813131de203235380757",
+    "a2f082a62767b4c84fb98f98",
+    "0b7d57db98938147adfb915a",
+    "2beb92ec2e8851b24c8a89de",
+    "e8c72c931a6031cef21b46e5",
+    "5ed04244786fe3ac36210689"
+  ],
+  "mode": "deterministic_fallback",
+  "error": "Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: cb257f95-353b-4851-9bab-c4a733c74601)', 'type': 'insufficient_balance_error', 'param': None, 'code': 'invalid_request_error'}}",
+  "rescue": "No candidate cleared the novelty threshold; retained the strongest available story."
+}
