@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-11-04T20:21:37.856109+00:00",
+  "generated_at": "2026-11-04T22:59:50.958020+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
+    {
+      "topic": "alzheimer assessment biomarker circadian clinical disease disturbances inference limits sleep syndromes treatable",
+      "headline": "Sleep and circadian disturbances in Alzheimer’s disease: clinical assessment, treatable syndromes, and limits of biomarker inference - Frontiers",
+      "category": "sleep health",
+      "score": 22.0,
+      "mention_count": 4,
+      "source_count": 2,
+      "sources": [
+        "Frontiers",
+        "Nature"
+      ],
+      "newest": "2026-10-17T16:55:52+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "Sleep and circadian disturbances in Alzheimer’s disease: clinical assessment, treatable syndromes, and limits of biomarker inference - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM3A1bnhKa1lIWFVqc3BBMXRDY3Bxb3hQSV9mLXpsZGd5N2RMYUI2enRoYWpJQkxtNVIxSE81WGRLcTFzMTUxVGE5R1dPSFlnUUtud1BTM1dvSHZIZ0pINVlwaWVSbkdELWQ5c1NhWXJwWDZmazNuS3lMbGF5aDNOZlo1MlBpaU56eEFHXzZTQkk?oc=5",
+          "source": "Frontiers",
+          "published": "Sat, 17 Oct 2026 16:55:52 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        },
+        {
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        },
+        {
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        },
+        {
+          "title": "Sleep, circadian rhythms, and the pathogenesis of Alzheimer Disease - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5dlBvei1VRzZnTFlmRDFOcTEwazFmVXN5MWxwTEpTYnNva0xVck1JM0VwNDRWVkFOcGFqYTdvVllnNzBjdFlsS0JlUmkycFNmTUt4MQ?oc=5",
+          "source": "Nature",
+          "published": "Fri, 13 Mar 2015 07:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        }
+      ]
+    },
     {
       "topic": "body faster little make much sleep your",
       "headline": "Too much or too little sleep may make your body age faster - Science Daily",
@@ -40,46 +88,6 @@
           "published": "Wed, 13 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
-        }
-      ]
-    },
-    {
-      "topic": "circadian disturbances frailty risk",
-      "headline": "Circadian disturbances and frailty risk in older adults - Nature",
-      "category": "sleep health",
-      "score": 18.0,
-      "mention_count": 3,
-      "source_count": 2,
-      "sources": [
-        "Frontiers",
-        "Nature"
-      ],
-      "newest": "2023-11-16T08:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Research advances in the study of sleep disorders, circadian rhythm disturbances and Alzheimer’s disease - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnRteFkyQzM2S2FRUVVGN1RWSmdYVy1jZ3hpcmI3dXY1anNCZFdKdGFNZncyOUtqZ2NEOWpIVmNaeUJ2a2M2ZTNvZUFPNWVLTGhRTF9SdXhRd211MmhzUHc4Y3lacWhTSXBkNzFaQ0pULU5xZmRJd29fbmV5aFNMWWJzbzZ0ZnNRNXFQcnJ1VzVtMEFEeEFqUUVfUQ?oc=5",
-          "source": "Frontiers",
-          "published": "Tue, 16 Aug 2022 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
         }
       ]
     },
@@ -180,38 +188,6 @@
       ]
     },
     {
-      "topic": "beneficial common dietary money supplements these vitamins waste",
-      "headline": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - UCHealth",
-      "category": "general wellness",
-      "score": 14.0,
-      "mention_count": 2,
-      "source_count": 2,
-      "sources": [
-        "Harvard Health",
-        "UCHealth"
-      ],
-      "newest": "2025-06-15T07:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - UCHealth",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVnF4eVJDWDI4eEdicHp2UG5xTjBkV2Q4SFM4VWN2bHFKRElybUluemhXRFNSeml0ZEk4Wkd4a1lfQ3NyYURhb2luTDhqLUJPVmtXQ0lIZ0tXRVUzaWdEdzU5VHlDZEdLWTN0WXRGTnlJdXBJQkRNdndQRUdNZENvMndMcXRPTGs2QjctdVdmcXZoYU82Z1E?oc=5",
-          "source": "UCHealth",
-          "published": "Sun, 15 Jun 2025 07:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        },
-        {
-          "title": "Don't waste time (or money) on dietary supplements - Harvard Health",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOXJwSUwtdlNYNjYyQXdsaVl1TE1ONDBtQlBHel9RTFRTTTJ5OUFYX1VQSnM3Z1JVSm9NLUNKTnRsZ2pYUkVqc0Q3LU93VDUyeXA0U2FzUUVDejAtOWpQbF83bFdIM1BQcnZ0SVFYZzZENldDSG9qQXFXblFfTGNtOVpELUtSOXFRV2JkY1ZoOGRpTm5DWU1GVVR2MU5XWGxPSlZtcUpzMHZTUQ?oc=5",
-          "source": "Harvard Health",
-          "published": "Fri, 01 Apr 2022 07:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "anti know seniors should supplements",
       "headline": "What Seniors Should Know About Anti-Aging Supplements - Banner Health",
       "category": "general wellness",
@@ -240,38 +216,6 @@
           "published": "Mon, 24 Jun 2024 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "before know peptides trying",
-      "headline": "What older adults need to know before taking a GLP-1 medication to lose weight - WPSD Local 6",
-      "category": "general wellness",
-      "score": 14.0,
-      "mention_count": 2,
-      "source_count": 2,
-      "sources": [
-        "AARP",
-        "WPSD Local 6"
-      ],
-      "newest": "2026-07-01T07:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "What to Know Before Trying Peptides for Aging or Health - AARP",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa3UxSEpWUDJRWVNjYzVBWHJxLW5nMEY4NVd0dmlDUkpqY1pEMFU0OEMyTW1qYm5ORHFSd215Yk1IZTdTZ3R5R1ZoNUh4Ykc1dDVQWjc5X1JvamNyMVRNUGxGNWNLTWlTcGhjME9SZnpIY0JRaFF4RldlUnF2dGd6UFVoX0tkcFhy?oc=5",
-          "source": "AARP",
-          "published": "Sun, 26 Apr 2026 00:31:13 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        },
-        {
-          "title": "What older adults need to know before taking a GLP-1 medication to lose weight - WPSD Local 6",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQS1o1eFRtUzR4MXlIYmw3dEx5U2RWTEZjbXZlRGk0aWRXMkp4Y3M2V2N2OFJQT2xmZzJxc3otdWUzRndfRG1OM3ZrMUJKNDRfNVY2d3RYMVV0bmIwSkV5N2Q3elFpUkJ0TE1Menlsejh1T29PMGc0YVpTZV84S2ExUVdlZWR4VDcyTEFVUENrVUd4ZzdMUjRKSWRHb21XbktjVnpuc0dXRGZNcGtnYTFXZDVjaWVuTUtKT2I0bHlydmkxdktHMmFqYzVxT2tDVDZVSENqSEhKTkZmZ2tJRnk1NVE3SUdfUlVPbzlsR3dpWWJxdw?oc=5",
-          "source": "WPSD Local 6",
-          "published": "Wed, 01 Jul 2026 07:00:00 GMT",
-          "seed": "GLP-1 and healthy aging",
-          "category": "metabolic health"
         }
       ]
     },
@@ -367,6 +311,37 @@
           "published": "Thu, 04 Dec 2025 08:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
+        }
+      ]
+    },
+    {
+      "topic": "brain into supplements",
+      "headline": "Don't buy into brain health supplements - Harvard Health",
+      "category": "brain health",
+      "score": 11.0,
+      "mention_count": 2,
+      "source_count": 1,
+      "sources": [
+        "Harvard Health"
+      ],
+      "newest": "2026-02-20T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Don't buy into brain health supplements - Harvard Health",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWi1YWXdBMVBfR3RPbXZPX0F0NzVlRERSQTNFQlFNMFliSXlQQ3FpaHBodHllbTNRVEN2M0JQVE5JcUNGcU1EZ1gwMVZfdEk5Wkoxa0dldmhUS2lacUk3U0t4dndUeFUyUVNpbjVQa3JzbmotVUpMUDVYVHVzYUNQVGxCNUJ6VDk1TVE?oc=5",
+          "source": "Harvard Health",
+          "published": "Fri, 20 Feb 2026 08:00:00 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        },
+        {
+          "title": "Don't buy into brain health supplements - Harvard Health",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWi1YWXdBMVBfR3RPbXZPX0F0NzVlRERSQTNFQlFNMFliSXlQQ3FpaHBodHllbTNRVEN2M0JQVE5JcUNGcU1EZ1gwMVZfdEk5Wkoxa0dldmhUS2lacUk3U0t4dndUeFUyUVNpbjVQa3JzbmotVUpMUDVYVHVzYUNQVGxCNUJ6VDk1TVE?oc=5",
+          "source": "Harvard Health",
+          "published": "Fri, 20 Feb 2026 08:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
         }
       ]
     },
@@ -467,7 +442,7 @@
       "topic": "1682 2026 advisory against astaxanthin complex consumption food glutathione nutrition product public purchase supplement toplux unregistered warning",
       "headline": "FDA Advisory No.2026-1682 || Public Health Warning Against the Purchase and Consumption of the Unregistered Food Product/ Food Supplement “TOPLUX NUTRITION Astaxanthin + Glutathione Complex” - https://www.fda.gov.ph/",
       "category": "consumer safety",
-      "score": 8.01,
+      "score": 7.74,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -556,29 +531,6 @@
       ]
     },
     {
-      "topic": "healthy independence launches mexico program support",
-      "headline": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "UNM HSC Newsroom"
-      ],
-      "newest": "2026-07-28T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVhqZDVMTGFoY3V4YzFaLVBqWmx5NmdoQ2k2dndleGdGMEZtWXZCUXUtNk5WR044bmRDbFpMbGZJMm1OdkhIcWxmNTFuc2RPQ2ZJNEx5NzU3eVI5MzM2RzZNa1ZiY2k1Szk2cTJ4OUZ0TXF2Q0VtNGV6cFRuY0tGVmRDQkFoWFg0UE5ZX01Cd0kxZnJiOWRxRC1MeDFrQTZ0SmVMRXJ0anRUUjRDZnB6U2ZsN25mZw?oc=5",
-          "source": "UNM HSC Newsroom",
-          "published": "Tue, 28 Jul 2026 07:00:00 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "mental",
       "headline": "Mental health of older adults - World Health Organization (WHO)",
       "category": "general wellness",
@@ -619,6 +571,29 @@
           "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWVY5OE5kcXN0TzhoUF9TVmg1MkhxRVRMNlh1WTNYczdEbDJqU0RiVE9lYjRNaWdjVElxMDVMREtucmpRc0pJM2tlVE81aWxKTDhkR0hfN2xWdWhOVVpjRmktYTBNejRQZXJNeUhQdGVYOXczeTlnNGdvXzI4dE1KZWFzQlZfMEhsREpBdTFiUG10WEFpZ01oVk90UzQ1SkRIYUtNMzRkcHRCbDZ1c2NSTG5TZzhpOHc3S0FPblR6OWRSdGEzcUZmcmhNby1CbEp5ZkJ6ZG5Fa0REd05nTV90VHNybw?oc=5",
           "source": "Montgomery County, MD (.gov)",
           "published": "Wed, 06 May 2026 07:00:00 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "healthy independence launches mexico program support",
+      "headline": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "UNM HSC Newsroom"
+      ],
+      "newest": "2026-07-28T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "New Mexico Launches Program to Support Healthy Aging and Independence for Older Adults - UNM HSC Newsroom",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVhqZDVMTGFoY3V4YzFaLVBqWmx5NmdoQ2k2dndleGdGMEZtWXZCUXUtNk5WR044bmRDbFpMbGZJMm1OdkhIcWxmNTFuc2RPQ2ZJNEx5NzU3eVI5MzM2RzZNa1ZiY2k1Szk2cTJ4OUZ0TXF2Q0VtNGV6cFRuY0tGVmRDQkFoWFg0UE5ZX01Cd0kxZnJiOWRxRC1MeDFrQTZ0SmVMRXJ0anRUUjRDZnB6U2ZsN25mZw?oc=5",
+          "source": "UNM HSC Newsroom",
+          "published": "Tue, 28 Jul 2026 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -757,29 +732,6 @@
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOF9XOGE2elY1S09yUkIycjZUVWVIX09keUx1V2ItakI2alN1amFIcnRGbFREdm9VaUNDZzVfeHgtUnlVeTF2M0xEWmN2cVRZOU9ybmN1azlYNjNReV9oaVZZWVpSa1BPQmw2bXBESU9FREdTN25WSWFnZ3U2LXpiVWFCUTB4bDliQ2xnaHp2TG9LUUgzREY4SEZtLUJRcFFCWlo5cTJxTk1oLVE5OW04MWVab0NjdUFRRC1lNHd2WUE4Z3dXUlV4aGtUcFhHeERUcWNRbHhaWGxrZ0NPVmhRSHFn?oc=5",
           "source": "Johns Hopkins Medicine",
           "published": "Mon, 09 Feb 2026 08:00:00 GMT",
-          "seed": "brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
-      "topic": "brain into supplements",
-      "headline": "Don't buy into brain health supplements - Harvard Health",
-      "category": "brain health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Harvard Health"
-      ],
-      "newest": "2026-02-20T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Don't buy into brain health supplements - Harvard Health",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWi1YWXdBMVBfR3RPbXZPX0F0NzVlRERSQTNFQlFNMFliSXlQQ3FpaHBodHllbTNRVEN2M0JQVE5JcUNGcU1EZ1gwMVZfdEk5Wkoxa0dldmhUS2lacUk3U0t4dndUeFUyUVNpbjVQa3JzbmotVUpMUDVYVHVzYUNQVGxCNUJ6VDk1TVE?oc=5",
-          "source": "Harvard Health",
-          "published": "Fri, 20 Feb 2026 08:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
         }
@@ -1039,29 +991,6 @@
       ]
     },
     {
-      "topic": "both circadian interact system times where",
-      "headline": "Circadian system and aging: where both times interact - Frontiers",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Frontiers"
-      ],
-      "newest": "2025-10-17T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Circadian system and aging: where both times interact - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU0pBYnc4a2dEQVhIdVhTMmNwQ0xmZk8zLUNHZjRjWmJjV0xxd2NVYlpHOXlYenJiUzZIRVNzVllTa05PNVhLZWYyajN1Nklhb2RBVkllY09IdHpSMmJfdjVDY3pMb005c25HbmZ3UGtrYW5mcmVRLXA3am5JN3p5VWZzTFc5cGN4U0I4?oc=5",
-          "source": "Frontiers",
-          "published": "Fri, 17 Oct 2025 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
       "topic": "better boost dementia lighting mood patients sleep",
       "headline": "Better lighting can boost sleep, mood in dementia patients - ASU News",
       "category": "sleep health",
@@ -1148,6 +1077,29 @@
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tSExEYVVzajJzRUp0UHhlU3B3akFuaXZQVmttV3JpRkxySE9oTGtqUEtXSzF4amk2NDE4NjNFNEF3SWQ4Q1F2aVpaLXlqaEJwYllmZXFITE1ITjc2THlV?oc=5",
           "source": "Nature",
           "published": "Wed, 12 Jun 2024 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "both circadian interact system times where",
+      "headline": "Circadian system and aging: where both times interact - Frontiers",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Frontiers"
+      ],
+      "newest": "2025-10-17T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Circadian system and aging: where both times interact - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU0pBYnc4a2dEQVhIdVhTMmNwQ0xmZk8zLUNHZjRjWmJjV0xxd2NVYlpHOXlYenJiUzZIRVNzVllTa05PNVhLZWYyajN1Nklhb2RBVkllY09IdHpSMmJfdjVDY3pMb005c25HbmZ3UGtrYW5mcmVRLXA3am5JN3p5VWZzTFc5cGN4U0I4?oc=5",
+          "source": "Frontiers",
+          "published": "Fri, 17 Oct 2025 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         }
@@ -1637,6 +1589,29 @@
       ]
     },
     {
+      "topic": "alert safety",
+      "headline": "Safety Alert - U.S. Food and Drug Administration (.gov)",
+      "category": "consumer safety",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "U.S. Food and Drug Administration (.gov)"
+      ],
+      "newest": "2024-07-30T21:19:50+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Safety Alert - U.S. Food and Drug Administration (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWlg4M3dKZG9pZXpqTnRIek85bjczYVNLdGJELVRoX1FtelB0RTQyT2FsYmV1OTRRMTQzRUhTMXhPT0xWVjhDV3ZmV3VnY2p1cllUcmlYU2VubzQzMzJuYzFTY0FRNERrQWoyTmJfMWY3SjlfNjdYV0g1Z1A0dmtJYnU1dy12Ym9VUm5kYm42bWxqd2FlYWl1NTllTk9BTEkzdFlYWFFOSzRubzR2Y05QZWl6QXhENk1xbmxaNU5JbDB0NmlYVXBMSlkzVGg2Y3FQaHlKUzhMV0xlakVwNWlndjY1VFJHVk4xbzRJ?oc=5",
+          "source": "U.S. Food and Drug Administration (.gov)",
+          "published": "Tue, 30 Jul 2024 21:19:50 GMT",
+          "seed": "consumer safety",
+          "category": "consumer safety"
+        }
+      ]
+    },
+    {
       "topic": "artri contains drug hidden ingredients king notification public",
       "headline": "Public Notification: Artri King contains hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
       "category": "consumer safety",
@@ -1700,29 +1675,6 @@
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TbUQwOVgzd3RNY2JYUmNUcExjdDY1RmhFTmdGVy1NU0hQZnNGUkhkWHBEeXFNeGlxZjJyX3lpOUM1Z3RIZVZ6QUYwcTZKYUpYdVRiaVpqM0pZSlJlT2h6b1VXelNkX1BiLXRNcWY4MmtTSnktTlphX0V3?oc=5",
           "source": "Center for Science in the Public Interest",
           "published": "Fri, 05 Jan 2024 08:00:00 GMT",
-          "seed": "consumer safety",
-          "category": "consumer safety"
-        }
-      ]
-    },
-    {
-      "topic": "claims establish features industry intended letter only other reminds that warning wellness",
-      "headline": "FDA Warning Letter Reminds Industry that Wellness Claims Only Go So Far, Other Features Can Establish Intended Use - Mintz",
-      "category": "consumer safety",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Mintz"
-      ],
-      "newest": "2025-07-21T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "FDA Warning Letter Reminds Industry that Wellness Claims Only Go So Far, Other Features Can Establish Intended Use - Mintz",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcHBmaXplU3lucjlKODZ6QkU1dXBKbUlUZ19lQzI1LTZZc3VOMEgtWlp2bGxFZUZqN1hxTVRtOTg2M1Q1UkR2QkR3djhRMmhvSVNaaG03VlBySkhjUnNaWnJFZUhraHFSS2VTckwtM0Jmb09JOTNaNFVLa280M1FiVm1iYlkyRFI4TnpfVzI5akI0RFFrYTFHbDE5QXdwMkExY3YyZXpBRHB1TnFPd0ZIMmhGQldUblViejhVRjl3?oc=5",
-          "source": "Mintz",
-          "published": "Mon, 21 Jul 2025 07:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
         }
@@ -1798,23 +1750,23 @@
       ]
     },
     {
-      "topic": "athletic boost performance supplements",
-      "headline": "Can supplements boost my athletic performance? - Harvard Health",
+      "topic": "beneficial common dietary money supplements these vitamins waste",
+      "headline": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - UCHealth",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Harvard Health"
+        "UCHealth"
       ],
-      "newest": "2025-12-01T08:00:00+00:00",
+      "newest": "2025-06-15T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Can supplements boost my athletic performance? - Harvard Health",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUW5DZDE5WEtRWG5BZVAxTkFWOU1LYXZyWGR4SGlFM0JicVNWbk9yNEwwRWY1eUlVS0ZzUHRyZlZfQnJaTUZTNVFYYzVhREVQcDB5SzRvWGhZQW0zZGxMZlB5Q2plcWI4a2hqVFVONXdlNXhhYjNCUFpPYV9DWThva1g3Zlo2ZXRfS3VJUi02OGJSdGJoYTVUMzRPS0tNbFdXUkZmX3JFVQ?oc=5",
-          "source": "Harvard Health",
-          "published": "Mon, 01 Dec 2025 08:00:00 GMT",
+          "title": "Dietary supplements: Are these 14 common vitamins and supplements beneficial or a waste of money? - UCHealth",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVnF4eVJDWDI4eEdicHp2UG5xTjBkV2Q4SFM4VWN2bHFKRElybUluemhXRFNSeml0ZEk4Wkd4a1lfQ3NyYURhb2luTDhqLUJPVmtXQ0lIZ0tXRVUzaWdEdzU5VHlDZEdLWTN0WXRGTnlJdXBJQkRNdndQRUdNZENvMndMcXRPTGs2QjctdVdmcXZoYU82Z1E?oc=5",
+          "source": "UCHealth",
+          "published": "Sun, 15 Jun 2025 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -1838,6 +1790,29 @@
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUlVhV19odWlZWS1hcWI1enM5cnM3X2NqOHdGamFBN3ZIVXpUV25DNjFiTnFpQ2VUUEtMWmZPWXh2MXhvTEo5TUVJUEpoenJHZGRhR0FxeEJoLUhhajdaREJHT2dZV2xsbDNGemJFZVlsRi15ajF1VEtyY0RqNmY4bFplRUx0SDFBV3h4OA?oc=5",
           "source": "Mayo Clinic Press",
           "published": "Thu, 17 Oct 2024 07:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "actually asked doctors healthy hold supplements which",
+      "headline": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Health.com"
+      ],
+      "newest": "2026-08-04T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96Y0lBWHk4elBmOEpLQ2dOaWRQTlBWcEFZcDhNWkJNSXdybTA1SnpRU3gweW9oRGF2UDEzUm90UlpPLVdKRU9yVDZaZGwyUS1JaFloZGJEQVRqZlVFekZzVmVCUnd3dGROZEFIaVBWbHRwS05BYkxlVEhOcmVtUQ?oc=5",
+          "source": "Health.com",
+          "published": "Tue, 04 Aug 2026 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -1884,6 +1859,29 @@
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUVkQURSYU9nS1lhVDRUQzZjcDFpLWlzdlZpN08xT1RRZmF1RVZLcjZxLXNDZk5LaFdmQ3ZCa0hpWnB0SXBHdTRaQUtYT2UxRGdPTE44bWFvZzdYNldYUWVJNXNraDZfR2FfTkRXRTlhNlZrTXRJTUFVaXFjZS1NUkI5RHF6a0NoQ2w4X1g4b2ZvYnUtOF9UN2hHOHR0TlJRYUd5WmJqc2ZhMXFUd2hxaGctYUtJN0VtVS1GbEZUM3JpdXV1VVJ1aURQN0U?oc=5",
           "source": "National Center for Complementary and Integrative Health (.gov)",
           "published": "Tue, 31 Mar 2020 12:26:37 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "athletic boost performance supplements",
+      "headline": "Can supplements boost my athletic performance? - Harvard Health",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Harvard Health"
+      ],
+      "newest": "2025-12-01T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Can supplements boost my athletic performance? - Harvard Health",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUW5DZDE5WEtRWG5BZVAxTkFWOU1LYXZyWGR4SGlFM0JicVNWbk9yNEwwRWY1eUlVS0ZzUHRyZlZfQnJaTUZTNVFYYzVhREVQcDB5SzRvWGhZQW0zZGxMZlB5Q2plcWI4a2hqVFVONXdlNXhhYjNCUFpPYV9DWThva1g3Zlo2ZXRfS3VJUi02OGJSdGJoYTVUMzRPS0tNbFdXUkZmX3JFVQ?oc=5",
+          "source": "Harvard Health",
+          "published": "Mon, 01 Dec 2025 08:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -2137,29 +2135,6 @@
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE43a0NvNU8zd0Q4cEhndzdKS0tXSlRlcTlBZnl5LVVHNGN5Mmg0ekhneWdDcmt6Umk4bm84VkliS0dCeHNVLVpRRkVvTTFUbzFGVFB0MWRhVkx0WC1aOXpr?oc=5",
           "source": "Nature",
           "published": "Wed, 14 Dec 2022 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
-      "topic": "alzheimer circadian disease pathogenesis rhythms sleep",
-      "headline": "Sleep, circadian rhythms, and the pathogenesis of Alzheimer Disease - Nature",
-      "category": "brain health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Nature"
-      ],
-      "newest": "2015-03-13T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Sleep, circadian rhythms, and the pathogenesis of Alzheimer Disease - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5dlBvei1VRzZnTFlmRDFOcTEwazFmVXN5MWxwTEpTYnNva0xVck1JM0VwNDRWVkFOcGFqYTdvVllnNzBjdFlsS0JlUmkycFNmTUt4MQ?oc=5",
-          "source": "Nature",
-          "published": "Fri, 13 Mar 2015 07:00:00 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
         }
@@ -2465,6 +2440,29 @@
       ]
     },
     {
+      "topic": "before know lose medication need taking weight",
+      "headline": "What older adults need to know before taking a GLP-1 medication to lose weight - WPSD Local 6",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "WPSD Local 6"
+      ],
+      "newest": "2026-07-01T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "What older adults need to know before taking a GLP-1 medication to lose weight - WPSD Local 6",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQS1o1eFRtUzR4MXlIYmw3dEx5U2RWTEZjbXZlRGk0aWRXMkp4Y3M2V2N2OFJQT2xmZzJxc3otdWUzRndfRG1OM3ZrMUJKNDRfNVY2d3RYMVV0bmIwSkV5N2Q3elFpUkJ0TE1Menlsejh1T29PMGc0YVpTZV84S2ExUVdlZWR4VDcyTEFVUENrVUd4ZzdMUjRKSWRHb21XbktjVnpuc0dXRGZNcGtnYTFXZDVjaWVuTUtKT2I0bHlydmkxdktHMmFqYzVxT2tDVDZVSENqSEhKTkZmZ2tJRnk1NVE3SUdfUlVPbzlsR3dpWWJxdw?oc=5",
+          "source": "WPSD Local 6",
+          "published": "Wed, 01 Jul 2026 07:00:00 GMT",
+          "seed": "GLP-1 and healthy aging",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
       "topic": "extension healthy human life longevity shift valuing",
       "headline": "The Longevity Shift: Valuing The Extension Of Healthy Human Life - Ark Invest",
       "category": "metabolic health",
@@ -2537,7 +2535,7 @@
       "topic": "healthy hsrc standard supports times",
       "headline": "HSRC supports healthy aging - Times-Standard",
       "category": "general wellness",
-      "score": 5.59,
+      "score": 5.32,
       "mention_count": 1,
       "source_count": 0,
       "sources": [],
