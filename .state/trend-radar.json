@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:30:57.215036+00:00",
+  "generated_at": "2026-11-05T23:02:15.921626+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -169,6 +169,38 @@
           "published": "Mon, 24 Nov 2025 08:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
+        }
+      ]
+    },
+    {
+      "topic": "biological drug loss popular shows slow weight",
+      "headline": "New study shows popular GLP-1 weight loss drug may slow biological aging - University of California",
+      "category": "metabolic health",
+      "score": 14.0,
+      "mention_count": 2,
+      "source_count": 2,
+      "sources": [
+        "SciTechDaily",
+        "University of California"
+      ],
+      "newest": "2026-06-11T07:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "New study shows popular GLP-1 weight loss drug may slow biological aging - University of California",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnhMQzRMOFROMTJTYmFWdXJGa1YyQmJoWm9PLTFZaUJWVHlSMGNIdXlhQ0FESDZDTjAxZGo2clhkNjJHWjVUWTF3TlFsWTR2clJfalhGTVk4dE5aQ3l4RVh2UVRjSHprY2lVeXpSUlc0UU9YR2RDUHpYRFktSnlHNlN5T21McUFScjBHZ21GYjlNakNRa3lfNTRMWEtDQ3JkazJPQzdmQnJPNEx6RG5HSERzeWJKM3c?oc=5",
+          "source": "University of California",
+          "published": "Thu, 11 Jun 2026 07:00:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        },
+        {
+          "title": "Popular Weight-Loss Drug Found To Slow Biological Aging in Landmark Human Trial - SciTechDaily",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc1NacDBJek5OMW1fUkUzMHdkNVBCaEhpS05VR0E1WlNrd1F4QjBhWXNac0lWYVFXMnhMQ3g1bDhwR19Mc0lVZzB6a1dxclMzbWZkalBHVjFTV2NfVkM2OHRDUHFleTM3dWhKR2xscm9rWjREUkRaektfeFI4Vll0Um5zeFl4NGp0VlRsVjM5bHJZN1daZW40Z3FCY21kUG9wYjczSl9SM2U?oc=5",
+          "source": "SciTechDaily",
+          "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+          "seed": "GLP-1 and healthy aging",
+          "category": "metabolic health"
         }
       ]
     },
@@ -521,7 +553,7 @@
       "topic": "advancing healthy honour johnson national receives shanthi university windsor",
       "headline": "University of Windsor - Shanthi Johnson receives national honour for advancing healthy aging - Education News Canada",
       "category": "general wellness",
-      "score": 10.39,
+      "score": 10.13,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -544,7 +576,7 @@
       "topic": "concludes congress fana geriatric healthy international news rehabilitation",
       "headline": "HMC Concludes International Congress on Healthy Aging and Geriatric Rehabilitation - Fana News -",
       "category": "general wellness",
-      "score": 8.53,
+      "score": 8.26,
       "mention_count": 1,
       "source_count": 0,
       "sources": [],
@@ -792,29 +824,6 @@
       ]
     },
     {
-      "topic": "brain food kind this ultraprocessed worst your",
-      "headline": "This Ultraprocessed Food Is The Worst Kind For Your Brain Health - MindBodyGreen",
-      "category": "brain health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "MindBodyGreen"
-      ],
-      "newest": "2026-10-26T11:19:10+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "This Ultraprocessed Food Is The Worst Kind For Your Brain Health - MindBodyGreen",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVVBDZXVQaFZDR2xqWndfSGp2UEU3ZERySDYzelAwVERPT2taY2oxdlF2aHB0N0NaN1NpSGk2QW5sTjRtNWdwMmczNUI3MC1lS3RLVWF4UjNtdk94cHJ1NHF4RXJKSGVTQjVRcm1PRGhiZnhRQXVPc29FMnc3YXlobW1YclQ1eDJ6MzA5WVpBWXpCR0twckJLQ1pOaUVrOEthZHFjTnZkM2J0U0NHTWtF?oc=5",
-          "source": "MindBodyGreen",
-          "published": "Mon, 26 Oct 2026 11:19:10 GMT",
-          "seed": "brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
       "topic": "cognitive dementia incidence later linked lower speed training years",
       "headline": "Cognitive Speed Training Linked to Lower Dementia Incidence Up To 20 Years Later - Johns Hopkins Medicine",
       "category": "brain health",
@@ -832,6 +841,29 @@
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOF9XOGE2elY1S09yUkIycjZUVWVIX09keUx1V2ItakI2alN1amFIcnRGbFREdm9VaUNDZzVfeHgtUnlVeTF2M0xEWmN2cVRZOU9ybmN1azlYNjNReV9oaVZZWVpSa1BPQmw2bXBESU9FREdTN25WSWFnZ3U2LXpiVWFCUTB4bDliQ2xnaHp2TG9LUUgzREY4SEZtLUJRcFFCWlo5cTJxTk1oLVE5OW04MWVab0NjdUFRRC1lNHd2WUE4Z3dXUlV4aGtUcFhHeERUcWNRbHhaWGxrZ0NPVmhRSHFn?oc=5",
           "source": "Johns Hopkins Medicine",
           "published": "Mon, 09 Feb 2026 08:00:00 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
+      "topic": "boost brain foods fueling give memory that your",
+      "headline": "3 Memory-Fueling Foods That Give Your Brain a Boost - Cleveland Clinic Health Essentials",
+      "category": "brain health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Cleveland Clinic Health Essentials"
+      ],
+      "newest": "2026-04-14T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "3 Memory-Fueling Foods That Give Your Brain a Boost - Cleveland Clinic Health Essentials",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BQjZaR2Z3bzdETDJWOHFPdkd4eTNzN3pWN0JjUml0MGRqRjdPaThjekloY3JoWlF2eFJmRDJvN0RVeEdrdERGZzMwakEtSGVzd0hocUZYRFFVQQ?oc=5",
+          "source": "Cleveland Clinic Health Essentials",
+          "published": "Tue, 14 Apr 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
         }
@@ -1091,29 +1123,6 @@
       ]
     },
     {
-      "topic": "both circadian interact system times where",
-      "headline": "Circadian system and aging: where both times interact - Frontiers",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Frontiers"
-      ],
-      "newest": "2025-10-17T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Circadian system and aging: where both times interact - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU0pBYnc4a2dEQVhIdVhTMmNwQ0xmZk8zLUNHZjRjWmJjV0xxd2NVYlpHOXlYenJiUzZIRVNzVllTa05PNVhLZWYyajN1Nklhb2RBVkllY09IdHpSMmJfdjVDY3pMb005c25HbmZ3UGtrYW5mcmVRLXA3am5JN3p5VWZzTFc5cGN4U0I4?oc=5",
-          "source": "Frontiers",
-          "published": "Fri, 17 Oct 2025 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
       "topic": "behaviors exposure light memory mood predict quality reports scientific sleep",
       "headline": "Light exposure behaviors predict mood, memory and sleep quality - Scientific Reports - Nature",
       "category": "sleep health",
@@ -1133,29 +1142,6 @@
           "published": "Tue, 01 Aug 2023 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
-        }
-      ]
-    },
-    {
-      "topic": "biological drug loss popular shows slow weight",
-      "headline": "New study shows popular GLP-1 weight loss drug may slow biological aging - University of California",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "University of California"
-      ],
-      "newest": "2026-06-11T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "New study shows popular GLP-1 weight loss drug may slow biological aging - University of California",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnhMQzRMOFROMTJTYmFWdXJGa1YyQmJoWm9PLTFZaUJWVHlSMGNIdXlhQ0FESDZDTjAxZGo2clhkNjJHWjVUWTF3TlFsWTR2clJfalhGTVk4dE5aQ3l4RVh2UVRjSHprY2lVeXpSUlc0UU9YR2RDUHpYRFktSnlHNlN5T21McUFScjBHZ21GYjlNakNRa3lfNTRMWEtDQ3JkazJPQzdmQnJPNEx6RG5HSERzeWJKM3c?oc=5",
-          "source": "University of California",
-          "published": "Thu, 11 Jun 2026 07:00:00 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
         }
       ]
     },
@@ -1367,29 +1353,6 @@
       ]
     },
     {
-      "topic": "balance body dynamic effects functional mobility stability strength trunk understanding whole",
-      "headline": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
-      "category": "mobility",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Nature"
-      ],
-      "newest": "2026-01-20T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiblFvZ0ZrWEpicVRLU0tsSGMzdmQwOTJrWV9UUnJNb1dfTjlJWkVfLXpZelVLX2xXWS1XajhwMUtSc1ZXYUVLbVRjWFZnTWhyWWVhTlpieXlQUUJpb2Q4?oc=5",
-          "source": "Nature",
-          "published": "Tue, 20 Jan 2026 08:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
-        }
-      ]
-    },
-    {
       "topic": "doctors factors many mobility other tell tests there",
       "headline": "Mobility tests can tell doctors a lot about how you’re aging, but there are many other factors - AP News",
       "category": "mobility",
@@ -1453,6 +1416,29 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTUdTU1hmY25pb1RxamN3d0pjZzlDSlpRUnJFZWFuZHI1Z2sybHpLZU45M3FMWWhPclUtOF9mRGF2Q0ZTM1psTW42VEMwVFRZamw5eFpNVXdSRlBTOFU0TVB0YTVfTzVkT2dHd3VOX2VSMTRKYVpyOXkxQmdneUZkSjV3ZGo4STRYTkNMZmVMSUJFcTlULWc?oc=5",
           "source": "SteamboatToday.com",
           "published": "Mon, 17 Aug 2026 07:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
+        }
+      ]
+    },
+    {
+      "topic": "balance body dynamic effects functional mobility stability strength trunk understanding whole",
+      "headline": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
+      "category": "mobility",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Nature"
+      ],
+      "newest": "2026-01-20T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiblFvZ0ZrWEpicVRLU0tsSGMzdmQwOTJrWV9UUnJNb1dfTjlJWkVfLXpZelVLX2xXWS1XajhwMUtSc1ZXYUVLbVRjWFZnTWhyWWVhTlpieXlQUUJpb2Q4?oc=5",
+          "source": "Nature",
+          "published": "Tue, 20 Jan 2026 08:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
         }
@@ -2419,29 +2405,6 @@
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1MX0lPNXkwVjc0Mk1rZmFOUnNQWnFNb3p6ZzNLTmZWdVdtdTM4Qk1KYnhTcjRzYkFhZlJrRUl5dWp5ZkZJOEdHblBXd3o2SlljVU1oMHJMdHZlNzhObEhj?oc=5",
           "source": "Nature",
           "published": "Sat, 06 Apr 2024 07:00:00 GMT",
-          "seed": "GLP-1 and healthy aging",
-          "category": "metabolic health"
-        }
-      ]
-    },
-    {
-      "topic": "back biological going just roll vegan weeks your",
-      "headline": "Going Vegan for Just 8 Weeks May Roll Back Your Biological Age - Newsweek",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Newsweek"
-      ],
-      "newest": "2024-07-28T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Going Vegan for Just 8 Weeks May Roll Back Your Biological Age - Newsweek",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBISDRJRU8zVXJzajlPLWlldXVVbF9JbzZsSDNtZEs5bHdhZTJfRGtpX1NvMmZVV05lM2RFRjB5TnAwdGVoYmlzYlA3ZlR1eUcxRHFPaTBWQlNBcDJJRXZLS3djeV9ZdXBhbVk1M21wSEt5c2pGVXhj?oc=5",
-          "source": "Newsweek",
-          "published": "Sun, 28 Jul 2024 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
         }
