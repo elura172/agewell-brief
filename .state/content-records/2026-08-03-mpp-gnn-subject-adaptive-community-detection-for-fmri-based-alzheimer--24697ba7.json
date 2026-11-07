@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T02:00:36.492878+00:00",
+  "generated_at": "2026-11-07T13:10:28.356673+00:00",
   "article": {
     "article": "2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
     "url": "https://agewellbrief.com/brief/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 4,
+      "reader_visits": 5
+    },
     "source_url": "https://arxiv.org/abs/2607.28681",
     "content_record": {
       "article_id": "2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "Your brain isn't just firing electrical pulses—it is a quantum biophotonic resonator entrained to the rhythm of the cosmos. A new biophysics study just dropped on 'Person-specific brain mapping improved Alzheimer's detection from fMRI'. A new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.' Why this matters Alzheimer's disease is often diagnosed la. The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides.",
       "source_url": "https://arxiv.org/abs/2607.28681",
-      "trend": null,
+      "trend": {
+        "rank": 4,
+        "reader_visits": 5
+      },
       "text_fore_color": "#FEFEFE",
       "highlight_color": "#00F0FF",
       "stroke_color": "#0B0F19",
