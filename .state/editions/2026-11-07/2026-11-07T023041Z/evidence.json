@@ -1,0 +1,16 @@
+[
+  {
+    "article_id": "312d29936516f651b4424609",
+    "study_type": "reported health research",
+    "key_claims": [
+      "Sleep rhythms such as slow oscillations and spindles arise predominantly during N2 and N3 sleep (N2+N3). Closed-loop stimulation targeting these rhythms is a promising strategy to enhance memory. Such stimulation requires online sleep stage classification. Conventional staging labels completed 30-s epochs using past and future data and cannot support online staging. We developed a causal tracker that, every 2 s, estimates the current stage from the preceding 10 s of scalp or intracranial EEG. We also evaluated a simulated rule that permits stimulation after three consecutive estimates indicating N2+N3 sleep. In six adults with drug-resistant epilepsy with simultaneous scalp EEG and stereo-EEG, real-time N2+N3 discrimination remained close to offline scoring of the same recordings (scalp AUC 0.953 versus 0.958). Thalamic channels alone reached AUC 0.934 and exceeded mesial temporal channels in every patient, and scalp plus thalamus performed best (0.967). The scalp tracker, retrained in 28 healthy adults, reached 0.976. When patients transitioned into N2+N3 sleep with stimulation initially disabled, the rule permitted stimulation within 5 min in 63-73% of transitions, with a median delay of 42-64 s among those detected. After leaving N2+N3, stimulation was disabled after a median of 19-22 s. The rule also switched on incorrectly 1.4-1.8 times per hour outside N2+N3 and remained active during 28-31% of REM in patients, compared with 2% in healthy adults. These findings show that both scalp and thalamic EEG can support real-time N2+N3 detection and inform when stimulation is permitted. Translationally, implanted thalamic leads, increasingly used for neuromodulation in epilepsy, could support sleep-stage-dependent stimulation without scalp EEG, while scalp EEG might be used for noninvasive neuromodulation. Closed-loop systems should be evaluated not only by sleep-stage classification accuracy but also by how reliably and promptly they enable and disable stimulation."
+    ],
+    "limitations": [
+      "The source did not expose enough detail for a fuller evidence extraction."
+    ],
+    "what_not_to_say": [
+      "Do not claim causation, treatment, or guaranteed personal benefit."
+    ],
+    "confidence": "unclear"
+  }
+]
