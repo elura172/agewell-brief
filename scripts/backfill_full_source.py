@@ -126,12 +126,18 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    api_key = os.environ.get("DEEPSEEK_API_KEY", "")
+    api_key = os.environ.get("GEMINI_API_KEY", "") or os.environ.get("DEEPSEEK_API_KEY", "")
     if not api_key:
-        raise RuntimeError("DEEPSEEK_API_KEY is required")
+        raise RuntimeError("GEMINI_API_KEY or DEEPSEEK_API_KEY is required")
 
-    model = os.environ.get("LLM_MODEL", "deepseek-v4-flash")
-    base_url = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com")
+    default_model = "gemini-3.5-flash" if os.environ.get("GEMINI_API_KEY") else "deepseek-v4-flash"
+    default_url = (
+        "https://generativelanguage.googleapis.com/v1beta/openai/"
+        if os.environ.get("GEMINI_API_KEY")
+        else "https://api.deepseek.com"
+    )
+    model = os.environ.get("LLM_MODEL", default_model)
+    base_url = os.environ.get("LLM_BASE_URL", default_url)
     client = OpenAI(api_key=api_key, base_url=base_url)
     targets = audited_targets(args.min_source_chars, args.limit)
     if not targets:

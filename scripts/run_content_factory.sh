@@ -4,11 +4,17 @@ set -euo pipefail
 REPO="/Users/mirrr/agewell-brief"
 LOCK="/tmp/agewell-content-factory.lock"
 UV_BIN="/Library/Frameworks/Python.framework/Versions/3.13/bin/uv"
+MPT_CONFIG="/Users/mirrr/MoneyPrinterTurbo/config.toml"
 
 if ! mkdir "$LOCK" 2>/dev/null; then
   exit 0
 fi
 trap 'rmdir "$LOCK"' EXIT
+
+if [[ ! -f "$MPT_CONFIG" ]]; then
+  echo "MoneyPrinterTurbo config ($MPT_CONFIG) not found. Skipping content factory run."
+  exit 0
+fi
 
 cd "$REPO"
 git pull --rebase origin main

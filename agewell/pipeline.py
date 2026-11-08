@@ -31,6 +31,7 @@ from agewell.agents import (
     assignment_editor,
     commercial_integrity,
     copy_edit,
+    llm_thinking_kwargs,
     novelty_editor,
     release_manager,
 )
@@ -65,12 +66,23 @@ STATE_FILE = Path(os.getenv("STATE_FILE", ROOT / ".state/processed.json"))
 RSS_FEED_URL = os.getenv("RSS_FEED_URL", "")
 RSS_FEEDS_JSON = os.getenv("RSS_FEEDS_JSON", "")
 FEED_CONFIG_FILE = Path(os.getenv("FEED_CONFIG_FILE", ROOT / "config/feed-portfolio.json"))
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "")
 PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY", "")
 UNSPLASH_ACCESS_KEY = os.getenv("UNSPLASH_ACCESS_KEY", "")
-LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://api.deepseek.com")
-MODEL = os.getenv("LLM_MODEL", "deepseek-v4-flash")
+LLM_BASE_URL = os.getenv(
+    "LLM_BASE_URL",
+    "https://generativelanguage.googleapis.com/v1beta/openai/"
+    if GEMINI_API_KEY and not DEEPSEEK_API_KEY
+    else "https://api.deepseek.com",
+)
+MODEL = os.getenv(
+    "LLM_MODEL",
+    "gemini-3.5-flash"
+    if GEMINI_API_KEY and not DEEPSEEK_API_KEY
+    else "deepseek-v4-flash",
+)
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "3"))
 MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "15"))
 MAX_ITEMS_PER_PUBLISHER = int(os.getenv("MAX_ITEMS_PER_PUBLISHER", "2"))
@@ -732,7 +744,7 @@ def draft(
                 max_tokens=3200 if is_longform else 1400,
                 response_format={"type": "json_object"},
                 messages=messages,
-                extra_body={"thinking": {"type": "disabled"}},
+                **llm_thinking_kwargs(MODEL),
             )
             raw_content = response.choices[0].message.content or "{}"
             candidate = parse_model_json(raw_content)
@@ -1128,8 +1140,10 @@ def run() -> int:
     sources = feed_sources()
     if not sources:
         raise RuntimeError("RSS_FEEDS_JSON or RSS_FEED_URL is required")
-    api_key = DEEPSEEK_API_KEY or os.getenv("OPENROUTER_API_KEY") or os.getenv("OPENAI_API_KEY")
+    api_key = GEMINI_API_KEY or DEEPSEEK_API_KEY or os.getenv("OPENROUTER_API_KEY") or os.getenv("OPENAI_API_KEY")
     base_url = LLM_BASE_URL
+    if GEMINI_API_KEY and api_key == GEMINI_API_KEY and base_url == "https://api.deepseek.com":
+        base_url = "https://generativelanguage.googleapis.com/v1beta/openai/"
     if not api_key:
         api_key = "freedom"
         base_url = "http://127.0.0.1:1234/v1"

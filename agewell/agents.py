@@ -13,6 +13,12 @@ def article_id(link: str) -> str:
     return hashlib.sha256(link.encode("utf-8")).hexdigest()[:24]
 
 
+def llm_thinking_kwargs(model: str) -> dict[str, Any]:
+    if "gemini" in model.lower():
+        return {"reasoning_effort": "none"}
+    return {"extra_body": {"thinking": {"type": "disabled"}}}
+
+
 def _json_response(client: Any, model: str, system: str, payload: dict[str, Any], max_tokens: int) -> dict[str, Any]:
     response = client.chat.completions.create(
         model=model,
@@ -20,7 +26,7 @@ def _json_response(client: Any, model: str, system: str, payload: dict[str, Any]
         max_tokens=max_tokens,
         response_format={"type": "json_object"},
         messages=[{"role": "system", "content": system}, {"role": "user", "content": json.dumps(payload)}],
-        extra_body={"thinking": {"type": "disabled"}},
+        **llm_thinking_kwargs(model),
     )
     raw_text = (response.choices[0].message.content or "{}").strip()
     if raw_text.startswith("```"):

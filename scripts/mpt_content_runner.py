@@ -38,7 +38,10 @@ def save(path: Path, value: dict) -> None:
 
 
 def mpt_config() -> dict:
-    return tomllib.loads((MPT_HOME / "config.toml").read_text(encoding="utf-8"))["app"]
+    config_file = MPT_HOME / "config.toml"
+    if not config_file.is_file():
+        return {}
+    return tomllib.loads(config_file.read_text(encoding="utf-8")).get("app", {})
 
 
 def pending_articles(manifest: dict) -> list[dict]:
@@ -159,6 +162,9 @@ def main() -> int:
     parser.add_argument("--max-items", type=int, default=1)
     parser.add_argument("--publish", action="store_true", help="submit generated media to Upload-Post")
     args = parser.parse_args()
+    if not (MPT_HOME / "config.toml").is_file():
+        print(f"MoneyPrinterTurbo not found at {MPT_HOME}. Skipping content generation until restored.")
+        return 0
     manifest = load(MANIFEST)
     config = mpt_config()
     if args.publish and not config.get("upload_post_api_key"):

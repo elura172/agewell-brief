@@ -39,12 +39,13 @@ jobs:
         id: aggregate
         run: python -m agewell.pipeline
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          LLM_BASE_URL: https://api.deepseek.com
-          LLM_MODEL: deepseek-v4-flash
+          LLM_BASE_URL: https://generativelanguage.googleapis.com/v1beta/openai/
+          LLM_MODEL: gemini-3.5-flash
           RSS_FEED_URL: ${{ secrets.RSS_FEED_URL }}
           RSS_FEEDS_JSON: ${{ secrets.RSS_FEEDS_JSON }}
           MAX_ITEMS: 1

@@ -42,9 +42,10 @@ jobs:
           --min-source-chars "${{ inputs.min_source_chars }}"
           ${{ inputs.dry_run && '--dry-run' || '' }}
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          LLM_BASE_URL: https://api.deepseek.com
-          LLM_MODEL: deepseek-v4-flash
+          LLM_BASE_URL: https://generativelanguage.googleapis.com/v1beta/openai/
+          LLM_MODEL: gemini-3.5-flash
       - name: Commit regenerated articles and audit
         if: ${{ inputs.dry_run == false }}
         run: |

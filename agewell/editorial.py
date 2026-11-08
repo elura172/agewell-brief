@@ -6,6 +6,8 @@ from typing import Any, Protocol
 
 from openai import OpenAI
 
+from agewell.agents import llm_thinking_kwargs
+
 
 def _string_tuple(value: Any) -> tuple[str, ...]:
     """Normalize model output without accidentally splitting strings into characters."""
@@ -123,7 +125,7 @@ def _json_agent(
             {"role": "system", "content": f"{system_prompt}\nReturn exactly one valid JSON object and no surrounding text."},
             {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
         ],
-        extra_body={"thinking": {"type": "disabled"}},
+        **llm_thinking_kwargs(model),
     )
     value = json.loads(response.choices[0].message.content or "{}")
     if not isinstance(value, dict):
