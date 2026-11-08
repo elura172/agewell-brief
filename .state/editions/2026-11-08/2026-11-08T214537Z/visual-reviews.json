@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "8f4058cc2eea388db5f36a9f",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:IRM9qgZdlW0",
+      "score": 75,
+      "rationale": "Unsplash:IRM9qgZdlW0 ('woman wearing white lab coat holding brown bottle and glass tube') provides the best metadata match for the requested editorial brief. It clearly depicts a scientist in a laboratory environment handling liquid sampling tools (brown bottle and glass tube), fitting the research context of nutritional biochemistry without relying on generic supplements, clinical procedures, or abstract graphics.",
+      "concerns": [
+        "Metadata does not explicitly confirm whole food elements (like olive oil or legumes) on the counter, but it offers the cleanest alignment with a grounded laboratory research setting among the candidates."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1570723989345-3a537f60a9c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NHx8bnV0cml0aW9uYWwlMjBiaW9jaGVtaXN0cnklMjBzY2llbnRpc3QlMjBsaXF1aWQlMjBjaHJvbWF0b2dyYXBoeSUyMHZpYWx8ZW58MXwwfHx8MTc5NDE3NDQyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

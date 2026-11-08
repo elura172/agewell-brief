@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "8f4058cc2eea388db5f36a9f": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "While Mediterranean diet stories are generally familiar, identifying specific mitochondrial-derived microproteins (humanin and SHMOOSE) elevated in human subjects provides a distinct, concrete biological mechanism over general dietary advice.",
+      "angle": "Beyond healthy fats: How the Mediterranean diet triggers mitochondrial microproteins humanin and SHMOOSE to shield against cellular decline.",
+      "mode": "agent"
+    },
+    "bba5979fd1886fa15f044b81": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Links specific deep-sleep wave disruptions directly to early protein buildup and memory processing failures prior to clinical dementia onset.",
+      "angle": "Overnight memory processing failure: Disrupted slow waves during deep sleep as an early functional marker of Alzheimer's protein pathology.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Standard observational sleep duration guidance (7 hours per night) that has been widely covered across multiple outlets for years.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "f4e7b57f28941f6c54c74e23": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "frontier technology / specific circuit discovery",
+      "reason": "Identifies precise neuronal signaling dynamics (ADF serotonergic to RIS GABAergic via SER-7, tyramine, and NLP-17) that decouple hypoxic longevity benefits from systemic mammalian toxicity.",
+      "angle": "Mapping the hypoxia longevity circuit: How specific serotonergic and peptidergic neurons control lifespan extension without tissue damage.",
+      "mode": "agent"
+    },
+    "b4e9dd5ec9a5e33c0066c7ff": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "incremental study detail",
+      "reason": "Metadata-only input for a standard animal model (killifish) dietary restriction paper without specific quantitative or mechanistic findings provided.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 59,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Counters the common belief that exercise always improves brain neurochemistry by showing overtraining dysregulates hippocampal dopamine tone during rest.",
+      "angle": "When exercise backfires on the brain: Exhaustive training without recovery traps hippocampal dopamine in a chronically elevated resting state.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "systematic review of baseline literature",
+      "reason": "Review article summarizing existing animal preclinical fasting data without presenting a breakthrough empirical discovery.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic overview",
+      "reason": "Broad, non-specific review topic touching on sleep, redox metabolism, and aging without novel data points.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle advisory",
+      "reason": "Routine consumer health warning about supplements that recycled broad wellness advice.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "8f4058cc2eea388db5f36a9f",
+    "bba5979fd1886fa15f044b81",
+    "f4e7b57f28941f6c54c74e23",
+    "a2f082a62767b4c84fb98f98"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "b4e9dd5ec9a5e33c0066c7ff",
+    "4fa1cbe537a2dff42f96cb80",
+    "0b7d57db98938147adfb915a",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}

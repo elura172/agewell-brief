@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T21:29:28.220242+00:00",
+  "generated_at": "2026-11-08T21:45:36.487825+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -419,7 +419,7 @@
       "topic": "among emerge four migrant profiles social support",
       "headline": "Four Social Support Profiles Emerge Among Migrant Older Adults, Study Finds - Bioengineer.org",
       "category": "general wellness",
-      "score": 10.64,
+      "score": 10.61,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -715,29 +715,6 @@
       ]
     },
     {
-      "topic": "brain helping omega supplement take your",
-      "headline": "The omega-3 supplement you take may not be helping your brain - CNN",
-      "category": "brain health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "CNN"
-      ],
-      "newest": "2026-06-18T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "The omega-3 supplement you take may not be helping your brain - CNN",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYU5DWWlpSGlYZ29mbzJkZmhUOGY5bGlvU2VwNTFUUFJMQ2ZQRjh4SEtXWWNSZ1lMS2tXVFhkMTV5SnN0MWI3b3h4Tl84VG1oX3U0amViTndpYTRQMm5oVS1kLWY0Vjd6RERYVEtlYml3V0J3WGNsU0FvLUx2MnQ1UV80ZUpjUjg?oc=5",
-          "source": "CNN",
-          "published": "Thu, 18 Jun 2026 07:00:00 GMT",
-          "seed": "brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
       "topic": "brain learning protects",
       "headline": "How learning protects the aging brain - American Psychological Association (APA)",
       "category": "brain health",
@@ -755,6 +732,29 @@
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OaVpJSU5RQXVZQm12WWdyTEtsS3NWN0EwRVVsR1VYWE5tM2R0ZzEtYkVSZHZ4Tkp5Q0ZRYnJ6UGZyM3J6VkxtOTR1cVdfT2ZSNm54MGdvVEVwN3NtYTVZa3I2ODZMdzVqaWRIdncyTEFzSW8tLV9J?oc=5",
           "source": "American Psychological Association (APA)",
           "published": "Wed, 25 Feb 2026 08:00:00 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
+      "topic": "brain helping omega supplement take your",
+      "headline": "The omega-3 supplement you take may not be helping your brain - CNN",
+      "category": "brain health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "CNN"
+      ],
+      "newest": "2026-06-18T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "The omega-3 supplement you take may not be helping your brain - CNN",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYU5DWWlpSGlYZ29mbzJkZmhUOGY5bGlvU2VwNTFUUFJMQ2ZQRjh4SEtXWWNSZ1lMS2tXVFhkMTV5SnN0MWI3b3h4Tl84VG1oX3U0amViTndpYTRQMm5oVS1kLWY0Vjd6RERYVEtlYml3V0J3WGNsU0FvLUx2MnQ1UV80ZUpjUjg?oc=5",
+          "source": "CNN",
+          "published": "Thu, 18 Jun 2026 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
         }
