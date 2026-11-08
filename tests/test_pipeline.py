@@ -492,20 +492,13 @@ def test_no_third_party_affiliate_links_are_ever_emitted():
 
 
 def test_commercial_links_are_marked_sponsored():
-    item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
-    content = _content()
-    content["sections"] = [
-        {"heading": f"section {n}", "paragraphs": ["Body copy."]} for n in range(3)
-    ]
-    result = markdown(
-        item, "brain health", content, content_type="lead", spiral=SPIRALS["spirals"]["luminous mind"]
-    )
+    result = pipeline.spiral_card(SPIRALS["spirals"]["luminous mind"], "brain health")
     assert 'rel="sponsored noopener noreferrer"' in result
 
 
-def test_long_form_brief_carries_exactly_one_body_card_after_the_opening_section():
-    """One card in the body and one at the end of the page. Three near-identical
-    cards pointing at the same URL read as pressure, not as a recommendation."""
+def test_long_form_brief_carries_no_in_body_card_and_names_its_spiral():
+    """In-body resource cards are retired so the single end-of-article colophon
+    card rendered by [slug].astro is the only Spiral callout on the page."""
     item = FeedItem("Source title", "Source summary", "https://example.test/story", "", "Test Source")
     content = _content()
     content["sections"] = [
@@ -513,9 +506,7 @@ def test_long_form_brief_carries_exactly_one_body_card_after_the_opening_section
     ]
     result = markdown(item, "longevity", content, content_type="evergreen", spiral=SPIRALS["spirals"]["cell shedding"])
 
-    assert result.count('class="resource-card') == 1
-    # After the opening section, not before it.
-    assert result.index("## section 0") < result.index('class="resource-card') < result.index("## section 1")
+    assert result.count('class="resource-card') == 0
     assert 'spiral: "Cell Shedding"' in result
     assert 'content_type: "evergreen"' in result
 

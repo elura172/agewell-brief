@@ -14,7 +14,7 @@ from urllib.parse import quote, urlencode
 
 from PIL import Image, ImageOps
 
-from agewell.editorial import ImageBrief
+from agewell.editorial import ImageBrief, candidate_passes_discipline
 
 
 PEXELS_SEARCH_URL = "https://api.pexels.com/v1/search"
@@ -254,6 +254,9 @@ def search_image_candidates(
     excluded_ids: set[str] | None = None,
     excluded_creator_urls: set[str] | None = None,
     unsplash_key: str = "",
+    category: str = "general wellness",
+    source_title: str = "",
+    headline: str = "",
 ) -> list[ImageCandidate]:
     excluded = excluded_ids or set()
     excluded_creators = excluded_creator_urls or set()
@@ -277,9 +280,11 @@ def search_image_candidates(
         return found
 
     found: list[ImageCandidate] = []
+    queries = list(brief.search_queries[:3])
+    query_rank_map = {q.lower(): (len(queries) - idx) for idx, q in enumerate(queries)}
     searches = [
         (provider, key, search, query)
-        for query in brief.search_queries[:3]
+        for query in queries
         for provider, key, search in providers
         if key
     ]
@@ -292,16 +297,33 @@ def search_image_candidates(
                 continue
 
     unique: dict[str, ImageCandidate] = {}
+    score_by_id: dict[str, int] = {}
     for candidate in found:
         if candidate.candidate_id in excluded or candidate.creator_url in excluded_creators:
             continue
+        passed, thematic_score, _ = candidate_passes_discipline(
+            candidate.to_dict(),
+            category=category,
+            source_title=source_title,
+            headline=headline,
+            image_brief=brief,
+        )
+        if not passed:
+            continue
         unique.setdefault(candidate.candidate_id, candidate)
+        score_by_id[candidate.candidate_id] = max(score_by_id.get(candidate.candidate_id, 0), thematic_score)
 
-    def relevance(candidate: ImageCandidate) -> tuple[int, int, bool]:
+    def relevance(candidate: ImageCandidate) -> tuple[int, int, int, bool]:
         query_terms = set(re.findall(r"[a-z]{4,}", candidate.search_query.lower()))
         metadata = f"{candidate.alt} {' '.join(candidate.tags)}".lower()
         overlap = sum(1 for term in query_terms if term in metadata)
-        return overlap, candidate.width * candidate.height, candidate.provider in {"Pixabay", "Unsplash"}
+        q_priority = query_rank_map.get(candidate.search_query.lower(), 1)
+        return (
+            score_by_id.get(candidate.candidate_id, 0),
+            overlap,
+            q_priority,
+            candidate.provider in {"Pexels", "Unsplash"},
+        )
 
     candidates = sorted(unique.values(), key=relevance, reverse=True)
     return candidates[:18]

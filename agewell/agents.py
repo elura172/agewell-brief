@@ -14,19 +14,56 @@ def article_id(link: str) -> str:
 
 
 def llm_thinking_kwargs(model: str) -> dict[str, Any]:
-    if "gemini" in model.lower():
+    lowered = model.lower()
+    if "lite" in lowered or "gemma" in lowered:
+        return {}
+    if "gemini" in lowered:
         return {"reasoning_effort": "none"}
     return {"extra_body": {"thinking": {"type": "disabled"}}}
 
 
+GEMINI_FALLBACK_MODELS = (
+    "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite",
+    "gemini-2.5-flash-lite",
+)
+
+
+def chat_completion_with_fallback(client: Any, model: str, **kwargs: Any) -> Any:
+    """Invoke chat.completions.create with automatic fallback across Gemini flash-lite models on 429 quota errors."""
+    models_to_try = [model]
+    if "gemini" in model.lower():
+        for candidate in GEMINI_FALLBACK_MODELS:
+            if candidate not in models_to_try:
+                models_to_try.append(candidate)
+
+    last_exc: Exception | None = None
+    for current_model in models_to_try:
+        call_kwargs = dict(kwargs)
+        call_kwargs.pop("reasoning_effort", None)
+        call_kwargs.pop("extra_body", None)
+        call_kwargs.update(llm_thinking_kwargs(current_model))
+        try:
+            return client.chat.completions.create(model=current_model, **call_kwargs)
+        except Exception as exc:
+            last_exc = exc
+            msg = str(exc).lower()
+            if "429" in msg or "rate_limit" in msg or "resource_exhausted" in msg or "quota" in msg:
+                continue
+            raise
+    assert last_exc is not None
+    raise last_exc
+
+
 def _json_response(client: Any, model: str, system: str, payload: dict[str, Any], max_tokens: int) -> dict[str, Any]:
-    response = client.chat.completions.create(
-        model=model,
+    response = chat_completion_with_fallback(
+        client,
+        model,
         temperature=0.2,
         max_tokens=max_tokens,
         response_format={"type": "json_object"},
         messages=[{"role": "system", "content": system}, {"role": "user", "content": json.dumps(payload)}],
-        **llm_thinking_kwargs(model),
     )
     raw_text = (response.choices[0].message.content or "{}").strip()
     if raw_text.startswith("```"):

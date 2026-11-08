@@ -11,17 +11,17 @@ source_title: "Scientists discover mysterious “lonely” brain waves linked to
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
 image_provider: "Unsplash"
-image_provider_id: "PJziBblhxUo"
-image: "https://images.unsplash.com/photo-1782689114465-c08f9bb707c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8YWN0aXZlJTIwYWR1bHQlMjBldmVyeWRheSUyMGxpZmV8ZW58MXwwfHx8MTc5NDE3NDk5Mnww&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "Barefoot woman stands on wooden balcony overlooking a forest"
-image_caption: "A glimpse of the everyday routines behind this story."
-image_width: 5616
-image_height: 3744
-image_photographer: "Marina Nazina"
-image_photographer_url: "https://unsplash.com/@nazinamari?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/barefoot-woman-stands-on-wooden-balcony-overlooking-a-forest-PJziBblhxUo?utm_source=agewellbrief&utm_medium=referral"
+image_provider_id: "AB0r9z7eRYg"
+image: "https://images.unsplash.com/photo-1758691463110-697a814b2033?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8Nnx8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGJyYWluJTIwc2NhbnxlbnwxfDB8fHwxNzk0MTc5MTU5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+image_alt: "Two doctors examining a brain mri scan together"
+image_caption: "Two doctors examine a brain MRI scan, tracing the disrupted deep sleep pathways where tau protein accumulation begins to fracture memory consolidation before cognitive symptoms surface."
+image_width: 3840
+image_height: 2160
+image_photographer: "Vitaly Gariev"
+image_photographer_url: "https://unsplash.com/@silverkblack?utm_source=agewellbrief&utm_medium=referral"
+image_source_url: "https://unsplash.com/photos/two-doctors-examining-a-brain-mri-scan-together-AB0r9z7eRYg?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
-image_avg_color: "#737373"
+image_avg_color: "#404040"
 ---
 
 Researchers at UC Berkeley reveal that tau protein accumulation disrupts the sweeping bioelectric waves of deep sleep, fracturing overnight memory consolidation long before cognitive symptoms surface.

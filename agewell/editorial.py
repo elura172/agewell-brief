@@ -1,12 +1,13 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import asdict, dataclass
 from typing import Any, Protocol
 
 from openai import OpenAI
 
-from agewell.agents import llm_thinking_kwargs
+from agewell.agents import chat_completion_with_fallback, llm_thinking_kwargs
 
 
 def _string_tuple(value: Any) -> tuple[str, ...]:
@@ -19,25 +20,278 @@ def _string_tuple(value: Any) -> tuple[str, ...]:
     return tuple(str(item).strip() for item in value if str(item).strip())
 
 
+GLOBAL_FORBIDDEN_IMAGE_TERMS: tuple[str, ...] = (
+    "cosmetic", "skincare", "skin care", "serum", "dropper", "lotion", "makeup",
+    "lipstick", "mascara", "nail polish", "perfume", "fragrance", "beauty product",
+    "beenaturalles", "spa treatment", "facial mask", "manicure", "pedicure",
+    "leather jacket", "fashion model", "glamour", "runway", "lingerie", "bikini",
+    "swimsuit", "boudoir", "posing in", "crypto", "bitcoin", "stock market",
+    "wedding", "bride", "groom", "nightclub", "cocktail party",
+)
+
+CATEGORY_VISUAL_DISCIPLINE: dict[str, dict[str, tuple[str, ...]]] = {
+    "brain health": {
+        "visual_anchors": (
+            "neuroscience laboratory, brain MRI or fMRI scan display, optical microscope, "
+            "electrophysiology researcher, or quiet focused reading/study in natural light"
+        ),
+        "positive_tokens": (
+            "brain", "neuroscience", "microscope", "laboratory", "research", "science",
+            "scientist", "medical", "scan", "imaging", "neuron", "cognitive", "study",
+            "reading", "chess", "library", "clinic", "sleep",
+        ),
+        "forbidden_tokens": (
+            "driving", "car interior", "highway", "traffic", "automobile", "steering wheel",
+            "wooden balcony", "barefoot woman stands", "skateboard", "surfing", "double exposure",
+        ),
+        "fallback_queries": (
+            "neuroscience researcher brain scan",
+            "scientist microscope laboratory research",
+            "medical imaging monitor laboratory",
+        ),
+    },
+    "sleep health": {
+        "visual_anchors": (
+            "calm dim bedroom at dusk or night, soft bedside lamp, linen bedding, "
+            "sleep laboratory polysomnography, or quiet morning window light"
+        ),
+        "positive_tokens": (
+            "sleep", "bedroom", "bed", "pillow", "linen", "night", "dusk", "dawn",
+            "morning light", "rest", "slumber", "circadian", "lamp", "window", "laboratory",
+        ),
+        "forbidden_tokens": (
+            "wooden balcony", "forest", "hiking", "gym", "office meeting", "driving",
+            "car", "highway", "party", "concert",
+        ),
+        "fallback_queries": (
+            "quiet bedroom linen morning light",
+            "sleeping adult dark bedroom pillow",
+            "sleep research laboratory monitor",
+        ),
+    },
+    "metabolic health": {
+        "visual_anchors": (
+            "whole culinary ingredients (olive oil, leafy greens, legumes, berries), "
+            "kitchen food preparation, metabolic/biochemistry research laboratory, or glucose monitoring"
+        ),
+        "positive_tokens": (
+            "olive", "vegetables", "food", "cooking", "kitchen", "meal", "nutrition",
+            "diet", "fresh", "herbs", "tomatoes", "fish", "berries", "coffee", "tea",
+            "glucose", "laboratory", "microscope", "scientist", "cell", "metabolism",
+        ),
+        "forbidden_tokens": (
+            "brown bottle", "dropper", "essential oil", "cosmetic", "skincare", "lotion",
+            "perfume", "candle", "candy", "soda",
+        ),
+        "fallback_queries": (
+            "olive oil fresh vegetables kitchen",
+            "biochemistry scientist microscope laboratory",
+            "whole food ingredients wooden table",
+        ),
+    },
+    "gut health": {
+        "visual_anchors": (
+            "fermented foods, fiber-rich vegetables, botanical herbs, petri dish microbiology, "
+            "or microscope laboratory research"
+        ),
+        "positive_tokens": (
+            "vegetables", "fermented", "food", "microbiology", "petri", "microscope",
+            "laboratory", "scientist", "fiber", "greens", "herbs", "kitchen", "organic",
+            "probiotic", "gut", "culture",
+        ),
+        "forbidden_tokens": (
+            "brown bottle", "dropper", "cosmetic", "makeup", "car", "highway",
+        ),
+        "fallback_queries": (
+            "microbiology petri dish laboratory",
+            "fresh vegetables herbs wooden board",
+            "scientist microscope cell culture",
+        ),
+    },
+    "cellular senescence": {
+        "visual_anchors": (
+            "fluorescence or optical microscopy, cell culture laboratory, pipette and petri dishes, "
+            "or botanical polyphenol sources"
+        ),
+        "positive_tokens": (
+            "cell", "microscope", "laboratory", "scientist", "research", "pipette",
+            "biology", "tissue", "petri", "dna", "molecular", "science",
+        ),
+        "forbidden_tokens": (
+            "brown bottle", "dropper", "cosmetic", "skincare", "balcony", "car interior",
+        ),
+        "fallback_queries": (
+            "cell biology scientist microscope",
+            "laboratory pipette cell culture",
+            "molecular biology research laboratory",
+        ),
+    },
+    "longevity": {
+        "visual_anchors": (
+            "cellular biology laboratory, microscopy, or active older adults walking, swimming, "
+            "cycling, or gardening outdoors in natural light"
+        ),
+        "positive_tokens": (
+            "older", "senior", "walking", "hiking", "running", "stairs", "outdoor",
+            "garden", "laboratory", "microscope", "scientist", "research", "nature",
+            "exercise", "trail", "swimming", "cycling",
+        ),
+        "forbidden_tokens": (
+            "brown bottle", "dropper", "cosmetic", "skincare", "hospital bed", "wheelchair",
+        ),
+        "fallback_queries": (
+            "older adult walking nature trail",
+            "cellular aging researcher microscope",
+            "active senior outdoor morning light",
+        ),
+    },
+    "mobility": {
+        "visual_anchors": (
+            "older adults walking outdoors, climbing stairs, strength training, balance practice, "
+            "or physical therapy biomechanics"
+        ),
+        "positive_tokens": (
+            "walking", "running", "stairs", "steps", "exercise", "strength", "stretching",
+            "mobility", "trail", "outdoor", "shoes", "athletic", "physiotherapy", "balance",
+            "park", "path",
+        ),
+        "forbidden_tokens": (
+            "car interior", "driving", "cosmetic", "bedroom",
+        ),
+        "fallback_queries": (
+            "older adult walking stone path",
+            "senior strength training exercise",
+            "person climbing outdoor steps",
+        ),
+    },
+    "detoxification": {
+        "visual_anchors": (
+            "clean flowing water, analytical chemistry laboratory, glass beaker filtration, "
+            "or mineral-rich natural springs and botanicals"
+        ),
+        "positive_tokens": (
+            "water", "glass", "laboratory", "chemistry", "filtration", "scientist",
+            "beaker", "mineral", "stream", "clear", "analysis", "microscope",
+        ),
+        "forbidden_tokens": (
+            "cosmetic", "serum", "makeup", "perfume", "car", "traffic",
+        ),
+        "fallback_queries": (
+            "clear water glass natural light",
+            "analytical chemistry laboratory scientist",
+            "water quality testing laboratory",
+        ),
+    },
+    "consumer safety": {
+        "visual_anchors": (
+            "analytical quality-control laboratory, pharmacist inspecting medication labels, "
+            "or chromatography testing equipment"
+        ),
+        "positive_tokens": (
+            "pharmacist", "laboratory", "testing", "quality", "scientist", "medicine",
+            "label", "inspection", "pharmacy", "research", "capsule", "analysis",
+        ),
+        "forbidden_tokens": (
+            "fashion", "glamour", "balcony", "beach",
+        ),
+        "fallback_queries": (
+            "pharmacist checking medicine label",
+            "quality control laboratory scientist",
+            "pharmaceutical testing laboratory equipment",
+        ),
+    },
+    "men's health": {
+        "visual_anchors": (
+            "older man exercising outdoors, strength training, clinical consultation, "
+            "or biomedical research laboratory"
+        ),
+        "positive_tokens": (
+            "man", "male", "exercise", "running", "walking", "strength", "doctor",
+            "clinic", "laboratory", "scientist", "outdoor", "fitness",
+        ),
+        "forbidden_tokens": (
+            "cosmetic", "makeup", "perfume", "nightclub",
+        ),
+        "fallback_queries": (
+            "older man walking outdoor trail",
+            "mature man strength training",
+            "medical researcher laboratory microscope",
+        ),
+    },
+    "general wellness": {
+        "visual_anchors": (
+            "credible biomedical research laboratory, outdoor daylight movement, "
+            "or whole-food kitchen preparation"
+        ),
+        "positive_tokens": (
+            "research", "laboratory", "scientist", "walking", "nature", "morning",
+            "light", "water", "tea", "food", "garden", "microscope", "outdoor",
+        ),
+        "forbidden_tokens": (
+            "cosmetic", "serum", "dropper", "leather jacket", "car interior",
+        ),
+        "fallback_queries": (
+            "biomedical researcher microscope laboratory",
+            "older adult walking morning light",
+            "whole food preparation natural light",
+        ),
+    },
+}
+
+
 def _fallback_image_queries(source_title: str, category: str) -> tuple[str, str, str]:
     title = source_title.lower()
-    if any(term in title for term in ("diet", "food", "nutrition", "mediterranean")):
-        return ("Mediterranean food preparation", "older adult cooking vegetables", "heart healthy meal ingredients")
-    if any(term in title for term in ("supplement", "hidden drug", "product notification", "fraud", "recall")):
-        return ("scientists testing supplements laboratory", "pharmacist checking medicine label", "quality control laboratory researchers")
-    if any(term in title for term in ("speech", "language", "voice")):
-        return ("speech neuroscience research laboratory", "speech therapy assistive technology", "brain researcher computer laboratory")
-    if category == "brain health":
-        return ("neuroscience researcher brain scan", "brain imaging laboratory researcher", "cognitive research computer laboratory")
-    if category == "mobility":
-        return ("older adult walking outdoors", "physical therapist mobility session", "strength training older adult")
-    if category == "metabolic health":
-        return ("metabolic research laboratory", "blood glucose research scientist", "healthy meal preparation adult")
-    if category == "consumer safety":
-        return ("scientists testing supplements laboratory", "pharmacist checking medicine label", "quality control laboratory researchers")
-    if category == "longevity":
-        return ("aging research laboratory scientist", "active older adult outdoors", "cell biology research microscope")
-    return ("health researcher laboratory", "active adult daily life", "medical research natural light")
+    if any(term in title for term in ("mediterranean", "olive oil", "polyphenol")):
+        return (
+            "Mediterranean food preparation",
+            "olive oil fresh vegetables mediterranean",
+            "biochemistry scientist microscope laboratory",
+        )
+    if any(term in title for term in ("diet", "food", "nutrition", "protein", "fasting", "eating", "meal")):
+        return (
+            "fresh vegetables whole food kitchen",
+            "healthy meal ingredients wooden table",
+            "nutrition researcher laboratory microscope",
+        )
+    if any(term in title for term in ("sleep", "circadian", "insomnia", "slow-wave", "delta", "dream", "nap", "melatonin")):
+        return (
+            "quiet bedroom linen morning light",
+            "calm bedroom night bedside lamp",
+            "neuroscience researcher brain scan",
+        )
+    if any(term in title for term in ("supplement", "hidden drug", "product notification", "fraud", "recall", "fda")):
+        return (
+            "pharmacist checking medicine label",
+            "quality control laboratory scientist",
+            "pharmaceutical testing laboratory equipment",
+        )
+    if any(term in title for term in ("speech", "language", "voice", "hearing", "auditory")):
+        return (
+            "neuroscience researcher computer monitor",
+            "brain imaging laboratory scientist",
+            "clinical researcher audio waveforms",
+        )
+    if any(term in title for term in ("microbiome", "gut", "bacteria", "intestinal", "probiotic", "ferment")):
+        return (
+            "microbiology petri dish laboratory",
+            "fresh vegetables fiber ingredients kitchen",
+            "scientist microscope cell culture",
+        )
+    if any(term in title for term in ("mitochond", "senescen", "autophagy", "telomere", "stem cell", "microprotein")):
+        return (
+            "cell biology scientist microscope",
+            "laboratory pipette cell culture",
+            "molecular biology research laboratory",
+        )
+    if any(term in title for term in ("walk", "stair", "step", "gait", "ankle", "muscle", "strength", "exercise")):
+        return (
+            "older adult walking stone path",
+            "person climbing outdoor steps",
+            "senior strength training exercise",
+        )
+    discipline = CATEGORY_VISUAL_DISCIPLINE.get(category.lower(), CATEGORY_VISUAL_DISCIPLINE["general wellness"])
+    queries = discipline["fallback_queries"]
+    return (queries[0], queries[1], queries[2])
 
 
 @dataclass(frozen=True)
@@ -116,8 +370,9 @@ def _json_agent(
     payload: dict[str, Any],
     max_tokens: int,
 ) -> dict[str, Any]:
-    response = client.chat.completions.create(
-        model=model,
+    response = chat_completion_with_fallback(
+        client,
+        model,
         temperature=0.15,
         max_tokens=max_tokens,
         response_format={"type": "json_object"},
@@ -125,9 +380,12 @@ def _json_agent(
             {"role": "system", "content": f"{system_prompt}\nReturn exactly one valid JSON object and no surrounding text."},
             {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
         ],
-        **llm_thinking_kwargs(model),
     )
-    value = json.loads(response.choices[0].message.content or "{}")
+    raw_text = (response.choices[0].message.content or "{}").strip()
+    if raw_text.startswith("```"):
+        raw_text = re.sub(r"^```[a-zA-Z]*\n?", "", raw_text)
+        raw_text = re.sub(r"\n?```$", "", raw_text).strip()
+    value = json.loads(raw_text or "{}")
     if not isinstance(value, dict):
         raise ValueError("Agent response was not a JSON object")
     return value
@@ -348,6 +606,179 @@ def caption_image(
     return caption or "A glimpse of the everyday routines behind this story."
 
 
+def _sanitize_search_queries(
+    raw_queries: tuple[str, ...],
+    source_title: str,
+    category: str,
+) -> tuple[str, str, str]:
+    """Enforce concrete 3-5 word Unsplash/Pexels queries and blend with category-disciplined fallbacks."""
+    fallbacks = list(_fallback_image_queries(source_title, category))
+    generic_or_trap_markers = (
+        "healthy daily life",
+        "health research natural light",
+        "active adult everyday life",
+        "adult daily life",
+        "information highway",
+        "lonely brain",
+        "liquid chromatography",
+        "brown bottle",
+        "dropper bottle",
+        "cosmetic",
+        "skincare",
+    )
+    discipline = CATEGORY_VISUAL_DISCIPLINE.get(category.lower(), CATEGORY_VISUAL_DISCIPLINE["general wellness"])
+    forbidden = GLOBAL_FORBIDDEN_IMAGE_TERMS + discipline.get("forbidden_tokens", ())
+
+    cleaned: list[str] = []
+    for query in raw_queries:
+        q = re.sub(r"[^a-zA-Z0-9\s-]", " ", query).strip()
+        words = [w for w in q.split() if len(w) >= 2]
+        if not (2 <= len(words) <= 6):
+            continue
+        q_lower = " ".join(words).lower()
+        if any(marker in q_lower for marker in generic_or_trap_markers):
+            continue
+        if any(term in q_lower for term in forbidden):
+            continue
+        normalized = " ".join(words[:5])
+        if normalized.lower() not in {c.lower() for c in cleaned}:
+            cleaned.append(normalized)
+
+    # Always ensure the 3-query portfolio includes at least one deterministic
+    # category/topic anchor query so overly narrow LLM phrasing never leaves
+    # the candidate pool empty or drifted.
+    if len(cleaned) >= 2:
+        cleaned = cleaned[:2]
+    for fb in fallbacks:
+        if fb.lower() not in {c.lower() for c in cleaned}:
+            cleaned.append(fb)
+        if len(cleaned) >= 3:
+            break
+    while len(cleaned) < 3:
+        cleaned.append(fallbacks[len(cleaned) % len(fallbacks)])
+    return (cleaned[0], cleaned[1], cleaned[2])
+
+
+def candidate_passes_discipline(
+    candidate: dict[str, Any],
+    category: str,
+    source_title: str = "",
+    headline: str = "",
+    image_brief: ImageBrief | None = None,
+) -> tuple[bool, int, str]:
+    """Evaluate a candidate's metadata against category and thematic discipline.
+
+    Returns (passed, thematic_score, reason).
+    """
+    discipline = CATEGORY_VISUAL_DISCIPLINE.get(category.lower(), CATEGORY_VISUAL_DISCIPLINE["general wellness"])
+    alt = str(candidate.get("alt", "")).lower()
+    tags_raw = candidate.get("tags", ())
+    tags = " ".join(str(t).lower() for t in tags_raw) if isinstance(tags_raw, (list, tuple)) else str(tags_raw).lower()
+    creator = str(candidate.get("creator", "")).lower()
+    creator_url = str(candidate.get("creator_url", "")).lower()
+    metadata = f"{alt} {tags} {creator} {creator_url}"
+
+    for term in GLOBAL_FORBIDDEN_IMAGE_TERMS:
+        if term in metadata:
+            return False, 0, f"Rejected global off-theme stock term: '{term}'"
+
+    title_lower = f"{source_title} {headline}".lower()
+    for term in discipline.get("forbidden_tokens", ()):
+        # Only enforce a category forbidden token if the story itself isn't explicitly about that term
+        if term in metadata and term not in title_lower:
+            return False, 0, f"Rejected category-forbidden visual trap for {category}: '{term}'"
+
+    # Specific check against cosmetic/dropper bottles posing as lab science
+    if ("brown bottle" in metadata or "dropper" in metadata or "amber bottle" in metadata) and not any(
+        lab_term in metadata for lab_term in ("microscope", "hospital", "pharmacy", "vaccine", "clinic")
+    ):
+        return False, 0, "Rejected amber/brown dropper bottle (cosmetic/essential-oil stock trap)"
+
+    stopwords = {
+        "the", "and", "for", "with", "that", "this", "from", "into", "over", "under",
+        "study", "studies", "research", "scientists", "reveals", "linked", "shows",
+        "could", "might", "after", "before", "their", "about", "years", "older",
+        "aging", "ageing", "health", "human", "people", "adults", "first", "found",
+        "new", "hidden", "broken", "signals", "lonely", "waves", "early", "warning",
+        "more", "less", "than", "what", "when", "where", "which", "while", "between",
+    }
+    def _stem(word: str) -> str:
+        base = re.sub(r"(?:ing|ers|er|ed|es|s)$", "", word)
+        return base if len(base) >= 3 else word.rstrip("s")
+
+    positive_tokens = {_stem(t) for t in discipline.get("positive_tokens", ()) if " " not in t}
+    story_tokens = {
+        _stem(token)
+        for token in re.findall(r"[a-z]{3,}", f"{source_title} {headline}".lower())
+        if token not in stopwords and len(_stem(token)) >= 3
+    }
+    query_tokens: set[str] = set()
+    if image_brief:
+        for q in image_brief.search_queries + (image_brief.subject, image_brief.setting):
+            query_tokens.update(
+                _stem(t) for t in re.findall(r"[a-z]{3,}", q.lower()) if t not in stopwords
+            )
+
+    metadata_words = {
+        _stem(w) for w in re.findall(r"[a-z]{3,}", f"{alt} {tags}") if w not in stopwords
+    }
+    cat_hits = len(positive_tokens & metadata_words) + sum(
+        1 for phrase in discipline.get("positive_tokens", ()) if " " in phrase and phrase in f"{alt} {tags}"
+    )
+    story_hits = len(story_tokens & metadata_words)
+    query_hits = len(query_tokens & metadata_words)
+
+    if cat_hits == 0 and story_hits == 0 and query_hits == 0:
+        return False, 15, f"Candidate metadata ('{alt[:60]}') has zero overlap with category '{category}' or story subject"
+
+    score = min(98, 55 + cat_hits * 10 + story_hits * 12 + query_hits * 8)
+    return True, score, f"Matched {cat_hits} category tokens, {story_hits} story tokens, {query_hits} query tokens"
+
+
+def deterministic_select_image(
+    candidates: list[dict[str, Any]],
+    category: str,
+    source_title: str,
+    headline: str,
+    image_brief: ImageBrief,
+) -> AlignmentReview:
+    """Select the highest-scoring candidate that passes category and thematic discipline."""
+    best_id = ""
+    best_score = 0
+    best_reason = "No candidate passed category and thematic discipline."
+    rejected_reasons: list[str] = []
+
+    for candidate in candidates:
+        cid = str(candidate.get("candidate_id", ""))
+        passed, score, reason = candidate_passes_discipline(
+            candidate, category, source_title, headline, image_brief
+        )
+        if not passed:
+            rejected_reasons.append(f"{cid}: {reason}")
+            continue
+        if score > best_score:
+            best_score = score
+            best_id = cid
+            best_reason = reason
+
+    if not best_id:
+        return AlignmentReview(
+            selected_candidate_id="",
+            score=0,
+            rationale="All candidates failed category and thematic discipline.",
+            concerns=tuple(rejected_reasons[:4]) or ("No candidate matched category visual anchors.",),
+            metadata_status="rejected",
+        )
+
+    return AlignmentReview(
+        selected_candidate_id=best_id,
+        score=best_score,
+        rationale=f"Selected via category & thematic discipline ({category}): {best_reason}.",
+        concerns=(),
+        metadata_status="approved" if best_score >= 75 else "pending",
+    )
+
+
 def direct_image(
     client: OpenAI,
     model: str,
@@ -355,9 +786,12 @@ def direct_image(
     category: str,
     story: dict[str, Any],
 ) -> ImageBrief:
+    discipline = CATEGORY_VISUAL_DISCIPLINE.get(category.lower(), CATEGORY_VISUAL_DISCIPLINE["general wellness"])
     payload = {
         "source_title": source_title,
         "category": category,
+        "category_visual_anchors": discipline["visual_anchors"],
+        "category_forbidden_traps": discipline["forbidden_tokens"],
         "story": story,
         "output": {
             "editorial_intent": "one sentence",
@@ -366,30 +800,28 @@ def direct_image(
             "mood": "three concise adjectives",
             "composition": "landscape editorial composition",
             "avoid": "array of visual exclusions",
-            "search_queries": "array of exactly three concrete stock-photo queries",
+            "search_queries": "array of exactly three concrete stock-photo queries (3-5 words each)",
         },
         "requirements": [
-            "Direct an editorial photograph, not an advertisement or literal medical promise.",
-            "Prefer human situations, research environments, movement, food, or place when genuinely relevant.",
-            "Avoid frightened expressions, disability stereotypes, pills in hands, miracle imagery, and generic retirement poses.",
-            "Return exactly three concrete stock-photo search queries, each 3-8 words.",
-            "Queries must describe visible subjects and settings, not abstract concepts.",
-            "At least two queries must use a concrete, visible subject specific to this exact story.",
-            "Do not use generic wellness, healthy lifestyle, kitchen, or retirement imagery unless the story is actually about those subjects.",
-            "For neuroscience or medical-device stories, prefer relevant labs, scans, researchers, speech therapy, or technology over unrelated lifestyle scenes.",
+            "Direct an editorial photograph aligned with both the story's concrete subject and its category_visual_anchors.",
+            "NEVER literalize headline metaphors: e.g., 'information highway' must never query roads, cars, or driving; 'lonely brain waves' must never query beaches, oceans, or people standing on balconies; 'biological clock' must never query alarm clocks.",
+            "Avoid cosmetic/skincare bottles, amber dropper vials, fashion portraits, leather jackets, and unrelated vacation/balcony scenes.",
+            "Return exactly three concrete Unsplash/Pexels search queries, each 3-5 simple visual words (nouns and setting).",
+            "Do not use multi-word academic compound jargon (like 'liquid chromatography vial' or 'transcriptomic senescence assay') which causes stock photo APIs to return cosmetic dropper bottles.",
+            "Query 1 must depict the tangible physical subject of the story (e.g., 'olive oil fresh vegetables mediterranean', 'quiet bedroom linen morning light', 'older adult climbing stone steps').",
+            "Query 2 must depict the scientific or anatomical research context from category_visual_anchors (e.g., 'neuroscience researcher brain scan', 'cell biology scientist microscope').",
+            "Query 3 must provide a clean secondary visual angle anchored in the category.",
         ],
     }
     result = _json_agent(
         client,
         model,
-        "You are the image director for a spirited, credible health publication for adults in later life.",
+        "You are the visual director for Agewell Brief, an authoritative longevity and biophysics publication. Enforce strict category and thematic discipline.",
         payload,
         1000,
     )
-    queries = _string_tuple(result.get("search_queries", []))
-    generic_markers = ("healthy daily life", "health research natural light", "active adult everyday life")
-    if len(queries) < 3 or any(marker in query.lower() for query in queries for marker in generic_markers):
-        queries = _fallback_image_queries(source_title, category)
+    raw_queries = _string_tuple(result.get("search_queries", []))
+    queries = _sanitize_search_queries(raw_queries, source_title, category)
     avoid = _string_tuple(result.get("avoid", []))
     return ImageBrief(
         editorial_intent=str(result.get("editorial_intent", "Show the story's human relevance without overclaiming.")).strip(),
@@ -397,8 +829,8 @@ def direct_image(
         setting=str(result.get("setting", "a credible everyday environment")).strip(),
         mood=str(result.get("mood", "alert, capable, and natural")).strip(),
         composition=str(result.get("composition", "landscape editorial framing with a clear focal subject")).strip(),
-        avoid=avoid or ("fearful expressions", "miracle-product imagery", "patronizing retirement stereotypes"),
-        search_queries=queries[:3],
+        avoid=avoid or ("fearful expressions", "cosmetic dropper bottles", "literalized metaphors", "patronizing retirement stereotypes"),
+        search_queries=queries,
     )
 
 
@@ -408,19 +840,35 @@ def review_image_metadata(
     story: dict[str, Any],
     image_brief: ImageBrief,
     candidates: list[dict[str, Any]],
+    category: str = "general wellness",
+    source_title: str = "",
 ) -> AlignmentReview:
     if not candidates:
         raise ValueError("No image candidates were supplied")
+
+    headline = str(story.get("headline", ""))
+    # Pre-filter candidates through deterministic category & thematic discipline
+    compliant_candidates: list[dict[str, Any]] = []
+    for candidate in candidates:
+        passed, _, _ = candidate_passes_discipline(
+            candidate, category, source_title, headline, image_brief
+        )
+        if passed:
+            compliant_candidates.append(candidate)
+
+    discipline = CATEGORY_VISUAL_DISCIPLINE.get(category.lower(), CATEGORY_VISUAL_DISCIPLINE["general wellness"])
     payload = {
+        "category": category,
+        "category_visual_anchors": discipline["visual_anchors"],
+        "source_title": source_title,
         "story": story,
         "image_brief": image_brief.to_dict(),
-        "candidates": candidates,
+        "candidates": compliant_candidates or candidates,
         "requirements": [
-            "Select one candidate using only supplied title, tags, alt text, dimensions, and attribution metadata.",
+            "Select the single candidate whose alt text and tags most accurately match BOTH the story's specific topic and the category_visual_anchors.",
             "Do not claim to have seen pixels.",
-            "Reject candidates whose metadata suggests fear, products, procedures, or stereotypes not supported by the story.",
-            "Reject generic lifestyle imagery when it does not depict the actual subject of the story.",
-            "Reject near-duplicate or same-shoot imagery when the candidate metadata identifies that risk.",
+            "Reject any candidate that represents a literalized metaphor (e.g. cars/driving for brain 'highways', ocean/balcony scenes for 'waves'), cosmetics/skincare dropper bottles, or generic fashion portraits.",
+            "Reject generic lifestyle imagery when it does not depict the actual subject or scientific domain of the story.",
             "Return selected_candidate_id, score from 0-100, rationale, concerns, and metadata_status (approved, pending, or rejected).",
             "Use an empty selected_candidate_id and rejected status if none is sufficiently specific.",
         ],
@@ -428,11 +876,11 @@ def review_image_metadata(
     result = _json_agent(
         client,
         model,
-        "You are Agewell Brief's image-to-story metadata proofreader. Be decisive and explicit about the limits of metadata-only review.",
+        "You are Agewell Brief's image-to-story metadata proofreader. Enforce strict category and thematic alignment.",
         payload,
         1000,
     )
-    valid_ids = {str(candidate["candidate_id"]) for candidate in candidates}
+    valid_by_id = {str(candidate["candidate_id"]): candidate for candidate in compliant_candidates}
     selected = str(result.get("selected_candidate_id", ""))
     concerns = _string_tuple(result.get("concerns", []))
     try:
@@ -442,10 +890,10 @@ def review_image_metadata(
     status = str(result.get("metadata_status", "")).strip().lower()
     if status not in {"approved", "pending", "rejected"}:
         status = "approved" if score >= 80 else "pending"
-    if selected and selected not in valid_ids:
+    if selected and selected not in valid_by_id:
         selected = ""
         status = "rejected"
-        concerns = concerns + ("No valid candidate was selected.",)
+        concerns = concerns + ("Selected candidate was not in the discipline-compliant pool.",)
     elif not selected:
         status = "rejected"
     if score < 70 and status == "approved":

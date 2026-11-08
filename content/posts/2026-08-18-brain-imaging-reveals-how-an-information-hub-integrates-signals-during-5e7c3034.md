@@ -10,18 +10,18 @@ source_url: "https://medicalxpress.com/news/2026-08-brain-imaging-reveals-hub-de
 source_title: "Brain imaging reveals how an information hub integrates signals during decision-making"
 source_name: "Medical Xpress Neurology"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "15289804"
-image: "/images/editions/2026-08-18/brain-imaging-reveals-how-an-information-hub-integrates-signals-during-5e7c3034-pexels-15289804.webp"
-image_alt: "Side profile of a woman driving with a focus on her face in a car interior setting."
-image_caption: "The woman's focused gaze while driving illustrates the brain's central hub synchronizing sensory and motor signals during real-time decision-making."
-image_width: 1200
-image_height: 627
-image_photographer: "Nathan J Hilton"
-image_photographer_url: "https://www.pexels.com/@nathanjhilton"
-image_source_url: "https://www.pexels.com/photo/woman-in-a-car-15289804/"
+image_provider: "Unsplash"
+image_provider_id: "ii6BOPjAtVY"
+image: "https://images.unsplash.com/photo-1711409645921-ef3db0501f96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGJyYWluJTIwc2NhbnxlbnwxfDB8fHwxNzk0MTc5MTU5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+image_alt: "a close up of a human brain on a black background"
+image_caption: "A close-up view of a human brain illustrates the central hub that synchronizes memory, motor, and sensory streams during decision-making."
+image_width: 3840
+image_height: 2160
+image_photographer: "Shawn Day"
+image_photographer_url: "https://unsplash.com/@whisperingshiba?utm_source=agewellbrief&utm_medium=referral"
+image_source_url: "https://unsplash.com/photos/a-close-up-of-a-human-brain-on-a-black-background-ii6BOPjAtVY?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
-image_avg_color: "#382D29"
+image_avg_color: "#c0c0d9"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---

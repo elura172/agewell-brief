@@ -12,18 +12,18 @@ source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Bruce McEwen", "year": "1970s", "discovery": "McEwen's landmark work in the 1970s demonstrated that estrogen receptors are abundant in the hippocampus and other brain regions, establishing the brain as a direct target for estrogen. This discovery laid the foundation for understanding how estrogen could influence neuronal function and survival, directly anticipating the modern finding that late-life estrogen therapy is associated with reduced Alzheimer's pathology."}, {"scientist": "John Morrison", "year": "1990s", "discovery": "Morrison's research in the 1990s showed that estrogen modulates synaptic plasticity and dendritic spine density in the hippocampus and prefrontal cortex, providing a mechanistic basis for how estrogen could protect against cognitive decline and Alzheimer's disease. His work on the neuroprotective effects of estrogen in nonhuman primates and rodents directly supports the association observed in this large human study."}]
 evidence_position: "emerging"
-image_provider: "Pexels"
-image_provider_id: "5335409"
-image: "/images/editions/2026-08-14/estrogen-only-therapy-in-later-life-linked-to-fewer-alzheimer-s-signs--bf294fde-pexels-5335409.webp"
-image_alt: "Senior woman posing in a black leather jacket with soft lighting indoors."
-image_caption: "The senior woman's poised stance in a black leather jacket mirrors the study's focus on women in later life, where estrogen-only therapy was linked to fewer Alzheimer's signs in the brain."
-image_width: 1200
-image_height: 627
-image_photographer: "Moe Magners"
-image_photographer_url: "https://www.pexels.com/@moe-magners"
-image_source_url: "https://www.pexels.com/photo/an-elderly-woman-wearing-a-black-leather-jacket-5335409/"
+image_provider: "Unsplash"
+image_provider_id: "R4EFle2r8yA"
+image: "https://images.unsplash.com/photo-1738707060236-42d641096f96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NXx8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGJyYWluJTIwc2NhbnxlbnwxfDB8fHwxNzk0MTc5MTU5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+image_alt: "Two women looking at a computer screen with mri images on it"
+image_caption: "Two women reviewing MRI scans on a computer screen illustrate the diagnostic imaging used to assess the brain's molecular landscape in aging patients."
+image_width: 3871
+image_height: 2582
+image_photographer: "Keith Tanner"
+image_photographer_url: "https://unsplash.com/@keithtanman?utm_source=agewellbrief&utm_medium=referral"
+image_source_url: "https://unsplash.com/photos/two-women-looking-at-a-computer-screen-with-mri-images-on-it-R4EFle2r8yA?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
-image_avg_color: "#7A7972"
+image_avg_color: "#8c8c8c"
 topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---

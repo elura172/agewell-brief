@@ -29,6 +29,7 @@ from openai import OpenAI
 from agewell.agents import (
     autoresearch_context_subagent,
     assignment_editor,
+    chat_completion_with_fallback,
     commercial_integrity,
     copy_edit,
     llm_thinking_kwargs,
@@ -42,9 +43,11 @@ from agewell.editorial import (
     DeferredVisionReviewer,
     EvidencePacket,
     ImageBrief,
+    _fallback_image_queries,
     build_evidence_packet,
     caption_image,
     classify_evidence_position,
+    deterministic_select_image,
     direct_image,
     review_image_metadata,
     verify_category,
@@ -738,13 +741,13 @@ def draft(
         raw_content = ""
         candidate: dict[str, Any] | None = None
         try:
-            response = client.chat.completions.create(
-                model=MODEL,
+            response = chat_completion_with_fallback(
+                client,
+                MODEL,
                 temperature=0.2,
                 max_tokens=3200 if is_longform else 1400,
                 response_format={"type": "json_object"},
                 messages=messages,
-                **llm_thinking_kwargs(MODEL),
             )
             raw_content = response.choices[0].message.content or "{}"
             candidate = parse_model_json(raw_content)
@@ -1297,13 +1300,13 @@ def run() -> int:
         except Exception as exc:
             print(f"Image director fallback ({item.source_name}): {exc}", file=sys.stderr)
             image_brief = ImageBrief(
-                editorial_intent="Show the story's practical human context without making a medical promise.",
-                subject="an authentic adult in a relevant everyday or research setting",
-                setting="natural light and a credible real-world environment",
+                editorial_intent="Show the story's practical human or scientific context without making a medical promise.",
+                subject=f"a concrete visual anchor for {category}",
+                setting="natural light or a credible laboratory/clinical environment",
                 mood="capable, alert, and unstaged",
                 composition="landscape editorial photograph with one clear focal subject",
-                avoid=("fearful expressions", "product advertising", "patronizing retirement stereotypes"),
-                search_queries=(f"{category} adult daily life", "health research natural light", "active adult everyday life"),
+                avoid=("fearful expressions", "cosmetic dropper bottles", "literalized metaphors", "patronizing retirement stereotypes"),
+                search_queries=_fallback_image_queries(item.title, category),
             )
         brief_artifacts.append({"article_id": key, **image_brief.to_dict()})
 
@@ -1315,6 +1318,9 @@ def run() -> int:
             used_image_ids,
             used_image_creators,
             UNSPLASH_ACCESS_KEY,
+            category,
+            item.title,
+            content["headline"],
         )
         candidate_artifacts.append(
             {
@@ -1340,15 +1346,17 @@ def run() -> int:
                     content,
                     image_brief,
                     [candidate.to_dict() for candidate in image_candidates],
+                    category,
+                    item.title,
                 )
             except Exception as exc:
                 print(f"Image proofreader fallback ({item.source_name}): {exc}", file=sys.stderr)
-                alignment = AlignmentReview(
-                    selected_candidate_id=image_candidates[0].candidate_id,
-                    score=50,
-                    rationale="Deterministic fallback selected the strongest available landscape candidate.",
-                    concerns=("Metadata proofreader was unavailable.",),
-                    metadata_status="pending",
+                alignment = deterministic_select_image(
+                    [candidate.to_dict() for candidate in image_candidates],
+                    category=category,
+                    source_title=item.title,
+                    headline=content["headline"],
+                    image_brief=image_brief,
                 )
             selected_candidate = next(
                 (candidate for candidate in image_candidates if candidate.candidate_id == alignment.selected_candidate_id),
