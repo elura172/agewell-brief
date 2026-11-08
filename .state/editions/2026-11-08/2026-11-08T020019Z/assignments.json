@@ -1,0 +1,14 @@
+{
+  "edition_angle": "What matters in health today",
+  "assignments": [
+    {
+      "article_id": "f4e7b57f28941f6c54c74e23",
+      "role": "lead",
+      "angle": "Explain what this means for readers over 50.",
+      "confidence": 0.5
+    }
+  ],
+  "held_back": [],
+  "mode": "fallback",
+  "error": "Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 779707b5-8248-46e6-8af5-35c47158e095)', 'type': 'insufficient_balance_error', 'param': None, 'code': 'invalid_request_error'}}"
+}
