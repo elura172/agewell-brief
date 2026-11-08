@@ -1,86 +1,85 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import QuantumLuminanceCanvas, { type PaletteKey } from "../components/QuantumLuminanceCanvas.astro";
 import { spiralTeachingUrl, withUtm } from "../lib/publishing";
 
 interface SpiralResource {
+  slug: string;
   name: string;
   focus: string;
-  dakini: string;
   axiom: string;
-  frequency: number;
   description: string;
+  topicHref: string;
+  topicLabel: string;
   href: string;
   pdfUrl: string;
-  palette: PaletteKey;
 }
 
 const resources: SpiralResource[] = [
   {
+    slug: "living-waters",
     name: "Living Waters",
     focus: "Transport & Phase I/II Clearance",
-    dakini: "🜄 Water · Merul'Nai",
     axiom: "“The skin is not where you end. It is where you exchange.”",
-    frequency: 432,
-    description: "A foundation-oriented biophysics framework for Exclusion Zone (H3O2) hydration, hepatic conjugation, lymphatic flow, and vascular charge transport.",
+    description: "A foundation-oriented biophysics framework for interfacial Exclusion Zone (H₃O₂) hydration, hepatic conjugation, lymphatic flow, and vascular charge transport.",
+    topicHref: "/topics/longevity/",
+    topicLabel: "Longevity archive",
     href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==",
-    pdfUrl: "/downloads/field-guides/living-waters-field-guide.pdf",
-    palette: "living-waters"
+    pdfUrl: "/downloads/field-guides/living-waters-field-guide.pdf"
   },
   {
+    slug: "inner-garden",
     name: "Inner Garden",
     focus: "Gut Mucosal Ecology",
-    dakini: "🜃 Earth · Ama'Lur Tha",
     axiom: "“The gut is not a tube; it is a living soil.”",
-    frequency: 639,
-    description: "An ecological gut framework examining short-chain fatty acid (SCFA) signaling, tight-junction integrity, and microbial quorum sensing.",
+    description: "An ecological gut framework examining short-chain fatty acid (SCFA) signaling, tight-junction barrier integrity, and microbial circadian rhythmicity.",
+    topicHref: "/topics/gut-health/",
+    topicLabel: "Gut health archive",
     href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
-    pdfUrl: "/downloads/field-guides/inner-garden-field-guide.pdf",
-    palette: "inner-garden"
+    pdfUrl: "/downloads/field-guides/inner-garden-field-guide.pdf"
   },
   {
+    slug: "cell-shedding",
     name: "Cell Shedding",
     focus: "Senescence & Autophagic Renewal",
-    dakini: "🍃 Advanced Clearing",
     axiom: "“Clearing the field so the young shoots may breathe.”",
-    frequency: 741,
     description: "A cellular renewal framework examining senolytic clearing cycles, SASP inflammatory attenuation, and autophagic lysosomal degradation.",
+    topicHref: "/topics/cellular-senescence/",
+    topicLabel: "Cellular senescence archive",
     href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==",
-    pdfUrl: "/downloads/field-guides/cell-shedding-field-guide.pdf",
-    palette: "cell-shedding"
+    pdfUrl: "/downloads/field-guides/cell-shedding-field-guide.pdf"
   },
   {
+    slug: "higher-flame",
     name: "Higher Flame",
     focus: "Mitochondrial Flexibility",
-    dakini: "🜂 Fire · Sa'thera'Ma",
     axiom: "“Unlocking dual-fuel respiration across fasting and feeding.”",
-    frequency: 852,
-    description: "A metabolic flexibility framework for AMPK activation, mitochondrial respiration, NAD+ salvage pathways, and GPR81 lactate signaling.",
+    description: "A metabolic resilience framework for AMPK activation, mitochondrial respiration voltage, NAD+ salvage pathways, and GPR81 lactate signaling.",
+    topicHref: "/topics/metabolic-health/",
+    topicLabel: "Metabolic health archive",
     href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==",
-    pdfUrl: "/downloads/field-guides/higher-flame-field-guide.pdf",
-    palette: "higher-flame"
+    pdfUrl: "/downloads/field-guides/higher-flame-field-guide.pdf"
   },
   {
+    slug: "luminous-mind",
     name: "Luminous Mind",
-    focus: "Glymphatic Brain Flush",
-    dakini: "🜁 Air · Tulari'Shan",
+    focus: "Glymphatic & Neural Coherence",
     axiom: "“The brain flushes its light while the world sleeps.”",
-    frequency: 528,
-    description: "A whole-system cognitive approach to slow-wave N3 Delta sleep, glymphatic CSF waste wash, neuroplasticity, and BDNF synthesis.",
+    description: "A whole-system cognitive lens on slow-wave N3 delta sleep, glymphatic cerebrospinal waste clearance, neuroplasticity, and BDNF synthesis.",
+    topicHref: "/topics/brain-health/",
+    topicLabel: "Brain health archive",
     href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==",
-    pdfUrl: "/downloads/field-guides/luminous-mind-field-guide.pdf",
-    palette: "luminous-mind"
+    pdfUrl: "/downloads/field-guides/luminous-mind-field-guide.pdf"
   },
   {
+    slug: "dark-mirror",
     name: "Dark Mirror",
     focus: "Intracellular Mineral Equilibrium",
-    dakini: "🪞 Earth Chelators (Held Apart)",
     axiom: "“Restoring the mineral equilibrium hidden beneath daily stress.”",
-    frequency: 963,
-    description: "An advanced biophysics framework for trace mineral ratios, heavy metal clearing, membrane potential, and cellular detoxification.",
+    description: "An advanced biophysics framework for trace mineral ratios, heavy metal mobilization, cellular membrane potential, and deep tissue bio-clearing.",
+    topicHref: "/topics/detoxification/",
+    topicLabel: "Detoxification archive",
     href: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==",
-    pdfUrl: "/downloads/field-guides/dark-mirror-field-guide.pdf",
-    palette: "dark-mirror"
+    pdfUrl: "/downloads/field-guides/dark-mirror-field-guide.pdf"
   }
 ];
 
@@ -88,435 +87,345 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   name: "Spiral of Cellular Light — Agewell Brief",
-  description: "A transparent overview of the Spiral of Cellular Light companion frameworks and their relationship to Agewell Brief coverage.",
+  description: "Six biophysics lenses and a diurnal rhythm connecting cellular hydration, mucosal ecology, autophagic renewal, mitochondrial resilience, glymphatic clearance, and mineral equilibrium.",
   url: new URL("/spiral-of-cellular-light/", Astro.site).href,
   isPartOf: { "@type": "WebSite", name: "Agewell Brief", url: new URL("/", Astro.site).href }
 };
 ---
 <Layout
   title="Spiral of Cellular Light — Agewell Brief"
-  description="A transparent overview of the Spiral of Cellular Light companion frameworks and their relationship to Agewell Brief coverage."
+  description="Six biophysics lenses and a diurnal rhythm connecting cellular hydration, mucosal ecology, autophagic renewal, mitochondrial resilience, glymphatic clearance, and mineral equilibrium."
   structuredData={structuredData}
 >
   <main class="spiral-page">
     <a class="back-link" href="/">← Today’s edition</a>
     <header class="spiral-header">
-      <p class="eyebrow">Program perspective · Agewell Brief</p>
+      <p class="eyebrow">Companion Framework · Agewell Brief</p>
       <h1>Spiral of<br /><em>Cellular Light.</em></h1>
-      <p class="spiral-lede">A regenerative health framework organized around transport, ecology, renewal, metabolism, cognition, and practice.</p>
-      <p class="spiral-credit">Prepared by Spiral of Cellular Light — Certified Regenerative Health Program, drawing on study, practice, and research informing the companion guides.</p>
+      <p class="spiral-lede">A regenerative health framework organized around six biological lenses—fluid transport, mucosal ecology, cellular renewal, metabolic respiration, glymphatic clearance, and mineral equilibrium.</p>
     </header>
-
-    <section class="spiral-intro" aria-labelledby="spiral-intro-heading">
-      <div>
-        <p class="eyebrow">How to read this page</p>
-        <h2 id="spiral-intro-heading">A framework, not a promise.</h2>
-      </div>
-      <div>
-        <p>The Spirals are a paid teaching program, with companion supplement protocols and practices. The program is digital and available anywhere; the supplement sourcing linked from each card is a Canadian dispensary, and Agewell Brief may earn a commission there at no added cost to the reader.</p>
-        <p>Agewell coverage treats the Spirals as a first-party program perspective. Current research, clinical guidance, and the program’s own interpretation are kept distinct so readers can decide what deserves a closer look.</p>
-      </div>
-    </section>
 
     <section class="spiral-resources" aria-labelledby="spiral-resources-heading">
       <div class="section-heading">
-        <h2 id="spiral-resources-heading" class="section-title">The companion Spirals</h2>
-        <p class="section-caption">Six ways into the framework</p>
+        <div>
+          <p class="eyebrow">The Six Lenses</p>
+          <h2 id="spiral-resources-heading" class="section-title">Chapters of the Spiral</h2>
+        </div>
+        <p class="section-caption">Each lens pairs a primary teaching module with a field guide and ongoing reporting.</p>
       </div>
       <ol class="spiral-grid">
-        {resources.map((resource, index) => <li class="spiral-card">
-          <QuantumLuminanceCanvas height={160} palette={resource.palette} />
-          <div class="spiral-card-content">
-            <span class="spiral-index">{String(index + 1).padStart(2, "0")}</span>
+        {resources.map((resource, index) => (
+          <li class="spiral-card" id={resource.slug}>
+            <span class="spiral-index" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
             <div class="spiral-resource-copy">
-              <div class="spiral-meta-row">
-                <span class="spiral-focus-tag">{resource.focus}</span>
-                <span class="spiral-freq-badge">🎵 {resource.frequency} Hz</span>
-              </div>
+              <p class="spiral-focus-tag">{resource.focus}</p>
               <h3>{resource.name}</h3>
               <p class="spiral-axiom">{resource.axiom}</p>
               <p class="spiral-desc">{resource.description}</p>
               <div class="spiral-card-actions">
-                <a href={spiralTeachingUrl(resource.name)} target="_blank" rel="noopener noreferrer" class="spiral-action-btn">Walk the {resource.name} spiral <span>→</span></a>
-                <a href={resource.pdfUrl} download class="pdf-download-link">📄 Field Guide (PDF)</a>
+                <a href={spiralTeachingUrl(resource.name)} target="_blank" rel="noopener noreferrer" class="spiral-primary-link">
+                  Walk the {resource.name} spiral <span aria-hidden="true">→</span>
+                </a>
+                <span class="spiral-action-sep" aria-hidden="true">·</span>
+                <a href={resource.pdfUrl} download class="spiral-secondary-link">Field guide (PDF) ↓</a>
+                <span class="spiral-action-sep" aria-hidden="true">·</span>
+                <a href={resource.topicHref} class="spiral-secondary-link">{resource.topicLabel}</a>
               </div>
-              <p class="spiral-sourcing">
-                In Canada, the supplements are stocked at
-                <a href={withUtm(resource.href, "spiral-page-sourcing")} target="_blank" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>.
-                Commission-supported; no added cost to you.
-              </p>
             </div>
-          </div>
-        </li>)}
+          </li>
+        ))}
       </ol>
     </section>
 
-    {/* The Three Registers of Intervention */}
-    <section class="spiral-intervention-registers">
-      <div class="registers-header">
-        <p class="eyebrow">The Canonical Triad</p>
-        <h2>Three Registers of Intervention</h2>
-        <p class="registers-intro">Every Spiral is an act of clearing undertaken at three synchronized levels of reality.</p>
+    {/* Diurnal Arc — clean editorial timeline */}
+    <section class="diurnal-arc-section" aria-labelledby="diurnal-arc-heading">
+      <div class="diurnal-header">
+        <div>
+          <p class="eyebrow">Diurnal Rhythm</p>
+          <h2 id="diurnal-arc-heading" class="section-title">The Daily Arc</h2>
+        </div>
+        <p class="diurnal-intro">Four daily windows aligning light exposure, hydration, digestive ecology, metabolic respiration, and nightly clearance.</p>
       </div>
-      <div class="registers-grid">
-        <div class="register-card">
-          <span class="register-icon">🧪</span>
-          <h3>1. Material Register</h3>
-          <p>Verified practitioner formulations, targeted supplement protocols, plant polyphenols, and mineral solutes that clear physical pathways.</p>
-        </div>
-        <div class="register-card">
-          <span class="register-icon">🎵</span>
-          <h3>2. Vibratory Register</h3>
-          <p>Base-12 harmonic frequency waves, just-intonation Solfeggio sound companions, and biophotonic acoustic alignment (432 Hz to 963 Hz).</p>
-        </div>
-        <div class="register-card">
-          <span class="register-icon">✨</span>
-          <h3>3. Intentional Register</h3>
-          <p>Breath-rites, conscious vows, and biophotonic light-field clearing. <em>“The vessel is cleared so that the waters above may descend undistorted.”</em></p>
-        </div>
-      </div>
+      <ol class="diurnal-steps">
+        <li class="diurnal-step">
+          <div class="diurnal-step-top">
+            <span class="diurnal-num">01</span>
+            <span class="diurnal-window">Dawn</span>
+          </div>
+          <h3>Opening of the Vessel</h3>
+          <p>Structured hydration, electrolyte solutes, and morning light to prime vascular transport and Phase I/II hepatic clearance.</p>
+          <p class="diurnal-lens-ref"><a href="#living-waters">Living Waters</a></p>
+        </li>
+        <li class="diurnal-step">
+          <div class="diurnal-step-top">
+            <span class="diurnal-num">02</span>
+            <span class="diurnal-window">Midday</span>
+          </div>
+          <h3>The Inward Soil</h3>
+          <p>Prebiotic polyphenols, fermentable fibers, and digestive pacing to support short-chain fatty acid signaling and tight-junction integrity.</p>
+          <p class="diurnal-lens-ref"><a href="#inner-garden">Inner Garden</a> · <a href="#cell-shedding">Cell Shedding</a></p>
+        </li>
+        <li class="diurnal-step">
+          <div class="diurnal-step-top">
+            <span class="diurnal-num">03</span>
+            <span class="diurnal-window">Afternoon</span>
+          </div>
+          <h3>Kindling of the Hearth</h3>
+          <p>Mitochondrial cofactors, movement, and dual-fuel metabolic flexibility across feeding and unhurried cellular recovery.</p>
+          <p class="diurnal-lens-ref"><a href="#higher-flame">Higher Flame</a> · <a href="#dark-mirror">Dark Mirror</a></p>
+        </li>
+        <li class="diurnal-step">
+          <div class="diurnal-step-top">
+            <span class="diurnal-num">04</span>
+            <span class="diurnal-window">Dusk to Delta</span>
+          </div>
+          <h3>The Nightly Flush</h3>
+          <p>Dimming short-wavelength light and entering slow-wave N3 sleep so glymphatic cerebrospinal flow can clear metabolic debris.</p>
+          <p class="diurnal-lens-ref"><a href="#luminous-mind">Luminous Mind</a></p>
+        </li>
+      </ol>
     </section>
 
-    {/* The Daily Nutrient Invocation Rite */}
-    <section class="invocation-rite-section">
-      <div class="rite-header">
-        <p class="eyebrow">Diurnal Arc · CANON §4</p>
-        <h2>The Daily Nutrient Invocation Arc</h2>
-        <p class="rite-intro">“The supplement is not a pill; it is a key.” Four synchronized daily milestones to align light, solutes, and recovery.</p>
-      </div>
-      <div class="rite-steps">
-        <div class="rite-step">
-          <span class="step-num">01</span>
-          <div class="step-content">
-            <h4>Opening of the Vessel (Dawn)</h4>
-            <p>Living Waters (H3O2 hydration + electrolyte solutes + morning infrared light). Preparing Phase I/II hepatic clearance.</p>
-          </div>
+    <footer class="spiral-colophon" aria-labelledby="spiral-colophon-heading">
+      <div class="spiral-colophon-grid">
+        <div>
+          <p class="eyebrow">Editorial &amp; Sourcing Note</p>
+          <h2 id="spiral-colophon-heading">How the framework relates to Agewell Brief.</h2>
         </div>
-        <div class="rite-step">
-          <span class="step-num">02</span>
-          <div class="step-content">
-            <h4>The Inward Soil (Midday)</h4>
-            <p>Inner Garden (SCFA prebiotic fibers + microbial probiotics). Nurturing microbial soil and tight-junction barrier integrity.</p>
-          </div>
-        </div>
-        <div class="rite-step">
-          <span class="step-num">03</span>
-          <div class="step-content">
-            <h4>Kindling of the Hearth (Afternoon)</h4>
-            <p>Higher Flame (Mitochondrial NRF-2 polyphenols + dual-fuel respiration). Activating AMPK and ATP energy generation.</p>
-          </div>
-        </div>
-        <div class="rite-step">
-          <span class="step-num">04</span>
-          <div class="step-content">
-            <h4>The Nightly Flush (Dusk to Delta)</h4>
-            <p>Luminous Mind (Glymphatic slow-wave Delta sleep + CSF brain wash). Clearing Amyloid-Beta and Tau metabolic debris.</p>
-          </div>
+        <div class="spiral-colophon-copy">
+          <p>
+            <strong>Spiral of Cellular Light</strong> is a first-party digital teaching program (<a href="https://spiraloflight.life" target="_blank" rel="noopener noreferrer">spiraloflight.life</a>) paired with free PDF field guides. Agewell Brief keeps primary peer-reviewed reporting, clinical consensus, and the companion framework distinct so readers can evaluate each study on its own evidence.
+          </p>
+          <p>
+            For readers in Canada, practitioner-grade supplement plans corresponding to each lens are available through our <a href={withUtm("https://ca.fullscript.com/s/spiraloflight", "spiral-page-sourcing")} target="_blank" rel="sponsored noopener noreferrer">Canadian Fullscript dispensary</a> (commission-supported at no added cost to you). Always review any protocol with a qualified healthcare professional.
+          </p>
         </div>
       </div>
-    </section>
-
-    <section class="spiral-reading" aria-labelledby="spiral-reading-heading">
-      <p class="eyebrow">Read alongside the program</p>
-      <h2 id="spiral-reading-heading">Research, questions, and useful context.</h2>
-      <p>Agewell’s topic hubs connect these frameworks to current reporting. Start with <a href="/topics/gut-health/">gut health</a>, <a href="/topics/cellular-senescence/">cellular senescence</a>, <a href="/topics/detoxification/">detoxification</a>, <a href="/topics/metabolic-health/">metabolic health</a>, or <a href="/topics/brain-health/">brain health</a>.</p>
-    </section>
-
-    <section class="spiral-note">
-      <h2>Questions worth carrying forward</h2>
-      <ul>
-        <li>What does the current human evidence actually show?</li>
-        <li>Which parts are framework language, and which are established clinical guidance?</li>
-        <li>What should be reviewed with a qualified healthcare professional first?</li>
-      </ul>
-    </section>
+    </footer>
   </main>
 </Layout>
 
 <style>
-  .spiral-meta-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    margin-bottom: 8px;
+  .spiral-resources {
+    margin-top: 24px;
+  }
+  .spiral-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 clamp(32px, 5vw, 72px);
+    margin: 24px 0 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid var(--line);
+  }
+  .spiral-card {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 16px;
+    padding: 36px 0 40px;
+    border-top: 1px solid var(--line);
+    scroll-margin-top: 32px;
+  }
+  .spiral-index {
+    color: var(--saffron-ink);
+    font-family: var(--serif);
+    font-size: 1.55rem;
+    line-height: 1.05;
   }
   .spiral-focus-tag {
-    font-size: 0.72rem;
+    margin: 0 0 8px;
+    font-size: 0.7rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--muted);
   }
-  .spiral-dakini-tag {
-    font-size: 0.72rem;
-    font-weight: 700;
-    color: var(--ink);
-    background: var(--paper);
-    padding: 3px 10px;
-    border-radius: 14px;
-    border: 1px solid var(--line);
-  }
-  .spiral-freq-badge {
-    font-size: 0.72rem;
-    font-weight: 700;
-    color: var(--saffron-ink);
-    background: color-mix(in oklch, var(--saffron) 15%, transparent);
-    padding: 3px 10px;
-    border-radius: 14px;
-    border: 1px solid color-mix(in oklch, var(--saffron) 30%, transparent);
-  }
-
-  /* Three Registers of Intervention Section */
-  .spiral-intervention-registers {
-    margin: 60px 0;
-    padding: 40px;
-    background: color-mix(in oklch, var(--saffron) 5%, var(--paper));
-    border: 1px solid color-mix(in oklch, var(--saffron) 25%, transparent);
-    border-radius: 24px;
-  }
-  .registers-header h2 {
-    margin: 4px 0 8px;
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-  }
-  .registers-intro {
-    margin: 0 0 32px;
-    font-family: var(--serif);
-    font-size: 1.15rem;
-    color: var(--muted);
-  }
-  .registers-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-  }
-  @media (max-width: 840px) {
-    .registers-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-  .register-card {
-    background: var(--paper);
-    padding: 24px;
-    border-radius: 18px;
-    border: 1px solid var(--line);
-    box-shadow: var(--shadow-sm);
-  }
-  .register-icon {
-    font-size: 1.8rem;
-    display: block;
-    margin-bottom: 12px;
-  }
-  .register-card h3 {
+  .spiral-resource-copy h3 {
     margin: 0 0 10px;
-    font-size: 1.2rem;
-    color: var(--ink);
+    font-size: clamp(1.75rem, 2.6vw, 2.3rem);
+    line-height: 1.06;
   }
-  .register-card p {
-    margin: 0;
-    font-size: 0.9rem;
-    line-height: 1.55;
-    color: var(--ink-soft);
-  }
-  .register-card p em {
-    color: var(--saffron-ink);
-    font-weight: 600;
-  }
-
-  /* Medicine Dakinis Section */
-  .dakini-archetypes-section {
-    margin: 60px 0;
-  }
-  .dakini-header h2 {
-    margin: 4px 0 8px;
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-  }
-  .dakini-intro {
-    margin: 0 0 32px;
-    font-family: var(--serif);
-    font-size: 1.15rem;
-    color: var(--muted);
-  }
-  .dakinis-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-  }
-  @media (max-width: 768px) {
-    .dakinis-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-  .dakini-card {
-    background: var(--paper);
-    padding: 28px;
-    border-radius: 20px;
-    border: 1px solid var(--line);
-    box-shadow: var(--shadow-sm);
-  }
-  .dakini-top {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 12px;
-  }
-  .dakini-symbol {
-    font-size: 1.4rem;
-  }
-  .dakini-element {
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--saffron-ink);
-  }
-  .dakini-card h4 {
-    margin: 0 0 8px;
-    font-size: 1.25rem;
-    color: var(--ink);
-  }
-  .dakini-teaching {
-    font-family: var(--serif);
-    font-size: 1.1rem;
-    font-style: italic;
-    color: var(--saffron-ink);
-    margin: 0 0 16px;
-  }
-  .dakini-meta {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    font-size: 0.82rem;
-    color: var(--ink-soft);
-    border-top: 1px solid var(--line);
-    padding-top: 12px;
-  }
-
-  /* Invocation Rite Section */
-  .invocation-rite-section {
-    margin: 60px 0;
-    padding: 40px;
-    background: var(--ink);
-    color: var(--paper);
-    border-radius: 24px;
-  }
-  .rite-header .eyebrow {
-    color: var(--muted-light);
-  }
-  .rite-header h2 {
-    margin: 4px 0 8px;
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-    color: var(--paper);
-  }
-  .rite-intro {
-    margin: 0 0 36px;
-    font-family: var(--serif);
-    font-size: 1.15rem;
-    color: var(--muted-light);
-  }
-  .rite-steps {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-  }
-  @media (max-width: 900px) {
-    .rite-steps {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  @media (max-width: 580px) {
-    .rite-steps {
-      grid-template-columns: 1fr;
-    }
-  }
-  .rite-step {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 22px;
-    border-radius: 18px;
-  }
-  .step-num {
-    display: block;
-    font-family: var(--serif);
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--saffron);
-    margin-bottom: 8px;
-  }
-  .step-content h4 {
-    margin: 0 0 8px;
-    font-size: 1.05rem;
-    color: var(--paper);
-  }
-  .step-content p {
-    margin: 0;
-    font-size: 0.84rem;
-    line-height: 1.5;
-    color: var(--muted-light);
-  }
-
   .spiral-axiom {
     font-family: var(--serif);
     font-size: 1.12rem;
     font-style: italic;
     color: var(--saffron-ink);
     line-height: 1.45;
-    margin: 6px 0 12px;
+    margin: 0 0 12px;
   }
   .spiral-desc {
-    font-size: 0.92rem;
-    line-height: 1.55;
+    font-family: var(--serif);
+    font-size: 1.06rem;
+    line-height: 1.58;
     color: var(--ink-soft);
-    margin-bottom: 16px;
+    margin: 0 0 18px;
+    max-width: 54ch;
   }
   .spiral-card-actions {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 12px;
-    margin-top: 14px;
+    gap: 6px 10px;
+    font-family: var(--sans);
+    font-size: 0.8rem;
   }
-  .spiral-sourcing {
-    margin: 10px 0 0;
-    font-size: 0.78rem;
-    color: var(--muted);
-    line-height: 1.5;
-  }
-  .spiral-action-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 8px 16px;
-    border-radius: 16px;
-    background: var(--saffron-ink);
-    color: var(--paper);
-    font-size: 0.82rem;
+  .spiral-primary-link {
+    color: var(--ink);
     font-weight: 700;
     text-decoration: none;
-    transition: all 0.2s ease;
+    border-bottom: 1.5px solid var(--saffron);
+    padding-bottom: 1px;
   }
-  .spiral-action-btn:hover {
-    background: var(--ink);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-  }
-  .pdf-download-link {
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.82rem;
-    font-weight: 600;
-    color: var(--ink);
-    text-decoration: none;
-    padding: 7px 14px;
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    background: var(--paper);
-    transition: all 0.2s ease;
-  }
-  .pdf-download-link:hover {
-    border-color: var(--saffron);
-    background: var(--cream);
+  .spiral-primary-link span {
     color: var(--saffron-ink);
+    padding-left: 4px;
+  }
+  .spiral-primary-link:hover {
+    color: var(--saffron-ink);
+  }
+  .spiral-secondary-link {
+    color: var(--muted);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .spiral-secondary-link:hover {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--saffron);
+  }
+  .spiral-action-sep {
+    color: var(--line);
+  }
+
+  /* Diurnal Arc — clean editorial timeline */
+  .diurnal-arc-section {
+    margin: 88px 0 0;
+    padding-top: 44px;
+    border-top: 1px solid var(--ink);
+  }
+  .diurnal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 32px;
+    margin-bottom: 36px;
+  }
+  .diurnal-intro {
+    max-width: 46ch;
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--ink-soft);
+  }
+  .diurnal-steps {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .diurnal-step {
+    border-top: 1px solid var(--line);
+    padding-top: 20px;
+  }
+  .diurnal-step-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .diurnal-num {
+    font-family: var(--serif);
+    font-size: 1.5rem;
+    color: var(--saffron-ink);
+  }
+  .diurnal-window {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .diurnal-step h3 {
+    margin: 0 0 10px;
+    font-size: 1.35rem;
+    line-height: 1.15;
+  }
+  .diurnal-step p {
+    margin: 0 0 12px;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--ink-soft);
+  }
+  .diurnal-lens-ref {
+    margin: 0;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .diurnal-lens-ref a {
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .diurnal-lens-ref a:hover {
+    color: var(--saffron-ink);
+  }
+
+  /* Quiet Editorial Colophon */
+  .spiral-colophon {
+    margin: 88px 0 0;
+    padding-top: 32px;
+    border-top: 1px solid var(--line);
+  }
+  .spiral-colophon-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+    gap: 6vw;
+    align-items: start;
+  }
+  .spiral-colophon h2 {
+    margin: 8px 0 0;
+    font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+    line-height: 1.12;
+  }
+  .spiral-colophon-copy p {
+    margin: 0 0 14px;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    max-width: 62ch;
+  }
+  .spiral-colophon-copy p:last-child {
+    margin-bottom: 0;
+  }
+  .spiral-colophon-copy a {
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration-color: var(--saffron);
+  }
+
+  @media (max-width: 900px) {
+    .diurnal-header {
+      flex-direction: column;
+      gap: 12px;
+    }
+    .diurnal-steps {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .spiral-colophon-grid {
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+  }
+  @media (max-width: 700px) {
+    .spiral-grid {
+      grid-template-columns: 1fr;
+    }
+    .diurnal-steps {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

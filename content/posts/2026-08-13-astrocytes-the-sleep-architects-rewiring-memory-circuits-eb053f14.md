@@ -24,17 +24,6 @@ Sleep is not a passive shutdown. It is an active, orchestrated state where the b
 
 This study shifts the focus to astrocytes, the most abundant glial cells, revealing them as direct participants in the memory consolidation process. Understanding their role could reshape how we approach cognitive decline, sleep disorders, and even the design of nootropics that target glial signaling rather than neuronal firing alone.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The study, published in Neuron, demonstrates that astrocytes can directly regulate the brain circuits involved in memory consolidation during sleep. While the exact molecular steps are not fully detailed in the source, the implication is clear: astrocytic activity is not just supportive but instructive.

@@ -27,17 +27,6 @@ For decades, we've known that sleep enhances vasomotion, the low-frequency oscil
 
 The implications for healthspan are profound. If we can understand what drives these oscillations, we might be able to enhance brain clearance without waiting for sleep—or worse, without relying on sleep aids that disrupt the very rhythms that matter.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The team recruited healthy volunteers and kept them awake for 34 hours under constant conditions, sampling fMRI, EEG, and near-infrared spectroscopy (NIRS) every few hours. They measured CSF oscillations in the vasomotor frequency band (roughly 0.1 Hz) and correlated them with time awake, circadian phase, vigilance, and plasma norepinephrine.

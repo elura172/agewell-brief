@@ -9,7 +9,7 @@ edition_id: "2026-11-08"
 source_url: "https://www.sciencedaily.com/releases/2026/10/261023003337.htm"
 source_title: "Mediterranean diet may boost tiny proteins that protect the heart and brain"
 source_name: "ScienceDaily Healthy Aging"
-spiral: "Luminous Mind"
+spiral: "Living Waters"
 autoresearch_antecedents: [{"scientist": "Pinchas Cohen", "year": "2001", "discovery": "Discovered humanin (HN), the first characterized mitochondrial microprotein/mitochondrial-derived peptide (MDP) encoded within the 16S rRNA gene of mtDNA, demonstrating its role as a neuroprotective biological messenger against amyloid-beta toxicity."}, {"scientist": "Denham Harman", "year": "1972", "discovery": "Refined the Free Radical Theory of Aging into the Mitochondrial Theory of Aging, proposing that mitochondria are both the primary source of and primary targets for age-related oxidative stress and decay."}]
 ancestral_insight: "Ancestral human diets rich in whole, unrefined polyphenols, omega-3 fatty acids, and bioflavonoids naturally maintained low basal levels of mitochondrial oxidative stress. Traditional nutritional patterns, such as those found in pre-industrial Mediterranean Blue Zones, provided continuous dietary hormetic triggers (such as oleocanthal from extra virgin olive oil and resveratrol from wild botanical sources). Mechanistically, these bioactives prevent the oxidative shutdown of mitochondrial transcription, allowing sustained production of ancestral stress-response microproteins like humanin and SHMOOSE that protect systemic cardiovascular and neural architecture during aging."
 evidence_position: "emerging"
@@ -38,17 +38,6 @@ Epidemiological data have long shown that traditional dietary patterns rich in u
 Mitochondria sit at the center of this regulatory network. Far beyond generating ATP via oxidative phosphorylation—a framework established by pioneers like Dr. Otto Warburg—mitochondria maintain a distinct circular genome (mtDNA) that actively coordinates cellular adaptation. When mitochondrial transcription falters, cellular allostatic load increases, exhausting what Dr. Hans Selye identified as adaptation energy and accelerating systemic tissue breakdown.
 
 The discovery that specific nutrient inputs modulate circulating levels of mitochondrial microproteins identifies a direct biochemical conduit between dietary choices and organelle genome expression. This mechanism provides a quantifiable biological metric for precision nutrition, demonstrating how targeted dietary inputs fortify cellular architecture against oxidative stress.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
 
 ## What the study revealed
 

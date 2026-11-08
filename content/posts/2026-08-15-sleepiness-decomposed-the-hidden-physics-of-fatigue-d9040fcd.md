@@ -36,17 +36,6 @@ Sleepiness is not a vague feeling. It is a physiological signal with measurable 
 
 This matters because the same level of sleepiness can arise from two entirely different causes. You might be sleepy because your homeostatic sleep pressure is high, or because your circadian threshold has shifted. These require different interventions. The new model separates these, allowing for targeted strategies to improve alertness and reduce risk.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this sleep health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The researchers built on the classic two-process model of sleep regulation, first proposed by Alexander Borbély in 1982. That model distinguishes a homeostatic process (Process S) that rises during wakefulness and falls during sleep, from a circadian process (Process C) that modulates sleep propensity. The new work operationalizes this by defining a sleep-onset threshold H⁺(t) that varies with circadian phase. Subjective sleepiness maps linearly onto the signed distance H − H⁺ between homeostatic pressure and this threshold.

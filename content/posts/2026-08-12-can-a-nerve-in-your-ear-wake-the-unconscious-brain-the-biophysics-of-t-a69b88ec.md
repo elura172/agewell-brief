@@ -22,17 +22,6 @@ Severe brain injury can leave a person awake but unaware—trapped in a state th
 
 Enter transcutaneous auricular vagus nerve stimulation (taVNS). A small electrode on the ear delivers a gentle electrical pulse to the auricular branch of the vagus nerve—the only place this major cranial nerve touches the body's surface. The idea is to nudge the brainstem's arousal systems, potentially re-engaging the cortical networks that sustain consciousness. If it works, it could be a bedside tool, cheap and repeatable, for a condition that currently has almost nothing.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 This narrative review synthesizes evidence from 2017 to 2026. Mechanistically, taVNS is thought to activate the nucleus tractus solitarius (NTS) in the brainstem, which then projects to the locus coeruleus—the brain's norepinephrine hub—and the dorsal raphe nucleus, a serotonin source. These nuclei, in turn, modulate the thalamo-cortical loops and large-scale networks like the default mode network. That's the working model, but the authors stress it's a biologically plausible cascade, not a validated causal pathway.

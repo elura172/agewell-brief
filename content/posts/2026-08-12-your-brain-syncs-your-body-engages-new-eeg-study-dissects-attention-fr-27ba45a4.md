@@ -36,17 +36,6 @@ Every conversation, lecture, or podcast is a duet of two invisible processes: at
 
 This distinction matters for healthspan because social connection and cognitive engagement are core pillars of healthy aging. If we can objectively measure engagement—not just attention—we might better design interventions for hearing loss, social isolation, or even early cognitive decline. The study also deepens our understanding of how human brains and bodies couple during communication, a phenomenon with roots in the biophysics of bioelectric fields and quantum-coherent water.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The researchers had 30 participants listen to two simultaneous speech streams, focusing on one while ignoring the other. Both attended and unattended streams were either engaging or non-engaging. EEG captured neural activity; heart rate and electrodermal activity tracked bodily responses. They computed interpersonal synchronization—how closely each participant's signals matched those of other listeners—and compared it to self-reported engagement and a neural measure of attention (auditory attention decoding).

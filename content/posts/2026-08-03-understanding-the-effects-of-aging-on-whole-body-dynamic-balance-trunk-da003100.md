@@ -36,15 +36,6 @@ If you've noticed that you don't feel as steady on your feet as you once did, yo
 
 These aren't just abstract concerns. Declines in balance and mobility can affect everyday activities—from climbing stairs to carrying groceries—and are linked to a higher risk of falls, which can have serious consequences for older adults. Understanding what changes and why is the first step toward staying active and independent.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>This is Cell Shedding territory</h3>
-<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/shedding" rel="noopener noreferrer">Walk the Cell Shedding spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the study found
 
 The study, which was observational, looked at how aging relates to several key physical functions. The researchers found that older age was linked to declines in whole-body dynamic balance—your ability to maintain stability while moving—and trunk stability, which is the control of your torso and core.

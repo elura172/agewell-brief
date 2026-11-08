@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "bba5979fd1886fa15f044b81": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "Identifies a specific, novel neurophysiological signal ('lonely' uncoupled slow waves during non-REM sleep) that correlates with amyloid/tau buildup and memory consolidation deficits prior to overt cognitive symptoms.",
+      "angle": "Why 'lonely' sleep waves could serve as an early electrophysiological fingerprint of preclinical Alzheimer's.",
+      "mode": "agent"
+    },
+    "b9eab8482ad83c502c8a6f88": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Demonstrates short-term (four-week), low-dose rapamycin administration improves cerebral blood flow specifically in asymptomatic, middle-aged human APOE4 carriers, showing strong sexual dimorphism.",
+      "angle": "Can four weeks of low-dose rapamycin rescue early vascular decline in APOE4 carriers before memory fades?",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Standard U-shaped association between mid-range sleep duration and healthy aging; highly repetitive consumer health reporting.",
+      "angle": "No strong novel angle; basic sleep hygiene coverage.",
+      "mode": "agent"
+    },
+    "f4e7b57f28941f6c54c74e23": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "Maps out a precise, cell-nonautonomous neural circuit (HIF-1 in ADF serotonergic neurons signalling through SER-7 in RIS interneurons, involving GABA and tyramine) that uncouples hypoxic lifespan extension from peripheral tissue damage.",
+      "angle": "How mapping worm hypoxia circuits reveals neural switches for extending lifespan without toxic side effects.",
+      "mode": "agent"
+    },
+    "b4e9dd5ec9a5e33c0066c7ff": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "routine animal study",
+      "reason": "Title-only record showing sex-specific responses to dietary restriction in killifish. While dimorphic responses are relevant, the lack of abstract details makes evaluation weak, and dietary restriction in model organisms is well-trodden ground.",
+      "angle": "Sex differences in dietary restriction response in short-lived killifish models.",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 59,
+      "decision": "commission",
+      "novelty_type": "safety warning",
+      "reason": "Provides a counter-intuitive neurochemical mechanism (sustained hippocampal dopamine elevation during rest) showing how physical overtraining directly disrupts central emotion and memory regulation circuits.",
+      "angle": "When exercise backfires: How overtraining paradoxically locks hippocampal dopamine in overdrive.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "systematic review",
+      "reason": "Synthesizes existing animal literature on fasting and brain epigenetics, but notes high methodological heterogeneity and an total absence of human validation.",
+      "angle": "What animal models actually tell us about fasting, epigenetics, and brain resilience.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "broad review",
+      "reason": "Extremely generic summary headline synthesizing sleep, redox biology, and aging without a distinct novel intervention or empirical finding.",
+      "angle": "Overview of redox metabolism and sleep in brain aging.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "recycled supplement guidance",
+      "reason": "Consumer-oriented, low-detail overview of anti-aging supplements lacking primary data or precise clinical recommendations.",
+      "angle": "Standard consumer guide to anti-aging supplements.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "bba5979fd1886fa15f044b81",
+    "b9eab8482ad83c502c8a6f88",
+    "f4e7b57f28941f6c54c74e23",
+    "a2f082a62767b4c84fb98f98"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "b4e9dd5ec9a5e33c0066c7ff",
+    "4fa1cbe537a2dff42f96cb80",
+    "0b7d57db98938147adfb915a",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}

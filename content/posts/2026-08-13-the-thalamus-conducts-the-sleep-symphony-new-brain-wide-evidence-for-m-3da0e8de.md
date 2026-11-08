@@ -25,17 +25,6 @@ Sleep is not a passive shutdown. It is an active, orchestrated state where the b
 
 This matters because the SO-spindle coupling is the physiological signature of memory consolidation. Rodent optogenetics has shown that only spindles phase-locked to the UP-state of cortical SOs enhance memory, while out-of-phase spindles do nothing. Now we have human evidence of the exact brain regions and connections that light up during this critical window. Understanding this mechanism is not just academic—it opens the door to targeted neuromodulation for enhancing memory and treating sleep-related cognitive decline.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this sleep health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The researchers identified robust SO-spindle coupling during N2/3 sleep, with spindle peaks occurring just before the SO UP-state—the excitable depolarization phase. This coupling was associated with elevated activation in both the thalamus and hippocampus, and increased functional connectivity from the hippocampus to the thalamus, and from the thalamus to the medial prefrontal cortex (mPFC).

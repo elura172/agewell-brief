@@ -37,15 +37,6 @@ Speech arrives as a smooth stream, but the brain has to perform several jobs at 
 
 That finer view matters because communication devices ultimately need reliable signals. Researchers hope that understanding how the brain organizes language could one day improve systems for people who cannot speak after stroke, amyotrophic lateral sclerosis, or another neurological condition. This paper supplies biological groundwork for that ambition. It does not test such a device.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the study found
 
 The researchers studied eight English-speaking patients who already had microelectrode arrays implanted for epilepsy monitoring. While the participants held natural conversations, the team recorded activity from hundreds of neurons across the frontotemporal cortex and aligned those signals with detailed transcripts.

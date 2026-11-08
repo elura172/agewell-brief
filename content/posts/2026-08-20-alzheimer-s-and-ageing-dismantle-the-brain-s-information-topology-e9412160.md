@@ -22,17 +22,6 @@ The hippocampus is the brain's cartographer. It builds spatial maps from the coo
 
 This study reveals that ageing and Alzheimer's disease (AD) do not merely degrade individual neurons—they dismantle the information architecture itself. The breakdown is not uniform; it follows two distinct routes, and the damage is greatest where ageing and the 5xFAD genotype coincide. Understanding this topological collapse is essential for anyone who wants to grasp how cognitive decline physically unfolds at the network level.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 Using Partial Information Decomposition on calcium imaging from CA1 neurons in young and aged wild-type and 5xFAD mice, researchers quantified redundant and synergistic information sharing within and between assemblies. In healthy CA1, between-assembly pairs carried more joint spatial information than within-assembly pairs, and this surplus was synergistic—establishing network topology as an organizing principle of spatial coding.

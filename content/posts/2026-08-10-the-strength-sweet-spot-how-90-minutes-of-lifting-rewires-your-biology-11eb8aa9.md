@@ -9,7 +9,7 @@ edition_id: "2026-08-10"
 source_url: "https://www.sciencedaily.com/releases/2026/08/260808234959.htm"
 source_title: "Scientists find the strength training “sweet spot” for a longer life"
 source_name: "ScienceDaily Top Health"
-spiral: "Cell Shedding"
+spiral: "Higher Flame"
 evidence_position: "emerging"
 image_provider: "Pexels"
 image_provider_id: "36917072"
@@ -34,17 +34,6 @@ New observational data from nearly 150,000 health professionals reveals that jus
 For decades, strength training was framed as a cosmetic pursuit—something for athletes or the aesthetically ambitious. But a growing body of evidence, now reinforced by a large observational study, positions resistance exercise as a fundamental lever on healthspan. Muscle is not merely a motor; it is a metabolic organ, an endocrine gland, and a bioelectric reservoir that shapes how every system in your body ages.
 
 This matters because the diseases that most often end lives—cardiovascular disease, dementia, metabolic dysfunction—are not random. They are downstream of chronic inflammation, insulin resistance, and declining mitochondrial efficiency. Strength training targets these root causes directly, offering a physiological intervention that is accessible, inexpensive, and remarkably time-efficient.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>This is Cell Shedding territory</h3>
-<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/shedding" rel="noopener noreferrer">Walk the Cell Shedding spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
 
 ## What the study found
 

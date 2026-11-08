@@ -37,15 +37,6 @@ Statins are among the most prescribed drugs worldwide, taken by millions to lowe
 
 Until now, the biological reasons behind these muscle symptoms were poorly understood. This study, published in Science Advances, offers a new explanation: statins may disrupt how muscle cells produce energy, which in turn triggers an immune response that damages muscle tissue. The finding is a step toward separating the side effects from the benefits, potentially allowing more people to stay on these lifesaving drugs.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Living Waters program">
-<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
-<h3>This is Living Waters territory</h3>
-<p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/waters" rel="noopener noreferrer">Walk the Living Waters spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the study found
 
 Researchers at McMaster University, working with international collaborators, focused on a cellular pathway involving a protein called NLRP3, which is part of the immune system's inflammatory response. In experiments with muscle cells and mice, they showed that statins interfere with the production of energy in mitochondria, the cell's powerhouses. This metabolic stress activates NLRP3, leading to inflammation and muscle damage.

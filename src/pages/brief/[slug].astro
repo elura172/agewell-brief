@@ -3,8 +3,6 @@ import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import { isCommercialLink, linkRel, plainTextExcerpt, publishedBriefs, spiralTeachingUrl, topicSlug, typographic, withUtm } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
-import EZWaterCalculator from "../../components/EZWaterCalculator.astro";
-import GlymphaticCalculator from "../../components/GlymphaticCalculator.astro";
 import { frontierForCategory } from "../../data/frontier-map";
 
 export async function getStaticPaths() {
@@ -154,18 +152,6 @@ const structuredData = [
         <div class="signal-rail-tags">
           <span>{entry.data.category}</span>
           <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
-          {(entry.data.frameworks && entry.data.frameworks.length > 0 ? entry.data.frameworks : [protocolCard.name.replace("Protocol", "Framework")]).map((fw) => (
-            <a
-              class="framework-header-badge"
-              href={(protocolByName[fw.toLowerCase()] ?? protocolCard).pdfUrl}
-              download
-              title={`Download the ${fw} field guide (PDF)`}
-              aria-label={`Download the ${fw} field guide (PDF)`}
-            >
-              ⚡ {fw}
-              <span class="framework-badge-dl" aria-hidden="true">↓ PDF</span>
-            </a>
-          ))}
         </div>
         <i></i>
         <span>{formatDate}</span>
@@ -196,14 +182,6 @@ const structuredData = [
     </div>}
     <div class="article-content"><Content /></div>
 
-    {/* Interactive Biophysics Calculators */}
-    {(entry.data.category === "longevity" || entry.id.includes("water") || entry.id.includes("living") || entry.id.includes("hydration")) && (
-      <EZWaterCalculator protocolName={spiralName} protocolHref={protocolProgramUrl} />
-    )}
-    {(entry.data.category === "brain health" || entry.data.category === "sleep health" || entry.id.includes("sleep") || entry.id.includes("mind") || entry.id.includes("alzheimer")) && (
-      <GlymphaticCalculator protocolName={spiralName} protocolHref={protocolProgramUrl} />
-    )}
-
     {entry.data.autoresearch_antecedents && entry.data.autoresearch_antecedents.length > 0 && (
       <aside class="article-lineage-card" aria-label="Historical Biophysics Antecedents">
         <div class="lineage-card-header">
@@ -222,27 +200,25 @@ const structuredData = [
       </aside>
     )}
 
-    <aside class="article-protocol-card" aria-label={`${protocolCard.name} programme`}>
-      <div class="protocol-card-header">
-        <span class="protocol-eyebrow">Spiral of Cellular Light · The walk</span>
-        <h3>{protocolCard.icon} {protocolCard.name}</h3>
-        <p class="protocol-focus">{protocolCard.focus}</p>
-      </div>
+    <aside class="article-protocol-card" aria-label={`${spiralName} companion framework`}>
+      <p class="protocol-eyebrow">Spiral of Cellular Light · Companion lens</p>
+      <h3>{spiralName}</h3>
+      <p class="protocol-focus">{protocolCard.focus}.</p>
       <div class="protocol-card-actions">
-        <a class="protocol-primary-btn" href={protocolProgramUrl} rel="noopener noreferrer" target="_blank">
+        <a class="primary-link" href={protocolProgramUrl} rel="noopener noreferrer" target="_blank">
           Walk the {spiralName} spiral <span aria-hidden="true">→</span>
         </a>
-        <a class="protocol-pdf-btn" href={protocolCard.pdfUrl} download>
-          📄 Download Companion Guide (PDF)
+        <a class="protocol-secondary-link" href={protocolCard.pdfUrl} download>
+          Companion field guide (PDF) ↓
+        </a>
+        <a class="protocol-secondary-link" href="/spiral-of-cellular-light/">
+          All six spirals
         </a>
       </div>
-      {/* The dispensary is a Canadian Fullscript storefront that will not ship
-          across the border, and about two thirds of readers are outside Canada.
-          It is a sourcing convenience, not the offer. */}
       <p class="protocol-sourcing">
-        In Canada, the supplements for this protocol are stocked at
-        <a href={withUtm(protocolCard.href, "brief-page-sourcing")} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>.
-        Commission-supported; no added cost to you.
+        In Canada, protocol supplements are stocked at
+        <a href={withUtm(protocolCard.href, "brief-page-sourcing")} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>
+        (commission-supported; no added cost to you).
       </p>
     </aside>
 
@@ -262,32 +238,30 @@ const structuredData = [
 </Layout>
 
 <style>
+  .article-lineage-card,
   .article-protocol-card {
-    margin: 40px 0;
-    padding: 28px 32px;
-    background: var(--cream);
-    border: 1px solid var(--saffron-soft);
-    border-radius: 12px;
-    box-shadow: var(--shadow-sm);
+    max-width: 700px;
+    margin: 52px 0 0 10%;
+    padding: 28px 0 0;
+    border-top: 1px solid var(--ink);
   }
-
-  .article-lineage-card {
-    margin: 40px 0;
-    padding: 28px 32px;
-    background: var(--paper);
-    border: 1px solid var(--line);
-    border-radius: 12px;
+  .article-page.is-lead .article-lineage-card,
+  .article-page.is-lead .article-protocol-card {
+    max-width: 760px;
   }
-  .lineage-eyebrow {
+  .lineage-eyebrow,
+  .protocol-eyebrow {
+    display: block;
+    margin: 0 0 8px;
     font-size: 0.72rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--saffron-ink);
   }
   .article-lineage-card h3 {
-    margin: 4px 0 20px;
-    font-size: 1.3rem;
+    margin: 0 0 20px;
+    font-size: 1.5rem;
   }
   .lineage-timeline {
     display: flex;
@@ -313,124 +287,64 @@ const structuredData = [
     margin: 4px 0 0;
     font-size: 0.88rem;
     color: var(--muted);
-    line-height: 1.4;
+    line-height: 1.45;
   }
-  .protocol-eyebrow {
-    display: inline-block;
-    font-size: 0.72rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--saffron-ink);
-    margin-bottom: 6px;
+  .article-protocol-card {
+    padding: 26px 28px 24px;
+    background: color-mix(in oklch, var(--mist) 35%, var(--paper));
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--saffron);
   }
   .article-protocol-card h3 {
     font-family: var(--serif);
-    font-size: 1.35rem;
+    font-size: 1.75rem;
     color: var(--ink);
-    margin: 0 0 6px;
+    margin: 0 0 8px;
   }
   .protocol-focus {
-    font-size: 0.9rem;
-    color: var(--muted);
-    margin-bottom: 18px;
+    font-family: var(--serif);
+    font-size: 1.08rem;
+    color: var(--ink-soft);
+    margin: 0 0 18px;
+    max-width: 58ch;
   }
   .protocol-card-actions {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 14px;
+    gap: 12px 24px;
     margin-bottom: 14px;
   }
-  .protocol-primary-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 10px 18px;
-    background: var(--ink);
-    color: var(--paper);
-    font-size: 0.85rem;
-    font-weight: 600;
-    border-radius: 20px;
-    text-decoration: none;
-    transition: background 0.2s ease;
-  }
-  .protocol-primary-btn:hover {
-    background: var(--saffron-ink);
-  }
-  .protocol-pdf-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 9px 16px;
-    background: var(--paper);
-    color: var(--ink);
+  .protocol-secondary-link {
     font-size: 0.82rem;
     font-weight: 600;
-    border: 1px solid var(--line);
-    border-radius: 20px;
-    text-decoration: none;
-    transition: all 0.2s ease;
+    color: var(--ink-soft);
+    text-decoration-color: var(--line);
   }
-  .protocol-pdf-btn:hover {
-    border-color: var(--saffron);
-    background: var(--cream);
+  .protocol-secondary-link:hover {
+    color: var(--saffron-ink);
+    text-decoration-color: var(--saffron);
   }
-  .protocol-disclosure {
-    font-size: 0.75rem;
-    color: var(--muted);
-    margin: 0;
-  }
-  /* See .resource-shipping in global.css — same purpose on the closing card. */
   .protocol-sourcing {
     max-width: 62ch;
-    margin: 8px 0 0;
-    padding-left: 10px;
-    border-left: 2px solid color-mix(in oklch, var(--saffron) 40%, transparent);
+    margin: 12px 0 0;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
     color: var(--muted);
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     line-height: 1.45;
   }
-  .protocol-sourcing a { color: var(--ink-soft); font-weight: 600; }
-  .protocol-shipping {
-    max-width: 62ch;
-    margin: 8px 0 0;
-    padding-left: 10px;
-    border-left: 2px solid color-mix(in oklch, var(--saffron) 55%, transparent);
+  .protocol-sourcing a {
     color: var(--ink-soft);
-    font-size: 0.78rem;
-    line-height: 1.45;
+    font-weight: 600;
   }
-
-  /* Inline rather than inline-flex: in the 226px rail the framework name wraps,
-     and as a flex container the download marker got stranded beside the wrapped
-     text instead of following it. As inline text it stays with the last word. */
-  .framework-header-badge {
-    display: inline;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
-    font-size: 0.72rem;
-    font-weight: 700;
-    padding: 3px 10px;
-    border-radius: 12px;
-    background: var(--cream);
-    color: var(--saffron-ink);
-    border: 1px solid var(--saffron-soft);
-    text-decoration: none;
-    transition: all 0.2s ease;
+  @media (max-width: 700px) {
+    .article-lineage-card,
+    .article-protocol-card {
+      margin-left: 0;
+    }
+    .article-protocol-card {
+      padding: 22px 20px 20px;
+    }
   }
-  .framework-header-badge:hover {
-    background: var(--saffron-soft);
-    color: var(--ink);
-  }
-  /* The chip reads as a category tag but is really a file download, so it needs
-     to say so before the click rather than after. */
-  .framework-badge-dl {
-    white-space: nowrap;
-    font-size: 0.62rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    opacity: 0.8;
-  }
-
 </style>

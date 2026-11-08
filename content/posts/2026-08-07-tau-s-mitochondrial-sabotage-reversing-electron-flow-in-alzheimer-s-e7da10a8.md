@@ -37,15 +37,6 @@ Alzheimer's disease has long been defined by amyloid plaques and tau tangles. Bu
 
 This isn't just about brain plaques. It's about energy. Neurons are among the most energy-hungry cells in the body. When mitochondrial electron transport is disrupted, the entire synaptic machinery starves. Understanding this mechanism could redefine how we approach neurodegeneration.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>This is Higher Flame territory</h3>
-<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/flame" rel="noopener noreferrer">Walk the Higher Flame spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## what was found
 
 The preprint reports that tau protein disrupts mitochondrial electron transport, specifically reversing electron flow at Complex I. This reversal increases reactive oxygen species (ROS) production while reducing ATP synthesis—a double hit of oxidative stress and energy deficit.

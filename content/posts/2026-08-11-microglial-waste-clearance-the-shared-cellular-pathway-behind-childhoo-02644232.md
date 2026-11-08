@@ -25,17 +25,6 @@ Neurodegeneration has long been viewed through the lens of protein aggregates—
 
 For sovereign adults who track healthspan, this is a pivotal insight: the difference between a healthy aging brain and a degenerating one may hinge on the efficiency of microglial phagocytosis. The study, published in Immunity, identifies a key cellular pathway that drives brain degeneration in both conditions, offering a roadmap for intervention that could apply across the spectrum of neurodegenerative diseases.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## what was found
 
 Researchers at the University of California San Diego and colleagues uncovered a specific cellular pathway that links microglial response to waste buildup with neurodegeneration. While the source does not name the exact pathway, historical context points to TREM2, a receptor on microglia that triggers phagocytosis and downstream lysosomal degradation. Mutations in TREM2 cause Nasu-Hakola disease, a rare childhood dementia, and are also a risk factor for late-onset Alzheimer's.

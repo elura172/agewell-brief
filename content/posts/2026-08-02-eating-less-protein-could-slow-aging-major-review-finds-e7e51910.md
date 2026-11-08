@@ -37,15 +37,6 @@ This is important because current dietary guidelines encourage higher protein in
 
 The review's lead author, Dudley Lamming of the University of Wisconsin-Madison, notes that while protein is beneficial for muscle growth and exercise response in active individuals, most people are relatively sedentary and may be consuming more protein than they actually need, which could have negative health consequences.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>This is Cell Shedding territory</h3>
-<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/shedding" rel="noopener noreferrer">Walk the Cell Shedding spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the review found
 
 The researchers analyzed decades of studies on protein restriction and aging. They found that lower protein intake can improve metabolic function, alter how cells respond to nutrients, and reduce cellular damage. These effects are linked to healthier aging and a longer life, according to the researchers.

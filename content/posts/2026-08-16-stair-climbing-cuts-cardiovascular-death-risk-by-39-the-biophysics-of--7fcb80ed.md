@@ -9,7 +9,7 @@ edition_id: "2026-08-16"
 source_url: "https://www.sciencedaily.com/releases/2026/08/260814011029.htm"
 source_title: "Taking the stairs could protect your heart and help you live longer"
 source_name: "ScienceDaily Top Health"
-spiral: "Cell Shedding"
+spiral: "Living Waters"
 autoresearch_antecedents: [{"scientist": "Jeremy N. Morris", "year": "1953", "discovery": "Morris's landmark study of London bus conductors and drivers showed that conductors who climbed stairs on double-decker buses had markedly lower rates of coronary heart disease and sudden death compared to sedentary drivers. This was the first epidemiological evidence that habitual stair climbing reduces cardiovascular mortality, directly anticipating the UEA meta-analysis's finding of a 39% reduction in cardiovascular death among frequent stair climbers."}, {"scientist": "Kenneth H. Cooper", "year": "1968", "discovery": "Cooper's development of the 12-minute run test and his concept of 'aerobics' quantified the cardiorespiratory demands of stair climbing, establishing it as a vigorous-intensity exercise that improves VO2 max. His work provided the physiological basis for why stair climbing, as a form of high-intensity interval training, enhances endothelial function and cardiac efficiency, mechanisms that underlie the reduced heart failure and stroke risk observed in the modern study."}]
 ancestral_insight: "Human ancestors in the Paleolithic and throughout agrarian history routinely climbed hills, trees, and terrain as part of foraging, hunting, and migration. This intermittent high-intensity vertical locomotion—similar to stair climbing—was a daily necessity, not a leisure activity. The human musculoskeletal and cardiovascular systems evolved under such loads, favoring efficient oxygen utilization and vascular plasticity. Modern sedentary lifestyles deviate from this ancestral pattern, and the study's findings suggest that reintroducing brief, vigorous vertical exertion (e.g., stair climbing) can restore ancestral cardiorespiratory stress, activating hormetic pathways such as AMPK and PGC-1α that enhance mitochondrial function and reduce chronic inflammation. This aligns with the 'mismatch' hypothesis, where the absence of such activity contributes to the epidemic of cardiovascular disease."
 evidence_position: "established"
@@ -38,17 +38,6 @@ Cardiovascular disease remains the world’s leading killer, with cases nearly d
 The finding echoes a deep lineage in biophysics. In 1953, Jeremy Morris observed that London bus conductors who climbed stairs on double-deckers had far less coronary heart disease than sedentary drivers. Decades later, Kenneth Cooper’s work on aerobics quantified stair climbing as vigorous exercise that boosts VO2 max. Now, modern epidemiology confirms what these pioneers suspected: vertical exertion is a potent cardiovascular stimulus.
 
 For sovereign adults who value agency over convenience, this is a practical, scalable intervention. You don’t need a gym membership or a block of free time—just a staircase and the will to bypass the lift.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>This is Cell Shedding territory</h3>
-<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/shedding" rel="noopener noreferrer">Walk the Cell Shedding spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
 
 ## What was found
 

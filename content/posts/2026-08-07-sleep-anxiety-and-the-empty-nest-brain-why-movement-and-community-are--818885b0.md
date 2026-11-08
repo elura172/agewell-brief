@@ -37,15 +37,6 @@ Sleep is not a passive off-switch. It is an active, energy-intensive state where
 
 For older adults living alone—the 'empty-nest' population—this loop tightens. Social isolation and reduced physical activity compound the neurobiological strain. The new study, drawn from the Chinese Longitudinal Healthy Longevity Survey, quantifies the stakes: poor sleep quality was associated with a 3.23-fold higher odds of anxiety, while short sleep duration carried a 1.34-fold risk. These are not trivial numbers. They point to modifiable levers that sit squarely within an individual's control.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this sleep health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The analysis included 6,106 Chinese adults aged 65 and older living in empty-nest households. Among them, 593 (9.7%) reported anxiety symptoms. Using multivariable logistic regression, the researchers found that poor sleep quality was the strongest independent risk factor for anxiety (OR = 3.23, 95% CI: 2.62–4.01). Short sleep duration—typically under six hours—also independently predicted anxiety (OR = 1.34, 95% CI: 1.04–1.74). Notably, long sleep duration showed no significant association.

@@ -34,17 +34,6 @@ For over a century, neuroscience has fixated on neurons. Santiago Ramón y Cajal
 
 Glial cells are the brain’s metabolic and homeostatic backbone. They buffer ions, recycle neurotransmitters, supply energy substrates, and prune synapses. All these functions depend on cell-surface proteins that mediate cell-cell interactions. When these surface molecules degrade, glial support falters, and neurons suffer. The discovery that a single surface protein can influence lifespan underscores the profound systemic impact of glial health.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found: DIP-β as a pro-longevity factor
 
 The team applied an in-situ proximity-labeling technique to glial cells in intact fly brains. They expressed horseradish peroxidase (HRP) fused to CD2 on the glial surface. In the presence of hydrogen peroxide, HRP converts a biotin-phenol substrate into short-lived phenoxyl radicals that biotinylate nearby proteins within a sub-millisecond radius. This captures a snapshot of the glial surface proteome with high spatial and temporal precision.

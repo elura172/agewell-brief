@@ -36,17 +36,6 @@ This preprint delivers a proof of principle. By forcing a Drosophila gut bacteri
 
 The work echoes Élie Metchnikoff's 1907 intuition that lactic acid bacteria promote health and longevity. Now we have a molecular bridge: oxidative stress resistance in bacteria leads to more acetate, which directly benefits the host. For sovereign adults who want to age with agency, this is a concrete step toward understanding how diet and microbial ecology can be tuned for resilience.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Inner Garden program">
-<p class="resource-kicker">Spiral of Cellular Light · Inner Garden</p>
-<h3>This is Inner Garden territory</h3>
-<p>Gut microbiome ecology — short-chain fatty acid signaling and gut barrier integrity. The Inner Garden spiral is the protocol built for the exact mechanism this gut health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/garden" rel="noopener noreferrer">Walk the Inner Garden spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/inner-garden-field-guide.pdf" download>Download the Inner Garden field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The team directed evolution ex vivo, exposing a Drosophila gut microbiome to paraquat, a toxin that generates reactive oxygen species. The resulting paraquat-resistant (PQR) microbiome, when transplanted into flies, conferred three benefits: increased resistance to dietary paraquat, reduced age-related gut pathologies, and extended lifespan. The effect was not diffuse—they traced it to a single species, Lactiplantibacillus plantarum.

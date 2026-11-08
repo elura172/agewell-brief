@@ -25,17 +25,6 @@ Alzheimer's disease remains one of the most feared and costly conditions of agin
 
 The finding echoes a century-old intuition. Elie Metchnikoff, the Nobel laureate who first proposed that gut microbes produce toxins accelerating aging, would recognize this modern validation. It also aligns with the oxidative stress framework of George Perry and Mark Smith, who showed that amyloid-beta is a response to oxidative damage. A bacterial metabolite that triggers neuroinflammation and oxidative stress fits neatly into that lineage.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The study, published in Nature Communications, identified a specific compound produced by gut bacteria that is associated with a higher risk of developing Alzheimer's disease. In patients with dementia, higher levels of this metabolite correlated with faster cognitive decline. The compound appears to enter the bloodstream and cross the blood-brain barrier, where it promotes neuroinflammation and exacerbates the aggregation of amyloid-beta and tau phosphorylation—hallmarks of Alzheimer's pathology.

@@ -37,15 +37,6 @@ Skeletal muscle aging has long been measured by the tape and the dynamometer—m
 
 This reframes the clinical problem. If functional and organizational decline precedes mass loss, then interventions aimed at preserving muscle mass alone may miss the critical window. The study identifies a midlife metabolic inflection point as the true sentinel, and suggests that nutritional timing—not just dose—may be the key lever.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>This is Higher Flame territory</h3>
-<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/flame" rel="noopener noreferrer">Walk the Higher Flame spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 In a longitudinal design, Wistar rats were followed from 12 to 18 months. At 12 months, glucose tolerance was already impaired. Between 15 and 18 months, animals showed marked reductions in strength, mobility, and motor coordination, alongside extensive architectural remodeling: a shift toward glycolytic fibers, expanded extracellular matrix, reduced capillarization, and increased structural heterogeneity.

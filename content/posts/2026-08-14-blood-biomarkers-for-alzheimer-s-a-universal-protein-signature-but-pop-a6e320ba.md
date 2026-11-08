@@ -36,17 +36,6 @@ Alzheimer's disease is defined by the progressive misfolding and aggregation of 
 
 But the vast majority of biomarker research has been conducted in high-income countries with predominantly European ancestry populations. This raises a critical question: are the protein signatures universal, or do they vary with genetic background, environment, and lifestyle? The current study begins to answer this by validating established biomarkers in African populations, addressing a glaring gap in global brain health equity.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## what was found
 
 The preprint reports that blood biomarkers can detect Alzheimer's-related protein changes without the need for PET imaging or lumbar puncture. However, the source material does not provide specific results—no effect sizes, no comparative data between populations, and no details on which biomarkers were measured beyond 'established markers.'

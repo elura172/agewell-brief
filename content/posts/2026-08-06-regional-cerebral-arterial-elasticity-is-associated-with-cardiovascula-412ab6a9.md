@@ -37,15 +37,6 @@ Your brain is a vascular glutton. It consumes roughly 20% of your cardiac output
 
 This is not abstract gerontology. The Windkessel model, formalized by Otto Frank in 1899, described how arterial elasticity converts the heart's pulsatile output into steady capillary flow. Nicolas Westerhof refined this in 1969 with the three-element model, adding characteristic impedance and peripheral resistance. The new study applies this century-old physics to the living human brain, using light to measure arterial compliance in real time.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Living Waters program">
-<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
-<h3>This is Living Waters territory</h3>
-<p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/waters" rel="noopener noreferrer">Walk the Living Waters spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## what was found
 
 Researchers used pulse diffuse optical tomography (pulse-DOT) to derive the pulse relaxation function (PReFx)—a direct measure of regional cerebral arterial elasticity—in 60–70 year old cognitively healthy, highly active adults. They found that higher cardiovascular risk factor (CVRF) burden—hypertension, cholesterol, diabetes, obesity—was linearly associated with lower cerebral arterial elasticity. The more risk factors, the stiffer the brain's arteries.

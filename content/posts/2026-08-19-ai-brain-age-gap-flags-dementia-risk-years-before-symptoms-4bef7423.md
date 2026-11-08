@@ -24,17 +24,6 @@ Dementia is a slow, silent thief. By the time memory clinics spot it on a scan, 
 
 Your brain has a biological age, distinct from your chronological one. When AI calculates that age from an MRI, the gap between the two—the 'brain age gap'—becomes a measure of accelerated aging. A larger gap means your brain looks older than it should, and that gap may be the earliest detectable sign of neurodegenerative processes.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The study, published in Neurology, used AI to analyze brain scans and compute a predicted brain age for each participant. The difference between this predicted age and their actual age was then tracked against dementia outcomes over several years.

@@ -25,17 +25,6 @@ Alzheimer's disease is not sex-neutral. Women bear a disproportionate burden, ye
 
 The stakes are clinical. GPCRs are the most druggable family of membrane proteins, and β-arrestins are their universal regulators. If β-arrestin2 drives pathology only in males, then a one-size-fits-all GPCR-targeted therapy could help one sex while missing—or even worsening—disease in the other. This is not a nuance; it is a fork in the road for therapeutic design.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 In APP/PS1 mice—a standard Alzheimer's model—the researchers deleted the Arrb2 gene encoding β-arrestin2. In males, this deletion slashed Aβ oligomer burden, suppressed astrocytic and microglial reactivity, and rescued a broad spectrum of cognition: spatial working memory, spatial learning, cognitive flexibility, and recognition memory.

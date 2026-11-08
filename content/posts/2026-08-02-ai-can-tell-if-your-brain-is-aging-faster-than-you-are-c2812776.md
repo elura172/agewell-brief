@@ -37,15 +37,6 @@ Dementia risk does not reveal itself through one measurement. That makes researc
 
 The idea is strikingly simple. A model compares patterns in a person’s sleeping brain with patterns expected at their chronological age. The difference becomes a “brain age index.” A positive score means the EEG looks older than expected; a negative score means it looks younger. The question was whether that gap tracked who later developed dementia.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the Study Found
 
 Researchers pooled individual data from 7,105 adults in five community-based longitudinal studies. Participants had no dementia when their overnight sleep recordings were collected. Follow-up varied by cohort, with median times to dementia ranging from 3.6 to 16.9 years.

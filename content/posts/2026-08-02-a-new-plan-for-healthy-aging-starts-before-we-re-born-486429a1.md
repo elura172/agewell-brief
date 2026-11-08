@@ -9,7 +9,7 @@ edition_id: "2026-08-02"
 source_url: "https://medicalxpress.com/news/2026-07-healthy-aging-born.html"
 source_title: "A new plan for healthy aging starts before we're born"
 source_name: "Medical Xpress"
-spiral: "Cell Shedding"
+spiral: "Higher Flame"
 image_id: 5638414
 image_provider: "Pexels"
 image_provider_id: "5638414"
@@ -38,15 +38,6 @@ Scientists are developing a new field to help us stay healthier longer, with roo
 - Lifespans are increasing in many countries, but healthspan may lag.
 - Longevity medicine aims to extend healthy years, not just life.
 - New approaches may start before we're born, shaping future health.
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>This is Cell Shedding territory</h3>
-<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/shedding" rel="noopener noreferrer">Walk the Cell Shedding spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
 
 ## How to interpret it
 

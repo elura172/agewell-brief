@@ -37,15 +37,6 @@ Aging brains lose episodic memory—the ability to recall specific events—and 
 
 For sovereign adults who want to preserve mental sharpness, this reframes the problem: memory is not just about hippocampal volume or cortical thickness—it's about the real-time choreography of distributed networks, with the cerebellum as a key player. Understanding this mechanism opens new avenues for monitoring and potentially intervening in age-related cognitive decline.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 Researchers analyzed task-based fMRI data from 821 older adults, including a longitudinal subset of 78 followed for four years. Using sparse dictionary learning, they identified three non-motor cerebellar networks: a bilateral lobule VI/Crus I network for mnemonic monitoring, a right Crus I/II network aligned with the default mode network, and a right lobule VIIb/VIIIa network for evidence evaluation.

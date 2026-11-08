@@ -38,15 +38,6 @@ This new study from Penn State College of Medicine offers a simpler possibility.
 
 That’s a hopeful message for anyone who has felt that exercise is out of reach. It also points to a practical way to support independence, which is central to quality of life as we age.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Living Waters program">
-<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
-<h3>This is Living Waters territory</h3>
-<p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/waters" rel="noopener noreferrer">Walk the Living Waters spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the study found
 
 The research, published in PLOS One, followed 97 adults aged 65 and older, with an average age of 74. Participants were randomly assigned to either a four-minute daily routine called FAST-2 or to continue their usual activities. At the start, they were quite inactive, averaging only about 18 minutes of exercise per week.

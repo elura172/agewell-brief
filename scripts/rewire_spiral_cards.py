@@ -61,16 +61,6 @@ def rewire(path: Path, resources: dict) -> str | None:
         return None
 
     body = CARD_RE.sub("", body)
-    sections = [m.start() for m in re.finditer(r"^## ", body, re.M)]
-
-    # One card in the body, after the opening section, mirroring the pipeline. The
-    # page's second and final call to action is the protocol card the template
-    # renders from the `spiral` frontmatter written below — so the two agree by
-    # construction instead of being routed by two independent maps.
-    if len(sections) >= 2:
-        cut = sections[1]
-        body = body[:cut] + spiral_card(spiral, category, placement="opening").lstrip("\n") + "\n\n" + body[cut:]
-
     head = set_field(head, "spiral", spiral["name"])
     path.write_text(head + sep + body, encoding="utf-8")
     return spiral["name"]

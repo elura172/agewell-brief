@@ -37,17 +37,6 @@ Every day, your brain generates metabolic debris—protein fragments, lipids, an
 
 With over 10 million new dementia diagnoses each year and no cure, identifying modifiable factors that support this clearance system is urgent. Exercise, already known for its broad health benefits, may be one such factor. A new peer-reviewed review in Trends in Neurosciences, led by Dr. James Broatch at Victoria University, synthesizes animal and human studies to propose that exercise regulates glymphatic function through multiple interconnected pathways. This is not about a single magic bullet but a systemic intervention that touches the very physics of fluid flow and cellular health in the brain.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The review identifies several physiological changes from exercise that could enhance glymphatic clearance. First, exercise reduces blood pressure and vascular stiffness, which improves arterial pulsatility—the driving force that propels cerebrospinal fluid through perivascular spaces. Second, it lowers resting norepinephrine, a neurotransmitter that constricts perivascular spaces; reducing it may widen the channels for waste flow. Third, exercise dampens neuroinflammation, preserving the polarization of aquaporin-4 channels on astrocytic endfeet, which are critical for water flux during clearance.

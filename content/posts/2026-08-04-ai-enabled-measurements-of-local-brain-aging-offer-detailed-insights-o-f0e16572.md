@@ -27,15 +27,6 @@ This new AI model, built on structural MRI scans, generates detailed maps of 'lo
 
 For sovereign adults who want to protect their cognitive future, this is a step toward personalized brain health. Instead of a single 'brain age' number, you get a regional blueprint—where your hippocampus is aging faster than your prefrontal cortex, for instance. That is actionable intelligence.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The USC team, publishing in PNAS, trained a deep learning model on structural MRI data to predict chronological age from brain scans. But instead of a single global prediction, the model produces voxel-level maps of regional age gaps—where the brain looks older or younger than expected.

@@ -37,15 +37,6 @@ Narcolepsy is not simply 'being tired.' It is a chronic neurological condition t
 
 This phenomenon is more than a clinical curiosity. It exposes the deep wiring between emotional processing and motor control, a circuit that normally runs silently beneath awareness. Understanding why laughter triggers this collapse is a window into how the brain maintains—or fails to maintain—the integrity of voluntary movement.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this sleep health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## what was found
 
 The source material confirms that narcolepsy involves disruptions in sleep-wake regulation, leading to excessive daytime sleepiness. In some cases, it also includes cataplexy: a sudden, temporary loss of muscle strength while conscious.

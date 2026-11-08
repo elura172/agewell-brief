@@ -9,7 +9,7 @@ edition_id: "2026-08-17"
 source_url: "https://arxiv.org/abs/2608.14245"
 source_title: "Body size predicts how long ant workers live - but not how they age or how they die from heat"
 source_name: "arXiv q-bio"
-spiral: "Cell Shedding"
+spiral: "Higher Flame"
 image_provider: "Pexels"
 image_provider_id: "31756733"
 image: "/images/editions/2026-08-17/ant-mortality-is-not-one-thing-size-predicts-lifespan-but-circadian-ni-431abeff-pexels-31756733.webp"
@@ -33,17 +33,6 @@ A new study of 18 Australian ant species shows that body size predicts how long 
 For decades, the rate-of-living theory—Raymond Pearl's 1928 proposition that metabolic rate, scaling with body size, dictates lifespan—has shaped our understanding of aging across species. This new preprint tests that assumption by decomposing mortality into three distinct axes: lifespan duration, senescence trajectory, and thermal vulnerability. The results are a clear warning: a single metric like body size cannot capture the complexity of aging or climate vulnerability.
 
 In an era of rising global temperatures, knowing which species—and which individuals—are most at risk is critical. If thermal sensitivity is decoupled from body size, as this study suggests, then conservation and climate adaptation strategies based solely on size will misrank taxa. The same logic may apply to human health: our own vulnerability to heat and aging may not be predicted by simple physiological proxies.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>This is Cell Shedding territory</h3>
-<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/shedding" rel="noopener noreferrer">Walk the Cell Shedding spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
 
 ## What was found
 

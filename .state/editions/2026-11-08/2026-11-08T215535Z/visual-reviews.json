@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "bba5979fd1886fa15f044b81",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:PJziBblhxUo",
+      "score": 78,
+      "rationale": "Selected candidate 'Unsplash:PJziBblhxUo' depicting an adult standing on a balcony overlooking a forest in natural light. This satisfies the editorial intent for an authentic adult in a natural, daily life context without making medical claims, depicting clinical procedures, or utilizing fear-based brain iconography. All candidates were evaluated strictly through text metadata; visual confirmation was not performed.",
+      "concerns": [
+        "Metadata lacks explicit subject age details, but it provides a clean, non-clinical environment aligned with the brief's demand for a human context rather than literal brain models or sports activities."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1782689114465-c08f9bb707c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8YWN0aXZlJTIwYWR1bHQlMjBldmVyeWRheSUyMGxpZmV8ZW58MXwwfHx8MTc5NDE3NDk5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -22,17 +22,6 @@ Knee osteoarthritis is not a passive sentence. It is a biomechanical failure of 
 
 The stakes extend beyond the joint. Reduced movement raises the risk of heart disease, diabetes, and cancer. But the underlying physics offers a lever: cartilage is mechanosensitive. It thrives under cyclic loading and degrades under excessive impulsive force. This is not new insight. In the 1970s, Radin and Paul showed that repetitive impulsive loading—not just static compression—drives cartilage breakdown. Hefti’s biomechanical studies reinforced that moderate, cyclic stress maintains cartilage health. The modern message is a direct translation: strengthen your legs, lighten your load, and you alter the mechanical environment of your knee.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>This is Higher Flame territory</h3>
-<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this mobility story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/flame" rel="noopener noreferrer">Walk the Higher Flame spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The source, an expert commentary from Dr. Abby Cheng, an orthopedic surgeon and physiatrist at Washington University School of Medicine, outlines practical levers. Weak leg muscles and excess weight are primary risk factors. Women, older adults, those with prior knee injuries, and those with a family history are also more susceptible. But the key claim is that lifestyle changes can reduce pain and slow progression.

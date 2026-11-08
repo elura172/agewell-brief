@@ -31,15 +31,6 @@ As we age, our immune system changes in ways that can weaken vaccine responses�
 
 Adjuvants are ingredients added to vaccines to boost the immune response. The new LiteVax Adjuvant (LVA) is designed to do this more effectively in older adults. If it works, it could lead to flu vaccines that offer better protection for people over 60.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the study found
 
 In a small human study, 56 adults (18–45 and 60+) received a standard quadrivalent flu vaccine with or without LVA. Researchers tracked immune responses over time using advanced techniques like single-cell gene expression and antibody profiling.

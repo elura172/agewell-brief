@@ -34,17 +34,6 @@ Walking is the most fundamental human movement, yet it silently degrades with ag
 
 This matters because mobility is the cornerstone of independence. When walking becomes harder, people walk less, accelerating muscle loss and cardiovascular decline. Understanding the exact biomechanical trade-off—stability versus efficiency—opens a direct path to targeted interventions that could preserve gait function and quality of life.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>This is Higher Flame territory</h3>
-<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this mobility story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/flame" rel="noopener noreferrer">Walk the Higher Flame spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 Researchers analyzed movement data from 107 healthy adults aged 26 to 86. They found that older adults exhibit increased co-contraction of opposing muscles around the ankle—meaning muscles on both sides of the joint activate simultaneously. This stiffens the ankle, improving stability during foot contact but requiring more energy.

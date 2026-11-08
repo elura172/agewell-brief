@@ -37,17 +37,6 @@ Long-duration energy storage is the backbone of a renewable grid, and iron-chrom
 
 This study introduces FlowBD-E1, a machine learning framework that predicts the entire future charge trajectory from the first few cycles. By turning a short commissioning record into a long-horizon diagnostic signal, it addresses a fundamental challenge: how to foresee failure before it manifests. The principle—early patterns encode future health—resonates beyond batteries, echoing the biophysical insight that initial conditions shape systemic outcomes.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Living Waters program">
-<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
-<h3>This is Living Waters territory</h3>
-<p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/waters" rel="noopener noreferrer">Walk the Living Waters spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 Researchers analyzed an industrial 33 kW Fe-Cr redox flow battery over 289 cycles. FlowBD-E1, combining a multi-scale convolutional encoder, a lifecycle Transformer, and an age-aware FiLM decoder, was trained on just the first 9 cycles. Using recursive latent forecasting, it predicted the remaining V/I trajectories with a mean absolute percentage error of 0.731%, and state-of-health estimates below 1% MAPE.

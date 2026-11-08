@@ -36,15 +36,6 @@ Your body runs on a roughly 24-hour cycle, orchestrated by a master clock in the
 
 But aging doesn't have to mean your internal clock falls apart. A recent review in Frontiers in Neuroscience suggests that some of these changes are a normal part of aging, not a disease. The key is distinguishing between healthy adjustments and harmful disruptions—and learning what you can do to support your body's natural rhythms.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this sleep health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the review found
 
 The review, published in March 2026, pulls together decades of research on melatonin, the hormone that signals darkness and helps regulate sleep. It found that melatonin levels naturally decline with age, and that this drop is linked to weaker circadian rhythms, more fragmented sleep, and increased oxidative stress and inflammation.

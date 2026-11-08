@@ -37,15 +37,6 @@ For the millions of older adults who worry about memory lapses, the prospect of 
 
 This review, posted on the arXiv preprint server, takes stock of the technological landscape—from EEG brain-wave caps to blood tests and smartphone apps—and asks which tools are truly ready for prime time. The answer is nuanced: some advances are already changing practice, while others remain promising but unproven.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the review found
 
 The most tangible breakthrough is in blood-based biomarkers. Plasma p-tau217, a protein linked to Alzheimer's disease, has reached clinical utility, and the first blood test to aid Alzheimer's diagnosis was cleared in 2025. This is a genuine shift, offering a less invasive and more accessible way to detect amyloid pathology than PET scans or spinal taps.

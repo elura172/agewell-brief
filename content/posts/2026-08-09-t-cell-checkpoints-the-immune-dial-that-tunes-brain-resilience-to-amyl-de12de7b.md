@@ -37,17 +37,6 @@ This is not a vague correlation. The study identifies two opposing immune checkp
 
 The implication is profound: the immune system is not a passive bystander in neurodegeneration. It is an active modulator, a peripheral dial that can either amplify or buffer the toxic effects of amyloid in the brain. This reframes Alzheimer's as a systemic disorder, where the brain's fate is partly decided by the balance of co-stimulatory and co-inhibitory signals on T-cells.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 Using mass cytometry, the team profiled peripheral immune cells and related them to amyloid PET, plasma biomarkers, and longitudinal cognitive and structural outcomes. The key finding: ICOS expression on both CD4 and CD8 memory T-cells was associated with cerebral amyloid burden. In MCI, higher ICOS on CD8 memory T-cells strengthened the statistical link between amyloid load and hippocampal atrophy—a direct structural correlate.

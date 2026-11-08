@@ -31,15 +31,6 @@ For over half a century, serotonin’s role in sleep and arousal has been a neur
 
 This distinction is crucial for understanding how we rest without losing awareness, a state that may be central to practices like meditation or ‘yoga nidra.’ It also has implications for conditions like insomnia or motor disorders, where serotonin signaling is often targeted. By pinpointing the exact neural subspaces affected, we move closer to designing interventions that promote rest without cognitive dulling.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 Using optogenetics and whole-brain calcium imaging in larval zebrafish, researchers activated dorsal raphe nucleus (DRN) serotonin neurons and observed a profound behavioral quiescence. Unlike natural sleep, this state did not cause postural instability—the fish remained upright and responsive to balance. Moreover, nighttime activation led to a subsequent sleep rebound, indicating that the induced quiescence is not sleep itself but a distinct state.

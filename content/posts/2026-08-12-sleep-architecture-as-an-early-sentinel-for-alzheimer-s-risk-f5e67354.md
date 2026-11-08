@@ -36,17 +36,6 @@ Sleep is not passive downtime. It is a period of intense physiological work: syn
 
 If sleep architecture can serve as a non-invasive biomarker, it could transform screening. A simple overnight EEG might reveal risk long before a PET scan or spinal tap becomes necessary.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The ULiège team is investigating whether specific sleep features—such as altered slow-wave activity, reduced sleep spindle density, or disrupted sleep continuity—correlate with early Alzheimer's pathology. The premise builds on Hans Berger's 1929 invention of EEG, which first revealed that brain electrical activity during sleep is a rich, quantifiable signal.

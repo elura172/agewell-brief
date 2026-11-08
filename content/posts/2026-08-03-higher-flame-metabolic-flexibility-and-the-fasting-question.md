@@ -30,15 +30,6 @@ Fasting is no longer a fringe topic. It is studied in relation to body weight, g
 
 The useful question is not whether fasting is universally good. It is whether a particular pattern fits a person’s health, medication, work, sleep, and relationship with food.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>This is Higher Flame territory</h3>
-<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/flame" rel="noopener noreferrer">Walk the Higher Flame spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the framework emphasizes
 
 The guide pairs an 18:6 eating window with broccoli sprouts, sulforaphane, resveratrol, curcumin, and NAC. Its conceptual centre is hormesis: a small stress signal that may prompt adaptive responses. It also emphasizes that growing broccoli sprouts can be an inexpensive food-based experiment.

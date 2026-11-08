@@ -25,17 +25,6 @@ The brain is not a static organ. It is a viscoelastic structure—part solid, pa
 
 For decades, biophysicists like Mae-Wan Ho have emphasized that living tissues are liquid crystalline matrices, where water structure and charge dynamics govern function. Estrogen's effect on hippocampal stiffness fits this framework: hormones alter the extracellular matrix, astrocyte swelling, and vascular tone, changing the tissue's mechanical landscape. This is not just a chemical signal—it is a physical remodeling that may underpin how the brain adapts to changing internal states.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 Researchers used magnetic resonance elastography (MRE), a specialized imaging technique that measures tissue stiffness by propagating shear waves through the brain. They observed that estrogen fluctuations across the reproductive cycle correspond to measurable changes in hippocampal mechanical properties. The study suggests that these changes reflect hormone-driven reshaping of neuronal connections, likely involving extracellular matrix turnover and glial cell dynamics.

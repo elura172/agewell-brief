@@ -37,17 +37,6 @@ Sleep is not a shutdown. It is a reorientation. For decades, we have known that 
 
 This matters for healthspan because sleep quality is a cornerstone of cognitive resilience. If REM sleep is when the brain consolidates memories and processes emotions, understanding how it gates sensory input could illuminate why disrupted sleep accelerates cognitive decline. The mechanism is not mystical—it is a measurable shift in sensory gating, likely mediated by thalamocortical circuits that regulate which signals reach the cortex.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The study, led by scientists at the universities of Lausanne and Geneva, used EEG recordings to track brain responses to sensory stimuli across sleep stages. The key observation: as participants entered REM sleep, cortical responses to external stimuli (such as sounds or touches) gradually weakened, while responses to internal bodily signals—heartbeat, respiration, visceral input—were preserved or even amplified.

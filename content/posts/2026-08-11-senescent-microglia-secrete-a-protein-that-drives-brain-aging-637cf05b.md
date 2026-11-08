@@ -9,7 +9,7 @@ edition_id: "2026-08-11"
 source_url: "https://medicalxpress.com/news/2026-08-protein-secreted-immune-cells-brain.html"
 source_title: "Protein secreted by immune cells may help drive brain aging"
 source_name: "Medical Xpress Neurology"
-spiral: "Luminous Mind"
+spiral: "Cell Shedding"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
@@ -21,17 +21,6 @@ A new study reveals a specific mechanism by which aging immune cells in the brai
 Aging brains lose cognitive sharpness and become vulnerable to neurodegeneration. The underlying cellular drivers have remained elusive, but a new study from Weill Cornell Medicine identifies a concrete molecular culprit: senescent brain-resident immune cells secrete a protein that disrupts other brain cells. This is a direct, testable mechanism—not a vague correlation.
 
 This finding connects to a deeper biophysical lineage. Leonard Hayflick's 1961 discovery of cellular senescence established that cells have a finite replicative lifespan. Judith Campisi's 2008 work showed that senescent cells secrete a cocktail of inflammatory factors—the Senescence-Associated Secretory Phenotype (SASP). The current study provides a specific example in the brain: a SASP factor from senescent microglia that impairs neuronal function.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
 
 ## what was found
 

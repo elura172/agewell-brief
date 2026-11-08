@@ -25,15 +25,6 @@ Sarcopenia—the progressive loss of muscle mass and strength—afflicts over 10
 
 The new study identifies a specific molecular culprit: the enzyme 15-prostaglandin dehydrogenase (15-PGDH), which degrades prostaglandin E2 (PGE2). In geriatric mice, 15-PGDH activity is elevated, suppressing PGE2 levels and silencing the muscle's growth response. Inhibiting this enzyme restores PGE2, reawakening the anabolic machinery—a potential pharmacological lever to combat sarcopenia.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>This is Cell Shedding territory</h3>
-<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/shedding" rel="noopener noreferrer">Walk the Cell Shedding spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 Researchers used pharmacological inhibition of 15-PGDH in aged mice subjected to mechanical overload—a model of resistance exercise. The treatment rescued the anabolic response, increasing muscle growth and contractile strength. Single-nuclei RNA-seq revealed the underlying paracrine circuit: PGE2 drives IGF1 synthesis specifically in type IIb myonuclei, which then signals to stromal, myogenic, myonuclear, and immune cells.

@@ -9,7 +9,7 @@ edition_id: "2026-08-10"
 source_url: "https://pubmed.ncbi.nlm.nih.gov/41452713/"
 source_title: "Aging as a Networked Process: Systems, Signals, and Interventions Across the Lifespan."
 source_name: "PubMed"
-spiral: "Higher Flame"
+spiral: "Living Waters"
 autoresearch_antecedents: [{"scientist": "Denham Harman", "year": "1956", "discovery": "Proposed the free radical theory of aging, positing that accumulated oxidative damage from mitochondrial metabolism drives cellular and organismal decline. This directly anticipates the modern focus on mitochondrial dysfunction as a shared mechanism of aging across tissues, and the emphasis on systemic stressors (e.g., hypoxia, metabolic shifts) that modulate redox balance."}, {"scientist": "August Krogh", "year": "1919", "discovery": "Established the principle that capillary density and oxygen delivery are tightly regulated to match tissue metabolic demand, and that local microenvironments (e.g., hypoxia) shape physiological responses. This underpins the modern finding that tissue-specific microenvironments determine how systemic stressors like hypoxia produce heterogeneous aging outcomes, and that vascular dysfunction is an upstream driver of multi-system decline."}]
 evidence_position: "emerging"
 topics: ['detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']

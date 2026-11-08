@@ -37,15 +37,6 @@ Alzheimer's disease is often diagnosed late, when symptoms are already significa
 
 For adults over 50, understanding how Alzheimer's affects the brain is crucial. This study offers a glimpse into how AI might help doctors see the disease's signature in individual brains, potentially leading to more tailored care. It's a step toward precision medicine for brain health.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the study found
 
 Researchers developed a model called MPP-GNN that analyzes fMRI data by first identifying each person's unique functional brain modules—groups of regions that work together. Then, it uses these personalized modules to guide the classification of Alzheimer's disease. The model was tested on two public datasets and achieved the highest accuracy (AUC) compared to existing methods.

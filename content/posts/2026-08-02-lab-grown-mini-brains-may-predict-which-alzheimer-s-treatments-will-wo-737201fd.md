@@ -35,15 +35,6 @@ Alzheimer's disease affects more than 7 million Americans, and while there is no
 
 This study, led by scientists at Johns Hopkins Medicine, suggests that miniature brain models grown from a patient's own cells could help change that. By observing how these 'organoids' respond to a drug, researchers hope to identify subgroups of patients who are more likely to respond to specific treatments, moving closer to personalized care.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the study found
 
 The researchers created hindbrain organoids from blood cells of people with Alzheimer's and healthy controls. These pea-sized clusters of tissue contained neurons that produce serotonin, a chemical targeted by antidepressants. Compared to healthy organoids, those from Alzheimer's patients showed distinct differences in proteins linked to cell communication, inflammation, and disease pathways.

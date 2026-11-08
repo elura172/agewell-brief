@@ -37,15 +37,6 @@ Sleep is a cornerstone of health, yet many older adults struggle to get enough. 
 
 The idea that sleep duration could influence the rate of aging is compelling. If confirmed, it would give us a simple, non-pharmaceutical way to support long-term health. But as with any single study, we need to look closely at what was actually found.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this sleep health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 According to the Verywell Health article, researchers found that people who slept between 6.4 and 7.8 hours a night showed signs of slower aging compared to those who slept more or less. The study likely used biological markers of aging, though the specific measures aren't detailed in the summary.

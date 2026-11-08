@@ -37,17 +37,6 @@ Your brain is not a sealed vault. Every breath pulls in a chemical cocktail that
 
 This is not abstract epidemiology. It's a direct challenge to the assumption that neurodegeneration is purely genetic or age-driven. If the air you breathe can reshape the physical architecture of your hippocampus and entorhinal cortex—the very tissues Alois Alzheimer identified as ground zero for plaques and tangles in 1906—then environmental exposure becomes a modifiable variable in the healthspan equation.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The study, led by researchers at the Stevens INI, used advanced neuroimaging to compare brain structure against estimated exposure to common outdoor air pollutants. The result: a statistical association between higher pollution exposure and structural changes in brain regions that are especially vulnerable to Alzheimer's disease.

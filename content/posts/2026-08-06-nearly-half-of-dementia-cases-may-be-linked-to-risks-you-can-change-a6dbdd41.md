@@ -25,15 +25,6 @@ Dementia is not a single disease but a spectrum of brain pathologies. The two mo
 
 The Lund University study, published in The Journal of Prevention of Alzheimer's Disease, tracked 500 cognitively healthy adults (average age 65) for four years. It measured changes in white matter—nerve fibers critical for brain connectivity—and levels of amyloid-β and tau proteins, the hallmarks of Alzheimer's. The results provide a mechanistic link between lifestyle factors and brain damage, offering a tangible target for intervention.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this metabolic health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The study identified that most modifiable risk factors—smoking, cardiovascular disease, high blood lipids, and high blood pressure—were associated with damage to the brain's blood vessels and a faster accumulation of white matter changes. These changes impair blood vessel function, leading to vascular brain damage that can culminate in vascular dementia. This aligns with the historical understanding from Thomas Willis in 1664, who first linked cognitive decline to vascular abnormalities.

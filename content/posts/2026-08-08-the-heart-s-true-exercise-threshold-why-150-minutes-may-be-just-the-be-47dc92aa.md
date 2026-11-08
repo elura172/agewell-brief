@@ -39,15 +39,6 @@ This isn't just a number tweak. It's a fundamental question about how much mecha
 
 For sovereign adults who view their bodies as adaptive systems, this reframes exercise from a chore to a strategic investment. The question isn't 'Am I doing enough?' but 'What is my heart's actual capacity, and how do I push it toward its genetic potential?'
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Higher Flame program">
-<p class="resource-kicker">Spiral of Cellular Light · Higher Flame</p>
-<h3>This is Higher Flame territory</h3>
-<p>Metabolic resilience and mitochondria — mitochondrial respiration, fuel flexibility, and thermogenesis. The Higher Flame spiral is the protocol built for the exact mechanism this mobility story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/flame" rel="noopener noreferrer">Walk the Higher Flame spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/higher-flame-field-guide.pdf" download>Download the Higher Flame field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NQ==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 Researchers at Macao Polytechnic University analyzed 17,088 UK Biobank participants, average age 57, who wore wrist accelerometers for seven days and completed a cycling test to estimate VO2 max—the gold-standard measure of cardiorespiratory fitness. Over 7.8 years, they recorded 1,233 cardiovascular events, including atrial fibrillation, heart attacks, heart failure, and strokes.

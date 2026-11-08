@@ -30,15 +30,6 @@ The companion guide describes transport as the foundation beneath a broader rege
 
 This is a program perspective, not an independent clinical review. The guide uses the language of detoxification and recirculation to explain why some people report feeling worse when they change several supplements or routines at once. Those experiences can have many causes, including side effects, interactions, dehydration, fasting, or an underlying medical condition.
 
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Living Waters program">
-<p class="resource-kicker">Spiral of Cellular Light · Living Waters</p>
-<h3>This is Living Waters territory</h3>
-<p>Fluid and micro-circulation — structured water, vascular transport, and clearing pathways. The Living Waters spiral is the protocol built for the exact mechanism this detoxification story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/waters" rel="noopener noreferrer">Walk the Living Waters spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/living-waters-field-guide.pdf" download>Download the Living Waters field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What the framework emphasizes
 
 The guide organizes its approach around liver processing and three exit routes. It discusses Phase 1 and Phase 2 liver metabolism, hydration and kidney function, regular bowel movements, and sweating as parts of one connected picture.

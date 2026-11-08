@@ -22,17 +22,6 @@ Alzheimer's disease is not a switch that flips from healthy to demented. It is a
 
 This study from arXiv introduces Disease Continuum Positioning (DCP), a longitudinal Bayesian learning framework that treats disease severity as a low-dimensional probabilistic variable. It derives a Disease Continuum Score (DCS) from diffusion tensor imaging (DTI), capturing where an individual sits along the Alzheimer's continuum—with quantified uncertainty. This is a shift from categorical labels to a continuous, biophysically grounded measurement of neural tissue integrity.
 
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this brain health story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
-
 ## What was found
 
 The researchers trained DCP on longitudinal DTI data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort. DTI measures the directional diffusion of water molecules in white matter—a proxy for axonal integrity and myelin health. As Alzheimer's progresses, this diffusion becomes more isotropic, reflecting microstructural breakdown. DCP integrates these longitudinal observations with weak clinical supervision to estimate a latent disease severity variable.

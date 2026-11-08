@@ -9,7 +9,7 @@ edition_id: "2026-08-18"
 source_url: "https://arxiv.org/abs/2607.16491"
 source_title: "Continuous 3-D Latent Diffusion for Medical Image Generation and Reconstruction"
 source_name: "arXiv medical physics"
-spiral: "Luminous Mind"
+spiral: "Living Waters"
 autoresearch_antecedents: [{"scientist": "Godfrey Hounsfield", "year": "1973", "discovery": "Developed the first clinical CT scanner, introducing the concept of reconstructing 3D volumetric images from 2D projection measurements. This directly parallels the modern framework's measurement-guided reconstruction, where sparse-view CT data is used to generate full volumes via a latent diffusion prior with hard data consistency."}, {"scientist": "Paul Lauterbur", "year": "1973", "discovery": "Introduced spatial encoding in MRI using magnetic field gradients, enabling the reconstruction of 2D and 3D images from k-space measurements. This anticipates the accelerated MRI reconstruction in the preprint, where the latent prior is conditioned on undersampled measurements, echoing Lauterbur's principle of reconstructing images from incomplete Fourier data."}]
 evidence_position: "emerging"
 topics: ['brain health', 'general wellness', 'longevity', 'sleep health']
@@ -23,17 +23,6 @@ A new framework generates coherent CT and MRI volumes from sparse data using a c
 Medical imaging is a biophysical act: it reconstructs the invisible architecture of living tissue from scattered photons or nuclear spins. For decades, the cost of processing full 3-D volumes has constrained diffusion models, the AI engines that can generate or restore images. This preprint from arXiv introduces a continuous 3-D latent diffusion model that promises to cut computational load dramatically while preserving structural fidelity.
 
 For the sovereign reader, this is not about faster scans alone. It is about the physics of measurement and reconstruction—how we infer the whole from fragments. The framework's ability to generate coherent volumes from sparse-view CT or accelerated MRI data without retraining speaks to a deeper principle: that a single latent prior can encode the statistical anatomy of the human body, much as the Radon transform encodes a slice from projections.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Luminous Mind program">
-<p class="resource-kicker">Spiral of Cellular Light · Luminous Mind</p>
-<h3>This is Luminous Mind territory</h3>
-<p>Cognitive and neural coherence — glymphatic clearance, neuroplasticity, and brain entrainment. The Luminous Mind spiral is the protocol built for the exact mechanism this general wellness story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/mind" rel="noopener noreferrer">Walk the Luminous Mind spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/luminous-mind-field-guide.pdf" download>Download the Luminous Mind field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
 
 ## What was found
 

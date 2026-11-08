@@ -1,6 +1,7 @@
 #!/bin/zsh
 set -euo pipefail
 
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 REPO="/Users/mirrr/agewell-brief"
 LOCK="/tmp/agewell-daily-pulse.lock"
 

@@ -1067,8 +1067,6 @@ def markdown(
             f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
             for section in content.get("sections", [])
         ]
-        if section_blocks and spiral:
-            section_blocks.insert(1, spiral_card(spiral, category, placement="opening"))
         sections = "\n\n".join(section_blocks)
     health_note = content["caveat"]
     # The template resolves the closing protocol card from this, so both cards on

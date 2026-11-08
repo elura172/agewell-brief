@@ -9,7 +9,7 @@ edition_id: "2026-08-15"
 source_url: "https://medicalxpress.com/news/2026-08-adults-older-statins-similar-year.html"
 source_title: "Adults 75 and older who stopped statins had similar three-year survival, trial finds"
 source_name: "Medical Xpress Healthy Aging"
-spiral: "Cell Shedding"
+spiral: "Higher Flame"
 evidence_position: "established"
 topics: ['cellular senescence', 'detoxification', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters']
@@ -22,17 +22,6 @@ A randomized trial finds that discontinuing statins in older adults without prio
 Statins are the cornerstone of atherosclerotic cardiovascular disease prevention, working by inhibiting HMG-CoA reductase to lower hepatic cholesterol synthesis. For adults 75 and older without a history of heart attack or stroke, the balance of benefit and harm becomes murkier. Polypharmacy, muscle symptoms, and reduced physiological reserve complicate long-term use.
 
 This trial directly addresses a common clinical dilemma: can older patients safely stop a preventive medication they may no longer need? The answer, at least over three years, appears to be yes for mortality—but the metabolic consequences are not trivial. Understanding the underlying lipid dynamics is essential for making an informed choice.
-
-
-
-<aside class="resource-card resource-card--primary resource-card--opening" aria-label="Cell Shedding program">
-<p class="resource-kicker">Spiral of Cellular Light · Cell Shedding</p>
-<h3>This is Cell Shedding territory</h3>
-<p>Senescence and cellular renewal — senolytic clearing, autophagy activation, and SASP reduction. The Cell Shedding spiral is the protocol built for the exact mechanism this longevity story turns on.</p>
-<p><a class="resource-link" href="https://spiraloflight.life/teaching/shedding" rel="noopener noreferrer">Walk the Cell Shedding spiral <span aria-hidden="true">→</span></a></p>
-<p class="resource-guide"><a href="/downloads/field-guides/cell-shedding-field-guide.pdf" download>Download the Cell Shedding field guide (PDF)</a></p>
-<p class="resource-sourcing">In Canada, the supplements for this protocol are stocked at <a href="https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==" rel="sponsored noopener noreferrer">our Fullscript dispensary</a>. Commission-supported; no added cost to you.</p>
-</aside>
 
 ## What the trial found
 
