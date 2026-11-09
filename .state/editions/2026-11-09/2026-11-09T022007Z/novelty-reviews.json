@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "b9eab8482ad83c502c8a6f88": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "specific mechanism / intervention in high-risk subgroup",
+      "reason": "It investigates a short (four-week), low-dose rapamycin intervention specifically in pre-symptomatic, middle-aged adults carrying the APOE4 allele, showing sex-dimorphic improvements in cerebral blood flow.",
+      "angle": "Targeted Prophylaxis: How Low-Dose Rapamycin Rescues Brain Hemodynamics in Pre-Symptomatic APOE4 Carriers",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Re-aggregates well-known epidemiological correlations between 7 hours of sleep and general health outcomes without introducing a novel mechanism or intervention.",
+      "angle": "None; hold due to recycled lifestyle advice.",
+      "mode": "agent"
+    },
+    "6de37cde9637761908b280d7": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "unusual result / novel inter-organ axis",
+      "reason": "Uncovers an unexpected gut-liver-brain axis where pharmacological rejuvenation of aging liver cells halves circulating Alzheimer's-linked proteins and restores a previously unknown extracellular communication system.",
+      "angle": "The Liver-Brain Connection: Clearing Alzheimer’s Plaque by Rejuvenating Hepatic Function",
+      "mode": "agent"
+    },
+    "f4e7b57f28941f6c54c74e23": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "named neural circuit / cell-nonautonomous signaling pathway",
+      "reason": "Maps a precise cell-nonautonomous neural circuit (HIF-1 in ADF serotonergic neurons to SER-7 receptors on GABAergic RIS interneurons) driving hypoxia-induced longevity.",
+      "angle": "Circuit-Level Longevity: Mapping the Serotonergic and GABAergic Neurons That Translate Hypoxic Stress into Lifespan Extension",
+      "mode": "agent"
+    },
+    "b4e9dd5ec9a5e33c0066c7ff": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "empty journal issue listing",
+      "reason": "Contains no abstract, narrative, or specific findings beyond an issue title for a well-studied topic.",
+      "angle": "None; insufficient content.",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "preclinical neurochemical observation",
+      "reason": "Highlights hippocampal dopamine dysregulation from overtraining, which is interesting but lacks actionable translation or systemic longevity mechanisms for our core reader interest.",
+      "angle": "When Exercise Backfires: Overtraining Disrupts Resting Dopamine Dynamics in the Hippocampus",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "systematic review of heterogeneous preclinical data",
+      "reason": "A systematic review highlighting a total lack of human studies and highly fragmented animal data regarding fasting and epigenetics.",
+      "angle": "Epigenetic Gaps: Why Preclinical Fasting Studies Have Yet to Translate to Human Brain Aging",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "broad narrative review",
+      "reason": "Covers high-level relationships between sleep, redox balance, and aging without presenting a primary experimental breakthrough.",
+      "angle": "None; hold in favor of primary mechanistically detailed studies.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "generic consumer health piece",
+      "reason": "Broad consumer-level advisory on supplement safety for older adults with no new data or actionable scientific discoveries.",
+      "angle": "None; generic advice.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "b9eab8482ad83c502c8a6f88",
+    "6de37cde9637761908b280d7",
+    "f4e7b57f28941f6c54c74e23"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "b4e9dd5ec9a5e33c0066c7ff",
+    "a2f082a62767b4c84fb98f98",
+    "4fa1cbe537a2dff42f96cb80",
+    "0b7d57db98938147adfb915a",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}

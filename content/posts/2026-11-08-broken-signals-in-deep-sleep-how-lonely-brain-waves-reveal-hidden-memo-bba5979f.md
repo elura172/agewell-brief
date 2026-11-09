@@ -22,6 +22,8 @@ image_photographer_url: "https://unsplash.com/@silverkblack?utm_source=agewellbr
 image_source_url: "https://unsplash.com/photos/two-doctors-examining-a-brain-mri-scan-together-AB0r9z7eRYg?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#404040"
+topics: ['brain health', 'consumer safety', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 Researchers at UC Berkeley reveal that tau protein accumulation disrupts the sweeping bioelectric waves of deep sleep, fracturing overnight memory consolidation long before cognitive symptoms surface.

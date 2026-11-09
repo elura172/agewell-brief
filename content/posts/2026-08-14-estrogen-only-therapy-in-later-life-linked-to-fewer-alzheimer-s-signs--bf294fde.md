@@ -24,7 +24,7 @@ image_photographer_url: "https://unsplash.com/@keithtanman?utm_source=agewellbri
 image_source_url: "https://unsplash.com/photos/two-women-looking-at-a-computer-screen-with-mri-images-on-it-R4EFle2r8yA?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#8c8c8c"
-topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
+topics: ['brain health', 'consumer safety', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

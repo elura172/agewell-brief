@@ -22,7 +22,7 @@ image_photographer_url: "https://unsplash.com/@whisperingshiba?utm_source=agewel
 image_source_url: "https://unsplash.com/photos/a-close-up-of-a-human-brain-on-a-black-background-ii6BOPjAtVY?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#c0c0d9"
-topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+topics: ['brain health', 'consumer safety', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "b9eab8482ad83c502c8a6f88",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "9e57321706444f06",
+        "source": "Dr. Harold Saxton Burr (1935) — The Fields of Life: Our Links with the Universe (L-Fields)",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      },
+      {
+        "source_id": "4f70da432ef323fc",
+        "source": "Dr. Hans Selye (1956) — The Stress of Life & General Adaptation Syndrome",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 8
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
