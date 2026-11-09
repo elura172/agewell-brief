@@ -1,63 +1,7 @@
 {
-  "generated_at": "2026-11-09T02:20:06.859203+00:00",
+  "generated_at": "2026-11-09T22:55:53.101828+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
-    {
-      "topic": "alzheimer assessment biomarker circadian clinical disease disturbances inference limits sleep syndromes treatable",
-      "headline": "Sleep and circadian disturbances in Alzheimer’s disease: clinical assessment, treatable syndromes, and limits of biomarker inference - Frontiers",
-      "category": "sleep health",
-      "score": 26.0,
-      "mention_count": 5,
-      "source_count": 2,
-      "sources": [
-        "Frontiers",
-        "Nature"
-      ],
-      "newest": "2026-10-17T16:55:52+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "Sleep and circadian disturbances in Alzheimer’s disease: clinical assessment, treatable syndromes, and limits of biomarker inference - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM3A1bnhKa1lIWFVqc3BBMXRDY3Bxb3hQSV9mLXpsZGd5N2RMYUI2enRoYWpJQkxtNVIxSE81WGRLcTFzMTUxVGE5R1dPSFlnUUtud1BTM1dvSHZIZ0pINVlwaWVSbkdELWQ5c1NhWXJwWDZmazNuS3lMbGF5aDNOZlo1MlBpaU56eEFHXzZTQkk?oc=5",
-          "source": "Frontiers",
-          "published": "Sat, 17 Oct 2026 16:55:52 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Research advances in the study of sleep disorders, circadian rhythm disturbances and Alzheimer’s disease - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnRteFkyQzM2S2FRUVVGN1RWSmdYVy1jZ3hpcmI3dXY1anNCZFdKdGFNZncyOUtqZ2NEOWpIVmNaeUJ2a2M2ZTNvZUFPNWVLTGhRTF9SdXhRd211MmhzUHc4Y3lacWhTSXBkNzFaQ0pULU5xZmRJd29fbmV5aFNMWWJzbzZ0ZnNRNXFQcnJ1VzVtMEFEeEFqUUVfUQ?oc=5",
-          "source": "Frontiers",
-          "published": "Tue, 16 Aug 2022 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        },
-        {
-          "title": "Sleep, circadian rhythms, and the pathogenesis of Alzheimer Disease - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5dlBvei1VRzZnTFlmRDFOcTEwazFmVXN5MWxwTEpTYnNva0xVck1JM0VwNDRWVkFOcGFqYTdvVllnNzBjdFlsS0JlUmkycFNmTUt4MQ?oc=5",
-          "source": "Nature",
-          "published": "Fri, 13 Mar 2015 07:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        }
-      ]
-    },
     {
       "topic": "body faster little make much sleep your",
       "headline": "Too much or too little sleep may make your body age faster - Science Daily",
@@ -96,6 +40,86 @@
           "published": "Wed, 13 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "circadian disturbances frailty risk",
+      "headline": "Circadian disturbances and frailty risk in older adults - Nature",
+      "category": "sleep health",
+      "score": 18.0,
+      "mention_count": 3,
+      "source_count": 2,
+      "sources": [
+        "Frontiers",
+        "Nature"
+      ],
+      "newest": "2023-11-16T08:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        },
+        {
+          "title": "Research advances in the study of sleep disorders, circadian rhythm disturbances and Alzheimer’s disease - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnRteFkyQzM2S2FRUVVGN1RWSmdYVy1jZ3hpcmI3dXY1anNCZFdKdGFNZncyOUtqZ2NEOWpIVmNaeUJ2a2M2ZTNvZUFPNWVLTGhRTF9SdXhRd211MmhzUHc4Y3lacWhTSXBkNzFaQ0pULU5xZmRJd29fbmV5aFNMWWJzbzZ0ZnNRNXFQcnJ1VzVtMEFEeEFqUUVfUQ?oc=5",
+          "source": "Frontiers",
+          "published": "Tue, 16 Aug 2022 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        },
+        {
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
+      "topic": "balance cedars exercises mobility seniors sinai strength",
+      "headline": "Balance Exercises for Seniors: Strength and Mobility - Cedars-Sinai",
+      "category": "mobility",
+      "score": 18.0,
+      "mention_count": 3,
+      "source_count": 2,
+      "sources": [
+        "Care.com",
+        "Fit&Well"
+      ],
+      "newest": "2026-10-13T07:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "Balance Exercises for Seniors: Strength and Mobility - Cedars-Sinai",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOVJqOHVNWGk0ejMwZTFYNHoxTFNmQmhMejA5U2lXTEtVQ1RMZ1c3NWE1Mlo5V0ZyWFlpZVc1YUs0b2Y4X3dFY0ZZZ0NOY0VMUkk4X3FMekozNkwybjlJNEV1SjkzNWY0ZDJQd21ZSFV0Si1QWVVJNmowOHUtVWJxdDZ6MVE5LXpXb3phVXFQVEM4U1pRdGpVN1hCa01odDRVYWV3VEdGWHhkLV8xY1MyYUJQRQ?oc=5",
+          "source": "",
+          "published": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
+        },
+        {
+          "title": "A trainer who specializes in working with seniors shares a “simple and safe” daily workout to improve balance, strength and mobility at home - Fit&Well",
+          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPeDVWMktfU3N6WEpJYzNBQ29kMW1SeDl3Q0VIcHN5ZGJoUUZ3bE1ibFczUHpUN19HU1FjczJSQUZxenhJR0VrRzExRTBKQlRZa1N6NmhxS2dCSGpIVmR2MDQ0dDFtd0x3Tkh4cnkwMFJlWjhocWFoVl90OEhsbHJwWXNCbDlZYW02enlsMXYwWjY1VWJraUNGV19qZnRpZUROcFozNElDSHRzZUcxd2JkMTU5d1lnd2IwQVFHY3piZnBUQ183YUZBOHNvUWJwYXNuNThoQVF2dld3SWx5SEU4N3FFNVUxeElRMzl6YTh2TEZid1ZIMEZqX0kyOVl0eElLWG1QRm0tZk5wYXBuYXZXRGphVm9Pdw?oc=5",
+          "source": "Fit&Well",
+          "published": "Thu, 05 Mar 2026 08:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
+        },
+        {
+          "title": "13 balance exercises for seniors to build strength and mobility - Care.com",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lYzEyM3ZvYlVZV2xVUllXd3hjTDh4Y0NKV2h1OW5uWFZCSjFBRFVwenppTDhsS0tiYVowcXVlM3NUZWJ0NFVfUGMyS3N3clhnX2JxbnhJaFlZT3hOdkozVzJsRQ?oc=5",
+          "source": "Care.com",
+          "published": "Mon, 24 Nov 2025 08:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
         }
       ]
     },
@@ -292,33 +316,57 @@
       ]
     },
     {
-      "topic": "beyond five habits healthy successfully",
-      "headline": "Five healthy habits for successfully aging in our 60s and 70s — and beyond - Stanford Medicine",
-      "category": "general wellness",
-      "score": 11.0,
+      "topic": "alzheimer buying circadian cognitive delay disease examining impairment interventions mild progression rationale rhythm sleep time",
+      "headline": "Sleep, circadian rhythms, and the pathogenesis of Alzheimer Disease - Nature",
+      "category": "brain health",
+      "score": 14.0,
       "mention_count": 2,
+      "source_count": 2,
+      "sources": [
+        "Frontiers",
+        "Nature"
+      ],
+      "newest": "2015-03-13T07:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "Buying time: a rationale for examining the use of circadian rhythm and sleep interventions to delay progression of mild cognitive impairment to Alzheimer’s disease - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQY2JKTWtCX2Nqd3ZuZXQ0c3dlclRBTENaTF8yRFFFbkhkdEQyTW4tSTBZd2V2OU5IaVpNZ2NIX0xOVFRIVzFrMDB3ZWFDa1pyZE1UdHRKanBYVUNnSXMwbXpLWmU5SF9jSk9ncEkzTXdUY0x4b1dXYkFObms4REtXZnYxZW9rVFdXS19kOWNEaGttdFRQSUMxWmdn?oc=5",
+          "source": "Frontiers",
+          "published": "Mon, 08 Dec 2014 08:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        },
+        {
+          "title": "Sleep, circadian rhythms, and the pathogenesis of Alzheimer Disease - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5dlBvei1VRzZnTFlmRDFOcTEwazFmVXN5MWxwTEpTYnNva0xVck1JM0VwNDRWVkFOcGFqYTdvVllnNzBjdFlsS0JlUmkycFNmTUt4MQ?oc=5",
+          "source": "Nature",
+          "published": "Fri, 13 Mar 2015 07:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
+      "topic": "agency announces cris healthy hoopeston lunch multi november service",
+      "headline": "CRIS Healthy Aging Announces: No Lunch at Hoopeston Multi-Agency Service on November 11 - Vermilion County First",
+      "category": "general wellness",
+      "score": 11.76,
+      "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Stanford Medicine"
+        "Vermilion County First"
       ],
-      "newest": "2026-01-07T08:00:00+00:00",
+      "newest": "2026-11-09T20:37:30+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Five healthy habits for successfully aging in our 60s and 70s — and beyond - Stanford Medicine",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMU5GTnV3c1RQTk5IRlRJcWFwdTFZbk14LWsxdjBKYkpVTEd5bnlSZlRvNkVpaU5WeUVQUklRUXJJcEQ2ODZxRFRKemxiYWR0Qm4wTUhnWmk2VXB6TXdWUm80clpmYzB6QjFGWGlLX200Mjl2V1BVWWF0SndqZC1QdjgwTERnV0hzeW04eWNSZmppcXk2TmtTNldWRnRqeXBs?oc=5",
-          "source": "Stanford Medicine",
-          "published": "Wed, 07 Jan 2026 08:00:00 GMT",
+          "title": "CRIS Healthy Aging Announces: No Lunch at Hoopeston Multi-Agency Service on November 11 - Vermilion County First",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZlBWTXBsclA4eWY3bXRNVVZQc21PM0gxcU44M3RZR0UtbFE5S0R3cDdqNTBKaHZsNnQ1UHozM3BWLXVjdWJYOTlIaUZoQ19mY2RjSnpMc3JZTGlsazUxN1RuMEtockxVQU5maTNGZWtXYS05NHdBdWlQN0lmeVdMakVzV0xUcUthQWxYX21lUFVoWV9fbllUcVRaZnV0ZjJ2Y2hMVg?oc=5",
+          "source": "Vermilion County First",
+          "published": "Mon, 09 Nov 2026 20:37:30 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
-        },
-        {
-          "title": "Five healthy habits for longevity in your 40s and 50s - Stanford Medicine",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd2Nya204WjQ1ZHdQU3l4LWd6aWtKbzNMV3BqMGs1bkFSM3ZtQ1M5aWZPWUZWRnFDa1daS0NCSGpqZGxPTUtQTlJDTmJqZzVxOWlOaE1Sci0yaWRrQTI3MWZkMmQ0SnB1YWJ0eFNyelYtbnN0S3lfYWJ5WExGWnFUUm80TFJ3TTlXSDJzYi00MlFydw?oc=5",
-          "source": "Stanford Medicine",
-          "published": "Wed, 07 Jan 2026 08:00:00 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
         }
       ]
     },
@@ -447,54 +495,69 @@
       ]
     },
     {
-      "topic": "balance cedars exercises mobility seniors sinai strength",
-      "headline": "Balance Exercises for Seniors: Strength and Mobility - Cedars-Sinai",
-      "category": "mobility",
-      "score": 11.0,
-      "mention_count": 2,
+      "topic": "disease shortcut supplements treating warns",
+      "headline": "FDA warns: Supplements are no shortcut to treating disease - NewsLine Philippines",
+      "category": "consumer safety",
+      "score": 10.29,
+      "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Fit&Well"
+        "NewsLine Philippines"
       ],
-      "newest": "2026-10-13T07:00:00+00:00",
+      "newest": "2026-11-09T06:30:16+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Balance Exercises for Seniors: Strength and Mobility - Cedars-Sinai",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOVJqOHVNWGk0ejMwZTFYNHoxTFNmQmhMejA5U2lXTEtVQ1RMZ1c3NWE1Mlo5V0ZyWFlpZVc1YUs0b2Y4X3dFY0ZZZ0NOY0VMUkk4X3FMekozNkwybjlJNEV1SjkzNWY0ZDJQd21ZSFV0Si1QWVVJNmowOHUtVWJxdDZ6MVE5LXpXb3phVXFQVEM4U1pRdGpVN1hCa01odDRVYWV3VEdGWHhkLV8xY1MyYUJQRQ?oc=5",
-          "source": "",
-          "published": "Tue, 13 Oct 2026 07:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
-        },
-        {
-          "title": "A trainer who specializes in working with seniors shares a “simple and safe” daily workout to improve balance, strength and mobility at home - Fit&Well",
-          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPeDVWMktfU3N6WEpJYzNBQ29kMW1SeDl3Q0VIcHN5ZGJoUUZ3bE1ibFczUHpUN19HU1FjczJSQUZxenhJR0VrRzExRTBKQlRZa1N6NmhxS2dCSGpIVmR2MDQ0dDFtd0x3Tkh4cnkwMFJlWjhocWFoVl90OEhsbHJwWXNCbDlZYW02enlsMXYwWjY1VWJraUNGV19qZnRpZUROcFozNElDSHRzZUcxd2JkMTU5d1lnd2IwQVFHY3piZnBUQ183YUZBOHNvUWJwYXNuNThoQVF2dld3SWx5SEU4N3FFNVUxeElRMzl6YTh2TEZid1ZIMEZqX0kyOVl0eElLWG1QRm0tZk5wYXBuYXZXRGphVm9Pdw?oc=5",
-          "source": "Fit&Well",
-          "published": "Thu, 05 Mar 2026 08:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
+          "title": "FDA warns: Supplements are no shortcut to treating disease - NewsLine Philippines",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVUVCd3JOMXlVRXBPWmREaE9keGhPVnVJdllJV3BVcmpxVi1Ic1VhVkdyR3FIcFFvQjFVZG5kb2Q3Yk5pYVFDTUdBOHdnQk5VaU5BdTRraXRYWXFCeEtYbHRZbG9aX3l2bE5ZOVpuQ0tWSDdJWS1TMUlDc1UwZEJJNXNMWks?oc=5",
+          "source": "NewsLine Philippines",
+          "published": "Mon, 09 Nov 2026 06:30:16 GMT",
+          "seed": "consumer safety",
+          "category": "consumer safety"
         }
       ]
     },
     {
-      "topic": "among emerge four migrant profiles social support",
-      "headline": "Four Social Support Profiles Emerge Among Migrant Older Adults, Study Finds - Bioengineer.org",
-      "category": "general wellness",
-      "score": 10.14,
+      "topic": "1703 2026 advisory against approved beauty capsules claims consumption food public purchase slaymina supplement therapeutic unregistered warning women",
+      "headline": "FDA Advisory No.2026-1703 || Public Health Warning Against the Purchase and Consumption of the Unregistered Food Supplement “SLAYMINA Beauty Capsules for Men and Women (No Approved Therapeutic Claims)” - https://www.fda.gov.ph/",
+      "category": "consumer safety",
+      "score": 10.1,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Bioengineer.org"
+        "https://www.fda.gov.ph/"
       ],
-      "newest": "2026-11-08T08:26:49+00:00",
+      "newest": "2026-11-09T04:42:15+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Four Social Support Profiles Emerge Among Migrant Older Adults, Study Finds - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSFhCbFFjNk1Lc2xaWE9TQVZzcGx2anVhVUxsTF9OUkk3SlRIVzlZa2FzQWEzOC1lZTdsRU5lYVhMRHZKby1pNTN2enpqSDFDRG5Fd1BJdER1Vjc2bkNuY3dzZUdLcm51SFhpUTBNWEhBOTk2cVA3QmVvM2hKRy1ONlZjUGtMRkRWZUdfVURJUlVCU1o1RUZPUHMtRzZCbzgx?oc=5",
-          "source": "Bioengineer.org",
-          "published": "Sun, 08 Nov 2026 08:26:49 GMT",
+          "title": "FDA Advisory No.2026-1703 || Public Health Warning Against the Purchase and Consumption of the Unregistered Food Supplement “SLAYMINA Beauty Capsules for Men and Women (No Approved Therapeutic Claims)” - https://www.fda.gov.ph/",
+          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNMVJfZjg4SmdNUUZVS2dMbkhleDZGWlEwdFFJVXdJZ0h6Y0I3RnRhbXZ5bVlISEJMMVRRcWxzVEZpbVdtT1E3dTZwZ2Z0d0stUjZIZjhlQmJKQ1NrQ2NFZGtwWktXSzNjMVI4S3piSmhjOEhjcGN5V2dFRmt3UWl3TW1XdTJfSGxHcVZxRy0tU2FpVVBJazd5bmpnQVZ2d3lQOG5yUEsyTURERGx3YnVaRGdTY1l6RWlnQXZ6NWdDTGZ4QVgzLXpBcVpmTmE0RkJMMDh5NHFQS0hnWnRMQXFxRThMeGVYbGZUdUJpSnNHalRYeTlzZG56dFduX2pST1lFT1kzY0QtRHRla1hlZTg2VkxaRVlQRFhKRmgtUmFja1ZhU3NEZ2dmaEpDdVhLS1NEWWYyQS1ndkN0M29nMG8w?oc=5",
+          "source": "https://www.fda.gov.ph/",
+          "published": "Mon, 09 Nov 2026 04:42:15 GMT",
+          "seed": "consumer safety",
+          "category": "consumer safety"
+        }
+      ]
+    },
+    {
+      "topic": "care framework healthy improving",
+      "headline": "Healthy Aging: A Framework for Improving Care of Older Adults - Dartmouth Geisel School of Medicine",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Dartmouth Geisel School of Medicine"
+      ],
+      "newest": "2026-09-17T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Healthy Aging: A Framework for Improving Care of Older Adults - Dartmouth Geisel School of Medicine",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTjVYSWZGNUI5c21McnlEeExjdUcyRUZJUkZRemMzNGpmRm95NmpaZVI5U2JmMWFlTW51NXlqbmRLVmVKNzhkRVRkLTh3UmlnYUlkMUxIRzhYcFVrS1I4VkVGLTZhM2l5aFhnemRDX0t5UXBJZC1lUkpEdEFvM05oOHhRc1Z3RFViaTc2ODM2OHhRZkh6bXhObVhhRk1lN3BiczFxTEpR?oc=5",
+          "source": "Dartmouth Geisel School of Medicine",
+          "published": "Thu, 17 Sep 2026 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -518,29 +581,6 @@
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObUhfd3UtT0ZJNDRtWG1DcVFFSWk3dXlHbUR4YWg2cjREMnlSamg5THRHYlA3U1NhWXpSdmZ5NkUwNGF6MFNvSFVZX1NDWElpcFk3R1Rldm40MHVEcTJabTVjT29kNE1UNDZyaHVNazNvRnBXRWVnLTVQVWNTV2dMWnBqMnR5aWtXbEJhaDY4czVURDBoRVpqc3RJVTZyYXdMVGh1S0FHZXFmZVl1bkFWbG5mTQ?oc=5",
           "source": "CBS7",
           "published": "Fri, 06 Nov 2026 18:34:00 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "care framework healthy improving",
-      "headline": "Healthy Aging: A Framework for Improving Care of Older Adults - Dartmouth Geisel School of Medicine",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Dartmouth Geisel School of Medicine"
-      ],
-      "newest": "2026-09-17T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Healthy Aging: A Framework for Improving Care of Older Adults - Dartmouth Geisel School of Medicine",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTjVYSWZGNUI5c21McnlEeExjdUcyRUZJUkZRemMzNGpmRm95NmpaZVI5U2JmMWFlTW51NXlqbmRLVmVKNzhkRVRkLTh3UmlnYUlkMUxIRzhYcFVrS1I4VkVGLTZhM2l5aFhnemRDX0t5UXBJZC1lUkpEdEFvM05oOHhRc1Z3RFViaTc2ODM2OHhRZkh6bXhObVhhRk1lN3BiczFxTEpR?oc=5",
-          "source": "Dartmouth Geisel School of Medicine",
-          "published": "Thu, 17 Sep 2026 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -616,6 +656,29 @@
       ]
     },
     {
+      "topic": "beyond five habits healthy successfully",
+      "headline": "Five healthy habits for successfully aging in our 60s and 70s — and beyond - Stanford Medicine",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Stanford Medicine"
+      ],
+      "newest": "2026-01-07T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Five healthy habits for successfully aging in our 60s and 70s — and beyond - Stanford Medicine",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMU5GTnV3c1RQTk5IRlRJcWFwdTFZbk14LWsxdjBKYkpVTEd5bnlSZlRvNkVpaU5WeUVQUklRUXJJcEQ2ODZxRFRKemxiYWR0Qm4wTUhnWmk2VXB6TXdWUm80clpmYzB6QjFGWGlLX200Mjl2V1BVWWF0SndqZC1QdjgwTERnV0hzeW04eWNSZmppcXk2TmtTNldWRnRqeXBs?oc=5",
+          "source": "Stanford Medicine",
+          "published": "Wed, 07 Jan 2026 08:00:00 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "adult america demographics economic security",
       "headline": "Aging in America: Older Adult Demographics, Health, and Economic Security - The National Council on Aging (NCOA)",
       "category": "general wellness",
@@ -685,23 +748,23 @@
       ]
     },
     {
-      "topic": "facts food insecurity",
-      "headline": "Get the Facts on Food Insecurity and Older Adults - The National Council on Aging (NCOA)",
+      "topic": "healthy just number view",
+      "headline": "Age is just a number: How older adults view healthy aging - McKinsey & Company",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "The National Council on Aging (NCOA)"
+        "McKinsey & Company"
       ],
-      "newest": "2026-06-05T07:00:00+00:00",
+      "newest": "2023-05-22T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Get the Facts on Food Insecurity and Older Adults - The National Council on Aging (NCOA)",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lRHEydTlfUHFoQWVFM19VYTlYQVpQS3BzY1JWaWlTMDhiRTVFbkExOUZfTGhma19UZmw5U3VOd1FkZFE3QVJSVVZLSy1fNWRSOE4wVENkVGRXZ21BZXNlUzVHcl9qUjV1Q1dJYS1uUklZRlNVUlE?oc=5",
-          "source": "The National Council on Aging (NCOA)",
-          "published": "Fri, 05 Jun 2026 07:00:00 GMT",
+          "title": "Age is just a number: How older adults view healthy aging - McKinsey & Company",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdVdBUHg2V0hZU01iR18wWks1bWNQb1JHR2dpMF9kUjl1RVI5VmYwVDllLVFHU2puZm1hSndyemYwSXh4NkRPOU5MdFgxUGFYVy13LWZmdW9oMlRHZUluMFhpaHBfb2swRXliRUEzS0FiTkFJSkZIZnZ4QVAtSzR4R1BtOFRBdlotRVRKRUlzdG9pRUhLcGFNQTdaNWVoTzQ?oc=5",
+          "source": "McKinsey & Company",
+          "published": "Mon, 22 May 2023 07:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -1076,23 +1139,23 @@
       ]
     },
     {
-      "topic": "behaviors exposure light memory mood predict quality reports scientific sleep",
-      "headline": "Light exposure behaviors predict mood, memory and sleep quality - Scientific Reports - Nature",
+      "topic": "does science sleep understanding work",
+      "headline": "How Does Sleep Work? Understanding the Science of Sleep - Sleep Foundation",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "Sleep Foundation"
       ],
-      "newest": "2023-08-01T07:00:00+00:00",
+      "newest": "2026-07-21T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Light exposure behaviors predict mood, memory and sleep quality - Scientific Reports - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FT2psZ0liRVlGaFlza2dnRVRDU0ZWRS15Uk05Ti1KVG42RUd0a1JBMWdhcG5vSjZVSVR0dm9rMkhoMEF3azZqUkFRZldPRHN4dHlYUl9vS2c2YXpZV1JJ?oc=5",
-          "source": "Nature",
-          "published": "Tue, 01 Aug 2023 07:00:00 GMT",
+          "title": "How Does Sleep Work? Understanding the Science of Sleep - Sleep Foundation",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90WTAtbGg3T3pERThQYmZRd24zYWVKVFBXNTNHZ1JBazV2RlAySERxSUVKck5IWUM5amRoVDBoalV5YlpONWNVWWxSOUIxd0FuMzh0em1jUTZvOTA?oc=5",
+          "source": "Sleep Foundation",
+          "published": "Tue, 21 Jul 2026 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         }
@@ -1116,6 +1179,29 @@
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU0pBYnc4a2dEQVhIdVhTMmNwQ0xmZk8zLUNHZjRjWmJjV0xxd2NVYlpHOXlYenJiUzZIRVNzVllTa05PNVhLZWYyajN1Nklhb2RBVkllY09IdHpSMmJfdjVDY3pMb005c25HbmZ3UGtrYW5mcmVRLXA3am5JN3p5VWZzTFc5cGN4U0I4?oc=5",
           "source": "Frontiers",
           "published": "Fri, 17 Oct 2025 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "behaviors exposure light memory mood predict quality reports scientific sleep",
+      "headline": "Light exposure behaviors predict mood, memory and sleep quality - Scientific Reports - Nature",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Nature"
+      ],
+      "newest": "2023-08-01T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Light exposure behaviors predict mood, memory and sleep quality - Scientific Reports - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FT2psZ0liRVlGaFlza2dnRVRDU0ZWRS15Uk05Ti1KVG42RUd0a1JBMWdhcG5vSjZVSVR0dm9rMkhoMEF3azZqUkFRZldPRHN4dHlYUl9vS2c2YXpZV1JJ?oc=5",
+          "source": "Nature",
+          "published": "Tue, 01 Aug 2023 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         }
@@ -1191,6 +1277,29 @@
       ]
     },
     {
+      "topic": "approaches current epidemiology mechanisms metabolic syndrome therapeutic",
+      "headline": "Metabolic syndrome: epidemiology, mechanisms, and current therapeutic approaches - Frontiers",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Frontiers"
+      ],
+      "newest": "2025-09-03T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Metabolic syndrome: epidemiology, mechanisms, and current therapeutic approaches - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkxCVlpaNENEbC1teGZ3RFFLdThHN1hRWGtHeDRDbGs4dFc3U29yV2hBQXpHN3dEcXlrRkwyUmJyN3pkTTVEN1BzVnNvMktheEhheVQyaFlrQ3JNZkpyb08wSUpRaDVYOThsSDNuakY3UnRaMzRqS0VFZmk4dEFQUVJUaE96VkVhbUZIYXRFbw?oc=5",
+          "source": "Frontiers",
+          "published": "Wed, 03 Sep 2025 07:00:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
       "topic": "diabetes novel obesity peptide promise shows therapy treating",
       "headline": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - Johns Hopkins Medicine",
       "category": "metabolic health",
@@ -1208,29 +1317,6 @@
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbTZxeHZLQVliZjNfZTZjU3FKVTdjTzFfWmgxVnVPLVVjWGZrWDMzTnN5OElIc2lIdTUwcTdOXzhVZXpJRXVLMk1xVUpONGE5Y2ZKRTJOOVY3eWJ3c0thLTVyYnoyQ0RaR1lPWUlZdU5IRmxCZW4wVkhSSWxkSmhCbGtoSlZXSnpHdlFJN3V2X0NKamlvdDdEOGgtVlgyWFc0SWNvdlYza1dpTlZKNUdEOWM4ZDBiRFNrd1dXbGxMdUFSNE1aR2RwSXRNR3pEbXVhaVlvenFJeXNKRzQ?oc=5",
           "source": "Johns Hopkins Medicine",
           "published": "Tue, 21 Nov 2023 08:00:00 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        }
-      ]
-    },
-    {
-      "topic": "cancer disease energy insulin linking metabolic model oils resistance seed theory unifying",
-      "headline": "The energy model of insulin resistance: A unifying theory linking seed oils to metabolic disease and cancer - Frontiers",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Frontiers"
-      ],
-      "newest": "2025-03-31T12:40:26+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "The energy model of insulin resistance: A unifying theory linking seed oils to metabolic disease and cancer - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOREtadTVTS1RiVU4xN3NFOW1LN2Z6Tkplb1AtRUt0NV8yVWJUU0JtRmk5RkNZal83enp3WEhESHlWZ1YtSk9yYkdzMk9rTi1IT0xIM21VQ0F2Yk5IU3pET2FCZHNiMXJiN3VqM09fa2VwUVdJOFo4d2VQWS00eUlvUEhzYTl2R0RETHZ4ZUFGTQ?oc=5",
-          "source": "Frontiers",
-          "published": "Mon, 31 Mar 2025 12:40:26 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1306,6 +1392,29 @@
       ]
     },
     {
+      "topic": "according benefits beyond blood metformin pharmd sugar",
+      "headline": "3 Health Benefits of Metformin Beyond Blood Sugar, According to a PharmD - Verywell Health",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Verywell Health"
+      ],
+      "newest": "2026-10-23T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "3 Health Benefits of Metformin Beyond Blood Sugar, According to a PharmD - Verywell Health",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMXJIWHB5RGJ6STJwcmxWZHBmY3JGaloyS3BPWm9neXR3NU5KbHBvTGk4WUhSSXRfWVBTUTV5REtKc2pLT0MxSE5rdHVyN3dCcHQ3bGFoSmJ1ME1jRnlRVDU3c1NxanhsTjd2SDZhV0hYM3ZXN1Z5NDhodExCZUFNaUlvdjFBc28?oc=5",
+          "source": "Verywell Health",
+          "published": "Fri, 23 Oct 2026 07:00:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
       "topic": "dramatically improve just minutes strength",
       "headline": "Just 4 minutes a day can dramatically improve strength after 65 - Science Daily",
       "category": "mobility",
@@ -1329,29 +1438,6 @@
       ]
     },
     {
-      "topic": "balance body dynamic effects functional mobility stability strength trunk understanding whole",
-      "headline": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
-      "category": "mobility",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Nature"
-      ],
-      "newest": "2026-01-20T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiblFvZ0ZrWEpicVRLU0tsSGMzdmQwOTJrWV9UUnJNb1dfTjlJWkVfLXpZelVLX2xXWS1XajhwMUtSc1ZXYUVLbVRjWFZnTWhyWWVhTlpieXlQUUJpb2Q4?oc=5",
-          "source": "Nature",
-          "published": "Tue, 20 Jan 2026 08:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
-        }
-      ]
-    },
-    {
       "topic": "doctors factors many mobility other tell tests there",
       "headline": "Mobility tests can tell doctors a lot about how you’re aging, but there are many other factors - AP News",
       "category": "mobility",
@@ -1369,6 +1455,29 @@
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORHZXbzN0SWVtVng2TnN4U3ZBREhYdk10Nko0OG4wSzlLMm56WTlnb1N4X0ZPUkpQR2doVmU4Y05qY01SdXJmX1dpTmsySXp3Ry10NXpaaTEwcE9tdmhybmRwNlV5UTlmNmV0dU5sMDRNRExGb3BYeTlyVV9NTFdtdFM3amJEMFZsNE04bTV0aC16TjBDS3JkbTVxY3o3Y3NRYmMyc1NGdWs?oc=5",
           "source": "AP News",
           "published": "Sat, 22 Aug 2026 07:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
+        }
+      ]
+    },
+    {
+      "topic": "balance body dynamic effects functional mobility stability strength trunk understanding whole",
+      "headline": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
+      "category": "mobility",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Nature"
+      ],
+      "newest": "2026-01-20T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiblFvZ0ZrWEpicVRLU0tsSGMzdmQwOTJrWV9UUnJNb1dfTjlJWkVfLXpZelVLX2xXWS1XajhwMUtSc1ZXYUVLbVRjWFZnTWhyWWVhTlpieXlQUUJpb2Q4?oc=5",
+          "source": "Nature",
+          "published": "Tue, 20 Jan 2026 08:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
         }
@@ -1415,29 +1524,6 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTUdTU1hmY25pb1RxamN3d0pjZzlDSlpRUnJFZWFuZHI1Z2sybHpLZU45M3FMWWhPclUtOF9mRGF2Q0ZTM1psTW42VEMwVFRZamw5eFpNVXdSRlBTOFU0TVB0YTVfTzVkT2dHd3VOX2VSMTRKYVpyOXkxQmdneUZkSjV3ZGo4STRYTkNMZmVMSUJFcTlULWc?oc=5",
           "source": "SteamboatToday.com",
           "published": "Mon, 17 Aug 2026 07:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
-        }
-      ]
-    },
-    {
-      "topic": "adult every exercises over should",
-      "headline": "The 4 Exercises Every Adult Over 50 Should Do - AARP",
-      "category": "mobility",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "AARP"
-      ],
-      "newest": "2026-01-16T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "The 4 Exercises Every Adult Over 50 Should Do - AARP",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSW9mNWdNSWx3RFc5ZUJWbTZ3VV85NFFxZkpuQjE5NElJWWFwNW9WMHZLcEJWUVlibjVfVi1ybGVISXlFX3h2UktDTGJhTFJkQlI5aU16Wi1teF9ON1VvVmNFekVZV1RhOGZmakVzTTh6cUJnNS1PRVlzTW83UlZqUHdB?oc=5",
-          "source": "AARP",
-          "published": "Fri, 16 Jan 2026 08:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
         }
@@ -1513,6 +1599,29 @@
       ]
     },
     {
+      "topic": "drug enhancement harmful hidden ingredients natural supplement",
+      "headline": "X10 Natural Enhancement Supplement may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
+      "category": "consumer safety",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "U.S. Food and Drug Administration (.gov)"
+      ],
+      "newest": "2026-05-29T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "X10 Natural Enhancement Supplement may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR1AzWllDNFIyaWRMSlRUb01OTGhBcXFnNkJzemExM3ozOHowVlJDM1UxSlZjaVlSajhSZlI5TkltSmNnUGhwRU1CTy0wdDI1SFhqUDlxUTZabnpnbC1uTFkzSXd0VUlEQ29UbVpMQmR5aU1MNE1zMkpvTXh6NDJaRFg0UVdvV0dMZzVLRlRxQzB1VHlnMkFzdWdsMWZXbVJXZkdtSlpRd2tKMDZBQlVNMmlZN3lWd0diWUN5Mk9LZTdIVm53UkZ0a2xON3RQaFR3d1dEdEpzSUM?oc=5",
+          "source": "U.S. Food and Drug Administration (.gov)",
+          "published": "Fri, 29 May 2026 07:00:00 GMT",
+          "seed": "consumer safety",
+          "category": "consumer safety"
+        }
+      ]
+    },
+    {
       "topic": "cardiovascular claim disease letters supplements that treat warning",
       "headline": "Warning Letters Supplements that Claim to Treat Cardiovascular Disease - U.S. Food and Drug Administration (.gov)",
       "category": "consumer safety",
@@ -1559,29 +1668,6 @@
       ]
     },
     {
-      "topic": "drug enhancement harmful hidden ingredients natural supplement",
-      "headline": "X10 Natural Enhancement Supplement may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
-      "category": "consumer safety",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "U.S. Food and Drug Administration (.gov)"
-      ],
-      "newest": "2026-05-29T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "X10 Natural Enhancement Supplement may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR1AzWllDNFIyaWRMSlRUb01OTGhBcXFnNkJzemExM3ozOHowVlJDM1UxSlZjaVlSajhSZlI5TkltSmNnUGhwRU1CTy0wdDI1SFhqUDlxUTZabnpnbC1uTFkzSXd0VUlEQ29UbVpMQmR5aU1MNE1zMkpvTXh6NDJaRFg0UVdvV0dMZzVLRlRxQzB1VHlnMkFzdWdsMWZXbVJXZkdtSlpRd2tKMDZBQlVNMmlZN3lWd0diWUN5Mk9LZTdIVm53UkZ0a2xON3RQaFR3d1dEdEpzSUM?oc=5",
-          "source": "U.S. Food and Drug Administration (.gov)",
-          "published": "Fri, 29 May 2026 07:00:00 GMT",
-          "seed": "consumer safety",
-          "category": "consumer safety"
-        }
-      ]
-    },
-    {
       "topic": "artri contains drug hidden ingredients king notification public",
       "headline": "Public Notification: Artri King contains hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
       "category": "consumer safety",
@@ -1599,52 +1685,6 @@
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZzdGNW95a1k2bmdxUE92LU5HYnBuSFo1WDNZNFVxVTgza00tM1ZDUWRnYnBUYUlhQjJhblpBb1J0WmhFbnRILWUzdGZjZXdJazNKMWFzQnFMTHVGX0FmNDFDWHlBOEZxaEpJaERZM3R5SkxzQkNleUNvcTBOdjM1QTREOXdEM1RHa25UbFhhNEc4RWtvckdhcHgxRGtUYWVrWUpZYnFOeVBSd1ZXOHhlYXNZYw?oc=5",
           "source": "U.S. Food and Drug Administration (.gov)",
           "published": "Mon, 31 Oct 2022 07:00:00 GMT",
-          "seed": "consumer safety",
-          "category": "consumer safety"
-        }
-      ]
-    },
-    {
-      "topic": "influencers media online posts promote sarms sellers social",
-      "headline": "Social Media Posts by Influencers and Online Sellers Promote SARMs Use - U.S. Food and Drug Administration (.gov)",
-      "category": "consumer safety",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "U.S. Food and Drug Administration (.gov)"
-      ],
-      "newest": "2023-04-26T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Social Media Posts by Influencers and Online Sellers Promote SARMs Use - U.S. Food and Drug Administration (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORWVQS05CQVFfRWYxdGE5TVNZZmtKRDJHMFFtb3pFS3VyRV9mTXBabmdvRUdLSGFBTEt0NE5oZ09JZ1d1d0JsUGpaVUhaSXZyb01RZ2o3Vk8xd01Jcmo4STZTZ1g3T1kyMjBIQ09yY0JwNUNhYkFnQVdxRlVKWEhkb2RDbnFqc2RDNGRsejlicURZa1o1cUlXSXU4TmV4dTN3M2JzcWNwdS1WdTROdmliMzVLT2dCSVlCdklwNlE3M1pVbi1uejRxOUhn?oc=5",
-          "source": "U.S. Food and Drug Administration (.gov)",
-          "published": "Wed, 26 Apr 2023 07:00:00 GMT",
-          "seed": "consumer safety",
-          "category": "consumer safety"
-        }
-      ]
-    },
-    {
-      "topic": "claims establish features industry intended letter only other reminds that warning wellness",
-      "headline": "FDA Warning Letter Reminds Industry that Wellness Claims Only Go So Far, Other Features Can Establish Intended Use - Mintz",
-      "category": "consumer safety",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Mintz"
-      ],
-      "newest": "2025-07-21T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "FDA Warning Letter Reminds Industry that Wellness Claims Only Go So Far, Other Features Can Establish Intended Use - Mintz",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcHBmaXplU3lucjlKODZ6QkU1dXBKbUlUZ19lQzI1LTZZc3VOMEgtWlp2bGxFZUZqN1hxTVRtOTg2M1Q1UkR2QkR3djhRMmhvSVNaaG03VlBySkhjUnNaWnJFZUhraHFSS2VTckwtM0Jmb09JOTNaNFVLa280M1FiVm1iYlkyRFI4TnpfVzI5akI0RFFrYTFHbDE5QXdwMkExY3YyZXpBRHB1TnFPd0ZIMmhGQldUblViejhVRjl3?oc=5",
-          "source": "Mintz",
-          "published": "Mon, 21 Jul 2025 07:00:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
         }
@@ -1674,46 +1714,23 @@
       ]
     },
     {
-      "topic": "delta know tetrahydrocannabinol things",
-      "headline": "5 Things to Know about Delta-8 Tetrahydrocannabinol – Delta-8 THC - U.S. Food and Drug Administration (.gov)",
-      "category": "consumer safety",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "U.S. Food and Drug Administration (.gov)"
-      ],
-      "newest": "2022-05-04T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "5 Things to Know about Delta-8 Tetrahydrocannabinol – Delta-8 THC - U.S. Food and Drug Administration (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYzFHamdGWWNNel91QjVXZkxuZHhrNjBLT3haVnNJZVphTkNnS2RJS0NTdGtyUFJoRlE4eEp1ODRGbTQ3S2tIMU84NVNEOVg0Mk9MNTdsczE0RDNiTUFGOExWcWNTLVljd1E5MC1lcVhIRU1zMVEwblljT1BRMHVUQ1N1VFNuRnItbWJnemtmNS03c0xMOUZ5UThqeF9id1ZILVJDMWNUdE8zNHM?oc=5",
-          "source": "U.S. Food and Drug Administration (.gov)",
-          "published": "Wed, 04 May 2022 07:00:00 GMT",
-          "seed": "consumer safety",
-          "category": "consumer safety"
-        }
-      ]
-    },
-    {
-      "topic": "benefits concerns peptides potential safety they",
-      "headline": "Peptides: What they are, potential benefits, and safety concerns - Harvard Health",
+      "topic": "actually asked doctors healthy hold supplements which",
+      "headline": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Harvard Health"
+        "Health.com"
       ],
-      "newest": "2026-07-07T07:00:00+00:00",
+      "newest": "2026-08-04T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Peptides: What they are, potential benefits, and safety concerns - Harvard Health",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczh1d01rRk1sYlowbW4ybm9OcUhYOW81b0dEWFAzWUpoSUtpcFV1Sm9ucDRKdkxSU3RPUS03NnliWkl5WGVRZjcxVERkakF5VlRyT2s5am44VUFMUExkU1lIOURrcFl4UXR1WVJibUhfa1ZuVkh6UTNQTk5EVW10TEVDQVZacWkxM090NGhSSHlJNV9XWk1MdWIyOF9ReWRheTdUZ0VfSFdXLUVCQWtnaDItM3R6LWt1M2Zv?oc=5",
-          "source": "Harvard Health",
-          "published": "Tue, 07 Jul 2026 07:00:00 GMT",
+          "title": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96Y0lBWHk4elBmOEpLQ2dOaWRQTlBWcEFZcDhNWkJNSXdybTA1SnpRU3gweW9oRGF2UDEzUm90UlpPLVdKRU9yVDZaZGwyUS1JaFloZGJEQVRqZlVFekZzVmVCUnd3dGROZEFIaVBWbHRwS05BYkxlVEhOcmVtUQ?oc=5",
+          "source": "Health.com",
+          "published": "Tue, 04 Aug 2026 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -1743,29 +1760,6 @@
       ]
     },
     {
-      "topic": "actually experts longevity ones skip supplements take they which",
-      "headline": "The Supplements Longevity Experts Actually Take—and Which Ones They Skip - Health.com",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Health.com"
-      ],
-      "newest": "2026-07-08T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "The Supplements Longevity Experts Actually Take—and Which Ones They Skip - Health.com",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QeFI0OU1iYUZvVldnRHB3VUZGdGlKazV5eXVKcmlkYy1fZzVVVWZUMzVaSXRJSnVPRmJGd1A4Q3VuaUtkVmhUdzFia3BXc2ZrMjM4ZUFhVGNCUWxIN1NfVjhKcFV0amxISXVyVV9aZ1FhTUx0d05rMXBmUQ?oc=5",
-          "source": "Health.com",
-          "published": "Wed, 08 Jul 2026 07:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "dietary interventions menopausal mini nutritional review strategies",
       "headline": "Dietary interventions and nutritional strategies for menopausal health: a mini review - Frontiers",
       "category": "general wellness",
@@ -1783,6 +1777,29 @@
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbnkwVUR4aHlIdGtKZzlSMHhXU0stbHZRakE2ZTRreGkxbmkxT1FaeG5pRThqN0thRXIzWWdhSTBiZHZMQngzNXN2eEdla2NMLU9RbUhzZUR3ZlR0anZ6dGcwSWplMFpmcFAxTk9Fa1ZKQVltTW5iODM1d2xxUTRId1hlUGlHbU1LS1NGZVZOcw?oc=5",
           "source": "Frontiers",
           "published": "Sun, 14 Dec 2025 08:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "actually experts longevity ones skip supplements take they which",
+      "headline": "The Supplements Longevity Experts Actually Take—and Which Ones They Skip - Health.com",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Health.com"
+      ],
+      "newest": "2026-07-08T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "The Supplements Longevity Experts Actually Take—and Which Ones They Skip - Health.com",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QeFI0OU1iYUZvVldnRHB3VUZGdGlKazV5eXVKcmlkYy1fZzVVVWZUMzVaSXRJSnVPRmJGd1A4Q3VuaUtkVmhUdzFia3BXc2ZrMjM4ZUFhVGNCUWxIN1NfVjhKcFV0amxISXVyVV9aZ1FhTUx0d05rMXBmUQ?oc=5",
+          "source": "Health.com",
+          "published": "Wed, 08 Jul 2026 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -1829,29 +1846,6 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVnF4eVJDWDI4eEdicHp2UG5xTjBkV2Q4SFM4VWN2bHFKRElybUluemhXRFNSeml0ZEk4Wkd4a1lfQ3NyYURhb2luTDhqLUJPVmtXQ0lIZ0tXRVUzaWdEdzU5VHlDZEdLWTN0WXRGTnlJdXBJQkRNdndQRUdNZENvMndMcXRPTGs2QjctdVdmcXZoYU82Z1E?oc=5",
           "source": "UCHealth",
           "published": "Sun, 15 Jun 2025 07:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "athletic boost performance supplements",
-      "headline": "Can supplements boost my athletic performance? - Harvard Health",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Harvard Health"
-      ],
-      "newest": "2025-12-01T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Can supplements boost my athletic performance? - Harvard Health",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUW5DZDE5WEtRWG5BZVAxTkFWOU1LYXZyWGR4SGlFM0JicVNWbk9yNEwwRWY1eUlVS0ZzUHRyZlZfQnJaTUZTNVFYYzVhREVQcDB5SzRvWGhZQW0zZGxMZlB5Q2plcWI4a2hqVFVONXdlNXhhYjNCUFpPYV9DWThva1g3Zlo2ZXRfS3VJUi02OGJSdGJoYTVUMzRPS0tNbFdXUkZmX3JFVQ?oc=5",
-          "source": "Harvard Health",
-          "published": "Mon, 01 Dec 2025 08:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -2519,6 +2513,27 @@
           "published": "Tue, 29 Apr 2025 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "benefits cedars creatine risks should sinai take uses",
+      "headline": "Should You Take Creatine? Benefits, Risks and Uses - Cedars-Sinai",
+      "category": "general wellness",
+      "score": 4.0,
+      "mention_count": 1,
+      "source_count": 0,
+      "sources": [],
+      "newest": "2026-03-26T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Should You Take Creatine? Benefits, Risks and Uses - Cedars-Sinai",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLVFmYzRFaFFIYnJJWV9FYVZSanRpWUhfUmVYS0hHbWFfTkN3OGN1QzBqZUczaFNZc3JLOTBOcVFEeUE2NzVRaURsZFJnZXpLLTQ3Um1QaVB4OVNMckhfVy1OT1BsbVBkTjBNM19WQkg4QWJtQUpCc2VZaUtvdkNtQmRuYUtTT0ozS3BBWkRIeWIzYk5ycVpuTXdDNEZldTR6dnpXMFVPNEIwRE9sTnk5N1k4Q3pCU0ZGVDRvN29VSTZxZw?oc=5",
+          "source": "",
+          "published": "Thu, 26 Mar 2026 07:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
         }
       ]
     },

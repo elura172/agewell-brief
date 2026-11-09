@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "bf2dfc44be87aa17c3a331f3",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:m-yAg03XdOk",
+      "score": 95,
+      "rationale": "The candidate perfectly aligns with the 'brain health' category and its visual anchors by directly depicting a high-resolution representation of a brain scan. It supports the neuroscience and dementia research context of the article without relying on literalized metaphors or unrelated subjects.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1732454827988-95972d793f1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NHx8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGJyYWluJTIwc2NhbnxlbnwxfDB8fHwxNzk0MTc5MTU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

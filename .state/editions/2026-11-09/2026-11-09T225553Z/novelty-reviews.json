@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "bf2dfc44be87aa17c3a331f3": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "unexpected repurposing mechanism",
+      "reason": "Large human cohort finding connecting bone-density drugs to a substantial reduction in dementia risk provides strong, actionable curiosity for readers looking at drug repurposing.",
+      "angle": "Why medications designed for bone density might be interrupting neurodegenerative pathways in older adults.",
+      "mode": "agent"
+    },
+    "6de37cde9637761908b280d7": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "frontier organ-crosstalk discovery",
+      "reason": "Reversing liver cell aging to halve circulating Alzheimer's-linked proteins reveals an unexpected inter-organ communication system, shifting the neurodegeneration paradigm outside the brain.",
+      "angle": "The liver-brain axis: How rejuvenating peripheral organs could clear Alzheimer's proteins before they reach the brain.",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "counter-intuitive physiology",
+      "reason": "Identifies a specific neural mechanism—elevated resting hippocampal dopamine—explaining why overtraining harms mental health and memory rather than improving it.",
+      "angle": "When exercise backfires: The neurochemical threshold where workout exhaustion disrupts hippocampal dopamine.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "routine observational range",
+      "reason": "The 7-8 hour sleep window for optimal aging is widely established public health advice without a new mechanism presented.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "broad theoretical framework",
+      "reason": "Title-only review entry linking sleep, redox metabolism, and aging without a specific novel experimental breakthrough.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "f4e7b57f28941f6c54c74e23": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "specific longevity neural circuit",
+      "reason": "Pinpoints the exact non-autonomous neural circuit (ADF serotonergic to RIS GABAergic neurons via SER-7) that decouples hypoxia-induced lifespan extension from toxic mammalian side effects.",
+      "angle": "Mapping the hypoxia circuit: How isolating specific stress-response neurons could unlock longevity without cellular oxygen starvation.",
+      "mode": "agent"
+    },
+    "b4e9dd5ec9a5e33c0066c7ff": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic stub",
+      "reason": "Empty citation stub lacking summary details or specific novel mechanisms beyond general dimorphic responses.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "systematic review of animal models",
+      "reason": "Systematic review summarizing existing animal data on fasting and epigenetics, but highlights a total lack of human data.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "571c0de0c646f523c9c90387": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle recommendation",
+      "reason": "Standard advice on balance exercises for older adults without any novel research finding.",
+      "angle": "N/A",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "bf2dfc44be87aa17c3a331f3",
+    "6de37cde9637761908b280d7",
+    "a2f082a62767b4c84fb98f98",
+    "f4e7b57f28941f6c54c74e23"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "b4e9dd5ec9a5e33c0066c7ff",
+    "4fa1cbe537a2dff42f96cb80",
+    "571c0de0c646f523c9c90387"
+  ],
+  "mode": "agent"
+}
