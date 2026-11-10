@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "6de37cde9637761908b280d7",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:JxoWb7wHqnA",
+      "score": 98,
+      "rationale": "The selected candidate accurately depicts a scientist in a laboratory looking through a microscope, directly matching the category visual anchors of optical microscopy and cell culture research, as well as the story's focus on experimental cellular biology and biomedical research.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1630959305790-4c956ce6c0b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NXx8Zmx1b3Jlc2NlbmNlJTIwbWljcm9zY29weSUyMGNlbGwlMjByZXNlYXJjaHxlbnwxfDB8fHwxNzk0MjcyNDQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

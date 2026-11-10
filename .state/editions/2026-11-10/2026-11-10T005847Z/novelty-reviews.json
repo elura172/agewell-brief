@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "6de37cde9637761908b280d7": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "unexpected cross-organ axis and mechanism",
+      "reason": "Demonstrates a novel gut/liver-brain pathway where rejuvenating rat liver cells directly halves amyloid-beta levels and restores a previously unknown intercellular communication system.",
+      "angle": "How resetting liver cell signals could become a systemic clearance mechanism for brain plaque.",
+      "mode": "agent"
+    },
+    "d8790ce27aee3c45c17aeb91": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "dose-response observational divergence",
+      "reason": "While flu vaccine-dementia links are known, comparing high-dose versus standard-dose (55% vs 40% risk reduction) in 200,000 seniors provides actionable insight into immune stimulation intensity.",
+      "angle": "Beyond flu protection: Is high-dose immune stimulation triggering brain-protective off-target effects?",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "counter-intuitive physiological mechanism",
+      "reason": "Challenges the 'more exercise is always better' paradigm by pin-pointing specific hippocampal dopamine dysregulation (elevated resting levels) caused by overtraining.",
+      "angle": "When exercise backfires: The precise neurochemical threshold where overtraining disrupts brain dopamine.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic observational association",
+      "reason": "Repetitive summary of routine epidemiological sleep duration windows (6.4–7.8 hours) that has been widely covered.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "broad theoretical framework",
+      "reason": "Empty stub title without specific new empirical data or novel therapeutic target.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "f4e7b57f28941f6c54c74e23": {
+      "score": 71,
+      "decision": "commission",
+      "novelty_type": "specific neural circuit mapping",
+      "reason": "Maps a highly specific non-cell-autonomous neural pathway (HIF-1 in ADF serotonergic neurons to SER-7 in RIS interneurons via tyramine/GABA/NLP-17) that mediates hypoxic lifespan extension.",
+      "angle": "Tracing the precise micro-circuit in the nervous system that translates oxygen stress into systemic longevity.",
+      "mode": "agent"
+    },
+    "b4e9dd5ec9a5e33c0066c7ff": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "model organism placeholder",
+      "reason": "Article metadata stub with no detailed mechanisms or data provided in text.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "preclinical systematic review",
+      "reason": "Integrates existing preclinical data on fasting and brain epigenetics, but lacks a single groundbreaking empirical discovery or human clinical translation.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "571c0de0c646f523c9c90387": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "routine wellness guidance",
+      "reason": "Generic title-only entry for basic senior balance exercises without new research finding.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "6de37cde9637761908b280d7",
+    "d8790ce27aee3c45c17aeb91",
+    "a2f082a62767b4c84fb98f98",
+    "f4e7b57f28941f6c54c74e23"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "b4e9dd5ec9a5e33c0066c7ff",
+    "4fa1cbe537a2dff42f96cb80",
+    "571c0de0c646f523c9c90387"
+  ],
+  "mode": "agent"
+}

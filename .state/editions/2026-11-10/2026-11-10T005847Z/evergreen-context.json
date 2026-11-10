@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "6de37cde9637761908b280d7",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "12c50a361ed4f0b3",
+        "source": "Dr. Fritz-Albert Popp (1975) — Biophotonics and Cellular Coherence",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 16
+      },
+      {
+        "source_id": "048bf7cd36116322",
+        "source": "Dr. Gerald Pollack (2013) — The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 16
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
