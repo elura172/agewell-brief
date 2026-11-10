@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "f4e7b57f28941f6c54c74e23",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:SyUrj2dO_H0",
+      "score": 95,
+      "rationale": "The selected candidate depicts a scientist looking through a microscope in a laboratory, perfectly aligning with both the story's cellular biology/neuroscience theme and the mandatory visual anchors ('cellular biology laboratory, microscopy').",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1707944746033-0232ca340fc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NXx8c2NpZW50aXN0JTIwdXNpbmclMjBmbHVvcmVzY2VudCUyMG1pY3Jvc2NvcGV8ZW58MXwwfHx8MTc5NDI4NDk4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
