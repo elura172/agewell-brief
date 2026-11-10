@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "74c36340962282ebab1d1bee": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Challenges the classic central nervous system paradigm of Alzheimer's by demonstrating in microfluidic human tissue models that inherited AD mutations cause primary peripheral neuromuscular junction degradation independent of brain pathology.",
+      "angle": "Peripheral-first Alzheimer's: How familial mutations destroy motor connections directly at the muscle before brain pathology begins.",
+      "mode": "agent"
+    },
+    "d8790ce27aee3c45c17aeb91": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "finding",
+      "reason": "Large observational cohort (200k adults) identifying a strong dose-dependent divergence in neuroprotective association between high-dose vs. standard flu vaccines (55% vs 40% risk reduction).",
+      "angle": "Dose matters: Why high-dose flu shots show a markedly stronger link to lower Alzheimer's incidence than standard vaccines.",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Pinpoints a specific neurochemical dysfunction in hippocampal dopamine regulation during rest caused by overtraining, providing a biological basis for overtraining syndrome.",
+      "angle": "When exercise breaks dopamine regulation: How exhaustive training locks hippocampal dopamine high even during rest.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "observational",
+      "reason": "Recycled epidemiological finding on the U-shaped curve of sleep duration and longevity. Highly redundant with existing coverage.",
+      "angle": "Why narrow sleep duration targets offer incremental insights into longevity.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Broad, narrative review of standard concepts linking sleep, redox metabolism, and aging without a specific novel experimental insight.",
+      "angle": "The molecular cross-talk between redox state and sleep architecture.",
+      "mode": "agent"
+    },
+    "b4e9dd5ec9a5e33c0066c7ff": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "finding",
+      "reason": "Interesting killifish model demonstrating sex-specific divergent responses in muscle preservation under caloric restriction, but lacks detailed abstract context in the feed.",
+      "angle": "Sex-divergent sarcopenia responses to dietary restriction in short-lived vertebrates.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "review",
+      "reason": "Systematic review summarizing existing animal data on dietary restriction and brain epigenetic modifications. Uncovers no new primary empirical data.",
+      "angle": "Mapping the epigenetic shifts in neurotransmitter pathways during fasting.",
+      "mode": "agent"
+    },
+    "033b6d254ba7a7afc6126ab0": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies localized mitochondrial AMPK-alpha (mitoAMPK-alpha) dysregulation as a precise biochemical bottleneck for exercise-induced mitophagy in aging skeletal muscle.",
+      "angle": "The mitoAMPK-alpha defect: Why aging muscle stops cleaning out damaged mitochondria during exercise.",
+      "mode": "agent"
+    },
+    "285fe04a5a69aca79ad285c3": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "finding",
+      "reason": "Uncovers an unexpected environmental risk factor for cardiovascular disease in aging populations, linking indoor gas (radon) to elevated heart failure risk in postmenopausal women.",
+      "angle": "Indoor air and heart failure: The overlooked link between household radon levels and postmenopausal cardiac risk.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "74c36340962282ebab1d1bee",
+    "d8790ce27aee3c45c17aeb91",
+    "a2f082a62767b4c84fb98f98",
+    "033b6d254ba7a7afc6126ab0",
+    "285fe04a5a69aca79ad285c3"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "b4e9dd5ec9a5e33c0066c7ff",
+    "4fa1cbe537a2dff42f96cb80"
+  ],
+  "mode": "agent"
+}
