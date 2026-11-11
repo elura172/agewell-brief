@@ -321,13 +321,15 @@ const structuredData = [
 
 <style>
   .subscribe-card {
-    border-top: 1px solid var(--ink);
-    background: color-mix(in oklch, var(--mist) 45%, var(--paper));
+    border-top: 1.5px solid var(--ink);
+    box-shadow: inset 0 3px 0 var(--cream), inset 0 4px 0 var(--line-strong);
+    border-bottom: 1px solid var(--line);
+    background: var(--cream);
     color: var(--ink);
   }
   .subscribe-lead-note {
     font-family: var(--serif);
-    font-size: 1.12rem;
+    font-size: 1.14rem;
     color: var(--ink-soft);
     margin-top: 12px;
     line-height: 1.55;
@@ -350,37 +352,41 @@ const structuredData = [
     min-width: 240px;
     padding: 13px 16px;
     font-family: var(--sans);
-    font-size: 0.92rem;
-    border: 1px solid var(--ink);
+    font-size: 0.94rem;
+    border: 1px solid var(--line-strong);
     border-radius: 2px;
-    background: var(--paper);
+    background: var(--white);
     color: var(--ink);
     outline: none;
-    transition: border-color 0.2s ease;
+    transition: border-color 180ms var(--ease-out), background-color 180ms var(--ease-out);
   }
   .subscribe-input::placeholder {
     color: var(--muted);
   }
   .subscribe-input:focus {
-    border-color: var(--saffron-ink);
+    border-color: var(--ink);
+    background: var(--white);
   }
   .subscribe-btn {
     padding: 13px 22px;
     font-family: var(--sans);
-    font-size: 0.84rem;
+    font-size: 0.82rem;
     font-weight: 700;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     background: var(--ink);
     color: var(--paper);
     border: 1px solid var(--ink);
     border-radius: 2px;
     cursor: pointer;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
+    transition: background-color 180ms var(--ease-out), border-color 180ms var(--ease-out), transform 140ms var(--ease-out);
   }
   .subscribe-btn:hover {
     background: var(--saffron-ink);
     border-color: var(--saffron-ink);
+  }
+  .subscribe-btn:active {
+    transform: scale(0.98);
   }
   .subscribe-privacy {
     font-size: 0.76rem;
@@ -392,9 +398,9 @@ const structuredData = [
   }
   .subscribe-success {
     background: var(--paper);
+    border: 1px solid var(--line);
     border-top: 2px solid var(--saffron);
-    border-bottom: 1px solid var(--line);
-    padding: 24px 0;
+    padding: 24px 26px;
     margin-top: 16px;
     color: var(--ink);
   }
@@ -420,7 +426,8 @@ const structuredData = [
     text-decoration: none;
     padding: 8px 0;
     border-bottom: 1px solid var(--line);
-    transition: color 0.2s ease, border-color 0.2s ease;
+    font-variant-numeric: tabular-nums;
+    transition: color 180ms var(--ease-out), border-color 180ms var(--ease-out);
     display: block;
   }
   .magnet-link em {
@@ -447,13 +454,17 @@ const structuredData = [
     font-weight: 700;
     font-size: 0.84rem;
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color 180ms var(--ease-out);
   }
   .archive-view-all a span {
     color: var(--saffron-ink);
+    transition: transform 200ms var(--ease-out);
   }
   .archive-view-all a:hover {
     color: var(--saffron-ink);
+  }
+  .archive-view-all a:hover span {
+    transform: translateX(3px);
   }
   /* 4. Spiral of Cellular Light — Minimal Typographic Index */
   .frameworks-guide-section {
@@ -498,6 +509,7 @@ const structuredData = [
     font-size: 1.35rem;
     line-height: 1.1;
     color: var(--saffron-ink);
+    font-variant-numeric: tabular-nums lining-nums;
   }
   .framework-body {
     min-width: 0;

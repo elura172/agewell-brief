@@ -22,21 +22,23 @@ const {
   provider = "Pexels",
   width = 1200,
   height = 627,
-  avgColor = "#cad4cf",
+  avgColor = "#e6dfd3",
   variant = "article",
   eager = false
 } = Astro.props;
 ---
 <figure class:list={["editorial-image", `editorial-image--${variant}`]} style={`--image-tone: ${avgColor}`}>
-  <img
-    src={src}
-    alt={alt}
-    width={width}
-    height={height}
-    loading={eager ? "eager" : "lazy"}
-    {...(eager ? { fetchpriority: "high" } : {})}
-    decoding="async"
-  />
+  <div class="editorial-image-frame">
+    <img
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      loading={eager ? "eager" : "lazy"}
+      {...(eager ? { fetchpriority: "high" } : {})}
+      decoding="async"
+    />
+  </div>
   <figcaption>
     Illustrative photo by
     {photographerUrl ? <a href={photographerUrl} rel="noopener noreferrer">{photographer}</a> : photographer}

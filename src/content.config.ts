@@ -30,7 +30,7 @@ const briefs = defineCollection({
     image_photographer_url: z.string().url().optional(),
     image_source_url: z.string().url().optional(),
     image_review_status: z.enum(["pending", "metadata-approved", "human-reviewed", "vision-approved"]).default("pending"),
-    image_avg_color: z.string().regex(/^#[0-9a-fA-F]{6}$/).default("#cad4cf"),
+    image_avg_color: z.string().regex(/^#[0-9a-fA-F]{6}$/).default("#e6dfd3"),
     autoresearch_antecedents: z.array(z.object({
       scientist: z.string(),
       year: z.union([z.string(), z.number()]).transform((v) => String(v)),
