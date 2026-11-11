@@ -1,0 +1,24 @@
+[
+  {
+    "article_id": "d8790ce27aee3c45c17aeb91",
+    "title": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm",
+    "source_name": "ScienceDaily Healthy Aging",
+    "stage": "draft",
+    "requested_content_type": "lead",
+    "error": "DeepSeek returned an invalid draft twice: lead draft is too short (323 words; minimum 500)",
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]",
+        "raw_response": ""
+      },
+      {
+        "attempt": 2,
+        "error": "lead draft is too short (323 words; minimum 500)",
+        "raw_response": "{\n  \"headline\": \"High-dose flu vaccination scales down Alzheimer's risk by 55%\",\n  \"dek\": \"A sweeping analysis of nearly 200,000 older adults reveals that quadruple-antigen influenza formulations alter long-term neurological trajectories.\",\n  \"sections\": [\n    {\n      \"heading\": \"The biophysical architecture of neurodegeneration\",\n      \"paragraphs\": [\n        \"As biological systems age, the continuous baseline of metabolic respiration within neural tissues generates protein misfolding and chronic, low-grade cellular friction. In the absence of sustained physiological challenges, the innate immune apparatus often lapses into sterile inflammation, undermining microglial efficiency and accelerating the accumulation of neurotoxic debris.\",\n        \"Historically, pioneering biologists like Elie Metchnikoff recognized that controlled immune stimulation can counteract systemic senescence. By periodically engaging the body's sentinel cells, organisms maintain the vital housekeeping pathways necessary to preserve tissue integrity and clear cellular waste.\"\n      ]\n    },\n    {\n      \"heading\": \"Evaluating the UTHealth Houston data\",\n      \"paragraphs\": [\n        \"Researchers at UTHealth Houston analyzed data from nearly 200,000 adults aged 65 and older to determine whether the magnitude of an immunological encounter alters long-term brain health. The findings demonstrate that standard-dose influenza vaccination is associated with a 40 percent reduction in the incidence of Alzheimer's disease.\",\n        \"Crucially, individuals who received a high-dose influenza vaccine—formulated with four times the antigen content of a standard shot—exhibited a nearly 55 percent lower risk of developing Alzheimer's disease. This pronounced shift was particularly evident among female participants in the cohort.\"\n      ]\n    },\n    {\n      \"heading\": \"Mechanistic interpretation versus correlation\",\n      \"paragraphs\": [\n        \"While these observational findings establish a robust statistical association, they do not prove direct causation. The precise cellular mechanisms connecting elevated antigen exposure to the preservation of neural networks remain under active investigation.\",\n        \"It is plausible that robust antigenic signaling triggers systemic molecular cascades that enhance microglial phagocytosis and peripheral monocyte surveillance, effectively clearing amyloid and tau aggregates before they disrupt synaptic connectomics. However, further experimental work is required to isolate these specific pathways.\"\n      ]\n    },\n    {\n      \"heading\": \"Navigating clinical choices and supply realities\",\n      \"paragraphs\": [\n        \"For older adults assessing annual prevention strategies, these findings highlight the functional differences among available vaccine formulations. High-dose options are explicitly engineered to reregulate an aging immune system that might otherwise fail to mount an effective defense against seasonal pathogens.\",\n        \"Practical constraints, including periodic supply shortages of high-dose formulations, mean that availability often dictates clinical access. Patients and practitioners must weigh these observational insights against individual health profiles while anticipating future trials that will test direct causal links.\"\n      ]\n    }\n  ],\n  \"bullets\": [\n    \"High-dose flu shots contain four times the antigen load of standard formulations.\",\n    \"Data analysis encompasses nearly 200,000 adults aged 65 and older.\",\n    \"Observed risk reduction reached nearly 55 percent for high-dose recipients.\"\n  ],\n  \"caveat\": \"This analysis reflects observational data and does not establish a direct cause-and-effect relationship between vaccine dosage and Alzheimer's prevention.\"\n}"
+      }
+    ],
+    "resolution": "downgraded_to_signal"
+  }
+]

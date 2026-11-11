@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d8790ce27aee3c45c17aeb91": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "unusual result / practice change",
+      "reason": "Offers a direct dose-response comparison showing high-dose flu shots reduce Alzheimer's risk by ~55% versus 40% for standard doses in a large cohort (~200,000). Highly actionable and surprising intervention.",
+      "angle": "Beyond flu protection: High-dose influenza vaccines provide significantly stronger Alzheimer's protection than standard doses.",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "Provides a clear neural mechanism for overtraining syndrome, specifically identifying disrupted hippocampal dopamine regulation during rest.",
+      "angle": "When exercise backfires on the brain: Exhaustive training dysregulates resting hippocampal dopamine, impairing memory and emotional balance.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic observational association",
+      "reason": "The 6-8 hour sleep window for healthy aging and longevity is a thoroughly covered headline topic with no new mechanistic insight.",
+      "angle": "Is 6.4 to 7.8 hours really the sweet spot for sleep and biological aging?",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "broad review",
+      "reason": "General conceptual review on sleep, redox metabolism, and aging without presenting a distinct new experimental finding.",
+      "angle": "How sleep and cellular redox metabolism interact to influence brain longevity.",
+      "mode": "agent"
+    },
+    "b4e9dd5ec9a5e33c0066c7ff": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "animal model finding",
+      "reason": "Sexually dimorphic responses to dietary restriction are well-established; killifish model adds minor incremental value.",
+      "angle": "Sex differences in dietary restriction: Why fasting preserves muscle differently in male vs female killifish.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "systematic review",
+      "reason": "Synthesizes existing animal literature on fasting and epigenetics; explicitly notes zero human studies qualify, limiting immediate reader-stop power.",
+      "angle": "What animal studies reveal about how intermittent fasting reshapes brain epigenetics.",
+      "mode": "agent"
+    },
+    "033b6d254ba7a7afc6126ab0": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "named mechanism",
+      "reason": "Identifies mitoAMPKα impairment in aged male muscle during exercise-induced mitophagy, but is confined strictly to rodent physiology.",
+      "angle": "Why aging muscles fail to clear damaged mitochondria during exercise: The role of altered mitoAMPKα.",
+      "mode": "agent"
+    },
+    "571c0de0c646f523c9c90387": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "routine health advice",
+      "reason": "Generic wellness guide on balance exercises for seniors; lacks novel science or actionable new findings.",
+      "angle": "Essential balance and mobility routines for older adults.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "routine health listicle",
+      "reason": "Standard service journalism listing basic balance exercises for seniors.",
+      "angle": "13 simple exercises to help seniors improve stability and prevent falls.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "d8790ce27aee3c45c17aeb91",
+    "a2f082a62767b4c84fb98f98"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "b4e9dd5ec9a5e33c0066c7ff",
+    "4fa1cbe537a2dff42f96cb80",
+    "033b6d254ba7a7afc6126ab0",
+    "571c0de0c646f523c9c90387",
+    "cadce59ed8f9539ef7a34ac6"
+  ],
+  "mode": "agent"
+}
