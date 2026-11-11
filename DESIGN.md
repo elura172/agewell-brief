@@ -20,6 +20,10 @@ All interface colors are expressed as perceptually uniform OKLCH tokens in `src/
 - `--line` / `--line-strong`: warm stone hairlines and Oxford double rules (`oklch(0.855 0.016 78)` / `oklch(0.76 0.02 76)`)
 - `--saffron` / `--saffron-ink`: burnished mineral ochre-gold action & accessible text accent (`oklch(0.695 0.142 64)` / `oklch(0.445 0.128 54)`)
 
+### Evening reading mode (`html[data-theme="evening"]`)
+
+Sunlit Mineral Paper is always the default first-visit identity. Readers reading at night in low ambient light can opt into **Warm Candlelit Slate** via the masthead crescent/sun toggle (persisted in `localStorage` and restored synchronously in `<head>` with zero flash). The evening ramp reverses perceptual lightness along the same `76° to 82°` warm mineral axis (`--paper: oklch(0.175 0.01 76)`, `--cream: oklch(0.21 0.012 78)`, `--ink: oklch(0.922 0.013 82)`, `--saffron-ink: oklch(0.795 0.128 70)`), avoiding cold tech blue-grays or pure `#000`/`#fff` halation. Print output (`@media print`) always restores crisp black ink on white paper.
+
 ## Typography
 
 The publication pairs optical-sized **Source Serif 4** (`opsz 8..60`, falling back to `Iowan Old Style` and `Palatino`) for display headlines and long-form prose with **Source Sans 3** (falling back to `Avenir Next`) for navigation, kickers, metadata, and controls. Body text begins at 18px with oldstyle proportional numerals in prose and tabular lining numerals across edition numbers, archive indices, and timestamps.

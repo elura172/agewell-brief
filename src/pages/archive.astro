@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
-import { linkRel, typographic } from "../lib/publishing";
+import { linkRel, plainTextExcerpt, typographic } from "../lib/publishing";
 
 const showDrafts = import.meta.env.DEV;
 const entries = (await getCollection("briefs"))
@@ -14,51 +14,135 @@ const topicsFor = (entry: (typeof entries)[number]) =>
   (entry.data.topics && entry.data.topics.length > 0 ? entry.data.topics : [entry.data.category]).map((t) => t.toLowerCase());
 const categories = Array.from(new Set(entries.flatMap(topicsFor))).sort();
 
+const EVIDENCE_ORDER = ["established", "emerging", "contested", "speculative", "historical"] as const;
+const evidenceGrades = EVIDENCE_ORDER.filter((grade) => entries.some((e) => e.data.evidence_position === grade));
+
+const searchIndexFor = (entry: (typeof entries)[number]) => {
+  const leadParagraph = plainTextExcerpt((entry.body ?? "").split("\n\n")[0] ?? "", 180);
+  const pioneers = (entry.data.autoresearch_antecedents ?? [])
+    .map((a) => `${a.scientist} ${a.discovery}`)
+    .join(" ");
+  return [
+    entry.data.title,
+    entry.data.category,
+    ...(entry.data.topics ?? []),
+    entry.data.source_name,
+    entry.data.source_title,
+    entry.data.spiral ?? "",
+    pioneers,
+    leadParagraph
+  ]
+    .join(" ")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Full archive — Agewell Brief",
-  description: "Every published Agewell Brief edition, filterable by topic.",
+  name: "Full archive: Agewell Brief",
+  description: "Every published Agewell Brief edition, searchable by keyword, journal, scientist, topic, and evidence grade.",
   url: new URL("/archive/", Astro.site).href,
   isPartOf: { "@type": "WebSite", name: "Agewell Brief", url: new URL("/", Astro.site).href }
 };
 ---
 <Layout
-  title="Full archive — Agewell Brief"
-  description={`All ${entries.length} published Agewell Brief editions, filterable by topic.`}
+  title="Full archive | Agewell Brief"
+  description={`All ${entries.length} published Agewell Brief editions, searchable by topic, source, and evidence grade.`}
   structuredData={structuredData}
 >
-  <main class="archive-page-main">
+  <div class="archive-page-main">
     <section class="archive-section" aria-labelledby="archive-heading">
       <div class="section-heading archive-heading">
         <div>
-          <p class="eyebrow">Full Archive</p>
+          <p class="eyebrow">Periodical Index</p>
           <h1 id="archive-heading" class="section-title">Every brief</h1>
         </div>
         <p class="section-caption">{entries.length} editions, source-linked and evidence-graded.</p>
       </div>
 
-      {categories.length > 0 && (
-        <div class="topic-filter-bar" aria-label="Filter briefs by topic">
-          <button type="button" class="filter-pill is-active" data-topic="all" aria-pressed="true">All topics ({entries.length})</button>
-          {categories.map((cat) => {
-            const count = entries.filter((e) => topicsFor(e).includes(cat)).length;
-            return (
-              <button type="button" class="filter-pill" data-topic={cat} aria-pressed="false">
-                {cat} ({count})
-              </button>
-            );
-          })}
+      <div class="archive-index-controls" role="search" aria-label="Search and filter the archive">
+        <div class="archive-search-row">
+          <div class="archive-search-field">
+            <svg class="archive-search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="8.75" cy="8.75" r="5.5" />
+              <path d="M13 13l4.25 4.25" />
+            </svg>
+            <input
+              type="search"
+              id="archive-search-input"
+              class="archive-search-input"
+              placeholder="Search headlines, journals, scientists, or topics..."
+              aria-label="Search archive by headline, journal, scientist, or topic"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <kbd id="archive-kbd-hint" class="archive-kbd-hint" aria-hidden="true">/</kbd>
+            <button type="button" id="archive-search-clear" class="archive-search-clear" hidden aria-label="Clear search query">
+              Clear
+            </button>
+          </div>
+          <div class="archive-results-meta">
+            <span id="archive-results-count">Showing all {entries.length} {entries.length === 1 ? "edition" : "editions"}</span>
+            <button type="button" id="archive-reset-inline" class="archive-reset-inline" hidden>Reset</button>
+          </div>
         </div>
-      )}
+
+        {categories.length > 0 && (
+          <div class="topic-filter-bar archive-topic-bar" role="group" aria-label="Filter briefs by topic">
+            <button type="button" class="filter-pill is-active" data-topic="all" aria-pressed="true">All topics ({entries.length})</button>
+            {categories.map((cat) => {
+              const count = entries.filter((e) => topicsFor(e).includes(cat)).length;
+              return (
+                <button type="button" class="filter-pill" data-topic={cat} aria-pressed="false">
+                  {cat} ({count})
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {evidenceGrades.length > 1 && (
+          <div class="archive-evidence-bar" role="group" aria-label="Filter briefs by evidence grade">
+            <span class="archive-filter-label">Evidence grade</span>
+            <div class="archive-evidence-pills">
+              <button type="button" class="evidence-filter-pill is-active" data-evidence-filter="all" aria-pressed="true">
+                All grades
+              </button>
+              {evidenceGrades.map((grade) => {
+                const count = entries.filter((e) => e.data.evidence_position === grade).length;
+                return (
+                  <button type="button" class="evidence-filter-pill" data-evidence-filter={grade} aria-pressed="false">
+                    {grade} ({count})
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </div>
 
       <p id="filter-status" class="sr-only" role="status" aria-live="polite"></p>
+
+      <div id="archive-empty-state" class="archive-empty-state" hidden>
+        <h2>No matching briefs in the archive.</h2>
+        <p>Try a broader keyword or clear an active topic or evidence filter.</p>
+        <button type="button" id="archive-reset-empty" class="primary-link archive-reset-cta">
+          Reset all filters <span aria-hidden="true">→</span>
+        </button>
+      </div>
 
       <ol class="archive-list" id="archive-list">
         {entries.map((entry, index) => {
           const allTopics = topicsFor(entry);
           return (
-            <li class="archive-item" data-topics={allTopics.join("|")}>
+            <li
+              class="archive-item"
+              data-topics={allTopics.join("|")}
+              data-evidence={entry.data.evidence_position}
+              data-search={searchIndexFor(entry)}
+            >
               <article class="archive-entry">
                 <div class="archive-index">{String(index + 1).padStart(2, "0")}</div>
                 <div class="archive-copy">
@@ -74,7 +158,7 @@ const structuredData = {
         })}
       </ol>
     </section>
-  </main>
+  </div>
 </Layout>
 
 <style>
@@ -88,6 +172,212 @@ const structuredData = {
   }
   .archive-heading {
     margin-bottom: 24px;
+    border-top: 1.5px solid var(--ink);
+    box-shadow: inset 0 3px 0 var(--paper), inset 0 4px 0 var(--line-strong);
+    padding-top: 22px;
+  }
+  .archive-index-controls {
+    margin-bottom: 28px;
+  }
+  .archive-search-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px 28px;
+    margin-bottom: 18px;
+  }
+  .archive-search-field {
+    position: relative;
+    flex: 1 1 360px;
+    max-width: 580px;
+    display: flex;
+    align-items: center;
+  }
+  .archive-search-icon {
+    position: absolute;
+    left: 13px;
+    width: 16px;
+    height: 16px;
+    color: var(--muted);
+    pointer-events: none;
+  }
+  .archive-search-input {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 68px 10px 38px;
+    font-family: var(--sans);
+    font-size: 0.94rem;
+    color: var(--ink);
+    background: var(--white);
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    outline: none;
+    transition: border-color 160ms var(--ease-out), background-color 160ms var(--ease-out);
+  }
+  .archive-search-input::placeholder {
+    color: var(--muted);
+  }
+  .archive-search-input:focus {
+    border-color: var(--ink);
+  }
+  .archive-search-input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .archive-kbd-hint {
+    position: absolute;
+    right: 12px;
+    padding: 2px 7px;
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--muted);
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  .archive-search-input:focus ~ .archive-kbd-hint {
+    display: none;
+  }
+  .archive-search-clear {
+    position: absolute;
+    right: 8px;
+    min-height: 30px;
+    padding: 4px 8px;
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: color 150ms var(--ease-out), transform 120ms var(--ease-out);
+  }
+  .archive-search-clear:hover {
+    color: var(--saffron-ink);
+  }
+  .archive-search-clear:active {
+    transform: scale(0.96);
+  }
+  .archive-results-meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+  .archive-reset-inline {
+    padding: 4px 0;
+    font-family: var(--sans);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--saffron-ink);
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--saffron);
+    cursor: pointer;
+    transition: color 150ms var(--ease-out), transform 120ms var(--ease-out);
+  }
+  .archive-reset-inline:hover {
+    color: var(--ink);
+  }
+  .archive-reset-inline:active {
+    transform: scale(0.97);
+  }
+  .archive-topic-bar {
+    margin-bottom: 12px;
+  }
+  .archive-evidence-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--line);
+  }
+  .archive-filter-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .archive-evidence-pills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 14px;
+  }
+  .evidence-filter-pill {
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums lining-nums;
+    min-height: 34px;
+    padding: 4px 10px;
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: color 150ms var(--ease-out), border-color 150ms var(--ease-out), background-color 150ms var(--ease-out), transform 120ms var(--ease-out);
+  }
+  .evidence-filter-pill:hover {
+    color: var(--ink);
+    border-color: var(--line-strong);
+  }
+  .evidence-filter-pill:active {
+    transform: scale(0.97);
+  }
+  .evidence-filter-pill.is-active {
+    color: var(--saffron-ink);
+    font-weight: 700;
+    border-color: var(--saffron-ink);
+    background: color-mix(in oklch, var(--saffron) 14%, var(--paper));
+  }
+  .archive-empty-state {
+    padding: 44px 0 52px;
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--line);
+  }
+  .archive-empty-state h2 {
+    margin: 0 0 8px;
+    font-size: clamp(1.65rem, 3vw, 2.2rem);
+  }
+  .archive-empty-state p {
+    margin: 0 0 18px;
+    color: var(--ink-soft);
+    font-family: var(--serif);
+    font-size: 1.08rem;
+  }
+  .archive-reset-cta {
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 0;
+    font-family: var(--sans);
+    cursor: pointer;
+  }
+  @media (max-width: 700px) {
+    .archive-page-main {
+      padding: 36px 6vw 76px;
+    }
+    .archive-kbd-hint {
+      display: none;
+    }
   }
 </style>
 

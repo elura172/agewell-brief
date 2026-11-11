@@ -27,6 +27,7 @@ const {
   structuredData
 } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const pathname = Astro.url.pathname;
 const imageURL = image ? new URL(image, Astro.site) : undefined;
 const structuredDataJSON = structuredData
   ? JSON.stringify(structuredData).replaceAll("<", "\\u003c")
@@ -93,26 +94,61 @@ const structuredDataJSON = structuredData
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400..700;1,400..600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..600&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script is:inline>
+      (function () {
+        try {
+          var size = localStorage.getItem("agewell_font_size");
+          if (size === "medium" || size === "large") {
+            document.documentElement.setAttribute("data-font-size", size);
+          }
+          var theme = localStorage.getItem("agewell_theme");
+          if (theme === "evening") {
+            document.documentElement.setAttribute("data-theme", "evening");
+          }
+        } catch (_) {}
+      })();
+    </script>
     <title>{title}</title>
     {structuredDataJSON && <script type="application/ld+json" set:html={structuredDataJSON} />}
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
-      <a class="wordmark" href="/" aria-label="Agewell Brief home">
-        <img class="wordmark-mark" src="/logo-mark.svg" width="36" height="36" alt="" aria-hidden="true" loading="eager" decoding="async" fetchpriority="high" />
-        <span>Agewell <em>Brief</em></span>
-      </a>
-      <nav aria-label="Main navigation">
-        <a href="/#latest" title="Today's Lead Feature & Signals">Latest</a>
-        <a href="/archive/" title="Full Archive — Every Published Brief">Archive</a>
-        <a href="/spiral-of-cellular-light/" title="Spiral of Cellular Light — Companion Frameworks & Field Guides">Spiral</a>
-        <a href="/about/" title="About — Editorial Discipline & Mission">About</a>
-        <button type="button" id="font-size-btn" class="font-size-btn" title="Toggle Reader Text Size (Normal / Medium / Large)" aria-label="Text size: Normal. Activate to change.">
-          <span aria-hidden="true">Aa</span>
-        </button>
-        <a class="nav-subscribe" href="/#subscribe">Get the brief</a>
-      </nav>
+      <div class="site-header-bar">
+        <a class="wordmark" href="/" aria-label="Agewell Brief home">
+          <svg class="wordmark-mark" viewBox="0 0 128 128" width="34" height="34" aria-hidden="true" focusable="false">
+            <path class="logo-staff" d="M59 13c0-3 2-5 5-5s5 2 5 5v7c4 1 6 4 6 7 0 4-3 7-7 8l1 80c0 4-2 7-5 7s-5-3-5-7l1-80c-4-1-7-4-7-8 0-3 2-6 6-7v-7Z" />
+            <path class="logo-serpent" d="M91 35C78 29 58 31 49 43 39 57 48 72 64 80c13 7 17 13 12 20-5 7-19 10-32 16l-3 12c19-8 37-11 46-22 11-16 1-28-15-36-12-6-17-14-11-21 6-7 19-7 27-2l3-12Z" />
+            <path class="logo-serpent" d="M82 31c7-1 14 1 19 7-4 7-11 10-19 7-4-2-6-6-5-9 1-2 2-4 5-5Z" />
+            <path class="logo-staff" d="M90 36c2 0 3 1 4 3-2 1-4 1-6 0 0-2 1-3 2-3Z" />
+          </svg>
+          <span>Agewell <em>Brief</em></span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <div class="site-nav-links">
+            <a href="/#latest" title="Today's Lead Feature & Signals" aria-current={pathname === "/" ? "page" : undefined}>Latest</a>
+            <a href="/archive/" title="Full Archive: Every Published Brief" aria-current={pathname.startsWith("/archive") ? "page" : undefined}>Archive</a>
+            <a href="/spiral-of-cellular-light/" title="Spiral of Cellular Light: Companion Frameworks & Field Guides" aria-current={pathname.startsWith("/spiral-of-cellular-light") ? "page" : undefined}>Spiral</a>
+            <a href="/frontier-map/" title="The Living Frontier Map" aria-current={pathname.startsWith("/frontier-map") ? "page" : undefined}>Frontier</a>
+            <a href="/about/" title="About: Editorial Discipline & Mission" aria-current={pathname.startsWith("/about") ? "page" : undefined}>About</a>
+          </div>
+          <div class="site-nav-utilities">
+            <button type="button" id="font-size-btn" class="reader-ctl-btn font-size-btn" title="Toggle Reader Text Size (Normal / Medium / Large)" aria-label="Text size: Normal. Activate to change.">
+              <span aria-hidden="true">Aa</span>
+            </button>
+            <button type="button" id="theme-toggle-btn" class="reader-ctl-btn theme-ctl-btn" title="Toggle Evening Reading Mode" aria-label="Evening reading mode: Off. Activate for warm low-glare slate." aria-pressed="false">
+              <svg class="theme-icon--moon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M15.8 12.6A6.8 6.8 0 0 1 7.4 4.2a6.8 6.8 0 1 0 8.4 8.4Z" />
+              </svg>
+              <svg class="theme-icon--sun" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="10" cy="10" r="3.6" />
+                <path d="M10 2.4v1.8M10 15.8v1.8M2.4 10h1.8M15.8 10h1.8M4.6 4.6l1.3 1.3M14.1 14.1l1.3 1.3M15.4 4.6l-1.3 1.3M5.9 14.1l-1.3 1.3" />
+              </svg>
+            </button>
+            <a class="nav-subscribe" href="/#subscribe">Get the brief</a>
+          </div>
+        </nav>
+      </div>
     </header>
     <main id="main-content"><slot /></main>
     <footer class="site-footer">
@@ -131,30 +167,70 @@ const structuredDataJSON = structuredData
     </footer>
 
     <script>
-      const SIZES = ["normal", "medium", "large"];
+      const SIZES = ["normal", "medium", "large"] as const;
       const SIZE_LABELS = { normal: "Normal", medium: "Medium", large: "Large" };
       let currentIdx = 0;
 
-      const btn = document.getElementById("font-size-btn");
+      const sizeBtn = document.getElementById("font-size-btn");
+      const themeBtn = document.getElementById("theme-toggle-btn");
 
       const announceSize = (size: string) => {
-        if (btn) btn.setAttribute("aria-label", `Text size: ${SIZE_LABELS[size as keyof typeof SIZE_LABELS]}. Activate to change.`);
+        if (sizeBtn) {
+          sizeBtn.setAttribute("aria-label", `Text size: ${SIZE_LABELS[size as keyof typeof SIZE_LABELS]}. Activate to change.`);
+        }
       };
 
-      const savedSize = localStorage.getItem("agewell_font_size");
-      if (savedSize && SIZES.includes(savedSize)) {
-        document.documentElement.setAttribute("data-font-size", savedSize);
-        currentIdx = SIZES.indexOf(savedSize);
-        announceSize(savedSize);
-      }
+      const syncThemeA11y = (isEvening: boolean) => {
+        if (!themeBtn) return;
+        themeBtn.setAttribute("aria-pressed", String(isEvening));
+        themeBtn.setAttribute(
+          "aria-label",
+          isEvening
+            ? "Evening reading mode: On. Activate for sunlit paper."
+            : "Evening reading mode: Off. Activate for warm low-glare slate."
+        );
+      };
 
-      if (btn) {
-        btn.addEventListener("click", () => {
+      try {
+        const savedSize = localStorage.getItem("agewell_font_size");
+        if (savedSize && (SIZES as readonly string[]).includes(savedSize)) {
+          document.documentElement.setAttribute("data-font-size", savedSize);
+          currentIdx = SIZES.indexOf(savedSize as (typeof SIZES)[number]);
+          announceSize(savedSize);
+        }
+      } catch (_) {}
+
+      syncThemeA11y(document.documentElement.getAttribute("data-theme") === "evening");
+
+      if (sizeBtn) {
+        sizeBtn.addEventListener("click", () => {
           currentIdx = (currentIdx + 1) % SIZES.length;
           const nextSize = SIZES[currentIdx];
-          document.documentElement.setAttribute("data-font-size", nextSize);
-          localStorage.setItem("agewell_font_size", nextSize);
+          if (nextSize === "normal") {
+            document.documentElement.removeAttribute("data-font-size");
+          } else {
+            document.documentElement.setAttribute("data-font-size", nextSize);
+          }
+          try {
+            localStorage.setItem("agewell_font_size", nextSize);
+          } catch (_) {}
           announceSize(nextSize);
+        });
+      }
+
+      if (themeBtn) {
+        themeBtn.addEventListener("click", () => {
+          const isEvening = document.documentElement.getAttribute("data-theme") === "evening";
+          const nextEvening = !isEvening;
+          if (nextEvening) {
+            document.documentElement.setAttribute("data-theme", "evening");
+          } else {
+            document.documentElement.removeAttribute("data-theme");
+          }
+          try {
+            localStorage.setItem("agewell_theme", nextEvening ? "evening" : "paper");
+          } catch (_) {}
+          syncThemeA11y(nextEvening);
         });
       }
     </script>

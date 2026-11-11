@@ -1,20 +1,29 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { isCommercialLink, linkRel, plainTextExcerpt, publishedBriefs, spiralTeachingUrl, topicSlug, typographic, withUtm } from "../../lib/publishing";
+import { isCommercialLink, linkRel, plainTextExcerpt, publishedBriefs, readingTimeMinutes, spiralTeachingUrl, topicSlug, typographic, withUtm } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
 import { frontierForCategory } from "../../data/frontier-map";
 
 export async function getStaticPaths() {
-  const entries = await getCollection("briefs");
-  return entries
+  const entries = (await getCollection("briefs"))
     .filter((entry) => import.meta.env.DEV || !entry.data.draft)
-    .map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.data.edition_rank - b.data.edition_rank);
+  return entries.map((entry, index) => ({
+    params: { slug: entry.id },
+    props: {
+      entry,
+      newerBrief: index > 0 ? entries[index - 1] : undefined,
+      olderBrief: index < entries.length - 1 ? entries[index + 1] : undefined
+    }
+  }));
 }
 
-const { entry } = Astro.props;
+const { entry, newerBrief, olderBrief } = Astro.props;
 const { Content } = await render(entry);
+const formatShortDate = (date: Date) => date.toLocaleDateString("en-CA", { month: "short", day: "numeric", year: "numeric" });
 const formatDate = entry.data.date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
+const readMinutes = readingTimeMinutes(entry.body ?? "");
 const formatDateTime = entry.data.date.toLocaleString("en-CA", {
   month: "long",
   day: "numeric",
@@ -151,15 +160,24 @@ const structuredData = [
         <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
         <span class="article-kicker-sep" aria-hidden="true">·</span>
         <time datetime={entry.data.date.toISOString()}>{formatDate}</time>
+        <span class="article-kicker-sep" aria-hidden="true">·</span>
+        <span>{readMinutes} min read</span>
       </div>
       <h1>{typographic(entry.data.title)}</h1>
-      <div class="article-meta">
-        <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <span>Published {formatDateTime}</span></p>
-        {/* The six programme explainers cite our own storefront rather than a
-            study. It already carries rel="sponsored", but calling a shop
-            "Original reporting" is the part that misleads. */}
-        <p class="article-source">{isCommercialLink(entry.data.source_url) ? "Programme reference: " : "Original reporting: "}<a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
-        {frontierLinks.length > 0 && <p class="article-frontier">On the frontier: {frontierLinks.slice(0, 2).map((frontier, index) => <><a href={`/frontier-map/#${frontier.slug}`}>{frontier.shortName}</a>{index < Math.min(frontierLinks.length, 2) - 1 ? ", " : ""}</>)}</p>}
+      <div class="article-meta-bar">
+        <div class="article-meta">
+          <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <span>Published {formatDateTime}</span></p>
+          {/* The six programme explainers cite our own storefront rather than a
+              study. It already carries rel="sponsored", but calling a shop
+              "Original reporting" is the part that misleads. */}
+          <p class="article-source">{isCommercialLink(entry.data.source_url) ? "Programme reference: " : "Original reporting: "}<a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
+          {frontierLinks.length > 0 && <p class="article-frontier">On the frontier: {frontierLinks.slice(0, 2).map((frontier, index) => <><a href={`/frontier-map/#${frontier.slug}`}>{frontier.shortName}</a>{index < Math.min(frontierLinks.length, 2) - 1 ? ", " : ""}</>)}</p>}
+        </div>
+        <div class="article-util-actions" aria-label="Article tools">
+          <button type="button" id="copy-link-btn" class="article-util-btn" data-url={articleURL}>Copy link</button>
+          <button type="button" id="print-brief-btn" class="article-util-btn">Print</button>
+          <span id="copy-link-status" class="sr-only" role="status" aria-live="polite"></span>
+        </div>
       </div>
     </header>
     {entry.data.image && <div class="article-hero">
@@ -230,8 +248,73 @@ const structuredData = [
         {related.map((candidate) => <li><a href={`/brief/${candidate.id}/`}>{typographic(candidate.data.title)}</a><span>{candidate.data.source_name}</span></li>)}
       </ol>
     </section>}
+    {(olderBrief || newerBrief) && (
+      <nav class="article-pager" aria-label="Adjacent briefs">
+        {olderBrief ? (
+          <a class="pager-slot pager-slot--prev" href={`/brief/${olderBrief.id}/`}>
+            <span class="pager-dir"><span aria-hidden="true">←</span> Earlier brief</span>
+            <span class="pager-title">{typographic(olderBrief.data.title)}</span>
+            <span class="pager-meta">{olderBrief.data.category} · {formatShortDate(olderBrief.data.date)}</span>
+          </a>
+        ) : (
+          <div class="pager-slot pager-slot--empty" aria-hidden="true"></div>
+        )}
+        {newerBrief && (
+          <a class="pager-slot pager-slot--next" href={`/brief/${newerBrief.id}/`}>
+            <span class="pager-dir">Newer brief <span aria-hidden="true">→</span></span>
+            <span class="pager-title">{typographic(newerBrief.data.title)}</span>
+            <span class="pager-meta">{newerBrief.data.category} · {formatShortDate(newerBrief.data.date)}</span>
+          </a>
+        )}
+      </nav>
+    )}
     <footer class="article-footer"><span>Keep asking better questions.</span><a href="/#subscribe">Get tomorrow’s edition →</a></footer>
   </article>
+
+  <script>
+    const copyBtn = document.getElementById("copy-link-btn") as HTMLButtonElement | null;
+    const copyStatus = document.getElementById("copy-link-status");
+    const printBtn = document.getElementById("print-brief-btn");
+    let copyTimer: number | undefined;
+
+    if (copyBtn) {
+      copyBtn.addEventListener("click", async () => {
+        const url = copyBtn.getAttribute("data-url") || window.location.href;
+        let copied = false;
+        try {
+          await navigator.clipboard.writeText(url);
+          copied = true;
+        } catch {
+          const fallback = document.createElement("textarea");
+          fallback.value = url;
+          fallback.setAttribute("readonly", "");
+          fallback.style.position = "absolute";
+          fallback.style.left = "-9999px";
+          document.body.appendChild(fallback);
+          fallback.select();
+          copied = document.execCommand("copy");
+          document.body.removeChild(fallback);
+        }
+
+        if (copied) {
+          copyBtn.textContent = "Link copied";
+          copyBtn.setAttribute("data-copied", "true");
+          if (copyStatus) copyStatus.textContent = "Article link copied to clipboard.";
+          if (copyTimer) window.clearTimeout(copyTimer);
+          copyTimer = window.setTimeout(() => {
+            copyBtn.textContent = "Copy link";
+            copyBtn.removeAttribute("data-copied");
+          }, 2000);
+        }
+      });
+    }
+
+    if (printBtn) {
+      printBtn.addEventListener("click", () => {
+        window.print();
+      });
+    }
+  </script>
 
 </Layout>
 
@@ -324,5 +407,111 @@ const structuredData = [
   .protocol-sourcing a {
     color: var(--ink-soft);
     font-weight: 600;
+  }
+  .article-meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px 24px;
+    border-top: 1px solid var(--line);
+    padding-top: 14px;
+  }
+  .article-meta-bar .article-meta {
+    border-top: 0;
+    padding-top: 0;
+    min-width: 0;
+    flex: 1 1 360px;
+  }
+  .article-util-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .article-util-btn {
+    min-height: 32px;
+    padding: 4px 10px;
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: transparent;
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: color 160ms var(--ease-out), border-color 160ms var(--ease-out), background-color 160ms var(--ease-out), transform 120ms var(--ease-out);
+  }
+  .article-util-btn:hover {
+    color: var(--ink);
+    border-color: var(--ink);
+  }
+  .article-util-btn:active {
+    transform: scale(0.96);
+  }
+  .article-util-btn[data-copied="true"] {
+    color: var(--saffron-ink);
+    border-color: var(--saffron-ink);
+    background: color-mix(in oklch, var(--saffron) 14%, var(--paper));
+  }
+  .article-pager {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 40px;
+    margin: 56px 0 0;
+    padding: 28px 0 0;
+    border-top: 1px solid var(--ink);
+  }
+  .pager-slot {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-decoration: none;
+    min-width: 0;
+  }
+  .pager-slot--next {
+    text-align: right;
+    align-items: flex-end;
+  }
+  .pager-dir {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--saffron-ink);
+  }
+  .pager-title {
+    font-family: var(--serif);
+    font-size: 1.18rem;
+    line-height: 1.2;
+    color: var(--ink);
+    transition: color 160ms var(--ease-out);
+  }
+  .pager-slot:hover .pager-title {
+    color: var(--saffron-ink);
+  }
+  .pager-meta {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+  @media (max-width: 640px) {
+    .article-pager {
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+    .pager-slot--empty {
+      display: none;
+    }
+    .pager-slot--next {
+      text-align: left;
+      align-items: flex-start;
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+    }
   }
 </style>

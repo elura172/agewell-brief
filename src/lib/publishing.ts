@@ -44,6 +44,19 @@ export function plainTextExcerpt(markdown: string, limit = 220): string {
   return `${clipped.slice(0, Math.max(clipped.lastIndexOf(" "), limit - 30)).trim()}…`;
 }
 
+export function readingTimeMinutes(markdown: string): number {
+  const clean = withoutAffiliatePlacement(markdown)
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/[#>*_`~-]/g, " ")
+    .trim();
+  if (!clean) return 1;
+  const wordCount = clean.split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(wordCount / 220));
+}
+
 export function escapeXml(value: string): string {
   return value
     .replaceAll("&", "&amp;")
