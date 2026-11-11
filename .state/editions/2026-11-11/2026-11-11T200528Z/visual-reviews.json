@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "9c45ee1a0920fc961c13fbab",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:SpOhbQkWAyE",
+      "score": 85,
+      "rationale": "The candidate matches the requested category visual anchors of a neuroscience laboratory environment with monitors, aligning well with the brain health category and the image brief requirement of a scientific lab setting.",
+      "concerns": [
+        "The alt text is broad ('a room with a lot of monitors on the wall'), but the visual context fits the rigorous laboratory setting required by the image brief."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1701848055770-effbdb148e15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGxhYiUyMG1vbml0b3J8ZW58MXwwfHx8MTc5NDQyNzU5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

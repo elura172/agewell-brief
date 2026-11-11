@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "9c45ee1a0920fc961c13fbab": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "unusual_result",
+      "reason": "Counter-intuitive counter-finding ('obesity paradox' in dementia survival) supported by a large cohort study. Reverses traditional advice and challenges readers' assumptions about weight loss late in disease progression.",
+      "angle": "The Dementia Survival Paradox: Why carrying extra weight at diagnosis might actually protect the brain's metabolic reserves.",
+      "mode": "agent"
+    },
+    "db25e6cd747d289263f88ff2": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "methodology",
+      "reason": "Technically detailed study on mapping EEG latent factors to FDG-PET imaging. Important for non-invasive diagnostics, but too preliminary and niche for a high-impact reader story without direct clinical application.",
+      "angle": "Can cheap EEGs match expensive PET scans for diagnosing specific dementia subtypes?",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic_advice",
+      "reason": "Extremely familiar lifestyle baseline (getting ~7 hours of sleep). Highly redundant with existing sleep literature.",
+      "angle": "Why the 7-hour sleep sweet spot keeps showing up in longevity research.",
+      "mode": "agent"
+    },
+    "b4e9dd5ec9a5e33c0066c7ff": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "incremental_finding",
+      "reason": "Dietary restriction sex differences in killifish (Nothobranchius furzeri). Model organism data without a clear mechanism or human application.",
+      "angle": "Sex-specific responses to dietary restriction in short-lived killifish models.",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 59,
+      "decision": "commission",
+      "novelty_type": "mechanism",
+      "reason": "Identifies a specific neural downside to extreme exercise: disruption of resting hippocampal dopamine dynamics, challenging the 'more exercise is always better' narrative for brain health.",
+      "angle": "When exercise backfires: How overtraining dysregulates hippocampal dopamine and impacts cognitive rest.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "recycled_association",
+      "reason": "Abstract missing, title indicates routine socio-demographic observational survey on depressive symptoms.",
+      "angle": "Life-course social mobility and depression risk among aging populations in India.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "systematic_review",
+      "reason": "Systematic review synthesizing preclinical fasts and epigenetic changes in neurotransmitters, but zero human studies qualified, limiting immediate novelty.",
+      "angle": "How fasting rewires brain epigenomics: What preclinical animal models reveal.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic_review",
+      "reason": "Broad, non-specific review headline connecting sleep, redox balance, and aging without a single novel data point.",
+      "angle": "The link between redox stress, sleep disruption, and biological aging.",
+      "mode": "agent"
+    },
+    "033b6d254ba7a7afc6126ab0": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "mechanism",
+      "reason": "Focuses on exercise-induced mitophagy impairment in old male mice via mitoAMPKalpha, but narrow scope and early stage.",
+      "angle": "Why aging muscle fails to clear damaged mitochondria after exercise.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "9c45ee1a0920fc961c13fbab",
+    "a2f082a62767b4c84fb98f98"
+  ],
+  "held_back": [
+    "db25e6cd747d289263f88ff2",
+    "d4018a08049e4ccb1eeedfee",
+    "b4e9dd5ec9a5e33c0066c7ff",
+    "b3bbba0e16b511eb7aed2b5c",
+    "4fa1cbe537a2dff42f96cb80",
+    "0b7d57db98938147adfb915a",
+    "033b6d254ba7a7afc6126ab0"
+  ],
+  "mode": "agent"
+}
