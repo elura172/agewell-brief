@@ -169,61 +169,54 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 .topic-filter-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 12px;
-  margin-bottom: 32px;
-  padding-bottom: 18px;
+  gap: 4px 20px;
+  margin-bottom: 28px;
+  padding-bottom: 12px;
   border-bottom: 1px solid var(--line);
 }
 .filter-pill {
   font-family: var(--sans);
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: capitalize;
-  padding: 6px 14px;
-  min-height: 44px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 8px 0;
+  min-height: 40px;
   display: inline-flex;
   align-items: center;
-  border-radius: 30px;
-  border: 1px solid var(--line);
-  background: var(--white);
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  background: transparent;
   color: var(--muted);
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: color 0.18s ease, border-color 0.18s ease;
 }
 .filter-pill:hover {
-  border-color: var(--saffron-ink);
   color: var(--ink);
-  transform: translateY(-1px);
+  border-bottom-color: var(--line);
 }
 .filter-pill.is-active {
-  background: var(--ink);
-  color: var(--paper);
-  border-color: var(--ink);
-  box-shadow: var(--shadow-sm);
+  color: var(--ink);
+  font-weight: 700;
+  border-bottom-color: var(--saffron-ink);
 }
-.signal-rail { display: flex; flex-direction: column; justify-content: space-between; padding: 27px 23px; color: var(--muted); font-size: .75rem; font-weight: 700; letter-spacing: .07em; }
-.signal-rail-tags { display: flex; flex-direction: column; gap: 8px; }
-/* The category sat in lowercase directly above the uppercase evidence badge. */
-.signal-rail-tags > span:not(.evidence-badge) { text-transform: uppercase; }
-.signal-rail-tags > a { align-self: flex-start; }
 .evidence-badge {
   display: inline-block;
-  font-size: 0.65rem;
+  font-size: 0.64rem;
   font-weight: 700;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  padding: 3px 8px;
-  border-radius: 4px;
+  padding: 2px 6px;
+  border-radius: 2px;
   width: fit-content;
   border: 1px solid var(--line);
 }
-.evidence-badge--established { background: color-mix(in oklch, var(--saffron) 18%, transparent); color: var(--saffron-ink); border-color: color-mix(in oklch, var(--saffron) 35%, transparent); }
-.evidence-badge--emerging { background: var(--mist); color: var(--ink-soft); }
-.evidence-badge--contested { background: color-mix(in oklch, var(--ink) 10%, transparent); color: var(--muted); }
+.evidence-badge--established { background: color-mix(in oklch, var(--saffron) 14%, transparent); color: var(--saffron-ink); border-color: color-mix(in oklch, var(--saffron) 35%, transparent); }
+.evidence-badge--emerging { background: color-mix(in oklch, var(--mist) 65%, var(--paper)); color: var(--ink-soft); }
+.evidence-badge--contested { background: color-mix(in oklch, var(--ink) 7%, transparent); color: var(--muted); }
 .evidence-badge--historical { background: var(--paper); color: var(--muted); }
-.evidence-badge--speculative { background: color-mix(in oklch, var(--saffron) 30%, transparent); color: var(--saffron-ink); }
-.signal-rail i { display: block; width: 1px; flex: 1; margin: 15px 0; background: var(--saffron); }
+.evidence-badge--speculative { background: color-mix(in oklch, var(--saffron) 22%, transparent); color: var(--saffron-ink); }
 .card-source, .article-source { color: var(--muted); font-size: .82rem; }
 .archive-section { padding-top: 8px; }
 .archive-heading { margin-bottom: 18px; }
@@ -247,7 +240,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 .empty-state { border: 1px dashed var(--line); padding: 50px; background: color-mix(in oklch, var(--white) 45%, transparent); }
 .empty-state h2 { max-width: 600px; margin: 18px 0 10px; font-size: 2.4rem; }
 .about-band { display: grid; grid-template-columns: 1fr 1fr; gap: 10vw; background: var(--mist); max-width: none; padding-left: max(4vw, calc((100% - 1320px) / 2)); padding-right: max(4vw, calc((100% - 1320px) / 2)); }
-.about-band h2 { margin: 18px 0 0; font-size: clamp(2.8rem, 5vw, 5rem); }
+.about-band h2 { margin: 18px 0 0; font-size: clamp(2.4rem, 4.5vw, 3.8rem); }
 .about-band h2 em { color: var(--muted); font-weight: 400; }
 .about-band > p { align-self: end; max-width: 430px; color: var(--ink-soft); }
 .subscribe-card { display: grid; grid-template-columns: 1fr 1fr; gap: 8vw; background: color-mix(in oklch, var(--mist) 45%, var(--paper)); color: var(--ink); max-width: none; padding-left: max(4vw, calc((100% - 1320px) / 2)); padding-right: max(4vw, calc((100% - 1320px) / 2)); }
@@ -265,202 +258,166 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035e
 .footer-signature span:last-child { letter-spacing: .03em; text-transform: none; }
 .footer-links { justify-content: flex-end; gap: 12px 22px; flex-wrap: wrap; max-width: 690px; font-size: inherit; }
 .site-footer a { color: var(--ink); font-weight: 700; text-decoration: none; }
-.article-page { max-width: 900px; margin: auto; padding: 55px 5vw 100px; }
-.back-link { color: var(--muted); font-size: .8rem; text-decoration: none; }
-.article-intro-bar { margin-top: 30px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 12px 0; }
-.article-intro-bar .eyebrow { color: var(--ink-soft); }
-/* The signal rail is absolutely positioned, so it does not reserve its own column.
-   Reserve it here instead: without this the 760px title runs underneath the 226px
-   rail at every width above the 700px breakpoint, not just at narrow desktops. */
-.article-header { position: relative; margin: 80px 0 65px; border-top: 1px solid var(--ink); padding-top: 30px; padding-right: 260px; }
-.article-header .signal-rail { position: absolute; right: 0; top: 0; width: 226px; height: 100%; padding: 30px 0 0 22px; }
-.article-header h1 { max-width: min(760px, 100%); margin: 0 0 20px; font-size: clamp(1.45rem, 2.4vw, 2.25rem); line-height: 1.25; letter-spacing: -0.02em; }
-.article-frontier { margin: 10px 0 0; color: var(--muted); font-size: .78rem; }
-.article-frontier a { color: var(--ink); font-weight: 700; text-decoration-color: var(--saffron); }
-.article-byline { max-width: 720px; margin: 0 0 12px; color: var(--ink-soft); font-size: .82rem; }
-.article-byline a { font-weight: 700; }
-.article-hero { margin: -20px 0 65px; }
-.editorial-image--article { margin: 0; }
-.editorial-image--article img { aspect-ratio: 1.91 / 1; }
-.editorial-image--article figcaption { display: flex; justify-content: flex-end; gap: .3em; }
-/* Bottom margin is load-bearing: at 0 the caption butts straight into the lede and
-   reads as its first line rather than as a caption. It also gives the drop cap's
-   overshoot somewhere to go. */
-.article-image-note { max-width: 700px; margin: 14px 0 26px 10%; color: var(--ink-soft); font-family: var(--serif); font-size: 1rem; font-style: italic; line-height: 1.45; }
-.article-image-note span { margin-right: 7px; color: var(--saffron-ink); font-family: var(--sans); font-size: .67rem; font-style: normal; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
-.article-content { max-width: 700px; margin-left: 10%; font-family: var(--serif); font-size: 1.25rem; }
-.article-content p { margin: 0 0 1.25em; }
-.article-content > p:first-child { margin-bottom: 2em; color: var(--ink-soft); font-size: 1.38rem; line-height: 1.5; }
-.article-content a { text-decoration-color: var(--saffron); text-decoration-thickness: 2px; }
-.article-content h2, .article-content h3 { margin-top: 2em; font-size: 2rem; }
-.article-content h2 { margin-bottom: .65em; }
-.article-content h3 { margin-bottom: .45em; }
-.article-page.is-lead { max-width: 1020px; }
-.article-page.is-lead .article-content { max-width: 760px; font-size: 1.2rem; line-height: 1.72; }
-.article-page.is-lead .article-content > p:first-child { color: var(--ink-soft); font-size: 1.5rem; line-height: 1.5; }
-.article-page.is-lead .article-content h2 { border-top: 1px solid var(--line); padding-top: 1.2em; }
-.article-content blockquote { margin: 2.2em 0; border-top: 2px solid var(--saffron); border-bottom: 1px solid var(--line); padding: 1.2em 0 1.35em; font-style: italic; }
-.article-content blockquote:has(strong) { border: 1px solid var(--line); background: color-mix(in oklch, var(--mist) 52%, var(--paper)); padding: 22px 24px 20px; font-family: var(--sans); font-size: .92rem; font-style: normal; line-height: 1.5; }
-.article-content blockquote:has(strong) p { margin: 0; }
-.article-content blockquote:has(strong) a { font-weight: 700; }
-.resource-card { margin: 2.5em 0; border: 1px solid var(--line); background: color-mix(in oklch, var(--mist) 44%, var(--paper)); padding: 25px 28px 22px; font-family: var(--sans); font-size: .94rem; line-height: 1.5; }
-.resource-card--primary { background: var(--white); border-color: color-mix(in oklch, var(--saffron) 48%, var(--line)); }
-.resource-card p { max-width: 58ch; margin: 0 0 12px; }
-.resource-card .resource-kicker { margin-bottom: 8px; color: var(--saffron-ink); font-size: .7rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
-.resource-card h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 1.75rem; line-height: 1.1; }
-.resource-card .resource-link { display: inline-flex; align-items: center; color: var(--ink); font-weight: 700; text-decoration-thickness: 2px; }
-.resource-card .resource-link span { padding-left: 8px; color: var(--saffron-ink); }
-.resource-card .resource-guide { margin: 10px 0 0; font-size: .82rem; }
-.resource-card .resource-guide a { color: var(--saffron-ink); font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-/* Overrides the 58ch on .resource-card p: 58ch at .75rem is only ~509px, which
-   orphans the last two words of the disclosure onto their own line. */
-.resource-card .resource-disclosure { max-width: 620px; margin: 14px 0 0; color: var(--muted); font-size: .75rem; }
-/* Reads as useful information rather than more small print: the reader needs it
-   before the click, not at a checkout address field. Slightly darker than the
-   commission disclosure above it, and marked so the two do not merge. */
-/* Sourcing, not the offer. Quieter than the programme link above it, and it
-   names Canada up front so two thirds of readers know it is not for them
-   before they click rather than at a checkout address field. */
-.resource-card .resource-sourcing {
-  max-width: 620px;
-  margin: 14px 0 0;
-  padding-left: 10px;
-  border-left: 2px solid color-mix(in oklch, var(--saffron) 40%, transparent);
+
+/* Brief Article Page — Single-Column Broadsheet Reading Column */
+.article-page,
+.article-page.is-lead { max-width: 780px; margin: 0 auto; padding: 48px 4vw 100px; }
+.back-link { display: inline-block; color: var(--muted); font-size: .8rem; font-weight: 600; text-decoration: none; }
+.back-link:hover { color: var(--saffron-ink); }
+.article-header { margin: 22px 0 36px; border-top: 1px solid var(--ink); padding-top: 24px; }
+.article-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  margin-bottom: 16px;
   color: var(--muted);
-  font-size: .78rem;
-  line-height: 1.45;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-transform: uppercase;
 }
-.resource-card .resource-sourcing a { color: var(--ink-soft); font-weight: 600; }
-.resource-card .resource-shipping {
-  max-width: 620px;
-  margin: 8px 0 0;
-  padding-left: 10px;
-  border-left: 2px solid color-mix(in oklch, var(--saffron) 55%, transparent);
-  color: var(--ink-soft);
-  font-size: .78rem;
-  line-height: 1.45;
-}
-/* A brief now carries the spiral once in the body and once as the closing
-   protocol card. The two former in-body variants gave the same program three
-   different weights on one page — a 1px accent, a flat tint, and a 3px bar — so
-   the single body card takes one treatment and the closing card carries the
-   weight, as the last thing the reader passes. */
-.resource-card--opening { border-left: 3px solid var(--saffron); }
-.article-content h3 + ul, .article-content h2 + ul { margin: 1em 0 2.2em; border: 1px solid var(--line); background: color-mix(in oklch, var(--mist) 42%, var(--paper)); padding: 20px 26px 20px 48px; font-family: var(--sans); font-size: 1rem; line-height: 1.55; }
-.article-content h3 + ul li, .article-content h2 + ul li { margin: 7px 0; padding-left: 5px; }
-.article-content h3 + ul li::marker, .article-content h2 + ul li::marker { color: var(--saffron-ink); font-weight: 700; }
+.article-category-link { color: var(--saffron-ink); text-decoration: none; }
+.article-category-link:hover { text-decoration: underline; text-decoration-color: var(--saffron); }
+.article-kicker-sep { color: var(--line); }
+.article-header h1 { margin: 0 0 20px; font-size: clamp(2.15rem, 4.1vw, 3.25rem); line-height: 1.07; letter-spacing: -0.03em; text-wrap: balance; }
+.article-meta { border-top: 1px solid var(--line); padding-top: 14px; display: grid; gap: 5px; }
+.article-byline { margin: 0; color: var(--ink-soft); font-size: .82rem; }
+.article-byline a { font-weight: 700; text-decoration-color: var(--line); }
+.article-source { margin: 0; color: var(--muted); font-size: .8rem; }
+.article-source a { color: var(--ink-soft); font-weight: 600; text-decoration-color: var(--line); }
+.article-frontier { margin: 0; color: var(--muted); font-size: .78rem; }
+.article-frontier a { color: var(--ink-soft); font-weight: 600; text-decoration-color: var(--saffron); }
+.article-hero { margin: 0 0 38px; }
+.editorial-image--article { margin: 0; }
+.editorial-image--article img { aspect-ratio: 16 / 10; border: 1px solid var(--line); border-radius: 2px; }
+.editorial-image--article figcaption { display: flex; justify-content: flex-end; gap: .3em; }
+.article-image-note { margin: 10px 0 0; padding-bottom: 18px; border-bottom: 1px solid var(--line); color: var(--ink-soft); font-family: var(--serif); font-size: .98rem; font-style: italic; line-height: 1.45; }
+.article-image-note span { margin-right: 7px; color: var(--saffron-ink); font-family: var(--sans); font-size: .67rem; font-style: normal; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.article-content { font-family: var(--serif); font-size: 1.2rem; line-height: 1.72; }
+.article-content p { margin: 0 0 1.25em; }
+.article-content > p:first-child { margin: 0 0 1.8em; padding-bottom: 1.25em; border-bottom: 1px solid var(--line); color: var(--ink-soft); font-size: 1.38rem; line-height: 1.48; }
+.article-content a { text-decoration-color: var(--saffron); text-decoration-thickness: 1.5px; }
+.article-content h2 { margin: 2em 0 .6em; border-top: 1px solid var(--line); padding-top: 1.15em; font-size: clamp(1.55rem, 2.6vw, 1.95rem); line-height: 1.14; }
+.article-content h3 { margin: 1.75em 0 .45em; font-size: 1.32rem; line-height: 1.2; }
+.article-content ul, .article-content ol { margin: 0.85em 0 1.65em; padding-left: 1.35em; }
+.article-content li { margin: 0.45em 0; padding-left: 4px; }
+.article-content li::marker { color: var(--saffron-ink); font-weight: 700; }
 .article-content img { max-width: 100%; }
-.article-footer { display: flex; justify-content: space-between; max-width: 700px; margin: 75px 0 0 10%; border-top: 1px solid var(--line); padding-top: 22px; color: var(--muted); font-size: .82rem; }
+.article-content blockquote,
+.info-content blockquote {
+  margin: 2em 0;
+  padding: 2px 0 2px 20px;
+  border-left: 2px solid var(--saffron);
+  font-family: var(--serif);
+  font-size: 1.16rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.article-content blockquote p,
+.info-content blockquote p { margin: 0; }
+.article-content blockquote:has(strong) {
+  margin: 2.4em 0 0;
+  padding: 14px 0 0;
+  border-left: 0;
+  border-top: 1px solid var(--line);
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.article-content blockquote:has(strong) strong { color: var(--ink-soft); }
+.article-content blockquote:has(strong) a { font-weight: 600; }
+
+.article-footer { display: flex; justify-content: space-between; margin: 64px 0 0; border-top: 1px solid var(--line); padding-top: 22px; color: var(--muted); font-size: .82rem; }
 .article-footer a { color: var(--ink); font-weight: 700; }
-.related-briefs { display: grid; grid-template-columns: minmax(180px, .7fr) minmax(0, 1.3fr); gap: 8vw; max-width: 700px; margin: 72px 0 0 10%; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 30px 0 34px; }
-.related-briefs h2 { margin: 8px 0 18px; font-size: 2rem; }
+.related-briefs { display: grid; grid-template-columns: minmax(180px, .7fr) minmax(0, 1.3fr); gap: 6vw; margin: 56px 0 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 28px 0 32px; }
+.related-briefs h2 { margin: 8px 0 16px; font-size: 1.75rem; }
 .related-briefs .eyebrow { margin: 0; }
 .topic-link { color: var(--ink); font-size: .78rem; font-weight: 700; text-decoration-color: var(--saffron); }
 .topic-link span { color: var(--saffron-ink); padding-left: 6px; }
 .related-briefs ol { margin: 0; padding: 0; list-style: none; }
 .related-briefs li { border-top: 1px solid var(--line); padding: 12px 0; }
 .related-briefs li:first-child { border-top: 0; padding-top: 0; }
-.related-briefs li a { display: block; font-family: var(--serif); font-size: 1.25rem; line-height: 1.15; text-decoration: none; }
+.related-briefs li a { display: block; font-family: var(--serif); font-size: 1.2rem; line-height: 1.18; text-decoration: none; }
 .related-briefs li span { display: block; margin-top: 5px; color: var(--muted); font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; }
-.topic-page { max-width: 1040px; margin: auto; padding: 70px 5vw 120px; }
-.topic-header { max-width: 820px; margin: 78px 0 82px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 30px 0 42px; }
+
+/* Interior Broadsheet Pages — Topics, Frontier Map, Spiral, Info */
+.topic-page,
+.frontier-page,
+.spiral-page,
+.info-page { max-width: 1120px; margin: auto; padding: 56px 4vw 110px; }
+
+.topic-header,
+.frontier-header,
+.spiral-header { max-width: 880px; margin: 28px 0 56px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 28px 0 36px; }
+
 .topic-header-topline { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
 .topic-header-topline p { margin: 0; }
 .topic-header-topline > span { color: var(--muted); font-size: .72rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
-.topic-header h1 { margin: 14px 0 20px; font-size: clamp(3.8rem, 9vw, 7.5rem); }
-.topic-header > p:last-child { max-width: 600px; margin: 0; color: var(--ink-soft); font-family: var(--serif); font-size: 1.3rem; }
-.topic-context { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(230px, .65fr); gap: 7vw; align-items: end; max-width: 900px; margin: 0 0 72px; border-top: 2px solid var(--saffron); border-bottom: 1px solid var(--line); padding: 26px 0 28px; }
+
+.topic-header h1,
+.frontier-header h1,
+.spiral-header h1,
+.info-header h1 {
+  margin: 14px 0 18px;
+  font-size: clamp(2.35rem, 4.6vw, 3.75rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+.topic-header h1 { text-transform: capitalize; }
+.spiral-header h1 em { color: var(--saffron-ink); }
+
+.topic-header > p:last-child,
+.frontier-lede,
+.spiral-lede { max-width: 62ch; margin: 0; color: var(--ink-soft); font-family: var(--serif); font-size: clamp(1.18rem, 1.8vw, 1.42rem); line-height: 1.45; }
+
+.topic-context { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(230px, .65fr); gap: 6vw; align-items: start; max-width: 960px; margin: 0 0 64px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 26px 0 28px; }
 .topic-context .eyebrow { margin: 0 0 10px; }
-.topic-context h2 { max-width: 650px; margin: 0; font-family: var(--serif); font-size: clamp(1.8rem, 3.4vw, 3rem); line-height: 1.08; }
+.topic-context h2 { max-width: 650px; margin: 0; font-family: var(--serif); font-size: clamp(1.65rem, 2.8vw, 2.35rem); line-height: 1.12; }
 .topic-resource { border-top: 1px solid var(--line); padding-top: 15px; }
 .topic-resource p { margin: 0 0 8px; color: var(--muted); font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
-.topic-resource a { display: block; color: var(--ink); font-weight: 700; text-decoration-color: var(--saffron); text-decoration-thickness: 2px; }
+.topic-resource a { display: block; color: var(--ink); font-weight: 700; text-decoration-color: var(--saffron); text-decoration-thickness: 1.5px; }
 .topic-resource a span { padding-left: 6px; color: var(--saffron-ink); }
-.topic-resource small { display: block; margin-top: 10px; color: var(--muted); font-size: .72rem; line-height: 1.4; }
-.topic-resource .topic-shipping { margin-top: 8px; padding-left: 9px; border-left: 2px solid color-mix(in oklch, var(--saffron) 55%, transparent); color: var(--ink-soft); }
+.topic-resource small { display: block; margin-top: 10px; color: var(--muted); font-size: .72rem; line-height: 1.45; }
 .topic-resource .topic-framework-link { margin-bottom: 8px; color: var(--muted); font-size: .8rem; font-weight: 600; text-decoration-thickness: 1px; }
-.topic-list { max-width: 900px; }
+.topic-list { max-width: 960px; }
 .topic-list ol { margin: 0; border-top: 1px solid var(--ink); padding: 0; list-style: none; }
-.topic-list li { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 24px; border-bottom: 1px solid var(--line); padding: 28px 0 32px; }
-.topic-index { color: var(--saffron-ink); font-family: var(--serif); font-size: 1.5rem; }
+.topic-list li { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 20px; border-bottom: 1px solid var(--line); padding: 24px 0 28px; }
+.topic-index { color: var(--saffron-ink); font-family: var(--serif); font-size: 1.4rem; }
 .topic-list p { margin: 0 0 8px; color: var(--muted); font-size: .72rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
-.topic-list h3 { max-width: 760px; margin: 0; font-size: clamp(1.6rem, 3vw, 2.45rem); }
+.topic-list h3 { max-width: 760px; margin: 0; font-size: clamp(1.45rem, 2.6vw, 2.05rem); line-height: 1.12; }
 .topic-list h3 a { text-decoration: none; }
-.frontier-page { max-width: 1240px; margin: auto; padding: 70px 5vw 120px; }
-.frontier-hero-banner {
-  margin: 24px 0 36px;
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow-md);
-}
-.frontier-hero-banner img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.frontier-hero-banner:hover img {
-  transform: scale(1.015);
-}
-.frontier-header { max-width: 930px; margin: 40px 0 92px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 30px 0 48px; }
-.frontier-header .quantum-luminance-container { margin-bottom: 38px; }
-.frontier-header .eyebrow { margin-top: 20px; margin-bottom: 14px; }
-.frontier-header h1 { max-width: 850px; margin: 16px 0 24px; font-size: clamp(4rem, 9vw, 8.6rem); line-height: .92; text-wrap: balance; }
-.frontier-lede { max-width: 720px; margin: 0; color: var(--ink-soft); font-family: var(--serif); font-size: clamp(1.35rem, 2.5vw, 2rem); line-height: 1.35; }
-.frontier-intro { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 8vw; max-width: 980px; margin-bottom: 90px; border-top: 2px solid var(--saffron); padding-top: 25px; }
-.frontier-intro h2 { max-width: 480px; margin: 0; font-size: clamp(2rem, 4vw, 3.5rem); }
-.frontier-intro > div:last-child { max-width: 650px; color: var(--ink-soft); font-family: var(--serif); font-size: 1.2rem; line-height: 1.65; }
+
+.frontier-header .eyebrow { margin-bottom: 12px; }
+.frontier-intro { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 6vw; max-width: 980px; margin-bottom: 72px; border-top: 1px solid var(--ink); padding-top: 26px; }
+.frontier-intro h2 { max-width: 480px; margin: 8px 0 0; font-size: clamp(1.75rem, 3vw, 2.5rem); line-height: 1.1; }
+.frontier-intro > div:last-child { max-width: 62ch; color: var(--ink-soft); font-family: var(--serif); font-size: 1.15rem; line-height: 1.62; }
 .frontier-intro p { margin: 0 0 18px; }
-.frontier-takeaway { border-top: 1px solid var(--line); padding-top: 18px; color: var(--ink); }
-.frontier-territories { margin-bottom: 100px; }
-.frontier-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
-.frontier-territory { display: flex; flex-direction: column; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); background: var(--paper); box-shadow: var(--shadow-sm); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease; }
-.frontier-territory:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
-.frontier-territory-body { padding: clamp(24px, 4vw, 36px); display: flex; flex-direction: column; flex-grow: 1; }
-.frontier-territory-topline { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
-.frontier-index { color: var(--saffron-ink); font-family: var(--serif); font-size: 1.8rem; }
+.frontier-takeaway { border-top: 1px solid var(--line); padding-top: 16px; color: var(--ink); }
+.frontier-territories { margin-bottom: 20px; }
 .frontier-status { color: var(--muted); font-size: .68rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
 .frontier-status--established { color: var(--saffron-ink); }
 .frontier-status--contested { color: var(--ink-soft); }
-.frontier-territory h3 { max-width: 560px; margin: 18px 0 12px; font-size: clamp(2rem, 3.5vw, 3.2rem); line-height: 1.02; }
-.frontier-territory-body > p { max-width: 48ch; margin: 0; color: var(--ink-soft); font-family: var(--serif); font-size: 1.1rem; line-height: 1.5; }
-.frontier-territory .frontier-question { margin-top: 18px; color: var(--ink); font-style: italic; }
-.frontier-topics { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 32px; border-top: 1px solid color-mix(in oklch, var(--ink) 18%, transparent); padding-top: 15px; }
-.frontier-topics a { display: inline-flex; align-items: baseline; gap: 3px; color: var(--ink); font-size: .76rem; font-weight: 700; text-decoration-color: var(--saffron); text-transform: capitalize; }
-.frontier-topics a span { color: var(--saffron-ink); }
-.frontier-topics small { color: var(--muted); font-size: .66rem; font-weight: 400; }
-.frontier-method { max-width: 900px; margin: 0 0 0 10%; border-top: 1px solid var(--ink); padding-top: 24px; }
-.frontier-method h2 { margin: 12px 0 18px; font-size: clamp(2.5rem, 5vw, 4.6rem); }
-.frontier-method > p:not(.eyebrow) { max-width: 650px; margin: 0 0 26px; color: var(--ink-soft); font-family: var(--serif); font-size: 1.22rem; line-height: 1.6; }
-.frontier-method .primary-link { display: inline-flex; }
-.spiral-page { max-width: 1120px; margin: auto; padding: 64px 4vw 120px; }
-.spiral-header { max-width: 900px; margin: 48px 0 64px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 30px 0 44px; }
-.spiral-header h1 { margin: 16px 0 22px; font-size: clamp(3.6rem, 8.5vw, 7.2rem); line-height: .9; }
-.spiral-header h1 em { color: var(--saffron-ink); }
-.spiral-lede { max-width: 660px; margin: 0; color: var(--ink-soft); font-family: var(--serif); font-size: clamp(1.3rem, 2.2vw, 1.85rem); line-height: 1.38; }
+
 .spiral-resources { max-width: 1120px; }
-.info-page { max-width: 1040px; margin: auto; padding: 90px 5vw 120px; }
-.info-header { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(260px, .55fr); gap: 8vw; align-items: end; border-bottom: 1px solid var(--ink); padding-bottom: 52px; }
-.info-header h1 { margin: 0; font-size: clamp(3.6rem, 8vw, 6rem); }
-.info-lede { margin: 0; color: var(--ink-soft); font-family: var(--serif); font-size: 1.25rem; }
-.info-meta { grid-column: 1 / -1; margin: 10px 0 0; color: var(--muted); font-size: .76rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
-.info-content { max-width: 720px; margin: 70px 0 0 14%; font-family: var(--serif); font-size: 1.18rem; line-height: 1.75; }
-.info-content h2 { margin: 2.1em 0 .55em; font-size: 2.25rem; }
-.info-content h2:first-child { margin-top: 0; }
-.info-content a { font-weight: 700; }
-.contact-callout { margin-bottom: 60px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 28px 0 32px; }
-.contact-callout a { display: inline-block; margin-top: 12px; color: var(--ink); font-family: var(--sans); font-size: clamp(1.5rem, 4vw, 2.5rem); text-decoration-color: var(--saffron); }
+
+.info-header { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(260px, .65fr); gap: 6vw; align-items: end; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 28px 0 38px; }
+.info-header h1 { margin: 0; }
+.info-lede { margin: 0; color: var(--ink-soft); font-family: var(--serif); font-size: 1.2rem; line-height: 1.48; }
+.info-meta { grid-column: 1 / -1; order: -1; margin: 0 0 -10px; color: var(--saffron-ink); font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.info-content { max-width: 720px; margin: 48px 0 0; font-family: var(--serif); font-size: 1.18rem; line-height: 1.72; }
+.info-content h2 { margin: 2em 0 .55em; border-top: 1px solid var(--line); padding-top: 1.1em; font-size: clamp(1.5rem, 2.5vw, 1.9rem); }
+.info-content h2:first-child { margin-top: 0; border-top: 0; padding-top: 0; }
+.info-content a { font-weight: 700; text-decoration-color: var(--saffron); }
+.contact-callout { margin-bottom: 48px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 24px 0 28px; }
+.contact-callout a { display: inline-block; margin-top: 10px; color: var(--ink); font-family: var(--sans); font-size: clamp(1.35rem, 3.2vw, 2rem); font-weight: 700; text-decoration-color: var(--saffron); }
 code { font-size: .8em; }
 nav a { display: inline-flex; min-height: 44px; align-items: center; }
-/* The nav needs ~814px to lay out every link plus the CTA. The general
-   mobile breakpoint below (700px) already handles this by hiding secondary
-   links, but that left a real gap between 700-860px — including 768px iPad
-   portrait — where the nav overflowed the viewport with no collapse. This is
-   scoped to just the header so it doesn't also trigger the single-column
-   mobile layout meant for phone widths. */
+
 @media (max-width: 960px) {
   .site-header nav a:not(.nav-subscribe) { display: none; }
 }
@@ -474,7 +431,7 @@ nav a { display: inline-flex; min-height: 44px; align-items: center; }
   .edition-mast span:nth-child(2) { display: none; }
   .lead-story { grid-template-columns: 1fr; min-height: 0; margin-top: 24px; gap: 20px; }
   .lead-story-copy { padding: 0; }
-  .lead-story h1 { font-size: clamp(2.35rem, 10vw, 3.5rem); }
+  .lead-story h1 { font-size: clamp(2.15rem, 9vw, 3.1rem); }
   .lead-dek { font-size: 1.08rem; }
   .quick-signals { margin-top: 52px; }
   .quick-signals-heading { display: block; }
@@ -485,7 +442,6 @@ nav a { display: inline-flex; min-height: 44px; align-items: center; }
   .edition-promise ul { display: grid; justify-content: start; gap: 8px; margin-top: 18px; }
   .section-heading { display: block; }
   .section-caption { margin-top: 8px; }
-  .signal-rail { padding: 22px 10px; font-size: .72rem; }
   .editorial-image--featured { grid-row: 1; }
   .editorial-image--featured img { min-height: 0; aspect-ratio: 1.55 / 1; }
   .about-band, .subscribe-card { grid-template-columns: 1fr; }
@@ -497,53 +453,24 @@ nav a { display: inline-flex; min-height: 44px; align-items: center; }
   .about-band > p { margin-bottom: 0; }
   .subscribe-heading { grid-template-columns: 56px minmax(0, 1fr); gap: 16px; }
   .subscribe-heading img { width: 56px; height: 56px; padding: 9px; }
-  .article-page { padding: 35px 6vw 70px; }
-  .article-intro-bar { margin-top: 24px; padding: 12px 0 14px; }
-  /* The rail goes static here, so the reserved column must be given back. */
-  .article-header { margin-top: 60px; padding-right: 0; }
-  /* Height must follow the content here. At a fixed 80px the stacked rail —
-     category, evidence badge, framework chip, then the date — overflowed to
-     134px and dropped the date 27px into the headline. */
-  .article-header .signal-rail { position: static; width: auto; height: auto; padding: 0; margin-bottom: 28px; gap: 10px; }
-  /* The vertical rule spaces the two ends of the desktop column; stacked it
-     collapses to nothing but keeps its 15px margins as dead space. */
-  .article-header .signal-rail i { display: none; }
-  .article-hero { margin: -20px -6vw 48px; }
-  .editorial-image--article figcaption { display: block; padding-left: 6vw; padding-right: 6vw; }
-  .article-image-note { margin: 12px 6vw 26px; font-size: .95rem; }
-  .article-content, .article-footer { margin-left: 0; }
-  .related-briefs { grid-template-columns: 1fr; gap: 28px; margin-left: 0; }
-  .article-content { font-size: 1.18rem; }
-  .article-content > p:first-child { font-size: 1.27rem; }
-  .resource-card { padding: 21px 20px 18px; }
-  .article-content h3 + ul, .article-content h2 + ul { padding-left: 38px; }
+  .article-page, .article-page.is-lead { padding: 32px 6vw 72px; }
+  .article-header { margin: 18px 0 28px; padding-top: 20px; }
+  .article-hero { margin: 0 0 32px; }
+  .article-image-note { font-size: .94rem; }
+  .related-briefs { grid-template-columns: 1fr; gap: 24px; }
+  .article-content { font-size: 1.14rem; }
+  .article-content > p:first-child { font-size: 1.24rem; }
   .article-footer { display: block; }
-  .article-footer a { display: block; margin-top: 14px; }
+  .article-footer a { display: block; margin-top: 12px; }
   .site-footer { display: grid; }
   .footer-links { justify-content: flex-start; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }
-  .info-page { padding: 65px 6vw 90px; }
-  .info-header { grid-template-columns: 1fr; gap: 28px; padding-bottom: 38px; }
-  .info-header h1 { font-size: clamp(3.2rem, 15vw, 5.3rem); }
-  .info-content { margin: 50px 0 0; font-size: 1.12rem; }
-  .topic-page { padding: 48px 6vw 90px; }
-  .topic-header { margin: 58px 0 56px; }
-  .topic-context { grid-template-columns: 1fr; gap: 28px; margin-bottom: 58px; }
-  .topic-header h1 { font-size: clamp(3.2rem, 15vw, 5.5rem); }
+  .topic-page, .frontier-page, .spiral-page, .info-page { padding: 40px 6vw 84px; }
+  .info-header { grid-template-columns: 1fr; gap: 16px; padding-bottom: 28px; }
+  .info-meta { margin-bottom: 0; }
+  .info-content { margin: 36px 0 0; font-size: 1.12rem; }
+  .topic-header, .frontier-header, .spiral-header { margin: 22px 0 42px; padding: 22px 0 28px; }
+  .topic-context, .frontier-intro { grid-template-columns: 1fr; gap: 24px; margin-bottom: 48px; }
   .topic-list li { grid-template-columns: 42px minmax(0, 1fr); gap: 14px; }
-  .frontier-page { padding: 48px 6vw 90px; }
-  .frontier-header { margin: 58px 0 68px; }
-  .frontier-header h1 { font-size: clamp(3.5rem, 16vw, 6.2rem); }
-  .frontier-intro { grid-template-columns: 1fr; gap: 28px; margin-bottom: 64px; }
-  .frontier-grid { grid-template-columns: 1fr; }
-  .frontier-territory, .frontier-territory:nth-child(3), .frontier-territory:nth-child(4) { min-height: 0; padding: 30px 25px 36px; }
-  .frontier-territory h3 { margin-top: 38px; font-size: clamp(2.5rem, 12vw, 4.3rem); }
-  .frontier-method { margin-left: 0; }
-  .spiral-page { padding: 48px 6vw 90px; }
-  .spiral-header { margin: 58px 0 68px; }
-  .spiral-header h1 { font-size: clamp(3.4rem, 16vw, 6rem); }
-  .spiral-intro { grid-template-columns: 1fr; gap: 28px; margin-bottom: 62px; }
-  .spiral-resources li { grid-template-columns: 42px minmax(0, 1fr); gap: 14px; }
-  .spiral-reading, .spiral-note { margin-left: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
@@ -563,79 +490,25 @@ html[data-font-size="large"] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 4px 10px;
+  padding: 4px 9px;
   font-family: var(--sans);
-  font-size: 0.84rem;
+  font-size: 0.8rem;
   font-weight: 700;
   border: 1px solid var(--line);
-  border-radius: 16px;
-  background: var(--paper);
+  border-radius: 2px;
+  background: transparent;
   color: var(--ink);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
   margin-right: 4px;
 }
 .font-size-btn:hover {
-  border-color: var(--saffron);
+  border-color: var(--ink);
   color: var(--saffron-ink);
-  background: var(--white);
 }
 html[data-font-size="medium"] .font-size-btn,
 html[data-font-size="large"] .font-size-btn {
-  border-color: var(--saffron);
-  background: color-mix(in oklch, var(--saffron) 18%, var(--paper));
+  border-color: var(--saffron-ink);
+  background: color-mix(in oklch, var(--saffron) 14%, var(--paper));
   color: var(--saffron-ink);
-}
-
-/* Phase 1: Luminous Editorial Drop-Cap & Blockquote Styling */
-/* Float fallback. Sized in `em` so it tracks the lede's font-size on both lead
-   (1.5rem) and standard (1.38rem) briefs, and at line-height 1 the float box is
-   exactly 3em tall = two 1.5-line-height lines. The previous rule set
-   line-height (0.75) below font-size, which makes the half-leading negative:
-   the glyph overshot the top of its line box into the caption above, while the
-   float box was still too short to clear the second line — hence the notch. */
-.article-content > p:first-of-type::first-letter,
-.info-content > p:first-of-type::first-letter {
-  float: left;
-  font-family: var(--serif);
-  font-size: 3em;
-  line-height: 1;
-  margin: 0 0.06em 0 0;
-  color: var(--saffron-ink);
-  font-weight: 700;
-  text-shadow: 0 2px 14px color-mix(in oklch, var(--saffron) 35%, transparent);
-}
-
-/* Where supported, hand cap-height and baseline alignment to the browser, which
-   does it properly on both lines instead of approximating with a float box. */
-@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
-  .article-content > p:first-of-type::first-letter,
-  .info-content > p:first-of-type::first-letter {
-    float: none;
-    font-size: inherit;
-    line-height: inherit;
-    -webkit-initial-letter: 2;
-    initial-letter: 2;
-    margin-right: 0.06em;
-  }
-}
-
-.article-content blockquote,
-.info-content blockquote {
-  margin: 32px 0;
-  padding: 24px 28px;
-  background: color-mix(in oklch, var(--saffron) 8%, var(--paper));
-  border-left: 3px solid var(--saffron);
-  border-radius: 0 12px 12px 0;
-  font-family: var(--serif);
-  font-size: 1.25rem;
-  font-style: italic;
-  line-height: 1.6;
-  color: var(--ink);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
-}
-
-.article-content blockquote p,
-.info-content blockquote p {
-  margin: 0;
 }

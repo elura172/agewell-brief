@@ -12,8 +12,8 @@ def get_all_public_urls() -> list[str]:
     urls = [
         f"{SITE_URL}/",
         f"{SITE_URL}/about/",
+        f"{SITE_URL}/archive/",
         f"{SITE_URL}/frontier-map/",
-        f"{SITE_URL}/mind-ocean/",
         f"{SITE_URL}/spiral-of-cellular-light/",
         f"{SITE_URL}/editorial-policy/",
         f"{SITE_URL}/affiliate-disclosure/",

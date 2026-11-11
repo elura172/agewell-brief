@@ -149,7 +149,7 @@ const structuredData = [
         <p>Program perspective</p>
         <a class="topic-framework-link" href="/spiral-of-cellular-light/">About the framework <span aria-hidden="true">→</span></a>
         <a href={spiralTeachingUrl(guide.resource.name)} rel="noopener noreferrer" target="_blank">Walk the {guide.resource.name} spiral <span aria-hidden="true">→</span></a>
-        <a href={guide.resource.pdfUrl} download class="topic-pdf-download">📄 Download Companion Field Guide (PDF)</a>
+        <a href={guide.resource.pdfUrl} download class="topic-pdf-download">Companion field guide (PDF) ↓</a>
         <small>
           In Canada, the supplements for this protocol are stocked at
           <a href={withUtm(guide.resource.href, "topic-page-sourcing")} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>.
@@ -177,20 +177,15 @@ const structuredData = [
 
 <style>
   .topic-pdf-download {
-    display: inline-block;
+    display: block;
     margin-top: 8px;
     font-size: 0.82rem;
     font-weight: 600;
-    color: var(--saffron-ink);
-    text-decoration: none;
-    padding: 6px 12px;
-    border: 1px solid var(--line);
-    border-radius: 6px;
-    background: var(--paper);
-    transition: all 0.2s ease;
+    color: var(--ink-soft);
+    text-decoration-color: var(--line);
   }
   .topic-pdf-download:hover {
-    border-color: var(--saffron);
-    background: var(--cream);
+    color: var(--saffron-ink);
+    text-decoration-color: var(--saffron);
   }
 </style>

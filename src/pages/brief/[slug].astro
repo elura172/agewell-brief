@@ -144,25 +144,23 @@ const structuredData = [
 >
   <article class:list={["article-page", { "is-lead": isLongform }]}>
     <a class="back-link" href="/">← All briefs</a>
-    <div class="article-intro-bar">
-      <p class="eyebrow">Agewell Brief <span aria-hidden="true">·</span> Clear signals. Better questions.</p>
-    </div>
     <header class="article-header">
-      <div class="signal-rail">
-        <div class="signal-rail-tags">
-          <span>{entry.data.category}</span>
-          <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
-        </div>
-        <i></i>
-        <span>{formatDate}</span>
+      <div class="article-kicker">
+        <a class="article-category-link" href={`/topics/${topicSlug(entry.data.category)}/`}>{entry.data.category}</a>
+        <span class="article-kicker-sep" aria-hidden="true">·</span>
+        <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>{entry.data.evidence_position}</span>
+        <span class="article-kicker-sep" aria-hidden="true">·</span>
+        <time datetime={entry.data.date.toISOString()}>{formatDate}</time>
       </div>
       <h1>{typographic(entry.data.title)}</h1>
-      <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <time datetime={entry.data.date.toISOString()}>Published {formatDateTime}</time></p>
-      {/* The six programme explainers cite our own storefront rather than a
-          study. It already carries rel="sponsored", but calling a shop
-          "Original reporting" is the part that misleads. */}
-      <p class="article-source">{isCommercialLink(entry.data.source_url) ? "Programme reference: " : "Original reporting: "}<a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
-      {frontierLinks.length > 0 && <p class="article-frontier">On the frontier: {frontierLinks.slice(0, 2).map((frontier, index) => <><a href={`/frontier-map/#${frontier.slug}`}>{frontier.shortName}</a>{index < Math.min(frontierLinks.length, 2) - 1 ? ", " : ""}</>)}</p>}
+      <div class="article-meta">
+        <p class="article-byline">By <a href="/about/#editorial-desk">{entry.data.author}</a> · <span>Published {formatDateTime}</span></p>
+        {/* The six programme explainers cite our own storefront rather than a
+            study. It already carries rel="sponsored", but calling a shop
+            "Original reporting" is the part that misleads. */}
+        <p class="article-source">{isCommercialLink(entry.data.source_url) ? "Programme reference: " : "Original reporting: "}<a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
+        {frontierLinks.length > 0 && <p class="article-frontier">On the frontier: {frontierLinks.slice(0, 2).map((frontier, index) => <><a href={`/frontier-map/#${frontier.slug}`}>{frontier.shortName}</a>{index < Math.min(frontierLinks.length, 2) - 1 ? ", " : ""}</>)}</p>}
+      </div>
     </header>
     {entry.data.image && <div class="article-hero">
       <EditorialImage
@@ -240,14 +238,9 @@ const structuredData = [
 <style>
   .article-lineage-card,
   .article-protocol-card {
-    max-width: 700px;
-    margin: 52px 0 0 10%;
+    margin: 56px 0 0;
     padding: 28px 0 0;
     border-top: 1px solid var(--ink);
-  }
-  .article-page.is-lead .article-lineage-card,
-  .article-page.is-lead .article-protocol-card {
-    max-width: 760px;
   }
   .lineage-eyebrow,
   .protocol-eyebrow {
@@ -261,7 +254,7 @@ const structuredData = [
   }
   .article-lineage-card h3 {
     margin: 0 0 20px;
-    font-size: 1.5rem;
+    font-size: 1.45rem;
   }
   .lineage-timeline {
     display: flex;
@@ -270,7 +263,7 @@ const structuredData = [
   }
   .lineage-item {
     padding-left: 16px;
-    border-left: 2px solid var(--saffron);
+    border-left: 1px solid var(--line);
   }
   .lineage-year {
     font-weight: 700;
@@ -289,15 +282,9 @@ const structuredData = [
     color: var(--muted);
     line-height: 1.45;
   }
-  .article-protocol-card {
-    padding: 26px 28px 24px;
-    background: color-mix(in oklch, var(--mist) 35%, var(--paper));
-    border: 1px solid var(--line);
-    border-left: 3px solid var(--saffron);
-  }
   .article-protocol-card h3 {
     font-family: var(--serif);
-    font-size: 1.75rem;
+    font-size: 1.65rem;
     color: var(--ink);
     margin: 0 0 8px;
   }
@@ -337,14 +324,5 @@ const structuredData = [
   .protocol-sourcing a {
     color: var(--ink-soft);
     font-weight: 600;
-  }
-  @media (max-width: 700px) {
-    .article-lineage-card,
-    .article-protocol-card {
-      margin-left: 0;
-    }
-    .article-protocol-card {
-      padding: 22px 20px 20px;
-    }
   }
 </style>
