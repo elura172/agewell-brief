@@ -1,47 +1,7 @@
 {
-  "generated_at": "2026-11-11T20:05:27.378550+00:00",
+  "generated_at": "2026-11-11T23:51:44.836209+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
-    {
-      "topic": "biological eating improve less metabolic protein slow suggests",
-      "headline": "Eating less protein may slow biological aging and improve metabolic health, study suggests - WNEP",
-      "category": "metabolic health",
-      "score": 22.61,
-      "mention_count": 3,
-      "source_count": 2,
-      "sources": [
-        "Science Daily",
-        "WNEP"
-      ],
-      "newest": "2026-11-11T16:21:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "Eating less protein may slow biological aging and improve metabolic health, study suggests - WNEP",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOW9rVlhNWUpsem9ULXphUnFsOExyaGJnVko5NFZaSnk2SDhxdE00cW1UTEl0em1kNjhFaHRILXJNRVBTQXF2QVRRbzFHdFMwM01NeEE1UU4tejZ4SWtIUW9ZNy1PanJoNV82VmlZOFFVcS1LVkdyQnVzT3oxd2ZNOGhMOGh0MUlOQS0xdUdubzBPQ20wdXZxOGVjSTdJVnlQZ040alQwNlF6QUJrblVqT3V6MXV4M1FWa0pRTVJ6cmVVVHh1a0pVbEhFX1E4QQ?oc=5",
-          "source": "WNEP",
-          "published": "Wed, 11 Nov 2026 16:21:00 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        },
-        {
-          "title": "Eating less protein could slow aging, review of 350 studies finds - Science Daily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54S05QNXZCdF9HX2t3eS1SRThzajdRd3pXTFVDRjdzU3BLZlB1NFVPd1ZjR1UyREo4RFhzRkdTdEFkblF6S0x5Y0tpU1BsRi1xZWwtREQxcHpQRTN6TnBnQjc5Yy03QXpmMXJqdnhjSQ?oc=5",
-          "source": "Science Daily",
-          "published": "Tue, 10 Nov 2026 12:50:08 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        },
-        {
-          "title": "Eating less protein could slow aging, major review finds - Science Daily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuNDlGUVFuUEhxTzdTdjNMY2tCOXZOWGVJRk1kQWx5ZmpKYXNGUG9TQS1aOFRqNHVPSE1YcWVQa1lzemdnU25LSmpjclR1M0hyWC1hUXBxbmluVkphSVBnX1BRMHl6SWd4VU9fdTl0Zw?oc=5",
-          "source": "Science Daily",
-          "published": "Sun, 02 Aug 2026 07:00:00 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        }
-      ]
-    },
     {
       "topic": "body faster little make much sleep your",
       "headline": "Too much or too little sleep may make your body age faster - Science Daily",
@@ -80,6 +40,38 @@
           "published": "Wed, 13 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "eating less protein review slow studies",
+      "headline": "Eating less protein may slow biological aging and improve metabolic health, study suggests - WNEP",
+      "category": "metabolic health",
+      "score": 18.22,
+      "mention_count": 2,
+      "source_count": 2,
+      "sources": [
+        "Science Daily",
+        "WNEP"
+      ],
+      "newest": "2026-11-11T16:21:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "Eating less protein could slow aging, review of 350 studies finds - Science Daily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54S05QNXZCdF9HX2t3eS1SRThzajdRd3pXTFVDRjdzU3BLZlB1NFVPd1ZjR1UyREo4RFhzRkdTdEFkblF6S0x5Y0tpU1BsRi1xZWwtREQxcHpQRTN6TnBnQjc5Yy03QXpmMXJqdnhjSQ?oc=5",
+          "source": "Science Daily",
+          "published": "Tue, 10 Nov 2026 12:50:08 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        },
+        {
+          "title": "Eating less protein may slow biological aging and improve metabolic health, study suggests - WNEP",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOW9rVlhNWUpsem9ULXphUnFsOExyaGJnVko5NFZaSnk2SDhxdE00cW1UTEl0em1kNjhFaHRILXJNRVBTQXF2QVRRbzFHdFMwM01NeEE1UU4tejZ4SWtIUW9ZNy1PanJoNV82VmlZOFFVcS1LVkdyQnVzT3oxd2ZNOGhMOGh0MUlOQS0xdUdubzBPQ20wdXZxOGVjSTdJVnlQZ040alQwNlF6QUJrblVqT3V6MXV4M1FWa0pRTVJ6cmVVVHh1a0pVbEhFX1E4QQ?oc=5",
+          "source": "WNEP",
+          "published": "Wed, 11 Nov 2026 16:21:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
         }
       ]
     },
@@ -127,7 +119,7 @@
       "topic": "based binghamton evidence falls help intervention prevent program researchers",
       "headline": "Binghamton researchers help older adults prevent falls with an evidence-based intervention program - Binghamton University",
       "category": "mobility",
-      "score": 17.43,
+      "score": 17.04,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
@@ -259,6 +251,38 @@
       ]
     },
     {
+      "topic": "before know peptides trying",
+      "headline": "What older adults need to know before taking a GLP-1 medication to lose weight - WPSD Local 6",
+      "category": "general wellness",
+      "score": 14.0,
+      "mention_count": 2,
+      "source_count": 2,
+      "sources": [
+        "AARP",
+        "WPSD Local 6"
+      ],
+      "newest": "2026-07-01T07:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "What to Know Before Trying Peptides for Aging or Health - AARP",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa3UxSEpWUDJRWVNjYzVBWHJxLW5nMEY4NVd0dmlDUkpqY1pEMFU0OEMyTW1qYm5ORHFSd215Yk1IZTdTZ3R5R1ZoNUh4Ykc1dDVQWjc5X1JvamNyMVRNUGxGNWNLTWlTcGhjME9SZnpIY0JRaFF4RldlUnF2dGd6UFVoX0tkcFhy?oc=5",
+          "source": "AARP",
+          "published": "Sun, 26 Apr 2026 00:31:13 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        },
+        {
+          "title": "What older adults need to know before taking a GLP-1 medication to lose weight - WPSD Local 6",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQS1o1eFRtUzR4MXlIYmw3dEx5U2RWTEZjbXZlRGk0aWRXMkp4Y3M2V2N2OFJQT2xmZzJxc3otdWUzRndfRG1OM3ZrMUJKNDRfNVY2d3RYMVV0bmIwSkV5N2Q3elFpUkJ0TE1Menlsejh1T29PMGc0YVpTZV84S2ExUVdlZWR4VDcyTEFVUENrVUd4ZzdMUjRKSWRHb21XbktjVnpuc0dXRGZNcGtnYTFXZDVjaWVuTUtKT2I0bHlydmkxdktHMmFqYzVxT2tDVDZVSENqSEhKTkZmZ2tJRnk1NVE3SUdfUlVPbzlsR3dpWWJxdw?oc=5",
+          "source": "WPSD Local 6",
+          "published": "Wed, 01 Jul 2026 07:00:00 GMT",
+          "seed": "GLP-1 and healthy aging",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
       "topic": "dietary healthy optimal patterns",
       "headline": "Healthy aging: Consistent activity and rest patterns may slow aging - Medical News Today",
       "category": "general wellness",
@@ -358,7 +382,7 @@
       "topic": "experts help medication protect regular reviews seniors",
       "headline": "Regular medication reviews help protect seniors’ health – experts - Philippine News Agency",
       "category": "general wellness",
-      "score": 11.63,
+      "score": 11.23,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -372,29 +396,6 @@
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUHRxVFBoX19VMVh1SUQzRXAtVERzU1E1R2xzR25VY3E2VWozRGowTGNySnFfYlZwaFhYMlhrNDRyREtRSkxwejdxZnA3ZlRtekRwVTZiRDBpTUd1Rnk3ZjVNX01VdWJRM0hfQ2xDVWtxZmN1TWZEdFVVYzFteHdJZmpvVDlBbHBiZURYUzRoWXhRRWdvS1ZDRg?oc=5",
           "source": "Philippine News Agency",
           "published": "Wed, 11 Nov 2026 16:30:49 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "asia elderly growing makes population problem",
-      "headline": "Asia's Growing Elderly Population Makes Health a Problem - Kompas.id",
-      "category": "general wellness",
-      "score": 11.07,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Kompas.id"
-      ],
-      "newest": "2026-11-11T11:10:51+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Asia's Growing Elderly Population Makes Health a Problem - Kompas.id",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX29jMGxOcjN4UERQWVNEbkw4MnFRNlhzNFh0NTgxdWtsN3M3dVNKV3p3YnpnNmhqV0NqMXRQRnFkZERLOUFRblY5bEJLWmpjRDlab05HcUkwbzdZX3V2NjBQd1FuQUxMNXVxSmxXV2JscnNtOUI0bHM4cDl6UEI0UlNFLVI2OHVXbjV3ZmpfcjRRUQ?oc=5",
-          "source": "Kompas.id",
-          "published": "Wed, 11 Nov 2026 11:10:51 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -587,10 +588,33 @@
       ]
     },
     {
+      "topic": "asia elderly growing makes population problem",
+      "headline": "Asia's Growing Elderly Population Makes Health a Problem - Kompas.id",
+      "category": "general wellness",
+      "score": 10.68,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Kompas.id"
+      ],
+      "newest": "2026-11-11T11:10:51+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Asia's Growing Elderly Population Makes Health a Problem - Kompas.id",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX29jMGxOcjN4UERQWVNEbkw4MnFRNlhzNFh0NTgxdWtsN3M3dVNKV3p3YnpnNmhqV0NqMXRQRnFkZERLOUFRblY5bEJLWmpjRDlab05HcUkwbzdZX3V2NjBQd1FuQUxMNXVxSmxXV2JscnNtOUI0bHM4cDl6UEI0UlNFLVI2OHVXbjV3ZmpfcjRRUQ?oc=5",
+          "source": "Kompas.id",
+          "published": "Wed, 11 Nov 2026 11:10:51 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "bypass care chronic diseases nearby primary shanghai",
       "headline": "8.6% of Shanghai Older Adults with Chronic Diseases Bypass Nearby Primary Care - Bioengineer.org",
       "category": "general wellness",
-      "score": 10.57,
+      "score": 10.18,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -613,7 +637,7 @@
       "topic": "accelerate biological cycles disruption fuels inflammatory sleep that vicious",
       "headline": "Sleep Disruption Fuels Vicious Inflammatory Cycles That Accelerate Biological Aging - Bioengineer.org",
       "category": "sleep health",
-      "score": 10.32,
+      "score": 9.93,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -636,7 +660,7 @@
       "topic": "healthcare highest isfahan personnel primary report satisfaction",
       "headline": "Older Adults in Isfahan Report Highest Primary Healthcare Satisfaction With Personnel - Bioengineer.org",
       "category": "general wellness",
-      "score": 10.21,
+      "score": 9.82,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -1392,6 +1416,29 @@
       ]
     },
     {
+      "topic": "bodies build healthier strength training",
+      "headline": "How can strength training build healthier bodies as we age? - National Institute on Aging (.gov)",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "National Institute on Aging (.gov)"
+      ],
+      "newest": "2022-06-30T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "How can strength training build healthier bodies as we age? - National Institute on Aging (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbFdvTW9oMHctUk1mNF90WVBxRHp1WVhLcjFWbWdBMTk1REV5OGhmTWVxZGpBNWU1djhxbnpVdnFCa1FBNkx6ejFhS0tpbmp6OFpaNjJwaDE4Yi16NzZSUW1vNXlRM1ZQbGxxWVVwLXBnQ25QZzAwd1F3OEVuaTJ6SS1nY2pfN1g5SWk4aA?oc=5",
+          "source": "National Institute on Aging (.gov)",
+          "published": "Thu, 30 Jun 2022 07:00:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
       "topic": "dramatically improve just minutes strength",
       "headline": "Just 4 minutes a day can dramatically improve strength after 65 - Science Daily",
       "category": "mobility",
@@ -1691,29 +1738,6 @@
       ]
     },
     {
-      "topic": "before know peptides trying",
-      "headline": "What to Know Before Trying Peptides for Aging or Health - AARP",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "AARP"
-      ],
-      "newest": "2026-04-26T00:31:13+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "What to Know Before Trying Peptides for Aging or Health - AARP",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa3UxSEpWUDJRWVNjYzVBWHJxLW5nMEY4NVd0dmlDUkpqY1pEMFU0OEMyTW1qYm5ORHFSd215Yk1IZTdTZ3R5R1ZoNUh4Ykc1dDVQWjc5X1JvamNyMVRNUGxGNWNLTWlTcGhjME9SZnpIY0JRaFF4RldlUnF2dGd6UFVoX0tkcFhy?oc=5",
-          "source": "AARP",
-          "published": "Sun, 26 Apr 2026 00:31:13 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "dietary interventions menopausal mini nutritional review strategies",
       "headline": "Dietary interventions and nutritional strategies for menopausal health: a mini review - Frontiers",
       "category": "general wellness",
@@ -1829,29 +1853,6 @@
       ]
     },
     {
-      "topic": "americans consumer drinking food healthy plan products provide safe water",
-      "headline": "A Plan To Provide Americans With Healthy and Safe Food, Drinking Water, and Consumer Products - Center for American Progress",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Center for American Progress"
-      ],
-      "newest": "2026-10-30T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "A Plan To Provide Americans With Healthy and Safe Food, Drinking Water, and Consumer Products - Center for American Progress",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR1lwWUN2Zk1JSmlGUUlKM2htWGVQY1dFSzNhQlEtTUVnZ3VMeVhYcl9wd3FBTUxTNXVXbnhrb1ZWWjdIaDhmXzMyT1hKTUhyWGtZYmIwS1Jad1FjRmlfWmFuaDFydWx0LXdweXBnV1BVQjRxZktuNV8zcDdONXRmQzBoZjZ4bVZVQnk1SEQyWnFZc3N1djVTTklZbjBSSGhRb2FEdjRnRjBLODllVVEyMThiX3VXbE1Oem1yWWlRS3d2MEx5TkxUS0V3M252UQ?oc=5",
-          "source": "Center for American Progress",
-          "published": "Fri, 30 Oct 2026 07:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "anti know seniors should supplements",
       "headline": "What Seniors Should Know About Anti-Aging Supplements - Banner Health",
       "category": "general wellness",
@@ -1869,6 +1870,29 @@
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObFhpOWpuZGVpVkFqQkJTaVl3Y2M2cUo0X0tRSTNWOXh2Mnp5S0VhSEdCb0E1ODFKYTB2SUVYOENQbk5aODBscUlqQmxmVWJxd0lvSXo1cE1Deko2Qnh2M3NEYTV1bUt3X3FtOFBYVnRuc29RNEhzb0NJaWFHNXJVQm83bmNEYXM3X002TVYyUldKelJOS19oMEs0MjBUdDIzVWpqY2VFQnUxSk0?oc=5",
           "source": "Banner Health",
           "published": "Thu, 10 Jul 2025 07:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "americans consumer drinking food healthy plan products provide safe water",
+      "headline": "A Plan To Provide Americans With Healthy and Safe Food, Drinking Water, and Consumer Products - Center for American Progress",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Center for American Progress"
+      ],
+      "newest": "2026-10-30T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "A Plan To Provide Americans With Healthy and Safe Food, Drinking Water, and Consumer Products - Center for American Progress",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR1lwWUN2Zk1JSmlGUUlKM2htWGVQY1dFSzNhQlEtTUVnZ3VMeVhYcl9wd3FBTUxTNXVXbnhrb1ZWWjdIaDhmXzMyT1hKTUhyWGtZYmIwS1Jad1FjRmlfWmFuaDFydWx0LXdweXBnV1BVQjRxZktuNV8zcDdONXRmQzBoZjZ4bVZVQnk1SEQyWnFZc3N1djVTTklZbjBSSGhRb2FEdjRnRjBLODllVVEyMThiX3VXbE1Oem1yWWlRS3d2MEx5TkxUS0V3M252UQ?oc=5",
+          "source": "Center for American Progress",
+          "published": "Fri, 30 Oct 2026 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -2096,7 +2120,7 @@
       "items": [
         {
           "title": "Implications of Wearable Sleep Health Technology for Cardiovascular Health Assessment and Interventions: A Narrative Review - American Heart Association Journals",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGtIcWMyNkwxRlZpbzBWbGhsOXlJQlk5bllWcEcxZERXMm1PUXBZR1lNVWF2RWRXTGdweWl6VmpkUXJmaG5JVlF6N1hjbkhsTThVYkcxcEd3aW96RUY1SjNEaWlvalJudXZtc19QOWZOSUpCb0hid0FWczNkXzNwTjB1NDFYeUdDNm0waXNUNl8yMk0?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tMEMxRWdyUFBnTUkzOTM3QkhBejc5NmhENTZJcGRRQmlyd0dZU3JpdmI1WnZycHFEczdGVTlIQ3RyMklVTkxoWGFGYmRZaTBjbFc3WU1kS29aLUlxRzFScGdZazNqY1VGYVE?oc=5",
           "source": "American Heart Association Journals",
           "published": "Thu, 24 Sep 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
@@ -2168,6 +2192,29 @@
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCU19jRklRaFNJdXhMSzNUdms3OTJlQ2E4dHN3QXRnbTZmZ2RNQXhBOXE3TFpnLW9LNjJqZlRMeC0tLVpURF9ySFdFY0RYZFdmS2lJcGFSeHJ0cklKcmlv?oc=5",
           "source": "Nature",
           "published": "Thu, 04 Sep 2025 07:00:00 GMT",
+          "seed": "intervention sleep technology",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "beauty becoming frontier next sleep tech",
+      "headline": "Sleep Tech Is Becoming Beauty's Next Frontier - BeautyMatter",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "BeautyMatter"
+      ],
+      "newest": "2026-08-13T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Sleep Tech Is Becoming Beauty's Next Frontier - BeautyMatter",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tek9YQ0RMNllPMm93R1V1ZDU5engyZ3k4LW5XMXd4Ry11TnJoWUI3YVVKanREbnlsZVJ1bXQwTzlyMmRERGRVS3B2LUdLdGl4alh1QXlCYUtRR0M4MnFVLWlPS0xDdTBMLTZDa2FkRGV5SFFNeENBXw?oc=5",
+          "source": "BeautyMatter",
+          "published": "Thu, 13 Aug 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
         }
@@ -2407,7 +2454,7 @@
       "topic": "healthy hsrc standard supports times",
       "headline": "HSRC supports healthy aging - Times-Standard",
       "category": "general wellness",
-      "score": 6.87,
+      "score": 6.47,
       "mention_count": 1,
       "source_count": 0,
       "sources": [],

@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "lifestyle recommendation",
+      "reason": "Generic epidemiologic sleep duration range (7 hours) that has been repeatedly covered in health media.",
+      "angle": "Why narrow sleep windows in observational studies rarely prove a direct causal link to cellular longevity.",
+      "mode": "agent"
+    },
+    "b4e9dd5ec9a5e33c0066c7ff": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "unusual result / mechanistic finding",
+      "reason": "Demonstrates a clear sexually dimorphic response to dietary restriction in the short-lived model Nothobranchius furzeri, highlighting how muscle preservation mechanisms differ by sex.",
+      "angle": "Sex differences in dietary restriction: Why killifish models reveal divergent pathways for muscle preservation.",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "unusual result / physiological paradox",
+      "reason": "Counterintuitive finding showing that overtraining dysregulates hippocampal dopamine homeostasis during rest rather than depleting it, challenging common fatigue models.",
+      "angle": "The overtraining paradox: How exhaustive exercise traps hippocampal dopamine in elevated resting states.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "routine observation",
+      "reason": "Generic association between social mobility and depressive symptoms lacking abstract details or novelty.",
+      "angle": "Socioeconomic mobility trends and mental health tracking in aging populations.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "frontier technology / systematic synthesis",
+      "reason": "Systematic review mapping the specific epigenetic modifications (DNA methylation, histone shifts, ncRNAs) across neurotransmitter pathways under dietary restriction.",
+      "angle": "Fasting's molecular blueprint: How caloric restriction epigenetically recalibrates neurotransmitter circuits.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "broad review",
+      "reason": "Broad narrative review topic connecting sleep, redox metabolism, and aging without presenting a discrete new data breakthrough.",
+      "angle": "How redox stress mediates the cellular damage caused by chronic sleep disruption.",
+      "mode": "agent"
+    },
+    "033b6d254ba7a7afc6126ab0": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "Pinpoints a specific molecular deficit in aging muscle: impaired exercise-induced mitophagy linked directly to altered mitochondrial AMPK-alpha (mitoAMPKα) signaling.",
+      "angle": "Broken cellular cleanup: How mitoAMPKα failure stops aged muscle from clearing damaged mitochondria after exercise.",
+      "mode": "agent"
+    },
+    "f4ca31784b128ac7937eae64": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "routine observation",
+      "reason": "Standard epidemiological association between higher BMI and accelerated cognitive decline, directly echoing a recent story on the dementia paradox.",
+      "angle": "Resolving contradictions in brain aging research: Body weight, cognitive decline, and metabolic health.",
+      "mode": "agent"
+    },
+    "fe2b7ce798b141ea00dd883e": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "clinical trial outcome",
+      "reason": "Strong clinical remission percentage (54%), but focuses on younger adults (<45 years) rather than older demographic, making it less directly applicable to longevity readership.",
+      "angle": "Early-intervention metabolic reset: Why type 2 diabetes remission is drastically higher in younger adults.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "b4e9dd5ec9a5e33c0066c7ff",
+    "a2f082a62767b4c84fb98f98",
+    "4fa1cbe537a2dff42f96cb80",
+    "033b6d254ba7a7afc6126ab0"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "0b7d57db98938147adfb915a",
+    "f4ca31784b128ac7937eae64",
+    "fe2b7ce798b141ea00dd883e"
+  ],
+  "mode": "agent"
+}

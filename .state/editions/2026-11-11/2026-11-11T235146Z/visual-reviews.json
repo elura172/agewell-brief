@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "b4e9dd5ec9a5e33c0066c7ff",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:Rl9bIWKCVF0",
+      "score": 95,
+      "rationale": "The candidate 'Rl9bIWKCVF0' from Unsplash depicts a professional Meiji Techno microscope with multiple objective lenses in a clean laboratory setting, which directly aligns with the story's cellular biology and microscopy visual anchors and fits the rigorous laboratory context of the research.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1614308460927-5024ba2e1dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8Y2VsbCUyMGJpb2xvZ3klMjBzY2llbnRpc3QlMjBtaWNyb3Njb3BlJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzk0NDQxMjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
