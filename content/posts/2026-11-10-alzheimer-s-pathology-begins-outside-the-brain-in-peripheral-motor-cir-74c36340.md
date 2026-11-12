@@ -25,8 +25,8 @@ image_photographer_url: "https://unsplash.com/@berkshirecommunitycollege?utm_sou
 image_source_url: "https://unsplash.com/photos/nervous-tissue-nerve-bundle-pWjbxTtfDv0?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#f3f3f3"
-topics: ['brain health', 'longevity', 'mobility']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['brain health', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 In miniature human-on-a-chip circuits lacking a brain or spinal cord, inherited Alzheimer's mutations weakened nerve-to-muscle signaling and accelerated muscle fatigue.

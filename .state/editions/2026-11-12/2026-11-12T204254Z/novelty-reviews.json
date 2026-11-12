@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Rehash of standard observational sleep duration guidelines (6-8 hours) without presenting a new mechanism or novel clinical intervention.",
+      "angle": "Why U-shaped sleep duration curves are observational staples that rarely reveal direct causal drivers of biological aging.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "narrative review / broad framework",
+      "reason": "Discusses known interactions between sleep, oxidative stress, and aging, but lacks a single sharp discovery or experimental breakthrough.",
+      "angle": "How redox metabolism couples to sleep quality to affect neuronal maintenance during aging.",
+      "mode": "agent"
+    },
+    "a1046b8dedf3ca8b2015a1cd": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "shared mechanism / comparative pharmacology",
+      "reason": "Identifies a single unifying antioxidant pathway boosted across five distinct longevity interventions in mice, providing a novel convergence mechanism for anti-aging therapies.",
+      "angle": "The common enzymatic denominator: How five distinct lifespan-extending drugs converge on the same mouse antioxidant system.",
+      "mode": "agent"
+    },
+    "2b418779b4d081191496f953": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "specific mechanism / neural model",
+      "reason": "Demonstrates in vivo that trans-synaptic tau propagation in the dentate gyrus directly scales with structural aggregation propensity rather than mere soluble protein concentration.",
+      "angle": "Misfolded versus soluble: In vivo tracking shows tau's synaptic spread is dictated by its structural aggregation propensity.",
+      "mode": "agent"
+    },
+    "a4be8a9e8d54a96e2f581adc": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "meaningful nuance / negative clinical differential",
+      "reason": "Reveals a stark divergence in acarbose efficacy: it restores spatial memory in normal brain aging but fails completely in Alzheimer's pathology.",
+      "angle": "When metabolic interventions fail pathology: Why acarbose restores spatial memory in wild-type aging but not Alzheimer's models.",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "imaging study / incremental mapping",
+      "reason": "Maps a common memory network in mild cognitive impairment, but stays largely descriptive without offering a novel targetable mechanism.",
+      "angle": "Imaging brain networks to distinguish subjective memory decline from objective cognitive impairment.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "empty content / generic observational social study",
+      "reason": "Candidate article contains an empty summary and covers standard socio-demographic correlation with geriatric depression.",
+      "angle": "None",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "epigenetic mechanism / systematic review",
+      "reason": "Synthesizes preclinical evidence detailing specific DNA methylation and histone modifications in neurotransmitter pathways directly triggered by dietary restriction.",
+      "angle": "Epigenetic rewiring of synaptic plasticity: How fasting alters histone and methylation markers in neurotransmitter pathways.",
+      "mode": "agent"
+    },
+    "9811abc07eba0d2e50e0dba8": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "comparative multiomics / nutrient intervention",
+      "reason": "Uses multiomics to demonstrate cross-species metabolic aging signatures and shows exogenous spermidine directly rewires lipid handling.",
+      "angle": "Conserved metabolic clocks: Multiomics links mammalian lipid aging signatures to dietary spermidine responses.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "a1046b8dedf3ca8b2015a1cd",
+    "2b418779b4d081191496f953",
+    "a4be8a9e8d54a96e2f581adc",
+    "4fa1cbe537a2dff42f96cb80",
+    "9811abc07eba0d2e50e0dba8"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "eee7cce180eb8902fb8e3ce0",
+    "b3bbba0e16b511eb7aed2b5c"
+  ],
+  "mode": "agent"
+}

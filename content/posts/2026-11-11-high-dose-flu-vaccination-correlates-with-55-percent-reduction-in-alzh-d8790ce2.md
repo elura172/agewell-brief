@@ -24,7 +24,7 @@ image_photographer_url: "https://unsplash.com/@indraprojects?utm_source=agewellb
 image_source_url: "https://unsplash.com/photos/a-person-in-white-gloves-looking-through-a-microscope-L1ip8dEWuzE?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#f3f3f3"
-topics: ['brain health', 'longevity']
+topics: ['brain health', 'longevity', 'mobility']
 frameworks: ['Living Waters', 'Luminous Mind']
 ---
 

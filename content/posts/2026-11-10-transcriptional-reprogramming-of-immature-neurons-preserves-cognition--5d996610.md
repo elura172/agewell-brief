@@ -25,8 +25,8 @@ image_photographer_url: "https://unsplash.com/@luvqs?utm_source=agewellbrief&utm
 image_source_url: "https://unsplash.com/photos/man-sight-on-white-microscope-9vnACvX2748?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#595959"
-topics: ['brain health', 'longevity']
-frameworks: ['Luminous Mind', 'Living Waters']
+topics: ['brain health', 'consumer safety', 'longevity', 'metabolic health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 In post-mortem tissue past age 80, rare immature hippocampal neurons preserve memory not by replacing lost cells, but by quieting local brain inflammation.
