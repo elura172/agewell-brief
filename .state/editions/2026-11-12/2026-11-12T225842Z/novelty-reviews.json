@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "incremental observational study",
+      "reason": "Re-hashes familiar observational data regarding standard 7-8 hour sleep durations and biological aging without presenting a novel mechanism.",
+      "angle": "Why population-level sleep duration benchmarks fail to capture individual sleep architecture quality in longevity research.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "review / meta-synthesis",
+      "reason": "Broad theoretical overview of sleep, redox metabolism, and brain aging; lacks a specific new empirical breakthrough or clinical intervention.",
+      "angle": "How targeted redox interventions during specific sleep stages might protect neurovascular health.",
+      "mode": "agent"
+    },
+    "1ea9c672b17ed15e35ac9415": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "clinical practice shift",
+      "reason": "Addresses the acute bottleneck in monoclonal antibody rollout with a rapid, scalable diagnostic tool designed to replace bottlenecked multi-hour batteries.",
+      "angle": "Can a streamlined 60-minute cognitive battery accurately gate-keep expensive anti-amyloid therapy access?",
+      "mode": "agent"
+    },
+    "a1046b8dedf3ca8b2015a1cd": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "mechanistic convergence",
+      "reason": "Identifies a single shared enzymatic/antioxidant pathway elevated across five distinct life-extending interventions in mice, offering a unifying target for multi-disease aging therapy.",
+      "angle": "The common enzymatic core: How five different longevity drugs converge on the exact same cellular defense mechanism.",
+      "mode": "agent"
+    },
+    "2b418779b4d081191496f953": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "named mechanism / disease model",
+      "reason": "Provides a novel AAV mouse model targeting the dentate gyrus that demonstrates trans-synaptic tau propagation directly scales with structural aggregation propensity rather than total soluble tau load.",
+      "angle": "Beyond total tau: Why targeting protein structural aggregation kinetics is critical to stopping trans-synaptic disease spread.",
+      "mode": "agent"
+    },
+    "a4be8a9e8d54a96e2f581adc": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "nuanced paradox / boundary condition",
+      "reason": "Reveals a stark divergence in acarbose efficacy: it rescues age-related spatial memory deficits in wild-type aging mice but completely fails in transgenic Alzheimer's models.",
+      "angle": "The metabolic boundary: Why diabetes drug acarbose reverses normal cognitive aging but fails once Alzheimer's pathology takes hold.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "observational sociology",
+      "reason": "Missing summary text, and the headline points to routine socio-demographic correlation regarding social mobility and depression.",
+      "angle": "Structural socio-economic trajectories and their long-term impact on late-life psychiatric resilience.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "epigenetic pathway mapping",
+      "reason": "Systematic review synthesizing preclinical evidence on how dietary restriction directly remaps neurotransmitter-specific DNA methylation and histone modifications.",
+      "angle": "How intermittent fasting directly rewires neurotransmitter epigenetics to preserve synaptic plasticity.",
+      "mode": "agent"
+    },
+    "9811abc07eba0d2e50e0dba8": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "agricultural / animal longevity model",
+      "reason": "Translational interest is limited by the primary focus on lipid handling in farmed salmon aquaculture, despite multiomic parallels to mammalian aging.",
+      "angle": "What aquaculture multiomics teaches us about cross-species lipid metabolism during biological aging.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "1ea9c672b17ed15e35ac9415",
+    "a1046b8dedf3ca8b2015a1cd",
+    "2b418779b4d081191496f953",
+    "a4be8a9e8d54a96e2f581adc",
+    "4fa1cbe537a2dff42f96cb80"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "b3bbba0e16b511eb7aed2b5c",
+    "9811abc07eba0d2e50e0dba8"
+  ],
+  "mode": "agent"
+}

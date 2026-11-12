@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "1ea9c672b17ed15e35ac9415",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:UanZeoDZmXU",
+      "score": 95,
+      "rationale": "The selected candidate depicts a geometric, glowing human brain display that directly aligns with the 'brain health' category visual anchors (brain MRI or fMRI scan display / neuroscience laboratory). It avoids all prohibited literal metaphors, cosmetics, and lifestyle imagery while fitting the technological and clinical tone of early Alzheimer's detection and condensed memory screening.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1789845043994-0741ead89a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8OHx8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGJyYWluJTIwc2NhbiUyMGRpc3BsYXl8ZW58MXwwfHx8MTc5NDUyNDY4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
