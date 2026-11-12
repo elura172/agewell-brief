@@ -47,4 +47,28 @@ const briefs = defineCollection({
   })
 });
 
-export const collections = { briefs };
+const folios = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "./content/folios" }),
+  schema: z.object({
+    issue_number: z.number().int().positive(),
+    season: z.enum(["winter-solstice", "vernal-equinox", "summer-solstice", "autumnal-equinox"]),
+    solar_marker: z.string(),
+    title: z.string(),
+    subtitle: z.string(),
+    description: z.string(),
+    date: z.coerce.date(),
+    draft: z.boolean().default(false),
+    theme_domains: z.array(z.string()).default([]),
+    featured_briefs: z.array(
+      z.object({
+        slug: z.string(),
+        role: z.string(),
+        note: z.string()
+      })
+    ),
+    colophon_note: z.string(),
+    spiral: z.string().optional()
+  })
+});
+
+export const collections = { briefs, folios };

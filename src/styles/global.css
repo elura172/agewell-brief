@@ -678,6 +678,437 @@ html[data-theme="evening"] .theme-ctl-btn {
 html[data-theme="evening"] .theme-icon--moon { display: none; }
 html[data-theme="evening"] .theme-icon--sun { display: block; }
 
+/* Broadsheet Folios (Index, Issue & Homepage Band) */
+.article-util-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.article-util-btn {
+  min-height: 32px;
+  padding: 4px 10px;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: color 160ms var(--ease-out), border-color 160ms var(--ease-out), background-color 160ms var(--ease-out), transform 120ms var(--ease-out);
+}
+.article-util-btn:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.article-util-btn:active {
+  transform: scale(0.96);
+}
+.article-util-btn[data-copied="true"] {
+  color: var(--saffron-ink);
+  border-color: var(--saffron-ink);
+  background: color-mix(in oklch, var(--saffron) 14%, var(--paper));
+}
+
+.folio-solar-plate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+  background: var(--cream);
+  border: 1px solid var(--line);
+}
+.folio-solar-plate svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.folio-solar-plate--hero {
+  padding: 22px 18px;
+}
+.folio-solar-plate--card {
+  padding: 14px 12px;
+  margin: 14px 0 18px;
+}
+.folio-solar-plate--compact {
+  padding: 16px 14px;
+}
+
+.home-folio-band {
+  max-width: 1320px;
+  margin: 0 auto 56px;
+  padding: 0 4vw;
+}
+.home-folio-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(220px, 0.65fr);
+  gap: clamp(24px, 4vw, 52px);
+  align-items: center;
+  border-top: 1.5px solid var(--ink);
+  box-shadow: inset 0 3px 0 var(--paper), inset 0 4px 0 var(--line-strong);
+  border-bottom: 1px solid var(--line);
+  padding: 30px 0 28px;
+}
+.home-folio-copy h2 {
+  margin: 8px 0 10px;
+  font-size: clamp(1.7rem, 3vw, 2.35rem);
+}
+.home-folio-copy h2 a {
+  text-decoration: none;
+}
+.home-folio-dek {
+  margin: 0 0 18px;
+  max-width: 64ch;
+  color: var(--ink-soft);
+  font-size: 1.02rem;
+}
+.home-folio-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 22px;
+}
+.home-folio-plate {
+  display: block;
+  text-decoration: none;
+}
+
+.folios-page,
+.folio-issue-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 36px 4vw 92px;
+}
+.folios-header {
+  margin: 24px 0 44px;
+  border-top: 1.5px solid var(--ink);
+  box-shadow: inset 0 3px 0 var(--paper), inset 0 4px 0 var(--line-strong);
+  border-bottom: 1px solid var(--line);
+  padding: 28px 0 32px;
+}
+.folios-header h1 {
+  margin: 10px 0 14px;
+  font-size: clamp(2.4rem, 5vw, 3.85rem);
+}
+.folios-lede {
+  margin: 0;
+  max-width: 66ch;
+  color: var(--ink-soft);
+  font-size: clamp(1.08rem, 1.5vw, 1.24rem);
+  line-height: 1.58;
+}
+
+.folio-hero-section {
+  margin-bottom: 72px;
+}
+.folio-feature-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.85fr);
+  gap: clamp(28px, 4vw, 56px);
+  align-items: center;
+  padding: 34px 0 38px;
+  border-bottom: 1px solid var(--line);
+}
+.folio-feature-copy h2 {
+  margin: 10px 0 14px;
+  font-size: clamp(2rem, 4vw, 3.1rem);
+}
+.folio-feature-copy h2 a {
+  text-decoration: none;
+}
+.folio-feature-subtitle {
+  margin: 0 0 20px;
+  color: var(--ink-soft);
+  font-size: 1.12rem;
+  line-height: 1.58;
+  max-width: 58ch;
+}
+.folio-domain-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0 0 24px;
+  padding: 0;
+}
+.folio-domain-pills li {
+  border: 1px solid var(--line-strong);
+  padding: 4px 10px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--cream);
+}
+.folio-feature-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 24px;
+}
+.folio-meta-note {
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+.folio-feature-plate {
+  display: block;
+  text-decoration: none;
+}
+.folio-plate-caption {
+  display: block;
+  margin-top: 9px;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: center;
+}
+
+.folio-almanac-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+}
+.folio-almanac-card {
+  border-top: 1px solid var(--ink);
+  padding-top: 16px;
+}
+.folio-almanac-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.folio-issue-num {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.folio-forthcoming-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--saffron-ink);
+  border: 1px solid var(--line-strong);
+  padding: 2px 7px;
+}
+.folio-almanac-marker {
+  margin: 0 0 8px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.folio-almanac-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.38rem;
+  line-height: 1.18;
+}
+.folio-almanac-question {
+  margin: 0;
+  font-size: 0.96rem;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
+.folio-issue-topbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.folio-issue-header {
+  margin-bottom: 40px;
+}
+.folio-issue-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(240px, 0.75fr);
+  gap: clamp(28px, 4vw, 52px);
+  align-items: center;
+  padding: 30px 0 32px;
+  border-bottom: 1px solid var(--line);
+}
+.folio-issue-title-block h1 {
+  margin: 10px 0 14px;
+  font-size: clamp(2.35rem, 4.8vw, 3.7rem);
+}
+.folio-issue-subtitle {
+  margin: 0 0 20px;
+  color: var(--ink-soft);
+  font-size: clamp(1.08rem, 1.5vw, 1.24rem);
+  line-height: 1.56;
+  max-width: 60ch;
+}
+.folio-issue-plate-figure {
+  margin: 0;
+}
+.folio-issue-plate-figure figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 8px;
+  font-size: 0.73rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.folio-prose {
+  max-width: 72ch;
+  margin: 0 auto 64px;
+  font-family: var(--serif);
+  font-size: 1.16rem;
+  line-height: 1.74;
+  color: var(--ink);
+}
+.folio-prose > p:first-of-type::first-letter {
+  float: left;
+  font-family: var(--serif);
+  font-size: 3.55em;
+  line-height: 0.82;
+  padding: 4px 11px 0 0;
+  font-weight: 600;
+  color: var(--saffron-ink);
+}
+.folio-prose h2 {
+  margin: 42px 0 14px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: clamp(1.5rem, 2.4vw, 1.9rem);
+}
+.folio-prose p {
+  margin: 0 0 1.25em;
+}
+
+.folio-dossier {
+  border-top: 1.5px solid var(--ink);
+  box-shadow: inset 0 3px 0 var(--paper), inset 0 4px 0 var(--line-strong);
+  padding-top: 30px;
+  margin-bottom: 48px;
+}
+.folio-dossier-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 40px;
+  list-style: none;
+  margin: 26px 0 0;
+  padding: 0;
+}
+.folio-dossier-item {
+  border-top: 1px solid var(--line-strong);
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.folio-dossier-topline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.folio-dossier-num {
+  font-family: var(--serif);
+  font-size: 0.96rem;
+  color: var(--saffron-ink);
+}
+.folio-dossier-role {
+  flex: 1;
+}
+.folio-dossier-item h3 {
+  margin: 0 0 8px;
+  font-size: 1.28rem;
+  line-height: 1.22;
+}
+.folio-dossier-item h3 a {
+  text-decoration: none;
+}
+.folio-dossier-note {
+  margin: 0 0 14px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  flex: 1;
+}
+.folio-dossier-foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.folio-dossier-links {
+  display: inline-flex;
+  gap: 14px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.folio-dossier-links a {
+  text-decoration: none;
+}
+
+.folio-colophon {
+  border-top: 1px solid var(--line-strong);
+  padding-top: 22px;
+  color: var(--ink-soft);
+  font-size: 0.94rem;
+}
+.folio-colophon p {
+  margin: 0 0 18px;
+  max-width: 78ch;
+}
+.folio-colophon-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 14px;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+.folio-colophon-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .home-folio-inner,
+  .folio-feature-card,
+  .folio-issue-hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .folio-almanac-grid {
+    grid-template-columns: 1fr;
+  }
+  .folio-dossier-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-folio-band { padding: 0 6vw; margin-bottom: 36px; }
+  .folios-page, .folio-issue-page { padding: 32px 6vw 76px; }
+}
+
 /* Broadsheet Print Edition */
 @media print {
   :root,
@@ -710,7 +1141,47 @@ html[data-theme="evening"] .theme-icon--sun { display: block; }
   .article-pager,
   .article-footer,
   .site-footer,
-  .subscribe-card {
+  .subscribe-card,
+  .folio-issue-topbar,
+  .folio-colophon-links {
+    display: none !important;
+  }
+  .folio-issue-page {
+    max-width: 100%;
+    padding: 8pt 0 0;
+  }
+  .folio-issue-hero-grid {
+    grid-template-columns: 1.5fr 0.7fr;
+    gap: 18pt;
+    padding: 12pt 0 14pt;
+  }
+  .folio-issue-title-block h1 {
+    font-size: 22pt;
+  }
+  .folio-prose {
+    max-width: 100%;
+    margin: 0 0 20pt;
+    font-size: 10pt;
+    line-height: 1.52;
+    column-count: 2;
+    column-gap: 22pt;
+    column-rule: 0.5pt solid #d4d4d4;
+  }
+  .folio-prose h2 {
+    column-span: all;
+    margin: 16pt 0 8pt;
+    padding-top: 10pt;
+    font-size: 13pt;
+  }
+  .folio-dossier-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12pt 18pt;
+  }
+  .folio-dossier-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .folio-dossier-links {
     display: none !important;
   }
   .site-header {

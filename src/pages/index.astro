@@ -2,9 +2,13 @@
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import EditorialImage from "../components/EditorialImage.astro";
+import FolioSolarPlate from "../components/FolioSolarPlate.astro";
 import { linkRel, typographic } from "../lib/publishing";
 
 const showDrafts = import.meta.env.DEV;
+const latestFolio = (await getCollection("folios"))
+  .filter((entry) => showDrafts || !entry.data.draft)
+  .sort((a, b) => b.data.issue_number - a.data.issue_number)[0];
 const entries = (await getCollection("briefs"))
   .filter((entry) => showDrafts || !entry.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.data.edition_rank - b.data.edition_rank);
@@ -127,6 +131,33 @@ const structuredData = [
       </div>
     </div>}
   </section>
+
+  {latestFolio && (
+    <section class="home-folio-band" aria-labelledby="home-folio-heading">
+      <div class="home-folio-inner">
+        <div class="home-folio-copy">
+          <p class="eyebrow">
+            Broadsheet Folio No. {String(latestFolio.data.issue_number).padStart(2, "0")} · {latestFolio.data.solar_marker}
+          </p>
+          <h2 id="home-folio-heading">
+            <a href={`/folios/${latestFolio.id}/`}>{typographic(latestFolio.data.title)}</a>
+          </h2>
+          <p class="home-folio-dek">{typographic(latestFolio.data.subtitle)}</p>
+          <div class="home-folio-actions">
+            <a class="primary-link" href={`/folios/${latestFolio.id}/`}>
+              Read the seasonal synthesis <span aria-hidden="true">→</span>
+            </a>
+            <a class="text-link" href="/folios/">
+              All solar thresholds <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+        <a class="home-folio-plate" href={`/folios/${latestFolio.id}/`} tabindex="-1" aria-hidden="true">
+          <FolioSolarPlate season={latestFolio.data.season} size="compact" />
+        </a>
+      </div>
+    </section>
+  )}
 
   {/* 3. Recent archive — capped and linked to the full filterable archive
        rather than rendering all ~109 entries unpaginated. A homepage-scoped

@@ -1,0 +1,152 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import FolioSolarPlate from "../../components/FolioSolarPlate.astro";
+import { readingTimeMinutes, typographic } from "../../lib/publishing";
+
+const showDrafts = import.meta.env.DEV;
+const folios = (await getCollection("folios"))
+  .filter((entry) => showDrafts || !entry.data.draft)
+  .sort((a, b) => b.data.issue_number - a.data.issue_number);
+
+const latestFolio = folios[0];
+const earlierFolios = folios.slice(1);
+
+const forthcomingCycle = [
+  {
+    issue: "02",
+    season: "vernal-equinox" as const,
+    marker: "0° Solar Longitude · March 2027",
+    title: "Circadian Phase-Shifting and Cellular Spring Cleaning",
+    question: "How does lengthening morning light reset neuro-endocrine clocks, autophagic turnover, and senolytic clearance across aging tissues?"
+  },
+  {
+    issue: "03",
+    season: "summer-solstice" as const,
+    marker: "90° Solar Longitude · June 2027",
+    title: "Radiant Charge and Living Water",
+    question: "What do photobiology, vascular nitric oxide release, and structured interfacial hydration actually do under peak solar irradiance?"
+  },
+  {
+    issue: "04",
+    season: "autumnal-equinox" as const,
+    marker: "180° Solar Longitude · September 2027",
+    title: "Metabolic Flexibility and Neural Reserve",
+    question: "How do substrate switching, vagal tone, and microglial restraint prepare the nervous system before winter returns?"
+  }
+];
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Broadsheet Folios · Agewell Brief",
+  description: "Quarterly printable broadsheet editions synthesizing seasonal human biology, circadian physics, and primary longevity research.",
+  url: new URL("/folios/", Astro.site).href
+};
+---
+<Layout
+  title="Broadsheet Folios · Agewell Brief"
+  description="Quarterly printable broadsheet editions synthesizing seasonal human biology, circadian physics, and primary longevity research."
+  structuredData={structuredData}
+>
+  <div class="folios-page">
+    <a class="back-link" href="/">← Today’s edition</a>
+
+    <header class="folios-header">
+      <p class="eyebrow">Quarterly Keepsake Editions</p>
+      <h1>The Solar Broadsheet Folios</h1>
+      <p class="folios-lede">
+        Four times a year, at the solstices and equinoxes, Agewell Brief steps back from the daily wire to bind a printable synthesis: connecting the quarter’s strongest primary studies to the seasonal rhythms of human biology.
+      </p>
+    </header>
+
+    {latestFolio && (
+      <section class="folio-hero-section" aria-labelledby="current-folio-heading">
+        <div class="edition-mast">
+          <span>Inaugural Folio · Issue No. {String(latestFolio.data.issue_number).padStart(2, "0")}</span>
+          <span>{latestFolio.data.solar_marker}</span>
+          <span>{latestFolio.data.featured_briefs.length} bound dispatches</span>
+        </div>
+
+        <article class="folio-feature-card">
+          <div class="folio-feature-copy">
+            <p class="eyebrow">Current Seasonal Issue · {formatDate(latestFolio.data.date)}</p>
+            <h2 id="current-folio-heading">
+              <a href={`/folios/${latestFolio.id}/`}>{typographic(latestFolio.data.title)}</a>
+            </h2>
+            <p class="folio-feature-subtitle">{typographic(latestFolio.data.subtitle)}</p>
+
+            <ul class="folio-domain-pills" aria-label="Domains synthesized in this folio">
+              {latestFolio.data.theme_domains.map((domain) => (
+                <li>{domain}</li>
+              ))}
+            </ul>
+
+            <div class="folio-feature-actions">
+              <a class="primary-link" href={`/folios/${latestFolio.id}/`}>
+                Read Folio No. {String(latestFolio.data.issue_number).padStart(2, "0")} <span aria-hidden="true">→</span>
+              </a>
+              <span class="folio-meta-note">
+                {readingTimeMinutes(latestFolio.body ?? "")} min synthesis · Print-formatted two-column keepsake
+              </span>
+            </div>
+          </div>
+
+          <a class="folio-feature-plate" href={`/folios/${latestFolio.id}/`} tabindex="-1" aria-hidden="true">
+            <FolioSolarPlate season={latestFolio.data.season} size="hero" />
+            <span class="folio-plate-caption">Fig. 01 · Solstice Meridian &amp; Slow-Wave Nadir</span>
+          </a>
+        </article>
+      </section>
+    )}
+
+    {earlierFolios.length > 0 && (
+      <section class="folio-archive-section" aria-labelledby="past-folios-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Bound Archive</p>
+            <h2 id="past-folios-heading" class="section-title">Earlier Folios</h2>
+          </div>
+        </div>
+        <ol class="folio-past-list">
+          {earlierFolios.map((folio) => (
+            <li>
+              <a href={`/folios/${folio.id}/`}>
+                <span>No. {String(folio.data.issue_number).padStart(2, "0")} · {folio.data.solar_marker}</span>
+                <strong>{typographic(folio.data.title)}</strong>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+
+    <section class="folio-almanac-section" aria-labelledby="almanac-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">The Solar Wheel · 2027 Cycle</p>
+          <h2 id="almanac-heading" class="section-title">Forthcoming thresholds</h2>
+        </div>
+        <p class="section-caption">Published at each astronomical turn and formatted for kitchen-table print.</p>
+      </div>
+
+      <ol class="folio-almanac-grid">
+        {forthcomingCycle.map((slot) => (
+          <li class="folio-almanac-card">
+            <div class="folio-almanac-top">
+              <span class="folio-issue-num">Folio No. {slot.issue}</span>
+              <span class="folio-forthcoming-tag">Forthcoming</span>
+            </div>
+            <FolioSolarPlate season={slot.season} size="card" />
+            <p class="folio-almanac-marker">{slot.marker}</p>
+            <h3>{slot.title}</h3>
+            <p class="folio-almanac-question">{slot.question}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  </div>
+</Layout>

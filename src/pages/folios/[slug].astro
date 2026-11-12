@@ -1,0 +1,200 @@
+---
+import { getCollection, render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import FolioSolarPlate from "../../components/FolioSolarPlate.astro";
+import { linkRel, readingTimeMinutes, typographic } from "../../lib/publishing";
+
+export async function getStaticPaths() {
+  const folios = (await getCollection("folios"))
+    .filter((entry) => import.meta.env.DEV || !entry.data.draft)
+    .sort((a, b) => b.data.issue_number - a.data.issue_number);
+
+  return folios.map((folio) => ({
+    params: { slug: folio.id },
+    props: { folio }
+  }));
+}
+
+const { folio } = Astro.props;
+const { Content } = await render(folio);
+
+const allBriefs = await getCollection("briefs");
+const briefById = new Map(allBriefs.map((entry) => [entry.id, entry]));
+
+const boundDispatches = folio.data.featured_briefs.map((item, idx) => {
+  const matched = briefById.get(item.slug);
+  if (!matched) {
+    throw new Error(`Folio "${folio.id}" references missing brief slug: ${item.slug}`);
+  }
+  return {
+    index: idx + 1,
+    role: item.role,
+    note: item.note,
+    entry: matched
+  };
+});
+
+const readMinutes = readingTimeMinutes(folio.body ?? "");
+const issueLabel = `Folio No. ${String(folio.data.issue_number).padStart(2, "0")}`;
+const formatDate = (date: Date) =>
+  date.toLocaleDateString("en-CA", { month: "long", day: "numeric", year: "numeric" });
+const formatShortDate = (date: Date) =>
+  date.toLocaleDateString("en-CA", { month: "short", day: "numeric", year: "numeric" });
+
+const folioURL = new URL(`/folios/${folio.id}/`, Astro.site).href;
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: folio.data.title,
+    description: folio.data.description,
+    datePublished: folio.data.date.toISOString(),
+    author: {
+      "@type": "Organization",
+      name: "Agewell Brief Editorial Desk",
+      url: new URL("/about/#editorial-desk", Astro.site).href
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Agewell Brief",
+      logo: { "@type": "ImageObject", url: new URL("/logo.svg", Astro.site).href }
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": folioURL }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Agewell Brief", item: new URL("/", Astro.site).href },
+      { "@type": "ListItem", position: 2, name: "Broadsheet Folios", item: new URL("/folios/", Astro.site).href },
+      { "@type": "ListItem", position: 3, name: `${issueLabel}: ${folio.data.title}`, item: folioURL }
+    ]
+  }
+];
+---
+<Layout
+  title={`${issueLabel}: ${folio.data.title} · Agewell Brief`}
+  description={folio.data.description}
+  canonicalURL={folioURL}
+  ogType="article"
+  publishedTime={folio.data.date}
+  structuredData={structuredData}
+>
+  <article class="folio-issue-page">
+    <div class="folio-issue-topbar">
+      <a class="back-link" href="/folios/">← All Broadsheet Folios</a>
+      <div class="article-util-actions" aria-label="Folio reading tools">
+        <button type="button" class="article-util-btn" id="folio-copy-btn" data-url={folioURL}>
+          Copy link
+        </button>
+        <button type="button" class="article-util-btn folio-print-btn" id="folio-print-btn">
+          Print two-column broadsheet
+        </button>
+      </div>
+    </div>
+
+    <header class="folio-issue-header">
+      <div class="edition-mast folio-issue-mast">
+        <span>{issueLabel} · {formatDate(folio.data.date)}</span>
+        <span>{folio.data.solar_marker}</span>
+        <span>{readMinutes} min synthesis · {boundDispatches.length} primary dispatches</span>
+      </div>
+
+      <div class="folio-issue-hero-grid">
+        <div class="folio-issue-title-block">
+          <p class="eyebrow">Seasonal Broadsheet Synthesis</p>
+          <h1>{typographic(folio.data.title)}</h1>
+          <p class="folio-issue-subtitle">{typographic(folio.data.subtitle)}</p>
+
+          <ul class="folio-domain-pills" aria-label="Folio domains">
+            {folio.data.theme_domains.map((domain) => (
+              <li>{domain}</li>
+            ))}
+          </ul>
+        </div>
+
+        <figure class="folio-issue-plate-figure">
+          <FolioSolarPlate season={folio.data.season} size="hero" />
+          <figcaption>
+            <span>Plate {String(folio.data.issue_number).padStart(2, "0")}</span>
+            <span>{folio.data.solar_marker}</span>
+          </figcaption>
+        </figure>
+      </div>
+    </header>
+
+    <div class="folio-prose">
+      <Content />
+    </div>
+
+    <section class="folio-dossier" aria-labelledby="dossier-heading">
+      <div class="section-heading folio-dossier-heading">
+        <div>
+          <p class="eyebrow">Primary Evidence Ledger</p>
+          <h2 id="dossier-heading" class="section-title">Dispatches bound in this Folio</h2>
+        </div>
+        <p class="section-caption">{boundDispatches.length} peer-reviewed and preprint analyses from the Agewell desk</p>
+      </div>
+
+      <ol class="folio-dossier-grid">
+        {boundDispatches.map(({ index, role, note, entry }) => (
+          <li class="folio-dossier-item">
+            <div class="folio-dossier-topline">
+              <span class="folio-dossier-num">{String(index).padStart(2, "0")}</span>
+              <span class="folio-dossier-role">{role}</span>
+              <span class={`evidence-badge evidence-badge--${entry.data.evidence_position}`}>
+                {entry.data.evidence_position}
+              </span>
+            </div>
+            <h3>
+              <a href={`/brief/${entry.id}/`}>{typographic(entry.data.title)}</a>
+            </h3>
+            <p class="folio-dossier-note">{note}</p>
+            <div class="folio-dossier-foot">
+              <span>{formatShortDate(entry.data.date)} · {entry.data.source_name}</span>
+              <div class="folio-dossier-links">
+                <a href={`/brief/${entry.id}/`}>Read brief <span aria-hidden="true">→</span></a>
+                <a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>Source <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <footer class="folio-colophon">
+      <p>
+        <strong>Colophon &amp; Evidence Note:</strong> {folio.data.colophon_note}
+      </p>
+      <div class="folio-colophon-links">
+        <a href="/folios/">← Solar Folio Index</a>
+        <a href="/frontier-map/">Explore the Living Frontier Map →</a>
+      </div>
+    </footer>
+  </article>
+
+  <script>
+    const copyBtn = document.getElementById("folio-copy-btn");
+    const printBtn = document.getElementById("folio-print-btn");
+
+    if (copyBtn) {
+      copyBtn.addEventListener("click", async () => {
+        const url = copyBtn.getAttribute("data-url") || window.location.href;
+        try {
+          await navigator.clipboard.writeText(url);
+          const prev = copyBtn.textContent;
+          copyBtn.textContent = "Link copied";
+          copyBtn.setAttribute("data-copied", "true");
+          setTimeout(() => {
+            copyBtn.textContent = prev;
+            copyBtn.removeAttribute("data-copied");
+          }, 1800);
+        } catch (_) {}
+      });
+    }
+
+    if (printBtn) {
+      printBtn.addEventListener("click", () => window.print());
+    }
+  </script>
+</Layout>
