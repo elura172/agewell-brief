@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Standard population study on sleep duration sweet spots. Broad epidemiological correlation without revealing a novel biological mechanism or actionable breakthrough.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "a2f082a62767b4c84fb98f98": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "counterintuitive physiological outcome",
+      "reason": "Challenges the common assumption that exercise always depletes dopamine or enhances brain plasticity; demonstrates that unrecovered physical stress keeps hippocampal dopamine pathologically elevated at rest.",
+      "angle": "When exercise backfires: how unrecovered physical strain disrupts hippocampal dopamine regulation during rest.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "empty abstract",
+      "reason": "Candidate contains an empty abstract and offers no evaluate-able scientific content or specific findings.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "systematic review",
+      "reason": "Comprehensive review of preclinical data connecting fasting to epigenetic recalibration in animal brains, but lacks novel primary empirical data or human translational evidence.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "broad narrative review",
+      "reason": "Generic overview title exploring the intersection of sleep, redox metabolism, and aging without presenting a discrete discovery.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "033b6d254ba7a7afc6126ab0": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "specific biological mechanism",
+      "reason": "Identifies a precise pathway (mitoAMPKα malfunction) that explains why aging skeletal muscle loses its ability to clear damaged mitochondria via exercise-induced mitophagy.",
+      "angle": "Why aging muscles ignore exercise: altered mitoAMPKα as the key bottleneck in mitophagy.",
+      "mode": "agent"
+    },
+    "f4ca31784b128ac7937eae64": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "recycled epidemiological finding",
+      "reason": "Standard association between excess weight and cognitive decline in older adults; lacks novel mechanistic insight or therapeutic intervention.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "fe2b7ce798b141ea00dd883e": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "actionable clinical milestone",
+      "reason": "Demonstrates remarkably high short-term remission rates (54% in 6 months) of Type 2 diabetes in younger adults using non-pharmacological, intensive lifestyle modifications compared to standard care.",
+      "angle": "Reversing early-onset Type 2 diabetes: how intensive 6-month interventions achieve 54% remission.",
+      "mode": "agent"
+    },
+    "04326c9d1adc693d299e7705": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "broad review framework",
+      "reason": "Review article covering the bidirectional feedback loop between sleep and inflammaging. While scientifically sound, it lacks a new primary empirical finding.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "a2f082a62767b4c84fb98f98",
+    "033b6d254ba7a7afc6126ab0",
+    "fe2b7ce798b141ea00dd883e"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "4fa1cbe537a2dff42f96cb80",
+    "0b7d57db98938147adfb915a",
+    "f4ca31784b128ac7937eae64",
+    "04326c9d1adc693d299e7705"
+  ],
+  "mode": "agent"
+}
