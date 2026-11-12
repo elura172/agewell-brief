@@ -34,7 +34,7 @@ const formatDateTime = entry.data.date.toLocaleString("en-CA", {
   timeZoneName: "short"
 });
 const isLongform = ["lead", "evergreen", "editorial"].includes(entry.data.content_type);
-const description = plainTextExcerpt((entry.body ?? "").split("\n\n")[0], 190);
+const description = entry.data.description || plainTextExcerpt((entry.body ?? "").split("\n\n")[0], 190);
 const articleURL = new URL(`/brief/${entry.id}/`, Astro.site).href;
 const authorURL = new URL("/about/#editorial-desk", Astro.site).href;
 const logoURL = new URL("/logo.svg", Astro.site).href;

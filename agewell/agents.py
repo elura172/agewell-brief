@@ -301,16 +301,22 @@ def copy_edit(client: Any, model: str, content: dict[str, Any], source_title: st
         result = _json_response(
             client,
             model,
-            "You are Agewell Brief's chief copy editor. Elevate prose to be authoritative, clear, and biophysically precise. Purge dry AI hedging (e.g., 'A connection is context, not proof', 'Only time will tell'). Return JSON only.",
+            (
+                "You are Agewell Brief's chief copy editor, editing in the register of Quanta Magazine and Works in Progress. "
+                "Keep full cellular and biophysical mechanistic precision while translating dense textbook nominalizations "
+                "(such as 'proteinaceous deposition', 'functional connectomic failure', or 'paracrine microenvironmental signaling') "
+                "into vivid, concrete physical English. Purge AI hedging boilerplate and generic lifestyle filler. Return JSON only."
+            ),
             {
                 "source_title": source_title,
                 "draft": content,
                 "rules": [
-                    "Preserve the headline's factual meaning, all caveats, and exactly three bullets.",
-                    "Preserve exactly four lead sections when sections are present.",
-                    "Purge dry AI boilerplate, corporate jargon, and childish medical condescension.",
-                    "Elevate physical explanations, historical biophysics context, and structural clarity.",
-                    "Do not add ungrounded medical advice, false claims, or invented studies.",
+                    "Keep the headline crisp (8-13 words) with a strong active verb and the specific finding; preserve its factual meaning.",
+                    "Preserve all methodological caveats and return exactly three sharp bullets.",
+                    "Preserve the exact count of sections when sections are present, and the exact count of paragraphs when paragraphs are present.",
+                    "Translate dense textbook nominalizations into lucid, concrete physical English without losing mechanistic rigor.",
+                    "Never add generic sleep, diet, or exercise advice to laboratory, animal, or post-mortem studies, and never invent claims or studies.",
+                    "Avoid em dashes where commas, colons, or periods read cleaner.",
                 ],
             },
             2600,
@@ -320,9 +326,32 @@ def copy_edit(client: Any, model: str, content: dict[str, Any], source_title: st
         if len(result["bullets"]) != 3:
             raise ValueError("copy editor changed bullet count")
         if "sections" in original:
-            if len(result.get("sections", [])) != len(original["sections"]):
+            edited_sections = result.get("sections", [])
+            valid_sections = (
+                isinstance(edited_sections, list)
+                and len(edited_sections) == len(original["sections"])
+                and all(
+                    isinstance(sec, dict)
+                    and str(sec.get("heading", "")).strip()
+                    and isinstance(sec.get("paragraphs"), list)
+                    and 2 <= len(sec["paragraphs"]) <= 3
+                    and all(str(p).strip() for p in sec["paragraphs"])
+                    for sec in edited_sections
+                )
+            )
+            if not valid_sections:
                 result["sections"] = original["sections"]
                 preserved_fields.append("sections")
+        if original.get("paragraphs"):
+            edited_paragraphs = result.get("paragraphs", [])
+            valid_paragraphs = (
+                isinstance(edited_paragraphs, list)
+                and len(edited_paragraphs) == len(original["paragraphs"])
+                and all(str(p).strip() for p in edited_paragraphs)
+            )
+            if not valid_paragraphs:
+                result["paragraphs"] = original["paragraphs"]
+                preserved_fields.append("paragraphs")
         for key in ("headline", "dek", "caveat"):
             if not str(result.get(key, "")).strip():
                 result[key] = original[key]
@@ -333,12 +362,33 @@ def copy_edit(client: Any, model: str, content: dict[str, Any], source_title: st
 
 
 def commercial_integrity(category: str, offer_urls: list[str]) -> dict[str, Any]:
-    """Flag commercial conflicts."""
-    return {"flagged": False, "reason": "No direct conflict identified."}
+    """Flag commercial conflicts and enforce link count and protocol limits."""
+    issues: list[str] = []
+    if len(offer_urls) > 3:
+        issues.append("more than three commercial links supplied")
+    for url in offer_urls:
+        if not str(url).startswith("https://"):
+            issues.append(f"non-https commercial link: {url}")
+    status = "held" if issues else "approved"
+    return {
+        "status": status,
+        "flagged": bool(issues),
+        "category": category,
+        "offer_count": len(offer_urls),
+        "issues": issues,
+        "reason": "; ".join(issues) if issues else "No direct conflict identified.",
+    }
 
 
 def release_manager(source_url: str, content: dict[str, Any], offer_review: dict[str, Any]) -> dict[str, Any]:
     """Approve or block an edition item before release."""
+    reasons: list[str] = []
+    if not str(source_url).startswith(("http://", "https://")):
+        reasons.append("missing valid source URL")
+    if offer_review.get("status") == "held" or offer_review.get("flagged"):
+        reasons.extend(str(issue) for issue in (offer_review.get("issues") or ["commercial review held"]))
+    if reasons:
+        return {"status": "held", "reasons": reasons}
     return {"status": "ready_for_human_review", "reasons": []}
 
 
@@ -350,10 +400,9 @@ def autoresearch_context_subagent(
     category: str,
 ) -> dict[str, Any]:
     """AutoResearch & Deep Context Subagent:
-    Discovers historical antecedents, mechanistic connections, ancestral/traditional
-    health parallels, and exact citations to enhance signal value. Deliberately does
-    not seed the prompt with named example scientists — see the comment on
-    system_prompt below for why.
+    Discovers historical antecedents and precise mechanistic bridges for longform
+    briefs. Deliberately does not seed the prompt with named example scientists —
+    see the comment on system_prompt below for why.
     """
     # No named examples here on purpose. A/B tested 2026-08-09 against 11 briefs
     # spanning every category: naming Popp/Pollack/Warburg/Selye/Horvath as "e.g."
@@ -365,40 +414,36 @@ def autoresearch_context_subagent(
     # the correct answer (Hayflick on cellular senescence, Selye on stress/sleep).
     system_prompt = (
         "You are Agewell Brief's AutoResearch & Deep Context Subagent. "
-        "Your task is to enrich cutting-edge scientific preprints with deep biophysical history, "
-        "historical antecedents, precise mechanical connections, and ancestral/traditional lifestyle parallels. "
-        "Search broadly across the history of biophysics, cell biology, physiology, and medicine for the specific "
-        "researcher whose work most precisely anticipates or explains THIS finding — do not default to famous names "
-        "if a more specific, lesser-known antecedent fits the mechanism better. "
-        "Provide specific, non-vague historical context, key researchers, and referenced connections."
+        "Your task is to enrich longform science briefs with accurate scientific history and precise mechanistic bridges. "
+        "Search broadly across the history of biophysics, cell biology, physiology, neuroscience, and clinical medicine for the specific "
+        "researcher whose work most directly anticipates or illuminates THIS finding. Do not default to famous generalist names "
+        "when a more specific pioneer fits the mechanism better. "
+        "Write in lucid, concrete science journalism (Quanta Magazine register) without dense textbook nominalizations or em dashes."
     )
     payload = {
         "title": title,
         "summary": summary[:2000],
         "category": category,
         "instructions": [
-            "Identify 1-2 primary historical biophysical or clinical antecedents (specific scientists, years, and discoveries).",
-            "Explain precisely how the modern preprint connects to or validates the historical work.",
-            "Identify any ancestral or traditional lifestyle parallels backed by physical mechanisms.",
-            "Return JSON with 'historical_antecedents', 'mechanistic_bridge', and 'ancestral_insight'.",
-            "Each historical_antecedents entry's 'year' must be a JSON string, e.g. \"1970s\" or \"1975\" "
-            "— never a bare unquoted token like 1970s, which is invalid JSON and discards the whole response.",
-            "historical_antecedents must have exactly 1-2 entries, never more. "
-            "mechanistic_bridge and ancestral_insight must each be a single plain-text string, never an array or object.",
+            "Identify 1-2 primary historical biophysical, physiological, or clinical antecedents (specific scientists, years, and discoveries).",
+            "Explain precisely how the modern study connects to, extends, or revises that earlier work.",
+            "Return JSON with 'historical_antecedents' and 'mechanistic_bridge' only.",
+            "Each historical_antecedents entry's 'year' must be a JSON string, e.g. \"1970s\" or \"1975\", "
+            "never a bare unquoted token like 1970s.",
+            "historical_antecedents must have 1-2 entries, never more. "
+            "mechanistic_bridge must be a single plain-text string, never an array or object.",
             "Each historical_antecedents object has exactly these three keys: scientist, year, discovery. "
-            "No other keys (e.g. no separate 'connection' field) — fold any connection to the modern finding into 'discovery' itself.",
+            "Fold the connection to the modern finding concisely into 'discovery' in clear, concrete English.",
         ],
     }
     try:
         # 1200 was cutting off richer answers mid-JSON on finish_reason "length"
-        # (observed: 7 antecedents plus expanded mechanistic_bridge/ancestral_insight
-        # instead of the usual 1-2) — an unparseable truncated response, not a bad one.
-        return _json_response(client, model, system_prompt, payload, max_tokens=2000)
+        # — an unparseable truncated response, not a bad one.
+        return _json_response(client, model, system_prompt, payload, max_tokens=1600)
     except Exception as e:
         return {
             "historical_antecedents": [],
-            "mechanistic_bridge": "Direct primary preprint research.",
-            "ancestral_insight": "",
+            "mechanistic_bridge": "Direct primary research.",
             "error": str(e),
         }
 

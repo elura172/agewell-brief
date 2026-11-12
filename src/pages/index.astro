@@ -12,8 +12,19 @@ const editionKey = (entry: (typeof entries)[number]) =>
   entry.data.edition_id ?? entry.data.date.toISOString().slice(0, 10);
 const latestEdition = entries[0] ? editionKey(entries[0]) : undefined;
 const editionEntries = entries.filter((entry) => editionKey(entry) === latestEdition);
-const featured = editionEntries.find((entry) => entry.data.content_type === "lead") ?? editionEntries[0];
-const recent = editionEntries.filter((entry) => entry.id !== featured?.id).slice(0, 2);
+const featured =
+  editionEntries.find((entry) => entry.data.content_type === "lead") ??
+  entries.slice(0, 4).find((entry) => entry.data.content_type === "lead") ??
+  editionEntries[0];
+const sameEditionRest = editionEntries.filter((entry) => entry.id !== featured?.id);
+const recent = (
+  sameEditionRest.length >= 2
+    ? sameEditionRest
+    : [
+        ...sameEditionRest,
+        ...entries.filter((entry) => entry.id !== featured?.id && !sameEditionRest.some((r) => r.id === entry.id))
+      ]
+).slice(0, 2);
 const displayedCount = (featured ? 1 : 0) + recent.length;
 const latestIds = new Set([featured?.id, ...recent.map((entry) => entry.id)]);
 const earlier = entries.filter((entry) => !latestIds.has(entry.id));

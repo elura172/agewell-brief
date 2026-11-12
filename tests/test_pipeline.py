@@ -892,7 +892,9 @@ def test_ranked_batch_limits_a_single_publisher(monkeypatch):
     assert {item.source_group for item in selected} == {"X", "FDA", "MedlinePlus"}
 
 
-def test_draft_disables_thinking_and_retries_invalid_json():
+def test_draft_disables_thinking_and_retries_invalid_json(monkeypatch):
+    monkeypatch.setattr(pipeline, "MODEL", "deepseek-chat")
+
     class FakeCompletions:
         def __init__(self):
             self.calls: list[dict] = []
@@ -903,8 +905,12 @@ def test_draft_disables_thinking_and_retries_invalid_json():
                 {
                     "headline": "A useful finding",
                     "dek": "Researchers shared a practical update.",
+                    "paragraphs": [
+                        "Researchers tested the intervention in a controlled cohort and measured a concrete shift in cellular signaling.",
+                        "The result sharpens mechanistic understanding, though controlled replication is still needed to establish causation.",
+                    ],
                     "bullets": ["First point", "Second point", "Third point"],
-                    "caveat": "The evidence is still developing.",
+                    "caveat": "Observational cohort data cannot establish direct causation.",
                 }
             )
             return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=content))])
@@ -916,12 +922,14 @@ def test_draft_disables_thinking_and_retries_invalid_json():
     result = draft(client, item, "general wellness")
 
     assert result["headline"] == "A useful finding"
+    assert len(result["paragraphs"]) == 2
     assert len(completions.calls) == 2
     assert completions.calls[0]["extra_body"] == {"thinking": {"type": "disabled"}}
     prompt = json.loads(completions.calls[-1]["messages"][1]["content"])
+    assert prompt["autoresearch_deep_context"] is None
     requirements = " ".join(prompt["requirements"])
-    assert "clear, spirited, respectful, and concrete" in requirements
-    assert "not a rigid template" in requirements
+    assert "Quanta Magazine and Works in Progress" in requirements
+    assert "two tight narrative dispatch paragraphs" in requirements
     assert "Do not invent facts" in requirements
 
 
@@ -937,6 +945,10 @@ def test_draft_retries_transient_api_failure():
             payload = {
                 "headline": "A useful finding",
                 "dek": "Researchers shared a practical update.",
+                "paragraphs": [
+                    "Researchers tracked older adults and observed a measurable difference across groups.",
+                    "Further trials are required before treating the association as causal.",
+                ],
                 "bullets": ["First point", "Second point", "Third point"],
                 "caveat": "The evidence is still developing.",
             }
@@ -950,6 +962,32 @@ def test_draft_retries_transient_api_failure():
 
     assert completions.calls == 2
     assert result["headline"] == "A useful finding"
+    assert len(result["paragraphs"]) == 2
+
+
+def test_markdown_renders_signal_paragraphs_description_and_updated_colophon():
+    item = FeedItem("Original study title", "Summary", "https://example.test/paper", "", "Journal Source")
+    content = {
+        "headline": "Sharp Eight-Word Broadsheet Headline Captures Core Finding",
+        "dek": "A concise deck states what was tested and why it matters.",
+        "paragraphs": [
+            "First dispatch paragraph explains the cohort, numbers, and cellular mechanism.",
+            "Second dispatch paragraph places the finding in context and names open limits.",
+        ],
+        "bullets": ["Takeaway one", "Takeaway two", "Takeaway three"],
+        "caveat": "Single-center observational data cannot establish direct clinical causation.",
+        "sections": [],
+    }
+    rendered = markdown(item, "brain health", content, content_type="signal")
+
+    assert 'description: "A concise deck states what was tested and why it matters."' in rendered
+    assert "First dispatch paragraph explains the cohort, numbers, and cellular mechanism." in rendered
+    assert "Second dispatch paragraph places the finding in context and names open limits." in rendered
+    assert "## Key takeaways" in rendered
+    assert "## Three things to remember" not in rendered
+    assert "Reported from [Original study title](https://example.test/paper) (Journal Source)." in rendered
+    assert "> **Evidence note:** Single-center observational data cannot establish direct clinical causation." in rendered
+    assert "ancestral_insight:" not in rendered
 
 
 def test_model_json_parser_recovers_redundant_closing_brace():
@@ -1029,12 +1067,18 @@ def test_lead_draft_requests_long_structured_analysis():
 
 def test_lead_retry_uses_validation_feedback_and_retains_focused_draft():
     paragraph = " ".join(["Source-grounded context helps readers understand the finding and its limits clearly."] * 5)
+    antecedent_payload = {
+        "historical_antecedents": [
+            {"scientist": "Joseph Altman", "year": "1962", "discovery": "Identified adult hippocampal neurogenesis."}
+        ],
+        "mechanistic_bridge": "Connects adult neurogenesis to cognitive resilience.",
+    }
     payload = {
         "headline": "A focused look at healthy aging",
         "dek": "A useful development deserves context.",
         "sections": [
             {"heading": heading, "paragraphs": [paragraph, paragraph]}
-            for heading in ("Why it matters", "What researchers found", "How to read it", "What to do next")
+            for heading in ("The biological puzzle", "What researchers found", "Cellular mechanism", "Open limits and stakes")
         ],
         "bullets": ["First point", "Second point", "Third point"],
         "caveat": "The evidence is still developing.",
@@ -1046,7 +1090,8 @@ def test_lead_retry_uses_validation_feedback_and_retains_focused_draft():
 
         def create(self, **kwargs):
             self.calls.append(kwargs)
-            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps(payload)))])
+            body = antecedent_payload if len(self.calls) == 1 else payload
+            return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps(body)))])
 
     completions = FakeCompletions()
     client = SimpleNamespace(chat=SimpleNamespace(completions=completions))
@@ -1054,12 +1099,18 @@ def test_lead_retry_uses_validation_feedback_and_retains_focused_draft():
 
     result = draft(client, item, "longevity", "lead", "deep source material " * 300)
 
-    assert len(completions.calls) == 2
-    repair = json.loads(completions.calls[1]["messages"][-1]["content"])
+    assert len(completions.calls) == 3
+    lead_prompt = json.loads(completions.calls[1]["messages"][1]["content"])
+    lead_reqs = " ".join(lead_prompt["requirements"])
+    assert "Never pad laboratory, animal, or post-mortem studies with generic sleep, diet, or exercise advice." in lead_reqs
+    assert "Popp" not in lead_reqs
+    repair = json.loads(completions.calls[2]["messages"][-1]["content"])
     assert "too short" in repair["validation_error"]
     assert "at least 500 words" in " ".join(repair["requirements"])
     assert result["generation_status"] == "accepted_focused_fallback"
     assert "retained as a focused draft" in result["generation_note"]
+    assert result["autoresearch_antecedents"][0]["scientist"] == "Joseph Altman"
+    assert "ancestral_insight" not in result
 
 
 def test_run_isolates_failed_story_and_keeps_the_edition(monkeypatch, tmp_path: Path):

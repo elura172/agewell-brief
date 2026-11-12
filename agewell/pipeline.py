@@ -106,13 +106,12 @@ TREND_RADAR_FILE = Path(os.getenv("TREND_RADAR_FILE", ROOT / ".state/trend-radar
 PROGRAM_RESOURCES_JSON = os.getenv("PROGRAM_RESOURCES_JSON", "{}")
 
 PUBLICATION_STYLE_REQUIREMENTS = (
-    "Write with empirical authority, biophysical depth, and intellectual sovereignty.",
-    "Eliminate generic AI hedging boilerplate (e.g., 'A connection is context, not proof', 'Only time will tell', 'Curiosity without collapse').",
-    "Explain physical mechanisms down to mitochondrial dynamics, cellular membrane transport, biophotonic emission, and neural connectomics.",
-    "Weave in historical biophysical antecedents (Popp, Warburg, Pollack, Selye, Gurwitsch) and ancestral parallels naturally when supplied.",
-    "Vary sentence length naturally and prefer direct, active verbs over inflated corporate or SaaS jargon.",
+    "Write in the register of Quanta Magazine and Works in Progress: vivid, lucid science journalism with full cellular and biophysical mechanistic rigor.",
+    "Translate dense textbook nominalizations (such as 'proteinaceous deposition', 'functional connectomic failure', or 'paracrine microenvironmental signaling') into concrete physical English that shows what cells, molecules, and tissues actually do.",
+    "Eliminate generic AI hedging boilerplate (such as 'A connection is context, not proof', 'Only time will tell', or 'Curiosity without collapse').",
+    "Vary sentence length naturally, favor strong active verbs, and avoid em dashes where commas, colons, or periods read cleaner.",
     "Use sentence case for section headings.",
-    "Treat clarity, physical mechanism, and direct source fidelity as the highest editorial priority.",
+    "Do not invent facts, studies, quotes, institutions, diagnoses, or clinical recommendations beyond the supplied source.",
 )
 
 
@@ -656,7 +655,11 @@ def draft(
     source_is_deep = len(source_material) >= MIN_LEAD_SOURCE_CHARS
     minimum_lead_words = 500 if source_is_deep else 300
     focused_fallback_words = 350 if source_is_deep else 250
-    deep_context = autoresearch_context_subagent(client, MODEL, item.title, source_material, category)
+    deep_context = (
+        autoresearch_context_subagent(client, MODEL, item.title, source_material, category)
+        if is_longform
+        else {}
+    )
     # Only briefs that actually report a study get classified. evergreen/editorial
     # pieces (framework explainers, program pages) aren't reporting a single
     # study's maturity — tested 2026-08-09 and build_evidence_packet returns
@@ -678,17 +681,17 @@ def draft(
         "category": category,
         "content_type": content_type,
         "evidence_packet": evidence.to_dict() if evidence else None,
-        "autoresearch_deep_context": deep_context,
+        "autoresearch_deep_context": deep_context if is_longform else None,
         "evergreen_context": [hit.prompt_dict() for hit in (evergreen_context or [])],
         "requirements": [
-            "Write clear, authoritative health and biophysics journalism for sovereign minds.",
+            "Write clear, vivid health and biology journalism in the register of Quanta Magazine and Works in Progress.",
             "Use only claims supported by the supplied source material.",
-            "If historical biophysical antecedents (e.g. Fritz-Albert Popp biophotons, Gerald Pollack EZ water, Otto Warburg metabolic respiration, Hans Selye stress adaptation) or ancestral parallels are present in autoresearch_deep_context, incorporate them explicitly to trace the deep scientific lineage.",
-            *(["This is an Editorial Novel Medical Theory piece. Synthesize the biophysical mechanisms, historical antecedents (Popp, Warburg, Pollack, Selye, Gurwitsch), and modern preprints into a groundbreaking, original medical theory hypothesis."] if content_type == "editorial" else []),
+            "Write a crisp broadsheet headline (8-13 words) with a strong active verb and the specific finding; avoid 15-word academic abstract mouthfuls and clickbait.",
+            "Write a 1-2 sentence dek (at most 38 words) that states what was found and why it matters in plain, physical terms.",
             "Do not diagnose, prescribe, promise results, or invent institutions or studies.",
             "Do not imply that a supplement treats or cures a disease.",
-            "Write with tension, specificity, agency, and warmth; avoid hype and filler.",
-            "bullets must contain exactly three items, each at most 20 words.",
+            "bullets must contain exactly three sharp, concrete takeaways, each 12-22 words.",
+            "caveat must be one specific sentence naming the exact study-design, cohort, or model boundary without institutional medical-disclaimer boilerplate.",
             *PUBLICATION_STYLE_REQUIREMENTS,
         ],
     }
@@ -700,35 +703,60 @@ def draft(
                     if source_is_deep
                     else "Create a focused 350-500 word analysis; do not pad beyond the limited source material."
                 ),
+                *(
+                    [
+                        "This is an Editorial synthesis piece. Connect the cellular and biophysical mechanisms, primary historical antecedents, and modern findings into a rigorous, testable hypothesis while distinguishing established evidence from hypothesis."
+                    ]
+                    if content_type == "editorial"
+                    else []
+                ),
                 "Return JSON with headline, dek, sections, bullets, and caveat.",
                 "sections must contain exactly four objects with heading and paragraphs fields.",
                 "Each paragraphs field must be an array of two or three complete paragraphs.",
-                "The four sections should explain why this matters, what was found, how to interpret it, and practical next steps.",
-            "Separate reported evidence from interpretation and clearly state uncertainty.",
-            (
-                "Use evergreen_context only for background framing, questions, or vocabulary. "
-                "Never present it as current evidence, a clinical recommendation, or proof of a health effect."
-            ),
-            "Do not mention a program, course, or private file path in the published article unless explicitly requested.",
-        ]
+                (
+                    "Follow a four-movement arc: (1) the biological puzzle or clinical paradox at stake, "
+                    "(2) what was tested and found with concrete numbers, cohorts, or experimental models, "
+                    "(3) how the mechanism or dose-response works: when the study directly measures a cellular, physiological, or biophysical pathway, explain it in vivid physical English; when a cohort, clinical, or behavioral study does not assay cells directly, examine its design, dose-response, or authors' stated hypothesis while explicitly noting that cellular mechanism was not measured, and "
+                    "(4) unanswered boundaries and what changes for science or care if the result holds."
+                ),
+                (
+                    "Write specific, story-native section headings; never copy prompt labels like 'The biological puzzle' or 'Open limits' into headings, and do not repeat the dek's phrasing verbatim in the first paragraph."
+                ),
+                (
+                    "In section 4, discuss practical habits or interventions ONLY when the study itself tested an actionable human behavior or therapy. "
+                    "Never pad laboratory, animal, or post-mortem studies with generic sleep, diet, or exercise advice."
+                ),
+                (
+                    "If autoresearch_deep_context supplies historical_antecedents, weave at most ONE precursor briefly into the narrative only when it genuinely illuminates the mechanism. "
+                    "Never recite both precursors or repeat their discovery blurbs verbatim, because a structured Pioneer Lineage card already displays them below the article."
+                ),
+                "Separate reported evidence from interpretation and clearly state uncertainty.",
+                (
+                    "Use evergreen_context only for background framing, questions, or vocabulary. "
+                    "Never present it as current evidence, a clinical recommendation, or proof of a health effect."
+                ),
+                "Do not mention a program, course, or private file path in the published article unless explicitly requested.",
+            ]
         )
     else:
         prompt["requirements"].extend(
             [
-                "Create a compact news signal under 140 words.",
-                "Return JSON with headline, dek, bullets, and caveat.",
+                "Return JSON with headline, dek, paragraphs, bullets, and caveat.",
+                (
+                    "paragraphs must be an array of exactly two tight narrative dispatch paragraphs (140-230 words combined): "
+                    "paragraph 1 reports what was tested, in whom or what model, the concrete result, and the proposed physical mechanism; "
+                    "paragraph 2 places the result in context and states what the study design does not yet prove."
+                ),
             ]
         )
     messages = [
         {
             "role": "system",
             "content": (
-                "You are Agewell Brief's chief science editor. Write for intellectually curious, sovereign adults who value biological depth and physical precision. "
-                "Be clear, authoritative, direct, and deeply grounded in biophysics, quantum biology, and cellular renewal. "
-                "Avoid protective AI hedging boilerplate (e.g. 'A connection is context, not proof', 'Only time will tell', 'Curiosity without collapse'). "
-                "Instead, explain the exact physical mechanism: what was observed, how subatomic/cellular/mitochondrial dynamics operate, why it matters for healthspan, and how it connects to the deeper lineage of biophysics and ancestral wisdom. "
-                "Make the copy easy to scan with concise paragraphs, strong transitions, and precise takeaways. "
-                "Separate reported findings from interpretation and clearly state uncertainty without clinical condescension. "
+                "You are Agewell Brief's chief science editor, writing in the tradition of Quanta Magazine and Works in Progress for curious, discerning adults. "
+                "Keep full mechanistic depth across cell biology, physiology, neuroscience, and biophysics, while translating stiff academic nominalizations into clear, concrete physical prose. "
+                "Avoid protective AI hedging boilerplate and generic lifestyle filler. "
+                "Show what was observed, how the physical or cellular mechanism works, why the finding matters for human healthspan, and where the study's evidentiary boundary lies. "
                 "Never invent studies, quotes, institutions, diagnoses, or treatments. "
                 "Affiliate relationships must never influence story selection, headline framing, interpretation, or evidence."
             ),
@@ -745,12 +773,21 @@ def draft(
                 client,
                 MODEL,
                 temperature=0.2,
-                max_tokens=3200 if is_longform else 1400,
+                max_tokens=3200 if is_longform else 1600,
                 response_format={"type": "json_object"},
                 messages=messages,
             )
             raw_content = response.choices[0].message.content or "{}"
             candidate = parse_model_json(raw_content)
+            raw_bullets = candidate.get("bullets")
+            if (
+                not isinstance(raw_bullets, list)
+                or len(raw_bullets) != 3
+                or any(not clean_text(str(b)) for b in raw_bullets)
+            ):
+                raise ValueError("draft requires three non-empty bullets")
+            if not clean_text(str(candidate.get("caveat", ""))):
+                raise ValueError("draft requires a non-empty caveat")
             if is_longform:
                 raw_sections = candidate.get("sections")
                 if not isinstance(raw_sections, list) or len(raw_sections) != 4:
@@ -773,6 +810,12 @@ def draft(
                 )
                 if lead_words < minimum_lead_words:
                     raise LeadTooShortError(lead_words, minimum_lead_words)
+            else:
+                raw_paragraphs = candidate.get("paragraphs")
+                if not isinstance(raw_paragraphs, list) or len(raw_paragraphs) != 2:
+                    raise ValueError("signal draft requires two narrative paragraphs")
+                if any(not clean_text(str(paragraph)) for paragraph in raw_paragraphs):
+                    raise ValueError("signal draft contains an empty paragraph")
             result = candidate
             break
         except Exception as exc:
@@ -810,6 +853,10 @@ def draft(
                     repair_request["requirements"].append(
                         f"Expand the four sections to at least {minimum_lead_words} words total without repetition or unsupported detail."
                     )
+                else:
+                    repair_request["requirements"].append(
+                        "Include paragraphs as an array of two concise, concrete dispatch paragraphs (140-230 words combined)."
+                    )
                 messages.extend(
                     [
                         {"role": "assistant", "content": raw_content},
@@ -823,9 +870,10 @@ def draft(
     dek = clean_text(result.get("dek")) or item.summary
     bullets = result.get("bullets")
     if not isinstance(bullets, list) or len(bullets) != 3:
-        bullets = ["The source reports a new health-related finding.", "The result needs context before changing routines.", "Discuss personal decisions with a qualified clinician."]
-    caveat = clean_text(result.get("caveat")) or "This brief is informational and is not medical advice."
+        bullets = ["The source reports a new health-related finding.", "The result needs context before changing routines.", "Review the primary study design and cohort limits carefully."]
+    caveat = clean_text(result.get("caveat")) or "Single-study findings require replication before informing clinical care."
     sections: list[dict[str, Any]] = []
+    signal_paragraphs: list[str] = []
     if is_longform:
         raw_sections = result.get("sections")
         if not isinstance(raw_sections, list) or len(raw_sections) != 4:
@@ -843,18 +891,20 @@ def draft(
                     "paragraphs": [clean_text(str(paragraph)) for paragraph in paragraphs if clean_text(str(paragraph))],
                 }
             )
-    normalized = {
+    else:
+        raw_paragraphs = result.get("paragraphs")
+        if isinstance(raw_paragraphs, list):
+            signal_paragraphs = [clean_text(str(paragraph)) for paragraph in raw_paragraphs if clean_text(str(paragraph))]
+    normalized: dict[str, Any] = {
         "headline": headline,
         "dek": dek,
         "bullets": [clean_text(str(x)) for x in bullets],
         "caveat": caveat,
         "sections": sections,
+        "paragraphs": signal_paragraphs,
     }
-    # deep_context was already computed above to shape the prose (the prompt
-    # instructs the model to "incorporate them explicitly"); this is the same
-    # data made structured. No second API call — it costs nothing extra to
-    # keep what was already paid for instead of discarding it after the draft
-    # prompt used it.
+    # deep_context was already computed above for longform pieces; persist the
+    # structured antecedents for the Pioneer Lineage card without a second call.
     raw_antecedents = deep_context.get("historical_antecedents", [])
     if isinstance(raw_antecedents, list):
         antecedents = [
@@ -868,9 +918,6 @@ def draft(
         ]
         if antecedents:
             normalized["autoresearch_antecedents"] = antecedents
-    ancestral_insight = clean_text(str(deep_context.get("ancestral_insight", "")))
-    if ancestral_insight:
-        normalized["ancestral_insight"] = ancestral_insight
     if evidence_position:
         normalized["evidence_position"] = evidence_position
     if result.get("generation_status"):
@@ -1059,30 +1106,32 @@ def markdown(
 ) -> str:
     published_at = edition_time or dt.datetime.now(dt.timezone.utc)
     bullets = "\n".join(f"- {bullet}" for bullet in content["bullets"])
-    sections = ""
-    # One card in the body, placed after the opening section, and one at the very
-    # end of the page (the protocol card, rendered by the brief template from the
-    # `spiral` frontmatter below). Three near-identical cards plus the sticky bar
-    # read as pressure rather than as a recommendation, and the opening and
-    # closing cards pointed at a byte-identical URL and PDF.
+    body_prose = ""
+    # In-body resource cards remain retired; the single end-of-article protocol
+    # card rendered by [slug].astro from `spiral` frontmatter is the only program
+    # callout on the page.
     if content_type in {"lead", "evergreen", "editorial"}:
         section_blocks = [
             f"## {section['heading']}\n\n" + "\n\n".join(section["paragraphs"])
             for section in content.get("sections", [])
         ]
-        sections = "\n\n".join(section_blocks)
+        body_prose = "\n\n".join(section_blocks)
+    else:
+        signal_paragraphs = [
+            clean_text(str(paragraph))
+            for paragraph in content.get("paragraphs", [])
+            if clean_text(str(paragraph))
+        ]
+        body_prose = "\n\n".join(signal_paragraphs)
+    body_block = f"\n\n{body_prose}" if body_prose else ""
     health_note = content["caveat"]
-    # The template resolves the closing protocol card from this, so both cards on
-    # the page name the same program even when a keyword override sends a brief
+    # The template resolves the closing protocol card from this, so the page
+    # names the right program even when a keyword override sends a brief
     # somewhere its category alone would not.
     spiral_frontmatter = f'spiral: "{quote(spiral["name"])}"\n' if spiral else ""
     antecedents = content.get("autoresearch_antecedents")
     antecedents_frontmatter = (
         f"autoresearch_antecedents: {json.dumps(antecedents)}\n" if antecedents else ""
-    )
-    ancestral_insight = content.get("ancestral_insight")
-    ancestral_insight_frontmatter = (
-        f'ancestral_insight: "{quote(ancestral_insight)}"\n' if ancestral_insight else ""
     )
     evidence_position = content.get("evidence_position")
     evidence_position_frontmatter = (
@@ -1094,7 +1143,7 @@ def markdown(
 image_provider_id: "{quote(photo.provider_id)}"
 image: "{quote(photo.local_url)}"
 image_alt: "{quote(photo.alt)}"
-image_caption: "{quote(image_caption or 'A glimpse of the everyday routines behind this story.')}"
+image_caption: "{quote(image_caption or 'Editorial photograph accompanying this report.')}"
 image_width: {photo.width}
 image_height: {photo.height}
 image_photographer: "{quote(photo.creator)}"
@@ -1105,6 +1154,7 @@ image_avg_color: "{photo.avg_color}"
 '''
     return f'''---
 title: "{quote(content["headline"])}"
+description: "{quote(content["dek"])}"
 date: {published_at.isoformat()}
 draft: {str(draft).lower()}
 category: "{quote(category)}"
@@ -1114,21 +1164,19 @@ edition_id: "{published_at.date().isoformat()}"
 source_url: "{quote(item.link)}"
 source_title: "{quote(item.title)}"
 source_name: "{quote(item.source_name)}"
-{spiral_frontmatter}{antecedents_frontmatter}{ancestral_insight_frontmatter}{evidence_position_frontmatter}{image_frontmatter}---
+{spiral_frontmatter}{antecedents_frontmatter}{evidence_position_frontmatter}{image_frontmatter}---
 
-{content["dek"]}
+{content["dek"]}{body_block}
 
-{sections}
-
-## Three things to remember
+## Key takeaways
 
 {bullets}
 
 ### Source
 
-This {"analysis" if content_type == "lead" else content_type} is based on [{item.title}]({item.link}) from {item.source_name}. Read the original report for full context.
+Reported from [{item.title}]({item.link}) ({item.source_name}).
 
-> **Health note:** {health_note}
+> **Evidence note:** {health_note}
 '''
 
 
@@ -1420,7 +1468,11 @@ def run() -> int:
                 generated_count,
                 edition_time,
                 photo,
-                draft=not (publish_automatically and release_check.publishable),
+                draft=not (
+                    publish_automatically
+                    and release_check.publishable
+                    and release_review.get("status") != "held"
+                ),
                 spiral=spiral,
                 image_caption=image_caption,
             ),

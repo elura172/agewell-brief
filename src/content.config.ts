@@ -5,6 +5,7 @@ const briefs = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./content/posts" }),
   schema: z.object({
     title: z.string(),
+    description: z.string().optional(),
     date: z.coerce.date(),
     updated: z.coerce.date().optional(),
     draft: z.boolean().default(true),
