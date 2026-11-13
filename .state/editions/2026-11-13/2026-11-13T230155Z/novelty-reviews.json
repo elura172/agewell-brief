@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "incremental observation",
+      "reason": "Observational study repeating well-established U-shaped sleep duration metrics without identifying a novel biological mechanism.",
+      "angle": "Why narrow sleep windows correlate with biological age metrics.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "epidemiological association",
+      "reason": "Standard sociological observation linking life-course mobility to depressive symptoms; lacks novel biological or actionable findings.",
+      "angle": "How socioeconomic trajectory alters late-life neurochemical depression risk.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "literature review",
+      "reason": "Broad narrative review on sleep, redox metabolism, and brain aging without presenting primary empirical data or a novel drug target.",
+      "angle": "Mapping the exact redox metabolic pathways affected by sleep fragmentation.",
+      "mode": "agent"
+    },
+    "9811abc07eba0d2e50e0dba8": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Identifies a specific multiomics production signature in salmon resembling mammalian metabolic aging and shows dietary spermidine alters lipid handling.",
+      "angle": "How dietary spermidine reshapes metabolic lipid handling across species boundaries.",
+      "mode": "agent"
+    },
+    "033b6d254ba7a7afc6126ab0": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "specific biological mechanism",
+      "reason": "Pinpoints a precise molecular failure—altered mitoAMPKα signaling—explaining why exercise fails to trigger mitophagy in aging muscle.",
+      "angle": "Targeting mitoAMPKα to restore exercise-induced mitochondrial cleanup in sarcopenic muscle.",
+      "mode": "agent"
+    },
+    "a4be8a9e8d54a96e2f581adc": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "unusual result / boundary condition",
+      "reason": "Demonstrates a critical limitation of acarbose: it rescues spatial learning in normal aging but completely fails in AD models, challenging broad anti-aging cognitive claims.",
+      "angle": "Why acarbose protects normal cognitive aging but fails once Alzheimer's pathology takes hold.",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "neuroimaging discovery",
+      "reason": "Identifies a shared brain network for MCI, but the finding remains largely diagnostic without presenting a novel therapeutic target.",
+      "angle": "How functional connectivity in the newly identified memory network predicts subjective vs objective decline.",
+      "mode": "agent"
+    },
+    "f4ca31784b128ac7937eae64": {
+      "score": 28,
+      "decision": "hold",
+      "novelty_type": "incremental association",
+      "reason": "Re-confirms the established link between excess body weight and cognitive decline over time; lacks new mechanistically distinct findings.",
+      "angle": "Specific adipokine pathways that accelerate brain tissue atrophy in late-life obesity.",
+      "mode": "agent"
+    },
+    "87af30c689526f2bd30294c8": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "counter-intuitive practice shift",
+      "reason": "Challenges standard clinical advice by showing walking and traditional weightlifting are insufficient compared to multidirectional, explosive mechanical loading for bone formation.",
+      "angle": "Why multidirectional dynamic loading triggers bone formation markers up to 46% more effectively than weightlifting.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "9811abc07eba0d2e50e0dba8",
+    "033b6d254ba7a7afc6126ab0",
+    "a4be8a9e8d54a96e2f581adc",
+    "87af30c689526f2bd30294c8"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "0b7d57db98938147adfb915a",
+    "eee7cce180eb8902fb8e3ce0",
+    "f4ca31784b128ac7937eae64"
+  ],
+  "mode": "agent"
+}

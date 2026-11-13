@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "9811abc07eba0d2e50e0dba8",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:6q5QG8iIgRo",
+      "score": 85,
+      "rationale": "This image directly matches the category visual anchors for longevity research ('cellular biology laboratory, microscopy') and aligns perfectly with the image brief, showing a scientist using a microscope in a clinical laboratory setting to study cellular processes.",
+      "concerns": [
+        "The image focuses broadly on cellular biology microscopy rather than explicitly showing fish tissue, but it precisely fulfills the laboratory and microscopy requirements of the category and brief."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1562789233-495f52b583dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8Y2VsbCUyMGJpb2xvZ3klMjBzY2llbnRpc3QlMjBtaWNyb3Njb3BlfGVufDF8MHx8fDE3OTQ2MTEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
