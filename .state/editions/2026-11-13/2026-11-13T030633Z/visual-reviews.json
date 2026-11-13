@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "a1046b8dedf3ca8b2015a1cd",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:_9xRHrMOjeg",
+      "score": 95,
+      "rationale": "The candidate 'Unsplash:_9xRHrMOjeg' directly matches the cellular biology laboratory and microscopy visual anchors requested for a study discussing lifespan-extending treatments and antioxidant mechanisms in murine models. The image cleanly depicts a laboratory workbench with a microscope and analytical equipment in a bright room, avoiding all banned elements and strictly aligning with the molecular focus of the story.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1602052577122-f73b9710adba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8Y2VsbHVsYXIlMjBiaW9sb2d5JTIwcmVzZWFyY2glMjBsYWJ8ZW58MXwwfHx8MTc5NDUzOTU0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "observational association",
+      "reason": "Rehashes broad sleep duration advice without a novel biological mechanism or surprising data point.",
+      "angle": "What molecular pathways explain the narrow window where sleep protects biological age?",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "review paper",
+      "reason": "Broad theoretical framework connecting redox metabolism and sleep, lacking a distinct breakthrough study or trial.",
+      "angle": "How sleep disruption specifically oxidizes neuronal redox networks to accelerate brain aging.",
+      "mode": "agent"
+    },
+    "a1046b8dedf3ca8b2015a1cd": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "convergent mechanism",
+      "reason": "Identifies that five distinct lifespan-extending treatments converge on boosting the exact same antioxidant in mice, pointing to a unified downstream pathway.",
+      "angle": "The Convergence Cure: Why five different longevity interventions all activate the same master antioxidant.",
+      "mode": "agent"
+    },
+    "2b418779b4d081191496f953": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "preclinical mechanism",
+      "reason": "Incremental confirmation of tauopathy propagation scaling with aggregation propensity using an AAV model.",
+      "angle": "Mapping the physical propagation speed of misfolded tau across synaptically linked networks.",
+      "mode": "agent"
+    },
+    "a4be8a9e8d54a96e2f581adc": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "negative finding",
+      "reason": "Acarbose helps normal aging spatial learning deficits in mice but fails in an Alzheimer's model, offering a nuanced boundary for metabolic longevity drugs.",
+      "angle": "Why metabolic aging interventions fail in established Alzheimer's models.",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "imaging correlation",
+      "reason": "Identifies shared memory networks in mild cognitive impairment, but relies on familiar clinical presentation patterns.",
+      "angle": "Spotting the silent network shifts before subjective memory loss becomes measurable impairment.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "epidemiological observation",
+      "reason": "Examines life-course social mobility and depressive symptoms in an Indian cohort, lacking a sharp physiological hook.",
+      "angle": "Tracing how socioeconomic trajectories embed themselves into the aging nervous system.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "epigenetic review",
+      "reason": "Systematic review mapping how dietary restriction directly rewrites DNA methylation and histone modifications in neurotransmitter pathways.",
+      "angle": "Fasting's Epigenetic Signature: How dietary restriction physically reprograms brain wiring.",
+      "mode": "agent"
+    },
+    "9811abc07eba0d2e50e0dba8": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "comparative multiomics",
+      "reason": "Demonstrates that dietary spermidine enhances lipid handling in farmed salmon via a multiomic signature resembling mammalian metabolic aging.",
+      "angle": "From Fish to Mammals: How dietary spermidine hacks lipid aging across species boundaries.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "a1046b8dedf3ca8b2015a1cd",
+    "4fa1cbe537a2dff42f96cb80",
+    "9811abc07eba0d2e50e0dba8"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "2b418779b4d081191496f953",
+    "a4be8a9e8d54a96e2f581adc",
+    "eee7cce180eb8902fb8e3ce0",
+    "b3bbba0e16b511eb7aed2b5c"
+  ],
+  "mode": "agent"
+}
