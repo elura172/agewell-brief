@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "4fa1cbe537a2dff42f96cb80",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:_af0_qAh4K4",
+      "score": 75,
+      "rationale": "Candidate Unsplash:_af0_qAh4K4 directly matches the category visual anchors ('brain MRI or fMRI scan display') and the core scientific focus of the story ('brain health', epigenetics in animal brains). It shows a digital brain display screen, aligning well with the neuroscience setting.",
+      "concerns": [
+        "The display is somewhat stylized/neon, but it is the only candidate that accurately represents brain health and neuroscience imaging instead of unrelated kitchen/vegetable food images."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8YnJhaW4lMjBzY2FuJTIwbW9uaXRvciUyMGRpc3BsYXl8ZW58MXwwfHx8MTc5NDYwMTc1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

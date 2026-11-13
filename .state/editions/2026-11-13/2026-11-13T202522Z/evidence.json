@@ -1,0 +1,24 @@
+[
+  {
+    "article_id": "4fa1cbe537a2dff42f96cb80",
+    "study_type": "Systematic review of animal studies",
+    "key_claims": [
+      "Preclinical animal evidence shows that dietary restriction, such as intermittent fasting and caloric restriction, significantly alters DNA methylation, histone modifications, and non-coding RNA expression in brain tissue.",
+      "Dietary restriction helped attenuate age-associated epigenetic drift and restored homeostatic regulation in animal models.",
+      "Epigenetic changes in response to dietary restriction were accompanied by cognitive benefits, particularly in memory tasks dependent on the hippocampus.",
+      "The primary signaling pathways implicated in these epigenetic alterations include Sirtuin-1/CREB, BDNF/TrkB, metabolic pathways (mTOR, AMPK, FOXO), and neuroinflammatory regulation."
+    ],
+    "limitations": [
+      "No human studies met the inclusion criteria, limiting direct translation of the findings to human health.",
+      "The included animal studies featured small sample sizes and high methodological heterogeneity in fasting protocols, brain regions, and measurement techniques.",
+      "Risk of bias was evaluated as high in seven of the nine included studies due to incomplete reporting of randomization, blinding, and study protocols.",
+      "Direct causal evidence proving that the specific epigenetic changes drive the observed cognitive benefits remains limited."
+    ],
+    "what_not_to_say": [
+      "Do not claim that intermittent fasting or caloric restriction improves brain function or memory in humans.",
+      "Do not state that dietary restriction cures or prevents specific neurodegenerative diseases like Alzheimer's disease.",
+      "Do not suggest that persistent epigenetic memory of fasting is firmly established."
+    ],
+    "confidence": "limited"
+  }
+]

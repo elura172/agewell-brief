@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T14:39:35.432482+00:00",
+  "updated_at": "2026-11-13T20:29:36.640597+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -4735,6 +4735,35 @@
         }
       },
       "updated_at": "2026-11-13T14:39:35.431486+00:00"
+    },
+    "2026-11-13-fasting-restores-young-chromatin-architecture-in-animal-brains-4fa1cbe5": {
+      "article_id": "2026-11-13-fasting-restores-young-chromatin-architecture-in-animal-brains-4fa1cbe5",
+      "article_url": "https://agewellbrief.com/brief/2026-11-13-fasting-restores-young-chromatin-architecture-in-animal-brains-4fa1cbe5/",
+      "title": "Fasting Restores Young Chromatin Architecture in Animal Brains",
+      "category": "brain health",
+      "content_record": ".state/content-records/2026-11-13-fasting-restores-young-chromatin-architecture-in-animal-brains-4fa1cbe5.json",
+      "video_job": ".state/video-jobs/2026-11-13-fasting-restores-young-chromatin-architecture-in-animal-brains-4fa1cbe5.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-11-13T20:29:36.640211+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-11-13T20:29:36.640218+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-11-13T20:29:36.640220+00:00"
+        }
+      },
+      "updated_at": "2026-11-13T20:29:36.640592+00:00"
     }
   }
 }

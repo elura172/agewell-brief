@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "The recommendation for 6.5 to 8 hours of sleep for general health is standard, well-worn guidance without a distinct new mechanistic discovery in the candidate pitch.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Lacks summary details and covers a well-established demographic link between life-course social mobility and depressive symptoms.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "4fa1cbe537a2dff42f96cb80": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "named mechanism review",
+      "reason": "Systematic synthesis detailing specific epigenetic pathways (DNA methylation, histone shifts, ncRNA expression) by which dietary restriction recalibrates neurotransmitter networks to preserve cognitive function.",
+      "angle": "How dietary restriction systematically rewires brain neurotransmitter networks via specific epigenetic switches.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "broad narrative review",
+      "reason": "Headline-only candidate covering general concepts of sleep, redox metabolism, and aging without a distinct novel intervention or pinpointed pathway.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "9811abc07eba0d2e50e0dba8": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "unusual result / model translation",
+      "reason": "Demonstrates that farmed salmon exhibit a multiomic metabolic aging signature mirroring mammals, and that dietary spermidine directly enhances lipid handling to counter it.",
+      "angle": "Cross-species metabolic aging: Spermidine targets conserved lipid handling pathways from fish to mammals.",
+      "mode": "agent"
+    },
+    "033b6d254ba7a7afc6126ab0": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "Pinpoints a specific molecular deficit—altered mitoAMPKα signaling—as the bottleneck causing impaired exercise-induced mitophagy in aging skeletal muscle.",
+      "angle": "Why exercise fails to clear damaged mitochondria in aging muscle: the mitoAMPKα bottleneck.",
+      "mode": "agent"
+    },
+    "a4be8a9e8d54a96e2f581adc": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "meaningful nuance / divergence",
+      "reason": "Reveals an important boundary condition for acarbose: it restores spatial memory in normal physiological aging, but fails entirely in the context of Alzheimer's pathology.",
+      "angle": "Acarbose rescues age-related memory loss in healthy brains but misses the mark in Alzheimer's disease.",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "neuroimaging mapping",
+      "reason": "Identifying shared brain networks for MCI is clinically interesting, but the current summary is too vague on the specific imaging markers or structural targets identified.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "f4ca31784b128ac7937eae64": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "The correlation between excess weight and accelerated cognitive decline/brain aging in seniors is a well-established finding without a novel mechanistic twist here.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "4fa1cbe537a2dff42f96cb80",
+    "9811abc07eba0d2e50e0dba8",
+    "033b6d254ba7a7afc6126ab0",
+    "a4be8a9e8d54a96e2f581adc"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "0b7d57db98938147adfb915a",
+    "eee7cce180eb8902fb8e3ce0",
+    "f4ca31784b128ac7937eae64"
+  ],
+  "mode": "agent"
+}
