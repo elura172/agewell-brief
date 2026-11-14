@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "The idea that moderate sleep (around 7 hours) is optimal for health and longevity is well-established standard sleep hygiene advice with low novelty.",
+      "angle": "Why sleep duration targets are often misleading without measuring sleep architecture and stage transitions.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Correlating lifelong social mobility with late-life depressive symptoms in specific cohorts is standard epidemiological reporting without a novel biological or clinical intervention.",
+      "angle": "How life-course socioeconomic shifts influence neuroendocrine resilience in aging populations.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "broad review / conceptual synthesis",
+      "reason": "Reviews the intersection of sleep, oxidative stress/redox metabolism, and brain aging. While mechanistic, broad reviews without a distinct new empirical finding rank lower in editorial novelty.",
+      "angle": "Targeting redox dynamics during slow-wave sleep to preserve microglial metabolic health.",
+      "mode": "agent"
+    },
+    "033b6d254ba7a7afc6126ab0": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "specific pathway mechanism",
+      "reason": "Identifies a specific molecular defect—altered mitoAMPKα activity in aged male mouse muscle—that impairs exercise-induced mitophagy, offering a precise target for overcoming exercise resistance in sarcopenia.",
+      "angle": "The mitoAMPKα bottleneck: Why aged muscle fails to clear damaged mitochondria during exercise, and how to unblock it.",
+      "mode": "agent"
+    },
+    "a4be8a9e8d54a96e2f581adc": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "nuanced drug discovery finding",
+      "reason": "Shows a distinct divergence in efficacy for the longevity candidate acarbose: it rescues spatial memory in normal brain aging but fails completely in Alzheimer's models, highlighting critical limits for repositioning diabetic drugs.",
+      "angle": "Acarbose rescues normal cognitive aging but fails in Alzheimer's: What this tells us about glucose metabolism vs. pathology.",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "neuroimaging mapping",
+      "reason": "Identifies a shared memory network in mild cognitive impairment. While scientifically valid, functional connectivity mapping in MCI is an incremental area with moderate reader-stop power.",
+      "angle": "Mapping the shared neural circuit that predicts subjective cognitive decline before clinical tests catch it.",
+      "mode": "agent"
+    },
+    "f4ca31784b128ac7937eae64": {
+      "score": 28,
+      "decision": "hold",
+      "novelty_type": "recycled observational association",
+      "reason": "The link between excess body weight and cognitive decline or brain aging is widely known public health advice.",
+      "angle": "Disentangling vascular damage from direct neuroinflammation in middle-age adiposity.",
+      "mode": "agent"
+    },
+    "87af30c689526f2bd30294c8": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "counter-intuitive practice shift",
+      "reason": "Challenges the common recommendation that walking and standard weight training are sufficient for bone density, showing explosive multi-directional impact (like court sports) triggers vastly higher bone formation markers.",
+      "angle": "Rethinking osteoporosis prevention: Why walking and lifting fail bone density compared to high-impact multidirectional movements.",
+      "mode": "agent"
+    },
+    "4425ca13f8204ed1ec72308e": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "safety warning / drug side effect",
+      "reason": "Addresses a highly urgent clinical concern regarding GLP-1 receptor agonists (semaglutide): preclinical evidence showing that advanced age exacerbates muscle loss in females, directly threatening sarcopenic obesity outcomes.",
+      "angle": "The GLP-1 sarcopenia trap: How advanced age exacerbates semaglutide-induced lean muscle loss.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "033b6d254ba7a7afc6126ab0",
+    "a4be8a9e8d54a96e2f581adc",
+    "87af30c689526f2bd30294c8",
+    "4425ca13f8204ed1ec72308e"
+  ],
+  "held_back": [
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "0b7d57db98938147adfb915a",
+    "eee7cce180eb8902fb8e3ce0",
+    "f4ca31784b128ac7937eae64"
+  ],
+  "mode": "agent"
+}

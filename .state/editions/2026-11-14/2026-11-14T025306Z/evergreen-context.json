@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "033b6d254ba7a7afc6126ab0",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "c7c3927f5f0a450a",
+        "source": "Dr. Erwin Schrödinger (1944) — What is Life? The Physical Aspect of the Living Cell",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 5
+      },
+      {
+        "source_id": "048bf7cd36116322",
+        "source": "Dr. Gerald Pollack (2013) — The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 3
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

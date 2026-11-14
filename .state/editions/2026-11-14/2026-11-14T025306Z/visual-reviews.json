@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "033b6d254ba7a7afc6126ab0",
+    "metadata_review": {
+      "selected_candidate_id": "Pexels:9641992",
+      "score": 95,
+      "rationale": "The story discusses cellular biology mechanics, mitochondrial clearance, and kinase signaling in muscle tissue, aligning directly with laboratory microscopy visual anchors. Pexels:9641992 features a clear, clinical microscope setup in a laboratory setting, avoiding all forbidden subjects like skincare, cosmetics, or generic lifestyle imagery.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "/home/runner/work/agewell-brief/agewell-brief/public/images/editions/2026-11-14/aged-male-mouse-muscle-fails-to-trigger-exercise-induced-mitochondrial-033b6d25-pexels-9641992.webp",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -1,7 +1,56 @@
 {
-  "generated_at": "2026-11-13T23:01:54.746917+00:00",
+  "generated_at": "2026-11-14T02:53:06.108084+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
+    {
+      "topic": "circadian disturbances frailty risk",
+      "headline": "Dementia: Disturbances to circadian rhythm may increase risk - Medical News Today",
+      "category": "sleep health",
+      "score": 25.0,
+      "mention_count": 4,
+      "source_count": 3,
+      "sources": [
+        "Frontiers",
+        "Medical News Today",
+        "Nature"
+      ],
+      "newest": "2026-01-09T08:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        },
+        {
+          "title": "Research advances in the study of sleep disorders, circadian rhythm disturbances and Alzheimer’s disease - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnRteFkyQzM2S2FRUVVGN1RWSmdYVy1jZ3hpcmI3dXY1anNCZFdKdGFNZncyOUtqZ2NEOWpIVmNaeUJ2a2M2ZTNvZUFPNWVLTGhRTF9SdXhRd211MmhzUHc4Y3lacWhTSXBkNzFaQ0pULU5xZmRJd29fbmV5aFNMWWJzbzZ0ZnNRNXFQcnJ1VzVtMEFEeEFqUUVfUQ?oc=5",
+          "source": "Frontiers",
+          "published": "Tue, 16 Aug 2022 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        },
+        {
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        },
+        {
+          "title": "Dementia: Disturbances to circadian rhythm may increase risk - Medical News Today",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVF6QU9aMmVoQkFuNlctMUVzczNDVndYbW81bTJzSUc1ZVc2SnhpVzJsN1BNYkpKOUxxU2NqdnpkcFpOMFhrNlBiMnV1Sm83TWVhY2xUUGlQaXo0WndON1h2ZlNfMEYzSi1pYkt3OGlfZE9nVkNTRjlraEctZ2JGRnNjZzhldExaN2dYdHc1d1laT3dYOVZocFNmMWY0RVNVdWJoeWtweDNHOW5PYjdWQjFabC1sQQ?oc=5",
+          "source": "Medical News Today",
+          "published": "Fri, 09 Jan 2026 08:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
+        }
+      ]
+    },
     {
       "topic": "body faster little make much sleep your",
       "headline": "Too much or too little sleep may make your body age faster - Science Daily",
@@ -80,46 +129,6 @@
           "published": "Mon, 22 Jun 2026 07:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
-        }
-      ]
-    },
-    {
-      "topic": "circadian disturbances frailty risk",
-      "headline": "Circadian disturbances and frailty risk in older adults - Nature",
-      "category": "sleep health",
-      "score": 18.0,
-      "mention_count": 3,
-      "source_count": 2,
-      "sources": [
-        "Frontiers",
-        "Nature"
-      ],
-      "newest": "2023-11-16T08:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Research advances in the study of sleep disorders, circadian rhythm disturbances and Alzheimer’s disease - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnRteFkyQzM2S2FRUVVGN1RWSmdYVy1jZ3hpcmI3dXY1anNCZFdKdGFNZncyOUtqZ2NEOWpIVmNaeUJ2a2M2ZTNvZUFPNWVLTGhRTF9SdXhRd211MmhzUHc4Y3lacWhTSXBkNzFaQ0pULU5xZmRJd29fbmV5aFNMWWJzbzZ0ZnNRNXFQcnJ1VzVtMEFEeEFqUUVfUQ?oc=5",
-          "source": "Frontiers",
-          "published": "Tue, 16 Aug 2022 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
         }
       ]
     },
@@ -259,8 +268,8 @@
       ]
     },
     {
-      "topic": "actually asked doctors healthy hold supplements which",
-      "headline": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
+      "topic": "actually experts longevity ones skip supplements take they which",
+      "headline": "The Supplements Longevity Experts Actually Take—and Which Ones They Skip - Health.com",
       "category": "general wellness",
       "score": 14.0,
       "mention_count": 2,
@@ -269,14 +278,14 @@
         "AARP",
         "Health.com"
       ],
-      "newest": "2026-08-04T07:00:00+00:00",
+      "newest": "2026-07-08T07:00:00+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
       "items": [
         {
-          "title": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96Y0lBWHk4elBmOEpLQ2dOaWRQTlBWcEFZcDhNWkJNSXdybTA1SnpRU3gweW9oRGF2UDEzUm90UlpPLVdKRU9yVDZaZGwyUS1JaFloZGJEQVRqZlVFekZzVmVCUnd3dGROZEFIaVBWbHRwS05BYkxlVEhOcmVtUQ?oc=5",
+          "title": "The Supplements Longevity Experts Actually Take—and Which Ones They Skip - Health.com",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QeFI0OU1iYUZvVldnRHB3VUZGdGlKazV5eXVKcmlkYy1fZzVVVWZUMzVaSXRJSnVPRmJGd1A4Q3VuaUtkVmhUdzFia3BXc2ZrMjM4ZUFhVGNCUWxIN1NfVjhKcFV0amxISXVyVV9aZ1FhTUx0d05rMXBmUQ?oc=5",
           "source": "Health.com",
-          "published": "Tue, 04 Aug 2026 07:00:00 GMT",
+          "published": "Wed, 08 Jul 2026 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         },
@@ -387,10 +396,33 @@
       ]
     },
     {
+      "topic": "chronic decline diseases face multidimensional progressive",
+      "headline": "Older Adults with Chronic Diseases Face Progressive Multidimensional Health Decline - Bioengineer.org",
+      "category": "general wellness",
+      "score": 11.84,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Bioengineer.org"
+      ],
+      "newest": "2026-11-14T01:22:42+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Older Adults with Chronic Diseases Face Progressive Multidimensional Health Decline - Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTmZFalBzemwxaERCWjBsYV9lYlVUcjFraThoOHNlbEhxd0tMdTBxTVJJcXk1dTFJQ0FJc3gtalN3S1JfZmJpNkwyM2JDS3FVV1pzemllWVBmdzlsa3RkMXJNSHFzME03V0g4cVE4OUFNUE85LWRaWlEwOUFFaGt3RzlCQ1laTEJxdmlkZGl0RW1rNmhodW14U2xOUjh4bkZLY2dSb3RsX0g5TGdN?oc=5",
+          "source": "Bioengineer.org",
+          "published": "Sat, 14 Nov 2026 01:22:42 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "arts linked lower preferences unmet wellbeing",
       "headline": "Unmet Arts Preferences Linked to Lower Wellbeing in Older Adults - Bioengineer.org",
       "category": "general wellness",
-      "score": 11.96,
+      "score": 11.56,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -413,7 +445,7 @@
       "topic": "cognitive declines functional rest rhythms track wearable",
       "headline": "Wearable Rest Rhythms Track Cognitive and Functional Declines in Older Adults - Bioengineer.org",
       "category": "sleep health",
-      "score": 11.84,
+      "score": 11.44,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -429,37 +461,6 @@
           "published": "Fri, 13 Nov 2026 21:32:33 GMT",
           "seed": "sleep health",
           "category": "sleep health"
-        }
-      ]
-    },
-    {
-      "topic": "activity adult basics overview physical",
-      "headline": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
-      "category": "general wellness",
-      "score": 11.0,
-      "mention_count": 2,
-      "source_count": 1,
-      "sources": [
-        "Centers for Disease Control and Prevention | CDC (.gov)"
-      ],
-      "newest": "2025-12-04T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rNzVYVkEwRGVIRlVMWVJtZ012bnRRa2hCeVpiVXczaWRROU9rRExfQWVkcjZtbU9qSzJZQVRibi00VE1ISHVVRy16VnVqOWFJX003Y3ZwX0xUS2FiSjZSZFZtMGx1S3k0Tm9jcW1rS0sydEswMnBVSEY1UXJLdw?oc=5",
-          "source": "Centers for Disease Control and Prevention | CDC (.gov)",
-          "published": "Thu, 04 Dec 2025 08:00:00 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        },
-        {
-          "title": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rNzVYVkEwRGVIRlVMWVJtZ012bnRRa2hCeVpiVXczaWRROU9rRExfQWVkcjZtbU9qSzJZQVRibi00VE1ISHVVRy16VnVqOWFJX003Y3ZwX0xUS2FiSjZSZFZtMGx1S3k0Tm9jcW1rS0sydEswMnBVSEY1UXJLdw?oc=5",
-          "source": "Centers for Disease Control and Prevention | CDC (.gov)",
-          "published": "Thu, 04 Dec 2025 08:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
         }
       ]
     },
@@ -489,37 +490,6 @@
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGRvVTU1MzZtSFpWSXJPODVDSEtSMzRVN3RCdTE4V3NkMXgwODNiX2NsRFZmWGhxdWg2RjAzSm9SalRoRUFrMkdITERLMjI5dmdCQ1d0ZGtlRjA5Y0tfMzFFaTdJckVyM1duaHhqWFhwQ2VPc0N3SWI0b0RxZWM4LVVYdENMN1o3NmlJOGJsU2pRQXBzODc0N09fSWhuR0pJQkRSWWlCVGhLNWstWkE1b0JpcHFOZUt6RHhMNTZsS05VWUREODlLMnF5SFBLcFlN?oc=5",
           "source": "Johns Hopkins Bloomberg School of Public Health",
           "published": "Tue, 14 Apr 2026 07:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
-      "topic": "alzheimer before body clock disruptions loss memory occur years",
-      "headline": "Body clock disruptions occur years before memory loss in Alzheimer’s - WashU Medicine",
-      "category": "sleep health",
-      "score": 11.0,
-      "mention_count": 2,
-      "source_count": 1,
-      "sources": [
-        "WashU Medicine"
-      ],
-      "newest": "2024-10-05T09:18:09+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Body clock disruptions occur years before memory loss in Alzheimer’s - WashU Medicine",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEFEei1UNEFRM1RuZnJUaE81VTJidTlLMm9iU3JsbUpYV3hkQnhLM3psOWZPRDRocFI0V09NZ0kzcmVSTE1IMUpGUGFNeXF6dFN0NjcyM0d6ejJ0TkpjVWJuTUFkUjJ5cUFHRXRyYzV1d3gyd0lSMzhNUG1ZWHlsTXh4aFo3NUdEbW5pQlkydng0OGhQdHRJ?oc=5",
-          "source": "WashU Medicine",
-          "published": "Sat, 05 Oct 2024 09:18:09 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Body clock disruptions occur years before memory loss in Alzheimer’s - WashU Medicine",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEFEei1UNEFRM1RuZnJUaE81VTJidTlLMm9iU3JsbUpYV3hkQnhLM3psOWZPRDRocFI0V09NZ0kzcmVSTE1IMUpGUGFNeXF6dFN0NjcyM0d6ejJ0TkpjVWJuTUFkUjJ5cUFHRXRyYzV1d3gyd0lSMzhNUG1ZWHlsTXh4aFo3NUdEbW5pQlkydng0OGhQdHRJ?oc=5",
-          "source": "WashU Medicine",
-          "published": "Sat, 05 Oct 2024 09:18:09 GMT",
           "seed": "circadian brain health",
           "category": "brain health"
         }
@@ -619,33 +589,10 @@
       ]
     },
     {
-      "topic": "across among boosts china mental renewal urban",
-      "headline": "Urban Renewal Boosts Mental Health Among Older Adults Across China - Bioengineer.org",
-      "category": "general wellness",
-      "score": 10.32,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Bioengineer.org"
-      ],
-      "newest": "2026-11-13T06:55:16+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Urban Renewal Boosts Mental Health Among Older Adults Across China - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONE8tM1ZVUFlaNnVianotVTRBRFZZalNuLWFSd2FlZEthbEpWZHRkaUM3MnBrWGE0WFB4ejl2NjNaY3NJYmY3M1hjd1loTnE4NmlORWR4aloxbF9wLVlzZEw1NXQ4LXdJSTlTaW01cm94VFMyZHgydlVmR3BVUXVsQkt6c1dnTllJcEVOOUNid1ZMQThfTlE?oc=5",
-          "source": "Bioengineer.org",
-          "published": "Fri, 13 Nov 2026 06:55:16 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "dissolve found generic hormones properly recalls toothpaste vyvanse warnings",
       "headline": "FDA Recalls and Warnings: Hormones Found in Toothpaste; Generic Vyvanse May Not Dissolve Properly - MedShadow Foundation",
       "category": "consumer safety",
-      "score": 8.54,
+      "score": 8.13,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -751,6 +698,29 @@
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVhqZDVMTGFoY3V4YzFaLVBqWmx5NmdoQ2k2dndleGdGMEZtWXZCUXUtNk5WR044bmRDbFpMbGZJMm1OdkhIcWxmNTFuc2RPQ2ZJNEx5NzU3eVI5MzM2RzZNa1ZiY2k1Szk2cTJ4OUZ0TXF2Q0VtNGV6cFRuY0tGVmRDQkFoWFg0UE5ZX01Cd0kxZnJiOWRxRC1MeDFrQTZ0SmVMRXJ0anRUUjRDZnB6U2ZsN25mZw?oc=5",
           "source": "UNM HSC Newsroom",
           "published": "Tue, 28 Jul 2026 07:00:00 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "future healthy help invites mansfield residents shape",
+      "headline": "Mansfield Invites Residents To Help Shape Future Of Healthy Aging - Patch",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Patch"
+      ],
+      "newest": "2026-11-09T19:23:44+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Mansfield Invites Residents To Help Shape Future Of Healthy Aging - Patch",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYXJoTnh4amxNOXhBdTN5NXBvSWxuWUFra0lqS2NUbll4TUl0cGYydFdnMVJVblJOckRfOFpYWVlpYmRMLXc5ZlpvRmg2ZkdCZzFLcFNjbDF6RDFobXdqSWw5eUR5MHpRNGFtR3MyUzVpMWdZQi1ZeHhSSWFzd1pKREZ6b1pFUk45UXktd3dTZ2ptbl9pcEUzdFN6RW5jMk40b2ZHNW9JY9IBwAFBVV95cUxPejNFMk1yNTcxMDVQVmVxTHhDZ1Q0MlJ2SEFPWHJhV2VCc3NKM1FiU0JnQ1Vxc1VNcVlHTmpMa3hIcHFhcEZfbkV6Z20xbTd0UVlDNG1mSS1CZGJORVg2bUQ2cTluVlpwODRQeFZ3VF94Z254UkUyeXA3bnlILXpkZlJpVXczU0xNdE5IajFKdy1kZ0tfWFoyNGVlaUtvdERKNDh2bHlBYjhWQ1lRdGQ2eHZGclRTeVNoaWU4dms2WHU?oc=5",
+          "source": "Patch",
+          "published": "Mon, 09 Nov 2026 19:23:44 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -1119,6 +1089,29 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWmJPemt1ZDdKWEJBazc3dmhkWHI3WXV2MWZtRmhyY1hjZkhMZ1p0UEhZNkJNOUswaVJUdzZWSlZwbEZPSld0YjFSWF91djBwd0YxbTlBMVlCamlIRGY0SVJEMXNMUWNVYjJmTVJRZHFwaW5XeS1jc3dHNG1hVGhDVmE1eHFSc0NDUEQ1Zllja014Zw?oc=5",
           "source": "UCHealth",
           "published": "Fri, 17 Apr 2026 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "alzheimer before body clock disruptions loss memory occur years",
+      "headline": "Body clock disruptions occur years before memory loss in Alzheimer’s - WashU Medicine",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "WashU Medicine"
+      ],
+      "newest": "2024-10-05T09:18:09+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Body clock disruptions occur years before memory loss in Alzheimer’s - WashU Medicine",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEFEei1UNEFRM1RuZnJUaE81VTJidTlLMm9iU3JsbUpYV3hkQnhLM3psOWZPRDRocFI0V09NZ0kzcmVSTE1IMUpGUGFNeXF6dFN0NjcyM0d6ejJ0TkpjVWJuTUFkUjJ5cUFHRXRyYzV1d3gyd0lSMzhNUG1ZWHlsTXh4aFo3NUdEbW5pQlkydng0OGhQdHRJ?oc=5",
+          "source": "WashU Medicine",
+          "published": "Sat, 05 Oct 2024 09:18:09 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         }
@@ -1539,6 +1532,29 @@
       ]
     },
     {
+      "topic": "activity adult basics overview physical",
+      "headline": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
+      "category": "mobility",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Centers for Disease Control and Prevention | CDC (.gov)"
+      ],
+      "newest": "2025-12-04T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rNzVYVkEwRGVIRlVMWVJtZ012bnRRa2hCeVpiVXczaWRROU9rRExfQWVkcjZtbU9qSzJZQVRibi00VE1ISHVVRy16VnVqOWFJX003Y3ZwX0xUS2FiSjZSZFZtMGx1S3k0Tm9jcW1rS0sydEswMnBVSEY1UXJLdw?oc=5",
+          "source": "Centers for Disease Control and Prevention | CDC (.gov)",
+          "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
+        }
+      ]
+    },
+    {
       "topic": "consumers product purchase risks serious tianeptine warns",
       "headline": "FDA warns consumers not to purchase or use any tianeptine product due to serious risks - U.S. Food and Drug Administration (.gov)",
       "category": "consumer safety",
@@ -1631,29 +1647,6 @@
       ]
     },
     {
-      "topic": "healthier make multivitamins",
-      "headline": "Do multivitamins make you healthier? - Harvard Health",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Harvard Health"
-      ],
-      "newest": "2026-04-13T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Do multivitamins make you healthier? - Harvard Health",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWFZ6WXNuZUNWNEhrcWUtcFh2TVhXQVc0QzJ0RW1wY0FPc3BnN05sT3N0MVdOSGNJUDFUVjN2VEJXOHJScHhWeS1VbU9DR1c5Q2VDT2UyTXZ4Rm0yX1E0eEF5QUxSRVp1UFBvX2Nyak1GMjM0eVc1NWNNSjlfZDByRXZqd2l3SDBpYVE?oc=5",
-          "source": "Harvard Health",
-          "published": "Mon, 13 Apr 2026 07:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "busting clarity five myths search supplements worth",
       "headline": "In search of clarity on supplements: Five myths worth busting - Stanford Medicine",
       "category": "general wellness",
@@ -1677,8 +1670,8 @@
       ]
     },
     {
-      "topic": "dietary interventions menopausal mini nutritional review strategies",
-      "headline": "Dietary interventions and nutritional strategies for menopausal health: a mini review - Frontiers",
+      "topic": "axis brain cognitive creatine exercise impact muscle narrative physical review supplementation",
+      "headline": "Creatine supplementation and exercise in aging: a narrative review of the muscle–brain axis and its impact on cognitive and physical health - Frontiers",
       "category": "general wellness",
       "score": 7.0,
       "mention_count": 1,
@@ -1686,14 +1679,14 @@
       "sources": [
         "Frontiers"
       ],
-      "newest": "2025-12-14T08:00:00+00:00",
+      "newest": "2026-01-11T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Dietary interventions and nutritional strategies for menopausal health: a mini review - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbnkwVUR4aHlIdGtKZzlSMHhXU0stbHZRakE2ZTRreGkxbmkxT1FaeG5pRThqN0thRXIzWWdhSTBiZHZMQngzNXN2eEdla2NMLU9RbUhzZUR3ZlR0anZ6dGcwSWplMFpmcFAxTk9Fa1ZKQVltTW5iODM1d2xxUTRId1hlUGlHbU1LS1NGZVZOcw?oc=5",
+          "title": "Creatine supplementation and exercise in aging: a narrative review of the muscle–brain axis and its impact on cognitive and physical health - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa0t1Z3YtbGNtV2s3VTdhUjVzQllsUjhmLXpyNzZsR3FWZUROZFRUQUpnSFRwX3hWNEhhUGNXVjB6d0R6OEMzSGpQeUpTXzl5UzdhUkI5UnR4UndEYTJ3UmhWTmlSSnFaT3FtWkdjNEhrcTA4UnBDSWJ5TW9VRzVSTXhFN1pGU3drTXh6NTNDOA?oc=5",
           "source": "Frontiers",
-          "published": "Sun, 14 Dec 2025 08:00:00 GMT",
+          "published": "Sun, 11 Jan 2026 08:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -1786,6 +1779,29 @@
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUlVhV19odWlZWS1hcWI1enM5cnM3X2NqOHdGamFBN3ZIVXpUV25DNjFiTnFpQ2VUUEtMWmZPWXh2MXhvTEo5TUVJUEpoenJHZGRhR0FxeEJoLUhhajdaREJHT2dZV2xsbDNGemJFZVlsRi15ajF1VEtyY0RqNmY4bFplRUx0SDFBV3h4OA?oc=5",
           "source": "Mayo Clinic Press",
           "published": "Thu, 17 Oct 2024 07:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "dietary interventions menopausal mini nutritional review strategies",
+      "headline": "Dietary interventions and nutritional strategies for menopausal health: a mini review - Frontiers",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Frontiers"
+      ],
+      "newest": "2025-12-14T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Dietary interventions and nutritional strategies for menopausal health: a mini review - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbnkwVUR4aHlIdGtKZzlSMHhXU0stbHZRakE2ZTRreGkxbmkxT1FaeG5pRThqN0thRXIzWWdhSTBiZHZMQngzNXN2eEdla2NMLU9RbUhzZUR3ZlR0anZ6dGcwSWplMFpmcFAxTk9Fa1ZKQVltTW5iODM1d2xxUTRId1hlUGlHbU1LS1NGZVZOcw?oc=5",
+          "source": "Frontiers",
+          "published": "Sun, 14 Dec 2025 08:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -2206,6 +2222,29 @@
       ]
     },
     {
+      "topic": "detects during levels sleep stress tech users wearable",
+      "headline": "Wearable Tech Detects Users’ Stress Levels During Sleep - Sleep Review",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Sleep Review"
+      ],
+      "newest": "2024-04-12T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Wearable Tech Detects Users’ Stress Levels During Sleep - Sleep Review",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWHBrUXNtaHdDazN3S1d1bzRlcUNORVl0ZEpXRUFmbzBKcHhrNXc2cGNhd05TZGdiUHEtaENlNzVKNDFtSFh0Qzk2bkFvTFpsRGFoLXJ1TGVxbWNPa0RYcWVkeUM3YlZCeFE0amE4c2tZTGtMYU1jTFk2Q05HVVVJTVlGYzV1MjNTUjdhVkphZXBkLTBzdW9HR0Y4c1lCVmVvTDVpYWpQUEl2WlVER2ZfMDJKc3diOFJ5amNfUHUwalpxQWpNUVEwTVlFMkJfVHR6MWtjOTdpTk0?oc=5",
+          "source": "Sleep Review",
+          "published": "Fri, 12 Apr 2024 07:00:00 GMT",
+          "seed": "intervention sleep technology",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
       "topic": "neurotech powered revolutionize secures sleep somnee wearables",
       "headline": "Somnee Secures $10M to Revolutionize Sleep with New AI-Powered Neurotech Sleep Wearables - Business Wire",
       "category": "sleep health",
@@ -2321,23 +2360,23 @@
       ]
     },
     {
-      "topic": "maternal population",
-      "headline": "The Aging US Population & Maternal Health - NIHCM",
+      "topic": "before know lose medication need taking weight",
+      "headline": "What older adults need to know before taking a GLP-1 medication to lose weight - WPSD Local 6",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "NIHCM"
+        "WPSD Local 6"
       ],
-      "newest": "2026-07-08T15:03:03+00:00",
+      "newest": "2026-07-01T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "The Aging US Population & Maternal Health - NIHCM",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qZWNfek1xbTI5eUowTERKVG1yQ0IwMzRFRlpDZXBlTUVlbk5LbDBXU3NPZjN3dWViMkxaTU52d214aC1BQnpzQ1poT3ZHSTVETDBGNGU1TkNadWY4TnhaSk9ra3d2MFFDclItT1ByMUQ3OWk5aGNWcUFzbzc?oc=5",
-          "source": "NIHCM",
-          "published": "Wed, 08 Jul 2026 15:03:03 GMT",
+          "title": "What older adults need to know before taking a GLP-1 medication to lose weight - WPSD Local 6",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQS1o1eFRtUzR4MXlIYmw3dEx5U2RWTEZjbXZlRGk0aWRXMkp4Y3M2V2N2OFJQT2xmZzJxc3otdWUzRndfRG1OM3ZrMUJKNDRfNVY2d3RYMVV0bmIwSkV5N2Q3elFpUkJ0TE1Menlsejh1T29PMGc0YVpTZV84S2ExUVdlZWR4VDcyTEFVUENrVUd4ZzdMUjRKSWRHb21XbktjVnpuc0dXRGZNcGtnYTFXZDVjaWVuTUtKT2I0bHlydmkxdktHMmFqYzVxT2tDVDZVSENqSEhKTkZmZ2tJRnk1NVE3SUdfUlVPbzlsR3dpWWJxdw?oc=5",
+          "source": "WPSD Local 6",
+          "published": "Wed, 01 Jul 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
         }
