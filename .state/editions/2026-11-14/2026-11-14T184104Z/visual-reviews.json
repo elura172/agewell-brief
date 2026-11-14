@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "c5e0030709caed3c4457b723",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "None of the provided candidates show a brain MRI/fMRI scan display, a neuroscience laboratory setting, or electrophysiology equipment as required by the story's visual anchors. Candidate S844fPVd8Vg shows a cardiac vital signs monitor, uBM__Syyiew shows an ultrasound machine in standby mode, and rxVeUtYFOUg and e1IjeONbctY show generic office workers at computer monitors without any neuroimaging or laboratory context.",
+      "concerns": [
+        "All candidates fail to show actual brain scans or neuroscience laboratory environments.",
+        "Two candidates display non-brain medical equipment (EKG/ultrasound).",
+        "Two candidates display generic computer office work unrelated to neuroimaging or research."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]

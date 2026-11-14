@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "observational correlation",
+      "reason": "The finding that routine schedules benefit circadian biology, mood, and pain in older adults is well-established observational health guidance without a new mechanism or intervention.",
+      "angle": "Why daily schedule consistency modulates pain perception and mood even in chronic insomnia sufferers.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "recycled observational association",
+      "reason": "Re-reporting standard U-shaped epidemiological correlations between sleep duration (6.4 to 7.8 hours) and biological aging is routine and generic.",
+      "angle": "The biological threshold of 6.4 to 7.8 hours: What physiological markers shift outside this sleep window?",
+      "mode": "agent"
+    },
+    "c5e0030709caed3c4457b723": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "predictive biomarker discovery",
+      "reason": "Offers an actionable, frontier insight by identifying specific hidden functional brain activity patterns that predict Alzheimer's risk before classic clinical biomarkers emerge.",
+      "angle": "Beyond amyloid and tau: The hidden neural activity signatures that predict Alzheimer's early and signal resilient brain aging.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "sociological association",
+      "reason": "Empty abstract and routine epidemiological subject linking social mobility with depressive symptoms in a specific cohort.",
+      "angle": "Life-course social mobility markers as predictors for late-life depressive symptoms.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "broad narrative review",
+      "reason": "Generic overview of known interactions between sleep, redox metabolism, and brain aging without a specific new trial result or intervention.",
+      "angle": "How sleep disruption alters redox balance in brain tissue during biological aging.",
+      "mode": "agent"
+    },
+    "a4be8a9e8d54a96e2f581adc": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "nuanced preclinical intervention outcome",
+      "reason": "Provides a crucial nuance and specific boundary condition for the anti-aging drug acarbose: it rescues spatial learning in normal aging mice but fails in Alzheimer's models.",
+      "angle": "Why the longevity drug acarbose rescues memory in normal brain aging but fails once Alzheimer's pathology takes hold.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "generic consumer advice",
+      "reason": "Broad, non-specific consumer wellness reminder about anti-aging supplements containing no new data or breakthrough findings.",
+      "angle": "A practical checklist for evaluating claims and safety risks of anti-aging supplements.",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "neural network discovery",
+      "reason": "Identifies a distinct, shared brain memory network common to both objective mild cognitive impairment and subjective cognitive decline.",
+      "angle": "The shared neural circuit bridging subjective memory complaints and diagnosable mild cognitive impairment.",
+      "mode": "agent"
+    },
+    "40caedc24924923858e4a9d8": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "mechanistic multi-omics discovery",
+      "reason": "High scientific novelty using single-nucleus and spatial transcriptomics to prove biological age drives visceral fat senescence more aggressively than high BMI alone, pinpointing progenitor and mesothelial cells as key hubs.",
+      "angle": "Age beats obesity: High-resolution spatial transcriptomics reveals how chronological aging drives visceral fat senescence independent of BMI.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "c5e0030709caed3c4457b723",
+    "a4be8a9e8d54a96e2f581adc",
+    "eee7cce180eb8902fb8e3ce0",
+    "40caedc24924923858e4a9d8"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "0b7d57db98938147adfb915a",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}
