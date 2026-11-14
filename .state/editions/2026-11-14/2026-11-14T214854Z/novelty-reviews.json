@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "lifestyle correlation",
+      "reason": "Observational study reinforcing that consistent daily routines improve mood and pain management. Routine behavioral advice lacks a strong new physiological or mechanistic hook.",
+      "angle": "Why daily schedule consistency modulates pain perception independently of sleep duration.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 32,
+      "decision": "hold",
+      "novelty_type": "routine health advice",
+      "reason": "Standard epidemiological observational range (6.4–7.8 hours) for optimal sleep duration. Well-trodden health advice.",
+      "angle": "The biological threshold where non-7-hour sleep shifts cellular repair markers.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "socio-demographic association",
+      "reason": "Missing summary details; routine epidemiological association between life-course social mobility and depression in older adults.",
+      "angle": "How upward social mobility buffers neuroendocrine stress pathways in late life.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "broad narrative review",
+      "reason": "General review mapping sleep, redox metabolism, and brain aging without presenting a novel primary empirical discovery.",
+      "angle": "How redox shifts during slow-wave sleep directly regulate neuronal metabolic waste clearance.",
+      "mode": "agent"
+    },
+    "1e115f105a2098d7503509f8": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "practice modification / clinical trial",
+      "reason": "Challenges the clinical dogma that post-ACL reconstruction exercise accelerates joint cartilage degradation. Demonstrates structural preservation alongside functional recovery.",
+      "angle": "Rehabilitative loading vs. joint breakdown: Why targeted post-op ACL exercise protects rather than wears down knee cartilage.",
+      "mode": "agent"
+    },
+    "a4be8a9e8d54a96e2f581adc": {
+      "score": 54,
+      "decision": "hold",
+      "novelty_type": "animal model specificity",
+      "reason": "Interesting divergence showing acarbose aids normal cognitive aging but fails in Alzheimer's pathology, though limited by brief abstract text.",
+      "angle": "The metabolic limit of acarbose: Why glucose-lowering spares normal brain aging but fails against neurodegenerative pathology.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 18,
+      "decision": "hold",
+      "novelty_type": "generic consumer guide",
+      "reason": "Recycled consumer health overview on anti-aging supplements without specific new clinical data or critical safety warnings.",
+      "angle": "The real evidence gap in popular geroprotective supplements.",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "neuroimaging discovery",
+      "reason": "Identifies a distinct shared brain memory network driving early cognitive impairment across both objective test failures and subjective cognitive decline.",
+      "angle": "Beyond memory tests: Brain imaging pinpoints the common neural network activated in subjective vs. objective cognitive decline.",
+      "mode": "agent"
+    },
+    "40caedc24924923858e4a9d8": {
+      "score": 76,
+      "decision": "commission",
+      "novelty_type": "named biological mechanism / spatial transcriptomics",
+      "reason": "High-resolution single-nucleus and spatial transcriptomic mapping showing biological age drives visceral fat senescence far more aggressively than obesity, pinpointing stem/progenitor cells and mesothelium as key inflammatory hubs.",
+      "angle": "Age beats obesity: High-resolution spatial mapping reveals visceral fat stem cells drive systemic inflammation independently of BMI.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "1e115f105a2098d7503509f8",
+    "eee7cce180eb8902fb8e3ce0",
+    "40caedc24924923858e4a9d8"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "0b7d57db98938147adfb915a",
+    "a4be8a9e8d54a96e2f581adc",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}

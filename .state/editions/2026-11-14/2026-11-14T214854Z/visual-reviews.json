@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "1e115f105a2098d7503509f8",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:f7EQyJe2Tr8",
+      "score": 95,
+      "rationale": "The selected candidate accurately depicts a physical therapy session matching the story's focus on post-surgical knee rehabilitation, exercise therapy, and joint biomechanics. It aligns well with the category visual anchors and avoids literalized metaphors or unrelated concepts.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1746806942507-a7e93fdd6dd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8a25lZSUyMHBoeXNpY2FsJTIwdGhlcmFweSUyMGV4ZXJjaXNlfGVufDF8MHx8fDE3OTQ2OTMzMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
