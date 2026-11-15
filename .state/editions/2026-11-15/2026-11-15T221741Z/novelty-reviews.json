@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 32,
+      "decision": "hold",
+      "novelty_type": "broad lifestyle guidance",
+      "reason": "Observational study associating consistent daily routines with less pain and depression. Basic circadian rhythm advice is well-trodden and lacks a sharp novel mechanism.",
+      "angle": "How rigid daily scheduling alters pain perception neurobiology in older adults.",
+      "mode": "agent"
+    },
+    "0ec2e5f87ff885f882753055": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "imaging discovery / early biomarker",
+      "reason": "Challenges the standard diagnostic focus on the hippocampus by pinpointing two specific brain regions that shrink up to a decade before memory loss occurs, tied to early tau buildup.",
+      "angle": "Why looking beyond the hippocampus reveals Alzheimer's a decade before symptoms appear.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "empty abstract / social epidemiology",
+      "reason": "Empty abstract provided for a routine epidemiological study on social mobility and depression.",
+      "angle": "None",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "incremental neuroimaging",
+      "reason": "The summary provides high-level background on subjectively reported vs. tested memory loss without detailing specific novel imaging findings or network mechanisms.",
+      "angle": "Mapping the hidden functional brain networks that separate self-reported memory slips from clinical cognitive impairment.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "recycled advice",
+      "reason": "Generic consumer advice headline regarding anti-aging supplements without specific data, findings, or mechanisms.",
+      "angle": "What senior-targeted anti-aging supplements actually have human trial evidence behind them.",
+      "mode": "agent"
+    },
+    "40caedc24924923858e4a9d8": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "cellular mechanism / transcriptomics",
+      "reason": "Demonstrates that biological aging drives senescent cell accumulation in human visceral fat to a greater extent than obesity, identifying adipose stem cells and mesothelium as primary signaling hubs.",
+      "angle": "Age versus obesity: How chronologic aging uniquely triggers inflammation hubs in visceral fat.",
+      "mode": "agent"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "translational therapeutic evidence",
+      "reason": "Represents translational progress showing a mouse anti-aging compound successfully translated to human muscle glucose metabolism, though headline lacks specific compound detail.",
+      "angle": "Translating mouse longevity compounds into human muscle metabolic improvements.",
+      "mode": "agent"
+    },
+    "2b6fb1d568d0b7d7842a3c5f": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "observational risk factor",
+      "reason": "Delirium during hospital stay linked to long-term dementia is a well-established clinical association with limited new mechanistic insight in this summary.",
+      "angle": "The biological cascade: How acute hospital delirium accelerates underlying neurodegeneration.",
+      "mode": "agent"
+    },
+    "9003d5951fb12ca853a3a39f": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "frontier gene therapy / reversal mechanism",
+      "reason": "Reports reversal of established synaptic and cognitive deficits in AD mice using AAV-delivered p38MAPK-resistant human E2F4 (hE2F4DN), reshaping learning-associated phosphoproteomics.",
+      "angle": "Beyond clearing amyloid: How E2F4 gene therapy rewires brain signaling to restore lost memories.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "0ec2e5f87ff885f882753055",
+    "40caedc24924923858e4a9d8",
+    "e8c72c931a6031cef21b46e5",
+    "9003d5951fb12ca853a3a39f"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "b3bbba0e16b511eb7aed2b5c",
+    "eee7cce180eb8902fb8e3ce0",
+    "2beb92ec2e8851b24c8a89de",
+    "2b6fb1d568d0b7d7842a3c5f"
+  ],
+  "mode": "agent"
+}

@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-15T19:18:30.664879+00:00",
+  "generated_at": "2026-11-15T22:18:38.220538+00:00",
   "release_status": "published",
   "dry_run": false,
   "schema_version": 3,
   "includes_trending": false,
   "packages": [
     {
-      "article": "2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa",
-      "url": "https://agewellbrief.com/brief/2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa/",
+      "article": "2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8",
+      "url": "https://agewellbrief.com/brief/2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8/",
       "category": "brain health",
       "trend": null,
-      "source_url": "https://medicalxpress.com/news/2026-11-brain-impaired-older-adults.html",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
       "content_record": {
-        "article_id": "2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa",
-        "article_url": "https://agewellbrief.com/brief/2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa/",
-        "title": "MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste",
+        "article_id": "2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8",
+        "article_url": "https://agewellbrief.com/brief/2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8/",
+        "title": "Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss",
         "category": "brain health",
-        "source_url": "https://medicalxpress.com/news/2026-11-brain-impaired-older-adults.html",
-        "editorial_body": "Rhythmic waves of fluid that flush metabolic debris out of neural tissue during sleep decay with age, linking broken sleep to impaired brain self-cleaning. As the human brain ages, sleep architecture gradually breaks down, leaving older adults with brief stretches of deep rest and frequent night awakenings. Beyond these surface disruptions, MIT researchers discovered that aging impairs the physical washing mechanism that clears cellular refuse from neural tissue during sleep. In a young brain, slow electrical oscillations orchestrate rhythmic contractions in blood vessels. This motion drives cerebrospinal fluid through microscopic channels in tissue, sweeping away metabolic debris that accumulates during waking hours. The new observations reveal that this hydraulic flushing system loses its structural vigor in older adults, causing fluid waves to stall and transport waste far less efficiently. This decline in fluid dynamics highlights how closely sleep quality connects to the physical maintenance of neural circuits. When nighttime flushing loses its rhythm, toxic metabolic byproducts linger within tissue, altering the chemical microenvironment of the brain. While these findings establish a clear physical link between advanced age and weakened waste transport, the study design cannot yet resolve whether failing fluid dynamics cause fragmented sleep, or if degraded sleep directly disrupts the hydraulic pump. MIT researchers discovered that aging weakens the rhythmic fluid waves that flush metabolic debris from brain tissue during sleep. Older adults show diminished waste transport alongside fragmented sleep architecture and reduced deep-sleep duration. The findings directly link age-related sleep disruptions to degraded physical clearance of cellular waste across neural tissue. Reported from Waves that clear waste from the brain during sleep are impaired in older adults (Medical Xpress Healthy Aging)."
+        "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
+        "editorial_body": "Volume loss in two gateway structures tracks the early spatial spread of misfolded tau tangles long before hippocampal damage occurs. Before Alzheimer's disease disrupts memory, it silently dismantles brain architecture over a five- to ten-year window. Researchers at Johns Hopkins University mapped this hidden decay by analyzing hundreds of MRI and PET scans across the disease spectrum, tracking healthy adults alongside patients with severe cognitive impairment. Rather than focusing solely on the hippocampus, the traditional focal point for detecting neurodegeneration, the team measured volume shifts in neighboring structures. They found that gray matter in the entorhinal cortex, which acts as a bridge for memory retrieval, and the amygdala, which processes emotional memories, shrinks significantly earlier than the hippocampus. Molecular imaging and tissue scans showed that this localized structural loss mirrors the exact regions where misfolded tau proteins aggregate into fibrous tangles, killing off nerve cell bodies long before overt confusion sets in. Mapping early volume loss across these rostral limbic nodes offers a precise structural timeline for predicting cognitive decline before widespread damage occurs. Spotting these changes early could eventually allow clinicians to stratify patient risk and test neuroprotective therapies while surrounding circuit connections remain intact. However, because this observational work relies on retrospective neuroimaging correlations and post-mortem tissue analysis, it does not yet provide a validated diagnostic test or prove that treating early structural loss will halt dementia. The entorhinal cortex and amygdala lose measurable gray matter up to a decade before clinical memory symptoms appear. Localized volume loss mirrors the exact spatial distribution of toxic tau tangles accumulating inside neuronal bodies. Monitoring these limbic nodes alongside the hippocampus sharpens early risk stratifications for cognitive decline. Reported from Alzheimer’s may start shrinking two brain regions years before memory loss (ScienceDaily Healthy Aging)."
       },
       "mpt_job": {
         "status": "ready_for_mpt",
-        "subject": "MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste",
-        "article_url": "https://agewellbrief.com/brief/2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa/",
+        "subject": "Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss",
+        "article_url": "https://agewellbrief.com/brief/2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8/",
         "video_aspect": "9:16",
         "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste. Rhythmic waves of fluid that flush metabolic debris out of neural tissue during sleep decay with age, linking broken sleep to impaired brain self-cleaning. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://medicalxpress.com/news/2026-11-brain-impaired-older-adults.html",
+        "script": "From Agewell Brief: Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss. Volume loss in two gateway structures tracks the early spatial spread of misfolded tau tangles long before hippocampal damage occurs. Before Alzheimer's disease disrupts memory, it silently dismantles brain architecture over a five- to ten-year window. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
         "trend": null,
         "text_fore_color": "#FAF6EE",
         "highlight_color": "#C98B3B",
@@ -44,19 +44,19 @@
         "requires_video_qa": false
       },
       "facebook": {
-        "title": "MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste\n\nRhythmic waves of fluid that flush metabolic debris out of neural tissue during sleep decay with age, linking broken sleep to impaired brain self-cleaning.",
-        "link_url": "https://agewellbrief.com/brief/2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa/"
+        "title": "Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss\n\nVolume loss in two gateway structures tracks the early spatial spread of misfolded tau tangles long before hippocampal damage occurs.",
+        "link_url": "https://agewellbrief.com/brief/2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8/"
       },
       "tiktok": {
-        "hook": "MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste",
-        "script": "From Agewell Brief: MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste. Rhythmic waves of fluid that flush metabolic debris out of neural tissue during sleep decay with age, linking broken sleep to impaired brain self-cleaning. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa/",
+        "hook": "Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss",
+        "script": "From Agewell Brief: Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss. Volume loss in two gateway structures tracks the early spatial spread of misfolded tau tangles long before hippocampal damage occurs. Before Alzheimer's disease disrupts memory, it silently dismantles brain architecture over a five- to ten-year window. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8/",
         "media_status": "ready_for_mpt"
       },
       "youtube": {
-        "title": "MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste",
-        "description": "From Agewell Brief: MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste. Rhythmic waves of fluid that flush metabolic debris out of neural tissue during sleep decay with age, linking broken sleep to impaired brain self-cleaning. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "title": "Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss",
+        "description": "From Agewell Brief: Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss. Volume loss in two gateway structures tracks the early spatial spread of misfolded tau tangles long before hippocampal damage occurs. Before Alzheimer's disease disrupts memory, it silently dismantles brain architecture over a five- to ten-year window. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
         "media_status": "ready_for_mpt"
       }
     }

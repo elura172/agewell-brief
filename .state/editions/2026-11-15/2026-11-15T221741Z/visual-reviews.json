@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "0ec2e5f87ff885f882753055",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:_c70Nhh6p44",
+      "score": 85,
+      "rationale": "The candidate matches the required visual anchors for brain health by depicting a black microscope within a neuroscience laboratory setting, avoiding all forbidden metaphors or unrelated imagery.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1572884267966-02340ebc90ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NHx8c2NpZW50aXN0JTIwbWljcm9zY29wZSUyMGxhYm9yYXRvcnklMjByZXNlYXJjaHxlbnwxfDB8fHwxNzk0NzA5MzMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
