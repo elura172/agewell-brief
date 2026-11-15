@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "lifestyle correlation",
+      "reason": "Observational evidence showing that keeping a daily routine reduces pain/depression in older adults. Highly generic advice about circadian rhythms and basic daily schedules.",
+      "angle": "Why consistent daily schedules buffer pain perception even in severe insomnia sufferers",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "epidemiological correlation",
+      "reason": "Standard observational association regarding optimal sleep duration (6.4 to 7.8 hours) for healthy aging. Very recycled coverage.",
+      "angle": "The biological mechanisms that set 6.4 to 7.8 hours as the optimal sleep window for longevity",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "social epidemiology",
+      "reason": "Empty summary provided in source payload. Title points to standard socio-demographic correlation with depression in an aging cohort.",
+      "angle": "How life-course social mobility impacts late-life neuro-psychiatric health",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "narrative review",
+      "reason": "Broad narrative review connecting sleep, redox metabolism, and brain aging without presenting a novel empirical breakthrough.",
+      "angle": "How redox metabolism mediates sleep-dependent clearance of brain waste",
+      "mode": "agent"
+    },
+    "a4be8a9e8d54a96e2f581adc": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "nuanced drug effect / mechanistic divergence",
+      "reason": "Demonstrates a clear divergence: the anti-diabetic drug acarbose rescues age-related spatial learning and memory deficits in normal aging mice, but fails in Alzheimer's model mice. Useful distinction for geroscience translational research.",
+      "angle": "Why acarbose protects normal aging brains but falls short in Alzheimer's pathology",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "consumer guidance",
+      "reason": "Broad, recycled advisory content for seniors regarding OTC anti-aging supplements without specific new data.",
+      "angle": "Evaluating the evidence gap in popular senior anti-aging supplements",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "neuroimaging discovery",
+      "reason": "Identifies a specific, shared brain memory network using functional neuroimaging that underlies both subclinical self-reported memory complaints and clinically diagnosed mild cognitive impairment.",
+      "angle": "The shared neural circuit bridging subjective memory decline and clinical MCI",
+      "mode": "agent"
+    },
+    "087c94269b0e41c9db7a9a0c": {
+      "score": 58,
+      "decision": "commission",
+      "novelty_type": "meta-analytic comparative evaluation",
+      "reason": "Comprehensive evaluation of 51 studies comparing interventions: validates that specific drugs, diet, and exercise measurably slow biological clocks while debunking popular OTC anti-aging supplements.",
+      "angle": "Yale's biological clock audit: prescription interventions vs OTC supplement myths",
+      "mode": "agent"
+    },
+    "40caedc24924923858e4a9d8": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "single-cell spatial transcriptomics",
+      "reason": "High-resolution transcriptomic finding isolating chronological age over obesity as the primary driver of cell senescence in human visceral fat, identifying mesothelium and progenitor cells as key hubs.",
+      "angle": "Age vs obesity in visceral fat: Spatial transcriptomics reveals chronological age as the main driver of tissue senescence",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "a4be8a9e8d54a96e2f581adc",
+    "eee7cce180eb8902fb8e3ce0",
+    "087c94269b0e41c9db7a9a0c",
+    "40caedc24924923858e4a9d8"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "0b7d57db98938147adfb915a",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}

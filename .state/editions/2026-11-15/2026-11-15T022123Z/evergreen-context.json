@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "a4be8a9e8d54a96e2f581adc",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "5275e56f1fd16689",
+        "source": "Dr. Alexander Gurwitsch (1923) — Mitogenetic Radiation & Morphogenetic Fields",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 6
+      },
+      {
+        "source_id": "93812b15cc3cebf1",
+        "source": "Dr. Luc Montagnier (2011) — Electromagnetic Signals Produced by High Dilutions of DNA",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 6
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

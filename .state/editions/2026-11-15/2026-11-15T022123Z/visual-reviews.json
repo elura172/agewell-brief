@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "a4be8a9e8d54a96e2f581adc",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:gKUC4TMhOiY",
+      "score": 90,
+      "rationale": "The candidate depicts a scientific laboratory setting with a microscope on a table, directly aligning with the category_visual_anchors ('optical microscope, electrophysiology researcher') for brain health and neuroscience research.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1518152006812-edab29b069ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8c2NpZW50aXN0JTIwbWljcm9zY29wZSUyMGxhYm9yYXRvcnklMjByZXNlYXJjaHxlbnwxfDB8fHwxNzk0NzA5MzMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
