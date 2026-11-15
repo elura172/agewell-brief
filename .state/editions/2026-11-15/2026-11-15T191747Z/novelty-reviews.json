@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle correlation",
+      "reason": "Generic observational finding that daily routines correlate with less pain and depression. Lacks a specific bio-mechanism or surprising practical novel nuance beyond basic circadian hygiene.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "0ec2e5f87ff885f882753055": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "diagnostic paradigm shift",
+      "reason": "Identifies early structural atrophy in two non-hippocampal brain regions a decade before symptom onset, driven by tau buildup, challenging the standard focus on the hippocampus.",
+      "angle": "Look beyond the hippocampus: the two hidden brain regions that shrink ten years before Alzheimer's symptoms appear.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "none",
+      "reason": "Empty text body and a standard epidemiological topic linking social mobility to depression.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "neuroimaging mapping",
+      "reason": "Descriptive brain imaging study of subjective memory decline versus objective test performance without a specific mechanism or clear actionable takeaway.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "recycled consumer advice",
+      "reason": "Broad lifestyle guide/consumer article on anti-aging supplements with no specific new study, data, or novel finding.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "40caedc24924923858e4a9d8": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "cellular mechanism & spatial mapping",
+      "reason": "Uses spatial transcriptomics and single-nucleus RNA sequencing on human omental tissue to prove chronological age drives visceral fat senescence more than obesity, mapping primary senescent niches to stem/progenitor cells and mesothelium.",
+      "angle": "Age beats obesity: single-cell mapping reveals how aging alone drives cellular senescence in belly fat.",
+      "mode": "agent"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "human translation",
+      "reason": "Coverage of older research (NMN human trial from WashU originally published in 2021). Not novel news for current coverage.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "86c553fa10c9c0582f6df5c5": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "MIT discovery isolating the specific breakdown of slow-wave driven glymphatic waste flushing in aging brains, beyond general sleep fragmentation.",
+      "angle": "Flushing out brain waste: why slow-wave glymphatic clearance fails as we age and how it differs from simple insomnia.",
+      "mode": "agent"
+    },
+    "9003d5951fb12ca853a3a39f": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "therapeutic reversal",
+      "reason": "Demonstrates full reversal of established synaptic and cognitive deficits in advanced Alzheimer's mouse models using a phosphorylation-resistant E2F4 gene therapy variant.",
+      "angle": "Reversing established Alzheimer's memory loss: how gene therapy targeting mutant E2F4 repairs damaged synapses.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "0ec2e5f87ff885f882753055",
+    "40caedc24924923858e4a9d8",
+    "86c553fa10c9c0582f6df5c5",
+    "9003d5951fb12ca853a3a39f"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "b3bbba0e16b511eb7aed2b5c",
+    "eee7cce180eb8902fb8e3ce0",
+    "2beb92ec2e8851b24c8a89de",
+    "e8c72c931a6031cef21b46e5"
+  ],
+  "mode": "agent"
+}
