@@ -22,8 +22,8 @@ image_photographer_url: "https://www.pexels.com/@indraprojectsofficial"
 image_source_url: "https://www.pexels.com/photo/close-up-of-microscope-in-laboratory-setting-28570735/"
 image_review_status: "pending"
 image_avg_color: "#9EA3A9"
-topics: ['brain health', 'cellular senescence', 'detoxification', 'longevity', 'metabolic health', 'mobility']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Edwin Goldmann", "year": "1913", "discovery": "Demonstrated that trypan blue injected into the bloodstream stained all organs except the brain and spinal cord, establishing the existence of a blood-brain barrier and coining the concept of the brain as an 'immune-privileged' site. This work set the stage for the modern finding that aging can open regulated routes for peripheral immune cells to enter the brain, challenging the notion of the BBB as an absolute wall."}, {"scientist": "William F. Hickey and Hiroshi Kimura", "year": "1988", "discovery": "Showed that circulating T cells can cross the intact blood-brain barrier and enter the central nervous system under normal conditions, demonstrating that the BBB is not an absolute immune barrier but a dynamic interface. This directly anticipates the preprint's finding that aging may open a regulated door for peripheral immune cells to reshape neuroinflammation."}]
 ancestral_insight: ""
 evidence_position: "emerging"

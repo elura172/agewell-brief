@@ -13,8 +13,8 @@ spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Bernardo Houssay", "year": "1936", "discovery": "Demonstrated that estrogen and other hormones directly modulate brain tissue physiology, including water content and vascular permeability, laying groundwork for understanding hormone-driven mechanical changes in the CNS."}, {"scientist": "Ralph M. Garruto", "year": "1980s", "discovery": "Pioneered the use of magnetic resonance elastography (MRE) to measure tissue mechanical properties in vivo, showing that brain stiffness varies with physiological states, which directly enables detection of estrogen-dependent hippocampal mechanical changes."}]
 ancestral_insight: "In ancestral environments, female reproductive cycles were closely tied to seasonal food availability and physical activity, with estrogen fluctuations modulating hippocampal plasticity to enhance spatial memory for foraging and navigation. The mechanical softening of the hippocampus during high-estrogen phases may have facilitated synaptic remodeling, optimizing cognitive flexibility for resource tracking. Traditional practices like cyclic fasting or rhythmic physical exertion, which align with natural hormonal rhythms, could support this adaptive plasticity by maintaining extracellular matrix turnover and vascular health, thereby preserving the brain's mechanical responsiveness across the lifespan."
 evidence_position: "emerging"
-topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'mobility', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 ---
 
 New imaging shows estrogen fluctuations alter hippocampal stiffness across the reproductive cycle—a biophysical window into how hormones sculpt neural tissue.

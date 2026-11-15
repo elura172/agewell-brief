@@ -24,7 +24,7 @@ image_photographer_url: "https://www.pexels.com/@bertellifotografia"
 image_source_url: "https://www.pexels.com/photo/teen-gamer-engaged-in-intense-online-match-28993057/"
 image_review_status: "pending"
 image_avg_color: "#757694"
-topics: ['brain health', 'longevity', 'mobility', 'sleep health']
+topics: ['brain health', 'longevity']
 frameworks: ['Living Waters', 'Luminous Mind']
 ---
 

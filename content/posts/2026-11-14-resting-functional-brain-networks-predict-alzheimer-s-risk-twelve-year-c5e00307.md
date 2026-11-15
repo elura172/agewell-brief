@@ -13,7 +13,7 @@ source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Marcus Raichle", "year": "2001", "discovery": "Identified the default mode network, a baseline system of interconnected brain regions active during rest that undergoes distinct metabolic and functional disruptions long before clinical neurodegeneration becomes apparent."}, {"scientist": "William Jagust", "year": "2006", "discovery": "Demonstrated that functional connectivity shifts and altered metabolic network dynamics occur in preclinical stages of Alzheimer's disease, serving as a functional precursor to structural atrophy."}]
 evidence_position: "emerging"
-topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

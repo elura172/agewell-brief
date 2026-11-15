@@ -25,8 +25,8 @@ image_photographer_url: "https://www.pexels.com/@kagan-karatay-325143475"
 image_source_url: "https://www.pexels.com/photo/lonely-man-on-eskisehir-street-with-bicycle-29479096/"
 image_review_status: "pending"
 image_avg_color: "#877D64"
-topics: ['detoxification', 'general wellness', 'longevity', 'mobility']
-frameworks: ['Dark Mirror', 'Living Waters']
+topics: ['general wellness']
+frameworks: []
 ---
 
 A new generative model forecasts iron-chromium flow battery degradation from just nine cycles, achieving sub-percent error—a lesson in early detection for energy storage and biological systems alike.

@@ -23,8 +23,8 @@ image_photographer_url: "https://www.pexels.com/@ayaz-khan-110203690"
 image_source_url: "https://www.pexels.com/photo/microscope-on-table-9641992/"
 image_review_status: "pending"
 image_avg_color: "#78787A"
-topics: ['detoxification', 'longevity', 'metabolic health', 'mobility']
-frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters']
+topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 ---
 
 Researchers discover that aged male skeletal muscle fails to execute physical exertion-driven mitochondrial clearance, a breakdown tied directly to altered localized kinase signaling.

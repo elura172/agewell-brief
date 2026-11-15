@@ -1244,8 +1244,22 @@ def run() -> int:
     commercial_artifacts: list[dict[str, Any]] = []
     release_checks: list[dict[str, Any]] = []
     failure_artifacts: list[dict[str, Any]] = []
+    existing_today_files = sorted(OUTPUT_DIR.glob(f"{recorder.edition_id}-*.md"))
+    prior_edition_count = len(existing_today_files)
+    has_lead_today = any(
+        'content_type: "lead"' in path.read_text(encoding="utf-8", errors="ignore")
+        for path in existing_today_files
+    )
     generated_count = 0
-    edition_entries = choose_edition(assigned_candidates)
+    raw_edition_entries = choose_edition(assigned_candidates)
+    edition_entries = [
+        (
+            item,
+            "signal" if (has_lead_today and req_type == "lead") else req_type,
+            src_text,
+        )
+        for item, req_type, src_text in raw_edition_entries
+    ]
 
     for item, requested_content_type, source_text in edition_entries:
         key = item_id(item)
@@ -1255,8 +1269,23 @@ def run() -> int:
             if verified["category"] != category:
                 print(f"Category corrected ({item.source_name}): {category} -> {verified['category']} ({verified['reason']})", file=sys.stderr)
             category = verified["category"]
-            if not verified["on_mission"]:
-                print(f"Off-mission flag ({item.source_name}): {item.title[:80]} — {verified['reason']}", file=sys.stderr)
+            if not verified["on_mission"] and verified.get("reason"):
+                print(f"Off-mission hold ({item.source_name}): {item.title[:80]} — {verified['reason']}", file=sys.stderr)
+                failure_artifacts.append(
+                    {
+                        "article_id": key,
+                        "title": item.title,
+                        "source_url": item.link,
+                        "source_name": item.source_name,
+                        "stage": "mission_gate",
+                        "requested_content_type": requested_content_type,
+                        "resolution": "held_off_mission",
+                        "reason": verified["reason"],
+                    }
+                )
+                state.add(key)
+                save_state(state)
+                continue
         except Exception as exc:
             print(f"Category verification skipped ({item.source_name}): {exc}", file=sys.stderr)
         source_material = source_text or item.summary
@@ -1458,6 +1487,7 @@ def run() -> int:
             require_metadata_review=not publish_automatically,
         )
         generated_count += 1
+        edition_rank = prior_edition_count + generated_count
         target = OUTPUT_DIR / f"{recorder.edition_id}-{slug(content['headline'])}-{key[:8]}.md"
         target.write_text(
             markdown(
@@ -1465,7 +1495,7 @@ def run() -> int:
                 category,
                 content,
                 content_type,
-                generated_count,
+                edition_rank,
                 edition_time,
                 photo,
                 draft=not (
@@ -1485,6 +1515,9 @@ def run() -> int:
         save_state(state)
         print(f"Wrote {target}")
 
+    held_off_mission_count = sum(
+        1 for failure in failure_artifacts if failure.get("resolution") == "held_off_mission"
+    )
     recorder.write("sources", source_artifacts)
     recorder.write("evidence", evidence_artifacts)
     recorder.write("drafts", draft_artifacts)
@@ -1505,12 +1538,14 @@ def run() -> int:
             "generated_at": edition_time.isoformat(),
             "attempted_stories": len(edition_entries),
             "generated_stories": generated_count,
+            "held_off_mission_stories": held_off_mission_count,
             "failed_stories": sum(1 for failure in failure_artifacts if failure.get("resolution") == "skipped"),
             "publishable": bool(release_checks) and all(check["publishable"] for check in release_checks),
             "checks": release_checks,
         },
     )
-    return 0 if generated_count or not edition_entries else 1
+    unheld_entries = len(edition_entries) - held_off_mission_count
+    return 0 if generated_count or unheld_entries <= 0 else 1
 
 
 if __name__ == "__main__":

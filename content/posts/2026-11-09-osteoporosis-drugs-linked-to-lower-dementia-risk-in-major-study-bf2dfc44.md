@@ -25,7 +25,7 @@ image_photographer_url: "https://unsplash.com/@bhautik_patel3?utm_source=agewell
 image_source_url: "https://unsplash.com/photos/a-black-and-white-photo-of-a-brain-m-yAg03XdOk?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#262626"
-topics: ['brain health', 'consumer safety', 'longevity', 'metabolic health', 'mobility']
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

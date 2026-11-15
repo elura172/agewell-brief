@@ -23,8 +23,8 @@ image_photographer_url: "https://www.pexels.com/@roxanne-minnish-2936023"
 image_source_url: "https://www.pexels.com/photo/a-woman-explaining-a-chart-12319354/"
 image_review_status: "pending"
 image_avg_color: "#928272"
-topics: ['brain health', 'detoxification', 'longevity', 'metabolic health', 'sleep health']
-frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New Emory research links higher vitamin D intake to better cognition in those at dementia risk. Here's what the physics of cellular signaling suggests—and what it doesn't prove.

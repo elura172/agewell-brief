@@ -22,7 +22,7 @@ image_photographer_url: "https://www.pexels.com/@gustavo-fring"
 image_source_url: "https://www.pexels.com/photo/person-wearing-personal-protective-equipment-while-holding-magnifying-glass-and-test-tube-4149034/"
 image_review_status: "pending"
 image_avg_color: "#B8BABE"
-topics: ['brain health', 'consumer safety', 'longevity', 'mobility', 'sleep health']
+topics: ['brain health', 'longevity', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Hans Berger", "year": "1929", "discovery": "Invented electroencephalography (EEG), recording the brain's electrical activity from the scalp. This laid the foundation for using EEG-based biomarkers to detect cognitive decline, directly anticipating the modern review's assessment of EEG brain-wave caps as a tool for early dementia detection."}, {"scientist": "Alois Alzheimer", "year": "1906", "discovery": "First described the neuropathological hallmarks of Alzheimer's disease (amyloid plaques and neurofibrillary tangles). His work established the biological basis for modern blood-based biomarkers like amyloid and tau, which the review highlights as already changing clinical practice."}]
 ancestral_insight: "Traditional lifestyle practices that support cognitive health—such as regular physical activity, social engagement, and a plant-rich diet—are now understood to enhance glymphatic clearance and neuroplasticity, mechanisms that reduce amyloid and tau accumulation. These ancestral patterns of movement and community, which naturally promote sleep and stress reduction, align with the review's emphasis on early intervention and may complement blood-based biomarkers by addressing the underlying biological processes that drive cognitive decline."

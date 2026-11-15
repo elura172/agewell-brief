@@ -843,6 +843,13 @@ html[data-theme="evening"] .theme-icon--sun { display: block; }
   color: var(--muted);
   background: var(--cream);
 }
+.folio-domain-pills li a {
+  color: var(--saffron-ink);
+  text-decoration: none;
+}
+.folio-domain-pills li a:hover {
+  text-decoration: underline;
+}
 .folio-feature-actions {
   display: flex;
   flex-wrap: wrap;

@@ -25,8 +25,8 @@ image_photographer_url: "https://unsplash.com/@judy_beth_morris_idaho?utm_source
 image_source_url: "https://unsplash.com/photos/a-nurse-is-performing-physical-therapy-f7EQyJe2Tr8?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#c0a673"
-topics: ['detoxification', 'longevity', 'mobility', 'sleep health']
-frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
+topics: ['mobility']
+frameworks: ['Living Waters']
 ---
 
 Supervised physical therapy applied years after ACL reconstruction relieves chronic pain and rebuilds quadriceps strength without accelerating cartilage breakdown.

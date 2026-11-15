@@ -25,7 +25,7 @@ image_photographer_url: "https://unsplash.com/@bretkavanaugh?utm_source=agewellb
 image_source_url: "https://unsplash.com/photos/a-neon-display-of-a-mans-head-and-brain-_af0_qAh4K4?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#f3f3f3"
-topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'sleep health']
+topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

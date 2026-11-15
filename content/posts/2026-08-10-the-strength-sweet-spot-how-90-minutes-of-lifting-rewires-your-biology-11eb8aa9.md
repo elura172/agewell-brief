@@ -23,8 +23,8 @@ image_photographer_url: "https://www.pexels.com/@kari-alfonso-2151442665"
 image_source_url: "https://www.pexels.com/photo/woman-exercising-indoors-with-dumbbell-36917072/"
 image_review_status: "pending"
 image_avg_color: "#605551"
-topics: ['brain health', 'cellular senescence', 'detoxification', 'longevity', 'metabolic health', 'mobility']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 New observational data from nearly 150,000 health professionals reveals that just 90–120 minutes of weekly strength training is linked to a 13% lower risk of early death—and when paired with aerobic exercise, the risk drops by 45%. Here’s the muscle biology behind the numbers.

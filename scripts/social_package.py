@@ -20,12 +20,36 @@ def frontmatter_value(text: str, key: str) -> str:
 
 def clean_markdown(text: str) -> str:
     text = re.sub(r"^---.*?---\s*", "", text, count=1, flags=re.DOTALL)
-    text = re.sub(r"<aside\b.*?</aside>", "", text, flags=re.DOTALL | re.IGNORECASE)
-    text = re.sub(r"<[^>]+>", "", text)
-    text = re.sub(r"!\[[^]]*\]\([^)]*\)", "", text)
+    text = re.sub(r"<aside\b.*?</aside>", " ", text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"^\s*#{1,6}\s+.*$", " ", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s*>.*$", " ", text, flags=re.MULTILINE)
+    text = re.sub(r"^\s*-\s+", "", text, flags=re.MULTILINE)
+    text = re.sub(r"!\[[^]]*\]\([^)]*\)", " ", text)
     text = re.sub(r"\[([^]]+)\]\([^)]*\)", r"\1", text)
     text = re.sub(r"[*_`>#]", "", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def first_complete_sentences(text: str, max_chars: int = 260) -> str:
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text.strip()) if s.strip()]
+    if not sentences:
+        return ""
+    chosen: list[str] = []
+    total = 0
+    for sentence in sentences:
+        projected = total + (1 if chosen else 0) + len(sentence)
+        if chosen and projected > max_chars:
+            break
+        chosen.append(sentence)
+        total = projected
+        if total >= max_chars:
+            break
+    result = " ".join(chosen)
+    if len(result) > max_chars + 40:
+        clipped = result[:max_chars].rsplit(" ", 1)[0].rstrip(",;:")
+        return f"{clipped}."
+    return result
 
 
 def changed_posts() -> list[Path]:
@@ -54,28 +78,19 @@ def trending_items(path: Path = Path("src/data/trending.json")) -> dict[str, dic
     }
 
 
-def generate_cosmic_reel_script(title: str, category: str, body: str) -> str:
-    """Generate a high-frequency, magnetically captivating reel script in the voice of a Prismatic Cosmic Medicine Science Reporter."""
-    summary_sentence = body[:220].rstrip(".") + "."
-    
-    cat_lower = category.lower()
-    if "brain" in cat_lower or "sleep" in cat_lower:
-        hook_angle = "Your brain isn't just firing electrical pulses—it is a quantum biophotonic resonator entrained to the rhythm of the cosmos."
-    elif "senescence" in cat_lower or "longevity" in cat_lower:
-        hook_angle = "Aging isn't a decay sentence; it is a bio-energetic signal written in your cellular voltage and autophagy pathways."
-    elif "gut" in cat_lower:
-        hook_angle = "Your microbiome is an inner living ecology—an elemental garden dictating your neurotransmitters and systemic light."
-    elif "metabolic" in cat_lower:
-        hook_angle = "Metabolism is pure solar transformation—how your mitochondria convert living light into cellular ATP energy."
-    else:
-        hook_angle = "Nature operates on universal biophysical laws, and your physical body is the living laboratory."
-
+def generate_broadsheet_reel_script(title: str, category: str, body: str, description: str = "") -> str:
+    """Generate a calm, factual broadsheet dispatch script free of hype or truncated markdown."""
+    lead_summary = first_complete_sentences(description or body, max_chars=240)
+    detail_summary = first_complete_sentences(body, max_chars=300)
+    narrative = detail_summary if detail_summary and detail_summary != lead_summary else lead_summary
     return (
-        f"{hook_angle} "
-        f"A new biophysics study just dropped on '{title}'. {summary_sentence} "
-        f"The science is clear: when you align your physical habits with cellular light, longevity becomes effortless. "
-        f"Tap the link in bio or visit AgewellBrief.com for the full source analysis and your 6 free Biophysics Field Guides."
+        f"From Agewell Brief: {title}. "
+        f"{narrative} "
+        f"Read the full source-linked dispatch and primary study caveats at AgewellBrief.com."
     )
+
+
+generate_cosmic_reel_script = generate_broadsheet_reel_script
 
 
 def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object] | None:
@@ -83,9 +98,10 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
     if frontmatter_value(text, "draft").lower() == "true":
         return None
     title = frontmatter_value(text, "title") or path.stem
+    description = frontmatter_value(text, "description")
     category = frontmatter_value(text, "category") or "general wellness"
     body = clean_markdown(text)
-    hook = body[:280].rstrip(".") + "."
+    hook = first_complete_sentences(description or body, max_chars=280)
     url = f"{BASE_URL}/brief/{path.stem}/"
     source_url = frontmatter_value(text, "source_url") or frontmatter_value(text, "original_source")
     trend_note = (
@@ -93,21 +109,15 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
         if trend
         else None
     )
-    script = generate_cosmic_reel_script(title, category, body)
-    # Category-specific biophysics highlight colors
+    script = generate_broadsheet_reel_script(title, category, body, description=description)
+    # Warm mineral & copperplate highlight palette aligned with Agewell Brief's broadsheet UI
     cat_lower = category.lower()
-    if "brain" in cat_lower or "sleep" in cat_lower:
-        highlight_color = "#00F0FF"  # Electric Cyan
-    elif "gut" in cat_lower:
-        highlight_color = "#10B981"  # Emerald Ecology
-    elif "metabolic" in cat_lower or "flame" in cat_lower:
-        highlight_color = "#F59E0B"  # Solar Gold
-    elif "senescence" in cat_lower or "longevity" in cat_lower:
-        highlight_color = "#F97316"  # Amber Renewal
-    elif "detox" in cat_lower:
-        highlight_color = "#A855F7"  # Biophotonic Violet
+    if "gut" in cat_lower or "mobility" in cat_lower:
+        highlight_color = "#6E9B77"  # Mineral Sage
+    elif "brain" in cat_lower or "sleep" in cat_lower:
+        highlight_color = "#C98B3B"  # Warm Ochre
     else:
-        highlight_color = "#38BDF8"  # Quantum Azure
+        highlight_color = "#D98A2B"  # Saffron Copper
 
     return {
         "article": path.stem,
@@ -132,35 +142,35 @@ def package(path: Path, trend: dict[str, int] | None = None) -> dict[str, object
             "script": script,
             "source_url": source_url,
             "trend": trend_note,
-            "text_fore_color": "#FEFEFE",
+            "text_fore_color": "#FAF6EE",
             "highlight_color": highlight_color,
-            "stroke_color": "#0B0F19",
+            "stroke_color": "#181A1B",
             "stroke_width": 2,
-            "font_size": 48,
+            "font_size": 46,
             "subtitle_bottom_margin": 210,
-            "max_words_per_line": 3,
-            "active_word_scale": 1.12,
-            "uppercase_keywords": True,
+            "max_words_per_line": 4,
+            "active_word_scale": 1.06,
+            "uppercase_keywords": False,
             "bold_keywords": True,
-            "subtitle_bg_color": "rgba(11, 15, 25, 0.75)",
+            "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
             "subtitle_bg_padding": 12,
-            "subtitle_glow_enabled": True,
+            "subtitle_glow_enabled": False,
             "requires_video_qa": False,
         },
         "facebook": {
-            "title": f"✨ [Cosmic Biophysics] {title}\n\n{hook}",
+            "title": f"{title}\n\n{hook}",
             "link_url": url,
         },
         "tiktok": {
-            "hook": f"✨ {title}",
+            "hook": title,
             "script": script,
-            "caption": f"✨ {title}. Quantum biophysics breakdown from Agewell Brief. Tap bio link for full study & 6 free Field Guides! #biophysics #cellularlongevity #cosmicmedicine #healthyaging",
+            "caption": f"{title}. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
             "link_in_bio": url,
             "media_status": "ready_for_mpt",
         },
         "youtube": {
-            "title": f"✨ {title[:95]}",
-            "description": f"{script}\n\nRead the full biophysics brief & download the 6 Field Guides: {url}\n\nSource-led biophysics reporting from Agewell Brief.",
+            "title": title[:95],
+            "description": f"{script}\n\nRead the full source-linked brief: {url}\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
             "media_status": "ready_for_mpt",
         },
     }

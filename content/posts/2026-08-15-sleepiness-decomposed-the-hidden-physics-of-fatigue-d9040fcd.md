@@ -24,7 +24,7 @@ image_photographer_url: "https://www.pexels.com/@dungmedia"
 image_source_url: "https://www.pexels.com/photo/computer-and-scanner-in-laboratory-17940257/"
 image_review_status: "pending"
 image_avg_color: "#86939C"
-topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
+topics: ['longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

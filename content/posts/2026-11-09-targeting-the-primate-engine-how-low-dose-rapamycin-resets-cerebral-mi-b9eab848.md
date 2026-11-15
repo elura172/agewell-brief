@@ -22,8 +22,8 @@ image_photographer_url: "https://unsplash.com/@thefourthwxll?utm_source=agewellb
 image_source_url: "https://unsplash.com/photos/scientist-points-to-microscopic-view-on-computer-screen-RAcNSUPk3b4?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#a6a6a6"
-topics: ['brain health', 'cellular senescence', 'consumer safety', 'detoxification', 'gut health', 'longevity', 'metabolic health', 'sleep health']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'gut health', 'longevity', 'metabolic health']
+frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
 ---
 
 A new pilot single-arm trial reveals that four weeks of low-dose rapamycin selectively restores brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, pointing toward an early biophysical defense against cognitive decline.

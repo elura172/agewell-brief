@@ -6,11 +6,95 @@ import { imageFigureHtml, isCommercialLink, mediaRssData, plainTextExcerpt, publ
 
 export async function GET(context: { site?: URL }) {
   const entries = publishedBriefs(await getCollection("briefs"));
+  const folios = (await getCollection("folios"))
+    .filter((entry) => !entry.data.draft)
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
   const site = context.site ?? new URL("https://agewellbrief.com");
+
+  const briefItems = entries.map((entry) => {
+    const feedMarkdown = withoutAffiliatePlacement(entry.body ?? "");
+    const canonical = new URL(`/brief/${entry.id}/`, site).href;
+    // This feed is built to be syndicated — Substack imports it directly. A
+    // syndicated copy on a high-authority domain outranks a young one, so every
+    // item has to point home. It is also the only route back to the program
+    // cards, which withoutAffiliatePlacement strips from the feed on purpose.
+    const backlink =
+      `<p><em>Originally published on ` +
+      `<a href="${canonical}">Agewell Brief</a>. ` +
+      `<a href="${canonical}">Read the original</a> for the full sources and the ` +
+      `field guide for this topic.</em></p>`;
+    const rendered =
+      imageFigureHtml(entry.data, site) +
+      stripCommercialLinks(marked.parse(feedMarkdown, { async: false }) as string) +
+      backlink;
+    const content = sanitizeHtml(rendered, {
+      allowedTags: sanitizeHtml.defaults.allowedTags.concat(["figure", "figcaption", "img", "small"]),
+      allowedAttributes: {
+        a: ["href", "title", "rel"],
+        figure: ["class"],
+        img: ["src", "alt", "title", "width", "height", "loading"],
+        small: ["class"]
+      },
+      allowedSchemes: ["http", "https", "mailto"]
+    });
+
+    return {
+      title: entry.data.title,
+      link: `/brief/${entry.id}/`,
+      pubDate: entry.data.date,
+      description: plainTextExcerpt(feedMarkdown),
+      author: "Elura · Agewell Brief Editorial Desk",
+      content,
+      categories: [entry.data.category, entry.data.content_type === "lead" ? "Deep Read" : "Signal"],
+      // <source> means "where this was first reported". The six programme
+      // explainers cite our own storefront, and naming a shop as the reporting
+      // source in a syndicated feed is not a claim worth making.
+      ...(isCommercialLink(entry.data.source_url)
+        ? {}
+        : { source: { title: entry.data.source_name, url: entry.data.source_url } }),
+      customData: mediaRssData(entry.data, site)
+    };
+  });
+
+  const folioItems = folios.map((folio) => {
+    const issueLabel = `Folio No. ${String(folio.data.issue_number).padStart(2, "0")}`;
+    const canonical = new URL(`/folios/${folio.id}/`, site).href;
+    const feedMarkdown = folio.body ?? "";
+    const backlink =
+      `<p><em>Originally published as a Seasonal Broadsheet Folio on ` +
+      `<a href="${canonical}">Agewell Brief</a>. ` +
+      `<a href="${canonical}">Open the printable broadsheet</a> for the Solar Plate and Primary Evidence Ledger.</em></p>`;
+    const rendered =
+      `<p><strong>${issueLabel} · ${folio.data.solar_marker}:</strong> ${folio.data.subtitle}</p>` +
+      stripCommercialLinks(marked.parse(feedMarkdown, { async: false }) as string) +
+      backlink;
+    const content = sanitizeHtml(rendered, {
+      allowedTags: sanitizeHtml.defaults.allowedTags.concat(["small"]),
+      allowedAttributes: {
+        a: ["href", "title", "rel"],
+        small: ["class"]
+      },
+      allowedSchemes: ["http", "https", "mailto"]
+    });
+
+    return {
+      title: `${issueLabel}: ${folio.data.title}`,
+      link: `/folios/${folio.id}/`,
+      pubDate: folio.data.date,
+      description: folio.data.description,
+      author: "Elura · Agewell Brief Editorial Desk",
+      content,
+      categories: ["Broadsheet Folio", folio.data.solar_marker, ...folio.data.theme_domains]
+    };
+  });
+
+  const allItems = [...briefItems, ...folioItems].sort(
+    (a, b) => b.pubDate.valueOf() - a.pubDate.valueOf()
+  );
 
   return rss({
     title: "Agewell Brief · Health & Longevity Research",
-    description: "A source-linked daily edition on health and longevity research: one deep read, two concise signals, and original sources.",
+    description: "A source-linked daily edition on health and longevity research: one deep read, two concise signals, and seasonal Broadsheet Folios.",
     site,
     xmlns: {
       atom: "http://www.w3.org/2005/Atom",
@@ -20,49 +104,6 @@ export async function GET(context: { site?: URL }) {
       '<language>en-ca</language>' +
       '<managingEditor>elura172@proton.me (Elura · Agewell Brief)</managingEditor>' +
       `<atom:link href="${new URL("/rss.xml", site).href}" rel="self" type="application/rss+xml" />`,
-    items: entries.map((entry) => {
-      const feedMarkdown = withoutAffiliatePlacement(entry.body ?? "");
-      const canonical = new URL(`/brief/${entry.id}/`, site).href;
-      // This feed is built to be syndicated — Substack imports it directly. A
-      // syndicated copy on a high-authority domain outranks a young one, so every
-      // item has to point home. It is also the only route back to the program
-      // cards, which withoutAffiliatePlacement strips from the feed on purpose.
-      const backlink =
-        `<p><em>Originally published on ` +
-        `<a href="${canonical}">Agewell Brief</a>. ` +
-        `<a href="${canonical}">Read the original</a> for the full sources and the ` +
-        `field guide for this topic.</em></p>`;
-      const rendered =
-        imageFigureHtml(entry.data, site) +
-        stripCommercialLinks(marked.parse(feedMarkdown, { async: false }) as string) +
-        backlink;
-      const content = sanitizeHtml(rendered, {
-        allowedTags: sanitizeHtml.defaults.allowedTags.concat(["figure", "figcaption", "img", "small"]),
-        allowedAttributes: {
-          a: ["href", "title", "rel"],
-          figure: ["class"],
-          img: ["src", "alt", "title", "width", "height", "loading"],
-          small: ["class"]
-        },
-        allowedSchemes: ["http", "https", "mailto"]
-      });
-
-      return {
-        title: entry.data.title,
-        link: `/brief/${entry.id}/`,
-        pubDate: entry.data.date,
-        description: plainTextExcerpt(feedMarkdown),
-        author: "Elura · Agewell Brief Editorial Desk",
-        content,
-        categories: [entry.data.category, entry.data.content_type === "lead" ? "Deep Read" : "Signal"],
-        // <source> means "where this was first reported". The six programme
-        // explainers cite our own storefront, and naming a shop as the reporting
-        // source in a syndicated feed is not a claim worth making.
-        ...(isCommercialLink(entry.data.source_url)
-          ? {}
-          : { source: { title: entry.data.source_name, url: entry.data.source_url } }),
-        customData: mediaRssData(entry.data, site)
-      };
-    })
+    items: allItems
   });
 }

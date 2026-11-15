@@ -25,8 +25,8 @@ image_photographer_url: "https://unsplash.com/@mcallage?utm_source=agewellbrief&
 image_source_url: "https://unsplash.com/photos/brain-with-blue-geometric-triangles-UanZeoDZmXU?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#0c2640"
-topics: ['brain health', 'consumer safety', 'longevity']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['brain health']
+frameworks: ['Luminous Mind']
 ---
 
 Accelerated cognitive evaluations could help health systems rapidly identify early dementia and streamline access to emerging disease-modifying therapies as global cases rise.

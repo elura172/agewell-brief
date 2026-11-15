@@ -107,6 +107,11 @@ const structuredData = [
           <p class="folio-issue-subtitle">{typographic(folio.data.subtitle)}</p>
 
           <ul class="folio-domain-pills" aria-label="Folio domains">
+            {folio.data.spiral && (
+              <li>
+                <a href="/spiral-of-cellular-light/">Spiral · {folio.data.spiral}</a>
+              </li>
+            )}
             {folio.data.theme_domains.map((domain) => (
               <li>{domain}</li>
             ))}

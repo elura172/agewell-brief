@@ -13,8 +13,8 @@ spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Robert J. Lefkowitz", "year": "1970s", "discovery": "Discovered and characterized G protein-coupled receptor kinases (GRKs), including GRK2, which phosphorylate activated GPCRs to initiate desensitization. This foundational work established GRK2 as a key regulator of cellular signaling, directly relevant to Quitterer's finding that GRK2 dysfunction and aggregation contribute to Alzheimer's pathology."}, {"scientist": "Alois Alzheimer", "year": "1906", "discovery": "First described the neuropathological hallmarks of Alzheimer's disease, including amyloid plaques and neurofibrillary tangles, in a patient with progressive dementia. This clinical description laid the groundwork for all subsequent molecular research, including Quitterer's investigation of GRK2 in brain tissue from dementia patients."}]
 ancestral_insight: "Traditional lifestyles emphasizing regular physical activity and stress reduction may enhance mitochondrial health and reduce the accumulation of dysfunctional proteins like inactive GRK2. Exercise promotes mitochondrial biogenesis and autophagy, which clears damaged proteins, potentially mitigating the aggregation seen in Alzheimer's. This parallels the modern finding that maintaining mitochondrial function is critical for neuronal survival."
 evidence_position: "emerging"
-topics: ['brain health', 'cellular senescence', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 Swiss researchers have identified a vicious cycle of protein aggregation that starves neurons of energy and fuels amyloid buildup. An experimental compound breaks the loop—and hints at broader effects on aging.

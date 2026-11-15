@@ -13,15 +13,44 @@ ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "content/posts"
 
 TOPIC_KEYWORDS = {
-    "brain health": ["brain", "cognitive", "alzheimer", "dementia", "memory", "neural", "glymphatic", "synapse", "fmri"],
-    "sleep health": ["sleep", "circadian", "melatonin", "rhythm", "night", "rest"],
-    "gut health": ["gut", "microbiome", "microbial", "microbiota", "short-chain fatty acid", "scfa", "intestine"],
-    "metabolic health": ["metabolic", "metabolism", "mitochondria", "glucose", "insulin", "lactate", "fasting", "atp", "respiration"],
-    "cellular senescence": ["senescence", "senolytic", "zombie cell", "sasp", "chromatin", "autophagy", "cell-free"],
-    "detoxification": ["detox", "chelation", "heavy metal", "clearing", "mineral", "zeolite", "kidney", "liver"],
-    "longevity": ["aging", "biological age", "healthspan", "longevity", "lifespan", "mortality"],
-    "mobility": ["balance", "proprioception", "motor", "exercise", "strength", "biomechanics", "muscle"],
-    "consumer safety": ["fda", "tainted", "adulterated", "warning", "recall", "drug"]
+    "brain health": [
+        "brain", "brains", "cognitive", "cognition", "alzheimer", "dementia",
+        "memory", "neural", "neuron", "neurons", "glymphatic", "synapse", "synaptic",
+        "hippocampus", "hippocampal", "fmri", "neuroimaging", "parkinson",
+    ],
+    "sleep health": [
+        "sleep", "sleeping", "asleep", "insomnia", "circadian", "melatonin",
+        "slow-wave", "rem sleep", "chronotype", "slumber", "polysomnography",
+    ],
+    "gut health": [
+        "gut", "microbiome", "microbial", "microbiota", "short-chain fatty acid",
+        "scfa", "intestine", "intestinal", "colonic", "probiotic", "prebiotic",
+    ],
+    "metabolic health": [
+        "metabolic", "metabolism", "mitochondria", "mitochondrial", "glucose",
+        "insulin", "lactate", "fasting", "atp", "glycemic", "lipidomic",
+    ],
+    "cellular senescence": [
+        "senescence", "senescent", "senolytic", "senolytics", "zombie cell",
+        "zombie cells", "sasp", "chromatin", "autophagy", "autophagic",
+    ],
+    "detoxification": [
+        "detox", "detoxification", "chelation", "heavy metal", "heavy metals",
+        "zeolite", "microplastic", "microplastics", "pfas", "xenobiotic",
+    ],
+    "longevity": [
+        "aging", "ageing", "biological age", "healthspan", "longevity",
+        "lifespan", "geroscience", "centenarian",
+    ],
+    "mobility": [
+        "balance", "proprioception", "gait", "exercise", "strength training",
+        "biomechanics", "biomechanical", "sarcopenia", "skeletal muscle", "cartilage",
+    ],
+    "consumer safety": [
+        "fda warning", "fda recall", "health fraud", "tainted", "adulterated",
+        "undeclared", "product recall", "drug recall", "supplement recall",
+        "product notification", "contaminated", "contamination",
+    ],
 }
 
 FRAMEWORK_MAP = {
@@ -34,6 +63,21 @@ FRAMEWORK_MAP = {
     "longevity": "Living Waters",
     "mobility": "Living Waters"
 }
+
+
+def _keyword_matches(text: str, keyword: str) -> bool:
+    return bool(re.search(rf"\b{re.escape(keyword)}\b", text))
+
+
+def _extract_editorial_prose(frontmatter: str, body: str) -> str:
+    title_match = re.search(r'^title:\s*"(.*?)"\s*$', frontmatter, re.MULTILINE)
+    desc_match = re.search(r'^description:\s*"(.*?)"\s*$', frontmatter, re.MULTILINE)
+    title = title_match.group(1) if title_match else ""
+    desc = desc_match.group(1) if desc_match else ""
+    cleaned_body = re.sub(r"<aside\b.*?</aside>", " ", body, flags=re.DOTALL | re.IGNORECASE)
+    cleaned_body = re.sub(r"###\s+Source\b.*", " ", cleaned_body, flags=re.DOTALL)
+    return f"{title} {desc} {cleaned_body}".lower()
+
 
 def audit_file(filepath: Path) -> bool:
     text = filepath.read_text(encoding="utf-8")
@@ -48,12 +92,12 @@ def audit_file(filepath: Path) -> bool:
     cat_match = re.search(r'category:\s*"(.*?)"', frontmatter)
     primary_cat = cat_match.group(1).lower() if cat_match else "general wellness"
 
-    # Analyze body + title for matching topics
-    full_text = text.lower()
+    # Analyze editorial prose + headline/dek only (excluding stock image alt text & spiral cards)
+    analysis_text = _extract_editorial_prose(frontmatter, body)
     matched_topics = set([primary_cat])
 
     for topic, keywords in TOPIC_KEYWORDS.items():
-        if any(kw in full_text for kw in keywords):
+        if any(_keyword_matches(analysis_text, kw) for kw in keywords):
             matched_topics.add(topic)
 
     topics_list = sorted(list(matched_topics))

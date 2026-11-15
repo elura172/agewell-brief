@@ -22,8 +22,8 @@ image_photographer_url: "https://unsplash.com/@photosoflogan?utm_source=agewellb
 image_source_url: "https://unsplash.com/photos/meiji-techno-microscope-with-objective-lenses-Rl9bIWKCVF0?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#f3f3f3"
-topics: ['consumer safety', 'detoxification', 'gut health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Dark Mirror', 'Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
+topics: ['longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 New findings in Nothobranchius furzeri reveal that caloric scarcity drives divergent, sex-specific bioenergetic adaptations in lifespan and somatic maintenance.

@@ -10,8 +10,8 @@ source_url: "https://www.sciencedaily.com/releases/2026/08/260820002420.htm"
 source_title: "Knee osteoarthritis isn’t inevitable — here’s what you can do"
 source_name: "ScienceDaily Top Health"
 spiral: "Higher Flame"
-topics: ['longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['mobility']
+frameworks: ['Living Waters']
 ---
 
 Cartilage breakdown doesn’t have to dictate your mobility. Targeted muscle strength, weight control, and anti-inflammatory eating can reduce joint stress and slow progression.

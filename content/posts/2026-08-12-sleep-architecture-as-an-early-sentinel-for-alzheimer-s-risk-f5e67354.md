@@ -22,8 +22,8 @@ image_photographer_url: "https://www.pexels.com/@martabranco"
 image_source_url: "https://www.pexels.com/photo/detailed-view-of-ecg-equipment-and-readings-28585010/"
 image_review_status: "pending"
 image_avg_color: "#B7BFCA"
-topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 ---
 
 Researchers at ULiège are probing whether subtle sleep signatures can flag Alzheimer's pathology before memory fades. The premise is biophysically sound, but the evidence is still nascent.

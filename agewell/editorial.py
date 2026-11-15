@@ -532,6 +532,11 @@ def verify_category(
         "summary": summary[:1500],
         "proposed_category": proposed_category,
         "valid_categories": list(CATEGORIES),
+        "output": {
+            "category": "one of valid_categories",
+            "on_mission": "boolean",
+            "reason": "one concise sentence explaining any category correction or off-mission hold",
+        },
     }
     result = _json_agent(
         client,
@@ -544,10 +549,13 @@ def verify_category(
             "abstracts and incidental word overlap (e.g. 'recall' in a memory study, not a product "
             "recall) commonly produce mismatches. Read the actual subject and pick the single best-fit "
             "category from valid_categories, or confirm the proposed one if it's already correct. "
-            "Separately, set on_mission=false only for content that isn't really about human aging/"
-            "longevity/health at all — basic-biology tooling papers, databases, or research in other "
-            "species with no stated human-health relevance. Being a preprint or narrow-topic study is "
-            "not by itself a reason to flag off-mission; being off-subject is."
+            "Separately, set on_mission=false for content that isn't really about human aging, "
+            "longevity, or functional healthspan — including commercial agriculture, aquaculture or "
+            "fishery production (such as farmed salmon feed or livestock yield), plant/crop pathology, "
+            "basic-biology tooling databases, or young-athlete orthopedic/sports injury studies with no "
+            "stated relevance to aging or long-term tissue degeneration. Laboratory model organisms "
+            "(mice, C. elegans, Drosophila, yeast) explicitly studying conserved human aging mechanisms "
+            "ARE on_mission; commercial food-production cohorts are NOT."
         ),
         payload,
         250,
@@ -584,26 +592,24 @@ def caption_image(
         "image_description": image_alt,
         "headline": headline,
         "dek": dek,
-        "output": {"caption": "one sentence, specific to both the image and the article's actual point"},
+        "output": {"caption": "one calm broadsheet sentence grounded strictly in image_description"},
     }
     result = _json_agent(
         client,
         model,
         (
-            "You write photo captions for Agewell Brief. Given the real description of the selected "
-            "photo and the article it illustrates, write one sentence that connects what's actually in "
-            "the frame to the article's specific point — not a generic mood line. "
-            "Example: a close-up of a strawberry, on a piece distinguishing natural fruit sugar from "
-            "processed sweetness, becomes something like 'A strawberry's sweetness is the real signal "
-            "this piece is about — not the metabolic switch that processed sugar flips.' "
-            "Stay factual to image_description; do not describe anything not stated in it. "
-            "No em dash required, but keep it to one sentence, plain language, no hedging."
+            "You write calm broadsheet photo captions for Agewell Brief. Given image_description (an illustrative "
+            "stock photograph) and the article's headline and dek, write one honest sentence connecting what is "
+            "visibly in the frame to the domain of the report. "
+            "Stay strictly factual to image_description: NEVER pretend a stock microscope, laboratory bench, or "
+            "digital illustration depicts the actual experimental specimens, specific animal cohort, or 'exact cellular "
+            "level' assayed in the cited paper. Do not use em dashes, hype, or hedging."
         ),
         payload,
         150,
     )
-    caption = str(result.get("caption", "")).strip()
-    return caption or "A glimpse of the everyday routines behind this story."
+    caption = str(result.get("caption", "")).strip().replace("—", ", ").replace(" – ", ", ")
+    return caption or "Editorial photograph illustrating the research domain of this report."
 
 
 def _sanitize_search_queries(

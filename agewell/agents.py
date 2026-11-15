@@ -113,7 +113,12 @@ def assignment_editor(
         for item in candidates
     ]
     fallback = [
-        {"article_id": row["article_id"], "role": "lead" if index == 0 else "signal", "angle": "Explain what this means for readers over 50.", "confidence": 0.5}
+        {
+            "article_id": row["article_id"],
+            "role": "lead" if index == 0 else "signal",
+            "angle": "Report the specific finding, physical mechanism, and evidentiary boundary.",
+            "confidence": 0.5,
+        }
         for index, row in enumerate(candidate_rows[:limit])
     ]
     if not candidates:
@@ -131,10 +136,23 @@ def assignment_editor(
                     f"Select at most {limit} stories.",
                     "Choose one lead and make the rest signals.",
                     "Prefer source diversity and a mix of categories.",
-                    "Prioritize fresh, independently corroborated trend topics.",
-                    "Reject duplicates and stories too weak to explain responsibly.",
+                    "Prioritize fresh, independently corroborated human healthspan and longevity science.",
+                    "Reject duplicates, commercial agriculture/aquaculture/livestock production studies (such as farmed fish feed or poultry yield), and stories too weak to explain responsibly.",
                     "Every assignment must use an article_id from candidates.",
                 ],
+                "output_schema": {
+                    "edition_angle": "...",
+                    "assignments": [
+                        {
+                            "article_id": "...",
+                            "role": "lead|signal",
+                            "angle": "...",
+                            "confidence": 0.85,
+                            "reason": "...",
+                        }
+                    ],
+                    "held_back": ["..."],
+                },
             },
             1800,
         )
@@ -154,7 +172,7 @@ def assignment_editor(
             cleaned.append({
                 "article_id": key,
                 "role": "lead" if not any(row["role"] == "lead" for row in cleaned) else "signal",
-                "angle": str(entry.get("angle") or "Explain what this means for readers over 50.")[:300],
+                "angle": str(entry.get("angle") or "Report the specific finding, physical mechanism, and evidentiary boundary.")[:300],
                 "confidence": float(entry.get("confidence", 0.5)),
                 "reason": str(entry.get("reason") or "Selected for relevance and freshness.")[:400],
             })
@@ -187,14 +205,22 @@ def _deterministic_novelty(title: str, summary: str, source: str = "") -> dict[s
         "associated with", "could help", "tips", "simple ways", "eat less",
         "sleep duration", "drink more water",
     )
+    off_mission_production_terms = (
+        "farmed salmon", "atlantic salmon", "aquaculture", "broiler chicken",
+        "livestock", "crop yield", "poultry production", "dairy cattle", "swineherd",
+    )
     frontier_hits = [term for term in frontier_terms if term in text]
     generic_hits = [term for term in generic_terms if term in text]
+    off_mission_hits = [term for term in off_mission_production_terms if term in text]
     if frontier_hits:
         score += min(30, 10 * len(frontier_hits))
         reasons.append("specific frontier signal or meaningful new mechanism")
     if generic_hits:
         score -= min(32, 10 * len(generic_hits))
         reasons.append("familiar wellness framing with limited editorial surprise")
+    if off_mission_hits:
+        score -= 40
+        reasons.append("commercial aquaculture, livestock, or agricultural production study")
     if re.search(r"\b(first|new|unexpected|reveals|why|challenge|warning|recall)\b", text):
         score += 8
         reasons.append("headline contains a concrete news hook")
@@ -255,6 +281,7 @@ def novelty_editor(
                     "Score every candidate from 0 to 100 for editorial novelty and reader-stop power.",
                     "A story earns a high score for a specific new finding, named mechanism, unusual result, meaningful disagreement, frontier technology, safety warning, or genuinely useful change in practice.",
                     "Score down generic advice, routine observational associations, broad lifestyle reminders, recycled supplement claims, and headlines that could have run any year.",
+                    "Hold back (score 25 or below) commercial agriculture, aquaculture, fishery, livestock, or plant-production studies (such as farmed salmon feed or poultry yield) as well as young-athlete sports rehab cohorts with no aging or healthspan relevance.",
                     "Do not confuse scientific importance with novelty. A familiar true fact can still be held back.",
                     f"Recommend commission at {minimum_score}+; hold anything below that unless it is a major safety or public-interest story.",
                     "Return one score object per article_id with score, decision, novelty_type, reason, and a sharper possible angle.",

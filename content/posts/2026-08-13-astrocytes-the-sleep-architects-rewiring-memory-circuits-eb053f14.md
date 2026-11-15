@@ -12,8 +12,8 @@ source_name: "Medical Xpress Sleep"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Santiago Ram\u00f3n y Cajal", "year": "1890s", "discovery": "Cajal's neuron doctrine and his detailed anatomical descriptions of neuroglia (including protoplasmic and fibrous astrocytes) established the cellular basis of brain function, showing that glial cells are intimately associated with synapses and blood vessels. His work laid the foundation for understanding that glia are not merely 'glue' but active participants in neural circuits, which the modern study directly supports by demonstrating that astrocytes regulate memory consolidation circuits during sleep."}, {"scientist": "Lorenz Oken (and later, Camillo Golgi)", "year": "1805", "discovery": "Oken's early speculation that 'nerve jelly' (later identified as glial cells) might have a nutritive and communicative role, and Golgi's 'rete mirabile' (a network of glial processes) that he observed using his silver staining method, anticipated the concept of glial-neuronal interaction. Golgi's staining revealed the intricate morphology of astrocytes, and his 'diffuse nervous network' theory, though later superseded, presaged the idea that glial cells form a functional syncytium that can modulate neuronal activity\u2014a concept now validated by the finding that astrocytic calcium signaling directly influences sleep-dependent memory circuits."}]
 evidence_position: "emerging"
-topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'metabolic health', 'sleep health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 ---
 
 New research reveals that star-shaped brain cells called astrocytes actively regulate the neural circuits that consolidate memories during sleep, offering a deeper view of the brain's nocturnal maintenance.

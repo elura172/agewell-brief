@@ -11,8 +11,8 @@ source_title: "Adults 75 and older who stopped statins had similar three-year su
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Higher Flame"
 evidence_position: "established"
-topics: ['cellular senescence', 'detoxification', 'longevity', 'metabolic health', 'mobility']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters']
+topics: ['longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 A randomized trial finds that discontinuing statins in older adults without prior cardiovascular events does not raise three-year mortality, yet LDL rises sharply. The decision hinges on biology, not habit.

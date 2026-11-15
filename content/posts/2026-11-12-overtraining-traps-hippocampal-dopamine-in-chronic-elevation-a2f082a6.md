@@ -22,8 +22,8 @@ image_photographer_url: "https://unsplash.com/@jairlazarofuentes?utm_source=agew
 image_source_url: "https://unsplash.com/photos/medical-monitor-displaying-vital-signs-0lrJo37r6Nk?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#595940"
-topics: ['brain health', 'consumer safety', 'detoxification', 'mobility', 'sleep health']
-frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
+topics: ['brain health']
+frameworks: ['Luminous Mind']
 ---
 
 Exhaustive physical training without adequate recovery destabilizes neural feedback loops, leaving baseline dopamine abnormally elevated at rest.

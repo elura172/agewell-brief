@@ -12,7 +12,6 @@ fi
 trap 'rmdir "$LOCK"' EXIT
 
 if [[ ! -f "$MPT_CONFIG" ]]; then
-  echo "MoneyPrinterTurbo config ($MPT_CONFIG) not found. Skipping content factory run."
   exit 0
 fi
 

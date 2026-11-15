@@ -11,8 +11,8 @@ source_title: "CB2R-induced differentiation epigenetically restrains cancer plas
 source_name: "biorxiv"
 spiral: "Living Waters"
 evidence_position: "emerging"
-topics: ['general wellness', 'sleep health']
-frameworks: ['Luminous Mind']
+topics: ['general wellness']
+frameworks: []
 ---
 
 Brief, low-dose CB2R agonists trigger an epigenetic switch that curbs plasticity and boosts tamoxifen response in organoid models.

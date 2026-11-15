@@ -22,8 +22,8 @@ image_photographer_url: "https://www.pexels.com/@karola-g"
 image_source_url: "https://www.pexels.com/photo/laboratory-worker-using-modern-hospital-equipment-6627687/"
 image_review_status: "human-reviewed"
 image_avg_color: "#7DABA7"
-topics: ['brain health', 'consumer safety', 'mobility']
-frameworks: ['Living Waters', 'Luminous Mind']
+topics: ['brain health']
+frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Stanley Prusiner", "year": "1982", "discovery": "Discovered prions, misfolded proteins that propagate conformational changes, establishing the concept of protein-only infectious agents and highlighting the role of protein misfolding in neurodegeneration. This work laid the foundation for understanding how molecular markers like amyloid and tau reflect disease state, and parallels the use of circRNAs as dynamic indicators of neurodegenerative processes."}, {"scientist": "Jeannie T. Lee", "year": "1990s", "discovery": "Pioneered the study of non-coding RNAs, including circular RNAs (circRNAs), revealing their regulatory roles in gene expression and their stability in bodily fluids. Her work established circRNAs as potential biomarkers, directly enabling the modern finding that blood circRNA levels can predict Alzheimer's symptom onset."}]
 ancestral_insight: ""
 evidence_position: "emerging"

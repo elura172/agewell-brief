@@ -25,7 +25,7 @@ image_photographer_url: "https://unsplash.com/@luvqs?utm_source=agewellbrief&utm
 image_source_url: "https://unsplash.com/photos/man-sight-on-white-microscope-9vnACvX2748?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#595959"
-topics: ['brain health', 'consumer safety', 'longevity', 'metabolic health']
+topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

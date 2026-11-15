@@ -21,7 +21,7 @@ image_photographer_url: "https://pixabay.com/users/erikawittlieb-427626/"
 image_source_url: "https://pixabay.com/photos/living-room-chair-sofa-couch-home-2155376/"
 image_review_status: "pending"
 image_avg_color: "#cad4cf"
-topics: ['brain health', 'consumer safety', 'metabolic health', 'sleep health']
+topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Franz Halberg", "year": "1959", "discovery": "Coined the term 'circadian' and established the field of chronobiology, demonstrating that daily rhythms in physiology are endogenous and measurable. His concept of 'circadian amplitude' as a health biomarker directly anticipates the finding that weaker daily rhythms (reduced amplitude) predict dementia risk, validating his early claim that rhythm integrity reflects systemic health."}, {"scientist": "Clifford Saper", "year": "2005", "discovery": "Identified the suprachiasmatic nucleus (SCN) as the master circadian clock and showed that its degeneration occurs in Alzheimer's disease, linking circadian disruption to neurodegeneration. This provides the mechanistic basis for the modern finding: weaker rhythms may reflect early SCN dysfunction, serving as a preclinical marker for dementia."}]
 ancestral_insight: ""

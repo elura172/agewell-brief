@@ -22,8 +22,8 @@ image_photographer_url: "https://unsplash.com/@nci?utm_source=agewellbrief&utm_m
 image_source_url: "https://unsplash.com/photos/scientist-using-microscope-in-laboratory-JxoWb7wHqnA?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#262626"
-topics: ['brain health', 'cellular senescence', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'sleep health']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 By stimulating a crucial nitric oxide pathway, researchers restored aging liver filters and unmasked a cellular signaling cascade that clears neurotoxic waste and LDL.

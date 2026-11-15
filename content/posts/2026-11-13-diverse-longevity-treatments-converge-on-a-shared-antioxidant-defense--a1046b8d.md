@@ -23,8 +23,8 @@ image_photographer_url: "https://unsplash.com/@trnavskauni?utm_source=agewellbri
 image_source_url: "https://unsplash.com/photos/laboratory-workbench-with-microscope-and-equipment-_9xRHrMOjeg?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#c0c0c0"
-topics: ['longevity', 'metabolic health', 'sleep health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['longevity', 'metabolic health']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 Five separate interventions that extend lifespan in mice all upregulate the exact same protective antioxidant, revealing a unified biochemical target beneath diverse anti-aging strategies.

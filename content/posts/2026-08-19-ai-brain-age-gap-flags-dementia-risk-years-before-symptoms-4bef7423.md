@@ -12,7 +12,7 @@ source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "John Hughlings Jackson", "year": "1884", "discovery": "Established the principle of 'dissolution' in neurology, showing that brain aging and disease follow a hierarchical regression where higher cognitive functions are lost before lower ones. This concept underpins the modern 'brain age' gap\u2014the difference between chronological age and predicted brain age\u2014as a quantifiable marker of accelerated or pathological aging, directly anticipating the use of brain-predicted age to detect subtle dementia-related changes before clinical symptoms emerge."}, {"scientist": "Paul D. Thompson", "year": "2001", "discovery": "Developed computational brain mapping techniques that quantify cortical thinning and atrophy patterns in Alzheimer's disease, demonstrating that subtle structural changes can be measured across the brain with high precision. This work laid the methodological foundation for AI-based brain age prediction, as it showed that MRI-derived features like cortical thickness and volume can serve as sensitive biomarkers for early neurodegenerative changes, validating the modern approach of using deep learning to estimate brain age from scans."}]
 evidence_position: "emerging"
-topics: ['brain health', 'consumer safety', 'longevity', 'metabolic health', 'mobility', 'sleep health']
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

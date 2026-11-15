@@ -22,8 +22,8 @@ image_photographer_url: "https://www.pexels.com/@franck-luce-2148504933"
 image_source_url: "https://www.pexels.com/photo/close-up-of-ants-on-a-leaf-31756733/"
 image_review_status: "pending"
 image_avg_color: "#6F6450"
-topics: ['cellular senescence', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'sleep health']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['cellular senescence', 'longevity', 'metabolic health', 'sleep health']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A new study of 18 Australian ant species shows that body size predicts how long workers live, but not how they age or how they die from heat. The findings challenge size-based vulnerability indices and point to circadian biology and evolutionary lineage as key climate-relevant axes.

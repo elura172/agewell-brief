@@ -22,8 +22,8 @@ image_photographer_url: "https://www.pexels.com/@timur-weber"
 image_source_url: "https://www.pexels.com/photo/close-up-of-a-young-man-sleeping-8560285/"
 image_review_status: "pending"
 image_avg_color: "#87827C"
-topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'longevity', 'sleep health']
+frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Michel Jouvet", "year": "1959", "discovery": "Discovered REM sleep in cats and coined the term 'paradoxical sleep', showing that the brain is highly active while the body is paralyzed. His work established REM as a distinct state of intense internal processing, directly anticipating the modern finding that REM sleep actively gates external sensory input while preserving internal bodily signals."}, {"scientist": "Mary A.B. Brazier", "year": "1960s", "discovery": "Pioneered EEG studies of sensory evoked potentials during sleep, demonstrating that cortical responses to external stimuli are attenuated during REM. Her work provided early evidence for sensory gating in REM, which the Swiss EEG study now refines by showing selective preservation of interoceptive input."}]
 ancestral_insight: ""
 evidence_position: "emerging"

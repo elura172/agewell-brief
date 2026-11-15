@@ -25,8 +25,8 @@ image_photographer_url: "https://www.pexels.com/@freestockpro"
 image_source_url: "https://www.pexels.com/photo/person-walking-up-stairs-12932540/"
 image_review_status: "pending"
 image_avg_color: "#C8C3BD"
-topics: ['cellular senescence', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 A meta-analysis of 480,000 people shows that choosing stairs over lifts is a potent longevity lever. Here’s the mitochondrial and vascular mechanics behind the numbers.

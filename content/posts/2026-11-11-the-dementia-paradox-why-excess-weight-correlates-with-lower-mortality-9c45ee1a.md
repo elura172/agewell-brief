@@ -22,8 +22,8 @@ image_photographer_url: "https://unsplash.com/@xiazheng1995?utm_source=agewellbr
 image_source_url: "https://unsplash.com/photos/a-room-with-a-lot-of-monitors-on-the-wall-SpOhbQkWAyE?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#735940"
-topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'metabolic health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 ---
 
 A sweeping 24-year longitudinal cohort analysis reveals an unexpected survival advantage in overweight and obese individuals diagnosed with dementia.

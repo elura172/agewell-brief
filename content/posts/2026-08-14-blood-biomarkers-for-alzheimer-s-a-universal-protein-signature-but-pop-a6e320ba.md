@@ -24,8 +24,8 @@ image_photographer_url: "https://www.pexels.com/@tahir"
 image_source_url: "https://www.pexels.com/photo/blood-sample-vials-in-laboratory-rack-37548861/"
 image_review_status: "pending"
 image_avg_color: "#B0999F"
-topics: ['brain health', 'longevity', 'metabolic health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'metabolic health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 ---
 
 New research extends Alzheimer's blood biomarker validation to African populations, revealing that while the core protein pathology is conserved, reference ranges must be population-specific to avoid misdiagnosis.

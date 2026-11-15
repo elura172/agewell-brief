@@ -25,8 +25,8 @@ image_photographer_url: "https://unsplash.com/@iamtru?utm_source=agewellbrief&ut
 image_source_url: "https://unsplash.com/photos/woman-looking-on-microscope-inside-room-6q5QG8iIgRo?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#d9d9d9"
-topics: ['cellular senescence', 'detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 Multiomic profiling reveals that farmed salmon accumulate cellular fats through conserved mammalian aging pathways, while dietary spermidine clears the blockage.

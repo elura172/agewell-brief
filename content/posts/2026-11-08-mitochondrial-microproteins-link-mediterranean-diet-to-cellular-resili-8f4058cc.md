@@ -25,7 +25,7 @@ image_photographer_url: "https://unsplash.com/@www_minimalist_art?utm_source=age
 image_source_url: "https://unsplash.com/photos/a-platter-of-grilled-vegetables-with-herbs-and-nuts-LuoTygdyXaI?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#f3f3f3"
-topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
+topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

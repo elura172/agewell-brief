@@ -12,7 +12,7 @@ source_name: "arXiv medical physics"
 spiral: "Living Waters"
 autoresearch_antecedents: [{"scientist": "Godfrey Hounsfield", "year": "1973", "discovery": "Developed the first clinical CT scanner, introducing the concept of reconstructing 3D volumetric images from 2D projection measurements. This directly parallels the modern framework's measurement-guided reconstruction, where sparse-view CT data is used to generate full volumes via a latent diffusion prior with hard data consistency."}, {"scientist": "Paul Lauterbur", "year": "1973", "discovery": "Introduced spatial encoding in MRI using magnetic field gradients, enabling the reconstruction of 2D and 3D images from k-space measurements. This anticipates the accelerated MRI reconstruction in the preprint, where the latent prior is conditioned on undersampled measurements, echoing Lauterbur's principle of reconstructing images from incomplete Fourier data."}]
 evidence_position: "emerging"
-topics: ['brain health', 'general wellness', 'longevity', 'sleep health']
+topics: ['brain health', 'general wellness', 'longevity']
 frameworks: ['Living Waters', 'Luminous Mind']
 ---
 

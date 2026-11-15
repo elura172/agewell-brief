@@ -10,8 +10,8 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.08.06.743387v1?rss=1"
 source_title: "Restoration of Capacity to Build Muscle Strength in Geriatric Mice by Inhibition of the Gerozyme 15-Prostaglandin Dehydrogenase"
 source_name: "bioRxiv immunology and cell biology"
 spiral: "Cell Shedding"
-topics: ['cellular senescence', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "John Vane", "year": "1971", "discovery": "Vane discovered that aspirin and other non-steroidal anti-inflammatory drugs work by inhibiting prostaglandin synthesis, establishing the central role of prostaglandins (including PGE2) in mediating inflammation and tissue homeostasis. This work, which earned him the Nobel Prize in 1982, laid the foundation for understanding how prostaglandin metabolism, including the degradative enzyme 15-PGDH, regulates physiological processes such as muscle growth and repair."}, {"scientist": "S. J. Konturek and colleagues", "year": "1980s", "discovery": "Konturek's group demonstrated that prostaglandins, particularly PGE2, exert trophic (growth-promoting) effects on gastrointestinal mucosa, showing that prostaglandins can directly stimulate cell proliferation and protein synthesis in tissues. This established the concept of prostaglandins as anabolic signals, which directly parallels the preprint's finding that PGE2 reawakens the IGF1 pathway in aged muscle."}]
 ancestral_insight: ""
 evidence_position: "emerging"

@@ -694,6 +694,7 @@ def test_run_writes_complete_shadow_edition_audit(monkeypatch, tmp_path: Path):
         ("adult walking in park",),
     )
 
+    monkeypatch.setattr(pipeline, "GEMINI_API_KEY", "")
     monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
     monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
     monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
@@ -1126,6 +1127,7 @@ def test_run_isolates_failed_story_and_keeps_the_edition(monkeypatch, tmp_path: 
     evidence = EvidencePacket("report", ("Claim",), ("Limit",), ("No overclaim",), "moderate")
     brief = ImageBrief("Intent", "adult", "setting", "capable", "landscape", (), ("adult outdoors",))
 
+    monkeypatch.setattr(pipeline, "GEMINI_API_KEY", "")
     monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
     monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
     monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
@@ -1178,6 +1180,7 @@ def test_failed_lead_is_downgraded_to_signal(monkeypatch, tmp_path: Path):
     evidence = EvidencePacket("report", ("Claim",), ("Limit",), ("No overclaim",), "moderate")
     brief = ImageBrief("Intent", "adult", "setting", "capable", "landscape", (), ("adult outdoors",))
 
+    monkeypatch.setattr(pipeline, "GEMINI_API_KEY", "")
     monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
     monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
     monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
@@ -1226,3 +1229,103 @@ def test_choose_edition_promotes_source_rich_story(monkeypatch):
     assert edition[0][1] == "lead"
     assert [entry[1] for entry in edition[1:]] == ["signal", "signal"]
     assert all(entry[2] for entry in edition)
+
+
+def test_off_mission_story_is_held_cleanly_without_failing_run(monkeypatch, tmp_path: Path):
+    salmon = FeedItem(
+        "Dietary Spermidine Enhances Lipid Handling in Farmed Salmon",
+        "Aquaculture cohort lipidomics",
+        "https://example.test/salmon",
+        "",
+        "Aging Cell",
+    )
+    monkeypatch.setattr(pipeline, "GEMINI_API_KEY", "")
+    monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
+    monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
+    monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
+    monkeypatch.setattr(pipeline, "PUBLIC_ROOT", tmp_path / "public")
+    monkeypatch.setattr(pipeline, "EDITION_STATE_ROOT", tmp_path / "editions")
+    monkeypatch.setattr(pipeline, "IMAGE_CACHE_FILE", tmp_path / "image-cache.json")
+    monkeypatch.setattr(pipeline, "IMAGE_LEDGER_FILE", tmp_path / "image-ledger.json")
+    monkeypatch.setattr(pipeline, "feed_sources", lambda: [FeedSource("Test", "https://example.test/feed")])
+    monkeypatch.setattr(pipeline, "fetch_ranked_items", lambda *_args, **_kwargs: [salmon])
+    monkeypatch.setattr(pipeline, "choose_edition", lambda _items: [(salmon, "lead", "source")])
+    monkeypatch.setattr(
+        pipeline,
+        "verify_category",
+        lambda *_args, **_kwargs: {
+            "category": "longevity",
+            "on_mission": False,
+            "reason": "Commercial farmed salmon production cohort.",
+        },
+    )
+
+    assert pipeline.run() == 0
+    assert list((tmp_path / "posts").glob("*.md")) == []
+    assert json.loads((tmp_path / "processed.json").read_text()) == [pipeline.item_id(salmon)]
+    run_dir = next(next((tmp_path / "editions").iterdir()).iterdir())
+    failures = json.loads((run_dir / "failed-drafts.json").read_text())
+    assert failures[0]["resolution"] == "held_off_mission"
+
+
+def test_second_same_day_run_emits_signal_and_increments_edition_rank(monkeypatch, tmp_path: Path):
+    import datetime as dt
+
+    posts_dir = tmp_path / "posts"
+    posts_dir.mkdir(parents=True, exist_ok=True)
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    (posts_dir / f"{today}-morning-lead-11111111.md").write_text(
+        f'---\ntitle: "Morning Lead"\ncontent_type: "lead"\nedition_rank: 1\nedition_id: "{today}"\n---\n\nBody.\n',
+        encoding="utf-8",
+    )
+
+    item = FeedItem("Afternoon discovery", "Summary", "https://example.test/afternoon", "", "Journal")
+    signal_draft = {
+        "headline": "Afternoon Discovery Clarifies Synaptic Resilience in Older Adults",
+        "dek": "A concise two-paragraph broadsheet signal.",
+        "paragraphs": [
+            "Paragraph one explains what was tested and found.",
+            "Paragraph two states the exact study boundary.",
+        ],
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "Observational cohort only.",
+    }
+    evidence = EvidencePacket("cohort", ("Claim",), ("Limit",), ("No overclaim",), "moderate")
+    brief = ImageBrief("Intent", "researcher", "lab", "calm", "landscape", (), ("neuroscience laboratory",))
+
+    monkeypatch.setattr(pipeline, "GEMINI_API_KEY", "")
+    monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
+    monkeypatch.setattr(pipeline, "OUTPUT_DIR", posts_dir)
+    monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
+    monkeypatch.setattr(pipeline, "PUBLIC_ROOT", tmp_path / "public")
+    monkeypatch.setattr(pipeline, "EDITION_STATE_ROOT", tmp_path / "editions")
+    monkeypatch.setattr(pipeline, "IMAGE_CACHE_FILE", tmp_path / "image-cache.json")
+    monkeypatch.setattr(pipeline, "IMAGE_LEDGER_FILE", tmp_path / "image-ledger.json")
+    monkeypatch.setattr(pipeline, "feed_sources", lambda: [FeedSource("Test", "https://example.test/feed")])
+    monkeypatch.setattr(pipeline, "fetch_ranked_items", lambda *_args, **_kwargs: [item])
+    monkeypatch.setattr(pipeline, "choose_edition", lambda _items: [(item, "lead", "source")])
+    monkeypatch.setattr(
+        pipeline,
+        "verify_category",
+        lambda *_args, **_kwargs: {"category": "brain health", "on_mission": True, "reason": "On mission"},
+    )
+    monkeypatch.setattr(pipeline, "build_evidence_packet", lambda *_args: evidence)
+    monkeypatch.setattr(pipeline, "copy_edit", lambda _c, _m, content, _t: (content, {"status": "clean"}))
+
+    captured_types = []
+
+    def fake_draft(_client, _item, _category, content_type, *_args):
+        captured_types.append(content_type)
+        return signal_draft
+
+    monkeypatch.setattr(pipeline, "draft", fake_draft)
+    monkeypatch.setattr(pipeline, "direct_image", lambda *_args: brief)
+    monkeypatch.setattr(pipeline, "search_image_candidates", lambda *_args: [])
+
+    assert pipeline.run() == 0
+    assert captured_types == ["signal"]
+    generated_files = sorted(p for p in posts_dir.glob("*.md") if "morning-lead" not in p.name)
+    assert len(generated_files) == 1
+    body = generated_files[0].read_text(encoding="utf-8")
+    assert 'content_type: "signal"' in body
+    assert "edition_rank: 2" in body

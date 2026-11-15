@@ -21,8 +21,8 @@ image_photographer_url: "https://www.pexels.com/@askar-abayev"
 image_source_url: "https://www.pexels.com/photo/happy-family-enjoying-dinner-in-garden-5638644/"
 image_review_status: "pending"
 image_avg_color: "#736158"
-topics: ['cellular senescence', 'detoxification', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Linda Partridge", "year": "2005", "discovery": "Partridge's work on dietary restriction in Drosophila showed that reducing protein, particularly specific amino acids like methionine, extends lifespan and improves metabolic health, independent of calorie restriction. This directly anticipates the review's finding that lower protein intake improves metabolism and reduces inflammation in sedentary individuals."}, {"scientist": "Rafael de Cabo", "year": "2014", "discovery": "De Cabo's studies on dietary protein restriction in rodents demonstrated that low-protein diets improve insulin sensitivity, reduce inflammation, and extend lifespan, partly through modulation of mTOR and FGF21 pathways. This provides a mechanistic basis for the review's claims about metabolic benefits of reduced protein intake."}]
 ancestral_insight: "Traditional hunter-gatherer diets, such as those of the Hadza or !Kung, were often protein-limited relative to modern diets, with protein typically comprising 15-25% of calories, and were punctuated by periods of scarcity. This pattern kept mTOR signaling lower and promoted metabolic flexibility. In contrast, modern sedentary lifestyles with constant high-protein intake mimic a state of perpetual feast, which overactivates mTOR and contributes to chronic inflammation. The review's recommendation for lower protein in sedentary individuals echoes ancestral patterns where protein intake was naturally lower and intermittent, supporting better metabolic health and longevity."
 evidence_position: "established"

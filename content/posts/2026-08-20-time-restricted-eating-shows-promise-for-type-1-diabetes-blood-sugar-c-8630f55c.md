@@ -25,8 +25,8 @@ image_photographer_url: "https://www.pexels.com/@n-voitkevich"
 image_source_url: "https://www.pexels.com/photo/person-holding-a-glucose-meter-6941101/"
 image_review_status: "pending"
 image_avg_color: "#B195B7"
-topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['metabolic health', 'mobility', 'sleep health']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 
 A new UIC study suggests that time-restricted eating may help adults with type 1 diabetes manage glucose levels, but the findings are preliminary and require medical supervision.

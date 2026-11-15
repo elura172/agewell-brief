@@ -22,8 +22,8 @@ image_photographer_url: "https://www.pexels.com/@vantik93"
 image_source_url: "https://www.pexels.com/photo/young-woman-in-electronic-headband-12197297/"
 image_review_status: "pending"
 image_avg_color: "#6E6256"
-topics: ['brain health', 'detoxification', 'longevity', 'metabolic health', 'mobility']
-frameworks: ['Dark Mirror', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Otto Frank", "year": "1899", "discovery": "Formalized the Windkessel model, describing how arterial elasticity converts the heart's pulsatile output into steady capillary flow. This model is the foundational physics behind the new optical technique measuring cerebral arterial elasticity, as it quantifies the buffering function of elastic arteries that the study directly assesses."}, {"scientist": "Nicolas Westerhof", "year": "1969", "discovery": "Refined the Windkessel model into a three-element model incorporating characteristic impedance and peripheral resistance, providing a more accurate framework for understanding arterial hemodynamics. The modern study's measurement of cerebral arterial compliance and its decline over 18 months directly applies this refined model to the cerebral circulation, linking cardiovascular risk burden to arterial stiffening."}]
 ancestral_insight: "Traditional hunter-gatherer lifestyles, characterized by high physical activity, low sodium intake, and plant-based diets rich in potassium and nitrates, maintain arterial elasticity through mechanisms such as enhanced endothelial nitric oxide production and reduced oxidative stress. The modern finding that cardiovascular risk burden accelerates arterial stiffening in just 18 months underscores the protective role of these ancestral patterns, which promote sustained vascular compliance and prevent the pulse wave damage described by the Windkessel model."
 evidence_position: "emerging"

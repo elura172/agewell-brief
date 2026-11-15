@@ -25,7 +25,7 @@ image_photographer_url: "https://unsplash.com/@cheaousa?utm_source=agewellbrief&
 image_source_url: "https://unsplash.com/photos/white-microscope-on-top-of-black-table-gKUC4TMhOiY?utm_source=agewellbrief&utm_medium=referral"
 image_review_status: "pending"
 image_avg_color: "#c0c0c0"
-topics: ['brain health', 'cellular senescence', 'consumer safety', 'longevity', 'metabolic health', 'sleep health']
+topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
 

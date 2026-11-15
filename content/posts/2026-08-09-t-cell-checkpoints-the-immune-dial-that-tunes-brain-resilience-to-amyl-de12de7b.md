@@ -22,7 +22,7 @@ image_photographer_url: "https://www.pexels.com/@ivan-s"
 image_source_url: "https://www.pexels.com/photo/photo-of-an-elderly-woman-reading-a-book-while-sitting-on-a-sofa-7394787/"
 image_review_status: "pending"
 image_avg_color: "#BDAAAF"
-topics: ['brain health', 'consumer safety', 'longevity', 'mobility', 'sleep health']
+topics: ['brain health', 'longevity', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 evidence_position: "emerging"
 ---

@@ -10,8 +10,8 @@ source_url: "https://arxiv.org/abs/2608.19436"
 source_title: "Longitudinal Bayesian Learning of Continuous Disease Position across the Alzheimer's Disease Continuum"
 source_name: "arXiv q-bio"
 spiral: "Luminous Mind"
-topics: ['brain health', 'longevity', 'metabolic health']
-frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+topics: ['brain health', 'metabolic health']
+frameworks: ['Higher Flame', 'Luminous Mind']
 ---
 
 New Bayesian framework uses longitudinal DTI to map Alzheimer's as a continuous biological process, not a binary diagnosis.

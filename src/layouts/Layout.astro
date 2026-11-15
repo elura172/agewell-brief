@@ -2,6 +2,7 @@
 interface Props {
   title?: string;
   description?: string;
+  canonicalURL?: string | URL;
   ogType?: "website" | "article";
   image?: string;
   imageAlt?: string;
@@ -15,18 +16,21 @@ interface Props {
 import "../styles/global.css";
 
 const {
-  title = "Agewell Brief — Global Biophysics & Longevity Science Intelligence",
+  title = "Agewell Brief · Biophysics & Longevity Science Intelligence",
   description = "Independent daily synthesis of biophysics, cellular longevity, quantum biology, and healthspan preprints. Source-linked, direct science for human vitality.",
+  canonicalURL: canonicalOverride,
   ogType = "website",
   image = "/og-default.png",
-  imageAlt = "Agewell Brief — Clear signals. Better questions.",
+  imageAlt = "Agewell Brief · Clear signals. Better questions.",
   imageWidth = 1200,
   imageHeight = 630,
   publishedTime,
   modifiedTime,
   structuredData
 } = Astro.props;
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const canonicalURL = canonicalOverride
+  ? new URL(canonicalOverride, Astro.site)
+  : new URL(Astro.url.pathname, Astro.site);
 const pathname = Astro.url.pathname;
 const imageURL = image ? new URL(image, Astro.site) : undefined;
 const structuredDataJSON = structuredData

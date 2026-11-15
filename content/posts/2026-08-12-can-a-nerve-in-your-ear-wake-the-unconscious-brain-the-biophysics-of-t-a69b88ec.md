@@ -10,8 +10,8 @@ source_url: "https://www.frontiersin.org/articles/10.3389/fnhum.2026.1837913"
 source_title: "Transcutaneous auricular vagus nerve stimulation for disorders of consciousness: a narrative review of neurophysiological mechanisms, clinical evidence, and future directions"
 source_name: "Frontiers in Human Neuroscience"
 spiral: "Luminous Mind"
-topics: ['brain health', 'consumer safety', 'detoxification', 'longevity']
-frameworks: ['Dark Mirror', 'Living Waters', 'Luminous Mind']
+topics: ['brain health']
+frameworks: ['Luminous Mind']
 ---
 
 A non-invasive pulse to the vagus nerve is being tested against disorders of consciousness. The mechanism is real, the evidence is early, and the physics runs deep.

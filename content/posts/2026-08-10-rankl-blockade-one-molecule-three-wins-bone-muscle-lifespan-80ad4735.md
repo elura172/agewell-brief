@@ -22,8 +22,8 @@ image_photographer_url: "https://www.pexels.com/@jw-medicare-pvt-ltd-2157283432"
 image_source_url: "https://www.pexels.com/photo/technician-operating-laboratory-equipment-34642915/"
 image_review_status: "pending"
 image_avg_color: "#4F6364"
-topics: ['cellular senescence', 'consumer safety', 'detoxification', 'longevity', 'metabolic health', 'mobility']
-frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Living Waters']
+topics: ['longevity', 'metabolic health', 'mobility']
+frameworks: ['Higher Flame', 'Living Waters']
 ---
 
 A new study in progeroid mice shows that inhibiting RANKL not only preserves bone but also boosts muscle function and extends lifespan—revealing a master switch in the aging cascade.

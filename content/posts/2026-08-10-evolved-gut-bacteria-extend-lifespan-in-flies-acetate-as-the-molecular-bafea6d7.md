@@ -22,8 +22,8 @@ image_photographer_url: "https://www.pexels.com/@2157803149"
 image_source_url: "https://www.pexels.com/photo/scientist-holding-petri-dish-in-lab-setting-34974302/"
 image_review_status: "pending"
 image_avg_color: "#ACADAF"
-topics: ['detoxification', 'gut health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
-frameworks: ['Dark Mirror', 'Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
+topics: ['gut health', 'longevity', 'metabolic health']
+frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
 ---
 
 A preprint shows that directed evolution of Lactiplantibacillus plantarum to resist oxidative stress boosts acetate production, which alone extends Drosophila lifespan and reduces gut aging.
