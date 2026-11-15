@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T18:44:48.498196+00:00",
+  "generated_at": "2026-11-15T14:00:11.804446+00:00",
   "article": {
     "article": "2026-11-14-resting-functional-brain-networks-predict-alzheimer-s-risk-twelve-year-c5e00307",
     "url": "https://agewellbrief.com/brief/2026-11-14-resting-functional-brain-networks-predict-alzheimer-s-risk-twelve-year-c5e00307/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 1,
+      "reader_visits": 11
+    },
     "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
     "content_record": {
       "article_id": "2026-11-14-resting-functional-brain-networks-predict-alzheimer-s-risk-twelve-year-c5e00307",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Resting Functional Brain Networks Predict Alzheimer's Risk Twelve Years Before Symptoms. Blood-oxygen patterns across neural networks predict cognitive trajectories up to 12 years before clinical symptoms emerge. For decades, the search for early signs of Alzheimer’s disease focused primarily on physical debris accumulating in the brain. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
-      "trend": null,
+      "trend": {
+        "rank": 1,
+        "reader_visits": 11
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",

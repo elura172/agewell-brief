@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Resting Functional Brain Networks Predict Alzheimer's Risk Twelve Years Before Symptoms. Blood-oxygen patterns across neural networks predict cognitive trajectories up to 12 years before clinical symptoms emerge. For decades, the search for early signs of Alzheimer’s disease focused primarily on physical debris accumulating in the brain. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
-  "trend": null,
+  "trend": {
+    "rank": 1,
+    "reader_visits": 11
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#C98B3B",
   "stroke_color": "#181A1B",

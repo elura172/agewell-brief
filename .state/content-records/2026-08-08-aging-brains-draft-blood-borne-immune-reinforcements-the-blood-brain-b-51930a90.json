@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T02:00:36.501102+00:00",
+  "generated_at": "2026-11-15T14:00:11.806126+00:00",
   "article": {
     "article": "2026-08-08-aging-brains-draft-blood-borne-immune-reinforcements-the-blood-brain-b-51930a90",
     "url": "https://agewellbrief.com/brief/2026-08-08-aging-brains-draft-blood-borne-immune-reinforcements-the-blood-brain-b-51930a90/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 5,
+      "reader_visits": 5
+    },
     "source_url": "https://medicalxpress.com/news/2026-08-discovery-reveals-aging-human-brains.html",
     "content_record": {
       "article_id": "2026-08-08-aging-brains-draft-blood-borne-immune-reinforcements-the-blood-brain-b-51930a90",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Aging brains draft blood-borne immune reinforcements: the blood-brain barrier is not a wall. New findings suggest that the brain's immune isolation is not absolute—aging may open a regulated door for peripheral immune cells to enter and reshape neuroinflammation. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://medicalxpress.com/news/2026-08-discovery-reveals-aging-human-brains.html",
-      "trend": null,
+      "trend": {
+        "rank": 5,
+        "reader_visits": 5
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",
