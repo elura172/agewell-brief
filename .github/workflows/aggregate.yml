@@ -119,14 +119,16 @@ jobs:
       # That is the one state that never recovers on its own, so it should turn
       # the run red and send the failure notification rather than stalling
       # quietly while briefs pile up unsent.
-      - name: Publish briefs to Substack
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
+      # Archived: Substack syndication is paused while reader capture routes
+      # directly into the sovereign Spiral of Cellular Light ecosystem.
+      - name: Publish briefs to Substack (archived)
+        if: ${{ false }}
         run: python3 scripts/substack_publisher.py --publish --limit 3
         env:
           SUBSTACK_SID: ${{ secrets.SUBSTACK_SID }}
           SUBSTACK_DOMAIN: agewellbrief
-      - name: Commit Substack publish ledger
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
+      - name: Commit Substack publish ledger (archived)
+        if: ${{ false }}
         run: |
           git config user.name "agewell-bot"
           git config user.email "actions@users.noreply.github.com"

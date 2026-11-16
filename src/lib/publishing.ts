@@ -145,9 +145,35 @@ const PROGRAM_SLUGS: Record<string, string> = {
   "dark mirror": "mirror"
 };
 
-export function spiralTeachingUrl(spiralName: string): string {
-  const slug = PROGRAM_SLUGS[spiralName.toLowerCase()] ?? "mind";
-  return `https://spiraloflight.life/teaching/${slug}`;
+export function spiralSlugFor(spiralName: string): string {
+  return PROGRAM_SLUGS[spiralName.toLowerCase().trim()] ?? "waters";
+}
+
+export function spiralTeachingUrl(spiralName: string, content = "brief-teaching"): string {
+  const slug = spiralSlugFor(spiralName);
+  const url = new URL(`https://spiraloflight.life/teaching/${slug}`);
+  url.searchParams.set("lens", "biophysics");
+  url.searchParams.set("spiral", slug);
+  url.searchParams.set("utm_source", "agewellbrief");
+  url.searchParams.set("utm_medium", "referral");
+  url.searchParams.set("utm_content", content);
+  return url.toString();
+}
+
+export function spiralWalkUrl(
+  spiralName: string,
+  content = "brief-walk",
+  plan: "monthly" | "annual" | "lifetime" = "monthly"
+): string {
+  const slug = spiralSlugFor(spiralName);
+  const url = new URL("https://spiraloflight.life/walk");
+  url.searchParams.set("lens", "biophysics");
+  url.searchParams.set("spiral", slug);
+  url.searchParams.set("plan", plan);
+  url.searchParams.set("utm_source", "agewellbrief");
+  url.searchParams.set("utm_medium", "referral");
+  url.searchParams.set("utm_content", content);
+  return url.toString();
 }
 
 /** Curl the quotes in text that never passes through the Markdown renderer.

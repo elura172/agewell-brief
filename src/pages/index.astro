@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import EditorialImage from "../components/EditorialImage.astro";
 import FolioSolarPlate from "../components/FolioSolarPlate.astro";
-import { linkRel, typographic } from "../lib/publishing";
+import { linkRel, spiralWalkUrl, typographic } from "../lib/publishing";
 
 const showDrafts = import.meta.env.DEV;
 const latestFolio = (await getCollection("folios"))
@@ -44,7 +44,7 @@ const structuredData = [
     name: "Agewell Brief",
     url: new URL("/", Astro.site).href,
     logo: new URL("/logo.svg", Astro.site).href,
-    sameAs: ["https://agewellbrief.substack.com"]
+    sameAs: ["https://spiraloflight.life"]
   },
   {
     "@context": "https://schema.org",
@@ -210,7 +210,7 @@ const structuredData = [
           <p class="framework-tag">Fluid &amp; Micro-Circulation</p>
           <h3><a href="/spiral-of-cellular-light/#living-waters">Living Waters</a></h3>
           <p class="framework-desc">Interfacial exclusion zone (H₃O₂) hydration, hepatic Phase I/II clearance, and vascular transport kinetics.</p>
-          <p class="framework-links"><a href="/spiral-of-cellular-light/#living-waters">Lens overview <span>→</span></a> · <a href="/topics/longevity/">Longevity archive</a></p>
+          <p class="framework-links"><a href={spiralWalkUrl("Living Waters", "home-grid-walk")}>28-Day Protocol <span>→</span></a> · <a href="/spiral-of-cellular-light/#living-waters">Lens overview</a> · <a href="/topics/longevity/">Archive</a></p>
         </div>
       </li>
       <li class="framework-card">
@@ -219,7 +219,7 @@ const structuredData = [
           <p class="framework-tag">Gut Microbiome Ecology</p>
           <h3><a href="/spiral-of-cellular-light/#inner-garden">Inner Garden</a></h3>
           <p class="framework-desc">Short-chain fatty acid signaling, mucosal barrier integrity, and microbial circadian rhythmicity.</p>
-          <p class="framework-links"><a href="/spiral-of-cellular-light/#inner-garden">Lens overview <span>→</span></a> · <a href="/topics/gut-health/">Gut health archive</a></p>
+          <p class="framework-links"><a href={spiralWalkUrl("Inner Garden", "home-grid-walk")}>28-Day Protocol <span>→</span></a> · <a href="/spiral-of-cellular-light/#inner-garden">Lens overview</a> · <a href="/topics/gut-health/">Archive</a></p>
         </div>
       </li>
       <li class="framework-card">
@@ -228,7 +228,7 @@ const structuredData = [
           <p class="framework-tag">Senescence &amp; Cellular Renewal</p>
           <h3><a href="/spiral-of-cellular-light/#cell-shedding">Cell Shedding</a></h3>
           <p class="framework-desc">Targeted senolytic clearing cycles, autophagic lysosomal renewal, and SASP attenuation.</p>
-          <p class="framework-links"><a href="/spiral-of-cellular-light/#cell-shedding">Lens overview <span>→</span></a> · <a href="/topics/cellular-senescence/">Senescence archive</a></p>
+          <p class="framework-links"><a href={spiralWalkUrl("Cell Shedding", "home-grid-walk")}>28-Day Protocol <span>→</span></a> · <a href="/spiral-of-cellular-light/#cell-shedding">Lens overview</a> · <a href="/topics/cellular-senescence/">Archive</a></p>
         </div>
       </li>
       <li class="framework-card">
@@ -237,7 +237,7 @@ const structuredData = [
           <p class="framework-tag">Metabolic Resilience &amp; Mitochondria</p>
           <h3><a href="/spiral-of-cellular-light/#higher-flame">Higher Flame</a></h3>
           <p class="framework-desc">Mitochondrial respiration voltage, AMPK and NAD+ salvage pathways, and dual-fuel metabolic flexibility.</p>
-          <p class="framework-links"><a href="/spiral-of-cellular-light/#higher-flame">Lens overview <span>→</span></a> · <a href="/topics/metabolic-health/">Metabolic archive</a></p>
+          <p class="framework-links"><a href={spiralWalkUrl("Higher Flame", "home-grid-walk")}>28-Day Protocol <span>→</span></a> · <a href="/spiral-of-cellular-light/#higher-flame">Lens overview</a> · <a href="/topics/metabolic-health/">Archive</a></p>
         </div>
       </li>
       <li class="framework-card">
@@ -246,7 +246,7 @@ const structuredData = [
           <p class="framework-tag">Cognitive &amp; Neural Coherence</p>
           <h3><a href="/spiral-of-cellular-light/#luminous-mind">Luminous Mind</a></h3>
           <p class="framework-desc">Slow-wave N3 glymphatic clearance, neuroplasticity, and BDNF-supported synaptic maintenance.</p>
-          <p class="framework-links"><a href="/spiral-of-cellular-light/#luminous-mind">Lens overview <span>→</span></a> · <a href="/topics/brain-health/">Brain health archive</a></p>
+          <p class="framework-links"><a href={spiralWalkUrl("Luminous Mind", "home-grid-walk")}>28-Day Protocol <span>→</span></a> · <a href="/spiral-of-cellular-light/#luminous-mind">Lens overview</a> · <a href="/topics/brain-health/">Archive</a></p>
         </div>
       </li>
       <li class="framework-card">
@@ -255,7 +255,7 @@ const structuredData = [
           <p class="framework-tag">Mineral Balance &amp; Bio-Clearing</p>
           <h3><a href="/spiral-of-cellular-light/#dark-mirror">Dark Mirror</a></h3>
           <p class="framework-desc">Intracellular trace mineral equilibrium, membrane potential, and deep tissue bio-clearing pathways.</p>
-          <p class="framework-links"><a href="/spiral-of-cellular-light/#dark-mirror">Lens overview <span>→</span></a> · <a href="/topics/detoxification/">Detoxification archive</a></p>
+          <p class="framework-links"><a href={spiralWalkUrl("Dark Mirror", "home-grid-walk")}>28-Day Protocol <span>→</span></a> · <a href="/spiral-of-cellular-light/#dark-mirror">Lens overview</a> · <a href="/topics/detoxification/">Archive</a></p>
         </div>
       </li>
     </ol>
@@ -295,21 +295,21 @@ const structuredData = [
       </form>
 
       <div id="subscribe-success-box" class="subscribe-success is-hidden">
-        <h3>One step left — confirm on Substack.</h3>
+        <h3>You’re in — your 6 Biophysics Field Guides are unlocked.</h3>
         <p id="subscribe-handoff-lead">
-          We opened Substack in a new tab; your subscription is live once you confirm there.
+          Want to turn these mechanisms into a daily morning &amp; evening rhythm? Step directly into your calibrated 28-Day Circadian Protocol workspace:
         </p>
-        <p>
+        <p style="margin: 14px 0 20px;">
           <a
             id="subscribe-handoff-link"
-            href="https://agewellbrief.substack.com/subscribe"
+            href="https://spiraloflight.life/walk?lens=biophysics&plan=monthly&utm_source=agewellbrief&utm_medium=referral&utm_content=home-subscribe-success"
             target="_blank"
-            rel="noopener"
-            class="magnet-link"
-            >→ Confirm your subscription on Substack</a
+            rel="noopener noreferrer"
+            class="primary-link"
+            >Start the 28-Day Circadian Protocol · $33/mo <span aria-hidden="true">→</span></a
           >
         </p>
-        <p>All 6 Biophysics Field Guides (PDF) are yours to download right now:</p>
+        <p>Download any of the 6 Biophysics Field Guides (PDF) below:</p>
         <div class="lead-magnet-grid">
           <a href="/downloads/field-guides/living-waters-field-guide.pdf" download class="magnet-link">01 Living Waters <em>(Fluid &amp; Transport)</em></a>
           <a href="/downloads/field-guides/inner-garden-field-guide.pdf" download class="magnet-link">02 Inner Garden <em>(Gut Ecology)</em></a>
@@ -328,28 +328,46 @@ const structuredData = [
     const submitBtn = document.getElementById("subscribe-submit-btn") as HTMLButtonElement;
     const successBox = document.getElementById("subscribe-success-box");
 
-    // Subscription is completed on Substack, which owns the list. Handing off
-    // rather than posting in the background keeps the confirmation honest:
-    // the reader only ever sees "subscribed" from Substack itself.
-    function handOffToSubstack(email: string) {
-      const handoff =
-        "https://agewellbrief.substack.com/subscribe?email=" + encodeURIComponent(email);
-      const opened = window.open(handoff, "_blank", "noopener");
-
-      // If the popup was blocked there is no Substack tab, so the copy must not
-      // claim one opened. Point the reader at a link they can actually click.
-      const link = document.getElementById("subscribe-handoff-link") as HTMLAnchorElement;
-      const lead = document.getElementById("subscribe-handoff-lead");
-      if (link) link.href = handoff;
-      if (lead && !opened) {
-        lead.textContent =
-          "Your browser blocked the new tab. Finish subscribing here — it takes one click:";
-      }
-
+    async function captureSpiralLead(email: string) {
       if (submitBtn) {
         submitBtn.disabled = true;
-        submitBtn.textContent = opened ? "Opened in a new tab →" : "Finish on Substack →";
+        submitBtn.textContent = "Unlocking guides…";
       }
+
+      try {
+        await fetch("https://spiraloflight.life/api/phase0", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email,
+            tier: "gentle_waters",
+            region: "us",
+            source: "agewell_home"
+          })
+        });
+      } catch {}
+
+      try {
+        localStorage.setItem("agewell_lead_email", email);
+        window.dispatchEvent(
+          new CustomEvent("agewell:lead-captured", {
+            detail: { placement: "home_subscribe", spiral: "living-waters" }
+          })
+        );
+      } catch {}
+
+      const link = document.getElementById("subscribe-handoff-link") as HTMLAnchorElement;
+      if (link) {
+        const walkUrl = new URL("https://spiraloflight.life/walk");
+        walkUrl.searchParams.set("lens", "biophysics");
+        walkUrl.searchParams.set("plan", "monthly");
+        walkUrl.searchParams.set("email", email);
+        walkUrl.searchParams.set("utm_source", "agewellbrief");
+        walkUrl.searchParams.set("utm_medium", "referral");
+        walkUrl.searchParams.set("utm_content", "home-subscribe-success");
+        link.href = walkUrl.toString();
+      }
+
       if (form) form.style.display = "none";
       if (successBox) successBox.classList.remove("is-hidden");
     }
@@ -357,9 +375,9 @@ const structuredData = [
     if (form && emailInput && submitBtn && successBox) {
       form.addEventListener("submit", (e) => {
         e.preventDefault();
-        const email = emailInput.value.trim();
+        const email = emailInput.value.trim().toLowerCase();
         if (!email) return;
-        handOffToSubstack(email);
+        captureSpiralLead(email);
       });
     }
 

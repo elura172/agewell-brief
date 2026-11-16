@@ -67,14 +67,22 @@ const structuredDataJSON = structuredData
           if (!target) return;
           const href = target.getAttribute("href") || "";
           
-          if (href.includes("fullscript.com")) {
-            posthog.capture("fullscript_link_clicked", { url: href, text: target.innerText });
-          } else if (href.includes("substack.com")) {
-            posthog.capture("substack_link_clicked", { url: href, text: target.innerText });
+          if (href.includes("spiraloflight.life")) {
+            posthog.capture("spiraloflight_link_clicked", {
+              url: href,
+              text: target.innerText.trim(),
+              page_path: window.location.pathname
+            });
+          } else if (href.includes("fullscript.com")) {
+            posthog.capture("fullscript_link_clicked", { url: href, text: target.innerText.trim() });
           } else if (href.includes(".pdf")) {
-            posthog.capture("pdf_download_clicked", { pdf: href, name: target.innerText });
+            posthog.capture("pdf_download_clicked", { pdf: href, name: target.innerText.trim() });
           }
         });
+
+        window.addEventListener("agewell:lead-captured", ((e: CustomEvent) => {
+          posthog.capture("spiral_lead_captured", e.detail || {});
+        }) as EventListener);
       }
     </script>
 
@@ -162,8 +170,8 @@ const structuredDataJSON = structuredData
         <a href="/about/">About</a>
         <a href="/folios/">Broadsheet Folios</a>
         <a href="/spiral-of-cellular-light/">Spiral of Cellular Light</a>
+        <a href="https://spiraloflight.life/walk?lens=biophysics&utm_source=agewellbrief&utm_medium=referral&utm_content=footer-walk" target="_blank" rel="noopener noreferrer">28-Day Protocol ↗</a>
         <a href="/frontier-map/">Frontier map</a>
-        <a href="https://agewellbrief.substack.com" target="_blank" rel="noopener noreferrer">Substack ↗</a>
         <a href="/editorial-policy/">Editorial policy</a>
         <a href="/affiliate-disclosure/">Disclosure</a>
         <a href="/privacy/">Privacy</a>

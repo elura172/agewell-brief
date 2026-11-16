@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { spiralTeachingUrl, withUtm } from "../lib/publishing";
+import { spiralTeachingUrl, spiralWalkUrl, withUtm } from "../lib/publishing";
 
 interface SpiralResource {
   slug: string;
@@ -123,8 +123,12 @@ const structuredData = {
               <p class="spiral-axiom">{resource.axiom}</p>
               <p class="spiral-desc">{resource.description}</p>
               <div class="spiral-card-actions">
-                <a href={spiralTeachingUrl(resource.name)} target="_blank" rel="noopener noreferrer" class="spiral-primary-link">
-                  Walk the {resource.name} spiral <span aria-hidden="true">→</span>
+                <a href={spiralWalkUrl(resource.name, `spiral-page-walk-${resource.slug}`)} target="_blank" rel="noopener noreferrer" class="spiral-primary-link">
+                  Start 28-Day Protocol ($33/mo) <span aria-hidden="true">→</span>
+                </a>
+                <span class="spiral-action-sep" aria-hidden="true">·</span>
+                <a href={spiralTeachingUrl(resource.name, `spiral-page-teaching-${resource.slug}`)} target="_blank" rel="noopener noreferrer" class="spiral-secondary-link">
+                  Biophysics monograph ↗
                 </a>
                 <span class="spiral-action-sep" aria-hidden="true">·</span>
                 <a href={resource.pdfUrl} download class="spiral-secondary-link">Field guide (PDF) ↓</a>
@@ -194,7 +198,7 @@ const structuredData = {
         </div>
         <div class="spiral-colophon-copy">
           <p>
-            <strong>Spiral of Cellular Light</strong> is a first-party digital teaching program (<a href="https://spiraloflight.life" target="_blank" rel="noopener noreferrer">spiraloflight.life</a>) paired with free PDF field guides. Agewell Brief keeps primary peer-reviewed reporting, clinical consensus, and the companion framework distinct so readers can evaluate each study on its own evidence.
+            <strong>Spiral of Cellular Light</strong> (<a href="https://spiraloflight.life/walk?lens=biophysics&utm_source=agewellbrief&utm_medium=referral&utm_content=spiral-colophon" target="_blank" rel="noopener noreferrer">spiraloflight.life</a>) pairs open biophysics monographs and free PDF field guides with a paid <strong>28-Day Circadian Protocol Workspace</strong> ($33/month cycle, $222/year Annual Passage across all four seasons, or $555 Founding Patron Pass capped at 33 seats) featuring calibrated morning/evening dosing windows, Apple/Google Calendar WebCal sync, and an AI Companion. Agewell Brief keeps primary peer-reviewed reporting, clinical consensus, and the companion framework distinct so readers can evaluate each study on its own evidence.
           </p>
           <p>
             For readers in Canada, practitioner-grade supplement plans corresponding to each lens are available through our <a href={withUtm("https://ca.fullscript.com/s/spiraloflight", "spiral-page-sourcing")} target="_blank" rel="sponsored noopener noreferrer">Canadian Fullscript dispensary</a> (commission-supported at no added cost to you). Always review any protocol with a qualified healthcare professional.

@@ -2,7 +2,7 @@
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import FolioSolarPlate from "../../components/FolioSolarPlate.astro";
-import { linkRel, readingTimeMinutes, typographic } from "../../lib/publishing";
+import { linkRel, readingTimeMinutes, spiralTeachingUrl, spiralWalkUrl, typographic } from "../../lib/publishing";
 
 export async function getStaticPaths() {
   const folios = (await getCollection("folios"))
@@ -173,6 +173,16 @@ const structuredData = [
       </p>
       <div class="folio-colophon-links">
         <a href="/folios/">← Solar Folio Index</a>
+        {folio.data.spiral && (
+          <a href={spiralWalkUrl(folio.data.spiral, `folio-walk-${folio.id}`, "annual")} target="_blank" rel="noopener noreferrer">
+            Run {folio.data.spiral} in the 28-Day Protocol ($33/mo · $222/yr) →
+          </a>
+        )}
+        {folio.data.spiral && (
+          <a href={spiralTeachingUrl(folio.data.spiral, `folio-teaching-${folio.id}`)} target="_blank" rel="noopener noreferrer">
+            {folio.data.spiral} biophysics monograph ↗
+          </a>
+        )}
         <a href="/frontier-map/">Explore the Living Frontier Map →</a>
       </div>
     </footer>
