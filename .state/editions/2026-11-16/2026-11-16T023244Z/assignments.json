@@ -1,0 +1,18 @@
+{
+  "edition_angle": "Evaluating biological evidence behind anti-aging interventions and distinguishing proven lifestyle/pharmacological strategies from ineffective supplements.",
+  "assignments": [
+    {
+      "article_id": "087c94269b0e41c9db7a9a0c",
+      "role": "lead",
+      "angle": "Yale's meta-analysis of 51 studies demonstrates that while exercise, healthy diets, and specific prescription drugs measurably slow biological aging clocks, commercial anti-aging supplements fail to show meaningful efficacy.",
+      "confidence": 0.92,
+      "reason": "Provides a comprehensive, evidence-based synthesized review addressing the efficacy of human longevity interventions, directly counteracting marketing hype around anti-aging supplements."
+    }
+  ],
+  "held_back": [
+    "40caedc24924923858e4a9d8",
+    "e8c72c931a6031cef21b46e5",
+    "9003d5951fb12ca853a3a39f"
+  ],
+  "mode": "agent"
+}

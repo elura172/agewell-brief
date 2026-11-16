@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "observational correlation",
+      "reason": "While it notes an effect despite insomnia, the core advice (keeping regular daily routines reduces pain/depression via circadian regulation) is well-established observational lifestyle advice.",
+      "angle": "Why circadian consistency buffers chronic pain and mood even when night sleep is disrupted.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic observational association",
+      "reason": "Missing summary text, title indicates routine socio-epidemiological correlation with no novel biological or actionable insight.",
+      "angle": "How life-course social mobility trends correlate with late-life depressive symptoms in India.",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "neuroimaging mapping",
+      "reason": "Identifying shared memory networks in MCI is interesting science, but the provided summary lacks specific neural circuitry details or novel intervention angles.",
+      "angle": "How functional neuroimaging maps the structural brain network bridging subjective memory complaints and clinical MCI.",
+      "mode": "agent"
+    },
+    "087c94269b0e41c9db7a9a0c": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "meta-analytic clarification",
+      "reason": "A comprehensive Yale meta-analysis of 51 studies definitively categorizes which anti-aging interventions (prescription drugs, diet, exercise) measurably alter biological clocks versus popular OTC supplements that fail.",
+      "angle": "The Yale meta-analysis reality check: which biological clock modifiers actually work, and why OTC anti-aging supplements failed the test.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "recycled advice",
+      "reason": "Generic consumer health article stub on anti-aging supplements without specific new trial data or novel mechanisms.",
+      "angle": "General consumer warnings regarding OTC anti-aging supplement claims.",
+      "mode": "agent"
+    },
+    "40caedc24924923858e4a9d8": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "named biological mechanism",
+      "reason": "Spatial transcriptomics and snRNA-seq reveal that chronological age drives visceral fat senescence and tissue remodeling to a greater degree than BMI, pin-pointing adipose stem cells and mesothelium as key senescent hubs.",
+      "angle": "Age over adiposity: spatial transcriptomics shows chronological aging drives visceral fat breakdown more than high BMI.",
+      "mode": "agent"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "translational breakthrough",
+      "reason": "Translating mouse longevity research to humans by demonstrating a specific anti-aging compound directly improves muscle glucose metabolism in clinical human trials.",
+      "angle": "Translating longevity: the mouse anti-aging molecule that successfully boosted human muscle glucose metabolism.",
+      "mode": "agent"
+    },
+    "2b6fb1d568d0b7d7842a3c5f": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "epidemiological association",
+      "reason": "The link between acute hospital delirium and long-term dementia risk is an established clinical observation lacking a new mechanistic trigger or prevention protocol in the summary.",
+      "angle": "Post-hospital delirium as a early warning sign for latent neurodegenerative decline.",
+      "mode": "agent"
+    },
+    "9003d5951fb12ca853a3a39f": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "frontier therapeutic target",
+      "reason": "Demonstrates AAV-delivered E2F4 gene therapy reverses pre-existing synaptic and cognitive deficits in advanced Alzheimer's mouse models by reshaping phosphoregulatory signaling.",
+      "angle": "Beyond clearing amyloid: how E2F4 gene therapy reverses established synaptic deficits in advanced Alzheimer's models.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "087c94269b0e41c9db7a9a0c",
+    "40caedc24924923858e4a9d8",
+    "e8c72c931a6031cef21b46e5",
+    "9003d5951fb12ca853a3a39f"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "b3bbba0e16b511eb7aed2b5c",
+    "eee7cce180eb8902fb8e3ce0",
+    "2beb92ec2e8851b24c8a89de",
+    "2b6fb1d568d0b7d7842a3c5f"
+  ],
+  "mode": "agent"
+}

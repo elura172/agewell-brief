@@ -1,0 +1,25 @@
+{
+  "edition_id": "2026-11-16",
+  "run_id": "2026-11-16T023244Z",
+  "generated_at": "2026-11-16T02:32:44.646974+00:00",
+  "attempted_stories": 1,
+  "generated_stories": 1,
+  "held_off_mission_stories": 0,
+  "failed_stories": 0,
+  "publishable": true,
+  "checks": [
+    {
+      "article_id": "087c94269b0e41c9db7a9a0c",
+      "publishable": true,
+      "reasons": [],
+      "source_status": "linked",
+      "editorial_status": "automated-checks",
+      "metadata_review_status": "rejected",
+      "visual_review_status": "pending",
+      "desk_review": {
+        "status": "ready_for_human_review",
+        "reasons": []
+      }
+    }
+  ]
+}
