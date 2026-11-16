@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { publishedBriefs, spiralTeachingUrl, spiralWalkUrl, topicSlug, typographic, withUtm } from "../../lib/publishing";
+import { publishedBriefs, spiralSlugFor, spiralTeachingUrl, spiralWalkUrl, topicSlug, typographic, withUtm } from "../../lib/publishing";
 
 export async function getStaticPaths() {
   const entries = publishedBriefs(await getCollection("briefs"));
@@ -195,11 +195,30 @@ const structuredData = [
         <p class="eyebrow">The useful question</p>
         <h2 id="topic-context-heading">{guide.question}</h2>
       </div>
-      {guide.resource && <div class="topic-resource">
+      {guide.resource && <div
+        class="topic-resource"
+        data-spiral-slug={spiralSlugFor(guide.resource.name)}
+        data-pdf-url={guide.resource.pdfUrl}
+      >
         <p>28-Day Companion Protocol · {guide.resource.name}</p>
         <a href={spiralWalkUrl(guide.resource.name, `topic-walk-${topicSlug(category)}`, "monthly")} rel="noopener noreferrer" target="_blank">Start 28-Day {guide.resource.name} Protocol ($33/mo) <span aria-hidden="true">→</span></a>
         <a class="topic-framework-link" href={spiralTeachingUrl(guide.resource.name, `topic-teaching-${topicSlug(category)}`)} rel="noopener noreferrer" target="_blank">Open biophysics monograph <span aria-hidden="true">↗</span></a>
-        <a href={guide.resource.pdfUrl} download class="topic-pdf-download">Companion field guide (PDF) ↓</a>
+        <form id="topic-guide-form" class="topic-guide-form">
+          <input
+            type="email"
+            id="topic-guide-email"
+            required
+            placeholder="Email for free Field Guide PDF…"
+            aria-label={`Email address for ${guide.resource.name} Field Guide PDF`}
+            class="topic-guide-input"
+          />
+          <button type="submit" id="topic-guide-btn" class="topic-guide-btn">
+            Send PDF ↓
+          </button>
+        </form>
+        <a id="topic-guide-pdf-link" href={guide.resource.pdfUrl} download class="topic-pdf-download is-hidden">
+          ✓ Download {guide.resource.name} Field Guide (PDF) ↓
+        </a>
         <small>
           In Canada, protocol supplements are stocked at
           <a href={withUtm(guide.resource.href, "topic-page-sourcing")} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>
@@ -223,9 +242,101 @@ const structuredData = [
       </ol>
     </section>
   </main>
+
+  <script>
+    const resourceBox = document.querySelector(".topic-resource") as HTMLElement | null;
+    const topicForm = document.getElementById("topic-guide-form") as HTMLFormElement | null;
+    const topicEmail = document.getElementById("topic-guide-email") as HTMLInputElement | null;
+    const topicBtn = document.getElementById("topic-guide-btn") as HTMLButtonElement | null;
+    const topicPdfLink = document.getElementById("topic-guide-pdf-link") as HTMLAnchorElement | null;
+    const spiralSlug = resourceBox?.dataset.spiralSlug || "waters";
+
+    try {
+      const saved = localStorage.getItem("agewell_lead_email");
+      if (saved && topicForm && topicPdfLink) {
+        topicForm.style.display = "none";
+        topicPdfLink.classList.remove("is-hidden");
+      }
+    } catch {}
+
+    if (topicForm && topicEmail && topicBtn && topicPdfLink) {
+      topicForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const email = topicEmail.value.trim().toLowerCase();
+        if (!email) return;
+        topicBtn.disabled = true;
+        topicBtn.textContent = "Unlocking…";
+
+        try {
+          await fetch("https://spiraloflight.life/api/phase0", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              email,
+              tier: spiralSlug === "waters" ? "gentle_waters" : "full_foundation",
+              region: "us",
+              guideSlug: spiralSlug,
+              source: `agewell_topic_${spiralSlug}`
+            })
+          });
+        } catch {}
+
+        try {
+          localStorage.setItem("agewell_lead_email", email);
+          window.dispatchEvent(
+            new CustomEvent("agewell:lead-captured", {
+              detail: { placement: "topic_page", spiral: spiralSlug, page_path: window.location.pathname }
+            })
+          );
+        } catch {}
+
+        topicForm.style.display = "none";
+        topicPdfLink.classList.remove("is-hidden");
+        topicPdfLink.click();
+      });
+    }
+  </script>
 </Layout>
 
 <style>
+  .topic-guide-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 10px 0 6px;
+  }
+  .topic-guide-input {
+    flex: 1 1 170px;
+    min-height: 36px;
+    padding: 6px 10px;
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    background: var(--white);
+    color: var(--ink);
+  }
+  .topic-guide-btn {
+    min-height: 36px;
+    padding: 6px 12px;
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: var(--ink);
+    color: var(--paper);
+    border: 1px solid var(--ink);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .topic-guide-btn:hover {
+    background: var(--saffron-ink);
+    border-color: var(--saffron-ink);
+  }
+  .topic-pdf-download.is-hidden {
+    display: none;
+  }
   .topic-pdf-download {
     display: block;
     margin-top: 8px;

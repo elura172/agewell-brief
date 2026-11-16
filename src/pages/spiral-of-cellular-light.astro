@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { spiralTeachingUrl, spiralWalkUrl, withUtm } from "../lib/publishing";
+import { spiralSlugFor, spiralTeachingUrl, spiralWalkUrl, withUtm } from "../lib/publishing";
 
 interface SpiralResource {
   slug: string;
@@ -131,10 +131,28 @@ const structuredData = {
                   Biophysics monograph ↗
                 </a>
                 <span class="spiral-action-sep" aria-hidden="true">·</span>
-                <a href={resource.pdfUrl} download class="spiral-secondary-link">Field guide (PDF) ↓</a>
+                <button
+                  type="button"
+                  class="spiral-pdf-gate-btn spiral-secondary-link"
+                  data-guide-slug={spiralSlugFor(resource.name)}
+                  data-guide-name={resource.name}
+                  data-pdf-url={resource.pdfUrl}
+                >
+                  Field guide (PDF) ↓
+                </button>
                 <span class="spiral-action-sep" aria-hidden="true">·</span>
                 <a href={resource.topicHref} class="spiral-secondary-link">{resource.topicLabel}</a>
               </div>
+              <form class="spiral-inline-gate is-hidden" data-gate-for={spiralSlugFor(resource.name)} data-pdf-url={resource.pdfUrl}>
+                <input
+                  type="email"
+                  required
+                  placeholder={`Enter your email for the ${resource.name} PDF…`}
+                  aria-label={`Email address for ${resource.name} Field Guide PDF`}
+                  class="spiral-gate-input"
+                />
+                <button type="submit" class="spiral-gate-submit">Unlock PDF ↓</button>
+              </form>
             </div>
           </li>
         ))}
@@ -207,9 +225,136 @@ const structuredData = {
       </div>
     </footer>
   </main>
+
+  <script>
+    function triggerPdfDownload(url: string) {
+      const a = document.createElement("a");
+      a.href = url;
+      a.setAttribute("download", "");
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    document.querySelectorAll<HTMLButtonElement>(".spiral-pdf-gate-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const pdfUrl = btn.dataset.pdfUrl || "";
+        const slug = btn.dataset.guideSlug || "waters";
+        let savedEmail = "";
+        try {
+          savedEmail = localStorage.getItem("agewell_lead_email") || "";
+        } catch {}
+
+        if (savedEmail && pdfUrl) {
+          triggerPdfDownload(pdfUrl);
+          return;
+        }
+
+        const card = btn.closest(".spiral-resource-copy");
+        const form = card?.querySelector<HTMLFormElement>(`form[data-gate-for="${slug}"]`);
+        if (form) {
+          form.classList.remove("is-hidden");
+          form.querySelector("input")?.focus();
+        }
+      });
+    });
+
+    document.querySelectorAll<HTMLFormElement>(".spiral-inline-gate").forEach((form) => {
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const input = form.querySelector<HTMLInputElement>("input");
+        const submitBtn = form.querySelector<HTMLButtonElement>("button");
+        const email = input?.value.trim().toLowerCase() || "";
+        const slug = form.dataset.gateFor || "waters";
+        const pdfUrl = form.dataset.pdfUrl || "";
+        if (!email) return;
+
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.textContent = "Unlocking…";
+        }
+
+        try {
+          await fetch("https://spiraloflight.life/api/phase0", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              email,
+              tier: slug === "waters" ? "gentle_waters" : "full_foundation",
+              region: "us",
+              guideSlug: slug,
+              source: `agewell_spiral_page_${slug}`
+            })
+          });
+        } catch {}
+
+        try {
+          localStorage.setItem("agewell_lead_email", email);
+          window.dispatchEvent(
+            new CustomEvent("agewell:lead-captured", {
+              detail: { placement: "spiral_framework_page", spiral: slug, page_path: window.location.pathname }
+            })
+          );
+        } catch {}
+
+        form.classList.add("is-hidden");
+        if (pdfUrl) triggerPdfDownload(pdfUrl);
+      });
+    });
+  </script>
 </Layout>
 
 <style>
+  .spiral-pdf-gate-btn {
+    background: none;
+    border: 0;
+    padding: 0;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .spiral-inline-gate.is-hidden {
+    display: none;
+  }
+  .spiral-inline-gate {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 10px 12px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+  }
+  .spiral-gate-input {
+    flex: 1 1 200px;
+    min-height: 36px;
+    padding: 7px 10px;
+    font-family: var(--sans);
+    font-size: 0.84rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 2px;
+    background: var(--white);
+    color: var(--ink);
+  }
+  .spiral-gate-submit {
+    min-height: 36px;
+    padding: 7px 14px;
+    font-family: var(--sans);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: var(--ink);
+    color: var(--paper);
+    border: 1px solid var(--ink);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .spiral-gate-submit:hover {
+    background: var(--saffron-ink);
+    border-color: var(--saffron-ink);
+  }
   .spiral-resources {
     margin-top: 24px;
   }

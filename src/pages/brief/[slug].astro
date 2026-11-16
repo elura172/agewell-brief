@@ -433,6 +433,7 @@ const structuredData = [
               tier: spiralSlug === "waters" ? "gentle_waters" : "full_foundation",
               region: "us",
               activeSpirals,
+              guideSlug: spiralSlug,
               source: `agewell_brief_${spiralSlug}`
             })
           });
@@ -454,6 +455,9 @@ const structuredData = [
         applyPersonalizedWalkHref(email);
         guideForm.style.display = "none";
         guideUnlockedBox.classList.remove("is-hidden");
+
+        const pdfLink = document.getElementById("brief-guide-pdf-link") as HTMLAnchorElement | null;
+        if (pdfLink) pdfLink.click();
       });
     }
   </script>
