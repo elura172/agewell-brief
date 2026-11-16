@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "af92c46257548f712a2a0344": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "recycled coverage",
+      "reason": "This specific MIT study on pink noise and glymphatic clearance was covered in yesterday's edition.",
+      "angle": "N/A - Duplicate coverage.",
+      "mode": "agent"
+    },
+    "66f3727573e1cef18679a879": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle observation",
+      "reason": "The finding that routine schedules correlate with less pain and depression is standard observational health advice with high obviousness and no specific mechanism.",
+      "angle": "How rigid daily schedules influence circadian entrainment to alter pain threshold pathways.",
+      "mode": "agent"
+    },
+    "c17bd4d3fc89f78df18af5a0": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "frontier technology / novel therapeutic intervention",
+      "reason": "Translating metabolic signatures from human centenarians into engineered bacteria that successfully improve metabolic health in aged mice is a strong, concrete translation.",
+      "angle": "How centenarian gut microbes are being engineered into targeted probiotics to reverse metabolic decline in older tissue.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Missing summary text, and the link between social mobility and depression is a well-established sociological finding.",
+      "angle": "N/A - Lacks abstract data and actionable novelty.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "recycled lifestyle advisory",
+      "reason": "Generic consumer advice on supplements without new trial data or novel regulatory alerts.",
+      "angle": "Evaluating consumer safety warnings vs actual efficacy data in OTC longevity supplements.",
+      "mode": "agent"
+    },
+    "eee7cce180eb8902fb8e3ce0": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "frontier technology / diagnostic biomarker",
+      "reason": "Identifying a shared functional neural network that uncovers subjective memory complaints before formal cognitive impairment tests catch them.",
+      "angle": "The hidden brain circuit that detects memory decline long before clinical tests show impairment.",
+      "mode": "agent"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "clinical translation",
+      "reason": "Reports human translation (improving muscle glucose metabolism) of a compound previously validated only in mouse models (likely NMN/NAD+ precursor research from WashU).",
+      "angle": "Translating mouse longevity compounds to human biology: actual muscle tissue changes in clinical trials.",
+      "mode": "agent"
+    },
+    "3698c8429fa22e7ded6bed72": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "Identifies endothelial lamin A/C loss as a novel structural driver of vascular mechanotransduction failure, arterial stiffening, and cardiac pressure overload during aging.",
+      "angle": "How the breakdown of a nuclear envelope protein in blood vessels drives arterial stiffness and hypertension.",
+      "mode": "agent"
+    },
+    "501081b8618cb051ac75b80a": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "unusual result / novel mechanism",
+      "reason": "Investigates transcriptomic profiling demonstrating that low-dose LSD induces gene expression changes directly opposing signatures of brain aging and neurodegeneration.",
+      "angle": "Beyond therapeutics: how micro-doses of psychedelics flip gene expression patterns associated with brain aging.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "c17bd4d3fc89f78df18af5a0",
+    "eee7cce180eb8902fb8e3ce0",
+    "e8c72c931a6031cef21b46e5",
+    "3698c8429fa22e7ded6bed72",
+    "501081b8618cb051ac75b80a"
+  ],
+  "held_back": [
+    "af92c46257548f712a2a0344",
+    "66f3727573e1cef18679a879",
+    "b3bbba0e16b511eb7aed2b5c",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}

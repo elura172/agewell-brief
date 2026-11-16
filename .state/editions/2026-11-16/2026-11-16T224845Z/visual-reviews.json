@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "eee7cce180eb8902fb8e3ce0",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "None of the provided candidates match the editorial intent, subject, or required visual anchors for this brain health and neuroimaging story. Candidate Pexels:6684220 depicts a student cheating on an exam, Unsplash:m5SGlo611H8 shows a generic man using a MacBook, and Pexels:6787710 shows a senior man working in a greenhouse. None show a neuroscience laboratory, MRI/fMRI scan displays, electrophysiology research, or a relevant clinical cognitive testing setting.",
+      "concerns": [
+        "All candidates are completely off-topic and fail to fulfill the category visual anchors or image brief requirements."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]

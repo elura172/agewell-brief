@@ -1,97 +1,7 @@
 {
-  "generated_at": "2026-11-16T02:32:44.007178+00:00",
+  "generated_at": "2026-11-16T22:48:44.999390+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
-    {
-      "topic": "circadian disturbances frailty risk",
-      "headline": "Dementia: Disturbances to circadian rhythm may increase risk - Medical News Today",
-      "category": "sleep health",
-      "score": 25.0,
-      "mention_count": 4,
-      "source_count": 3,
-      "sources": [
-        "Frontiers",
-        "Medical News Today",
-        "Nature"
-      ],
-      "newest": "2026-01-09T08:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Research advances in the study of sleep disorders, circadian rhythm disturbances and Alzheimer’s disease - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnRteFkyQzM2S2FRUVVGN1RWSmdYVy1jZ3hpcmI3dXY1anNCZFdKdGFNZncyOUtqZ2NEOWpIVmNaeUJ2a2M2ZTNvZUFPNWVLTGhRTF9SdXhRd211MmhzUHc4Y3lacWhTSXBkNzFaQ0pULU5xZmRJd29fbmV5aFNMWWJzbzZ0ZnNRNXFQcnJ1VzVtMEFEeEFqUUVfUQ?oc=5",
-          "source": "Frontiers",
-          "published": "Tue, 16 Aug 2022 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        },
-        {
-          "title": "Dementia: Disturbances to circadian rhythm may increase risk - Medical News Today",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVF6QU9aMmVoQkFuNlctMUVzczNDVndYbW81bTJzSUc1ZVc2SnhpVzJsN1BNYkpKOUxxU2NqdnpkcFpOMFhrNlBiMnV1Sm83TWVhY2xUUGlQaXo0WndON1h2ZlNfMEYzSi1pYkt3OGlfZE9nVkNTRjlraEctZ2JGRnNjZzhldExaN2dYdHc1d1laT3dYOVZocFNmMWY0RVNVdWJoeWtweDNHOW5PYjdWQjFabC1sQQ?oc=5",
-          "source": "Medical News Today",
-          "published": "Fri, 09 Jan 2026 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
-      "topic": "backed daily four improve minute mobility science strength that workout",
-      "headline": "The science-backed four-minute daily workout that can improve strength and mobility - The Independent",
-      "category": "mobility",
-      "score": 21.0,
-      "mention_count": 3,
-      "source_count": 3,
-      "sources": [
-        "The Brighter Side of News",
-        "The Independent",
-        "The Pennsylvania State University"
-      ],
-      "newest": "2026-11-11T08:56:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "The science-backed four-minute daily workout that can improve strength and mobility - The Independent",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOVdGTzBXd0UyeEVvTWxlZEVka0lkRTJRVlFIU1BIRWtHRVZKSXVTaUdRazV0UFQ5WFY3ZWdfTi1mQUZ6UEItOU51ZHY2TC1CSnVJTkNWeU5lWGNXQ1k1QnBtM0RrTE4wa2doQU9lYlJwOHBXNWRUNTdFNzd3TGZiMmNqWkI2RVlBVXpkOHczUXItNGtyUG44WnlKMGplQlJFU0NNcHZB?oc=5",
-          "source": "The Independent",
-          "published": "Wed, 11 Nov 2026 08:56:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
-        },
-        {
-          "title": "Four-minute daily workout improves strength, balance in older adults - The Pennsylvania State University",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVE9lUDlWTF84VWdfVHV6c0NjSi1BbnhKZTBIeE9xdDg0MUx1ZEw5QXRneWE5SGpMenUxaW44czhrNGhNNFRJZFNTNElfWC00R1NqMVpqWFRtUk95Q0ZVbnRwSGkzem5ibnFfU0g0ZVFGOFU4aG1tV3hLbDZ4RU1KM0JRS3VpQ2lrZ3c4blZXc3drN19vcDZ6S3p5RWo1QWt6NG1Oak1mZw?oc=5",
-          "source": "The Pennsylvania State University",
-          "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
-        },
-        {
-          "title": "Four-minute daily exercise boosts strength and mobility in older adults - The Brighter Side of News",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNWctSXQzdGMzdGVpUzVlc0NaS3hWUThQUnhCWVlObGxhWmpNVUwyel92M01BekJEWDRVdXFtR1lYaHVLQmFBbmJfNUR6cHVtclAxY2RMeGRQWmprRUJXRHIxV0VlMnhFcDBoMEhqQWNGSG5tZzRoYmIyS2dMZHZUSGhrSXpOWDV4OXRNMVoxUkptVElueDRBM0hmTURfM0VVcjNUT2Zr?oc=5",
-          "source": "The Brighter Side of News",
-          "published": "Fri, 26 Jun 2026 07:00:00 GMT",
-          "seed": "mobility",
-          "category": "mobility"
-        }
-      ]
-    },
     {
       "topic": "body faster little make much sleep your",
       "headline": "Too much or too little sleep may make your body age faster - Science Daily",
@@ -130,6 +40,53 @@
           "published": "Wed, 13 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "drug enhancement harmful hidden ingredients natural supplement",
+      "headline": "X10 Natural Enhancement Supplement may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
+      "category": "consumer safety",
+      "score": 19.0,
+      "mention_count": 4,
+      "source_count": 1,
+      "sources": [
+        "U.S. Food and Drug Administration (.gov)"
+      ],
+      "newest": "2026-05-29T07:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "X10 Natural Enhancement Supplement may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR1AzWllDNFIyaWRMSlRUb01OTGhBcXFnNkJzemExM3ozOHowVlJDM1UxSlZjaVlSajhSZlI5TkltSmNnUGhwRU1CTy0wdDI1SFhqUDlxUTZabnpnbC1uTFkzSXd0VUlEQ29UbVpMQmR5aU1MNE1zMkpvTXh6NDJaRFg0UVdvV0dMZzVLRlRxQzB1VHlnMkFzdWdsMWZXbVJXZkdtSlpRd2tKMDZBQlVNMmlZN3lWd0diWUN5Mk9LZTdIVm53UkZ0a2xON3RQaFR3d1dEdEpzSUM?oc=5",
+          "source": "U.S. Food and Drug Administration (.gov)",
+          "published": "Fri, 29 May 2026 07:00:00 GMT",
+          "seed": "consumer safety",
+          "category": "consumer safety"
+        },
+        {
+          "title": "Umary contains hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSUxIOTVONXcxcGhUdG9PRGRFanRadDI3MnFpemFZNmNta1g5NkNXdW9Xd1VSZVFuVV9PSFdCRTliZ0dyY21UcG9LZVRRcndodk0xbHdpdUJYZTVPZDZEbGEwdm1TSklrMHlFRjZFYWRGTXI4eWdaOWF1a1dwTmpvS1NJUkR3aFlTNVdOSzAwY1R3MEhzc3pxaUsydUFUdVM2NzllVQ?oc=5",
+          "source": "U.S. Food and Drug Administration (.gov)",
+          "published": "Tue, 03 Feb 2026 00:36:32 GMT",
+          "seed": "consumer safety",
+          "category": "consumer safety"
+        },
+        {
+          "title": "ULTRA ADVANC3 and ULTRA ADVANC3 GOLD may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQY1JjLTNBTHFxbjBJQ1hnRG1KaWstcXNqelYxNE8zSVp0NlBlR0VMQUZiWlhLWkg0UTFBbWVIcldfYkg1Y180SDUzUTJCeWNGS1FMQ0oxVjZTcVpWb2hZQzN2UEJ2cXozMWY5bUhDZEVIRklGS0d0RU82cFNPRjdTMUZfZEVMeVhjUV9QZVQ5X1RteXUtSTZ2WWhOVTNnMVQwQjRtSUZPY2NGQzVwV1gyTE03dnAxMVJUcXhvaGM1blhsalhyc1hlSzY0WlNNOWFuRG1nZHdaWEVDUUk?oc=5",
+          "source": "U.S. Food and Drug Administration (.gov)",
+          "published": "Thu, 26 Feb 2026 08:00:00 GMT",
+          "seed": "consumer safety",
+          "category": "consumer safety"
+        },
+        {
+          "title": "Force Forever may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeTNhZGQ5aTNWbm9DNUpSejRtd2pGNlVENENLRTBaRDlabHFUODc1ZW1McWdvRVJ1TnZuUWhxS3NXUWJabTNEcEw0Vk9NendyamtUR0RZVnpNeXFaT3cyZ0pxUDktVDRGVVZZZmRJUUlkY19nUm5kazNBbDBYQ3BTQkZwem1YcVc3R3pjazZBYl8tdU9DOEhoV3dRT3JaeFhEcm5lRE9jZEhuUQ?oc=5",
+          "source": "U.S. Food and Drug Administration (.gov)",
+          "published": "Mon, 21 Jul 2025 07:00:00 GMT",
+          "seed": "consumer safety",
+          "category": "consumer safety"
         }
       ]
     },
@@ -174,41 +131,42 @@
       ]
     },
     {
-      "topic": "drug enhancement harmful hidden ingredients natural supplement",
-      "headline": "X10 Natural Enhancement Supplement may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
-      "category": "consumer safety",
-      "score": 15.0,
+      "topic": "circadian disturbances frailty risk",
+      "headline": "Circadian disturbances and frailty risk in older adults - Nature",
+      "category": "sleep health",
+      "score": 18.0,
       "mention_count": 3,
-      "source_count": 1,
+      "source_count": 2,
       "sources": [
-        "U.S. Food and Drug Administration (.gov)"
+        "Frontiers",
+        "Nature"
       ],
-      "newest": "2026-05-29T07:00:00+00:00",
+      "newest": "2023-11-16T08:00:00+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
       "items": [
         {
-          "title": "X10 Natural Enhancement Supplement may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR1AzWllDNFIyaWRMSlRUb01OTGhBcXFnNkJzemExM3ozOHowVlJDM1UxSlZjaVlSajhSZlI5TkltSmNnUGhwRU1CTy0wdDI1SFhqUDlxUTZabnpnbC1uTFkzSXd0VUlEQ29UbVpMQmR5aU1MNE1zMkpvTXh6NDJaRFg0UVdvV0dMZzVLRlRxQzB1VHlnMkFzdWdsMWZXbVJXZkdtSlpRd2tKMDZBQlVNMmlZN3lWd0diWUN5Mk9LZTdIVm53UkZ0a2xON3RQaFR3d1dEdEpzSUM?oc=5",
-          "source": "U.S. Food and Drug Administration (.gov)",
-          "published": "Fri, 29 May 2026 07:00:00 GMT",
-          "seed": "consumer safety",
-          "category": "consumer safety"
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
         },
         {
-          "title": "ULTRA ADVANC3 and ULTRA ADVANC3 GOLD may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQY1JjLTNBTHFxbjBJQ1hnRG1KaWstcXNqelYxNE8zSVp0NlBlR0VMQUZiWlhLWkg0UTFBbWVIcldfYkg1Y180SDUzUTJCeWNGS1FMQ0oxVjZTcVpWb2hZQzN2UEJ2cXozMWY5bUhDZEVIRklGS0d0RU82cFNPRjdTMUZfZEVMeVhjUV9QZVQ5X1RteXUtSTZ2WWhOVTNnMVQwQjRtSUZPY2NGQzVwV1gyTE03dnAxMVJUcXhvaGM1blhsalhyc1hlSzY0WlNNOWFuRG1nZHdaWEVDUUk?oc=5",
-          "source": "U.S. Food and Drug Administration (.gov)",
-          "published": "Thu, 26 Feb 2026 08:00:00 GMT",
-          "seed": "consumer safety",
-          "category": "consumer safety"
+          "title": "Research advances in the study of sleep disorders, circadian rhythm disturbances and Alzheimer’s disease - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnRteFkyQzM2S2FRUVVGN1RWSmdYVy1jZ3hpcmI3dXY1anNCZFdKdGFNZncyOUtqZ2NEOWpIVmNaeUJ2a2M2ZTNvZUFPNWVLTGhRTF9SdXhRd211MmhzUHc4Y3lacWhTSXBkNzFaQ0pULU5xZmRJd29fbmV5aFNMWWJzbzZ0ZnNRNXFQcnJ1VzVtMEFEeEFqUUVfUQ?oc=5",
+          "source": "Frontiers",
+          "published": "Tue, 16 Aug 2022 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
         },
         {
-          "title": "Force Forever may be harmful due to hidden drug ingredients - U.S. Food and Drug Administration (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeTNhZGQ5aTNWbm9DNUpSejRtd2pGNlVENENLRTBaRDlabHFUODc1ZW1McWdvRVJ1TnZuUWhxS3NXUWJabTNEcEw0Vk9NendyamtUR0RZVnpNeXFaT3cyZ0pxUDktVDRGVVZZZmRJUUlkY19nUm5kazNBbDBYQ3BTQkZwem1YcVc3R3pjazZBYl8tdU9DOEhoV3dRT3JaeFhEcm5lRE9jZEhuUQ?oc=5",
-          "source": "U.S. Food and Drug Administration (.gov)",
-          "published": "Mon, 21 Jul 2025 07:00:00 GMT",
-          "seed": "consumer safety",
-          "category": "consumer safety"
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
         }
       ]
     },
@@ -245,34 +203,34 @@
       ]
     },
     {
-      "topic": "eating less protein review slow studies",
-      "headline": "Eating less protein may slow biological aging and improve metabolic health, study suggests - WNEP",
-      "category": "metabolic health",
+      "topic": "backed daily four improve minute mobility science strength that workout",
+      "headline": "The science-backed four-minute daily workout that can improve strength and mobility - The Independent",
+      "category": "mobility",
       "score": 14.0,
       "mention_count": 2,
       "source_count": 2,
       "sources": [
-        "Science Daily",
-        "WNEP"
+        "The Independent",
+        "The Pennsylvania State University"
       ],
-      "newest": "2026-11-11T16:21:00+00:00",
+      "newest": "2026-11-11T08:56:00+00:00",
       "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
       "items": [
         {
-          "title": "Eating less protein could slow aging, review of 350 studies finds - Science Daily",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54S05QNXZCdF9HX2t3eS1SRThzajdRd3pXTFVDRjdzU3BLZlB1NFVPd1ZjR1UyREo4RFhzRkdTdEFkblF6S0x5Y0tpU1BsRi1xZWwtREQxcHpQRTN6TnBnQjc5Yy03QXpmMXJqdnhjSQ?oc=5",
-          "source": "Science Daily",
-          "published": "Tue, 10 Nov 2026 12:50:08 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
+          "title": "The science-backed four-minute daily workout that can improve strength and mobility - The Independent",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOVdGTzBXd0UyeEVvTWxlZEVka0lkRTJRVlFIU1BIRWtHRVZKSXVTaUdRazV0UFQ5WFY3ZWdfTi1mQUZ6UEItOU51ZHY2TC1CSnVJTkNWeU5lWGNXQ1k1QnBtM0RrTE4wa2doQU9lYlJwOHBXNWRUNTdFNzd3TGZiMmNqWkI2RVlBVXpkOHczUXItNGtyUG44WnlKMGplQlJFU0NNcHZB?oc=5",
+          "source": "The Independent",
+          "published": "Wed, 11 Nov 2026 08:56:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
         },
         {
-          "title": "Eating less protein may slow biological aging and improve metabolic health, study suggests - WNEP",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOW9rVlhNWUpsem9ULXphUnFsOExyaGJnVko5NFZaSnk2SDhxdE00cW1UTEl0em1kNjhFaHRILXJNRVBTQXF2QVRRbzFHdFMwM01NeEE1UU4tejZ4SWtIUW9ZNy1PanJoNV82VmlZOFFVcS1LVkdyQnVzT3oxd2ZNOGhMOGh0MUlOQS0xdUdubzBPQ20wdXZxOGVjSTdJVnlQZ040alQwNlF6QUJrblVqT3V6MXV4M1FWa0pRTVJ6cmVVVHh1a0pVbEhFX1E4QQ?oc=5",
-          "source": "WNEP",
-          "published": "Wed, 11 Nov 2026 16:21:00 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
+          "title": "Four-minute daily workout improves strength, balance in older adults - The Pennsylvania State University",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVE9lUDlWTF84VWdfVHV6c0NjSi1BbnhKZTBIeE9xdDg0MUx1ZEw5QXRneWE5SGpMenUxaW44czhrNGhNNFRJZFNTNElfWC00R1NqMVpqWFRtUk95Q0ZVbnRwSGkzem5ibnFfU0g0ZVFGOFU4aG1tV3hLbDZ4RU1KM0JRS3VpQ2lrZ3c4blZXc3drN19vcDZ6S3p5RWo1QWt6NG1Oak1mZw?oc=5",
+          "source": "The Pennsylvania State University",
+          "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
         }
       ]
     },
@@ -303,38 +261,6 @@
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMWNTVnl4ZnFlSFNIVTEwYkgzZHZzdjl1SlFYTUhnZzhEcXkxdFJwTkQyWEVjaEVNV280eExUVE9qOVFDYlppN0NkVkZuRGZFakt6THdSTFJJamV4UkpPMXVORWV2R01URWN3a0xUOGkyYU1xb3BGR2RIUGcyeVNtbXZFQ04?oc=5",
           "source": "HealthCentral",
           "published": "Mon, 24 Jun 2024 07:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "actually might need supplements",
-      "headline": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
-      "category": "general wellness",
-      "score": 14.0,
-      "mention_count": 2,
-      "source_count": 2,
-      "sources": [
-        "AARP",
-        "Health.com"
-      ],
-      "newest": "2026-08-04T07:00:00+00:00",
-      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
-      "items": [
-        {
-          "title": "6 Supplements You Might Actually Need After 50 - AARP",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11N0lTeVAxVkRad2E3NWhvMklVU1dtM2ZpYlFFSmJzWUNKMHMwRXJoY0xvUFJ1aWtzOUdLb2RUdmM2dmcwQWNUbTd4bHJMbGIzNGhJRFpGdmZFbm5Md21Zc09UcFVEWG1odF80WGJPaVp5VmYybHc?oc=5",
-          "source": "AARP",
-          "published": "Fri, 23 Jan 2026 08:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        },
-        {
-          "title": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96Y0lBWHk4elBmOEpLQ2dOaWRQTlBWcEFZcDhNWkJNSXdybTA1SnpRU3gweW9oRGF2UDEzUm90UlpPLVdKRU9yVDZaZGwyUS1JaFloZGJEQVRqZlVFekZzVmVCUnd3dGROZEFIaVBWbHRwS05BYkxlVEhOcmVtUQ?oc=5",
-          "source": "Health.com",
-          "published": "Tue, 04 Aug 2026 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -373,25 +299,87 @@
       ]
     },
     {
-      "topic": "among college driving innovations pets robotic seniors simulators",
-      "headline": "Robotic pets, driving simulators among college's innovations for seniors - Village Report",
-      "category": "general wellness",
-      "score": 11.98,
+      "topic": "differently generations good news previous than",
+      "headline": "Gen X is aging differently than previous generations — and it’s not good news - New York Post",
+      "category": "metabolic health",
+      "score": 11.89,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Village Report"
+        "New York Post"
       ],
-      "newest": "2026-11-16T02:18:58+00:00",
+      "newest": "2026-11-16T21:46:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Robotic pets, driving simulators among college's innovations for seniors - Village Report",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdUhqSWhFWExKQnVacE94Z0x1bXlTYVBPSnRGZG1zWGhHeUNPYUNmOU4yRHE4WW1Mekw0RmNMYWYxWjdMSER3VEg5QnVwLUhkckdjNTYwbjFjRVAyeldKVWQxNFpYQURpcmdpeExsakhBS2lNbDFXUkdhcjRTeVZMWE5fTzFkTG5yd3A5ZlZsT0k2dmdwc256QV9KS2t2bzRYbldUcnhhOE81UF9fY1g0ZzY1azlPeWN3aTFZTXdKdw?oc=5",
-          "source": "Village Report",
-          "published": "Mon, 16 Nov 2026 02:18:58 GMT",
+          "title": "Gen X is aging differently than previous generations — and it’s not good news - New York Post",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQjh3YndSZDJaMXlPR3lvcEIxX3hrR0xGRWtaUUVnbC1WX3U4S3d6by03dlNNblhmRi1fV2NNNFVxbkRPWTNadlh2djRuS1V5QkFmYlhYUFN4Zkd5Y0FQZHBGcDJEV1IzbS1TM2hoa2pfM2lTY1Zpd0I3S0l2NktDbEJJYw?oc=5",
+          "source": "New York Post",
+          "published": "Mon, 16 Nov 2026 21:46:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "activity adult basics overview physical",
+      "headline": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
+      "category": "general wellness",
+      "score": 11.0,
+      "mention_count": 2,
+      "source_count": 1,
+      "sources": [
+        "Centers for Disease Control and Prevention | CDC (.gov)"
+      ],
+      "newest": "2025-12-04T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rNzVYVkEwRGVIRlVMWVJtZ012bnRRa2hCeVpiVXczaWRROU9rRExfQWVkcjZtbU9qSzJZQVRibi00VE1ISHVVRy16VnVqOWFJX003Y3ZwX0xUS2FiSjZSZFZtMGx1S3k0Tm9jcW1rS0sydEswMnBVSEY1UXJLdw?oc=5",
+          "source": "Centers for Disease Control and Prevention | CDC (.gov)",
+          "published": "Thu, 04 Dec 2025 08:00:00 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
+        },
+        {
+          "title": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rNzVYVkEwRGVIRlVMWVJtZ012bnRRa2hCeVpiVXczaWRROU9rRExfQWVkcjZtbU9qSzJZQVRibi00VE1ISHVVRy16VnVqOWFJX003Y3ZwX0xUS2FiSjZSZFZtMGx1S3k0Tm9jcW1rS0sydEswMnBVSEY1UXJLdw?oc=5",
+          "source": "Centers for Disease Control and Prevention | CDC (.gov)",
+          "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+          "seed": "mobility",
+          "category": "mobility"
+        }
+      ]
+    },
+    {
+      "topic": "2025 achievements advances alzheimer dementias disease progress related report research",
+      "headline": "2026 NIH Alzheimer's Disease and Related Dementias Research Progress Report: Advances and Achievements - National Institute on Aging (.gov)",
+      "category": "brain health",
+      "score": 11.0,
+      "mention_count": 2,
+      "source_count": 1,
+      "sources": [
+        "National Institute on Aging (.gov)"
+      ],
+      "newest": "2026-09-25T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "2025 NIH Alzheimer’s Disease and Related Dementias Research Progress Report: Advances and Achievements - National Institute on Aging (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xbEc5azJ2dHJVcFJJQkJuT0ZIWHpPRENrV3BhN1oxb0RGWlZoNUEyMjhHX09MVkpkTjZwX1kzZVZfRWg5aTBmdzRYR2RnVXRrRE5ySXo5MWZ0N0JTZ1RlWW4wekNQNnFPSGJ0aE9sNFZwRVRCczFSM3ltUy0?oc=5",
+          "source": "National Institute on Aging (.gov)",
+          "published": "Mon, 08 Sep 2025 20:38:17 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        },
+        {
+          "title": "2026 NIH Alzheimer's Disease and Related Dementias Research Progress Report: Advances and Achievements - National Institute on Aging (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaDNmLUY2Z0lSSW1sZThheDltNDVKWElEQVJiT3E5OGxwMWtHNjdFUlVMS1NmV1Q0dERsMkdhelFlV3REYUx3OFFVX2ZMNzhZa2kwdC1BQWd0R2tFMlRRdTAzaHh5WGZ5Y3ltWXdmcURNUC00ZUc3TXVteXlCS2FraElGOHJ3ZDVEMzVSNGtRaG1aSHp6MVZ0MG5NMlIwUGVBSGpYNWhSdjhQR21iMWhKYUZTczFnWndj?oc=5",
+          "source": "National Institute on Aging (.gov)",
+          "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+          "seed": "sleep and biological aging",
+          "category": "sleep health"
         }
       ]
     },
@@ -489,25 +477,48 @@
       ]
     },
     {
-      "topic": "brain cerebrospinal cleaning diminish during fluid sleep waves",
-      "headline": "Brain-Cleaning Cerebrospinal Fluid Waves During Sleep Diminish in Older Adults - Bioengineer.org",
-      "category": "sleep health",
-      "score": 7.06,
+      "topic": "community ease healthy isolation leisure participation social support",
+      "headline": "Community Leisure Participation May Ease Social Isolation and Support Healthy Aging - Bioengineer.org",
+      "category": "general wellness",
+      "score": 10.77,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
         "Bioengineer.org"
       ],
-      "newest": "2026-11-14T03:08:35+00:00",
+      "newest": "2026-11-16T11:01:10+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Brain-Cleaning Cerebrospinal Fluid Waves During Sleep Diminish in Older Adults - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM0YtVXVORXRXTzBoWE5ONzVXMmtuSWFtRnhSVU1CUG8xU1JnT3FGajNxM1gxdmx0WWZ4MWU2WnZsZEJfMVlONmQ0OUFDanZJSHFLMHdidjJUYThqbGdkOTZOd2pUQUZKUTBXZ1dxZHpOT3ZxU1FnbVBDREZaN1BvaGg2Q1lGb2o0XzBNS0g1RDI5WVg2aU1kSS04Um1PSi1xT05uS1R3?oc=5",
+          "title": "Community Leisure Participation May Ease Social Isolation and Support Healthy Aging - Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdXBzLXBTMzdCMGNGY21JWWp1Rlo2U1NaMl9mSDEzOGhWR25EQmhTS0NGWTdrYlRJWGhKaGF3OElRZ2h6a0RfY25GNks5ZmRuOXBINy1lVEZZNS0wcmxTMEU0cGwyM0J1ekJiN3RuMnV2Y01FSm1VV0V4VlRSV0VPQkRkdXVFVjhxTDFRaHc3U1d5alc1cGtsQlZfSmxnVExUcWF2S1d6ZWRSQnJa?oc=5",
           "source": "Bioengineer.org",
-          "published": "Sat, 14 Nov 2026 03:08:35 GMT",
-          "seed": "sleep and biological aging",
-          "category": "sleep health"
+          "published": "Mon, 16 Nov 2026 11:01:10 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "brain cognition features healthy informed lifestyle multimodal performance predictive",
+      "headline": "Predictive performance of lifestyle-informed multimodal brain features for cognition in healthy older adults - Nature",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Nature"
+      ],
+      "newest": "2026-11-14T12:36:02+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Predictive performance of lifestyle-informed multimodal brain features for cognition in healthy older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VaXUzRW5lbDM5ZFRXSVNkaTlLOHcwUVpVUG9kRTB3M1VJNjRNemZHaFFLV2dmM0NEemY3WDJCb0MxSlByMEZUbGduMWVBSkdIWVkyU1QtTUw5TE9UOEM0?oc=5",
+          "source": "Nature",
+          "published": "Sat, 14 Nov 2026 12:36:02 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
         }
       ]
     },
@@ -673,75 +684,6 @@
       ]
     },
     {
-      "topic": "associated chinese dietary diversity early frailty higher progression slower",
-      "headline": "Higher Dietary Diversity Associated With Slower Early Frailty Progression in Chinese Older Adults - Bioengineer.org",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Bioengineer.org"
-      ],
-      "newest": "2026-11-13T19:51:57+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Higher Dietary Diversity Associated With Slower Early Frailty Progression in Chinese Older Adults - Bioengineer.org",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZWpsYUJWQTRxNTFXd3ZfTXp4ODJDU0p1YnNERGRoTkFJNmdNeUxqT1FnNkxqb19FbVdpVWt0R3JzYmtaTExaWHlVUmF6czR2Wmh0Q0t6OGw2aUJQb0xWdXEtX1pYZWFqdk1kV3FGT3hCMzFYMHA5dGc1bU1LcXRLTlgyTXVfZGNLZGM4dU9mUHF6aFBLTjE4WU53Y0ppd3R5NWRRcHQyWDM1QlhycjkwaHZ4M21ONnZIVmdzUnNlcw?oc=5",
-          "source": "Bioengineer.org",
-          "published": "Fri, 13 Nov 2026 19:51:57 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "activity adult basics overview physical",
-      "headline": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Centers for Disease Control and Prevention | CDC (.gov)"
-      ],
-      "newest": "2025-12-04T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Older Adult Activity: An Overview | Physical Activity Basics - Centers for Disease Control and Prevention | CDC (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rNzVYVkEwRGVIRlVMWVJtZ012bnRRa2hCeVpiVXczaWRROU9rRExfQWVkcjZtbU9qSzJZQVRibi00VE1ISHVVRy16VnVqOWFJX003Y3ZwX0xUS2FiSjZSZFZtMGx1S3k0Tm9jcW1rS0sydEswMnBVSEY1UXJLdw?oc=5",
-          "source": "Centers for Disease Control and Prevention | CDC (.gov)",
-          "published": "Thu, 04 Dec 2025 08:00:00 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "2011 2020 among china digital divides effect healthy trends year",
-      "headline": "Ten-year trends of the digital divides and its effect on healthy aging among older adults in China from 2011 to 2020 - Nature",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Nature"
-      ],
-      "newest": "2025-11-21T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Ten-year trends of the digital divides and its effect on healthy aging among older adults in China from 2011 to 2020 - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wWXRxYTRJN2xrSHNPSXpsSlZsSENJOGRFRzFWZTllLXYxTnU1c19KaUMzbExnc3pGMUN1dWx1RllDTGdtTW1SUGd3WF9NMUlIdExSS3FweVFHOG51OVpV?oc=5",
-          "source": "Nature",
-          "published": "Fri, 21 Nov 2025 08:00:00 GMT",
-          "seed": "healthy aging",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
       "topic": "alzheimer decline fish prevent related supplements",
       "headline": "Fish oil supplements may not prevent Alzheimer’s-related decline - Keck Medicine of USC",
       "category": "brain health",
@@ -857,29 +799,6 @@
       ]
     },
     {
-      "topic": "2025 achievements advances alzheimer dementias disease progress related report research",
-      "headline": "2025 NIH Alzheimer’s Disease and Related Dementias Research Progress Report: Advances and Achievements - National Institute on Aging (.gov)",
-      "category": "brain health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "National Institute on Aging (.gov)"
-      ],
-      "newest": "2025-09-08T20:38:17+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "2025 NIH Alzheimer’s Disease and Related Dementias Research Progress Report: Advances and Achievements - National Institute on Aging (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xbEc5azJ2dHJVcFJJQkJuT0ZIWHpPRENrV3BhN1oxb0RGWlZoNUEyMjhHX09MVkpkTjZwX1kzZVZfRWg5aTBmdzRYR2RnVXRrRE5ySXo5MWZ0N0JTZ1RlWW4wekNQNnFPSGJ0aE9sNFZwRVRCczFSM3ltUy0?oc=5",
-          "source": "National Institute on Aging (.gov)",
-          "published": "Mon, 08 Sep 2025 20:38:17 GMT",
-          "seed": "brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
       "topic": "delayed dementia guidelines prevented risk",
       "headline": "New WHO guidelines: up to 45% of dementia risk could be prevented or delayed - World Health Organization (WHO)",
       "category": "brain health",
@@ -943,6 +862,29 @@
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYzVuOVowcUtNY2lBYVZiRy1ZU0p5ZWFmTUlkSFJwMlpVLUhhWVVUbm1Xel9Vd1BlNmtvQUphOFFTOFFFODVqaXoxblkwOUJUTkNhMXctaWlYYUhGaVkzNTY0bmQ1VGlXZzVPdzc5R1h3SmZBQXdZZFFlbTJMMmJRa29YZ3Q4RWhLV1NVNGJn?oc=5",
           "source": "Stanford Medicine",
           "published": "Mon, 11 Mar 2024 07:00:00 GMT",
+          "seed": "brain health",
+          "category": "brain health"
+        }
+      ]
+    },
+    {
+      "topic": "cognitive here memory neurologist questions worried your",
+      "headline": "Worried About Your Memory? Here Are 5 Questions to Ask a Cognitive Neurologist - University of Utah Health",
+      "category": "brain health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "University of Utah Health"
+      ],
+      "newest": "2025-08-11T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Worried About Your Memory? Here Are 5 Questions to Ask a Cognitive Neurologist - University of Utah Health",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU2pEWGc0a0Q2eERRVlBpZ3pOb0hhNllxZzZXMzd3S1h5MEhBSWlVcUU3TVE3OUJ2Q2gzeTAyZGFaUTZLMUdUeWZqc3A2UUEwTzZhMjlNOEhsd0ZIMTg0NkdhWWN5WF9XTXViZ0RTRTlmRktyazBCQmI5c1QyQ2YtTENEYnM5LXpBRGhYUV9CWmZuTmNaWUF3WHFSV3c2c2dtZk1XT3ZmcFVSZWNaOVJHb3djOFhoNTd3Zmxz?oc=5",
+          "source": "University of Utah Health",
+          "published": "Mon, 11 Aug 2025 07:00:00 GMT",
           "seed": "brain health",
           "category": "brain health"
         }
@@ -1087,29 +1029,6 @@
       ]
     },
     {
-      "topic": "accelerate cognitive decline middle schedules shift work",
-      "headline": "Shift Work Schedules Accelerate Cognitive Decline at Middle Age - Sleep Review",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Sleep Review"
-      ],
-      "newest": "2025-01-14T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Shift Work Schedules Accelerate Cognitive Decline at Middle Age - Sleep Review",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSUQwdjJUc09oZVZPUmFtdTNQcFFzZE1tWWJoUmgxdGtDZnVsWW83VHVwRVBkY2lQaFBrTGRXeERjZlZWallXV1QyNzdTZWtNeE9Tem91cVZ3d2hKNDBrTGhvS1RNeG0tVTJhWGZfeVo3b0E4Nl82Nk05dk03MEdMOEhNVDI4Y3hzamd5X1RqU2haQmVhTXJjMnZaeENtNmtFLWU1ME1BdFluemEyaGFkbUZpeUFiZjYzM2x3cHNNZ2I3LUZfX2VRUDl0b3lEc0pGTml2aTRxTS1iUQ?oc=5",
-          "source": "Sleep Review",
-          "published": "Tue, 14 Jan 2025 08:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
       "topic": "alignment associations between circadian cognitive functioning nationally reports representative sample scientific",
       "headline": "Associations between circadian alignment and cognitive functioning in a nationally representative sample of older adults | Scientific Reports - Nature",
       "category": "sleep health",
@@ -1127,6 +1046,29 @@
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tSExEYVVzajJzRUp0UHhlU3B3akFuaXZQVmttV3JpRkxySE9oTGtqUEtXSzF4amk2NDE4NjNFNEF3SWQ4Q1F2aVpaLXlqaEJwYllmZXFITE1ITjc2THlV?oc=5",
           "source": "Nature",
           "published": "Wed, 12 Jun 2024 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "cognitive declines functional rest rhythms track wearable",
+      "headline": "Wearable Rest Rhythms Track Cognitive and Functional Declines in Older Adults - Bioengineer.org",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Bioengineer.org"
+      ],
+      "newest": "2026-11-13T21:32:33+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Wearable Rest Rhythms Track Cognitive and Functional Declines in Older Adults - Bioengineer.org",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbjVyUWNrZ25HbGNHVUx1Z21iNWNQY0tXUWgyS0JEek5xNmE0azNUZG4tVVZobDluRmktUnBFejhhd0NHNURlbS1FamJpaDFFUEdLYWxHVGU2UUNjMG51VkNIYkdqOGVWVU9SYUxtWFZoYnoxbUVGbE5DclBnajNFa1ExRmgxdXFCb3ZWNk4xMEJ2eUl1TjVXM0VPZloxR3oyM2F2Sw?oc=5",
+          "source": "Bioengineer.org",
+          "published": "Fri, 13 Nov 2026 21:32:33 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         }
@@ -1179,8 +1121,8 @@
       ]
     },
     {
-      "topic": "abdominal aged associations between chinese diabetes dynapenic middle obesity",
-      "headline": "Associations between dynapenic abdominal obesity and diabetes in middle aged and older Chinese - Nature",
+      "topic": "2000 2023 analysis metabolic modelling review syndrome systematic trends worldwide",
+      "headline": "Worldwide trends in metabolic syndrome from 2000 to 2023: a systematic review and modelling analysis - Nature",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
@@ -1188,14 +1130,14 @@
       "sources": [
         "Nature"
       ],
-      "newest": "2025-08-27T07:00:00+00:00",
+      "newest": "2025-12-06T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Associations between dynapenic abdominal obesity and diabetes in middle aged and older Chinese - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zaEkzS3c3RUI3RkdvdHVsRUVJOHFZcnl6WmR6SDdiREpHaXVERHVrRmd4Zzd3M0J5ejdDSnNKcGx6eUFVTEhUS3V6cUNWUDNYencwYm04ZzliM0ZqMW9z?oc=5",
+          "title": "Worldwide trends in metabolic syndrome from 2000 to 2023: a systematic review and modelling analysis - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsaVE3Y3RUbnVjYy1KWVBJNUxEcUJRMkFaeWg1Z1dBd2dYeVVNY1NnNlhFelJjWm03V1Y3U1BfTnlVOHBsdWlnR3BaUWhtSXFZTVc5amFscmF1ODMtUzZv?oc=5",
           "source": "Nature",
-          "published": "Wed, 27 Aug 2025 07:00:00 GMT",
+          "published": "Sat, 06 Dec 2025 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1248,8 +1190,8 @@
       ]
     },
     {
-      "topic": "2000 2023 analysis metabolic modelling review syndrome systematic trends worldwide",
-      "headline": "Worldwide trends in metabolic syndrome from 2000 to 2023: a systematic review and modelling analysis - Nature",
+      "topic": "abdominal aged associations between chinese diabetes dynapenic middle obesity",
+      "headline": "Associations between dynapenic abdominal obesity and diabetes in middle aged and older Chinese - Nature",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
@@ -1257,14 +1199,60 @@
       "sources": [
         "Nature"
       ],
-      "newest": "2025-12-06T08:00:00+00:00",
+      "newest": "2025-08-27T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Worldwide trends in metabolic syndrome from 2000 to 2023: a systematic review and modelling analysis - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsaVE3Y3RUbnVjYy1KWVBJNUxEcUJRMkFaeWg1Z1dBd2dYeVVNY1NnNlhFelJjWm03V1Y3U1BfTnlVOHBsdWlnR3BaUWhtSXFZTVc5amFscmF1ODMtUzZv?oc=5",
+          "title": "Associations between dynapenic abdominal obesity and diabetes in middle aged and older Chinese - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zaEkzS3c3RUI3RkdvdHVsRUVJOHFZcnl6WmR6SDdiREpHaXVERHVrRmd4Zzd3M0J5ejdDSnNKcGx6eUFVTEhUS3V6cUNWUDNYencwYm04ZzliM0ZqMW9z?oc=5",
           "source": "Nature",
-          "published": "Sat, 06 Dec 2025 08:00:00 GMT",
+          "published": "Wed, 27 Aug 2025 07:00:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "eating less protein review slow studies",
+      "headline": "Eating less protein could slow aging, review of 350 studies finds - Science Daily",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Science Daily"
+      ],
+      "newest": "2026-11-10T12:50:08+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Eating less protein could slow aging, review of 350 studies finds - Science Daily",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54S05QNXZCdF9HX2t3eS1SRThzajdRd3pXTFVDRjdzU3BLZlB1NFVPd1ZjR1UyREo4RFhzRkdTdEFkblF6S0x5Y0tpU1BsRi1xZWwtREQxcHpQRTN6TnBnQjc5Yy03QXpmMXJqdnhjSQ?oc=5",
+          "source": "Science Daily",
+          "published": "Tue, 10 Nov 2026 12:50:08 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "cancer disease energy insulin linking metabolic model oils resistance seed theory unifying",
+      "headline": "The energy model of insulin resistance: A unifying theory linking seed oils to metabolic disease and cancer - Frontiers",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Frontiers"
+      ],
+      "newest": "2025-03-31T12:40:26+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "The energy model of insulin resistance: A unifying theory linking seed oils to metabolic disease and cancer - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOREtadTVTS1RiVU4xN3NFOW1LN2Z6Tkplb1AtRUt0NV8yVWJUU0JtRmk5RkNZal83enp3WEhESHlWZ1YtSk9yYkdzMk9rTi1IT0xIM21VQ0F2Yk5IU3pET2FCZHNiMXJiN3VqM09fa2VwUVdJOFo4d2VQWS00eUlvUEhzYTl2R0RETHZ4ZUFGTQ?oc=5",
+          "source": "Frontiers",
+          "published": "Mon, 31 Mar 2025 12:40:26 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1288,29 +1276,6 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcFdWZUZpRVZRWm1aUHI2VGNKa2I1TXEyYl9HQldMX0FmNV96UmFsdWxRTk0yRjBuUWRVTm9iV0Y4bGw1U1lMRUtvbFZRNENhT1BaTG9DZkt5ak01NmlYT1hCUGJBeHVQNkFhNEhpaHRjWjNqUmh2LVlqbXd4VWItRS1jWjl5ckRkbk5DeEJlODk0Zw?oc=5",
           "source": "University of California, Berkeley",
           "published": "Thu, 22 May 2014 07:00:00 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        }
-      ]
-    },
-    {
-      "topic": "bodies build healthier strength training",
-      "headline": "How can strength training build healthier bodies as we age? - National Institute on Aging (.gov)",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "National Institute on Aging (.gov)"
-      ],
-      "newest": "2022-06-30T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "How can strength training build healthier bodies as we age? - National Institute on Aging (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbFdvTW9oMHctUk1mNF90WVBxRHp1WVhLcjFWbWdBMTk1REV5OGhmTWVxZGpBNWU1djhxbnpVdnFCa1FBNkx6ejFhS0tpbmp6OFpaNjJwaDE4Yi16NzZSUW1vNXlRM1ZQbGxxWVVwLXBnQ25QZzAwd1F3OEVuaTJ6SS1nY2pfN1g5SWk4aA?oc=5",
-          "source": "National Institute on Aging (.gov)",
-          "published": "Thu, 30 Jun 2022 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1409,23 +1374,23 @@
       ]
     },
     {
-      "topic": "balance better building buoy classes mobility strength",
-      "headline": "Building Better Balance classes buoy strength, mobility - SteamboatToday.com",
+      "topic": "adult every exercises over should",
+      "headline": "The 4 Exercises Every Adult Over 50 Should Do - AARP",
       "category": "mobility",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "SteamboatToday.com"
+        "AARP"
       ],
-      "newest": "2026-08-17T07:00:00+00:00",
+      "newest": "2026-01-16T08:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Building Better Balance classes buoy strength, mobility - SteamboatToday.com",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTUdTU1hmY25pb1RxamN3d0pjZzlDSlpRUnJFZWFuZHI1Z2sybHpLZU45M3FMWWhPclUtOF9mRGF2Q0ZTM1psTW42VEMwVFRZamw5eFpNVXdSRlBTOFU0TVB0YTVfTzVkT2dHd3VOX2VSMTRKYVpyOXkxQmdneUZkSjV3ZGo4STRYTkNMZmVMSUJFcTlULWc?oc=5",
-          "source": "SteamboatToday.com",
-          "published": "Mon, 17 Aug 2026 07:00:00 GMT",
+          "title": "The 4 Exercises Every Adult Over 50 Should Do - AARP",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSW9mNWdNSWx3RFc5ZUJWbTZ3VV85NFFxZkpuQjE5NElJWWFwNW9WMHZLcEJWUVlibjVfVi1ybGVISXlFX3h2UktDTGJhTFJkQlI5aU16Wi1teF9ON1VvVmNFekVZV1RhOGZmakVzTTh6cUJnNS1PRVlzTW83UlZqUHdB?oc=5",
+          "source": "AARP",
+          "published": "Fri, 16 Jan 2026 08:00:00 GMT",
           "seed": "mobility",
           "category": "mobility"
         }
@@ -1472,29 +1437,6 @@
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ1FTT0RybGF6R1c4NGZlaWVBQ1ZLZ1VYcUJBaU1qRmtZdmhpRS0zakw2OEs1c29hWUpxYWF5TW5vaklqbFNGYlZ4S213WHR1WDlIRE5FZy1NblJpd3d5MU01cHNMWVhPUmlVYVpidE01djdEMlk4TlBlOUxOX1F2T2sySzJ2NTNJY0pscm9LUXBaMkdJLVpjV1YzUDhTQk9LaWVnbm45NGF1VUhuT016cnBfWWFrYVJlVW8tVUZnUDBBaDA?oc=5",
           "source": "MedShadow Foundation",
           "published": "Thu, 12 Nov 2026 13:46:08 GMT",
-          "seed": "consumer safety",
-          "category": "consumer safety"
-        }
-      ]
-    },
-    {
-      "topic": "allergens contain frozen meat popular poultry products these undeclared usda warns",
-      "headline": "These Popular Frozen Meat and Poultry Products May Contain Undeclared Allergens, USDA Warns - Prevention",
-      "category": "consumer safety",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Prevention"
-      ],
-      "newest": "2026-11-10T16:13:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "These Popular Frozen Meat and Poultry Products May Contain Undeclared Allergens, USDA Warns - Prevention",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRWZGWEZrd0hHdzRwNFRtU3QzeE12UENya0pEX29pdGFfVU1hNTZpcE5NMVZuZTBNcFZkelUwdmtOSTFoNDNnMUpPbW1sb3pRUklhS0lpeHhHRTdMNmtyTFhpMUs4SGVTTHFvRHJYWW5FYkQ3Rl91ZHZvOGdJUnhMOTNBT2pnb3VjTGxiMHVSNThIQQ?oc=5",
-          "source": "Prevention",
-          "published": "Tue, 10 Nov 2026 16:13:00 GMT",
           "seed": "consumer safety",
           "category": "consumer safety"
         }
@@ -1616,6 +1558,29 @@
       ]
     },
     {
+      "topic": "before know peptides trying",
+      "headline": "What to Know Before Trying Peptides for Aging or Health - AARP",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "AARP"
+      ],
+      "newest": "2026-04-26T00:31:13+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "What to Know Before Trying Peptides for Aging or Health - AARP",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa3UxSEpWUDJRWVNjYzVBWHJxLW5nMEY4NVd0dmlDUkpqY1pEMFU0OEMyTW1qYm5ORHFSd215Yk1IZTdTZ3R5R1ZoNUh4Ykc1dDVQWjc5X1JvamNyMVRNUGxGNWNLTWlTcGhjME9SZnpIY0JRaFF4RldlUnF2dGd6UFVoX0tkcFhy?oc=5",
+          "source": "AARP",
+          "published": "Sun, 26 Apr 2026 00:31:13 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "dietary interventions menopausal mini nutritional review strategies",
       "headline": "Dietary interventions and nutritional strategies for menopausal health: a mini review - Frontiers",
       "category": "general wellness",
@@ -1702,6 +1667,29 @@
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUlVhV19odWlZWS1hcWI1enM5cnM3X2NqOHdGamFBN3ZIVXpUV25DNjFiTnFpQ2VUUEtMWmZPWXh2MXhvTEo5TUVJUEpoenJHZGRhR0FxeEJoLUhhajdaREJHT2dZV2xsbDNGemJFZVlsRi15ajF1VEtyY0RqNmY4bFplRUx0SDFBV3h4OA?oc=5",
           "source": "Mayo Clinic Press",
           "published": "Thu, 17 Oct 2024 07:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
+      "topic": "actually asked doctors healthy hold supplements which",
+      "headline": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Health.com"
+      ],
+      "newest": "2026-08-04T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96Y0lBWHk4elBmOEpLQ2dOaWRQTlBWcEFZcDhNWkJNSXdybTA1SnpRU3gweW9oRGF2UDEzUm90UlpPLVdKRU9yVDZaZGwyUS1JaFloZGJEQVRqZlVFekZzVmVCUnd3dGROZEFIaVBWbHRwS05BYkxlVEhOcmVtUQ?oc=5",
+          "source": "Health.com",
+          "published": "Tue, 04 Aug 2026 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -1800,8 +1788,8 @@
       ]
     },
     {
-      "topic": "biological clocks duration gets going links sleep tough when",
-      "headline": "Sleep duration links to biological aging clocks: when sleep gets tough, aging gets going - Nature",
+      "topic": "association eating indices metabolic obesity organ relation restricted specific time",
+      "headline": "The association of time-restricted eating and indices of organ-specific aging in relation to metabolic health and obesity - Nature",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
@@ -1809,14 +1797,14 @@
       "sources": [
         "Nature"
       ],
-      "newest": "2026-09-07T07:00:00+00:00",
+      "newest": "2026-05-06T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Sleep duration links to biological aging clocks: when sleep gets tough, aging gets going - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02MmRtWFBtNEtidTY1T1pnam5yWmYzODBINlBhdnRsMVktTFJHVlI3WmE2WEVObnpESHJGblNLSEliaXZhVTFBdmF3NTNWa2xMYzN3ZDJWbXhnVkFNRjRZ?oc=5",
+          "title": "The association of time-restricted eating and indices of organ-specific aging in relation to metabolic health and obesity - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1HRUZKYU1UX2F4NkVEVkJOYnR4S2ZrTndoeVJWN1JfLWhQaVRqQVBMbjMtMkFVa0plSWVGa0lhSGtXNFJYUkp4ajQwUmo2UXZSRzZrN2V2VVE5NHVGQUhV?oc=5",
           "source": "Nature",
-          "published": "Mon, 07 Sep 2026 07:00:00 GMT",
+          "published": "Wed, 06 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
         }
@@ -1846,8 +1834,31 @@
       ]
     },
     {
-      "topic": "association eating indices metabolic obesity organ relation restricted specific time",
-      "headline": "The association of time-restricted eating and indices of organ-specific aging in relation to metabolic health and obesity - Nature",
+      "topic": "ageing brain healthy longevity neural plasticity prioritizing synaptic",
+      "headline": "Neural ageing and synaptic plasticity: prioritizing brain health in healthy longevity - Frontiers",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Frontiers"
+      ],
+      "newest": "2024-08-05T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Neural ageing and synaptic plasticity: prioritizing brain health in healthy longevity - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMmZ5RTZPOHdzYzRWRm1YbThhQnBUNHdaby1EdjJabW1qeGQ5eW1BV2pmemNHZTVlbE1JSF9PaEYwU1M3TEZyaVZESTliT2VfUUhjTEtBckFuOWhaSDFKdTZ3YnBVdXVUMGM4clpNdVpaZEhFRkNwVHk4QWJYTEQwajZrM2dvbXBKOFN0ZDB6ODVjNDl4SE1maFFZdWU?oc=5",
+          "source": "Frontiers",
+          "published": "Mon, 05 Aug 2024 07:00:00 GMT",
+          "seed": "sleep and biological aging",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "biological clocks duration gets going links sleep tough when",
+      "headline": "Sleep duration links to biological aging clocks: when sleep gets tough, aging gets going - Nature",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
@@ -1855,37 +1866,14 @@
       "sources": [
         "Nature"
       ],
-      "newest": "2026-05-06T07:00:00+00:00",
+      "newest": "2026-09-07T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "The association of time-restricted eating and indices of organ-specific aging in relation to metabolic health and obesity - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1HRUZKYU1UX2F4NkVEVkJOYnR4S2ZrTndoeVJWN1JfLWhQaVRqQVBMbjMtMkFVa0plSWVGa0lhSGtXNFJYUkp4ajQwUmo2UXZSRzZrN2V2VVE5NHVGQUhV?oc=5",
+          "title": "Sleep duration links to biological aging clocks: when sleep gets tough, aging gets going - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02MmRtWFBtNEtidTY1T1pnam5yWmYzODBINlBhdnRsMVktTFJHVlI3WmE2WEVObnpESHJGblNLSEliaXZhVTFBdmF3NTNWa2xMYzN3ZDJWbXhnVkFNRjRZ?oc=5",
           "source": "Nature",
-          "published": "Wed, 06 May 2026 07:00:00 GMT",
-          "seed": "sleep and biological aging",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
-      "topic": "affect breakfast especially longevity meal timing",
-      "headline": "Longevity: Meal timing, especially breakfast, may affect health - Medical News Today",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Medical News Today"
-      ],
-      "newest": "2025-09-08T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Longevity: Meal timing, especially breakfast, may affect health - Medical News Today",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRzhrb2hYb280NF9uSEJQR0cxUFNYYTBnWXdHajJuR0d3NmRyOUFjdDRCazc1UGtSOGM1NWtkeGFndkEwUU5pMzk4cDdOUlNyX2NQU3UxMUZwNVRjNnRNY0JHd2EtN3lOYVFHVDUxcU1uUV94am5fU01Tbm9OdHcxMjhFWkhuQ0pjZDNTLUE3eHRtSjJQQ0pnRXl4ZnhERU1kbndzcDB1c0RPMFJLNTNR?oc=5",
-          "source": "Medical News Today",
-          "published": "Mon, 08 Sep 2025 07:00:00 GMT",
+          "published": "Mon, 07 Sep 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
         }
@@ -2067,7 +2055,7 @@
       "items": [
         {
           "title": "Implications of Wearable Sleep Health Technology for Cardiovascular Health Assessment and Interventions: A Narrative Review - American Heart Association Journals",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tMEMxRWdyUFBnTUkzOTM3QkhBejc5NmhENTZJcGRRQmlyd0dZU3JpdmI1WnZycHFEczdGVTlIQ3RyMklVTkxoWGFGYmRZaTBjbFc3WU1kS29aLUlxRzFScGdZazNqY1VGYVE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGtIcWMyNkwxRlZpbzBWbGhsOXlJQlk5bllWcEcxZERXMm1PUXBZR1lNVWF2RWRXTGdweWl6VmpkUXJmaG5JVlF6N1hjbkhsTThVYkcxcEd3aW96RUY1SjNEaWlvalJudXZtc19QOWZOSUpCb0hid0FWczNkXzNwTjB1NDFYeUdDNm0waXNUNl8yMk0?oc=5",
           "source": "American Heart Association Journals",
           "published": "Thu, 24 Sep 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
@@ -2145,29 +2133,6 @@
       ]
     },
     {
-      "topic": "founder improve insomnia israeli million ptsd raises scent sleep through years",
-      "headline": "After PTSD and years of insomnia, Israeli founder raises $6.5 million to improve sleep through scent - CTech",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "CTech"
-      ],
-      "newest": "2026-06-16T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "After PTSD and years of insomnia, Israeli founder raises $6.5 million to improve sleep through scent - CTech",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FR0JTcjZlRHNGenh1UmN6RjBBejE4Tm5XNHhQaUt6TVAzYXhmWTNJMW9SYnNLRGZvLS1FUjBxVTBTbFB4UUc4b1lZYjNZYUxfRzNMNkRNT0FpOGhzY0FJY21HV0k5Y3hGa2c?oc=5",
-          "source": "CTech",
-          "published": "Tue, 16 Jun 2026 07:00:00 GMT",
-          "seed": "intervention sleep technology",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
       "topic": "acoustic closed comprehensive device efficacy featuring loop real reports scientific sleep stimulation time wearable",
       "headline": "A comprehensive study on the efficacy of a wearable sleep aid device featuring closed-loop real-time acoustic stimulation | Scientific Reports - Nature",
       "category": "sleep health",
@@ -2185,6 +2150,29 @@
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ic0ZFdnlrTzI2WnJOaDdlaGpUN1RTeXBWNVk1LVVkdXl2SmtoTWRwZXpHYmI4U191ZXZ3SjJPaU8xbEFyQVpyTjRDQUtkNmhNUVBGNzNQc0hibm9KeERV?oc=5",
           "source": "Nature",
           "published": "Mon, 16 Oct 2023 07:00:00 GMT",
+          "seed": "intervention sleep technology",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "founder improve insomnia israeli million ptsd raises scent sleep through years",
+      "headline": "After PTSD and years of insomnia, Israeli founder raises $6.5 million to improve sleep through scent - CTech",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "CTech"
+      ],
+      "newest": "2026-06-16T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "After PTSD and years of insomnia, Israeli founder raises $6.5 million to improve sleep through scent - CTech",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FR0JTcjZlRHNGenh1UmN6RjBBejE4Tm5XNHhQaUt6TVAzYXhmWTNJMW9SYnNLRGZvLS1FUjBxVTBTbFB4UUc4b1lZYjNZYUxfRzNMNkRNT0FpOGhzY0FJY21HV0k5Y3hGa2c?oc=5",
+          "source": "CTech",
+          "published": "Tue, 16 Jun 2026 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
         }
@@ -2306,6 +2294,29 @@
       ]
     },
     {
+      "topic": "affect",
+      "headline": "How GLP-1s affect older adults - Mayo Clinic Press",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Mayo Clinic Press"
+      ],
+      "newest": "2026-05-14T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "How GLP-1s affect older adults - Mayo Clinic Press",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDBfX3h1b0VORUdBQUlMeXJlaWVuM1RIUDhKOWZMaHc0aXRzTUJkVWhrZXZUZWpKVzd1bnY0SkR3MEV2TkV0QWFYLUlRdTBZd0lkTjZ2RXJrVTlCNTNnR2JsZExoUW1XVVdzc1hvX3FuWmh2c01vVWlmamd0UWE3bkFn?oc=5",
+          "source": "Mayo Clinic Press",
+          "published": "Thu, 14 May 2026 07:00:00 GMT",
+          "seed": "GLP-1 and healthy aging",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
       "topic": "active biological clinical first human ingredient ozempic slow trial",
       "headline": "Ozempic's Active Ingredient May Slow Biological Aging, First Human Clinical Trial Finds - Medical Daily",
       "category": "metabolic health",
@@ -2352,23 +2363,23 @@
       ]
     },
     {
-      "topic": "extension healthy human life longevity shift valuing",
-      "headline": "The Longevity Shift: Valuing The Extension Of Healthy Human Life - Ark Invest",
+      "topic": "associations between healthy lifestyle multimorbidity socioeconomic status",
+      "headline": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - The American Journal of Managed Care",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Ark Invest"
+        "The American Journal of Managed Care"
       ],
-      "newest": "2026-05-20T07:00:00+00:00",
+      "newest": "2026-06-05T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "The Longevity Shift: Valuing The Extension Of Healthy Human Life - Ark Invest",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRDJqUzVERGNsdXhNY3U5c1cwM09ORU9XbV82U3lXZGVqY2VYb1N6bXFuZ1ZQX0h0eHVfWjh4LWxPcE9Lam9SYVhrczNMbmZqZWNQS3NfV2JKbTRSekpEcGNfT3lBMkM4NVBjV3NMMjNOaVR0VTBpSWZiek1ZOS1NSHVKLUZzVUtvZzRvUE1HMVR3MkxGbUdIZ1RhMTM4bzFmdDhJUnhVVzI3RVd5dVU5dVFqcmhNSjg?oc=5",
-          "source": "Ark Invest",
-          "published": "Wed, 20 May 2026 07:00:00 GMT",
+          "title": "Associations Between Socioeconomic Status, Healthy Lifestyle, and Multimorbidity in the US - The American Journal of Managed Care",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWjBWUDFzOHNGRUJVOGhSQjVvZUJMYlk5Z0tVYWlIY2dJR0xBWXhsRFV4ampQa2JzY3l5V2g3d1dwVU02WElJZFR2VExIdjdDSndkM2V1aW5vcDBBYjkySjFfOW5wQllvWDBRMFU2QkxJbm1tYWYzWWhvUkI5ZVhuWnRGVUF1TExfMTQ4Z2lXWnFOME56dFBlVEUxMVVxYm4tZjkwZkZJSkdLOEtTdnJ0Q2hsS1Y?oc=5",
+          "source": "The American Journal of Managed Care",
+          "published": "Fri, 05 Jun 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
         }
@@ -2444,23 +2455,23 @@
       ]
     },
     {
-      "topic": "brain care causes cedars down loss memory sinai slow",
-      "headline": "Can You Slow Down Memory Loss? Causes, Care and Brain Health - Cedars-Sinai",
-      "category": "brain health",
-      "score": 4.0,
+      "topic": "among college driving innovations lake local niagara pets robotic seniors simulators",
+      "headline": "Robotic pets, driving simulators among Niagara College's innovations for seniors - Niagara-on-the-Lake Local",
+      "category": "general wellness",
+      "score": 6.18,
       "mention_count": 1,
       "source_count": 0,
       "sources": [],
-      "newest": "2026-04-16T07:00:00+00:00",
+      "newest": "2026-11-15T19:46:58+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Can You Slow Down Memory Loss? Causes, Care and Brain Health - Cedars-Sinai",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOVdPVEs2b2JzbHRPVVl2aGZrUnVTbG1rQmNvdTllVzFBRlVwVEtFeER2RzVYTGlzVHhuS080bFVOYmNBdVE3NzBaS0VnZkdwM2xVM29SWjJ4V3JNZjJSR0Rybi05ZmtBck5UYkxNaklJeVVrMW1fSm4yM19DOTV3OGdoVlBLNVFseDdBOVJ4TnQ5WXB2VUtJRTd3?oc=5",
+          "title": "Robotic pets, driving simulators among Niagara College's innovations for seniors - Niagara-on-the-Lake Local",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdEhEei1taEt1Z0ZUZ1lldGgydm9UYi0zbnUxbTI5R1ZXbnF3ZjVWQWFmWFV2anB1MEt2VDBhUmNKSlpJem5mbUtRUWsyS0t4Y2lLeUlQUlR0UzgyLW9BT2dBd1JxakZUd1h3Y0hMSXowelhjTG9IR3kyemQwSUVTQ2t4TGFQU2JxbVdPejFlMFVKNnc5QWhtdTZVQ3I4MHhKbnM0bEVwUWRQcVU2TXJrZktxMjZ0WVBLZ3RUNWxGcUZhZw?oc=5",
           "source": "",
-          "published": "Thu, 16 Apr 2026 07:00:00 GMT",
-          "seed": "brain health",
-          "category": "brain health"
+          "published": "Sun, 15 Nov 2026 19:46:58 GMT",
+          "seed": "healthy aging",
+          "category": "general wellness"
         }
       ]
     },
