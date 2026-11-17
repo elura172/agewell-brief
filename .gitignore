@@ -12,5 +12,6 @@ __pycache__/
 .state/content-factory*.log
 .state/*.log
 .state/*.err
+.state/loops-digest/
 scratch/
 venv.broken-*/

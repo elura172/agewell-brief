@@ -247,6 +247,21 @@ const structuredDataJSON = structuredData
           syncThemeA11y(nextEvening);
         });
       }
+
+      document.querySelectorAll<HTMLAnchorElement>('a[href="/#subscribe"]').forEach((link) => {
+        link.addEventListener("click", (e) => {
+          const localWidget = document.querySelector<HTMLElement>(
+            ".brief-guide-widget, .topic-resource, .folio-guide-box, #loops-subscribe-form"
+          );
+          if (!localWidget || window.location.pathname === "/") return;
+          e.preventDefault();
+          localWidget.scrollIntoView({ behavior: "smooth", block: "center" });
+          const input = localWidget.querySelector<HTMLInputElement>('input[type="email"]');
+          if (input && input.offsetParent !== null) {
+            window.setTimeout(() => input.focus({ preventScroll: true }), 320);
+          }
+        });
+      });
     </script>
   </body>
 </html>

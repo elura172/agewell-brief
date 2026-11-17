@@ -104,6 +104,8 @@ const protocolProgramUrl = spiralTeachingUrl(spiralName, "brief-closing-teaching
 const protocolHeaderTeachingUrl = spiralTeachingUrl(spiralName, "brief-header-teaching");
 const protocolWalkUrl = spiralWalkUrl(spiralName, "brief-closing-walk", "monthly");
 const protocolAnnualUrl = spiralWalkUrl(spiralName, "brief-closing-annual", "annual");
+const protocolTopWalkUrl = spiralWalkUrl(spiralName, "brief-top-step2-walk", "monthly");
+const protocolTopAnnualUrl = spiralWalkUrl(spiralName, "brief-top-step2-annual", "annual");
 const protocolHeaderWalkUrl = spiralWalkUrl(spiralName, "brief-header-walk", "monthly");
 const frontierLinks = frontierForCategory(entry.data.category);
 const structuredData = [
@@ -189,7 +191,7 @@ const structuredData = [
         <span class="companion-strip-links">
           <a href={protocolHeaderTeachingUrl} target="_blank" rel="noopener noreferrer">Biophysics monograph ↗</a>
           <span aria-hidden="true">·</span>
-          <a href={protocolHeaderWalkUrl} target="_blank" rel="noopener noreferrer" class="companion-strip-cta">28-Day Protocol ($33/mo) →</a>
+          <a href={protocolHeaderWalkUrl} target="_blank" rel="noopener noreferrer" class="companion-strip-cta js-personalized-walk-link">28-Day Protocol ($33/mo) →</a>
         </span>
       </div>
     </header>
@@ -209,6 +211,65 @@ const structuredData = [
       />
       <p class="article-image-note"><span>In the frame</span> {typographic(entry.data.image_caption) || "A glimpse of the everyday routines behind this story."}</p>
     </div>}
+
+    <aside
+      class="brief-top-guide-callout brief-guide-widget"
+      aria-label={`Free ${spiralName} Biophysics Field Guide PDF`}
+      data-spiral-slug={protocolSlug}
+      data-placement="brief_top_callout"
+    >
+      <form class="protocol-guide-form js-brief-guide-form">
+        <div class="brief-top-guide-head">
+          <span class="brief-top-guide-kicker">Companion Field Guide · {spiralName}</span>
+          <span class="brief-top-guide-meta">4-Page Printable PDF · Free</span>
+        </div>
+        <label for="brief-top-guide-email" class="protocol-guide-label">
+          Get the <strong>{spiralName} Biophysics Field Guide</strong>—dosing windows, Phase I/II transport sequence &amp; daily schedule:
+        </label>
+        <div class="protocol-guide-row">
+          <input
+            type="email"
+            id="brief-top-guide-email"
+            name="email"
+            required
+            placeholder="Enter your email for instant PDF download…"
+            class="protocol-guide-input"
+          />
+          <button type="submit" class="protocol-guide-submit">
+            Download Free PDF ↓
+          </button>
+        </div>
+      </form>
+
+      <div class="protocol-guide-unlocked js-brief-guide-unlocked is-hidden">
+        <p class="protocol-guide-step-kicker">Step 2 · Ready When You Want Structure</p>
+        <p class="protocol-guide-unlocked-title">
+          Your <strong>{spiralName}</strong> Field Guide is unlocked. Want to run the 28-day circadian schedule with daily AM/PM windows, Apple/Google Calendar sync &amp; AI Companion?
+        </p>
+        <div class="protocol-guide-unlocked-actions">
+          <a
+            href={protocolTopWalkUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="primary-link js-personalized-walk-link"
+          >
+            Start 28-Day {spiralName} Workspace ($33/mo) →
+          </a>
+          <a
+            href={protocolTopAnnualUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="protocol-secondary-link js-personalized-walk-link"
+          >
+            Annual Passage ($222/yr · Save 44%) ↗
+          </a>
+          <a href={protocolCard.pdfUrl} download class="protocol-secondary-link">
+            Re-download {spiralName} PDF ↓
+          </a>
+        </div>
+      </div>
+    </aside>
+
     <div class="article-content"><Content /></div>
 
     {entry.data.autoresearch_antecedents && entry.data.autoresearch_antecedents.length > 0 && (
@@ -241,10 +302,10 @@ const structuredData = [
         {protocolCard.focus}. Read the open biophysics monograph freely, or run {spiralName} inside the calibrated 28-Day Circadian Protocol Workspace—with morning &amp; evening dosing windows, Apple/Google Calendar WebCal sync, and AI Companion.
       </p>
       <div class="protocol-card-actions">
-        <a class="primary-link" href={protocolWalkUrl} rel="noopener noreferrer" target="_blank">
+        <a class="primary-link js-personalized-walk-link" href={protocolWalkUrl} rel="noopener noreferrer" target="_blank">
           Start 28-Day {spiralName} Protocol · $33/mo <span aria-hidden="true">→</span>
         </a>
-        <a class="protocol-secondary-link" href={protocolAnnualUrl} rel="noopener noreferrer" target="_blank">
+        <a class="protocol-secondary-link js-personalized-walk-link" href={protocolAnnualUrl} rel="noopener noreferrer" target="_blank">
           Annual Passage ($222/yr · Save 44%) ↗
         </a>
         <a class="protocol-secondary-link" href={protocolProgramUrl} rel="noopener noreferrer" target="_blank">
@@ -255,10 +316,10 @@ const structuredData = [
         </a>
       </div>
 
-      <div class="protocol-guide-box">
-        <form id="brief-guide-form" class="protocol-guide-form">
+      <div class="protocol-guide-box brief-guide-widget" data-placement="brief_protocol_card">
+        <form id="brief-guide-form" class="protocol-guide-form js-brief-guide-form">
           <label for="brief-guide-email" class="protocol-guide-label">
-            Free printable <strong>{spiralName} Field Guide (PDF)</strong> + daily biophysics briefs:
+            Free printable <strong>{spiralName} Field Guide (PDF)</strong> + companion protocol notes:
           </label>
           <div class="protocol-guide-row">
             <input
@@ -274,31 +335,39 @@ const structuredData = [
             </button>
           </div>
         </form>
-        <div id="brief-guide-unlocked" class="protocol-guide-unlocked is-hidden">
+        <div id="brief-guide-unlocked" class="protocol-guide-unlocked js-brief-guide-unlocked is-hidden">
+          <p class="protocol-guide-step-kicker">Step 2 · Next Step</p>
           <p class="protocol-guide-unlocked-title">
-            ✓ Your <strong>{spiralName}</strong> Field Guide is ready:
+            Your <strong>{spiralName}</strong> Field Guide is unlocked. Step into your pre-calibrated 28-Day Protocol Workspace (email pre-filled):
           </p>
           <div class="protocol-guide-unlocked-actions">
-            <a id="brief-guide-pdf-link" href={protocolCard.pdfUrl} download class="primary-link">
-              Download {spiralName} PDF ↓
-            </a>
             <a
               id="brief-guide-walk-link"
               href={protocolWalkUrl}
               target="_blank"
               rel="noopener noreferrer"
-              class="protocol-secondary-link"
+              class="primary-link js-personalized-walk-link"
             >
-              Launch your pre-calibrated 28-Day Workspace ($33/mo) →
+              Start 28-Day {spiralName} Workspace ($33/mo) →
+            </a>
+            <a
+              href={protocolAnnualUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="protocol-secondary-link js-personalized-walk-link"
+            >
+              Annual Passage ($222/yr · Save 44%) ↗
+            </a>
+            <a id="brief-guide-pdf-link" href={protocolCard.pdfUrl} download class="protocol-secondary-link">
+              Re-download {spiralName} PDF ↓
             </a>
           </div>
         </div>
       </div>
 
       <p class="protocol-sourcing">
-        In Canada, protocol supplements are stocked at
-        <a href={withUtm(protocolCard.href, "brief-page-sourcing")} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>
-        (commission-supported; no added cost to you). US, EU, and global sourcing is calibrated inside Phase 0 of the 28-Day Protocol.
+        Complete molecular formulary, practitioner dispensary plans (Canada, US &amp; Europe), and morning/evening dosing windows unlock inside the
+        <a href={protocolWalkUrl} rel="noopener noreferrer" target="_blank">28-Day Protocol Workspace</a>.
       </p>
     </aside>
 
@@ -380,40 +449,50 @@ const structuredData = [
     }
 
     const protocolCardEl = document.querySelector(".article-protocol-card") as HTMLElement | null;
-    const guideForm = document.getElementById("brief-guide-form") as HTMLFormElement | null;
-    const guideEmailInput = document.getElementById("brief-guide-email") as HTMLInputElement | null;
-    const guideSubmitBtn = document.getElementById("brief-guide-btn") as HTMLButtonElement | null;
-    const guideUnlockedBox = document.getElementById("brief-guide-unlocked");
-    const guideWalkLink = document.getElementById("brief-guide-walk-link") as HTMLAnchorElement | null;
-
     const spiralSlug = protocolCardEl?.dataset.spiralSlug || "waters";
 
     function applyPersonalizedWalkHref(email: string) {
-      if (!guideWalkLink || !email) return;
-      try {
-        const u = new URL(guideWalkLink.href);
-        u.searchParams.set("email", email);
-        guideWalkLink.href = u.toString();
-      } catch {}
+      if (!email) return;
+      document.querySelectorAll<HTMLAnchorElement>(".js-personalized-walk-link").forEach((link) => {
+        try {
+          const u = new URL(link.href);
+          u.searchParams.set("email", email);
+          link.href = u.toString();
+        } catch {}
+      });
+    }
+
+    function revealAllGuideUnlockedStates(email: string) {
+      applyPersonalizedWalkHref(email);
+      document.querySelectorAll<HTMLFormElement>(".js-brief-guide-form").forEach((form) => {
+        form.style.display = "none";
+      });
+      document.querySelectorAll<HTMLElement>(".js-brief-guide-unlocked").forEach((box) => {
+        box.classList.remove("is-hidden");
+      });
     }
 
     try {
       const savedEmail = localStorage.getItem("agewell_lead_email");
-      if (savedEmail && guideForm && guideUnlockedBox) {
-        applyPersonalizedWalkHref(savedEmail);
-        guideForm.style.display = "none";
-        guideUnlockedBox.classList.remove("is-hidden");
+      if (savedEmail) {
+        revealAllGuideUnlockedStates(savedEmail);
       }
     } catch {}
 
-    if (guideForm && guideEmailInput && guideSubmitBtn && guideUnlockedBox) {
-      guideForm.addEventListener("submit", async (e) => {
+    document.querySelectorAll<HTMLFormElement>(".js-brief-guide-form").forEach((form) => {
+      form.addEventListener("submit", async (e) => {
         e.preventDefault();
-        const email = guideEmailInput.value.trim().toLowerCase();
+        const emailInput = form.querySelector<HTMLInputElement>('input[type="email"]');
+        const submitBtn = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+        const widget = form.closest<HTMLElement>(".brief-guide-widget");
+        const placement = widget?.dataset.placement || "brief_protocol_card";
+        const email = emailInput?.value.trim().toLowerCase() || "";
         if (!email) return;
 
-        guideSubmitBtn.disabled = true;
-        guideSubmitBtn.textContent = "Unlocking…";
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.textContent = "Unlocking…";
+        }
 
         const activeSpirals = {
           waters: true,
@@ -434,7 +513,7 @@ const structuredData = [
               region: "us",
               activeSpirals,
               guideSlug: spiralSlug,
-              source: `agewell_brief_${spiralSlug}`
+              source: `agewell_${placement}_${spiralSlug}`
             })
           });
         } catch {}
@@ -444,7 +523,7 @@ const structuredData = [
           window.dispatchEvent(
             new CustomEvent("agewell:lead-captured", {
               detail: {
-                placement: "brief_protocol_card",
+                placement,
                 spiral: spiralSlug,
                 page_path: window.location.pathname
               }
@@ -452,14 +531,12 @@ const structuredData = [
           );
         } catch {}
 
-        applyPersonalizedWalkHref(email);
-        guideForm.style.display = "none";
-        guideUnlockedBox.classList.remove("is-hidden");
+        revealAllGuideUnlockedStates(email);
 
         const pdfLink = document.getElementById("brief-guide-pdf-link") as HTMLAnchorElement | null;
         if (pdfLink) pdfLink.click();
       });
-    }
+    });
   </script>
 
 </Layout>
@@ -578,6 +655,41 @@ const structuredData = [
   .companion-strip-links .companion-strip-cta {
     color: var(--saffron-ink);
     font-weight: 700;
+  }
+  .brief-top-guide-callout {
+    margin: 22px 0 28px;
+    padding: 15px 18px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--saffron);
+  }
+  .brief-top-guide-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 6px 12px;
+    margin-bottom: 6px;
+  }
+  .brief-top-guide-kicker,
+  .protocol-guide-step-kicker {
+    display: block;
+    margin: 0 0 6px;
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--saffron-ink);
+  }
+  .brief-top-guide-head .brief-top-guide-kicker {
+    margin-bottom: 0;
+  }
+  .brief-top-guide-meta {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--muted);
   }
   .protocol-guide-box {
     margin: 18px 0 14px;

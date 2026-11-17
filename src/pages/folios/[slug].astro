@@ -2,7 +2,7 @@
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import FolioSolarPlate from "../../components/FolioSolarPlate.astro";
-import { linkRel, readingTimeMinutes, spiralTeachingUrl, spiralWalkUrl, typographic } from "../../lib/publishing";
+import { linkRel, readingTimeMinutes, spiralSlugFor, spiralTeachingUrl, spiralWalkUrl, typographic } from "../../lib/publishing";
 
 export async function getStaticPaths() {
   const folios = (await getCollection("folios"))
@@ -42,6 +42,16 @@ const formatShortDate = (date: Date) =>
   date.toLocaleDateString("en-CA", { month: "short", day: "numeric", year: "numeric" });
 
 const folioURL = new URL(`/folios/${folio.id}/`, Astro.site).href;
+const folioSpiralSlug = folio.data.spiral ? spiralSlugFor(folio.data.spiral) : "";
+const folioPdfBySlug: Record<string, string> = {
+  waters: "/downloads/field-guides/living-waters-field-guide.pdf",
+  garden: "/downloads/field-guides/inner-garden-field-guide.pdf",
+  shedding: "/downloads/field-guides/cell-shedding-field-guide.pdf",
+  flame: "/downloads/field-guides/higher-flame-field-guide.pdf",
+  mind: "/downloads/field-guides/luminous-mind-field-guide.pdf",
+  mirror: "/downloads/field-guides/dark-mirror-field-guide.pdf"
+};
+const folioPdfUrl = folioPdfBySlug[folioSpiralSlug] || "/downloads/field-guides/living-waters-field-guide.pdf";
 const structuredData = [
   {
     "@context": "https://schema.org",
@@ -168,13 +178,51 @@ const structuredData = [
     </section>
 
     <footer class="folio-colophon">
+      {folio.data.spiral && (
+        <aside class="folio-guide-box" data-spiral-slug={folioSpiralSlug} data-pdf-url={folioPdfUrl}>
+          <form id="folio-guide-form" class="folio-guide-form">
+            <label for="folio-guide-email" class="folio-guide-label">
+              <strong>Companion Field Guide · {folio.data.spiral}:</strong> Download the 4-page printable protocol PDF (dosing windows, Phase I/II sequence &amp; seasonal rhythm):
+            </label>
+            <div class="folio-guide-row">
+              <input
+                type="email"
+                id="folio-guide-email"
+                required
+                placeholder="Enter your email for instant PDF download…"
+                class="folio-guide-input"
+              />
+              <button type="submit" id="folio-guide-btn" class="folio-guide-btn">
+                Unlock Field Guide PDF ↓
+              </button>
+            </div>
+          </form>
+          <div id="folio-guide-unlocked" class="folio-guide-unlocked is-hidden">
+            <p class="folio-step-kicker">Step 2 · Ready When You Want Structure</p>
+            <p class="folio-step-copy">
+              Your <strong>{folio.data.spiral}</strong> Field Guide is unlocked. Step into your pre-calibrated 28-Day Protocol Workspace:
+            </p>
+            <div class="folio-step-actions">
+              <a class="primary-link js-folio-walk-link" href={spiralWalkUrl(folio.data.spiral, `folio-step2-walk-${folio.id}`, "monthly")} target="_blank" rel="noopener noreferrer">
+                Start 28-Day {folio.data.spiral} Workspace ($33/mo) →
+              </a>
+              <a class="js-folio-walk-link" href={spiralWalkUrl(folio.data.spiral, `folio-step2-annual-${folio.id}`, "annual")} target="_blank" rel="noopener noreferrer">
+                Annual Passage ($222/yr · Save 44%) ↗
+              </a>
+              <a id="folio-guide-pdf-link" href={folioPdfUrl} download>
+                Re-download {folio.data.spiral} PDF ↓
+              </a>
+            </div>
+          </div>
+        </aside>
+      )}
       <p>
         <strong>Colophon &amp; Evidence Note:</strong> {folio.data.colophon_note}
       </p>
       <div class="folio-colophon-links">
         <a href="/folios/">← Solar Folio Index</a>
         {folio.data.spiral && (
-          <a href={spiralWalkUrl(folio.data.spiral, `folio-walk-${folio.id}`, "annual")} target="_blank" rel="noopener noreferrer">
+          <a class="js-folio-walk-link" href={spiralWalkUrl(folio.data.spiral, `folio-walk-${folio.id}`, "annual")} target="_blank" rel="noopener noreferrer">
             Run {folio.data.spiral} in the 28-Day Protocol ($33/mo · $222/yr) →
           </a>
         )}
@@ -211,5 +259,152 @@ const structuredData = [
     if (printBtn) {
       printBtn.addEventListener("click", () => window.print());
     }
+
+    const folioBox = document.querySelector(".folio-guide-box") as HTMLElement | null;
+    const folioForm = document.getElementById("folio-guide-form") as HTMLFormElement | null;
+    const folioEmail = document.getElementById("folio-guide-email") as HTMLInputElement | null;
+    const folioBtn = document.getElementById("folio-guide-btn") as HTMLButtonElement | null;
+    const folioUnlocked = document.getElementById("folio-guide-unlocked");
+    const folioPdfLink = document.getElementById("folio-guide-pdf-link") as HTMLAnchorElement | null;
+    const folioSlug = folioBox?.dataset.spiralSlug || "waters";
+
+    function applyFolioEmail(email: string) {
+      if (!email) return;
+      document.querySelectorAll<HTMLAnchorElement>(".js-folio-walk-link").forEach((a) => {
+        try {
+          const u = new URL(a.href);
+          u.searchParams.set("email", email);
+          a.href = u.toString();
+        } catch {}
+      });
+    }
+
+    try {
+      const saved = localStorage.getItem("agewell_lead_email");
+      if (saved && folioForm && folioUnlocked) {
+        applyFolioEmail(saved);
+        folioForm.style.display = "none";
+        folioUnlocked.classList.remove("is-hidden");
+      }
+    } catch {}
+
+    if (folioForm && folioEmail && folioBtn && folioUnlocked) {
+      folioForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const email = folioEmail.value.trim().toLowerCase();
+        if (!email) return;
+        folioBtn.disabled = true;
+        folioBtn.textContent = "Unlocking…";
+
+        try {
+          await fetch("https://spiraloflight.life/api/phase0", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              email,
+              tier: folioSlug === "waters" ? "gentle_waters" : "full_foundation",
+              region: "us",
+              guideSlug: folioSlug,
+              source: `agewell_folio_${folioSlug}`
+            })
+          });
+        } catch {}
+
+        try {
+          localStorage.setItem("agewell_lead_email", email);
+          window.dispatchEvent(
+            new CustomEvent("agewell:lead-captured", {
+              detail: { placement: "folio_page", spiral: folioSlug, page_path: window.location.pathname }
+            })
+          );
+        } catch {}
+
+        applyFolioEmail(email);
+        folioForm.style.display = "none";
+        folioUnlocked.classList.remove("is-hidden");
+        if (folioPdfLink) folioPdfLink.click();
+      });
+    }
   </script>
+
+  <style>
+    .folio-guide-box {
+      margin: 0 0 22px;
+      padding: 16px 18px;
+      background: var(--cream);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--saffron);
+    }
+    .folio-guide-label {
+      display: block;
+      margin: 0 0 10px;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--ink-soft);
+    }
+    .folio-guide-label strong {
+      color: var(--ink);
+    }
+    .folio-guide-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .folio-guide-input {
+      flex: 1 1 220px;
+      min-height: 38px;
+      padding: 8px 12px;
+      font-family: var(--sans);
+      font-size: 0.88rem;
+      border: 1px solid var(--line-strong);
+      border-radius: 2px;
+      background: var(--white);
+      color: var(--ink);
+    }
+    .folio-guide-btn {
+      min-height: 38px;
+      padding: 8px 14px;
+      font-family: var(--sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--ink);
+      color: var(--paper);
+      border: 1px solid var(--ink);
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    .folio-guide-btn:hover {
+      background: var(--saffron-ink);
+      border-color: var(--saffron-ink);
+    }
+    .folio-guide-unlocked.is-hidden {
+      display: none;
+    }
+    .folio-step-kicker {
+      margin: 0 0 4px;
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--saffron-ink);
+    }
+    .folio-step-copy {
+      margin: 0 0 10px;
+      font-family: var(--sans);
+      font-size: 0.86rem;
+      color: var(--ink);
+    }
+    .folio-step-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 18px;
+      font-family: var(--sans);
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+  </style>
 </Layout>

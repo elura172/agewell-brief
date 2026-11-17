@@ -123,7 +123,7 @@ const structuredData = {
               <p class="spiral-axiom">{resource.axiom}</p>
               <p class="spiral-desc">{resource.description}</p>
               <div class="spiral-card-actions">
-                <a href={spiralWalkUrl(resource.name, `spiral-page-walk-${resource.slug}`)} target="_blank" rel="noopener noreferrer" class="spiral-primary-link">
+                <a href={spiralWalkUrl(resource.name, `spiral-page-walk-${resource.slug}`)} target="_blank" rel="noopener noreferrer" class="spiral-primary-link js-spiral-walk-link">
                   Start 28-Day Protocol ($33/mo) <span aria-hidden="true">→</span>
                 </a>
                 <span class="spiral-action-sep" aria-hidden="true">·</span>
@@ -153,6 +153,25 @@ const structuredData = {
                 />
                 <button type="submit" class="spiral-gate-submit">Unlock PDF ↓</button>
               </form>
+              <div class="spiral-step2-box is-hidden" data-step2-for={spiralSlugFor(resource.name)}>
+                <p class="spiral-step2-kicker">Step 2 · Ready When You Want Structure</p>
+                <p class="spiral-step2-copy">
+                  Your <strong>{resource.name}</strong> PDF is ready. Open your pre-calibrated 28-day circadian workspace:
+                </p>
+                <div class="spiral-step2-actions">
+                  <a href={spiralWalkUrl(resource.name, `spiral-step2-walk-${resource.slug}`, "monthly")} target="_blank" rel="noopener noreferrer" class="spiral-primary-link js-spiral-walk-link">
+                    28-Day Workspace ($33/mo) <span aria-hidden="true">→</span>
+                  </a>
+                  <span class="spiral-action-sep" aria-hidden="true">·</span>
+                  <a href={spiralWalkUrl(resource.name, `spiral-step2-annual-${resource.slug}`, "annual")} target="_blank" rel="noopener noreferrer" class="spiral-secondary-link js-spiral-walk-link">
+                    Annual Passage ($222/yr · Save 44%) ↗
+                  </a>
+                  <span class="spiral-action-sep" aria-hidden="true">·</span>
+                  <a href={resource.pdfUrl} download class="spiral-secondary-link">
+                    Re-download PDF ↓
+                  </a>
+                </div>
+              </div>
             </div>
           </li>
         ))}
@@ -219,7 +238,7 @@ const structuredData = {
             <strong>Spiral of Cellular Light</strong> (<a href="https://spiraloflight.life/walk?lens=biophysics&utm_source=agewellbrief&utm_medium=referral&utm_content=spiral-colophon" target="_blank" rel="noopener noreferrer">spiraloflight.life</a>) pairs open biophysics monographs and free PDF field guides with a paid <strong>28-Day Circadian Protocol Workspace</strong> ($33/month cycle, $222/year Annual Passage across all four seasons, or $555 Founding Patron Pass capped at 33 seats) featuring calibrated morning/evening dosing windows, Apple/Google Calendar WebCal sync, and an AI Companion. Agewell Brief keeps primary peer-reviewed reporting, clinical consensus, and the companion framework distinct so readers can evaluate each study on its own evidence.
           </p>
           <p>
-            For readers in Canada, practitioner-grade supplement plans corresponding to each lens are available through our <a href={withUtm("https://ca.fullscript.com/s/spiraloflight", "spiral-page-sourcing")} target="_blank" rel="sponsored noopener noreferrer">Canadian Fullscript dispensary</a> (commission-supported at no added cost to you). Always review any protocol with a qualified healthcare professional.
+            Practitioner-grade dispensary plans (Canada, US, and Europe), compounding preparations, and full molecular formularies corresponding to each lens unlock inside the <a href="https://spiraloflight.life/walk?lens=biophysics&utm_source=agewellbrief&utm_medium=referral&utm_content=spiral-page-sourcing" target="_blank" rel="noopener noreferrer">Spiral of Cellular Light Member Sanctuary</a>. Always review any protocol with a qualified healthcare professional.
           </p>
         </div>
       </div>
@@ -236,6 +255,28 @@ const structuredData = {
       document.body.removeChild(a);
     }
 
+    function applySpiralEmailLinks(email: string) {
+      if (!email) return;
+      document.querySelectorAll<HTMLAnchorElement>(".js-spiral-walk-link").forEach((a) => {
+        try {
+          const u = new URL(a.href);
+          u.searchParams.set("email", email);
+          a.href = u.toString();
+        } catch {}
+      });
+    }
+
+    function revealStep2ForSlug(slug: string, email: string) {
+      applySpiralEmailLinks(email);
+      const step2 = document.querySelector<HTMLElement>(`.spiral-step2-box[data-step2-for="${slug}"]`);
+      if (step2) step2.classList.remove("is-hidden");
+    }
+
+    try {
+      const savedInit = localStorage.getItem("agewell_lead_email") || "";
+      if (savedInit) applySpiralEmailLinks(savedInit);
+    } catch {}
+
     document.querySelectorAll<HTMLButtonElement>(".spiral-pdf-gate-btn").forEach((btn) => {
       btn.addEventListener("click", () => {
         const pdfUrl = btn.dataset.pdfUrl || "";
@@ -246,6 +287,7 @@ const structuredData = {
         } catch {}
 
         if (savedEmail && pdfUrl) {
+          revealStep2ForSlug(slug, savedEmail);
           triggerPdfDownload(pdfUrl);
           return;
         }
@@ -298,6 +340,7 @@ const structuredData = {
         } catch {}
 
         form.classList.add("is-hidden");
+        revealStep2ForSlug(slug, email);
         if (pdfUrl) triggerPdfDownload(pdfUrl);
       });
     });
@@ -314,8 +357,40 @@ const structuredData = {
     text-decoration: underline;
     text-underline-offset: 3px;
   }
-  .spiral-inline-gate.is-hidden {
+  .spiral-inline-gate.is-hidden,
+  .spiral-step2-box.is-hidden {
     display: none;
+  }
+  .spiral-step2-box {
+    margin-top: 12px;
+    padding: 12px 14px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-left: 2.5px solid var(--saffron);
+  }
+  .spiral-step2-kicker {
+    margin: 0 0 4px;
+    font-family: var(--sans);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--saffron-ink);
+  }
+  .spiral-step2-copy {
+    margin: 0 0 8px;
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    line-height: 1.45;
+    color: var(--ink);
+  }
+  .spiral-step2-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 10px;
+    font-family: var(--sans);
+    font-size: 0.78rem;
   }
   .spiral-inline-gate {
     display: flex;

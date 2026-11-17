@@ -201,7 +201,7 @@ const structuredData = [
         data-pdf-url={guide.resource.pdfUrl}
       >
         <p>28-Day Companion Protocol · {guide.resource.name}</p>
-        <a href={spiralWalkUrl(guide.resource.name, `topic-walk-${topicSlug(category)}`, "monthly")} rel="noopener noreferrer" target="_blank">Start 28-Day {guide.resource.name} Protocol ($33/mo) <span aria-hidden="true">→</span></a>
+        <a class="js-topic-walk-link" href={spiralWalkUrl(guide.resource.name, `topic-walk-${topicSlug(category)}`, "monthly")} rel="noopener noreferrer" target="_blank">Start 28-Day {guide.resource.name} Protocol ($33/mo) <span aria-hidden="true">→</span></a>
         <a class="topic-framework-link" href={spiralTeachingUrl(guide.resource.name, `topic-teaching-${topicSlug(category)}`)} rel="noopener noreferrer" target="_blank">Open biophysics monograph <span aria-hidden="true">↗</span></a>
         <form id="topic-guide-form" class="topic-guide-form">
           <input
@@ -216,13 +216,28 @@ const structuredData = [
             Send PDF ↓
           </button>
         </form>
-        <a id="topic-guide-pdf-link" href={guide.resource.pdfUrl} download class="topic-pdf-download is-hidden">
-          ✓ Download {guide.resource.name} Field Guide (PDF) ↓
-        </a>
+        <div id="topic-guide-unlocked" class="topic-guide-unlocked is-hidden">
+          <p class="topic-step-kicker">Step 2 · Next Step</p>
+          <p class="topic-step-copy">
+            Your <strong>{guide.resource.name}</strong> Field Guide is unlocked. Ready to run the calibrated 28-day schedule?
+          </p>
+          <div class="topic-step-actions">
+            <a class="topic-step-primary js-topic-walk-link" href={spiralWalkUrl(guide.resource.name, `topic-step2-walk-${topicSlug(category)}`, "monthly")} rel="noopener noreferrer" target="_blank">
+              Start 28-Day Workspace ($33/mo) →
+            </a>
+            <a class="topic-step-secondary js-topic-walk-link" href={spiralWalkUrl(guide.resource.name, `topic-step2-annual-${topicSlug(category)}`, "annual")} rel="noopener noreferrer" target="_blank">
+              Annual Passage ($222/yr · Save 44%) ↗
+            </a>
+            <a id="topic-guide-pdf-link" href={guide.resource.pdfUrl} download class="topic-pdf-download">
+              Re-download {guide.resource.name} PDF ↓
+            </a>
+          </div>
+        </div>
         <small>
-          In Canada, protocol supplements are stocked at
-          <a href={withUtm(guide.resource.href, "topic-page-sourcing")} rel="sponsored noopener noreferrer" target="_blank">our Fullscript dispensary</a>
-          (commission-supported; no added cost to you).
+          Practitioner dispensary plans and calibrated dosing windows unlock inside the{" "}
+          <a class="js-topic-walk-link" href={spiralWalkUrl(guide.resource.name, "topic-page-sourcing", "monthly")} rel="noopener noreferrer" target="_blank">
+            28-Day Protocol Workspace
+          </a>.
         </small>
       </div>}
     </section>
@@ -248,18 +263,31 @@ const structuredData = [
     const topicForm = document.getElementById("topic-guide-form") as HTMLFormElement | null;
     const topicEmail = document.getElementById("topic-guide-email") as HTMLInputElement | null;
     const topicBtn = document.getElementById("topic-guide-btn") as HTMLButtonElement | null;
+    const topicUnlocked = document.getElementById("topic-guide-unlocked");
     const topicPdfLink = document.getElementById("topic-guide-pdf-link") as HTMLAnchorElement | null;
     const spiralSlug = resourceBox?.dataset.spiralSlug || "waters";
 
+    function applyTopicWalkEmail(email: string) {
+      if (!email) return;
+      document.querySelectorAll<HTMLAnchorElement>(".js-topic-walk-link").forEach((a) => {
+        try {
+          const u = new URL(a.href);
+          u.searchParams.set("email", email);
+          a.href = u.toString();
+        } catch {}
+      });
+    }
+
     try {
       const saved = localStorage.getItem("agewell_lead_email");
-      if (saved && topicForm && topicPdfLink) {
+      if (saved && topicForm && topicUnlocked) {
+        applyTopicWalkEmail(saved);
         topicForm.style.display = "none";
-        topicPdfLink.classList.remove("is-hidden");
+        topicUnlocked.classList.remove("is-hidden");
       }
     } catch {}
 
-    if (topicForm && topicEmail && topicBtn && topicPdfLink) {
+    if (topicForm && topicEmail && topicBtn && topicUnlocked) {
       topicForm.addEventListener("submit", async (e) => {
         e.preventDefault();
         const email = topicEmail.value.trim().toLowerCase();
@@ -290,9 +318,10 @@ const structuredData = [
           );
         } catch {}
 
+        applyTopicWalkEmail(email);
         topicForm.style.display = "none";
-        topicPdfLink.classList.remove("is-hidden");
-        topicPdfLink.click();
+        topicUnlocked.classList.remove("is-hidden");
+        if (topicPdfLink) topicPdfLink.click();
       });
     }
   </script>
@@ -334,17 +363,49 @@ const structuredData = [
     background: var(--saffron-ink);
     border-color: var(--saffron-ink);
   }
-  .topic-pdf-download.is-hidden {
+  .topic-guide-unlocked.is-hidden {
     display: none;
   }
+  .topic-guide-unlocked {
+    margin: 10px 0 8px;
+    padding: 10px 12px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-left: 2.5px solid var(--saffron);
+  }
+  .topic-step-kicker {
+    margin: 0 0 4px !important;
+    font-size: 0.68rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--saffron-ink) !important;
+  }
+  .topic-step-copy {
+    margin: 0 0 8px !important;
+    font-size: 0.82rem !important;
+    line-height: 1.45;
+    color: var(--ink) !important;
+  }
+  .topic-step-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 14px;
+  }
+  .topic-step-primary {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--saffron-ink);
+  }
+  .topic-step-secondary,
   .topic-pdf-download {
-    display: block;
-    margin-top: 8px;
-    font-size: 0.82rem;
+    font-size: 0.78rem;
     font-weight: 600;
     color: var(--ink-soft);
     text-decoration-color: var(--line);
   }
+  .topic-step-secondary:hover,
   .topic-pdf-download:hover {
     color: var(--saffron-ink);
     text-decoration-color: var(--saffron);
