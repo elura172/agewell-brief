@@ -1,17 +1,139 @@
 {
-  "generated_at": "2026-11-16T15:55:04.899262+00:00",
+  "generated_at": "2026-11-17T16:06:59.059274+00:00",
   "release_status": "published",
   "dry_run": false,
   "schema_version": 3,
   "includes_trending": true,
   "packages": [
     {
+      "article": "2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3",
+      "url": "https://agewellbrief.com/brief/2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3/",
+      "category": "gut health",
+      "trend": {
+        "rank": 1,
+        "reader_visits": 11
+      },
+      "source_url": "https://medicalxpress.com/news/2026-11-gut-microbiome-linked-exceptional-longevity.html",
+      "content_record": {
+        "article_id": "2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3",
+        "article_url": "https://agewellbrief.com/brief/2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3/",
+        "title": "Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice",
+        "category": "gut health",
+        "source_url": "https://medicalxpress.com/news/2026-11-gut-microbiome-linked-exceptional-longevity.html",
+        "editorial_body": "UC San Diego researchers tracked the small-molecule outputs of human centenarian gut microbes and used engineered bacteria to reverse metabolic decay in aged mice. Human longevity has long posed a biological puzzle. While the cellular machinery of most mammals predictably degrades over time, individuals who reach exceptional ages often retain robust metabolic stability, clearing blood sugar efficiently and resisting systemic insulin resistance well into their tenth decade. For over a century, scientists have suspected that the dense ecosystem of trillions of microbes inhabiting the large intestine plays a role in this resistance. In 1907, microbiologist Élie Metchnikoff proposed that toxic bacterial byproducts drive age-related physical decline, suggesting that altering the gut's microscopic flora could preserve human vigor. Modern high-throughput sequencing has transformed this hypothesis into a precise biochemical search, shifting focus from which microbes reside in the colon to what metabolic factories they operate. The fundamental challenge lies in distinguishing whether the distinct microbiome of a centenarian is merely a passive byproduct of a healthy lifestyle or an active driver of cellular resilience. Isolating the specific chemical outputs that separate ordinary aging from exceptional healthspan remains one of the central frontiers of longevity science. To answer this question, researchers at the University of California San Diego analyzed the metabolic activity of the gut microbiome in humans who achieved exceptional longevity. Rather than simply cataloging bacterial species, the team evaluated the active chemical pathways and small-molecule metabolites secreted by these microbial communities. The investigators identified distinct shifts in microbial metabolic output that correlated directly with human centenarians. To test whether these chemical signatures actively drove host youthfulness, the researchers engineered host bacteria to overproduce the exact metabolites observed in the long-lived humans and introduced them into aged mice. The intervention produced measurable systemic changes. Aged mice receiving the engineered bacteria showed restored metabolic health, demonstrating that specific microbial chemical signals can actively alter host physiological function across species boundaries. The gut microbiome functions as an endocrine-like organ, converting dietary molecules into bioavailable signals. These microbial metabolites cross the single-cell layer of the intestinal lining and enter the bloodstream, where they dock onto specific cell-surface receptors and nuclear transcription factors across peripheral tissues. In the aging mammal, skeletal muscle and liver tissue grow deaf to insulin as inflammatory proteins and cellular debris clutter downstream signaling pathways. The engineered bacterial strains overproduced target metabolites that appear to flush these clogged circuits, accelerating energy substrate clearance and stabilizing blood sugar handling. While this study highlights a functional bridge between bacterial secretion and host tissue performance, the precise molecular receptors and detailed signaling cascades activated by these specific metabolites remain to be fully mapped in human tissues. These findings establish a proof-of-concept for live biotherapeutic products, proving that synthetic biology can harness centenarian biochemistry to reverse aspects of mammalian metabolic decay. However, translating these rodent results into human medicine requires navigating significant biological hurdles. Engineered microbes must successfully colonize an established, competitive human gut ecosystem without causing opportunistic infections, swapping genes with native species, or disrupting surrounding metabolic pathways. Moreover, mouse models do not fully replicate the complex, decades-long interactions between human genetics, varied diets, and intestinal immunity. Until clinical trials establish safety, dosage, and efficacy, these findings do not justify attempting to modify the gut microbiome with commercial probiotics or unproven dietary regimens. Future research must identify the exact molecular structures of the centenarian metabolites to determine whether direct pharmaceutical administration or engineered bacterial delivery offers the safest route toward extending human healthspan. Researchers linked specific gut microbial metabolic outputs to exceptional human longevity. Engineered bacteria overproducing these longevity-associated metabolites restored youthful glucose handling in aged mice. Translating these rodent findings into human biotherapeutics requires rigorous clinical testing to ensure colonization and safety. Reported from Gut microbiome activity linked to exceptional longevity may support healthier aging (Medical Xpress Healthy Aging)."
+      },
+      "mpt_job": {
+        "status": "ready_for_mpt",
+        "subject": "Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice",
+        "article_url": "https://agewellbrief.com/brief/2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3/",
+        "video_aspect": "9:16",
+        "voice_name": "en-US-AvaNeural",
+        "script": "From Agewell Brief: Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice. UC San Diego researchers tracked the small-molecule outputs of human centenarian gut microbes and used engineered bacteria to reverse metabolic decay in aged mice. Human longevity has long posed a biological puzzle. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://medicalxpress.com/news/2026-11-gut-microbiome-linked-exceptional-longevity.html",
+        "trend": {
+          "rank": 1,
+          "reader_visits": 11
+        },
+        "text_fore_color": "#FAF6EE",
+        "highlight_color": "#6E9B77",
+        "stroke_color": "#181A1B",
+        "stroke_width": 2,
+        "font_size": 46,
+        "subtitle_bottom_margin": 210,
+        "max_words_per_line": 4,
+        "active_word_scale": 1.06,
+        "uppercase_keywords": false,
+        "bold_keywords": true,
+        "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
+        "subtitle_bg_padding": 12,
+        "subtitle_glow_enabled": false,
+        "requires_video_qa": false
+      },
+      "facebook": {
+        "title": "Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice\n\nUC San Diego researchers tracked the small-molecule outputs of human centenarian gut microbes and used engineered bacteria to reverse metabolic decay in aged mice.",
+        "link_url": "https://agewellbrief.com/brief/2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3/"
+      },
+      "tiktok": {
+        "hook": "Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice",
+        "script": "From Agewell Brief: Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice. UC San Diego researchers tracked the small-molecule outputs of human centenarian gut microbes and used engineered bacteria to reverse metabolic decay in aged mice. Human longevity has long posed a biological puzzle. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3/",
+        "media_status": "ready_for_mpt"
+      },
+      "youtube": {
+        "title": "Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice",
+        "description": "From Agewell Brief: Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice. UC San Diego researchers tracked the small-molecule outputs of human centenarian gut microbes and used engineered bacteria to reverse metabolic decay in aged mice. Human longevity has long posed a biological puzzle. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "media_status": "ready_for_mpt"
+      }
+    },
+    {
+      "article": "2026-10-14-multikingdom-gut-remodeling-reframes-how-microbes-drive-immune-aging-5ed46e35",
+      "url": "https://agewellbrief.com/brief/2026-10-14-multikingdom-gut-remodeling-reframes-how-microbes-drive-immune-aging-5ed46e35/",
+      "category": "gut health",
+      "trend": {
+        "rank": 2,
+        "reader_visits": 8
+      },
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42874808/",
+      "content_record": {
+        "article_id": "2026-10-14-multikingdom-gut-remodeling-reframes-how-microbes-drive-immune-aging-5ed46e35",
+        "article_url": "https://agewellbrief.com/brief/2026-10-14-multikingdom-gut-remodeling-reframes-how-microbes-drive-immune-aging-5ed46e35/",
+        "title": "Multikingdom Gut Remodeling Reframes How Microbes Drive Immune Aging",
+        "category": "gut health",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42874808/",
+        "editorial_body": "Immune aging and gut microbial shifts engage in a reciprocal dialogue across bacteria, fungi, and viruses, moving science past simplistic notions of dysbiosis. Immunosenescence is not a uniform slide into decline, but rather a constellation of shifting hematopoietic outputs, altered immune-cell functions, and tissue-specific inflammatory states. In parallel, the trillions of organisms inhabiting the human intestinal tract undergo extensive ecological remodeling across the bacteriome, mycobiome, virome, and archaeome. Rather than settling into a singular, predictable aged profile, this microbial community fluctuates according to an individual health status, frailty, dietary patterns, and medication exposures. Mechanistically, age-related alterations in microbial metabolites and immunostimulatory products physically cross or interact with the intestinal epithelial barrier, directly altering local inflammatory tone, cellular metabolism, bone marrow hematopoiesis, and the functional states of both lymphoid and myeloid lineages. Yet this cross-talk operates as a two-way street, because intrinsic immune and tissue aging actively reshape microbial ecology and functional capacity in return. This reciprocal loop reframes the gut microbiome from an autonomous, upstream puppet master of aging into a dynamic, modifiable cellular participant. Consequently, translational efforts must pivot away from the elusive goal of forcing an aged gut back into a youthful baseline, focusing instead on targeting specific microbial metabolites and host-response pathways that drive distinct aging phenotypes. Multikingdom microbial remodeling spans bacteria, fungi, viruses, and archaea without converging on a single aged microbiome profile. Microbial metabolites and immunostimulatory molecules physically alter epithelial barriers, inflammatory signaling, and immune-cell metabolic states. Intrinsic host immune aging reciprocally reshapes intestinal ecology, proving the gut microbiome is a dynamic participant rather than an autonomous driver. Reported from Multikingdom gut microbiome and immune aging: A host-microbial signaling perspective. (PubMed)."
+      },
+      "mpt_job": {
+        "status": "ready_for_mpt",
+        "subject": "Multikingdom Gut Remodeling Reframes How Microbes Drive Immune Aging",
+        "article_url": "https://agewellbrief.com/brief/2026-10-14-multikingdom-gut-remodeling-reframes-how-microbes-drive-immune-aging-5ed46e35/",
+        "video_aspect": "9:16",
+        "voice_name": "en-US-AvaNeural",
+        "script": "From Agewell Brief: Multikingdom Gut Remodeling Reframes How Microbes Drive Immune Aging. Immune aging and gut microbial shifts engage in a reciprocal dialogue across bacteria, fungi, and viruses, moving science past simplistic notions of dysbiosis. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42874808/",
+        "trend": {
+          "rank": 2,
+          "reader_visits": 8
+        },
+        "text_fore_color": "#FAF6EE",
+        "highlight_color": "#6E9B77",
+        "stroke_color": "#181A1B",
+        "stroke_width": 2,
+        "font_size": 46,
+        "subtitle_bottom_margin": 210,
+        "max_words_per_line": 4,
+        "active_word_scale": 1.06,
+        "uppercase_keywords": false,
+        "bold_keywords": true,
+        "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
+        "subtitle_bg_padding": 12,
+        "subtitle_glow_enabled": false,
+        "requires_video_qa": false
+      },
+      "facebook": {
+        "title": "Multikingdom Gut Remodeling Reframes How Microbes Drive Immune Aging\n\nImmune aging and gut microbial shifts engage in a reciprocal dialogue across bacteria, fungi, and viruses, moving science past simplistic notions of dysbiosis.",
+        "link_url": "https://agewellbrief.com/brief/2026-10-14-multikingdom-gut-remodeling-reframes-how-microbes-drive-immune-aging-5ed46e35/"
+      },
+      "tiktok": {
+        "hook": "Multikingdom Gut Remodeling Reframes How Microbes Drive Immune Aging",
+        "script": "From Agewell Brief: Multikingdom Gut Remodeling Reframes How Microbes Drive Immune Aging. Immune aging and gut microbial shifts engage in a reciprocal dialogue across bacteria, fungi, and viruses, moving science past simplistic notions of dysbiosis. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "Multikingdom Gut Remodeling Reframes How Microbes Drive Immune Aging. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-10-14-multikingdom-gut-remodeling-reframes-how-microbes-drive-immune-aging-5ed46e35/",
+        "media_status": "ready_for_mpt"
+      },
+      "youtube": {
+        "title": "Multikingdom Gut Remodeling Reframes How Microbes Drive Immune Aging",
+        "description": "From Agewell Brief: Multikingdom Gut Remodeling Reframes How Microbes Drive Immune Aging. Immune aging and gut microbial shifts engage in a reciprocal dialogue across bacteria, fungi, and viruses, moving science past simplistic notions of dysbiosis. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-10-14-multikingdom-gut-remodeling-reframes-how-microbes-drive-immune-aging-5ed46e35/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "media_status": "ready_for_mpt"
+      }
+    },
+    {
       "article": "2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8",
       "url": "https://agewellbrief.com/brief/2026-11-15-alzheimer-s-shrinks-the-amygdala-and-entorhinal-cortex-years-before-me-0ec2e5f8/",
       "category": "brain health",
       "trend": {
-        "rank": 1,
-        "reader_visits": 20
+        "rank": 3,
+        "reader_visits": 8
       },
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
       "content_record": {
@@ -31,8 +153,8 @@
         "script": "From Agewell Brief: Alzheimer's Shrinks the Amygdala and Entorhinal Cortex Years Before Memory Loss. Volume loss in two gateway structures tracks the early spatial spread of misfolded tau tangles long before hippocampal damage occurs. Before Alzheimer's disease disrupts memory, it silently dismantles brain architecture over a five- to ten-year window. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
         "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
         "trend": {
-          "rank": 1,
-          "reader_visits": 20
+          "rank": 3,
+          "reader_visits": 8
         },
         "text_fore_color": "#FAF6EE",
         "highlight_color": "#C98B3B",
@@ -67,158 +189,36 @@
       }
     },
     {
-      "article": "2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2",
-      "url": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/",
-      "category": "general wellness",
-      "trend": {
-        "rank": 2,
-        "reader_visits": 6
-      },
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNWctSXQzdGMzdGVpUzVlc0NaS3hWUThQUnhCWVlObGxhWmpNVUwyel92M01BekJEWDRVdXFtR1lYaHVLQmFBbmJfNUR6cHVtclAxY2RMeGRQWmprRUJXRHIxV0VlMnhFcDBoMEhqQWNGSG5tZzRoYmIyS2dMZHZUSGhrSXpOWDV4OXRNMVoxUkptVElueDRBM0hmTURfM0VVcjNUT2Zr?oc=5",
-      "content_record": {
-        "article_id": "2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2",
-        "article_url": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/",
-        "title": "A four-minute daily routine improved chair-stand and balance scores",
-        "category": "general wellness",
-        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNWctSXQzdGMzdGVpUzVlc0NaS3hWUThQUnhCWVlObGxhWmpNVUwyel92M01BekJEWDRVdXFtR1lYaHVLQmFBbmJfNUR6cHVtclAxY2RMeGRQWmprRUJXRHIxV0VlMnhFcDBoMEhqQWNGSG5tZzRoYmIyS2dMZHZUSGhrSXpOWDV4OXRNMVoxUkptVElueDRBM0hmTURfM0VVcjNUT2Zr?oc=5",
-        "editorial_body": "New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming. Time, discomfort, and uncertainty about proper technique often get in the way. Yet mobility loss is a serious concern: reduced strength and balance are linked to falls, which are a leading cause of injury and death among people over 65. This new study from Penn State College of Medicine offers a simpler possibility. Instead of long sessions, just four minutes of daily resistance exercise—like push-ups, chair stands, and stair stepping—led to measurable improvements in strength and balance over 12 weeks. The findings suggest that consistency and simplicity may matter more than duration. That’s a hopeful message for anyone who has felt that exercise is out of reach. It also points to a practical way to support independence, which is central to quality of life as we age. The research, published in PLOS One, followed 97 adults aged 65 and older, with an average age of 74. Participants were randomly assigned to either a four-minute daily routine called FAST-2 or to continue their usual activities. At the start, they were quite inactive, averaging only about 18 minutes of exercise per week. The FAST-2 routine included four exercises: push-ups (against a wall or countertop), chair stands, two-arm rows with resistance bands, and stair stepping. Each movement was done for 30 seconds, followed by 30 seconds of rest, totaling four minutes. Participants could adjust the exercises to their comfort level, and they received virtual guidance. After three months, those in the exercise group showed clear gains. They completed an average of 4.2 more repetitions in a 30-second chair stand test, improved one-leg balance time by 3.6 seconds, and reduced the time needed to stand up repeatedly by 2.3 seconds. They also stuck with the routine well, completing it on 81% of days. These improvements may sound modest, but they reflect real-world function. Being able to rise from a chair more easily, balance longer on one leg, and move faster can make daily tasks safer and more manageable. The lead author, Christopher Sciamanna, notes that such indicators predict future risk of falling, difficulty walking, and even nursing home admission. However, this is a single study with limitations. The sample size was small, and all participants had internet access, which may not represent everyone. The study lasted only 12 weeks, so we don’t know if the gains will persist. Also, the routine was not compared to longer workouts, so we can’t say it’s superior—only that it appears effective. It’s also important to note that the study did not measure falls directly. While improved balance and strength are linked to lower fall risk, this research does not prove that the routine prevents falls or nursing home stays. Those outcomes would require longer, larger studies. If you’re considering a short daily routine, the key is to start where you are. The exercises in the study were designed to be adjustable: push-ups against a wall, chair stands with hand support, and using a resistance band for rows. You don’t need a gym or special equipment. Before beginning any new exercise program, it’s wise to check with your healthcare provider, especially if you have health conditions or concerns. They can help you choose movements that are safe for you. The study’s message is encouraging: small, consistent efforts can lead to meaningful change. Even a few minutes a day might help you maintain the strength and balance that support independence. As Sciamanna puts it, “Exercise is the key to freedom.” Four-minute daily routine improved chair stand and balance tests. Participants completed exercises on 81% of days. Study was small and short; more research needed. The Penn State study's four-minute daily routine (push-ups, chair stands, stair stepping) activates the same neuromuscular and musculoskeletal pathways identified by Fiatarone Singh's FICSIT trial and Hill's muscle physiology. Chair stands and stair stepping are closed-chain resistance exercises that load the quadriceps, gluteals, and calf muscles, stimulating mechanotransduction pathways (e.g., mTOR signaling) that promote muscle protein synthesis and hypertrophy. These movements also challenge the vestibular, proprioceptive, and visual systems, improving postural control and balance. The brevity of the routine leverages the principle of high-intensity interval training (HIIT) applied to resistance exercise: short bursts of near-maximal effort recruit high-threshold motor units (as per Henneman's size principle, which Hill's work informed), leading to rapid neural adaptations and increased muscle strength. This aligns with Fiatarone Singh's evidence that even low-volume, high-intensity resistance training yields significant functional gains in older adults, and with Hill's demonstration that muscle power output is optimized by brief, forceful contractions rather than prolonged submaximal activity. This analysis is based on Four-minute daily exercise boosts strength and mobility in older adults - The Brighter Side of News from The Brighter Side of News. Read the original report for full context."
-      },
-      "mpt_job": {
-        "status": "ready_for_mpt",
-        "subject": "A four-minute daily routine improved chair-stand and balance scores",
-        "article_url": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/",
-        "video_aspect": "9:16",
-        "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: A four-minute daily routine improved chair-stand and balance scores. New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNWctSXQzdGMzdGVpUzVlc0NaS3hWUThQUnhCWVlObGxhWmpNVUwyel92M01BekJEWDRVdXFtR1lYaHVLQmFBbmJfNUR6cHVtclAxY2RMeGRQWmprRUJXRHIxV0VlMnhFcDBoMEhqQWNGSG5tZzRoYmIyS2dMZHZUSGhrSXpOWDV4OXRNMVoxUkptVElueDRBM0hmTURfM0VVcjNUT2Zr?oc=5",
-        "trend": {
-          "rank": 2,
-          "reader_visits": 6
-        },
-        "text_fore_color": "#FAF6EE",
-        "highlight_color": "#D98A2B",
-        "stroke_color": "#181A1B",
-        "stroke_width": 2,
-        "font_size": 46,
-        "subtitle_bottom_margin": 210,
-        "max_words_per_line": 4,
-        "active_word_scale": 1.06,
-        "uppercase_keywords": false,
-        "bold_keywords": true,
-        "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
-        "subtitle_bg_padding": 12,
-        "subtitle_glow_enabled": false,
-        "requires_video_qa": false
-      },
-      "facebook": {
-        "title": "A four-minute daily routine improved chair-stand and balance scores\n\nNew research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming.",
-        "link_url": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/"
-      },
-      "tiktok": {
-        "hook": "A four-minute daily routine improved chair-stand and balance scores",
-        "script": "From Agewell Brief: A four-minute daily routine improved chair-stand and balance scores. New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "A four-minute daily routine improved chair-stand and balance scores. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/",
-        "media_status": "ready_for_mpt"
-      },
-      "youtube": {
-        "title": "A four-minute daily routine improved chair-stand and balance scores",
-        "description": "From Agewell Brief: A four-minute daily routine improved chair-stand and balance scores. New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
-        "media_status": "ready_for_mpt"
-      }
-    },
-    {
-      "article": "2026-11-09-targeting-the-primate-engine-how-low-dose-rapamycin-resets-cerebral-mi-b9eab848",
-      "url": "https://agewellbrief.com/brief/2026-11-09-targeting-the-primate-engine-how-low-dose-rapamycin-resets-cerebral-mi-b9eab848/",
-      "category": "brain health",
-      "trend": {
-        "rank": 3,
-        "reader_visits": 6
-      },
-      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
-      "content_record": {
-        "article_id": "2026-11-09-targeting-the-primate-engine-how-low-dose-rapamycin-resets-cerebral-mi-b9eab848",
-        "article_url": "https://agewellbrief.com/brief/2026-11-09-targeting-the-primate-engine-how-low-dose-rapamycin-resets-cerebral-mi-b9eab848/",
-        "title": "Targeting the Primate Engine: How Low-Dose Rapamycin Resets Cerebral Microcirculation in Presymptomatic APOE4 Carriers",
-        "category": "brain health",
-        "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
-        "editorial_body": "A new pilot single-arm trial reveals that four weeks of low-dose rapamycin selectively restores brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, pointing toward an early biophysical defense against cognitive decline. In the architecture of human longevity, cerebral microvasculature dictates neural destiny. Long before memory lapses register in clinical settings, the brain's microcapillary network begins to experience subtle hydraulic failures. For carriers of the high-risk APOE4 gene variant, this neurovascular uncoupling unfolds years in advance, choking off local oxygen delivery and metabolic substrate transport. As Hans Selye demonstrated decades ago regarding the exhaustion of systemic adaptation energy, chronic allostatic load depletes the biological resilience required to maintain delicate capillary tone. When microvascular endothelial cells degrade, the blood-brain barrier loses its selective permeability, triggering a cascade of localized hypoxia and neuroinflammation. This vascular decay sets the stage for the accumulation of metabolic waste products. Addressing these presymptomatic shifts requires an intervention capable of restoring cellular maintenance before structural degradation locks in permanent neurological deficits. Rapamycin enters this dynamic as a potent metabolic regulator. Long studied for its capacity to inhibit the Mechanistic Target of Rapamycin (mTOR), the drug forces cells away from unchecked growth and protein synthesis toward aggressive housekeeping pathways, primarily macroautophagy. By clearing out dysfunctional mitochondria and suppressing chronic inflammatory signaling within the cerebral endothelium, rapamycin acts much like ancestral intermittent nutrient deprivation. This pharmacological switch simulates the evolutionary hormetic triggers of caloric scarcity. In a pilot single-arm trial led by Ai-Ling Lin at the University of Missouri, healthy middle-aged adults aged 45 to 65 received a low daily dose of rapamycin for four weeks. The findings, published in the Journal of Cerebral Blood Flow & Metabolism, demonstrated that this short-term intervention measurably improved brain blood flow specifically among participants carrying the APOE4 variant. Participants without the genetic variant did not display the same vascular response, underscoring a genotype-specific physiological mechanism. A striking dimension of the Missouri trial lies in its demographic breakdown. When researchers analyzed the cohort by biological sex, female participants carrying the APOE4 variant experienced the most pronounced improvements in cerebral blood flow. Given that women comprise nearly two-thirds of all individuals living with Alzheimer's disease, this differential response highlights a critical frontier in precision medicine. It suggests that female neurovascular tissue may possess distinct metabolic sensitivities to mTOR modulation that can be leveraged therapeutically. Distinguishing between empirical observation and extrapolation remains essential. The trial successfully measured acute improvements in cerebral microcirculation, metabolic profiles, inflammatory markers, and microbiome shifts over a four-week window. However, the study was not designed to establish whether this short course of treatment prevents Alzheimer's disease or preserves long-term memory function. The observed vascular enhancements represent an encouraging physiological shift rather than a finalized clinical cure. The transition from laboratory discovery to human clinical application demands methodological rigor and caution. While the University of Missouri's NextGen Precision Health building accelerates the path from bench to bedside, broad clinical recommendations cannot be drawn from a pilot single-arm trial alone. Rapamycin is a potent immunosuppressant currently utilized for organ transplant recipients and specific rare conditions; deploying it for primary prevention requires extensive longitudinal validation. Future investigations must determine whether these acute increases in cerebral blood flow translate into sustained improvements in brain health, durable vascular compliance, and a reduced incidence of dementia over decades. For sovereign individuals tracking the convergence of longevity science and neurology, this research underscores a vital paradigm shift: treating cognitive risk at the level of microvascular mechanics long before the first clinical symptom emerges. Four weeks of low-dose rapamycin improved brain blood flow in healthy middle-aged APOE4 carriers. Female participants carrying the high-risk gene variant showed the most substantial vascular improvements. Participants without the APOE4 variant exhibited no significant changes in cerebral blood flow. This analysis is based on An anti-aging drug may help protect the brain before Alzheimer's symptoms begin from ScienceDaily Healthy Aging. Read the original report for full context."
-      },
-      "mpt_job": {
-        "status": "ready_for_mpt",
-        "subject": "Targeting the Primate Engine: How Low-Dose Rapamycin Resets Cerebral Microcirculation in Presymptomatic APOE4 Carriers",
-        "article_url": "https://agewellbrief.com/brief/2026-11-09-targeting-the-primate-engine-how-low-dose-rapamycin-resets-cerebral-mi-b9eab848/",
-        "video_aspect": "9:16",
-        "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: Targeting the Primate Engine: How Low-Dose Rapamycin Resets Cerebral Microcirculation in Presymptomatic APOE4 Carriers. A new pilot single-arm trial reveals that four weeks of low-dose rapamycin selectively restores brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, pointing toward an early biophysical defense against cognitive decline. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
-        "trend": {
-          "rank": 3,
-          "reader_visits": 6
-        },
-        "text_fore_color": "#FAF6EE",
-        "highlight_color": "#C98B3B",
-        "stroke_color": "#181A1B",
-        "stroke_width": 2,
-        "font_size": 46,
-        "subtitle_bottom_margin": 210,
-        "max_words_per_line": 4,
-        "active_word_scale": 1.06,
-        "uppercase_keywords": false,
-        "bold_keywords": true,
-        "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
-        "subtitle_bg_padding": 12,
-        "subtitle_glow_enabled": false,
-        "requires_video_qa": false
-      },
-      "facebook": {
-        "title": "Targeting the Primate Engine: How Low-Dose Rapamycin Resets Cerebral Microcirculation in Presymptomatic APOE4 Carriers\n\nA new pilot single-arm trial reveals that four weeks of low-dose rapamycin selectively restores brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, pointing toward an early biophysical defense against cognitive decline.",
-        "link_url": "https://agewellbrief.com/brief/2026-11-09-targeting-the-primate-engine-how-low-dose-rapamycin-resets-cerebral-mi-b9eab848/"
-      },
-      "tiktok": {
-        "hook": "Targeting the Primate Engine: How Low-Dose Rapamycin Resets Cerebral Microcirculation in Presymptomatic APOE4 Carriers",
-        "script": "From Agewell Brief: Targeting the Primate Engine: How Low-Dose Rapamycin Resets Cerebral Microcirculation in Presymptomatic APOE4 Carriers. A new pilot single-arm trial reveals that four weeks of low-dose rapamycin selectively restores brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, pointing toward an early biophysical defense against cognitive decline. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "Targeting the Primate Engine: How Low-Dose Rapamycin Resets Cerebral Microcirculation in Presymptomatic APOE4 Carriers. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-11-09-targeting-the-primate-engine-how-low-dose-rapamycin-resets-cerebral-mi-b9eab848/",
-        "media_status": "ready_for_mpt"
-      },
-      "youtube": {
-        "title": "Targeting the Primate Engine: How Low-Dose Rapamycin Resets Cerebral Microcirculation in Presym",
-        "description": "From Agewell Brief: Targeting the Primate Engine: How Low-Dose Rapamycin Resets Cerebral Microcirculation in Presymptomatic APOE4 Carriers. A new pilot single-arm trial reveals that four weeks of low-dose rapamycin selectively restores brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, pointing toward an early biophysical defense against cognitive decline. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-09-targeting-the-primate-engine-how-low-dose-rapamycin-resets-cerebral-mi-b9eab848/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
-        "media_status": "ready_for_mpt"
-      }
-    },
-    {
-      "article": "2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064",
-      "url": "https://agewellbrief.com/brief/2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064/",
-      "category": "brain health",
+      "article": "2026-10-24-bacterial-metabolites-rewrite-host-insulin-signaling-through-acid-sphi-b2ac893a",
+      "url": "https://agewellbrief.com/brief/2026-10-24-bacterial-metabolites-rewrite-host-insulin-signaling-through-acid-sphi-b2ac893a/",
+      "category": "gut health",
       "trend": {
         "rank": 4,
-        "reader_visits": 5
+        "reader_visits": 6
       },
-      "source_url": "https://www.nih.gov/news-events/news-releases/researchers-discover-single-cell-brain-activity-underlies-human-speech",
+      "source_url": "https://doi.org/10.64898/2026.03.04.709558",
       "content_record": {
-        "article_id": "2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064",
-        "article_url": "https://agewellbrief.com/brief/2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064/",
-        "title": "Researchers map how single neurons assemble spoken language",
-        "category": "brain health",
-        "source_url": "https://www.nih.gov/news-events/news-releases/researchers-discover-single-cell-brain-activity-underlies-human-speech",
-        "editorial_body": "Recordings from eight people revealed how individual neurons tracked grammar, meaning, and sentence context during natural conversation. The work maps part of language production at cellular scale; it does not read private thoughts or demonstrate a speech prosthesis. Speech arrives as a smooth stream, but the brain has to perform several jobs at once. It selects words, assigns their grammatical roles, groups them into phrases, keeps track of context, and prepares the movements needed to say them. Most human brain research sees this activity at the scale of broad regions. This study zoomed in to individual cells. That finer view matters because communication devices ultimately need reliable signals. Researchers hope that understanding how the brain organizes language could one day improve systems for people who cannot speak after stroke, amyotrophic lateral sclerosis, or another neurological condition. This paper supplies biological groundwork for that ambition. It does not test such a device. The researchers studied eight English-speaking patients who already had microelectrode arrays implanted for epilepsy monitoring. While the participants held natural conversations, the team recorded activity from hundreds of neurons across the frontotemporal cortex and aligned those signals with detailed transcripts. Natural-language models helped describe each spoken word in several ways: its meaning, part of speech, grammatical relationship to nearby words, place within a phrase, and wider sentence context. The researchers then asked which of those features corresponded with changes in neuronal firing. They found a division of labour. Some neurons tracked relatively specific properties, such as parts of speech or grammatical relationships. Others reflected higher-order structure, including how words formed phrases and how those phrases were ordered. Together, populations of cells captured combinations of syntax, meaning, and context. Some context-related signals appeared before a word was spoken, in certain analyses beginning a second or more ahead of the utterance. Language-related activity was distributed across the sampled frontotemporal areas, while the strongest encoding was left-lateralized and varied by cortical region. The paper also compared these cellular signals with wider local-field-potential patterns. The single-neuron recordings carried a more finely differentiated account of linguistic structure, showing why cellular-scale measurements can reveal features that broader recordings blur together. This was basic neuroscience conducted in a rare clinical setting. Eight participants are enough to reveal detailed patterns, but not enough to establish how consistently those patterns appear across the wider population. Everyone in the study spoke English, and electrodes sampled only the locations required for each participant’s medical care. The machine-learning models were analytical tools. They linked recorded neural activity with speech the participants actually produced. They did not capture unspoken private thoughts, decode unrestricted inner speech, or generate words for someone unable to communicate. The recordings were also invasive. Microelectrode arrays provide unusually precise data because they sit on or in the brain; they are not comparable to a consumer headset or ordinary brain scan. Moving from this experiment to a useful communication system would require broader validation, real-time decoding, durable hardware, and trials involving the people such a system is intended to help. The immediate value is a sharper map of language production. It gives researchers specific cellular signals to test in future studies and a clearer way to separate syntax, meaning, and sentence context. The longer-term possibility is a brain-computer interface that translates intended speech into text or sound. This study makes that direction more plausible, but it does not put a date on it. The next convincing steps will come from larger and more varied participant groups, additional languages and brain regions, and experiments designed around communication restoration rather than epilepsy monitoring. For readers, there is no new device, test, or regimen to pursue. Sudden trouble speaking can be a sign of stroke and calls for emergency help. Gradual or recurring changes deserve medical assessment. Those actions rely on established care, not on this research platform. Researchers recorded hundreds of neurons during conversations with eight epilepsy patients. Distinct cells tracked grammar, phrase structure, meaning, and sentence context. The study mapped speech production; it did not read thoughts or test a prosthesis. The modern preprint extends the classic single-neuron coding principle (Lettvin et al.) from sensory feature extraction to the motor-cognitive domain of language production. By recording from individual neurons in humans during natural conversation, it shows that cells in language-related cortex (e.g., prefrontal and temporal areas) fire selectively for specific grammatical roles (e.g., subject vs. object) and sentence-level context, much like frog retinal neurons fire for specific visual features. This validates the sparse coding hypothesis at the level of abstract linguistic categories, bridging Penfield's coarse cortical maps with the precise, cell-type-specific dynamics that underlie fluent speech. The finding also aligns with the modern 'neural syntax' hypothesis, where sequences of cell assemblies encode grammatical structure, providing a cellular substrate for the hierarchical phrase structure that Penfield's stimulation could only localize grossly. This analysis is based on Researchers discover single-cell brain activity that underlies human speech from NIH News Releases. Primary study: Nature — Mapping the neuronal building blocks of human language with language models."
+        "article_id": "2026-10-24-bacterial-metabolites-rewrite-host-insulin-signaling-through-acid-sphi-b2ac893a",
+        "article_url": "https://agewellbrief.com/brief/2026-10-24-bacterial-metabolites-rewrite-host-insulin-signaling-through-acid-sphi-b2ac893a/",
+        "title": "Bacterial Metabolites Rewrite Host Insulin Signaling Through Acid Sphingomyelinase Induction",
+        "category": "gut health",
+        "source_url": "https://doi.org/10.64898/2026.03.04.709558",
+        "editorial_body": "By altering bacterial pyruvate metabolism, dietary sugar shifts host lifespan and development in C. elegans through a single sphingomyelin enzyme. Genetically identical organisms often exhibit radically different physiological responses to the same nutrients, a variability long suspected to originate in the gut microbiome. To isolate the physical mechanics of this three-way interaction between diet, microbes, and host, researchers tracked the longevity and developmental arrest of C. elegans carrying mutations in daf-2, the nematode insulin-like receptor. When fed standard Escherichia coli OP50, dietary sugar suppressed the extended lifespan and alternative dauer larval states typical of daf-2 mutants, a suppression that failed to occur when the worms consumed alternative bacterial strains. Transposon mutagenesis screens revealed that this dietary sugar effect relies entirely on bacterial pyruvate dehydrogenase activity. When bacterial pyruvate dehydrogenase is impaired, pyruvate and lactate pool in the local environment, driving up the expression of asm-3, a host gene encoding acid sphingomyelinase. Genetic deletion of asm-3 completely abolishes the phenotypic shift, proving that the enzyme acts as an obligate molecular bridge between microbial metabolism and host insulin signaling. These findings uncover a direct biochemical route by which microbial metabolic output dictates host physiological destiny under altered nutrient conditions. Rather than acting as passive digests, bacterial metabolic intermediates directly command host gene transcription to reshape fundamental aging pathways. However, these mechanistic insights remain strictly confined to the nematode worm and defined bacterial strains, leaving the question of whether identical biochemical relays operate across mammalian tissue architectures entirely unresolved. Dietary sugar suppresses longevity and developmental programs in insulin-mutant nematodes fed specific bacterial strains. Bacterial pyruvate dehydrogenase activity controls whether sugar availability alters host insulin signaling pathways. Accumulated bacterial pyruvate and lactate induce host expression of the acid sphingomyelinase gene asm-3. Reported from Bacterial metabolites alter the consequences of reduced insulin signaling in C. elegans via increasing the expression of the acid sphingomyelinase asm-3. (biorxiv)."
       },
       "mpt_job": {
         "status": "ready_for_mpt",
-        "subject": "Researchers map how single neurons assemble spoken language",
-        "article_url": "https://agewellbrief.com/brief/2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064/",
+        "subject": "Bacterial Metabolites Rewrite Host Insulin Signaling Through Acid Sphingomyelinase Induction",
+        "article_url": "https://agewellbrief.com/brief/2026-10-24-bacterial-metabolites-rewrite-host-insulin-signaling-through-acid-sphi-b2ac893a/",
         "video_aspect": "9:16",
         "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: Researchers map how single neurons assemble spoken language. Recordings from eight people revealed how individual neurons tracked grammar, meaning, and sentence context during natural conversation. The work maps part of language production at cellular scale; it does not read private thoughts or demonstrate a speech prosthesis. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://www.nih.gov/news-events/news-releases/researchers-discover-single-cell-brain-activity-underlies-human-speech",
+        "script": "From Agewell Brief: Bacterial Metabolites Rewrite Host Insulin Signaling Through Acid Sphingomyelinase Induction. By altering bacterial pyruvate metabolism, dietary sugar shifts host lifespan and development in C. elegans through a single sphingomyelin enzyme. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://doi.org/10.64898/2026.03.04.709558",
         "trend": {
           "rank": 4,
-          "reader_visits": 5
+          "reader_visits": 6
         },
         "text_fore_color": "#FAF6EE",
-        "highlight_color": "#C98B3B",
+        "highlight_color": "#6E9B77",
         "stroke_color": "#181A1B",
         "stroke_width": 2,
         "font_size": 46,
@@ -233,47 +233,47 @@
         "requires_video_qa": false
       },
       "facebook": {
-        "title": "Researchers map how single neurons assemble spoken language\n\nRecordings from eight people revealed how individual neurons tracked grammar, meaning, and sentence context during natural conversation. The work maps part of language production at cellular scale; it does not read private thoughts or demonstrate a speech prosthesis.",
-        "link_url": "https://agewellbrief.com/brief/2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064/"
+        "title": "Bacterial Metabolites Rewrite Host Insulin Signaling Through Acid Sphingomyelinase Induction\n\nBy altering bacterial pyruvate metabolism, dietary sugar shifts host lifespan and development in C. elegans through a single sphingomyelin enzyme.",
+        "link_url": "https://agewellbrief.com/brief/2026-10-24-bacterial-metabolites-rewrite-host-insulin-signaling-through-acid-sphi-b2ac893a/"
       },
       "tiktok": {
-        "hook": "Researchers map how single neurons assemble spoken language",
-        "script": "From Agewell Brief: Researchers map how single neurons assemble spoken language. Recordings from eight people revealed how individual neurons tracked grammar, meaning, and sentence context during natural conversation. The work maps part of language production at cellular scale; it does not read private thoughts or demonstrate a speech prosthesis. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "Researchers map how single neurons assemble spoken language. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064/",
+        "hook": "Bacterial Metabolites Rewrite Host Insulin Signaling Through Acid Sphingomyelinase Induction",
+        "script": "From Agewell Brief: Bacterial Metabolites Rewrite Host Insulin Signaling Through Acid Sphingomyelinase Induction. By altering bacterial pyruvate metabolism, dietary sugar shifts host lifespan and development in C. elegans through a single sphingomyelin enzyme. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "Bacterial Metabolites Rewrite Host Insulin Signaling Through Acid Sphingomyelinase Induction. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-10-24-bacterial-metabolites-rewrite-host-insulin-signaling-through-acid-sphi-b2ac893a/",
         "media_status": "ready_for_mpt"
       },
       "youtube": {
-        "title": "Researchers map how single neurons assemble spoken language",
-        "description": "From Agewell Brief: Researchers map how single neurons assemble spoken language. Recordings from eight people revealed how individual neurons tracked grammar, meaning, and sentence context during natural conversation. The work maps part of language production at cellular scale; it does not read private thoughts or demonstrate a speech prosthesis. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "title": "Bacterial Metabolites Rewrite Host Insulin Signaling Through Acid Sphingomyelinase Induction",
+        "description": "From Agewell Brief: Bacterial Metabolites Rewrite Host Insulin Signaling Through Acid Sphingomyelinase Induction. By altering bacterial pyruvate metabolism, dietary sugar shifts host lifespan and development in C. elegans through a single sphingomyelin enzyme. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-10-24-bacterial-metabolites-rewrite-host-insulin-signaling-through-acid-sphi-b2ac893a/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
         "media_status": "ready_for_mpt"
       }
     },
     {
-      "article": "2026-11-12-condensed-memory-screening-speeds-up-early-detection-of-alzheimer-s-di-1ea9c672",
-      "url": "https://agewellbrief.com/brief/2026-11-12-condensed-memory-screening-speeds-up-early-detection-of-alzheimer-s-di-1ea9c672/",
+      "article": "2026-10-15-overcoming-the-epigenetic-reset-in-human-stem-cell-models-of-neurodege-b70eefa3",
+      "url": "https://agewellbrief.com/brief/2026-10-15-overcoming-the-epigenetic-reset-in-human-stem-cell-models-of-neurodege-b70eefa3/",
       "category": "brain health",
       "trend": {
         "rank": 5,
         "reader_visits": 5
       },
-      "source_url": "https://medicalxpress.com/news/2026-11-hour-doctors-memory-problems.html",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42878089/",
       "content_record": {
-        "article_id": "2026-11-12-condensed-memory-screening-speeds-up-early-detection-of-alzheimer-s-di-1ea9c672",
-        "article_url": "https://agewellbrief.com/brief/2026-11-12-condensed-memory-screening-speeds-up-early-detection-of-alzheimer-s-di-1ea9c672/",
-        "title": "Condensed Memory Screening Speeds Up Early Detection of Alzheimer's Disease",
+        "article_id": "2026-10-15-overcoming-the-epigenetic-reset-in-human-stem-cell-models-of-neurodege-b70eefa3",
+        "article_url": "https://agewellbrief.com/brief/2026-10-15-overcoming-the-epigenetic-reset-in-human-stem-cell-models-of-neurodege-b70eefa3/",
+        "title": "Overcoming the Epigenetic Reset in Human Stem Cell Models of Neurodegeneration",
         "category": "brain health",
-        "source_url": "https://medicalxpress.com/news/2026-11-hour-doctors-memory-problems.html",
-        "editorial_body": "Accelerated cognitive evaluations could help health systems rapidly identify early dementia and streamline access to emerging disease-modifying therapies as global cases rise. Global dementia cases are projected to reach roughly 152.8 million by 2050, threatening to overwhelm specialized healthcare infrastructure. At the same time, the arrival of disease-modifying therapies, such as anti-amyloid monoclonal antibodies, has shifted clinical priorities. These drugs require clinicians to catch subtle structural and chemical shifts in the brain early, placing intense pressure on memory clinics and practicing neurologists. Historically, clinical neuropsychologists have relied on multi-hour paper-and-pencil test batteries to map specific cortical circuits and isolate subtle cognitive deficits. While these comprehensive evaluations offer rich diagnostic detail, their length creates severe systemic delays. Combined with a global shortage of board-certified neuropsychologists, patients frequently wait months for testing and diagnostic reports, missing critical treatment windows. To break this diagnostic gridlock, researchers and clinicians are building high-throughput cognitive assessment tools designed to evaluate patients in under an hour. These targeted protocols rapidly measure how well the brain stores new memories and manages complex tasks, preserving the diagnostic precision needed to stage neurodegenerative disease. Rapid screening tools act as an operational triage filter. By replacing multi-hour evaluation blocks with streamlined testing windows, clinics can dramatically increase patient volume. This shift ensures that individuals showing early signs of cognitive decline are flagged quickly for advanced biomarker verification and targeted therapy. While routine bedside screeners like the Mini-Mental State Examination offer quick cognitive snapshots, modern abbreviated assessments capture subtle domain-specific disruptions far more efficiently. By targeting early operational failures in neural networks that retrieve memories and govern executive control, shorter tools help clinicians distinguish normal age-related changes from progressive neurodegeneration. The primary value of shorter cognitive tools lies in how they alter clinical workflow rather than cellular biology. By condensing key psychometric markers into a single efficient testing session, these tools eliminate administrative wait times, allowing physicians to start treatments before physical cell loss spreads across vulnerable cortical regions. The broad implementation of condensed memory testing faces key operational limits. While brief screeners excel at identifying high-risk individuals, they cannot replace the deep diagnostic power of a full neuropsychological battery when evaluating rare or atypical neurodegenerative conditions. As health systems prepare for the expanding prevalence of dementia, integrating brief assessments into primary and specialized care offers a practical path forward. Ensuring these rapid tools are rigorously validated across diverse patient populations will be essential to matching high-throughput screening with safe, equitable care. Dementia cases are projected to reach 152.8 million by 2050, threatening to overwhelm specialized neurological care networks. Emerging disease-modifying therapies require rapid early screening to catch vulnerable brain tissue before extensive neurodegeneration occurs. Abbreviated one-hour cognitive tests aim to bypass specialist shortages and eliminate diagnostic report delays. Reported from One-hour test could help doctors better spot memory problems (Medical Xpress Healthy Aging)."
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42878089/",
+        "editorial_body": "Phase III trials fail because standard models miss complex human genetics and aging. New induced pluripotent stem cell techniques aim to rebuild patient-specific cell biology. Most neurodegenerative disorders arise from complex polygenic risk landscapes intersecting with environmental exposures and aging, defying single-gene explanations. This genetic architecture helps explain why Phase III clinical trials for brain disorders fail more than 95 percent of the time, as traditional preclinical models routinely miss the human cellular context. To bridge this gap, researchers turn to patient-derived induced pluripotent stem cells that capture complete genetic instructions. Yet standard reprogramming resets cellular clocks, wiping clean the epigenetic signatures of aging required for late-onset sporadic disease to manifest. Solving this temporal bottleneck demands a dual approach spanning engineered culture platforms and direct cellular conversion. While two-dimensional monocultures and complex three-dimensional organoids reveal distinct convergent pathways and sporadic disease dynamics at cohort scale, preserving native epigenetic age remains vital for unmasking age-dependent structural failure. Direct conversion strategies bypass embryonic-like states entirely, locking in donor age signatures to grant investigators direct access to the physical phenotypes of neurodegeneration. This framework matches specific biological questions to the appropriate model system, though balancing experimental tractability against physiological fidelity continues to test the limits of in vitro biology. Polygenic risk variants interact with aging and environmental factors rather than single causative mutations in most neurodegeneration. Induced pluripotent stem cells preserve complete patient genetic architecture while faithfully recapitulating human cellular biology. Cellular reprogramming erases donor epigenetic aging signatures, requiring direct conversion methods to study age-dependent phenotypes. Reported from Modeling human neurodegeneration with iPSCs: opportunities, limitations, and the challenge of aging. (PubMed)."
       },
       "mpt_job": {
         "status": "ready_for_mpt",
-        "subject": "Condensed Memory Screening Speeds Up Early Detection of Alzheimer's Disease",
-        "article_url": "https://agewellbrief.com/brief/2026-11-12-condensed-memory-screening-speeds-up-early-detection-of-alzheimer-s-di-1ea9c672/",
+        "subject": "Overcoming the Epigenetic Reset in Human Stem Cell Models of Neurodegeneration",
+        "article_url": "https://agewellbrief.com/brief/2026-10-15-overcoming-the-epigenetic-reset-in-human-stem-cell-models-of-neurodege-b70eefa3/",
         "video_aspect": "9:16",
         "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: Condensed Memory Screening Speeds Up Early Detection of Alzheimer's Disease. Accelerated cognitive evaluations could help health systems rapidly identify early dementia and streamline access to emerging disease-modifying therapies as global cases rise. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://medicalxpress.com/news/2026-11-hour-doctors-memory-problems.html",
+        "script": "From Agewell Brief: Overcoming the Epigenetic Reset in Human Stem Cell Models of Neurodegeneration. Phase III trials fail because standard models miss complex human genetics and aging. New induced pluripotent stem cell techniques aim to rebuild patient-specific cell biology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42878089/",
         "trend": {
           "rank": 5,
           "reader_visits": 5
@@ -294,19 +294,19 @@
         "requires_video_qa": false
       },
       "facebook": {
-        "title": "Condensed Memory Screening Speeds Up Early Detection of Alzheimer's Disease\n\nAccelerated cognitive evaluations could help health systems rapidly identify early dementia and streamline access to emerging disease-modifying therapies as global cases rise.",
-        "link_url": "https://agewellbrief.com/brief/2026-11-12-condensed-memory-screening-speeds-up-early-detection-of-alzheimer-s-di-1ea9c672/"
+        "title": "Overcoming the Epigenetic Reset in Human Stem Cell Models of Neurodegeneration\n\nPhase III trials fail because standard models miss complex human genetics and aging. New induced pluripotent stem cell techniques aim to rebuild patient-specific cell biology.",
+        "link_url": "https://agewellbrief.com/brief/2026-10-15-overcoming-the-epigenetic-reset-in-human-stem-cell-models-of-neurodege-b70eefa3/"
       },
       "tiktok": {
-        "hook": "Condensed Memory Screening Speeds Up Early Detection of Alzheimer's Disease",
-        "script": "From Agewell Brief: Condensed Memory Screening Speeds Up Early Detection of Alzheimer's Disease. Accelerated cognitive evaluations could help health systems rapidly identify early dementia and streamline access to emerging disease-modifying therapies as global cases rise. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "Condensed Memory Screening Speeds Up Early Detection of Alzheimer's Disease. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-11-12-condensed-memory-screening-speeds-up-early-detection-of-alzheimer-s-di-1ea9c672/",
+        "hook": "Overcoming the Epigenetic Reset in Human Stem Cell Models of Neurodegeneration",
+        "script": "From Agewell Brief: Overcoming the Epigenetic Reset in Human Stem Cell Models of Neurodegeneration. Phase III trials fail because standard models miss complex human genetics and aging. New induced pluripotent stem cell techniques aim to rebuild patient-specific cell biology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "Overcoming the Epigenetic Reset in Human Stem Cell Models of Neurodegeneration. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-10-15-overcoming-the-epigenetic-reset-in-human-stem-cell-models-of-neurodege-b70eefa3/",
         "media_status": "ready_for_mpt"
       },
       "youtube": {
-        "title": "Condensed Memory Screening Speeds Up Early Detection of Alzheimer's Disease",
-        "description": "From Agewell Brief: Condensed Memory Screening Speeds Up Early Detection of Alzheimer's Disease. Accelerated cognitive evaluations could help health systems rapidly identify early dementia and streamline access to emerging disease-modifying therapies as global cases rise. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-12-condensed-memory-screening-speeds-up-early-detection-of-alzheimer-s-di-1ea9c672/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "title": "Overcoming the Epigenetic Reset in Human Stem Cell Models of Neurodegeneration",
+        "description": "From Agewell Brief: Overcoming the Epigenetic Reset in Human Stem Cell Models of Neurodegeneration. Phase III trials fail because standard models miss complex human genetics and aging. New induced pluripotent stem cell techniques aim to rebuild patient-specific cell biology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-10-15-overcoming-the-epigenetic-reset-in-human-stem-cell-models-of-neurodege-b70eefa3/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
         "media_status": "ready_for_mpt"
       }
     }

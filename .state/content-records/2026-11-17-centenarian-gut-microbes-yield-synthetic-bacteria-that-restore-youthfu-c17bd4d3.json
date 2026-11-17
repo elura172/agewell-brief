@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T01:19:26.615237+00:00",
+  "generated_at": "2026-11-17T16:06:59.125646+00:00",
   "article": {
     "article": "2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3",
     "url": "https://agewellbrief.com/brief/2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3/",
     "category": "gut health",
-    "trend": null,
+    "trend": {
+      "rank": 1,
+      "reader_visits": 11
+    },
     "source_url": "https://medicalxpress.com/news/2026-11-gut-microbiome-linked-exceptional-longevity.html",
     "content_record": {
       "article_id": "2026-11-17-centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Centenarian Gut Microbes Yield Synthetic Bacteria That Restore Youthful Metabolism in Mice. UC San Diego researchers tracked the small-molecule outputs of human centenarian gut microbes and used engineered bacteria to reverse metabolic decay in aged mice. Human longevity has long posed a biological puzzle. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://medicalxpress.com/news/2026-11-gut-microbiome-linked-exceptional-longevity.html",
-      "trend": null,
+      "trend": {
+        "rank": 1,
+        "reader_visits": 11
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#6E9B77",
       "stroke_color": "#181A1B",
