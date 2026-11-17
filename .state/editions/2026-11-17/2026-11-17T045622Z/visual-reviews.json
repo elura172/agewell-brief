@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "af92c46257548f712a2a0344",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:DE9MM2voqKc",
+      "score": 92,
+      "rationale": "The candidate image depicts a turned-on table lamp near a bed in a dark, serene setting, matching the sleep health category and the visual anchor requirements of a calm dim bedroom at night with a soft bedside lamp, directly supporting the sleep-related research narrative.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1552858725-2758b5fb1286?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8cXVpZXQlMjBiZWRyb29tJTIwbGluZW4lMjBuaWdodHxlbnwxfDB8fHwxNzk0ODkxNDMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

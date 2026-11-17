@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "af92c46257548f712a2a0344": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Demonstrates a non-invasive physical mechanism (timed pink noise) that enhances the glymphatic clearance waves during sleep, moving beyond basic sleep hygiene into active intervention.",
+      "angle": "How targeted sound frequencies might actively trigger the brain's waste-flushing glymphatic system during sleep.",
+      "mode": "agent"
+    },
+    "66f3727573e1cef18679a879": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle advice",
+      "reason": "The finding that regular daily routines reduce pain and depression is standard behavioral advice and lacks a sharp molecular or physiological mechanism.",
+      "angle": "Why maintaining structured daily meal and sleep schedules helps regulate circadian rhythms despite insomnia.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "The U-shaped relationship between sleep duration (approx. 7 hours) and longevity is well-established observational health science with minimal novelty.",
+      "angle": "The ideal sleep duration window for biological aging optimization.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Contains no summary and focuses on general socio-demographic determinants of depression without novel biology.",
+      "angle": "The long-term impact of life-course social mobility on late-life depression rates.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "broad review",
+      "reason": "Generic review title connecting sleep, redox metabolism, and brain aging without presenting a novel primary empirical result.",
+      "angle": "How oxidative stress and circadian sleep cycles interact to drive neurodegeneration.",
+      "mode": "agent"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "translational breakthrough",
+      "reason": "Translates a classic mouse metabolic anti-aging compound (likely NMN or related NAD precursor) into validated human muscle tissue glucose metabolism improvements.",
+      "angle": "From mice to clinical trials: exact muscle-metabolic shifts seen in human translation of longevity compounds.",
+      "mode": "agent"
+    },
+    "2b6fb1d568d0b7d7842a3c5f": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Delirium in hospitals being linked to future dementia risk is a known clinical association rather than a novel therapeutic target or mechanism.",
+      "angle": "Why acute hospital delirium may be an unrecognised early marker of structural brain vulnerability.",
+      "mode": "agent"
+    },
+    "3698c8429fa22e7ded6bed72": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "Identifies a specific structural protein decline (endothelial lamin A/C) driving vascular mechanotransduction failure, arterial stiffening, and reduced lifespan in an animal model.",
+      "angle": "How age-driven loss of nuclear lamin A/C in blood vessels breaks cellular pressure sensing and accelerates heart disease.",
+      "mode": "agent"
+    },
+    "501081b8618cb051ac75b80a": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "unusual result / novel pathway",
+      "reason": "Presents direct transcriptomic evidence showing LSD reverses specific gene expressions associated with neurodegenerative brain aging.",
+      "angle": "Beyond mental health: transcriptomic evidence that low-dose psychedelics reverse brain aging signatures.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "af92c46257548f712a2a0344",
+    "e8c72c931a6031cef21b46e5",
+    "3698c8429fa22e7ded6bed72",
+    "501081b8618cb051ac75b80a"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "0b7d57db98938147adfb915a",
+    "2b6fb1d568d0b7d7842a3c5f"
+  ],
+  "mode": "agent"
+}
