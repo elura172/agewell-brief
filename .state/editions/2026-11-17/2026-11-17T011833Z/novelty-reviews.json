@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "af92c46257548f712a2a0344": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Offers a non-invasive physical intervention (timed bursts of gentle pink noise during sleep) specifically targeted to enhance glymphatic clearance and waste removal in the brain.",
+      "angle": "How acoustic stimulation during slow-wave sleep can physically enhance the brain's waste clearance mechanics to combat neurodegeneration.",
+      "mode": "agent"
+    },
+    "66f3727573e1cef18679a879": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Generic lifestyle advice emphasizing daily routines and consistent schedules. While real, it is standard behavioral wellness advice with low reader-stop power.",
+      "angle": "Why consistent daily schedules buffer physical pain and depression in older adults despite poor sleep.",
+      "mode": "agent"
+    },
+    "c17bd4d3fc89f78df18af5a0": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Identifies specific metabolic shifts in human centenarian gut microbiomes and successfully demonstrates causal translation by engineering bacteria to replicate these metabolic pathways in aged mice.",
+      "angle": "Engineering centenarian gut metabolites: How specific bacterial pathways identified in human longevity can reverse metabolic decline in aged mammals.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Contains no substantive summary text and represents broad, recycled consumer warning material regarding anti-aging supplements.",
+      "angle": "Evaluating the clinical evidence behind common over-the-counter anti-aging supplements for older adults.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "missing content",
+      "reason": "No summary provided; generic social mobility epidemiology topic lacking immediate actionable or mechanistic novelty.",
+      "angle": "Analyzing life-course social mobility patterns and late-life depression risk in aging Indian cohorts.",
+      "mode": "agent"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "specific new finding",
+      "reason": "Demonstrates successful translation of a rodent metabolic anti-aging compound to human clinical endpoints (specifically muscle glucose metabolism).",
+      "angle": "Translating longevity compounds from mice to humans: Improving skeletal muscle glucose metabolism.",
+      "mode": "agent"
+    },
+    "2b6fb1d568d0b7d7842a3c5f": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Delirium as a marker or risk factor for long-term cognitive decline is an established clinical concept in geriatric hospital medicine.",
+      "angle": "Hospital delirium as an early biomarker for underlying neurodegenerative vulnerability.",
+      "mode": "agent"
+    },
+    "3698c8429fa22e7ded6bed72": {
+      "score": 71,
+      "decision": "commission",
+      "novelty_type": "named mechanism",
+      "reason": "Pinpoints the exact downregulation of endothelial lamin A/C (Lmna) as a causal driver of mechanotransduction failure, vascular hyperpermeability, and heart failure with preserved ejection fraction in aging.",
+      "angle": "Nuclear envelope breakdown in the vasculature: How age-related loss of endothelial lamin A/C causes arterial stiffening and cardiac failure.",
+      "mode": "agent"
+    },
+    "501081b8618cb051ac75b80a": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "unusual result",
+      "reason": "Presents novel transcriptomic evidence that low-dose LSD induces gene expression changes that directly oppose canonical brain aging and neurodegeneration signatures.",
+      "angle": "Transcriptomic reversal of brain aging: How psychedelic compounds like LSD alter gene signatures linked to neurodegeneration.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "af92c46257548f712a2a0344",
+    "c17bd4d3fc89f78df18af5a0",
+    "e8c72c931a6031cef21b46e5",
+    "3698c8429fa22e7ded6bed72",
+    "501081b8618cb051ac75b80a"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "2beb92ec2e8851b24c8a89de",
+    "b3bbba0e16b511eb7aed2b5c",
+    "2b6fb1d568d0b7d7842a3c5f"
+  ],
+  "mode": "agent"
+}

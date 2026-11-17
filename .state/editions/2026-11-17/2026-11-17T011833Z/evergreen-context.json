@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "c17bd4d3fc89f78df18af5a0",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "7cd643e6f594a31c",
+        "source": "Dr. Otto Warburg (1924) — The Metabolism of Tumours & Oxygen Respiration",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      },
+      {
+        "source_id": "3199d23705ba918b",
+        "source": "Dr. Herbert Fröhlich (1968) — Long-Range Coherence and Energy Storage in Biological Systems",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

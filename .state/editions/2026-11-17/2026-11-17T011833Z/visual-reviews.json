@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "c17bd4d3fc89f78df18af5a0",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:4v5IFWPzcgM",
+      "score": 88,
+      "rationale": "The candidate 'Unsplash:4v5IFWPzcgM' features a scientist in a lab coat with petri dishes and lab equipment, which aligns precisely with the story's focus on microbial research and laboratory science, as well as the category visual anchors of 'petri dish microbiology, or microscope laboratory research'.",
+      "concerns": [
+        "None. The image depicts real laboratory research without literalized metaphors or off-domain lifestyle subjects."
+      ],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1769454777452-75071eefbda8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8bWljcm9iaW9sb2d5JTIwcGV0cmklMjBkaXNoJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzk0ODc4MzYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]
