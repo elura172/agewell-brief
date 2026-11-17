@@ -163,14 +163,16 @@ export function spiralSlugFor(spiralName: string): string {
   return PROGRAM_SLUGS[spiralName.toLowerCase().trim()] ?? "waters";
 }
 
-export function spiralTeachingUrl(spiralName: string, content = "brief-teaching"): string {
+// Open-library links stay as clean as possible for SEO: no utm_* or redundant
+// spiral param (the path already names the spiral, and click attribution is
+// captured on this side by PostHog `spiraloflight_link_clicked`). Only the
+// reading lens is kept so clinical readers land on the biophysics translation;
+// the teaching page's canonical tag consolidates it onto the bare URL.
+// `_content` is retained so existing call sites keep working.
+export function spiralTeachingUrl(spiralName: string, _content = "brief-teaching"): string {
   const slug = spiralSlugFor(spiralName);
   const url = new URL(`https://spiraloflight.life/teaching/${slug}`);
   url.searchParams.set("lens", "biophysics");
-  url.searchParams.set("spiral", slug);
-  url.searchParams.set("utm_source", "agewellbrief");
-  url.searchParams.set("utm_medium", "referral");
-  url.searchParams.set("utm_content", content);
   return url.toString();
 }
 
