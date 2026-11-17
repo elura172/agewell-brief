@@ -205,7 +205,7 @@ def build_digest_lmx(briefs: list[dict[str, str]], date_label: str) -> tuple[str
     for idx, b in enumerate(briefs, start=1):
         brief_blocks.extend([
             f'<H3 paddingTop="10" paddingBottom="4">{idx}. {xml_escape(b["title"])}</H3>',
-            f'<Paragraph fontSize="13" color="#64748b" paddingBottom="6">{xml_escape(b["category"].upper())} · {xml_escape(b["source_name"])} · Lens: {xml_escape(b["spiral_name"])}</Paragraph>',
+            f'<Paragraph fontSize="13" textColor="#64748b" paddingBottom="6">{xml_escape(b["category"].upper())} · {xml_escape(b["source_name"])} · Lens: {xml_escape(b["spiral_name"])}</Paragraph>',
             f'<Paragraph paddingBottom="8">{xml_escape(b["description"])}</Paragraph>',
             f'<Paragraph paddingBottom="14"><Link href="{attr_escape(b["url"])}">Read the full source-linked brief →</Link></Paragraph>',
         ])
@@ -215,7 +215,7 @@ def build_digest_lmx(briefs: list[dict[str, str]], date_label: str) -> tuple[str
     lmx_lines = [
         f'<Style themeId="{THEME_ID}" bodyXPadding="28" bodyYPadding="28" />',
         f'<Component componentId="{LOGO_COMPONENT_ID}" />',
-        f'<Paragraph fontSize="12" color="#64748b" paddingTop="6" paddingBottom="4">SUNDAY BIOPHYSICS DIGEST · {xml_escape(date_label.upper())}</Paragraph>',
+        f'<Paragraph fontSize="12" textColor="#64748b" paddingTop="6" paddingBottom="4">SUNDAY BIOPHYSICS DIGEST · {xml_escape(date_label.upper())}</Paragraph>',
         '<H1 paddingTop="4" paddingBottom="10">Three Signals Worth Carrying Into the Week</H1>',
         '<Paragraph paddingBottom="12">Hi {contact.firstName},</Paragraph>',
         '<Paragraph paddingBottom="16">Here are the three clearest peer-reviewed longevity and cellular biophysics dispatches from the Agewell Brief desk this week—paired with the physiological sequence that connects them.</Paragraph>',
