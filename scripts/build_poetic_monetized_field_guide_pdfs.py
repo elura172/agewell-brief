@@ -588,9 +588,9 @@ def build_pdf(guide):
     story.append(Paragraph(
         f'28-Day Protocol Workspace: <a href="{walk_annual_href}">spiraloflight.life/walk</a> · '
         f'Open Monograph: <a href="{teaching_href}">spiraloflight.life/teaching/{spiral_slug}</a><br/>'
-        f'Canadian Practitioner Dispensary (Fullscript): <a href="{guide["fullscript_url"]}">ca.fullscript.com/s/spiraloflight</a><br/><br/>'
+        f'Practitioner dispensary plans for Canada, the US, and Europe: <a href="{walk_annual_href}">spiraloflight.life/walk</a><br/><br/>'
         'Prepared by Spiral of Cellular Light — Regenerative Biophysics &amp; Circadian Health Program.<br/>'
-        'Disclaimer: Educational reference only; not medical advice. Canadian Fullscript orders are commission-supported at no added cost to you. Always consult a qualified healthcare practitioner before changing any regimen.',
+        'Disclaimer: Educational reference only; not medical advice. Always consult a qualified healthcare practitioner before changing any regimen.',
         disc_style
     ))
 
