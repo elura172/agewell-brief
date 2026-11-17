@@ -450,10 +450,10 @@ def build_pdf(guide):
     print(f"✅ Generated Multi-Page PDF Field Guide: {filepath.name} ({filepath.stat().st_size} bytes)")
 
 def main():
-    print("📄 Building 6 Publication-Grade Multi-Page Monetized PDF Field Guides...\n")
-    for guide in FIELD_GUIDES:
-        build_pdf(guide)
-    print("\n✨ All 6 Multi-Page PDF Field Guides successfully built and ready for subscriber downloads!")
+    # Delegate to the canonical poetic 4-page field guide generator so running
+    # either script produces the spiraloflight.life-aligned field guides.
+    from build_poetic_monetized_field_guide_pdfs import main as build_poetic_main
+    build_poetic_main()
 
 if __name__ == "__main__":
     main()

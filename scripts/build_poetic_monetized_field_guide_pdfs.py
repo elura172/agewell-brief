@@ -61,7 +61,7 @@ class NumberedCanvas(canvas.Canvas):
         self.setLineWidth(0.5)
         self.line(0.55 * inch, 0.65 * inch, 8.5 * inch - 0.55 * inch, 0.65 * inch)
         
-        self.drawString(0.55 * inch, 0.48 * inch, "Prepared by Spiral of Cellular Light · agewellbrief.com")
+        self.drawString(0.55 * inch, 0.48 * inch, "Prepared by Spiral of Cellular Light · spiraloflight.life · agewellbrief.com")
         page_text = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(8.5 * inch - 0.55 * inch, 0.48 * inch, page_text)
         self.restoreState()
@@ -487,15 +487,38 @@ def build_pdf(guide):
 
     story.append(Spacer(1, 10))
 
-    # FULLSCRIPT BANNER CARD ON PAGE 2
-    banner_content = [
-        [Paragraph(f"<b>VERIFIED PRACTITIONER PROTOCOL: {guide['fullscript_plan_name'].upper()}</b>", ParagraphStyle('B1', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=9.5, textColor=dark_gold))],
-        [Paragraph("Order direct practitioner-grade formulations on Fullscript. Enjoy automatic monthly refills, verified quality, and practitioner oversight.", ParagraphStyle('B2', parent=styles['Normal'], fontName='Helvetica', fontSize=9, leading=12.5, textColor=ink_color))],
+    # Resolve Spiral slug and primary spiraloflight.life deep links (XML-escaped for ReportLab Paragraph)
+    slug_map = {
+        "living-waters-field-guide.pdf": ("waters", "Living Waters"),
+        "inner-garden-field-guide.pdf": ("garden", "Inner Garden"),
+        "cell-shedding-field-guide.pdf": ("shedding", "Cell Shedding"),
+        "higher-flame-field-guide.pdf": ("flame", "Higher Flame"),
+        "luminous-mind-field-guide.pdf": ("mind", "Luminous Mind"),
+        "dark-mirror-field-guide.pdf": ("mirror", "Dark Mirror"),
+    }
+    spiral_slug, spiral_short = slug_map.get(guide["slug"], ("waters", "Living Waters"))
+    walk_monthly_href = (
+        f"https://spiraloflight.life/walk?lens=biophysics&amp;spiral={spiral_slug}"
+        f"&amp;plan=monthly&amp;utm_source=pdf_field_guide&amp;utm_medium=pdf&amp;utm_content={spiral_slug}_p2"
+    )
+    walk_annual_href = (
+        f"https://spiraloflight.life/walk?lens=biophysics&amp;spiral={spiral_slug}"
+        f"&amp;plan=annual&amp;utm_source=pdf_field_guide&amp;utm_medium=pdf&amp;utm_content={spiral_slug}_p4"
+    )
+    teaching_href = (
+        f"https://spiraloflight.life/teaching/{spiral_slug}?lens=biophysics&amp;spiral={spiral_slug}"
+        f"&amp;utm_source=pdf_field_guide&amp;utm_medium=pdf"
+    )
+
+    # PAGE 2 BANNER CARD: 28-DAY CIRCADIAN PROTOCOL WORKSPACE
+    p2_banner_content = [
+        [Paragraph(f"<b>28-DAY CIRCADIAN PROTOCOL WORKSPACE · {spiral_short.upper()}</b>", ParagraphStyle('B1', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=9.5, textColor=dark_gold))],
+        [Paragraph("Move from reading this field guide to running a calibrated 28-day cycle at spiraloflight.life: morning &amp; evening dosing windows, 56-event Apple &amp; Google Calendar WebCal sync, regional practitioner sourcing (US, CA, EU, Global), daily somatic tracking, and live Biophysics AI Companion.", ParagraphStyle('B2', parent=styles['Normal'], fontName='Helvetica', fontSize=9, leading=12.5, textColor=ink_color))],
         [Spacer(1, 6)],
-        [Paragraph(f'<a href="{guide["fullscript_url"]}"><b>Order Protocol on Fullscript Direct →</b></a>', btn_text_style)]
+        [Paragraph(f'<a href="{walk_monthly_href}"><b>Start the 28-Day {spiral_short} Protocol ($33/mo or $222/yr) →</b></a>', btn_text_style)]
     ]
-    banner_table = Table(banner_content, colWidths=[7.2*inch])
-    banner_table.setStyle(TableStyle([
+    p2_banner_table = Table(p2_banner_content, colWidths=[7.2*inch])
+    p2_banner_table.setStyle(TableStyle([
         ('BACKGROUND', (0,0), (-1,-1), cream_bg),
         ('BOX', (0,0), (-1,-1), 1.5, saffron_gold),
         ('PADDING', (0,0), (-1,-1), 12),
@@ -504,7 +527,7 @@ def build_pdf(guide):
         ('BOTTOMPADDING', (0,3), (0,3), 8),
         ('TOPPADDING', (0,3), (0,3), 8),
     ]))
-    story.append(banner_table)
+    story.append(p2_banner_table)
 
     # --- PAGE 3: FULL SUPPLEMENT SCHEDULE & DOSAGE TABLE ---
     story.append(PageBreak())
@@ -542,14 +565,32 @@ def build_pdf(guide):
 
     story.append(Spacer(1, 14))
 
-    # FINAL FULLSCRIPT BANNER CARD ON PAGE 4
-    story.append(banner_table)
+    # PAGE 4 CLOSING BANNER CARD: ANNUAL PASSAGE & MONTHLY MEMBERSHIP
+    p4_banner_content = [
+        [Paragraph(f"<b>WALK ALL FOUR SEASONS · SPIRAL OF CELLULAR LIGHT MEMBERSHIP</b>", ParagraphStyle('B4_1', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=9.5, textColor=dark_gold))],
+        [Paragraph("Run one 28-day Monthly Cycle ($33/mo, cancel anytime) or unlock the full four-season Annual Passage ($222/yr — save 44%, 30-day refund guarantee) across all six biophysics spirals. Founding Patron lifetime seats ($555) are strictly capped at 33.", ParagraphStyle('B4_2', parent=styles['Normal'], fontName='Helvetica', fontSize=9, leading=12.5, textColor=ink_color))],
+        [Spacer(1, 6)],
+        [Paragraph(f'<a href="{walk_annual_href}"><b>Unlock Your 28-Day Protocol Workspace at spiraloflight.life →</b></a>', btn_text_style)]
+    ]
+    p4_banner_table = Table(p4_banner_content, colWidths=[7.2*inch])
+    p4_banner_table.setStyle(TableStyle([
+        ('BACKGROUND', (0,0), (-1,-1), cream_bg),
+        ('BOX', (0,0), (-1,-1), 1.5, saffron_gold),
+        ('PADDING', (0,0), (-1,-1), 12),
+        ('ALIGN', (0,3), (0,3), 'CENTER'),
+        ('BACKGROUND', (0,3), (0,3), dark_gold),
+        ('BOTTOMPADDING', (0,3), (0,3), 8),
+        ('TOPPADDING', (0,3), (0,3), 8),
+    ]))
+    story.append(p4_banner_table)
 
     story.append(Spacer(1, 12))
     story.append(Paragraph(
-        f'Fullscript Plan Link: <a href="{guide["fullscript_url"]}">{guide["fullscript_url"]}</a><br/><br/>'
-        'Prepared by Spiral of Cellular Light — Certified Regenerative Health Program.<br/>'
-        'Disclaimer: Agewell Brief receives practitioner affiliate commission on Fullscript orders at no added cost to you. Always consult your qualified healthcare practitioner before beginning any new health protocol.',
+        f'28-Day Protocol Workspace: <a href="{walk_annual_href}">spiraloflight.life/walk</a> · '
+        f'Open Monograph: <a href="{teaching_href}">spiraloflight.life/teaching/{spiral_slug}</a><br/>'
+        f'Canadian Practitioner Dispensary (Fullscript): <a href="{guide["fullscript_url"]}">ca.fullscript.com/s/spiraloflight</a><br/><br/>'
+        'Prepared by Spiral of Cellular Light — Regenerative Biophysics &amp; Circadian Health Program.<br/>'
+        'Disclaimer: Educational reference only; not medical advice. Canadian Fullscript orders are commission-supported at no added cost to you. Always consult a qualified healthcare practitioner before changing any regimen.',
         disc_style
     ))
 
