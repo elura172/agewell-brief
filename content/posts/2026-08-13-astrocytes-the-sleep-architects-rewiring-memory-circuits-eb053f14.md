@@ -14,6 +14,12 @@ autoresearch_antecedents: [{"scientist": "Santiago Ram\u00f3n y Cajal", "year": 
 evidence_position: "emerging"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 New research reveals that star-shaped brain cells called astrocytes actively regulate the neural circuits that consolidate memories during sleep, offering a deeper view of the brain's nocturnal maintenance.

@@ -14,6 +14,12 @@ autoresearch_antecedents: [{"scientist": "Leonard Hayflick", "year": "1961", "di
 evidence_position: "emerging"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
+image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Mitochondrial metabolic energy dynamics"
+image_photographer: "Karolina Grabowska / Pexels"
+image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
+image_provider: "Pexels"
+image_avg_color: "#3a1a1a"
 ---
 
 A multi-species transcriptomic analysis reveals conserved ageing signatures and modular clocks, linking inflammation, mitochondrial function, and chromatin dynamics to mortality.

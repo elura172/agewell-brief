@@ -15,6 +15,12 @@ ancestral_insight: "Traditional lifestyle practices, such as intermittent fastin
 evidence_position: "speculative"
 topics: ['longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters']
+image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Mitochondrial metabolic energy dynamics"
+image_photographer: "Karolina Grabowska / Pexels"
+image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
+image_provider: "Pexels"
+image_avg_color: "#3a1a1a"
 ---
 
 A unified mitochondrial perspective reveals overlapping mechanisms—oxidative stress, impaired mitophagy, mtDNA damage—and points to organelle-level therapies.

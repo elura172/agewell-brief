@@ -15,6 +15,12 @@ ancestral_insight: "Traditional sleep practices, such as biphasic or segmented s
 evidence_position: "emerging"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
+image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Vital healthspan practices and physical harmony"
+image_photographer: "Mikhail Nilov / Pexels"
+image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
+image_provider: "Pexels"
+image_avg_color: "#2a3a2a"
 ---
 
 A large EEG-fMRI study reveals how slow oscillations and spindles coordinate hippocampal–cortical communication during deep sleep, with the thalamus as the conductor.

@@ -15,6 +15,12 @@ ancestral_insight: "Traditional lifestyle practices that promote autophagy and r
 evidence_position: "emerging"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 New research reveals how the brain's immune cells respond to toxic buildup, linking a rare pediatric disorder to Alzheimer's through a common mechanism of failed phagocytosis.

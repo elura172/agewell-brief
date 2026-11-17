@@ -10,7 +10,7 @@ edition_id: "2026-11-17"
 source_url: "https://medicalxpress.com/news/2026-11-gut-microbiome-linked-exceptional-longevity.html"
 source_title: "Gut microbiome activity linked to exceptional longevity may support healthier aging"
 source_name: "Medical Xpress Healthy Aging"
-spiral: "Inner Garden"
+spiral: "Higher Flame"
 autoresearch_antecedents: [{"scientist": "\u00c9lie Metchnikoff", "year": "1907", "discovery": "Proposed that toxic microbial byproducts in the large intestine drive systemic physical decline, suggesting that ingesting lactic acid-producing bacteria could replace harmful microbes and extend human lifespan."}, {"scientist": "H. Robert Horvitz", "year": "1986", "discovery": "Identified the genetic pathways that govern programmed cell death and metabolic longevity in Caenorhabditis elegans, proving that aging rate is actively modulated by specific biochemical cascades."}]
 evidence_position: "emerging"
 image_provider: "Unsplash"

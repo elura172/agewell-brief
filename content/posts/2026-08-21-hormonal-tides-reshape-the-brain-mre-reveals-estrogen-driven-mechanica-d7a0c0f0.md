@@ -15,6 +15,12 @@ ancestral_insight: "In ancestral environments, female reproductive cycles were c
 evidence_position: "emerging"
 topics: ['brain health', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 New imaging shows estrogen fluctuations alter hippocampal stiffness across the reproductive cycle—a biophysical window into how hormones sculpt neural tissue.

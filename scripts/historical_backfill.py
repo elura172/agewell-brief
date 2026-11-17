@@ -2,13 +2,8 @@
 through the same drafting pipeline as the daily edition (evidence packet,
 autoresearch antecedents, evidence_position classification, spiral routing).
 
-RSS feeds only carry recent items, so there was no existing path to genuine
-historical depth. PubMed and bioRxiv both support real date-range queries —
-these are real studies, not invented backstory.
-
 Usage:
-    python3 -m scripts.historical_backfill --start 2024-01-01 --end 2024-12-31 --limit 10 --dry-run
-    python3 -m scripts.historical_backfill --start 2024-01-01 --end 2024-12-31 --limit 200
+    python3 -m scripts.historical_backfill --start 2026-08-22 --end 2026-11-07 --weekly-per-slice 5 --balanced-spirals --publish
 """
 
 from __future__ import annotations
@@ -25,7 +20,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from openai import OpenAI
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 
 import agewell.pipeline as pipeline
 from agewell.agents import article_id, novelty_editor
@@ -39,22 +35,41 @@ from agewell.pipeline import (
     program_resources,
     spiral_for,
 )
+from openai import OpenAI
 
-ROOT = Path(__file__).resolve().parent.parent
 POSTS_DIR = ROOT / "content/posts"
 
-client = OpenAI(api_key=os.environ["DEEPSEEK_API_KEY"], base_url="https://api.deepseek.com")
-MODEL = os.getenv("LLM_MODEL", "deepseek-v4-flash")
+api_key = pipeline.GEMINI_API_KEY or pipeline.DEEPSEEK_API_KEY or os.environ.get("OPENAI_API_KEY", "")
+client = OpenAI(api_key=api_key, base_url=pipeline.LLM_BASE_URL)
+MODEL = pipeline.MODEL
 
-# Same category keyword rules as classify(), used to keep bioRxiv results (which
-# has no keyword search, only date-range) on-topic instead of pulling everything
-# posted that day across every field of biology.
 TOPIC_TERMS = [
     "aging", "ageing", "longevity", "lifespan", "healthspan", "senescence", "senolytic",
     "mitochondri", "metabolic", "glucose", "insulin", "microbiome", "gut", "sleep",
     "circadian", "cognitive", "memory", "brain", "dementia", "alzheimer", "inflammation",
-    "biophoton", "exclusion zone", "EZ water", "epigenetic", "autophagy", "telomere",
+    "biophoton", "exclusion zone", "ez water", "epigenetic", "autophagy", "telomere",
+    "glymphatic", "lymphatic", "microplastic", "heavy metal",
 ]
+
+SPIRAL_PUBMED_QUERIES = [
+    # 01 Living Waters
+    '("glymphatic"[Title/Abstract] OR "lymphatic"[Title/Abstract] OR "vascular"[Title/Abstract] OR "bile acid"[Title/Abstract]) AND ("aging"[Title/Abstract] OR "clearance"[Title/Abstract] OR "longevity"[Title/Abstract])',
+    # 02 Inner Garden
+    '("gut microbiome"[Title/Abstract] OR "butyrate"[Title/Abstract] OR "short-chain fatty"[Title/Abstract] OR "intestinal barrier"[Title/Abstract]) AND ("aging"[Title/Abstract] OR "healthspan"[Title/Abstract] OR "inflammation"[Title/Abstract])',
+    # 03 Higher Flame
+    '("mitochondria"[Title/Abstract] OR "mitochondrial"[Title/Abstract] OR "metabolic flexibility"[Title/Abstract] OR "AMPK"[Title/Abstract]) AND ("aging"[Title/Abstract] OR "longevity"[Title/Abstract] OR "muscle"[Title/Abstract])',
+    # 04 Luminous Mind
+    '("slow-wave sleep"[Title/Abstract] OR "circadian"[Title/Abstract] OR "neuroplasticity"[Title/Abstract] OR "BDNF"[Title/Abstract]) AND ("cognitive"[Title/Abstract] OR "brain aging"[Title/Abstract] OR "dementia"[Title/Abstract])',
+    # 05 Cell Shedding
+    '("cellular senescence"[Title/Abstract] OR "senolytic"[Title/Abstract] OR "autophagy"[Title/Abstract] OR "proteostasis"[Title/Abstract]) AND ("aging"[Title/Abstract] OR "longevity"[Title/Abstract])',
+    # 06 Dark Mirror
+    '("microplastics"[Title/Abstract] OR "heavy metals"[Title/Abstract] OR "environmental"[Title/Abstract] OR "oxidative stress"[Title/Abstract]) AND ("aging"[Title/Abstract] OR "neurodegeneration"[Title/Abstract])',
+]
+
+_MONTHS = {
+    "jan": "01", "feb": "02", "mar": "03", "apr": "04", "may": "05", "jun": "06",
+    "jul": "07", "aug": "08", "sep": "09", "oct": "10", "nov": "11", "dec": "12",
+}
 
 
 def existing_source_urls() -> set[str]:
@@ -67,12 +82,6 @@ def existing_source_urls() -> set[str]:
     return urls
 
 
-_MONTHS = {
-    "jan": "01", "feb": "02", "mar": "03", "apr": "04", "may": "05", "jun": "06",
-    "jul": "07", "aug": "08", "sep": "09", "oct": "10", "nov": "11", "dec": "12",
-}
-
-
 def _pubmed_month_to_number(raw: str) -> str:
     raw = raw.strip().lower()
     if raw.isdigit():
@@ -80,52 +89,67 @@ def _pubmed_month_to_number(raw: str) -> str:
     return _MONTHS.get(raw[:3], "01")
 
 
+def _extract_pubmed_date(article: ET.Element, fallback_date: str) -> str:
+    # Prefer electronic <ArticleDate> first because it reliably carries exact Year/Month/Day
+    for node_path in (".//ArticleDate", ".//JournalIssue/PubDate", ".//PubDate"):
+        el = article.find(node_path)
+        if el is None:
+            continue
+        y_el = el.find("Year")
+        m_el = el.find("Month")
+        d_el = el.find("Day")
+        if y_el is not None and y_el.text and m_el is not None and m_el.text and d_el is not None and d_el.text:
+            year = y_el.text.strip()
+            month = _pubmed_month_to_number(m_el.text)
+            day = d_el.text.strip().zfill(2)
+            return f"{year}-{month}-{day}"
+    return fallback_date
+
+
 def fetch_pubmed(query: str, date_from: str, date_to: str, max_results: int) -> list[FeedItem]:
     base = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
     search_params = urllib.parse.urlencode({
-        "db": "pubmed", "term": query, "datetype": "pdat",
-        "mindate": date_from, "maxdate": date_to,
-        "retmax": max_results, "retmode": "json", "sort": "relevance",
+        "db": "pubmed",
+        "term": query,
+        "datetype": "edat",
+        "mindate": date_from.replace("-", "/"),
+        "maxdate": date_to.replace("-", "/"),
+        "retmax": max_results,
+        "retmode": "json",
+        "sort": "relevance",
     })
     with urllib.request.urlopen(f"{base}/esearch.fcgi?{search_params}", timeout=30) as r:
         ids = json.loads(r.read())["esearchresult"].get("idlist", [])
     if not ids:
         return []
-    time.sleep(0.4)
+    time.sleep(0.35)
 
     fetch_params = urllib.parse.urlencode({"db": "pubmed", "id": ",".join(ids), "retmode": "xml"})
     with urllib.request.urlopen(f"{base}/efetch.fcgi?{fetch_params}", timeout=30) as r:
         root = ET.fromstring(r.read())
 
     items = []
-    for article in root.findall(".//PubmedArticle"):
+    for idx, article in enumerate(root.findall(".//PubmedArticle")):
         title_el = article.find(".//ArticleTitle")
-        abstract_el = article.find(".//AbstractText")
+        abstract_els = article.findall(".//AbstractText")
         pmid_el = article.find(".//PMID")
-        pubdate_el = article.find(".//PubDate")
-        if title_el is None or abstract_el is None or pmid_el is None:
+        if title_el is None or not abstract_els or pmid_el is None:
             continue
         title = "".join(title_el.itertext()).strip()
-        abstract = "".join(abstract_el.itertext()).strip()
-        if not title or not abstract:
+        abstract = " ".join("".join(a.itertext()).strip() for a in abstract_els).strip()
+        if not title or len(abstract) < 180:
             continue
-        pmid = pmid_el.text
-        # PubMed's PubDate is often year-only in practice; capture Month/Day
-        # when present so the brief's real chronology survives, rather than
-        # collapsing to whatever day the script happened to run.
-        year = date_from[:4]
-        month, day = "01", "01"
-        if pubdate_el is not None:
-            year_el = pubdate_el.find("Year")
-            month_el = pubdate_el.find("Month")
-            day_el = pubdate_el.find("Day")
-            if year_el is not None and year_el.text:
-                year = year_el.text
-            if month_el is not None and month_el.text:
-                month = _pubmed_month_to_number(month_el.text)
-            if day_el is not None and day_el.text:
-                day = day_el.text.zfill(2)
-        published = f"{year}-{month}-{day}"
+        pmid = pmid_el.text.strip()
+
+        # Spread fallback date inside [date_from, date_to] if exact day missing
+        d0 = dt.date.fromisoformat(date_from)
+        d1 = dt.date.fromisoformat(date_to)
+        span = max(1, (d1 - d0).days + 1)
+        fallback = (d0 + dt.timedelta(days=idx % span)).isoformat()
+        published = _extract_pubmed_date(article, fallback)
+        if published < date_from or published > date_to:
+            published = fallback
+
         items.append(FeedItem(
             title=title,
             summary=abstract,
@@ -151,166 +175,211 @@ def fetch_biorxiv(server: str, date_from: str, date_to: str, max_results: int) -
             title = (paper.get("title") or "").strip()
             abstract = (paper.get("abstract") or "").strip()
             text = f"{title} {abstract}".lower()
-            if not title or not abstract or not any(term in text for term in TOPIC_TERMS):
+            if not title or len(abstract) < 180 or not any(term in text for term in TOPIC_TERMS):
                 continue
             doi = paper.get("doi", "")
+            pub_date = paper.get("date", date_from)
+            if pub_date < date_from or pub_date > date_to:
+                pub_date = date_from
             items.append(FeedItem(
                 title=title,
                 summary=abstract,
                 link=f"https://doi.org/{doi}" if doi else "",
-                published=paper.get("date", date_from),
+                published=pub_date,
                 source_name=server,
                 source_group=server,
             ))
             if len(items) >= max_results:
                 break
         cursor += 100
-        if cursor > 2000:  # sane cap on pagination depth per run
+        if cursor > 1200:
             break
         time.sleep(0.2)
     return items
 
 
-def generate_brief(item: FeedItem, publish: bool) -> str | None:
+def generate_brief(item: FeedItem, publish: bool, prefix_historical: bool = False) -> str | None:
     category = classify(item)
     key = item_id(item)
     existing = list(POSTS_DIR.glob(f"*{key[:8]}*.md"))
     if existing:
         return None
 
-    # classify()'s first-match keyword rules reliably misfire on the broader,
-    # less-curated bioRxiv/medRxiv pool (a crustacean neuropeptide database and
-    # an insect biofilm-sniffing biosensor both cleared the topic-term filter
-    # 2026-08-10 despite having no real human-aging relevance). Blocking here
-    # rather than just logging, unlike the daily pipeline: daily items already
-    # passed novelty/assignment scoring against a curated feed list, so a
-    # verification miss there is lower-stakes than an unreviewed bulk sweep.
     try:
         verified = verify_category(client, MODEL, item.title, item.summary, category)
         category = verified["category"]
         if not verified["on_mission"]:
-            print(f"  skipped (off-mission: {verified['reason']})")
+            print(f"  skipped (off-mission: {verified['reason']})", flush=True)
             return None
     except Exception as exc:
-        print(f"  category verification failed, using keyword match: {exc}", file=sys.stderr)
+        print(f"  category verification failed, using keyword match: {exc}", file=sys.stderr, flush=True)
 
     try:
         evidence = pipeline.build_evidence_packet(client, MODEL, item.title, item.summary, item.summary, item.link)
     except Exception as exc:
-        print(f"  evidence agent failed: {exc}", file=sys.stderr)
+        print(f"  evidence agent failed: {exc}", file=sys.stderr, flush=True)
         return None
 
     try:
         content = pipeline.draft(client, item, category, "signal", item.summary, evidence, None)
     except Exception as exc:
-        print(f"  draft failed: {exc}", file=sys.stderr)
+        print(f"  draft failed: {exc}", file=sys.stderr, flush=True)
         return None
 
     resources = program_resources()
     spiral = spiral_for(category, item, resources)
 
-    # The brief's `date` must be the real study date, not generation time — this
-    # is the field research_radar.py's evidence-drift mechanism reads to detect
-    # real chronological maturation, and a real 12-month archive collapsed to
-    # "today" for every entry defeats the entire point of a historical backfill.
     try:
         published_at = dt.datetime.strptime(item.published, "%Y-%m-%d").replace(
             hour=12, tzinfo=dt.timezone.utc
         )
     except ValueError:
         published_at = dt.datetime.now(dt.timezone.utc)
-    md = markdown(item, category, content, "signal", 1, published_at, None, draft=not publish, spiral=spiral)
-    target = POSTS_DIR / f"historical-{item.published}-{pipeline.slug(content['headline'])}-{key[:8]}.md"
+
+    md = markdown(item, category, content, "signal", 2, published_at, None, draft=not publish, spiral=spiral)
+    prefix = f"historical-{item.published}" if prefix_historical else item.published
+    target = POSTS_DIR / f"{prefix}-{pipeline.slug(content['headline'])}-{key[:8]}.md"
     target.write_text(md, encoding="utf-8")
     return target.name
+
+
+def run_window(
+    date_from: str,
+    date_to: str,
+    limit: int,
+    sources: list[str],
+    queries: list[str],
+    seen_urls: set[str],
+    skip_novelty: bool,
+    overfetch: int,
+    publish: bool,
+    prefix_historical: bool,
+) -> int:
+    candidates: list[FeedItem] = []
+    target_pool = max(limit * overfetch, 12)
+
+    if "pubmed" in sources:
+        per_q = max(3, target_pool // max(1, len(queries)))
+        for q in queries:
+            try:
+                candidates.extend(fetch_pubmed(q, date_from, date_to, per_q))
+            except Exception as exc:
+                print(f"  PubMed fetch warning ({date_from}..{date_to}): {exc}", file=sys.stderr, flush=True)
+
+    for srv in ("biorxiv", "medrxiv"):
+        if srv in sources:
+            try:
+                candidates.extend(fetch_biorxiv(srv, date_from, date_to, max(4, target_pool // 3)))
+            except Exception as exc:
+                print(f"  {srv} fetch warning ({date_from}..{date_to}): {exc}", file=sys.stderr, flush=True)
+
+    deduped: list[FeedItem] = []
+    local_seen: set[str] = set()
+    for c in candidates:
+        if not c.link or c.link in seen_urls or c.link in local_seen:
+            continue
+        local_seen.add(c.link)
+        deduped.append(c)
+
+    print(f"\n=== Window {date_from} .. {date_to}: {len(deduped)} unique candidates ===", flush=True)
+    if not deduped:
+        return 0
+
+    if not skip_novelty:
+        recent_titles = [
+            m.group(1)
+            for p in sorted(POSTS_DIR.glob("*.md"))[-60:]
+            if (m := re.search(r'title:\s*"(.*?)"', p.read_text(encoding="utf-8")))
+        ]
+        CHUNK = 20
+        all_scores: dict[str, dict] = {}
+        for i in range(0, len(deduped), CHUNK):
+            chunk = deduped[i : i + CHUNK]
+            novelty = None
+            for _ in range(2):
+                novelty = novelty_editor(client, MODEL, chunk, [], recent_titles, NOVELTY_MIN_SCORE)
+                if novelty["mode"] == "agent":
+                    break
+            if novelty:
+                all_scores.update(novelty["scores"])
+        scored = [
+            (c, all_scores.get(article_id(c.link), {}).get("score", 0))
+            for c in deduped
+        ]
+        scored.sort(key=lambda pair: -pair[1])
+        passed = [c for c, s in scored if s >= NOVELTY_MIN_SCORE]
+        deduped = passed if len(passed) >= limit else [c for c, _ in scored]
+
+    generated = 0
+    for item in deduped:
+        if generated >= limit:
+            break
+        print(f"Drafting [{item.published} · {item.source_name}]: {item.title[:76]}", flush=True)
+        name = generate_brief(item, publish=publish, prefix_historical=prefix_historical)
+        if name:
+            seen_urls.add(item.link)
+            print(f"  ✓ wrote {name}", flush=True)
+            generated += 1
+    return generated
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--start", required=True, help="YYYY-MM-DD")
     parser.add_argument("--end", required=True, help="YYYY-MM-DD")
-    parser.add_argument("--limit", type=int, default=10)
-    parser.add_argument("--publish", action="store_true", help="write draft:false (default: draft:true for review)")
+    parser.add_argument("--limit", type=int, default=10, help="Total limit when not slicing weekly")
+    parser.add_argument("--weekly-per-slice", type=int, default=0, help="If >0, slice [start..end] into 7-day windows and generate N briefs per week")
+    parser.add_argument("--balanced-spirals", action="store_true", help="Rotate across all 6 Spiral PubMed queries")
+    parser.add_argument("--publish", action="store_true", help="write draft:false (default: draft:true)")
+    parser.add_argument("--prefix-historical", action="store_true", help="Prefix filename with historical-")
     parser.add_argument("--pubmed-query", default="(aging OR longevity OR senescence) AND (biophysics OR mitochondria OR metabolism)")
-    parser.add_argument("--sources", default="pubmed,biorxiv", help="comma-separated: pubmed,biorxiv,medrxiv")
-    parser.add_argument("--skip-novelty", action="store_true", help="generate every deduped candidate without novelty scoring")
-    parser.add_argument("--overfetch", type=int, default=4, help="fetch this many candidates per --limit slot before novelty filtering")
+    parser.add_argument("--sources", default="pubmed,biorxiv,medrxiv", help="comma-separated: pubmed,biorxiv,medrxiv")
+    parser.add_argument("--skip-novelty", action="store_true")
+    parser.add_argument("--overfetch", type=int, default=3)
     args = parser.parse_args()
 
     seen_urls = existing_source_urls()
-    candidates: list[FeedItem] = []
+    sources = [s.strip() for s in args.sources.split(",") if s.strip()]
+    queries = SPIRAL_PUBMED_QUERIES if args.balanced_spirals else [args.pubmed_query]
 
-    sources = args.sources.split(",")
-    per_source = max(1, (args.limit * args.overfetch) // len(sources))
+    total_generated = 0
+    if args.weekly_per_slice > 0:
+        cur = dt.date.fromisoformat(args.start)
+        end_d = dt.date.fromisoformat(args.end)
+        week_idx = 0
+        while cur <= end_d:
+            w_end = min(end_d, cur + dt.timedelta(days=6))
+            # Rotate spiral queries by week so all 6 domains distribute evenly
+            rotated = queries[week_idx % len(queries) :] + queries[: week_idx % len(queries)]
+            total_generated += run_window(
+                cur.isoformat(),
+                w_end.isoformat(),
+                args.weekly_per_slice,
+                sources,
+                rotated,
+                seen_urls,
+                args.skip_novelty,
+                args.overfetch,
+                args.publish,
+                args.prefix_historical,
+            )
+            cur = w_end + dt.timedelta(days=1)
+            week_idx += 1
+    else:
+        total_generated = run_window(
+            args.start,
+            args.end,
+            args.limit,
+            sources,
+            queries,
+            seen_urls,
+            args.skip_novelty,
+            args.overfetch,
+            args.publish,
+            args.prefix_historical,
+        )
 
-    if "pubmed" in sources:
-        print(f"Fetching PubMed: {args.pubmed_query!r} {args.start}..{args.end}")
-        candidates.extend(fetch_pubmed(args.pubmed_query, args.start, args.end, per_source))
-    if "biorxiv" in sources:
-        print(f"Fetching bioRxiv {args.start}..{args.end}")
-        candidates.extend(fetch_biorxiv("biorxiv", args.start, args.end, per_source))
-    if "medrxiv" in sources:
-        print(f"Fetching medRxiv {args.start}..{args.end}")
-        candidates.extend(fetch_biorxiv("medrxiv", args.start, args.end, per_source))
-
-    candidates = [c for c in candidates if c.link and c.link not in seen_urls]
-    print(f"\n{len(candidates)} new candidates after dedup.")
-
-    if not args.skip_novelty and candidates:
-        recent_titles = [
-            re.search(r'title:\s*"(.*?)"', p.read_text(encoding="utf-8")).group(1)
-            for p in sorted(POSTS_DIR.glob("*.md"))[-60:]
-            if re.search(r'title:\s*"(.*?)"', p.read_text(encoding="utf-8"))
-        ]
-        # novelty_editor's response budget (2200 tokens, shared with the daily
-        # pipeline) can't fit a full score object for 90+ candidates in one call
-        # — it silently falls back to the cruder deterministic heuristic when
-        # that happens. Chunking keeps every batch well inside that budget
-        # regardless of how large --overfetch makes the candidate pool.
-        CHUNK = 20
-        NOVELTY_RETRIES = 3
-        all_scores: dict[str, dict] = {}
-        modes = []
-        print(f"Scoring {len(candidates)} candidates against the novelty editor (min {NOVELTY_MIN_SCORE}), in chunks of {CHUNK}...")
-        for i in range(0, len(candidates), CHUNK):
-            chunk = candidates[i : i + CHUNK]
-            # Observed 2026-08-10: a chunk well within the token budget still
-            # occasionally falls back (nondeterministic — same pattern seen all
-            # session in the antecedents and evidence_position calls). A plain
-            # retry resolves it almost every time rather than silently accepting
-            # the cruder deterministic heuristic for that chunk.
-            novelty = None
-            for attempt in range(NOVELTY_RETRIES):
-                novelty = novelty_editor(client, MODEL, chunk, [], recent_titles, NOVELTY_MIN_SCORE)
-                if novelty["mode"] == "agent":
-                    break
-            modes.append(novelty["mode"])
-            all_scores.update(novelty["scores"])
-        print(f"  novelty editor modes across chunks: {modes}")
-        scored = [
-            (c, all_scores.get(article_id(c.link), {}).get("score", 0))
-            for c in candidates
-        ]
-        scored.sort(key=lambda pair: -pair[1])
-        passed = [(c, s) for c, s in scored if s >= NOVELTY_MIN_SCORE]
-        print(f"  {len(passed)} of {len(candidates)} cleared the novelty bar (>= {NOVELTY_MIN_SCORE}); "
-              f"{len(candidates) - len(passed)} held back for reading like familiar coverage.\n")
-        candidates = [c for c, _ in passed]
-
-    candidates = candidates[: args.limit]
-    print(f"Generating up to {len(candidates)}.\n")
-
-    generated = 0
-    for item in candidates:
-        print(f"Drafting: {item.title[:80]}")
-        name = generate_brief(item, publish=args.publish)
-        if name:
-            print(f"  ✓ wrote {name}")
-            generated += 1
-        else:
-            print("  skipped (duplicate or failed)")
-
-    print(f"\nDone! Generated {generated} of {len(candidates)} candidates.")
+    print(f"\n✨ Historical backfill finished! Total generated: {total_generated}", flush=True)
 
 
 if __name__ == "__main__":

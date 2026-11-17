@@ -13,6 +13,12 @@ spiral: "Higher Flame"
 evidence_position: "established"
 topics: ['longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
+image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Biological clock and mitochondrial vitality"
+image_photographer: "RF._.studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@rfstudio"
+image_provider: "Pexels"
+image_avg_color: "#1a3a3a"
 ---
 
 A randomized trial finds that discontinuing statins in older adults without prior cardiovascular events does not raise three-year mortality, yet LDL rises sharply. The decision hinges on biology, not habit.

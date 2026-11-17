@@ -14,6 +14,12 @@ autoresearch_antecedents: [{"scientist": "George Emil Palade", "year": "1953", "
 evidence_position: "emerging"
 topics: ['detoxification', 'gut health', 'longevity', 'metabolic health']
 frameworks: ['Dark Mirror', 'Higher Flame', 'Inner Garden', 'Living Waters']
+image: "https://images.pexels.com/photos/4031693/pexels-photo-4031693.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Cellular clearance and autophagic purification"
+image_photographer: "Cottonbro Studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@cottonbro"
+image_provider: "Pexels"
+image_avg_color: "#2a1a3a"
 ---
 
 A gut metabolite reopens ER–mitochondria–lysosome communication via calcium sparks, reviving mitochondrial quality control and extending healthspan in worms and human cells.

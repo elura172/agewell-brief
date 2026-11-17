@@ -15,6 +15,12 @@ autoresearch_antecedents: [{"scientist": "Steve Horvath", "year": "2013", "disco
 evidence_position: "established"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Biological clock and mitochondrial vitality"
+image_photographer: "RF._.studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@rfstudio"
+image_provider: "Pexels"
+image_avg_color: "#1a3a3a"
 ---
 
 An analysis of fifty-one studies shows that prescription drugs and lifestyle changes reliably alter epigenetic blood markers, while popular over-the-counter supplements miss the mark.

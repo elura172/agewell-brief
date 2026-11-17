@@ -15,6 +15,12 @@ ancestral_insight: "Traditional longevity practices such as caloric restriction 
 evidence_position: "emerging"
 topics: ['cellular senescence', 'longevity']
 frameworks: ['Cell Shedding', 'Living Waters']
+image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Biological clock and mitochondrial vitality"
+image_photographer: "RF._.studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@rfstudio"
+image_provider: "Pexels"
+image_avg_color: "#1a3a3a"
 ---
 
 A new study reveals how naked mole-rats evade a suppressive function of cGAS to enhance homologous recombination repair, offering a precise molecular lever for lifespan extension.

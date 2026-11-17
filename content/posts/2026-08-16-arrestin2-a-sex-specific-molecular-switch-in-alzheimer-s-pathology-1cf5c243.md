@@ -15,6 +15,12 @@ ancestral_insight: "Traditional lifestyles often include periodic fasting or cal
 evidence_position: "emerging"
 topics: ['brain health', 'cellular senescence', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 New preclinical research reveals that deleting β-arrestin2 in male mice reduces amyloid pathology and rescues cognition, while females remain largely unaffected—underscoring the need for sex-stratified approaches to GPCR-targeted therapies.

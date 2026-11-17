@@ -14,6 +14,12 @@ autoresearch_antecedents: [{"scientist": "Jules Hirsch", "year": "1971", "discov
 evidence_position: "emerging"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
+image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Mitochondrial metabolic energy dynamics"
+image_photographer: "Karolina Grabowska / Pexels"
+image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
+image_provider: "Pexels"
+image_avg_color: "#3a1a1a"
 ---
 
 A new review maps the cellular remodelling of fat tissue with age, linking senescent cells and immune shifts to disease risk, and weighs interventions from caloric restriction to senolytics.

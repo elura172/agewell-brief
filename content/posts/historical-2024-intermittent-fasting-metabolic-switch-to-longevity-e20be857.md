@@ -15,6 +15,12 @@ ancestral_insight: "Hunter-gatherer and traditional agrarian societies naturally
 evidence_position: "established"
 topics: ['cellular senescence', 'gut health', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Inner Garden', 'Living Waters']
+image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Biological clock and mitochondrial vitality"
+image_photographer: "RF._.studio / Pexels"
+image_photographer_url: "https://www.pexels.com/@rfstudio"
+image_provider: "Pexels"
+image_avg_color: "#1a3a3a"
 ---
 
 A new review confirms that time-restricted eating triggers conserved survival pathways, extending lifespan and improving health across species.

@@ -12,6 +12,12 @@ source_name: "Frontiers in Human Neuroscience"
 spiral: "Luminous Mind"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 A non-invasive pulse to the vagus nerve is being tested against disorders of consciousness. The mechanism is real, the evidence is early, and the physics runs deep.

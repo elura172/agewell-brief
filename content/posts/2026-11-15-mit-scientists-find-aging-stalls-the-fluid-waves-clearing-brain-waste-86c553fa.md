@@ -10,10 +10,16 @@ edition_id: "2026-11-15"
 source_url: "https://medicalxpress.com/news/2026-11-brain-impaired-older-adults.html"
 source_title: "Waves that clear waste from the brain during sleep are impaired in older adults"
 source_name: "Medical Xpress Healthy Aging"
-spiral: "Luminous Mind"
+spiral: "Higher Flame"
 evidence_position: "emerging"
 topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 Rhythmic waves of fluid that flush metabolic debris out of neural tissue during sleep decay with age, linking broken sleep to impaired brain self-cleaning.

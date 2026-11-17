@@ -12,6 +12,12 @@ source_name: "ScienceDaily Top Health"
 spiral: "Higher Flame"
 topics: ['mobility']
 frameworks: ['Living Waters']
+image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Vital healthspan practices and physical harmony"
+image_photographer: "Mikhail Nilov / Pexels"
+image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
+image_provider: "Pexels"
+image_avg_color: "#2a3a2a"
 ---
 
 Cartilage breakdown doesn’t have to dictate your mobility. Targeted muscle strength, weight control, and anti-inflammatory eating can reduce joint stress and slow progression.

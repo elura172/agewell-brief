@@ -15,6 +15,12 @@ ancestral_insight: "Traditional caloric restriction (CR) and intermittent fastin
 evidence_position: "emerging"
 topics: ['brain health', 'cellular senescence', 'longevity']
 frameworks: ['Cell Shedding', 'Living Waters', 'Luminous Mind']
+image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Abstract biophotonic neural subspace visualization"
+image_photographer: "Google DeepMind / Pexels"
+image_photographer_url: "https://www.pexels.com/@googledeepmind"
+image_provider: "Pexels"
+image_avg_color: "#1a2a3a"
 ---
 
 New research reveals that Pelota, a ribosome-associated quality control factor, promotes longevity by preventing mTOR hyperactivation and preserving autophagy-mediated proteostasis.

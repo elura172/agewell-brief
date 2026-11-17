@@ -13,6 +13,12 @@ spiral: "Living Waters"
 evidence_position: "emerging"
 topics: ['general wellness']
 frameworks: []
+image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Vital healthspan practices and physical harmony"
+image_photographer: "Mikhail Nilov / Pexels"
+image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
+image_provider: "Pexels"
+image_avg_color: "#2a3a2a"
 ---
 
 Brief, low-dose CB2R agonists trigger an epigenetic switch that curbs plasticity and boosts tamoxifen response in organoid models.

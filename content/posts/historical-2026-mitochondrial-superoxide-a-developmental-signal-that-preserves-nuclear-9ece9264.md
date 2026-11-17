@@ -15,6 +15,12 @@ ancestral_insight: "Traditional dietary patterns, such as the Mediterranean diet
 evidence_position: "emerging"
 topics: ['longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters']
+image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Mitochondrial metabolic energy dynamics"
+image_photographer: "Karolina Grabowska / Pexels"
+image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
+image_provider: "Pexels"
+image_avg_color: "#3a1a1a"
 ---
 
 A new study reveals that a burst of mitochondrial superoxide during development programs long-term nuclear envelope health by curbing unsaturated fat synthesis and lipid peroxidation.
