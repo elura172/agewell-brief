@@ -2,7 +2,7 @@ import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 import { marked } from "marked";
 import sanitizeHtml from "sanitize-html";
-import { imageFigureHtml, isCommercialLink, mediaRssData, plainTextExcerpt, publishedBriefs, stripCommercialLinks, withoutAffiliatePlacement } from "../lib/publishing";
+import { imageFigureHtml, isProgramReferenceLink, mediaRssData, plainTextExcerpt, publishedBriefs, stripCommercialLinks, withoutAffiliatePlacement } from "../lib/publishing";
 
 export async function GET(context: { site?: URL }) {
   const entries = publishedBriefs(await getCollection("briefs"));
@@ -49,7 +49,7 @@ export async function GET(context: { site?: URL }) {
       // <source> means "where this was first reported". The six programme
       // explainers cite our own storefront, and naming a shop as the reporting
       // source in a syndicated feed is not a claim worth making.
-      ...(isCommercialLink(entry.data.source_url)
+      ...(isProgramReferenceLink(entry.data.source_url)
         ? {}
         : { source: { title: entry.data.source_name, url: entry.data.source_url } }),
       customData: mediaRssData(entry.data, site)

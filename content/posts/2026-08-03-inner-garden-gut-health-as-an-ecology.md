@@ -5,7 +5,7 @@ draft: false
 category: "gut health"
 content_type: "evergreen"
 edition_rank: 99
-source_url: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ=="
+source_url: "https://spiraloflight.life/teaching/garden?lens=biophysics&spiral=garden&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference"
 source_title: "The Spiral of the Inner Garden — Gut Reclamation Protocol"
 source_name: "Spiral of Cellular Light companion guide"
 spiral: "Inner Garden"
@@ -60,6 +60,6 @@ Begin with observation. Track meals, symptoms, bowel patterns, sleep, and recent
 
 ### Source
 
-This evergreen program perspective is based on [The Spiral of the Inner Garden — Gut Reclamation Protocol](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OQ==), supplied as a companion guide for the Spiral of Cellular Light.
+This evergreen program perspective is based on [The Spiral of the Inner Garden — Gut Reclamation Protocol](https://spiraloflight.life/teaching/garden?lens=biophysics&spiral=garden&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference), supplied as a companion guide for the Spiral of Cellular Light.
 
 > **Health note:** This article is informational and does not diagnose Candida, dysbiosis, or any other digestive condition.

@@ -5,7 +5,7 @@ draft: false
 category: "cellular senescence"
 content_type: "evergreen"
 edition_rank: 99
-source_url: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA=="
+source_url: "https://spiraloflight.life/teaching/shedding?lens=biophysics&spiral=shedding&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference"
 source_title: "The Spiral of Cell Shedding — A Senolytic Protocol Guide"
 source_name: "Spiral of Cellular Light companion guide"
 spiral: "Cell Shedding"
@@ -62,6 +62,6 @@ Use the guide as a reading map. Ask what the human evidence shows, what remains 
 
 ### Source
 
-This evergreen program perspective is based on [The Spiral of Cell Shedding — A Senolytic Protocol Guide](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1MA==), supplied as a companion guide for the Spiral of Cellular Light.
+This evergreen program perspective is based on [The Spiral of Cell Shedding — A Senolytic Protocol Guide](https://spiraloflight.life/teaching/shedding?lens=biophysics&spiral=shedding&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference), supplied as a companion guide for the Spiral of Cellular Light.
 
 > **Health note:** This article is informational and does not recommend a senolytic regimen or claim to clear senescent cells.

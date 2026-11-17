@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { isCommercialLink, linkRel, plainTextExcerpt, publishedBriefs, readingTimeMinutes, spiralSlugFor, spiralTeachingUrl, spiralWalkUrl, topicSlug, typographic, withUtm } from "../../lib/publishing";
+import { isProgramReferenceLink, linkRel, plainTextExcerpt, publishedBriefs, readingTimeMinutes, spiralSlugFor, spiralTeachingUrl, spiralWalkUrl, topicSlug, typographic, withUtm } from "../../lib/publishing";
 import EditorialImage from "../../components/EditorialImage.astro";
 import { frontierForCategory } from "../../data/frontier-map";
 
@@ -177,7 +177,7 @@ const structuredData = [
           {/* The six programme explainers cite our own storefront rather than a
               study. It already carries rel="sponsored", but calling a shop
               "Original reporting" is the part that misleads. */}
-          <p class="article-source">{isCommercialLink(entry.data.source_url) ? "Programme reference: " : "Original reporting: "}<a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
+          <p class="article-source">{isProgramReferenceLink(entry.data.source_url) ? "Programme reference: " : "Original reporting: "}<a href={entry.data.source_url} rel={linkRel(entry.data.source_url)}>{entry.data.source_title}</a></p>
           {frontierLinks.length > 0 && <p class="article-frontier">On the frontier: {frontierLinks.slice(0, 2).map((frontier, index) => <><a href={`/frontier-map/#${frontier.slug}`}>{frontier.shortName}</a>{index < Math.min(frontierLinks.length, 2) - 1 ? ", " : ""}</>)}</p>}
         </div>
         <div class="article-util-actions" aria-label="Article tools">

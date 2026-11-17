@@ -5,7 +5,7 @@ draft: false
 category: "detoxification"
 content_type: "evergreen"
 edition_rank: 99
-source_url: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA=="
+source_url: "https://spiraloflight.life/teaching/waters?lens=biophysics&spiral=waters&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference"
 source_title: "The Spiral of Living Waters — Transport Clearing Protocol"
 source_name: "Spiral of Cellular Light companion guide"
 spiral: "Living Waters"
@@ -62,6 +62,6 @@ Readers can use the Living Waters guide as a question set: What is the intended 
 
 ### Source
 
-This evergreen program perspective is based on [The Spiral of Living Waters — Transport Clearing Protocol](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0NA==), supplied as a companion guide for the Spiral of Cellular Light.
+This evergreen program perspective is based on [The Spiral of Living Waters — Transport Clearing Protocol](https://spiraloflight.life/teaching/waters?lens=biophysics&spiral=waters&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference), supplied as a companion guide for the Spiral of Cellular Light.
 
 > **Health note:** This article is informational and does not diagnose, treat, or recommend a detoxification protocol.

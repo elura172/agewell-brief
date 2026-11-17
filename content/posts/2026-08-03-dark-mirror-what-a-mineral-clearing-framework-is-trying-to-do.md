@@ -5,7 +5,7 @@ draft: false
 category: "detoxification"
 content_type: "editorial"
 edition_rank: 99
-source_url: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw=="
+source_url: "https://spiraloflight.life/teaching/mirror?lens=biophysics&spiral=mirror&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference"
 source_title: "The Dark Mirror of Immunity — Advanced Earth Mineral Clearing"
 source_name: "Spiral of Cellular Light companion guide"
 spiral: "Dark Mirror"
@@ -60,6 +60,6 @@ Treat Dark Mirror as an advanced program perspective, not a casual cleanse. Revi
 
 ### Source
 
-This editorial program perspective is based on [The Dark Mirror of Immunity — Advanced Earth Mineral Clearing](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ1Nw==), supplied as a companion guide for the Spiral of Cellular Light.
+This editorial program perspective is based on [The Dark Mirror of Immunity — Advanced Earth Mineral Clearing](https://spiraloflight.life/teaching/mirror?lens=biophysics&spiral=mirror&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference), supplied as a companion guide for the Spiral of Cellular Light.
 
 > **Health note:** This article does not recommend self-directed chelation or treatment for toxic exposure.

@@ -5,7 +5,7 @@ draft: false
 category: "brain health"
 content_type: "evergreen"
 edition_rank: 99
-source_url: "https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA=="
+source_url: "https://spiraloflight.life/teaching/mind?lens=biophysics&spiral=mind&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference"
 source_title: "The Spiral of the Luminous Mind — Brain Upgrade Protocol"
 source_name: "Spiral of Cellular Light companion guide"
 spiral: "Luminous Mind"
@@ -62,6 +62,6 @@ Protect the basics first: keep a regular sleep schedule, address hearing and vis
 
 ### Source
 
-This evergreen program perspective is based on [The Spiral of the Luminous Mind — Brain Upgrade Protocol](https://ca.fullscript.com/s/spiraloflight/shop/plans/TXVsdGlQYXRpZW50UGxhbi0xMDQ0OA==), supplied as a companion guide for the Spiral of Cellular Light.
+This evergreen program perspective is based on [The Spiral of the Luminous Mind — Brain Upgrade Protocol](https://spiraloflight.life/teaching/mind?lens=biophysics&spiral=mind&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference), supplied as a companion guide for the Spiral of Cellular Light.
 
 > **Health note:** This article is informational and does not diagnose, treat, or prevent cognitive disease.

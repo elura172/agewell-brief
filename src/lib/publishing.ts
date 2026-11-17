@@ -102,6 +102,20 @@ export function isCommercialLink(href: string | undefined | null): boolean {
   }
 }
 
+/** True when a source_url cites our own programme (spiraloflight.life) or a
+ * commission storefront — i.e. it is a "programme reference", not original
+ * reporting, and must not be offered as the first-reported source in a feed. */
+export function isProgramReferenceLink(href: string | undefined | null): boolean {
+  if (isCommercialLink(href)) return true;
+  if (!href) return false;
+  try {
+    const host = new URL(href).hostname.toLowerCase();
+    return host === "spiraloflight.life" || host.endsWith(".spiraloflight.life");
+  } catch {
+    return false;
+  }
+}
+
 /** Unlink commercial URLs in rendered HTML, keeping their anchor text.
  *
  * The syndicated copy carries no commission links: the programme cards are
