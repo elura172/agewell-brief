@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "607a73474e16967c53c69c8c": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "nuanced clinical outcome / mechanism distinction",
+      "reason": "It addresses a major current topic (GLP-1 drugs for neuroprotection) by highlighting a critical nuance: semaglutide failed to slow established Alzheimer's disease in major trials, but metabolic/cognitive benefits may be constrained to early-stage prevention in patients with diabetes or obesity.",
+      "angle": "Why GLP-1 drugs failed in established Alzheimer's trials—and why scientists think they may still protect cognition if given earlier to metabolic patients.",
+      "mode": "agent"
+    },
+    "66f3727573e1cef18679a879": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Generic behavioral advice linking strict daily routine schedules to reduced pain and depression; lacks a novel biological mechanism or actionable clinical break-through beyond standard sleep hygiene advice.",
+      "angle": "How strict circadian consistency reduces physical pain perception in older adults with insomnia.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "recycled population association",
+      "reason": "Recycled epidemiological finding on optimal sleep duration (6.4–7.8 hours) for biological aging, which has been covered repeatedly in recent health news without new intervention data.",
+      "angle": "The Goldilocks sleep window: why both short and long sleep accelerate cellular aging markers.",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "standard social epidemiology",
+      "reason": "Article payload contains an empty summary and represents a standard epidemiological/sociological study on social mobility and depression without a sharp novel mechanistic finding.",
+      "angle": "Life-course social mobility and late-life depressive symptoms in the LASI cohort.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "broad consumer advice",
+      "reason": "Generic consumer wellness content offering high-level warnings about anti-aging supplements; contains no specific novel trial results or new regulatory alerts.",
+      "angle": "Navigating the evidence gap and safety risks in over-the-counter anti-aging supplements for seniors.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "broad theoretical review",
+      "reason": "Broad narrative review on sleep, redox metabolism, and brain aging. Lacks a specific primary empirical discovery or practical intervention.",
+      "angle": "How sleep deprivation disrupts redox homeostasis in the aging brain.",
+      "mode": "agent"
+    },
+    "ea09562f5eb3234279997588": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "out-of-scope population (pediatric)",
+      "reason": "Focuses on adolescent girls with juvenile fibromyalgia and youth chronic pain, which falls outside the aging, healthspan, and senior health remit.",
+      "angle": "Multisensory hyper-reactivity and neural processing of depressive symptoms in juvenile fibromyalgia.",
+      "mode": "agent"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "translational clinical finding",
+      "reason": "Reports on an anti-aging compound (NMN/NAD+ precursor) successfully translating mouse metabolic benefits into human clinical data by specifically improving muscle glucose metabolism in humans.",
+      "angle": "Translating longevity compounds to humans: How target molecules improve skeletal muscle insulin sensitivity and metabolic health in clinical testing.",
+      "mode": "agent"
+    },
+    "27db499e1ea9701bfbd6fbfe": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "out-of-scope clinical topic",
+      "reason": "Preprint focusing on fMRI signal variability in adult dyslexia. Not relevant to aging, longevity, or age-related neurodegeneration.",
+      "angle": "Testing the neural noise hypothesis of adult dyslexia via resting-state BOLD signal variability.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "607a73474e16967c53c69c8c",
+    "e8c72c931a6031cef21b46e5"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "2beb92ec2e8851b24c8a89de",
+    "0b7d57db98938147adfb915a",
+    "ea09562f5eb3234279997588",
+    "27db499e1ea9701bfbd6fbfe"
+  ],
+  "mode": "agent"
+}

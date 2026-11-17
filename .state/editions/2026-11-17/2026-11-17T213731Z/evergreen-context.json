@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "607a73474e16967c53c69c8c",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "12c50a361ed4f0b3",
+        "source": "Dr. Fritz-Albert Popp (1975) — Biophotonics and Cellular Coherence",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 8
+      },
+      {
+        "source_id": "3199d23705ba918b",
+        "source": "Dr. Herbert Fröhlich (1968) — Long-Range Coherence and Energy Storage in Biological Systems",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 8
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
