@@ -1,0 +1,19 @@
+[
+  {
+    "article_id": "607a73474e16967c53c69c8c",
+    "metadata_review": {
+      "selected_candidate_id": "Unsplash:HRLTL6bmeow",
+      "score": 95,
+      "rationale": "The selected candidate accurately represents the biochemical and clinical research domain highlighted in the story. It shows a scientist conducting a laboratory experiment with a pipette, aligning directly with the category visual anchor of a metabolic/biochemistry research laboratory and supporting the article's focus on clinical trials, biomarkers, and neurodegenerative disease research.",
+      "concerns": [],
+      "metadata_status": "approved",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reviewer": "deferred-vision-interface",
+      "image_path": "https://images.unsplash.com/photo-1748281296151-b3209b37e1cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NHx8YmlvY2hlbWlzdHJ5JTIwbGFib3JhdG9yeSUyMHJlc2VhcmNoJTIwZ2xhc3N3YXJlfGVufDF8MHx8fDE3OTQ5NjA5NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "reason": "Pixel-level vision review is not configured yet."
+    }
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "scores": {
+    "607a73474e16967c53c69c8c": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "66f3727573e1cef18679a879": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "501081b8618cb051ac75b80a": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "No strong novelty signal detected.",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    },
+    "1174e1d1a4cf117ea3395938": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "contextual_update",
+      "reason": "familiar wellness framing with limited editorial surprise",
+      "angle": "Report the specific change, mechanism, or consequence rather than repeating generic advice.",
+      "mode": "deterministic_fallback"
+    }
+  },
+  "commissioned_ids": [],
+  "held_back": [
+    "607a73474e16967c53c69c8c",
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "0b7d57db98938147adfb915a",
+    "2beb92ec2e8851b24c8a89de",
+    "e8c72c931a6031cef21b46e5",
+    "501081b8618cb051ac75b80a",
+    "1174e1d1a4cf117ea3395938"
+  ],
+  "mode": "deterministic_fallback",
+  "error": "Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]",
+  "rescue": "No candidate cleared the novelty threshold; retained the strongest available story."
+}
