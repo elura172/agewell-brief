@@ -13,20 +13,18 @@ spiral: "Living Waters"
 autoresearch_antecedents: [{"scientist": "Jeremy N. Morris", "year": "1953", "discovery": "Morris's landmark study of London bus conductors and drivers showed that conductors who climbed stairs on double-decker buses had markedly lower rates of coronary heart disease and sudden death compared to sedentary drivers. This was the first epidemiological evidence that habitual stair climbing reduces cardiovascular mortality, directly anticipating the UEA meta-analysis's finding of a 39% reduction in cardiovascular death among frequent stair climbers."}, {"scientist": "Kenneth H. Cooper", "year": "1968", "discovery": "Cooper's development of the 12-minute run test and his concept of 'aerobics' quantified the cardiorespiratory demands of stair climbing, establishing it as a vigorous-intensity exercise that improves VO2 max. His work provided the physiological basis for why stair climbing, as a form of high-intensity interval training, enhances endothelial function and cardiac efficiency, mechanisms that underlie the reduced heart failure and stroke risk observed in the modern study."}]
 ancestral_insight: "Human ancestors in the Paleolithic and throughout agrarian history routinely climbed hills, trees, and terrain as part of foraging, hunting, and migration. This intermittent high-intensity vertical locomotion—similar to stair climbing—was a daily necessity, not a leisure activity. The human musculoskeletal and cardiovascular systems evolved under such loads, favoring efficient oxygen utilization and vascular plasticity. Modern sedentary lifestyles deviate from this ancestral pattern, and the study's findings suggest that reintroducing brief, vigorous vertical exertion (e.g., stair climbing) can restore ancestral cardiorespiratory stress, activating hormetic pathways such as AMPK and PGC-1α that enhance mitochondrial function and reduce chronic inflammation. This aligns with the 'mismatch' hypothesis, where the absence of such activity contributes to the epidemic of cardiovascular disease."
 evidence_position: "established"
-image_provider: "Pexels"
-image_provider_id: "12932540"
-image: "/images/editions/2026-08-16/stair-climbing-cuts-cardiovascular-death-risk-by-39-the-biophysics-of--7fcb80ed-pexels-12932540.webp"
-image_alt: "A person in athletic shoes climbing stone steps, showcasing determination and fitness."
-image_caption: "The stone steps underfoot are the vertical exertion that, per the meta-analysis, cuts cardiovascular death risk by 39% through mitochondrial and vascular adaptations."
-image_width: 1200
-image_height: 627
-image_photographer: "Atlantic Ambience"
-image_photographer_url: "https://www.pexels.com/@freestockpro"
-image_source_url: "https://www.pexels.com/photo/person-walking-up-stairs-12932540/"
-image_review_status: "pending"
-image_avg_color: "#C8C3BD"
 topics: ['longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-7fcb80ed"
+image: "/images/editions/2026-08-16/2026-08-16-stair-climbing-cuts-cardiovascular-death-risk-by-39-the-biophysics-of--7fcb80ed-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of an ascending diagonal Bauhaus staircase interwoven with branching arterial conduits, pulsatile shear-stress waves, vertical force vectors, and mitochondrial modules."
+image_caption: "Vertical mechanical work against gravity drives pulsatile endothelial shear stress and mitochondrial biogenesis across ascending cardiovascular conduits."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A meta-analysis of 480,000 people shows that choosing stairs over lifts is a potent longevity lever. Here’s the mitochondrial and vascular mechanics behind the numbers.

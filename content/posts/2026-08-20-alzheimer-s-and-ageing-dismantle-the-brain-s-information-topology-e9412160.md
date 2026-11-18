@@ -12,13 +12,17 @@ source_name: "bioRxiv neuroscience, genetics, physiology"
 spiral: "Luminous Mind"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-e9412160"
+image: "/images/editions/2026-08-20/2026-08-20-alzheimer-s-and-ageing-dismantle-the-brain-s-information-topology-e9412160-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph depicting a high-synergy geodesic polyhedron on the left sheared apart across the center by angular planes into a flattened scatter of disconnected nodes on the right."
+image_caption: "Aging and amyloid pathology shear the modular, high-synergy geodesic topology of hippocampal spatial coding into fragmented, redundant nodes."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New mouse research shows that ageing and Alzheimer's pathology together dissolve the modular, synergistic architecture of hippocampal spatial coding—offering a biophysical map of cognitive decline.

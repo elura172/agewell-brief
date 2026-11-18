@@ -14,12 +14,16 @@ autoresearch_antecedents: [{"scientist": "John Hughlings Jackson", "year": "1884
 evidence_position: "emerging"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-4bef7423"
+image: "/images/editions/2026-08-19/2026-08-19-ai-brain-age-gap-flags-dementia-risk-years-before-symptoms-4bef7423-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of dual concentric Vernier astrolabe caliper rings around a cranial hemisphere measuring the angular phase gap between chronological age and accelerated cortical atrophy."
+image_caption: "Dual concentric Vernier rings measure the angular phase gap between chronological age and MRI-predicted cortical age years before clinical symptoms surface."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new study in Neurology suggests that the difference between a person's chronological age and their brain's predicted age on MRI could serve as an early warning sign for dementia, catching subtle atrophy that visual rating scales miss.

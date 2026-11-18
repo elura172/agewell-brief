@@ -10,21 +10,19 @@ source_url: "https://medicalxpress.com/news/2026-08-brain-imaging-reveals-hub-de
 source_title: "Brain imaging reveals how an information hub integrates signals during decision-making"
 source_name: "Medical Xpress Neurology"
 spiral: "Luminous Mind"
-image_provider: "Unsplash"
-image_provider_id: "ii6BOPjAtVY"
-image: "https://images.unsplash.com/photo-1711409645921-ef3db0501f96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGJyYWluJTIwc2NhbnxlbnwxfDB8fHwxNzk0MTc5MTU5fDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "a close up of a human brain on a black background"
-image_caption: "A close-up view of a human brain illustrates the central hub that synchronizes memory, motor, and sensory streams during decision-making."
-image_width: 3840
-image_height: 2160
-image_photographer: "Shawn Day"
-image_photographer_url: "https://unsplash.com/@whisperingshiba?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/a-close-up-of-a-human-brain-on-a-black-background-ii6BOPjAtVY?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#c0c0d9"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}, {"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-5e7c3034"
+image: "/images/editions/2026-08-18/2026-08-18-brain-imaging-reveals-how-an-information-hub-integrates-signals-during-5e7c3034-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing memory spiral, sensory wave, and motor vector streams converging into a central thalamic resonator hub inside a cranial dome to emerge as a phase-locked decision beam."
+image_caption: "A central thalamo-cortical oscillatory hub binds incoming memory, sensory, and motor frequency streams into a single phase-locked decision vector."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New imaging data show how a central hub synchronizes memory, motor, and sensory streams—echoing Hebb's plasticity and Llinás's oscillatory binding.

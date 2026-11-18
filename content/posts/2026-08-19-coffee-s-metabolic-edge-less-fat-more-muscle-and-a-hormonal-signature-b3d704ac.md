@@ -10,21 +10,19 @@ source_url: "https://www.sciencedaily.com/releases/2026/08/260819041228.htm"
 source_title: "Coffee drinkers have less fat, more muscle, and surprising hormone differences"
 source_name: "ScienceDaily Top Health"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "6248549"
-image: "/images/editions/2026-08-19/coffee-s-metabolic-edge-less-fat-more-muscle-and-a-hormonal-signature-b3d704ac-pexels-6248549.webp"
-image_alt: "Side view of crop middle aged ethnic male drinking aromatic hot coffee with closed eyes during breakfast at home"
-image_caption: "This man's closed-eyes savoring of coffee mirrors the study's finding that habitual coffee drinkers enjoy a metabolic edge—less visceral fat and more muscle—as if each sip tunes his body's hormonal and cellular efficiency."
-image_width: 1200
-image_height: 627
-image_photographer: "Gary  Barnes"
-image_photographer_url: "https://www.pexels.com/@gary-barnes"
-image_source_url: "https://www.pexels.com/photo/content-ethnic-man-drinking-coffee-at-home-6248549/"
-image_review_status: "pending"
-image_avg_color: "#A8907F"
 topics: ['metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}, {"scientist": "Gerald Pollack", "year": "2013", "discovery": "Interfacial cell water organizes into a liquid-crystalline fourth phase (Exclusion Zone water, H3O2) that excludes solutes and forms an endogenous charge-separated battery powered by ambient infrared light. (The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-b3d704ac"
+image: "/images/editions/2026-08-19/2026-08-19-coffee-s-metabolic-edge-less-fat-more-muscle-and-a-hormonal-signature-b3d704ac-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a double-ring xanthine alkaloid polygon entering a rotary metabolic switchboard that shrinks lower visceral adipose globules while expanding upper striated muscle lattices."
+image_caption: "Bioactive coffee alkaloids and polyphenols bias systemic metabolic partitioning away from visceral adipose depots toward skeletal muscle preservation and SHBG balance."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A Finnish cohort study reveals that habitual coffee drinkers carry less visceral fat, more skeletal muscle, and distinct sex-hormone profiles—hints at a deeper metabolic tuning that echoes biophysical principles of cellular efficiency.

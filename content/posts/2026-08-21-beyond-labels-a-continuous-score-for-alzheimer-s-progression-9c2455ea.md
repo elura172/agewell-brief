@@ -12,13 +12,17 @@ source_name: "arXiv q-bio"
 spiral: "Luminous Mind"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 autoresearch_antecedents: [{"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}, {"scientist": "Emilio Del Giudice", "year": "1988", "discovery": "Applied Quantum Electrodynamics to condensed matter to show that liquid water forms 100-nanometer Coherence Domains where molecules oscillate in phase with a self-trapped electromagnetic field, supplying low-activation-energy electrons for biochemical reactions. (Water Coherence Domains in Quantum Electrodynamics (QED))"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-9c2455ea"
+image: "/images/editions/2026-08-21/2026-08-21-beyond-labels-a-continuous-score-for-alzheimer-s-progression-9c2455ea-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing two disconnected binary diagnosis boxes superseded by a continuous Bayesian trajectory curve traversing a fan of DTI white-matter axonal fiber bundles."
+image_caption: "Longitudinal diffusion tensor tractography replaces binary diagnostic boxes with a continuous white-matter phase trajectory across Alzheimer progression."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New Bayesian framework uses longitudinal DTI to map Alzheimer's as a continuous biological process, not a binary diagnosis.

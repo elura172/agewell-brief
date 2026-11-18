@@ -15,12 +15,16 @@ ancestral_insight: "In ancestral environments, female reproductive cycles were c
 evidence_position: "emerging"
 topics: ['brain health', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-d7a0c0f0"
+image: "/images/editions/2026-08-21/2026-08-21-hormonal-tides-reshape-the-brain-mre-reveals-estrogen-driven-mechanica-d7a0c0f0-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing an endocrine lunar-tidal dial emitting harmonic shear waves into a deformable viscoelastic standing-wave mesh inside a curved hippocampal arch."
+image_caption: "Magnetic resonance elastography captures how cyclic estrogen tides modulate the physical shear stiffness and mechanical plasticity of hippocampal tissue."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New imaging shows estrogen fluctuations alter hippocampal stiffness across the reproductive cycle—a biophysical window into how hormones sculpt neural tissue.

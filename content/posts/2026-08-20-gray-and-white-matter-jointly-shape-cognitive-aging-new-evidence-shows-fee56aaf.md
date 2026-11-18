@@ -12,13 +12,17 @@ source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
 topics: ['brain health', 'longevity', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-fee56aaf"
+image: "/images/editions/2026-08-20/2026-08-20-gray-and-white-matter-jointly-shape-cognitive-aging-new-evidence-shows-fee56aaf-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing an arched cortical ribbon with thinning outer gray-matter nodes supported underneath by a resilient arcade of parabolic U-shaped short-range white-matter fiber bridges."
+image_caption: "Superficial short-range white-matter U-fibers form a structural suspension arcade that buffers cognitive signal transmission against cortical gray-matter thinning."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new observational study from USC suggests that the brain's short-range wiring may buffer the cognitive impact of gray matter loss—revealing a dynamic interplay between tissue types that could reshape how we think about brain aging.

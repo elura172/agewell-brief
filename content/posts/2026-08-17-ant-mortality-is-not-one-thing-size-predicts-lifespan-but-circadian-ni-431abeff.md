@@ -10,21 +10,19 @@ source_url: "https://arxiv.org/abs/2608.14245"
 source_title: "Body size predicts how long ant workers live - but not how they age or how they die from heat"
 source_name: "arXiv q-bio"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "31756733"
-image: "/images/editions/2026-08-17/ant-mortality-is-not-one-thing-size-predicts-lifespan-but-circadian-ni-431abeff-pexels-31756733.webp"
-image_alt: "Macro image of two ants exploring a textured green and pink leaf."
-image_caption: "These ants on a leaf embody the study's finding that body size predicts lifespan, but their circadian niche and lineage, not size alone, determine how they age and succumb to heat."
-image_width: 1200
-image_height: 627
-image_photographer: "Franck LUCE"
-image_photographer_url: "https://www.pexels.com/@franck-luce-2148504933"
-image_source_url: "https://www.pexels.com/photo/close-up-of-ants-on-a-leaf-31756733/"
-image_review_status: "pending"
-image_avg_color: "#6F6450"
 topics: ['cellular senescence', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}, {"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-431abeff"
+image: "/images/editions/2026-08-17/2026-08-17-ant-mortality-is-not-one-thing-size-predicts-lifespan-but-circadian-ni-431abeff-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph contrasting three graduated geometric ant silhouettes along a proportional size scale on the left against a split solar-lunar circadian dial deflecting thermal stress spikes on the right."
+image_caption: "While body-size scaling predicts baseline longevity across species, circadian temporal niche and evolutionary lineage govern senescence dynamics and thermal survival."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new study of 18 Australian ant species shows that body size predicts how long workers live, but not how they age or how they die from heat. The findings challenge size-based vulnerability indices and point to circadian biology and evolutionary lineage as key climate-relevant axes.

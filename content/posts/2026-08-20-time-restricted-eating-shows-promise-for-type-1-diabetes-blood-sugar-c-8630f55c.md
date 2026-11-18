@@ -13,20 +13,18 @@ spiral: "Higher Flame"
 autoresearch_antecedents: [{"scientist": "M. Daniel Lane", "year": "1980s", "discovery": "Lane's lab at Johns Hopkins identified the molecular mechanisms by which insulin regulates gene expression and fat metabolism, including the role of the insulin-responsive transcription factor SREBP-1c. This work established the foundational understanding of how insulin signaling controls metabolic pathways, which is directly relevant to the UIC study's finding that time-restricted eating can improve blood sugar control in type 1 diabetes by modulating insulin sensitivity and metabolic flexibility."}, {"scientist": "Rafael de Cabo", "year": "2010s", "discovery": "De Cabo's research at the National Institute on Aging demonstrated that intermittent fasting (including time-restricted feeding) improves glucose homeostasis and insulin sensitivity in animal models, partly through activation of sirtuins and AMPK pathways. This work provided the preclinical evidence that time-restricted eating could be a safe and effective adjunct to insulin therapy in type 1 diabetes, which the UIC study now validates in humans."}]
 ancestral_insight: "Traditional human lifestyles, such as those of hunter-gatherer societies, naturally incorporated periods of fasting and feasting due to food scarcity and seasonal availability. This pattern is reflected in the circadian rhythm of metabolic hormones, including insulin and cortisol, which are optimized for daytime feeding and nighttime fasting. Time-restricted eating mimics this ancestral pattern by confining food intake to a daily window, thereby reducing insulin resistance and improving glucose control. The physical mechanism involves the circadian regulation of insulin sensitivity, which is higher during the day and lower at night, and the activation of autophagy and ketogenesis during fasting periods, which enhance cellular repair and metabolic efficiency. This ancestral parallel supports the UIC study's conclusion that time-restricted eating is a safe and effective strategy for managing type 1 diabetes, as it aligns with the body's evolutionary design."
 evidence_position: "emerging"
-image_provider: "Pexels"
-image_provider_id: "6941101"
-image: "/images/editions/2026-08-20/time-restricted-eating-shows-promise-for-type-1-diabetes-blood-sugar-c-8630f55c-pexels-6941101.webp"
-image_alt: "Hands holding a glucometer to test blood sugar levels on a purple background."
-image_caption: "A glucometer in hand measures blood sugar, the very metric that time-restricted eating aims to stabilize in type 1 diabetes, per the UIC study."
-image_width: 1200
-image_height: 627
-image_photographer: "Nataliya Vaitkevich"
-image_photographer_url: "https://www.pexels.com/@n-voitkevich"
-image_source_url: "https://www.pexels.com/photo/person-holding-a-glucose-meter-6941101/"
-image_review_status: "pending"
-image_avg_color: "#B195B7"
 topics: ['metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-8630f55c"
+image: "/images/editions/2026-08-20/2026-08-20-time-restricted-eating-shows-promise-for-type-1-diabetes-blood-sugar-c-8630f55c-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a 24-division circadian dial with a golden feeding-window aperture taming an erratic glucose waveform into a bounded oscillation corridor."
+image_caption: "Narrowing the diurnal feeding window on the circadian clock compresses volatile glycemic swings into a steadier time-in-range oscillation corridor."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new UIC study suggests that time-restricted eating may help adults with type 1 diabetes manage glucose levels, but the findings are preliminary and require medical supervision.

@@ -11,21 +11,19 @@ source_title: "High-dose vitamin D may improve cognition among those at risk of 
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
 evidence_position: "emerging"
-image_provider: "Pexels"
-image_provider_id: "12319354"
-image: "/images/editions/2026-08-19/vitamin-d-and-the-aging-brain-a-signal-worth-decoding-e6dd486b-pexels-12319354.webp"
-image_alt: "Researcher explaining cognitive science poster to peers, emphasizing scientific collaboration."
-image_caption: "The researcher's gesture toward the poster mirrors the article's point that vitamin D's cognitive benefit is a signal to decode, not a proven cure."
-image_width: 1200
-image_height: 627
-image_photographer: "Roxanne Minnish"
-image_photographer_url: "https://www.pexels.com/@roxanne-minnish-2936023"
-image_source_url: "https://www.pexels.com/photo/a-woman-explaining-a-chart-12319354/"
-image_review_status: "pending"
-image_avg_color: "#928272"
 topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}, {"scientist": "Gilbert Ling", "year": "1962", "discovery": "Proposed that intracellular water is structured into polarized multi-layers along extended protein backbones when ATP is bound, governing selective potassium accumulation and mineral phase transitions without relying solely on membrane pump expenditure. (A Physical Theory of the Living State: Association-Induction Hypothesis)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-e6dd486b"
+image: "/images/editions/2026-08-19/2026-08-19-vitamin-d-and-the-aging-brain-a-signal-worth-decoding-e6dd486b-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing golden solar rays passing through a geometric secosteroid ring to lock into a nuclear receptor inside a cranial astrolabe dome."
+image_caption: "Secosteroid vitamin D receptor signaling acts as a photobiological key inside cortical nuclei, stabilizing calcium oscillations and neurotrophic transcription."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New Emory research links higher vitamin D intake to better cognition in those at dementia risk. Here's what the physics of cellular signaling suggests—and what it doesn't prove.

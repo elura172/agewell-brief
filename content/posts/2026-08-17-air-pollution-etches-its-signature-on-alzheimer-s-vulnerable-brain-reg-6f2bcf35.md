@@ -13,20 +13,18 @@ spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Alois Alzheimer", "year": "1906", "discovery": "Alzheimer first described the neuropathological hallmarks of the disease\u2014amyloid plaques and neurofibrillary tangles\u2014in a patient with progressive memory loss, establishing the disease as a distinct entity and laying the foundation for identifying vulnerable brain regions such as the hippocampus and entorhinal cortex."}, {"scientist": "William F. Ganong", "year": "1960s", "discovery": "Ganong's work on the blood-brain barrier and its selective permeability revealed how circulating substances, including toxins, can influence brain function and structure, providing a mechanistic basis for how inhaled air pollutants might reach and damage brain tissue."}]
 ancestral_insight: "Traditional lifestyles, such as those of pre-industrial hunter-gatherer societies, involved minimal exposure to anthropogenic air pollutants, with air quality largely determined by natural sources like wildfires and dust. The physical mechanism is that the olfactory nerve provides a direct pathway from the nasal cavity to the brain, and in ancestral environments, the absence of fine particulate matter from combustion engines and industrial processes meant this pathway was rarely challenged by toxic particles. Modern exposure to PM2.5 overwhelms this ancient pathway, contributing to neuroinflammation and Alzheimer's-like changes, whereas ancestral lifestyles maintained a cleaner air environment that supported brain health."
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "MFSEP2g4YS0"
-image: "https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8Mnx8bmV1cm9zY2llbmNlJTIwbGFib3JhdG9yeSUyMGNvbXB1dGVyJTIwbW9uaXRvcnN8ZW58MXwwfHx8MTc5NDE3OTI1MXww&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "Two medical professionals in white coats reviewing digital imaging on computer monitors"
-image_caption: "Medical professionals review digital imaging that reveals how common outdoor air pollutants etch structural changes into the very brain regions most susceptible to Alzheimer's pathology."
-image_width: 8551
-image_height: 5701
-image_photographer: "Accuray"
-image_photographer_url: "https://unsplash.com/@accuray?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/medical-professionals-reviewing-digital-imaging-MFSEP2g4YS0?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#c0c0c0"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-6f2bcf35"
+image: "/images/editions/2026-08-17/2026-08-17-air-pollution-etches-its-signature-on-alzheimer-s-vulnerable-brain-reg-6f2bcf35-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing stippled airborne micro-particulate aerosols crossing an olfactory-vascular barrier sieve to selectively erode the medial temporal and hippocampal quadrants of a geodesic brain dome."
+image_caption: "Airborne fine particulate aerosols cross the olfactory-vascular threshold to etch localized structural atrophy across Alzheimer-vulnerable temporal and hippocampal regions."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New USC-led neuroimaging research links common outdoor air pollutants to structural changes in the very brain areas most susceptible to Alzheimer's pathology. Here's what the physical evidence shows—and what it doesn't.

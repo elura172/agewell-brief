@@ -15,12 +15,16 @@ ancestral_insight: "Traditional lifestyles emphasizing regular physical activity
 evidence_position: "emerging"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-e4c17d66"
+image: "/images/editions/2026-08-17/2026-08-17-a-new-alzheimer-s-target-how-a-broken-enzyme-clogs-mitochondria-and-dr-e4c17d66-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a split mitochondrial cristae turbine with protein aggregates jamming the left import channels and a triangular small-molecule wedge unlocking the right pore to radiate ATP waves."
+image_caption: "Clearing misfolded protein aggregates from mitochondrial import pores breaks the bioenergetic starvation loop that fuels neuronal amyloid accumulation."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Swiss researchers have identified a vicious cycle of protein aggregation that starves neurons of energy and fuels amyloid buildup. An experimental compound breaks the loop—and hints at broader effects on aging.

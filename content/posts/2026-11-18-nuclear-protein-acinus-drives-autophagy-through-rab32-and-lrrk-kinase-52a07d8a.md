@@ -13,6 +13,16 @@ source_name: "bioRxiv immunology and cell biology"
 spiral: "Cell Shedding"
 topics: ['brain health', 'cellular senescence', 'longevity']
 frameworks: ['Cell Shedding', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-52a07d8a"
+image: "/images/editions/2026-11-18/2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a nuclear membrane releasing a faceted Acinus protein polygon that arcs over a closed mTOR gate to engage a twin-gear Rab32 and Lrrk kinase relay driving a rotary autophagic compass wheel."
+image_caption: "Displaced from the nucleus by proteostasis stress, cytoplasmic Acinus bypasses mTOR to engage the Rab32 GTPase and Lrrk kinase relay that drives autophagic clearance."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 When proteostasis stress forces nuclear protein Acinus into the cytoplasm, it bypasses mTOR to ignite a distinct autophagic pathway dependent on Rab32 and Lrrk.

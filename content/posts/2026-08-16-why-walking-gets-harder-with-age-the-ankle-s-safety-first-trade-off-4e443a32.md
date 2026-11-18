@@ -10,21 +10,19 @@ source_url: "https://www.sciencedaily.com/releases/2026/08/260815065014.htm"
 source_title: "Scientists reveal why walking gets so much harder with age"
 source_name: "ScienceDaily Top Health"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "15131939"
-image: "/images/editions/2026-08-16/why-walking-gets-harder-with-age-the-ankle-s-safety-first-trade-off-4e443a32-pexels-15131939.webp"
-image_alt: "A lone senior adult walking along a stone path with a mountain backdrop under a clear sky."
-image_caption: "A senior's steady gait on a mountain path reflects the ankle's stability-first strategy that, while safer, demands more energy and contributes to the fatigue this article explores."
-image_width: 1200
-image_height: 627
-image_photographer: "Valentin Angel Fernandez"
-image_photographer_url: "https://www.pexels.com/@vafphotos"
-image_source_url: "https://www.pexels.com/photo/photo-of-an-elderly-person-walking-alone-15131939/"
-image_review_status: "pending"
-image_avg_color: "#494F4B"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-4e443a32"
+image: "/images/editions/2026-08-16/2026-08-16-why-walking-gets-harder-with-age-the-ankle-s-safety-first-trade-off-4e443a32-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a tibial-talar ankle lever pivoting on a rotary compass fulcrum, contrasting an elastic Achilles spring propulsion arc against rigid co-contraction braking clamps."
+image_caption: "Aging motor circuits trade elastic Achilles spring propulsion at the ankle fulcrum for rigid co-contraction stability bracing, raising the metabolic cost of every step."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research reveals that aging brains sacrifice walking efficiency for stability, stiffening the ankle and increasing fatigue. Here's the biomechanics behind the shift—and how to fight it.
