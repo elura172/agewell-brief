@@ -214,7 +214,7 @@ def assignment_editor(
                     "Choose one lead and make the rest signals.",
                     "Prefer source diversity and a mix of categories.",
                     "Prioritize fresh, independently corroborated human healthspan and longevity science.",
-                    "Reject duplicates, commercial agriculture/aquaculture/livestock production studies (such as farmed fish feed or poultry yield), and stories too weak to explain responsibly.",
+                    "Reject duplicates, commercial agriculture/aquaculture/livestock production studies (such as farmed fish feed or poultry yield), sweeping pharmaceutical press releases that broadly dismiss botanical/nutritional supplements as a whole class based on narrow surrogate markers, and stories too weak to explain responsibly.",
                     "Every assignment must use an article_id from candidates.",
                 ],
                 "output_schema": {
