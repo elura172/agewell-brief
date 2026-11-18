@@ -1,0 +1,18 @@
+{
+  "edition_angle": "Focusing on mechanistic insights into cellular aging, autophagy, and neurological health.",
+  "assignments": [
+    {
+      "article_id": "52a07d8a85510ee281236908",
+      "role": "lead",
+      "angle": "Investigating how cytoplasmic Acinus and the Lrrk-Rab32 pathway regulate autophagy to preserve cellular health during aging.",
+      "confidence": 0.9,
+      "reason": "Provides novel mechanistic insight into stress-induced autophagy, a core pathway for cellular health and longevity."
+    }
+  ],
+  "held_back": [
+    "bff6bde7399f01374b40d941",
+    "acbb39f93a6315f01e2c9359",
+    "a11502ad6b11c43db892f38a"
+  ],
+  "mode": "agent"
+}

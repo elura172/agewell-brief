@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "52a07d8a85510ee281236908",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "7cd643e6f594a31c",
+        "source": "Dr. Otto Warburg (1924) — The Metabolism of Tumours & Cytochrome Oxygen Respiration",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 20
+      },
+      {
+        "source_id": "c282f56688b23539",
+        "source": "Dr. Vlail Kaznacheev (1976) — The Cytopathic Mirror Effect & Optical Intercellular Transfer",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 20
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

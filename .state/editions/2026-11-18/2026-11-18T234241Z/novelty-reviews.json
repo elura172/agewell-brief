@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "lifestyle observation",
+      "reason": "The finding that daily routines and regular sleep schedules reduce pain and depression in older adults is standard health advice and lacks a specific molecular mechanism or novel intervention.",
+      "angle": "How consistent daily schedule rhythms influence pain pathways independently of total sleep duration.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 32,
+      "decision": "hold",
+      "novelty_type": "epidemiological association",
+      "reason": "The optimal sleep duration window (6.4–7.8 hours) for healthy aging is a well-established observation in longevity research and has been reported extensively before.",
+      "angle": "Why biological aging markers shift non-linearly outside the 6.4–7.8 hour sleep window.",
+      "mode": "agent"
+    },
+    "bff6bde7399f01374b40d941": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "specific pathway mechanism",
+      "reason": "Identifies specific peripheral metabolomic shifts (phospholipids, acylcarnitines, eicosanoid networks) caused by EVOO supplementation in a humanized tauopathy model, linking gut-metabolic axis to tau pathology.",
+      "angle": "Extra virgin olive oil rewires peripheral lipid and inflammatory metabolomes in human-tau mice, opening new systemic targets against tauopathy.",
+      "mode": "agent"
+    },
+    "b64a41ad335859fbaab7a7cb": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "preclinical herbal study",
+      "reason": "While it pinpoints NMDAR-driven ferroptosis and iron dyshomeostasis in pulmonary fibrosis, botanical formula mechanistic studies in rodents require stronger human translational links or broader disease application to justify top novelty.",
+      "angle": "Targeting NMDAR signaling to halt iron dyshomeostasis and ferroptosis in progressive lung fibrosis.",
+      "mode": "agent"
+    },
+    "d3ba6f9d10e969a610e70f23": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "theoretical framework",
+      "reason": "The summary provides only high-level conceptual assertions about memory formation disruption in dementia without detailing the specific computational or biological mechanisms of the new framework.",
+      "angle": "A unified neural circuit framework explaining how dementia disrupts computational memory indexing.",
+      "mode": "agent"
+    },
+    "acbb39f93a6315f01e2c9359": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "computational model / paradigm shift",
+      "reason": "MemGP resolves long-standing theoretical debates by unifying discrete slot vs. continuous resource views of working memory into a single probabilistic inference model across computational, algorithmic, and circuit levels.",
+      "angle": "Unifying decades of working memory debates: How a single Gaussian-process inference model explains memory capacity, attention, and circuit activity.",
+      "mode": "agent"
+    },
+    "a11502ad6b11c43db892f38a": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "methodological innovation",
+      "reason": "ProgMF solves a major barrier in neuroimaging research by fusing incomplete multimodal data sequentially without data imputation, recovering hidden neurodegenerative source signals accurately.",
+      "angle": "Overcoming missing neuroimaging data: Sequential multimodal fusion unlocks hidden biomarkers in incomplete clinical cohorts without data imputation.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic consumer advice",
+      "reason": "Broad, recycled summary on anti-aging supplements containing generic cautionary advice with no new data or regulatory actions.",
+      "angle": "A reality check on over-the-counter anti-aging supplements for older adults.",
+      "mode": "agent"
+    },
+    "52a07d8a85510ee281236908": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "named molecular pathway",
+      "reason": "Reveals a splicing-independent, cytoplasmic Acinus-Rab32-Lrrk pathway for autophagy induction that operates distinctly from mTor regulation and directly implicates Parkinson's genetic risk factors.",
+      "angle": "Beyond mTor: Cytoplasmic Acinus recruits Rab32 and Lrrk kinase to trigger an alternative autophagy pathway tied to Parkinson's disease.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "bff6bde7399f01374b40d941",
+    "acbb39f93a6315f01e2c9359",
+    "a11502ad6b11c43db892f38a",
+    "52a07d8a85510ee281236908"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b64a41ad335859fbaab7a7cb",
+    "d3ba6f9d10e969a610e70f23",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}
