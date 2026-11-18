@@ -2,7 +2,7 @@
 title: "Spatial Mapping Reveals Heart Aging Concentrates in Valves and Blood Vessels"
 description: "Single-cell resolution reveals that age-related inflammation and scarring target the organ's structural plumbing rather than its main muscle."
 date: 2026-11-18T04:00:11.866128+00:00
-draft: true
+draft: false
 category: "longevity"
 content_type: "signal"
 edition_rank: 2
@@ -12,18 +12,16 @@ source_title: "Scientists discover that the heart doesn't age the way we thought
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Cell Shedding"
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "xHz4_cOube0"
-image: "https://images.unsplash.com/photo-1668932105708-4fb4eb8eb012?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8N3x8bWljcm9zY29weSUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeSUyMGNvbXB1dGVyfGVufDF8MHx8fDE3OTQ5NzQ3MDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "a microscope on a table"
-image_caption: "A standard microscope rests on a table, representing the laboratory tools utilized in broader analyses of cardiovascular tissue structure."
-image_width: 4640
-image_height: 2610
-image_photographer: "Dinesh Jatav"
-image_photographer_url: "https://unsplash.com/@botanyforeveryone?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/a-microscope-on-a-table-xHz4_cOube0?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#a6a68c"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-ba982aac"
+image: "/images/editions/2026-11-18/spatial-mapping-reveals-heart-aging-concentrates-in-valves-and-blood-v-ba982aac-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a three-leaflet aortic valve and branching vessel overlaid with a spatial-transcriptomic grid showing dense inflammatory hotspots along the valve rings while the surrounding myocardium stays intact."
+image_caption: "Single-cell spatial transcriptomics locates cardiac aging and fibrotic remodeling within the aortic valve leaflets and vascular conduits rather than the surrounding myocardium."
+image_width: 1200
+image_height: 627
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 topics: ['cellular senescence', 'longevity']
 frameworks: ['Cell Shedding', 'Living Waters']
 ---

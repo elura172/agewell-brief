@@ -13,18 +13,16 @@ source_name: "Medical Xpress Healthy Aging"
 spiral: "Higher Flame"
 autoresearch_antecedents: [{"scientist": "\u00c9lie Metchnikoff", "year": "1907", "discovery": "Proposed that toxic microbial byproducts in the large intestine drive systemic physical decline, suggesting that ingesting lactic acid-producing bacteria could replace harmful microbes and extend human lifespan."}, {"scientist": "H. Robert Horvitz", "year": "1986", "discovery": "Identified the genetic pathways that govern programmed cell death and metabolic longevity in Caenorhabditis elegans, proving that aging rate is actively modulated by specific biochemical cascades."}]
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "4v5IFWPzcgM"
-image: "https://images.unsplash.com/photo-1769454777452-75071eefbda8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8bWljcm9iaW9sb2d5JTIwcGV0cmklMjBkaXNoJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzk0ODc4MzYwfDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "Scientist in lab coat with petri dishes and equipment"
-image_caption: "A researcher works in a laboratory setting similar to the facilities where scientists analyze microbial outputs and engineer bacteria for metabolic studies."
-image_width: 4628
-image_height: 3615
-image_photographer: "Navy Medicine"
-image_photographer_url: "https://unsplash.com/@navymedicine?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/scientist-in-lab-coat-with-petri-dishes-and-equipment-4v5IFWPzcgM?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#404040"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-c17bd4d3"
+image: "/images/editions/2026-11-17/centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph depicting modular gut bacilli within an intestinal villi lattice emitting small-molecule hexagonal trajectories across a central axis to wind a concentric metabolic clockwork and mitochondrion."
+image_caption: "Engineered gut bacteria replicate the small-molecule metabolite signaling of centenarian microbiomes to restore youthful mitochondrial and systemic metabolism."
+image_width: 1200
+image_height: 627
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 topics: ['gut health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
 ---

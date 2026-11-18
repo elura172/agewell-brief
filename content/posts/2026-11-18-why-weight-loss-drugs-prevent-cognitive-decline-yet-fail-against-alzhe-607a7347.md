@@ -2,7 +2,7 @@
 title: "Why Weight Loss Drugs Prevent Cognitive Decline Yet Fail Against Alzheimer's"
 description: "Blockbuster metabolic therapies alter cerebral biomarkers and lower dementia risk in observational data, yet fail to slow established Alzheimer's disease."
 date: 2026-11-18T00:13:23.712626+00:00
-draft: true
+draft: false
 category: "metabolic health"
 content_type: "lead"
 edition_rank: 1
@@ -13,18 +13,16 @@ source_name: "ScienceDaily Top Health"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Daniel Drucker and Joel Habener", "year": "1980s", "discovery": "Cloned and characterized the genes encoding glucagon-like peptide-1, laying the molecular foundation for recognizing that incretin hormones operate directly within the central nervous system to influence metabolism and neuroprotection, which directly anticipates how modern GLP-1 receptor agonists cross the blood-brain barrier to affect cognitive function and cerebral vascular health."}]
 evidence_position: "contested"
-image_provider: "Unsplash"
-image_provider_id: "HRLTL6bmeow"
-image: "https://images.unsplash.com/photo-1748281296151-b3209b37e1cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NHx8YmlvY2hlbWlzdHJ5JTIwbGFib3JhdG9yeSUyMHJlc2VhcmNoJTIwZ2xhc3N3YXJlfGVufDF8MHx8fDE3OTQ5NjA5NDV8MA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "Scientist uses pipette in a laboratory experiment"
-image_caption: "A researcher handles laboratory equipment in a setting similar to where metabolic therapies are investigated for their impact on cerebral biomarkers and dementia risk."
-image_width: 6000
-image_height: 4000
-image_photographer: "Nathan Rimoux"
-image_photographer_url: "https://unsplash.com/@nathan_rmx?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/scientist-uses-pipette-in-a-laboratory-experiment-HRLTL6bmeow?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#8c7373"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-607a7347"
+image: "/images/editions/2026-11-18/why-weight-loss-drugs-prevent-cognitive-decline-yet-fail-against-alzhe-607a7347-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing vascular metabolic signaling vectors crossing a blood-brain barrier arc before being deflected by a dense blockade of Alzheimer's plaques and tangles."
+image_caption: "Incretin pathways protect upstream cerebral vasculature before disease onset, yet cannot dismantle the structural blockade of established Alzheimer's pathology."
+image_width: 1200
+image_height: 627
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---
