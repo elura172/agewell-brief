@@ -15,6 +15,8 @@ image_alt: "Post-constructivist scientific lithograph showing five systemic trac
 image_caption: "Cognitive resilience emerges when sleep oscillations, vascular perfusion, stress equilibrium, movement, and synaptic nutrition lock into whole-system coherence."
 image_photographer: "Agewell Brief Visual Desk"
 image_provider: "Agewell Visual Desk"
+image_width: 1376
+image_height: 768
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"
 topics: ['brain health', 'metabolic health', 'mobility', 'sleep health']

@@ -17,8 +17,8 @@ image_provider_id: "lithograph-ba982aac"
 image: "/images/editions/2026-11-18/spatial-mapping-reveals-heart-aging-concentrates-in-valves-and-blood-v-ba982aac-lithograph.webp"
 image_alt: "Post-constructivist scientific lithograph of a three-leaflet aortic valve and branching vessel overlaid with a spatial-transcriptomic grid showing dense inflammatory hotspots along the valve rings while the surrounding myocardium stays intact."
 image_caption: "Single-cell spatial transcriptomics locates cardiac aging and fibrotic remodeling within the aortic valve leaflets and vascular conduits rather than the surrounding myocardium."
-image_width: 1200
-image_height: 627
+image_width: 1376
+image_height: 768
 image_photographer: "Agewell Brief Visual Desk"
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"

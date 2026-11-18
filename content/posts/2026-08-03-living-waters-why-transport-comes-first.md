@@ -15,6 +15,8 @@ image_alt: "Post-constructivist scientific lithograph showing a hexagonal struct
 image_caption: "Structured hydration and microvascular capillary recruitment open the four primary drainage pathways before mobilized solutes are cleared."
 image_photographer: "Agewell Brief Visual Desk"
 image_provider: "Agewell Visual Desk"
+image_width: 1376
+image_height: 768
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"
 topics: ['detoxification', 'gut health', 'metabolic health']

@@ -15,6 +15,8 @@ image_alt: "Post-constructivist scientific lithograph showing a fractured senesc
 image_caption: "Cyclical senolytic and autophagic clearance quiets inflammatory SASP signaling and recycles stalled cellular structures into renewed tissue architecture."
 image_photographer: "Agewell Brief Visual Desk"
 image_provider: "Agewell Visual Desk"
+image_width: 1376
+image_height: 768
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"
 topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility', 'sleep health']

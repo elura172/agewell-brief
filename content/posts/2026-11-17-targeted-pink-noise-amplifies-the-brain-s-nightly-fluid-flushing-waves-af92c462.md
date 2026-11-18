@@ -16,8 +16,8 @@ image_provider_id: "lithograph-af92c462"
 image: "/images/editions/2026-11-17/targeted-pink-noise-amplifies-the-brain-s-nightly-fluid-flushing-waves-af92c462-lithograph.webp"
 image_alt: "Post-constructivist scientific lithograph showing concentric acoustic pink-noise pulses phase-locking into a high-amplitude slow-wave cerebrospinal fluid curve that flushes particulate waste out of an abstract cranial hemisphere."
 image_caption: "Phase-locked pink-noise acoustic pulses entrain slow-wave neural oscillations to drive deeper cerebrospinal fluid clearance waves across the sleeping brain."
-image_width: 1200
-image_height: 627
+image_width: 1376
+image_height: 768
 image_photographer: "Agewell Brief Visual Desk"
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"

@@ -18,8 +18,8 @@ image_provider_id: "lithograph-c17bd4d3"
 image: "/images/editions/2026-11-17/centenarian-gut-microbes-yield-synthetic-bacteria-that-restore-youthfu-c17bd4d3-lithograph.webp"
 image_alt: "Post-constructivist scientific lithograph depicting modular gut bacilli within an intestinal villi lattice emitting small-molecule hexagonal trajectories across a central axis to wind a concentric metabolic clockwork and mitochondrion."
 image_caption: "Engineered gut bacteria replicate the small-molecule metabolite signaling of centenarian microbiomes to restore youthful mitochondrial and systemic metabolism."
-image_width: 1200
-image_height: 627
+image_width: 1376
+image_height: 768
 image_photographer: "Agewell Brief Visual Desk"
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"

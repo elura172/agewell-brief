@@ -26,8 +26,10 @@ const {
   variant = "article",
   eager = false
 } = Astro.props;
+
+const isLithograph = provider === "Gemini" || provider === "Agewell Visual Desk";
 ---
-<figure class:list={["editorial-image", `editorial-image--${variant}`]} style={`--image-tone: ${avgColor}`}>
+<figure class:list={["editorial-image", `editorial-image--${variant}`, isLithograph && "editorial-image--lithograph"]} style={`--image-tone: ${avgColor}`}>
   <div class="editorial-image-frame">
     <img
       src={src}
@@ -40,7 +42,7 @@ const {
     />
   </div>
   <figcaption>
-    {provider === "Gemini" || provider === "Agewell Visual Desk" ? (
+    {isLithograph ? (
       <>Editorial lithograph · {photographer && photographer !== "Photo contributor" ? photographer : "Agewell Brief Visual Desk"}</>
     ) : (
       <>

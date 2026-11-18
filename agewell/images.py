@@ -512,12 +512,12 @@ def generate_lithograph_plate(
 
     with Image.open(io.BytesIO(raw_image)) as source:
         source = ImageOps.exif_transpose(source).convert("RGB")
-        rendered = ImageOps.fit(source, (1200, 627), method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+        width, height = source.size
         folder = public_root / "images" / "editions" / edition_id
         folder.mkdir(parents=True, exist_ok=True)
         filename = f"{article_slug}-lithograph.webp"
         target = folder / filename
-        rendered.save(target, "WEBP", quality=86, method=6)
+        source.save(target, "WEBP", quality=86, method=6)
 
     return PublishedImage(
         provider="Agewell Visual Desk",
@@ -527,8 +527,8 @@ def generate_lithograph_plate(
         creator="Agewell Brief Visual Desk",
         creator_url="",
         alt=f"Post-constructivist scientific lithograph illustrating {headline}",
-        width=1200,
-        height=627,
+        width=width,
+        height=height,
         avg_color="#f4efe4",
         review_status="vision-approved",
     )

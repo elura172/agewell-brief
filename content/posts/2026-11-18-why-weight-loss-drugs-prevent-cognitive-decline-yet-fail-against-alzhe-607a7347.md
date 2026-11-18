@@ -18,8 +18,8 @@ image_provider_id: "lithograph-607a7347"
 image: "/images/editions/2026-11-18/why-weight-loss-drugs-prevent-cognitive-decline-yet-fail-against-alzhe-607a7347-lithograph.webp"
 image_alt: "Post-constructivist scientific lithograph showing vascular metabolic signaling vectors crossing a blood-brain barrier arc before being deflected by a dense blockade of Alzheimer's plaques and tangles."
 image_caption: "Incretin pathways protect upstream cerebral vasculature before disease onset, yet cannot dismantle the structural blockade of established Alzheimer's pathology."
-image_width: 1200
-image_height: 627
+image_width: 1376
+image_height: 768
 image_photographer: "Agewell Brief Visual Desk"
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"

@@ -15,6 +15,8 @@ image_alt: "Post-constructivist scientific lithograph of interlocking epithelial
 image_caption: "Mucosal tight-junction architecture supports a diverse microbial ecology that signals directly to the brain along the ascending vagal axis."
 image_photographer: "Agewell Brief Visual Desk"
 image_provider: "Agewell Visual Desk"
+image_width: 1376
+image_height: 768
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"
 topics: ['brain health', 'gut health', 'metabolic health', 'mobility', 'sleep health']

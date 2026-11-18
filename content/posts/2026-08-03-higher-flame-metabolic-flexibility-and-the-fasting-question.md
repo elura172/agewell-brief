@@ -15,6 +15,8 @@ image_alt: "Post-constructivist scientific lithograph showing a hexagonal glucos
 image_caption: "Metabolic flexibility switches the mitochondrial Krebs turbine seamlessly between carbohydrate glycolysis and fatty-acid ketone oxidation."
 image_photographer: "Agewell Brief Visual Desk"
 image_provider: "Agewell Visual Desk"
+image_width: 1376
+image_height: 768
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"
 topics: ['brain health', 'metabolic health', 'sleep health']

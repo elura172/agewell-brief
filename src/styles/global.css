@@ -326,6 +326,18 @@ h1, h2, h3 {
 .editorial-image--featured img { aspect-ratio: 4 / 3; max-height: 440px; }
 .editorial-image--card { margin: 0; }
 .editorial-image--card img { aspect-ratio: 16 / 10; }
+.editorial-image--lithograph .editorial-image-frame {
+  background: #f8f4ec;
+}
+.editorial-image--lithograph img,
+.editorial-image--featured.editorial-image--lithograph img,
+.editorial-image--card.editorial-image--lithograph img,
+.editorial-image--article.editorial-image--lithograph img {
+  aspect-ratio: auto;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
 
 .empty-state { border: 1px dashed var(--line-strong); padding: 50px; background: var(--cream); }
 .empty-state h2 { max-width: 600px; margin: 18px 0 10px; font-size: 2.4rem; }
@@ -596,7 +608,7 @@ nav a { display: inline-flex; min-height: 44px; align-items: center; }
   .section-heading { display: block; }
   .section-caption { margin-top: 8px; }
   .editorial-image--featured { grid-row: 1; }
-  .editorial-image--featured img { min-height: 0; aspect-ratio: 1.55 / 1; }
+  .editorial-image--featured:not(.editorial-image--lithograph) img { min-height: 0; aspect-ratio: 1.55 / 1; }
   .about-band, .subscribe-card { grid-template-columns: 1fr; }
   .archive-section { padding-top: 6px; }
   .archive-heading { margin-bottom: 16px; }

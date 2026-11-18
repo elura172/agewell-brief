@@ -15,6 +15,8 @@ image_alt: "Post-constructivist scientific lithograph of an octagonal dark-slate
 image_caption: "Crystalline aluminosilicate and humic binding lattices sequester mobilized metal ions inside stable geometric cages to prevent tissue redistribution."
 image_photographer: "Agewell Brief Visual Desk"
 image_provider: "Agewell Visual Desk"
+image_width: 1376
+image_height: 768
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"
 topics: ['brain health', 'consumer safety', 'detoxification', 'gut health', 'mobility']
