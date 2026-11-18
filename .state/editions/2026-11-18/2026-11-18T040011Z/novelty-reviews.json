@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "generic observational association",
+      "reason": "Routine finding that keeping a regular daily schedule correlates with better mental and physical outcomes. Lacks a specific molecular or novel physiological mechanism.",
+      "angle": "Why daily circadian consistency dampens pain perception despite poor sleep duration",
+      "mode": "agent"
+    },
+    "7159b1b50445bbcf7ec8a9dc": {
+      "score": 88,
+      "decision": "commission",
+      "novelty_type": "paradigm shift / mechanism",
+      "reason": "Inverts the conventional dogma of ALS/FTD pathology by proving TDP-43 aggregation originates inside the nucleus via endogenous retrovirus RNA (HERV-K) condensate formation rather than starting in the cytoplasm.",
+      "angle": "Reversing ALS Pathology: How Ancient Retroviral RNA Inverts the Model of TDP-43 Brain Aggregation",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "recycled epidemiological guidance",
+      "reason": "Extremely familiar baseline finding regarding optimal sleep duration ranges without novel mechanistic insights.",
+      "angle": "The biological threshold of sleep duration for longevity",
+      "mode": "agent"
+    },
+    "ba982aac347d4fd8259ecb2f": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "unusual anatomical discovery",
+      "reason": "Challenges long-held assumptions by showing cardiac aging is spatially non-uniform, concentrating inflammation and fibrosis in valves and vessels rather than myocardium.",
+      "angle": "Unequal Wear: Why Cardiac Vascular and Valve Hotspots—Not Muscle—Drive Heart Aging",
+      "mode": "agent"
+    },
+    "b3bbba0e16b511eb7aed2b5c": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "empty metadata / generic social epidemiology",
+      "reason": "Missing summary text; standard socio-demographic correlation study on social mobility and depression.",
+      "angle": "Life-course social mobility's impact on late-life depression",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "recycled wellness advice",
+      "reason": "Generic consumer advice headline regarding anti-aging supplements without specific data or novel clinical trials.",
+      "angle": "Navigating supplement efficacy and safety in older adults",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "broad review / synthesis",
+      "reason": "High-level review article synthesizing well-known connections between sleep, redox stress, and brain health without reporting a breakthrough empirical finding.",
+      "angle": "Redox metabolism as the bridge between sleep disruption and brain aging",
+      "mode": "agent"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "translational validation",
+      "reason": "Demonstrates successful translation of a mouse anti-aging metabolic drug candidate (likely NMN or similar NAD+ booster) directly into human muscle glucose metabolism.",
+      "angle": "Translating Longevity: Mouse Anti-Aging Compound Shows Real Metabolic Gains in Human Muscle",
+      "mode": "agent"
+    },
+    "501081b8618cb051ac75b80a": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "unusual therapeutic mechanism",
+      "reason": "Identifies direct transcriptional signature reversal of brain aging and neurodegeneration induced by LSD, offering a novel epigenetic pathway for psychedelics in gerontology.",
+      "angle": "Rewiring Transcriptional Aging: How LSD Opposes Neurodegenerative Gene Signatures",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "7159b1b50445bbcf7ec8a9dc",
+    "ba982aac347d4fd8259ecb2f",
+    "e8c72c931a6031cef21b46e5",
+    "501081b8618cb051ac75b80a"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b3bbba0e16b511eb7aed2b5c",
+    "2beb92ec2e8851b24c8a89de",
+    "0b7d57db98938147adfb915a"
+  ],
+  "mode": "agent"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "ba982aac347d4fd8259ecb2f",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "12c50a361ed4f0b3",
+        "source": "Dr. Fritz-Albert Popp (1975) — Biophotonics and Cellular Coherence",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      },
+      {
+        "source_id": "7cd643e6f594a31c",
+        "source": "Dr. Otto Warburg (1924) — The Metabolism of Tumours & Oxygen Respiration",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

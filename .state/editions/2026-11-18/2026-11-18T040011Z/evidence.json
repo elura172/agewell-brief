@@ -1,0 +1,24 @@
+[
+  {
+    "article_id": "ba982aac347d4fd8259ecb2f",
+    "study_type": "Animal and human data comparison",
+    "key_claims": [
+      "The heart ages unevenly, with inflammation and scarring concentrated in the valves and major blood vessels rather than uniformly across the heart muscle.",
+      "Aging macrophages show increased activity in genes related to inflammation, while fibroblasts display molecular characteristics associated with fibrosis.",
+      "Certain markers associated with aging and cellular senescence were unexpectedly present in young hearts, indicating they do not reliably establish senescence on their own.",
+      "Aging produced different molecular patterns in male and female mouse hearts, with male fibroblasts showing stronger connections to fibrosis and female changes relating to development and protein production.",
+      "Some molecular aging processes observed in mice also appeared in previously published human heart data."
+    ],
+    "limitations": [
+      "The findings describe molecular and cellular differences rather than demonstrated differences in heart function or disease risk.",
+      "Results regarding sex differences reflect molecular activity rather than proven variations in clinical outcomes.",
+      "Much of the cellular mapping data was derived from a mouse model, though compared against human data."
+    ],
+    "what_not_to_say": [
+      "This research proves a new treatment for preventing heart aging in humans.",
+      "The discovered cellular changes directly cause heart disease or cardiac arrest.",
+      "Exercise or diet changes are proven to reverse these specific cellular pathways in people based on this study alone."
+    ],
+    "confidence": "high"
+  }
+]
