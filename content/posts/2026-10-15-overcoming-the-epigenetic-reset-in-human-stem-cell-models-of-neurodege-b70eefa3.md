@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
 topics: ['brain health', 'longevity']
 frameworks: ['Living Waters', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}]
 ---
 
 Phase III trials fail because standard models miss complex human genetics and aging. New induced pluripotent stem cell techniques aim to rebuild patient-specific cell biology.

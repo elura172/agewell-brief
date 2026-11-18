@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#2a3a2a"
 topics: ['brain health', 'sleep health']
 frameworks: ['Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}]
 ---
 
 Intracranial recordings reveal a bidirectional feedback loop where sleep spindles suppress epileptic discharges, while those same pathological bursts trigger compensatory spindle activity to stabilize neural networks.

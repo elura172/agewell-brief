@@ -24,6 +24,7 @@ image_review_status: "pending"
 image_avg_color: "#A8907F"
 topics: ['metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}, {"scientist": "Gerald Pollack", "year": "2013", "discovery": "Interfacial cell water organizes into a liquid-crystalline fourth phase (Exclusion Zone water, H3O2) that excludes solutes and forms an endogenous charge-separated battery powered by ambient infrared light. (The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor)"}]
 ---
 
 A Finnish cohort study reveals that habitual coffee drinkers carry less visceral fat, more skeletal muscle, and distinct sex-hormone profiles—hints at a deeper metabolic tuning that echoes biophysical principles of cellular efficiency.

@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a3a3a"
 topics: ['gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Erwin Schrödinger", "year": "1944", "discovery": "Proposed that living organisms evade thermodynamic decay into equilibrium by continuously extracting 'negative entropy' (free energy order) from their environment and exporting thermal entropy. (What Is Life? The Physical Aspect of the Living Cell)"}]
 ---
 
 Extreme longevity reveals how hearts withstand decades of physical stress without collapsing into terminal disease.

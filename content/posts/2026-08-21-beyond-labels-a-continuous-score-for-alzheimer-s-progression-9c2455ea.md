@@ -18,6 +18,7 @@ image_photographer: "Google DeepMind / Pexels"
 image_photographer_url: "https://www.pexels.com/@googledeepmind"
 image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
+autoresearch_antecedents: [{"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}, {"scientist": "Emilio Del Giudice", "year": "1988", "discovery": "Applied Quantum Electrodynamics to condensed matter to show that liquid water forms 100-nanometer Coherence Domains where molecules oscillate in phase with a self-trapped electromagnetic field, supplying low-activation-energy electrons for biochemical reactions. (Water Coherence Domains in Quantum Electrodynamics (QED))"}]
 ---
 
 New Bayesian framework uses longitudinal DTI to map Alzheimer's as a continuous biological process, not a binary diagnosis.

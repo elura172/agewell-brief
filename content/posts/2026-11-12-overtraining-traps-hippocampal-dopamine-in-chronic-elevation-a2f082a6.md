@@ -24,6 +24,7 @@ image_review_status: "pending"
 image_avg_color: "#595940"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}, {"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}]
 ---
 
 Exhaustive physical training without adequate recovery destabilizes neural feedback loops, leaving baseline dopamine abnormally elevated at rest.

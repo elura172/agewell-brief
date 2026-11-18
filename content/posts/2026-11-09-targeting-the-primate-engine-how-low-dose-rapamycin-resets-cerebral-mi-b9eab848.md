@@ -24,6 +24,7 @@ image_review_status: "pending"
 image_avg_color: "#a6a6a6"
 topics: ['brain health', 'gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]
 ---
 
 A new pilot single-arm trial reveals that four weeks of low-dose rapamycin selectively restores brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, pointing toward an early biophysical defense against cognitive decline.

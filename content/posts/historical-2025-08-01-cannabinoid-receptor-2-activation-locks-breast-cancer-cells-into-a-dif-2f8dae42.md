@@ -19,6 +19,7 @@ image_photographer: "Mikhail Nilov / Pexels"
 image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
 image_provider: "Pexels"
 image_avg_color: "#2a3a2a"
+autoresearch_antecedents: [{"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}, {"scientist": "Harold Saxton Burr", "year": "1935", "discovery": "Measured standing direct-current voltage gradients (L-Fields) across living organisms over decades at Yale, showing that reproducible bioelectric field shifts precede structural pathology, ovulation, and wound healing. (The Fields of Life: Electrodynamic L-Fields)"}]
 ---
 
 Brief, low-dose CB2R agonists trigger an epigenetic switch that curbs plasticity and boosts tamoxifen response in organoid models.

@@ -24,6 +24,7 @@ image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"
 topics: ['cellular senescence', 'longevity']
 frameworks: ['Cell Shedding', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}]
 ---
 
 Single-cell resolution reveals that age-related inflammation and scarring target the organ's structural plumbing rather than its main muscle.

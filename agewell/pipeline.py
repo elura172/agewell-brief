@@ -37,7 +37,7 @@ from agewell.agents import (
     off_mission_reason,
     release_manager,
 )
-from agewell.context import ContextHit, build_context_index, retrieve_context
+from agewell.context import ContextHit, build_context_index, match_biophysics_pioneers, retrieve_context
 from agewell.edition import EditionRecorder, audit_release
 from agewell.editorial import (
     AlignmentReview,
@@ -931,9 +931,12 @@ def draft(
         "sections": sections,
         "paragraphs": signal_paragraphs,
     }
-    # deep_context was already computed above for longform pieces; persist the
-    # structured antecedents for the Pioneer Lineage card without a second call.
+    # deep_context was already computed above for longform pieces; for signal
+    # briefs (or if deep_context returned no antecedents), populate from the
+    # 20-pioneer biophysics lineage codex without an extra LLM round-trip.
     raw_antecedents = deep_context.get("historical_antecedents", [])
+    if not raw_antecedents:
+        raw_antecedents = match_biophysics_pioneers(item.title, source_material, category, limit=2)
     if isinstance(raw_antecedents, list):
         antecedents = [
             {

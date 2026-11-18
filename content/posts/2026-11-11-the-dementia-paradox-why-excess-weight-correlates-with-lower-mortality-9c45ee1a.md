@@ -24,6 +24,7 @@ image_review_status: "pending"
 image_avg_color: "#735940"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]
 ---
 
 A sweeping 24-year longitudinal cohort analysis reveals an unexpected survival advantage in overweight and obese individuals diagnosed with dementia.

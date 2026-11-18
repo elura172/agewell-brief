@@ -24,6 +24,7 @@ image_height: 768
 image_photographer: "Agewell Brief Visual Desk"
 image_review_status: "human-reviewed"
 image_avg_color: "#f4efe4"
+autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]
 ---
 
 Long before memory fades, the hypothalamus undergoes physical shrinkage and transcriptional decay, disrupting the body's central pacemakers.

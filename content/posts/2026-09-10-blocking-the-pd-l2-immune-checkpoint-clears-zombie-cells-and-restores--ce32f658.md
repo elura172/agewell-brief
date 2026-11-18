@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Alexander Gurwitsch", "year": "1923", "discovery": "First demonstrated in onion-root experiments through quartz versus glass barriers that dividing cells emit ultra-weak ultraviolet photons (mitogenetic radiation) that stimulate neighboring cell division and organize tissue geometry. (Mitogenetic Radiation & Morphogenetic Fields)"}]
 ---
 
 By disabling the molecular shield that aging cells use to hide from immune surveillance, researchers restored metabolic function and physical strength in aged mice.

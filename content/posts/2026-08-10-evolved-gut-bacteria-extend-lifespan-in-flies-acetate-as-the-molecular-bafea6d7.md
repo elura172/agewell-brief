@@ -24,6 +24,7 @@ image_review_status: "pending"
 image_avg_color: "#ACADAF"
 topics: ['gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Luc Montagnier", "year": "2011", "discovery": "Reported that specific bacterial and viral DNA sequences induce coherent aqueous nanostructures capable of emitting low-frequency electromagnetic signals when excited by ambient background fields. (Low-Frequency Electromagnetic Signals in Aqueous DNA Nanostructures)"}, {"scientist": "Roeland van Wijk", "year": "2014", "discovery": "Synthesized decades of experimental human biophotonics, demonstrating that spontaneous ultra-weak photon emission from skin accurately tracks intracellular oxidative stress, mitochondrial redox state, and diurnal metabolic rhythm. (Light in Shaping Life: Biophotonics in Human Bio-Assessment)"}]
 ---
 
 A preprint shows that directed evolution of Lactiplantibacillus plantarum to resist oxidative stress boosts acetate production, which alone extends Drosophila lifespan and reduces gut aging.

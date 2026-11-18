@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a3a3a"
 topics: ['gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Otto Warburg", "year": "1924", "discovery": "Discovered the iron-porphyrin respiratory enzyme (cytochrome oxidase) and demonstrated that cellular differentiation and longevity depend on intact mitochondrial oxygen respiration rather than glycolytic fermentation. (The Metabolism of Tumours & Cytochrome Oxygen Respiration)"}]
 ---
 
 AI screening identifies an oral microbe that extends nematode lifespan and restores youthful metabolic profiles in aged mice.

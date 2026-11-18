@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#2a3a2a"
 topics: ['metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Gerald Pollack", "year": "2013", "discovery": "Interfacial cell water organizes into a liquid-crystalline fourth phase (Exclusion Zone water, H3O2) that excludes solutes and forms an endogenous charge-separated battery powered by ambient infrared light. (The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor)"}]
 ---
 
 Researchers trace a genetic driver of muscular dystrophy to broken mitochondrial dynamics, showing that chemical activators can restore cellular energy production.

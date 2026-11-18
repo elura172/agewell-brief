@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Harold Saxton Burr", "year": "1935", "discovery": "Measured standing direct-current voltage gradients (L-Fields) across living organisms over decades at Yale, showing that reproducible bioelectric field shifts precede structural pathology, ovulation, and wound healing. (The Fields of Life: Electrodynamic L-Fields)"}, {"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}]
 ---
 
 A new autopsy-backed diagnostic benchmark demonstrates that an artificial intelligence model matches or exceeds specialist human accuracy in resolving complex brain pathology.

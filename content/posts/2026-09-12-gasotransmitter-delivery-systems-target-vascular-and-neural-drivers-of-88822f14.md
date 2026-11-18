@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#2a3a2a"
 topics: ['brain health', 'longevity', "men's health"]
 frameworks: ['Living Waters', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}, {"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}]
 ---
 
 Engineered nanocarriers and prodrugs deliver nitric oxide, carbon monoxide, and hydrogen sulfide directly to tissues, relaxing smooth muscle and repairing damaged nerves in early models.

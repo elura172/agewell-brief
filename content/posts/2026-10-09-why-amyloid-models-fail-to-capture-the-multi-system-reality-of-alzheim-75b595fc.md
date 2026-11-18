@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
 topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Harold Saxton Burr", "year": "1935", "discovery": "Measured standing direct-current voltage gradients (L-Fields) across living organisms over decades at Yale, showing that reproducible bioelectric field shifts precede structural pathology, ovulation, and wound healing. (The Fields of Life: Electrodynamic L-Fields)"}, {"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}]
 ---
 
 Decades of targeting single protein aggregates have yielded limited therapies because late-onset cognitive decline emerges from overlapping webs of vascular, metabolic, and inflammatory breakdown.

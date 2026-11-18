@@ -275,8 +275,13 @@ const structuredData = [
     {entry.data.autoresearch_antecedents && entry.data.autoresearch_antecedents.length > 0 && (
       <aside class="article-lineage-card" aria-label="Historical Biophysics Antecedents">
         <div class="lineage-card-header">
-          <span class="lineage-eyebrow">Pioneer Lineage · Historical Precursors</span>
-          <h3>Scientific Precursors & Foundational Discoveries</h3>
+          <div class="lineage-card-topline">
+            <span class="lineage-eyebrow">Pioneer Lineage · Historical Precursors</span>
+            <a class="lineage-founders-link" href="/frontier-map/#lineage-heading">
+              Explore the 20 Biophysics Founders →
+            </a>
+          </div>
+          <h3>Scientific Precursors &amp; Foundational Discoveries</h3>
         </div>
         <div class="lineage-timeline">
           {entry.data.autoresearch_antecedents.map((item) => (
@@ -557,6 +562,28 @@ const structuredData = [
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--saffron-ink);
+  }
+  .lineage-card-topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px 16px;
+    margin-bottom: 6px;
+  }
+  .lineage-card-topline .lineage-eyebrow {
+    margin-bottom: 0;
+  }
+  .lineage-founders-link {
+    font-family: var(--sans);
+    font-size: 0.76rem;
+    font-weight: 700;
+    color: var(--ink-soft);
+    text-decoration-color: var(--line);
+  }
+  .lineage-founders-link:hover {
+    color: var(--saffron-ink);
+    text-decoration-color: var(--saffron);
   }
   .article-lineage-card h3 {
     margin: 0 0 20px;

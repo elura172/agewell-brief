@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
 topics: ['brain health', 'longevity']
 frameworks: ['Living Waters', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Michael Levin", "year": "2012", "discovery": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing. (The Bioelectric Morphogenetic Code & Anatomical Homeostasis)"}]
 ---
 
 An analysis of 13,866 adults reveals that low social satisfaction and heavy smoking degrade sustained attention by up to nearly six age-equivalent years.

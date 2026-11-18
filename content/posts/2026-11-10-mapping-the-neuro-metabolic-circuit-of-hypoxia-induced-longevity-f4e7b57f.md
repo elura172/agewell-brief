@@ -24,6 +24,7 @@ image_review_status: "pending"
 image_avg_color: "#a6c0d9"
 topics: ['brain health', 'cellular senescence', 'gut health', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}, {"scientist": "Michael Levin", "year": "2012", "discovery": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing. (The Bioelectric Morphogenetic Code & Anatomical Homeostasis)"}]
 ---
 
 Recent invertebrate research reveals how localized neuronal oxygen sensing coordinates a multi-tier endocrine relay to extend organismal lifespan.

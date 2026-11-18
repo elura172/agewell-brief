@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame']
+autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Roeland van Wijk", "year": "2014", "discovery": "Synthesized decades of experimental human biophotonics, demonstrating that spontaneous ultra-weak photon emission from skin accurately tracks intracellular oxidative stress, mitochondrial redox state, and diurnal metabolic rhythm. (Light in Shaping Life: Biophotonics in Human Bio-Assessment)"}]
 ---
 
 By delivering mitochondrial proteins and restoring arginine metabolism, engineered extracellular vesicles reverse macrophage senescence and speed healing in aged and diabetic mouse models.

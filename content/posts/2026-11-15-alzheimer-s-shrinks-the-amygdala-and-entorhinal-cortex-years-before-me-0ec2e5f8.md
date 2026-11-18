@@ -26,6 +26,7 @@ image_review_status: "pending"
 image_avg_color: "#738c8c"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Harold Saxton Burr", "year": "1935", "discovery": "Measured standing direct-current voltage gradients (L-Fields) across living organisms over decades at Yale, showing that reproducible bioelectric field shifts precede structural pathology, ovulation, and wound healing. (The Fields of Life: Electrodynamic L-Fields)"}, {"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}]
 ---
 
 Volume loss in two gateway structures tracks the early spatial spread of misfolded tau tangles long before hippocampal damage occurs.

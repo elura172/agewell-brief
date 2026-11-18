@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame']
+autoresearch_antecedents: [{"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}, {"scientist": "Alexander Gurwitsch", "year": "1923", "discovery": "First demonstrated in onion-root experiments through quartz versus glass barriers that dividing cells emit ultra-weak ultraviolet photons (mitogenetic radiation) that stimulate neighboring cell division and organize tissue geometry. (Mitogenetic Radiation & Morphogenetic Fields)"}]
 ---
 
 Cellular senescence drives the fibrotic remodeling and calcification of heart valves, pointing toward senolytic clearance as a unifying therapeutic strategy.

@@ -122,3 +122,29 @@ def test_deterministic_gate_holds_pure_pharma_epidemiology_and_anti_supplement_d
     )
     assert held_review["status"] == "held"
     assert any("off-mission hold" in r for r in held_review["reasons"])
+
+
+def test_match_biophysics_pioneers_matches_20_founder_codex():
+    from pathlib import Path
+    from agewell.context import match_biophysics_pioneers
+
+    lineage_path = Path(__file__).resolve().parent.parent / "config/biophysics-lineage.json"
+    pioneers = json.loads(lineage_path.read_text(encoding="utf-8"))["pioneers"]
+    assert len(pioneers) == 20
+    names = {p["name"] for p in pioneers}
+    assert "Dr. Mae-Wan Ho" in names
+    assert "Dr. Michael Levin" in names
+    assert "Dr. Maiken Nedergaard" in names
+    assert "Dr. Douglas C. Wallace" in names
+    assert "Dr. Martin Picard" in names
+
+    matched = match_biophysics_pioneers(
+        "Glymphatic Sleep Clearance and Astrocyte Aquaporin-4 Channels in Brain Aging",
+        "Slow-wave sleep drives cerebrospinal fluid interstitial clearance of beta-amyloid and tau.",
+        category="Brain & Mind",
+        spiral="second-spiral",
+        limit=2,
+    )
+    assert len(matched) == 2
+    assert any("Nedergaard" in m["scientist"] for m in matched)
+

@@ -581,20 +581,25 @@ def autoresearch_context_subagent(
     # 22/22 unique citations across the sample (was 20/22, with repeats) while
     # still independently converging on the same names where they were genuinely
     # the correct answer (Hayflick on cellular senescence, Selye on stress/sleep).
+    from agewell.context import match_biophysics_pioneers
+
+    matched_founders = match_biophysics_pioneers(title, summary, category, limit=2)
     system_prompt = (
         "You are Agewell Brief's AutoResearch & Deep Context Subagent. "
         "Your task is to enrich longform science briefs with accurate scientific history and precise mechanistic bridges. "
-        "Search broadly across the history of biophysics, cell biology, physiology, neuroscience, and clinical medicine for the specific "
-        "researcher whose work most directly anticipates or illuminates THIS finding. Do not default to famous generalist names "
-        "when a more specific pioneer fits the mechanism better. "
+        "Pair 1 topic-matched biophysics founder from 'candidate_biophysics_founders' (when their physical, bioelectric, "
+        "biophotonic, mitochondrial, or structured-water mechanism genuinely illuminates THIS finding) with 1 domain-specific "
+        "experimental or clinical pioneer whose work directly anticipates the study. "
         "Write in lucid, concrete science journalism (Quanta Magazine register) without dense textbook nominalizations or em dashes."
     )
     payload = {
         "title": title,
         "summary": summary[:2000],
         "category": category,
+        "candidate_biophysics_founders": matched_founders,
         "instructions": [
             "Identify 1-2 primary historical biophysical, physiological, or clinical antecedents (specific scientists, years, and discoveries).",
+            "When one of 'candidate_biophysics_founders' genuinely connects to the physical or cellular mechanism at stake, include that founder as one of the two entries alongside a domain-specific experimental pioneer.",
             "Explain precisely how the modern study connects to, extends, or revises that earlier work.",
             "Return JSON with 'historical_antecedents' and 'mechanistic_bridge' only.",
             "Each historical_antecedents entry's 'year' must be a JSON string, e.g. \"1970s\" or \"1975\", "
@@ -611,7 +616,10 @@ def autoresearch_context_subagent(
         return _json_response(client, model, system_prompt, payload, max_tokens=1600)
     except Exception as e:
         return {
-            "historical_antecedents": [],
+            "historical_antecedents": [
+                {"scientist": f["scientist"], "year": f["year"], "discovery": f["discovery"]}
+                for f in matched_founders
+            ],
             "mechanistic_bridge": "Direct primary research.",
             "error": str(e),
         }

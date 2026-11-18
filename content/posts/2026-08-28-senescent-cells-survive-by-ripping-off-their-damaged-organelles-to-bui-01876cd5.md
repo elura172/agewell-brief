@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame']
+autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]
 ---
 
 By tearing off adhesion fragments laden with broken mitochondria and amyloid proteins, arrested cells clear lethal metabolic trash while seeding local tissue inflammation.

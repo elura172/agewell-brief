@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'longevity', 'mobility']
 frameworks: ['Cell Shedding', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}]
 ---
 
 Senescent cells accumulate in inflamed arteries, driving tissue damage through secretory profiles that current anti-inflammatory drugs leave unaddressed.

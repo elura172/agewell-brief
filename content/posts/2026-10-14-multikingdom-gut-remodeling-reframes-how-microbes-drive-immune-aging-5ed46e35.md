@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a3a2a"
 topics: ['gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Luc Montagnier", "year": "2011", "discovery": "Reported that specific bacterial and viral DNA sequences induce coherent aqueous nanostructures capable of emitting low-frequency electromagnetic signals when excited by ambient background fields. (Low-Frequency Electromagnetic Signals in Aqueous DNA Nanostructures)"}]
 ---
 
 Immune aging and gut microbial shifts engage in a reciprocal dialogue across bacteria, fungi, and viruses, moving science past simplistic notions of dysbiosis.

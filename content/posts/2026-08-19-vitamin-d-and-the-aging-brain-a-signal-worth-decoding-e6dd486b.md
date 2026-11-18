@@ -25,6 +25,7 @@ image_review_status: "pending"
 image_avg_color: "#928272"
 topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}, {"scientist": "Gilbert Ling", "year": "1962", "discovery": "Proposed that intracellular water is structured into polarized multi-layers along extended protein backbones when ATP is bound, governing selective potassium accumulation and mineral phase transitions without relying solely on membrane pump expenditure. (A Physical Theory of the Living State: Association-Induction Hypothesis)"}]
 ---
 
 New Emory research links higher vitamin D intake to better cognition in those at dementia risk. Here's what the physics of cellular signaling suggests—and what it doesn't prove.

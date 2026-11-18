@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
-import { publishedBriefs, topicSlug } from "../lib/publishing";
+import { publishedBriefs, spiralTeachingUrl, spiralWalkUrl, topicSlug } from "../lib/publishing";
 import { frontierStatusLabels, frontierTerritories } from "../data/frontier-map";
 
 import lineageData from "../../config/biophysics-lineage.json";
@@ -90,9 +90,21 @@ const pioneers = lineageData.pioneers || [];
 
       <ol class="pioneer-ledger">
         {pioneers.map((p) => (
-          <li class="pioneer-entry">
+          <li id={`pioneer-${p.id}`} class="pioneer-entry">
             <div class="pioneer-meta">
-              <span class="pioneer-year">{p.year}</span>
+              <div class="pioneer-meta-topline">
+                <span class="pioneer-year">{p.year}</span>
+                {p.spiral && (
+                  <a
+                    class="pioneer-spiral-badge"
+                    href={spiralTeachingUrl(p.spiral, `frontier-pioneer-${p.id}`)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Spiral · {p.spiral} ↗
+                  </a>
+                )}
+              </div>
               <h3>{p.name}</h3>
               <p class="pioneer-work"><em>{p.core_work}</em></p>
             </div>
@@ -100,6 +112,25 @@ const pioneers = lineageData.pioneers || [];
               <p class="pioneer-summary">{p.summary}</p>
               <p class="pioneer-application"><strong>Practical legacy:</strong> {p.application}</p>
               <p class="pioneer-concepts">{p.concepts.join(" · ")}</p>
+              {p.spiral && (
+                <div class="pioneer-links">
+                  <a
+                    href={spiralTeachingUrl(p.spiral, `frontier-pioneer-teaching-${p.id}`)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read {p.spiral} monograph ↗
+                  </a>
+                  <span aria-hidden="true">·</span>
+                  <a
+                    href={spiralWalkUrl(p.spiral, `frontier-pioneer-walk-${p.id}`, "monthly")}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    28-Day {p.spiral} Protocol ($33/mo) →
+                  </a>
+                </div>
+              )}
             </div>
           </li>
         ))}
@@ -248,16 +279,58 @@ const pioneers = lineageData.pioneers || [];
   .pioneer-entry {
     padding: 28px 0 30px;
     border-bottom: 1px solid var(--line);
+    scroll-margin-top: 32px;
+  }
+  .pioneer-meta-topline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 4px;
   }
   .pioneer-year {
-    display: block;
+    display: inline-block;
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.1em;
     color: var(--saffron-ink);
     text-transform: uppercase;
     font-variant-numeric: tabular-nums lining-nums;
-    margin-bottom: 4px;
+  }
+  .pioneer-spiral-badge {
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    text-decoration: none;
+    padding: 2px 8px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+  }
+  .pioneer-spiral-badge:hover {
+    color: var(--saffron-ink);
+    border-color: var(--saffron);
+  }
+  .pioneer-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+  .pioneer-links a {
+    color: var(--ink-soft);
+    text-decoration-color: var(--line);
+  }
+  .pioneer-links a:hover {
+    color: var(--saffron-ink);
+    text-decoration-color: var(--saffron);
   }
   .pioneer-meta h3 {
     margin: 0 0 4px;

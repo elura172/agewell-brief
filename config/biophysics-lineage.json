@@ -4,6 +4,8 @@
       "id": "mae-wan-ho",
       "name": "Dr. Mae-Wan Ho",
       "year": 1993,
+      "spiral": "Living Waters",
+      "categories": ["longevity", "general wellness", "detoxification", "mobility"],
       "core_work": "The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
       "concepts": [
         "quantum coherent electrodynamics",
@@ -12,13 +14,15 @@
         "zero-dissipation energy transfer",
         "subatomic charge conduction"
       ],
-      "summary": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting charge across structured interfacial water networks with zero thermal dissipation.",
-      "application": "Explains how bio-energetic health depends on maintaining liquid crystalline coherence in cellular water and tissue matrices."
+      "summary": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation.",
+      "application": "Explains how bio-energetic health depends on maintaining liquid-crystalline coherence in cellular water, fascia, and tissue matrices."
     },
     {
       "id": "fritz-albert-popp",
       "name": "Dr. Fritz-Albert Popp",
       "year": 1975,
+      "spiral": "Luminous Mind",
+      "categories": ["brain health", "longevity", "cellular senescence"],
       "core_work": "Biophotonics and Cellular Coherence",
       "concepts": [
         "ultra-weak biophoton emission",
@@ -26,203 +30,293 @@
         "cellular light coherence",
         "delayed luminescence"
       ],
-      "summary": "DNA acts as a coherent biophotonic resonator, emitting ultra-weak light rays that coordinate cellular metabolism and signaling across 37 trillion cells.",
-      "application": "Frames cellular communication as light-based resonance rather than random chemical diffusion."
+      "summary": "DNA and chromatin act as coherent biophotonic resonators, emitting phase-locked ultra-weak photon fields that coordinate cellular metabolism and systemic signaling across tissues.",
+      "application": "Frames cellular communication as coherent optical and electromagnetic resonance alongside biochemical diffusion."
     },
     {
       "id": "gerald-pollack",
       "name": "Dr. Gerald Pollack",
       "year": 2013,
+      "spiral": "Living Waters",
+      "categories": ["detoxification", "general wellness", "longevity", "mobility"],
       "core_work": "The Fourth Phase of Water: Beyond Solid, Liquid, and Vapor",
       "concepts": [
         "exclusion zone water",
         "EZ water charge separation",
         "infrared radiant energy charging",
-        "cellular battery"
+        "microvascular proton propulsion"
       ],
-      "summary": "Interfacial cell water organizes into a fourth phase (EZ water, H3O2) that excludes solutes and forms an endogenous charge-separated battery powered by infrared light.",
-      "application": "Demonstrates that cellular hydration requires radiant energy to build structured charge barriers."
+      "summary": "Interfacial cell water organizes into a liquid-crystalline fourth phase (Exclusion Zone water, H3O2) that excludes solutes and forms an endogenous charge-separated battery powered by ambient infrared light.",
+      "application": "Demonstrates that microvascular flow and cellular hydration rely on radiant infrared energy and hydrophilic membrane charge barriers."
     },
     {
       "id": "otto-warburg",
       "name": "Dr. Otto Warburg",
       "year": 1924,
-      "core_work": "The Metabolism of Tumours & Oxygen Respiration",
+      "spiral": "Higher Flame",
+      "categories": ["metabolic health", "longevity", "cellular senescence"],
+      "core_work": "The Metabolism of Tumours & Cytochrome Oxygen Respiration",
       "concepts": [
         "mitochondrial electron transport",
         "aerobic respiration vs fermentation",
-        "cellular voltage",
-        "ATP yield physics"
+        "cytochrome oxidase catalysis",
+        "cellular respiratory voltage"
       ],
-      "summary": "Cellular health and longevity require maintaining high mitochondrial respiration voltage and avoiding anaerobic metabolic fermentation.",
-      "application": "Establishes mitochondrial voltage and metabolic flexibility as the foundation of cellular longevity."
-    },
-    {
-      "id": "hans-selye",
-      "name": "Dr. Hans Selye",
-      "year": 1956,
-      "core_work": "The Stress of Life & General Adaptation Syndrome",
-      "concepts": [
-        "adaptation energy",
-        "general adaptation syndrome",
-        "allostatic load",
-        "neuro-endocrine reserve"
-      ],
-      "summary": "Organisms possess a finite reserve of biological adaptation energy; chronic stress drains neuro-endocrine voltage and accelerates cellular exhaustion.",
-      "application": "Guides stress adaptation strategies to protect systemic reserves."
-    },
-    {
-      "id": "alexander-gurwitsch",
-      "name": "Dr. Alexander Gurwitsch",
-      "year": 1923,
-      "core_work": "Mitogenetic Radiation & Morphogenetic Fields",
-      "concepts": [
-        "mitogenetic radiation",
-        "ultraviolet biophotons",
-        "morphogenetic field signaling"
-      ],
-      "summary": "Discovered that dividing cells emit ultra-weak ultraviolet radiation (mitogenetic rays) that trigger cell division and direct spatial tissue architecture.",
-      "application": "Historical foundation for light-based tissue regulation."
-    },
-    {
-      "id": "robert-o-becker",
-      "name": "Dr. Robert O. Becker",
-      "year": 1985,
-      "core_work": "The Body Electric: Electromagnetism and the Foundation of Life",
-      "concepts": [
-        "perineural direct current field",
-        "bioelectric injury potential",
-        "endogenous tissue regeneration",
-        "electro-magnetbiology"
-      ],
-      "summary": "Perineural Schwann cell networks generate continuous direct-current bioelectric fields that signal tissue injury and control anatomical regeneration.",
-      "application": "Connects bioelectric potentials to tissue repair and mobility."
+      "summary": "Discovered the iron-porphyrin respiratory enzyme (cytochrome oxidase) and demonstrated that cellular differentiation and longevity depend on intact mitochondrial oxygen respiration rather than glycolytic fermentation.",
+      "application": "Establishes mitochondrial respiratory chain integrity and substrate flexibility as foundational to cellular longevity."
     },
     {
       "id": "albert-szent-gyorgyi",
       "name": "Dr. Albert Szent-Györgyi",
       "year": 1968,
+      "spiral": "Higher Flame",
+      "categories": ["nutrition", "metabolic health", "detoxification", "longevity"],
       "core_work": "Bioelectronics & Submolecular Biology",
       "concepts": [
-        "protein semiconductor",
+        "protein semiconductor conduction",
         "charge transfer complexes",
-        "electronic desaturation",
-        "living state physics"
+        "ascorbate redox buffering",
+        "electronic desaturation"
       ],
-      "summary": "Proteins act as submolecular semiconductors; life is maintained when electronic charge transfer complexes extract high-energy electrons from food and light.",
-      "application": "Underpins electron transport and antioxidant defense."
+      "summary": "After isolating vitamin C and mapping components of the citric acid cycle, demonstrated that structural proteins act as solid-state semiconductors when hydrated, sustaining life through continuous electron charge transfer.",
+      "application": "Underpins aqueous redox buffering, polyphenol electron donation, and submolecular electron transport."
     },
     {
       "id": "gilbert-ling",
       "name": "Dr. Gilbert Ling",
       "year": 1962,
+      "spiral": "Dark Mirror",
+      "categories": ["detoxification", "nutrition", "metabolic health", "general wellness"],
       "core_work": "A Physical Theory of the Living State: Association-Induction Hypothesis",
       "concepts": [
         "association-induction hypothesis",
-        "multi-layer polarized water",
-        "ATP state-fixer",
-        "potassium accumulation physics"
+        "polarized-oriented multilayer water",
+        "ATP cardinal adsorbates",
+        "selective potassium-sodium affinity"
       ],
-      "summary": "Cellular water is structured into polarized multi-layers by ATP binding to protein backbones, creating selective ion accumulation without active membrane pumps.",
-      "application": "Refines cellular hydration and electrolyte balance."
+      "summary": "Proposed that intracellular water is structured into polarized multi-layers along extended protein backbones when ATP is bound, governing selective potassium accumulation and mineral phase transitions without relying solely on membrane pump expenditure.",
+      "application": "Illuminates intracellular potassium-to-sodium ratios, trace-mineral binding sites, and ATP-dependent hydration."
     },
     {
-      "id": "luc-montagnier",
-      "name": "Dr. Luc Montagnier",
-      "year": 2011,
-      "core_work": "Electromagnetic Signals Produced by High Dilutions of DNA",
+      "id": "robert-o-becker",
+      "name": "Dr. Robert O. Becker",
+      "year": 1985,
+      "spiral": "Cell Shedding",
+      "categories": ["mobility", "cellular senescence", "brain health", "longevity"],
+      "core_work": "The Body Electric: Electromagnetism and the Foundation of Life",
       "concepts": [
-        "dna electromagnetic emission",
-        "aqueous memory structures",
-        "coherent low-frequency waves",
-        "water nanostructures"
+        "perineural direct-current field",
+        "bioelectric injury potential",
+        "cellular dedifferentiation and repair",
+        "bone piezoelectric remodeling"
       ],
-      "summary": "High dilutions of viral and bacterial DNA sequences produce low-frequency electromagnetic waves, imprinting structural coherence into surrounding aqueous solutions.",
-      "application": "Highlights electromagnetic signaling as a fundamental mechanism of DNA interaction."
+      "summary": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration.",
+      "application": "Connects mechanical loading and endogenous bioelectric potentials directly to musculoskeletal and neural repair."
+    },
+    {
+      "id": "michael-levin",
+      "name": "Dr. Michael Levin",
+      "year": 2012,
+      "spiral": "Cell Shedding",
+      "categories": ["cellular senescence", "longevity", "brain health", "mobility"],
+      "core_work": "The Bioelectric Morphogenetic Code & Anatomical Homeostasis",
+      "concepts": [
+        "resting membrane voltage Vmem",
+        "gap-junction bioelectric networks",
+        "morphogenetic pattern memory",
+        "bioelectric senescence reversal"
+      ],
+      "summary": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing.",
+      "application": "Bridges classical bioelectricity with modern regenerative biology, showing how membrane voltage governs tissue maintenance."
+    },
+    {
+      "id": "maiken-nedergaard",
+      "name": "Dr. Maiken Nedergaard",
+      "year": 2012,
+      "spiral": "Luminous Mind",
+      "categories": ["brain health", "sleep health", "detoxification"],
+      "core_work": "The Glymphatic System & Astrocyte-Mediated Sleep Clearance",
+      "concepts": [
+        "glymphatic convective flow",
+        "astrocyte Aquaporin-4 channels",
+        "slow-wave N3 interstitial expansion",
+        "nocturnal amyloid and tau clearance"
+      ],
+      "summary": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels.",
+      "application": "Anchors circadian sleep architecture and nocturnal cerebrospinal fluid dynamics as essential for lifelong cognitive clarity."
+    },
+    {
+      "id": "douglas-wallace",
+      "name": "Dr. Douglas C. Wallace",
+      "year": 2005,
+      "spiral": "Higher Flame",
+      "categories": ["metabolic health", "longevity", "brain health", "mobility"],
+      "core_work": "A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases",
+      "concepts": [
+        "mitochondrial DNA heteroplasmy",
+        "bioenergetic threshold decline",
+        "redox signaling vs oxidative damage",
+        "high-energy tissue vulnerability"
+      ],
+      "summary": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity.",
+      "application": "Explains why disparate age-related conditions share a common upstream root in mitochondrial bioenergetic voltage."
+    },
+    {
+      "id": "martin-picard",
+      "name": "Dr. Martin Picard",
+      "year": 2018,
+      "spiral": "Higher Flame",
+      "categories": ["metabolic health", "brain health", "sleep health", "longevity"],
+      "core_work": "Mitochondrial Psychobiology & Cellular Energy Resistance",
+      "concepts": [
+        "mitochondrial allostatic load",
+        "cell-free mtDNA signaling",
+        "inter-organelle contact sites",
+        "psychobiological energy transduction"
+      ],
+      "summary": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body.",
+      "application": "Links subjective lived experience, vagal tone, and circadian pacing directly to measurable mitochondrial recalibration."
+    },
+    {
+      "id": "hans-selye",
+      "name": "Dr. Hans Selye",
+      "year": 1956,
+      "spiral": "Luminous Mind",
+      "categories": ["sleep health", "brain health", "general wellness", "metabolic health"],
+      "core_work": "The Stress of Life & General Adaptation Syndrome",
+      "concepts": [
+        "adaptation energy reserve",
+        "general adaptation syndrome",
+        "HPA-axis neuroendocrine pacing",
+        "hormetic stress vs exhaustion"
+      ],
+      "summary": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues.",
+      "application": "Guides hormetic pacing and parasympathetic recovery windows across any regenerative protocol."
+    },
+    {
+      "id": "alexander-gurwitsch",
+      "name": "Dr. Alexander Gurwitsch",
+      "year": 1923,
+      "spiral": "Cell Shedding",
+      "categories": ["cellular senescence", "longevity", "brain health"],
+      "core_work": "Mitogenetic Radiation & Morphogenetic Fields",
+      "concepts": [
+        "mitogenetic ultraviolet photons",
+        "morphogenetic field coordinates",
+        "optical mitosis signaling"
+      ],
+      "summary": "First demonstrated in onion-root experiments through quartz versus glass barriers that dividing cells emit ultra-weak ultraviolet photons (mitogenetic radiation) that stimulate neighboring cell division and organize tissue geometry.",
+      "application": "Historical foundation for non-chemical, optical intercellular coordination and morphogenetic field theory."
     },
     {
       "id": "harold-saxton-burr",
       "name": "Dr. Harold Saxton Burr",
       "year": 1935,
-      "core_work": "The Fields of Life: Our Links with the Universe (L-Fields)",
+      "spiral": "Living Waters",
+      "categories": ["longevity", "brain health", "general wellness"],
+      "core_work": "The Fields of Life: Electrodynamic L-Fields",
       "concepts": [
-        "life fields L-fields",
-        "electrodynamic organizing matrix",
-        "pre-symptomatic bioelectric shift",
-        "field-guided morphogenesis"
+        "electrodynamic L-fields",
+        "millivolt tissue gradients",
+        "pre-symptomatic bioelectric shifts",
+        "biorhythmic voltage cycles"
       ],
-      "summary": "Living organisms are enveloped by electrodynamic 'L-Fields' that serve as architectural blueprints, directing physical cellular growth and signaling physiological shifts before symptoms manifest.",
-      "application": "Pioneered pre-symptomatic bioelectric monitoring and field-guided medicine."
+      "summary": "Measured standing direct-current voltage gradients (L-Fields) across living organisms over decades at Yale, showing that reproducible bioelectric field shifts precede structural pathology, ovulation, and wound healing.",
+      "application": "Pioneered longitudinal bioelectric assessment and the principle that field shifts precede anatomical symptoms."
     },
     {
       "id": "erwin-schrodinger",
       "name": "Dr. Erwin Schrödinger",
       "year": 1944,
-      "core_work": "What is Life? The Physical Aspect of the Living Cell",
+      "spiral": "Higher Flame",
+      "categories": ["longevity", "metabolic health", "cellular senescence"],
+      "core_work": "What Is Life? The Physical Aspect of the Living Cell",
       "concepts": [
-        "negative entropy negentropy",
-        "aperiodic crystal",
-        "thermodynamic disequilibrium",
-        "quantum genetic stability"
+        "negative entropy (negentropy)",
+        "aperiodic crystal chromosome",
+        "non-equilibrium open systems",
+        "quantum stability of heredity"
       ],
-      "summary": "Life maintains its internal order and avoids thermodynamic equilibrium by continually drawing 'negative entropy' (negentropy) from radiant environmental light and order.",
-      "application": "Establishes non-equilibrium thermodynamics as the definition of living vitality."
+      "summary": "Proposed that living organisms evade thermodynamic decay into equilibrium by continuously extracting 'negative entropy' (free energy order) from their environment and exporting thermal entropy.",
+      "application": "Defines healthspan physically as the capacity to maintain low-entropy structural and metabolic order."
     },
     {
       "id": "herbert-frohlich",
       "name": "Dr. Herbert Fröhlich",
       "year": 1968,
-      "core_work": "Long-Range Coherence and Energy Storage in Biological Systems",
+      "spiral": "Luminous Mind",
+      "categories": ["brain health", "metabolic health", "longevity"],
+      "core_work": "Long-Range Dipolar Coherence in Biological Membranes",
       "concepts": [
-        "frohlich coherence",
+        "Fröhlich Bose-like condensation",
         "terahertz membrane oscillations",
-        "macroscopic quantum condensation",
-        "dipolar resonance"
+        "metabolic energy channeling",
+        "long-range enzymatic synchronization"
       ],
-      "summary": "Biological membranes under metabolic energy pumping undergo long-range dipolar coherence, oscillating collectively at terahertz frequencies to coordinate enzymatic activity.",
-      "application": "Explains how terahertz and millimeter electromagnetic waves interact with cellular membranes."
+      "summary": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range.",
+      "application": "Explains how metabolic voltage powers synchronized, non-random macromolecular and neural signaling."
     },
     {
       "id": "emilio-del-giudice",
       "name": "Dr. Emilio Del Giudice",
       "year": 1988,
-      "core_work": "Water Coherence Domains and Quantum Electrodynamics (QED)",
+      "spiral": "Living Waters",
+      "categories": ["detoxification", "gut health", "general wellness", "longevity"],
+      "core_work": "Water Coherence Domains in Quantum Electrodynamics (QED)",
       "concepts": [
-        "quantum electrodynamics QED",
-        "water coherence domains",
-        "electromagnetic phase locking",
-        "delocalized electron cloud"
+        "quantum electrodynamic coherence domains",
+        "phase-locked water oscillation",
+        "quasi-free electron reservoir",
+        "selective resonant catalysis"
       ],
-      "summary": "Liquid water consists of sub-micron Coherence Domains (CDs) where water molecules oscillate in phase with a trapped electromagnetic field, creating a reservoir of quasi-free electrons.",
-      "application": "Provides the quantum field theory foundation for liquid crystalline water."
+      "summary": "Applied Quantum Electrodynamics to condensed matter to show that liquid water forms 100-nanometer Coherence Domains where molecules oscillate in phase with a self-trapped electromagnetic field, supplying low-activation-energy electrons for biochemical reactions.",
+      "application": "Provides the quantum electrodynamic basis for structured cellular water and rapid redox catalysis."
     },
     {
       "id": "vlail-kaznacheev",
       "name": "Dr. Vlail Kaznacheev",
       "year": 1976,
-      "core_work": "Cytopathic Mirror Effect & Ultra-Weak Biophotonic Information Transfer",
+      "spiral": "Dark Mirror",
+      "categories": ["detoxification", "consumer safety", "cellular senescence"],
+      "core_work": "The Cytopathic Mirror Effect & Optical Intercellular Transfer",
       "concepts": [
-        "mirror cytopathic effect",
-        "quartz-mediated biophoton communication",
-        "distant intercellular signaling",
-        "optical cell death transmission"
+        "cytopathic mirror effect",
+        "quartz-transmitted UV signaling",
+        "non-chemical stress propagation"
       ],
-      "summary": "Demonstrated that stressed or dying cell cultures transmit cytopathic biological signals to adjacent healthy cultures across quartz glass strictly via ultra-weak UV biophotons.",
-      "application": "Proves non-chemical, photon-mediated intercellular communication."
+      "summary": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass.",
+      "application": "Illustrates how injured or senescent cells broadcast optical and field stress signals to neighboring tissue."
+    },
+    {
+      "id": "luc-montagnier",
+      "name": "Dr. Luc Montagnier",
+      "year": 2011,
+      "spiral": "Inner Garden",
+      "categories": ["gut health", "detoxification", "general wellness"],
+      "core_work": "Low-Frequency Electromagnetic Signals in Aqueous DNA Nanostructures",
+      "concepts": [
+        "aqueous DNA nanostructures",
+        "low-frequency electromagnetic resonance",
+        "microbial wave signatures"
+      ],
+      "summary": "Reported that specific bacterial and viral DNA sequences induce coherent aqueous nanostructures capable of emitting low-frequency electromagnetic signals when excited by ambient background fields.",
+      "application": "Explores the biophysical interface between microbial ecology, structured water, and electromagnetic signaling."
     },
     {
       "id": "roeland-van-wijk",
       "name": "Dr. Roeland van Wijk",
       "year": 2014,
-      "core_work": "Light in Shaping Life: Biophotonics in Bio-Assessment",
+      "spiral": "Higher Flame",
+      "categories": ["longevity", "metabolic health", "detoxification", "consumer safety"],
+      "core_work": "Light in Shaping Life: Biophotonics in Human Bio-Assessment",
       "concepts": [
-        "ultra-weak photon emission UPE",
-        "biophoton spectral distribution",
-        "biological order measurement",
-        "systemic oxidative stress optical readout"
+        "ultra-weak photon emission (UPE) diagnostics",
+        "reactive oxygen species optical readout",
+        "Delayed Luminescence spectroscopy",
+        "non-invasive redox coherence"
       ],
-      "summary": "Ultra-weak photon emission count and spectral distribution serve as a direct, non-invasive optical readout of systemic oxidative stress and metabolic coherence in human skin and blood.",
-      "application": "Enables quantitative biophotonic assessment of human healthspan."
+      "summary": "Synthesized decades of experimental human biophotonics, demonstrating that spontaneous ultra-weak photon emission from skin accurately tracks intracellular oxidative stress, mitochondrial redox state, and diurnal metabolic rhythm.",
+      "application": "Bridges Fritz-Albert Popp's coherence physics with modern quantitative oxidative-stress diagnostics."
     }
   ]
 }

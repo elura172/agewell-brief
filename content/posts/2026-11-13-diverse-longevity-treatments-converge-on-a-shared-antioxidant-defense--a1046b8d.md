@@ -25,6 +25,7 @@ image_review_status: "pending"
 image_avg_color: "#c0c0c0"
 topics: ['longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Emilio Del Giudice", "year": "1988", "discovery": "Applied Quantum Electrodynamics to condensed matter to show that liquid water forms 100-nanometer Coherence Domains where molecules oscillate in phase with a self-trapped electromagnetic field, supplying low-activation-energy electrons for biochemical reactions. (Water Coherence Domains in Quantum Electrodynamics (QED))"}]
 ---
 
 Five separate interventions that extend lifespan in mice all upregulate the exact same protective antioxidant, revealing a unified biochemical target beneath diverse anti-aging strategies.

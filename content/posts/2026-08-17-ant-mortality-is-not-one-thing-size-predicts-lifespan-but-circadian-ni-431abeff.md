@@ -24,6 +24,7 @@ image_review_status: "pending"
 image_avg_color: "#6F6450"
 topics: ['cellular senescence', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}, {"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}]
 ---
 
 A new study of 18 Australian ant species shows that body size predicts how long workers live, but not how they age or how they die from heat. The findings challenge size-based vulnerability indices and point to circadian biology and evolutionary lineage as key climate-relevant axes.

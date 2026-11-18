@@ -198,3 +198,61 @@ def retrieve_context(
 
 def context_audit(hits: list[ContextHit]) -> list[dict[str, Any]]:
     return [hit.audit_dict() for hit in hits]
+
+
+def match_biophysics_pioneers(
+    title: str,
+    summary: str,
+    category: str = "",
+    spiral: str = "",
+    limit: int = 2,
+) -> list[dict[str, str]]:
+    """Return the top topic-matched pioneers from config/biophysics-lineage.json."""
+    lineage_file = Path(__file__).resolve().parent.parent / "config/biophysics-lineage.json"
+    if not lineage_file.exists():
+        return []
+    try:
+        payload = json.loads(lineage_file.read_text(encoding="utf-8"))
+        pioneers = payload.get("pioneers", [])
+    except Exception:
+        return []
+
+    query_tokens = _tokens(f"{title} {summary} {category} {spiral}")
+    cat_lower = category.strip().lower()
+    spiral_lower = spiral.strip().lower()
+
+    scored: list[tuple[int, int, dict[str, Any]]] = []
+    for p in pioneers:
+        p_text = " ".join([
+            str(p.get("name", "")),
+            str(p.get("core_work", "")),
+            str(p.get("summary", "")),
+            str(p.get("application", "")),
+            " ".join(str(c) for c in p.get("concepts", [])),
+        ])
+        p_tokens = _tokens(p_text)
+        overlap = len(query_tokens & p_tokens)
+        score = overlap * 4
+        p_cats = [str(c).lower() for c in p.get("categories", [])]
+        if cat_lower and cat_lower in p_cats:
+            score += 5
+        if spiral_lower and spiral_lower == str(p.get("spiral", "")).lower():
+            score += 5
+        tie_hash = int(
+            hashlib.sha256(f"{title}:{p.get('id', '')}".encode("utf-8")).hexdigest()[:8],
+            16,
+        ) % 7
+        scored.append((score + tie_hash, overlap, p))
+
+    scored.sort(key=lambda item: (item[0], item[1]), reverse=True)
+    results: list[dict[str, str]] = []
+    for _, _, p in scored[:limit]:
+        clean_name = re.sub(r"^Dr\.\s+", "", str(p.get("name", ""))).strip()
+        results.append({
+            "id": str(p.get("id", "")),
+            "scientist": clean_name,
+            "year": str(p.get("year", "")),
+            "discovery": f"{p.get('summary', '')} ({p.get('core_work', '')})".strip(),
+            "spiral": str(p.get("spiral", "")),
+        })
+    return results

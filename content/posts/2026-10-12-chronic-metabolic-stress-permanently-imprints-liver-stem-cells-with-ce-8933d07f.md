@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#3a2a1a"
 topics: ['brain health', 'cellular senescence', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Roeland van Wijk", "year": "2014", "discovery": "Synthesized decades of experimental human biophotonics, demonstrating that spontaneous ultra-weak photon emission from skin accurately tracks intracellular oxidative stress, mitochondrial redox state, and diurnal metabolic rhythm. (Light in Shaping Life: Biophotonics in Human Bio-Assessment)"}, {"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}]
 ---
 
 A high-fat diet drives lasting mitochondrial failure and growth arrest in liver regenerative cells, compromising tissue repair even after removal from the metabolic stressor.

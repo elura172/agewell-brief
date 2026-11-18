@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}, {"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}]
 ---
 
 Physical compression of the shinbone activates osteocytes via Piezo1 channels, releasing a systemic molecular cascade that protects neurons and accelerates recovery after brain injury.

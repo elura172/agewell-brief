@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a2a3a"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
+autoresearch_antecedents: [{"scientist": "Erwin Schrödinger", "year": "1944", "discovery": "Proposed that living organisms evade thermodynamic decay into equilibrium by continuously extracting 'negative entropy' (free energy order) from their environment and exporting thermal entropy. (What Is Life? The Physical Aspect of the Living Cell)"}, {"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}]
 ---
 
 Mirror-image stereochemistry alters cellular energy pathways as D-serine competes for mitochondrial entry, choking the one-carbon metabolism required by rapidly dividing neural progenitor and glioblastoma stem cells.

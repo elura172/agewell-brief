@@ -20,6 +20,7 @@ image_provider: "Pexels"
 image_avg_color: "#1a3a3a"
 topics: ['longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters']
+autoresearch_antecedents: [{"scientist": "Erwin Schrödinger", "year": "1944", "discovery": "Proposed that living organisms evade thermodynamic decay into equilibrium by continuously extracting 'negative entropy' (free energy order) from their environment and exporting thermal entropy. (What Is Life? The Physical Aspect of the Living Cell)"}, {"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}]
 ---
 
 A new framework links chronic kidney disease to accelerated vascular aging, uniting structural remodeling with conventional frailty models to explain systemic vulnerability.
