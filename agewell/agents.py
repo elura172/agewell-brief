@@ -5,7 +5,10 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import os
+import random
 import re
+import time
 from typing import Any
 
 
@@ -30,8 +33,62 @@ GEMINI_FALLBACK_MODELS = (
 )
 
 
+# Transient provider trouble that is worth another attempt. A bare "500" is not
+# matched on text (it also appears inside unrelated 400s); status codes and
+# well-known phrases are used instead.
+_RETRY_STATUS = {408, 409, 425, 500, 502, 503, 504, 529}
+_RETRY_ERROR_NAMES = {"InternalServerError", "APIConnectionError", "APITimeoutError", "ServiceUnavailableError"}
+_RETRY_PHRASES = (
+    "unavailable", "overloaded", "high traffic", "high demand", "try again later",
+    "internal error", "internal server error", "timed out", "timeout", "temporarily",
+    "connection error", "bad gateway", "gateway timeout",
+)
+_QUOTA_PHRASES = ("429", "rate_limit", "rate limit", "resource_exhausted", "quota")
+
+SAME_MODEL_ATTEMPTS = int(os.getenv("LLM_SAME_MODEL_ATTEMPTS", "3"))
+RETRY_BACKOFF_SECONDS = (2.0, 6.0, 15.0)
+DEEPSEEK_FALLBACK_MODEL = os.getenv("DEEPSEEK_FALLBACK_MODEL", "deepseek-v4-flash")
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+
+
+def _is_quota_error(exc: Exception) -> bool:
+    if getattr(exc, "status_code", None) == 429:
+        return True
+    msg = str(exc).lower()
+    return any(marker in msg for marker in _QUOTA_PHRASES)
+
+
+def _is_transient_error(exc: Exception) -> bool:
+    if getattr(exc, "status_code", None) in _RETRY_STATUS:
+        return True
+    if type(exc).__name__ in _RETRY_ERROR_NAMES:
+        return True
+    msg = str(exc).lower()
+    return any(marker in msg for marker in _RETRY_PHRASES)
+
+
+def _deepseek_client() -> Any | None:
+    """Independent provider used only when every Gemini model is unavailable."""
+    key = os.getenv("DEEPSEEK_API_KEY", "").strip()
+    if not key:
+        return None
+    try:
+        from openai import OpenAI
+
+        return OpenAI(api_key=key, base_url=DEEPSEEK_BASE_URL)
+    except Exception:
+        return None
+
+
 def chat_completion_with_fallback(client: Any, model: str, **kwargs: Any) -> Any:
-    """Invoke chat.completions.create with automatic fallback across Gemini flash-lite models on 429 quota errors."""
+    """Invoke chat.completions.create resiliently.
+
+    Order of recovery:
+      * 429 / quota        -> move straight to the next Gemini model.
+      * 5xx / overloaded   -> retry the same model with backoff, then next model.
+      * all Gemini models  -> one pass on DeepSeek (if DEEPSEEK_API_KEY is set).
+    Anything else (bad request, auth) is raised immediately so real bugs stay loud.
+    """
     models_to_try = [model]
     if "gemini" in model.lower():
         for candidate in GEMINI_FALLBACK_MODELS:
@@ -39,19 +96,39 @@ def chat_completion_with_fallback(client: Any, model: str, **kwargs: Any) -> Any
                 models_to_try.append(candidate)
 
     last_exc: Exception | None = None
-    for current_model in models_to_try:
+
+    def _call(active_client: Any, current_model: str) -> Any:
         call_kwargs = dict(kwargs)
         call_kwargs.pop("reasoning_effort", None)
         call_kwargs.pop("extra_body", None)
         call_kwargs.update(llm_thinking_kwargs(current_model))
-        try:
-            return client.chat.completions.create(model=current_model, **call_kwargs)
-        except Exception as exc:
-            last_exc = exc
-            msg = str(exc).lower()
-            if "429" in msg or "rate_limit" in msg or "resource_exhausted" in msg or "quota" in msg:
-                continue
-            raise
+        return active_client.chat.completions.create(model=current_model, **call_kwargs)
+
+    for current_model in models_to_try:
+        for attempt in range(max(1, SAME_MODEL_ATTEMPTS)):
+            try:
+                return _call(client, current_model)
+            except Exception as exc:
+                last_exc = exc
+                if _is_quota_error(exc):
+                    break  # next model
+                if not _is_transient_error(exc):
+                    raise
+                if attempt + 1 < max(1, SAME_MODEL_ATTEMPTS):
+                    delay = RETRY_BACKOFF_SECONDS[min(attempt, len(RETRY_BACKOFF_SECONDS) - 1)]
+                    time.sleep(delay + random.uniform(0, 1.0))
+                    continue
+                break  # exhausted retries on this model -> next model
+
+    if "gemini" in model.lower():
+        fallback_client = _deepseek_client()
+        if fallback_client is not None:
+            try:
+                print(f"LLM fallback: Gemini unavailable ({type(last_exc).__name__}); using {DEEPSEEK_FALLBACK_MODEL}", flush=True)
+                return _call(fallback_client, DEEPSEEK_FALLBACK_MODEL)
+            except Exception as exc:
+                last_exc = exc
+
     assert last_exc is not None
     raise last_exc
 
