@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "02eefe30c7c707ef6904ef81": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "redundant discovery",
+      "reason": "We recently covered this exact MIT finding regarding fluid waves and glymphatic clearance during sleep on November 15 (2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa).",
+      "angle": "N/A - Overlaps directly with recent coverage.",
+      "mode": "agent"
+    },
+    "7d1e398f45571b06423ff1ac": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "paradigm shift / anatomical insight",
+      "reason": "Provides a fresh mechanistic shift for Alzheimer's research by implicating early structural and transcriptomic changes in the hypothalamus (the brain's circadian/metabolic regulator) prior to cognitive symptoms.",
+      "angle": "How early metabolic and sleep disruptions in Alzheimer's stem directly from hypothalamic deterioration rather than just cortical plaque accumulation.",
+      "mode": "agent"
+    },
+    "66f3727573e1cef18679a879": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "behavioral association",
+      "reason": "The finding that routine schedules improve pain and depression symptoms is practical, but routine lifestyle advice lacks high scientific novelty or a specific molecular mechanism.",
+      "angle": "Can maintaining a strict daily schedule reduce physical pain and depressive symptoms in older adults regardless of sleep quality?",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "recycled epidemiology",
+      "reason": "Routine observational study identifying an optimal sleep duration window (6.4 to 7.8 hours). Well-known demographic pattern without novel biological mechanisms.",
+      "angle": "Why moderate sleep duration correlates with lower biological age.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "broad review",
+      "reason": "A general narrative review exploring the broad intersection between sleep, redox metabolism, and aging without presenting new empirical data.",
+      "angle": "Overview of sleep and cellular redox metabolism in longevity.",
+      "mode": "agent"
+    },
+    "acbb39f93a6315f01e2c9359": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "theoretical / computational model",
+      "reason": "Presents MemGP, a unified framework attempting to resolve long-standing computational and circuit-level debates regarding continuous versus discrete working memory allocation.",
+      "angle": "How probabilistic Gaussian processes unite competing theories of working memory capacity and neural firing.",
+      "mode": "agent"
+    },
+    "a11502ad6b11c43db892f38a": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "methodological tool",
+      "reason": "A technical neuroimaging integration tool (ProgMF). Valuable for neuroscientists dealing with missing data, but too specialized for a general healthspan audience.",
+      "angle": "ProgMF: Solving incomplete dataset issues in multimodal Alzheimer's neuroimaging.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "generic advice",
+      "reason": "Broad commercial health article summarizing generic warnings regarding anti-aging supplements without specific novel clinical trial data.",
+      "angle": "General consumer guide to anti-aging supplements.",
+      "mode": "agent"
+    },
+    "3a920d308bee43fc16371c61": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "multi-omic mechanistic mapping",
+      "reason": "Provides a comprehensive multi-omic map (epigenomic, transcriptomic, lipidomic) detailing how visceral fat undergoes metabolic identity shifts during aging.",
+      "angle": "Multi-omic profiling exposes how aging fundamentally rewires visceral fat cell identity and lipid metabolism.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "7d1e398f45571b06423ff1ac",
+    "acbb39f93a6315f01e2c9359",
+    "3a920d308bee43fc16371c61"
+  ],
+  "held_back": [
+    "02eefe30c7c707ef6904ef81",
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "a11502ad6b11c43db892f38a",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}
