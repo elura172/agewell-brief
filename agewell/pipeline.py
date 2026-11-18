@@ -690,6 +690,7 @@ def draft(
             "Write a 1-2 sentence dek (at most 38 words) that states what was found and why it matters in plain, physical terms.",
             "Do not diagnose, prescribe, promise results, or invent institutions or studies.",
             "Do not imply that a supplement treats or cures a disease.",
+            "When a study evaluates a surrogate biomarker (such as blood DNA methylation clocks), explicitly state what that biomarker does not measure (such as organ-level inflammation, joint cartilage protection, hepatic glutathione synthesis, or gut barrier repair), and never extrapolate a null surrogate-marker finding into a blanket dismissal of botanicals or nutritional supplements as a class.",
             "bullets must contain exactly three sharp, concrete takeaways, each 12-22 words.",
             "caveat must be one specific sentence naming the exact study-design, cohort, or model boundary without institutional medical-disclaimer boilerplate.",
             *PUBLICATION_STYLE_REQUIREMENTS,

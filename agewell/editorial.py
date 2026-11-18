@@ -417,7 +417,8 @@ def build_evidence_packet(
         model,
         (
             "You are Agewell Brief's evidence analyst. Extract only what the supplied source supports. "
-            "Do not add medical guidance, causal language, institutions, numbers, or study details that are absent."
+            "Do not add medical guidance, causal language, institutions, numbers, or study details that are absent. "
+            "When a study relies on a surrogate biomarker (such as blood DNA methylation clocks), note in limitations and what_not_to_say that surrogate clock scores do not measure tissue-specific botanical, anti-inflammatory, joint, enzymatic, or mucosal benefits."
         ),
         payload,
         1400,
