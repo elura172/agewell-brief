@@ -1,4 +1,4 @@
-name: Generate Sunday Biophysics Digest (Loops Draft)
+name: Generate Sunday Biophysics Digest (Sovereign Email Outbox)
 
 on:
   workflow_dispatch:
@@ -17,13 +17,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Build Sunday Biophysics Digest draft in Loops
+      - name: Queue and dispatch Sunday Biophysics Digest via Sovereign Outbox
         run: |
-          if [ -z "${LOOPS_API_KEY}" ]; then
-            echo "LOOPS_API_KEY secret not configured in GitHub yet; running dry-run preview."
+          if [ -z "${SUPABASE_SERVICE_ROLE_KEY}" ]; then
+            echo "SUPABASE_SERVICE_ROLE_KEY not configured in GitHub yet; running dry-run preview."
             python3 scripts/generate_weekly_loops_digest.py --dry-run
           else
             python3 scripts/generate_weekly_loops_digest.py
           fi
         env:
-          LOOPS_API_KEY: ${{ secrets.LOOPS_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

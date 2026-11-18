@@ -33,7 +33,8 @@ TRENDING_FILE = ROOT / "src" / "data" / "trending.json"
 
 THEME_ID = "cmpjigeny09910170zfn286ox"
 LOGO_COMPONENT_ID = "cmpjigdob099001707iah2ohu"
-LOOPS_API_BASE = "https://app.loops.so/api/v1"
+SITE_BASE_URL = "https://agewellbrief.com"
+SPIRAL_BASE_URL = "https://spiraloflight.life"
 
 SPIRAL_META: dict[str, dict[str, str]] = {
     "waters": {
@@ -233,159 +234,193 @@ def build_digest_lmx(briefs: list[dict[str, str]], date_label: str) -> tuple[str
     return "\n".join(lmx_lines), subject, preview, top_slug
 
 
-def http_loops(api_key: str, method: str, path: str, payload: dict | None = None) -> dict:
-    data = json.dumps(payload).encode("utf-8") if payload is not None else None
-    req = urllib.request.Request(
-        f"{LOOPS_API_BASE}{path}",
-        data=data,
-        method=method,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-            "User-Agent": "AgewellBrief-WeeklyDigest/1.0",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+def build_digest_html_and_text(briefs: list[dict], date_label: str, top_slug: str, subject: str, preview: str) -> tuple[str, str]:
+    spiral = SPIRAL_META.get(top_slug, SPIRAL_META["waters"])
+    teaching_url = f"{SPIRAL_BASE_URL}/teaching/{top_slug}?lens=biophysics&spiral={top_slug}&utm_source=agewell_digest&utm_medium=email&utm_campaign=sunday_digest"
+    walk_monthly_url = f"{SPIRAL_BASE_URL}/walk?lens=biophysics&spiral={top_slug}&plan=monthly&utm_source=agewell_digest&utm_medium=email&utm_campaign=sunday_digest"
+    walk_annual_url = f"{SPIRAL_BASE_URL}/walk?lens=biophysics&spiral={top_slug}&plan=annual&utm_source=agewell_digest&utm_medium=email&utm_campaign=sunday_digest"
+    pdf_url = spiral["pdf"] if spiral["pdf"].startswith("http") else f"{SITE_BASE_URL}/downloads/field-guides/{spiral['pdf']}"
 
+    cards_html = []
+    cards_text = []
+    for idx, b in enumerate(briefs, start=1):
+        b_spiral = SPIRAL_META.get(b["spiral_slug"], SPIRAL_META["waters"])
+        article_url = f"{SITE_BASE_URL}/brief/{b['slug']}/?utm_source=agewell_digest&utm_medium=email&utm_campaign=sunday_digest"
+        cards_html.append(
+            f"""<div style="margin:0 0 22px 0;padding:18px 20px;border:1px solid #e2e8f0;background:#ffffff;">
+              <p style="margin:0 0 6px 0;font-family:sans-serif;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#64748b;">
+                Dispatch 0{idx} · {xml_escape(b['category'].upper())} · {xml_escape(b['source_name'])} · Spiral: {xml_escape(b_spiral['name'])}
+              </p>
+              <h2 style="margin:0 0 8px 0;font-family:Georgia,serif;font-size:19px;line-height:1.35;">
+                <a href="{xml_escape(article_url)}" style="color:#0f172a;text-decoration:none;">{xml_escape(b['title'])}</a>
+              </h2>
+              <p style="margin:0 0 10px 0;font-family:Georgia,serif;font-size:15px;line-height:1.6;color:#334155;">
+                {xml_escape(b['description'])}
+              </p>
+              <p style="margin:0;font-family:sans-serif;font-size:13px;font-weight:600;">
+                <a href="{xml_escape(article_url)}" style="color:#0f766e;text-decoration:none;">Read full dispatch ({xml_escape(b['source_name'])}) →</a>
+              </p>
+            </div>"""
+        )
+        cards_text.append(
+            f"0{idx}. {b['title']} ({b['category']} · {b['source_name']})\n{b['description']}\nRead: {article_url}"
+        )
 
-def create_via_http_api(api_key: str, campaign_name: str, subject: str, preview: str, lmx: str) -> dict:
-    existing = http_loops(api_key, "GET", "/campaigns?perPage=20")
-    for item in existing.get("data", []):
-        if item.get("name") == campaign_name and item.get("status") == "Draft":
-            em_id = item["emailMessageId"]
-            em_current = http_loops(api_key, "GET", f"/email-messages/{em_id}")
-            rev = em_current["contentRevisionId"]
-            upd = http_loops(api_key, "POST", f"/email-messages/{em_id}", {
-                "expectedRevisionId": rev,
-                "subject": subject,
-                "previewText": preview,
-                "fromName": "Agewell Brief · Spiral of Cellular Light",
-                "fromEmail": "fire",
-                "replyTo": "fire@spiraloflight.life",
-                "emailFormat": "styled",
-                "lmx": lmx,
-                "contactPropertyFallbacks": {"firstName": "reader"},
-            })
-            return {"mode": "updated_existing_draft", "campaignId": item["id"], "emailMessageId": em_id, "warnings": upd.get("warnings", [])}
+    html = f"""<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8" /><title>{xml_escape(subject)}</title></head>
+<body style="margin:0;padding:28px 14px;background:#f8fafc;color:#0f172a;font-family:Georgia,serif;">
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">{xml_escape(preview)}</div>
+  <main style="max-width:600px;margin:0 auto;background:#ffffff;border:1px solid #e2e8f0;padding:32px 28px;">
+    <p style="margin:0 0 8px 0;font-family:sans-serif;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#64748b;">
+      Agewell Brief · Sunday Biophysics Synthesis · {xml_escape(date_label)}
+    </p>
+    <h1 style="margin:0 0 12px 0;font-size:24px;line-height:1.28;">This Week’s Three Strongest Signals in Cellular Longevity</h1>
+    <p style="margin:0 0 24px 0;font-size:15.5px;line-height:1.65;color:#334155;">
+      Every Sunday, we distill the week’s peer-reviewed dispatches on cellular biophysics, metabolic resilience, and neuro-glymphatic repair—and connect them to the 28-day applied protocols inside the Spiral of Cellular Light.
+    </p>
+    {''.join(cards_html)}
+    <div style="margin:28px 0 20px 0;padding:22px;background:#f8fafc;border:1px solid #cbd5e1;">
+      <p style="margin:0 0 6px 0;font-family:sans-serif;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#0f766e;">
+        28-Day Protocol Spotlight · {xml_escape(spiral['name'])}
+      </p>
+      <p style="margin:0 0 14px 0;font-size:15px;line-height:1.6;color:#1e293b;">
+        This week’s research converges on <strong>{xml_escape(spiral['name'])}</strong>: {xml_escape(spiral['focus'])}. Download the free 4-page printable Field Guide PDF or step directly into the 28-Day Protocol Workspace.
+      </p>
+      <p style="margin:0 0 12px 0;">
+        <a href="{xml_escape(walk_monthly_url)}" style="display:inline-block;padding:11px 18px;background:#0f172a;color:#ffffff;text-decoration:none;font-family:sans-serif;font-size:12.5px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;border-radius:3px;">Start 28-Day {xml_escape(spiral['name'])} Workspace ($33/mo) →</a>
+      </p>
+      <p style="margin:0;font-family:sans-serif;font-size:12.5px;color:#475569;">
+        <a href="{xml_escape(walk_annual_url)}" style="color:#0f766e;">Annual Four-Season Passage ($222/yr · Save 44%)</a> ·
+        <a href="{xml_escape(pdf_url)}" style="color:#0f766e;">Free 4-Page Field Guide PDF</a> ·
+        <a href="{xml_escape(teaching_url)}" style="color:#0f766e;">Open Biophysics Monograph</a>
+      </p>
+    </div>
+    <p style="margin:20px 0 0 0;font-family:sans-serif;font-size:11.5px;color:#64748b;">
+      Clear signals and steady rhythm · <a href="https://agewellbrief.com" style="color:#64748b;">agewellbrief.com</a> · <a href="https://spiraloflight.life/api/unsubscribe" style="color:#64748b;">Unsubscribe</a>
+    </p>
+  </main>
+</body>
+</html>"""
 
-    created = http_loops(api_key, "POST", "/campaigns", {
-        "name": campaign_name,
-        "audienceFilter": {
-            "match": "all",
-            "conditions": [
-                {
-                    "type": "property",
-                    "key": "accessStatus",
-                    "operator": "notEquals",
-                    "value": "active",
-                }
-            ],
-        },
-    })
-    camp_id = created["id"]
-    em_id = created["emailMessageId"]
-    rev = created["emailMessageContentRevisionId"]
-    upd = http_loops(api_key, "POST", f"/email-messages/{em_id}", {
-        "expectedRevisionId": rev,
-        "subject": subject,
-        "previewText": preview,
-        "fromName": "Agewell Brief · Spiral of Cellular Light",
-        "fromEmail": "fire",
-        "replyTo": "fire@spiraloflight.life",
-        "emailFormat": "styled",
-        "lmx": lmx,
-        "contactPropertyFallbacks": {"firstName": "reader"},
-    })
-    return {"mode": "created_draft", "campaignId": camp_id, "emailMessageId": em_id, "warnings": upd.get("warnings", [])}
-
-
-def create_via_loops_cli(loops_bin: str, team: str, campaign_name: str, subject: str, preview: str, lmx: str, tmp_dir: Path) -> dict:
-    def run_cli(args: list[str]) -> dict | list:
-        res = subprocess.run([loops_bin, *args, "--team", team, "--output", "json"], capture_output=True, text=True)
-        if res.returncode != 0:
-            raise RuntimeError(res.stderr.strip() or res.stdout.strip())
-        out = res.stdout.strip()
-        first = min([i for i in (out.find("{"), out.find("[")) if i != -1], default=0)
-        last = max(out.rfind("}"), out.rfind("]"))
-        return json.loads(out[first : last + 1])
-
-    filter_file = tmp_dir / "sunday-digest-filter.json"
-    lmx_file = tmp_dir / "sunday-digest.lmx"
-    filter_file.write_text(json.dumps({
-        "match": "all",
-        "conditions": [
-            {
-                "type": "property",
-                "key": "accessStatus",
-                "operator": "notEquals",
-                "value": "active",
-            }
-        ],
-    }), encoding="utf-8")
-    lmx_file.write_text(lmx, encoding="utf-8")
-
-    campaigns = run_cli(["campaigns", "list"])
-    items = campaigns if isinstance(campaigns, list) else campaigns.get("data", [])
-    camp_id = None
-    em_id = None
-    for item in items:
-        if item.get("name") == campaign_name and item.get("status") == "Draft":
-            camp_id = item["id"]
-            em_id = item["emailMessageId"]
-            break
-
-    mode = "updated_existing_draft"
-    if not camp_id:
-        mode = "created_draft"
-        created = run_cli([
-            "campaigns", "create",
-            "--name", campaign_name,
-            "--audience-filter-file", str(filter_file),
-        ])
-        assert isinstance(created, dict)
-        camp_id = created["id"]
-        em_id = created["emailMessageId"]
-
-    upd = run_cli([
-        "email-messages", "update", str(em_id),
-        "--force",
-        "--subject", subject,
-        "--preview-text", preview,
-        "--from-name", "Agewell Brief · Spiral of Cellular Light",
-        "--from-email", "fire",
-        "--reply-to", "fire@spiraloflight.life",
-        "--email-format", "styled",
-        "--contact-fallback", "firstName=reader",
-        "--lmx-file", str(lmx_file),
+    text = "\n\n".join([
+        f"AGEWELL BRIEF · SUNDAY BIOPHYSICS SYNTHESIS ({date_label})",
+        subject,
+        *cards_text,
+        f"28-DAY PROTOCOL SPOTLIGHT: {spiral['name']}\nStart 28-Day Workspace ($33/mo): {walk_monthly_url}\nAnnual Passage ($222/yr): {walk_annual_url}\nFree 4-Page Field Guide PDF: {pdf_url}",
+        "Unsubscribe: https://spiraloflight.life/api/unsubscribe",
     ])
-    guardian = run_cli(["email-messages", "guardian", str(em_id)])
+    return html, text
+
+
+def enqueue_sovereign_digest(
+    supabase_url: str,
+    service_key: str,
+    issue_key: str,
+    subject: str,
+    html_body: str,
+    text_body: str,
+    top_slug: str,
+) -> dict:
+    headers = {
+        "apikey": service_key,
+        "Authorization": f"Bearer {service_key}",
+        "Content-Type": "application/json",
+    }
+
+    def sb_get(path: str) -> list:
+        req = urllib.request.Request(f"{supabase_url}/rest/v1/{path}", headers=headers)
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+
+    leads = sb_get("leads?select=email,name")
+    intakes = sb_get("phase0_intakes?select=email,first_name")
+    prefs = sb_get("email_preferences?select=email,unsubscribed_at")
+    unsubscribed = {r["email"].strip().lower() for r in prefs if r.get("unsubscribed_at")}
+
+    recipients: dict[str, str] = {}
+    for row in leads:
+        em = (row.get("email") or "").strip().lower()
+        if em and "@" in em and em not in unsubscribed:
+            recipients[em] = (row.get("name") or "").strip()
+    for row in intakes:
+        em = (row.get("email") or "").strip().lower()
+        if em and "@" in em and em not in unsubscribed:
+            recipients[em] = (row.get("first_name") or recipients.get(em, "")).strip()
+
+    if not recipients:
+        return {"mode": "sovereign_outbox", "queued": 0, "note": "No active recipients in leads/phase0_intakes yet"}
+
+    now_iso = dt.datetime.now(dt.timezone.utc).isoformat()
+    rows = [
+        {
+            "idempotency_key": f"weekly_digest:{issue_key}:{email}",
+            "recipient_email": email,
+            "recipient_name": name or None,
+            "sequence_name": "weekly_digest",
+            "step_index": 1,
+            "from_name": "Agewell Brief · Spiral of Cellular Light",
+            "from_address": "sanctuary@spiraloflight.life",
+            "reply_to": "elura172@proton.me",
+            "subject": subject,
+            "html_body": html_body,
+            "text_body": text_body,
+            "status": "scheduled",
+            "exit_if_active": False,
+            "scheduled_for": now_iso,
+            "metadata": {"issue_key": issue_key, "spotlight_spiral": top_slug},
+        }
+        for email, name in recipients.items()
+    ]
+
+    ins_req = urllib.request.Request(
+        f"{supabase_url}/rest/v1/email_outbox?on_conflict=idempotency_key",
+        data=json.dumps(rows).encode("utf-8"),
+        method="POST",
+        headers={**headers, "Prefer": "resolution=ignore-duplicates,return=representation"},
+    )
+    with urllib.request.urlopen(ins_req, timeout=30) as resp:
+        inserted = json.loads(resp.read().decode("utf-8"))
+
+    # Trigger /api/email-dispatch on spiraloflight.life to drain immediately
+    dispatched = None
+    try:
+        disp_req = urllib.request.Request(
+            "https://spiraloflight.life/api/email-dispatch",
+            method="POST",
+            headers={"Authorization": f"Bearer {service_key}", "User-Agent": "AgewellBrief-WeeklyDigest/2.0"},
+        )
+        with urllib.request.urlopen(disp_req, timeout=30) as d_resp:
+            dispatched = json.loads(d_resp.read().decode("utf-8"))
+    except Exception as exc:
+        dispatched = {"deferred": True, "detail": str(exc)}
+
     return {
-        "mode": mode,
-        "campaignId": camp_id,
-        "emailMessageId": em_id,
-        "warnings": upd.get("warnings", []) if isinstance(upd, dict) else [],
-        "guardian": guardian,
+        "mode": "sovereign_outbox",
+        "recipientsFound": len(recipients),
+        "newlyQueued": len(inserted),
+        "dispatch": dispatched,
     }
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Create a weekly Sunday Biophysics Digest Draft Campaign in Loops.")
-    parser.add_argument("--dry-run", action="store_true", help="Print compiled LMX and metadata without calling Loops.")
-    parser.add_argument("--team", default="spiral", help="Loops CLI team profile when LOOPS_API_KEY is not set.")
+    parser = argparse.ArgumentParser(description="Queue and dispatch the weekly Sunday Biophysics Digest via Sovereign Supabase + Cloudflare Email Sending.")
+    parser.add_argument("--dry-run", action="store_true", help="Print compiled digest HTML/text and metadata without queueing.")
     parser.add_argument("--window-days", type=int, default=7)
     args = parser.parse_args()
 
     today = dt.datetime.now(dt.timezone.utc).date()
     date_label = today.strftime("%b %d, %Y")
-    campaign_name = f"Sunday Biophysics Digest — {today.isoformat()}"
+    issue_key = today.isoformat()
+    campaign_name = f"Sunday Biophysics Digest — {issue_key}"
 
     briefs = select_weekly_briefs(window_days=args.window_days, limit=3)
     if not briefs:
         print("No published briefs found to include in digest.")
         return 0
 
-    lmx, subject, preview, top_slug = build_digest_lmx(briefs, date_label)
+    _, subject, preview, top_slug = build_digest_lmx(briefs, date_label)
+    html_body, text_body = build_digest_html_and_text(briefs, date_label, top_slug, subject, preview)
 
     if args.dry_run:
         print(json.dumps({
@@ -395,23 +430,25 @@ def main() -> int:
             "spotlightSpiral": top_slug,
             "briefSlugs": [b["slug"] for b in briefs],
         }, indent=2))
-        print("\n--- LMX ---\n")
-        print(lmx)
+        print("\n--- TEXT BODY ---\n")
+        print(text_body)
         return 0
 
-    api_key = os.environ.get("LOOPS_API_KEY", "").strip()
-    loops_bin = shutil.which("loops") or "/Users/mirrr/.local/bin/loops"
-
-    if api_key:
-        result = create_via_http_api(api_key, campaign_name, subject, preview, lmx)
-    elif Path(loops_bin).exists():
-        tmp_dir = ROOT / ".state" / "loops-digest"
-        tmp_dir.mkdir(parents=True, exist_ok=True)
-        result = create_via_loops_cli(loops_bin, args.team, campaign_name, subject, preview, lmx, tmp_dir)
-    else:
-        print("Skipping Loops draft creation: neither LOOPS_API_KEY nor `loops` CLI is configured.")
+    supabase_url = os.environ.get("SUPABASE_URL", "https://aefygdwktxpwfhswadlx.supabase.co").strip()
+    service_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "").strip()
+    if not service_key:
+        print("Skipping live outbox queue: SUPABASE_SERVICE_ROLE_KEY is not set.")
         return 0
 
+    result = enqueue_sovereign_digest(
+        supabase_url=supabase_url,
+        service_key=service_key,
+        issue_key=issue_key,
+        subject=subject,
+        html_body=html_body,
+        text_body=text_body,
+        top_slug=top_slug,
+    )
     print(json.dumps(result, indent=2))
     return 0
 
