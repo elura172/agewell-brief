@@ -34,6 +34,7 @@ from agewell.agents import (
     copy_edit,
     llm_thinking_kwargs,
     novelty_editor,
+    off_mission_reason,
     release_manager,
 )
 from agewell.context import ContextHit, build_context_index, retrieve_context
@@ -364,8 +365,12 @@ def relevance_score(item: FeedItem) -> int:
     score = item.source_priority
     weighted_terms = {
         6: ("aging", "ageing", "over 50", "older adults", "seniors", "longevity", "healthspan"),
-        5: ("memory", "dementia", "alzheimer", "mobility", "balance", "muscle", "sleep"),
-        4: ("blood sugar", "diabetes", "heart", "walking", "exercise", "nutrition", "supplement"),
+        5: (
+            "memory", "dementia", "alzheimer", "mobility", "balance", "muscle", "sleep",
+            "mitochondria", "autophagy", "glymphatic", "circadian", "polyphenol", "curcumin",
+            "quercetin", "fisetin", "berberine", "spermidine", "urolithin", "glutathione", "butyrate",
+        ),
+        4: ("blood sugar", "diabetes", "heart", "walking", "exercise", "nutrition", "supplement", "botanical"),
         3: ("warning", "fraud", "scam", "recall", "breakthrough", "surprising", "linked to"),
     }
     for weight, terms in weighted_terms.items():
@@ -374,6 +379,8 @@ def relevance_score(item: FeedItem) -> int:
         score += 4
     if any(term in text for term in ("grant", "appoints", "director named", "funding opportunity", "webinar")):
         score -= 10
+    if off_mission_reason(item.title, item.summary):
+        score -= 30
     return score
 
 

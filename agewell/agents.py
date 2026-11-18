@@ -265,6 +265,54 @@ def assignment_editor(
         return {"edition_angle": "What matters in health today", "assignments": fallback, "held_back": [], "mode": "fallback", "error": str(exc)}
 
 
+_OFF_MISSION_PRODUCTION_TERMS = (
+    "farmed salmon", "atlantic salmon", "aquaculture", "broiler chicken",
+    "livestock", "crop yield", "poultry production", "dairy cattle", "swineherd",
+)
+
+_BLANKET_ANTI_SUPPLEMENT_TERMS = (
+    "supplements miss the mark",
+    "supplements fail to",
+    "over-the-counter supplements generally failed",
+    "over-the-counter supplements failed",
+    "supplements do not work",
+    "supplements don't work",
+    "supplements had no effect on aging",
+    "otc supplements failed",
+)
+
+_PHARMA_EPIDEMIOLOGY_TERMS = (
+    "ozempic", "wegovy", "semaglutide", "mounjaro", "tirzepatide",
+    "osteoporosis drug", "osteoporosis medication", "bisphosphonate",
+    "flu vaccin", "influenza vaccin", "shingles vaccin",
+    "stopping statins", "statin discontinuation",
+    "prescription drugs and diet", "prescription medications designed for",
+)
+
+_CELLULAR_MECHANISM_TERMS = (
+    "mitochond", "autophag", "mitophag", "ampk", "mtor", "sirtuin", "nad+",
+    "glymphatic", "astrocyte", "microglia", "senolyt", "senescen", "glutathione",
+    "microbiome", "tight junction", "butyrate", "atp synthase", "membrane potential",
+    "hippocamp", "synaptic", "oxidative phosphorylation", "redox",
+)
+
+
+def off_mission_reason(title: str, text: str = "") -> str | None:
+    """Deterministic mission gate catching off-mission aquaculture/livestock,
+    sweeping anti-supplement generalizations, and pure pharma epidemiology
+    that lacks a universal cellular or biophysical mechanism.
+    """
+    combined = f"{title} {text}".lower()
+    if any(term in combined for term in _OFF_MISSION_PRODUCTION_TERMS):
+        return "commercial aquaculture, livestock, or agricultural production study"
+    if any(term in combined for term in _BLANKET_ANTI_SUPPLEMENT_TERMS):
+        return "sweeping generalization dismissing botanical or nutritional supplements as a class"
+    if any(term in combined for term in _PHARMA_EPIDEMIOLOGY_TERMS):
+        if not any(mech in combined for mech in _CELLULAR_MECHANISM_TERMS):
+            return "pure prescription-drug or vaccine epidemiology without a cellular or biophysical mechanism"
+    return None
+
+
 def _deterministic_novelty(title: str, summary: str, source: str = "") -> dict[str, Any]:
     """Conservative fallback for when the novelty editor is unavailable."""
     text = f"{title} {summary}".lower()
@@ -282,33 +330,29 @@ def _deterministic_novelty(title: str, summary: str, source: str = "") -> dict[s
         "associated with", "could help", "tips", "simple ways", "eat less",
         "sleep duration", "drink more water",
     )
-    off_mission_production_terms = (
-        "farmed salmon", "atlantic salmon", "aquaculture", "broiler chicken",
-        "livestock", "crop yield", "poultry production", "dairy cattle", "swineherd",
-    )
     frontier_hits = [term for term in frontier_terms if term in text]
     generic_hits = [term for term in generic_terms if term in text]
-    off_mission_hits = [term for term in off_mission_production_terms if term in text]
+    off_mission = off_mission_reason(title, summary)
     if frontier_hits:
         score += min(30, 10 * len(frontier_hits))
         reasons.append("specific frontier signal or meaningful new mechanism")
     if generic_hits:
         score -= min(32, 10 * len(generic_hits))
         reasons.append("familiar wellness framing with limited editorial surprise")
-    if off_mission_hits:
-        score -= 40
-        reasons.append("commercial aquaculture, livestock, or agricultural production study")
-    if re.search(r"\b(first|new|unexpected|reveals|why|challenge|warning|recall)\b", text):
+    if off_mission:
+        score = min(score, 22)
+        reasons.append(off_mission)
+    if not off_mission and re.search(r"\b(first|new|unexpected|reveals|why|challenge|warning|recall)\b", text):
         score += 8
         reasons.append("headline contains a concrete news hook")
-    if re.search(r"\b\d+(?:\.\d+)?%|\b\d+[-–]\d+\b|\b\d+ participants\b", text):
+    if not off_mission and re.search(r"\b\d+(?:\.\d+)?%|\b\d+[-–]\d+\b|\b\d+ participants\b", text):
         score += 5
         reasons.append("specific result or population detail")
-    if "arxiv.org" in source or "biorxiv" in source or "medrxiv" in source:
+    if not off_mission and ("arxiv.org" in source or "biorxiv" in source or "medrxiv" in source):
         score += 5
         reasons.append("frontier source deserves contextual reporting")
     score = max(0, min(100, score))
-    decision = "commission" if score >= 58 else "hold"
+    decision = "commission" if score >= 58 and not off_mission else "hold"
     return {
         "score": score,
         "decision": decision,
@@ -369,16 +413,21 @@ def novelty_editor(
         )
         scored: dict[str, dict[str, Any]] = {}
         valid_ids = set(fallback)
+        rows_by_id = {row["article_id"]: row for row in rows}
         for value in result.get("scores", []):
             if not isinstance(value, dict) or value.get("article_id") not in valid_ids:
                 continue
             key = str(value["article_id"])
             score = max(0, min(100, int(value.get("score", 0))))
+            row_info = rows_by_id.get(key, {})
+            off_mission = off_mission_reason(row_info.get("title", ""), row_info.get("summary", ""))
+            if off_mission:
+                score = min(score, 22)
             scored[key] = {
                 "score": score,
-                "decision": "commission" if score >= minimum_score else "hold",
+                "decision": "commission" if score >= minimum_score and not off_mission else "hold",
                 "novelty_type": str(value.get("novelty_type") or "contextual_update")[:80],
-                "reason": str(value.get("reason") or "No reason supplied.")[:500],
+                "reason": (off_mission or str(value.get("reason") or "No reason supplied."))[:500],
                 "angle": str(value.get("angle") or "Find the specific change or consequence.")[:400],
                 "mode": "agent",
             }
@@ -492,6 +541,21 @@ def release_manager(source_url: str, content: dict[str, Any], offer_review: dict
         reasons.append("missing valid source URL")
     if offer_review.get("status") == "held" or offer_review.get("flagged"):
         reasons.extend(str(issue) for issue in (offer_review.get("issues") or ["commercial review held"]))
+    headline = str(content.get("headline") or "")
+    dek = str(content.get("dek") or "")
+    body_parts: list[str] = [dek]
+    for p in content.get("paragraphs") or []:
+        body_parts.append(str(p))
+    for sec in content.get("sections") or []:
+        if isinstance(sec, dict):
+            body_parts.append(str(sec.get("heading") or ""))
+            for p in sec.get("paragraphs") or []:
+                body_parts.append(str(p))
+    for b in content.get("bullets") or []:
+        body_parts.append(str(b))
+    off_mission = off_mission_reason(headline, " ".join(body_parts))
+    if off_mission:
+        reasons.append(f"off-mission hold: {off_mission}")
     if reasons:
         return {"status": "held", "reasons": reasons}
     return {"status": "ready_for_human_review", "reasons": []}

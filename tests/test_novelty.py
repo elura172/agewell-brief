@@ -1,7 +1,14 @@
 import json
 from types import SimpleNamespace
 
-from agewell.agents import _deterministic_novelty, article_id, assignment_editor, novelty_editor
+from agewell.agents import (
+    _deterministic_novelty,
+    article_id,
+    assignment_editor,
+    novelty_editor,
+    off_mission_reason,
+    release_manager,
+)
 from agewell.pipeline import FeedItem
 
 
@@ -84,3 +91,34 @@ def test_assignment_editor_supplies_output_schema_and_parses_assignments():
     assert "output_schema" in captured_payloads[0]
     assert result["mode"] == "agent"
     assert result["assignments"][0]["article_id"] == article_id(item.link)
+
+
+def test_deterministic_gate_holds_pure_pharma_epidemiology_and_anti_supplement_drafts():
+    # 1. Pure pharma/vaccine epidemiology with no cellular mechanism -> held
+    pharma = _deterministic_novelty(
+        "Osteoporosis Drugs Linked to Lower Dementia Risk in Major Study",
+        "Observational insurance records show lower rates of dementia diagnoses among patients taking bisphosphonates.",
+    )
+    assert pharma["decision"] == "hold"
+    assert pharma["score"] <= 25
+
+    # 2. Mechanistic cellular pathway study involving a compound -> allowed
+    mech_reason = off_mission_reason(
+        "Semaglutide Restores Mitochondrial Autophagy and AMPK Signaling in Aging Brain Tissue",
+        "Researchers measured mitochondrial membrane potential and lysosomal mitophagy.",
+    )
+    assert mech_reason is None
+
+    # 3. release_manager blocks drafts with blanket anti-supplement generalizations
+    held_review = release_manager(
+        "https://example.test/yale",
+        {
+            "headline": "Yale Study Shows Prescription Drugs Alter Epigenetic Clocks",
+            "dek": "Prescription drugs alter epigenetic blood markers, while popular over-the-counter supplements miss the mark.",
+            "paragraphs": ["Over-the-counter supplements generally failed to shift methylation clocks."],
+            "bullets": ["b1", "b2", "b3"],
+        },
+        {"status": "approved", "flagged": False, "issues": []},
+    )
+    assert held_review["status"] == "held"
+    assert any("off-mission hold" in r for r in held_review["reasons"])

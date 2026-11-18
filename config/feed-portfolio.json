@@ -31,7 +31,7 @@
   {
     "name": "FDA Consumer Health",
     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/consumers/rss.xml",
-    "priority": 3,
+    "priority": 2,
     "headline_mode": "rewrite",
     "publisher": "FDA",
     "authority": "primary",
@@ -39,13 +39,13 @@
       "consumer safety",
       "general wellness"
     ],
-    "max_daily_items": 2,
+    "max_daily_items": 1,
     "requires_secondary_check": false
   },
   {
     "name": "FDA Health Fraud",
     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/health-fraud/rss.xml",
-    "priority": 5,
+    "priority": 2,
     "headline_mode": "rewrite",
     "publisher": "FDA",
     "authority": "primary",
@@ -58,7 +58,7 @@
   {
     "name": "FDA Tainted Supplements",
     "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/tainted-dietary-supplements/rss.xml",
-    "priority": 6,
+    "priority": 2,
     "headline_mode": "rewrite",
     "publisher": "FDA",
     "authority": "primary",
@@ -438,6 +438,66 @@
     "categories": [
       "brain health",
       "sleep health"
+    ],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "Frontiers in Nutrition",
+    "url": "https://www.frontiersin.org/journals/nutrition/rss",
+    "priority": 5,
+    "headline_mode": "rewrite",
+    "publisher": "Frontiers",
+    "authority": "primary",
+    "categories": [
+      "nutrition",
+      "metabolic health",
+      "gut health"
+    ],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "Frontiers in Pharmacology (Ethnopharmacology & Botanicals)",
+    "url": "https://www.frontiersin.org/journals/pharmacology/sections/ethnopharmacology/rss",
+    "priority": 5,
+    "headline_mode": "rewrite",
+    "publisher": "Frontiers",
+    "authority": "primary",
+    "categories": [
+      "nutrition",
+      "detoxification",
+      "longevity"
+    ],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "MDPI Nutrients (Polyphenols & Clinical Nutrition)",
+    "url": "https://www.mdpi.com/rss/journal/nutrients",
+    "priority": 4,
+    "headline_mode": "rewrite",
+    "publisher": "MDPI Nutrients",
+    "authority": "primary",
+    "categories": [
+      "nutrition",
+      "metabolic health",
+      "gut health"
+    ],
+    "max_daily_items": 1,
+    "requires_secondary_check": true
+  },
+  {
+    "name": "MDPI Antioxidants (Redox & Mitochondrial Biophysics)",
+    "url": "https://www.mdpi.com/rss/journal/antioxidants",
+    "priority": 5,
+    "headline_mode": "rewrite",
+    "publisher": "MDPI Antioxidants",
+    "authority": "primary",
+    "categories": [
+      "longevity",
+      "cellular senescence",
+      "detoxification"
     ],
     "max_daily_items": 1,
     "requires_secondary_check": true
