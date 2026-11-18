@@ -10,19 +10,21 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe from the Actions runner
+      - name: Probe honest user agents from the Actions runner
         run: |
           set +e
-          UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
-          URLS="https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/consumers/rss.xml https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/tainted-dietary-supplements/rss.xml"
-          echo "runner egress IP: $(curl -s -m 10 https://api.ipify.org)"
-          for u in $URLS; do
+          for u in \
+            https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/consumers/rss.xml \
+            https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/health-fraud/rss.xml \
+            https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/tainted-dietary-supplements/rss.xml; do
             echo "== $u"
-            printf "pipeline headers (no redirect follow): "; curl -s -m 25 -o /dev/null -w "%{http_code} -> %{redirect_url}\n" -A "$UA" -H "Accept: application/rss+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8" -H "Accept-Language: en-US,en;q=0.9" "$u"
-            printf "pipeline headers (follow redirects)   : "; curl -sL -m 25 -o /dev/null -w "%{http_code} final=%{url_effective}\n" -A "$UA" -H "Accept: application/rss+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8" -H "Accept-Language: en-US,en;q=0.9" "$u"
-            printf "browser + referer     : "; curl -s -m 25 -o /dev/null -w "%{http_code}\n" -A "$UA" -e "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds" "$u"
-            printf "curl default UA       : "; curl -s -m 12 -o /dev/null -w "%{http_code}\n" "$u"
-            printf "http1.1 + full headers: "; curl -s -m 25 --http1.1 -o /dev/null -w "%{http_code}\n" -A "$UA" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H "Accept-Encoding: gzip, deflate" -H "Upgrade-Insecure-Requests: 1" "$u"
+            for ua in \
+              'AgewellBrief/0.3 (+https://agewellbrief.com; editorial research)' \
+              'Mozilla/5.0 (compatible; AgewellBrief/0.3; editorial research)' \
+              'Python-urllib/3.12'; do
+              for try in 1 2; do
+                printf "UA=[%s] try%s: " "$ua" "$try"
+                curl -s -m 45 -o /tmp/f.xml -w "%{http_code} bytes=%{size_download} -> %{redirect_url}\n" -A "$ua" "$u"
+              done
+            done
           done
-          echo "== reference: another .gov host from the same runner"
-          printf "openFDA api: "; curl -s -m 25 -o /dev/null -w "%{http_code}\n" "https://api.fda.gov/food/enforcement.json?limit=1"
