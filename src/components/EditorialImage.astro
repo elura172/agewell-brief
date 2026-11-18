@@ -5,7 +5,7 @@ interface Props {
   photographer?: string;
   photographerUrl?: string;
   sourceUrl?: string;
-  provider?: "Pexels" | "Pixabay" | "Unsplash";
+  provider?: "Pexels" | "Pixabay" | "Unsplash" | "Gemini" | "Agewell Visual Desk";
   width?: number;
   height?: number;
   avgColor?: string;
@@ -40,8 +40,14 @@ const {
     />
   </div>
   <figcaption>
-    Illustrative photo by
-    {photographerUrl ? <a href={photographerUrl} rel="noopener noreferrer">{photographer}</a> : photographer}
-    {sourceUrl ? <> on <a href={sourceUrl} rel="noopener noreferrer">{provider}</a></> : <> via {provider}</>}
+    {provider === "Gemini" || provider === "Agewell Visual Desk" ? (
+      <>Editorial lithograph · {photographer && photographer !== "Photo contributor" ? photographer : "Agewell Brief Visual Desk"}</>
+    ) : (
+      <>
+        Illustrative photo by
+        {photographerUrl ? <a href={photographerUrl} rel="noopener noreferrer">{photographer}</a> : photographer}
+        {sourceUrl ? <> on <a href={sourceUrl} rel="noopener noreferrer">{provider}</a></> : <> via {provider}</>}
+      </>
+    )}
   </figcaption>
 </figure>

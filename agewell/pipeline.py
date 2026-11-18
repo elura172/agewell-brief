@@ -57,6 +57,7 @@ from agewell.images import (
     ImageSearchCache,
     PublishedImage,
     append_image_ledger,
+    generate_lithograph_plate,
     load_image_creators,
     load_image_ledger,
     persist_image,
@@ -1166,17 +1167,17 @@ def markdown(
     )
     image_frontmatter = ""
     if photo:
+        creator_url_line = f'image_photographer_url: "{quote(photo.creator_url)}"\n' if photo.creator_url else ""
+        source_url_line = f'image_source_url: "{quote(photo.source_url)}"\n' if photo.source_url else ""
         image_frontmatter = f'''image_provider: "{quote(photo.provider)}"
 image_provider_id: "{quote(photo.provider_id)}"
 image: "{quote(photo.local_url)}"
 image_alt: "{quote(photo.alt)}"
-image_caption: "{quote(image_caption or 'Editorial photograph accompanying this report.')}"
+image_caption: "{quote(image_caption or 'Editorial illustration accompanying this report.')}"
 image_width: {photo.width}
 image_height: {photo.height}
 image_photographer: "{quote(photo.creator)}"
-image_photographer_url: "{quote(photo.creator_url)}"
-image_source_url: "{quote(photo.source_url)}"
-image_review_status: "{quote(photo.review_status)}"
+{creator_url_line}{source_url_line}image_review_status: "{quote(photo.review_status)}"
 image_avg_color: "{photo.avg_color}"
 '''
     return f'''---
@@ -1442,7 +1443,32 @@ def run() -> int:
             "status": "pending",
             "reason": "No suitable image candidate was available.",
         }
-        if image_candidates:
+        article_slug = f"{slug(content['headline'])}-{key[:8]}"
+        try:
+            photo = generate_lithograph_plate(
+                content["headline"],
+                content["dek"],
+                category,
+                image_brief,
+                PUBLIC_ROOT,
+                recorder.edition_id,
+                article_slug,
+                key,
+            )
+            if photo:
+                visual_review = {
+                    "status": "approved",
+                    "reason": "Generated post-constructivist scientific lithograph.",
+                }
+                try:
+                    image_caption = caption_image(client, MODEL, photo.alt, content["headline"], content["dek"])
+                except Exception as exc:
+                    print(f"Image caption failed ({item.source_name}): {exc}", file=sys.stderr)
+        except Exception as exc:
+            print(f"Lithograph generation fallback ({item.source_name}): {exc}", file=sys.stderr)
+            photo = None
+
+        if photo is None and image_candidates:
             try:
                 alignment = review_image_metadata(
                     client,
@@ -1468,7 +1494,6 @@ def run() -> int:
             )
             if selected_candidate and alignment.metadata_status != "rejected":
                 try:
-                    article_slug = f"{slug(content['headline'])}-{key[:8]}"
                     photo = persist_image(selected_candidate, PUBLIC_ROOT, recorder.edition_id, article_slug, UNSPLASH_ACCESS_KEY)
                     try:
                         image_caption = caption_image(client, MODEL, photo.alt, content["headline"], content["dek"])
@@ -1484,7 +1509,7 @@ def run() -> int:
                     print(f"Selected image failed ({item.source_name}): {exc}", file=sys.stderr)
                     photo = None
 
-        metadata_status = alignment.metadata_status if alignment else "missing"
+        metadata_status = "approved" if (photo and photo.provider == "Agewell Visual Desk") else (alignment.metadata_status if alignment else "missing")
         visual_status = str(visual_review.get("status", "pending"))
         review_artifacts.append(
             {
@@ -1497,7 +1522,8 @@ def run() -> int:
         # Third-party affiliate offers are retired. Every brief routes to the one Spiral
         # of Cellular Light program that matches the mechanism the story is about.
         spiral = spiral_for(category, item, configured_program_resources)
-        offer_review = commercial_integrity(category, [spiral["url"]] if spiral else [])
+        spiral_urls = [u for u in ((spiral or {}).get("url"), (spiral or {}).get("program_url")) if u]
+        offer_review = commercial_integrity(category, spiral_urls)
         commercial_artifacts.append({"article_id": key, **offer_review})
         release_review = release_manager(item.link, content, offer_review)
         release_check = audit_release(

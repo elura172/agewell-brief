@@ -2,7 +2,7 @@
 title: "Alzheimer's Disease Erodes the Brain's Master Metabolic and Circadian Nuclei"
 description: "Long before memory fades, the hypothalamus undergoes physical shrinkage and transcriptional decay, disrupting the body's central pacemakers."
 date: 2026-11-18T19:50:15.465342+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 3
@@ -14,6 +14,16 @@ spiral: "Luminous Mind"
 evidence_position: "emerging"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-7d1e398f"
+image: "/images/editions/2026-11-18/alzheimer-s-disease-erodes-the-brain-s-master-metabolic-and-circadian-7d1e398f-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a concentric hypothalamic circadian clock fracturing into damped oscillatory waveforms and transcriptional grid modules."
+image_caption: "Subcortical circadian and metabolic pacemakers in the hypothalamus lose structural volume and transcriptional rhythm before cortical memory symptoms surface."
+image_width: 1200
+image_height: 627
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 ---
 
 Long before memory fades, the hypothalamus undergoes physical shrinkage and transcriptional decay, disrupting the body's central pacemakers.

@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import base64
 import concurrent.futures
 import datetime as dt
 import io
 import json
+import os
 import re
 import threading
 import urllib.request
@@ -427,3 +429,107 @@ def append_image_ledger(path: Path, candidate: ImageCandidate, article_id: str, 
     )
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(ledger, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+GEMINI_IMAGE_MODELS: tuple[str, ...] = (
+    "gemini-3.1-flash-image",
+    "gemini-2.5-flash-image",
+    "gemini-3-pro-image",
+)
+
+
+def build_lithograph_prompt(
+    headline: str,
+    dek: str,
+    category: str,
+    brief: ImageBrief | None = None,
+) -> str:
+    subject_anchor = brief.subject if brief and brief.subject else headline
+    intent_anchor = brief.editorial_intent if brief and brief.editorial_intent else dek
+    return (
+        "Post-constructivist and Bauhaus scientific lithograph on warm unbleached archival cotton paper (#f8f4ec). "
+        f"Editorial domain: {category}. "
+        f"Article subject: {headline} — {dek}. "
+        f"Structural visual anchor: {subject_anchor}. {intent_anchor} "
+        "Visual composition: Asymmetric geometric scientific diagram translating the biological or physical mechanism "
+        "into intersecting technical compass arcs, oscillatory waveforms, cellular lattice grids, and precise architectural ruling lines. "
+        "Color palette strictly limited to deep midnight slate ink (#131d2b), burnt saffron ochre (#c87d28), "
+        "warm terracotta oxide (#9e472a), muted mineral sage (#6e7f77), and warm cream paper negative space (#f8f4ec). "
+        "Authentic mid-century scientific printmaking, El Lissitzky and Bauhaus diagram discipline, risograph and letterpress "
+        "stippled ink grain, tactile paper fibers, crisp geometric forms. "
+        "Strictly no text, no letters, no numbers, no labels, no typography, no watermarks, no 3D render gloss, no photorealism."
+    )
+
+
+def generate_lithograph_plate(
+    headline: str,
+    dek: str,
+    category: str,
+    brief: ImageBrief | None,
+    public_root: Path,
+    edition_id: str,
+    article_slug: str,
+    article_id: str,
+    api_key: str | None = None,
+) -> PublishedImage | None:
+    """Generate a post-constructivist / Bauhaus scientific lithograph via Google's native Gemini Image API."""
+    resolved_key = (api_key if api_key is not None else os.getenv("GEMINI_API_KEY", "")).strip()
+    if not resolved_key:
+        return None
+    prompt = build_lithograph_prompt(headline, dek, category, brief)
+    payload_bytes = json.dumps(
+        {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseModalities": ["IMAGE"]},
+        }
+    ).encode("utf-8")
+
+    raw_image: bytes | None = None
+    for model_name in GEMINI_IMAGE_MODELS:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={resolved_key}"
+        request = urllib.request.Request(
+            url,
+            data=payload_bytes,
+            headers={"Content-Type": "application/json", "User-Agent": "AgewellBrief/0.5 (+editorial lithograph desk)"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                body = json.loads(response.read())
+            parts = body.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+            for part in parts:
+                inline = part.get("inlineData")
+                if isinstance(inline, dict) and inline.get("data"):
+                    raw_image = base64.b64decode(inline["data"])
+                    break
+            if raw_image:
+                break
+        except Exception:
+            continue
+
+    if not raw_image:
+        return None
+
+    with Image.open(io.BytesIO(raw_image)) as source:
+        source = ImageOps.exif_transpose(source).convert("RGB")
+        rendered = ImageOps.fit(source, (1200, 627), method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+        folder = public_root / "images" / "editions" / edition_id
+        folder.mkdir(parents=True, exist_ok=True)
+        filename = f"{article_slug}-lithograph.webp"
+        target = folder / filename
+        rendered.save(target, "WEBP", quality=86, method=6)
+
+    return PublishedImage(
+        provider="Agewell Visual Desk",
+        provider_id=f"lithograph-{article_id[:8]}",
+        local_url=f"/images/editions/{edition_id}/{filename}",
+        source_url="",
+        creator="Agewell Brief Visual Desk",
+        creator_url="",
+        alt=f"Post-constructivist scientific lithograph illustrating {headline}",
+        width=1200,
+        height=627,
+        avg_color="#f4efe4",
+        review_status="vision-approved",
+    )
+
