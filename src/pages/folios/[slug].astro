@@ -58,6 +58,7 @@ const structuredData = [
     "@type": "Article",
     headline: folio.data.title,
     description: folio.data.description,
+    ...(folio.data.image ? { image: [new URL(folio.data.image, Astro.site).href] } : {}),
     datePublished: folio.data.date.toISOString(),
     author: {
       "@type": "Organization",
@@ -87,6 +88,10 @@ const structuredData = [
   description={folio.data.description}
   canonicalURL={folioURL}
   ogType="article"
+  image={folio.data.image}
+  imageAlt={folio.data.image_alt}
+  imageWidth={folio.data.image_width}
+  imageHeight={folio.data.image_height}
   publishedTime={folio.data.date}
   structuredData={structuredData}
 >
@@ -129,9 +134,23 @@ const structuredData = [
         </div>
 
         <figure class="folio-issue-plate-figure">
-          <FolioSolarPlate season={folio.data.season} size="hero" />
+          {folio.data.image ? (
+            <div class="folio-lithograph-frame" style={`--image-tone: ${folio.data.image_avg_color ?? "#f4efe4"}`}>
+              <img
+                src={folio.data.image}
+                alt={folio.data.image_alt ?? `${issueLabel}: ${folio.data.title}`}
+                width={folio.data.image_width ?? 1376}
+                height={folio.data.image_height ?? 768}
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+              />
+            </div>
+          ) : (
+            <FolioSolarPlate season={folio.data.season} size="hero" />
+          )}
           <figcaption>
-            <span>Plate {String(folio.data.issue_number).padStart(2, "0")}</span>
+            <span>Plate {String(folio.data.issue_number).padStart(2, "0")} · {folio.data.image_photographer ?? "Agewell Brief Visual Desk"}</span>
             <span>{folio.data.solar_marker}</span>
           </figcaption>
         </figure>

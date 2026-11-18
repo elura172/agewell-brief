@@ -96,8 +96,21 @@ const structuredData = {
           </div>
 
           <a class="folio-feature-plate" href={`/folios/${latestFolio.id}/`} tabindex="-1" aria-hidden="true">
-            <FolioSolarPlate season={latestFolio.data.season} size="hero" />
-            <span class="folio-plate-caption">Fig. 01 · Solstice Meridian &amp; Slow-Wave Nadir</span>
+            {latestFolio.data.image ? (
+              <div class="folio-lithograph-frame" style={`--image-tone: ${latestFolio.data.image_avg_color ?? "#f4efe4"}`}>
+                <img
+                  src={latestFolio.data.image}
+                  alt={latestFolio.data.image_alt ?? latestFolio.data.title}
+                  width={latestFolio.data.image_width ?? 1376}
+                  height={latestFolio.data.image_height ?? 768}
+                  loading="eager"
+                  decoding="async"
+                />
+              </div>
+            ) : (
+              <FolioSolarPlate season={latestFolio.data.season} size="hero" />
+            )}
+            <span class="folio-plate-caption">{latestFolio.data.image_caption ?? "Fig. 01 · Solstice Meridian & Slow-Wave Nadir"}</span>
           </a>
         </article>
       </section>

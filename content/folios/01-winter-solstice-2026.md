@@ -8,6 +8,14 @@ description: "Inaugural seasonal broadsheet synthesizing six primary Agewell Bri
 date: 2026-11-12T14:00:00Z
 draft: false
 spiral: "Luminous Mind"
+image: "/images/editions/folios/01-winter-solstice-2026-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph illustrating the winter solstice 270° meridian arc, synchronized nocturnal slow-wave EEG oscillations, astrocyte glymphatic fluid channels flushing toward dawn, and a glowing geometric mitochondrial cellular furnace."
+image_caption: "Plate 01 · Solstice Meridian, Slow-Wave Nadir & the Cellular Furnace"
+image_provider: "Agewell Visual Desk"
+image_photographer: "Agewell Brief Visual Desk"
+image_width: 1376
+image_height: 768
+image_avg_color: "#f4efe4"
 theme_domains:
   - "Circadian & glymphatic physics"
   - "Slow-wave memory consolidation"

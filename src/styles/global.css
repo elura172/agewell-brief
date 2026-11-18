@@ -747,6 +747,16 @@ html[data-theme="evening"] .theme-icon--sun { display: block; }
 .folio-solar-plate--compact {
   padding: 16px 14px;
 }
+.folio-lithograph-frame {
+  background: var(--image-tone, #f4efe4);
+  border: 1px solid var(--line-strong);
+  overflow: hidden;
+}
+.folio-lithograph-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .home-folio-band {
   max-width: 1320px;

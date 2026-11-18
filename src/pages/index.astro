@@ -153,7 +153,20 @@ const structuredData = [
           </div>
         </div>
         <a class="home-folio-plate" href={`/folios/${latestFolio.id}/`} tabindex="-1" aria-hidden="true">
-          <FolioSolarPlate season={latestFolio.data.season} size="compact" />
+          {latestFolio.data.image ? (
+            <div class="folio-lithograph-frame" style={`--image-tone: ${latestFolio.data.image_avg_color ?? "#f4efe4"}`}>
+              <img
+                src={latestFolio.data.image}
+                alt={latestFolio.data.image_alt ?? latestFolio.data.title}
+                width={latestFolio.data.image_width ?? 1376}
+                height={latestFolio.data.image_height ?? 768}
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          ) : (
+            <FolioSolarPlate season={latestFolio.data.season} size="compact" />
+          )}
         </a>
       </div>
     </section>

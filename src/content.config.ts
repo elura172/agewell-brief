@@ -67,7 +67,15 @@ const folios = defineCollection({
       })
     ),
     colophon_note: z.string(),
-    spiral: z.string().optional()
+    spiral: z.string().optional(),
+    image: z.string().refine((value) => value.startsWith("/") || URL.canParse(value), "Expected a local or absolute image URL").optional(),
+    image_alt: z.string().optional(),
+    image_caption: z.string().optional(),
+    image_provider: z.enum(["Pexels", "Pixabay", "Unsplash", "Gemini", "Agewell Visual Desk"]).default("Agewell Visual Desk"),
+    image_photographer: z.string().default("Agewell Brief Visual Desk"),
+    image_width: z.number().int().positive().default(1376),
+    image_height: z.number().int().positive().default(768),
+    image_avg_color: z.string().regex(/^#[0-9a-fA-F]{6}$/).default("#f4efe4")
   })
 });
 
