@@ -11,21 +11,19 @@ source_url: "https://onlinelibrary.wiley.com/doi/10.1111/acel.70827?af=R"
 source_title: "Impaired Exercise‐Induced Mitophagy in Aged Muscle Coincides With Altered mitoAMPKα in Male Mice"
 source_name: "Aging Cell"
 spiral: "Cell Shedding"
-image_provider: "Pexels"
-image_provider_id: "9641992"
-image: "/images/editions/2026-11-14/aged-male-mouse-muscle-fails-to-trigger-exercise-induced-mitochondrial-033b6d25-pexels-9641992.webp"
-image_alt: "High-quality image of a microscope in a laboratory setting, perfect for science and research themes."
-image_caption: "A laboratory microscope represents the cellular-level research needed to uncover why aged male skeletal muscle fails to execute mitochondrial clearance following physical exertion."
-image_width: 1200
-image_height: 627
-image_photographer: "Ayaz khan"
-image_photographer_url: "https://www.pexels.com/@ayaz-khan-110203690"
-image_source_url: "https://www.pexels.com/photo/microscope-on-table-9641992/"
-image_review_status: "pending"
-image_avg_color: "#78787A"
 topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}, {"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-033b6d25"
+image: "/images/editions/2026-11-14/2026-11-14-aged-male-mouse-muscle-fails-to-trigger-exercise-induced-mitochondrial-033b6d25-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing contracting striated skeletal muscle sarcomeres above worn mitochondrial modules blocked by an uncoupled kinase switch latch from entering a rotary mitophagy recycling gate."
+image_caption: "In aged male skeletal muscle, an uncoupled kinase signaling latch prevents physical exertion from routing damaged mitochondria into autophagic recycling."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Researchers discover that aged male skeletal muscle fails to execute physical exertion-driven mitochondrial clearance, a breakdown tied directly to altered localized kinase signaling.

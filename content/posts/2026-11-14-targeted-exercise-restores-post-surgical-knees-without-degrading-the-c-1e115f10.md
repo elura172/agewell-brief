@@ -13,20 +13,18 @@ source_name: "ScienceDaily Top Health"
 spiral: "Higher Flame"
 autoresearch_antecedents: [{"scientist": "Van C. Mow", "year": "1980", "discovery": "Formulated the biphasic theory of articular cartilage, demonstrating that dynamic fluid pressurization during cyclical loading protects the extracellular matrix from mechanical wear, providing the physical foundation for therapeutic exercise in joint preservation."}, {"scientist": "Stefan Lohmander", "year": "1994", "discovery": "Discovered that joint trauma causes persistent molecular degradation of cartilage matrix components years after injury, establishing that post-traumatic osteoarthritis is a prolonged inflammatory process rather than simple structural wear."}]
 evidence_position: "established"
-image_provider: "Unsplash"
-image_provider_id: "f7EQyJe2Tr8"
-image: "https://images.unsplash.com/photo-1746806942507-a7e93fdd6dd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8a25lZSUyMHBoeXNpY2FsJTIwdGhlcmFweSUyMGV4ZXJjaXNlfGVufDF8MHx8fDE3OTQ2OTMzMjB8MA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "A nurse is performing physical therapy"
-image_caption: "A nurse guides physical therapy movements that build strength around post-surgical knees without breaking down fragile joint cartilage."
-image_width: 8192
-image_height: 5464
-image_photographer: "Judy Beth Morris"
-image_photographer_url: "https://unsplash.com/@judy_beth_morris_idaho?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/a-nurse-is-performing-physical-therapy-f7EQyJe2Tr8?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#c0a673"
 topics: ['mobility']
 frameworks: ['Living Waters']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-1e115f10"
+image: "/images/editions/2026-11-14/2026-11-14-targeted-exercise-restores-post-surgical-knees-without-degrading-the-c-1e115f10-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a femoral-tibial knee articulation and rotary gear fulcrum where diagonal quadriceps tensile vectors stabilize an intact hexagonal honeycomb cartilage cushion."
+image_caption: "Supervised strength loading realigns muscular tensile vectors across the post-surgical knee fulcrum while preserving the integrity of the articular cartilage honeycomb."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Supervised physical therapy applied years after ACL reconstruction relieves chronic pain and rebuilds quadriceps strength without accelerating cartilage breakdown.

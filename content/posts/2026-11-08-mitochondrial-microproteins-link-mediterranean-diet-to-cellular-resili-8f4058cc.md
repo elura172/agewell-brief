@@ -13,20 +13,18 @@ spiral: "Living Waters"
 autoresearch_antecedents: [{"scientist": "Pinchas Cohen", "year": "2001", "discovery": "Discovered humanin (HN), the first characterized mitochondrial microprotein/mitochondrial-derived peptide (MDP) encoded within the 16S rRNA gene of mtDNA, demonstrating its role as a neuroprotective biological messenger against amyloid-beta toxicity."}, {"scientist": "Denham Harman", "year": "1972", "discovery": "Refined the Free Radical Theory of Aging into the Mitochondrial Theory of Aging, proposing that mitochondria are both the primary source of and primary targets for age-related oxidative stress and decay."}]
 ancestral_insight: "Ancestral human diets rich in whole, unrefined polyphenols, omega-3 fatty acids, and bioflavonoids naturally maintained low basal levels of mitochondrial oxidative stress. Traditional nutritional patterns, such as those found in pre-industrial Mediterranean Blue Zones, provided continuous dietary hormetic triggers (such as oleocanthal from extra virgin olive oil and resveratrol from wild botanical sources). Mechanistically, these bioactives prevent the oxidative shutdown of mitochondrial transcription, allowing sustained production of ancestral stress-response microproteins like humanin and SHMOOSE that protect systemic cardiovascular and neural architecture during aging."
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "LuoTygdyXaI"
-image: "https://images.unsplash.com/photo-1770119027724-cc85afb2cae5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8OHx8b2xpdmUlMjBvaWwlMjBmcmVzaCUyMHZlZ2V0YWJsZXMlMjBtZWRpdGVycmFuZWFufGVufDF8MHx8fDE3OTQxNzkxNjN8MA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "A platter of grilled vegetables with herbs and nuts"
-image_caption: "The grilled vegetables and herbs on this platter supply the nutrients that trigger humanin and SHMOOSE production, linking everyday diet choices directly to cellular resilience."
-image_width: 4368
-image_height: 2912
-image_photographer: "björn maser"
-image_photographer_url: "https://unsplash.com/@www_minimalist_art?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/a-platter-of-grilled-vegetables-with-herbs-and-nuts-LuoTygdyXaI?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#f3f3f3"
 topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-8f4058cc"
+image: "/images/editions/2026-11-08/2026-11-08-mitochondrial-microproteins-link-mediterranean-diet-to-cellular-resili-8f4058cc-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing hexagonal polyphenol and hydration rings entering a folded mitochondrial cristae chamber and dispatching geometric microprotein keys to lock into a protective nuclear genome shield."
+image_caption: "Dietary polyphenols and structured hydration stimulate mitochondrial cristae to dispatch humanin and SHMOOSE microprotein keys that fortify nuclear and vascular resilience."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Researchers at USC reveal how specific dietary patterns modulate humanin and SHMOOSE, driving a retrograde signaling cascade that shields vascular and neural tissues from oxidative decay.

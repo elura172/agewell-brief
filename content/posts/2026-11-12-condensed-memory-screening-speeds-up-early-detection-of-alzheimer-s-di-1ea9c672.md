@@ -13,20 +13,18 @@ source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Folstein, Folstein, and McHugh", "year": "1975", "discovery": "Introduced the Mini-Mental State Examination (MMSE), establishing the clinical standard for rapid, quantitative bedside cognitive screening that future automated and abbreviated test batteries seek to replace or refine."}, {"scientist": "Muriel Lezak", "year": "1976", "discovery": "Formalized the field of clinical neuropsychology by codifying comprehensive test batteries that systematically isolate discrete domain deficits, laying the structural blueprint for modern abbreviated, high-throughput cognitive protocols."}]
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "UanZeoDZmXU"
-image: "https://images.unsplash.com/photo-1789845043994-0741ead89a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8OHx8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGJyYWluJTIwc2NhbiUyMGRpc3BsYXl8ZW58MXwwfHx8MTc5NDUyNDY4MXww&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "A human brain composed of blue geometric triangles with glowing red internal accents"
-image_caption: "The geometric brain illustration represents the condensed cognitive screenings designed to speed up early Alzheimer's detection and treatment access discussed in this article."
-image_width: 4096
-image_height: 2160
-image_photographer: "Mirella Callage"
-image_photographer_url: "https://unsplash.com/@mcallage?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/brain-with-blue-geometric-triangles-UanZeoDZmXU?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#0c2640"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-1ea9c672"
+image: "/images/editions/2026-11-12/2026-11-12-condensed-memory-screening-speeds-up-early-detection-of-alzheimer-s-di-1ea9c672-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a sprawling cognitive assessment grid funneling through a triangular condensing prism to focus a precision beam onto an early synaptic anomaly inside a cranial dome."
+image_caption: "A condensed cognitive screening prism distills lengthy clinical test batteries into a high-signal diagnostic beam that isolates early memory-circuit drift."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Accelerated cognitive evaluations could help health systems rapidly identify early dementia and streamline access to emerging disease-modifying therapies as global cases rise.

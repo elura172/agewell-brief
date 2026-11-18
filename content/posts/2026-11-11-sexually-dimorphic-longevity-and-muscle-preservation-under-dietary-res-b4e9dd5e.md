@@ -10,21 +10,19 @@ source_url: "https://onlinelibrary.wiley.com/doi/10.1111/acel.70791?af=R"
 source_title: "Sexually Dimorphic Response to Dietary Restriction‐Induced Longevity and Muscle Preservation in Nothobranchius furzeri"
 source_name: "Aging Cell"
 spiral: "Higher Flame"
-image_provider: "Unsplash"
-image_provider_id: "Rl9bIWKCVF0"
-image: "https://images.unsplash.com/photo-1614308460927-5024ba2e1dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8Y2VsbCUyMGJpb2xvZ3klMjBzY2llbnRpc3QlMjBtaWNyb3Njb3BlJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzk0NDQxMjUwfDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "A Meiji Techno microscope with multiple objective lenses above a black stage"
-image_caption: "The lenses of this Meiji Techno microscope focus on the cellular adaptations that explain why caloric restriction affects male and female lifespans differently."
-image_width: 6720
-image_height: 4480
-image_photographer: "Logan Gutierrez"
-image_photographer_url: "https://unsplash.com/@photosoflogan?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/meiji-techno-microscope-with-objective-lenses-Rl9bIWKCVF0?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#f3f3f3"
 topics: ['longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Otto Warburg", "year": "1924", "discovery": "Discovered the iron-porphyrin respiratory enzyme (cytochrome oxidase) and demonstrated that cellular differentiation and longevity depend on intact mitochondrial oxygen respiration rather than glycolytic fermentation. (The Metabolism of Tumours & Cytochrome Oxygen Respiration)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-b4e9dd5e"
+image: "/images/editions/2026-11-11/2026-11-11-sexually-dimorphic-longevity-and-muscle-preservation-under-dietary-res-b4e9dd5e-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a dietary-restriction aperture and rotary metabolic switchboard splitting bioenergetic output into an upper chamber of preserved muscle myofibrils and a lower chamber of concentric longevity rings."
+image_caption: "Under dietary restriction, a central bioenergetic switchboard allocates scarce fuel along sexually dimorphic tracks: somatic muscle preservation versus extended lifespan oscillations."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New findings in Nothobranchius furzeri reveal that caloric scarcity drives divergent, sex-specific bioenergetic adaptations in lifespan and somatic maintenance.

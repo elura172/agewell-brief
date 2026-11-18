@@ -12,15 +12,19 @@ source_title: "Cellular senescence in calcific aortic valve disease: are we read
 source_name: "PubMed"
 spiral: "Cell Shedding"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microscopic cellular membrane and organelle renewal"
-image_photographer: "Polina Kovaleva / Pexels"
-image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
-image_provider: "Pexels"
-image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame']
 autoresearch_antecedents: [{"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}, {"scientist": "Alexander Gurwitsch", "year": "1923", "discovery": "First demonstrated in onion-root experiments through quartz versus glass barriers that dividing cells emit ultra-weak ultraviolet photons (mitogenetic radiation) that stimulate neighboring cell division and organize tissue geometry. (Mitogenetic Radiation & Morphogenetic Fields)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-50039ac2"
+image: "/images/editions/2026-11-02/2026-11-02-targeting-cellular-senescence-offers-new-hope-for-calcific-aortic-valv-50039ac2-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph contrasting a calcified trisected aortic valve encrusted with angular mineral blocks on the left against a rotary senolytic compass arc restoring supple tri-leaflet laminar flow on the right."
+image_caption: "Senolytic clearance disassembles pro-calcific senescent valve cells, freeing rigid three-leaflet aortic apertures to resume unobstructed laminar blood flow."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Cellular senescence drives the fibrotic remodeling and calcification of heart valves, pointing toward senolytic clearance as a unifying therapeutic strategy.

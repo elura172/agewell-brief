@@ -14,13 +14,17 @@ spiral: "Luminous Mind"
 evidence_position: "speculative"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 autoresearch_antecedents: [{"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}, {"scientist": "Michael Levin", "year": "2012", "discovery": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing. (The Bioelectric Morphogenetic Code & Anatomical Homeostasis)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-eee7cce1"
+image: "/images/editions/2026-11-16/2026-11-16-subjective-memory-complaints-reveal-hidden-neural-shifts-before-standa-eee7cce1-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing an intact coarse clinical grid pierced by a golden astrolabe aperture revealing early micro-fractures and drifting synaptic nodes inside a geodesic neural circuit."
+image_caption: "Behind an apparently normal clinical scorecard grid, self-reported memory complaints trace early micro-disconnections and phase drift across hippocampal-cortical networks."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Self-reported daily memory lapses expose early breakdown in neural circuits while traditional diagnostic scores remain artificially normal.

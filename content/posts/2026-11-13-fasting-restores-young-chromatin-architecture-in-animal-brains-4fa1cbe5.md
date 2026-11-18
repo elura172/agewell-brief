@@ -13,20 +13,18 @@ source_name: "Frontiers in Human Neuroscience"
 spiral: "Higher Flame"
 autoresearch_antecedents: [{"scientist": "Clive McCay", "year": "1935", "discovery": "Demonstrated that restricting caloric intake extends lifespan and delays age-related decline in rats, establishing dietary restriction as a powerful metabolic intervention long before its epigenetic and transcriptional mechanisms were understood."}, {"scientist": "Michael Grunstein", "year": "1988", "discovery": "Discovered that histone amino termini directly regulate gene transcription in vivo, founding modern chromatin biology and laying the groundwork for understanding how nutrient-sensing enzymes alter histone modifications to tune neural gene expression."}]
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "_af0_qAh4K4"
-image: "https://images.unsplash.com/photo-1573511860302-28c524319d2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8YnJhaW4lMjBzY2FuJTIwbW9uaXRvciUyMGRpc3BsYXl8ZW58MXwwfHx8MTc5NDYwMTc1N3ww&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "a neon display of a man's head and brain"
-image_caption: "A neon display of a human head and brain illustrates the neural tissue where caloric restriction resets genetic markers to restore youthful chromatin structure."
-image_width: 5184
-image_height: 3456
-image_photographer: "Bret Kavanaugh"
-image_photographer_url: "https://unsplash.com/@bretkavanaugh?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/a-neon-display-of-a-mans-head-and-brain-_af0_qAh4K4?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#f3f3f3"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-4fa1cbe5"
+image: "/images/editions/2026-11-13/2026-11-13-fasting-restores-young-chromatin-architecture-in-animal-brains-4fa1cbe5-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a metabolic fasting gear wheel and mitochondrial cristae arc projecting vectors into a neuronal nucleus where tangled chromatin coils unwind around cylindrical histone spools."
+image_caption: "Fasting-induced metabolic signals strip repressive histone tags and unwind compacted neuronal chromatin spools into a youthful, transcriptionally open lattice."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A systematic review shows how caloric restriction resets histone tags and DNA methylation in rodent neurons, revealing how metabolic signals physically alter genetic memory.

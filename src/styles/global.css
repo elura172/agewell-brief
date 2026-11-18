@@ -1043,6 +1043,30 @@ html[data-theme="evening"] .theme-icon--sun { display: block; }
   display: flex;
   flex-direction: column;
 }
+.folio-dossier-plate {
+  display: block;
+  margin-bottom: 14px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  overflow: hidden;
+  background: #f8f4ec;
+}
+.folio-dossier-plate img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  transition: transform 360ms var(--ease-out);
+}
+html[data-theme="evening"] .folio-dossier-plate img {
+  filter: brightness(0.92) sepia(0.05) contrast(1.02);
+}
+@media (hover: hover) and (pointer: fine) {
+  .folio-dossier-item:hover .folio-dossier-plate img {
+    transform: scale(1.018);
+  }
+}
 .folio-dossier-topline {
   display: flex;
   align-items: center;

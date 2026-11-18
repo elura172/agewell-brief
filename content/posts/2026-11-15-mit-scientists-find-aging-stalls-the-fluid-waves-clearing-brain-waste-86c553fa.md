@@ -14,13 +14,17 @@ spiral: "Higher Flame"
 evidence_position: "emerging"
 topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-86c553fa"
+image: "/images/editions/2026-11-15/2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a high-amplitude nocturnal cerebrospinal fluid wave attenuating rightward across vertical perivascular sluice chambers into stalled eddies over trapped metabolic sediment."
+image_caption: "Age-related decay in nocturnal slow-wave amplitude stalls cerebrospinal fluid propulsion through perivascular sluice channels, leaving metabolic sediment behind."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Rhythmic waves of fluid that flush metabolic debris out of neural tissue during sleep decay with age, linking broken sleep to impaired brain self-cleaning.

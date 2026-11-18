@@ -11,21 +11,19 @@ source_url: "https://medicalxpress.com/news/2026-11-lifespan-treatments-boost-an
 source_title: "Five lifespan-extending treatments boost the same antioxidant in mice"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Cell Shedding"
-image_provider: "Unsplash"
-image_provider_id: "_9xRHrMOjeg"
-image: "https://images.unsplash.com/photo-1602052577122-f73b9710adba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8Y2VsbHVsYXIlMjBiaW9sb2d5JTIwcmVzZWFyY2glMjBsYWJ8ZW58MXwwfHx8MTc5NDUzOTU0OHww&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "A laboratory workbench with a microscope and analytical equipment in a bright room"
-image_caption: "The microscope and analytical equipment on this bright laboratory workbench represent the investigative tools used to discover that five separate lifespan-extending interventions all upregulate the exact same protective antioxidant."
-image_width: 5845
-image_height: 3897
-image_photographer: "Trnava University"
-image_photographer_url: "https://unsplash.com/@trnavskauni?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/laboratory-workbench-with-microscope-and-equipment-_9xRHrMOjeg?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#c0c0c0"
 topics: ['longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Emilio Del Giudice", "year": "1988", "discovery": "Applied Quantum Electrodynamics to condensed matter to show that liquid water forms 100-nanometer Coherence Domains where molecules oscillate in phase with a self-trapped electromagnetic field, supplying low-activation-energy electrons for biochemical reactions. (Water Coherence Domains in Quantum Electrodynamics (QED))"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-a1046b8d"
+image: "/images/editions/2026-11-13/2026-11-13-diverse-longevity-treatments-converge-on-a-shared-antioxidant-defense--a1046b8d-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of five distinct geometric intervention pathways converging into a central hexagonal antioxidant shield prism that deflects jagged free-radical sparks away from a cellular honeycomb."
+image_caption: "Five mechanistically distinct longevity interventions converge on a single central antioxidant shield prism that neutralizes oxidative stress before it fractures tissue architecture."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Five separate interventions that extend lifespan in mice all upregulate the exact same protective antioxidant, revealing a unified biochemical target beneath diverse anti-aging strategies.

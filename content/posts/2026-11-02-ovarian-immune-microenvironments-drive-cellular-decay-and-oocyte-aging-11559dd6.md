@@ -12,15 +12,19 @@ source_title: "Immune architecture of oocyte competence: from development to sen
 source_name: "PubMed"
 spiral: "Cell Shedding"
 evidence_position: "established"
-image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microscopic cellular membrane and organelle renewal"
-image_photographer: "Polina Kovaleva / Pexels"
-image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
-image_provider: "Pexels"
-image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-11559dd6"
+image: "/images/editions/2026-11-02/2026-11-02-ovarian-immune-microenvironments-drive-cellular-decay-and-oocyte-aging-11559dd6-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of an ovarian follicle chamber where external inflammatory immune polygons project SASP interference waves that tilt the diamond meiotic spindle and strain the mitochondrial ATP ring."
+image_caption: "Inflammatory immune clusters in the aging ovarian stroma project fibrotic interference across the follicular wall, destabilizing the oocyte meiotic spindle and mitochondrial ring."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Immune cells and inflammatory signals reshape the physical architecture of mammalian oocytes, disrupting meiotic spindles and mitochondrial ATP production.

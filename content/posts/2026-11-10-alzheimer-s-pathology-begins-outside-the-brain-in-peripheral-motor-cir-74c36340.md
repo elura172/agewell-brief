@@ -13,20 +13,18 @@ source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Konrad Beyreuther and Colin Masters", "year": "1987", "discovery": "Showed that the amyloid precursor protein (APP) gene is expressed across non-neuronal and peripheral tissues, proving that Alzheimer's-linked proteins operate well beyond the brain."}, {"scientist": "D. Carleton Gajdusek", "year": "1970s", "discovery": "Documented early peripheral motor weakness and impaired axonal transport ahead of cortical decline across inherited and protein-misfolding neurological disorders."}]
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "pWjbxTtfDv0"
-image: "https://images.unsplash.com/photo-1716833322956-576ed48439ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NXx8bmVydmUlMjB0aXNzdWUlMjBtaWNyb3Njb3BlJTIwc2xpZGV8ZW58MXwwfHx8MTc5NDM0MjIxM3ww&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "Nervous Tissue: Nerve Bundle"
-image_caption: "Peripheral nerve bundles carry motor commands to skeletal muscle, where inherited Alzheimer's mutations disrupted signaling on a lab chip."
-image_width: 3264
-image_height: 1840
-image_photographer: "Bioscience Image Library by Fayette Reynolds"
-image_photographer_url: "https://unsplash.com/@berkshirecommunitycollege?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/nervous-tissue-nerve-bundle-pWjbxTtfDv0?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#f3f3f3"
 topics: ['brain health', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-74c36340"
+image: "/images/editions/2026-11-10/2026-11-10-alzheimer-s-pathology-begins-outside-the-brain-in-peripheral-motor-cir-74c36340-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing an isolated, uninvolved cranial hemisphere above a microfluidic nerve-muscle chip where familial Alzheimer mutations directly fray neuromuscular junction synapses."
+image_caption: "Inside an isolated microfluidic nerve-muscle chip, familial Alzheimer mutations degrade peripheral neuromuscular junction signaling without central brain involvement."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 In miniature human-on-a-chip circuits lacking a brain or spinal cord, inherited Alzheimer's mutations weakened nerve-to-muscle signaling and accelerated muscle fatigue.

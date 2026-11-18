@@ -13,20 +13,18 @@ source_name: "GeroScience"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Luigi Fontana", "year": "2004", "discovery": "Demonstrated that long-term calorie restriction in humans reduces basal metabolic rate, oxidative stress, and biomarkers of vascular aging, establishing the physiological foundation for targeting nutrient-sensing pathways to mimic longevity benefits."}, {"scientist": "Richard Miller", "year": "2014", "discovery": "Led the Intervention Testing Program study showing that the alpha-glucosidase inhibitor acarbose extends median lifespan in mice, prompting the investigation of metabolic decelerators as protectors against age-related cognitive decline."}]
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "gKUC4TMhOiY"
-image: "https://images.unsplash.com/photo-1518152006812-edab29b069ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8c2NpZW50aXN0JTIwbWljcm9zY29wZSUyMGxhYm9yYXRvcnklMjByZXNlYXJjaHxlbnwxfDB8fHwxNzk0NzA5MzMyfDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "white microscope on top of black table"
-image_caption: "A white microscope resting on a black table highlights the exact cellular level where researchers observed acarbose preserving hippocampal circuits in aging mice while failing to clear amyloid pathology."
-image_width: 6000
-image_height: 4000
-image_photographer: "Ousa Chea"
-image_photographer_url: "https://unsplash.com/@cheaousa?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/white-microscope-on-top-of-black-table-gKUC4TMhOiY?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#c0c0c0"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-a4be8a9e"
+image: "/images/editions/2026-11-15/2026-11-15-acarbose-preserves-spatial-memory-in-aging-mice-but-fails-against-alzh-a4be8a9e-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a hexagonal metabolic filter bifurcating into an intact upper hippocampal spatial-navigation grid during normal aging and a lower grid fractured by angular amyloid plaques."
+image_caption: "Carbohydrate deceleration preserves hippocampal spatial-navigation lattices during physiological aging while failing to halt amyloid-driven neurodegenerative blockade."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A metabolic decelerator protects hippocampal circuits during normal physiological aging yet leaves amyloid-driven pathology untouched, proving that neurodegeneration diverges fundamentally from standard senescence.

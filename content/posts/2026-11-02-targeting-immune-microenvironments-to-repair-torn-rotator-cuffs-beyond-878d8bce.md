@@ -12,15 +12,19 @@ source_title: "Immune microenvironment in rotator cuff healing: from macrophage 
 source_name: "PubMed"
 spiral: "Higher Flame"
 evidence_position: "established"
-image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Vital healthspan practices and physical harmony"
-image_photographer: "Mikhail Nilov / Pexels"
-image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
-image_provider: "Pexels"
-image_avg_color: "#2a3a2a"
 topics: ['cellular senescence', 'longevity', 'mobility']
 frameworks: ['Cell Shedding', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}, {"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-878d8bce"
+image: "/images/editions/2026-11-02/2026-11-02-targeting-immune-microenvironments-to-repair-torn-rotator-cuffs-beyond-878d8bce-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a bone-to-tendon enthesis blueprint contrasting chaotic fibrotic scar cross-hatching above against immune-guided four-zone collagen bridge alignment below."
+image_caption: "Reprogramming the bone-tendon immune microenvironment replaces chaotic fibrotic scar tissue with a graded, load-bearing fibrocartilage enthesis bridge."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Human single-cell maps reveal why rotator cuff tears heal into stiff scar tissue rather than regenerating functional bone-tendon interfaces.

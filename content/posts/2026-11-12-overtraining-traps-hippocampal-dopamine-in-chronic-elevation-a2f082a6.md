@@ -10,21 +10,19 @@ source_url: "https://medicalxpress.com/news/2026-11-overtraining-disrupt-brain-d
 source_title: "Overtraining may disrupt the brain's dopamine regulation, leaving levels elevated during rest"
 source_name: "Medical Xpress Sleep"
 spiral: "Luminous Mind"
-image_provider: "Unsplash"
-image_provider_id: "0lrJo37r6Nk"
-image: "https://images.unsplash.com/photo-1513224502586-d1e602410265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8MXx8Zk1SSSUyMHNjYW4lMjBtb25pdG9yJTIwZGlzcGxheXxlbnwxfDB8fHwxNzk0NDU0NDkxfDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "A medical monitor displaying vital signs with green waveforms on a dark screen"
-image_caption: "Green waveforms pulsing on a medical monitor track the persistent neural feedback destabilization that leaves baseline dopamine chronically elevated at rest."
-image_width: 3000
-image_height: 1688
-image_photographer: "Jair Lázaro"
-image_photographer_url: "https://unsplash.com/@jairlazarofuentes?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/medical-monitor-displaying-vital-signs-0lrJo37r6Nk?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#595940"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}, {"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-a2f082a6"
+image: "/images/editions/2026-11-12/2026-11-12-overtraining-traps-hippocampal-dopamine-in-chronic-elevation-a2f082a6-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a balanced baseline neural oscillation crossing a fractured feedback valve and becoming trapped by repetitive exertion vectors in an elevated plateau inside a hippocampal arch."
+image_caption: "Unrecovered physical overtraining fractures inhibitory hippocampal feedback, locking baseline dopamine signaling into a chronically elevated plateau."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Exhaustive physical training without adequate recovery destabilizes neural feedback loops, leaving baseline dopamine abnormally elevated at rest.

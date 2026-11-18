@@ -10,21 +10,19 @@ source_url: "https://www.sciencedaily.com/releases/2026/11/261104084017.htm"
 source_title: "An anti-aging drug may help protect the brain before Alzheimer's symptoms begin"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Unsplash"
-image_provider_id: "RAcNSUPk3b4"
-image: "https://images.unsplash.com/photo-1766297248160-87aca6fa59ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8N3x8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGNvbXB1dGVyJTIwbW9uaXRvcnxlbnwxfDB8fHwxNzk0MTkwODU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "Scientist points to microscopic view on computer screen"
-image_caption: "A scientist points to a microscopic view on a computer screen, illustrating the cellular-level focus of a trial restoring brain blood flow in APOE4 carriers."
-image_width: 6000
-image_height: 4000
-image_photographer: "Chidera Faustina Okeke"
-image_photographer_url: "https://unsplash.com/@thefourthwxll?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/scientist-points-to-microscopic-view-on-computer-screen-RAcNSUPk3b4?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#a6a6a6"
 topics: ['brain health', 'gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-b9eab848"
+image: "/images/editions/2026-11-09/2026-11-09-targeting-the-primate-engine-how-low-dose-rapamycin-resets-cerebral-mi-b9eab848-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a rotary mTOR regulator valve unlocking a constricted vascular bottleneck to restore a branching cerebral micro-capillary tree across an APOE4 cranial meridian dome."
+image_caption: "Low-dose rapamycin recalibrates the mTOR vascular regulator valve, reopening constricted cerebral microcirculation across presymptomatic APOE4 cortical territories."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new pilot single-arm trial reveals that four weeks of low-dose rapamycin selectively restores brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, pointing toward an early biophysical defense against cognitive decline.

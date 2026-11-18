@@ -15,12 +15,16 @@ autoresearch_antecedents: [{"scientist": "Marcus Raichle", "year": "2001", "disc
 evidence_position: "emerging"
 topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-c5e00307"
+image: "/images/editions/2026-11-14/2026-11-14-resting-functional-brain-networks-predict-alzheimer-s-risk-twelve-year-c5e00307-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a default-mode neural constellation inside a 12-sector cranial astrolabe dome projecting two diverging 12-year predictive cognitive trajectories."
+image_caption: "Resting-state blood-oxygen synchrony across default-mode network hubs separates resilient cognitive trajectories from neurodegenerative drift twelve years before clinical onset."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Blood-oxygen patterns across neural networks predict cognitive trajectories up to 12 years before clinical symptoms emerge.

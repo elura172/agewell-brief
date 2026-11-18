@@ -10,21 +10,19 @@ source_url: "https://www.sciencedaily.com/releases/2026/11/261109205401.htm"
 source_title: "Obesity linked to up to 27% lower risk of death in dementia"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Higher Flame"
-image_provider: "Unsplash"
-image_provider_id: "SpOhbQkWAyE"
-image: "https://images.unsplash.com/photo-1701848055770-effbdb148e15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8M3x8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGxhYiUyMG1vbml0b3J8ZW58MXwwfHx8MTc5NDQyNzU5OXww&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "a room with a lot of monitors on the wall"
-image_caption: "A wall of monitors tracks data like the 24-year cohort analysis that revealed an unexpected survival advantage in overweight dementia patients."
-image_width: 6000
-image_height: 4000
-image_photographer: "铮 夏"
-image_photographer_url: "https://unsplash.com/@xiazheng1995?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/a-room-with-a-lot-of-monitors-on-the-wall-SpOhbQkWAyE?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#735940"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-9c45ee1a"
+image: "/images/editions/2026-11-11/2026-11-11-the-dementia-paradox-why-excess-weight-correlates-with-lower-mortality-9c45ee1a-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a Bauhaus architectural balance fulcrum where concentric metabolic reserve spheres counterbalance catabolic neural erosion to project an elevated 24-year survival curve."
+image_caption: "Across a 24-year longitudinal horizon, peripheral metabolic energy reserves counterbalance late-life catabolic wasting in dementia, tilting survival curves upward."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A sweeping 24-year longitudinal cohort analysis reveals an unexpected survival advantage in overweight and obese individuals diagnosed with dementia.

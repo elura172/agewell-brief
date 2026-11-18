@@ -173,6 +173,18 @@ const structuredData = [
       <ol class="folio-dossier-grid">
         {boundDispatches.map(({ index, role, note, entry }) => (
           <li class="folio-dossier-item">
+            {entry.data.image && (
+              <a class="folio-dossier-plate" href={`/brief/${entry.id}/`} tabindex="-1" aria-hidden="true">
+                <img
+                  src={entry.data.image}
+                  alt={entry.data.image_alt ?? entry.data.title}
+                  width={entry.data.image_width ?? 1376}
+                  height={entry.data.image_height ?? 768}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+            )}
             <div class="folio-dossier-topline">
               <span class="folio-dossier-num">{String(index).padStart(2, "0")}</span>
               <span class="folio-dossier-role">{role}</span>

@@ -12,15 +12,19 @@ source_title: "Targeting Accelerated Aging in COPD: The AMICO (A Trial of Metfor
 source_name: "PubMed"
 spiral: "Cell Shedding"
 evidence_position: "established"
-image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microscopic cellular membrane and organelle renewal"
-image_photographer: "Polina Kovaleva / Pexels"
-image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
-image_provider: "Pexels"
-image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-9652232f"
+image: "/images/editions/2026-11-04/2026-11-04-testing-metformin-as-a-gerotherapeutic-agent-to-slow-accelerated-lung--9652232f-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a bifurcating bronchial tree contrasting senescent, SASP-radiating alveolar polygons on the left against a rotary AMPK compass wheel restoring an elastic hexagonal alveolar honeycomb on the right."
+image_caption: "Gerotherapeutic AMPK activation quiets senescent alveolar SASP interference and restores elastic hexagonal gas-exchange architecture in aging pulmonary tissue."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new phase III clinical trial investigates whether repurposing metformin can halt cellular senescence and mitochondrial dysfunction to slow pulmonary function decline in chronic obstructive pulmonary disease.
