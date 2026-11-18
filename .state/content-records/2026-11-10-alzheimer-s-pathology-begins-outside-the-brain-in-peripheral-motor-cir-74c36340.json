@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T20:54:41.106299+00:00",
+  "generated_at": "2026-11-18T15:45:06.425979+00:00",
   "article": {
     "article": "2026-11-10-alzheimer-s-pathology-begins-outside-the-brain-in-peripheral-motor-cir-74c36340",
     "url": "https://agewellbrief.com/brief/2026-11-10-alzheimer-s-pathology-begins-outside-the-brain-in-peripheral-motor-cir-74c36340/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 2,
+      "reader_visits": 8
+    },
     "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
     "content_record": {
       "article_id": "2026-11-10-alzheimer-s-pathology-begins-outside-the-brain-in-peripheral-motor-cir-74c36340",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Familial Alzheimer's Mutations Disrupt Muscle Nerves Without Brain Involvement. In miniature human-on-a-chip circuits lacking a brain or spinal cord, inherited Alzheimer's mutations weakened nerve-to-muscle signaling and accelerated muscle fatigue. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
-      "trend": null,
+      "trend": {
+        "rank": 2,
+        "reader_visits": 8
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",

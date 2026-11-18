@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T20:54:41.107756+00:00",
+  "generated_at": "2026-11-18T15:45:06.426327+00:00",
   "article": {
     "article": "2026-11-11-high-dose-flu-vaccination-correlates-with-55-percent-reduction-in-alzh-d8790ce2",
     "url": "https://agewellbrief.com/brief/2026-11-11-high-dose-flu-vaccination-correlates-with-55-percent-reduction-in-alzh-d8790ce2/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 3,
+      "reader_visits": 7
+    },
     "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm",
     "content_record": {
       "article_id": "2026-11-11-high-dose-flu-vaccination-correlates-with-55-percent-reduction-in-alzh-d8790ce2",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: High-Dose Flu Shots Track With 55% Lower Alzheimer's Risk. Across 200,000 older adults, high-dose influenza vaccination tracked with a markedly steeper drop in later Alzheimer's diagnoses than standard annual shots. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261105224609.htm",
-      "trend": null,
+      "trend": {
+        "rank": 3,
+        "reader_visits": 7
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",
