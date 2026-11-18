@@ -6,6 +6,12 @@ LOCK="/tmp/agewell-content-factory.lock"
 UV_BIN="/Library/Frameworks/Python.framework/Versions/3.13/bin/uv"
 MPT_CONFIG="/Users/mirrr/MoneyPrinterTurbo/config.toml"
 
+# ARCHIVED 2026-11-18: this job submits videos/posts to upload-post.com, which is
+# disabled until further notice. Set UPLOAD_POST_ARCHIVED=0 to re-enable.
+if [[ "${UPLOAD_POST_ARCHIVED:-1}" != "0" ]]; then
+  exit 0
+fi
+
 if ! mkdir "$LOCK" 2>/dev/null; then
   exit 0
 fi

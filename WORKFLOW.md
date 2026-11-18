@@ -366,6 +366,8 @@ deployment succeeded.
 
 ## 11. Social distribution
 
+> **ARCHIVED 2026-11-18:** the Upload-Post connector is disabled until further notice. The workflow steps, the 6-hourly status reconcile, and the local publish jobs are switched off (the code and the `UPLOAD_POST_*` secrets are kept so it can be re-enabled). The section below is retained for reference.
+
 Upload-Post is connected to the publication's Facebook, TikTok, and YouTube
 accounts. The system now automates preparation, rendering, submission, and
 status tracking through the local content-factory runner.

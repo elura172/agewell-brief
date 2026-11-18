@@ -1,11 +1,10 @@
 name: Reconcile social publishing
 
 on:
+  # ARCHIVED 2026-11-18: the upload-post.com connector is disabled until further
+  # notice, so the every-6-hours reconcile schedule is switched off. To re-enable,
+  # restore: schedule: [{ cron: "17 */6 * * *" }]
   workflow_dispatch:
-  schedule:
-    # Upload-Post jobs do not need minute-scale polling. Four checks per day
-    # avoid needless Actions usage and repository churn.
-    - cron: "17 */6 * * *"
 
 concurrency:
   group: agewell-aggregation

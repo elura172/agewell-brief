@@ -58,8 +58,10 @@ jobs:
         if: ${{ always() && steps.aggregate.outcome != 'skipped' }}
         continue-on-error: true
         run: python3 -m scripts.verify_and_cross_tag_briefs
-      - name: Validate Upload-Post account
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
+      # ARCHIVED 2026-11-18: the upload-post.com connector is disabled until further notice.
+      # To re-enable: restore the original `if:` condition and set a valid UPLOAD_POST_API_KEY secret.
+      - name: Validate Upload-Post account (archived)
+        if: ${{ false }}
         continue-on-error: true
         run: |
           curl --fail --silent --show-error \
@@ -137,8 +139,10 @@ jobs:
           git add .state/substack-published.json || true
           git diff --cached --quiet || git commit -m "chore: record Substack publish ledger"
           git push || true
-      - name: Submit released article copy to Facebook
-        if: ${{ always() && steps.aggregate.outcome != 'skipped' && (github.event_name == 'schedule' || inputs.run_mode == 'publish') }}
+      # ARCHIVED 2026-11-18: the upload-post.com connector is disabled until further notice.
+      # To re-enable: restore the original `if:` condition and set a valid UPLOAD_POST_API_KEY secret.
+      - name: Submit released article copy to Facebook via Upload-Post (archived)
+        if: ${{ false }}
         continue-on-error: true
         run: python3 -m scripts.publish_facebook --packages .state/social/latest.json
         env:

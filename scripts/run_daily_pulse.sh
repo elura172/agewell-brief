@@ -26,7 +26,13 @@ PYTHONPATH=. python scripts/render_instagram_carousel.py
 echo "📡 [4/5] Submitting Site URLs to IndexNow Search Indexing..."
 PYTHONPATH=. python scripts/run_indexnow_full_site.py
 
-echo "🚀 [5/5] Executing Multi-Platform Social Media Handoff..."
-PYTHONPATH=. python scripts/publish_social_multiplatform.py
+# ARCHIVED 2026-11-18: upload-post.com connector disabled until further notice.
+# Set UPLOAD_POST_ARCHIVED=0 to re-enable the social handoff.
+if [[ "${UPLOAD_POST_ARCHIVED:-1}" == "0" ]]; then
+  echo "🚀 [5/5] Executing Multi-Platform Social Media Handoff..."
+  PYTHONPATH=. python scripts/publish_social_multiplatform.py
+else
+  echo "⏸️  [5/5] Social handoff archived (upload-post.com disabled); skipping."
+fi
 
 echo "✨ Automated Daily Pulse Cycle Completed Successfully!"
