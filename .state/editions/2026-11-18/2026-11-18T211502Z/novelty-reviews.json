@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "02eefe30c7c707ef6904ef81": {
+      "score": 85,
+      "decision": "commission",
+      "novelty_type": "Mechanistic insight into brain aging and waste removal",
+      "reason": "Directly links age-related deep-sleep brain wave weakening and blood flow changes to the brain's nocturnal cleaning system, providing fresh clues for Alzheimer's risk.",
+      "angle": "Why some older adults retain powerful nighttime cleansing waves—and how to protect the brain's plumbing.",
+      "mode": "agent"
+    },
+    "66f3727573e1cef18679a879": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "Lifestyle behavioral correlation",
+      "reason": "While interesting, 'maintaining a consistent daily schedule helps reduce pain and depression' is broad behavioral advice rather than a sharp, novel mechanistic breakthrough.",
+      "angle": "The internal clock connection: why strict daily schedules soothe physical pain.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "Observational sleep duration window",
+      "reason": "Associating a precise sleep hour range with healthy aging is a recycled epidemiological finding lacking a fresh, actionable mechanism.",
+      "angle": "Revisiting the optimal sleep window for longevity.",
+      "mode": "agent"
+    },
+    "b64a41ad335859fbaab7a7cb": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "Pre-clinical murine botanical study",
+      "reason": "A traditional Chinese medicine formula tested on bleomycin-induced pulmonary fibrosis in mice. Low translational novelty for human aging healthspan.",
+      "angle": "Targeting iron dyshomeostasis in pulmonary fibrosis with botanical extracts.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "Broad review perspective",
+      "reason": "An overview connecting sleep, redox metabolism, and aging lacks a single striking breakthrough finding.",
+      "angle": "How redox metabolism bridges the gap between sleep quality and brain longevity.",
+      "mode": "agent"
+    },
+    "d3ba6f9d10e969a610e70f23": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "Theoretical framework for memory formation and dementia",
+      "reason": "A newly published formal framework in 'Brain' proposing how memory creation breaks down in dementia offers a distinct conceptual model.",
+      "angle": "A new brain model explains exactly where memory formation fractures in Alzheimer's disease.",
+      "mode": "agent"
+    },
+    "acbb39f93a6315f01e2c9359": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "Computational neuroscience preprint",
+      "reason": "Theoretical math and computational modeling of working memory circuits (MemGP). Too abstract for a broad reader-stop health briefing.",
+      "angle": "Unifying working memory under a single probabilistic inference process.",
+      "mode": "agent"
+    },
+    "a11502ad6b11c43db892f38a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "Methodological neuroimaging algorithm",
+      "reason": "A methodological paper introducing Progressive Multimodal Fusion (ProgMF) for incomplete neuroimaging data. Pure machine learning/neuroinformatics utility.",
+      "angle": "Bridging gaps in multimodal neuroimaging without imputation.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "General consumer advice",
+      "reason": "A generic consumer wellness guide on anti-aging supplements containing no new clinical trials or safety alerts.",
+      "angle": "What older adults should keep in mind before buying anti-aging supplements.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "02eefe30c7c707ef6904ef81",
+    "d3ba6f9d10e969a610e70f23"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b64a41ad335859fbaab7a7cb",
+    "0b7d57db98938147adfb915a",
+    "acbb39f93a6315f01e2c9359",
+    "a11502ad6b11c43db892f38a",
+    "2beb92ec2e8851b24c8a89de"
+  ],
+  "mode": "agent"
+}

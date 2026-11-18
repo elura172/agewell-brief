@@ -1,0 +1,21 @@
+[
+  {
+    "article_id": "02eefe30c7c707ef6904ef81",
+    "metadata_review": {
+      "selected_candidate_id": "",
+      "score": 0,
+      "rationale": "Neither candidate meets the visual anchor requirements for brain health (such as a neuroscience laboratory, brain MRI/fMRI scan display, optical microscope, electrophysiology researcher, or quiet focused reading/study in natural light) nor does either depict a clinical sleep study or brain monitoring setting as specified in the image brief. Candidate Pexels:7926626 shows an elderly man sleeping outdoors on a backpack, and Unsplash:mFYQabHkGgI shows a grayscale photo of a man reading a newspaper. Both are generic lifestyle images lacking the necessary scientific or clinical context.",
+      "concerns": [
+        "Pexels:7926626 depicts an outdoor setting rather than a clinical or neuroscience laboratory.",
+        "Unsplash:mFYQabHkGgI depicts a man reading a newspaper rather than sleeping or undergoing brain monitoring.",
+        "Both candidates fail to align with the required category visual anchors for brain health and scientific research."
+      ],
+      "metadata_status": "rejected",
+      "visual_status": "pending"
+    },
+    "visual_review": {
+      "status": "pending",
+      "reason": "No suitable image candidate was available."
+    }
+  }
+]

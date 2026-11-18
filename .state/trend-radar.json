@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:50:14.665477+00:00",
+  "generated_at": "2026-11-18T21:15:02.046760+00:00",
   "policy": "Discovery aid only; every topic requires editorial and source review before publication.",
   "topics": [
     {
@@ -40,6 +40,46 @@
           "published": "Wed, 13 May 2026 07:00:00 GMT",
           "seed": "sleep and biological aging",
           "category": "sleep health"
+        }
+      ]
+    },
+    {
+      "topic": "circadian disturbances frailty risk",
+      "headline": "Circadian disturbances and frailty risk in older adults - Nature",
+      "category": "sleep health",
+      "score": 18.0,
+      "mention_count": 3,
+      "source_count": 2,
+      "sources": [
+        "Frontiers",
+        "Nature"
+      ],
+      "newest": "2023-11-16T08:00:00+00:00",
+      "recommendation": "Investigate now: verify against a primary or authoritative source, then draft a timely explainer.",
+      "items": [
+        {
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        },
+        {
+          "title": "Research advances in the study of sleep disorders, circadian rhythm disturbances and Alzheimer’s disease - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnRteFkyQzM2S2FRUVVGN1RWSmdYVy1jZ3hpcmI3dXY1anNCZFdKdGFNZncyOUtqZ2NEOWpIVmNaeUJ2a2M2ZTNvZUFPNWVLTGhRTF9SdXhRd211MmhzUHc4Y3lacWhTSXBkNzFaQ0pULU5xZmRJd29fbmV5aFNMWWJzbzZ0ZnNRNXFQcnJ1VzVtMEFEeEFqUUVfUQ?oc=5",
+          "source": "Frontiers",
+          "published": "Tue, 16 Aug 2022 07:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        },
+        {
+          "title": "Circadian disturbances and frailty risk in older adults - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
+          "source": "Nature",
+          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+          "seed": "circadian brain health",
+          "category": "brain health"
         }
       ]
     },
@@ -342,7 +382,7 @@
       "topic": "arthritis cited concerns contamination drop drugs found hidden manufacturer recalls supplements warnings",
       "headline": "FDA Recalls and Warnings: Eye Drop Manufacturer Cited for Contamination Concerns; Hidden Drugs Found in Arthritis Supplements - MedShadow Foundation",
       "category": "consumer safety",
-      "score": 11.88,
+      "score": 11.74,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -365,7 +405,7 @@
       "topic": "call conditions detection early expanded experts mental mexicans",
       "headline": "Aging experts call for expanded early detection of mental health conditions in older New Mexicans - Source New Mexico",
       "category": "general wellness",
-      "score": 11.64,
+      "score": 11.49,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -388,7 +428,7 @@
       "topic": "accelerate biological changes disorders linked methylation sleep",
       "headline": "DNA Methylation Changes Linked to Sleep Disorders May Accelerate Biological Aging - Bioengineer.org",
       "category": "sleep health",
-      "score": 11.37,
+      "score": 11.22,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -470,37 +510,6 @@
       ]
     },
     {
-      "topic": "circadian disturbances frailty risk",
-      "headline": "Circadian disturbances and frailty risk in older adults - Nature",
-      "category": "sleep health",
-      "score": 11.0,
-      "mention_count": 2,
-      "source_count": 1,
-      "sources": [
-        "Nature"
-      ],
-      "newest": "2023-11-16T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        },
-        {
-          "title": "Circadian disturbances and frailty risk in older adults - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rMXpUYlRGc3lSNmF5LVYzS0p2UDJlckJIY0NTOW85Z2tnWlRseUJPcWo3eFhhRGdjM2oyRFVHZWxPY3ppZVlQLU9lYk9FbzJpdVQzSjdvMGpHRkpCdGdN?oc=5",
-          "source": "Nature",
-          "published": "Thu, 16 Nov 2023 08:00:00 GMT",
-          "seed": "circadian brain health",
-          "category": "brain health"
-        }
-      ]
-    },
-    {
       "topic": "balance cedars exercises mobility seniors sinai strength",
       "headline": "Balance Exercises for Seniors: Strength and Mobility - Cedars-Sinai",
       "category": "mobility",
@@ -533,22 +542,22 @@
     },
     {
       "topic": "association brain clinics hyperbaric initiative national partners research safety",
-      "headline": "RX-O2 Hyperbaric Clinics Partners With National Hyperbaric Safety Association on Brain Health Research Initiative - The Detroit News",
+      "headline": "RX-O2 Hyperbaric Clinics Partners With National Hyperbaric Safety Association on Brain Health Research Initiative - The Des Moines Register",
       "category": "general wellness",
-      "score": 10.61,
+      "score": 10.41,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "The Detroit News"
+        "The Des Moines Register"
       ],
-      "newest": "2026-11-18T06:27:30+00:00",
+      "newest": "2026-11-18T06:01:45+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "RX-O2 Hyperbaric Clinics Partners With National Hyperbaric Safety Association on Brain Health Research Initiative - The Detroit News",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPaWRwQmJuSTdIUlNQcy1VTVgtalRwTjJHdTJiMWtUSGx4Si12bEozdTR3YjdwNHhoNGlTZUU2OTJTODZPVzhEY0VaelUtRDhZU21DeWxYQjkzcC14ZmVwOXJJcmlqaFFELWYzeTVJbjRCblVlUGx0Z2cwMmpPREp5UzhMM05QMHFQTXFJdEFyQ2g5N3ZqcG4wYm43NjNoV0x2a0VfWE52R2g3eXhseC12OWQ0NVpYVUUtb2s0WXFFM3RfXy1sZHo3d1I2RF9rYW16TTV6Z0VFVTgxajdRSTlyMjl1V1czSEZVLU85THRtdWl1ZVhRaGVMbEVuNFZDZw?oc=5",
-          "source": "The Detroit News",
-          "published": "Wed, 18 Nov 2026 06:27:30 GMT",
+          "title": "RX-O2 Hyperbaric Clinics Partners With National Hyperbaric Safety Association on Brain Health Research Initiative - The Des Moines Register",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQaUM2WEZJd25rZXhXbUFUUUpzSld5SUhRQmk2UjE2Slo5Wk0wcWRKamhId1cyYkhSOHdJcFhqcHhkQ3dIbEk2XzFDX0V3TVR0emJ2MzV4QlYtMHVtQjRNaXZKNmgwWmtxSVpidWM0Q01RQ3NoTVVZUXl6NS1hVk1wV2J6cVpxRnhMbENvdXVxNXJ0UFhTX1FLeC1fTTJyYlV1b1pWa3NvNFpQZjZuZEZIRGljWWhhM0VmLU9JYVd3aFVxRlVzSUI0SWpvU1E2QlNsRlJIOU1WWmFPTGRabU9PaU5BWnlWZmZ0a21Ia0NrY1JGSWk2YXZDRndEcWhXTkgtVldadF9B?oc=5",
+          "source": "The Des Moines Register",
+          "published": "Wed, 18 Nov 2026 06:01:45 GMT",
           "seed": "healthy aging",
           "category": "general wellness"
         }
@@ -558,7 +567,7 @@
       "topic": "improved linked physical resilience social support",
       "headline": "Social Support Linked to Improved Physical Resilience in Older Adults - Bioengineer.org",
       "category": "general wellness",
-      "score": 9.71,
+      "score": 9.56,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -581,7 +590,7 @@
       "topic": "awards million more nutrition services strengthen than",
       "headline": "HHS Awards More Than $3 Million to Strengthen Nutrition Services for Older Adults - HHS.gov",
       "category": "general wellness",
-      "score": 9.01,
+      "score": 8.87,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
@@ -1084,29 +1093,6 @@
       ]
     },
     {
-      "topic": "both circadian interact system times where",
-      "headline": "Circadian system and aging: where both times interact - Frontiers",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Frontiers"
-      ],
-      "newest": "2025-10-17T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Circadian system and aging: where both times interact - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU0pBYnc4a2dEQVhIdVhTMmNwQ0xmZk8zLUNHZjRjWmJjV0xxd2NVYlpHOXlYenJiUzZIRVNzVllTa05PNVhLZWYyajN1Nklhb2RBVkllY09IdHpSMmJfdjVDY3pMb005c25HbmZ3UGtrYW5mcmVRLXA3am5JN3p5VWZzTFc5cGN4U0I4?oc=5",
-          "source": "Frontiers",
-          "published": "Fri, 17 Oct 2025 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
       "topic": "better boost dementia lighting mood patients sleep",
       "headline": "Better lighting can boost sleep, mood in dementia patients - ASU News",
       "category": "sleep health",
@@ -1124,29 +1110,6 @@
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaEpES3pqZFJlZmVaOHcxSWFZY1ZIOWJQNTRYbTFLRVUzQWQ0c0MzVWRrSFZTVGVDUDRCMDVEUTRMTkMzOW42M3ZzS28ybVhhVFJJUUNaRzRySUJsWFBMcDJzcXVoUkNlR1N2UjEyNEI2SXl5WU4wSnVzZzY5Wi1ZYTg0dF81anY2WmU2QS1WUjNkcXZ5LVZ4Z0s0M0dBTmx5SDhjcUtqUQ?oc=5",
           "source": "ASU News",
           "published": "Tue, 09 Sep 2025 07:00:00 GMT",
-          "seed": "sleep health",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
-      "topic": "accelerate cognitive decline middle schedules shift work",
-      "headline": "Shift Work Schedules Accelerate Cognitive Decline at Middle Age - Sleep Review",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Sleep Review"
-      ],
-      "newest": "2025-01-14T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Shift Work Schedules Accelerate Cognitive Decline at Middle Age - Sleep Review",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSUQwdjJUc09oZVZPUmFtdTNQcFFzZE1tWWJoUmgxdGtDZnVsWW83VHVwRVBkY2lQaFBrTGRXeERjZlZWallXV1QyNzdTZWtNeE9Tem91cVZ3d2hKNDBrTGhvS1RNeG0tVTJhWGZfeVo3b0E4Nl82Nk05dk03MEdMOEhNVDI4Y3hzamd5X1RqU2haQmVhTXJjMnZaeENtNmtFLWU1ME1BdFluemEyaGFkbUZpeUFiZjYzM2x3cHNNZ2I3LUZfX2VRUDl0b3lEc0pGTml2aTRxTS1iUQ?oc=5",
-          "source": "Sleep Review",
-          "published": "Tue, 14 Jan 2025 08:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         }
@@ -1176,6 +1139,29 @@
       ]
     },
     {
+      "topic": "accelerate cognitive decline middle schedules shift work",
+      "headline": "Shift Work Schedules Accelerate Cognitive Decline at Middle Age - Sleep Review",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Sleep Review"
+      ],
+      "newest": "2025-01-14T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Shift Work Schedules Accelerate Cognitive Decline at Middle Age - Sleep Review",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSUQwdjJUc09oZVZPUmFtdTNQcFFzZE1tWWJoUmgxdGtDZnVsWW83VHVwRVBkY2lQaFBrTGRXeERjZlZWallXV1QyNzdTZWtNeE9Tem91cVZ3d2hKNDBrTGhvS1RNeG0tVTJhWGZfeVo3b0E4Nl82Nk05dk03MEdMOEhNVDI4Y3hzamd5X1RqU2haQmVhTXJjMnZaeENtNmtFLWU1ME1BdFluemEyaGFkbUZpeUFiZjYzM2x3cHNNZ2I3LUZfX2VRUDl0b3lEc0pGTml2aTRxTS1iUQ?oc=5",
+          "source": "Sleep Review",
+          "published": "Tue, 14 Jan 2025 08:00:00 GMT",
+          "seed": "sleep health",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
       "topic": "alignment associations between circadian cognitive functioning nationally reports representative sample scientific",
       "headline": "Associations between circadian alignment and cognitive functioning in a nationally representative sample of older adults | Scientific Reports - Nature",
       "category": "sleep health",
@@ -1199,8 +1185,8 @@
       ]
     },
     {
-      "topic": "antioxidant healthy life melatonin nutrition rhythms sleep strategies",
-      "headline": "Rhythms of life: melatonin, nutrition, sleep, and antioxidant strategies for healthy aging - Frontiers",
+      "topic": "both circadian interact system times where",
+      "headline": "Circadian system and aging: where both times interact - Frontiers",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
@@ -1208,22 +1194,22 @@
       "sources": [
         "Frontiers"
       ],
-      "newest": "2026-02-03T12:43:28+00:00",
+      "newest": "2025-10-17T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Rhythms of life: melatonin, nutrition, sleep, and antioxidant strategies for healthy aging - Frontiers",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObXlNT0JxbmZTbUY4R29kT3d5U1c2Ujl2b09fYXVJd3JQYTZvSzkxaDlyMTZFeENLcFhicEFkaEhhaHRiVHJ4RTBMZGhodHFrb3B3cjNzWjlVUXllQ01xQXlmQVNXWFZrVmdIQ1g1Rk16dVlfc0o5MFhfRVQ1V0h6NzZ4WVA0Wm9NeG1PZUZTRkZoOUV5?oc=5",
+          "title": "Circadian system and aging: where both times interact - Frontiers",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU0pBYnc4a2dEQVhIdVhTMmNwQ0xmZk8zLUNHZjRjWmJjV0xxd2NVYlpHOXlYenJiUzZIRVNzVllTa05PNVhLZWYyajN1Nklhb2RBVkllY09IdHpSMmJfdjVDY3pMb005c25HbmZ3UGtrYW5mcmVRLXA3am5JN3p5VWZzTFc5cGN4U0I4?oc=5",
           "source": "Frontiers",
-          "published": "Tue, 03 Feb 2026 12:43:28 GMT",
+          "published": "Fri, 17 Oct 2025 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         }
       ]
     },
     {
-      "topic": "attenuates attenuating circadian cognitive dysfunctions exercise manner neuroinflammation obesity related sleep specific stat",
-      "headline": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - Nature",
+      "topic": "behaviors exposure light memory mood predict quality reports scientific sleep",
+      "headline": "Light exposure behaviors predict mood, memory and sleep quality - Scientific Reports - Nature",
       "category": "sleep health",
       "score": 7.0,
       "mention_count": 1,
@@ -1231,14 +1217,14 @@
       "sources": [
         "Nature"
       ],
-      "newest": "2026-06-02T07:00:00+00:00",
+      "newest": "2023-08-01T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Exercise attenuates obesity-related cognitive and sleep-circadian dysfunctions by attenuating neuroinflammation via JAK/STAT in sex and age specific manner - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZOEZLYWFxZTFDcVlHb0dBU01yMndIcGZiZF9LUHhDU0JtOU9oT3A3T3c3ZlZKeEV0dEhoUEl6R2k3R2JaYkdmTDBaWGl1d3p0N0VLbW94NGh6c1MzYjgw?oc=5",
+          "title": "Light exposure behaviors predict mood, memory and sleep quality - Scientific Reports - Nature",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FT2psZ0liRVlGaFlza2dnRVRDU0ZWRS15Uk05Ti1KVG42RUd0a1JBMWdhcG5vSjZVSVR0dm9rMkhoMEF3azZqUkFRZldPRHN4dHlYUl9vS2c2YXpZV1JJ?oc=5",
           "source": "Nature",
-          "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+          "published": "Tue, 01 Aug 2023 07:00:00 GMT",
           "seed": "sleep health",
           "category": "sleep health"
         }
@@ -1291,29 +1277,6 @@
       ]
     },
     {
-      "topic": "diabetes novel obesity peptide promise shows therapy treating",
-      "headline": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - Johns Hopkins Medicine",
-      "category": "metabolic health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Johns Hopkins Medicine"
-      ],
-      "newest": "2023-11-21T08:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - Johns Hopkins Medicine",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbTZxeHZLQVliZjNfZTZjU3FKVTdjTzFfWmgxVnVPLVVjWGZrWDMzTnN5OElIc2lIdTUwcTdOXzhVZXpJRXVLMk1xVUpONGE5Y2ZKRTJOOVY3eWJ3c0thLTVyYnoyQ0RaR1lPWUlZdU5IRmxCZW4wVkhSSWxkSmhCbGtoSlZXSnpHdlFJN3V2X0NKamlvdDdEOGgtVlgyWFc0SWNvdlYza1dpTlZKNUdEOWM4ZDBiRFNrd1dXbGxMdUFSNE1aR2RwSXRNR3pEbXVhaVlvenFJeXNKRzQ?oc=5",
-          "source": "Johns Hopkins Medicine",
-          "published": "Tue, 21 Nov 2023 08:00:00 GMT",
-          "seed": "metabolic health",
-          "category": "metabolic health"
-        }
-      ]
-    },
-    {
       "topic": "approaches current epidemiology mechanisms metabolic syndrome therapeutic",
       "headline": "Metabolic syndrome: epidemiology, mechanisms, and current therapeutic approaches - Frontiers",
       "category": "metabolic health",
@@ -1331,6 +1294,29 @@
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNkxCVlpaNENEbC1teGZ3RFFLdThHN1hRWGtHeDRDbGs4dFc3U29yV2hBQXpHN3dEcXlrRkwyUmJyN3pkTTVEN1BzVnNvMktheEhheVQyaFlrQ3JNZkpyb08wSUpRaDVYOThsSDNuakY3UnRaMzRqS0VFZmk4dEFQUVJUaE96VkVhbUZIYXRFbw?oc=5",
           "source": "Frontiers",
           "published": "Wed, 03 Sep 2025 07:00:00 GMT",
+          "seed": "metabolic health",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
+      "topic": "diabetes novel obesity peptide promise shows therapy treating",
+      "headline": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - Johns Hopkins Medicine",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Johns Hopkins Medicine"
+      ],
+      "newest": "2023-11-21T08:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Novel Peptide Therapy Shows Promise for Treating Obesity, Diabetes and Aging - Johns Hopkins Medicine",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbTZxeHZLQVliZjNfZTZjU3FKVTdjTzFfWmgxVnVPLVVjWGZrWDMzTnN5OElIc2lIdTUwcTdOXzhVZXpJRXVLMk1xVUpONGE5Y2ZKRTJOOVY3eWJ3c0thLTVyYnoyQ0RaR1lPWUlZdU5IRmxCZW4wVkhSSWxkSmhCbGtoSlZXSnpHdlFJN3V2X0NKamlvdDdEOGgtVlgyWFc0SWNvdlYza1dpTlZKNUdEOWM4ZDBiRFNrd1dXbGxMdUFSNE1aR2RwSXRNR3pEbXVhaVlvenFJeXNKRzQ?oc=5",
+          "source": "Johns Hopkins Medicine",
+          "published": "Tue, 21 Nov 2023 08:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1406,23 +1392,23 @@
       ]
     },
     {
-      "topic": "acid affect aged consumption diabetic hepatokines liver resistance training ursolic",
-      "headline": "Resistance training and ursolic acid consumption affect hepatokines in aged diabetic rat liver - Nature",
+      "topic": "bodies build healthier strength training",
+      "headline": "How can strength training build healthier bodies as we age? - National Institute on Aging (.gov)",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Nature"
+        "National Institute on Aging (.gov)"
       ],
-      "newest": "2025-07-07T07:00:00+00:00",
+      "newest": "2022-06-30T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Resistance training and ursolic acid consumption affect hepatokines in aged diabetic rat liver - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wenNaQlFIYnNUckR4dnpZNkZ1Qy1PV0NKallNQmJibC0yY3lIeTgyMGVOQk11Z1FqaWtXdHVpYmpLYzQtNGVWWE9sb2Q0RkJCemhELWpyQjVxTUllQU9B?oc=5",
-          "source": "Nature",
-          "published": "Mon, 07 Jul 2025 07:00:00 GMT",
+          "title": "How can strength training build healthier bodies as we age? - National Institute on Aging (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbFdvTW9oMHctUk1mNF90WVBxRHp1WVhLcjFWbWdBMTk1REV5OGhmTWVxZGpBNWU1djhxbnpVdnFCa1FBNkx6ejFhS0tpbmp6OFpaNjJwaDE4Yi16NzZSUW1vNXlRM1ZQbGxxWVVwLXBnQ25QZzAwd1F3OEVuaTJ6SS1nY2pfN1g5SWk4aA?oc=5",
+          "source": "National Institute on Aging (.gov)",
+          "published": "Thu, 30 Jun 2022 07:00:00 GMT",
           "seed": "metabolic health",
           "category": "metabolic health"
         }
@@ -1705,6 +1691,29 @@
       ]
     },
     {
+      "topic": "actually asked doctors healthy hold supplements which",
+      "headline": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
+      "category": "general wellness",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Health.com"
+      ],
+      "newest": "2026-08-04T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96Y0lBWHk4elBmOEpLQ2dOaWRQTlBWcEFZcDhNWkJNSXdybTA1SnpRU3gweW9oRGF2UDEzUm90UlpPLVdKRU9yVDZaZGwyUS1JaFloZGJEQVRqZlVFekZzVmVCUnd3dGROZEFIaVBWbHRwS05BYkxlVEhOcmVtUQ?oc=5",
+          "source": "Health.com",
+          "published": "Tue, 04 Aug 2026 07:00:00 GMT",
+          "seed": "dietary supplements",
+          "category": "general wellness"
+        }
+      ]
+    },
+    {
       "topic": "busting clarity five myths search supplements worth",
       "headline": "In search of clarity on supplements: Five myths worth busting - Stanford Medicine",
       "category": "general wellness",
@@ -1837,29 +1846,6 @@
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUlVhV19odWlZWS1hcWI1enM5cnM3X2NqOHdGamFBN3ZIVXpUV25DNjFiTnFpQ2VUUEtMWmZPWXh2MXhvTEo5TUVJUEpoenJHZGRhR0FxeEJoLUhhajdaREJHT2dZV2xsbDNGemJFZVlsRi15ajF1VEtyY0RqNmY4bFplRUx0SDFBV3h4OA?oc=5",
           "source": "Mayo Clinic Press",
           "published": "Thu, 17 Oct 2024 07:00:00 GMT",
-          "seed": "dietary supplements",
-          "category": "general wellness"
-        }
-      ]
-    },
-    {
-      "topic": "actually asked doctors healthy hold supplements which",
-      "headline": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
-      "category": "general wellness",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Health.com"
-      ],
-      "newest": "2026-08-04T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "We Asked Doctors Which Healthy Aging Supplements Actually Hold Up - Health.com",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96Y0lBWHk4elBmOEpLQ2dOaWRQTlBWcEFZcDhNWkJNSXdybTA1SnpRU3gweW9oRGF2UDEzUm90UlpPLVdKRU9yVDZaZGwyUS1JaFloZGJEQVRqZlVFekZzVmVCUnd3dGROZEFIaVBWbHRwS05BYkxlVEhOcmVtUQ?oc=5",
-          "source": "Health.com",
-          "published": "Tue, 04 Aug 2026 07:00:00 GMT",
           "seed": "dietary supplements",
           "category": "general wellness"
         }
@@ -2280,6 +2266,29 @@
       ]
     },
     {
+      "topic": "founder improve insomnia israeli million ptsd raises scent sleep through years",
+      "headline": "After PTSD and years of insomnia, Israeli founder raises $6.5 million to improve sleep through scent - CTech",
+      "category": "sleep health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "CTech"
+      ],
+      "newest": "2026-06-16T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "After PTSD and years of insomnia, Israeli founder raises $6.5 million to improve sleep through scent - CTech",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FR0JTcjZlRHNGenh1UmN6RjBBejE4Tm5XNHhQaUt6TVAzYXhmWTNJMW9SYnNLRGZvLS1FUjBxVTBTbFB4UUc4b1lZYjNZYUxfRzNMNkRNT0FpOGhzY0FJY21HV0k5Y3hGa2c?oc=5",
+          "source": "CTech",
+          "published": "Tue, 16 Jun 2026 07:00:00 GMT",
+          "seed": "intervention sleep technology",
+          "category": "sleep health"
+        }
+      ]
+    },
+    {
       "topic": "acoustic closed comprehensive device efficacy featuring loop real reports scientific sleep stimulation time wearable",
       "headline": "A comprehensive study on the efficacy of a wearable sleep aid device featuring closed-loop real-time acoustic stimulation | Scientific Reports - Nature",
       "category": "sleep health",
@@ -2320,29 +2329,6 @@
           "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcm1sZldiUUItRWlMSF9SeU05RjE5NjZmSFoyLUFQZk1CaUlmSHFFRXJMcDVnUkZVT0swZjhUVlBPVGVIb1Y1V2hKNjh3NG02WnFFajN5T3FFMU44QU5CV0JublNrRnpKSzNFY1R1UGdLQWljM3BuenlVeFk5ekt4Vmp2SF9FMFduOGJVb19Eb2FDRzB1WUt2N09LeTVzVHJuYVJ4Si1QY3hTMHNvcGFEd3dKaVhFcEFwc29WZTFnSTB5VDdkSTJaRVZGUnRCeDRsQy13bmdkRVdWaVVjM3JFXw?oc=5",
           "source": "Business Wire",
           "published": "Tue, 10 Jun 2025 07:00:00 GMT",
-          "seed": "intervention sleep technology",
-          "category": "sleep health"
-        }
-      ]
-    },
-    {
-      "topic": "communications learning machine medicine pain reciprocity revealing sleep wearables",
-      "headline": "Revealing sleep and pain reciprocity with wearables and machine learning | Communications Medicine - Nature",
-      "category": "sleep health",
-      "score": 7.0,
-      "mention_count": 1,
-      "source_count": 1,
-      "sources": [
-        "Nature"
-      ],
-      "newest": "2025-05-07T07:00:00+00:00",
-      "recommendation": "Watch: gather more independent coverage before drafting.",
-      "items": [
-        {
-          "title": "Revealing sleep and pain reciprocity with wearables and machine learning | Communications Medicine - Nature",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhYi1MTndJTTRXUEg5Zm9mckd1UWhQaFhrRXhGc205OEJLTHRzOFczdXdQalE5empORnhrZUdybi1EY3NPU09WdmQzY2pfR253WUJlVGVNeldlNjhUNkYw?oc=5",
-          "source": "Nature",
-          "published": "Wed, 07 May 2025 07:00:00 GMT",
           "seed": "intervention sleep technology",
           "category": "sleep health"
         }
@@ -2418,6 +2404,29 @@
       ]
     },
     {
+      "topic": "benefits beyond loss semaglutide weight",
+      "headline": "Semaglutide and aging: New study finds benefits beyond weight loss - Medical News Today",
+      "category": "metabolic health",
+      "score": 7.0,
+      "mention_count": 1,
+      "source_count": 1,
+      "sources": [
+        "Medical News Today"
+      ],
+      "newest": "2026-06-09T07:00:00+00:00",
+      "recommendation": "Watch: gather more independent coverage before drafting.",
+      "items": [
+        {
+          "title": "Semaglutide and aging: New study finds benefits beyond weight loss - Medical News Today",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN1ZqUkFvVU9oem40S19KaWh0Rm4tdXBocThqbDhmcDJ3N1ZZMVhCaEVHSnpWT3ZZYUFCdm94anprZGN2cDRhakJRM2lORzlSVi01VldpRFZJbEF0LW9YZTBuWGxXY05ONzEzcFZmekxCZm1EcTFxWXJTdmJEMm5EczVIVjBHc0hZaVpqTlB4dkJQSHloTFQ3ZVFn?oc=5",
+          "source": "Medical News Today",
+          "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+          "seed": "GLP-1 and healthy aging",
+          "category": "metabolic health"
+        }
+      ]
+    },
+    {
       "topic": "active biological clinical first human ingredient ozempic slow trial",
       "headline": "Ozempic's Active Ingredient May Slow Biological Aging, First Human Clinical Trial Finds - Medical Daily",
       "category": "metabolic health",
@@ -2464,23 +2473,23 @@
       ]
     },
     {
-      "topic": "benefits beyond loss semaglutide weight",
-      "headline": "Semaglutide and aging: New study finds benefits beyond weight loss - Medical News Today",
+      "topic": "extension healthy human life longevity shift valuing",
+      "headline": "The Longevity Shift: Valuing The Extension Of Healthy Human Life - Ark Invest",
       "category": "metabolic health",
       "score": 7.0,
       "mention_count": 1,
       "source_count": 1,
       "sources": [
-        "Medical News Today"
+        "Ark Invest"
       ],
-      "newest": "2026-06-09T07:00:00+00:00",
+      "newest": "2026-05-20T07:00:00+00:00",
       "recommendation": "Watch: gather more independent coverage before drafting.",
       "items": [
         {
-          "title": "Semaglutide and aging: New study finds benefits beyond weight loss - Medical News Today",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN1ZqUkFvVU9oem40S19KaWh0Rm4tdXBocThqbDhmcDJ3N1ZZMVhCaEVHSnpWT3ZZYUFCdm94anprZGN2cDRhakJRM2lORzlSVi01VldpRFZJbEF0LW9YZTBuWGxXY05ONzEzcFZmekxCZm1EcTFxWXJTdmJEMm5EczVIVjBHc0hZaVpqTlB4dkJQSHloTFQ3ZVFn?oc=5",
-          "source": "Medical News Today",
-          "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+          "title": "The Longevity Shift: Valuing The Extension Of Healthy Human Life - Ark Invest",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRDJqUzVERGNsdXhNY3U5c1cwM09ORU9XbV82U3lXZGVqY2VYb1N6bXFuZ1ZQX0h0eHVfWjh4LWxPcE9Lam9SYVhrczNMbmZqZWNQS3NfV2JKbTRSekpEcGNfT3lBMkM4NVBjV3NMMjNOaVR0VTBpSWZiek1ZOS1NSHVKLUZzVUtvZzRvUE1HMVR3MkxGbUdIZ1RhMTM4bzFmdDhJUnhVVzI3RVd5dVU5dVFqcmhNSjg?oc=5",
+          "source": "Ark Invest",
+          "published": "Wed, 20 May 2026 07:00:00 GMT",
           "seed": "GLP-1 and healthy aging",
           "category": "metabolic health"
         }
@@ -2536,7 +2545,7 @@
       "topic": "healthy hsrc standard supports times",
       "headline": "HSRC supports healthy aging - Times-Standard",
       "category": "general wellness",
-      "score": 5.64,
+      "score": 5.49,
       "mention_count": 1,
       "source_count": 0,
       "sources": [],
