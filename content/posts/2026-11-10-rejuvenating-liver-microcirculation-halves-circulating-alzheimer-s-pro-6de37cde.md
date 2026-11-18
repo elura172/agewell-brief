@@ -10,18 +10,16 @@ source_url: "https://www.sciencedaily.com/releases/2026/10/261031221155.htm"
 source_title: "Scientists reverse liver cell aging and cut Alzheimer’s-linked protein in half"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Unsplash"
-image_provider_id: "JxoWb7wHqnA"
-image: "https://images.unsplash.com/photo-1630959305790-4c956ce6c0b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NXx8Zmx1b3Jlc2NlbmNlJTIwbWljcm9zY29weSUyMGNlbGwlMjByZXNlYXJjaHxlbnwxfDB8fHwxNzk0MjcyNDQyfDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "A person in a white lab coat looking through a microscope in a laboratory"
-image_caption: "A researcher looking through a microscope in a laboratory investigates the cellular signaling cascades that clear neurotoxic waste by restoring aging liver filters."
-image_width: 5400
-image_height: 3510
-image_photographer: "National Cancer Institute"
-image_photographer_url: "https://unsplash.com/@nci?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/scientist-using-microscope-in-laboratory-JxoWb7wHqnA?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#262626"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-6de37cde"
+image: "/images/editions/2026-11-10/rejuvenating-liver-microcirculation-halves-circulating-alzheimer-s-pro-6de37cde-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a hexagonal hepatic sinusoidal spiral sieve filtering half of circulating terracotta amyloid particulates downward into biliary drainage so the ascending vascular conduit to the brain dome remains clear."
+image_caption: "Restoring nitric-oxide-dependent microcirculation across liver sinusoidal beds filters out half of peripheral amyloid-beta before it can burden the blood-brain barrier."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Michael Levin", "year": "2012", "discovery": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing. (The Bioelectric Morphogenetic Code & Anatomical Homeostasis)"}]

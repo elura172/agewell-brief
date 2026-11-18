@@ -10,18 +10,16 @@ source_url: "https://www.sciencedaily.com/releases/2026/11/261101010556.htm"
 source_title: "Scientists discover mysterious “lonely” brain waves linked to memory loss"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Unsplash"
-image_provider_id: "AB0r9z7eRYg"
-image: "https://images.unsplash.com/photo-1758691463110-697a814b2033?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8Nnx8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGJyYWluJTIwc2NhbnxlbnwxfDB8fHwxNzk0MTc5MTU5fDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "Two doctors examining a brain mri scan together"
-image_caption: "Two doctors examine a brain MRI scan, tracing the disrupted deep sleep pathways where tau protein accumulation begins to fracture memory consolidation before cognitive symptoms surface."
-image_width: 3840
-image_height: 2160
-image_photographer: "Vitaly Gariev"
-image_photographer_url: "https://unsplash.com/@silverkblack?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/two-doctors-examining-a-brain-mri-scan-together-AB0r9z7eRYg?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#404040"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-bba5979f"
+image: "/images/editions/2026-11-08/broken-signals-in-deep-sleep-how-lonely-brain-waves-reveal-hidden-memo-bba5979f-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a broad cortical slow-wave oscillation interrupted by a dense isometric cluster of frontal tau blocks and fracturing into isolated short-range lonely-wave ripples."
+image_caption: "Early frontal tau deposits block long-range cortical slow-wave sweeps during deep sleep, fracturing them into isolated ripples that fail to consolidate overnight memory."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}]

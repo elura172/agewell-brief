@@ -15,12 +15,16 @@ ancestral_insight: "In ancestral environments, sleep-wake cycles were tightly co
 evidence_position: "emerging"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-af82708a"
+image: "/images/editions/2026-08-15/your-brain-s-plumbing-runs-on-a-24-hour-clock-new-study-links-wakefuln-af82708a-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph coupling a 24-division solar-lunar circadian clock dial and brainstem reticular nucleus node to a surging 0.1 Hz cerebrospinal fluid wave flushing metabolic particulates through cerebral ventricles."
+image_caption: "Low-frequency 0.1 Hz cerebrospinal fluid clearance waves track endogenous circadian time and brainstem wake-promoting nuclei, cresting near the dawn threshold."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 ---
 
 A 34-hour sleep deprivation study reveals that cerebrospinal fluid oscillations—the brain's clearance waves—rise with time awake and peak in the early morning, driven by wake-promoting nuclei, not norepinephrine.

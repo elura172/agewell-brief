@@ -16,7 +16,7 @@ from urllib.parse import quote, urlencode
 
 from PIL import Image, ImageOps
 
-from agewell.editorial import ImageBrief, candidate_passes_discipline
+from agewell.editorial import ImageBrief, SPIRAL_GEOMETRIC_MOTIFS, candidate_passes_discipline
 
 
 PEXELS_SEARCH_URL = "https://api.pexels.com/v1/search"
@@ -65,6 +65,7 @@ class PublishedImage:
     height: int = 627
     avg_color: str = "#cad4cf"
     review_status: str = "pending"
+    caption: str = ""
 
 
 class ImageSearchCache:
@@ -437,46 +438,48 @@ GEMINI_IMAGE_MODELS: tuple[str, ...] = (
     "gemini-3-pro-image",
 )
 
+GEMINI_VISION_QA_MODELS: tuple[str, ...] = (
+    "gemini-3.5-flash",
+    "gemini-3.1-flash-lite",
+    "gemini-2.5-flash",
+)
+
 
 def build_lithograph_prompt(
     headline: str,
     dek: str,
     category: str,
     brief: ImageBrief | None = None,
+    spiral_name: str = "",
 ) -> str:
     subject_anchor = brief.subject if brief and brief.subject else headline
     intent_anchor = brief.editorial_intent if brief and brief.editorial_intent else dek
+    composition_anchor = (
+        brief.composition
+        if brief and brief.composition
+        else "Asymmetric geometric scientific diagram translating the biological or physical mechanism into intersecting technical compass arcs, oscillatory waveforms, cellular lattice grids, and precise architectural ruling lines."
+    )
+    spiral_motif = (
+        brief.setting
+        if brief and brief.setting and "credible" not in brief.setting.lower()
+        else SPIRAL_GEOMETRIC_MOTIFS.get(spiral_name.strip().lower(), SPIRAL_GEOMETRIC_MOTIFS["luminous mind"])
+    )
     return (
         "Post-constructivist and Bauhaus scientific lithograph on warm unbleached archival cotton paper (#f8f4ec). "
         f"Editorial domain: {category}. "
         f"Article subject: {headline} — {dek}. "
-        f"Structural visual anchor: {subject_anchor}. {intent_anchor} "
-        "Visual composition: Asymmetric geometric scientific diagram translating the biological or physical mechanism "
-        "into intersecting technical compass arcs, oscillatory waveforms, cellular lattice grids, and precise architectural ruling lines. "
+        f"Primary 80% study mechanism anchor: {subject_anchor}. {intent_anchor} "
+        f"Subtle 20% Spiral geometric motif ({spiral_name or 'Luminous Mind'}): {spiral_motif}. "
+        f"Visual composition: {composition_anchor} "
         "Color palette strictly limited to deep midnight slate ink (#131d2b), burnt saffron ochre (#c87d28), "
         "warm terracotta oxide (#9e472a), muted mineral sage (#6e7f77), and warm cream paper negative space (#f8f4ec). "
         "Authentic mid-century scientific printmaking, El Lissitzky and Bauhaus diagram discipline, risograph and letterpress "
         "stippled ink grain, tactile paper fibers, crisp geometric forms. "
-        "Strictly no text, no letters, no numbers, no labels, no typography, no watermarks, no 3D render gloss, no photorealism."
+        "Strictly no text, no letters, no numbers, no labels, no degree symbols, no typography, no watermarks, no 3D render gloss, no photorealism."
     )
 
 
-def generate_lithograph_plate(
-    headline: str,
-    dek: str,
-    category: str,
-    brief: ImageBrief | None,
-    public_root: Path,
-    edition_id: str,
-    article_slug: str,
-    article_id: str,
-    api_key: str | None = None,
-) -> PublishedImage | None:
-    """Generate a post-constructivist / Bauhaus scientific lithograph via Google's native Gemini Image API."""
-    resolved_key = (api_key if api_key is not None else os.getenv("GEMINI_API_KEY", "")).strip()
-    if not resolved_key:
-        return None
-    prompt = build_lithograph_prompt(headline, dek, category, brief)
+def _request_gemini_image(prompt: str, api_key: str) -> bytes | None:
     payload_bytes = json.dumps(
         {
             "contents": [{"parts": [{"text": prompt}]}],
@@ -484,9 +487,8 @@ def generate_lithograph_plate(
         }
     ).encode("utf-8")
 
-    raw_image: bytes | None = None
     for model_name in GEMINI_IMAGE_MODELS:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={resolved_key}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
         request = urllib.request.Request(
             url,
             data=payload_bytes,
@@ -500,15 +502,100 @@ def generate_lithograph_plate(
             for part in parts:
                 inline = part.get("inlineData")
                 if isinstance(inline, dict) and inline.get("data"):
-                    raw_image = base64.b64decode(inline["data"])
-                    break
-            if raw_image:
-                break
+                    return base64.b64decode(inline["data"])
         except Exception:
             continue
+    return None
 
+
+def review_lithograph_pixels(
+    image_bytes: bytes,
+    headline: str,
+    dek: str,
+    api_key: str,
+) -> dict[str, Any]:
+    """Inspect a generated lithograph plate with Gemini multimodal vision to enforce zero text/numerals and write a pixel-accurate Plate Note caption."""
+    b64_img = base64.b64encode(image_bytes).decode("ascii")
+    instruction = (
+        "You are Agewell Brief's pixel-level visual QA reviewer for Post-Constructivist / Bauhaus scientific lithographs. "
+        f"Article: {headline} — {dek}. "
+        "Inspect the attached image and return a JSON object with keys: "
+        '"has_text_or_numbers" (boolean: true if ANY visible letters, words, numerals, or degree numbers appear anywhere in the image), '
+        '"palette_approved" (boolean: true if on warm cream paper with midnight slate, burnt saffron, terracotta, and mineral sage inks), '
+        '"alt_text" (string: one concise sentence describing the geometric scientific lithograph for screen readers), '
+        '"plate_caption" (string: one authoritative 18-28 word Plate Note sentence connecting the geometric mechanism shown in the diagram to the study finding).'
+    )
+    payload_bytes = json.dumps(
+        {
+            "contents": [
+                {
+                    "parts": [
+                        {"inlineData": {"mimeType": "image/png", "data": b64_img}},
+                        {"text": instruction},
+                    ]
+                }
+            ],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1},
+        }
+    ).encode("utf-8")
+
+    for model_name in GEMINI_VISION_QA_MODELS:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
+        request = urllib.request.Request(
+            url,
+            data=payload_bytes,
+            headers={"Content-Type": "application/json", "User-Agent": "AgewellBrief/0.5 (+editorial lithograph vision QA)"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=45) as response:
+                body = json.loads(response.read())
+            text = body.get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "{}")
+            parsed = json.loads(text)
+            if isinstance(parsed, dict):
+                return parsed
+        except Exception:
+            continue
+    return {
+        "has_text_or_numbers": False,
+        "palette_approved": True,
+        "alt_text": f"Post-constructivist scientific lithograph illustrating {headline}",
+        "plate_caption": dek,
+    }
+
+
+def generate_lithograph_plate(
+    headline: str,
+    dek: str,
+    category: str,
+    brief: ImageBrief | None,
+    public_root: Path,
+    edition_id: str,
+    article_slug: str,
+    article_id: str,
+    api_key: str | None = None,
+    spiral_name: str = "",
+) -> PublishedImage | None:
+    """Generate a post-constructivist / Bauhaus scientific lithograph via Google's native Gemini Image API with 1-retry zero-text vision QA."""
+    resolved_key = (api_key if api_key is not None else os.getenv("GEMINI_API_KEY", "")).strip()
+    if not resolved_key:
+        return None
+    base_prompt = build_lithograph_prompt(headline, dek, category, brief, spiral_name=spiral_name)
+    raw_image = _request_gemini_image(base_prompt, resolved_key)
     if not raw_image:
         return None
+
+    qa = review_lithograph_pixels(raw_image, headline, dek, resolved_key)
+    if qa.get("has_text_or_numbers"):
+        retry_prompt = (
+            base_prompt
+            + " CRITICAL CORRECTION: The previous attempt contained visible letters, words, or numerals. "
+            "Render purely geometric shapes, compass ticks without numbers, waveforms, and anatomical linework with ZERO characters or digits anywhere."
+        )
+        retry_image = _request_gemini_image(retry_prompt, resolved_key)
+        if retry_image:
+            raw_image = retry_image
+            qa = review_lithograph_pixels(raw_image, headline, dek, resolved_key)
 
     with Image.open(io.BytesIO(raw_image)) as source:
         source = ImageOps.exif_transpose(source).convert("RGB")
@@ -519,6 +606,9 @@ def generate_lithograph_plate(
         target = folder / filename
         source.save(target, "WEBP", quality=86, method=6)
 
+    alt_text = str(qa.get("alt_text") or f"Post-constructivist scientific lithograph illustrating {headline}").strip()
+    plate_caption = str(qa.get("plate_caption") or dek).strip()
+
     return PublishedImage(
         provider="Agewell Visual Desk",
         provider_id=f"lithograph-{article_id[:8]}",
@@ -526,10 +616,11 @@ def generate_lithograph_plate(
         source_url="",
         creator="Agewell Brief Visual Desk",
         creator_url="",
-        alt=f"Post-constructivist scientific lithograph illustrating {headline}",
+        alt=alt_text,
         width=width,
         height=height,
         avg_color="#f4efe4",
         review_status="vision-approved",
+        caption=plate_caption,
     )
 

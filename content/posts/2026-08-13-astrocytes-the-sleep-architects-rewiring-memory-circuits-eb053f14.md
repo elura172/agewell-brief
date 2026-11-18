@@ -14,12 +14,16 @@ autoresearch_antecedents: [{"scientist": "Santiago Ram\u00f3n y Cajal", "year": 
 evidence_position: "emerging"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-eb053f14"
+image: "/images/editions/2026-08-13/astrocytes-the-sleep-architects-rewiring-memory-circuits-eb053f14-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a stellate astrocyte polygon anchoring its left end-feet onto a cerebral blood vessel while broadcasting concentric stippled calcium waves across a geodesic lattice of neuronal synapses."
+image_caption: "Star-shaped astrocytes bridge cerebral vasculature and synaptic networks, using nocturnal calcium waves to instruct memory-consolidation circuits during sleep."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 ---
 
 New research reveals that star-shaped brain cells called astrocytes actively regulate the neural circuits that consolidate memories during sleep, offering a deeper view of the brain's nocturnal maintenance.

@@ -209,7 +209,7 @@ const structuredData = [
         variant="article"
         eager={true}
       />
-      <p class="article-image-note"><span>In the frame</span> {typographic(entry.data.image_caption) || "A glimpse of the everyday routines behind this story."}</p>
+      <p class="article-image-note"><span>{entry.data.image_provider === "Agewell Visual Desk" || entry.data.image_provider === "Gemini" ? "Plate note" : "In the frame"}</span> {typographic(entry.data.image_caption) || "Mechanistic diagram accompanying this report."}</p>
     </div>}
 
     <aside

@@ -10,18 +10,16 @@ source_url: "https://elifesciences.org/articles/107651"
 source_title: "The hypoxic response extends lifespan through a bioaminergic and peptidergic neural circuit"
 source_name: "eLife Neuroscience"
 spiral: "Cell Shedding"
-image_provider: "Unsplash"
-image_provider_id: "SyUrj2dO_H0"
-image: "https://images.unsplash.com/photo-1707944746033-0232ca340fc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NXx8c2NpZW50aXN0JTIwdXNpbmclMjBmbHVvcmVzY2VudCUyMG1pY3Jvc2NvcGV8ZW58MXwwfHx8MTc5NDI4NDk4MHww&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "a woman in a lab coat looking through a microscope"
-image_caption: "A woman looks through a microscope at the neuronal oxygen sensing mechanisms that invertebrate research links to extended lifespan."
-image_width: 6000
-image_height: 4000
-image_photographer: "National Institute of Allergy and Infectious Diseases"
-image_photographer_url: "https://unsplash.com/@niaid?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/a-woman-in-a-lab-coat-looking-through-a-microscope-SyUrj2dO_H0?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#a6c0d9"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-f4e7b57f"
+image: "/images/editions/2026-11-10/mapping-the-neuro-metabolic-circuit-of-hypoxia-induced-longevity-f4e7b57f-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a three-tier neuro-endocrine relay from a serotonergic oxygen-sensing neuron through a central interneuron prism to ignite hexagonal longevity enzymes in an intestinal wall lattice."
+image_caption: "Stabilizing HIF-1 oxygen sensing in a single class of serotonergic neurons sends a bioaminergic and peptidergic relay that switches on systemic longevity enzymes in the gut."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 topics: ['brain health', 'cellular senescence', 'gut health', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}, {"scientist": "Michael Levin", "year": "2012", "discovery": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing. (The Bioelectric Morphogenetic Code & Anatomical Homeostasis)"}]

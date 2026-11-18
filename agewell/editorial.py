@@ -790,44 +790,57 @@ def deterministic_select_image(
     )
 
 
+SPIRAL_GEOMETRIC_MOTIFS: dict[str, str] = {
+    "living waters": "hexagonal fourth-phase water crystal lattice, concentric hydration shells, and four laminar drainage sluice vectors",
+    "dark mirror": "octagonal dark-slate mirror chamber and interlocking three-dimensional aluminosilicate zeolite honeycomb cages",
+    "inner garden": "interlocking epithelial tight-junction palisade blocks, botanical/microbial lattice strata, and ascending vagal nerve meridian curves",
+    "cell shedding": "stippled SASP interference rings disassembled inside a precision rotary autophagic compass wheel into a clean hexagonal cellular honeycomb",
+    "higher flame": "Bauhaus rotary metabolic switchboard, concentric Krebs-cycle gear turbine, and structured laminar flame inside folded mitochondrial cristae",
+    "luminous mind": "geometric cranial meridian dome, 24-division circadian astrolabe calibration arc, and phase-coherent geodesic neural constellation",
+}
+
+
 def direct_image(
     client: OpenAI,
     model: str,
     source_title: str,
     category: str,
     story: dict[str, Any],
+    spiral_name: str = "",
 ) -> ImageBrief:
     discipline = CATEGORY_VISUAL_DISCIPLINE.get(category.lower(), CATEGORY_VISUAL_DISCIPLINE["general wellness"])
+    spiral_motif = SPIRAL_GEOMETRIC_MOTIFS.get(
+        spiral_name.strip().lower(),
+        SPIRAL_GEOMETRIC_MOTIFS["luminous mind"],
+    )
     payload = {
         "source_title": source_title,
         "category": category,
+        "routed_spiral": spiral_name or "Luminous Mind",
+        "subtle_spiral_geometric_motif_20_percent": spiral_motif,
         "category_visual_anchors": discipline["visual_anchors"],
         "category_forbidden_traps": discipline["forbidden_tokens"],
         "story": story,
         "output": {
-            "editorial_intent": "one sentence",
-            "subject": "specific visible subject",
-            "setting": "specific visible setting",
-            "mood": "three concise adjectives",
-            "composition": "landscape editorial composition",
+            "editorial_intent": "one sentence stating the exact biological or clinical mechanism the plate diagrams",
+            "subject": "80% primary visual anchor: the specific anatomical structure, cellular organelle, fluid waveform, or molecular interaction studied in this paper",
+            "setting": "20% subtle Spiral geometric motif woven into the schematic framing",
+            "mood": "three concise adjectives (e.g., precise, architectural, harmonic)",
+            "composition": "asymmetric Post-Constructivist / Bauhaus scientific lithograph layout (e.g., left-to-right causal sequence, split barrier blockade, harmonic wave interference, or radial astrolabe)",
             "avoid": "array of visual exclusions",
-            "search_queries": "array of exactly three concrete stock-photo queries (3-5 words each)",
+            "search_queries": "array of three concise mechanistic visual phrases (3-5 words each)",
         },
         "requirements": [
-            "Direct an editorial photograph aligned with both the story's concrete subject and its category_visual_anchors.",
-            "NEVER literalize headline metaphors: e.g., 'information highway' must never query roads, cars, or driving; 'lonely brain waves' must never query beaches, oceans, or people standing on balconies; 'biological clock' must never query alarm clocks.",
-            "Avoid cosmetic/skincare bottles, amber dropper vials, fashion portraits, leather jackets, and unrelated vacation/balcony scenes.",
-            "Return exactly three concrete Unsplash/Pexels search queries, each 3-5 simple visual words (nouns and setting).",
-            "Do not use multi-word academic compound jargon (like 'liquid chromatography vial' or 'transcriptomic senescence assay') which causes stock photo APIs to return cosmetic dropper bottles.",
-            "Query 1 must depict the tangible physical subject of the story (e.g., 'olive oil fresh vegetables mediterranean', 'quiet bedroom linen morning light', 'older adult climbing stone steps').",
-            "Query 2 must depict the scientific or anatomical research context from category_visual_anchors (e.g., 'neuroscience researcher brain scan', 'cell biology scientist microscope').",
-            "Query 3 must provide a clean secondary visual angle anchored in the category.",
+            "Direct a wordless 16:9 Post-Constructivist and Bauhaus scientific lithograph printed on warm unbleached archival cotton paper (#f8f4ec) in deep midnight slate (#131d2b), burnt saffron ochre (#c87d28), warm terracotta oxide (#9e472a), and muted mineral sage (#6e7f77).",
+            "Weight 80% of the visual subject to the specific study's concrete anatomical, cellular, or biophysical mechanism, and 20% to the subtle_spiral_geometric_motif_20_percent.",
+            "NEVER literalize headline metaphors: e.g., 'information highway' must never depict roads or cars; 'lonely brain waves' must never depict beaches or oceans; 'biological clock' must never depict alarm clocks.",
+            "Forbid all text, letters, numbers, labels, degree ticks, watermarks, 3D render gloss, and stock-photo clichés.",
         ],
     }
     result = _json_agent(
         client,
         model,
-        "You are the visual director for Agewell Brief, an authoritative longevity and biophysics publication. Enforce strict category and thematic discipline.",
+        "You are the Post-Constructivist & Bauhaus scientific lithograph director for Agewell Brief, an authoritative longevity and biophysics publication. Translate complex biomedical mechanisms into rigorous, wordless geometric plates.",
         payload,
         1000,
     )
@@ -835,12 +848,12 @@ def direct_image(
     queries = _sanitize_search_queries(raw_queries, source_title, category)
     avoid = _string_tuple(result.get("avoid", []))
     return ImageBrief(
-        editorial_intent=str(result.get("editorial_intent", "Show the story's human relevance without overclaiming.")).strip(),
-        subject=str(result.get("subject", "an authentic person or research setting")).strip(),
-        setting=str(result.get("setting", "a credible everyday environment")).strip(),
-        mood=str(result.get("mood", "alert, capable, and natural")).strip(),
-        composition=str(result.get("composition", "landscape editorial framing with a clear focal subject")).strip(),
-        avoid=avoid or ("fearful expressions", "cosmetic dropper bottles", "literalized metaphors", "patronizing retirement stereotypes"),
+        editorial_intent=str(result.get("editorial_intent", "Diagram the study's core biological mechanism without overclaiming.")).strip(),
+        subject=str(result.get("subject", f"geometric schematic of {category} mechanism")).strip(),
+        setting=str(result.get("setting", spiral_motif)).strip(),
+        mood=str(result.get("mood", "precise, architectural, harmonic")).strip(),
+        composition=str(result.get("composition", "asymmetric Bauhaus scientific lithograph with technical compass arcs and ruling lines")).strip(),
+        avoid=avoid or ("text", "letters", "numbers", "labels", "3D gloss", "photorealism", "literalized metaphors"),
         search_queries=queries,
     )
 

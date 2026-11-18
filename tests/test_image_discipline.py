@@ -100,3 +100,79 @@ def test_deterministic_select_image_picks_on_theme_candidate():
     assert review.selected_candidate_id == "Unsplash:good1"
     assert review.metadata_status == "approved"
     assert review.score >= 75
+
+
+def test_build_lithograph_prompt_weaves_study_mechanism_and_spiral_motif():
+    from agewell.images import build_lithograph_prompt
+
+    prompt = build_lithograph_prompt(
+        headline="Rejuvenating Liver Microcirculation Halves Circulating Alzheimer's Proteins",
+        dek="Nitric oxide restores hepatic sinusoidal filtration.",
+        category="cellular senescence",
+        brief=None,
+        spiral_name="Living Waters",
+    )
+    assert "Primary 80% study mechanism anchor:" in prompt
+    assert "Subtle 20% Spiral geometric motif (Living Waters):" in prompt
+    assert "hexagonal fourth-phase water crystal lattice" in prompt
+    assert "Strictly no text, no letters, no numbers" in prompt
+
+
+def test_generate_lithograph_plate_retries_on_detected_text_and_preserves_native_dimensions(monkeypatch, tmp_path):
+    import io
+    from PIL import Image
+    import agewell.images as img_mod
+
+    buf = io.BytesIO()
+    Image.new("RGB", (1376, 768), color=(248, 244, 236)).save(buf, format="PNG")
+    fake_png = buf.getvalue()
+
+    image_calls = []
+
+    def fake_request_image(prompt: str, api_key: str):
+        image_calls.append(prompt)
+        return fake_png
+
+    qa_calls = []
+
+    def fake_review_pixels(image_bytes: bytes, headline: str, dek: str, api_key: str):
+        qa_calls.append(len(image_bytes))
+        if len(qa_calls) == 1:
+            return {
+                "has_text_or_numbers": True,
+                "palette_approved": True,
+                "alt_text": "First attempt with stray number",
+                "plate_caption": "First caption",
+            }
+        return {
+            "has_text_or_numbers": False,
+            "palette_approved": True,
+            "alt_text": "Clean post-constructivist lithograph of hepatic sinusoidal sieve.",
+            "plate_caption": "Nitric oxide dilation restores fenestrated hepatic sinusoidal filtration of peripheral amyloid.",
+        }
+
+    monkeypatch.setattr(img_mod, "_request_gemini_image", fake_request_image)
+    monkeypatch.setattr(img_mod, "review_lithograph_pixels", fake_review_pixels)
+
+    published = img_mod.generate_lithograph_plate(
+        headline="Rejuvenating Liver Microcirculation Halves Circulating Alzheimer's Proteins",
+        dek="Nitric oxide restores hepatic sinusoidal filtration.",
+        category="cellular senescence",
+        brief=None,
+        public_root=tmp_path,
+        edition_id="2026-11-18",
+        article_slug="liver-microcirculation-6de37cde",
+        article_id="6de37cde12345678",
+        api_key="fake-gemini-key",
+        spiral_name="Living Waters",
+    )
+    assert published is not None
+    assert len(image_calls) == 2
+    assert "CRITICAL CORRECTION" in image_calls[1]
+    assert published.width == 1376
+    assert published.height == 768
+    assert published.provider == "Agewell Visual Desk"
+    assert published.alt == "Clean post-constructivist lithograph of hepatic sinusoidal sieve."
+    assert published.caption == "Nitric oxide dilation restores fenestrated hepatic sinusoidal filtration of peripheral amyloid."
+    saved_file = tmp_path / published.local_url.lstrip("/")
+    assert saved_file.exists()

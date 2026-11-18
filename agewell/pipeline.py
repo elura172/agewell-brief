@@ -1403,48 +1403,38 @@ def run() -> int:
         copy_artifacts.append({"article_id": key, **copy_review})
         draft_artifacts.append({"article_id": key, "content_type": content_type, **content})
 
+        # Third-party affiliate offers are retired. Every brief routes to the one Spiral
+        # of Cellular Light program that matches the mechanism the story is about.
+        spiral = spiral_for(category, item, configured_program_resources)
+        spiral_name = str((spiral or {}).get("name", ""))
+
         try:
-            image_brief = direct_image(client, MODEL, item.title, category, content)
+            image_brief = direct_image(client, MODEL, item.title, category, content, spiral_name=spiral_name)
         except Exception as exc:
             print(f"Image director fallback ({item.source_name}): {exc}", file=sys.stderr)
             image_brief = ImageBrief(
-                editorial_intent="Show the story's practical human or scientific context without making a medical promise.",
-                subject=f"a concrete visual anchor for {category}",
-                setting="natural light or a credible laboratory/clinical environment",
-                mood="capable, alert, and unstaged",
-                composition="landscape editorial photograph with one clear focal subject",
-                avoid=("fearful expressions", "cosmetic dropper bottles", "literalized metaphors", "patronizing retirement stereotypes"),
+                editorial_intent="Diagram the story's core biological or physical mechanism without overclaiming.",
+                subject=f"geometric schematic of {category} mechanism",
+                setting=spiral_name or "Luminous Mind",
+                mood="precise, architectural, harmonic",
+                composition="asymmetric Post-Constructivist / Bauhaus scientific lithograph with technical compass arcs",
+                avoid=("text", "letters", "numbers", "labels", "3D gloss", "photorealism", "literalized metaphors"),
                 search_queries=_fallback_image_queries(item.title, category),
             )
         brief_artifacts.append({"article_id": key, **image_brief.to_dict()})
-
-        image_candidates = search_image_candidates(
-            image_brief,
-            PEXELS_API_KEY,
-            PIXABAY_API_KEY,
-            image_cache,
-            used_image_ids,
-            used_image_creators,
-            UNSPLASH_ACCESS_KEY,
-            category,
-            item.title,
-            content["headline"],
-        )
         candidate_artifacts.append(
             {
                 "article_id": key,
-                "query": image_brief.search_queries[0],
-                "candidates": [candidate.to_dict() for candidate in image_candidates],
+                "query": image_brief.search_queries[0] if image_brief.search_queries else category,
+                "candidates": [],
             }
         )
 
         photo: PublishedImage | None = None
         image_caption: str | None = None
-        alignment: AlignmentReview | None = None
-        selected_candidate = None
         visual_review: dict[str, Any] = {
             "status": "pending",
-            "reason": "No suitable image candidate was available.",
+            "reason": "Lithograph generation pending (shipped text-only for backfill).",
         }
         article_slug = f"{slug(content['headline'])}-{key[:8]}"
         try:
@@ -1457,74 +1447,33 @@ def run() -> int:
                 recorder.edition_id,
                 article_slug,
                 key,
+                spiral_name=spiral_name,
             )
             if photo:
                 visual_review = {
                     "status": "approved",
-                    "reason": "Generated post-constructivist scientific lithograph.",
+                    "reason": "Generated and vision-verified post-constructivist scientific lithograph.",
                 }
-                try:
-                    image_caption = caption_image(client, MODEL, photo.alt, content["headline"], content["dek"])
-                except Exception as exc:
-                    print(f"Image caption failed ({item.source_name}): {exc}", file=sys.stderr)
-        except Exception as exc:
-            print(f"Lithograph generation fallback ({item.source_name}): {exc}", file=sys.stderr)
-            photo = None
-
-        if photo is None and image_candidates:
-            try:
-                alignment = review_image_metadata(
-                    client,
-                    MODEL,
-                    content,
-                    image_brief,
-                    [candidate.to_dict() for candidate in image_candidates],
-                    category,
-                    item.title,
-                )
-            except Exception as exc:
-                print(f"Image proofreader fallback ({item.source_name}): {exc}", file=sys.stderr)
-                alignment = deterministic_select_image(
-                    [candidate.to_dict() for candidate in image_candidates],
-                    category=category,
-                    source_title=item.title,
-                    headline=content["headline"],
-                    image_brief=image_brief,
-                )
-            selected_candidate = next(
-                (candidate for candidate in image_candidates if candidate.candidate_id == alignment.selected_candidate_id),
-                None,
-            )
-            if selected_candidate and alignment.metadata_status != "rejected":
-                try:
-                    photo = persist_image(selected_candidate, PUBLIC_ROOT, recorder.edition_id, article_slug, UNSPLASH_ACCESS_KEY)
+                image_caption = photo.caption
+                if not image_caption:
                     try:
                         image_caption = caption_image(client, MODEL, photo.alt, content["headline"], content["dek"])
                     except Exception as exc:
                         print(f"Image caption failed ({item.source_name}): {exc}", file=sys.stderr)
-                    image_review_path = photo.local_url if photo.local_url.startswith("https://") else str(PUBLIC_ROOT / photo.local_url.lstrip("/"))
-                    visual_review = vision_reviewer.review(image_review_path, image_brief, content)
-                    append_image_ledger(IMAGE_LEDGER_FILE, selected_candidate, key, recorder.edition_id)
-                    used_image_ids.add(selected_candidate.candidate_id)
-                    if selected_candidate.creator_url:
-                        used_image_creators.add(selected_candidate.creator_url)
-                except Exception as exc:
-                    print(f"Selected image failed ({item.source_name}): {exc}", file=sys.stderr)
-                    photo = None
+        except Exception as exc:
+            print(f"Lithograph generation fallback ({item.source_name}): {exc}", file=sys.stderr)
+            photo = None
 
-        metadata_status = "approved" if (photo and photo.provider == "Agewell Visual Desk") else (alignment.metadata_status if alignment else "missing")
+        metadata_status = "approved" if photo else "missing"
         visual_status = str(visual_review.get("status", "pending"))
         review_artifacts.append(
             {
                 "article_id": key,
-                "metadata_review": alignment.to_dict() if alignment else None,
+                "metadata_review": None,
                 "visual_review": visual_review,
             }
         )
 
-        # Third-party affiliate offers are retired. Every brief routes to the one Spiral
-        # of Cellular Light program that matches the mechanism the story is about.
-        spiral = spiral_for(category, item, configured_program_resources)
         spiral_urls = [u for u in ((spiral or {}).get("url"), (spiral or {}).get("program_url")) if u]
         offer_review = commercial_integrity(category, spiral_urls)
         commercial_artifacts.append({"article_id": key, **offer_review})

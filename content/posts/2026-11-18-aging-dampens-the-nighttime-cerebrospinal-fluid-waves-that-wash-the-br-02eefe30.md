@@ -13,6 +13,16 @@ source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
 topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-02eefe30"
+image: "/images/editions/2026-11-18/aging-dampens-the-nighttime-cerebrospinal-fluid-waves-that-wash-the-br-02eefe30-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph comparing an upper supple dilating cerebral vessel driving high-amplitude slow-wave cerebrospinal fluid surges against a lower stiffened, constricted aged vessel producing a shallow damped ripple."
+image_caption: "Simultaneous sleep fMRI and EEG reveal that age-related vascular stiffening blunts the volumetric pulsing required to drive nocturnal cerebrospinal fluid clearance waves."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 MIT researchers discovered that deep-sleep brain waves and vascular responses weaken with age, reducing the nocturnal fluid movements that clear cellular waste from the brain.

@@ -69,12 +69,15 @@ export function escapeXml(value: string): string {
 export function imageFigureHtml(data: ImageData, base = new URL("https://agewellbrief.com")): string {
   if (!data.image) return "";
   const imageUrl = new URL(data.image, base).href;
-  const alt = escapeXml(data.image_alt ?? "Illustrative photograph for this Agewell Brief article");
-  const photographer = escapeXml(data.image_photographer ?? "Photo contributor");
+  const alt = escapeXml(data.image_alt ?? "Editorial lithograph for this Agewell Brief article");
+  const photographer = escapeXml(data.image_photographer ?? "Agewell Brief Visual Desk");
+  const provider = escapeXml(data.image_provider ?? "Agewell Visual Desk");
+  if (data.image_provider === "Agewell Visual Desk" || data.image_provider === "Gemini") {
+    return `<figure class="editorial-image editorial-image--lithograph"><img src="${escapeXml(imageUrl)}" alt="${alt}" width="${data.image_width}" height="${data.image_height}" loading="lazy"><figcaption>Editorial lithograph · ${photographer}</figcaption></figure>`;
+  }
   const photographerCredit = data.image_photographer_url
     ? `<a href="${escapeXml(data.image_photographer_url)}" rel="noopener noreferrer">${photographer}</a>`
     : photographer;
-  const provider = escapeXml(data.image_provider ?? "Pexels");
   const sourceCredit = data.image_source_url
     ? ` on <a href="${escapeXml(data.image_source_url)}" rel="noopener noreferrer">${provider}</a>`
     : ` via ${provider}`;
@@ -84,7 +87,7 @@ export function imageFigureHtml(data: ImageData, base = new URL("https://agewell
 export function mediaRssData(data: ImageData, base = new URL("https://agewellbrief.com")): string {
   if (!data.image) return "";
   const imageUrl = new URL(data.image, base).href;
-  return `<media:content url="${escapeXml(imageUrl)}" medium="image" width="${data.image_width}" height="${data.image_height}"><media:description type="plain">${escapeXml(data.image_alt ?? "Illustrative Agewell Brief photograph")}</media:description><media:credit role="photographer">${escapeXml(data.image_photographer ?? "Photo contributor")}</media:credit></media:content>`;
+  return `<media:content url="${escapeXml(imageUrl)}" medium="image" width="${data.image_width}" height="${data.image_height}"><media:description type="plain">${escapeXml(data.image_alt ?? "Agewell Brief editorial lithograph")}</media:description><media:credit role="photographer">${escapeXml(data.image_photographer ?? "Agewell Brief Visual Desk")}</media:credit></media:content>`;
 }
 
 // Hosts we earn commission from. Any link to one of these must be rel="sponsored",

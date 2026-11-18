@@ -13,18 +13,16 @@ source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Joseph Altman", "year": "1962", "discovery": "Used tritiated-thymidine autoradiography to reveal newborn neurons in the adult mammalian dentate gyrus, overturning long-standing dogma that the adult brain never generates fresh nerve cells."}, {"scientist": "David Snowdon", "year": "1997", "discovery": "Showed in the Nun Study that older adults can carry dense amyloid plaques and tau tangles at autopsy while remaining cognitively sharp throughout life, defining clinical cognitive resilience."}]
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "9vnACvX2748"
-image: "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NHx8c2NpZW50aXN0JTIwbWljcm9zY29wZSUyMGxhYm9yYXRvcnklMjByZXNlYXJjaHxlbnwxfDB8fHwxNzk0MjY1MDEyfDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "man sight on white microscope"
-image_caption: "A researcher examines hippocampal tissue to trace how rare immature neurons quiet inflammation in resilient aging brains."
-image_width: 5184
-image_height: 3456
-image_photographer: "Lucas Vasques"
-image_photographer_url: "https://unsplash.com/@luvqs?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/man-sight-on-white-microscope-9vnACvX2748?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#595959"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-5d996610"
+image: "/images/editions/2026-11-10/transcriptional-reprogramming-of-immature-neurons-preserves-cognition--5d996610-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a C-shaped hippocampal dentate gyrus arch sheltering immature neuron buds that radiate concentric anti-inflammatory harmonic rings against outer angular amyloid plaques."
+image_caption: "In cognitively resilient brains past age 80, immature hippocampal dentate gyrus neurons maintain an anti-inflammatory, pro-survival transcriptional shield despite surrounding plaques."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "human-reviewed"
+image_avg_color: "#f4efe4"
 topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 ---

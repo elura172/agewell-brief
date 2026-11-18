@@ -45,6 +45,7 @@ html[data-theme="evening"] {
 .logo-staff { fill: var(--ink); }
 .logo-serpent { fill: var(--saffron); }
 html[data-theme="evening"] .editorial-image img { filter: brightness(0.94) contrast(1.02); }
+html[data-theme="evening"] .editorial-image--lithograph img { filter: brightness(0.92) sepia(0.05) contrast(1.02); }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
