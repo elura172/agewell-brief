@@ -295,11 +295,30 @@ def feed_sources() -> list[FeedSource]:
     return []
 
 
+# fda.gov's abuse detection redirects any browser-impersonating User-Agent coming
+# from a datacenter IP (GitHub Actions) to an "apology" page that the client then
+# reads as a 404. An honest, identifying User-Agent is accepted (verified from the
+# runner against all three FDA feeds), so use one for FDA and keep the browser UA
+# for publishers that require it.
+HONEST_USER_AGENT = "AgewellBrief/0.3 (+https://agewellbrief.com; editorial research)"
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+)
+
+
+def user_agent_for(url: str, default: str = BROWSER_USER_AGENT) -> str:
+    host = (urlsplit(url).hostname or "").lower()
+    if host == "fda.gov" or host.endswith(".fda.gov"):
+        return HONEST_USER_AGENT
+    return default
+
+
 def fetch_items(source: FeedSource) -> list[FeedItem]:
     request = urllib.request.Request(
         source.url,
         headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "User-Agent": user_agent_for(source.url),
             "Accept": "application/rss+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8",
             "Accept-Language": "en-US,en;q=0.9",
         },
@@ -555,7 +574,7 @@ def fetch_article_text(item: FeedItem) -> str:
     source_url = resolve_source_url(item.link)
     request = urllib.request.Request(
         source_url,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; AgewellBrief/0.3; editorial research)"},
+        headers={"User-Agent": user_agent_for(source_url, "Mozilla/5.0 (compatible; AgewellBrief/0.3; editorial research)")},
     )
     try:
         with urllib.request.urlopen(request, timeout=30) as response:

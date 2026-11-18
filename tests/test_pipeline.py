@@ -1329,3 +1329,20 @@ def test_second_same_day_run_emits_signal_and_increments_edition_rank(monkeypatc
     body = generated_files[0].read_text(encoding="utf-8")
     assert 'content_type: "signal"' in body
     assert "edition_rank: 2" in body
+
+
+def test_fda_hosts_get_an_honest_user_agent():
+    from agewell import pipeline
+
+    fda = "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/consumers/rss.xml"
+    assert pipeline.user_agent_for(fda) == pipeline.HONEST_USER_AGENT
+    assert pipeline.user_agent_for("https://fda.gov/x") == pipeline.HONEST_USER_AGENT
+    assert "Mozilla" not in pipeline.user_agent_for(fda)
+
+
+def test_other_hosts_keep_the_browser_user_agent():
+    from agewell import pipeline
+
+    assert pipeline.user_agent_for("https://www.sciencedaily.com/rss/top/health.xml") == pipeline.BROWSER_USER_AGENT
+    # a lookalike domain must not be treated as FDA
+    assert pipeline.user_agent_for("https://notfda.gov.example.com/rss") == pipeline.BROWSER_USER_AGENT
