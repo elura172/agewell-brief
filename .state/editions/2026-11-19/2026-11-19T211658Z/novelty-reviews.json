@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "routine observational association",
+      "reason": "Reinforces well-known advice about circadian consistency. The finding that regular routine correlates with lower pain and depression even with insomnia is slightly interesting, but still a generic lifestyle association.",
+      "angle": "How strict schedule consistency dampens chronic pain perception independent of total sleep duration.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "recycled epidemiological finding",
+      "reason": "Standard U-shaped sleep duration observation (around 7 hours for optimal healthspan) that has been widely reported for years.",
+      "angle": "Why the 6.4 to 7.8 hour sleep window keeps reappearing in biological aging data.",
+      "mode": "agent"
+    },
+    "f89e8a853c8143bbdea1aa59": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "routine institutional report",
+      "reason": "High-level annual progress report outline with no specific breakdown of novel mechanistic discoveries in the title/summary.",
+      "angle": "Key breakthroughs highlighted in the latest NIH Alzheimer's progress report.",
+      "mode": "agent"
+    },
+    "4d9868983f5e51628bbe3603": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "routine institutional report",
+      "reason": "Generic government progress report title with no specific novel finding or mechanism detailed.",
+      "angle": "Major milestones from the latest NIH dementia research report.",
+      "mode": "agent"
+    },
+    "6cdd4a0d0dbe11a8c49ea9a0": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Presents a novel AI tool (PSG-GAN) that co-synthesizes multi-signal polysomnography to model inter-signal dynamics in sleep apnea without relying on sensitive patient data.",
+      "angle": "How synthetic multi-signal AI models are solving sleep apnea data privacy barriers.",
+      "mode": "agent"
+    },
+    "b64a41ad335859fbaab7a7cb": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "preclinical herbal formula mechanism",
+      "reason": "Explores a specific mechanism (NMDAR/IRP-IRE iron dyshomeostasis and ferroptosis) for a herbal formula in mice, but remains preliminary rodent data on a complex TCM mixture.",
+      "angle": "Targeting pulmonary ferroptosis: How iron regulation pathways shield lung tissue from fibrosis.",
+      "mode": "agent"
+    },
+    "1a2f27f5efe914be08b99add": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "broad review article",
+      "reason": "Generic review summary on the established relationship between circadian rhythms, sleep disorders, and Alzheimer's disease.",
+      "angle": "Mapping the bidirectional link between circadian rhythm breakdown and neurodegeneration.",
+      "mode": "agent"
+    },
+    "ffa65550a0aa1a42ce2d5d6c": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "specific neural mechanism",
+      "reason": "Identifies precise cortical encoding defects (increased trial-to-trial correlated variability) during taste learning in Shank3 knockout mice. Detailed neuroscience, but focused on autism/sensory learning models rather than core aging/healthspan.",
+      "angle": "How Shank3 deletion disrupts sensory cortical flexibility and adaptive learning.",
+      "mode": "agent"
+    },
+    "d826a7db2e2751f2406713fa": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "unusual therapeutic approach",
+      "reason": "Utilizes mRNA technology delivered via simple intranasal drops to target memory enhancement and prevent Alzheimer's-related memory loss in aged mice.",
+      "angle": "Intranasal mRNA delivery: Rapid non-invasive neural targeting for memory rescue.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "6cdd4a0d0dbe11a8c49ea9a0",
+    "d826a7db2e2751f2406713fa"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "f89e8a853c8143bbdea1aa59",
+    "4d9868983f5e51628bbe3603",
+    "b64a41ad335859fbaab7a7cb",
+    "1a2f27f5efe914be08b99add",
+    "ffa65550a0aa1a42ce2d5d6c"
+  ],
+  "mode": "agent"
+}

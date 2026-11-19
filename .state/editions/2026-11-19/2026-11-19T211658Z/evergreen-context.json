@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "d826a7db2e2751f2406713fa",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "50ff5aaa9ba9eb69",
+        "source": "Dr. Michael Levin (2012) — The Bioelectric Morphogenetic Code & Anatomical Homeostasis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      },
+      {
+        "source_id": "e7e2d20dc3405c28",
+        "source": "Dr. Maiken Nedergaard (2012) — The Glymphatic System & Astrocyte-Mediated Sleep Clearance",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
