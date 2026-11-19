@@ -10,21 +10,19 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.08.04.742805v1?rss=1"
 source_title: "Directed evolution of the Drosophila microbiome improves intestinal health and extends lifespan"
 source_name: "bioRxiv neuroscience, genetics, physiology"
 spiral: "Inner Garden"
-image_provider: "Pexels"
-image_provider_id: "34974302"
-image: "/images/editions/2026-08-10/evolved-gut-bacteria-extend-lifespan-in-flies-acetate-as-the-molecular-bafea6d7-pexels-34974302.webp"
-image_alt: "Scientist examines petri dish samples in a laboratory for research purposes."
-image_caption: "A scientist's gloved hand holds a petri dish, mirroring the lab work where evolved gut bacteria produce acetate to extend fly lifespan."
-image_width: 1200
-image_height: 627
-image_photographer: "Нурлан Шлюмбаев"
-image_photographer_url: "https://www.pexels.com/@2157803149"
-image_source_url: "https://www.pexels.com/photo/scientist-holding-petri-dish-in-lab-setting-34974302/"
-image_review_status: "pending"
-image_avg_color: "#ACADAF"
 topics: ['gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Luc Montagnier", "year": "2011", "discovery": "Reported that specific bacterial and viral DNA sequences induce coherent aqueous nanostructures capable of emitting low-frequency electromagnetic signals when excited by ambient background fields. (Low-Frequency Electromagnetic Signals in Aqueous DNA Nanostructures)"}, {"scientist": "Roeland van Wijk", "year": "2014", "discovery": "Synthesized decades of experimental human biophotonics, demonstrating that spontaneous ultra-weak photon emission from skin accurately tracks intracellular oxidative stress, mitochondrial redox state, and diurnal metabolic rhythm. (Light in Shaping Life: Biophotonics in Human Bio-Assessment)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-bafea6d7"
+image: "/images/editions/2026-08-10/2026-08-10-evolved-gut-bacteria-extend-lifespan-in-flies-acetate-as-the-molecular-bafea6d7-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of stress-evolved gut bacilli deflecting oxidative sparks and secreting geometric acetate triangles that lock into an epithelial tight-junction palisade and project ascending longevity arcs."
+image_caption: "Oxidative-stress-evolved gut bacteria secrete small-molecule acetate prisms that seal intestinal tight-junction architecture and extend organismal longevity."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A preprint shows that directed evolution of Lactiplantibacillus plantarum to resist oxidative stress boosts acetate production, which alone extends Drosophila lifespan and reduces gut aging.

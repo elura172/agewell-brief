@@ -10,21 +10,19 @@ source_url: "https://medicalxpress.com/news/2026-08-people-alzheimer-disease-ear
 source_title: "Sleep could help identify people at risk of developing Alzheimer's disease at an earlier stage"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "28585010"
-image: "/images/editions/2026-08-12/sleep-architecture-as-an-early-sentinel-for-alzheimer-s-risk-f5e67354-pexels-28585010.webp"
-image_alt: "Close-up of ECG device with leads and electrodes on printed heart rate graph, showcasing medical technology."
-image_caption: "The ECG's printed heart rate graph is a stand-in for the kind of physiological tracing that sleep architecture provides, offering a non-invasive window into early Alzheimer's risk before cognitive symptoms emerge."
-image_width: 1200
-image_height: 627
-image_photographer: "Marta Branco"
-image_photographer_url: "https://www.pexels.com/@martabranco"
-image_source_url: "https://www.pexels.com/photo/detailed-view-of-ecg-equipment-and-readings-28585010/"
-image_review_status: "pending"
-image_avg_color: "#B7BFCA"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Michael Levin", "year": "2012", "discovery": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing. (The Bioelectric Morphogenetic Code & Anatomical Homeostasis)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-f5e67354"
+image: "/images/editions/2026-08-12/2026-08-12-sleep-architecture-as-an-early-sentinel-for-alzheimer-s-risk-f5e67354-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a multi-tier sleep-stage hypnogram staircase scanned by an optical astrolabe sentinel beam that illuminates micro-fracture notches in the deep-sleep trough."
+image_caption: "High-resolution sleep hypnogram architecture acts as an early sentinel, exposing micro-fragmentations in slow-wave and REM tiers years before clinical memory loss."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Researchers at ULiège are probing whether subtle sleep signatures can flag Alzheimer's pathology before memory fades. The premise is biophysically sound, but the evidence is still nascent.

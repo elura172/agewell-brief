@@ -10,21 +10,19 @@ source_url: "https://onlinelibrary.wiley.com/doi/10.1111/acel.70655?af=R"
 source_title: "Targeting RANKL Prevents Bone Loss, Improves Muscle Function and Extends Lifespan in Progeroid Mice"
 source_name: "Aging Cell"
 spiral: "Cell Shedding"
-image_provider: "Pexels"
-image_provider_id: "34642915"
-image: "/images/editions/2026-08-10/rankl-blockade-one-molecule-three-wins-bone-muscle-lifespan-80ad4735-pexels-34642915.webp"
-image_alt: "A lab technician operates a clinical analyzer in a modern laboratory setting."
-image_caption: "The clinical analyzer in the lab is a tool for measuring biomarkers, just as the study's RANKL blockade measures a molecular switch that, when inhibited, preserves bone, boosts muscle, and extends lifespan in progeroid mice."
-image_width: 1200
-image_height: 627
-image_photographer: "JW MEDICARE PVT LTD"
-image_photographer_url: "https://www.pexels.com/@jw-medicare-pvt-ltd-2157283432"
-image_source_url: "https://www.pexels.com/photo/technician-operating-laboratory-equipment-34642915/"
-image_review_status: "pending"
-image_avg_color: "#4F6364"
 topics: ['longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Fritz-Albert Popp", "year": "1975", "discovery": "DNA and chromatin act as coherent biophotonic resonators, emitting phase-locked ultra-weak photon fields that coordinate cellular metabolism and systemic signaling across tissues. (Biophotonics and Cellular Coherence)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-80ad4735"
+image: "/images/editions/2026-08-10/2026-08-10-rankl-blockade-one-molecule-three-wins-bone-muscle-lifespan-80ad4735-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a central geometric RANKL blockade shield halting an inflammatory vector to protect three downstream chambers: trabecular bone honeycomb, striated muscle fibers, and concentric lifespan rings."
+image_caption: "Inhibiting the RANKL signaling axis acts as a single upstream shield that simultaneously preserves trabecular bone density, skeletal muscle force, and systemic lifespan."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new study in progeroid mice shows that inhibiting RANKL not only preserves bone but also boosts muscle function and extends lifespan—revealing a master switch in the aging cascade.

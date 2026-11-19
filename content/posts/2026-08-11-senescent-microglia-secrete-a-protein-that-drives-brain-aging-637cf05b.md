@@ -12,13 +12,17 @@ source_name: "Medical Xpress Neurology"
 spiral: "Cell Shedding"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Michael Levin", "year": "2012", "discovery": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing. (The Bioelectric Morphogenetic Code & Anatomical Homeostasis)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-637cf05b"
+image: "/images/editions/2026-08-11/2026-08-11-senescent-microglia-secrete-a-protein-that-drives-brain-aging-637cf05b-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of an angular senescent microglial cell emitting stippled SASP rings and secreted protein triangles that dampen action-potential waveforms across a neighboring neuronal lattice."
+image_caption: "Senescent microglia broadcast secreted inflammatory proteins across the extracellular matrix, directly dampening synaptic transmission in neighboring neurons."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new study reveals a specific mechanism by which aging immune cells in the brain impair neuronal function, linking cellular senescence to cognitive decline.

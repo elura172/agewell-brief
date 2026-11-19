@@ -13,20 +13,18 @@ spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered and named the glymphatic system, a brain-wide perivascular network that clears metabolic waste via cerebrospinal fluid influx along arteries and efflux along veins, most active during sleep. This directly provides the mechanistic framework for the modern review on exercise as a regulator of glymphatic function."}, {"scientist": "Lulu Xie and Maiken Nedergaard", "year": "2013", "discovery": "Demonstrated that sleep drives glymphatic clearance, with a 60% increase in interstitial space during sleep, enhancing waste removal. This established the sleep-wake dependence of the system, which the modern paper links to exercise-induced improvements in deep sleep and slow-wave activity."}]
 ancestral_insight: "Traditional hunter-gatherer lifestyles inherently combined high physical activity with natural sleep-wake cycles aligned to daylight, promoting deep sleep and robust glymphatic clearance. In contrast, modern sedentary behavior and artificial light disrupt these rhythms, impairing waste clearance and increasing dementia risk. This parallels ancestral patterns where daily exertion and rest cycles optimized brain health."
 evidence_position: "emerging"
-image_provider: "Pexels"
-image_provider_id: "32187960"
-image: "/images/editions/2026-08-13/exercise-primes-the-brain-s-glymphatic-system-to-clear-metabolic-waste-9adae84f-pexels-32187960.webp"
-image_alt: "A senior man jogs alone in a serene park in Stamford, Connecticut, captured at dawn."
-image_caption: "This senior jogger's dawn run in Stamford is a practical application of new research showing that exercise helps the brain's glymphatic system flush out metabolic waste, a key to healthier aging."
-image_width: 1200
-image_height: 627
-image_photographer: "David Kanigan"
-image_photographer_url: "https://www.pexels.com/@david-kanigan-239927285"
-image_source_url: "https://www.pexels.com/photo/elderly-man-running-in-stamford-park-at-dawn-32187960/"
-image_review_status: "pending"
-image_avg_color: "#7D7B7C"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-9adae84f"
+image: "/images/editions/2026-08-13/2026-08-13-exercise-primes-the-brain-s-glymphatic-system-to-clear-metabolic-waste-9adae84f-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a kinetic stride pendulum and arterial pulse turbine driving pressure waves that open perivascular glymphatic channels across a cranial dome."
+image_caption: "Physical exertion and arterial vasomotion prime perivascular AQP4 channels, accelerating glymphatic cerebrospinal fluid clearance across aging neural tissue."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research links physical activity to the brain's waste-removal network, offering a mechanistic path to healthier aging.

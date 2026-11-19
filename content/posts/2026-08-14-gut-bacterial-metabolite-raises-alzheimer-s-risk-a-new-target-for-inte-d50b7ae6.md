@@ -15,12 +15,16 @@ ancestral_insight: "Traditional hunter-gatherer and non-industrialized diets, ri
 evidence_position: "emerging"
 topics: ['brain health', 'gut health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-d50b7ae6"
+image: "/images/editions/2026-08-14/2026-08-14-gut-bacterial-metabolite-raises-alzheimer-s-risk-a-new-target-for-inte-d50b7ae6-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing gut bacilli inside an epithelial palisade emitting pro-inflammatory metabolite triangles up a vascular conduit where a rotary filter gate intercepts them before the cranial dome."
+image_caption: "Intercepting pro-inflammatory bacterial metabolites along the gut-brain vascular axis prevents microbial signaling products from accelerating cortical neurodegeneration."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A bacterial compound in the gut may increase Alzheimer's risk and accelerate cognitive decline, opening a new avenue for prevention.

@@ -11,21 +11,19 @@ source_title: "Scientists find the strength training “sweet spot” for a long
 source_name: "ScienceDaily Top Health"
 spiral: "Higher Flame"
 evidence_position: "emerging"
-image_provider: "Pexels"
-image_provider_id: "36917072"
-image: "/images/editions/2026-08-10/the-strength-sweet-spot-how-90-minutes-of-lifting-rewires-your-biology-11eb8aa9-pexels-36917072.webp"
-image_alt: "Middle-aged woman in gym attire lifting a dumbbell indoors, showing a fitness and healthy lifestyle theme."
-image_caption: "A middle-aged woman lifting a dumbbell indoors embodies the article's finding that just 90 minutes of weekly strength training can lower early death risk by 13%."
-image_width: 1200
-image_height: 627
-image_photographer: "Kari Alfonso"
-image_photographer_url: "https://www.pexels.com/@kari-alfonso-2151442665"
-image_source_url: "https://www.pexels.com/photo/woman-exercising-indoors-with-dumbbell-36917072/"
-image_review_status: "pending"
-image_avg_color: "#605551"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-11eb8aa9"
+image: "/images/editions/2026-08-10/2026-08-10-the-strength-sweet-spot-how-90-minutes-of-lifting-rewires-your-biology-11eb8aa9-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a 90-degree resistance-training calibration sector meshing with an aerobic rotary gear turbine to launch an ascending longevity vector above a falling mortality curve."
+image_caption: "A calibrated 90-minute weekly resistance-training sector meshes with aerobic circulation to drive a steep, non-linear drop in all-cause mortality risk."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New observational data from nearly 150,000 health professionals reveals that just 90–120 minutes of weekly strength training is linked to a 13% lower risk of early death—and when paired with aerobic exercise, the risk drops by 45%. Here’s the muscle biology behind the numbers.

@@ -15,12 +15,16 @@ ancestral_insight: "Traditional lifestyle practices that promote autophagy and r
 evidence_position: "emerging"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-02644232"
+image: "/images/editions/2026-08-11/2026-08-11-microglial-waste-clearance-the-shared-cellular-pathway-behind-childhoo-02644232-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing two dual-radius timeline arcs converging on a central rotary microglial phagocytic chamber where clearing jammed waste polygons restores a clean hexagonal neural lattice."
+image_caption: "Early- and late-life neurodegeneration converge on a shared microglial phagocytic bottleneck where stalled lysosomal clearance starves surrounding neural circuits."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research reveals how the brain's immune cells respond to toxic buildup, linking a rare pediatric disorder to Alzheimer's through a common mechanism of failed phagocytosis.

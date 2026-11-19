@@ -12,13 +12,17 @@ source_name: "Frontiers in Human Neuroscience"
 spiral: "Luminous Mind"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-a69b88ec"
+image: "/images/editions/2026-08-12/2026-08-12-can-a-nerve-in-your-ear-wake-the-unconscious-brain-the-biophysics-of-t-a69b88ec-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a logarithmic ear-concha spiral receiving a pulse electrode and sending ascending vagal meridian lines through a brainstem prism to illuminate a geodesic cranial network."
+image_caption: "Transcutaneous auricular vagus stimulation sends bioelectric pulses from the outer ear concha through brainstem relay nuclei to re-illuminate dormant thalamo-cortical networks."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A non-invasive pulse to the vagus nerve is being tested against disorders of consciousness. The mechanism is real, the evidence is early, and the physics runs deep.

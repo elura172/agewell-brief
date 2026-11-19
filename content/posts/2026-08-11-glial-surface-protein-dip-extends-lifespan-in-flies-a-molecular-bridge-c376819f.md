@@ -10,21 +10,19 @@ source_url: "https://elifesciences.org/articles/109422"
 source_title: "In-situ glial cell-surface proteomics identifies pro-longevity factors in Drosophila"
 source_name: "eLife Neuroscience"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "8531354"
-image: "/images/editions/2026-08-11/glial-surface-protein-dip-extends-lifespan-in-flies-a-molecular-bridge-c376819f-pexels-8531354.webp"
-image_alt: "A scientist wearing a face mask examines samples under a microscope in a laboratory setting."
-image_caption: "A scientist in a lab examines samples under a microscope, a process akin to the in-situ proteomics that identified DIP-β's age-related decline in glial cells."
-image_width: 1200
-image_height: 627
-image_photographer: "olia danilevich"
-image_photographer_url: "https://www.pexels.com/@olia-danilevich"
-image_source_url: "https://www.pexels.com/photo/a-person-wearing-face-mask-looking-into-a-microscope-8531354/"
-image_review_status: "pending"
-image_avg_color: "#989994"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-c376819f"
+image: "/images/editions/2026-08-11/2026-08-11-glial-surface-protein-dip-extends-lifespan-in-flies-a-molecular-bridge-c376819f-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of opposing glial and neuronal membranes locked together across the synaptic cleft by interlocking geometric DIP-beta dovetail adhesion bridges."
+image_caption: "Restoring the glial cell-surface adhesion protein DIP-beta locks glia and neuronal synapses into structural alignment across the aging extracellular cleft."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New in-situ proteomics reveals that a single glial cell-surface protein, DIP-β, declines with age and its restoration extends lifespan, illuminating the biophysical basis of glia-neuron communication.

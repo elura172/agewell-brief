@@ -12,20 +12,18 @@ source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Bruce McEwen", "year": "1970s", "discovery": "McEwen's landmark work in the 1970s demonstrated that estrogen receptors are abundant in the hippocampus and other brain regions, establishing the brain as a direct target for estrogen. This discovery laid the foundation for understanding how estrogen could influence neuronal function and survival, directly anticipating the modern finding that late-life estrogen therapy is associated with reduced Alzheimer's pathology."}, {"scientist": "John Morrison", "year": "1990s", "discovery": "Morrison's research in the 1990s showed that estrogen modulates synaptic plasticity and dendritic spine density in the hippocampus and prefrontal cortex, providing a mechanistic basis for how estrogen could protect against cognitive decline and Alzheimer's disease. His work on the neuroprotective effects of estrogen in nonhuman primates and rodents directly supports the association observed in this large human study."}]
 evidence_position: "emerging"
-image_provider: "Unsplash"
-image_provider_id: "R4EFle2r8yA"
-image: "https://images.unsplash.com/photo-1738707060236-42d641096f96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDUwMDkzfDB8MXxzZWFyY2h8NXx8bmV1cm9zY2llbmNlJTIwcmVzZWFyY2hlciUyMGJyYWluJTIwc2NhbnxlbnwxfDB8fHwxNzk0MTc5MTU5fDA&ixlib=rb-4.1.0&q=80&w=1080"
-image_alt: "Two women looking at a computer screen with mri images on it"
-image_caption: "Two women reviewing MRI scans on a computer screen illustrate the diagnostic imaging used to assess the brain's molecular landscape in aging patients."
-image_width: 3871
-image_height: 2582
-image_photographer: "Keith Tanner"
-image_photographer_url: "https://unsplash.com/@keithtanman?utm_source=agewellbrief&utm_medium=referral"
-image_source_url: "https://unsplash.com/photos/two-women-looking-at-a-computer-screen-with-mri-images-on-it-R4EFle2r8yA?utm_source=agewellbrief&utm_medium=referral"
-image_review_status: "pending"
-image_avg_color: "#8c8c8c"
 topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-bf294fde"
+image: "/images/editions/2026-08-14/2026-08-14-estrogen-only-therapy-in-later-life-linked-to-fewer-alzheimer-s-signs--bf294fde-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a four-ring steroid estrogen lattice projecting receptor-binding vectors into a cranial meridian dome where a concentric harmonic shield protects a dendritic tree from angular amyloid fragments."
+image_caption: "Four-ring steroid estrogen signaling fortifies late-life dendritic architecture and receptor resilience against surrounding amyloid plaque deposition."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A large observational study finds that women who used estrogen-only hormone therapy after age 70 had lower odds of dementia and less Alzheimer's pathology at autopsy. The findings revive a decades-old biophysical question: can a steroid hormone reshape the aging brain's molecular landscape?

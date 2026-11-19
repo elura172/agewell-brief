@@ -12,20 +12,18 @@ source_name: "bioRxiv neuroscience, genetics, physiology"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Alexander Borb\u00e9ly", "year": "1982", "discovery": "Proposed the two-process model of sleep regulation, distinguishing a homeostatic Process S (rising during wakefulness, declining during sleep) from a circadian Process C (modulating sleep propensity). This model provides the foundational framework for the preprint's decomposition of sleepiness into intensity (homeostatic pressure relative to threshold) and phase (circadian modulation of the threshold), directly anticipating the threshold-distance concept."}, {"scientist": "Charles A. Czeisler", "year": "1999", "discovery": "Used forced desynchrony protocols to demonstrate that circadian phase and homeostatic sleep pressure independently influence alertness and performance, showing that the circadian pacemaker modulates the threshold for sleep onset. This work established the experimental paradigm the preprint uses to dissociate intensity and phase axes, validating the mechanistic separation."}]
 evidence_position: "speculative"
-image_provider: "Pexels"
-image_provider_id: "17940257"
-image: "/images/editions/2026-08-15/sleepiness-decomposed-the-hidden-physics-of-fatigue-d9040fcd-pexels-17940257.webp"
-image_alt: "High-tech laboratory equipment with computer system in lab setting."
-image_caption: "The lab's computer system tracks the two-axis model that separates sleepiness into intensity and phase, offering a quantitative framework for how aging and caffeine alter fatigue."
-image_width: 1200
-image_height: 627
-image_photographer: "Media Dung"
-image_photographer_url: "https://www.pexels.com/@dungmedia"
-image_source_url: "https://www.pexels.com/photo/computer-and-scanner-in-laboratory-17940257/"
-image_review_status: "pending"
-image_avg_color: "#86939C"
 topics: ['longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-d9040fcd"
+image: "/images/editions/2026-08-15/2026-08-15-sleepiness-decomposed-the-hidden-physics-of-fatigue-d9040fcd-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph coupling a vertical homeostatic sleep-pressure column with a horizontal 24-division circadian phase wave intersecting inside a cranial astrolabe dome."
+image_caption: "Decomposing fatigue into orthogonal homeostatic sleep-pressure intensity and circadian phase angle unifies sleep debt and clock misalignment under one biophysical coordinate frame."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new model splits sleepiness into two physiological axes—intensity and phase—unifying aging, caffeine, and circadian misalignment under one quantitative framework.

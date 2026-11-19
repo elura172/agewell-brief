@@ -15,12 +15,16 @@ ancestral_insight: "Traditional sleep practices, such as biphasic or segmented s
 evidence_position: "emerging"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
-image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Vital healthspan practices and physical harmony"
-image_photographer: "Mikhail Nilov / Pexels"
-image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
-image_provider: "Pexels"
-image_avg_color: "#2a3a2a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-3da0e8de"
+image: "/images/editions/2026-08-13/2026-08-13-the-thalamus-conducts-the-sleep-symphony-new-brain-wide-evidence-for-m-3da0e8de-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a central dual-lobed thalamic resonator inside a geodesic cranial dome phase-locking cortical slow waves, sleep spindles, and sharp-wave hippocampal ripples."
+image_caption: "Acting as a central bioelectric conductor, the thalamus phase-locks slow oscillations, sleep spindles, and hippocampal ripples to consolidate overnight memory."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A large EEG-fMRI study reveals how slow oscillations and spindles coordinate hippocampal–cortical communication during deep sleep, with the thalamus as the conductor.

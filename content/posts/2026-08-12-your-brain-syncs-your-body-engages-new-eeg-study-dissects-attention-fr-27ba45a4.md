@@ -12,20 +12,18 @@ source_name: "bioRxiv neuroscience, genetics, physiology"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Uri Hasson", "year": 2004, "discovery": "Hasson and colleagues introduced inter-subject correlation (ISC) of fMRI signals, showing that neural responses synchronize across individuals during naturalistic movie viewing. This established the foundational method for measuring interpersonal neural synchronization, which the current study extends to EEG and bodily signals to disentangle attention and engagement."}, {"scientist": "Stephen W. Porges", "year": 1995, "discovery": "Porges proposed the Polyvagal Theory, linking autonomic nervous system states (heart rate variability, social engagement) to affective and cognitive processes. This provides the physiological basis for why bodily signals (heart rate, electrodermal activity) reflect listening engagement, as these are modulated by vagal pathways and emotional arousal."}]
 evidence_position: "emerging"
-image_provider: "Pexels"
-image_provider_id: "28993057"
-image: "/images/editions/2026-08-12/your-brain-syncs-your-body-engages-new-eeg-study-dissects-attention-fr-27ba45a4-pexels-28993057.webp"
-image_alt: "A young gamer playing an online game while wearing headphones, focused on the screen."
-image_caption: "The gamer's focused gaze on the screen, with headphones on, illustrates the article's finding that neural synchronization tracks attention, while bodily engagement—here, the physical act of playing—tracks immersion."
-image_width: 1200
-image_height: 627
-image_photographer: "Matheus Bertelli"
-image_photographer_url: "https://www.pexels.com/@bertellifotografia"
-image_source_url: "https://www.pexels.com/photo/teen-gamer-engaged-in-intense-online-match-28993057/"
-image_review_status: "pending"
-image_avg_color: "#757694"
 topics: ['brain health', 'longevity']
 frameworks: ['Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-27ba45a4"
+image: "/images/editions/2026-08-12/2026-08-12-your-brain-syncs-your-body-engages-new-eeg-study-dissects-attention-fr-27ba45a4-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of an acoustic emitter bifurcating into an upper register of phase-locked cortical EEG domes and a lower register of synchronized cardiac-autonomic torso medallions."
+image_caption: "Shared acoustic immersion splits along two biophysical channels: cortical EEG phase-locking tracks focused attention while autonomic cardiac entrainment tracks bodily engagement."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A preprint shows neural synchronization tracks attention, while bodily synchronization tracks engagement—revealing the distinct biophysics of shared listening.

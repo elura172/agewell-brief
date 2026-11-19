@@ -10,22 +10,20 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.08.03.742616v1?rss=1"
 source_title: "Peripheral T-cell co-signalling states mark vulnerability and resilience to cerebral Aβ pathology"
 source_name: "bioRxiv immunology and cell biology"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "7394787"
-image: "/images/editions/2026-08-09/t-cell-checkpoints-the-immune-dial-that-tunes-brain-resilience-to-amyl-de12de7b-pexels-7394787.webp"
-image_alt: "Senior woman relaxing and reading a book at home on a comfortable pink sofa."
-image_caption: "A senior woman reads at home, embodying the cognitive resilience that peripheral T-cell checkpoints like ICOS and PD-1 may help preserve against Alzheimer's-related hippocampal atrophy."
-image_width: 1200
-image_height: 627
-image_photographer: "Ivan S"
-image_photographer_url: "https://www.pexels.com/@ivan-s"
-image_source_url: "https://www.pexels.com/photo/photo-of-an-elderly-woman-reading-a-book-while-sitting-on-a-sofa-7394787/"
-image_review_status: "pending"
-image_avg_color: "#BDAAAF"
 topics: ['brain health', 'longevity', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 evidence_position: "emerging"
 autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-de12de7b"
+image: "/images/editions/2026-08-09/2026-08-09-t-cell-checkpoints-the-immune-dial-that-tunes-brain-resilience-to-amyl-de12de7b-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a peripheral T-cell medallion with twin interlocking rotary checkpoint dials tuning outgoing immune waves across the blood-brain barrier to protect a hippocampal arch from amyloid plaques."
+image_caption: "Peripheral T-cell checkpoint receptors ICOS and PD-1 act as a rotary immune rheostat that tunes microglial restraint and hippocampal resilience against amyloid."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New mass cytometry data link ICOS and PD-1 on peripheral T-cells to hippocampal atrophy and cognitive resilience in Alzheimer's pathology—revealing a peripheral immune rheostat for neurodegeneration.

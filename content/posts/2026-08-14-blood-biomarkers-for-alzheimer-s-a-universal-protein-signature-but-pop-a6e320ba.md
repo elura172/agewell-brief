@@ -12,20 +12,18 @@ source_name: "Medical Xpress Neurology"
 spiral: "Luminous Mind"
 autoresearch_antecedents: [{"scientist": "Alois Alzheimer", "year": "1906", "discovery": "Alzheimer first described the neuropathological hallmarks of the disease\u2014amyloid plaques and neurofibrillary tangles\u2014in a 51-year-old patient, establishing the clinical-pathological entity. This discovery laid the foundation for all subsequent biomarker research, as the modern study's blood-based detection of Alzheimer's protein patterns (e.g., amyloid and tau) directly targets these same pathological features, now measurable in living individuals across diverse populations."}, {"scientist": "Henrik Zetterberg and Kaj Blennow", "year": "2000s", "discovery": "In the early 2000s, Zetterberg and Blennow pioneered ultrasensitive blood-based biomarkers for Alzheimer's disease, particularly plasma phosphorylated tau (p-tau) and amyloid-beta, using single-molecule array (Simoa) technology. Their work demonstrated that blood biomarkers could mirror cerebrospinal fluid changes, enabling scalable, minimally invasive detection. The current preprint extends this by validating these biomarkers in African populations, addressing the historical bias toward European cohorts and confirming that the protein patterns are universal, not ancestry-specific."}]
 evidence_position: "emerging"
-image_provider: "Pexels"
-image_provider_id: "37548861"
-image: "/images/editions/2026-08-14/blood-biomarkers-for-alzheimer-s-a-universal-protein-signature-but-pop-a6e320ba-pexels-37548861.webp"
-image_alt: "Rows of blood vials in a laboratory setting, ready for analysis."
-image_caption: "These vials of blood, ready for analysis, underscore the article's point that while Alzheimer's protein biomarkers are universal, their reference ranges must be calibrated for each population to prevent misdiagnosis."
-image_width: 1200
-image_height: 627
-image_photographer: "Tahir Xəlfəquliyev"
-image_photographer_url: "https://www.pexels.com/@tahir"
-image_source_url: "https://www.pexels.com/photo/blood-sample-vials-in-laboratory-rack-37548861/"
-image_review_status: "pending"
-image_avg_color: "#B0999F"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "lithograph-a6e320ba"
+image: "/images/editions/2026-08-14/2026-08-14-blood-biomarkers-for-alzheimer-s-a-universal-protein-signature-but-pop-a6e320ba-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a central conserved plasma biomarker oscillation aligned across three parallel population-specific Vernier slide-rule calibration frames."
+image_caption: "While the core plasma biomarker waveform of Alzheimer pathology is conserved, population-specific Vernier reference thresholds are essential to prevent diagnostic drift."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research extends Alzheimer's blood biomarker validation to African populations, revealing that while the core protein pathology is conserved, reference ranges must be population-specific to avoid misdiagnosis.
