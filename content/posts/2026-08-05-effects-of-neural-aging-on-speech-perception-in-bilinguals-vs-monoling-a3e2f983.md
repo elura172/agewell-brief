@@ -10,23 +10,21 @@ source_url: "https://www.frontiersin.org/articles/10.3389/fnhum.2026.1913294"
 source_title: "Effects of neural aging on speech perception in bilinguals vs. monolinguals"
 source_name: "Frontiers in Human Neuroscience"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "24346263"
-image: "/images/editions/2026-08-05/effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983-pexels-24346263.webp"
-image_alt: "Man sitting in an armchair using a neurofeedback device, illustrating modern technology in healthcare."
-image_caption: "The man's neurofeedback device, like the EEG in the study, tracks brain activity, but the article's point is that lifelong bilingualism, not technology, preserves the brain's automatic sound discrimination with age."
-image_width: 1200
-image_height: 627
-image_photographer: "Mindfield Biosystems Ltd."
-image_photographer_url: "https://www.pexels.com/@mindfield-biosystems-ltd-564865676"
-image_source_url: "https://www.pexels.com/photo/man-using-eeg-biofeedback-24346263/"
-image_review_status: "pending"
-image_avg_color: "#8B8B89"
 topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Risto N\u00e4\u00e4t\u00e4nen", "year": "1978", "discovery": "Discovered the mismatch negativity (MMN) component of event-related potentials, showing that the brain automatically detects auditory change even without attention. This provided a direct neural index of pre-attentive auditory discrimination, which the current study uses to show that lifelong bilingualism preserves this function with age."}, {"scientist": "Ellen Bialystok", "year": "2004", "discovery": "Demonstrated that lifelong bilingualism confers cognitive reserve, delaying the onset of dementia by 4-5 years. This established the concept of bilingualism as a protective factor against age-related cognitive decline, which the current study extends to the auditory domain by showing preserved MMN amplitudes and latencies in older bilinguals."}]
 ancestral_insight: "Traditional multilingual societies, such as those in the Amazon or Papua New Guinea, often require individuals to switch between languages for trade, marriage, and ritual, maintaining high linguistic demands throughout life. This parallels the modern finding that lifelong bilingualism preserves auditory discrimination, suggesting that such practices may have provided a natural form of cognitive training, enhancing neural efficiency and resilience against age-related decline. The mechanism likely involves continuous engagement of auditory attention and memory systems, which strengthens synaptic connections and promotes neuroplasticity, similar to the effects observed in the study."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-a3e2f983"
+image: "/images/editions/2026-08-05/2026-08-05-effects-of-neural-aging-on-speech-perception-in-bilinguals-vs-monoling-a3e2f983-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing an acoustic waveform entering the auditory cortex and branching into dual executive-attentional filtering channels that isolate speech from background noise, paired with a Luminous Mind motif."
+image_caption: "Plate — While peripheral auditory encoding ages similarly across listeners, lifelong bilingualism recruits top-down executive networks to resolve speech in complex acoustic scenes."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New EEG research reveals that lifelong bilingualism preserves the brain's pre-attentive auditory discrimination, offering a buffer against age-related neural slowing.

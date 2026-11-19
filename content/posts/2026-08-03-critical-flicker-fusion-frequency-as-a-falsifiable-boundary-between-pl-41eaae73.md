@@ -10,12 +10,6 @@ source_url: "https://arxiv.org/abs/2607.29068"
 source_title: "Critical Flicker Fusion Frequency As A Falsifiable Boundary Between Plastic And Non-Plastic Neural Systems"
 source_name: "arXiv q-bio"
 spiral: "Luminous Mind"
-image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Mitochondrial metabolic energy dynamics"
-image_photographer: "Karolina Grabowska / Pexels"
-image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
-image_provider: "Pexels"
-image_avg_color: "#3a1a1a"
 topics: ['brain health', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Sigmund Exner", "year": "1868", "discovery": "Exner, an Austrian physiologist, first systematically measured the critical flicker fusion frequency (CFFF) in humans, establishing it as a quantifiable threshold of temporal resolution in the visual system. His work laid the foundation for using CFFF as a probe of neural processing speed and stability, which the modern review now proposes as a marker of adult brain plasticity."}, {"scientist": "Donald O. Hebb", "year": "1949", "discovery": "Hebb's postulate that 'neurons that fire together wire together' introduced the concept of synaptic plasticity as the cellular basis of learning and memory. The modern review's hypothesis that CFFF marks the boundary between plastic and non-plastic neural systems directly extends Hebb's framework, suggesting that stable perceptual thresholds reflect fixed neural circuits, whereas plastic systems can be modified by experience."}]

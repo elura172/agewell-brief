@@ -12,12 +12,6 @@ source_title: "Cellular senescence in multiple sclerosis: hallmarks, immunosenes
 source_name: "PubMed"
 spiral: "Cell Shedding"
 evidence_position: "established"
-image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microscopic cellular membrane and organelle renewal"
-image_photographer: "Polina Kovaleva / Pexels"
-image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
-image_provider: "Pexels"
-image_avg_color: "#3a2a1a"
 topics: ['brain health', 'cellular senescence', 'longevity']
 frameworks: ['Cell Shedding', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}, {"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}]

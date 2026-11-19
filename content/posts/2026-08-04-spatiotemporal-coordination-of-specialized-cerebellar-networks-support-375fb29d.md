@@ -10,23 +10,21 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.08.03.742395v1?rss=1"
 source_title: "Spatiotemporal coordination of specialized cerebellar networks supports episodic memory in older adults"
 source_name: "bioRxiv neuroscience, genetics, physiology"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "37538884"
-image: "/images/editions/2026-08-04/spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d-pexels-37538884.webp"
-image_alt: "A close-up view of a female adult's hands playing a piano indoors, focusing on fingering technique and white nails."
-image_caption: "The pianist's precise fingering mirrors the cerebellar timing that, per the fMRI study, underpins episodic memory in older adults."
-image_width: 1200
-image_height: 627
-image_photographer: "Zulfugar Karimov"
-image_photographer_url: "https://www.pexels.com/@zulfugarkarimov"
-image_source_url: "https://www.pexels.com/photo/close-up-of-hands-playing-piano-indoors-37538884/"
-image_review_status: "pending"
-image_avg_color: "#736E68"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Jan Voogd", "year": "1960s", "discovery": "Voogd's pioneering work on cerebellar corticonuclear microzones and longitudinal zones established that the cerebellum is organized into discrete, functionally distinct modules with specific output targets. This modular architecture is the anatomical substrate for the dynamic, time-varying coordination with cerebral networks observed in the preprint, where specialized cerebellar circuits transiently couple with memory-related networks during encoding."}, {"scientist": "Masao Ito", "year": "1970s", "discovery": "Ito's flocculus hypothesis and theory of the cerebellum as a 'sidepath' or forward model for motor control, later extended to cognitive functions, proposed that the cerebellum learns internal models and provides predictive timing signals. The preprint's finding that cerebellar-cerebral connectivity instability during encoding predicts retrieval slowing directly validates Ito's concept of the cerebellum as a timing and coordination engine, now applied to episodic memory in aging."}]
 ancestral_insight: "Traditional practices that emphasize rhythmic, coordinated movement—such as dance, drumming, and tai chi—engage the cerebellum's timing circuits and may preserve the dynamic connectivity highlighted in the preprint. Ancestral lifestyles involved daily complex motor skills (hunting, foraging, tool-making) that demanded precise timing and coordination, continuously exercising cerebello-cerebral loops. This physical activity likely maintained cerebellar plasticity and network stability, offering a protective mechanism against age-related memory decline. Modern sedentary habits reduce such stimulation, potentially accelerating the instability in cerebellar-cerebral coupling that predicts retrieval slowing. Thus, incorporating rhythmic, skill-based movement into daily life may serve as an ancestral intervention to sustain the cerebellar timing that supports episodic memory."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-375fb29d"
+image: "/images/editions/2026-08-04/2026-08-04-spatiotemporal-coordination-of-specialized-cerebellar-networks-support-375fb29d-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of the cerebellar folia lattice firing phase-locked spatiotemporal pulses into prefrontal working-memory loops, paired with a Luminous Mind concentric wave motif."
+image_caption: "Plate — Specialized cerebellar networks coordinate millisecond spatiotemporal timing with prefrontal circuits to sustain complex working memory."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New fMRI evidence shows that dynamic coordination of specialized cerebellar circuits with cerebral networks supports episodic memory in older adults—and that instability during encoding predicts future retrieval slowing.

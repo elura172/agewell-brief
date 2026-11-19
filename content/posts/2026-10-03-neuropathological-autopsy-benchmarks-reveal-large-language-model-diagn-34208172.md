@@ -12,12 +12,6 @@ source_title: "Assessing AI and Neurologist Diagnostic Reasoning Against Neuropa
 source_name: "medrxiv"
 spiral: "Living Waters"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Harold Saxton Burr", "year": "1935", "discovery": "Measured standing direct-current voltage gradients (L-Fields) across living organisms over decades at Yale, showing that reproducible bioelectric field shifts precede structural pathology, ovulation, and wound healing. (The Fields of Life: Electrodynamic L-Fields)"}, {"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}]

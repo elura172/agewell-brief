@@ -10,17 +10,6 @@ source_url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PbWttb3VWVkxtQ2
 source_title: "A weak body clock may be an early warning for dementia - ScienceDaily"
 source_name: "ScienceDaily"
 spiral: "Luminous Mind"
-image_provider: "Pixabay"
-image_provider_id: "2155376"
-image: "/images/editions/2026-08-02/a-weak-body-clock-may-be-an-early-warning-for-dementia-sciencedaily-4e3cf41d-pixabay-2155376.webp"
-image_alt: "Illustrative photograph: living room, chair, sofa, couch, home"
-image_width: 1200
-image_height: 627
-image_photographer: "ErikaWittlieb"
-image_photographer_url: "https://pixabay.com/users/erikawittlieb-427626/"
-image_source_url: "https://pixabay.com/photos/living-room-chair-sofa-couch-home-2155376/"
-image_review_status: "pending"
-image_avg_color: "#cad4cf"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Franz Halberg", "year": "1959", "discovery": "Coined the term 'circadian' and established the field of chronobiology, demonstrating that daily rhythms in physiology are endogenous and measurable. His concept of 'circadian amplitude' as a health biomarker directly anticipates the finding that weaker daily rhythms (reduced amplitude) predict dementia risk, validating his early claim that rhythm integrity reflects systemic health."}, {"scientist": "Clifford Saper", "year": "2005", "discovery": "Identified the suprachiasmatic nucleus (SCN) as the master circadian clock and showed that its degeneration occurs in Alzheimer's disease, linking circadian disruption to neurodegeneration. This provides the mechanistic basis for the modern finding: weaker rhythms may reflect early SCN dysfunction, serving as a preclinical marker for dementia."}]

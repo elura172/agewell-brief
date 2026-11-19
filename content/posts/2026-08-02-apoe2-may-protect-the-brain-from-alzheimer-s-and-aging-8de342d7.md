@@ -10,17 +10,6 @@ source_url: "https://www.sciencedaily.com/releases/2026/07/260723084856.htm"
 source_title: "APOE2 may protect the brain from Alzheimer’s and aging"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "8940359"
-image: "/images/editions/2026-08-02/apoe2-may-protect-the-brain-from-alzheimer-s-and-aging-8de342d7-pexels-8940359.webp"
-image_alt: "Scientist in lab coat using microscope and laptop in a laboratory setting."
-image_width: 1200
-image_height: 627
-image_photographer: "Thirdman"
-image_photographer_url: "https://www.pexels.com/@thirdman"
-image_source_url: "https://www.pexels.com/photo/a-person-in-white-lab-gown-looking-through-microscope-8940359/"
-image_review_status: "pending"
-image_avg_color: "#B9BEC4"
 topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Tomas Lindahl", "year": "1974", "discovery": "Discovered base excision repair (BER), the pathway that removes oxidative DNA damage (e.g., 8-oxoguanine) from neurons. This is directly relevant because APOE2 neurons show less DNA damage and better repair, likely through enhanced BER efficiency, linking APOE genotype to the fundamental repair mechanism Lindahl identified."}, {"scientist": "Mark Mattson", "year": "1990s", "discovery": "Showed that APOE isoforms differentially affect neuronal vulnerability to oxidative stress and DNA damage, with APOE4 increasing susceptibility and APOE2 conferring protection. This work directly anticipated the finding that APOE2 neurons exhibit less DNA damage and better repair, providing the cellular context for APOE's role in Alzheimer's and aging."}]

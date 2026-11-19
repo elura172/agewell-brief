@@ -12,12 +12,6 @@ source_title: "Future horizons: Toward an integrated neuroscience of sleep."
 source_name: "PubMed"
 spiral: "Luminous Mind"
 evidence_position: "established"
-image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Vital healthspan practices and physical harmony"
-image_photographer: "Mikhail Nilov / Pexels"
-image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
-image_provider: "Pexels"
-image_avg_color: "#2a3a2a"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glial-lymphatic (glymphatic) waste-clearance pathway, proving that cortical interstitial space expands by roughly 60% during deep slow-wave sleep so cerebrospinal fluid can flush amyloid-beta and tau via astrocyte AQP4 channels. (The Glymphatic System & Astrocyte-Mediated Sleep Clearance)"}, {"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}]

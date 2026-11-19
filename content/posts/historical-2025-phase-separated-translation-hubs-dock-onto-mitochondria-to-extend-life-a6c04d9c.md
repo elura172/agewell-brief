@@ -15,12 +15,6 @@ ancestral_insight: "Traditional practices of intermittent fasting and caloric re
 evidence_position: "emerging"
 topics: ['longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters']
-image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Biological clock and mitochondrial vitality"
-image_photographer: "RF._.studio / Pexels"
-image_photographer_url: "https://www.pexels.com/@rfstudio"
-image_provider: "Pexels"
-image_avg_color: "#1a3a3a"
 ---
 
 In C. elegans, LARP-1 forms liquid droplets that synthesize key mitochondrial proteins on-site. Keeping these droplets attached during aging preserves cristae and ATP, boosting longevity.

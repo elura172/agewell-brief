@@ -12,12 +12,6 @@ source_title: "Reading specific memories from human neurons before and after sle
 source_name: "biorxiv"
 spiral: "Luminous Mind"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'sleep health']
 frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}, {"scientist": "Michael Levin", "year": "2012", "discovery": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing. (The Bioelectric Morphogenetic Code & Anatomical Homeostasis)"}]

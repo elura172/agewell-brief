@@ -11,17 +11,6 @@ source_url: "https://www.fda.gov/drugs/medication-health-fraud-notifications/sle
 source_title: "Sleep, Skin, Bodybuilding and Other Product Notifications"
 source_name: "FDA Tainted Supplements"
 spiral: "Dark Mirror"
-image_provider: "Pexels"
-image_provider_id: "4031693"
-image: "/images/editions/2026-08-02/fda-warns-hidden-drugs-in-sleep-skin-and-bodybuilding-supplements-bdfc047d-pexels-4031693.webp"
-image_alt: "Two scientists discussing research with a microscope in a modern lab."
-image_width: 1200
-image_height: 627
-image_photographer: "Edward Jenner"
-image_photographer_url: "https://www.pexels.com/@edward-jenner"
-image_source_url: "https://www.pexels.com/photo/two-scientists-working-inside-the-laboratory-4031693/"
-image_review_status: "human-reviewed"
-image_avg_color: "#C1C2BD"
 topics: ['consumer safety', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Arthur C. Guyton", "year": "1960s", "discovery": "Guyton's quantitative physiology framework established that exogenous bioactive compounds (drugs) can exert potent, dose-dependent effects on organ systems even when present in small amounts, and that the body's homeostatic mechanisms can be overwhelmed by such compounds. This underpins the FDA's concern that undeclared drug ingredients in supplements (e.g., sildenafil in 'natural' sleep aids, anabolic steroids in bodybuilding products) can cause serious physiological disruption, including cardiovascular and endocrine effects, even at low doses."}, {"scientist": "Frances Kelsey", "year": "1962", "discovery": "As an FDA medical officer, Kelsey's refusal to approve thalidomide in the U.S. highlighted the dangers of unregulated drug exposure and led to the 1962 Kefauver-Harris Amendments requiring proof of efficacy and safety before marketing. Her work established the regulatory principle that any drug-like substance, even if hidden in a 'natural' product, must be identified and evaluated for safety\u2014directly informing the FDA's current tainted supplement surveillance and notification list."}]

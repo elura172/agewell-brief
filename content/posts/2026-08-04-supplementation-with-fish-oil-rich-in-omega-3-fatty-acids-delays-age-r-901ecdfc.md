@@ -10,23 +10,21 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.08.02.742308v1?rss=1"
 source_title: "Supplementation with Fish Oil Rich in Omega-3 Fatty Acids Delays Age-Related Muscle Changes"
 source_name: "bioRxiv immunology and cell biology"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "11354239"
-image: "/images/editions/2026-08-04/supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc-pexels-11354239.webp"
-image_alt: "An adult using a glucometer to measure blood glucose levels, illustrating personal healthcare management."
-image_caption: "A glucometer reading in an adult's hand underscores the article's finding that muscle aging starts with metabolic decline, not mass loss, and that midlife omega-3s can durably shift that trajectory."
-image_width: 1200
-image_height: 627
-image_photographer: "Towfiqu barbhuiya"
-image_photographer_url: "https://www.pexels.com/@towfiqu-barbhuiya-3440682"
-image_source_url: "https://www.pexels.com/photo/close-up-of-a-person-using-a-glucometer-11354239/"
-image_review_status: "pending"
-image_avg_color: "#867A84"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Jules Tinel", "year": "1916", "discovery": "Tinel described the 'signe de fourmillement' (tingling sign) in peripheral nerve regeneration, establishing that functional recovery in nerve-muscle systems is preceded by subtle metabolic and electrophysiological changes, not gross structural restoration. This anticipates the modern finding that muscle aging begins with metabolic decline (impaired glucose tolerance) before mass loss or strength decline, emphasizing that early functional sentinels precede overt tissue changes."}, {"scientist": "Philip Randle", "year": "1963", "discovery": "Randle's glucose-fatty acid cycle demonstrated that elevated free fatty acids inhibit glucose oxidation in muscle, a metabolic inflexibility that precedes insulin resistance. This directly explains the midlife metabolic inflection point in the rat study: omega-3s, by modulating fatty acid composition, can restore metabolic flexibility and thereby reprogram the muscle-aging trajectory before structural decline manifests."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-901ecdfc"
+image: "/images/editions/2026-08-04/2026-08-04-supplementation-with-fish-oil-rich-in-omega-3-fatty-acids-delays-age-r-901ecdfc-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a midlife skeletal-muscle phospholipid bilayer enriched with flexible omega-3 acyl chains protecting mitochondrial cristae and sarcomere alignment, paired with an Inner Garden motif."
+image_caption: "Plate — Midlife omega-3 incorporation into muscle membrane phospholipids preserves mitochondrial respiration and delays age-related myofibrillar atrophy."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New longitudinal data in rats show that muscle aging begins with metabolic decline, not mass loss—and a short course of omega-3s at midlife durably reprograms the trajectory.

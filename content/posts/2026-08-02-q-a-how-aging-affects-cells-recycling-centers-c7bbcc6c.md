@@ -7,12 +7,6 @@ source_url: "https://medicalxpress.com/news/2026-07-qa-aging-affects-cells-recyc
 source_title: "Q&A: How aging affects cells' recycling centers"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Cell Shedding"
-image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Biological clock and mitochondrial vitality"
-image_photographer: "RF._.studio / Pexels"
-image_photographer_url: "https://www.pexels.com/@rfstudio"
-image_provider: "Pexels"
-image_avg_color: "#1a3a3a"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Christian de Duve", "year": "1955", "discovery": "Discovered lysosomes as distinct organelles containing hydrolytic enzymes, coining the term 'lysosome' and establishing them as the cell's digestive and recycling centers. This foundational work directly underpins modern research on lysosomal dysfunction in aging and age-related diseases like Alzheimer's and Parkinson's."}, {"scientist": "Ana Maria Cuervo", "year": "2000s", "discovery": "Pioneered research on chaperone-mediated autophagy (CMA) and demonstrated that lysosomal function declines with age, showing that decreased activity of lysosomal enzymes and impaired autophagy contribute to the accumulation of damaged proteins and organelles, linking lysosomal failure to neurodegeneration and other age-related pathologies."}]

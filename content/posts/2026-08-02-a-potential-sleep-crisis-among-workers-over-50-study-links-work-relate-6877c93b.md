@@ -10,18 +10,6 @@ source_url: "https://medicalxpress.com/news/2026-07-potential-crisis-workers-lin
 source_title: "A potential sleep crisis among workers over 50: Study links work-related stress to range of well-being issues"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
-image_id: 8972607
-image_provider: "Pexels"
-image_provider_id: "8972607"
-image: "https://images.pexels.com/photos/8972607/pexels-photo-8972607.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Peaceful elderly couple sleeping together in bed, showing relaxation and comfort."
-image_width: 1200
-image_height: 627
-image_photographer: "SHVETS production"
-image_photographer_url: "https://www.pexels.com/@shvets-production"
-image_source_url: "https://www.pexels.com/photo/a-couple-sleeping-on-the-bed-8972607/"
-image_review_status: "human-reviewed"
-image_avg_color: "#BAB6AB"
 topics: ['brain health', 'sleep health']
 frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Hans Selye", "year": "1936", "discovery": "Defined the General Adaptation Syndrome, showing that chronic stressors (including work-related demands) trigger sustained hypothalamic-pituitary-adrenal (HPA) axis activation, leading to elevated cortisol and downstream physiological wear-and-tear. This directly anticipates the modern finding that work stress in over-50s is associated with persistent sleep problems, as chronic HPA activation disrupts sleep architecture and circadian regulation."}, {"scientist": "Alexander Borb\u00e9ly", "year": "1982", "discovery": "Proposed the two-process model of sleep regulation (Process S, homeostatic sleep drive, and Process C, circadian rhythm). This model explains how stress-induced arousal and elevated cortisol can interfere with Process S accumulation and Process C timing, leading to difficulty initiating and maintaining sleep. The modern study's observation of persistent sleep problems in stressed older workers aligns with Borb\u00e9ly's framework, as age-related changes in sleep homeostasis and circadian amplitude make older adults more vulnerable to stress-induced sleep disruption."}]

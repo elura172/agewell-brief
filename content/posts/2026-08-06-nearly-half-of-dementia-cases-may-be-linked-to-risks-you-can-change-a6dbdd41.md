@@ -15,12 +15,16 @@ frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "William Osler", "year": "1892", "discovery": "In 'The Principles and Practice of Medicine', Osler described the clinical association between chronic hypertension, arteriosclerosis, and progressive cognitive decline, coining the term 'arteriosclerotic dementia'. He noted that vascular damage from high blood pressure and smoking-related arterial changes could lead to diffuse brain atrophy and white matter degeneration, directly anticipating the modern finding that cardiovascular risk factors accelerate white matter damage."}, {"scientist": "Vladimir Hachinski", "year": "1975", "discovery": "Hachinski introduced the concept of 'multi-infarct dementia' and developed the Hachinski Ischemic Score to distinguish vascular dementia from Alzheimer's disease. His work established that cumulative vascular insults\u2014from hypertension, smoking, and heart disease\u2014produce white matter lesions and cognitive decline, providing the clinical framework that the Lund University study now validates with longitudinal imaging and biomarker data."}]
 ancestral_insight: "Traditional hunter-gatherer lifestyles, such as those of the Hadza or Tsimané, exhibit exceptionally low rates of hypertension, smoking, and cardiovascular disease, and correspondingly low dementia prevalence. Their diets are high in fiber and potassium, low in sodium and processed foods, and they engage in high daily physical activity, which maintains endothelial function and cerebral blood flow. This lifestyle parallels the modifiable risk factors identified in the study: by avoiding smoking, maintaining healthy blood pressure through diet and activity, and supporting cardiovascular health, ancestral populations naturally protect white matter integrity and cognitive function, offering a physiological blueprint for dementia prevention."
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Mitochondrial metabolic energy dynamics"
-image_photographer: "Karolina Grabowska / Pexels"
-image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
-image_provider: "Pexels"
-image_avg_color: "#3a1a1a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-a6dbdd41"
+image: "/images/editions/2026-08-06/2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-risks-you-can-change-a6dbdd41-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of cerebral white-matter fiber tracts shielded by fourteen interlocking modifiable vascular, sensory, and metabolic levers, paired with a Luminous Mind geometric horizon."
+image_caption: "Plate — White-matter structural integrity reflects cumulative modifiable vascular, metabolic, and sensory exposures across the lifespan."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A four-year Lund University study shows smoking, hypertension, and cardiovascular disease accelerate white matter damage, a key driver of vascular dementia. The findings suggest that addressing these risks could delay cognitive decline by reducing multiple brain insults simultaneously.

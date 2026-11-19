@@ -12,12 +12,6 @@ source_title: "INSL3: an informative testis biomarker for assessing the HPG axis
 source_name: "PubMed"
 spiral: "Higher Flame"
 evidence_position: "established"
-image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Vital healthspan practices and physical harmony"
-image_photographer: "Mikhail Nilov / Pexels"
-image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
-image_provider: "Pexels"
-image_avg_color: "#2a3a2a"
 topics: ['brain health', 'cellular senescence', 'longevity', "men's health", 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]

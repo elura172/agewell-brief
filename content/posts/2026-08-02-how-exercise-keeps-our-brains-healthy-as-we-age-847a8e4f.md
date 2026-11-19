@@ -7,12 +7,6 @@ source_url: "https://medicalxpress.com/news/2026-07-brains-healthy-age.html"
 source_title: "How exercise keeps our brains healthy as we age"
 source_name: "Medical Xpress Sleep"
 spiral: "Luminous Mind"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'longevity', 'mobility']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Carl W. Cotman", "year": "2002", "discovery": "Cotman and colleagues demonstrated that voluntary exercise upregulates brain-derived neurotrophic factor (BDNF) in the hippocampus, a key mechanism for synaptic plasticity and neuroprotection, directly linking physical activity to reduced risk of neurodegeneration and dementia."}, {"scientist": "Henriette van Praag", "year": "1999", "discovery": "van Praag and colleagues showed that running increases neurogenesis in the adult mouse dentate gyrus, improving learning and memory, providing the first cellular evidence that exercise can generate new neurons in the adult brain, a process now implicated in cognitive resilience against aging and dementia."}]

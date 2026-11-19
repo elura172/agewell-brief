@@ -10,23 +10,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/08/260806050724.htm"
 source_title: "Scientists reveal how much exercise you really need to protect your heart"
 source_name: "ScienceDaily Top Health"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "32213422"
-image: "/images/editions/2026-08-08/the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa-pexels-32213422.webp"
-image_alt: "A confident female scientist in a lab coat with a hijab in a modern laboratory with microscopes and textbooks."
-image_caption: "The scientist's focused gaze over the microscope mirrors the precision needed to recalibrate the heart's exercise threshold beyond the standard 150-minute guideline."
-image_width: 1200
-image_height: 627
-image_photographer: "Yusuf Çelik"
-image_photographer_url: "https://www.pexels.com/@zandatsu"
-image_source_url: "https://www.pexels.com/photo/female-scientist-in-modern-laboratory-setting-32213422/"
-image_review_status: "pending"
-image_avg_color: "#7A8B93"
 topics: ['metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Jeremy N. Morris", "year": "1953", "discovery": "Morris's landmark study of London bus conductors versus drivers showed that conductors, who climbed stairs and walked constantly, had roughly half the coronary heart disease incidence of sedentary drivers. This was the first epidemiological evidence of a dose-response relationship between physical activity and cardiovascular health, directly anticipating the new finding that higher volumes of activity confer substantially greater protection."}, {"scientist": "Bengt Saltin", "year": "1968", "discovery": "Saltin's Dallas Bed Rest and Training Study demonstrated that healthy young men who underwent 20 days of bed rest showed dramatic declines in maximal oxygen uptake (VO2max), and that a subsequent 8-week intensive training program not only restored but exceeded baseline fitness. This established the principle of cardiovascular plasticity and the need for progressive overload to maintain and enhance cardiac function, underpinning the modern study's implication that the heart requires substantial mechanical work to achieve optimal adaptive resilience."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-47dc92aa"
+image: "/images/editions/2026-08-08/2026-08-08-the-heart-s-true-exercise-threshold-why-150-minutes-may-be-just-the-be-47dc92aa-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of an upward myocardial dose-response curve and coronary perfusion chamber contrasting sex-specific cardiovascular volume thresholds, paired with a Higher Flame geometric spark."
+image_caption: "Plate — Coronary risk reduction scales well beyond baseline guidelines, with distinct weekly aerobic volume thresholds for female and male myocardium."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research suggests that substantial cardiovascular protection may require nearly 10 hours of weekly activity—far beyond current guidelines. Here's what the dose-response curve really means for your heart.

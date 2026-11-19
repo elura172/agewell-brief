@@ -15,12 +15,6 @@ ancestral_insight: "In ancestral environments, physical activity patterns were t
 evidence_position: "emerging"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
-image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Mitochondrial metabolic energy dynamics"
-image_photographer: "Karolina Grabowska / Pexels"
-image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
-image_provider: "Pexels"
-image_avg_color: "#3a1a1a"
 ---
 
 New research shows that the spinal cord's built-in amplifier—persistent inward currents—boosts muscle output more in the late afternoon, revealing a circadian rhythm in neural excitability.

@@ -10,23 +10,21 @@ source_url: "https://medicalxpress.com/news/2026-08-alzheimer-linked-tau-disrupt
 source_title: "Alzheimer's-linked tau disrupts mitochondria, reversing electron flow in nerve cells"
 source_name: "Medical Xpress Neurology"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "26184267"
-image: "/images/editions/2026-08-07/tau-s-mitochondrial-sabotage-reversing-electron-flow-in-alzheimer-s-e7da10a8-pexels-26184267.webp"
-image_alt: "A female researcher examines samples with a microscope in a laboratory setting."
-image_caption: "The researcher's microscope work zeroes in on how tau flips mitochondrial electron flow at Complex I, a sabotage that slashes ATP and fuels oxidative stress."
-image_width: 1200
-image_height: 627
-image_photographer: "Ejov Igor"
-image_photographer_url: "https://www.pexels.com/@igorejov"
-image_source_url: "https://www.pexels.com/photo/woman-using-microscope-26184267/"
-image_review_status: "pending"
-image_avg_color: "#716A64"
 topics: ['brain health', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Peter Mitchell", "year": "1961", "discovery": "Proposed the chemiosmotic theory, explaining how the electron transport chain creates a proton gradient across the inner mitochondrial membrane to drive ATP synthesis. This framework is essential for understanding how tau-induced reverse electron flow at Complex I disrupts the proton motive force, leading to ROS production and ATP depletion."}, {"scientist": "Britton Chance", "year": "1970s", "discovery": "Pioneered studies on mitochondrial electron transport and oxidative phosphorylation, including the phenomenon of reverse electron transport at Complex I. His work demonstrated that under certain conditions, electrons can flow backward through the chain, generating superoxide. This directly anticipates the mechanism proposed in the preprint, where tau promotes such reversal, boosting ROS and cutting ATP."}]
 ancestral_insight: "Traditional lifestyle practices that enhance mitochondrial resilience, such as intermittent fasting, cold exposure, and regular physical activity, are known to upregulate mitochondrial biogenesis and antioxidant defenses. These practices may counteract the tau-induced reverse electron flow by improving the efficiency of Complex I and reducing ROS production. Ancestral diets rich in polyphenols and omega-3 fatty acids also support mitochondrial function, potentially mitigating the ATP deficit and oxidative stress described in the preprint. This suggests that lifestyle interventions targeting mitochondrial health could offer a protective strategy against tau-mediated neurodegeneration."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-e7da10a8"
+image: "/images/editions/2026-08-07/2026-08-07-tau-s-mitochondrial-sabotage-reversing-electron-flow-in-alzheimer-s-e7da10a8-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a neuronal mitochondrial cristae membrane where pathological tau forces Complex I into reverse electron transport and oxidative spark generation, paired with a Higher Flame motif."
+image_caption: "Plate — Pathological tau disrupts mitochondrial electron flow at Complex I, driving reverse electron transport and localized reactive oxygen stress."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research suggests tau protein disrupts mitochondrial electron transport, reversing flow at Complex I, boosting ROS and cutting ATP—a mechanism distinct from the classic tangles.

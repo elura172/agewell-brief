@@ -15,12 +15,16 @@ frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "John Vane", "year": "1971", "discovery": "Vane discovered that aspirin and other non-steroidal anti-inflammatory drugs work by inhibiting prostaglandin synthesis, establishing the central role of prostaglandins (including PGE2) in mediating inflammation and tissue homeostasis. This work, which earned him the Nobel Prize in 1982, laid the foundation for understanding how prostaglandin metabolism, including the degradative enzyme 15-PGDH, regulates physiological processes such as muscle growth and repair."}, {"scientist": "S. J. Konturek and colleagues", "year": "1980s", "discovery": "Konturek's group demonstrated that prostaglandins, particularly PGE2, exert trophic (growth-promoting) effects on gastrointestinal mucosa, showing that prostaglandins can directly stimulate cell proliferation and protein synthesis in tissues. This established the concept of prostaglandins as anabolic signals, which directly parallels the preprint's finding that PGE2 reawakens the IGF1 pathway in aged muscle."}]
 ancestral_insight: ""
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Biological clock and mitochondrial vitality"
-image_photographer: "RF._.studio / Pexels"
-image_photographer_url: "https://www.pexels.com/@rfstudio"
-image_provider: "Pexels"
-image_avg_color: "#1a3a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-92137747"
+image: "/images/editions/2026-08-07/2026-08-07-restoring-muscle-s-lost-signal-how-a-prostaglandin-enzyme-unlocks-stre-92137747-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph contrasting 15-PGDH prostaglandin degradation in aged muscle fibers with PGE2-restored neuromuscular junctions and myofibril density, paired with a Cell Shedding renewal motif."
+image_caption: "Plate — Blocking the prostaglandin-degrading enzyme 15-PGDH restores youth-like PGE2 signaling, neuromuscular junction integrity, and contractile strength."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new preprint shows that inhibiting 15-PGDH in geriatric mice reawakens a PGE2–IGF1 paracrine circuit, overcoming anabolic resistance and rebuilding muscle strength.

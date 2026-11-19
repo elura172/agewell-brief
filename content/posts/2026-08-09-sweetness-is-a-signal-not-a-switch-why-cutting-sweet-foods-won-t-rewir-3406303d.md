@@ -10,23 +10,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/08/260807235103.htm"
 source_title: "Cutting sweet foods doesn’t curb cravings or improve health"
 source_name: "ScienceDaily Top Health"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "30830502"
-image: "/images/editions/2026-08-09/sweetness-is-a-signal-not-a-switch-why-cutting-sweet-foods-won-t-rewir-3406303d-pexels-30830502.webp"
-image_alt: "An intimate close-up of a woman enjoying a ripe strawberry with freckles visible on her face."
-image_caption: "The freckled face savoring a strawberry illustrates the article's finding that sweetness itself isn't the metabolic switch, but the fruit's natural sugar and energy density are what matter."
-image_width: 1200
-image_height: 627
-image_photographer: "fahri tokcan"
-image_photographer_url: "https://www.pexels.com/@fahri-tokcan-522576348"
-image_source_url: "https://www.pexels.com/photo/close-up-of-woman-eating-a-juicy-strawberry-30830502/"
-image_review_status: "pending"
-image_avg_color: "#C1917A"
 topics: ['brain health', 'gut health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Paul Rozin", "year": "1976", "discovery": "Rozin's work on learned taste aversions and the 'adaptive conservatism' of food preferences showed that taste preferences are not simply a function of exposure, but are strongly shaped by post-ingestive consequences. This anticipates the Sweet Tooth Trial's finding that sweetness preference is not a plastic dial that turns down with reduced exposure, because the brain's reward circuitry tracks metabolic outcomes (calories, energy density) rather than mere sensory input."}, {"scientist": "John Blundell", "year": "1990s", "discovery": "Blundell's research on the satiety cascade and the dissociation between sensory (hedonic) and post-ingestive (metabolic) signals demonstrated that sweetness alone does not drive long-term intake regulation. His work showed that energy density and macronutrient composition, not taste per se, are the primary determinants of satiety and food choice, directly supporting the trial's conclusion that sugar and energy density, not sweetness, are the real targets for metabolic health."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-3406303d"
+image: "/images/editions/2026-08-09/2026-08-09-sweetness-is-a-signal-not-a-switch-why-cutting-sweet-foods-won-t-rewir-3406303d-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing a stable taste-receptor tuning fork connected to twin central reward dials—hedonic liking and motivational wanting—alongside an Inner Garden root-lattice motif."
+image_caption: "Plate — Sweet taste perception persists as a stable sensory signal across six months of dietary sweet variation, while central liking and wanting remain independently calibrated."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A six-month randomized trial finds that altering dietary sweetness doesn't change cravings, weight, or metabolic markers. The real target may be sugar and energy density, not taste.

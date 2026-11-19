@@ -10,17 +10,6 @@ source_url: "https://medicalxpress.com/news/2026-07-restricted-retain-cognitive-
 source_title: "Time-restricted eating may help retain cognitive function in older adults"
 source_name: "Medical Xpress Nutrition"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "7261107"
-image: "/images/editions/2026-08-02/time-restricted-eating-may-help-retain-cognitive-function-in-older-adu-d64e52fc-pexels-7261107.webp"
-image_alt: "A woman eating at a kitchen counter."
-image_width: 1200
-image_height: 627
-image_photographer: "Los Muertos Crew"
-image_photographer_url: "https://www.pexels.com/@cristian-rojas"
-image_source_url: "https://www.pexels.com/photo/elderly-woman-eating-her-healthy-breakfast-7261107/"
-image_review_status: "human-reviewed"
-image_avg_color: "#A69A8D"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Mark Mattson", "year": "2014", "discovery": "Mattson's work on intermittent fasting and brain health demonstrated that metabolic switching (ketosis) enhances synaptic plasticity and neurogenesis, particularly in the hippocampus, which is critical for spatial planning and problem-solving. His studies in rodents and humans showed that time-restricted eating improves cognitive function and resilience to stress, directly anticipating the modest gains in spatial planning observed in this pilot study."}, {"scientist": "Seymour S. Kety", "year": "1948", "discovery": "Kety developed the nitrous oxide method to measure cerebral blood flow and metabolism, establishing that the brain's energy demands are tightly coupled to neural activity. This foundational work underpins the modern understanding that metabolic interventions like time-restricted eating can influence brain function by altering energy substrate availability (e.g., ketones), which is the mechanistic basis for the cognitive improvements seen in the study."}]

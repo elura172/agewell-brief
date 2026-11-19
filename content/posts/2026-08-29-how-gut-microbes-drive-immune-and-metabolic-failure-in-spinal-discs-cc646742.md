@@ -12,12 +12,6 @@ source_title: "Gut-Intervertebral Disc Axis: Gut Microbiome-Driven Immune-Metabo
 source_name: "PubMed"
 spiral: "Inner Garden"
 evidence_position: "established"
-image: "https://images.pexels.com/photos/1458302/pexels-photo-1458302.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microbiome ecology and cellular transport"
-image_photographer: "Kat Smith / Pexels"
-image_photographer_url: "https://www.pexels.com/@katsmith"
-image_provider: "Pexels"
-image_avg_color: "#1a3a2a"
 topics: ['cellular senescence', 'consumer safety', 'gut health', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Inner Garden']
 autoresearch_antecedents: [{"scientist": "Luc Montagnier", "year": "2011", "discovery": "Reported that specific bacterial and viral DNA sequences induce coherent aqueous nanostructures capable of emitting low-frequency electromagnetic signals when excited by ambient background fields. (Low-Frequency Electromagnetic Signals in Aqueous DNA Nanostructures)"}, {"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}]

@@ -12,12 +12,6 @@ source_title: "Sarcopenia as a manifestation of systemic energetic failure with 
 source_name: "PubMed"
 spiral: "Higher Flame"
 evidence_position: "speculative"
-image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Vital healthspan practices and physical harmony"
-image_photographer: "Mikhail Nilov / Pexels"
-image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
-image_provider: "Pexels"
-image_avg_color: "#2a3a2a"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Living organisms are quantum coherent liquid crystals capable of trapping biophotons and conducting proton and electron charge across structured interfacial water and collagen networks with minimal thermal dissipation. (The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O)"}]

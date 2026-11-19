@@ -14,12 +14,6 @@ autoresearch_antecedents: [{"scientist": "John Gurdon", "year": "1962", "discove
 evidence_position: "emerging"
 topics: ['cellular senescence', 'longevity']
 frameworks: ['Cell Shedding', 'Living Waters']
-image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microscopic cellular membrane and organelle renewal"
-image_photographer: "Polina Kovaleva / Pexels"
-image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
-image_provider: "Pexels"
-image_avg_color: "#3a2a1a"
 ---
 
 A two-molecule cocktail induces partial reprogramming, restoring genomic stability and reducing senescence, opening a new path to anti-aging therapy.

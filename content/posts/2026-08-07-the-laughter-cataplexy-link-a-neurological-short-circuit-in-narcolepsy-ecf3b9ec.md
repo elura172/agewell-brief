@@ -10,23 +10,21 @@ source_url: "https://medicalxpress.com/news/2026-08-laughter-trigger-sudden-musc
 source_title: "Why laughter can trigger sudden muscle weakness in people with narcolepsy"
 source_name: "Medical Xpress Sleep"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "10549076"
-image: "/images/editions/2026-08-07/the-laughter-cataplexy-link-a-neurological-short-circuit-in-narcolepsy-ecf3b9ec-pexels-10549076.webp"
-image_alt: "Two friends laughing together in a cozy living room setting, sitting on a comfy sofa with a decorative wreath."
-image_caption: "The friends' shared laughter in this cozy living room is the very emotional trigger that, in narcolepsy, can abruptly short-circuit muscle tone and cause a sudden collapse."
-image_width: 1200
-image_height: 627
-image_photographer: "Jeff Vinluan"
-image_photographer_url: "https://www.pexels.com/@jeff-vinluan-20921030"
-image_source_url: "https://www.pexels.com/photo/photograph-of-women-sitting-on-a-purple-sofa-while-smiling-10549076/"
-image_review_status: "pending"
-image_avg_color: "#8F8A87"
 topics: ['brain health', 'sleep health']
 frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Michel Jouvet", "year": "1959", "discovery": "Discovered REM sleep and its associated muscle atonia in cats, identifying the pontine tegmentum as the generator of paradoxical sleep. This foundational work established that REM sleep is a distinct state with active paralysis, directly setting the stage for understanding cataplexy as an intrusion of REM atonia into wakefulness."}, {"scientist": "Emmanuel Mignot", "year": "1990s", "discovery": "Identified hypocretin/orexin deficiency as the primary cause of narcolepsy with cataplexy, linking the loss of hypothalamic hypocretin neurons to the dysregulation of REM sleep and the triggering of cataplexy by emotions such as laughter. This discovery bridged the gap between the neurochemical basis and the emotional trigger, providing a mechanistic framework for the laughter-cataplexy link."}]
 ancestral_insight: "In ancestral environments, the ability to rapidly suppress movement in response to sudden emotional or social stimuli (e.g., during play or threat) may have been adaptive for social bonding or predator avoidance. The cataplexy mechanism likely co-opts this ancient 'freeze' response, which is normally protective, but in narcolepsy becomes pathologically exaggerated. Traditional practices like laughter yoga or communal play, which involve controlled emotional expression, may help modulate this circuit by reinforcing cortical inhibition over brainstem atonia centers, offering a non-pharmacological parallel to modern behavioral therapies."
 evidence_position: "speculative"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-ecf3b9ec"
+image: "/images/editions/2026-08-07/2026-08-07-the-laughter-cataplexy-link-a-neurological-short-circuit-in-narcolepsy-ecf3b9ec-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing an emotional amygdala surge bypassing missing hypocretin stabilizers to trip the brainstem REM muscle-atonia switch during wakefulness, paired with a Dark Mirror crescent."
+image_caption: "Plate — Without hypocretin stabilization, positive emotional surges in the amygdala prematurely engage the brainstem REM muscle-atonia circuit during waking life."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New insights into how a sudden emotional spike can trigger a collapse of muscle tone, revealing the fragile boundary between arousal and paralysis.

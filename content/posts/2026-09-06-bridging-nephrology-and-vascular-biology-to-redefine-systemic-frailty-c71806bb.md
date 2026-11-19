@@ -12,12 +12,6 @@ source_title: "Vascular frailty: A new paradigm linking biological aging, gero-n
 source_name: "PubMed"
 spiral: "Living Waters"
 evidence_position: "established"
-image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Biological clock and mitochondrial vitality"
-image_photographer: "RF._.studio / Pexels"
-image_photographer_url: "https://www.pexels.com/@rfstudio"
-image_provider: "Pexels"
-image_avg_color: "#1a3a3a"
 topics: ['longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Erwin Schrödinger", "year": "1944", "discovery": "Proposed that living organisms evade thermodynamic decay into equilibrium by continuously extracting 'negative entropy' (free energy order) from their environment and exporting thermal entropy. (What Is Life? The Physical Aspect of the Living Cell)"}, {"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}]

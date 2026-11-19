@@ -10,23 +10,21 @@ source_url: "https://news.google.com/rss/articles/CBMigwFBVV95cUxON3dDYnkxeksxV2
 source_title: "Overall Brain Health Protects Memory From Early Alzheimer’s - Neuroscience News"
 source_name: "Neuroscience News"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "17979470"
-image: "/images/editions/2026-08-05/overall-brain-health-protects-memory-from-early-alzheimer-s-neuroscien-628fba67-pexels-17979470.webp"
-image_alt: "Senior woman jogging on a dirt road in a rural landscape with mountains in the background."
-image_caption: "A senior woman jogging on a rural dirt road embodies the article's point that maintaining overall brain health through physical activity can buffer memory against early Alzheimer's pathology."
-image_width: 1200
-image_height: 627
-image_photographer: "Pexels LATAM"
-image_photographer_url: "https://www.pexels.com/@pexels-latam-478514802"
-image_source_url: "https://www.pexels.com/photo/elderly-woman-running-on-dirt-road-17979470/"
-image_review_status: "pending"
-image_avg_color: "#9DA79C"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Yaakov Stern", "year": "2002", "discovery": "Formalized the concept of 'cognitive reserve' \u2014 the idea that individual differences in brain networks and cognitive processing allow some people to tolerate more Alzheimer's pathology before showing clinical symptoms. Stern's work demonstrated that higher education, IQ, and occupational complexity are associated with delayed onset of dementia despite equivalent amyloid burden, directly predicting the modern finding that overall brain health buffers memory against early Alzheimer's pathology."}, {"scientist": "Denise Park", "year": "2009", "discovery": "Proposed the 'scaffolding theory of aging and cognition' (STAC), which posits that the brain actively builds compensatory neural scaffolding in response to age-related challenges, including amyloid accumulation. Park showed that engagement in cognitively and physically stimulating activities enhances this scaffolding, providing a mechanistic framework for how overall brain health \u2014 via neuroplasticity and network efficiency \u2014 can buffer memory against early Alzheimer's pathology."}]
 ancestral_insight: ""
 evidence_position: "speculative"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-628fba67"
+image: "/images/editions/2026-08-05/2026-08-05-overall-brain-health-protects-memory-from-early-alzheimer-s-neuroscien-628fba67-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing global cortical thickness and multi-network vascular integrity buffering hippocampal memory pathways against localized early amyloid plaques, paired with a Luminous Mind motif."
+image_caption: "Plate — Global structural and vascular brain health provides a systemic reserve that preserves memory performance even when early localized pathology is present."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research suggests that maintaining overall brain health may buffer memory against early Alzheimer's pathology, pointing to a holistic approach to cognitive resilience.

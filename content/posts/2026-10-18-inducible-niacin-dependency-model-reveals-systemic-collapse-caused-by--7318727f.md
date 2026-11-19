@@ -12,12 +12,6 @@ source_title: "Inducible chronic NAD deficiency in mice reveals multi-systemic p
 source_name: "PubMed"
 spiral: "Higher Flame"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Biological clock and mitochondrial vitality"
-image_photographer: "RF._.studio / Pexels"
-image_photographer_url: "https://www.pexels.com/@rfstudio"
-image_provider: "Pexels"
-image_avg_color: "#1a3a3a"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}]

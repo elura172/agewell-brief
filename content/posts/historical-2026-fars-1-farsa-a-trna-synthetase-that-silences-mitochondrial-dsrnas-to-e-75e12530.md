@@ -15,12 +15,6 @@ ancestral_insight: "Traditional calorie restriction and fasting practices, obser
 evidence_position: "emerging"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
-image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microscopic cellular membrane and organelle renewal"
-image_photographer: "Polina Kovaleva / Pexels"
-image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
-image_provider: "Pexels"
-image_avg_color: "#3a2a1a"
 ---
 
 A moonlighting enzyme suppresses immunogenic mitochondrial double-stranded RNAs, balancing longevity and innate immunity in worms and human cells.

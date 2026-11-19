@@ -10,12 +10,6 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.07.28.740838v1?rss=1"
 source_title: "Mild and Reversible Proprioception Perturbation Suggests Causal Biomechanics for Memory-Dependent Spatial Behavior in Mice"
 source_name: "bioRxiv neuroscience, genetics, physiology"
 spiral: "Luminous Mind"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'mobility']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Charles Sherrington", "year": "1906", "discovery": "Defined proprioception as the sense of body position and movement, and proposed that it provides the 'muscle sense' essential for coordinated motor control and spatial orientation. This work laid the foundation for understanding how proprioceptive feedback integrates with motor commands and spatial perception."}, {"scientist": "Edward Tolman", "year": "1948", "discovery": "Proposed the concept of 'cognitive maps' in rats, showing that spatial navigation relies on internal representations of the environment built from movement and sensory cues. This work anticipated the idea that disrupting body-position sense could impair memory-dependent spatial behavior, as demonstrated in the modern study."}]

@@ -7,12 +7,6 @@ source_url: "https://www.nih.gov/news-events/news-releases/brain-immunity-may-un
 source_title: "Brain immunity may undergo a major midlife overhaul"
 source_name: "NIH News Releases"
 spiral: "Luminous Mind"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "\u00c1d\u00e1m D\u00e9nes and colleagues", "year": "2017", "discovery": "Demonstrated that meningeal immune cells and their interactions with the brain change with age, and that peripheral immune signals can influence brain function, laying groundwork for understanding midlife immune shifts."}, {"scientist": "Michal Schwartz and colleagues", "year": "2013", "discovery": "Showed that the brain's immune system, particularly meningeal T cells, plays a protective role in cognitive function and that age-related immune decline contributes to cognitive impairment, directly anticipating the NIH finding of midlife immune overhaul."}]

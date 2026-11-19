@@ -15,12 +15,16 @@ frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Paul Thompson and Arthur Toga (UCLA)", "year": "2000", "discovery": "Using high-resolution MRI and cortical pattern matching, they created the first dynamic maps of brain aging, showing that different regions (e.g., frontal and temporal lobes) atrophy at different rates across the lifespan. This established the concept of regional heterogeneity in brain aging, directly anticipating the USC AI model's focus on local aging patterns."}, {"scientist": "Karl J. Friston", "year": "1994", "discovery": "Developed statistical parametric mapping (SPM) for analyzing functional and structural brain images, enabling voxel-wise comparisons of brain structure. This laid the computational foundation for detecting regional deviations from normative aging trajectories, which the AI model now automates at scale."}]
 ancestral_insight: "Traditional lifestyle practices such as intermittent fasting and aerobic exercise have been shown to increase brain-derived neurotrophic factor (BDNF) and enhance glymphatic clearance, which preferentially support vulnerable regions like the hippocampus. Ancestral diets rich in omega-3 fatty acids and polyphenols reduce neuroinflammation, a key driver of regional atrophy. These practices align with the model's finding that targeted interventions could slow aging in specific brain areas, echoing the principle that lifestyle can modulate regional brain health."
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-f0e16572"
+image: "/images/editions/2026-08-04/2026-08-04-ai-enabled-measurements-of-local-brain-aging-offer-detailed-insights-o-f0e16572-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a human brain divided into regional voxel tessellations with independent local biological clock dials across cortical and subcortical zones, paired with a Luminous Mind motif."
+image_caption: "Plate — High-resolution local brain-age mapping reveals that distinct neural regions age at heterogeneous paces rather than along a single uniform clock."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 USC researchers use AI to chart how distinct brain regions age, linking regional patterns to cognitive changes across life.

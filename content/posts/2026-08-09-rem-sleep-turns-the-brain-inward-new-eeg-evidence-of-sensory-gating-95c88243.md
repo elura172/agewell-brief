@@ -10,23 +10,21 @@ source_url: "https://medicalxpress.com/news/2026-07-brain-rem-eeg.html"
 source_title: "Brain turns listening inward during REM sleep, EEG recordings suggest"
 source_name: "Medical Xpress Sleep"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "8560285"
-image: "/images/editions/2026-08-09/rem-sleep-turns-the-brain-inward-new-eeg-evidence-of-sensory-gating-95c88243-pexels-8560285.webp"
-image_alt: "A young man with curly hair peacefully sleeping on a cozy couch with a soft pillow."
-image_caption: "The young man's peaceful sleep on the couch illustrates the brain's inward focus during REM, as the EEG study shows it gating external sensory input while preserving internal signals for memory and emotion."
-image_width: 1200
-image_height: 627
-image_photographer: "Timur Weber"
-image_photographer_url: "https://www.pexels.com/@timur-weber"
-image_source_url: "https://www.pexels.com/photo/close-up-of-a-young-man-sleeping-8560285/"
-image_review_status: "pending"
-image_avg_color: "#87827C"
 topics: ['brain health', 'longevity', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Michel Jouvet", "year": "1959", "discovery": "Discovered REM sleep in cats and coined the term 'paradoxical sleep', showing that the brain is highly active while the body is paralyzed. His work established REM as a distinct state of intense internal processing, directly anticipating the modern finding that REM sleep actively gates external sensory input while preserving internal bodily signals."}, {"scientist": "Mary A.B. Brazier", "year": "1960s", "discovery": "Pioneered EEG studies of sensory evoked potentials during sleep, demonstrating that cortical responses to external stimuli are attenuated during REM. Her work provided early evidence for sensory gating in REM, which the Swiss EEG study now refines by showing selective preservation of interoceptive input."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-95c88243"
+image: "/images/editions/2026-08-09/2026-08-09-rem-sleep-turns-the-brain-inward-new-eeg-evidence-of-sensory-gating-95c88243-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph contrasting NREM external auditory monitoring with REM sleep inward sensory gating around a luminous hippocampal dream chamber, paired with a Dark Mirror crescent motif."
+image_caption: "Plate — During REM sleep, cortical gating dampens late-stage processing of external sounds while turning neural bandwidth inward toward memory consolidation."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A Swiss EEG study reveals that during REM sleep, the brain dials down external signals while preserving internal bodily input—a shift that may underpin memory consolidation and emotional regulation.

@@ -12,12 +12,6 @@ source_title: "D-serine suppresses one-carbon metabolism by competing with mitoc
 source_name: "biorxiv"
 spiral: "Higher Flame"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Erwin Schrödinger", "year": "1944", "discovery": "Proposed that living organisms evade thermodynamic decay into equilibrium by continuously extracting 'negative entropy' (free energy order) from their environment and exporting thermal entropy. (What Is Life? The Physical Aspect of the Living Cell)"}, {"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}]

@@ -12,12 +12,6 @@ source_title: "A Neutrophil Membrane-Encapsulated Pd/hCeO2 Nanoformulation for A
 source_name: "PubMed"
 spiral: "Higher Flame"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Roeland van Wijk", "year": "2014", "discovery": "Synthesized decades of experimental human biophotonics, demonstrating that spontaneous ultra-weak photon emission from skin accurately tracks intracellular oxidative stress, mitochondrial redox state, and diurnal metabolic rhythm. (Light in Shaping Life: Biophotonics in Human Bio-Assessment)"}]

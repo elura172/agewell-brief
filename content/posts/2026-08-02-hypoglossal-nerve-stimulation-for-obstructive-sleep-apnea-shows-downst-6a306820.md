@@ -10,17 +10,6 @@ source_url: "https://medicalxpress.com/news/2026-07-hypoglossal-nerve-obstructiv
 source_title: "Hypoglossal nerve stimulation for obstructive sleep apnea shows downstream health benefits"
 source_name: "Medical Xpress Sleep"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "31188648"
-image: "/images/editions/2026-08-02/hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea-shows-downst-6a306820-pexels-31188648.webp"
-image_alt: "A clean, modern medical device on a white background for healthcare settings."
-image_width: 1200
-image_height: 627
-image_photographer: "Đậu Photograph"
-image_photographer_url: "https://www.pexels.com/@dauphotographer"
-image_source_url: "https://www.pexels.com/photo/modern-medical-equipment-in-minimalist-setting-31188648/"
-image_review_status: "pending"
-image_avg_color: "#F4F4F6"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Charles Bell", "year": "1821", "discovery": "Identified the hypoglossal nerve (XII) as the motor nerve of the tongue, establishing the anatomical basis for tongue protrusion and airway patency. This foundational work underpins modern hypoglossal nerve stimulation for obstructive sleep apnea, as the nerve's activation directly relieves upper airway collapse."}, {"scientist": "Walter Rudolf Hess", "year": "1949", "discovery": "Pioneered electrical stimulation of deep brain structures to elicit physiological responses, demonstrating that targeted neural stimulation can modulate autonomic and metabolic functions. His Nobel Prize-winning work established the principle that nerve stimulation can produce systemic health effects, which is now applied to hypoglossal nerve stimulation showing downstream metabolic and cardiovascular benefits."}]

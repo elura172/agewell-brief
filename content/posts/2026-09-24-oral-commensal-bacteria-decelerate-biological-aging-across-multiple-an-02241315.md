@@ -12,12 +12,6 @@ source_title: "Multi-modality profiling identifies Neisseria flavescens as a cen
 source_name: "PubMed"
 spiral: "Higher Flame"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Biological clock and mitochondrial vitality"
-image_photographer: "RF._.studio / Pexels"
-image_photographer_url: "https://www.pexels.com/@rfstudio"
-image_provider: "Pexels"
-image_avg_color: "#1a3a3a"
 topics: ['gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Otto Warburg", "year": "1924", "discovery": "Discovered the iron-porphyrin respiratory enzyme (cytochrome oxidase) and demonstrated that cellular differentiation and longevity depend on intact mitochondrial oxygen respiration rather than glycolytic fermentation. (The Metabolism of Tumours & Cytochrome Oxygen Respiration)"}]

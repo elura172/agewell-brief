@@ -12,12 +12,6 @@ source_title: "The problem with Alzheimer's disease."
 source_name: "PubMed"
 spiral: "Luminous Mind"
 evidence_position: "speculative"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Harold Saxton Burr", "year": "1935", "discovery": "Measured standing direct-current voltage gradients (L-Fields) across living organisms over decades at Yale, showing that reproducible bioelectric field shifts precede structural pathology, ovulation, and wound healing. (The Fields of Life: Electrodynamic L-Fields)"}, {"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Showed theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single coherent vibrational mode in the gigahertz-to-terahertz range. (Long-Range Dipolar Coherence in Biological Membranes)"}]

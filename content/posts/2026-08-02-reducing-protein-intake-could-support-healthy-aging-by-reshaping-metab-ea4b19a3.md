@@ -10,17 +10,6 @@ source_url: "https://medicalxpress.com/news/2026-07-protein-intake-healthy-aging
 source_title: "Reducing protein intake could support healthy aging by reshaping metabolism"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Cell Shedding"
-image_provider: "Pexels"
-image_provider_id: "8629042"
-image: "/images/editions/2026-08-02/reducing-protein-intake-could-support-healthy-aging-by-reshaping-metab-ea4b19a3-pexels-8629042.webp"
-image_alt: "Hands slicing red bell pepper on a chopping board in a kitchen setting, ideal for culinary visuals."
-image_width: 1200
-image_height: 627
-image_photographer: "Kampus Production"
-image_photographer_url: "https://www.pexels.com/@kampus"
-image_source_url: "https://www.pexels.com/photo/a-person-slicing-peppers-8629042/"
-image_review_status: "pending"
-image_avg_color: "#7C7C72"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Linda Partridge", "year": "2005", "discovery": "Demonstrated that dietary protein restriction, specifically reduced amino acid intake, extends lifespan in Drosophila melanogaster independently of caloric restriction, identifying the insulin/IGF-1 signaling (IIS) and TOR pathways as key mediators. This work directly anticipated the modern review's conclusion that protein restriction slows aging by reshaping metabolism."}, {"scientist": "Roy Walford", "year": "1986", "discovery": "Proposed the 'rate of living' theory and conducted pioneering studies on caloric restriction in rodents, showing that reduced food intake (including protein) extends maximum lifespan and delays age-related diseases. His work laid the empirical foundation for later protein-specific restriction studies, linking nutrient intake to cellular damage and metabolic rate."}]

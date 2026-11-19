@@ -10,23 +10,21 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.07.30.740814v1?rss=1"
 source_title: "Regional cerebral arterial elasticity is associated with cardiovascular health in cognitively healthy older adults"
 source_name: "bioRxiv neuroscience, genetics, physiology"
 spiral: "Living Waters"
-image_provider: "Pexels"
-image_provider_id: "12197297"
-image: "/images/editions/2026-08-06/regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9-pexels-12197297.webp"
-image_alt: "Close-up of a young woman wearing an EEG headband, showcasing modern technology indoors."
-image_caption: "The EEG headband on the young woman's head is a modern tool for monitoring brain activity, but the article's focus is on a different kind of measurement—cerebral artery elasticity—which declines measurably in just 18 months, driven by cardiovascular risk burden."
-image_width: 1200
-image_height: 627
-image_photographer: "Михаил Крамор"
-image_photographer_url: "https://www.pexels.com/@vantik93"
-image_source_url: "https://www.pexels.com/photo/young-woman-in-electronic-headband-12197297/"
-image_review_status: "pending"
-image_avg_color: "#6E6256"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Otto Frank", "year": "1899", "discovery": "Formalized the Windkessel model, describing how arterial elasticity converts the heart's pulsatile output into steady capillary flow. This model is the foundational physics behind the new optical technique measuring cerebral arterial elasticity, as it quantifies the buffering function of elastic arteries that the study directly assesses."}, {"scientist": "Nicolas Westerhof", "year": "1969", "discovery": "Refined the Windkessel model into a three-element model incorporating characteristic impedance and peripheral resistance, providing a more accurate framework for understanding arterial hemodynamics. The modern study's measurement of cerebral arterial compliance and its decline over 18 months directly applies this refined model to the cerebral circulation, linking cardiovascular risk burden to arterial stiffening."}]
 ancestral_insight: "Traditional hunter-gatherer lifestyles, characterized by high physical activity, low sodium intake, and plant-based diets rich in potassium and nitrates, maintain arterial elasticity through mechanisms such as enhanced endothelial nitric oxide production and reduced oxidative stress. The modern finding that cardiovascular risk burden accelerates arterial stiffening in just 18 months underscores the protective role of these ancestral patterns, which promote sustained vascular compliance and prevent the pulse wave damage described by the Windkessel model."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-412ab6a9"
+image: "/images/editions/2026-08-06/2026-08-06-regional-cerebral-arterial-elasticity-is-associated-with-cardiovascula-412ab6a9-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of the cerebral arterial tree contrasting supple pulse-wave damping in elastic vessels against stiffened pulsatile transmission into deep white matter, paired with a Living Waters wave motif."
+image_caption: "Plate — Regional cerebral arterial elasticity buffers the microvasculature against pulsatile pressure waves, linking cardiorespiratory fitness to preserved cortical perfusion."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A novel optical technique reveals that cerebral arterial elasticity declines measurably in just 18 months, and cardiovascular risk burden is the hidden driver.

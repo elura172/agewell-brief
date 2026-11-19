@@ -10,23 +10,21 @@ source_url: "https://medicalxpress.com/news/2026-08-discovery-reveals-aging-huma
 source_title: "Discovery reveals aging human brains receive immune cell reinforcements from blood"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "28570735"
-image: "/images/editions/2026-08-08/aging-brains-draft-blood-borne-immune-reinforcements-the-blood-brain-b-51930a90-pexels-28570735.webp"
-image_alt: "Detailed view of a microscope in a laboratory used in scientific research."
-image_caption: "The microscope in the lab is the tool that revealed how aging brains selectively let blood-borne immune cells through the blood-brain barrier, challenging the idea that it's a wall."
-image_width: 1200
-image_height: 627
-image_photographer: "indra projects"
-image_photographer_url: "https://www.pexels.com/@indraprojectsofficial"
-image_source_url: "https://www.pexels.com/photo/close-up-of-microscope-in-laboratory-setting-28570735/"
-image_review_status: "pending"
-image_avg_color: "#9EA3A9"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Edwin Goldmann", "year": "1913", "discovery": "Demonstrated that trypan blue injected into the bloodstream stained all organs except the brain and spinal cord, establishing the existence of a blood-brain barrier and coining the concept of the brain as an 'immune-privileged' site. This work set the stage for the modern finding that aging can open regulated routes for peripheral immune cells to enter the brain, challenging the notion of the BBB as an absolute wall."}, {"scientist": "William F. Hickey and Hiroshi Kimura", "year": "1988", "discovery": "Showed that circulating T cells can cross the intact blood-brain barrier and enter the central nervous system under normal conditions, demonstrating that the BBB is not an absolute immune barrier but a dynamic interface. This directly anticipates the preprint's finding that aging may open a regulated door for peripheral immune cells to reshape neuroinflammation."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-51930a90"
+image: "/images/editions/2026-08-08/2026-08-08-aging-brains-draft-blood-borne-immune-reinforcements-the-blood-brain-b-51930a90-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing circulating blood-borne macrophages crossing a regulated blood-brain barrier airlock into brain parenchyma to replace exhausted microglia, paired with a Cell Shedding renewal spiral."
+image_caption: "Plate — Rather than passive leakage, the aging brain recruits peripheral blood-borne macrophages across the blood-brain barrier to reinforce depleted resident microglia."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New findings suggest that the brain's immune isolation is not absolute—aging may open a regulated door for peripheral immune cells to enter and reshape neuroinflammation.

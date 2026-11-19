@@ -10,23 +10,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/08/260806050700.htm"
 source_title: "Scientists discover a hidden brain shift that begins around age 50"
 source_name: "ScienceDaily Top Health"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "3082455"
-image: "/images/editions/2026-08-07/your-brain-s-immune-system-is-being-replaced-starting-at-50-b216b7d2-pexels-3082455.webp"
-image_alt: "Blurred unrecognizable person placing sample on microscope while making research during work in modern laboratory"
-image_caption: "A researcher places a sample under a microscope, a process that could reveal the midlife shift in hippocampal microglia that the article describes."
-image_width: 1200
-image_height: 627
-image_photographer: "Chokniti Khongchum"
-image_photographer_url: "https://www.pexels.com/@chokniti-khongchum-1197604"
-image_source_url: "https://www.pexels.com/photo/unrecognizable-scientist-using-microscope-in-lab-3082455/"
-image_review_status: "pending"
-image_avg_color: "#9092A0"
 topics: ['brain health', 'longevity', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "P\u00edo del R\u00edo-Hortega", "year": "1919", "discovery": "Discovered and named microglia using silver carbonate staining, establishing them as a distinct CNS cell type with phagocytic and inflammatory potential. This work laid the foundation for understanding microglial heterogeneity and their role in brain immunity, directly anticipating the modern finding that hippocampal microglia are replaced by peripheral-derived inflammatory cells during aging."}, {"scientist": "Michele De Nicola", "year": "1970s", "discovery": "Proposed the concept of 'microglial turnover' and demonstrated that microglia can be replenished from bone marrow-derived precursors under pathological conditions, challenging the dogma of lifelong self-renewal. This early work on microglial replacement from peripheral sources is directly validated by the preprint's single-cell evidence of peripheral-like inflammatory cells replacing resident microglia in the aging hippocampus."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-b216b7d2"
+image: "/images/editions/2026-08-07/2026-08-07-your-brain-s-immune-system-is-being-replaced-starting-at-50-b216b7d2-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph depicting a midlife inflection hinge where embryonic yolk-sac microglia are systematically replaced by bone-marrow monocyte-derived macrophages, paired with a Cell Shedding motif."
+image_caption: "Plate — Beginning around midlife, original embryonic microglia gradually yield to bone-marrow-derived immune cells with distinct inflammatory signaling profiles."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New single-cell mapping reveals a hidden midlife overhaul in the hippocampus: resident microglia decline, inflammatory replacements arrive, and the blood-brain barrier weakens. Here's what that means for your healthspan.

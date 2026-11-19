@@ -12,12 +12,6 @@ source_title: "Senescent cells maintain viability through adhesion-dependent fra
 source_name: "PubMed"
 spiral: "Higher Flame"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microscopic cellular membrane and organelle renewal"
-image_photographer: "Polina Kovaleva / Pexels"
-image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
-image_provider: "Pexels"
-image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame']
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Martin Picard", "year": "2018", "discovery": "Established that mitochondria act as social, information-processing organelles that translate psychological stress, circadian rhythm, and autonomic tone into epigenetic, neuroendocrine, and inflammatory signals across the body. (Mitochondrial Psychobiology & Cellular Energy Resistance)"}]

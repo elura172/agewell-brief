@@ -12,12 +12,6 @@ source_title: "Understanding extracellular vesicles in antiaging."
 source_name: "PubMed"
 spiral: "Cell Shedding"
 evidence_position: "established"
-image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microscopic cellular membrane and organelle renewal"
-image_photographer: "Polina Kovaleva / Pexels"
-image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
-image_provider: "Pexels"
-image_avg_color: "#3a2a1a"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Michael Levin", "year": "2012", "discovery": "Demonstrated that non-neural somatic cells communicate through gap-junction voltage gradients (Vmem) that store anatomical pattern memory, and that restoring youthful membrane polarization can override tissue degeneration without genomic editing. (The Bioelectric Morphogenetic Code & Anatomical Homeostasis)"}]

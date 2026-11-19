@@ -10,17 +10,6 @@ source_url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUDNjVWVkTzBGOT
 source_title: "Too Little Sleep—and Too Much—Associated with Faster Aging - Columbia University Irving Medical Center"
 source_name: "Columbia University Irving Medical Center"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "20897580"
-image: "/images/editions/2026-08-02/too-little-sleep-and-too-much-associated-with-faster-aging-columbia-un-c8cdac04-pexels-20897580.webp"
-image_alt: "Elderly man resting in hospital bed with blood pressure monitor attached, symbolizing healthcare and medical care."
-image_width: 1200
-image_height: 627
-image_photographer: "Engin Akyurt"
-image_photographer_url: "https://www.pexels.com/@enginakyurt"
-image_source_url: "https://www.pexels.com/photo/man-laying-on-a-hospital-bed-with-a-manometer-20897580/"
-image_review_status: "pending"
-image_avg_color: "#A6A1A5"
 topics: ['longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": "1939", "discovery": "In 'Sleep and Wakefulness', Kleitman established the foundational framework for sleep as a regulated physiological process with optimal duration ranges, linking deviations to metabolic and health outcomes, which directly anticipates the modern finding that both short and long sleep are associated with accelerated organ aging."}, {"scientist": "Daniel F. Kripke", "year": "1979", "discovery": "Kripke's landmark epidemiological studies (e.g., the 1979 Alameda County cohort) demonstrated a U-shaped relationship between sleep duration and mortality, with both short (<6h) and long (>8h) sleep associated with increased risk, providing the first large-scale evidence that the optimal sleep range is narrow and deviations predict adverse health outcomes, directly paralleling the current study's 6.4\u20137.8 hour optimal window."}]

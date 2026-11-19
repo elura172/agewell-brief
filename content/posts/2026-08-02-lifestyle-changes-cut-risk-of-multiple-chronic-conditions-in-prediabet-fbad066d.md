@@ -7,12 +7,6 @@ source_url: "https://www.nih.gov/news-events/news-releases/adults-prediabetes-li
 source_title: "For adults with prediabetes, lifestyle intervention lowered risk of developing multiple chronic conditions"
 source_name: "NIH News Releases"
 spiral: "Higher Flame"
-image: "https://images.pexels.com/photos/5638644/pexels-photo-5638644.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Mitochondrial metabolic energy dynamics"
-image_photographer: "Karolina Grabowska / Pexels"
-image_photographer_url: "https://www.pexels.com/@karolina-grabowska"
-image_provider: "Pexels"
-image_avg_color: "#3a1a1a"
 topics: ['metabolic health']
 frameworks: ['Higher Flame']
 autoresearch_antecedents: [{"scientist": "Jean Vague", "year": "1947", "discovery": "Vague identified android (upper-body) obesity as a major risk factor for diabetes, atherosclerosis, and gout, coining the concept of 'diabesity' and linking fat distribution to metabolic disease\u2014directly anticipating the multimorbidity outcomes tracked in the DPP."}, {"scientist": "Gerald Reaven", "year": "1988", "discovery": "Reaven's Banting Lecture introduced 'Syndrome X' (now metabolic syndrome), showing that insulin resistance underlies a cluster of conditions including type 2 diabetes, hypertension, and dyslipidemia\u2014providing the mechanistic framework for why lifestyle intervention in prediabetes reduces multiple chronic conditions simultaneously."}]

@@ -10,23 +10,21 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.08.06.743184v1?rss=1"
 source_title: "Association of Sleep with Anxiety in Chinese Empty-Nest Older Adults: The Mediating Roles of Physical Exercise and Social Participation"
 source_name: "bioRxiv immunology and cell biology"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "36625069"
-image: "/images/editions/2026-08-07/sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0-pexels-36625069.webp"
-image_alt: "A thoughtful senior woman sitting by a window in a softly lit room, lost in contemplation."
-image_caption: "The senior woman's quiet moment by the window mirrors the study's finding that empty-nest elders face heightened anxiety, yet her stillness underscores the article's call for movement and social engagement as biological levers against it."
-image_width: 1200
-image_height: 627
-image_photographer: "Patricia Bozan"
-image_photographer_url: "https://www.pexels.com/@patricia-bozan-2151752743"
-image_source_url: "https://www.pexels.com/photo/contemplative-senior-woman-by-the-window-36625069/"
-image_review_status: "pending"
-image_avg_color: "#62584F"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Alexander Borb\u00e9ly", "year": "1982", "discovery": "Proposed the two-process model of sleep regulation, integrating a homeostatic sleep drive (Process S) with a circadian rhythm (Process C). This model explains how sleep deprivation increases sleep pressure and how fragmented or short sleep disrupts the restorative functions of sleep, directly linking poor sleep to heightened physiological arousal and anxiety vulnerability in older adults."}, {"scientist": "Ilia Karatsoreos", "year": "2016", "discovery": "Demonstrated that chronic circadian disruption causes dendritic atrophy in the prefrontal cortex and hypertrophy in the amygdala, leading to increased anxiety-like behavior and impaired cognitive flexibility. This provides a direct neural mechanism for how poor sleep in empty-nest elders can shift brain circuitry toward hyperarousal and anxiety, validating the study's observed association."}]
 ancestral_insight: "Traditional hunter-gatherer lifestyles inherently combined high daily physical activity (walking, foraging) with strong social cohesion and communal sleeping patterns, which naturally synchronized circadian rhythms and maintained robust sleep architecture. This ancestral pattern—movement during daylight and social bonding at dusk—optimized the homeostatic and circadian processes described by Borbély, preventing the chronic sleep debt and amygdala hyperarousal seen in sedentary, isolated modern elders. The study's findings echo this: physical exercise and social participation are not just lifestyle choices but biological levers that restore ancestral sleep-wake rhythms and neuroendocrine balance, reducing anxiety risk."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-818885b0"
+image: "/images/editions/2026-08-07/2026-08-07-sleep-anxiety-and-the-empty-nest-brain-why-movement-and-community-are--818885b0-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing a resonant network of community nodes and rhythmic movement counterweights stabilizing a quieted nocturnal sleep brain, paired with a Dark Mirror lunar motif."
+image_caption: "Plate — Regular physical movement and social connectedness act as dual physiological buffers that dampen hyperarousal and restore sleep continuity."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new cross-sectional study of 6,106 Chinese empty-nest elders finds poor sleep triples anxiety risk—and reveals how physical exercise and social participation act as biological mediators.

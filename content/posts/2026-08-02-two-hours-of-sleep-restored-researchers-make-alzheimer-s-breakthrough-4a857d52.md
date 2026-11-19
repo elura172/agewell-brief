@@ -7,12 +7,6 @@ source_url: "https://medicalxpress.com/news/2026-07-hours-alzheimer-breakthrough
 source_title: "Two hours of sleep restored: Researchers make Alzheimer's breakthrough"
 source_name: "Medical Xpress Sleep"
 spiral: "Luminous Mind"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Michele Bellesi", "year": "2017", "discovery": "Bellesi and colleagues at Marche Polytechnic University showed that chronic sleep loss in mice triggers astrocytic phagocytosis (engulfment of synaptic components) and microglial activation, a process they termed 'sleep-like' synaptic pruning gone awry. This directly anticipates the finding that sleep loss induces a brain immune response that damages tissue, providing the cellular mechanism of glial overactivation."}, {"scientist": "Maiken Nedergaard", "year": "2013", "discovery": "Nedergaard's lab at the University of Rochester discovered the glymphatic system, a perivascular network that clears waste from the brain during sleep. They showed that sleep drives a 60% increase in interstitial space, facilitating clearance of amyloid-beta. This work establishes the physiological basis for why sleep loss impairs brain homeostasis, and the new finding of an immune response damaging tissue can be seen as a consequence of glymphatic dysfunction leading to accumulation of damage-associated molecular patterns that trigger neuroinflammation."}]

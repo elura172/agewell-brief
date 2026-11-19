@@ -15,12 +15,6 @@ ancestral_insight: "Dihydromyricetin is a flavonoid found in the vine tea plant 
 evidence_position: "emerging"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
-image: "https://images.pexels.com/photos/11730899/pexels-photo-11730899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microscopic cellular membrane and organelle renewal"
-image_photographer: "Polina Kovaleva / Pexels"
-image_photographer_url: "https://www.pexels.com/@polina-kovaleva"
-image_provider: "Pexels"
-image_avg_color: "#3a2a1a"
 ---
 
 Dihydromyricetin, a natural flavonoid, acts as a senomorphic in fibroblasts by boosting PRDX2 nuclear translocation for DNA repair, and as a senolytic in microglia by disrupting mitochondrial function—offering a dual mechanism to combat age-related decline.

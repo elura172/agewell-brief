@@ -12,12 +12,6 @@ source_title: "Bacterial metabolites alter the consequences of reduced insulin s
 source_name: "biorxiv"
 spiral: "Inner Garden"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/1458302/pexels-photo-1458302.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Microbiome ecology and cellular transport"
-image_photographer: "Kat Smith / Pexels"
-image_photographer_url: "https://www.pexels.com/@katsmith"
-image_provider: "Pexels"
-image_avg_color: "#1a3a2a"
 topics: ['gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Otto Warburg", "year": "1924", "discovery": "Discovered the iron-porphyrin respiratory enzyme (cytochrome oxidase) and demonstrated that cellular differentiation and longevity depend on intact mitochondrial oxygen respiration rather than glycolytic fermentation. (The Metabolism of Tumours & Cytochrome Oxygen Respiration)"}, {"scientist": "Luc Montagnier", "year": "2011", "discovery": "Reported that specific bacterial and viral DNA sequences induce coherent aqueous nanostructures capable of emitting low-frequency electromagnetic signals when excited by ambient background fields. (Low-Frequency Electromagnetic Signals in Aqueous DNA Nanostructures)"}]

@@ -10,23 +10,21 @@ source_url: "https://onlinelibrary.wiley.com/doi/10.1111/acel.70638?af=R"
 source_title: "The Divergent Effects of Nicotinamide Riboside and High‐Intensity Exercise Training on Skeletal Muscle Epigenetic Aging"
 source_name: "Aging Cell"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "15290013"
-image: "/images/editions/2026-08-05/the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7-pexels-15290013.webp"
-image_alt: "Focused woman examining sample through microscope in lab."
-image_caption: "The researcher's microscope view mirrors the study's cellular-level scrutiny, where nicotinamide riboside and hard training each left distinct epigenetic marks on muscle."
-image_width: 1200
-image_height: 627
-image_photographer: "Vladimir Srajber"
-image_photographer_url: "https://www.pexels.com/@vladimirsrajber"
-image_source_url: "https://www.pexels.com/photo/a-person-using-microscope-15290013/"
-image_review_status: "pending"
-image_avg_color: "#817B6F"
 topics: ['longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Otto Warburg", "year": "1920s", "discovery": "Warburg discovered that mitochondrial respiration is coupled to ATP synthesis via a proton gradient across the inner membrane, establishing the foundational principle of cellular 'voltage' (proton motive force). His work on the 'Warburg effect' in cancer also highlighted the central role of mitochondrial respiration in cellular energetics. This modern RCT's focus on mitochondrial respiration voltage directly validates Warburg's principle, showing that NR and exercise differentially tune this voltage through epigenetic remodeling."}, {"scientist": "Charles Darwin", "year": "1859", "discovery": "Darwin's theory of evolution by natural selection, published in 'On the Origin of Species', introduced the concept of adaptive variation and selection. This provides the evolutionary framework for understanding why skeletal muscle exhibits epigenetic plasticity in response to environmental stressors like exercise and nutrition. The divergent epigenetic signatures observed in this RCT reflect Darwinian principles of context-dependent adaptation, where different interventions select for distinct metabolic and epigenetic states."}]
 ancestral_insight: "Ancestral humans experienced intermittent physical exertion (hunting, gathering) and periodic nutrient scarcity, which naturally stimulated both NAD+ synthesis (via fasting and exercise) and mechanical stress pathways. This dual activation likely maintained optimal mitochondrial voltage and epigenetic flexibility. In contrast, modern sedentary lifestyles with constant caloric surplus dampen both signals, leading to mitochondrial decline. The RCT's finding that NR and exercise produce different epigenetic signatures suggests that mimicking ancestral patterns—alternating between nutrient-sensing (NR-like) and mechanical stress (exercise-like) states—may be optimal for healthspan, as it engages complementary pathways that together preserve mitochondrial function and epigenetic youth."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-616f0fc7"
+image: "/images/editions/2026-08-05/2026-08-05-the-divergent-effects-of-nicotinamide-riboside-and-high-intensity-exer-616f0fc7-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a double-helix epigenetic chromatin axis split between NAD+ metabolic methyl-donor shifts and high-intensity exercise mechanical remodeling, paired with a Higher Flame motif."
+image_caption: "Plate — Nicotinamide riboside and high-intensity interval training remodel the human skeletal-muscle epigenome along divergent rather than additive pathways."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new RCT reveals that nicotinamide riboside and high-intensity exercise remodel the muscle epigenome differently—what that means for cellular voltage and healthspan.

@@ -11,17 +11,6 @@ source_url: "https://medicalxpress.com/news/2026-07-blocking-mitochondrial-curb-
 source_title: "Blocking a mitochondrial transporter may curb inflammation from 'zombie' cells without killing them"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Cell Shedding"
-image_provider: "Pexels"
-image_provider_id: "3938022"
-image: "/images/editions/2026-08-02/blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229-pexels-3938022.webp"
-image_alt: "A scientist examines a sample through a microscope in a laboratory."
-image_width: 1200
-image_height: 627
-image_photographer: "Chokniti Khongchum"
-image_photographer_url: "https://www.pexels.com/@chokniti-khongchum-1197604/"
-image_source_url: "https://www.pexels.com/photo/scientist-using-microscope-3938022/"
-image_review_status: "human-reviewed"
-image_avg_color: "#A9B6C3"
 topics: ['cellular senescence', 'longevity', 'metabolic health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Hans Krebs", "year": "1937", "discovery": "Elucidated the citric acid (Krebs) cycle, identifying citrate as a central mitochondrial metabolite. This work established the biochemical framework for understanding how mitochondrial citrate metabolism can be diverted to produce acetyl-CoA and other precursors for lipid synthesis and protein acetylation, which are now implicated in driving the senescence-associated secretory phenotype (SASP)."}, {"scientist": "John M. Gunn", "year": "1975", "discovery": "Characterized the mitochondrial citrate transporter (later identified as SLC25A1) in rat liver mitochondria, demonstrating its role in exporting citrate to the cytosol for fatty acid synthesis and providing acetyl-CoA for biosynthetic pathways. This directly anticipates the modern finding that inhibiting SLC25A1 reduces inflammatory signaling in senescent cells by blocking citrate export and downstream epigenetic modifications."}]

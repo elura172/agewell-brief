@@ -15,12 +15,6 @@ ancestral_insight: "In ancestral hunter-gatherer environments, narratives were o
 evidence_position: "emerging"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 ---
 
 New preprint suggests the brain encodes all moments equally, but retrieval favors information-rich, interconnected details—explaining gist memory without costly feedback.

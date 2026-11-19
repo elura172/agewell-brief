@@ -10,17 +10,6 @@ source_url: "https://www.sciencedaily.com/releases/2026/07/260721000822.htm"
 source_title: "Watching too much TV in midlife may shrink the brain"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "7400892"
-image: "/images/editions/2026-08-02/watching-too-much-tv-in-midlife-may-shrink-the-brain-7861b841-pexels-7400892.webp"
-image_alt: "Crop anonymous person with remote controller switching channels while watching TV on blurred background in living room with dim light"
-image_width: 1200
-image_height: 627
-image_photographer: "Nothing Ahead"
-image_photographer_url: "https://www.pexels.com/@ian-panelo"
-image_source_url: "https://www.pexels.com/photo/faceless-person-switching-channels-on-tv-7400892/"
-image_review_status: "pending"
-image_avg_color: "#47435D"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Marian Diamond", "year": "1964", "discovery": "Demonstrated that environmental enrichment (including mental stimulation) increases cortical thickness and dendritic branching in rats, while impoverished environments lead to cortical thinning. This established the foundational principle of experience-dependent brain plasticity, directly anticipating the finding that mentally engaging occupations protect brain structure, whereas passive TV viewing is associated with atrophy."}, {"scientist": "William F. C. Baumeister", "year": "1970s", "discovery": "Pioneered the concept of 'cerebral reserve' or 'brain reserve capacity,' proposing that individuals with greater cognitive or neural resources can tolerate more brain pathology before showing clinical deficits. This concept underpins the modern interpretation that passive TV viewing may reduce cognitive reserve, making the brain more vulnerable to age-related atrophy and white matter damage."}]

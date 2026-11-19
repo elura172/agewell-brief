@@ -10,12 +10,6 @@ source_url: "https://arxiv.org/abs/2607.29253"
 source_title: "CBCT-IQ: A Publicly Available Annotated Cone-Beam CT Dataset for Image Quality Assessment and Benchmarking"
 source_name: "arXiv medical physics"
 spiral: "Cell Shedding"
-image: "https://images.pexels.com/photos/37330104/pexels-photo-37330104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Biological clock and mitochondrial vitality"
-image_photographer: "RF._.studio / Pexels"
-image_photographer_url: "https://www.pexels.com/@rfstudio"
-image_provider: "Pexels"
-image_avg_color: "#1a3a3a"
 topics: ['longevity']
 frameworks: ['Living Waters']
 autoresearch_antecedents: [{"scientist": "Gustav Bucky", "year": "1913", "discovery": "Invented the stationary grid to reduce scattered radiation in X-ray imaging, a foundational step toward optimizing image quality while minimizing patient dose. This directly anticipates the modern CBCT dataset's goal of balancing diagnostic accuracy with radiation exposure, as scatter rejection remains a key factor in cone-beam CT image quality."}, {"scientist": "Zhongmin Wang and colleagues", "year": "2010s", "discovery": "Developed and applied no-reference image quality assessment (IQA) metrics for medical imaging, particularly in CT, establishing quantitative methods to evaluate image quality without ground truth. This work underpins the benchmarking of 26 full- and no-reference IQA measures in the CBCT-IQ dataset, providing a reproducible framework for comparing algorithmic assessments against expert human scores."}]

@@ -10,12 +10,6 @@ source_url: "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0pDLUg1UHFrYk
 source_title: "Want to Slow Your Biological Aging? Sleeping 6.4 to 7.8 Hours a Night May Help - Healthline"
 source_name: "Healthline"
 spiral: "Luminous Mind"
-image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Vital healthspan practices and physical harmony"
-image_photographer: "Mikhail Nilov / Pexels"
-image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
-image_provider: "Pexels"
-image_avg_color: "#2a3a2a"
 topics: ['longevity', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": "1939", "discovery": "Kleitman's foundational work on sleep physiology, including the concept of basic rest-activity cycles and the identification of REM sleep, established the framework for understanding sleep as a regulated biological process. His studies on sleep deprivation and the effects of sleep duration on physiological function directly anticipate the modern finding that sleep duration outside an optimal window (6.4\u20137.8 hours) is associated with accelerated epigenetic aging, as Kleitman showed that both insufficient and excessive sleep disrupt restorative processes."}, {"scientist": "Steve Horvath", "year": "2013", "discovery": "Horvath developed the epigenetic clock, a DNA methylation-based biomarker of biological age, which is the very tool used in the modern preprint to measure epigenetic aging. His discovery that DNA methylation patterns change predictably with age provided the quantitative framework to link sleep duration to biological aging, and his subsequent work on age acceleration in various tissues directly enables the observation that sleep outside the optimal range accelerates epigenetic aging."}]

@@ -10,22 +10,21 @@ source_url: "https://www.nature.com/articles/s41598-026-35724-x"
 source_title: "Understanding the effects of aging on whole-body dynamic balance, trunk stability, functional mobility, and hip strength"
 source_name: "Scientific Reports"
 spiral: "Cell Shedding"
-image_provider: "Pexels"
-image_provider_id: "6815699"
-image: "/images/editions/2026-08-03/understanding-the-effects-of-aging-on-whole-body-dynamic-balance-trunk-da003100-pexels-6815699.webp"
-image_alt: "Elderly man and woman performing fitness workout with resistance bands, promoting healthy lifestyle indoors."
-image_width: 1200
-image_height: 627
-image_photographer: "Yan Krukau"
-image_photographer_url: "https://www.pexels.com/@yankrukov"
-image_source_url: "https://www.pexels.com/photo/elderly-people-working-out-at-the-gym-6815699/"
-image_review_status: "pending"
-image_avg_color: "#7F8B91"
 topics: ['brain health', 'longevity', 'mobility']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Fritz H. H. Hellebrandt", "year": "1938", "discovery": "Hellebrandt's pioneering studies on standing posture and balance quantified the continuous, small oscillations of the body's center of gravity, establishing that upright stance is a dynamic, actively controlled process rather than a static alignment. Her work laid the foundation for understanding how neuromuscular control degrades with age, directly anticipating the modern finding that balance and trunk stability decline in aging."}, {"scientist": "Geoffrey A. Horridge and colleagues (e.g., J. J. Collins)", "year": "1995", "discovery": "Collins and De Luca's 1993\u20131995 studies on postural sway using stabilogram diffusion analysis revealed that the center-of-pressure trajectories exhibit short-term and long-term correlations, reflecting open-loop and closed-loop control mechanisms. This work provided a quantitative framework for assessing how aging impairs the stochastic and feedback processes of balance, which the current preprint's observational data on balance and trunk stability declines directly validate."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-da003100"
+image: "/images/editions/2026-08-03/2026-08-03-understanding-the-effects-of-aging-on-whole-body-dynamic-balance-trunk-da003100-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a biomechanical kinematic pendulum showing the trunk and pelvis stabilizing center-of-mass trajectories over a dynamic base of support, paired with a Higher Flame equilibrium motif."
+image_caption: "Plate — Whole-body dynamic balance depends on precise trunk and hip angular momentum control during rapid center-of-mass transitions."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research links aging to declines in balance, trunk stability, mobility, and hip strength. Here's what to make of it.

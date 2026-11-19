@@ -12,12 +12,6 @@ source_title: "Neonatal meconium reveals concurrent microplastic and metal expos
 source_name: "medrxiv"
 spiral: "Dark Mirror"
 evidence_position: "emerging"
-image: "https://images.pexels.com/photos/6973090/pexels-photo-6973090.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Vital healthspan practices and physical harmony"
-image_photographer: "Mikhail Nilov / Pexels"
-image_photographer_url: "https://www.pexels.com/@mikhail-nilov"
-image_provider: "Pexels"
-image_avg_color: "#2a3a2a"
 topics: ['consumer safety', 'detoxification']
 frameworks: ['Dark Mirror']
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}]
