@@ -10,22 +10,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/07/260723084045.htm"
 source_title: "Superagers keep youthful memories but their DNA does not explain why"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "7968805"
-image: "/images/editions/2026-08-02/superagers-keep-youthful-memories-but-their-dna-does-not-explain-why-07f7c8b1-pexels-7968805.webp"
-image_alt: "A senior woman wearing eyeglasses and a beige top reading documents in a library."
-image_width: 1200
-image_height: 627
-image_photographer: "Ron Lach"
-image_photographer_url: "https://www.pexels.com/@ron-lach"
-image_source_url: "https://www.pexels.com/photo/woman-in-beige-top-reading-7968805/"
-image_review_status: "pending"
-image_avg_color: "#534E4A"
 topics: ['brain health', 'longevity', 'mobility', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Yaakov Stern", "year": "2002", "discovery": "Stern's concept of cognitive reserve, formalized in his 2002 review, posits that individual differences in how the brain processes tasks allow some people to cope better with brain pathology, including Alzheimer's disease. This directly anticipates the SuperAgers finding: their exceptional memory is not due to fewer Alzheimer's risk genes but likely due to enhanced neural efficiency or compensatory mechanisms, aligning with Stern's idea that reserve is independent of genetic risk burden."}, {"scientist": "Denise Park", "year": "2009", "discovery": "Park's Scaffolding Theory of Aging and Cognition (STAC) proposed that the brain counteracts age-related neural decline by recruiting additional neural circuits, a form of compensatory scaffolding. This explains why SuperAgers maintain memory despite carrying Alzheimer's risk genes: their brains may build more robust scaffolding, enabling cognitive resilience that overrides genetic vulnerability, a mechanism distinct from simply having fewer risk alleles."}]
 ancestral_insight: "Traditional hunter-gatherer societies, such as the Hadza or Tsimane, show low dementia rates despite high inflammatory burdens, likely due to high physical activity and cognitive demands. The physical mechanism is that aerobic exercise upregulates BDNF and promotes hippocampal neurogenesis, while complex foraging tasks stimulate cognitive reserve. This parallels SuperAgers: their resilience may stem from lifelong active lifestyles and mentally challenging activities, not genetic luck, echoing ancestral patterns of continuous physical and cognitive engagement that build neural resilience against aging."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-07f7c8b1"
+image: "/images/editions/2026-08-02/2026-08-02-superagers-keep-youthful-memories-but-their-dna-does-not-explain-why-07f7c8b1-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a horizontal DNA helix carrying baseline risk markers beneath a resilient, deeply folded SuperAger anterior cingulate and hippocampal arch supported by von Economo spindle columns, paired with a Luminous Mind motif."
+image_caption: "Plate — SuperAgers preserve youthful cortical thickness and episodic memory into their 80s and 90s despite carrying typical polygenic Alzheimer risk profiles."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new study finds that people in their 80s and 90s with exceptional memory don't carry fewer Alzheimer's-related genes. The search for what protects them continues.

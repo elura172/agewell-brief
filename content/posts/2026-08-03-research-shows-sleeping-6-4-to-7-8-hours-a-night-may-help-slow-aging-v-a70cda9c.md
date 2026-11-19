@@ -10,23 +10,21 @@ source_url: "https://news.google.com/rss/articles/CBMickFVX3lxTE45RFNpSXJ4bENSUj
 source_title: "Research Shows Sleeping 6.4 to 7.8 Hours a Night May Help Slow Aging - Verywell Health"
 source_name: "Verywell Health"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "8346006"
-image: "/images/editions/2026-08-03/research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c-pexels-8346006.webp"
-image_alt: "A retro alarm clock sits by a sleeping woman in a cozy bedroom setting."
-image_caption: "The alarm clock beside the sleeping woman marks the 6.4-to-7.8-hour window that the study links to slower biological aging, not just a restful night."
-image_width: 1200
-image_height: 627
-image_photographer: "Anastasiya Vragova"
-image_photographer_url: "https://www.pexels.com/@anastasiya-vragova-22991246"
-image_source_url: "https://www.pexels.com/photo/an-alarm-clock-on-bedside-near-a-sleeping-woman-8346006/"
-image_review_status: "pending"
-image_avg_color: "#CFCFCF"
 topics: ['brain health', 'cellular senescence', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": "1938", "discovery": "Kleitman's Mammoth Cave experiments established the endogenous ~24-hour circadian rhythm and the concept of sleep as a regulated physiological process, laying the foundation for linking sleep duration and timing to metabolic and aging outcomes."}, {"scientist": "Matthew Walker", "year": "2017", "discovery": "Walker's work on sleep and brain health demonstrated that insufficient sleep accelerates cognitive decline and disrupts glymphatic clearance, directly connecting sleep duration to neural aging and providing a mechanistic basis for the observed 6.4-7.8 hour window."}]
 ancestral_insight: ""
 evidence_position: "speculative"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-a70cda9c"
+image: "/images/editions/2026-08-03/2026-08-03-research-shows-sleeping-6-4-to-7-8-hours-a-night-may-help-slow-aging-v-a70cda9c-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a U-shaped biological-aging basin where a central nocturnal restorative window rests at minimum cellular wear between steep short- and long-sleep stress slopes, paired with a Dark Mirror crescent aperture."
+image_caption: "Plate — Biological aging markers follow a U-shaped curve across sleep duration, reaching their lowest wear within a consolidated 6.4-to-7.8-hour nocturnal window."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research suggests a specific sleep duration range could be linked to slower biological aging. Here's what to make of the findings.

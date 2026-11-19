@@ -10,22 +10,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/07/260719035931.htm"
 source_title: "Alzheimer’s breakthrough: Scientists restore two hours of sleep without clearing brain plaques"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "9574516"
-image: "/images/editions/2026-08-02/alzheimer-s-breakthrough-scientists-restore-two-hours-of-sleep-without-935dcd2d-pexels-9574516.webp"
-image_alt: "A laboratory researcher reviewing data on a monitor."
-image_width: 1200
-image_height: 627
-image_photographer: "Tima Miroshnichenko"
-image_photographer_url: "https://www.pexels.com/@tima-miroshnichenko"
-image_source_url: "https://www.pexels.com/photo/a-woman-in-white-lab-gown-looking-at-the-monitor-9574516/"
-image_review_status: "human-reviewed"
-image_avg_color: "#B0B7C1"
 topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "P\u00edo del R\u00edo Hortega", "year": "1919", "discovery": "Identified and named microglia as a distinct cell type in the central nervous system, using a silver carbonate staining method. He described their role as 'third element' of the nervous system, capable of phagocytosis and responding to injury, laying the foundation for understanding their immune functions in brain pathology."}, {"scientist": "Carol Colton", "year": "1980s", "discovery": "Demonstrated that microglia produce reactive oxygen species and nitric oxide upon activation, establishing their role as immune effector cells in the brain. This work linked microglial activation to neuroinflammation, providing a mechanistic basis for how microglial responses to amyloid plaques could disrupt neuronal function and sleep."}]
 ancestral_insight: "Traditional practices such as periodic fasting or anti-inflammatory diets (e.g., Mediterranean diet) may modulate microglial activation through metabolic and immune pathways. For instance, ketone bodies produced during fasting can reduce microglial inflammation, potentially preserving sleep quality. This parallels the finding that dampening microglial activity—whether by depletion or dietary intervention—could mitigate sleep disturbances, suggesting that ancestral lifestyle patterns that limit chronic inflammation might protect against age-related sleep decline."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-935dcd2d"
+image: "/images/editions/2026-08-02/2026-08-02-alzheimer-s-breakthrough-scientists-restore-two-hours-of-sleep-without-935dcd2d-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph contrasting spiky reactive microglia shattering sleep waves around amyloid plaques on the left against inert un-inflamed plaques beneath a restored deep slow-wave sleep oscillation on the right, paired with a Dark Mirror crescent."
+image_caption: "Plate — Quieting reactive microglia restores slow-wave sleep architecture even while underlying amyloid plaques remain in place."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 An experiment in mice has separated two features of Alzheimer’s disease that are often treated as one problem. Amyloid plaques remained in place, yet sleep improved sharply when researchers removed most of the brain’s microglia—the immune cells that react to those plaques.

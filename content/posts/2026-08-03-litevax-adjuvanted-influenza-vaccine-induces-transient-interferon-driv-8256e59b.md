@@ -10,17 +10,21 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.07.28.741158v1?rss=1"
 source_title: "LiteVax-adjuvanted influenza vaccine induces transient interferon-driven innate activation and accelerates early IgG3 responses in older adults"
 source_name: "bioRxiv immunology and cell biology"
 spiral: "Luminous Mind"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'gut health', 'longevity']
 frameworks: ['Inner Garden', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Roy Walford", "year": "1969", "discovery": "Walford's immunologic theory of aging proposed that age-related immune dysfunction (immunosenescence) arises from cumulative errors and dysregulation in the immune system, predicting that interventions restoring immune balance could improve vaccine responses in the elderly. This study's LVA adjuvant, which rebalances early antibody quality without altering overall levels, directly validates Walford's hypothesis that targeting immune dysregulation, not just magnitude, is key to rejuvenating aged immunity."}, {"scientist": "Charles Janeway Jr.", "year": "1989", "discovery": "Janeway's 'immunologist's dirty little secret' hypothesis introduced the concept of adjuvants acting via pattern recognition receptors to activate innate immunity, shaping the quality of adaptive antibody responses. The LiteVax Adjuvant (LVA) in this preprint exemplifies this principle by specifically enhancing early antibody affinity maturation and class switching in older adults, demonstrating that adjuvant-driven innate signals can overcome age-related defects in B-cell selection, a direct extension of Janeway's framework."}]
 ancestral_insight: "Traditional lifestyles that included regular exposure to diverse environmental microbes—through soil contact, fermented foods, and natural water sources—provided continuous low-level innate immune stimulation, akin to a natural adjuvant. This chronic microbial engagement maintained balanced immune regulation and robust early antibody quality, contrasting with modern sanitized environments that may contribute to immunosenescence. The LVA's mechanism of rebalancing early antibody responses mirrors this ancestral pattern of innate immune priming, suggesting that lifestyle interventions mimicking such microbial diversity could complement adjuvant strategies in older adults."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-8256e59b"
+image: "/images/editions/2026-08-03/2026-08-03-litevax-adjuvanted-influenza-vaccine-induces-transient-interferon-driv-8256e59b-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing a sharp early interferon pulse wave igniting a germinal-center affinity prism that outputs precision high-affinity geometric antibodies, paired with a Higher Flame spark motif."
+image_caption: "Plate — A transient early interferon pulse accelerates germinal-center antibody affinity maturation in adults over 60 despite baseline immunosenescence."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A study finds an experimental adjuvant may help rebalance immune responses in people over 60, improving early antibody quality without changing overall levels.

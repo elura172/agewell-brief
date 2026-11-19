@@ -10,23 +10,21 @@ source_url: "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-
 source_title: "New Alzheimer’s blood test may tell when symptoms are around the corner"
 source_name: "NIH News Releases"
 spiral: "Luminous Mind"
-image_id: 6627687
-image_provider: "Pexels"
-image_provider_id: "6627687"
-image: "https://images.pexels.com/photos/6627687/pexels-photo-6627687.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "A lab technician wearing gloves uses a centrifuge for blood analysis in a modern laboratory setting."
-image_width: 1200
-image_height: 627
-image_photographer: "https://kaboompics.com/"
-image_photographer_url: "https://www.pexels.com/@karola-g"
-image_source_url: "https://www.pexels.com/photo/laboratory-worker-using-modern-hospital-equipment-6627687/"
-image_review_status: "human-reviewed"
-image_avg_color: "#7DABA7"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Stanley Prusiner", "year": "1982", "discovery": "Discovered prions, misfolded proteins that propagate conformational changes, establishing the concept of protein-only infectious agents and highlighting the role of protein misfolding in neurodegeneration. This work laid the foundation for understanding how molecular markers like amyloid and tau reflect disease state, and parallels the use of circRNAs as dynamic indicators of neurodegenerative processes."}, {"scientist": "Jeannie T. Lee", "year": "1990s", "discovery": "Pioneered the study of non-coding RNAs, including circular RNAs (circRNAs), revealing their regulatory roles in gene expression and their stability in bodily fluids. Her work established circRNAs as potential biomarkers, directly enabling the modern finding that blood circRNA levels can predict Alzheimer's symptom onset."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-90bf9c61"
+image: "/images/editions/2026-08-02/2026-08-02-new-blood-test-may-predict-alzheimer-s-symptoms-years-ahead-90bf9c61-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a plasma droplet refracting through a diagnostic clock prism into a long horizontal temporal trajectory arc that reveals an early intervention window years ahead of cortical tau tangles, paired with a Luminous Mind motif."
+image_caption: "Plate — Longitudinal plasma biomarker clock models project the temporal horizon between silent amyloid-tau pathology and clinical symptom onset."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new biomarker model could sharpen forecasts of disease progression years before symptoms begin.

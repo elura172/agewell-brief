@@ -10,23 +10,21 @@ source_url: "https://onlinelibrary.wiley.com/doi/10.1111/acel.70647?af=R"
 source_title: "Activation of the Lactate Receptor GPR81 Ameliorates Senescence Hallmarks and Improves Muscle Function in Cellular and Progeroid Models of Aging"
 source_name: "Aging Cell"
 spiral: "Higher Flame"
-image_provider: "Pexels"
-image_provider_id: "11899950"
-image: "/images/editions/2026-08-03/activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162-pexels-11899950.webp"
-image_alt: "Detailed view of a laboratory microscope, essential for scientific research and analysis."
-image_caption: "The microscope's lens, a tool for molecular observation, is where researchers would confirm that activating the lactate receptor GPR81 eases senescence markers in progeroid mice."
-image_width: 1200
-image_height: 627
-image_photographer: "Jeff Burkholder"
-image_photographer_url: "https://www.pexels.com/@jeff-burkholder-219258325"
-image_source_url: "https://www.pexels.com/photo/gray-microscope-in-close-up-shot-11899950/"
-image_review_status: "pending"
-image_avg_color: "#49453C"
 topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Otto Warburg", "year": "1920s", "discovery": "Warburg discovered that cancer cells exhibit aerobic glycolysis, producing lactate even in the presence of oxygen. This established lactate as a central metabolic intermediate, but for decades it was viewed as a waste product. The modern finding that lactate activates GPR81 to reduce senescence directly repurposes Warburg's 'waste' molecule as a signaling ligand, validating his early recognition of lactate's pervasive biological role."}, {"scientist": "George Brooks", "year": "1980s", "discovery": "Brooks formulated the 'Lactate Shuttle' hypothesis, demonstrating that lactate is not a dead-end waste but a dynamic fuel and signaling molecule shuttled between cells and tissues. His work laid the foundation for identifying lactate receptors like GPR81. The current study extends Brooks' shuttle concept to aging, showing that lactate's signaling via GPR81 can clear senescent cells and improve muscle function in progeroid mice, thus linking exercise metabolism to healthspan."}]
 ancestral_insight: "Ancestral humans engaged in regular physical activity, such as hunting and gathering, which produced sustained lactate spikes. This evolutionary context primed GPR81 signaling as a natural mechanism to maintain tissue homeostasis and reduce cellular damage. The modern finding that lactate receptor activation clears senescent cells mirrors this ancestral pattern: periodic lactate surges from physical exertion likely served as a built-in anti-aging mechanism, reinforcing the healthspan benefits of an active lifestyle."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-08d7b162"
+image: "/images/editions/2026-08-03/2026-08-03-activation-of-the-lactate-receptor-gpr81-ameliorates-senescence-hallma-08d7b162-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a lactate molecule docking into a seven-helix transmembrane GPR81 receptor to repair frayed nuclear lamina and align skeletal-muscle sarcomere fibers, paired with a Higher Flame motif."
+image_caption: "Plate — Engaging the cell-surface lactate receptor GPR81 links exercise-associated metabolite signaling to reduced senescence markers and preserved muscle contractility."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research shows that activating the lactate receptor GPR81 reduces senescence markers and improves muscle performance in progeroid mice, linking metabolism to aging at the molecular level.

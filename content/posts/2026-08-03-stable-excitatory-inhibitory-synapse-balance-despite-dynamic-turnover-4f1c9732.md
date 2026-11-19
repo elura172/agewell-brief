@@ -10,17 +10,21 @@ source_url: "https://elifesciences.org/articles/107635"
 source_title: "Stable excitatory-inhibitory synapse balance despite dynamic turnover"
 source_name: "eLife Neuroscience"
 spiral: "Luminous Mind"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Wilfrid Rall", "year": "1964", "discovery": "Developed the cable theory for dendrites, showing that synaptic inputs are integrated nonlinearly and that the balance of excitatory and inhibitory conductances determines neuronal output. His compartmental models laid the biophysical foundation for understanding how a neuron can maintain stable firing despite constant synaptic turnover, directly anticipating the modern finding that E/I balance is preserved during continuous remodeling."}, {"scientist": "Donald Hebb", "year": "1949", "discovery": "Proposed that synaptic strength changes with correlated activity ('cells that fire together wire together'), implying synapses are plastic and constantly modified. This concept of activity-dependent synaptic remodeling is the conceptual precursor to the observed constant turnover of excitatory and inhibitory synapses, and Hebb's rule provides a mechanism by which the brain could adjust individual synapses while preserving overall E/I balance."}]
 ancestral_insight: "Traditional practices such as meditation, physical exercise, and social engagement—common in ancestral lifestyles—are known to modulate synaptic plasticity and promote balanced E/I activity. For example, mindfulness meditation has been shown to increase cortical GABA levels and reduce glutamate-glutamine cycling, directly supporting E/I balance. Physical exercise upregulates BDNF, which enhances synaptic turnover while also promoting inhibitory synapse maturation. These lifestyle factors likely act as 'homeostatic enforcers,' providing the metabolic and neurotrophic support necessary for the brain to maintain E/I balance during constant remodeling. Ancestral patterns of intermittent physical activity and restorative sleep (which facilitates glymphatic clearance and synaptic down-selection) may have evolved to optimize this balance, offering a natural template for preserving brain health and resilience across the lifespan."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-4f1c9732"
+image: "/images/editions/2026-08-03/2026-08-03-stable-excitatory-inhibitory-synapse-balance-despite-dynamic-turnover-4f1c9732-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a horizontal dendritic equilibrium beam where excitatory spines bud and dissolve above in counter-phase with inhibitory boutons below while the central fulcrum holds level, paired with a Luminous Mind motif."
+image_caption: "Plate — Live imaging shows excitatory and inhibitory synapses remodeling continuously while holding their aggregate net conductance in tight homeostatic equilibrium."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New live-imaging research reveals that excitatory and inhibitory synapses remodel continuously, yet their overall balance remains steady—a finding with deep implications for brain health and aging.

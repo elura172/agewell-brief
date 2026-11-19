@@ -11,22 +11,21 @@ source_url: "https://www.nih.gov/news-events/news-releases/researchers-discover-
 source_title: "Researchers discover single-cell brain activity that underlies human speech"
 source_name: "NIH News Releases"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "31589574"
-image: "/images/editions/2026-08-02/brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064-pexels-31589574.webp"
-image_alt: "A senior man speaks into a headset microphone during an indoor event."
-image_width: 1200
-image_height: 627
-image_photographer: "Laura Garcia"
-image_photographer_url: "https://www.pexels.com/@laura-garcia-1597504841/"
-image_source_url: "https://www.pexels.com/photo/elderly-man-speaking-with-microphone-at-event-31589574/"
-image_review_status: "human-reviewed"
-image_avg_color: "#4D4C4C"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Wilder Penfield", "year": "1930s-1950s", "discovery": "During awake brain surgery, Penfield mapped cortical areas by electrically stimulating the brain, producing speech arrest and vocalizations, and identifying the motor cortex's somatotopic organization for speech articulation. This established the cellular-to-regional mapping of language production that the current single-neuron recordings refine."}, {"scientist": "Jerome Lettvin, Humberto Maturana, Warren McCulloch, Walter Pitts", "year": "1959", "discovery": "In 'What the Frog's Eye Tells the Frog's Brain', they showed that individual neurons in the frog retina respond to specific stimulus features (e.g., moving edges, dark spots), demonstrating that single cells can encode abstract, behaviorally relevant categories. This principle of sparse, feature-selective neural coding underpins the current finding that single neurons track grammatical roles and sentence context during language production."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-9e548064"
+image: "/images/editions/2026-08-02/2026-08-02-brain-cell-activity-during-speech-decoded-by-ai-a-step-toward-thought--9e548064-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing three distinct prefrontal pyramidal neurons emitting syntax, semantic, and context pulse trains that braid through a central cortical loom into a unified acoustic speech waveform, paired with a Luminous Mind motif."
+image_caption: "Plate — Single neurons in human prefrontal cortex coordinate syntax, semantic meaning, and conversational context across distinct cellular coding channels."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Recordings from eight people revealed how individual neurons tracked grammar, meaning, and sentence context during natural conversation. The work maps part of language production at cellular scale; it does not read private thoughts or demonstrate a speech prosthesis.

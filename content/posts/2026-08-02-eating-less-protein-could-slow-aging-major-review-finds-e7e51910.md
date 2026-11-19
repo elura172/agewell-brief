@@ -10,22 +10,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/08/260801042811.htm"
 source_title: "Eating less protein could slow aging, major review finds"
 source_name: "ScienceDaily Top Health"
 spiral: "Cell Shedding"
-image_provider: "Pexels"
-image_provider_id: "5638644"
-image: "/images/editions/2026-08-02/eating-less-protein-could-slow-aging-major-review-finds-e7e51910-pexels-5638644.webp"
-image_alt: "Smiling elderly woman with family and friends enjoying dinner at table backyard garden"
-image_width: 1200
-image_height: 627
-image_photographer: "Askar Abayev"
-image_photographer_url: "https://www.pexels.com/@askar-abayev"
-image_source_url: "https://www.pexels.com/photo/happy-family-enjoying-dinner-in-garden-5638644/"
-image_review_status: "pending"
-image_avg_color: "#736158"
 topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Linda Partridge", "year": "2005", "discovery": "Partridge's work on dietary restriction in Drosophila showed that reducing protein, particularly specific amino acids like methionine, extends lifespan and improves metabolic health, independent of calorie restriction. This directly anticipates the review's finding that lower protein intake improves metabolism and reduces inflammation in sedentary individuals."}, {"scientist": "Rafael de Cabo", "year": "2014", "discovery": "De Cabo's studies on dietary protein restriction in rodents demonstrated that low-protein diets improve insulin sensitivity, reduce inflammation, and extend lifespan, partly through modulation of mTOR and FGF21 pathways. This provides a mechanistic basis for the review's claims about metabolic benefits of reduced protein intake."}]
 ancestral_insight: "Traditional hunter-gatherer diets, such as those of the Hadza or !Kung, were often protein-limited relative to modern diets, with protein typically comprising 15-25% of calories, and were punctuated by periods of scarcity. This pattern kept mTOR signaling lower and promoted metabolic flexibility. In contrast, modern sedentary lifestyles with constant high-protein intake mimic a state of perpetual feast, which overactivates mTOR and contributes to chronic inflammation. The review's recommendation for lower protein in sedentary individuals echoes ancestral patterns where protein intake was naturally lower and intermittent, supporting better metabolic health and longevity."
 evidence_position: "established"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-e7e51910"
+image: "/images/editions/2026-08-02/2026-08-02-eating-less-protein-could-slow-aging-major-review-finds-e7e51910-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a central cellular metabolic balance valve throttling down an overloaded amino-acid mTOR gear torrent on the left into a measured stream that opens circular autophagosome recycling chambers on the right, paired with a Cell Shedding spiral."
+image_caption: "Plate — Moderating chronic protein excess in sedentary adults shifts nutrient-sensing pathways from mTOR overdrive toward autophagic recycling and metabolic flexibility."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A sweeping analysis of over 350 studies suggests that many sedentary people may be consuming more protein than they need, and that cutting back could improve metabolism and reduce inflammation. But experts caution that the right amount depends on age and activity level.

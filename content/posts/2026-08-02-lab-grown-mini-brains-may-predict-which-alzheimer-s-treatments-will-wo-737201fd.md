@@ -10,22 +10,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/07/260721000844.htm"
 source_title: "Lab-grown mini brains may predict which Alzheimer’s treatments will work"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "36417809"
-image: "/images/editions/2026-08-02/lab-grown-mini-brains-may-predict-which-alzheimer-s-treatments-will-wo-737201fd-pexels-36417809.webp"
-image_alt: "Scientist examining a microscope slide under magnification with precision focus."
-image_width: 1200
-image_height: 627
-image_photographer: "Jahra Tasfia Reza"
-image_photographer_url: "https://www.pexels.com/@jahratreza"
-image_source_url: "https://www.pexels.com/photo/close-up-of-microscope-slide-examination-36417809/"
-image_review_status: "pending"
-image_avg_color: "#323E3E"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Paul Ehrlich", "year": "1885", "discovery": "Ehrlich's side-chain theory and his work on the blood-brain barrier (demonstrating that certain dyes injected into the bloodstream stain all organs except the brain) established the concept of selective cellular uptake and barrier function. This directly anticipates the modern use of patient-derived organoids to test individual drug responses, as Ehrlich's principle of 'corpora non agunt nisi fixata' (agents act only when bound) underpins the idea that drug efficacy depends on specific molecular interactions within a patient's unique cellular context."}, {"scientist": "Gordon M. Shepherd", "year": "1970s", "discovery": "Shepherd pioneered the systematic study of neuronal circuits and synaptic organization in the olfactory bulb, developing the concept of 'neural microcircuits' and emphasizing that brain function arises from the precise wiring of individual neurons. His work laid the foundation for understanding how cellular-level variations in receptor expression and synaptic connectivity can lead to differential drug responses, a principle now applied in organoid-based personalized medicine where patient-specific neural networks are modeled in vitro."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-737201fd"
+image: "/images/editions/2026-08-02/2026-08-02-lab-grown-mini-brains-may-predict-which-alzheimer-s-treatments-will-wo-737201fd-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph contrasting two patient-derived cerebral organoids in geometric laboratory cradles—an illuminated responder organoid releasing ordered extracellular vesicles on the left versus a static non-responder on the right—paired with a Luminous Mind motif."
+image_caption: "Plate — Patient-derived cerebral organoids and their secreted vesicles mirror individual synaptic responsiveness before a clinical drug trial begins."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Researchers used patient-derived brain organoids to reveal why some people with Alzheimer's may respond to an antidepressant while others don't, and identified tiny particles that could one day aid diagnosis.

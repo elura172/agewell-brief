@@ -10,23 +10,21 @@ source_url: "https://arxiv.org/abs/2607.28681"
 source_title: "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification"
 source_name: "arXiv q-bio"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "3862140"
-image: "/images/editions/2026-08-03/mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7-pexels-3862140.webp"
-image_alt: "A woman analyzes data on a computer screen in a modern office setup, focusing on technological research."
-image_caption: "The woman's focused analysis of data on the screen mirrors the study's use of machine learning to map individual brain networks, enhancing Alzheimer's detection through personalized patterns."
-image_width: 1200
-image_height: 627
-image_photographer: "ThisIsEngineering"
-image_photographer_url: "https://www.pexels.com/@thisisengineering"
-image_source_url: "https://www.pexels.com/photo/woman-using-computer-on-table-3862140/"
-image_review_status: "pending"
-image_avg_color: "#454B4B"
 topics: ['brain health', 'longevity', 'mobility']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Justo Gonzalo", "year": "1945", "discovery": "In 'Din\u00e1mica Cerebral', Gonzalo proposed that brain functions are organized in continuous, overlapping gradients rather than fixed, modular centers, and that each individual's functional topography is unique. This directly anticipates the modern finding that person-specific brain mapping improves Alzheimer's detection, as it validates the idea that inter-individual variability in functional organization must be accounted for to accurately assess pathology."}, {"scientist": "Naftali Raz", "year": "2005", "discovery": "Raz's longitudinal studies demonstrated that aging and Alzheimer's disease lead to 'dedifferentiation'\u2014a loss of functional specialization and increased correlation between distinct brain networks. This is the exact pattern the new machine learning method reveals, providing a neurobiological basis for the observed network-level changes that improve detection when mapped at the individual level."}]
 ancestral_insight: "Traditional practices like meditation and physical exercise have long been observed to maintain cognitive flexibility and brain health in aging. Mechanistically, these activities enhance neuroplasticity and promote functional network segregation, counteracting the dedifferentiation that the study identifies as a hallmark of Alzheimer's. For example, mindfulness meditation increases default mode network integrity, while aerobic exercise boosts hippocampal connectivity—both preserving the specialized network organization that the new method tracks. This suggests that ancestral lifestyle habits, which inherently involve varied sensory-motor and social engagement, may have served to maintain individual brain uniqueness and resilience against age-related network dedifferentiation."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-24697ba7"
+image: "/images/editions/2026-08-03/2026-08-03-mpp-gnn-subject-adaptive-community-detection-for-fmri-based-alzheimer--24697ba7-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph contrasting a healthy person-specific cortical network of distinct functional community polygons against an Alzheimer dedifferentiated network of blurred community boundaries, paired with a Luminous Mind motif."
+image_caption: "Plate — Subject-adaptive graph neural mapping detects early Alzheimer network dedifferentiation as distinct cortical communities lose their functional boundaries."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new machine learning method adapts to each person's brain organization, improving Alzheimer's detection and revealing a pattern of network 'dedifferentiation.'

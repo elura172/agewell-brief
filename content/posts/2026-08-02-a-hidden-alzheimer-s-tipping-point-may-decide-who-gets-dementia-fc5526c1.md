@@ -10,22 +10,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/07/260726015257.htm"
 source_title: "A hidden Alzheimer’s tipping point may decide who gets dementia"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "8539453"
-image: "/images/editions/2026-08-02/a-hidden-alzheimer-s-tipping-point-may-decide-who-gets-dementia-fc5526c1-pexels-8539453.webp"
-image_alt: "Senior researcher working with a microscope in a laboratory setting, assisted by a colleague."
-image_width: 1200
-image_height: 627
-image_photographer: "https://kaboompics.com/"
-image_photographer_url: "https://www.pexels.com/@karola-g"
-image_source_url: "https://www.pexels.com/photo/woman-using-a-microscope-on-a-white-table-8539453/"
-image_review_status: "pending"
-image_avg_color: "#879AA0"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "P\u00edo del R\u00edo Hortega", "year": "1919", "discovery": "Discovered and named microglia, identifying them as distinct brain cells of mesodermal origin that respond to injury and disease. This foundational work established microglia as the brain's immune cells, directly anticipating the modern finding that a microglial state switch (from homeostatic to disease-associated) determines cognitive resilience versus decline in Alzheimer's disease."}, {"scientist": "Alois Alzheimer", "year": "1906", "discovery": "First described the neuropathological hallmarks of Alzheimer's disease\u2014amyloid plaques and neurofibrillary tangles\u2014in a patient with dementia. However, he also noted the presence of reactive glial cells around plaques, hinting at an immune component. The modern study validates and extends this by showing that microglial activation state, not just plaque burden, is the critical determinant of whether pathology leads to cognitive decline, explaining the clinicopathological dissociation observed for decades."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-fc5526c1"
+image: "/images/editions/2026-08-02/2026-08-02-a-hidden-alzheimer-s-tipping-point-may-decide-who-gets-dementia-fc5526c1-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a central microglial prism switch above amyloid deposits bifurcating into an upper-left homeostatic pathway that preserves synaptic bridges versus a lower-right inflammatory tipping state that severs neural connections, paired with a Luminous Mind motif."
+image_caption: "Plate — A cellular state switch in resident microglia separates brains that tolerate amyloid pathology with intact synapses from those that tip into neuroinflammatory decline."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research pinpoints a shift in brain immune cells that may separate those who stay sharp from those who decline.

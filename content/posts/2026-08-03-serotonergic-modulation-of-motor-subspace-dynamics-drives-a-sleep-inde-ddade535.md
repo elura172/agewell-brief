@@ -10,17 +10,21 @@ source_url: "https://elifesciences.org/articles/110370"
 source_title: "Serotonergic modulation of motor subspace dynamics drives a sleep-independent quiescent state"
 source_name: "eLife Neuroscience"
 spiral: "Luminous Mind"
-image: "https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Abstract biophotonic neural subspace visualization"
-image_photographer: "Google DeepMind / Pexels"
-image_photographer_url: "https://www.pexels.com/@googledeepmind"
-image_provider: "Pexels"
-image_avg_color: "#1a2a3a"
 topics: ['brain health', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Michel Jouvet", "year": "1969", "discovery": "Jouvet's pioneering work on the neurophysiology of sleep in cats demonstrated that lesions of the raphe system (the primary source of serotonin) produced profound insomnia, while enhancing serotonergic activity promoted sleep. This established serotonin as a key regulator of sleep-wake states, but also created the 'serotonin paradox'\u2014later studies showed serotonin neurons are active during wakefulness. The zebrafish finding resolves this paradox by showing serotonin's role is not global arousal but selective suppression of motor output, preserving sensory processing\u2014a mechanistic refinement of Jouvet's original raphe-sleep hypothesis."}, {"scientist": "Edward Evarts", "year": "1960s", "discovery": "Evarts, a pioneer in single-unit recording in behaving primates, demonstrated that motor cortex neurons fire in relation to voluntary movement and that activity in motor pathways is modulated during different behavioral states. His work laid the foundation for understanding how neural activity in motor circuits is dissociated from sensory processing. The zebrafish study directly extends this by showing that serotonin acts on motor-related neural subspaces (population-level activity patterns) to induce stillness without affecting sensory-evoked responses\u2014a modern confirmation that motor and sensory channels are independently regulated, a principle Evarts' recordings first hinted at."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-ddade535"
+image: "/images/editions/2026-08-03/2026-08-03-serotonergic-modulation-of-motor-subspace-dynamics-drives-a-sleep-inde-ddade535-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a larval zebrafish dorsal raphe serotonergic nucleus damping motor-subspace oscillations into stillness below while upper sensory reception rings remain open and alert, paired with a Luminous Mind motif."
+image_caption: "Plate — Dorsal raphe serotonergic neurons selectively quiet motor-subspace dynamics into physical stillness without gating incoming sensory responsiveness."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research in larval zebrafish reveals that activating serotonin neurons in the dorsal raphe nucleus induces a quiescent state by modulating motor-related neural subspaces, leaving sensory processing intact—a finding with deep roots in biophysics and ancestral wisdom.

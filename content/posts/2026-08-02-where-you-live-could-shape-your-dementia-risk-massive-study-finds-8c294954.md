@@ -10,22 +10,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/07/260713000753.htm"
 source_title: "Where you live could shape your dementia risk, massive study finds"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "33768815"
-image: "/images/editions/2026-08-02/where-you-live-could-shape-your-dementia-risk-massive-study-finds-8c294954-pexels-33768815.webp"
-image_alt: "A group of adults, including seniors and a person in a wheelchair, enjoying a hula hoop exercise indoors."
-image_width: 1200
-image_height: 627
-image_photographer: "Centre for Ageing Better"
-image_photographer_url: "https://www.pexels.com/@centre-for-ageing-better-55954677"
-image_source_url: "https://www.pexels.com/photo/diverse-people-engaging-in-hula-hoop-exercise-indoors-33768815/"
-image_review_status: "pending"
-image_avg_color: "#76716B"
 topics: ['brain health', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Richard Doll and Austin Bradford Hill", "year": "1950", "discovery": "Established the link between smoking and lung cancer through the British Doctors Study, demonstrating that smoking is a major modifiable risk factor for chronic disease. This epidemiological approach laid the groundwork for identifying smoking as a key modifiable risk factor for dementia, as confirmed in the global analysis."}, {"scientist": "Vladimir Hachinski", "year": "1975", "discovery": "Developed the Hachinski Ischemic Score to distinguish vascular dementia from Alzheimer's disease, highlighting the role of vascular risk factors like hypertension in cognitive decline. This work anticipated the current finding that high blood pressure is a major modifiable risk factor for dementia, varying by country."}]
 ancestral_insight: "Traditional lifestyles, such as those in rural India or China, often involve higher physical activity and diets low in processed foods, which may lower hypertension and smoking rates compared to Western populations. The physical mechanisms include improved endothelial function and reduced vascular inflammation from regular activity, and avoidance of tobacco's neurotoxic effects. This aligns with the study's finding that risk factor prevalence varies, suggesting that ancestral-like active lifestyles and plant-based diets could mitigate dementia risk by reducing vascular and metabolic stressors."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-8c294954"
+image: "/images/editions/2026-08-02/2026-08-02-where-you-live-could-shape-your-dementia-risk-massive-study-finds-8c294954-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of three regional cartographic meridian zones with distinct environmental and vascular strata converging via geodesic lines into a shared cerebral cortex dome, paired with a Luminous Mind motif."
+image_caption: "Plate — Across 214,000 older adults globally, the relative weight of modifiable vascular, educational, and environmental dementia risks shifts with local geography."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new global analysis of more than 214,000 older adults reveals that dementia risk factors vary widely by country, but some patterns are surprisingly consistent.

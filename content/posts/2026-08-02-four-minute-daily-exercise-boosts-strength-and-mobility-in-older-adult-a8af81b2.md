@@ -10,22 +10,21 @@ source_url: "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNW
 source_title: "Four-minute daily exercise boosts strength and mobility in older adults - The Brighter Side of News"
 source_name: "The Brighter Side of News"
 spiral: "Living Waters"
-image_provider: "Pexels"
-image_provider_id: "6974989"
-image: "/images/editions/2026-08-02/four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2-pexels-6974989.webp"
-image_alt: "Elderly couple enjoying yoga exercise on mats at home, promoting healthy and positive aging."
-image_width: 1200
-image_height: 627
-image_photographer: "T Leish"
-image_photographer_url: "https://www.pexels.com/@leish"
-image_source_url: "https://www.pexels.com/photo/man-raising-hands-and-woman-stretching-in-yoga-mats-6974989/"
-image_review_status: "pending"
-image_avg_color: "#A0998E"
 topics: ['brain health', 'general wellness', 'mobility']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Maria Fiatarone Singh", "year": "1994", "discovery": "Published the landmark Frailty and Injuries: Cooperative Studies of Intervention Techniques (FICSIT) trial in the New England Journal of Medicine, demonstrating that high-intensity progressive resistance training (using weighted vests and ankle weights) dramatically improved muscle strength, gait speed, and stair-climbing power in frail nursing home residents aged 72\u201398. This established the principle that even the oldest and most debilitated adults can gain significant functional strength from resistance exercise, directly validating the Penn State finding that brief daily resistance movements (chair stands, stair stepping) improve chair-stand and balance scores in older adults."}, {"scientist": "Archibald Vivian Hill", "year": "1938", "discovery": "Pioneered the biophysics of muscle contraction, showing that muscle force and power are governed by the force-velocity relationship and that brief, high-intensity contractions (as in daily chair stands) recruit high-threshold motor units and stimulate neuromuscular adaptations. His work on muscle energetics and the 'Hill equation' underpins the mechanistic rationale for why short-duration resistance exercise\u2014even just four minutes daily\u2014can effectively improve strength and balance in aging muscle, as it optimizes neural drive and muscle fiber recruitment without requiring prolonged endurance training."}]
 ancestral_insight: ""
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-a8af81b2"
+image: "/images/editions/2026-08-02/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a four-band chronometric arc driving an ascending four-step biomechanical chair-stand sequence from seated geometry to poised vertical balance, paired with a Living Waters trajectory curve."
+image_caption: "Plate — A brief four-minute daily resistance sequence strengthens lower-limb extensor power and postural center-of-mass control."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove.

@@ -10,22 +10,21 @@ source_url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxObXlNT0JxbmZTbU
 source_title: "Rhythms of life: melatonin, nutrition, sleep, and antioxidant strategies for healthy aging - Frontiers"
 source_name: "Frontiers"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "37330104"
-image: "/images/editions/2026-08-02/rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27-pexels-37330104.webp"
-image_alt: "Senior Indian woman chops vegetables in a kitchen, preparing a meal with traditional methods."
-image_width: 1200
-image_height: 627
-image_photographer: "Apurva Chandwadkar"
-image_photographer_url: "https://www.pexels.com/@apurva-chandwadkar-2156423320"
-image_source_url: "https://www.pexels.com/photo/traditional-indian-cooking-process-with-sliced-vegetables-37330104/"
-image_review_status: "pending"
-image_avg_color: "#805F36"
 topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Franz Halberg", "year": "1959", "discovery": "Coined the term 'circadian' and established the concept of the master clock in the suprachiasmatic nucleus (SCN), showing that physiological rhythms are driven by an internal timekeeping system. His work on 'chronobiology' laid the foundation for understanding how aging disrupts these rhythms, directly anticipating the review's focus on age-related circadian weakening."}, {"scientist": "J\u00fcrgen Aschoff", "year": "1965", "discovery": "Demonstrated that human circadian rhythms free-run in isolation with a period close to 25 hours, and that light is the primary zeitgeber. His 'Aschoff's rule' and studies on entrainment provided the mechanistic basis for how external cues like meal timing and light can stabilize the aging clock, validating the review's emphasis on behavioral interventions."}]
 ancestral_insight: "Traditional hunter-gatherer lifestyles, such as those of the Hadza, naturally align eating with daylight hours and fasting during darkness, which reinforces circadian rhythms through time-restricted feeding. This parallels the review's recommendation for consistent meal timing, as ancestral patterns of light exposure and food intake would have maintained robust SCN signaling and metabolic synchrony, countering the age-related desynchronization seen in modern artificial-light and constant-snacking environments."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-8112ba27"
+image: "/images/editions/2026-08-02/2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of a horizon-bisected diurnal-nocturnal astrolabe wheel aligning daytime solar meal-timing gears above with nocturnal pineal melatonin waves quenching mitochondrial free-radical sparks below, paired with a Dark Mirror crescent."
+image_caption: "Plate — Daytime nutrient timing and nocturnal melatonin signaling act as complementary zeitgebers that stabilize circadian amplitude and mitochondrial redox repair."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new review explains how the body's daily rhythms change with age and why meal timing and certain foods might help keep them strong.

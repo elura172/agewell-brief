@@ -10,23 +10,21 @@ source_url: "https://medicalxpress.com/news/2026-07-enzyme-zombie-cells-tissues.
 source_title: "Could this enzyme help remove 'zombie' cells from our tissues?"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Cell Shedding"
-image_provider: "Pexels"
-image_provider_id: "11730899"
-image: "/images/editions/2026-08-03/could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd-pexels-11730899.webp"
-image_alt: "A scientist works with a microscope in a bright, modern lab setting, wearing a lab coat."
-image_caption: "The scientist's focused work at the microscope mirrors the precision needed to study the enzyme that could clear senescent cells, a key step in understanding age-related decline."
-image_width: 1200
-image_height: 627
-image_photographer: "Zakir Rushanly"
-image_photographer_url: "https://www.pexels.com/@zeoxs"
-image_source_url: "https://www.pexels.com/photo/woman-in-white-robe-looking-through-microscope-11730899/"
-image_review_status: "pending"
-image_avg_color: "#BFBEBA"
 topics: ['cellular senescence', 'longevity', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Leonard Hayflick", "year": "1961", "discovery": "Demonstrated that normal human fibroblasts have a finite replicative capacity in culture (the Hayflick limit), establishing the concept of cellular senescence as a distinct biological state. This directly underpins the modern finding that senescent cells accumulate with age and that an enzyme may help clear them, validating the fundamental premise that senescence is a targetable mechanism in aging."}, {"scientist": "Judith Campisi", "year": "2000s", "discovery": "Characterized the Senescence-Associated Secretory Phenotype (SASP), showing that senescent cells secrete inflammatory cytokines, growth factors, and proteases that disrupt tissue microenvironments and contribute to age-related pathology. This work provides the mechanistic rationale for clearing senescent cells, as the enzyme in the preprint likely targets SASP-driven inflammation or promotes senescent cell apoptosis, directly connecting to Campisi's foundational insights."}]
 ancestral_insight: "Traditional lifestyle practices such as intermittent fasting and regular physical exercise have long been associated with longevity. Mechanistically, these practices activate autophagy and enhance immune surveillance, which are natural pathways for clearing senescent cells. For example, fasting-induced autophagy degrades damaged cellular components, while exercise promotes the release of myokines that stimulate immune cells to eliminate senescent cells. The enzyme identified in the preprint may mimic or amplify these ancestral adaptive responses, providing a pharmacological shortcut to the benefits that our ancestors achieved through periodic food scarcity and physical activity."
 evidence_position: "speculative"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-924241cd"
+image: "/images/editions/2026-08-03/2026-08-03-could-this-enzyme-help-remove-zombie-cells-from-our-tissues-924241cd-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing precision enzymatic catalysts cleaving enlarged inflammatory senescent cells inside a tissue matrix into clean recyclable geometric fragments, paired with a Cell Shedding spiral motif."
+image_caption: "Plate — Targeted enzymatic clearance dismantles senescent cells and their pro-inflammatory secretory halos so surrounding tissue architecture can regenerate."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Scientists are homing in on an enzyme that may help remove senescent cells—the so-called 'zombie' cells that accumulate with age. Here's what the research suggests and what it doesn't.

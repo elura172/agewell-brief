@@ -10,23 +10,21 @@ source_url: "https://medicalxpress.com/news/2026-08-ai-previously-unrecognized-h
 source_title: "AI identifies previously unrecognized health insights in routine sleep studies"
 source_name: "Medical Xpress Sleep"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "5118461"
-image: "/images/editions/2026-08-03/ai-identifies-previously-unrecognized-health-insights-in-routine-sleep-8525ef13-pexels-5118461.webp"
-image_alt: "Scientist in protective gear holding a transparent test sheet in a laboratory."
-image_caption: "The scientist's transparent test sheet holds the same kind of routine data that the AI model sifts through to uncover hidden disease signals."
-image_width: 1200
-image_height: 627
-image_photographer: "Российский центр  гибкой электроники"
-image_photographer_url: "https://www.pexels.com/@3430425"
-image_source_url: "https://www.pexels.com/photo/woman-holding-chemistry-results-5118461/"
-image_review_status: "pending"
-image_avg_color: "#C3C5AC"
 topics: ['brain health', 'metabolic health', 'mobility', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Nathaniel Kleitman", "year": "1953", "discovery": "Kleitman and Eugene Aserinsky discovered rapid eye movement (REM) sleep, establishing that sleep is a structured, cyclic process with distinct stages. This foundational work transformed sleep from a passive state into a dynamic physiological phenomenon, directly enabling modern polysomnography and the AI analysis of sleep architecture for systemic health prediction."}, {"scientist": "William Dement", "year": "1957", "discovery": "Dement, a pioneer of sleep medicine, characterized sleep stages and their clinical significance, including the association of sleep fragmentation with health outcomes. His work laid the groundwork for using sleep studies as diagnostic tools, which the new AI model now extends by extracting subtle predictive patterns from routine sleep data."}]
 ancestral_insight: "Traditional hunter-gatherer sleep patterns, often polyphasic and synchronized with environmental light, may have promoted more robust autonomic balance and glymphatic clearance. The AI's detection of fragmented sleep as a risk marker echoes ancestral adaptations where sleep quality was integral to survival, suggesting that modern sleep disruption—driven by artificial light and stress—may represent a maladaptive deviation from ancestral norms, with measurable systemic consequences."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-8525ef13"
+image: "/images/editions/2026-08-03/2026-08-03-ai-identifies-previously-unrecognized-health-insights-in-routine-sleep-8525ef13-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of overnight EEG, cardiac, and respiratory polysomnography traces refracting through an analytical prism into cardiac, cerebral, and systemic vitality trajectories, paired with a Dark Mirror crescent."
+image_caption: "Plate — Multimodal sleep-study waveforms encode latent autonomic, cardiovascular, and neurological risk signatures years before clinical presentation."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new AI model mines routine sleep studies for subtle patterns that predict heart disease, cognitive decline, and mortality—turning the sleep lab into a window on systemic health.

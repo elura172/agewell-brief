@@ -11,22 +11,21 @@ source_url: "https://www.sciencedaily.com/releases/2026/07/260729051540.htm"
 source_title: "AI can tell if your brain is aging faster than you are"
 source_name: "ScienceDaily Healthy Aging"
 spiral: "Luminous Mind"
-image_provider: "Pexels"
-image_provider_id: "6129042"
-image: "/images/editions/2026-08-02/ai-can-tell-if-your-brain-is-aging-faster-than-you-are-c2812776-pexels-6129042.webp"
-image_alt: "A healthcare professional examines brain X-rays while wearing a face mask in a hospital setting."
-image_width: 1200
-image_height: 627
-image_photographer: "RDNE Stock project"
-image_photographer_url: "https://www.pexels.com/@rdne"
-image_source_url: "https://www.pexels.com/photo/doctor-looking-at-an-x-ray-image-6129042/"
-image_review_status: "human-reviewed"
-image_avg_color: "#99ABB8"
 topics: ['brain health', 'longevity', 'sleep health']
 frameworks: ['Living Waters', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "Peter L. Nunez", "year": "1995", "discovery": "Developed the 'neural mass model' and the concept of EEG as a spatial average of cortical synaptic currents, establishing that EEG frequency spectra and their age-related slowing reflect the biophysical properties of large-scale corticothalamic loops. This directly underpins the modern machine-learning 'brain age' score, which extracts age-related spectral features from sleep EEG to estimate biological brain age."}, {"scientist": "Mary A. Carskadon & William Dement", "year": "1981", "discovery": "Characterized the normative decline in slow-wave sleep (delta power) and sleep spindle density across the lifespan, showing that sleep EEG architecture changes predictably with age. This provides the physiological baseline that the 'brain age' model uses to compare an individual's sleep EEG against age-expected patterns, linking accelerated EEG aging to future dementia risk."}]
 ancestral_insight: "Traditional sleep practices across cultures—such as biphasic sleep patterns, early rising with the sun, and avoidance of nocturnal light—align with the physiological mechanisms that preserve youthful sleep EEG. Ancestral lifestyles typically involved consistent sleep-wake cycles synchronized with natural light, which optimizes slow-wave sleep depth and spindle density. These sleep features are precisely the ones that decline with age and are accelerated in dementia. By maintaining robust slow-wave activity through regular, dark, and cool sleep environments, traditional practices may support glymphatic clearance of amyloid-beta during deep sleep, a process that is most active during slow-wave sleep. Thus, ancestral sleep hygiene may act as a protective factor against the EEG 'brain age' acceleration that predicts dementia, offering a mechanistic link between traditional lifestyle and modern biomarker-based risk assessment."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-c2812776"
+image: "/images/editions/2026-08-02/2026-08-02-ai-can-tell-if-your-brain-is-aging-faster-than-you-are-c2812776-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph of overnight sleep EEG delta and spindle traces entering a differential caliper that measures the angular divergence gap between chronological age and accelerated biological brain age, paired with a Luminous Mind motif."
+image_caption: "Plate — Overnight sleep EEG micro-architecture reveals the biological brain-age gap, with each decade of divergence tracking elevated long-term dementia risk."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A machine-learning model estimated “brain age” from overnight sleep recordings. Across five long-running cohorts, each additional 10 years between estimated brain age and chronological age was associated with a 39% higher risk of dementia.
