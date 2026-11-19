@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T23:44:04.198524+00:00",
+  "generated_at": "2026-11-19T15:50:00.492566+00:00",
   "article": {
     "article": "2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a",
     "url": "https://agewellbrief.com/brief/2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a/",
     "category": "longevity",
-    "trend": null,
+    "trend": {
+      "rank": 2,
+      "reader_visits": 10
+    },
     "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767156v1?rss=1",
     "content_record": {
       "article_id": "2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase. When proteostasis stress forces nuclear protein Acinus into the cytoplasm, it bypasses mTOR to ignite a distinct autophagic pathway dependent on Rab32 and Lrrk. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767156v1?rss=1",
-      "trend": null,
+      "trend": {
+        "rank": 2,
+        "reader_visits": 10
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#D98A2B",
       "stroke_color": "#181A1B",

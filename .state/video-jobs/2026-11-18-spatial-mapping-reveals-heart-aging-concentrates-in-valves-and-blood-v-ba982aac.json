@@ -1,0 +1,27 @@
+{
+  "status": "ready_for_mpt",
+  "subject": "Spatial Mapping Reveals Heart Aging Concentrates in Valves and Blood Vessels",
+  "article_url": "https://agewellbrief.com/brief/2026-11-18-spatial-mapping-reveals-heart-aging-concentrates-in-valves-and-blood-v-ba982aac/",
+  "video_aspect": "9:16",
+  "voice_name": "en-US-AvaNeural",
+  "script": "From Agewell Brief: Spatial Mapping Reveals Heart Aging Concentrates in Valves and Blood Vessels. Single-cell resolution reveals that age-related inflammation and scarring target the organ's structural plumbing rather than its main muscle. Most cardiac longevity research focuses on the left ventricle, the powerful muscular pump that drives oxygenated blood into systemic circulation. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+  "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085550.htm",
+  "trend": {
+    "rank": 3,
+    "reader_visits": 9
+  },
+  "text_fore_color": "#FAF6EE",
+  "highlight_color": "#D98A2B",
+  "stroke_color": "#181A1B",
+  "stroke_width": 2,
+  "font_size": 46,
+  "subtitle_bottom_margin": 210,
+  "max_words_per_line": 4,
+  "active_word_scale": 1.06,
+  "uppercase_keywords": false,
+  "bold_keywords": true,
+  "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
+  "subtitle_bg_padding": 12,
+  "subtitle_glow_enabled": false,
+  "requires_video_qa": false
+}

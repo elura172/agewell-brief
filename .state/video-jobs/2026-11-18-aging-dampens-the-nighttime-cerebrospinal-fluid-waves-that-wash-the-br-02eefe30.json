@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Aging dampens the nighttime cerebrospinal fluid waves that wash the brain. MIT researchers discovered that deep-sleep brain waves and vascular responses weaken with age, reducing the nocturnal fluid movements that clear cellular waste from the brain. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202137.htm",
-  "trend": null,
+  "trend": {
+    "rank": 1,
+    "reader_visits": 10
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#C98B3B",
   "stroke_color": "#181A1B",
