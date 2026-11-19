@@ -13,6 +13,16 @@ source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-d3ba6f9d"
+image: "/images/editions/2026-11-19/2026-11-19-new-biophysical-brain-model-explains-how-dementia-unravels-memory-form-d3ba6f9d-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing an active mitochondrial bioenergetic pump driving a polarized neuronal membrane into phase-locked harmonic dipole oscillations across cortical layers on the left, while energy deficits on the right unravel coherence into fragmented oscillations, paired with a Luminous Mind geodesic dome motif."
+image_caption: "Plate — Sustained mitochondrial energy pumps neuronal membranes into coherent long-range dipole oscillations; when bioenergetic supply drops, phase synchronization decoheres before structural atrophy begins."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A newly published theoretical framework reveals how systemic failures in neural network synchronization disrupt memory encoding, offering fresh insight into the physical origins of Alzheimer’s disease.
