@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-18T23:44:03.392291+00:00",
+  "generated_at": "2026-11-19T03:59:16.925040+00:00",
   "release_status": "published",
   "dry_run": false,
   "schema_version": 3,
   "includes_trending": false,
   "packages": [
     {
-      "article": "2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a",
-      "url": "https://agewellbrief.com/brief/2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a/",
-      "category": "longevity",
+      "article": "2026-11-19-new-biophysical-brain-model-explains-how-dementia-unravels-memory-form-d3ba6f9d",
+      "url": "https://agewellbrief.com/brief/2026-11-19-new-biophysical-brain-model-explains-how-dementia-unravels-memory-form-d3ba6f9d/",
+      "category": "brain health",
       "trend": null,
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767156v1?rss=1",
+      "source_url": "https://medicalxpress.com/news/2026-11-brain-explanation-memory-formation-dementia.html",
       "content_record": {
-        "article_id": "2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a",
-        "article_url": "https://agewellbrief.com/brief/2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a/",
-        "title": "Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase",
-        "category": "longevity",
-        "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767156v1?rss=1",
-        "editorial_body": "When proteostasis stress forces nuclear protein Acinus into the cytoplasm, it bypasses mTOR to ignite a distinct autophagic pathway dependent on Rab32 and Lrrk. Cellular survival during aging and proteostasis stress relies on autophagy to clear damaged components, yet the signaling logic matching specific stressors to autophagic output remains incompletely mapped. Researchers investigated Acinus, a predominantly nuclear protein long known as a splicing subunit within the ASAP complex. By engineering mutations that disrupt ASAP binding or shift Acinus into the cytoplasm, the team revealed that cytoplasmic Acinus induces autophagic flux independently of its splicing duties. Proximity labeling of the intracellular space identified the small GTPase Rab32 as a primary physical associate of cytoplasmic Acinus. Subsequent genetic dissection demonstrated that both Rab32 and its downstream effector Lrrk kinase are strictly required for this newly uncovered stress response, separating it from the classic mTor-regulated autophagy pathway. Because human orthologs of Rab32 and Lrrk are established genetic risk factors for Parkinson's disease, this mechanistic bridge connects proteotoxic stress handling directly to neurodegenerative pathways. However, this basic science study maps these protein interactions within cellular models and does not yet demonstrate whether manipulating the Acinus-Rab32-Lrrk axis alters disease progression in human neural tissue. Acinus shifts from the nucleus to the cytoplasm during proteostasis stress to directly drive cellular autophagy. Cytoplasmic Acinus partners with the Rab32 GTPase and Lrrk kinase to trigger a specialized autophagic pathway. The genetic link between Acinus signaling, Rab32, and Lrrk offers new mechanistic clues for Parkinson's disease research. Reported from Autophagy induction by cytoplasmic Acinus requires Lrrk activity (bioRxiv immunology and cell biology)."
+        "article_id": "2026-11-19-new-biophysical-brain-model-explains-how-dementia-unravels-memory-form-d3ba6f9d",
+        "article_url": "https://agewellbrief.com/brief/2026-11-19-new-biophysical-brain-model-explains-how-dementia-unravels-memory-form-d3ba6f9d/",
+        "title": "New Biophysical Brain Model Explains How Dementia Unravels Memory Formation",
+        "category": "brain health",
+        "source_url": "https://medicalxpress.com/news/2026-11-brain-explanation-memory-formation-dementia.html",
+        "editorial_body": "A newly published theoretical framework reveals how systemic failures in neural network synchronization disrupt memory encoding, offering fresh insight into the physical origins of Alzheimer’s disease. Classical neuroscience has long treated memory formation as a localized affair of individual synapses strengthening in isolation. Yet this reductionist view struggles to account for how a coherent, real-time experience emerges from billions of distributed neural firings across distant cortical regions. The brain must coordinate rapid, sub-second electrical rhythms to bind sights, sounds, and emotions into a single, unified autobiographical trace. When this large-scale coordination fails, cognitive decline follows long before structural tissue visibly wastes away. Understanding how distributed neural networks lose their cooperative timing remains one of the central challenges in neurodegeneration research, pointing toward a need for physics-based models of brain architecture. To address this gap, researchers publishing in the journal Brain have articulated a comprehensive theoretical framework that repositions memory creation as a macroscopic physical process. Rather than focusing solely on chemical signaling at local synaptic clefts, the model examines how the brain sustains the precise vibrational and electrical states necessary to encode experience. Building on twentieth-century biophysical insights pioneered by physicist Herbert Fröhlich, who showed how metabolic energy pumps living membranes into coherent dipole oscillations, the new framework suggests that dementia begins when cellular energy deficits silence these long-range rhythmic interactions. At the cellular scale, healthy neurons require continuous metabolic fuel to maintain the electrical polarization thresholds that allow them to fire in synchrony with neighboring populations. When mitochondrial output drops or cellular stress interferes with membrane stability, the brain loses its capacity to maintain these delicate, zero-dissipation cooperative states. Without sustained rhythmic coherence across neural networks, incoming sensory patterns fail to lock into persistent, stable memory traces. The new model demonstrates how this energetic collapse cascades upward, transforming microscopic bioenergetic failure into the systemic disconnection characteristic of Alzheimer's disease and related dementias. Because this work is a theoretical framework rather than an empirical clinical trial, it does not evaluate patient cohorts, therapeutic interventions, or pharmacological dosages. Its value lies entirely in restructuring how scientists conceptualize the physical underpinnings of cognition. If future empirical studies confirm how specific bioenergetic failures disrupt large-scale network synchronization, researchers may gain entirely new targets for diagnosing and treating neurodegenerative decline at its physical root. A newly published theoretical framework in the journal Brain reexamines the biophysical mechanisms underlying human memory formation. The model proposes that dementia arises from a systemic breakdown in long-range neural network synchronization rather than isolated synaptic failures. Cellular energy deficits disrupt the delicate membrane polarization required to sustain coherent electrical rhythms across brain regions. Reported from Brain model offers new explanation for memory formation and how dementia disrupts it (Medical Xpress Healthy Aging)."
       },
       "mpt_job": {
         "status": "ready_for_mpt",
-        "subject": "Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase",
-        "article_url": "https://agewellbrief.com/brief/2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a/",
+        "subject": "New Biophysical Brain Model Explains How Dementia Unravels Memory Formation",
+        "article_url": "https://agewellbrief.com/brief/2026-11-19-new-biophysical-brain-model-explains-how-dementia-unravels-memory-form-d3ba6f9d/",
         "video_aspect": "9:16",
         "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase. When proteostasis stress forces nuclear protein Acinus into the cytoplasm, it bypasses mTOR to ignite a distinct autophagic pathway dependent on Rab32 and Lrrk. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767156v1?rss=1",
+        "script": "From Agewell Brief: New Biophysical Brain Model Explains How Dementia Unravels Memory Formation. A newly published theoretical framework reveals how systemic failures in neural network synchronization disrupt memory encoding, offering fresh insight into the physical origins of Alzheimer’s disease. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://medicalxpress.com/news/2026-11-brain-explanation-memory-formation-dementia.html",
         "trend": null,
         "text_fore_color": "#FAF6EE",
-        "highlight_color": "#D98A2B",
+        "highlight_color": "#C98B3B",
         "stroke_color": "#181A1B",
         "stroke_width": 2,
         "font_size": 46,
@@ -44,19 +44,19 @@
         "requires_video_qa": false
       },
       "facebook": {
-        "title": "Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase\n\nWhen proteostasis stress forces nuclear protein Acinus into the cytoplasm, it bypasses mTOR to ignite a distinct autophagic pathway dependent on Rab32 and Lrrk.",
-        "link_url": "https://agewellbrief.com/brief/2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a/"
+        "title": "New Biophysical Brain Model Explains How Dementia Unravels Memory Formation\n\nA newly published theoretical framework reveals how systemic failures in neural network synchronization disrupt memory encoding, offering fresh insight into the physical origins of Alzheimer’s disease.",
+        "link_url": "https://agewellbrief.com/brief/2026-11-19-new-biophysical-brain-model-explains-how-dementia-unravels-memory-form-d3ba6f9d/"
       },
       "tiktok": {
-        "hook": "Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase",
-        "script": "From Agewell Brief: Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase. When proteostasis stress forces nuclear protein Acinus into the cytoplasm, it bypasses mTOR to ignite a distinct autophagic pathway dependent on Rab32 and Lrrk. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a/",
+        "hook": "New Biophysical Brain Model Explains How Dementia Unravels Memory Formation",
+        "script": "From Agewell Brief: New Biophysical Brain Model Explains How Dementia Unravels Memory Formation. A newly published theoretical framework reveals how systemic failures in neural network synchronization disrupt memory encoding, offering fresh insight into the physical origins of Alzheimer’s disease. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "New Biophysical Brain Model Explains How Dementia Unravels Memory Formation. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-11-19-new-biophysical-brain-model-explains-how-dementia-unravels-memory-form-d3ba6f9d/",
         "media_status": "ready_for_mpt"
       },
       "youtube": {
-        "title": "Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase",
-        "description": "From Agewell Brief: Nuclear Protein Acinus Drives Autophagy through Rab32 and Lrrk Kinase. When proteostasis stress forces nuclear protein Acinus into the cytoplasm, it bypasses mTOR to ignite a distinct autophagic pathway dependent on Rab32 and Lrrk. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-18-nuclear-protein-acinus-drives-autophagy-through-rab32-and-lrrk-kinase-52a07d8a/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "title": "New Biophysical Brain Model Explains How Dementia Unravels Memory Formation",
+        "description": "From Agewell Brief: New Biophysical Brain Model Explains How Dementia Unravels Memory Formation. A newly published theoretical framework reveals how systemic failures in neural network synchronization disrupt memory encoding, offering fresh insight into the physical origins of Alzheimer’s disease. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-19-new-biophysical-brain-model-explains-how-dementia-unravels-memory-form-d3ba6f9d/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
         "media_status": "ready_for_mpt"
       }
     }

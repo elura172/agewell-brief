@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "behavioral lifestyle association",
+      "reason": "Routine daily scheduling reducing pain and depression despite insomnia is interesting, but it relies on broad lifestyle advice rather than a newly uncovered molecular or cellular mechanism.",
+      "angle": "Why a rigid daily schedule acts as an anchor for the circadian clock when sleep fails.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "observational sleep window",
+      "reason": "Rehashing the standard epidemiologic sweet spot for sleep duration offers no new mechanism or surprising twist.",
+      "angle": "Chasing the elusive golden window of nightly rest.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "review paper",
+      "reason": "Broad frontier review connecting redox metabolism, sleep, and aging without a novel experimental anchor or distinct breakthrough.",
+      "angle": "How the cellular redox engine synchronizes with nightly downtime.",
+      "mode": "agent"
+    },
+    "d3ba6f9d10e969a610e70f23": {
+      "score": 55,
+      "decision": "hold",
+      "novelty_type": "theoretical neuroscience framework",
+      "reason": "A computational brain model linking memory formation breakdowns to early dementia offers a fresh structural perspective, but leans heavily toward theoretical framing.",
+      "angle": "Redrawing the map of memory: how structural failures in recall hint at preclinical dementia.",
+      "mode": "agent"
+    },
+    "acbb39f93a6315f01e2c9359": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "computational neuroscience model",
+      "reason": "Theoretical preprint on working memory architecture (MemGP) using probabilistic inference; too technical and abstract for general aging audiences.",
+      "angle": "Unifying working memory under a single statistical inference engine.",
+      "mode": "agent"
+    },
+    "a11502ad6b11c43db892f38a": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "methodological neuroimaging algorithm",
+      "reason": "A methodological paper introducing a multimodal fusion algorithm for incomplete neuroimaging cohorts. Lacks immediate clinical or biological takeaway for readers.",
+      "angle": "Filling the gaps in neuroimaging data without imputation.",
+      "mode": "agent"
+    },
+    "7e664e057a290c36615b0722": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "narrative literature review",
+      "reason": "Critical narrative review of traditional Chinese medicine preparations for sarcopenia. Mostly highlights methodological gaps and treatment-marker associations rather than a definitive breakthrough.",
+      "angle": "Weighing the preclinical evidence for botanical anti-sarcopenia therapies.",
+      "mode": "agent"
+    },
+    "2beb92ec2e8851b24c8a89de": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "generic consumer advice",
+      "reason": "Standard guidance on anti-aging supplements with no novel regulatory warning or chemical discovery.",
+      "angle": "Navigating the hype of longevity shelf products.",
+      "mode": "agent"
+    },
+    "e3965b7d982937d70c900ee5": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "epidemiological association",
+      "reason": "Links circadian disturbances to frailty risk, but functions as a broad reminder rather than a newly mapped cellular pathway.",
+      "angle": "How circadian friction accelerates physical frailty.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "0b7d57db98938147adfb915a",
+    "d3ba6f9d10e969a610e70f23",
+    "acbb39f93a6315f01e2c9359",
+    "a11502ad6b11c43db892f38a",
+    "7e664e057a290c36615b0722",
+    "2beb92ec2e8851b24c8a89de",
+    "e3965b7d982937d70c900ee5"
+  ],
+  "mode": "agent",
+  "rescue": "No candidate cleared the novelty threshold; retained the strongest available story."
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "d3ba6f9d10e969a610e70f23",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "50ff5aaa9ba9eb69",
+        "source": "Dr. Michael Levin (2012) — The Bioelectric Morphogenetic Code & Anatomical Homeostasis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      },
+      {
+        "source_id": "0ab8467caacde078",
+        "source": "Dr. Mae-Wan Ho (1993) — The Rainbow and the Worm: The Physics of Organisms & Living Rainbow H2O",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 13
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
