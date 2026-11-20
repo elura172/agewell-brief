@@ -15,6 +15,16 @@ frameworks: ['Higher Flame', 'Inner Garden', 'Luminous Mind']
 autoresearch_antecedents: [{"scientist": "John F. Cryan and Ted Dinan", "year": "2010s", "discovery": "Coined the term 'psychobiotics' and demonstrated that gut microbiota communicate bidirectionally with the brain via the vagus nerve, immune signaling, and microbial metabolites, establishing the gut-brain axis as a key mediator of stress, mood, and circadian-related physiology."}, {"scientist": "Michael Rosbash, Jeffrey C. Hall, and Michael W. Young", "year": "2017", "discovery": "Awarded the Nobel Prize for their discovery of the molecular mechanisms controlling the circadian clock, including the role of clock genes (e.g., Per, Tim) in peripheral tissues such as the gut, which are entrained by feeding and light, providing the framework for understanding how jet lag disrupts gut microbial rhythms."}]
 ancestral_insight: "Traditional hunter-gatherer and agrarian lifestyles were tightly coupled to natural light-dark cycles and seasonal food availability, which likely maintained stable gut microbial rhythms. Practices such as time-restricted eating (eating only during daylight hours) and consuming fermented foods rich in probiotics and prebiotics (e.g., kimchi, kefir, and cultured vegetables) would have supported microbial resilience against circadian disruptions. The physical mechanism is that these practices reinforce the host's circadian clock and provide substrates for beneficial bacteria that produce short-chain fatty acids, which help regulate intestinal barrier integrity and immune function, thereby mitigating the effects of travel-induced jet lag on the gut."
 evidence_position: "emerging"
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-383365b2"
+image: "/images/editions/2026-08-02/2026-08-02-your-gut-can-get-jet-lag-too-how-not-to-waste-the-first-days-of-your-v-383365b2-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a phase-shifted solar circadian astrolabe arc above an undulating intestinal epithelial and microbial wave that slips out of phase during trans-meridian transit before re-synchronizing on the right."
+image_caption: "Plate — Trans-meridian phase shifts desynchronize peripheral gut-microbiome diurnal oscillations from central circadian clocks until timed light and feeding cues restore alignment."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Long flights disrupt more than sleep—your gut bacteria may also feel the time change, leading to fatigue and digestive issues.

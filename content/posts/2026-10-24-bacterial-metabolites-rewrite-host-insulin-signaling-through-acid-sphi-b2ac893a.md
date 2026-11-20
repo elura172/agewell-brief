@@ -15,6 +15,16 @@ evidence_position: "emerging"
 topics: ['gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Otto Warburg", "year": "1924", "discovery": "Discovered the iron-porphyrin respiratory enzyme (cytochrome oxidase) and demonstrated that cellular differentiation and longevity depend on intact mitochondrial oxygen respiration rather than glycolytic fermentation. (The Metabolism of Tumours & Cytochrome Oxygen Respiration)"}, {"scientist": "Luc Montagnier", "year": "2011", "discovery": "Reported that specific bacterial and viral DNA sequences induce coherent aqueous nanostructures capable of emitting low-frequency electromagnetic signals when excited by ambient background fields. (Low-Frequency Electromagnetic Signals in Aqueous DNA Nanostructures)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-b2ac893a"
+image: "/images/editions/2026-10-24/2026-10-24-bacterial-metabolites-rewrite-host-insulin-signaling-through-acid-sphi-b2ac893a-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a geometric metabolic relay where bacterial pyruvate rings convert across a lipid membrane into acid sphingomyelinase cleavage shears that modulate a transmembrane insulin-receptor gate."
+image_caption: "Plate — Shifts in microbial pyruvate metabolism induce host acid sphingomyelinase to remodel membrane sphingolipids and recalibrate insulin-receptor signaling."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 By altering bacterial pyruvate metabolism, dietary sugar shifts host lifespan and development in C. elegans through a single sphingomyelin enzyme.

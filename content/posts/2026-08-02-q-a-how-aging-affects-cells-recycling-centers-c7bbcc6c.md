@@ -1,8 +1,12 @@
 ---
 title: "How the cell's recycling hubs falter with age"
+description: "Lysosomes, the cell's recycling hubs, play a foundational role in clearing damaged proteins and preventing age-related neurodegenerative diseases."
 date: 2026-08-02T07:25:42.491122+00:00
 draft: false
 category: "longevity"
+content_type: "signal"
+edition_rank: 3
+edition_id: "2026-08-02"
 source_url: "https://medicalxpress.com/news/2026-07-qa-aging-affects-cells-recycling.html"
 source_title: "Q&A: How aging affects cells' recycling centers"
 source_name: "Medical Xpress Healthy Aging"

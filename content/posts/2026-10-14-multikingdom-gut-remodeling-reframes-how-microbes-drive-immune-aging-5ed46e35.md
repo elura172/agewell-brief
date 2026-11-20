@@ -15,6 +15,16 @@ evidence_position: "established"
 topics: ['gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Luc Montagnier", "year": "2011", "discovery": "Reported that specific bacterial and viral DNA sequences induce coherent aqueous nanostructures capable of emitting low-frequency electromagnetic signals when excited by ambient background fields. (Low-Frequency Electromagnetic Signals in Aqueous DNA Nanostructures)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-5ed46e35"
+image: "/images/editions/2026-10-14/2026-10-14-multikingdom-gut-remodeling-reframes-how-microbes-drive-immune-aging-5ed46e35-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of an interlocking tri-kingdom ecological tessellation of bacterial rods, branching fungal mycelia, and icosahedral bacteriophages exchanging bidirectional signaling vectors across an Inner Garden mucosal barrier."
+image_caption: "Plate — Reciprocal signaling across bacterial, fungal, and bacteriophage kingdoms reshapes mucosal immunity and intestinal barrier integrity across the aging lifespan."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Immune aging and gut microbial shifts engage in a reciprocal dialogue across bacteria, fungi, and viruses, moving science past simplistic notions of dysbiosis.

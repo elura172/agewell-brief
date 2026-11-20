@@ -1,8 +1,12 @@
 ---
 title: "Brain's Immune System Changes at Midlife, NIH Study Finds"
+description: "New research suggests a major shift in brain immunity around middle age, which may be linked to cognitive decline and dementia risk."
 date: 2026-08-02T07:25:38.220408+00:00
 draft: false
 category: "brain health"
+content_type: "signal"
+edition_rank: 2
+edition_id: "2026-08-02"
 source_url: "https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul"
 source_title: "Brain immunity may undergo a major midlife overhaul"
 source_name: "NIH News Releases"

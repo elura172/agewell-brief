@@ -11,6 +11,8 @@ source_url: "https://medicalxpress.com/news/2026-11-brain-explanation-memory-for
 source_title: "Brain model offers new explanation for memory formation and how dementia disrupts it"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
+autoresearch_antecedents: [{"scientist": "Herbert Fröhlich", "year": "1968", "discovery": "Demonstrated theoretically that when metabolic energy pumps dielectric cell membranes above a critical threshold, longitudinal electric dipoles condense into a single phase-locked coherent vibrational mode across long distances."}, {"scientist": "Mae-Wan Ho", "year": "1993", "discovery": "Established that living tissues operate as quantum-coherent liquid-crystalline matrices where mitochondrial bioenergetics sustain zero-dissipation electromagnetic synchronization across cells."}]
+evidence_position: "emerging"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
 image_provider: "Agewell Visual Desk"

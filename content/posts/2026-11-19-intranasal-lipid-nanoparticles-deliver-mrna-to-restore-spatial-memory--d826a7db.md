@@ -11,6 +11,8 @@ source_url: "https://medicalxpress.com/news/2026-11-algernon-experimental-nose-m
 source_title: "Inspired by 'Flowers for Algernon,' experimental nose drops improve memory in mice"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
+autoresearch_antecedents: [{"scientist": "Rita Levi-Montalcini", "year": "1952", "discovery": "Discovered nerve growth factor (NGF) and founded the neurotrophin doctrine, demonstrating that neurons depend on continuous trophic protein signaling such as BDNF for synaptic plasticity, survival, and memory consolidation."}, {"scientist": "Pieter Cullis", "year": "1990s", "discovery": "Pioneered ionizable cationic lipid nanoparticles capable of encapsulating fragile nucleic acids and fusing with endosomal membranes to release intact messenger RNA inside target cells."}]
+evidence_position: "emerging"
 topics: ['brain health', 'cellular senescence']
 frameworks: ['Cell Shedding', 'Luminous Mind']
 image_provider: "Agewell Visual Desk"

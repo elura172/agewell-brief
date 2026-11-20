@@ -569,6 +569,74 @@ def spiral_quota_adjustment(
     return adjustment
 
 
+_DEDUP_STOPWORDS = {
+    "about", "after", "again", "aging", "ageing", "adults", "also", "been", "being",
+    "between", "brain", "cells", "cellular", "could", "disease", "does", "early",
+    "find", "finds", "found", "from", "have", "health", "healthy", "help", "human",
+    "into", "linked", "may", "mice", "model", "more", "most", "new", "older",
+    "other", "over", "people", "research", "researchers", "reveals", "risk", "scientists",
+    "show", "shows", "study", "that", "their", "there", "these", "they", "this",
+    "through", "under", "what", "when", "where", "which", "while", "with", "would",
+}
+
+
+def _dedup_tokens(text: str) -> set[str]:
+    return {
+        tok
+        for tok in re.findall(r"[a-z0-9]{3,}", text.lower())
+        if tok not in _DEDUP_STOPWORDS
+    }
+
+
+def _recent_archive_entries_for_dedup(output_dir: Path | None = None, window: int = 30) -> list[dict[str, Any]]:
+    posts_dir = output_dir or OUTPUT_DIR
+    if not posts_dir.exists():
+        return []
+    files = sorted(posts_dir.glob("*.md"))[-window:]
+    entries: list[dict[str, Any]] = []
+    for path in files:
+        try:
+            text = path.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        m_title = re.search(r'^title:\s*"([^"]+)"', text, re.MULTILINE)
+        m_src_title = re.search(r'^source_title:\s*"([^"]+)"', text, re.MULTILINE)
+        m_desc = re.search(r'^description:\s*"([^"]+)"', text, re.MULTILINE)
+        m_url = re.search(r'^source_url:\s*"([^"]+)"', text, re.MULTILINE)
+        title = m_title.group(1) if m_title else path.stem
+        src_title = m_src_title.group(1) if m_src_title else ""
+        desc = m_desc.group(1) if m_desc else ""
+        url = m_url.group(1) if m_url else ""
+        entries.append(
+            {
+                "url": normalize_source_url(url) if url else "",
+                "title_tokens": _dedup_tokens(f"{title} {src_title}"),
+                "full_tokens": _dedup_tokens(f"{title} {src_title} {desc}"),
+            }
+        )
+    return entries
+
+
+def _is_duplicate_of_recent_archive(item: FeedItem, archive_entries: list[dict[str, Any]]) -> bool:
+    if not archive_entries:
+        return False
+    norm_link = normalize_source_url(item.link)
+    item_title_tokens = _dedup_tokens(item.title)
+    item_full_tokens = _dedup_tokens(f"{item.title} {item.summary}")
+    for entry in archive_entries:
+        if norm_link and entry["url"] and norm_link == entry["url"]:
+            return True
+        t_inter = len(item_title_tokens & entry["title_tokens"])
+        t_union = len(item_title_tokens | entry["title_tokens"])
+        if t_inter >= 3 and t_union > 0 and (t_inter / t_union) >= 0.42:
+            return True
+        f_inter = len(item_full_tokens & entry["full_tokens"])
+        f_union = len(item_full_tokens | entry["full_tokens"])
+        if f_inter >= 4 and f_union > 0 and (f_inter / f_union) >= 0.36:
+            return True
+    return False
+
+
 def select_ranked_items(
     candidates: list[FeedItem],
     limit: int | None = None,
@@ -577,8 +645,11 @@ def select_ranked_items(
 ) -> list[FeedItem]:
     """Deduplicate and rank stories while keeping each batch source- and Spiral-diverse."""
     target_count = limit if limit is not None else MAX_ITEMS
+    archive_dedup_entries = _recent_archive_entries_for_dedup(output_dir=output_dir)
     best_by_title: dict[str, FeedItem] = {}
     for item in candidates:
+        if _is_duplicate_of_recent_archive(item, archive_dedup_entries):
+            continue
         key = normalized_title(item.title)
         current = best_by_title.get(key)
         if current is None or relevance_score(item) > relevance_score(current):

@@ -15,6 +15,16 @@ evidence_position: "established"
 topics: ['cellular senescence', 'consumer safety', 'gut health', 'metabolic health']
 frameworks: ['Cell Shedding', 'Dark Mirror', 'Higher Flame', 'Inner Garden']
 autoresearch_antecedents: [{"scientist": "Luc Montagnier", "year": "2011", "discovery": "Reported that specific bacterial and viral DNA sequences induce coherent aqueous nanostructures capable of emitting low-frequency electromagnetic signals when excited by ambient background fields. (Low-Frequency Electromagnetic Signals in Aqueous DNA Nanostructures)"}, {"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-cc646742"
+image: "/images/editions/2026-08-29/2026-08-29-how-gut-microbes-drive-immune-and-metabolic-failure-in-spinal-discs-cc646742-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a left-to-right gut-disc axis where a breached intestinal tight-junction palisade releases inflammatory metabolite vectors along vascular arcs into a layered intervertebral spinal disc annulus and nucleus pulposus lattice."
+image_caption: "Plate — Microbial metabolites and inflammatory cytokines crossing a permeable intestinal barrier travel via systemic circulation to remodel and degrade the avascular intervertebral disc matrix."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A newly mapped gut-disc axis reveals how microbial metabolites and systemic inflammation reshape the spinal microenvironment to accelerate disc degeneration.

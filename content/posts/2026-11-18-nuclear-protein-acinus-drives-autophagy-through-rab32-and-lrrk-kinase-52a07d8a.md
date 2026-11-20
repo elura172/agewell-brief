@@ -11,6 +11,8 @@ source_url: "https://www.biorxiv.org/content/10.64898/2026.11.16.767156v1?rss=1"
 source_title: "Autophagy induction by cytoplasmic Acinus requires Lrrk activity"
 source_name: "bioRxiv immunology and cell biology"
 spiral: "Cell Shedding"
+autoresearch_antecedents: [{"scientist": "Yoshinori Ohsumi", "year": "1993", "discovery": "Isolated the core autophagy-related (ATG) genes in yeast, mapping the conserved vesicular machinery that cells use to engulf and recycle damaged cytoplasmic organelles during metabolic or proteotoxic stress."}, {"scientist": "Christian de Duve", "year": "1955", "discovery": "Discovered the lysosome and coined the term autophagy, establishing how intracellular digestive compartments clear misfolded protein aggregates to preserve cellular longevity."}]
+evidence_position: "emerging"
 topics: ['brain health', 'cellular senescence', 'longevity']
 frameworks: ['Cell Shedding', 'Living Waters', 'Luminous Mind']
 image_provider: "Agewell Visual Desk"

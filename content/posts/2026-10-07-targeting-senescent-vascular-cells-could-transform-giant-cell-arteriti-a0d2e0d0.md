@@ -15,6 +15,16 @@ evidence_position: "established"
 topics: ['cellular senescence', 'longevity', 'mobility']
 frameworks: ['Cell Shedding', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Robert O. Becker", "year": "1985", "discovery": "Mapped the perineural glial and Schwann-cell direct-current control system that generates measurable currents of injury, guiding cellular dedifferentiation, bone piezoelectric remodeling, and tissue regeneration. (The Body Electric: Electromagnetism and the Foundation of Life)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-a0d2e0d0"
+image: "/images/editions/2026-10-07/2026-10-07-targeting-senescent-vascular-cells-could-transform-giant-cell-arteriti-a0d2e0d0-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a large-vessel arterial wall cross-section where stippled senescent cells emitting radial SASP interference rings are cleared on the right by a precision senolytic vector restoring laminar lumen flow."
+image_caption: "Plate — Senescent endothelial and smooth-muscle cells in inflamed arterial walls broadcast tissue-damaging SASP signals that targeted senolytic clearance silences."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Senescent cells accumulate in inflamed arteries, driving tissue damage through secretory profiles that current anti-inflammatory drugs leave unaddressed.

@@ -14,6 +14,16 @@ autoresearch_antecedents: [{"scientist": "George Emil Palade", "year": "1953", "
 evidence_position: "emerging"
 topics: ['detoxification', 'gut health', 'longevity', 'metabolic health']
 frameworks: ['Dark Mirror', 'Higher Flame', 'Inner Garden', 'Living Waters']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-d60b16f0"
+image: "/images/editions/2026-08-10/historical-2025-urolithin-a-restores-calcium-driven-organelle-crosstalk-to-trigger-mit-d60b16f0-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a triadic organelle circuit linking folded endoplasmic reticulum sheets, a cristae-lined mitochondrion, and a spherical lysosome via saffron calcium-spark vectors alongside a Dark Mirror octagonal zeolite lattice."
+image_caption: "Plate — Urolithin A reopens calcium-spark signaling across endoplasmic reticulum, mitochondrial, and lysosomal junctions to reactivate selective mitophagy."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A gut metabolite reopens ER–mitochondria–lysosome communication via calcium sparks, reviving mitochondrial quality control and extending healthspan in worms and human cells.

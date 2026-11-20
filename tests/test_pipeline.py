@@ -1441,3 +1441,34 @@ def test_auto_publish_holds_draft_when_lithograph_is_missing(monkeypatch, tmp_pa
     assert pipeline.run() == 0
     post_text = next((tmp_path / "posts").glob("*.md")).read_text(encoding="utf-8")
     assert "draft: true" in post_text
+
+
+def test_cross_outlet_jaccard_deduplication_filters_already_covered_study(tmp_path: Path):
+    posts_dir = tmp_path / "posts"
+    posts_dir.mkdir(parents=True, exist_ok=True)
+    (posts_dir / "2026-11-15-mit-scientists-find-aging-stalls-the-fluid-waves-clearing-brain-waste-86c553fa.md").write_text(
+        '---\ntitle: "MIT Scientists Find Aging Stalls the Fluid Waves Clearing Brain Waste"\n'
+        'description: "Rhythmic waves of fluid that flush metabolic debris out of neural tissue during sleep decay with age."\n'
+        'source_url: "https://medicalxpress.com/news/2026-11-brain-impaired-older-adults.html"\n'
+        'source_title: "Waves that clear waste from the brain during sleep are impaired in older adults"\n---\nBody.\n',
+        encoding="utf-8",
+    )
+
+    dup_sciencedaily = FeedItem(
+        "MIT discovers that aging weakens the brain's nighttime fluid waves clearing waste",
+        "Deep-sleep cerebrospinal fluid waves that flush metabolic debris weaken in older adults.",
+        "https://www.sciencedaily.com/releases/2026/11/261114202137.htm",
+        "",
+        "ScienceDaily Healthy Aging",
+        5,
+    )
+    fresh_study = FeedItem(
+        "Urolithin A restores mitochondrial mitophagy in aged skeletal muscle",
+        "A randomized clinical trial of urolithin A in older adults.",
+        "https://pubmed.test/urolithin",
+        "",
+        "PubMed",
+        5,
+    )
+    selected = select_ranked_items([dup_sciencedaily, fresh_study], limit=2, output_dir=posts_dir)
+    assert [item.link for item in selected] == ["https://pubmed.test/urolithin"]

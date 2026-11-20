@@ -14,6 +14,16 @@ autoresearch_antecedents: [{"scientist": "Denham Harman", "year": "1956", "disco
 evidence_position: "emerging"
 topics: ['longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-a0730b6c"
+image: "/images/editions/2026-08-10/historical-2025-aging-is-a-networked-failure-mitochondria-circadian-clocks-and-oxygen--a0730b6c-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a tri-axial Bauhaus systems diagram uniting a folded mitochondrial cristae turbine, a 24-division circadian astrolabe wheel, and a branching microvascular oxygen network into a central phase-locked resonance hub."
+image_caption: "Plate — Mitochondrial bioenergetics, circadian transcriptional clocks, and microvascular oxygen delivery operate as a coupled tri-axial network whose desynchronization drives systemic aging."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new special issue reframes aging as a multi-system process driven by shared mechanisms—mitochondrial dysfunction, circadian disruption, hypoxia, and inter-organ signaling—with vascular and immune shifts as upstream drivers.

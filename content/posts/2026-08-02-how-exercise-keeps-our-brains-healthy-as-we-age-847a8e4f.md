@@ -1,8 +1,12 @@
 ---
 title: "More evidence tied physical activity to lower dementia risk"
+description: "New research from Victoria University adds to evidence that physical activity helps protect against dementia and Alzheimer's."
 date: 2026-08-02T07:25:33.779985+00:00
 draft: false
 category: "brain health"
+content_type: "signal"
+edition_rank: 2
+edition_id: "2026-08-02"
 source_url: "https://medicalxpress.com/news/2026-07-brains-healthy-age.html"
 source_title: "How exercise keeps our brains healthy as we age"
 source_name: "Medical Xpress Sleep"

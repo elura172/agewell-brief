@@ -15,6 +15,16 @@ evidence_position: "established"
 topics: ['longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Erwin Schrödinger", "year": "1944", "discovery": "Proposed that living organisms evade thermodynamic decay into equilibrium by continuously extracting 'negative entropy' (free energy order) from their environment and exporting thermal entropy. (What Is Life? The Physical Aspect of the Living Cell)"}, {"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-c71806bb"
+image: "/images/editions/2026-09-06/2026-09-06-bridging-nephrology-and-vascular-biology-to-redefine-systemic-frailty-c71806bb-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a coupled hydraulic architecture linking a renal glomerular filtration coil on the left to a branching arterial elastic lamina conduit on the right with Living Waters hexagonal water lattices."
+image_caption: "Plate — Renal microvascular filtration decline and arterial elastic-lamina stiffening form a coupled hemodynamic loop that accelerates systemic physiological frailty."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A new framework links chronic kidney disease to accelerated vascular aging, uniting structural remodeling with conventional frailty models to explain systemic vulnerability.

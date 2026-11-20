@@ -15,6 +15,16 @@ evidence_position: "emerging"
 topics: ['consumer safety', 'detoxification']
 frameworks: ['Dark Mirror']
 autoresearch_antecedents: [{"scientist": "Vlail Kaznacheev", "year": "1976", "discovery": "Demonstrated across thousands of hermetically sealed twin cell-culture experiments that cellular stress and viral or toxic injury signals pass through quartz windows (transparent to UV biophotons) but are blocked by ordinary silica glass. (The Cytopathic Mirror Effect & Optical Intercellular Transfer)"}, {"scientist": "Hans Selye", "year": "1956", "discovery": "Defined biological stress and the three-stage General Adaptation Syndrome (alarm, resistance, exhaustion), demonstrating that chronic unrecovered sympathetic activation depletes neuroendocrine adaptation reserves and damages mucosal and vascular tissues. (The Stress of Life & General Adaptation Syndrome)"}]
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-8c2178ae"
+image: "/images/editions/2026-08-29/2026-08-29-neonatal-meconium-reveals-widespread-microplastics-and-toxic-metals-in-8c2178ae-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a placental-fetal barrier lattice infiltrated by angular synthetic polymer shards and dense heavy-metal spheres intercepted inside a geometric Dark Mirror zeolite chelation matrix."
+image_caption: "Plate — Angular microplastic polymer shards and heavy-metal ions traverse the placental barrier into neonatal meconium, highlighting prenatal xenobiotic exposure."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A biomonitoring study of urban South Asian newborns detects synthetic polymer fragments and heavy metals inside initial meconium samples.
