@@ -2,7 +2,7 @@
 title: "Microglia Shift Lysosomal Machinery to Protect Neurons From Degenerative Damage"
 description: "Striking the CSF1R receptor to clear disease-associated microglia accelerates neuronal death, proving these immune cells deploy a GPNMB protein network to digest toxic brain debris."
 date: 2026-11-20T20:58:51.907900+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 2
@@ -15,6 +15,16 @@ autoresearch_antecedents: [{"scientist": "Michael Levin", "year": "2012", "disco
 evidence_position: "emerging"
 topics: ['brain health', 'metabolic health']
 frameworks: ['Higher Flame', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-4168314a"
+image: "/images/editions/2026-11-20/2026-11-20-microglia-shift-lysosomal-machinery-to-protect-neurons-from-degenerati-4168314a-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing a disease-associated microglial cell engaging transmembrane TREM2 receptors to drive intracellular GPNMB lysosomal biogenesis and autolysosome gear wheels that clear lipid debris and shield an adjacent myelinated neuron."
+image_caption: "Plate — Activated TREM2 receptors on disease-associated microglia trigger a GPNMB-anchored lysosomal biogenesis and lipid-clearance circuit that shields adjacent neurons from organelle decay."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Striking the CSF1R receptor to clear disease-associated microglia accelerates neuronal death, proving these immune cells deploy a GPNMB protein network to digest toxic brain debris.
