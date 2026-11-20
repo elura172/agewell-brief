@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T00:01:43.731595+00:00",
+  "generated_at": "2026-11-20T15:32:08.157265+00:00",
   "article": {
     "article": "2026-11-20-overtraining-keeps-mouse-hippocampal-dopamine-elevated-two-days-after--2e3b93ae",
     "url": "https://agewellbrief.com/brief/2026-11-20-overtraining-keeps-mouse-hippocampal-dopamine-elevated-two-days-after--2e3b93ae/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 3,
+      "reader_visits": 12
+    },
     "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm",
     "content_record": {
       "article_id": "2026-11-20-overtraining-keeps-mouse-hippocampal-dopamine-elevated-two-days-after--2e3b93ae",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Overtraining Keeps Mouse Hippocampal Dopamine Elevated Two Days After Exercise Ends. Exhaustive exercise disrupts dopamine clearance in the mouse hippocampus, locking wakefulness-promoting enzymes into overdrive long after physical exertion stops. Dedicated athletes often encounter a frustrating physical contradiction. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm",
-      "trend": null,
+      "trend": {
+        "rank": 3,
+        "reader_visits": 12
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",

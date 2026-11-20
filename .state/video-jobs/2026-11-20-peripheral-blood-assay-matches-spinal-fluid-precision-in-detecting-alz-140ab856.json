@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Peripheral blood assay matches spinal fluid precision in detecting Alzheimer's pathology. Lund University researchers show circulating blood biomarkers detect brain protein aggregates as accurately as invasive spinal taps, streamlining early clinical diagnosis. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://medicalxpress.com/news/2026-11-blood-invasive-alzheimer-disease.html",
-  "trend": null,
+  "trend": {
+    "rank": 4,
+    "reader_visits": 12
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#C98B3B",
   "stroke_color": "#181A1B",

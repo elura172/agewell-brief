@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice. University of Sydney researchers engineered lipid-encapsulated mRNA nose drops that travel through nasal pathways to reverse spatial memory deficits and shield transgenic mice from Alzheimer's pathology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://medicalxpress.com/news/2026-11-algernon-experimental-nose-memory-mice.html",
-  "trend": null,
+  "trend": {
+    "rank": 1,
+    "reader_visits": 15
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#C98B3B",
   "stroke_color": "#181A1B",
