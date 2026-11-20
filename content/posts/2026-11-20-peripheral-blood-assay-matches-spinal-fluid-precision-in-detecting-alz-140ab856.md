@@ -5,14 +5,26 @@ date: 2026-11-20T03:50:55.060381+00:00
 draft: false
 category: "brain health"
 content_type: "signal"
-edition_rank: 2
+edition_rank: 1
 edition_id: "2026-11-20"
 source_url: "https://medicalxpress.com/news/2026-11-blood-invasive-alzheimer-disease.html"
 source_title: "Improved blood test offers less invasive way to detect Alzheimer's disease"
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Luminous Mind"
+autoresearch_antecedents: [{"scientist": "Maiken Nedergaard", "year": "2012", "discovery": "Discovered the brain's glymphatic system, demonstrating how cerebrospinal fluid flushes amyloid and tau protein aggregates out of brain parenchyma into perivascular and peripheral venous circulation."}, {"scientist": "George Glenner and Caine Wong", "year": "1984", "discovery": "Purified and sequenced the cerebrovascular amyloid beta peptide from Alzheimer's brain tissue, establishing the molecular fingerprint that modern cerebrospinal fluid and plasma biomarker assays detect."}]
+evidence_position: "established"
 topics: ['brain health', 'longevity']
 frameworks: ['Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-140ab856"
+image: "/images/editions/2026-11-20/2026-11-20-peripheral-blood-assay-matches-spinal-fluid-precision-in-detecting-alz-140ab856-lithograph.webp"
+image_alt: "A Post-Constructivist scientific lithograph showing a split-field micro-architectural diagram comparing an upper cerebral capillary endothelial barrier filtering neural peptide fragments into laminar peripheral blood flow against a lower vertical cerebrospinal fluid column, feeding two parallel calibrated optical assay rings with identical molecular polygon signatures alongside a Luminous Mind geodesic cranial astrolabe arc."
+image_caption: "Plate — Misfolded neural peptide fragments crossing the cerebral capillary barrier into peripheral plasma yield the same quantitative assay signature as invasive lumbar cerebrospinal fluid sampling."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Lund University researchers show circulating blood biomarkers detect brain protein aggregates as accurately as invasive spinal taps, streamlining early clinical diagnosis.
