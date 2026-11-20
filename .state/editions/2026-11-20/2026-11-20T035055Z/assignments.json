@@ -1,0 +1,18 @@
+{
+  "edition_angle": "Advancements in non-invasive diagnostics for neurodegenerative disorders, focusing on accessible plasma biomarkers for Alzheimer's disease.",
+  "assignments": [
+    {
+      "article_id": "140ab85608ffd1c91d36e41c",
+      "role": "lead",
+      "angle": "High-accuracy blood tests validated in Nature Aging offer a clinically viable, non-invasive alternative to lumbar punctures for early Alzheimer's detection.",
+      "confidence": 0.95,
+      "reason": "This study from Lund University published in Nature Aging provides strong, peer-reviewed human clinical evidence validating a non-invasive plasma test against standard CSF diagnostics, making it highly actionable and directly relevant to healthy aging and brain health."
+    }
+  ],
+  "held_back": [
+    "6cdd4a0d0dbe11a8c49ea9a0",
+    "3a920d308bee43fc16371c61",
+    "e8c72c931a6031cef21b46e5"
+  ],
+  "mode": "agent"
+}

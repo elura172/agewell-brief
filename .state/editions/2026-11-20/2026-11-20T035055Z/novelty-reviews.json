@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 32,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle observation",
+      "reason": "Observational evidence that consistent daily routines lower pain and depression in older adults is intuitive and recycled daily advice, lacking a specific biological mechanism or actionable breakthrough.",
+      "angle": "Why daily behavioral consistency buffers against physical pain perception during sleep disruption.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "recycled epidemiological benchmark",
+      "reason": "The 7-to-8-hour sleep duration target for healthspan is a ubiquitous lifestyle guideline without new mechanism or actionable novelty.",
+      "angle": "What the specific 6.4–7.8 hour window reveals about circadian maintenance in aging.",
+      "mode": "agent"
+    },
+    "6cdd4a0d0dbe11a8c49ea9a0": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "frontier technology",
+      "reason": "Develops a generative model (PSG-GAN) capable of multi-signal synthetic data generation that models complex inter-signal dynamics (like heart rate changes during sleep apnea), addressing high patient privacy hurdles in sleep disorder AI.",
+      "angle": "How AI-generated multi-signal synthetic sleep data can train diagnostic models without exposing sensitive patient health records.",
+      "mode": "agent"
+    },
+    "b64a41ad335859fbaab7a7cb": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "preclinical herbal formula analysis",
+      "reason": "Explores a complex Traditional Chinese Medicine formula (FBR2) in a bleomycin mouse model. While identifying NMDAR-associated ferroptosis pathways is interesting, herbal multi-extract animal studies face high translational hurdles and lack clear clinical novelty.",
+      "angle": "How targeting NMDAR signaling and ferroptosis attenuates bleomycin-induced lung scar tissue in mice.",
+      "mode": "agent"
+    },
+    "0b7d57db98938147adfb915a": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "broad review article",
+      "reason": "Very broad thematic review connecting sleep, redox metabolism, and brain aging without presenting a novel primary empirical discovery.",
+      "angle": "How redox metabolism bridges the gap between fragmented sleep and cellular senescence in the aging brain.",
+      "mode": "agent"
+    },
+    "3f5227b51bbeabdd9d46d0ba": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "established scientific review",
+      "reason": "The link between circadian disruption, sleep, and Alzheimer's pathogenesis is well-established core literature with minimal fresh novelty in a general citation.",
+      "angle": "How circadian clock disruption accelerates amyloid clearance failure in Alzheimer's pathogenesis.",
+      "mode": "agent"
+    },
+    "3a920d308bee43fc16371c61": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "multi-omic mechanistic mapping",
+      "reason": "Provides a comprehensive multi-omic mapping (epigenomic, transcriptomic, lipidomic) specifically looking at mouse visceral fat aging, uncovering targeted metabolic remodeling of fat tissue identity.",
+      "angle": "How age-driven lipidomic and epigenomic shifts permanently alter visceral adipocyte identity.",
+      "mode": "agent"
+    },
+    "e8c72c931a6031cef21b46e5": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "translational clinical bridge",
+      "reason": "Demonstrates translational human validation of an anti-aging compound (NMN/NAD+ precursor pathway) improving muscle glucose metabolism, bridging mouse longevity models directly to human clinical physiology.",
+      "angle": "Moving from mice to humans: How targeting NAD+ metabolism improves skeletal muscle glucose handling in people.",
+      "mode": "agent"
+    },
+    "140ab85608ffd1c91d36e41c": {
+      "score": 75,
+      "decision": "commission",
+      "novelty_type": "clinical diagnostic advancement",
+      "reason": "Reports on global regulatory approvals and clinical validation for a highly accurate blood test that matches standard invasive lumbar puncture (CSF) testing for Alzheimer's diagnosis.",
+      "angle": "Replacing spinal taps: How newly approved blood tests achieve lumbar-puncture accuracy for Alzheimer's detection.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "6cdd4a0d0dbe11a8c49ea9a0",
+    "3a920d308bee43fc16371c61",
+    "e8c72c931a6031cef21b46e5",
+    "140ab85608ffd1c91d36e41c"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "b64a41ad335859fbaab7a7cb",
+    "0b7d57db98938147adfb915a",
+    "3f5227b51bbeabdd9d46d0ba"
+  ],
+  "mode": "agent"
+}
