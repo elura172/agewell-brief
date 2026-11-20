@@ -12,7 +12,7 @@ source_title: "Five lifespan-extending treatments boost the same antioxidant in 
 source_name: "Medical Xpress Healthy Aging"
 spiral: "Cell Shedding"
 topics: ['longevity', 'metabolic health']
-frameworks: ['Higher Flame', 'Living Waters']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Emilio Del Giudice", "year": "1988", "discovery": "Applied Quantum Electrodynamics to condensed matter to show that liquid water forms 100-nanometer Coherence Domains where molecules oscillate in phase with a self-trapped electromagnetic field, supplying low-activation-energy electrons for biochemical reactions. (Water Coherence Domains in Quantum Electrodynamics (QED))"}]
 image_provider: "Agewell Visual Desk"
 image_provider_id: "lithograph-a1046b8d"

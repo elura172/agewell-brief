@@ -14,7 +14,7 @@ spiral: "Higher Flame"
 autoresearch_antecedents: [{"scientist": "Van C. Mow", "year": "1980", "discovery": "Formulated the biphasic theory of articular cartilage, demonstrating that dynamic fluid pressurization during cyclical loading protects the extracellular matrix from mechanical wear, providing the physical foundation for therapeutic exercise in joint preservation."}, {"scientist": "Stefan Lohmander", "year": "1994", "discovery": "Discovered that joint trauma causes persistent molecular degradation of cartilage matrix components years after injury, establishing that post-traumatic osteoarthritis is a prolonged inflammatory process rather than simple structural wear."}]
 evidence_position: "established"
 topics: ['mobility']
-frameworks: ['Living Waters']
+frameworks: ['Higher Flame', 'Living Waters']
 image_provider: "Agewell Visual Desk"
 image_provider_id: "lithograph-1e115f10"
 image: "/images/editions/2026-11-14/2026-11-14-targeted-exercise-restores-post-surgical-knees-without-degrading-the-c-1e115f10-lithograph.webp"

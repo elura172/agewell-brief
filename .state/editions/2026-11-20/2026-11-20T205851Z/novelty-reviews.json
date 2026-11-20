@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "insect physiology",
+      "reason": "Examines dietary protein-induced sleep behavior in mosquitoes. While medically relevant to vector control, it lacks direct application to human healthspan, longevity, or age-related biology.",
+      "angle": "How blood meal proteins signal sleep state transitions in vector insects.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "observational correlation",
+      "reason": "Generic lifestyle advice based on observational epidemiological links between reading and reduced dementia risk. Lacks a concrete, tested biological or physiological pathway.",
+      "angle": "Can cognitive engagement through reading physically slow neurodegenerative pathology?",
+      "mode": "agent"
+    },
+    "8ed34ba9f8956d589cf6fdbf": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "empty abstract",
+      "reason": "The abstract content is completely missing from the feed, making it impossible to evaluate the specific novel findings or granular mechanics beyond the title, and recent coverage already touched on sleep-driven CSF flow.",
+      "angle": "Age-dependent attenuation of sleep-bound hemodynamic and cerebrospinal fluid oscillations.",
+      "mode": "agent"
+    },
+    "ffa65550a0aa1a42ce2d5d6c": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "circuit & synaptic mechanism",
+      "reason": "Demonstrates a concrete physiological mechanism using two-photon calcium imaging in a Shank3 knockout model, showing how impaired cortical taste coding flexibility and trial-to-trial correlated variability degrade associative learning.",
+      "angle": "How Shank3 deletion alters gustatory cortex signal-to-noise dynamics to block sensory learning plasticity.",
+      "mode": "agent"
+    },
+    "4168314a67c28ef51c471374": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "cellular mechanism",
+      "reason": "Identifies a specific TREM2-dependent GPNMB-associated lysosomal program in disease-associated microglia (DAM). It provides a key mechanistic insight showing that CSF1R ablation under lysosomal stress unexpectedly accelerates neurodegeneration.",
+      "angle": "When microglial suppression backfires: How the GPNMB lysosomal program protects against neurodegeneration under severe lysosomal stress.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "null cognitive fMRI result",
+      "reason": "Tests the phonological loop's involvement in sentence comprehension under working memory constraints using fMRI, but yields a largely null interaction result without defining a clear new biological pathway.",
+      "angle": "Neural mechanisms of sentence processing under articulatory suppression.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "diagnostic tool validation",
+      "reason": "A clinical diagnostic study combining imaging markers with VR eye-tracking to detect mild cognitive impairment in CSVD patients. Lacks mechanistic basic science or biological pathway exploration.",
+      "angle": "Combining virtual reality eye-tracking with MRI vascular burden markers to detect early vascular cognitive impairment.",
+      "mode": "agent"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "empty news snippet",
+      "reason": "Headline-only stub without summary detail or distinct physiological findings, and overlaps heavily with recent coverage of sleep duration and biological clocks.",
+      "angle": "Sleep duration deviations and their relationship to systemic biological aging markers.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "empty abstract",
+      "reason": "Missing text summary in feed. Moreover, the topic of aging disrupting sleep-driven glymphatic brain fluid flow was covered in recent editorial pieces.",
+      "angle": "Structural and functional breakdown of sleep-dependent brain clearance mechanisms during healthy aging.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "ffa65550a0aa1a42ce2d5d6c",
+    "4168314a67c28ef51c471374"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "8ed34ba9f8956d589cf6fdbf",
+    "2c230304f994b1bd3d12c5d7",
+    "13df9d1212b0143af8213a67",
+    "d1f0483bd285ad49a95ee3e5",
+    "7103411e56536a77aee9e90a"
+  ],
+  "mode": "agent"
+}

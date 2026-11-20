@@ -14,7 +14,7 @@ autoresearch_antecedents: [{"scientist": "George Emil Palade", "year": "1953", "
 ancestral_insight: "Traditional practices of intermittent fasting and caloric restriction, common in ancestral lifestyles, may promote mitochondrial health by modulating stress responses that keep MATOs associated with mitochondria. The preprint shows that starvation causes MATO dissociation, but persistent MATOs extend lifespan, implying that controlled stress (e.g., short-term fasting) might trigger adaptive responses that later enhance mitochondrial maintenance. This parallels the hormesis concept, where mild stress (like fasting) upregulates protective mechanisms, including mitochondrial quality control, which aligns with the observed lifespan extension when MATOs remain mitochondrion-persistent."
 evidence_position: "emerging"
 topics: ['longevity', 'metabolic health']
-frameworks: ['Higher Flame', 'Living Waters']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 ---
 
 In C. elegans, LARP-1 forms liquid droplets that synthesize key mitochondrial proteins on-site. Keeping these droplets attached during aging preserves cristae and ATP, boosting longevity.

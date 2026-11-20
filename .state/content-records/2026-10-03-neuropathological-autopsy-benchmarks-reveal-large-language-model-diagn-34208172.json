@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-20T21:01:13.171688+00:00",
+  "article": {
+    "article": "2026-10-03-neuropathological-autopsy-benchmarks-reveal-large-language-model-diagn-34208172",
+    "url": "https://agewellbrief.com/brief/2026-10-03-neuropathological-autopsy-benchmarks-reveal-large-language-model-diagn-34208172/",
+    "category": "brain health",
+    "trend": null,
+    "source_url": "https://doi.org/10.64898/2026.07.07.26356930",
+    "content_record": {
+      "article_id": "2026-10-03-neuropathological-autopsy-benchmarks-reveal-large-language-model-diagn-34208172",
+      "article_url": "https://agewellbrief.com/brief/2026-10-03-neuropathological-autopsy-benchmarks-reveal-large-language-model-diagn-34208172/",
+      "title": "Neuropathological Autopsy Benchmarks Reveal Large Language Model Diagnostic Competence in Neurology",
+      "category": "brain health",
+      "source_url": "https://doi.org/10.64898/2026.07.07.26356930",
+      "editorial_body": "A new autopsy-backed diagnostic benchmark demonstrates that an artificial intelligence model matches or exceeds specialist human accuracy in resolving complex brain pathology. Neurological diagnosis often falters against the biological complexity of overlapping protein aggregations, insidious vascular occlusions, and subtle inflammatory infiltrates. To establish a rigorous ground truth beyond mere clinical consensus, researchers built NeuroBench, a curated library of 791 retrospective case summaries paired with definitive autopsy findings from three independent medical centers. They tested DIAGNO, a confidence-aware large language model system configured to generate top-three differential diagnoses using retrieval-augmented generation for uncertain presentations. Across the cohorts, the model achieved top-3 accuracies of 83.8 percent for 500 Massachusetts General Hospital cases, 76.5 percent for 200 Mount Sinai cases, and 92.3 percent for 91 University of Texas cases. In a direct head-to-head comparison on 203 complex cases evaluated by blinded human adjudicators, the model surpassed human neurologists, scoring 0.67 versus 0.63 in top-3 accuracy and 0.74 versus 0.67 in broader taxonomic category accuracy. When human specialists and the algorithm disagreed, the machine proved correct in 29 instances, while human experts were right in 19. These findings demonstrate that large language architectures can parse tangled clinical histories and match the pattern-recognition capacities of trained specialists when measured against physical cellular pathology. However, the evaluation relied strictly on retrospective case summaries and a limited real-world physician review, leaving prospective, live clinical implementation untested. NeuroBench incorporates 791 autopsy-confirmed cases spanning cerebrovascular disease, tumors, infections, and neurodegenerative disorders. The algorithm outperformed human neurologists in top-3 and taxonomy-level accuracy on a blinded subset of complex cases. Blinded human adjudicators rated the underlying algorithmic reasoning favorably across multiple dimensions in real-world test cases. Reported from Assessing AI and Neurologist Diagnostic Reasoning Against Neuropathological Ground Truth (medrxiv)."
+    },
+    "mpt_job": {
+      "status": "ready_for_mpt",
+      "subject": "Neuropathological Autopsy Benchmarks Reveal Large Language Model Diagnostic Competence in Neurology",
+      "article_url": "https://agewellbrief.com/brief/2026-10-03-neuropathological-autopsy-benchmarks-reveal-large-language-model-diagn-34208172/",
+      "video_aspect": "9:16",
+      "voice_name": "en-US-AvaNeural",
+      "script": "From Agewell Brief: Neuropathological Autopsy Benchmarks Reveal Large Language Model Diagnostic Competence in Neurology. A new autopsy-backed diagnostic benchmark demonstrates that an artificial intelligence model matches or exceeds specialist human accuracy in resolving complex brain pathology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+      "source_url": "https://doi.org/10.64898/2026.07.07.26356930",
+      "trend": null,
+      "text_fore_color": "#FAF6EE",
+      "highlight_color": "#C98B3B",
+      "stroke_color": "#181A1B",
+      "stroke_width": 2,
+      "font_size": 46,
+      "subtitle_bottom_margin": 210,
+      "max_words_per_line": 4,
+      "active_word_scale": 1.06,
+      "uppercase_keywords": false,
+      "bold_keywords": true,
+      "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
+      "subtitle_bg_padding": 12,
+      "subtitle_glow_enabled": false,
+      "requires_video_qa": false
+    },
+    "facebook": {
+      "title": "Neuropathological Autopsy Benchmarks Reveal Large Language Model Diagnostic Competence in Neurology\n\nA new autopsy-backed diagnostic benchmark demonstrates that an artificial intelligence model matches or exceeds specialist human accuracy in resolving complex brain pathology.",
+      "link_url": "https://agewellbrief.com/brief/2026-10-03-neuropathological-autopsy-benchmarks-reveal-large-language-model-diagn-34208172/"
+    },
+    "tiktok": {
+      "hook": "Neuropathological Autopsy Benchmarks Reveal Large Language Model Diagnostic Competence in Neurology",
+      "script": "From Agewell Brief: Neuropathological Autopsy Benchmarks Reveal Large Language Model Diagnostic Competence in Neurology. A new autopsy-backed diagnostic benchmark demonstrates that an artificial intelligence model matches or exceeds specialist human accuracy in resolving complex brain pathology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+      "caption": "Neuropathological Autopsy Benchmarks Reveal Large Language Model Diagnostic Competence in Neurology. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+      "link_in_bio": "https://agewellbrief.com/brief/2026-10-03-neuropathological-autopsy-benchmarks-reveal-large-language-model-diagn-34208172/",
+      "media_status": "ready_for_mpt"
+    },
+    "youtube": {
+      "title": "Neuropathological Autopsy Benchmarks Reveal Large Language Model Diagnostic Competence in Neuro",
+      "description": "From Agewell Brief: Neuropathological Autopsy Benchmarks Reveal Large Language Model Diagnostic Competence in Neurology. A new autopsy-backed diagnostic benchmark demonstrates that an artificial intelligence model matches or exceeds specialist human accuracy in resolving complex brain pathology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-10-03-neuropathological-autopsy-benchmarks-reveal-large-language-model-diagn-34208172/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+      "media_status": "ready_for_mpt"
+    }
+  },
+  "platforms": {
+    "facebook": {
+      "status": "pending",
+      "request_id": null,
+      "job_id": null,
+      "updated_at": "2026-11-20T21:01:13.171684+00:00"
+    },
+    "tiktok": {
+      "status": "pending",
+      "request_id": null,
+      "job_id": null,
+      "updated_at": "2026-11-20T21:01:13.171685+00:00"
+    },
+    "youtube": {
+      "status": "pending",
+      "request_id": null,
+      "job_id": null,
+      "updated_at": "2026-11-20T21:01:13.171687+00:00"
+    }
+  }
+}

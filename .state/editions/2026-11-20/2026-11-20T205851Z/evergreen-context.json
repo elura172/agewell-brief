@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "4168314a67c28ef51c471374",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "4f70da432ef323fc",
+        "source": "Dr. Hans Selye (1956) — The Stress of Life & General Adaptation Syndrome",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 30
+      },
+      {
+        "source_id": "c282f56688b23539",
+        "source": "Dr. Vlail Kaznacheev (1976) — The Cytopathic Mirror Effect & Optical Intercellular Transfer",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 29
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

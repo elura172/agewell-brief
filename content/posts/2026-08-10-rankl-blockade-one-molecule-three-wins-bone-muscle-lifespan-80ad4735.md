@@ -11,7 +11,7 @@ source_title: "Targeting RANKL Prevents Bone Loss, Improves Muscle Function and 
 source_name: "Aging Cell"
 spiral: "Cell Shedding"
 topics: ['longevity', 'metabolic health', 'mobility']
-frameworks: ['Higher Flame', 'Living Waters']
+frameworks: ['Cell Shedding', 'Higher Flame', 'Living Waters']
 autoresearch_antecedents: [{"scientist": "Douglas C. Wallace", "year": "2005", "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline in brain, heart, skeletal muscle, and renal tissue tracks progressive erosion of mitochondrial oxidative phosphorylation capacity and mtDNA integrity. (A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases)"}, {"scientist": "Fritz-Albert Popp", "year": "1975", "discovery": "DNA and chromatin act as coherent biophotonic resonators, emitting phase-locked ultra-weak photon fields that coordinate cellular metabolism and systemic signaling across tissues. (Biophotonics and Cellular Coherence)"}]
 image_provider: "Agewell Visual Desk"
 image_provider_id: "lithograph-80ad4735"
