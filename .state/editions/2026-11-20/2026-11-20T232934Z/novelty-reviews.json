@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "animal behavior",
+      "reason": "Investigates the relationship between dietary protein and sleep in mosquitoes (Aedes aegypti). While it identifies a behavioral phase change after feeding, it lacks relevance to human aging, longevity, or healthspan.",
+      "angle": "Post-meal lethargy in insects and its evolutionary conservation in dietary protein processing.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology",
+      "reason": "Reports a general lifestyle correlation linking leisure reading to lower Alzheimer's risk without identifying or testing a concrete biological or cellular mechanism.",
+      "angle": "Cognitive reserve and leisure activities in dementia risk reduction.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology",
+      "reason": "Generic headline summary reporting an observational correlation between sleep duration and healthy aging without details or mechanical insight.",
+      "angle": "Optimal sleep duration windows for age-related health outcomes.",
+      "mode": "agent"
+    },
+    "8ed34ba9f8956d589cf6fdbf": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "biophysical mechanism",
+      "reason": "Identifies a specific physiological decline in the aging human brain: the dampening of coupled hemodynamic waves and cerebrospinal fluid (CSF) flow during sleep, which drives glymphatic waste clearance.",
+      "angle": "How age-related dampening of nocturnal hemodynamics and cerebrospinal fluid waves impairs brain waste clearance.",
+      "mode": "agent"
+    },
+    "ffa65550a0aa1a42ce2d5d6c": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "mechanistic neuroscience",
+      "reason": "Examines Shank3 deficiency and cortical taste coding flexibility in an autism mouse model. While mechanistically detailed, it focuses on neurodevelopmental disorders rather than aging or longevity.",
+      "angle": "How Shank3 gene deletion impairs cortical neural signal-to-noise ratios during associative learning.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "cognitive neuroscience",
+      "reason": "Explores working memory and sentence processing in healthy adults with null/inconclusive interaction results; lacks healthspan or biophysical aging mechanics.",
+      "angle": "The neural architecture of phonological working memory during sentence comprehension.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "diagnostic testing",
+      "reason": "Evaluates combining MRI markers with virtual reality eye-tracking for diagnosing vascular cognitive impairment. It is a clinical assessment trial rather than a discovery of a underlying biological pathway.",
+      "angle": "Combining virtual reality eye-tracking with MRI vessel burden markers to spot early vascular cognitive impairment.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "physiological mechanism",
+      "reason": "Provides direct editorial coverage on how aging physically disrupts sleep-driven brain fluid dynamics, highlighting a primary biological pathway underlying age-related neurodegeneration.",
+      "angle": "The mechanics of glymphatic failure: why the aging brain loses its sleep-driven self-cleaning mechanism.",
+      "mode": "agent"
+    },
+    "f1219abb09df2d5a8654ea44": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "unusual finding / neural plastic mechanism",
+      "reason": "Demonstrates an a priori neurocomputational model where a specific deficit in right frontotemporal circuits releases interhemispheric competition, conferring a concrete speech production advantage.",
+      "angle": "When brain deficits trigger cognitive upgrades: how neural competition releases speech advantages in congenital amusia.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "8ed34ba9f8956d589cf6fdbf",
+    "7103411e56536a77aee9e90a",
+    "f1219abb09df2d5a8654ea44"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "d4018a08049e4ccb1eeedfee",
+    "ffa65550a0aa1a42ce2d5d6c",
+    "2c230304f994b1bd3d12c5d7",
+    "13df9d1212b0143af8213a67"
+  ],
+  "mode": "agent"
+}
