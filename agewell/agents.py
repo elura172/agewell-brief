@@ -176,6 +176,7 @@ def assignment_editor(
     trend_topics: list[dict[str, Any]],
     recent_titles: list[str],
     limit: int,
+    recent_spirals: list[str] | None = None,
 ) -> dict[str, Any]:
     """Select an edition lineup; fall back to deterministic candidate order."""
     candidate_rows = [
@@ -209,11 +210,13 @@ def assignment_editor(
                 "candidates": candidate_rows,
                 "trend_topics": trend_topics[:25],
                 "recent_titles": recent_titles[-40:],
+                "recent_spirals": list(recent_spirals or []),
                 "requirements": [
                     f"Select at most {limit} stories.",
                     "Choose one lead and make the rest signals.",
-                    "Prefer source diversity and a mix of categories.",
-                    "Prioritize fresh, independently corroborated human healthspan and longevity science.",
+                    "Prefer primary research journals and preprints over secondary wire aggregators, and balance coverage across the Six Spirals (Living Waters, Inner Garden, Higher Flame, Luminous Mind, Cell Shedding, Dark Mirror).",
+                    "If recent_spirals shows heavy concentration in Luminous Mind or recent_titles already includes multiple Alzheimer's/dementia stories, actively prefer candidates from under-represented Spirals (Inner Garden, Living Waters, Dark Mirror, Higher Flame, Cell Shedding).",
+                    "Require a concrete cellular, biophysical, or physiological mechanism; reject pure observational epidemiology or screening/questionnaire correlations that do not test or model a physical biological pathway.",
                     "Reject duplicates, commercial agriculture/aquaculture/livestock production studies (such as farmed fish feed or poultry yield), sweeping pharmaceutical press releases that broadly dismiss botanical/nutritional supplements as a whole class based on narrow surrogate markers, and stories too weak to explain responsibly.",
                     "Every assignment must use an article_id from candidates.",
                 ],
@@ -291,16 +294,33 @@ _PHARMA_EPIDEMIOLOGY_TERMS = (
 
 _CELLULAR_MECHANISM_TERMS = (
     "mitochond", "autophag", "mitophag", "ampk", "mtor", "sirtuin", "nad+",
-    "glymphatic", "astrocyte", "microglia", "senolyt", "senescen", "glutathione",
-    "microbiome", "tight junction", "butyrate", "atp synthase", "membrane potential",
-    "hippocamp", "synaptic", "oxidative phosphorylation", "redox",
+    "glymphat", "astrocyte", "microglia", "senolyt", "senescen", "glutathione",
+    "microbiom", "microbiot", "tight junction", "butyrate", "atp synthase", "membrane potential",
+    "hippocamp", "synaptic", "oxidative phosphorylation", "redox", "glycocalyx",
+    "endotheli", "microcirculat", "metallothionein", "chelat", "chromatin", "epigenet",
+    "proteostasis", "lysosom", "biophoton", "dipole", "transcript", "kinase", "receptor",
+)
+
+_PURE_EPIDEMIOLOGY_CORRELATION_TERMS = (
+    "correlates with lower mortality",
+    "correlates with higher mortality",
+    "excess weight correlates with",
+    "obesity paradox",
+    "condensed memory screening",
+    "subjective memory complaints",
+    "where you live could shape your dementia risk",
+    "zip code",
+    "neighborhood disadvantage",
+    "electronic health records show",
+    "insurance claims show",
+    "medicare claims",
 )
 
 
 def off_mission_reason(title: str, text: str = "") -> str | None:
     """Deterministic mission gate catching off-mission aquaculture/livestock,
-    sweeping anti-supplement generalizations, and pure pharma epidemiology
-    that lacks a universal cellular or biophysical mechanism.
+    sweeping anti-supplement generalizations, and pure pharma or demographic
+    epidemiology that lacks a universal cellular or biophysical mechanism.
     """
     combined = f"{title} {text}".lower()
     if any(term in combined for term in _OFF_MISSION_PRODUCTION_TERMS):
@@ -310,6 +330,9 @@ def off_mission_reason(title: str, text: str = "") -> str | None:
     if any(term in combined for term in _PHARMA_EPIDEMIOLOGY_TERMS):
         if not any(mech in combined for mech in _CELLULAR_MECHANISM_TERMS):
             return "pure prescription-drug or vaccine epidemiology without a cellular or biophysical mechanism"
+    if any(term in combined for term in _PURE_EPIDEMIOLOGY_CORRELATION_TERMS):
+        if not any(mech in combined for mech in _CELLULAR_MECHANISM_TERMS):
+            return "pure observational epidemiology or screening correlation without a cellular or biophysical mechanism"
     return None
 
 
@@ -322,20 +345,31 @@ def _deterministic_novelty(title: str, summary: str, source: str = "") -> dict[s
         "senescen", "biomarker", "first-in-human", "first in human", "new tool",
         "new test", "wearable", "brain-computer", "single-cell", "spatial",
         "organoid", "gene editing", "machine learning", "artificial intelligence",
-        "quantum", "mitochond", "microbiome", "clinical trial", "randomized",
+        "quantum", "mitochond", "microbiom", "clinical trial", "randomized",
         "fda warning", "recall", "unexpected", "overturn", "discovered why",
+        "glymphat", "autophag", "glycocalyx", "butyrate", "tight junction",
+        "chelat", "metallothionein", "endotheli", "biophysic",
     )
     generic_terms = (
         "hours a night", "may help slow aging", "healthy aging", "linked to",
         "associated with", "could help", "tips", "simple ways", "eat less",
-        "sleep duration", "drink more water",
+        "sleep duration", "drink more water", "correlates with", "survey finds",
+        "questionnaire", "screening tool",
     )
+    has_mechanism = any(mech in text for mech in _CELLULAR_MECHANISM_TERMS)
+    is_safety_alert = any(term in text for term in ("fda warning", "recall", "tainted", "hidden drug", "health fraud"))
     frontier_hits = [term for term in frontier_terms if term in text]
     generic_hits = [term for term in generic_terms if term in text]
     off_mission = off_mission_reason(title, summary)
     if frontier_hits:
         score += min(30, 10 * len(frontier_hits))
         reasons.append("specific frontier signal or meaningful new mechanism")
+    if has_mechanism:
+        score += 6
+        reasons.append("concrete cellular or biophysical pathway")
+    elif not is_safety_alert and any(term in text for term in ("observational", "cohort", "correlat", "associated with", "linked to", "screening", "survey")):
+        score -= 14
+        reasons.append("observational or screening correlation without a concrete cellular/biophysical mechanism")
     if generic_hits:
         score -= min(32, 10 * len(generic_hits))
         reasons.append("familiar wellness framing with limited editorial surprise")
@@ -400,7 +434,8 @@ def novelty_editor(
                 "recent_titles": recent_titles[-40:],
                 "requirements": [
                     "Score every candidate from 0 to 100 for editorial novelty and reader-stop power.",
-                    "A story earns a high score for a specific new finding, named mechanism, unusual result, meaningful disagreement, frontier technology, safety warning, or genuinely useful change in practice.",
+                    "A story earns a high score for a specific new finding, named cellular/biophysical/physiological mechanism, unusual result, meaningful disagreement, frontier technology, safety warning, or genuinely useful change in practice.",
+                    "Require a concrete cellular, biophysical, or physiological mechanism for all research stories: score down (below 50) pure observational epidemiology, demographic/mortality correlations (such as 'X correlates with lower mortality'), or questionnaire/screening-tool speedups that do not test or model a physical biological pathway.",
                     "Score down generic advice, routine observational associations, broad lifestyle reminders, recycled supplement claims, and headlines that could have run any year.",
                     "Hold back (score 25 or below) commercial agriculture, aquaculture, fishery, livestock, or plant-production studies (such as farmed salmon feed or poultry yield), sweeping press releases that generalize a narrow surrogate marker to dismiss botanical or nutritional supplements as a whole class, as well as young-athlete sports rehab cohorts with no aging or healthspan relevance.",
                     "Do not confuse scientific importance with novelty. A familiar true fact can still be held back.",

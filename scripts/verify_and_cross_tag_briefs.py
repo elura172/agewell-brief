@@ -60,6 +60,7 @@ FRAMEWORK_MAP = {
     "metabolic health": "Higher Flame",
     "cellular senescence": "Cell Shedding",
     "detoxification": "Dark Mirror",
+    "consumer safety": "Dark Mirror",
     "longevity": "Living Waters",
     "mobility": "Living Waters"
 }
@@ -88,9 +89,11 @@ def audit_file(filepath: Path) -> bool:
     frontmatter = parts[1]
     body = parts[2]
 
-    # Parse primary category
+    # Parse primary category and routed spiral
     cat_match = re.search(r'category:\s*"(.*?)"', frontmatter)
     primary_cat = cat_match.group(1).lower() if cat_match else "general wellness"
+    spiral_match = re.search(r'spiral:\s*"(.*?)"', frontmatter)
+    routed_spiral = spiral_match.group(1).strip() if spiral_match else ""
 
     # Analyze editorial prose + headline/dek only (excluding stock image alt text & spiral cards)
     analysis_text = _extract_editorial_prose(frontmatter, body)
@@ -101,7 +104,10 @@ def audit_file(filepath: Path) -> bool:
             matched_topics.add(topic)
 
     topics_list = sorted(list(matched_topics))
-    frameworks_list = sorted(list(set(FRAMEWORK_MAP[t] for t in topics_list if t in FRAMEWORK_MAP)))
+    frameworks_set = set(FRAMEWORK_MAP[t] for t in topics_list if t in FRAMEWORK_MAP)
+    if routed_spiral:
+        frameworks_set.add(routed_spiral)
+    frameworks_list = sorted(list(frameworks_set))
 
     # Check if already tagged properly
     topics_fm = f"topics: {topics_list}"

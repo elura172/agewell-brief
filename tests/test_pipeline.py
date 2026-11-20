@@ -924,9 +924,9 @@ def test_draft_disables_thinking_and_retries_invalid_json(monkeypatch):
 
     assert result["headline"] == "A useful finding"
     assert len(result["paragraphs"]) == 2
-    assert len(completions.calls) == 2
+    assert len(completions.calls) == 3
     assert completions.calls[0]["extra_body"] == {"thinking": {"type": "disabled"}}
-    prompt = json.loads(completions.calls[-1]["messages"][1]["content"])
+    prompt = json.loads(completions.calls[1]["messages"][1]["content"])
     assert prompt["autoresearch_deep_context"] is None
     requirements = " ".join(prompt["requirements"])
     assert "Quanta Magazine and Works in Progress" in requirements
@@ -961,7 +961,7 @@ def test_draft_retries_transient_api_failure():
 
     result = draft(client, item, "general wellness")
 
-    assert completions.calls == 2
+    assert completions.calls == 3
     assert result["headline"] == "A useful finding"
     assert len(result["paragraphs"]) == 2
 
@@ -1346,3 +1346,98 @@ def test_other_hosts_keep_the_browser_user_agent():
     assert pipeline.user_agent_for("https://www.sciencedaily.com/rss/top/health.xml") == pipeline.BROWSER_USER_AGENT
     # a lookalike domain must not be treated as FDA
     assert pipeline.user_agent_for("https://notfda.gov.example.com/rss") == pipeline.BROWSER_USER_AGENT
+
+
+def test_prefix_stem_keywords_route_inflected_words_to_correct_spiral():
+    resources = pipeline.program_resources()
+    # "senescence" (from stem "senescen"), "mitochondria" (from "mitochondri"), "microbiome" (from "microbiom"), "glymphatic" (from "glymphat"), "microcirculation" (from "microcirculat")
+    s_cell = spiral_for("general wellness", FeedItem("Cellular senescence drives decay", "Autophagy and mitophagy clear damaged organelles", "https://example.test/1", ""), resources)
+    assert s_cell is not None and s_cell["name"] == "Cell Shedding"
+
+    s_flame = spiral_for("general wellness", FeedItem("Mitochondrial thermogenesis in aging tissue", "Mitochondria restore ATP", "https://example.test/2", ""), resources)
+    assert s_flame is not None and s_flame["name"] == "Higher Flame"
+
+    s_garden = spiral_for("general wellness", FeedItem("Gut microbiota and intestinal barrier", "Microbiome butyrate production", "https://example.test/3", ""), resources)
+    assert s_garden is not None and s_garden["name"] == "Inner Garden"
+
+    s_waters = spiral_for("brain health", FeedItem("Endothelial glycocalyx and microcirculation", "Vascular capillary flow", "https://example.test/4", ""), resources)
+    assert s_waters is not None and s_waters["name"] == "Living Waters"
+
+
+def test_spiral_quota_and_24h_wire_aggregator_cap(monkeypatch, tmp_path: Path):
+    import datetime as dt
+
+    posts_dir = tmp_path / "posts"
+    posts_dir.mkdir(parents=True, exist_ok=True)
+    now_iso = dt.datetime.now(dt.timezone.utc).isoformat()
+
+    # Write 3 recent Luminous Mind + Alzheimer's posts, 1 from ScienceDaily within 24h
+    for idx in range(3):
+        (posts_dir / f"2026-11-19-alzheimer-post-{idx}.md").write_text(
+            f'---\ntitle: "Alzheimer Study {idx}"\ndate: {now_iso}\nsource_name: "ScienceDaily Healthy Aging"\nspiral: "Luminous Mind"\n---\nAlzheimer dementia body.\n',
+            encoding="utf-8",
+        )
+
+    wire_brain = FeedItem(
+        "Another Alzheimer's memory finding",
+        "Dementia study in mice",
+        "https://sciencedaily.test/alz",
+        "",
+        "ScienceDaily Healthy Aging",
+        5,
+        "rewrite",
+        "ScienceDaily",
+        "editorial",
+    )
+    primary_garden = FeedItem(
+        "Butyrate restores intestinal barrier tight junctions in aging gut",
+        "Microbiome SCFA signaling in aging",
+        "https://pubmed.test/gut",
+        "",
+        "PubMed Inner Garden",
+        5,
+        "rewrite",
+        "PubMed",
+        "primary",
+    )
+    monkeypatch.setattr(pipeline, "MAX_ITEMS", 1)
+    selected = select_ranked_items([wire_brain, primary_garden], limit=1, output_dir=posts_dir)
+    assert len(selected) == 1
+    assert selected[0].link == "https://pubmed.test/gut"
+
+
+def test_auto_publish_holds_draft_when_lithograph_is_missing(monkeypatch, tmp_path: Path):
+    item = FeedItem("Mitochondrial cristae remodeling", "Summary", "https://example.test/mito", "", "Aging Cell", 5, "rewrite", "Wiley", "primary")
+    story = {
+        "headline": "Mitochondrial Cristae Remodeling Restores ATP Synthase Coupling",
+        "dek": "A clear biophysical finding.",
+        "paragraphs": ["Paragraph one.", "Paragraph two."],
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "Preclinical model boundary.",
+    }
+    evidence = EvidencePacket("experimental", ("Claim",), ("Limit",), ("No overclaim",), "high")
+    brief = ImageBrief("Intent", "mitochondria", "Higher Flame", "precise", "lithograph", (), ("mitochondria",))
+
+    monkeypatch.setattr(pipeline, "AUTO_PUBLISH", True)
+    monkeypatch.setattr(pipeline, "AUTO_PUBLISH_UNTIL", "")
+    monkeypatch.setattr(pipeline, "GEMINI_API_KEY", "")
+    monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
+    monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
+    monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
+    monkeypatch.setattr(pipeline, "PUBLIC_ROOT", tmp_path / "public")
+    monkeypatch.setattr(pipeline, "EDITION_STATE_ROOT", tmp_path / "editions")
+    monkeypatch.setattr(pipeline, "IMAGE_CACHE_FILE", tmp_path / "image-cache.json")
+    monkeypatch.setattr(pipeline, "IMAGE_LEDGER_FILE", tmp_path / "image-ledger.json")
+    monkeypatch.setattr(pipeline, "feed_sources", lambda: [FeedSource("Aging Cell", "https://example.test/feed")])
+    monkeypatch.setattr(pipeline, "fetch_ranked_items", lambda *_args, **_kwargs: [item])
+    monkeypatch.setattr(pipeline, "choose_edition", lambda _items: [(item, "signal", None)])
+    monkeypatch.setattr(pipeline, "verify_category", lambda *_args, **_kwargs: {"category": "metabolic health", "on_mission": True, "reason": "ok"})
+    monkeypatch.setattr(pipeline, "build_evidence_packet", lambda *_args: evidence)
+    monkeypatch.setattr(pipeline, "draft", lambda *_args: story)
+    monkeypatch.setattr(pipeline, "copy_edit", lambda _c, _m, content, _t: (content, {"status": "approved"}))
+    monkeypatch.setattr(pipeline, "direct_image", lambda *_args, **_kwargs: brief)
+    monkeypatch.setattr(pipeline, "generate_lithograph_plate", lambda *_args, **_kwargs: None)
+
+    assert pipeline.run() == 0
+    post_text = next((tmp_path / "posts").glob("*.md")).read_text(encoding="utf-8")
+    assert "draft: true" in post_text

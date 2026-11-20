@@ -170,6 +170,7 @@ class FeedItem:
     source_priority: int = 0
     headline_mode: str = "rewrite"
     source_group: str = "Unknown source"
+    authority: str = "editorial"
 
 
 def clean_text(value: str | None) -> str:
@@ -352,6 +353,7 @@ def fetch_items(source: FeedSource) -> list[FeedItem]:
                     source.priority,
                     source.headline_mode,
                     source.publisher or source.name,
+                    source.authority,
                 )
             )
     return results[:MAX_ITEMS_PER_FEED]
@@ -361,15 +363,86 @@ def normalized_title(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
 
 
+WIRE_AGGREGATOR_PUBLISHERS = {"Medical Xpress", "ScienceDaily"}
+MAX_WIRE_AGGREGATOR_PER_24H = int(os.getenv("MAX_WIRE_AGGREGATOR_PER_24H", "1"))
+
+
+def _is_wire_aggregator(item: FeedItem) -> bool:
+    pub = (item.source_group or item.source_name).lower()
+    src = item.source_name.lower()
+    return any(w.lower() in pub or w.lower() in src for w in WIRE_AGGREGATOR_PUBLISHERS)
+
+
+def _recent_archive_state(
+    output_dir: Path | None = None,
+    now: dt.datetime | None = None,
+    window: int = 6,
+) -> dict[str, Any]:
+    """Inspect the most recent briefs on disk to enforce rolling Spiral cooldowns and wire-aggregator caps."""
+    posts_dir = output_dir or OUTPUT_DIR
+    current_time = now or dt.datetime.now(dt.timezone.utc)
+    if not posts_dir.exists():
+        return {"recent_spirals": [], "recent_3_spirals": [], "recent_3_alzheimer": 0, "wire_count_24h": 0}
+    files = sorted(posts_dir.glob("*.md"))[-max(window, 12):]
+    recent_spirals: list[str] = []
+    alzheimer_flags: list[bool] = []
+    wire_count_24h = 0
+
+    for path in files:
+        try:
+            text = path.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        sp_match = re.search(r'^spiral:\s*"([^"]+)"', text, re.MULTILINE)
+        src_match = re.search(r'^source_name:\s*"([^"]+)"', text, re.MULTILINE)
+        date_match = re.search(r"^date:\s*(\S+)", text, re.MULTILINE)
+        spiral_val = sp_match.group(1).strip() if sp_match else ""
+        src_val = src_match.group(1).strip() if src_match else ""
+        if spiral_val:
+            recent_spirals.append(spiral_val)
+        head_chunk = text[:1200].lower()
+        alzheimer_flags.append("alzheimer" in head_chunk or "dementia" in head_chunk)
+
+        if any(w.lower() in src_val.lower() for w in WIRE_AGGREGATOR_PUBLISHERS):
+            is_within_24h = False
+            if date_match:
+                try:
+                    post_dt = dt.datetime.fromisoformat(date_match.group(1).replace("Z", "+00:00"))
+                    if post_dt.tzinfo is None:
+                        post_dt = post_dt.replace(tzinfo=dt.timezone.utc)
+                    if (current_time - post_dt).total_seconds() <= 86400:
+                        is_within_24h = True
+                except ValueError:
+                    pass
+            elif path.name.startswith(current_time.date().isoformat()):
+                is_within_24h = True
+            if is_within_24h:
+                wire_count_24h += 1
+
+    return {
+        "recent_spirals": recent_spirals[-window:],
+        "recent_3_spirals": recent_spirals[-3:],
+        "recent_3_alzheimer": sum(1 for flag in alzheimer_flags[-3:] if flag),
+        "wire_count_24h": wire_count_24h,
+    }
+
+
 def relevance_score(item: FeedItem) -> int:
     text = f"{item.title} {item.summary}".lower()
     score = item.source_priority
+    if item.authority == "primary":
+        score += 6
+    elif item.authority == "preprint":
+        score += 4
+    elif _is_wire_aggregator(item):
+        score -= 2
     weighted_terms = {
         6: ("aging", "ageing", "over 50", "older adults", "seniors", "longevity", "healthspan"),
         5: (
             "memory", "dementia", "alzheimer", "mobility", "balance", "muscle", "sleep",
             "mitochondria", "autophagy", "glymphatic", "circadian", "polyphenol", "curcumin",
             "quercetin", "fisetin", "berberine", "spermidine", "urolithin", "glutathione", "butyrate",
+            "glycocalyx", "microcirculation", "tight junction", "metallothionein", "chelation",
         ),
         4: ("blood sugar", "diabetes", "heart", "walking", "exercise", "nutrition", "supplement", "botanical"),
         3: ("warning", "fraud", "scam", "recall", "breakthrough", "surprising", "linked to"),
@@ -465,12 +538,44 @@ def fetch_ranked_items(
     return select_ranked_items(candidates, limit, topics)
 
 
+def spiral_quota_adjustment(
+    item: FeedItem,
+    resources: dict[str, Any] | None = None,
+    archive_state: dict[str, Any] | None = None,
+) -> int:
+    """Boost Spirals absent from recent editions and cool down saturated Spirals / sub-topics."""
+    if not archive_state:
+        return 0
+    recent_spirals = [s.lower() for s in (archive_state.get("recent_spirals") or [])]
+    recent_3 = [s.lower() for s in (archive_state.get("recent_3_spirals") or [])]
+    if not recent_spirals and not recent_3:
+        return 0
+    res = resources or program_resources()
+    cat = classify(item)
+    spiral = spiral_for(cat, item, res)
+    spiral_name = str((spiral or {}).get("name", "")).lower()
+    adjustment = 0
+    if spiral_name:
+        if spiral_name not in recent_spirals:
+            adjustment += 10
+        count_in_3 = sum(1 for s in recent_3 if s == spiral_name)
+        if count_in_3 >= 2:
+            adjustment -= 12
+        elif count_in_3 == 1:
+            adjustment -= 5
+    text = f"{item.title} {item.summary}".lower()
+    if ("alzheimer" in text or "dementia" in text) and int(archive_state.get("recent_3_alzheimer", 0)) >= 1:
+        adjustment -= 8 * int(archive_state.get("recent_3_alzheimer", 1))
+    return adjustment
+
+
 def select_ranked_items(
     candidates: list[FeedItem],
     limit: int | None = None,
     trend_topics: list[dict[str, Any]] | None = None,
+    output_dir: Path | None = None,
 ) -> list[FeedItem]:
-    """Deduplicate and rank stories while keeping each batch source-diverse."""
+    """Deduplicate and rank stories while keeping each batch source- and Spiral-diverse."""
     target_count = limit if limit is not None else MAX_ITEMS
     best_by_title: dict[str, FeedItem] = {}
     for item in candidates:
@@ -480,23 +585,34 @@ def select_ranked_items(
             best_by_title[key] = item
 
     topics = trend_topics or []
+    archive_state = _recent_archive_state(output_dir=output_dir)
+    resources = program_resources()
     ranked = sorted(
         best_by_title.values(),
-        key=lambda item: relevance_score(item) + trend_score(item, topics),
+        key=lambda item: (
+            relevance_score(item)
+            + trend_score(item, topics)
+            + spiral_quota_adjustment(item, resources, archive_state)
+        ),
         reverse=True,
     )
     selected: list[FeedItem] = []
     selected_links: set[str] = set()
     publisher_counts: dict[str, int] = {}
     publisher_cap = max(1, MAX_ITEMS_PER_PUBLISHER)
+    wire_used_24h = int(archive_state.get("wire_count_24h", 0))
 
     for item in ranked:
         publisher = item.source_group or item.source_name
         if publisher_counts.get(publisher, 0) >= publisher_cap:
             continue
+        if _is_wire_aggregator(item) and wire_used_24h >= MAX_WIRE_AGGREGATOR_PER_24H:
+            continue
         selected.append(item)
         selected_links.add(item.link)
         publisher_counts[publisher] = publisher_counts.get(publisher, 0) + 1
+        if _is_wire_aggregator(item):
+            wire_used_24h += 1
         if len(selected) == target_count:
             return selected
 
@@ -932,8 +1048,11 @@ def draft(
         "paragraphs": signal_paragraphs,
     }
     # deep_context was already computed above for longform pieces; for signal
-    # briefs (or if deep_context returned no antecedents), populate from the
-    # 20-pioneer biophysics lineage codex without an extra LLM round-trip.
+    # briefs, invoke autoresearch_context_subagent so every brief carries the
+    # full LLM+founder Pioneer Lineage card, falling back to match_biophysics_pioneers
+    # if the model returns no historical_antecedents.
+    if not is_longform and not deep_context:
+        deep_context = autoresearch_context_subagent(client, MODEL, item.title, source_material, category)
     raw_antecedents = deep_context.get("historical_antecedents", [])
     if not raw_antecedents:
         raw_antecedents = match_biophysics_pioneers(item.title, source_material, category, limit=2)
@@ -1084,6 +1203,27 @@ def program_resources() -> dict[str, Any]:
     return {"spirals": spirals, **{k: v for k, v in config.items() if k != "spirals"}}
 
 
+_PREFIX_STEM_KEYWORDS = {
+    "senescen",
+    "autophag",
+    "mitophag",
+    "microbiom",
+    "microbiot",
+    "mitochondri",
+    "thermogen",
+    "glymphat",
+    "microcirculat",
+    "endotheli",
+}
+
+
+def _spiral_keyword_matches(term: str, text: str) -> bool:
+    escaped = re.escape(term)
+    if term in _PREFIX_STEM_KEYWORDS:
+        return bool(re.search(rf"(?<!\w){escaped}\w*", text))
+    return bool(re.search(rf"(?<!\w){escaped}(?!\w)", text))
+
+
 def spiral_for(category: str, item: FeedItem, resources: dict[str, Any]) -> dict[str, Any] | None:
     """Pick the one spiral this brief belongs to.
 
@@ -1099,14 +1239,13 @@ def spiral_for(category: str, item: FeedItem, resources: dict[str, Any]) -> dict
     for slug, terms in (resources.get("keyword_overrides") or {}).items():
         if slug not in spirals or not isinstance(terms, list):
             continue
-        # Whole words and phrases only. Plain substring matching sent every
-        # story containing "leads to" into heavy-metal clearing, because
-        # "lead" is a substring of it.
+        # Whole words/phrases or explicit prefix stems only. Plain substring
+        # matching sent every story containing "leads to" into heavy-metal
+        # clearing, because "lead" is a substring of it.
         hits = sum(
             1
             for term in terms
-            if isinstance(term, str)
-            and re.search(rf"(?<!\w){re.escape(term)}(?!\w)", text)
+            if isinstance(term, str) and _spiral_keyword_matches(term, text)
         )
         if hits and (best is None or hits > best[0]):
             best = (hits, slug)
@@ -1244,6 +1383,7 @@ def run() -> int:
     candidates = fetch_ranked_items(sources, state, max(MAX_ITEMS, CANDIDATE_POOL_SIZE))
     trend_topics = load_trend_topics()
     recent_titles = [path.stem for path in sorted(OUTPUT_DIR.glob("*.md"))[-40:]]
+    archive_state = _recent_archive_state(OUTPUT_DIR, edition_time)
     novelty = novelty_editor(client, MODEL, candidates, trend_topics, recent_titles, NOVELTY_MIN_SCORE)
     novelty_scores = novelty.get("scores", {})
     commissioned = [
@@ -1255,7 +1395,15 @@ def run() -> int:
         # strongest candidate instead of publishing a full batch of filler.
         commissioned = [max(candidates, key=lambda item: novelty_scores.get(item_id(item), {}).get("score", 0))]
         novelty["rescue"] = "No candidate cleared the novelty threshold; retained the strongest available story."
-    assignment = assignment_editor(client, MODEL, commissioned, trend_topics, recent_titles, MAX_ITEMS)
+    assignment = assignment_editor(
+        client,
+        MODEL,
+        commissioned,
+        trend_topics,
+        recent_titles,
+        MAX_ITEMS,
+        recent_spirals=archive_state.get("recent_spirals", []),
+    )
     candidate_by_id = {item_id(item): item for item in candidates}
     assigned_candidates = [
         candidate_by_id[row["article_id"]]
@@ -1451,7 +1599,7 @@ def run() -> int:
             )
             if photo:
                 visual_review = {
-                    "status": "approved",
+                    "status": "vision-approved",
                     "reason": "Generated and vision-verified post-constructivist scientific lithograph.",
                 }
                 image_caption = photo.caption
@@ -1485,11 +1633,10 @@ def run() -> int:
             metadata_status,
             visual_status,
             require_human_review=not publish_automatically,
-            require_visual_review=not publish_automatically,
-            # A missing or unsuitable stock image must not stop an unattended
-            # edition. In auto-publish mode the brief safely ships text-only;
-            # the image pipeline already refuses to persist rejected images.
-            require_metadata_review=not publish_automatically,
+            # Hold any brief in draft: true if its lithograph plate is missing
+            # so a local/CI lithograph job can complete the plate before release.
+            require_visual_review=True,
+            require_metadata_review=True,
         )
         generated_count += 1
         edition_rank = prior_edition_count + generated_count

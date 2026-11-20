@@ -80,7 +80,7 @@ def update_post_image_frontmatter(
         "image_avg_color",
     }
     kept_lines = [
-        line
+        "draft: false" if line.strip() == "draft: true" else line
         for line in raw_fm.splitlines()
         if line.split(":", 1)[0].strip() not in image_keys
     ]

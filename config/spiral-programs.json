@@ -94,18 +94,25 @@
     "cell shedding": [
       "senescen",
       "senolytic",
-      "autophagy",
+      "autophag",
+      "mitophag",
       "zombie cell",
       "sasp",
-      "telomere"
+      "telomere",
+      "proteostasis"
     ],
     "inner garden": [
-      "microbiome",
-      "microbiota",
+      "microbiom",
+      "microbiot",
       "gut barrier",
+      "intestinal barrier",
+      "tight junction",
       "probiotic",
       "short-chain fatty acid",
-      "dysbiosis"
+      "butyrate",
+      "dysbiosis",
+      "vagal",
+      "vagus"
     ],
     "higher flame": [
       "mitochondri",
@@ -114,24 +121,33 @@
       "glucose",
       "fasting",
       "ketone",
-      "thermogen"
+      "thermogen",
+      "oxidative phosphorylation",
+      "ampk",
+      "nad+"
     ],
     "luminous mind": [
-      "glymphatic",
+      "glymphat",
       "cognitive",
       "memory",
       "dementia",
       "alzheimer",
       "neuroplasticity",
-      "sleep"
+      "sleep",
+      "circadian"
     ],
     "living waters": [
+      "microcirculat",
       "circulation",
       "vascular",
+      "endotheli",
+      "glycocalyx",
       "hydration",
       "lymphatic",
       "arterial",
-      "blood flow"
+      "blood flow",
+      "exclusion zone",
+      "interfacial water"
     ]
   },
   "default_route": "living waters"

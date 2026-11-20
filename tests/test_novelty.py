@@ -148,3 +148,19 @@ def test_match_biophysics_pioneers_matches_20_founder_codex():
     assert len(matched) == 2
     assert any("Nedergaard" in m["scientist"] for m in matched)
 
+
+def test_deterministic_gate_holds_pure_epidemiology_without_mechanism():
+    epidem = _deterministic_novelty(
+        "The Dementia Paradox: Why Excess Weight Correlates With Lower Mortality",
+        "Observational cohort records show excess weight correlates with lower mortality in dementia patients.",
+    )
+    assert epidem["decision"] == "hold"
+    assert epidem["score"] < 58
+
+    screening = _deterministic_novelty(
+        "Condensed Memory Screening Speeds Up Early Detection",
+        "A shorter questionnaire survey finds memory complaints faster in clinic waiting rooms.",
+    )
+    assert screening["decision"] == "hold"
+    assert screening["score"] < 58
+

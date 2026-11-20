@@ -501,5 +501,50 @@
     ],
     "max_daily_items": 1,
     "requires_secondary_check": true
+  },
+  {
+    "name": "PubMed Dark Mirror (Trace Minerals & Metal Bio-Clearing)",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1&term=%28%22heavy+metals%22%5BTitle%2FAbstract%5D+OR+%22trace+elements%22%5BTitle%2FAbstract%5D+OR+%22chelation%22%5BTitle%2FAbstract%5D+OR+%22metallothionein%22%5BTitle%2FAbstract%5D+OR+%22microplastics%22%5BTitle%2FAbstract%5D%29+AND+%28%22aging%22%5BTitle%2FAbstract%5D+OR+%22neurodegeneration%22%5BTitle%2FAbstract%5D+OR+%22oxidative+stress%22%5BTitle%2FAbstract%5D%29",
+    "priority": 5,
+    "headline_mode": "rewrite",
+    "publisher": "PubMed",
+    "authority": "primary",
+    "categories": [
+      "detoxification",
+      "consumer safety",
+      "longevity"
+    ],
+    "max_daily_items": 1,
+    "requires_secondary_check": false
+  },
+  {
+    "name": "PubMed Living Waters (Endothelial Glycocalyx & Microcirculation)",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1&term=%28%22glycocalyx%22%5BTitle%2FAbstract%5D+OR+%22microcirculation%22%5BTitle%2FAbstract%5D+OR+%22lymphatic+clearance%22%5BTitle%2FAbstract%5D+OR+%22endothelial+barrier%22%5BTitle%2FAbstract%5D+OR+%22interfacial+water%22%5BTitle%2FAbstract%5D%29+AND+%28%22aging%22%5BTitle%2FAbstract%5D+OR+%22vascular%22%5BTitle%2FAbstract%5D+OR+%22longevity%22%5BTitle%2FAbstract%5D%29",
+    "priority": 5,
+    "headline_mode": "rewrite",
+    "publisher": "PubMed",
+    "authority": "primary",
+    "categories": [
+      "detoxification",
+      "longevity",
+      "general wellness"
+    ],
+    "max_daily_items": 1,
+    "requires_secondary_check": false
+  },
+  {
+    "name": "PubMed Inner Garden (SCFA Signaling & Gut-Brain Barrier)",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1&term=%28%22butyrate%22%5BTitle%2FAbstract%5D+OR+%22short-chain+fatty+acids%22%5BTitle%2FAbstract%5D+OR+%22intestinal+barrier%22%5BTitle%2FAbstract%5D+OR+%22tight+junction%22%5BTitle%2FAbstract%5D+OR+%22gut-brain+axis%22%5BTitle%2FAbstract%5D%29+AND+%28%22aging%22%5BTitle%2FAbstract%5D+OR+%22healthspan%22%5BTitle%2FAbstract%5D+OR+%22longevity%22%5BTitle%2FAbstract%5D%29",
+    "priority": 5,
+    "headline_mode": "rewrite",
+    "publisher": "PubMed",
+    "authority": "primary",
+    "categories": [
+      "gut health",
+      "metabolic health",
+      "longevity"
+    ],
+    "max_daily_items": 1,
+    "requires_secondary_check": false
   }
 ]
