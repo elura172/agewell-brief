@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "66f3727573e1cef18679a879": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "lifestyle_association",
+      "reason": "Reiterates well-known, broad lifestyle advice regarding daily routines, sleep schedules, and mood/pain outcomes without introducing a novel mechanistic pathway or specific therapeutic target.",
+      "angle": "How rigid vs. flexible daily schedules specifically affect central circadian alignment in chronic pain sufferers.",
+      "mode": "agent"
+    },
+    "6cdd4a0d0dbe11a8c49ea9a0": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "frontier_technology",
+      "reason": "presents a new deep-learning model (PSG-GAN) capable of co-synthesizing multi-signal physiological dynamics to train diagnostic models for obstructive sleep apnea, bypassing privacy constraints.",
+      "angle": "How synthetic physiological signals could solve medical data privacy bottlenecks while training AI to detect complex sleep disorders.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "recycled_observational_data",
+      "reason": "Represents basic observational duration data for sleep that has been heavily covered in recent coverage without offering a fresh mechanism.",
+      "angle": "Beyond sleep duration: Why sleep quality markers matter more for healthy aging than hitting a fixed hour range.",
+      "mode": "agent"
+    },
+    "f89e8a853c8143bbdea1aa59": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "institutional_report",
+      "reason": "Generic institutional progress report overview without a specific, novel scientific finding highlighted in the text.",
+      "angle": "Key breakthroughs highlighted in the latest NIH Alzheimer's progress report.",
+      "mode": "agent"
+    },
+    "4d9868983f5e51628bbe3603": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "institutional_report",
+      "reason": "High-level annual government progress report release lacking specific new scientific data or single actionable takeaways.",
+      "angle": "The primary strategic shifts in NIH-funded dementia research for 2026.",
+      "mode": "agent"
+    },
+    "b64a41ad335859fbaab7a7cb": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "named_mechanism",
+      "reason": "Identifies a precise biological pathway involving NMDAR signaling, IRP/IRE iron regulation, and ferroptosis in pulmonary fibrosis treated with a specific botanical formulation.",
+      "angle": "Targeting iron dyshomeostasis and ferroptosis to halt progressive lung scarring.",
+      "mode": "agent"
+    },
+    "1a2f27f5efe914be08b99add": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic_review",
+      "reason": "Broad narrative review connecting sleep disorders, circadian disruption, and Alzheimer's, which is well-trodden ground.",
+      "angle": "Specific circadian biomarkers that predict neurodegeneration years before symptom onset.",
+      "mode": "agent"
+    },
+    "e3965b7d982937d70c900ee5": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle_association",
+      "reason": "Covers a known epidemiological link between circadian rhythm disruptions and frailty without presenting a breakthrough intervention or distinct mechanism.",
+      "angle": "Using non-invasive circadian tracking to identify early physical frailty before muscle loss occurs.",
+      "mode": "agent"
+    },
+    "2e3b93ae49321b4691ff2645": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "unusual_result",
+      "reason": "Uncovers a counterintuitive neurochemical mechanism where excessive physical exercise causes persistent, elevated dopamine in brain regions tied to memory and emotion long after rest.",
+      "angle": "When working out backfires: How chronic overtraining locks the brain's dopamine pathways into hyperdrive.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "6cdd4a0d0dbe11a8c49ea9a0",
+    "b64a41ad335859fbaab7a7cb",
+    "2e3b93ae49321b4691ff2645"
+  ],
+  "held_back": [
+    "66f3727573e1cef18679a879",
+    "d4018a08049e4ccb1eeedfee",
+    "f89e8a853c8143bbdea1aa59",
+    "4d9868983f5e51628bbe3603",
+    "1a2f27f5efe914be08b99add",
+    "e3965b7d982937d70c900ee5"
+  ],
+  "mode": "agent"
+}

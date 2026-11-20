@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "2e3b93ae49321b4691ff2645",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "50ff5aaa9ba9eb69",
+        "source": "Dr. Michael Levin (2012) — The Bioelectric Morphogenetic Code & Anatomical Homeostasis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      },
+      {
+        "source_id": "9e57321706444f06",
+        "source": "Dr. Harold Saxton Burr (1935) — The Fields of Life: Electrodynamic L-Fields",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 14
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
