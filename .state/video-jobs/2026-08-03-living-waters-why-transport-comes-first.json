@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Why the Living Waters framework puts transport before clearing. Many health programs begin with a question of what to remove. The Living Waters framework begins one step earlier: can the body transport and eliminate what has already been mobilised? The companion guide describes transport as the foundation beneath a broader regenerative framework. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://spiraloflight.life/teaching/waters?lens=biophysics&spiral=waters&utm_source=agewellbrief&utm_medium=referral&utm_content=programme-reference",
-  "trend": null,
+  "trend": {
+    "rank": 5,
+    "reader_visits": 4
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#D98A2B",
   "stroke_color": "#181A1B",
