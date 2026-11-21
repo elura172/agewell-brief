@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "insect physiology",
+      "reason": "Explores dietary protein-induced sleep post-blood meal in mosquitoes. While specific mechanisms are studied, it has zero relevance to human healthspan, longevity, or age-related disease.",
+      "angle": "N/A - Off-topic for human healthspan.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "observational correlation",
+      "reason": "Pure observational correlation linking reading to dementia risk without proposing or isolating a concrete biological or physiological mechanism.",
+      "angle": "N/A - Standard observational association.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "epidemiological correlation",
+      "reason": "Broad observational epidemiology linking 6.4-7.8 hours of sleep to healthy aging. Lacks a distinct cellular/biophysical mechanism and recycled topic.",
+      "angle": "N/A - Generic observational sleep study.",
+      "mode": "agent"
+    },
+    "ffa65550a0aa1a42ce2d5d6c": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "circuit-level sensory flexibility mechanism",
+      "reason": "Demonstrates a specific genetic risk factor (Shank3 deletion) impairing cortical sensory updating via reduced stimulus-evoked suppression and trial-to-trial signal-to-noise ratio in the gustatory cortex.",
+      "angle": "How genetic autism risk factors disrupt the brain's ability to update sensory memories by altering signal-to-noise ratios in cortical neurons.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "null cognitive behavioral result",
+      "reason": "Cognitive fMRI study reporting null results regarding phonological loop constraints and sentence comprehension, lacking direct application or striking novelty.",
+      "angle": "N/A - Highly niche cognitive mechanics with incremental negative findings.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "diagnostic screening tool",
+      "reason": "Combines virtual reality eye-tracking with MRI markers for diagnostic classification of mild cognitive impairment; lacks a biological pathomechanism study.",
+      "angle": "N/A - Diagnostic imaging/screening speedup.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "biophysical aging mechanism",
+      "reason": "Focuses on the mechanical breakdown of sleep-driven glymphatic fluid flow in the aging brain. Highly novel biophysical link to neurodegeneration.",
+      "angle": "How aging degrades the mechanical fluid dynamics that flush metabolic waste from the brain during sleep.",
+      "mode": "agent"
+    },
+    "f1219abb09df2d5a8654ea44": {
+      "score": 71,
+      "decision": "commission",
+      "novelty_type": "compensatory neuroplasticity mechanism",
+      "reason": "Presents an a priori mechanism where right-hemisphere circuit impairment releases left homologue interhemispheric inhibition, resulting in superior speech production in congenital amusia.",
+      "angle": "Predicting cognitive advantages from brain deficits: how removing interhemispheric inhibition unlocks superior speech processing.",
+      "mode": "agent"
+    },
+    "290de1f4cc8a078806c4c5d0": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "mechanistic paradigm shift",
+      "reason": "Overturns the long-held assumption that age-related lymphatic decline is caused by cell loss, revealing instead that the loss of SRF-driven contractile transcript programs causes vessel dilation while smooth muscle cells remain present.",
+      "angle": "Revising lymphatic aging: age-related fluid buildup stems from a reversible transcriptional shutdown of muscle contractility, not cell death.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "ffa65550a0aa1a42ce2d5d6c",
+    "7103411e56536a77aee9e90a",
+    "f1219abb09df2d5a8654ea44",
+    "290de1f4cc8a078806c4c5d0"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "d4018a08049e4ccb1eeedfee",
+    "2c230304f994b1bd3d12c5d7",
+    "13df9d1212b0143af8213a67"
+  ],
+  "mode": "agent"
+}

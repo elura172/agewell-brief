@@ -1,0 +1,18 @@
+{
+  "edition_angle": "Uncovering structural and molecular causes of vascular and physiological decline in aging tissues.",
+  "assignments": [
+    {
+      "article_id": "290de1f4cc8a078806c4c5d0",
+      "role": "lead",
+      "angle": "Age-related lymphatic vessel decline is driven by the loss of SRF-mediated smooth muscle cell contractility rather than cell depletion.",
+      "confidence": 0.92,
+      "reason": "This paper identifies a clear physiological and molecular mechanism (SRF-driven loss of smooth muscle cell contractility) behind age-related lymphatic decline, fitting the Living Waters spiral while avoiding redundant topics like brain fluid flow or neurodegeneration."
+    }
+  ],
+  "held_back": [
+    "7103411e56536a77aee9e90a",
+    "ffa65550a0aa1a42ce2d5d6c",
+    "f1219abb09df2d5a8654ea44"
+  ],
+  "mode": "agent"
+}
