@@ -1,0 +1,17 @@
+{
+  "edition_angle": "Epigenetic constraint on neural plasticity and memory remodeling in the aging dentate gyrus",
+  "assignments": [
+    {
+      "article_id": "73ae7b4fa6c7b9fa7efb2c98",
+      "role": "lead",
+      "angle": "Investigating how Suv39h1-mediated H3K9me3 accumulation in the aging dentate gyrus restricts activity-dependent synaptic remodeling and memory formation.",
+      "confidence": 0.92,
+      "reason": "This study provides a precise epigenetic mechanism (H3K9me3 accumulation driven by Suv39h1 in aged dentate gyrus neurons) that directly limits synaptic plasticity and memory, offering a novel target to restore cognitive resilience in aging."
+    }
+  ],
+  "held_back": [
+    "ffa65550a0aa1a42ce2d5d6c",
+    "f1219abb09df2d5a8654ea44"
+  ],
+  "mode": "agent"
+}

@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "mechanistic_biology",
+      "reason": "While the paper identifies a clear physiological trigger (blood-derived dietary protein inducing long-lasting sleep in mosquitoes independent of clock genes), it lacks direct relevance to human healthy aging or longevity.",
+      "angle": "How blood meal protein triggers extended post-feeding sleep states in Aedes aegypti via clock-independent pathways.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "lifestyle_association",
+      "reason": "Lacks a specific cellular or biophysical biological mechanism. It relies on standard observational lifestyle data linking leisure reading to dementia risk reduction.",
+      "angle": "Why cognitive engagement like reading fiction is associated with reduced stress and lower observational dementia risk.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "observational_epidemiology",
+      "reason": "Pure observational epidemiology correlating sleep duration bands with healthy aging metrics without testing a specific physical biological pathway. Covered heavily in existing sleep literature.",
+      "angle": "The statistical sweet spot of 6.4 to 7.8 hours of daily sleep associated with optimal healthspan markers.",
+      "mode": "agent"
+    },
+    "ffa65550a0aa1a42ce2d5d6c": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "cellular_mechanism",
+      "reason": "Identifies a precise neurobiological defect (Shank3 deletion causing reduced stimulus-evoked suppression and increased trial-to-trial correlated variability in the gustatory cortex), explaining how genetic risk factors disrupt cognitive flexibility.",
+      "angle": "How Shank3 deficiency degrades cortical signal-to-noise ratios, impairing the brain's ability to update sensory perception during learning.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "cognitive_neuroscience",
+      "reason": "Null/inconclusive neuroimaging finding regarding working memory phonological loop constraints and sentence comprehension, lacking strong reader-stop impact or actionable mechanistic insight.",
+      "angle": "fMRI investigation into whether phonological loop constraints alter how world knowledge informs sentence comprehension.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "diagnostic_tool",
+      "reason": "Evaluates a diagnostic screening combination (VR eye-tracking plus MRI markers) for vascular cognitive impairment. Lacks investigation into underlying cellular or physiological mechanisms.",
+      "angle": "Combining total CSVD imaging burden with virtual reality eye-tracking to improve early detection of vascular mild cognitive impairment.",
+      "mode": "agent"
+    },
+    "f1219abb09df2d5a8654ea44": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "unusual_result",
+      "reason": "Challenges the standard deficit-focused paradigm by demonstrating a mechanism-based cognitive advantage: right frontotemporal impairment releases the left homologue from interhemispheric inhibition, enhancing speech production.",
+      "angle": "How neural competition and loss of interhemispheric inhibition in congenital amusia paradoxically boost speech production.",
+      "mode": "agent"
+    },
+    "73ae7b4fa6c7b9fa7efb2c98": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "epigenetic_mechanism",
+      "reason": "Pinpoints a specific molecular driver of age-related memory decline: Suv39h1-driven accumulation of H3K9me3 in dentate gyrus neurons locks them out of synaptic remodeling. Reversing this epigenetically restores memory in aged mice.",
+      "angle": "Targeting the epigenetic silencer Suv39h1 to unlock stubborn H3K9me3 chromatin locks and restore synaptic plasticity in the aging hippocampus.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "duplicate_coverage",
+      "reason": "Extremely brief snippet/title-only entry with no provided text. Furthermore, sleep-driven brain fluid flow disruption in aging was already covered in recent newsletter briefs.",
+      "angle": "How age-related sleep fragmentation impairs deep brain fluid waves and glymphatic waste clearance.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "ffa65550a0aa1a42ce2d5d6c",
+    "f1219abb09df2d5a8654ea44",
+    "73ae7b4fa6c7b9fa7efb2c98"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "d4018a08049e4ccb1eeedfee",
+    "2c230304f994b1bd3d12c5d7",
+    "13df9d1212b0143af8213a67",
+    "7103411e56536a77aee9e90a"
+  ],
+  "mode": "agent"
+}
