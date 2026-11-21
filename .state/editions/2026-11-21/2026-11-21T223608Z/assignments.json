@@ -1,0 +1,17 @@
+{
+  "edition_angle": "Focusing on early locus coeruleus tauopathy reveals how specific ion channel dysfunctions drive early neurodegenerative pathology and offer actionable therapeutic targets.",
+  "assignments": [
+    {
+      "article_id": "bdfc3f0cd12702f6ade1c2e1",
+      "role": "lead",
+      "angle": "Investigating how early tau pathology in the locus coeruleus triggers potassium channel dysfunction, and demonstrating that pharmacological activation of Kv7 channels mitigates electrophysiological deficits and tauopathy progression.",
+      "confidence": 0.92,
+      "reason": "This study details a precise, biophysical mechanism linking early tau accumulation to Kv7 potassium channel dysfunction in the locus coeruleus, testing a direct pharmacological intervention (retigabine) to restore neuronal excitability and attenuate pathology."
+    }
+  ],
+  "held_back": [
+    "ffa65550a0aa1a42ce2d5d6c",
+    "f1219abb09df2d5a8654ea44"
+  ],
+  "mode": "agent"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "article_id": "bdfc3f0cd12702f6ade1c2e1",
+    "study_type": "Preclinical animal model study",
+    "key_claims": [
+      "Young P301S tau transgenic mice and wild-type mice seeded with human tau fibrils displayed locus coeruleus hyperexcitability alongside reduced low-threshold potassium current density.",
+      "Single-cell expression profiling showed increased stress-associated genes and reduced potassium-channel gene expression, including Kcnq3 and Kcnd1, in locus coeruleus noradrenergic neurons.",
+      "Targeting potassium channels via chronic treatment with the Kv7 opener retigabine attenuated AT8-positive tau burden and was associated with higher TH-positive neuronal density after unilateral tau seeding."
+    ],
+    "limitations": [
+      "The findings are restricted to mouse models and in vitro/ex vivo electrophysiological and pharmacological assays.",
+      "Single-cell RNA sequencing profiling changes were exploratory and present candidate mechanisms rather than established clinical markers.",
+      "The study did not evaluate human clinical outcomes or long-term safety of chronic Kv7 activation."
+    ],
+    "what_not_to_say": [
+      "Do not claim that retigabine or Kv7 activation is a proven clinical treatment or cure for Alzheimer's disease in humans.",
+      "Do not state as fact that potassium channel dysfunction directly causes human cognitive decline based solely on mouse model data.",
+      "Do not imply that surrogate biomarker measurements reflect tissue-specific botanical, anti-inflammatory, joint, enzymatic, or mucosal benefits."
+    ],
+    "confidence": "moderate"
+  }
+]

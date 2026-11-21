@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "entomology / animal behavior",
+      "reason": "Investigates blood meal-induced sleep regulation in mosquitoes (Aedes aegypti). Lacks direct relevance to human healthy aging, longevity, or age-related biological mechanisms.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle association",
+      "reason": "Pure observational correlation linking reading for pleasure to reduced Alzheimer's risk without identifying a concrete cellular, biophysical, or physiological mechanism.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "observational sleep epidemiology",
+      "reason": "Generic epidemiological recommendation regarding sleep duration hours without exploring specific molecular or cellular mechanisms. Also duplicates recent coverage.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "ffa65550a0aa1a42ce2d5d6c": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "neurodevelopmental sensory mechanism",
+      "reason": "Identifies a specific genetic deletion (Shank3) that causes reduced stimulus-evoked suppression and elevated trial-to-trial correlated variability in gustatory cortex neurons, detailing how sensory coding flexibility breaks down in ASD models.",
+      "angle": "How Shank3 deletion disrupts signal-to-noise ratio in the gustatory cortex to impair flexible learning.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "cognitive linguistics / null result",
+      "reason": "Null behavioral/fMRI interaction finding regarding working memory phonological loop constraints and sentence comprehension plausibility, with low relevance to biology of aging.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "clinical diagnostic screening tool",
+      "reason": "Evaluates a clinical combination of MRI markers and VR eye-tracking scores for detecting mild cognitive impairment; lacks basic biological mechanism.",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "topic redundancy",
+      "reason": "While focused on sleep-driven brain fluid flow and aging, the editorial feed already covered this exact story in detail ('aging-brains-lose-the-deep-fluid-waves-that-flush-waste-during-sleep-8ed34ba9').",
+      "angle": "Find the specific change or consequence.",
+      "mode": "agent"
+    },
+    "f1219abb09df2d5a8654ea44": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "novel neural mechanism / counter-intuitive advantage",
+      "reason": "Demonstrates an a priori neurobiological mechanism where right frontotemporal circuit impairment in amusia releases the left homologue from interhemispheric inhibition, creating a specific speech production advantage.",
+      "angle": "How right-hemisphere circuit deficits release left-brain inhibition to unlock enhanced speech production.",
+      "mode": "agent"
+    },
+    "bdfc3f0cd12702f6ade1c2e1": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "biophysical ion channel mechanism",
+      "reason": "Pinpoints early locus coeruleus hyperexcitability in Alzheimer's tauopathy to reduced low-threshold potassium current density, showing that Kv7 channel activation (retigabine) attenuates subsequent pathology.",
+      "angle": "Activating locus coeruleus Kv7 potassium channels to quell early tau-induced neuronal hyperexcitability in Alzheimer's disease.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "ffa65550a0aa1a42ce2d5d6c",
+    "f1219abb09df2d5a8654ea44",
+    "bdfc3f0cd12702f6ade1c2e1"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "d4018a08049e4ccb1eeedfee",
+    "2c230304f994b1bd3d12c5d7",
+    "13df9d1212b0143af8213a67",
+    "7103411e56536a77aee9e90a"
+  ],
+  "mode": "agent"
+}
