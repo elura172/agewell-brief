@@ -2,7 +2,7 @@
 title: "Targeting an epigenetic clamp in aged neurons restores memory and plasticity"
 description: "Researchers discover that aged mice accumulate repressive histone tags that freeze neuronal remodeling, and that genetically removing this molecular clamp restores memory capacity."
 date: 2026-11-21T03:43:33.279455+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "lead"
 edition_rank: 1
@@ -13,6 +13,16 @@ source_name: "bioRxiv neuroscience, genetics, physiology"
 spiral: "Luminous Mind"
 topics: ['brain health', 'cellular senescence', 'longevity']
 frameworks: ['Cell Shedding', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-73ae7b4f"
+image: "/images/editions/2026-11-21/2026-11-21-targeting-an-epigenetic-clamp-in-aged-neurons-restores-memory-and-plas-73ae7b4f-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of an aged neuronal nucleus split across a central fulcrum: condensed chromatin wrapped around histone cylinders locked by repressive clamp wedges on the left, unwinding into open loops and radial synaptic branching on the right as the clamp dissolves."
+image_caption: "Plate — Repressive H3K9me3 chromatin clamps lock aged dentate gyrus neurons out of activity-dependent transcription; lifting the Suv39h1 lock unwinds the strand and restores synaptic remodeling."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Researchers discover that aged mice accumulate repressive histone tags that freeze neuronal remodeling, and that genetically removing this molecular clamp restores memory capacity.

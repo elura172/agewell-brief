@@ -7,7 +7,9 @@ import io
 import json
 import os
 import re
+import sys
 import threading
+import urllib.error
 import urllib.request
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
@@ -503,7 +505,17 @@ def _request_gemini_image(prompt: str, api_key: str) -> bytes | None:
                 inline = part.get("inlineData")
                 if isinstance(inline, dict) and inline.get("data"):
                     return base64.b64decode(inline["data"])
-        except Exception:
+            print(f"Gemini image API ({model_name}): response contained no inlineData image", file=sys.stderr)
+        except urllib.error.HTTPError as exc:
+            detail = ""
+            try:
+                detail = exc.read().decode("utf-8", errors="ignore")[:240].strip()
+            except Exception:
+                pass
+            print(f"Gemini image API ({model_name}) failed: HTTP {exc.code} {exc.reason} {detail}".strip(), file=sys.stderr)
+            continue
+        except Exception as exc:
+            print(f"Gemini image API ({model_name}) failed: {exc}", file=sys.stderr)
             continue
     return None
 

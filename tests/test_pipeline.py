@@ -1406,7 +1406,7 @@ def test_spiral_quota_and_24h_wire_aggregator_cap(monkeypatch, tmp_path: Path):
     assert selected[0].link == "https://pubmed.test/gut"
 
 
-def test_auto_publish_holds_draft_when_lithograph_is_missing(monkeypatch, tmp_path: Path):
+def test_auto_publish_holds_draft_when_strict_lithograph_gate_enabled(monkeypatch, tmp_path: Path):
     item = FeedItem("Mitochondrial cristae remodeling", "Summary", "https://example.test/mito", "", "Aging Cell", 5, "rewrite", "Wiley", "primary")
     story = {
         "headline": "Mitochondrial Cristae Remodeling Restores ATP Synthase Coupling",
@@ -1420,6 +1420,7 @@ def test_auto_publish_holds_draft_when_lithograph_is_missing(monkeypatch, tmp_pa
 
     monkeypatch.setattr(pipeline, "AUTO_PUBLISH", True)
     monkeypatch.setattr(pipeline, "AUTO_PUBLISH_UNTIL", "")
+    monkeypatch.setattr(pipeline, "REQUIRE_LITHOGRAPH_FOR_AUTO_PUBLISH", True)
     monkeypatch.setattr(pipeline, "GEMINI_API_KEY", "")
     monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
     monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
@@ -1441,6 +1442,91 @@ def test_auto_publish_holds_draft_when_lithograph_is_missing(monkeypatch, tmp_pa
     assert pipeline.run() == 0
     post_text = next((tmp_path / "posts").glob("*.md")).read_text(encoding="utf-8")
     assert "draft: true" in post_text
+
+
+def test_auto_publish_ships_text_only_by_default_when_lithograph_unavailable(monkeypatch, tmp_path: Path):
+    item = FeedItem("Mitochondrial cristae remodeling", "Summary", "https://example.test/mito2", "", "Aging Cell", 5, "rewrite", "Wiley", "primary")
+    story = {
+        "headline": "Mitochondrial Cristae Remodeling Restores ATP Synthase Coupling",
+        "dek": "A clear biophysical finding.",
+        "paragraphs": ["Paragraph one.", "Paragraph two."],
+        "bullets": ["First point", "Second point", "Third point"],
+        "caveat": "Preclinical model boundary.",
+    }
+    evidence = EvidencePacket("experimental", ("Claim",), ("Limit",), ("No overclaim",), "high")
+    brief = ImageBrief("Intent", "mitochondria", "Higher Flame", "precise", "lithograph", (), ("mitochondria",))
+
+    monkeypatch.setattr(pipeline, "AUTO_PUBLISH", True)
+    monkeypatch.setattr(pipeline, "AUTO_PUBLISH_UNTIL", "")
+    monkeypatch.setattr(pipeline, "REQUIRE_LITHOGRAPH_FOR_AUTO_PUBLISH", False)
+    monkeypatch.setattr(pipeline, "GEMINI_API_KEY", "")
+    monkeypatch.setattr(pipeline, "DEEPSEEK_API_KEY", "test-key")
+    monkeypatch.setattr(pipeline, "OUTPUT_DIR", tmp_path / "posts")
+    monkeypatch.setattr(pipeline, "STATE_FILE", tmp_path / "processed.json")
+    monkeypatch.setattr(pipeline, "PUBLIC_ROOT", tmp_path / "public")
+    monkeypatch.setattr(pipeline, "EDITION_STATE_ROOT", tmp_path / "editions")
+    monkeypatch.setattr(pipeline, "IMAGE_CACHE_FILE", tmp_path / "image-cache.json")
+    monkeypatch.setattr(pipeline, "IMAGE_LEDGER_FILE", tmp_path / "image-ledger.json")
+    monkeypatch.setattr(pipeline, "feed_sources", lambda: [FeedSource("Aging Cell", "https://example.test/feed")])
+    monkeypatch.setattr(pipeline, "fetch_ranked_items", lambda *_args, **_kwargs: [item])
+    monkeypatch.setattr(pipeline, "choose_edition", lambda _items: [(item, "signal", None)])
+    monkeypatch.setattr(pipeline, "verify_category", lambda *_args, **_kwargs: {"category": "metabolic health", "on_mission": True, "reason": "ok"})
+    monkeypatch.setattr(pipeline, "build_evidence_packet", lambda *_args: evidence)
+    monkeypatch.setattr(pipeline, "draft", lambda *_args: story)
+    monkeypatch.setattr(pipeline, "copy_edit", lambda _c, _m, content, _t: (content, {"status": "approved"}))
+    monkeypatch.setattr(pipeline, "direct_image", lambda *_args, **_kwargs: brief)
+    monkeypatch.setattr(pipeline, "generate_lithograph_plate", lambda *_args, **_kwargs: None)
+
+    assert pipeline.run() == 0
+    post_text = next((tmp_path / "posts").glob("*.md")).read_text(encoding="utf-8")
+    assert "draft: false" in post_text
+
+
+def test_fetch_items_supports_pubmed_esearch_eutilities(monkeypatch):
+    esearch_json = json.dumps({"esearchresult": {"idlist": ["42696146"]}}).encode("utf-8")
+    efetch_xml = (
+        b"<PubmedArticleSet><PubmedArticle>"
+        b"<MedlineCitation><PMID>42696146</PMID><Article>"
+        b"<Journal><JournalIssue><PubDate><Year>2026</Year><Month>Nov</Month><Day>20</Day></PubDate></JournalIssue></Journal>"
+        b"<ArticleTitle>Butyrate restores <i>tight junction</i> integrity in aged gut.</ArticleTitle>"
+        b"<Abstract><AbstractText>Short-chain fatty acids preserve barrier function.</AbstractText></Abstract>"
+        b"</Article></MedlineCitation>"
+        b"</PubmedArticle></PubmedArticleSet>"
+    )
+
+    class FakeResp:
+        def __init__(self, body: bytes):
+            self._body = body
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *_args):
+            return False
+
+        def read(self):
+            return self._body
+
+    def fake_urlopen(req, timeout=30):
+        if "esearch.fcgi" in req.full_url:
+            return FakeResp(esearch_json)
+        assert "efetch.fcgi" in req.full_url and "42696146" in req.full_url
+        return FakeResp(efetch_xml)
+
+    monkeypatch.setattr("agewell.pipeline.urllib.request.urlopen", fake_urlopen)
+    source = FeedSource(
+        "PubMed Inner Garden",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=butyrate",
+        priority=5,
+        publisher="PubMed",
+        authority="primary",
+    )
+    items = pipeline.fetch_items(source)
+    assert len(items) == 1
+    assert items[0].link == "https://pubmed.ncbi.nlm.nih.gov/42696146/"
+    assert items[0].title == "Butyrate restores tight junction integrity in aged gut."
+    assert "Short-chain fatty acids" in items[0].summary
+    assert items[0].published == "2026 Nov 20"
 
 
 def test_cross_outlet_jaccard_deduplication_filters_already_covered_study(tmp_path: Path):

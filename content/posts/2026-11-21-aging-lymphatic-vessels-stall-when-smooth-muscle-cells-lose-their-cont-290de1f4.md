@@ -2,7 +2,7 @@
 title: "Aging Lymphatic Vessels Stall When Smooth Muscle Cells Lose Their Contractile Drive"
 description: "Mouse collecting vessels fail during aging not because their smooth muscle cells die, but because a crucial transcription factor, SRF, quietens and strips the cells of their motor proteins."
 date: 2026-11-21T19:59:55.077548+00:00
-draft: true
+draft: false
 category: "mobility"
 content_type: "signal"
 edition_rank: 2
@@ -15,6 +15,16 @@ autoresearch_antecedents: [{"scientist": "Michael M. Davis and David C. Zawieja"
 evidence_position: "emerging"
 topics: ['longevity', 'mobility']
 frameworks: ['Living Waters']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-290de1f4"
+image: "/images/editions/2026-11-21/2026-11-21-aging-lymphatic-vessels-stall-when-smooth-muscle-cells-lose-their-cont-290de1f4-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a collecting lymphatic vessel transitioning left to right from a tightly banded contractile segment propelling laminar fluid through one-way valves into an aged, dilated vessel whose intact smooth muscle cells have lost their contractile bands, leaving fluid pooled."
+image_caption: "Plate — Aged collecting lymphatic vessels dilate and stall not because mural smooth muscle cells die, but because declining SRF transcription strips them of their contractile motor filaments."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Mouse collecting vessels fail during aging not because their smooth muscle cells die, but because a crucial transcription factor, SRF, quietens and strips the cells of their motor proteins.

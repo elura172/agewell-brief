@@ -87,6 +87,7 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import re
           import subprocess
 
           base = "https://agewellbrief.com"
@@ -100,7 +101,13 @@ jobs:
           for line in changed:
               path = line[3:].strip()
               if path.startswith("content/posts/") and path.endswith(".md"):
-                  slug = Path(path).stem
+                  file_path = Path(path)
+                  if not file_path.is_file():
+                      continue
+                  head = file_path.read_text(encoding="utf-8", errors="ignore")[:1500]
+                  if re.search(r"^draft:\s*true\b", head, re.MULTILINE | re.IGNORECASE):
+                      continue
+                  slug = file_path.stem
                   urls.append(f"{base}/brief/{slug}/")
           Path("/tmp/agewell-indexnow-urls.txt").write_text(
               "\n".join(dict.fromkeys(urls)) + ("\n" if urls else "")

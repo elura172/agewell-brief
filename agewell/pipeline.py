@@ -98,6 +98,7 @@ TREND_CANDIDATE_MIN_SCORE = float(os.getenv("TREND_CANDIDATE_MIN_SCORE", "14"))
 NOVELTY_MIN_SCORE = int(os.getenv("NOVELTY_MIN_SCORE", "58"))
 AUTO_PUBLISH = os.getenv("AUTO_PUBLISH", "false").lower() in {"1", "true", "yes"}
 AUTO_PUBLISH_UNTIL = os.getenv("AUTO_PUBLISH_UNTIL", "")
+REQUIRE_LITHOGRAPH_FOR_AUTO_PUBLISH = os.getenv("REQUIRE_LITHOGRAPH_FOR_AUTO_PUBLISH", "false").lower() in {"1", "true", "yes"}
 PUBLIC_ROOT = Path(os.getenv("PUBLIC_ROOT", ROOT / "public"))
 EDITION_STATE_ROOT = Path(os.getenv("EDITION_STATE_ROOT", ROOT / ".state/editions"))
 IMAGE_CACHE_FILE = Path(os.getenv("IMAGE_CACHE_FILE", ROOT / ".state/image-search-cache.json"))
@@ -312,12 +313,75 @@ BROWSER_USER_AGENT = (
 
 def user_agent_for(url: str, default: str = BROWSER_USER_AGENT) -> str:
     host = (urlsplit(url).hostname or "").lower()
-    if host == "fda.gov" or host.endswith(".fda.gov"):
+    if host == "fda.gov" or host.endswith(".fda.gov") or host == "eutils.ncbi.nlm.nih.gov":
         return HONEST_USER_AGENT
     return default
 
 
+def _fetch_pubmed_esearch_items(source: FeedSource) -> list[FeedItem]:
+    """Fetch recent PubMed articles via NCBI E-utilities esearch JSON + efetch XML."""
+    headers = {
+        "User-Agent": user_agent_for(source.url),
+        "Accept": "application/json, application/xml, text/xml;q=0.9, */*;q=0.8",
+    }
+    search_req = urllib.request.Request(source.url, headers=headers)
+    with urllib.request.urlopen(search_req, timeout=30) as response:
+        payload = json.loads(response.read().decode("utf-8", errors="ignore"))
+    pmids = [
+        str(pid).strip()
+        for pid in (payload.get("esearchresult") or {}).get("idlist", [])
+        if str(pid).strip().isdigit()
+    ][:MAX_ITEMS_PER_FEED]
+    if not pmids:
+        return []
+    efetch_url = (
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+        f"?db=pubmed&retmode=xml&id={','.join(pmids)}"
+    )
+    fetch_req = urllib.request.Request(efetch_url, headers=headers)
+    with urllib.request.urlopen(fetch_req, timeout=30) as response:
+        root = ET.fromstring(sanitize_feed_xml(response.read()))
+
+    results: list[FeedItem] = []
+    for article in root.findall(".//PubmedArticle"):
+        pmid = clean_text(article.findtext(".//MedlineCitation/PMID"))
+        title_node = article.find(".//Article/ArticleTitle")
+        title = clean_text("".join(title_node.itertext())) if title_node is not None else ""
+        abstract_parts = [
+            clean_text("".join(node.itertext()))
+            for node in article.findall(".//Article/Abstract/AbstractText")
+            if clean_text("".join(node.itertext()))
+        ]
+        summary = " ".join(abstract_parts)
+        pub_date = article.find(".//Article/Journal/JournalIssue/PubDate")
+        published = ""
+        if pub_date is not None:
+            year = clean_text(pub_date.findtext("Year"))
+            month = clean_text(pub_date.findtext("Month"))
+            day = clean_text(pub_date.findtext("Day"))
+            medline_date = clean_text(pub_date.findtext("MedlineDate"))
+            published = " ".join(part for part in (year, month, day) if part) or medline_date
+        if pmid and title:
+            results.append(
+                FeedItem(
+                    title,
+                    summary,
+                    f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+                    published,
+                    source.name,
+                    source.priority,
+                    source.headline_mode,
+                    source.publisher or source.name,
+                    source.authority,
+                )
+            )
+    return results[:MAX_ITEMS_PER_FEED]
+
+
 def fetch_items(source: FeedSource) -> list[FeedItem]:
+    parsed = urlsplit(source.url)
+    if (parsed.hostname or "").lower() == "eutils.ncbi.nlm.nih.gov" and "esearch.fcgi" in parsed.path:
+        return _fetch_pubmed_esearch_items(source)
     request = urllib.request.Request(
         source.url,
         headers={
@@ -1697,6 +1761,7 @@ def run() -> int:
         offer_review = commercial_integrity(category, spiral_urls)
         commercial_artifacts.append({"article_id": key, **offer_review})
         release_review = release_manager(item.link, content, offer_review)
+        require_plate = (not publish_automatically) or REQUIRE_LITHOGRAPH_FOR_AUTO_PUBLISH
         release_check = audit_release(
             key,
             item.link,
@@ -1704,10 +1769,11 @@ def run() -> int:
             metadata_status,
             visual_status,
             require_human_review=not publish_automatically,
-            # Hold any brief in draft: true if its lithograph plate is missing
-            # so a local/CI lithograph job can complete the plate before release.
-            require_visual_review=True,
-            require_metadata_review=True,
+            # Hold in draft: true when previewing or when strict lithograph gating is enabled;
+            # otherwise let scheduled runs publish text-only so plates can be backfilled
+            # without stalling the live publication.
+            require_visual_review=require_plate,
+            require_metadata_review=require_plate,
         )
         generated_count += 1
         edition_rank = prior_edition_count + generated_count

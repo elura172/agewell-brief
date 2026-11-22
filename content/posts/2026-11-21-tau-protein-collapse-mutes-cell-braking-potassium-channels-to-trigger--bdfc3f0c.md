@@ -2,7 +2,7 @@
 title: "Tau Protein Collapse Mutes Cell-Braking Potassium Channels to Trigger Brainstem Overactivity"
 description: "Misfolded tau quieted the molecular brakes inside locus coeruleus neurons, sending them into hyperactive firing states that a Kv7 ion channel opener successfully reversed."
 date: 2026-11-21T22:36:08.565249+00:00
-draft: true
+draft: false
 category: "brain health"
 content_type: "signal"
 edition_rank: 3
@@ -15,6 +15,16 @@ autoresearch_antecedents: [{"scientist": "Robert O. Becker", "year": "1985", "di
 evidence_position: "emerging"
 topics: ['brain health']
 frameworks: ['Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-bdfc3f0c"
+image: "/images/editions/2026-11-21/2026-11-21-tau-protein-collapse-mutes-cell-braking-potassium-channels-to-trigger--bdfc3f0c-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a brainstem neuronal membrane where angular misfolded tau aggregates constrict transmembrane potassium pores and trap hyperactive voltage spikes on the left, transitioning to a Kv7 channel propped open with outward ion-flux rays and a calm resting waveform on the right."
+image_caption: "Plate — Early locus coeruleus tauopathy suppresses Kv7 potassium currents and triggers runaway neuronal firing, while pharmacologically opening Kv7 channels restores outward ion flow and resting voltage control."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Misfolded tau quieted the molecular brakes inside locus coeruleus neurons, sending them into hyperactive firing states that a Kv7 ion channel opener successfully reversed.
