@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7bd09e2a0c6a1b5823aa2ca3": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "review_broad_synthesis",
+      "reason": "This is a high-level narrative review summarizing well-known axes (gut-bone, gut-muscle) and standard lifestyle interventions without presenting a single novel empirical finding or precise biophysical mechanism.",
+      "angle": "Why long-term ketogenic or extreme amino acid restriction diets might paradoxically impair bone density and muscle anabolism via microbial shifts.",
+      "mode": "agent"
+    },
+    "08e435b6aad163b5d4d0c20a": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "review_broad_synthesis",
+      "reason": "A broad lifespan review of the gut-brain-immune axis. While medically sound, it repeats established concepts regarding microbial metabolites (SCFAs, tryptophan) and microglial maturation without introducing new primary data.",
+      "angle": "How dietary shifts across the lifespan alter microglial metabolic states and T-cell infiltration into the central nervous system.",
+      "mode": "agent"
+    },
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "non_human_vector_biology",
+      "reason": "Focuses on sleep regulation and host-seeking behavior following blood meals in mosquitoes (Aedes aegypti). It lacks translation or application to human healthspan, biological aging, or mammalian neurology.",
+      "angle": "Post-prandial sleep regulation and circadian clock independence in blood-feeding insect vectors.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic_observational_claims",
+      "reason": "Presents generic observational claims about reading for pleasure reducing Alzheimer's risk and stress. Lacks any molecular, cellular, or rigorous neuroimaging mechanism.",
+      "angle": "Cognitive reserve and stress reduction through reading fiction in older adults.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "null_experimental_finding",
+      "reason": "An fMRI study testing the role of the phonological loop in sentence plausibility processing under articulatory suppression that resulted in null behavioral and neural interactions.",
+      "angle": "Reconsidering the working-memory architecture required to process world-knowledge sentence plausibility.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "clinical_diagnostic_tool",
+      "reason": "Evaluates combining a clinical imaging score with virtual reality eye-tracking for screening mild cognitive impairment. It is primarily a diagnostic scale validation without exploring cellular or biophysical mechanisms.",
+      "angle": "Combining virtual-reality oculomotor metrics with vascular lesion loads to improve early detection of cerebral small vessel disease.",
+      "mode": "agent"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "headline_only_recycled_association",
+      "reason": "Extremely brief stub covering the epidemiological link between non-optimal sleep duration and accelerated aging, a topic already covered extensively in recent newsletter editions.",
+      "angle": "Identifying the U-shaped correlation between sleep duration and systemic biological aging clocks.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "duplicate_coverage",
+      "reason": "Empty text body representing a duplicate of a major paper recently covered on November 20th regarding aging and sleep-driven glymphatic brain fluid flow.",
+      "angle": "How age-dependent loss of deep slow-wave sleep impairs cerebrospinal fluid circulation and brain waste clearance.",
+      "mode": "agent"
+    },
+    "f1219abb09df2d5a8654ea44": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "unusual_finding_mechanism",
+      "reason": "Examines a novel, counterintuitive phenomenon: a neurodevelopmental deficit (congenital amusia) in the right frontotemporal circuit releases interhemispheric inhibition, driving measurable cognitive and speech production advantages via left-side compensatory mechanisms.",
+      "angle": "How right-hemisphere circuit deficits in congenital amusia disinhibit the left homologue to enhance speech production performance.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "f1219abb09df2d5a8654ea44"
+  ],
+  "held_back": [
+    "7bd09e2a0c6a1b5823aa2ca3",
+    "08e435b6aad163b5d4d0c20a",
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "2c230304f994b1bd3d12c5d7",
+    "13df9d1212b0143af8213a67",
+    "d1f0483bd285ad49a95ee3e5",
+    "7103411e56536a77aee9e90a"
+  ],
+  "mode": "agent"
+}
