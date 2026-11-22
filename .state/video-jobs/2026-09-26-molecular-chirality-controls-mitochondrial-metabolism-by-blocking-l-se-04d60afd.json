@@ -1,0 +1,27 @@
+{
+  "status": "ready_for_mpt",
+  "subject": "Molecular Chirality Controls Mitochondrial Metabolism by Blocking L-Serine Transport",
+  "article_url": "https://agewellbrief.com/brief/2026-09-26-molecular-chirality-controls-mitochondrial-metabolism-by-blocking-l-se-04d60afd/",
+  "video_aspect": "9:16",
+  "voice_name": "en-US-AvaNeural",
+  "script": "From Agewell Brief: Molecular Chirality Controls Mitochondrial Metabolism by Blocking L-Serine Transport. Mirror-image stereochemistry alters cellular energy pathways as D-serine competes for mitochondrial entry, choking the one-carbon metabolism required by rapidly dividing neural progenitor and glioblastoma stem cells. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+  "source_url": "https://doi.org/10.1101/2024.09.03.610855",
+  "trend": {
+    "rank": 5,
+    "reader_visits": 4
+  },
+  "text_fore_color": "#FAF6EE",
+  "highlight_color": "#C98B3B",
+  "stroke_color": "#181A1B",
+  "stroke_width": 2,
+  "font_size": 46,
+  "subtitle_bottom_margin": 210,
+  "max_words_per_line": 4,
+  "active_word_scale": 1.06,
+  "uppercase_keywords": false,
+  "bold_keywords": true,
+  "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
+  "subtitle_bg_padding": 12,
+  "subtitle_glow_enabled": false,
+  "requires_video_qa": false
+}
