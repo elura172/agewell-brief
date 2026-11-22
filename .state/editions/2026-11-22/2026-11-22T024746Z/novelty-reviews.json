@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "animal_model_irrelevant",
+      "reason": "Examines dietary protein and circadian clock genes driving post-prandial sleep in mosquitoes. Lacks direct human healthspan or longevity mechanisms.",
+      "angle": "Post-meal sleep dynamics in blood-feeding insect models.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic_association",
+      "reason": "Generic lifestyle recommendation linking fiction reading to reduced Alzheimer's risk without a specific cellular or physiological pathway.",
+      "angle": "Cognitive reserve and leisure reading habits in dementia risk reduction.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "observational_epidemiology",
+      "reason": "Pure observational epidemiology correlating ideal sleep duration (6.4–7.8 hours) with healthy aging. Lacks mechanistic depth.",
+      "angle": "Optimal epidemiological sleep duration windows for longevity.",
+      "mode": "agent"
+    },
+    "ffa65550a0aa1a42ce2d5d6c": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "cellular_mechanism",
+      "reason": "Identifies a specific neural encoding defect: Shank3 deletion impairs stimulus-evoked suppression and trial variability in gustatory cortex neurons, breaking adaptive taste-learning flexibility.",
+      "angle": "How Shank3 deletion degrades cortical signal-to-noise ratios to impair sensory perception updating.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "null_finding",
+      "reason": "An fMRI study examining phonological working memory constraints on sentence comprehension that yielded null/inconclusive interaction results.",
+      "angle": "Testing the limits of phonological loop involvement in semantic sentence processing.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "diagnostic_screening",
+      "reason": "Evaluates a diagnostic combination (VR eye-tracking plus MRI markers) for mild cognitive impairment without probing physical biological mechanisms.",
+      "angle": "VR eye-tracking combined with vascular imaging markers to screen early cognitive impairment.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "duplicate_topic",
+      "reason": "Empty abstract stub corresponding to a topic already covered recently (aging-related decline in deep fluid/glymphatic waves during sleep).",
+      "angle": "Age-related breakdown of nocturnal fluid clearance in the human brain.",
+      "mode": "agent"
+    },
+    "571c0de0c646f523c9c90387": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "generic_advice",
+      "reason": "Routine clinical advice on balance and mobility exercises for older adults. Lacks novelty.",
+      "angle": "Standard mobility and strength exercises for fall prevention in seniors.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "generic_advice",
+      "reason": "Listicle of generic senior balance exercises without new biophysical insights.",
+      "angle": "Home workout routines to support balance in older populations.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "ffa65550a0aa1a42ce2d5d6c"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "d4018a08049e4ccb1eeedfee",
+    "2c230304f994b1bd3d12c5d7",
+    "13df9d1212b0143af8213a67",
+    "7103411e56536a77aee9e90a",
+    "571c0de0c646f523c9c90387",
+    "cadce59ed8f9539ef7a34ac6"
+  ],
+  "mode": "agent"
+}
