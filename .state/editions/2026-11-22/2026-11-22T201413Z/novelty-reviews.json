@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "none",
+      "reason": "This is an insect behavioral/circadian study on mosquitoes (Aedes aegypti) with zero relevance to human aging, longevity, or healthspan.",
+      "angle": "None",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "none",
+      "reason": "Generic observational correlation between leisure reading and reduced dementia risk. Lacks any granular cellular or biophysical mechanism.",
+      "angle": "None",
+      "mode": "agent"
+    },
+    "daad7b1785aa8814a3a30bc7": {
+      "score": 78,
+      "decision": "commission",
+      "novelty_type": "mechanistic insight",
+      "reason": "Provides human intracranial electrophysiology data combined with pharmacological blockade (scopolamine) to challenge existing models of hippocampal theta oscillations, proving theta power and phase reset are involved in memory encoding rather than retrieval.",
+      "angle": "How pharmacological cholinergic blockade in human neurosurgical patients reshapes our understanding of hippocampal theta oscillations and memory encoding.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "screening tool diagnostic",
+      "reason": "A small clinical cross-sectional study evaluating a diagnostic combination (VR eye-tracking + MRI CSVD burden). Lacks basic physiological mechanism and is primarily an incremental screening assessment.",
+      "angle": "None",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "none",
+      "reason": "Routine observational association reporting standard sleep duration ranges for healthy aging without presenting a novel physiological mechanism.",
+      "angle": "None",
+      "mode": "agent"
+    },
+    "f89e8a853c8143bbdea1aa59": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "none",
+      "reason": "Broad institutional progress report (2025 NIH report) lacking a specific single breakthrough discovery or clear mechanistic focus.",
+      "angle": "None",
+      "mode": "agent"
+    },
+    "4d9868983f5e51628bbe3603": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "none",
+      "reason": "Duplicate annual progress report listing high-level institutional milestones without a specific mechanistic finding.",
+      "angle": "None",
+      "mode": "agent"
+    },
+    "f1219abb09df2d5a8654ea44": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "unusual result / theoretical advancement",
+      "reason": "Demonstrates an a priori neurostructural model where impairment in right frontotemporal circuits releases left-hemisphere inhibition, predicting and confirming enhanced speech production in congenital amusia.",
+      "angle": "How right-hemisphere circuit deficits can paradoxically boost left-hemisphere language performance via interhemispheric neural competition.",
+      "mode": "agent"
+    },
+    "680ee0f34e682161e68f6f8f": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "none",
+      "reason": "Small exploratory study on acute exercise responses in young/mid-life adults with spinal cord injury (mean age 43), lacking direct relevance to biological aging or long-term neurodegeneration mechanisms.",
+      "angle": "None",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "daad7b1785aa8814a3a30bc7",
+    "f1219abb09df2d5a8654ea44"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "13df9d1212b0143af8213a67",
+    "d4018a08049e4ccb1eeedfee",
+    "f89e8a853c8143bbdea1aa59",
+    "4d9868983f5e51628bbe3603",
+    "680ee0f34e682161e68f6f8f"
+  ],
+  "mode": "agent"
+}

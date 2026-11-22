@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "daad7b1785aa8814a3a30bc7",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "cb6b4432b48211c4",
+        "source": "Dr. Gilbert Ling (1962) — A Physical Theory of the Living State: Association-Induction Hypothesis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 22
+      },
+      {
+        "source_id": "50ff5aaa9ba9eb69",
+        "source": "Dr. Michael Levin (2012) — The Bioelectric Morphogenetic Code & Anatomical Homeostasis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 17
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
