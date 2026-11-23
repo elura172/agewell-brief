@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "08e435b6aad163b5d4d0c20a",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "c282f56688b23539",
+        "source": "Dr. Vlail Kaznacheev (1976) — The Cytopathic Mirror Effect & Optical Intercellular Transfer",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 23
+      },
+      {
+        "source_id": "50ff5aaa9ba9eb69",
+        "source": "Dr. Michael Levin (2012) — The Bioelectric Morphogenetic Code & Anatomical Homeostasis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 22
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

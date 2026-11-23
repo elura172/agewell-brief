@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7bd09e2a0c6a1b5823aa2ca3": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "broad review",
+      "reason": "This broad literature review synthesizes broad dietary patterns and exercise effects on the gut-joint/muscle axis. It lacks a single novel empirical discovery or precise novel biophysical mechanism.",
+      "angle": "Contrast how long-term ketogenic or protein-restricted regimens may trade off bone density and muscle anabolism despite suppressing joint inflammation.",
+      "mode": "agent"
+    },
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "insect physiology",
+      "reason": "Focuses on sleep regulation and blood-derived dietary protein in mosquitoes (Aedes aegypti), which lacks relevance to human healthspan, biological aging, or longevity.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "08e435b6aad163b5d4d0c20a": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "broad review",
+      "reason": "Summarizes established knowledge about gut-brain-immune crosstalk across the lifespan without presenting a new primary experimental mechanism or actionable clinical insight.",
+      "angle": "Examine how gut-derived short-chain fatty acids regulate microglial maturation and T-cell differentiation to counter inflammaging.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic observational claim",
+      "reason": "Presents generic observational correlation between reading fiction and reduced Alzheimer's risk without offering concrete biological or neurochemical mechanisms.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "epidemiological correlation",
+      "reason": "Standard observational sleep duration correlation (6.4-7.8 hours) without molecular or physiological mechanism; also duplicative of covered sleep duration news.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "null cognitive behavioral study",
+      "reason": "Reports a null interaction between articulatory suppression tasks and sentence plausibility in fMRI, offering minimal reader-stop power or relevance to biological aging.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "diagnostic screening tool",
+      "reason": "Combines MRI small vessel disease burden with virtual reality eye-tracking for MCI detection. It is a clinical diagnostic feasibility study without novel biological mechanisms.",
+      "angle": "Assess whether eye-tracking micro-saccades combined with vessel burden imaging can catch vascular cognitive impairment earlier than traditional MoCA scoring.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "duplicative topic",
+      "reason": "The paper title indicates age-related disruption of sleep-driven brain fluid flow, but the item contains no summary text. Furthermore, deep brain fluid waves and sleep waste flushing were covered in depth in recent editions.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "e3965b7d982937d70c900ee5": {
+      "score": 22,
+      "decision": "hold",
+      "novelty_type": "generic observational association",
+      "reason": "Extremely brief stub note on circadian disturbances and frailty risk in older adults, lacking specific biological pathways or experimental details.",
+      "angle": "None.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [],
+  "held_back": [
+    "7bd09e2a0c6a1b5823aa2ca3",
+    "7d568d70ae094b1bb65bec5a",
+    "08e435b6aad163b5d4d0c20a",
+    "7adb93617f970897a05fdfb4",
+    "d4018a08049e4ccb1eeedfee",
+    "2c230304f994b1bd3d12c5d7",
+    "13df9d1212b0143af8213a67",
+    "7103411e56536a77aee9e90a",
+    "e3965b7d982937d70c900ee5"
+  ],
+  "mode": "agent",
+  "rescue": "No candidate cleared the novelty threshold; retained the strongest available story."
+}
