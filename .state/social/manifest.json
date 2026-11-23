@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T03:29:00.341916+00:00",
+  "updated_at": "2026-11-23T18:18:45.044937+00:00",
   "articles": {
     "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27": {
       "article_id": "2026-08-02-rhythms-of-life-melatonin-nutrition-sleep-and-antioxidant-strategies-f-8112ba27",
@@ -732,7 +732,7 @@
           "updated_at": "2026-08-07T23:40:31.672957+00:00"
         }
       },
-      "updated_at": "2026-11-08T13:31:31.270510+00:00"
+      "updated_at": "2026-11-23T18:18:45.044930+00:00"
     },
     "2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229": {
       "article_id": "2026-08-02-blocking-a-mitochondrial-transporter-may-curb-inflammation-from-zombie-26964229",
@@ -1196,7 +1196,7 @@
           "updated_at": "2026-08-09T23:38:20.521317+00:00"
         }
       },
-      "updated_at": "2026-11-21T14:43:37.279314+00:00"
+      "updated_at": "2026-11-23T18:18:45.044486+00:00"
     },
     "2026-08-02-hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea-shows-downst-6a306820": {
       "article_id": "2026-08-02-hypoglossal-nerve-stimulation-for-obstructive-sleep-apnea-shows-downst-6a306820",
@@ -5372,7 +5372,7 @@
           "updated_at": "2026-11-22T20:16:15.779256+00:00"
         }
       },
-      "updated_at": "2026-11-22T20:16:15.779745+00:00"
+      "updated_at": "2026-11-23T18:18:45.043333+00:00"
     },
     "2026-11-23-microbial-metabolites-wire-the-gut-brain-axis-across-a-lifespan-08e435b6": {
       "article_id": "2026-11-23-microbial-metabolites-wire-the-gut-brain-axis-across-a-lifespan-08e435b6",
@@ -5402,6 +5402,64 @@
         }
       },
       "updated_at": "2026-11-23T03:29:00.341909+00:00"
+    },
+    "2026-11-20-aging-brains-lose-the-deep-fluid-waves-that-flush-waste-during-sleep-8ed34ba9": {
+      "article_id": "2026-11-20-aging-brains-lose-the-deep-fluid-waves-that-flush-waste-during-sleep-8ed34ba9",
+      "article_url": "https://agewellbrief.com/brief/2026-11-20-aging-brains-lose-the-deep-fluid-waves-that-flush-waste-during-sleep-8ed34ba9/",
+      "title": "Aging Brains Lose the Deep Fluid Waves That Flush Waste During Sleep",
+      "category": "brain health",
+      "content_record": ".state/content-records/2026-11-20-aging-brains-lose-the-deep-fluid-waves-that-flush-waste-during-sleep-8ed34ba9.json",
+      "video_job": ".state/video-jobs/2026-11-20-aging-brains-lose-the-deep-fluid-waves-that-flush-waste-during-sleep-8ed34ba9.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-11-23T18:18:45.043342+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-11-23T18:18:45.043345+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-11-23T18:18:45.043347+00:00"
+        }
+      },
+      "updated_at": "2026-11-23T18:18:45.043717+00:00"
+    },
+    "2026-11-21-targeting-an-epigenetic-clamp-in-aged-neurons-restores-memory-and-plas-73ae7b4f": {
+      "article_id": "2026-11-21-targeting-an-epigenetic-clamp-in-aged-neurons-restores-memory-and-plas-73ae7b4f",
+      "article_url": "https://agewellbrief.com/brief/2026-11-21-targeting-an-epigenetic-clamp-in-aged-neurons-restores-memory-and-plas-73ae7b4f/",
+      "title": "Targeting an epigenetic clamp in aged neurons restores memory and plasticity",
+      "category": "brain health",
+      "content_record": ".state/content-records/2026-11-21-targeting-an-epigenetic-clamp-in-aged-neurons-restores-memory-and-plas-73ae7b4f.json",
+      "video_job": ".state/video-jobs/2026-11-21-targeting-an-epigenetic-clamp-in-aged-neurons-restores-memory-and-plas-73ae7b4f.json",
+      "platforms": {
+        "facebook": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-11-23T18:18:45.043729+00:00"
+        },
+        "tiktok": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-11-23T18:18:45.043732+00:00"
+        },
+        "youtube": {
+          "status": "pending",
+          "request_id": null,
+          "job_id": null,
+          "updated_at": "2026-11-23T18:18:45.043734+00:00"
+        }
+      },
+      "updated_at": "2026-11-23T18:18:45.044066+00:00"
     }
   }
 }
