@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "32c4157ae505cdf58be7db1b",
+    "study_type": "Bibliometric and cross-species bioinformatic transcriptomic analysis",
+    "key_claims": [
+      "A cross-species bioinformatic analysis of brain transcriptomic datasets from humans, mice, and rats identified 11 shared differentially expressed genes associated with physiological healthy brain aging.",
+      "Among the identified candidate genes, C1QB demonstrated the highest coding sequence conservation across human, mouse, and rat datasets.",
+      "Functional enrichment analyses (GO and KEGG) indicated that elevated C1QB expression strongly correlates with microglial efferocytosis activation and the phagocytic clearance of intact functional synapses.",
+      "Bibliometric mapping of 480 peer-reviewed articles from 2009 to 2026 identified efferocytosis as an emerging research hotspot alongside classic neuroinflammation and synaptic function pathways."
+    ],
+    "limitations": [
+      "The findings are based entirely on computational, bioinformatic, and bibliometric analyses of existing datasets and lack direct wet-lab experimental validation.",
+      "The analysis evaluated transcriptional correlations and cannot establish a direct causal link between C1QB expression, efferocytosis, and cognitive decline in humans.",
+      "This transcriptomic study relies on computational bioinformatic data and surrogate markers, which do not measure tissue-specific botanical, anti-inflammatory, joint, enzymatic, or mucosal benefits."
+    ],
+    "what_not_to_say": [
+      "Do not claim that C1QB targeting or nutritional interventions have been proven to stop or reverse cognitive decline or synaptic loss in humans.",
+      "Do not state as a proven fact that C1QB directly causes age-related mild cognitive impairment, as the study only identified transcriptional correlations.",
+      "Do not suggest that surrogate gene expression scores or bioinformatic targets measure tissue-specific botanical, anti-inflammatory, joint, enzymatic, or mucosal benefits."
+    ],
+    "confidence": "moderate"
+  }
+]

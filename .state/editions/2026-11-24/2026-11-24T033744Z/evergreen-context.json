@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "32c4157ae505cdf58be7db1b",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "e7e2d20dc3405c28",
+        "source": "Dr. Maiken Nedergaard (2012) — The Glymphatic System & Astrocyte-Mediated Sleep Clearance",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 28
+      },
+      {
+        "source_id": "f6e42c8ae3c5b457",
+        "source": "Dr. Douglas C. Wallace (2005) — A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 23
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

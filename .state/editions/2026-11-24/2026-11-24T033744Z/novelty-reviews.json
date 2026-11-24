@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7bd09e2a0c6a1b5823aa2ca3": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "review_broad_association",
+      "reason": "This is a broad review summarizing known concepts regarding the gut-microbiota axis, exercise, and anti-aging diets. It lacks a specific novel primary discovery or distinct new mechanistic breakthrough.",
+      "angle": "Contrast how specific dietary restrictions (like keto vs. caloric restriction) differentially impact bone density and muscle mass through microbial metabolic pathways.",
+      "mode": "agent"
+    },
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "irrelevant_model_organism",
+      "reason": "Studies mosquito (Aedes aegypti) sleep behavior after a blood meal. While biologically interesting, it has no direct translational or mechanistic relevance to human aging, longevity, or age-related disease.",
+      "angle": "Examine how high-protein dietary spikes alter sleep architecture and circadian clock genes across insect model organisms.",
+      "mode": "agent"
+    },
+    "d1808309226e8d3d89aa3234": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "review_broad_association",
+      "reason": "Another narrative review detailing known gut-bone axis interactions and standard nutritional interventions (prebiotics, postbiotics). Lacks primary mechanistic data or novel experimental findings.",
+      "angle": "Focus strictly on postbiotic butyrate signaling and its direct biophysical effects on osteoblast differentiation in age-related bone loss.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic_lifestyle_observational",
+      "reason": "Presents generic lifestyle advice and observational correlations (reading linked to lower dementia risk) without any concrete cellular or biophysical biological mechanism.",
+      "angle": "Investigate cognitive reserve building through active vs. passive mental tasks and their biological correlates in structural brain imaging.",
+      "mode": "agent"
+    },
+    "32c4157ae505cdf58be7db1b": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "cross_species_genomic_discovery",
+      "reason": "Identifies efferocytosis as an emerging core regulatory hotspot across human, mouse, and rat transcriptomic datasets specifically distinguishing healthy physiological brain aging from pathological neurodegeneration.",
+      "angle": "How cross-species transcriptomics identified microglial efferocytosis—the clearing of dead cells—as the hidden genetic driver preserving synaptic plasticity during non-pathological brain aging.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "null_cognitive_psychology",
+      "reason": "Mainly a cognitive psycholinguistics/fMRI study testing working memory constraints with null interaction results. Does not address aging biology, healthspan, or gerontology.",
+      "angle": "Explore how the phonological loop and working memory components adapt to syntactic sentence processing under dual-task cognitive stress.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "recent_coverage_overlap",
+      "reason": "This topic (sleep-driven brain fluid flow and glymphatic decay during aging) was covered in depth in the brief just days ago (2026-11-20 entry). Lacks new text details in the RSS feed to justify a re-commission.",
+      "angle": "Evaluate recent biophysical models tracking how age-related vascular stiffening restricts slow-wave glymphatic fluid movement.",
+      "mode": "agent"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "headline_only_epidemiology",
+      "reason": "Headline-only stub without text detailing a biological pathway. Correlating sleep duration with accelerated aging without molecular or biophysical mechanisms is low-novelty epidemiology.",
+      "angle": "Analyze how extreme sleep durations alter epigenetic aging clocks and systemic inflammatory markers.",
+      "mode": "agent"
+    },
+    "c07e2c3a260e9f22ba97c45b": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "cellular_biophysical_mechanism",
+      "reason": "Identifies a precise gated mechanism (MIND-sLTD) where persistent dendritic spine shrinkage via mGluR1/5 requires concurrent neuronal activity and de novo protein synthesis, resolving a long-standing conflict in synaptic plasticity research.",
+      "angle": "How researchers resolved a long-standing neurobiology puzzle: mGluR-induced dendritic spine shrinkage requires active background firing, exposing a new mechanism for synaptic remodeling.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "32c4157ae505cdf58be7db1b",
+    "c07e2c3a260e9f22ba97c45b"
+  ],
+  "held_back": [
+    "7bd09e2a0c6a1b5823aa2ca3",
+    "7d568d70ae094b1bb65bec5a",
+    "d1808309226e8d3d89aa3234",
+    "7adb93617f970897a05fdfb4",
+    "2c230304f994b1bd3d12c5d7",
+    "7103411e56536a77aee9e90a",
+    "d1f0483bd285ad49a95ee3e5"
+  ],
+  "mode": "agent"
+}
