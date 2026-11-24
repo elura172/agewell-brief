@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Targeted MXene Nanoparticle Restores Cellular Zinc to Quench Prostate Inflammation in Mice. A triple-action titanium carbide nanoplatform transports zinc past prostatic tissue barriers, neutralizing free radicals and silencing inflammatory gene expression to relieve chronic pelvic pain. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/42668497/",
-  "trend": null,
+  "trend": {
+    "rank": 2,
+    "reader_visits": 11
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#D98A2B",
   "stroke_color": "#181A1B",

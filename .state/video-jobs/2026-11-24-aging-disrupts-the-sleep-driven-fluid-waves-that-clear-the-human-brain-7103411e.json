@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Aging Disrupts the Sleep-Driven Fluid Waves That Clear the Human Brain. New findings show that aging dampens the brain fluid pulses required for nocturnal waste clearance, driven by structural failures in sleep architecture and blood vessel mechanics. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://www.nature.com/articles/s43587-026-01296-8",
-  "trend": null,
+  "trend": {
+    "rank": 1,
+    "reader_visits": 11
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#C98B3B",
   "stroke_color": "#181A1B",

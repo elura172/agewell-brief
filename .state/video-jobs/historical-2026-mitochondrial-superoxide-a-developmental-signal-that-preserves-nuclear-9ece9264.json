@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Mitochondrial superoxide: a developmental signal that preserves nuclear envelope integrity. A new study reveals that a burst of mitochondrial superoxide during development programs long-term nuclear envelope health by curbing unsaturated fat synthesis and lipid peroxidation. Reduced ETC activity preserves nuclear envelope morphology in aging worms. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://pubmed.ncbi.nlm.nih.gov/41634411/",
-  "trend": null,
+  "trend": {
+    "rank": 3,
+    "reader_visits": 11
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#D98A2B",
   "stroke_color": "#181A1B",

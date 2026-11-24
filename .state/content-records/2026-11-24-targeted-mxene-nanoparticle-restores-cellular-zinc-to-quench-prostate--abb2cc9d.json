@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T00:43:03.672897+00:00",
+  "generated_at": "2026-11-24T17:51:43.318617+00:00",
   "article": {
     "article": "2026-11-24-targeted-mxene-nanoparticle-restores-cellular-zinc-to-quench-prostate--abb2cc9d",
     "url": "https://agewellbrief.com/brief/2026-11-24-targeted-mxene-nanoparticle-restores-cellular-zinc-to-quench-prostate--abb2cc9d/",
     "category": "men's health",
-    "trend": null,
+    "trend": {
+      "rank": 2,
+      "reader_visits": 11
+    },
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/42668497/",
     "content_record": {
       "article_id": "2026-11-24-targeted-mxene-nanoparticle-restores-cellular-zinc-to-quench-prostate--abb2cc9d",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Targeted MXene Nanoparticle Restores Cellular Zinc to Quench Prostate Inflammation in Mice. A triple-action titanium carbide nanoplatform transports zinc past prostatic tissue barriers, neutralizing free radicals and silencing inflammatory gene expression to relieve chronic pelvic pain. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/42668497/",
-      "trend": null,
+      "trend": {
+        "rank": 2,
+        "reader_visits": 11
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#D98A2B",
       "stroke_color": "#181A1B",

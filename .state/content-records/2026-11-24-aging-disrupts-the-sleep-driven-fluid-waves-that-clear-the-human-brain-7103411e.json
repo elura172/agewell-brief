@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T06:44:09.752187+00:00",
+  "generated_at": "2026-11-24T17:51:43.318109+00:00",
   "article": {
     "article": "2026-11-24-aging-disrupts-the-sleep-driven-fluid-waves-that-clear-the-human-brain-7103411e",
     "url": "https://agewellbrief.com/brief/2026-11-24-aging-disrupts-the-sleep-driven-fluid-waves-that-clear-the-human-brain-7103411e/",
     "category": "sleep health",
-    "trend": null,
+    "trend": {
+      "rank": 1,
+      "reader_visits": 11
+    },
     "source_url": "https://www.nature.com/articles/s43587-026-01296-8",
     "content_record": {
       "article_id": "2026-11-24-aging-disrupts-the-sleep-driven-fluid-waves-that-clear-the-human-brain-7103411e",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Aging Disrupts the Sleep-Driven Fluid Waves That Clear the Human Brain. New findings show that aging dampens the brain fluid pulses required for nocturnal waste clearance, driven by structural failures in sleep architecture and blood vessel mechanics. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.nature.com/articles/s43587-026-01296-8",
-      "trend": null,
+      "trend": {
+        "rank": 1,
+        "reader_visits": 11
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",
