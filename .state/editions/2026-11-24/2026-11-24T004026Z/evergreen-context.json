@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "abb2cc9d1164399087c0447a",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "669f3413522efc26",
+        "source": "Dr. Roeland van Wijk (2014) — Light in Shaping Life: Biophotonics in Human Bio-Assessment",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 24
+      },
+      {
+        "source_id": "cb6b4432b48211c4",
+        "source": "Dr. Gilbert Ling (1962) — A Physical Theory of the Living State: Association-Induction Hypothesis",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 23
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

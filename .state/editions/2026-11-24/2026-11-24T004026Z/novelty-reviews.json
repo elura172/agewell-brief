@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "insect physiology mechanism",
+      "reason": "While it establishes a precise behavioral definition of sleep and nutritional triggers in Aedes aegypti, mosquito sleep regulation lacks direct application or novelty for human healthy aging and longevity.",
+      "angle": "How blood-meal proteins trigger multi-day sleep states in disease vectors.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle association",
+      "reason": "Observational correlation between reading and cognitive health without any novel biological or physiological mechanism. Fits generic wellness advice that could run any year.",
+      "angle": "The cognitive reserve hypothesis: How lifelong mental stimulation correlates with lower dementia incidence.",
+      "mode": "agent"
+    },
+    "32c4157ae505cdf58be7db1b": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "cross-species molecular mechanism",
+      "reason": "Identifies conserved cross-species transcriptomic targets specific to healthy physiological brain aging, pinpointing efferocytosis (phagocytic clearance of apoptotic material) as a key regulatory driver distinct from pathological neurodegeneration.",
+      "angle": "Beyond neuroinflammation: How optimizing efferocytosis in synaptic microenvironments protects aging brains.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "null cognitive psycholinguistic finding",
+      "reason": "Cognitive fMRI study reporting null/inconclusive interactions between the phonological loop and world-knowledge sentence processing under articulatory suppression; lacks aging relevance and physiological novelty.",
+      "angle": "Neural resource allocation during complex thematic sentence processing.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology",
+      "reason": "Pure observational correlation linking a specific sleep duration range to healthy aging without presenting a novel physical biological pathway.",
+      "angle": "Optimal sleep duration windows in epidemiological longevity cohorts.",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "plant ecotoxicology",
+      "reason": "Agricultural/botanical toxicity study investigating microplastics and heavy metals in cucumber seedlings. Irrelevant to human aging or longevity biology.",
+      "angle": "Imaging microplastic and heavy metal accumulation pathways in crop plant tissues.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "recycled finding",
+      "reason": "Extremely sparse title-only entry; additionally, the topic (aging disrupting sleep-driven glymphatic fluid flow) was already explicitly covered in recent coverage (2026-11-20).",
+      "angle": "Age-related degradation of sleep-dependent glymphatic clearance mechanisms.",
+      "mode": "agent"
+    },
+    "abb2cc9d1164399087c0447a": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "frontier nanotherapeutic mechanism",
+      "reason": "Presents a novel targeted triple-action nanotherapeutic (MXene/Zn2+ complex) that selectively targets inflamed tissue via CD44, upregulates metallothionein 1 (Mt1), and restores intracellular zinc homeostasis to resolve chronic inflammation.",
+      "angle": "Reversing tissue dyshomeostasis: How targeted zinc-coordination nanotherapeutics activate Mt1 to quench chronic inflammation.",
+      "mode": "agent"
+    },
+    "c07e2c3a260e9f22ba97c45b": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "biophysical plasticity mechanism",
+      "reason": "Resolves a long-standing contradiction in synaptic biology by proving that mGluR-induced spine shrinkage requires concurrent background neuronal activity and de novo protein synthesis, establishing a gated mechanism for structural LTD.",
+      "angle": "Activity-gated spine shrinkage: How ongoing network firing unlocks mGluR-dependent structural synaptic weakening.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "32c4157ae505cdf58be7db1b",
+    "abb2cc9d1164399087c0447a",
+    "c07e2c3a260e9f22ba97c45b"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "2c230304f994b1bd3d12c5d7",
+    "d4018a08049e4ccb1eeedfee",
+    "9404da098bb029ddba1c98c8",
+    "7103411e56536a77aee9e90a"
+  ],
+  "mode": "agent"
+}
