@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "animal model biology",
+      "reason": "Study focuses on blood-derived dietary protein regulating sleep behavior in mosquitoes (Aedes aegypti). Zero direct relevance to human longevity, aging, or mammalian healthspan.",
+      "angle": "Irrelevant to human aging.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "observational lifestyle association",
+      "reason": "Recycles well-worn observational associations about reading for pleasure and reduced dementia risk without uncovering a new molecular or physiological mechanism.",
+      "angle": "Generic wellness advice lacking novel biophysical depth.",
+      "mode": "agent"
+    },
+    "13df9d1212b0143af8213a67": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "diagnostic screening tool",
+      "reason": "Clinical screening study combining CSVD imaging burden with virtual reality eye-tracking for mild cognitive impairment. Purely diagnostic and lacks a novel cellular or biophysical pathway.",
+      "angle": "Clinical diagnostic evaluation without a new mechanistic insight.",
+      "mode": "agent"
+    },
+    "b4905f4f2cdc82af5c18a451": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "literature review",
+      "reason": "A broad review article summarizing traditional Chinese medicine interventions for sleep-deprivation-associated multi-organ injury. Lacks primary experimental breakthrough.",
+      "angle": "Broad overview without primary mechanistic novelty.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "epidemiological correlation",
+      "reason": "Purely statistical sleep-duration correlation with longevity. Violates the requirement for a concrete cellular or physiological mechanism.",
+      "angle": "Generic epidemiological statistic without biological mechanism.",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "environmental toxicology",
+      "reason": "Examines microplastics and cadmium toxicity in cucumber seedlings using LA-ICP-MS imaging. Completely outside human healthspan and aging scope.",
+      "angle": "Plant toxicology study irrelevant to human longevity.",
+      "mode": "agent"
+    },
+    "7103411e56536a77aee9e90a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "headline placeholder",
+      "reason": "Stub article headline ('Aging disrupts sleep-driven brain fluid flow') pointing to a known glymphatic concept without providing substantive new text or data in the summary.",
+      "angle": "Too brief and empty to commission.",
+      "mode": "agent"
+    },
+    "571c0de0c646f523c9c90387": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "general fitness",
+      "reason": "Basic balance exercises listicle for seniors. Routine lifestyle content lacking editorial novelty.",
+      "angle": "Standard wellness listicle.",
+      "mode": "agent"
+    },
+    "cadce59ed8f9539ef7a34ac6": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "general fitness",
+      "reason": "Duplicate coverage of basic senior balance exercises. Lacks scientific mechanism or novelty.",
+      "angle": "Standard fitness tips.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "13df9d1212b0143af8213a67",
+    "b4905f4f2cdc82af5c18a451",
+    "d4018a08049e4ccb1eeedfee",
+    "9404da098bb029ddba1c98c8",
+    "7103411e56536a77aee9e90a",
+    "571c0de0c646f523c9c90387",
+    "cadce59ed8f9539ef7a34ac6"
+  ],
+  "mode": "agent",
+  "rescue": "No candidate cleared the novelty threshold; retained the strongest available story."
+}
