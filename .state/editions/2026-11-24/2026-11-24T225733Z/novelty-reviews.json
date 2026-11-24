@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "insect physiology",
+      "reason": "Examines blood-fed postprandial sleep regulation and host-seeking behavior in mosquitoes (Aedes aegypti). Has no direct translational application or biological relevance to human aging or healthy healthspan.",
+      "angle": "Why mosquito sleep behavior after blood meals provides ecological insights into vector control, though irrelevant to human biology.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "observational lifestyle correlation",
+      "reason": "Reports a general epidemiological association linking reading fiction to lower Alzheimer's risk and stress reduction without providing any concrete cellular or biophysical pathway.",
+      "angle": "How cognitive reserve studies correlate reading habits with dementia risk reduction, lacking mechanistic depth.",
+      "mode": "agent"
+    },
+    "54cc47850700cc3c12818123": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "biophysical mechanism",
+      "reason": "Provides a specific physiological and biophysical mechanism in a surgical mouse model, demonstrating how abrupt arterial blood flow and wall shear stress changes cause collagen deposition and intima-media thickening that paralyze venous vasoreactivity in arteriovenous fistulas.",
+      "angle": "How sudden arterial wall shear stress and massive collagen deposition trigger rapid vascular remodeling and failure in surgical arteriovenous access.",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology",
+      "reason": "Empty abstract reporting a general community association between sleep patterns and organ aging. Lacks mechanistic detail or novel intervention.",
+      "angle": "Broad observational link between sleep patterns and multiorgan biological age metrics.",
+      "mode": "agent"
+    },
+    "b4905f4f2cdc82af5c18a451": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "broad literature review",
+      "reason": "A high-level synthesis of existing Traditional Chinese Medicine literature on sleep deprivation and organ injury. Does not report a novel experimental discovery or single mechanistic breakthrough.",
+      "angle": "A overview of proposed botanical compounds and multi-organ pathways disrupted by severe sleep debt.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 32,
+      "decision": "hold",
+      "novelty_type": "observational sleep correlation",
+      "reason": "Recycled epidemiological finding on optimal sleep duration (6.4 to 7.8 hours) for healthy aging. Offers no novel biological mechanism or clinical intervention.",
+      "angle": "Why the standard U-shaped epidemiological sleep curve keeps confirming the ~7-hour sweet spot for longevity.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "cognitive neuroscience / null result",
+      "reason": "A functional MRI study testing working memory constraints and phonological loop involvement in sentence comprehension. The primary finding is a null/equivalent interaction, lacking strong reader-stop impact for an aging audience.",
+      "angle": "How the brain's phonological loop processes sentence plausibility under concurrent cognitive loads.",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "botanical / plant toxicology",
+      "reason": "Focuses entirely on environmental toxicology in cucumber seedlings exposed to microplastics and cadmium. Out of scope for human healthspan and longevity.",
+      "angle": "How irregular microplastic particles synergize with heavy metal toxicity to inhibit seedling tissue growth.",
+      "mode": "agent"
+    },
+    "105eaef42b4c5fc772bba197": {
+      "score": 72,
+      "decision": "commission",
+      "novelty_type": "physiological mechanism / environmental hazard",
+      "reason": "Identifies a specific sex-dependent physiological pathway showing how adolescent blue light exposure at night disrupts dentate gyrus circadian clocks, altering dendritic spine density and neuroplasticity signaling.",
+      "angle": "How nocturnal blue light directly uncouples hippocampal clocks to alter dendritic spine architecture and memory formation.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "54cc47850700cc3c12818123",
+    "105eaef42b4c5fc772bba197"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "50f6c5396a72b8ff5c13f042",
+    "b4905f4f2cdc82af5c18a451",
+    "d4018a08049e4ccb1eeedfee",
+    "2c230304f994b1bd3d12c5d7",
+    "9404da098bb029ddba1c98c8"
+  ],
+  "mode": "agent"
+}
