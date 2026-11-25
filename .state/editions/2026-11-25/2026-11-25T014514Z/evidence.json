@@ -1,0 +1,20 @@
+[
+  {
+    "article_id": "3c19c35f42c3896e1d1a4f97",
+    "study_type": "Preclinical animal study",
+    "key_claims": [
+      "Mice fed a high-fat diet, particularly at 12 months of age, showed reduced gut microbiota diversity, depletion of Muribaculaceae, and decreased short-chain fatty acid (SCFA)-linked functional signatures.",
+      "High-fat diet and age were associated with lower colonic butyrate levels, reduced expression of SCFA receptors (Ffar2, Ffar3) and tight-junction genes (Tjp1, Ocln), mislocalization of barrier proteins (ZO-1, occludin), higher serum LPS and inflammatory cytokines (IL-6, TNF-α), and hippocampal-dependent cognitive and locomotor deficits.",
+      "Sodium butyrate supplementation in an intervention setting restored SCFA receptor and tight-junction expression, improved barrier integrity markers, lowered systemic cytokines, and rescued behavioral performance in mice."
+    ],
+    "limitations": [
+      "The study was conducted in a mouse model, so the observed physiological and behavioral findings may not directly translate to humans.",
+      "The research relies on specific preclinical markers and intervention protocols that require further clinical validation in human populations."
+    ],
+    "what_not_to_say": [
+      "Do not claim that sodium butyrate or Muribaculaceae depletion directly causes or cures cognitive decline or intestinal disorders in humans.",
+      "Do not state that these findings apply to human dietary interventions without further clinical trial evidence."
+    ],
+    "confidence": "high"
+  }
+]

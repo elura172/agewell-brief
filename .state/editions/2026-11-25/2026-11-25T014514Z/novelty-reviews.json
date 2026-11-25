@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7bd09e2a0c6a1b5823aa2ca3": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "nuanced mechanistic trade-offs",
+      "reason": "Offers concrete biological trade-offs rather than generic advice: details how long-term ketogenic or amino acid restriction negatively impacts bone density and muscle anabolism despite metabolic benefits, contrasted with how moderate exercise enriches Akkermansia and SCFA/butyrate production.",
+      "angle": "When Anti-Aging Diets Backfire on Bone and Muscle: Balancing Gut Microbiome Shifts with Musculoskeletal Health",
+      "mode": "agent"
+    },
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "animal model behavior",
+      "reason": "Examines dietary protein and post-prandial sleep regulation in mosquitoes (Aedes aegypti). While biologically interesting, it lacks direct applicability to human aging or adult healthspan.",
+      "angle": "How Dietary Protein Drives Multi-Day Sleep States in Mosquitoes",
+      "mode": "agent"
+    },
+    "3c19c35f42c3896e1d1a4f97": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "specific biological mechanism",
+      "reason": "Identifies a specific microbial family (Muribaculaceae) and its SCFA-linked pathway that breaks down under the combined strain of age and high-fat diet, driving gut epithelial barrier failure, systemic LPS leakage, and hippocampal cognitive deficits.",
+      "angle": "The Collapse of Muribaculaceae: How Age and High-Fat Diets Break the SCFA-Gut-Brain Axis",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic epidemiological correlation",
+      "reason": "Recycled lifestyle advice and broad observational association ('reading fiction reduces risk by 33%') without presenting a concrete biophysical or cellular pathway.",
+      "angle": "Why Reading Books May Lower Dementia Risk",
+      "mode": "agent"
+    },
+    "54cc47850700cc3c12818123": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "specialized surgical mechanics",
+      "reason": "Focuses on murine surgical arteriovenous fistula (AVF) failure mechanisms. Extremely specialized surgical vascular mechanics lacking general interest for healthy aging readers.",
+      "angle": "Disturbed Hemodynamics and Endothelial Dysfunction in Murine Arteriovenous Fistulas",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "empty stub",
+      "reason": "Empty summary stub lacking any mechanistic detail, methodology, or specific findings to evaluate.",
+      "angle": "Association of Sleep Patterns with Organ Aging",
+      "mode": "agent"
+    },
+    "b4905f4f2cdc82af5c18a451": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "broad narrative review",
+      "reason": "A high-level review of broad traditional Chinese medicine formulas across multi-organ sleep deprivation models. Lacks a tight focus on a single verified mechanism or clear translational breakthrough.",
+      "angle": "Evaluating Traditional Chinese Medicine Formulations in Sleep-Deprivation Multi-Organ Stress",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic observational correlation",
+      "reason": "Surface-level headline item repeating generic observational sleep duration correlations (6.4 to 7.8 hours) without presenting cellular or physiological mechanisms.",
+      "angle": "Optimal Sleep Duration Targets for Healthy Longevity",
+      "mode": "agent"
+    },
+    "f89e8a853c8143bbdea1aa59": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "institutional report announcement",
+      "reason": "Broad governmental progress report title with no abstract summary or specific new scientific finding attached.",
+      "angle": "Highlights from the 2025 NIH Alzheimer's Research Progress Report",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "7bd09e2a0c6a1b5823aa2ca3",
+    "3c19c35f42c3896e1d1a4f97"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "54cc47850700cc3c12818123",
+    "50f6c5396a72b8ff5c13f042",
+    "b4905f4f2cdc82af5c18a451",
+    "d4018a08049e4ccb1eeedfee",
+    "f89e8a853c8143bbdea1aa59"
+  ],
+  "mode": "agent"
+}

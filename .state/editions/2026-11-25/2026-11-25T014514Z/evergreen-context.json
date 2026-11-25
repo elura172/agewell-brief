@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "3c19c35f42c3896e1d1a4f97",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "12c50a361ed4f0b3",
+        "source": "Dr. Fritz-Albert Popp (1975) — Biophotonics and Cellular Coherence",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 23
+      },
+      {
+        "source_id": "f6e42c8ae3c5b457",
+        "source": "Dr. Douglas C. Wallace (2005) — A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 20
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
