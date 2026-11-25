@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7bd09e2a0c6a1b5823aa2ca3": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "integrative review",
+      "reason": "It synthesizes known pathways (gut-muscle/bone axes, SCFA, Akkermansia) connecting caloric restriction and moderate exercise to musculoskeletal health, but lacks a newly discovered molecular mechanism or primary empirical novelty.",
+      "angle": "How long-term ketogenic or extreme protein restriction diets can unexpectedly compromise bone density while targeting gut health.",
+      "mode": "agent"
+    },
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "insect physiology",
+      "reason": "Investigates blood-protein-induced postprandial sleep and circadian clock dynamics in mosquitoes, which lacks direct translational relevance to human healthy aging or longevity physiology.",
+      "angle": "How dietary protein intake triggers prolonged sleep states independently of circadian clocks in blood-feeding insects.",
+      "mode": "agent"
+    },
+    "d1808309226e8d3d89aa3234": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "literature review",
+      "reason": "Provides a standard overview of the gut-bone axis, short-chain fatty acids (butyrate), and pre/probiotics for osteoporosis, but presents no fresh primary data or unexpected biophysical mechanism.",
+      "angle": "Targeting the gut-bone axis: how short-chain fatty acids regulate bone microarchitecture in aging populations.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "observational correlation",
+      "reason": "Reports generic observational associations between reading for pleasure and reduced Alzheimer's risk without providing or testing any biological or cellular mechanism.",
+      "angle": "Can reading fiction modulate cognitive reserve and cortisol stress pathways to lower dementia risk?",
+      "mode": "agent"
+    },
+    "54cc47850700cc3c12818123": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "specific biophysical mechanism",
+      "reason": "Demonstrates a concrete biomechanical and vascular pathology: sudden arterial flow and disturbed shear stress post-AVF creation cause >5-fold collagen deposition and intima-media thickening, impairing endothelium-dependent vasorelaxation.",
+      "angle": "Disturbed shear stress and rapid collagen remodeling: why arteriovenous fistulas suffer early endothelial dysfunction.",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "title-only submission",
+      "reason": "Missing abstract and detailed biological content, preventing evaluation of any underlying cellular or biophysical mechanisms.",
+      "angle": "Investigating how disrupted sleep architecture accelerates multi-organ biological age clocks.",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "negative fMRI finding",
+      "reason": "Focuses on cognitive working-memory processing in sentence comprehension with null behavioral/fMRI interaction results, offering minimal relevance to biological aging mechanisms.",
+      "angle": "The neural architecture of sentence processing when phonological working memory is constrained.",
+      "mode": "agent"
+    },
+    "b4905f4f2cdc82af5c18a451": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "ethnopharmacology review",
+      "reason": "Broadly reviews traditional Chinese medicine formulas for sleep-deprivation multi-organ injury, but remains high-level without isolating a specific validated molecular signal.",
+      "angle": "Bridging TCM botanical therapeutics with systemic molecular pathways in sleep deprivation-induced organ injury.",
+      "mode": "agent"
+    },
+    "f89e8a853c8143bbdea1aa59": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "government progress report",
+      "reason": "A high-level institutional annual overview notice lacking specific novel scientific experimental results or molecular insights.",
+      "angle": "Key milestones and translational directions from the NIH annual Alzheimer's progress report.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "54cc47850700cc3c12818123"
+  ],
+  "held_back": [
+    "7bd09e2a0c6a1b5823aa2ca3",
+    "7d568d70ae094b1bb65bec5a",
+    "d1808309226e8d3d89aa3234",
+    "7adb93617f970897a05fdfb4",
+    "50f6c5396a72b8ff5c13f042",
+    "2c230304f994b1bd3d12c5d7",
+    "b4905f4f2cdc82af5c18a451",
+    "f89e8a853c8143bbdea1aa59"
+  ],
+  "mode": "agent"
+}
