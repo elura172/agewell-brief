@@ -13,6 +13,16 @@ source_name: "Frontiers in Nutrition"
 spiral: "Luminous Mind"
 topics: ['brain health', 'longevity']
 frameworks: ['Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-32c4157a"
+image: "/images/editions/2026-11-24/2026-11-24-microglial-synaptic-pruning-keyed-to-conserved-complement-gene-in-agin-32c4157a-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph contrasting a pristine synaptic cleft crossed by burnt-saffron neurotransmitter pulses on the left with terracotta starburst complement tags binding the synaptic membrane and summoning an angular midnight-slate microglial caliper dome for selective engulfment on the right."
+image_caption: "Plate — Conserved C1QB complement tags mark functional synaptic membranes during non-pathological brain aging, recruiting microglial phagocytic arms to selectively prune aging circuits."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Cross-species transcriptomics pinpoint a conserved complement gene driving microglial clearance of functional synapses during non-pathological brain aging.

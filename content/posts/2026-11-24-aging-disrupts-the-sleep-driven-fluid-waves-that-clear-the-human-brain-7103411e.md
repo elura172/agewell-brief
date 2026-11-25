@@ -13,6 +13,16 @@ source_name: "Nature Aging"
 spiral: "Luminous Mind"
 topics: ['brain health', 'longevity', 'metabolic health', 'sleep health']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-7103411e"
+image: "/images/editions/2026-11-24/2026-11-24-aging-disrupts-the-sleep-driven-fluid-waves-that-clear-the-human-brain-7103411e-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph contrasting a supple cerebral arterial cross-section with undulating mineral-sage and saffron elastic lamellae radiating laminar perivascular clearance rings on the left against rigid, fractured terracotta-and-slate wall segments surrounded by choppy stippled debris pockets beneath broken sleep waves on the right."
+image_caption: "Plate — Loss of arterial wall elasticity and fragmented sleep architecture dampen the perivascular pressure waves that flush metabolic waste from the aging human brain."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 New findings show that aging dampens the brain fluid pulses required for nocturnal waste clearance, driven by structural failures in sleep architecture and blood vessel mechanics.

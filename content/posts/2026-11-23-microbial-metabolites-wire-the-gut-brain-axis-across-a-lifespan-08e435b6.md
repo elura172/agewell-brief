@@ -15,6 +15,16 @@ autoresearch_antecedents: [{"scientist": "Metchnikoff, \u00c9lie", "year": "1907
 evidence_position: "speculative"
 topics: ['brain health', 'gut health', 'longevity', 'metabolic health']
 frameworks: ['Higher Flame', 'Inner Garden', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-08e435b6"
+image: "/images/editions/2026-11-23/2026-11-23-microbial-metabolites-wire-the-gut-brain-axis-across-a-lifespan-08e435b6-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph depicting botanical and microbial fermentation strata radiating metabolite spheres across an interlocking intestinal epithelial barrier, ascending through curved Bauhaus vagal meridian arcs into a circular cerebral chamber of symmetrically aligned geometric microglial star-arrays."
+image_caption: "Plate — Microbial metabolites cross an intact intestinal epithelial palisade and ascend along vagal and vascular pathways to guide microglial maturation and calm neuroinflammation across the lifespan."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Nutrients direct immune cell maturation and neural signaling through microbial chemical messengers, offering new insights into neurodevelopment and age-related brain decline.

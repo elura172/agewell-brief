@@ -15,6 +15,16 @@ autoresearch_antecedents: [{"scientist": "Robert O. Becker", "year": "1985", "di
 evidence_position: "speculative"
 topics: ['brain health', 'longevity', 'metabolic health', 'mobility']
 frameworks: ['Higher Flame', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-482fe572"
+image: "/images/editions/2026-11-25/2026-11-25-inert-robotic-limbs-may-starve-the-brain-of-essential-muscle-bone-sign-482fe572-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph contrasting living striated muscle anchored to porous trabecular bone sending saffron and sage endocrine spheres across a curved blood-brain barrier arc to nourish dense neural branches on the left against a hollow carbon-lattice prosthetic limb swinging beneath a severed terracotta blockade line and sparse neural branches on the right."
+image_caption: "Plate — Living muscle-bone loading releases osteocalcin and myokines across the blood-brain barrier to sustain hippocampal plasticity, whereas inert synthetic prosthetics restore movement without that endocrine signal."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Synthetic prosthetics restore mechanical movement, but their lifeless carbon fiber and titanium cannot synthesize the endocrine factors that keep hippocampal neurons alive.

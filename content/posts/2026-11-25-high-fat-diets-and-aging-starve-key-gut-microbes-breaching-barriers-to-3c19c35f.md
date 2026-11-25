@@ -15,6 +15,16 @@ autoresearch_antecedents: [{"scientist": "Martin Picard", "year": "2018", "disco
 evidence_position: "emerging"
 topics: ['brain health', 'gut health', 'longevity']
 frameworks: ['Inner Garden', 'Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-3c19c35f"
+image: "/images/editions/2026-11-25/2026-11-25-high-fat-diets-and-aging-starve-key-gut-microbes-breaching-barriers-to-3c19c35f-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph depicting an ordered mineral-sage colonic epithelial wall beneath flourishing burnt-saffron microbial lattices on the left transitioning across a diagonal fault into dark lipid globules, fractured terracotta barrier gaps, and ascending angular endotoxin shards striking a disrupted hippocampal arch on the right."
+image_caption: "Plate — Aging combined with a high-fat diet starves short-chain fatty acid-producing gut microbes, fracturing colonic tight junctions and sending inflammatory signals upward toward hippocampal memory circuits."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 The combined strain of aging and high-fat intake starves crucial gut microbes, triggering an inflammatory cascade that breaks colonic seals and impairs memory.

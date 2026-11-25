@@ -15,6 +15,16 @@ autoresearch_antecedents: [{"scientist": "Michael Hasselmo", "year": "1995", "di
 evidence_position: "emerging"
 topics: ['brain health', 'consumer safety']
 frameworks: ['Dark Mirror', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-daad7b17"
+image: "/images/editions/2026-11-22/2026-11-22-cholinergic-blockade-proves-hippocampal-theta-rhythm-writes-memories-b-daad7b17-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph of a split hippocampal circuit: phase-coherent burnt-saffron and midnight-slate theta waves locking into synaptic memory-writing nodes on the left, contrasting with terracotta muscarinic blockade caps fracturing the wave above intact geometric retrieval pathways on the right."
+image_caption: "Plate — Muscarinic blockade collapses phase-coherent hippocampal theta rhythms and halts new memory encoding, while leaving previously wired retrieval pathways intact."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 Blocking muscarinic receptors in neurosurgical patients revealed that low-frequency brain waves lock in new neural patterns but become redundant during recall.

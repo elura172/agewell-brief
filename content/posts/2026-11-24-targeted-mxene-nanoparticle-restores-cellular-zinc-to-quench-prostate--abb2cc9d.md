@@ -15,6 +15,16 @@ autoresearch_antecedents: [{"scientist": "Roeland van Wijk", "year": "2014", "di
 evidence_position: "emerging"
 topics: ['brain health', "men's health"]
 frameworks: ['Living Waters', 'Luminous Mind']
+image_provider: "Agewell Visual Desk"
+image_provider_id: "gemini-lithograph-abb2cc9d"
+image: "/images/editions/2026-11-24/2026-11-24-targeted-mxene-nanoparticle-restores-cellular-zinc-to-quench-prostate--abb2cc9d-lithograph.webp"
+image_alt: "Post-constructivist scientific lithograph showing stacked hexagonal titanium carbide nanosheets ferrying golden-ochre zinc spheres across a dense fibrous stromal mesh to dock at cell-surface receptors on the left, opening concentric quenching shields that neutralize jagged terracotta free radicals into laminar mineral-sage streams on the right."
+image_caption: "Plate — Zinc-loaded 2D MXene nanosheets traverse prostatic stromal barriers to engage macrophage receptors, restoring intracellular zinc homeostasis and quenching reactive oxygen cascades."
+image_width: 1376
+image_height: 768
+image_photographer: "Agewell Brief Visual Desk"
+image_review_status: "vision-approved"
+image_avg_color: "#f4efe4"
 ---
 
 A triple-action titanium carbide nanoplatform transports zinc past prostatic tissue barriers, neutralizing free radicals and silencing inflammatory gene expression to relieve chronic pelvic pain.
