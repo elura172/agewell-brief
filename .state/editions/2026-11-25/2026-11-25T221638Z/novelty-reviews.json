@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 18,
+      "decision": "hold",
+      "novelty_type": "insect physiology observation",
+      "reason": "Examines dietary protein-induced sleep regulation in the mosquito Aedes aegypti. Purely entomological with no direct translational relevance to human aging or healthspan.",
+      "angle": "Why mosquitoes sleep after a blood meal",
+      "mode": "agent"
+    },
+    "482fe57249cc91d5e6806869": {
+      "score": 74,
+      "decision": "commission",
+      "novelty_type": "theoretical biomechanism hypothesis",
+      "reason": "Explores a striking, counterintuitive hypothesis in neuroprosthetics ('cyborg dementia'): whether replacing biological limbs with artificial substitutes disrupts critical muscle-bone trophic signaling (myokines and osteokines) necessary for brain health.",
+      "angle": "The hidden neural cost of the cyborg body: how losing muscle-bone cross-talk could accelerate brain aging",
+      "mode": "agent"
+    },
+    "c4e667b32741bc193c501723": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "traditional medicine pharmacology",
+      "reason": "Investigates traditional Chinese medicine formulation effects on neuron-microglia communication in an Alzheimer's mouse model. Relies on standard pharmacological rescue paradigms without breaking new mechanistic ground for aging biology.",
+      "angle": "Mapping the neuron-microglia signaling pathways behind traditional cognitive-support formulas",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "lifestyle correlation",
+      "reason": "Recycles generic reading habit correlations and epidemiological claims about Alzheimer's risk. Lacks cellular mechanisms and offers nothing new to readers.",
+      "angle": "Why opening a novel is a workout for your neural circuits",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "epidemiological association",
+      "reason": "Community-based observational study linking sleep patterns to organ aging. Fails the requirement for a concrete cellular or biophysical mechanism.",
+      "angle": "Mapping how aberrant sleep accelerates multi-organ biological aging",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "observational mortality statistic",
+      "reason": "General media summary of epidemiological sleep duration findings. Purely correlational without direct pathway elucidation.",
+      "angle": "The narrow sleep window tied to lower mortality risk",
+      "mode": "agent"
+    },
+    "1351fb67295a96246b8b7fb0": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "developmental programming study",
+      "reason": "Examines gestational protein restriction and its sexually divergent long-term behavioral and mnemonic outcomes in mice. Interesting lifespan programming model, but focuses broadly on behavioral phenotyping rather than immediate cellular longevity interventions.",
+      "angle": "How maternal diet programs sex-divergent cognitive aging in offspring",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 12,
+      "decision": "hold",
+      "novelty_type": "plant toxicology assay",
+      "reason": "Evaluates microplastics and cadmium interactions in cucumber seedlings using LA-ICP-MS imaging. Completely outside human aging and healthspan scope.",
+      "angle": "How heavy metals alter microplastic distribution in plant tissues",
+      "mode": "agent"
+    },
+    "9954a1533b37521bf063894d": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "human sleep EEG analysis",
+      "reason": "Explores targeted memory reactivation and EEG responses during non-REM sleep in young adults. More cognitive psychology/memory encoding focused than aging biology.",
+      "angle": "Decoding how sleep EEG signatures distinguish learned from novel auditory cues",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "482fe57249cc91d5e6806869"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "c4e667b32741bc193c501723",
+    "7adb93617f970897a05fdfb4",
+    "50f6c5396a72b8ff5c13f042",
+    "d4018a08049e4ccb1eeedfee",
+    "1351fb67295a96246b8b7fb0",
+    "9404da098bb029ddba1c98c8",
+    "9954a1533b37521bf063894d"
+  ],
+  "mode": "agent"
+}
