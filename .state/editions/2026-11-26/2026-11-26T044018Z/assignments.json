@@ -1,0 +1,18 @@
+{
+  "edition_angle": "Focusing on traditional botanical formulations and their cellular mechanisms in mitigating neuroinflammation and microglial communication in neurodegenerative decline.",
+  "assignments": [
+    {
+      "article_id": "c4e667b32741bc193c501723",
+      "role": "lead",
+      "angle": "Investigating how Zhinao Capsules modulate CX3CL1/CX3CR1-centered neuron-microglia communication to protect synaptic integrity and alleviate cognitive impairment in Alzheimer's models.",
+      "confidence": 0.88,
+      "reason": "Provides a clear cellular mechanism (CX3CL1/CX3CR1 signaling axis and microglial-neuron communication) in a validated animal model (APP/PS1 mice) for Alzheimer's disease. It helps balance coverage toward Luminous Mind cellular signaling while avoiding pure epidemiological correlations."
+    }
+  ],
+  "held_back": [
+    "02b216cf176ba31bba4a894e",
+    "7d568d70ae094b1bb65bec5a",
+    "9954a1533b37521bf063894d"
+  ],
+  "mode": "agent"
+}

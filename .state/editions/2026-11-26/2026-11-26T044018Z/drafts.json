@@ -1,0 +1,56 @@
+[
+  {
+    "article_id": "c4e667b32741bc193c501723",
+    "content_type": "signal",
+    "source_title": "CX3CL1/CX3CR1-centered neuron-microglia communication contributes to the neuroprotective effects of Zhinao Capsules in Alzheimer’s disease",
+    "draft": {
+      "headline": "Botanical Extract Restores Sleep Architecture and Clears Amyloid in Alzheimer Mice",
+      "dek": "Oral administration of Zhinao Capsules re-establishes neuron-microglia communication and clears amyloid burden in transgenic mice.",
+      "bullets": [
+        "Oral gavage of Zhinao Capsules restored normal sleep-wake rhythms and spatial memory in APP/PS1 transgenic mice.",
+        "Treatment cleared cortical amyloid deposits, reduced microglial inflammation, and preserved dendritic spines alongside SYN and PSD-95.",
+        "Upregulation of hippocampal CX3CL1/CX3CR1 signaling restored immune balance, with genetic knockdown showing partial pathway dependence."
+      ],
+      "caveat": "The study was performed exclusively in murine models, which may not directly translate to human clinical outcomes or capture complex systemic pharmacokinetics.",
+      "sections": [],
+      "paragraphs": [
+        "To test how traditional herbal mixtures influence neurodegeneration, researchers administered Zhinao Capsules, an eight-ingredient botanical preparation derived from the classical formulation Fu Lao Wan, to six-month-old APP/PS1 transgenic mice for twenty-eight days. The transgenic animals, which model human Alzheimer's disease pathology, displayed severe cognitive deficits, fragmented sleep-wake cycles, amyloid-beta accumulation, and synaptic protein loss. Daily oral gavage of the botanical extract at doses up to 0.936 grams per kilogram restored normal sleep distribution and spatial learning performance while suppressing cortical amyloid deposits and glial overactivation. At the cellular level, the treatment upregulated hippocampal CX3CL1 and CX3CR1 expression, restoring the biochemical handshake between neuronal fractalkine and microglial receptors. In parallel, in vitro co-culture experiments using Transwell plates demonstrated that recombinant CX3CL1 mirrored the protective phenotypes, whereas genetic knockdown of microglial Cx3cr1 partially attenuated the anti-inflammatory and synaptic rescue effects of amnestic botanical mixtures.",
+        "These findings position intercellular fractalkine signaling as a functionally relevant pathway through which complex botanical preparations modulate neuroimmune balance and preserve synaptic structural proteins such as SYN and PSD-95. However, the evidentiary boundaries of the study remain constrained by its animal model design. Surrogate marker measurements of molecular signaling pathways and murine behavioral assays do not measure tissue-specific botanical, anti-inflammatory, joint, enzymatic, or mucosal benefits in humans, and single-time-point plasma mass spectrometry provided qualitative insights rather than a definitive pharmacokinetic profile of maximum concentration."
+      ],
+      "autoresearch_antecedents": [
+        {
+          "scientist": "Maiken Nedergaard",
+          "year": "2012",
+          "discovery": "Discovered the glymphatic waste-clearance pathway, proving that deep slow-wave sleep drives interstitial fluid expansion to flush amyloid-beta from the brain, which illuminates how Zhinao Capsules simultaneously rescue sleep-wake architecture and reduce amyloid pathology in Alzheimer's models."
+        },
+        {
+          "scientist": "Servet Ancel",
+          "year": "2000",
+          "discovery": "Demonstrated that fractalkine signaling via the neuronal CX3CL1 and microglial CX3CR1 axis acts as a primary physiological leash maintaining microglial resting states and protecting synapses from neuroinflammatory damage."
+        }
+      ],
+      "evidence_position": "emerging"
+    },
+    "rules": [
+      "Keep the headline crisp (8-13 words) with a strong active verb and the specific finding; preserve its factual meaning.",
+      "Preserve all methodological caveats and return exactly three sharp bullets.",
+      "Preserve the exact count of sections when sections are present, and the exact count of paragraphs when paragraphs are present.",
+      "Translate dense textbook nominalizations into lucid, concrete physical English without losing mechanistic rigor.",
+      "Never add generic sleep, diet, or exercise advice to laboratory, animal, or post-mortem studies, and never invent claims or studies.",
+      "Never extrapolate a narrow surrogate biomarker (such as blood DNA methylation clocks) into a blanket dismissal of botanical, herbal, or nutritional supplements as a class; keep conclusions scoped to the exact compounds and markers tested.",
+      "Avoid em dashes where commas, colons, or periods read cleaner."
+    ],
+    "bullets": [
+      "Oral administration of Zhinao Capsules improved abnormal sleep-wake distribution and cognitive performance in transgenic mice.",
+      "Treatment reduced cortical amyloid-beta immunoreactivity and glial reactivity while preserving dendritic architecture and synaptic proteins.",
+      "Upregulation of hippocampal CX3CL1/CX3CR1 signaling improved neuroimmune balance, with genetic knockdown showing partial pathway dependence."
+    ],
+    "paragraphs": [
+      "To test how traditional herbal mixtures influence neurodegeneration, researchers administered Zhinao Capsules, an eight-ingredient botanical preparation derived from the classical formulation Fu Lao Wan, to six-month-old APP/PS1 transgenic mice for twenty-eight days. The transgenic animals, which model human Alzheimer's disease pathology, displayed severe cognitive deficits, fragmented sleep-wake cycles, amyloid-beta accumulation, and synaptic protein loss. Daily oral gavage of the botanical extract at doses up to 0.936 grams per kilogram restored normal sleep distribution and spatial learning performance while suppressing cortical amyloid deposits and glial overactivation. At the cellular level, the treatment upregulated hippocampal CX3CL1 and CX3CR1 expression, restoring the biochemical handshake between neuronal fractalkine and microglial receptors. In parallel, in vitro co-culture experiments using Transwell plates demonstrated that recombinant CX3CL1 mirrored the protective phenotypes, whereas genetic knockdown of microglial Cx3cr1 partially attenuated the anti-inflammatory and synaptic rescue effects of the botanical mixture.",
+      "These findings position intercellular fractalkine signaling as a functionally relevant pathway through which complex botanical preparations modulate neuroimmune balance and preserve synaptic structural proteins such as SYN and PSD-95. However, the evidentiary boundaries of the study remain constrained by its animal model design. Surrogate marker measurements of molecular signaling pathways and murine behavioral assays do not measure tissue-specific botanical, anti-inflammatory, joint, enzymatic, or mucosal benefits in humans, and the single-time-point plasma mass spectrometry was qualitative rather than a definitive pharmacokinetic profile of maximum concentration."
+    ],
+    "headline": "Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models",
+    "dek": "Oral administration of Zhinao Capsules re-establishes neuron-microglia communication and clears amyloid burden in transgenic mice.",
+    "caveat": "The study was performed exclusively in murine models, which may not directly translate to human clinical outcomes or capture complex systemic pharmacokinetics."
+  }
+]

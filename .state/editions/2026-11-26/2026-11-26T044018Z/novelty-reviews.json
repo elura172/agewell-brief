@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "02b216cf176ba31bba4a894e": {
+      "score": 62,
+      "decision": "commission",
+      "novelty_type": "named cellular mechanism",
+      "reason": "It details a specific molecular pathway (Lcn2-NLRP3 signaling axis) through which Salidroside (from Rhodiola crenulata) protects blood-brain barrier integrity during acute hypoxic brain injury.",
+      "angle": "How Rhodiola's active compound directly seals the blood-brain barrier under extreme hypoxia by silencing the Lcn2-NLRP3 inflammatory axis.",
+      "mode": "agent"
+    },
+    "7bd09e2a0c6a1b5823aa2ca3": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "broad narrative review",
+      "reason": "While it touches on specific microbial taxa and metabolites (SCFAs, Akkermansia), it is a narrative review synthesizing well-trodden concepts around exercise, gut microbiota, and diet without presenting novel primary mechanistic findings.",
+      "angle": "The double-edged gut: how intense caloric or protein restriction can inadvertently compromise bone density while reshaping the microbiome.",
+      "mode": "agent"
+    },
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 65,
+      "decision": "commission",
+      "novelty_type": "unusual physiological finding",
+      "reason": "Presents a novel, striking behavioural/physiological phenomenon: dietary protein from blood meals triggers multi-day sustained sleep independent of classical circadian clock genes.",
+      "angle": "Post-prandial sleep dynamics: how blood-derived dietary protein overrides circadian machinery to induce prolonged sleep.",
+      "mode": "agent"
+    },
+    "c4e667b32741bc193c501723": {
+      "score": 60,
+      "decision": "commission",
+      "novelty_type": "named cellular pathway",
+      "reason": "Provides a targeted cellular mechanism (CX3CL1/CX3CR1 neuron-microglia communication) explaining how a traditional herbal formula mitigates Alzheimer's sleep-wake disruption and synaptic damage.",
+      "angle": "Restoring neuron-microglia cross-talk: targeting the CX3CL1/CX3CR1 axis to protect synapses and normalize sleep architecture in Alzheimer's models.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic observational reporting",
+      "reason": "Lacks any molecular or cellular mechanism; presents broad lifestyle correlations ('reading fiction reduces Alzheimer's risk by 33%') typical of generic wellness reporting.",
+      "angle": "Why reading for pleasure correlates with lower dementia risk in observational cohorts.",
+      "mode": "agent"
+    },
+    "52ad53b976f098887a16231a": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "translational literature review",
+      "reason": "Summarizes existing clinical trial inconsistencies regarding NAC, folate, and B vitamins in early psychosis; highlights a gap rather than demonstrating a novel breakthrough or clear mechanism.",
+      "angle": "Why antioxidant supplementation fails in clinical psychosis trials despite biochemical target engagement.",
+      "mode": "agent"
+    },
+    "5d04b82ee8e2a2a6e9f4eb63": {
+      "score": 48,
+      "decision": "hold",
+      "novelty_type": "clinical behavioral intervention",
+      "reason": "Focuses on behavioral memory recall in clinical substance addiction. Lacks a cellular/biophysical mechanism and falls outside core aging/healthspan target areas.",
+      "angle": "Evaluating positive autobiographical memory recall as a short-term intervention for affective deficit in early addiction recovery.",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "empty abstract / pure correlation",
+      "reason": "The snippet lacks content/abstract, and the title points to broad observational association between sleep patterns and organ aging.",
+      "angle": "Mapping community-level sleep patterns against multi-organ biological age markers.",
+      "mode": "agent"
+    },
+    "9954a1533b37521bf063894d": {
+      "score": 64,
+      "decision": "commission",
+      "novelty_type": "counter-intuitive / unexpected electrophysiological finding",
+      "reason": "Disconfirms popular assumptions about sleep memory reactivation: shows EEG delta responses distinguish learned cues during sleep, but targeted memory reactivation (TMR) fails to boost memory and actually impairs weak memories.",
+      "angle": "When sleep memory reactivation backfires: electrophysiological evidence that cueing weak memories during sleep impairs retention.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "02b216cf176ba31bba4a894e",
+    "7d568d70ae094b1bb65bec5a",
+    "c4e667b32741bc193c501723",
+    "9954a1533b37521bf063894d"
+  ],
+  "held_back": [
+    "7bd09e2a0c6a1b5823aa2ca3",
+    "7adb93617f970897a05fdfb4",
+    "52ad53b976f098887a16231a",
+    "5d04b82ee8e2a2a6e9f4eb63",
+    "50f6c5396a72b8ff5c13f042"
+  ],
+  "mode": "agent"
+}

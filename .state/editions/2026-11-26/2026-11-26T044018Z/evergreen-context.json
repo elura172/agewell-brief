@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "c4e667b32741bc193c501723",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "e7e2d20dc3405c28",
+        "source": "Dr. Maiken Nedergaard (2012) — The Glymphatic System & Astrocyte-Mediated Sleep Clearance",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 37
+      },
+      {
+        "source_id": "4eaca125856ed9e3",
+        "source": "Dr. Martin Picard (2018) — Mitochondrial Psychobiology & Cellular Energy Resistance",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 23
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
