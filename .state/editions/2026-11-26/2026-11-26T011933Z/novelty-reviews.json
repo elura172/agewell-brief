@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 18,
+      "decision": "hold",
+      "novelty_type": "insect physiology",
+      "reason": "Study focuses entirely on mosquito sleep regulation after blood meals, lacking direct translational relevance to human aging or healthspan.",
+      "angle": "How mosquito sleep biology sheds light on post-meal behavioral shifts",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "routine health advice",
+      "reason": "Recycles generic lifestyle advice about reading for pleasure and dementia risk without presenting new physiological or mechanistic data.",
+      "angle": "Five minutes of fiction: Can a simple reading habit protect your brain?",
+      "mode": "agent"
+    },
+    "52ad53b976f098887a16231a": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "clinical review",
+      "reason": "Review of nutritional and antioxidant interventions in early psychosis highlights inconsistent clinical evidence rather than breaking a concrete new mechanistic pathway.",
+      "angle": "Beyond the supplement stack: Why nutritional interventions in early psychosis remain inconsistent",
+      "mode": "agent"
+    },
+    "c4e667b32741bc193c501723": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "traditional medicine mechanism",
+      "reason": "Examines traditional Chinese medicine formulation effects via CX3CL1/CX3CR1 neuron-microglia communication, but mechanism is confirmatory within AD model contexts.",
+      "angle": "Wiring the immune interface: How traditional capsules protect synapses in Alzheimer's models",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology",
+      "reason": "Empty summary pointing to a large community study on sleep patterns and organ aging without mechanistic validation.",
+      "angle": "Mapping organ aging through community-level sleep pattern analysis",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "observational correlation",
+      "reason": "Pure epidemiological sleep-duration correlation without cellular or physiological mechanism testing.",
+      "angle": "The sweet spot of rest: Why 6.4 to 7.8 hours may define healthy aging",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 12,
+      "decision": "hold",
+      "novelty_type": "environmental toxicology",
+      "reason": "Focuses on microplastics and cadmium toxicity in cucumber seedlings, completely outside the scope of human aging or healthspan.",
+      "angle": "Tracing microplastic and heavy metal synergism in plant tissues",
+      "mode": "agent"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "observational correlation",
+      "reason": "Headline aggregation linking sleep duration to accelerated biological aging clocks without new interventional mechanics.",
+      "angle": "When sleep falters: How duration links to biological aging clocks",
+      "mode": "agent"
+    },
+    "1351fb67295a96246b8b7fb0": {
+      "score": 52,
+      "decision": "hold",
+      "novelty_type": "developmental programming",
+      "reason": "Examines gestational protein restriction and sexually divergent behavioral aging in mice, tracking late-life mnemonic preservation at a hedonic cost. Interesting model, but falls short of a direct cellular repair mechanism.",
+      "angle": "The prenatal bargain: How maternal protein restriction programs sex-specific cognitive aging",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "52ad53b976f098887a16231a",
+    "c4e667b32741bc193c501723",
+    "50f6c5396a72b8ff5c13f042",
+    "d4018a08049e4ccb1eeedfee",
+    "9404da098bb029ddba1c98c8",
+    "d1f0483bd285ad49a95ee3e5",
+    "1351fb67295a96246b8b7fb0"
+  ],
+  "mode": "agent",
+  "rescue": "No candidate cleared the novelty threshold; retained the strongest available story."
+}
