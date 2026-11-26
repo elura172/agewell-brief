@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T04:44:39.539186+00:00",
+  "generated_at": "2026-11-26T16:58:45.025725+00:00",
   "article": {
     "article": "2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3",
     "url": "https://agewellbrief.com/brief/2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 1,
+      "reader_visits": 11
+    },
     "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.2007606",
     "content_record": {
       "article_id": "2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models. Oral administration of Zhinao Capsules re-establishes neuron-microglia communication and clears amyloid burden in transgenic mice. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.2007606",
-      "trend": null,
+      "trend": {
+        "rank": 1,
+        "reader_visits": 11
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",

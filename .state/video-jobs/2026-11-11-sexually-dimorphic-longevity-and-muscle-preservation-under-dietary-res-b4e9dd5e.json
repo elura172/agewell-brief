@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Sexually Dimorphic Longevity and Muscle Preservation under Dietary Restriction. New findings in Nothobranchius furzeri reveal that caloric scarcity drives divergent, sex-specific bioenergetic adaptations in lifespan and somatic maintenance. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.70791?af=R",
-  "trend": null,
+  "trend": {
+    "rank": 5,
+    "reader_visits": 5
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#D98A2B",
   "stroke_color": "#181A1B",

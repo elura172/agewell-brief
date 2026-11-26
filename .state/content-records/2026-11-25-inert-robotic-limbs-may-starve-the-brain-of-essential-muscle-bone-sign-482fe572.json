@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T22:32:45.757766+00:00",
+  "generated_at": "2026-11-26T16:58:45.026248+00:00",
   "article": {
     "article": "2026-11-25-inert-robotic-limbs-may-starve-the-brain-of-essential-muscle-bone-sign-482fe572",
     "url": "https://agewellbrief.com/brief/2026-11-25-inert-robotic-limbs-may-starve-the-brain-of-essential-muscle-bone-sign-482fe572/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 2,
+      "reader_visits": 9
+    },
     "source_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2026.2016031",
     "content_record": {
       "article_id": "2026-11-25-inert-robotic-limbs-may-starve-the-brain-of-essential-muscle-bone-sign-482fe572",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Inert Robotic Limbs May Starve the Brain of Essential Muscle-Bone Signals. Synthetic prosthetics restore mechanical movement, but their lifeless carbon fiber and titanium cannot synthesize the endocrine factors that keep hippocampal neurons alive. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2026.2016031",
-      "trend": null,
+      "trend": {
+        "rank": 2,
+        "reader_visits": 9
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",

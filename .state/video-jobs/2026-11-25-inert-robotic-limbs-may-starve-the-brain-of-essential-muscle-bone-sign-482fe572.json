@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Inert Robotic Limbs May Starve the Brain of Essential Muscle-Bone Signals. Synthetic prosthetics restore mechanical movement, but their lifeless carbon fiber and titanium cannot synthesize the endocrine factors that keep hippocampal neurons alive. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2026.2016031",
-  "trend": null,
+  "trend": {
+    "rank": 2,
+    "reader_visits": 9
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#C98B3B",
   "stroke_color": "#181A1B",

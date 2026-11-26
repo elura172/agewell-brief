@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T23:54:17.813228+00:00",
+  "generated_at": "2026-11-26T16:58:45.027442+00:00",
   "article": {
     "article": "2026-11-11-sexually-dimorphic-longevity-and-muscle-preservation-under-dietary-res-b4e9dd5e",
     "url": "https://agewellbrief.com/brief/2026-11-11-sexually-dimorphic-longevity-and-muscle-preservation-under-dietary-res-b4e9dd5e/",
     "category": "longevity",
-    "trend": null,
+    "trend": {
+      "rank": 5,
+      "reader_visits": 5
+    },
     "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.70791?af=R",
     "content_record": {
       "article_id": "2026-11-11-sexually-dimorphic-longevity-and-muscle-preservation-under-dietary-res-b4e9dd5e",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Sexually Dimorphic Longevity and Muscle Preservation under Dietary Restriction. New findings in Nothobranchius furzeri reveal that caloric scarcity drives divergent, sex-specific bioenergetic adaptations in lifespan and somatic maintenance. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.70791?af=R",
-      "trend": null,
+      "trend": {
+        "rank": 5,
+        "reader_visits": 5
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#D98A2B",
       "stroke_color": "#181A1B",

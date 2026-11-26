@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models. Oral administration of Zhinao Capsules re-establishes neuron-microglia communication and clears amyloid burden in transgenic mice. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.2007606",
-  "trend": null,
+  "trend": {
+    "rank": 1,
+    "reader_visits": 11
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#C98B3B",
   "stroke_color": "#181A1B",
