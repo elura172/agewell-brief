@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "entomology / non-human model",
+      "reason": "Focuses on sleep regulation in mosquitoes (Aedes aegypti) following blood feeding. Lacks relevance to human biological aging, longevity, or human clinical healthspan.",
+      "angle": "N/A - Mosquito feeding dynamics do not align with human healthspan focus.",
+      "mode": "agent"
+    },
+    "9cd77d10d0fc82150358b058": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "narrative review",
+      "reason": "This is a broad narrative mini-review summarizing established concepts on the liver-muscle axis, MASLD/MASH, and sarcopenia without presenting new experimental findings or a newly uncovered specific molecular mechanism.",
+      "angle": "How liver mitochondrial dysfunction directly drives skeletal muscle protein breakdown during protein malnutrition.",
+      "mode": "agent"
+    },
+    "940940d9164302d65ed626d1": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "broad review",
+      "reason": "Re-examines well-trodden phytochemicals (curcumin, berberine, resveratrol) across general Nrf2 and NF-kB pathways. Lacks a highly specific new mechanistic discovery or novel trial data.",
+      "angle": "Epigenetic chromatin remodeling by plant polyphenols: how histone modifications preserve synaptic density under oxidative stress.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology",
+      "reason": "Reports basic correlation between leisure reading and reduced dementia risk. Standard lifestyle correlation with no underlying biological mechanism tested.",
+      "angle": "Cognitive reserve mechanisms: how structured reading alters neural network resilience against beta-amyloid deposition.",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology",
+      "reason": "Empty abstract in source record; title indicates a standard population-level observational association between sleep patterns and organ biological age without detailed physiological mechanisms.",
+      "angle": "Quantifying organ-specific biological age acceleration caused by chronic sleep fragmentation.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "epidemiological correlation",
+      "reason": "Extremely familiar epidemiological baseline (6.4–7.8 hours of sleep). Lacks any novel molecular mechanism and heavily repeats familiar health advice.",
+      "angle": "Why U-shaped sleep duration curves correlate with systemic inflammatory markers in older populations.",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "plant biology / environmental toxicity",
+      "reason": "Investigates microplastic toxicity on cucumber seedlings. Falls under plant biology/agriculture toxicity without direct human physiology or aging application.",
+      "angle": "N/A - Plant toxicity model without human translation.",
+      "mode": "agent"
+    },
+    "1d1aec4fea962e612a9fcbb5": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "marine biology / ecotoxicology",
+      "reason": "Examines microplastic toxicity in tropical sea stars. Irrelevant to human longevity, gerontology, or clinical medicine.",
+      "angle": "N/A - Marine ecotoxicology paper.",
+      "mode": "agent"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 22,
+      "decision": "hold",
+      "novelty_type": "epidemiological correlation",
+      "reason": "Generic headline-only report linking sleep duration to biological age clocks. Lacks actionable insights or novel biophysical pathways over existing literature.",
+      "angle": "Epigenetic clock acceleration: identifying the specific methylation sites disrupted by short sleep duration.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "9cd77d10d0fc82150358b058",
+    "940940d9164302d65ed626d1",
+    "7adb93617f970897a05fdfb4",
+    "50f6c5396a72b8ff5c13f042",
+    "d4018a08049e4ccb1eeedfee",
+    "9404da098bb029ddba1c98c8",
+    "1d1aec4fea962e612a9fcbb5",
+    "d1f0483bd285ad49a95ee3e5"
+  ],
+  "mode": "agent",
+  "rescue": "No candidate cleared the novelty threshold; retained the strongest available story."
+}

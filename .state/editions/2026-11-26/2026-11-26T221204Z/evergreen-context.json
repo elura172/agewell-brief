@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "9cd77d10d0fc82150358b058",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "4f70da432ef323fc",
+        "source": "Dr. Hans Selye (1956) — The Stress of Life & General Adaptation Syndrome",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 35
+      },
+      {
+        "source_id": "4eaca125856ed9e3",
+        "source": "Dr. Martin Picard (2018) — Mitochondrial Psychobiology & Cellular Energy Resistance",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 33
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]
