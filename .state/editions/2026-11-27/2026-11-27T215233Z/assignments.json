@@ -1,0 +1,14 @@
+{
+  "edition_angle": "Exploring how targeted botanical compounds modulate nuclear receptor signaling and adult neurogenesis to counter Alzheimer's-related cognitive impairment.",
+  "assignments": [
+    {
+      "article_id": "9be333b81def2bb7240211cf",
+      "role": "lead",
+      "angle": "Isoacteoside targets the orphan nuclear receptor TLX to stimulate adult neural stem cell proliferation and alleviate amyloid-beta-induced cognitive deficits.",
+      "confidence": 0.88,
+      "reason": "This study demonstrates a specific, mechanistic pathway (TLX nuclear receptor targeting) by which a botanical compound (isoacteoside) promotes neurogenesis and reverses amyloid-beta cognitive damage in an animal model, satisfying the requirement for concrete physiological mechanisms."
+    }
+  ],
+  "held_back": [],
+  "mode": "agent"
+}

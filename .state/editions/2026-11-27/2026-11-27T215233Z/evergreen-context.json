@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "9be333b81def2bb7240211cf",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "f6e42c8ae3c5b457",
+        "source": "Dr. Douglas C. Wallace (2005) — A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 11
+      },
+      {
+        "source_id": "5275e56f1fd16689",
+        "source": "Dr. Alexander Gurwitsch (1923) — Mitogenetic Radiation & Morphogenetic Fields",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 9
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "vector biology / non-human insect model",
+      "reason": "Investigates blood-meal dietary protein regulation of sleep and circadian rhythms in Aedes aegypti mosquitoes. Lacks direct human health, aging, or clinical translation relevance.",
+      "angle": "N/A - Non-human mosquito study.",
+      "mode": "agent"
+    },
+    "08b02bffb5b2ddc5f6e06fd4": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology",
+      "reason": "Pure cross-sectional observational survey (NHANES) linking a blood biomarker ratio (red cell distribution width-to-albumin) with self-reported sleep disturbance. Lacks a concrete mechanistic or causal biophysical validation.",
+      "angle": "N/A - Observational correlation without biological mechanism.",
+      "mode": "agent"
+    },
+    "c4583bde677abcbc81a84c9f": {
+      "score": 12,
+      "decision": "hold",
+      "novelty_type": "ecotoxicology / non-human aquatic organism",
+      "reason": "Ecotoxicology study examining copper, microplastics, and salinity co-exposure in marine medaka fish. Irrelevant to human longevity or healthspan.",
+      "angle": "N/A - Non-human ecotoxicology.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle / broad correlation",
+      "reason": "Generic press release coverage linking recreational reading to reduced Alzheimer's risk. Lacks concrete cellular or physiological mechanism and offers broad, recycled lifestyle advice.",
+      "angle": "N/A - Generic lifestyle correlation.",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "observational association / empty payload",
+      "reason": "Title-only submission regarding sleep patterns and organ aging with no abstract or detailed physiological mechanism provided to evaluate.",
+      "angle": "N/A - Abstract missing.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 32,
+      "decision": "hold",
+      "novelty_type": "recycled epidemiological association",
+      "reason": "Repetitive news headline reporting that 6.4 to 7.8 hours of sleep aids healthy aging. Lacks biological mechanism and mirrors previously published stories.",
+      "angle": "N/A - Recycled observational finding.",
+      "mode": "agent"
+    },
+    "9be333b81def2bb7240211cf": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "mechanistic pharmacological targeted pathway",
+      "reason": "Identifies isoacteoside as a specific TLX-targeting agonist that stimulates adult hippocampal neurogenesis and reverses Aβ-induced cognitive impairment in a rodent model.",
+      "angle": "Targeting the orphan nuclear receptor TLX: How isoacteoside reactivates neural stem cells to rebuild synaptic networks in Alzheimer's models.",
+      "mode": "agent"
+    },
+    "82082d874dfa5b346759731c": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "narrative clinical review / broad guidelines",
+      "reason": "A narrative review synthesizing existing clinical recommendations for sarcopenic obesity in Asian older adults. Provides standard advice on progressive resistance training and protein intake without presenting new biological findings.",
+      "angle": "N/A - Broad clinical review.",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "plant biology / environmental toxicology",
+      "reason": "Investigates microplastic and cadmium uptake in cucumber seedlings using LA-ICP-MS. Lacks human physiological relevance.",
+      "angle": "N/A - Plant toxicology.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "9be333b81def2bb7240211cf"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "08b02bffb5b2ddc5f6e06fd4",
+    "c4583bde677abcbc81a84c9f",
+    "7adb93617f970897a05fdfb4",
+    "50f6c5396a72b8ff5c13f042",
+    "d4018a08049e4ccb1eeedfee",
+    "82082d874dfa5b346759731c",
+    "9404da098bb029ddba1c98c8"
+  ],
+  "mode": "agent"
+}
