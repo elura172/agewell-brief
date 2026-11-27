@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation. Severe protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building. When dietary protein drops to critical levels, the liver undergoes a profound physical transformation. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://www.frontiersin.org/articles/10.3389/fnut.2026.2037128",
-  "trend": null,
+  "trend": {
+    "rank": 2,
+    "reader_visits": 9
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#D98A2B",
   "stroke_color": "#181A1B",

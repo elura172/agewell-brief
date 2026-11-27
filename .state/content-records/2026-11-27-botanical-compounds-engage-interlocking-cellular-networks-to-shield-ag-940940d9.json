@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T01:26:12.086050+00:00",
+  "generated_at": "2026-11-27T16:44:31.047931+00:00",
   "article": {
     "article": "2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9",
     "url": "https://agewellbrief.com/brief/2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 1,
+      "reader_visits": 12
+    },
     "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.1926196",
     "content_record": {
       "article_id": "2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons. Multi-omics analysis reveals how plant molecules modify key regulatory proteins, maintain mitochondrial power grids, and reshape chromatin to halt systems-level neuronal decay. Neurodegenerative conditions like Alzheimer's and Parkinson's do not spring from a single broken protein gear. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.1926196",
-      "trend": null,
+      "trend": {
+        "rank": 1,
+        "reader_visits": 12
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",
