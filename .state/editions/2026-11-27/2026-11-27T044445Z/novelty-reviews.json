@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "entomology / non-human biology",
+      "reason": "Focuses on blood-protein driven sleep regulation in mosquitoes (Aedes aegypti). Has no relevance to human aging, longevity, or age-related disease mechanisms.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "generic observational association",
+      "reason": "Reports on generic reading habits and lifestyle correlation with lower Alzheimer's risk without providing any cellular or biophysical mechanism.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "c4583bde677abcbc81a84c9f": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "aquatic ecotoxicology",
+      "reason": "Examines copper and microplastic co-exposure in marine medaka fish (Oryzias melastigma). Out of scope for human healthspan and age-related editorial focus.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "33c78372e207499b7761a266": {
+      "score": 45,
+      "decision": "hold",
+      "novelty_type": "systematic review / observational imaging correlation",
+      "reason": "A broad review summarizing neuroimaging changes and executive dysfunction in young HIV patients. Lacks a granular novel mechanism or actionable therapeutic intervention.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "2c230304f994b1bd3d12c5d7": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "basic cognitive psychology",
+      "reason": "Null/inconclusive fMRI study on phonological loop involvement in sentence comprehension. Lacks relevance to aging mechanisms or clinical outcomes.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "f89e8a853c8143bbdea1aa59": {
+      "score": 40,
+      "decision": "hold",
+      "novelty_type": "institutional report summary",
+      "reason": "A broad government progress report title without specific data, findings, or novel biological mechanisms provided in the text.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "empty / observational correlation",
+      "reason": "Empty text body provided; title indicates a standard observational association between sleep patterns and organ aging without mechanistic detail.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "agricultural / plant toxicology",
+      "reason": "Investigates microplastic and heavy metal toxicity in cucumber seedlings using elemental imaging. Irrelevant to human longevity or healthy aging.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 35,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology headline",
+      "reason": "Generic press summary linking sleep duration to biological aging without explaining specific underlying pathways or offering actionable novel insights.",
+      "angle": "N/A",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "7adb93617f970897a05fdfb4",
+    "c4583bde677abcbc81a84c9f",
+    "33c78372e207499b7761a266",
+    "2c230304f994b1bd3d12c5d7",
+    "f89e8a853c8143bbdea1aa59",
+    "50f6c5396a72b8ff5c13f042",
+    "9404da098bb029ddba1c98c8",
+    "d1f0483bd285ad49a95ee3e5"
+  ],
+  "mode": "agent",
+  "rescue": "No candidate cleared the novelty threshold; retained the strongest available story."
+}
