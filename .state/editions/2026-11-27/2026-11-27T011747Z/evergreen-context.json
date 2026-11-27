@@ -1,0 +1,23 @@
+[
+  {
+    "article_id": "940940d9164302d65ed626d1",
+    "enabled": true,
+    "hits": [
+      {
+        "source_id": "f6e42c8ae3c5b457",
+        "source": "Dr. Douglas C. Wallace (2005) — A Mitochondrial Bioenergetic Etiology of Complex Aging Diseases",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 28
+      },
+      {
+        "source_id": "4eaca125856ed9e3",
+        "source": "Dr. Martin Picard (2018) — Mitochondrial Psychobiology & Cellular Energy Resistance",
+        "source_kind": "biophysics_lineage",
+        "provenance": "/home/runner/work/agewell-brief/agewell-brief/config/biophysics-lineage.json",
+        "score": 22
+      }
+    ],
+    "policy": "Background framing only; never current medical evidence."
+  }
+]

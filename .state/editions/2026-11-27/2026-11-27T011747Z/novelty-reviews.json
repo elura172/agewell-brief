@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 32,
+      "decision": "hold",
+      "novelty_type": "insect physiology model",
+      "reason": "Investigates blood-protein-induced sleep duration in Aedes aegypti mosquitoes. It offers no actionable human healthspan insights or human physiological mechanisms.",
+      "angle": "Post-prandial sleep dynamics in vector insects.",
+      "mode": "agent"
+    },
+    "940940d9164302d65ed626d1": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "generic narrative review",
+      "reason": "A broad review reiterating well-known multi-target pathways (Nrf2, NF-kB) for standard phytochemicals (curcumin, resveratrol, berberine) without introducing a novel mechanistic discovery.",
+      "angle": "Multi-target mechanisms of botanical compounds in neuroprotection.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic observational reporting",
+      "reason": "Presents generic lifestyle advice linking reading to lower dementia risk and stress reduction without detailing any concrete biophysical or cellular biological mechanism.",
+      "angle": "Cognitive engagement and dementia risk reduction.",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "agricultural botany",
+      "reason": "Focuses on microplastic toxicity and cadmium accumulation in cucumber seedlings. Belongs to plant production/agriculture and lacks human aging relevance.",
+      "angle": "Tissue-specific microplastic and heavy metal dynamics in agricultural crops.",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "empty metadata",
+      "reason": "The abstract is entirely blank, making it impossible to evaluate any specific mechanistic finding or methodology.",
+      "angle": "None.",
+      "mode": "agent"
+    },
+    "33c78372e207499b7761a266": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "systematic review of known pathology",
+      "reason": "Synthesizes existing neuroimaging data on executive function in youth with HIV. Re-confirms expected structural and functional brain alterations without revealing a new biological target or mechanism.",
+      "angle": "Structural and functional neuroimaging signatures of executive dysfunction in HIV.",
+      "mode": "agent"
+    },
+    "1d1aec4fea962e612a9fcbb5": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "marine ecotoxicology",
+      "reason": "Examines microplastic immunotoxicity in tropical sea stars. Lacks application to human aging, physiology, or healthspan.",
+      "angle": "Ecotoxicology of microplastics in marine benthic invertebrates.",
+      "mode": "agent"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "repetitive coverage / observational link",
+      "reason": "Re-aggregates observational correlations between sleep duration and biological aging. This exact topic has been heavily covered in recent primary articles without introducing new mechanics here.",
+      "angle": "Sleep duration non-linear associations with biological clock speed.",
+      "mode": "agent"
+    },
+    "e3965b7d982937d70c900ee5": {
+      "score": 30,
+      "decision": "hold",
+      "novelty_type": "observational epidemiology",
+      "reason": "Headline-only item referencing observational links between circadian disturbances and frailty. Lacks concrete cellular mechanism details in the provided text and overlaps heavily with existing coverage.",
+      "angle": "Circadian rhythm disruption as a risk marker for physical frailty.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "940940d9164302d65ed626d1",
+    "7adb93617f970897a05fdfb4",
+    "9404da098bb029ddba1c98c8",
+    "50f6c5396a72b8ff5c13f042",
+    "33c78372e207499b7761a266",
+    "1d1aec4fea962e612a9fcbb5",
+    "d1f0483bd285ad49a95ee3e5",
+    "e3965b7d982937d70c900ee5"
+  ],
+  "mode": "agent",
+  "rescue": "No candidate cleared the novelty threshold; retained the strongest available story."
+}
