@@ -1,11 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T00:58:42.050785+00:00",
+  "generated_at": "2026-11-28T15:36:50.457209+00:00",
   "article": {
     "article": "2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce",
     "url": "https://agewellbrief.com/brief/2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce/",
     "category": "brain health",
-    "trend": null,
+    "trend": {
+      "rank": 1,
+      "reader_visits": 25
+    },
     "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769298v1?rss=1",
     "content_record": {
       "article_id": "2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce",
@@ -23,7 +26,10 @@
       "voice_name": "en-US-AvaNeural",
       "script": "From Agewell Brief: Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage. Sulfated carbohydrates on neuronal membranes anchor toxic alpha-synuclein aggregates to cell surfaces, preventing the brain's fluid pathways from flushing them away. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
       "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769298v1?rss=1",
-      "trend": null,
+      "trend": {
+        "rank": 1,
+        "reader_visits": 25
+      },
       "text_fore_color": "#FAF6EE",
       "highlight_color": "#C98B3B",
       "stroke_color": "#181A1B",

@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-11-27T16:44:30.971474+00:00",
+  "generated_at": "2026-11-28T15:36:50.398037+00:00",
   "release_status": "published",
   "dry_run": false,
   "schema_version": 3,
   "includes_trending": true,
   "packages": [
     {
-      "article": "2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9",
-      "url": "https://agewellbrief.com/brief/2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9/",
+      "article": "2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce",
+      "url": "https://agewellbrief.com/brief/2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce/",
       "category": "brain health",
       "trend": {
         "rank": 1,
-        "reader_visits": 12
+        "reader_visits": 25
       },
-      "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.1926196",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769298v1?rss=1",
       "content_record": {
-        "article_id": "2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9",
-        "article_url": "https://agewellbrief.com/brief/2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9/",
-        "title": "Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons",
+        "article_id": "2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce",
+        "article_url": "https://agewellbrief.com/brief/2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce/",
+        "title": "Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage",
         "category": "brain health",
-        "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.1926196",
-        "editorial_body": "Multi-omics analysis reveals how plant molecules modify key regulatory proteins, maintain mitochondrial power grids, and reshape chromatin to halt systems-level neuronal decay. Neurodegenerative conditions like Alzheimer's and Parkinson's do not spring from a single broken protein gear. They mark a widespread structural collapse across multiple interconnected cellular support systems. For decades, drug discovery focused on solitary molecular targets, designing synthetic compounds to block individual enzymes or clear isolated amyloid sheets. Yet these single-key drugs consistently fall short in clinical trials, briefly masking symptoms while the underlying neural scaffold continues to disintegrate. The failure lies in the interconnected nature of neuronal destruction. Inside an aging neuron, radical oxygen ions strip electrons from cell membranes, altering structural lipids and damaging metabolic machinery. These oxidized lipids and damaged proteins strain the mitochondria, which leak electrons, spill toxic hydrogen peroxide into the cytoplasm, and lose their capacity to generate ATP. Simultaneously, reactive astrocytes and microglial cells release inflammatory cytokines, while clogged proteasomes fail to digest misfolded protein aggregates. Because each mechanical breakdown accelerates the next, disabling a single downstream enzyme cannot halt the broader structural collapse. Synthesizing over a decade of transcriptomic sequencing, mass spectrometry proteomics, metabolomic profiling, and epigenome mapping reveals how plant-derived compounds interact with complex cellular networks. Rather than binding exclusively to a single active site like targeted pharmaceuticals, neuroactive phytochemicals—including berberine, curcumin, ginsenosides, quercetin, and resveratrol—exert broad biological effects. These molecules act simultaneously across distinct cellular compartments to maintain structural integrity. By cross-referencing multi-omics datasets with historical ethnopharmacology from Ayurveda, Traditional Chinese Medicine, and Amazonian botanical records, researchers tracked how plant molecules alter mRNA transcription and protein phosphorylation across full metabolic pathways. Rather than forcing a single isolated reaction, these complex botanical mixtures tune central signaling nodes. This multi-point regulation helps preserve dendritic spine architecture and maintain synaptic vesicle cycling under sustained oxidative stress. At the physical interface of the cell, plant compounds engage specific protein switches that govern survival circuits. A primary site of action is the Nrf2-Keap1 complex, which controls endogenous antioxidant production. Under baseline conditions, the sensor protein Keap1 holds Nrf2 in the cytoplasm for ubiquitin-tagged destruction. Plant electrophiles directly modify critical cysteine thiol groups on Keap1, changing its shape so Nrf2 can break free and enter the nucleus. Once inside, Nrf2 docks onto antioxidant response elements in the DNA, driving the transcription of protective enzymes like heme oxygenase-1 and NQO1 that neutralize free radicals. Concurrently, these compounds prevent the phosphorylation of IκB, keeping the NF-κB transcription factor trapped in the cytoplasm and silencing inflammatory gene expression. This dual mechanism stabilizes mitochondrial membranes, promoting the selective engulfment of damaged mitochondria through mitophagy while activating PGC-1α to build new metabolic machinery. Epigenetically, plant molecules inhibit histone deacetylases and alter DNA methyltransferase activity, keeping tightly wound chromatin open so survival genes remain accessible. This systemic control aligns with the bioenergetic framework established by Douglas C. Wallace, who demonstrated that age-related neurodegeneration stems from progressive decay in mitochondrial electron transport. Phytochemicals reinforce this core cellular power grid. Translating these biochemical mechanisms into effective human medicines requires overcoming major physiological barriers. Many hydrophobic phytochemicals face poor intestinal absorption, rapid glucuronidation in the liver, and exclusion by P-glycoprotein efflux pumps at the blood-brain barrier, preventing effective concentrations from reaching central neurons. Furthermore, standard laboratory models, such as flat immortalized cell cultures, lack the three-dimensional architecture, metabolic gradient, and specialized glial interactions of the aging human brain. As a result, promising molecular interventions in petri dishes often fail inside complex human tissue. Overcoming these limits demands standardized cultivation and extraction processes to ensure consistent molecular ratios, paired with advanced delivery vehicles like solid lipid nanoparticles that cross the brain's microvasculature. Notably, surrogate systemic markers, such as blood-based DNA methylation clocks, cannot directly confirm tissue-specific anti-inflammatory signaling, localized mitochondrial repair, or structural synaptic preservation in the brain. Until clinical trials evaluate stabilized, brain-permeable formulations, these multi-omics maps serve as blueprints for network-based drug design rather than immediate off-the-shelf cures. Neurodegeneration arises from compounded failures in lipid peroxidation control, mitochondrial electron transport, glial inflammatory cascades, and lysosomal debris clearance. Molecules such as berberine and curcumin covalently alter Keap1 cysteine residues to trigger Nrf2 nuclear translocation while simultaneously blocking NF-κB nuclear entry. Clinical application remains constrained by rapid phase II liver metabolism, poor intestinal transport, and restricted clearance across the blood-brain barrier microvasculature. Reported from Medicinal plants as neuroprotective agents: multi-omics and epigenetic insights from ethnopharmacology (Frontiers in Pharmacology (Ethnopharmacology & Botanicals))."
+        "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769298v1?rss=1",
+        "editorial_body": "Sulfated carbohydrates on neuronal membranes anchor toxic alpha-synuclein aggregates to cell surfaces, preventing the brain's fluid pathways from flushing them away. Parkinson's disease and dementia with Lewy bodies progress as misfolded alpha-synuclein proteins link together into rigid, thread-like fibrils that spread across interconnected brain networks. Neurons secrete these toxic aggregates into the narrow channels between cells, where bulk fluid flow should flush them into the bloodstream. Instead of washing away, the fibrils cling to nearby cell membranes, enter the cytoplasm, and trigger neuronal death. Neuroscientists know that cerebrospinal fluid moving through the brain's glymphatic system cleanses this extracellular space. What remained unexplained was why alpha-synuclein fibrils resist this bulk drainage, anchoring to brain tissue instead of drifting into clearance pathways. The precise physical mechanism pinning these toxic clusters to the neuronal surface had not been captured in living brains. In a bioRxiv preprint, researchers tracked how sugar chains called heparan sulfates govern the movement of extracellular alpha-synuclein. Using mouse models injected with synthetic pre-formed fibrils alongside cell culture assays, the team monitored aggregate dynamics in real time. They found that alpha-synuclein fibrils latch onto negatively charged sulfate groups that branch off these neuronal carbohydrates. When the team genetically altered mice to express less sulfated heparan sulfate on their neuronal membranes, the disease trajectory changed. Animals lacking these dense sulfate groups accumulated far fewer alpha-synuclein aggregates across multiple brain regions, retained significantly more dopamine-producing neurons, and maintained motor function compared to wild-type mice exposed to the same fibril load. The findings reveal a dual mechanism by which sugar sulfation drives neurodegeneration. At the cell surface, densely sulfated heparan sulfate chains act as electrostatic Velcro. Positively charged patches on alpha-synuclein fibrils snap onto the negatively charged sulfates, pulling the aggregates down onto the membrane where they trigger endocytosis and seed internal pathology. Simultaneously, this electrostatic attraction turns the fluid-filled matrix between cells into a sticky mesh. By tracking radiolabeled alpha-synuclein fibrils, the authors observed that highly sulfated sugars physically pin the aggregates in place. In mice with reduced neuronal sulfation, the unbound fibrils moved rapidly through interstitial channels, draining into cerebrospinal fluid pathways and escaping the tissue before invading nearby cells. By identifying heparan sulfate sulfation as a central bottleneck in aggregate removal, this research highlights a distinct therapeutic target: breaking the electrostatic bonds that tie toxic proteins to cell membranes. If small molecules or enzymes can selectively alter these extracellular sugars, therapeutics might simultaneously block neuronal uptake and accelerate the natural flushing of neurotoxic waste. Translating these preclinical findings into human therapies will require precise biochemical control. Because heparan sulfate proteoglycans anchor essential growth factors and maintain structural architecture throughout the nervous system, any targeted intervention must selectively disrupt alpha-synuclein binding without stripping vital cellular scaffolds. Negatively charged sulfate groups on neuronal heparan sulfate chains bind positively charged patches on alpha-synuclein fibrils with high affinity. Genetically stripping these sulfate groups in mice accelerated the bulk flow of fibrils into cerebrospinal fluid pathways and rescued dopaminergic neurons. The structural mechanism demonstrates that extracellular matrix chemistry acts as a physical bottleneck to natural glymphatic clearance. Reported from Neuronal heparan sulfate controls the brain accumulation and glymphatic clearance of pathogenic α-synuclein (bioRxiv neuroscience, genetics, physiology)."
       },
       "mpt_job": {
         "status": "ready_for_mpt",
-        "subject": "Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons",
-        "article_url": "https://agewellbrief.com/brief/2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9/",
+        "subject": "Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage",
+        "article_url": "https://agewellbrief.com/brief/2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce/",
         "video_aspect": "9:16",
         "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons. Multi-omics analysis reveals how plant molecules modify key regulatory proteins, maintain mitochondrial power grids, and reshape chromatin to halt systems-level neuronal decay. Neurodegenerative conditions like Alzheimer's and Parkinson's do not spring from a single broken protein gear. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.1926196",
+        "script": "From Agewell Brief: Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage. Sulfated carbohydrates on neuronal membranes anchor toxic alpha-synuclein aggregates to cell surfaces, preventing the brain's fluid pathways from flushing them away. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769298v1?rss=1",
         "trend": {
           "rank": 1,
-          "reader_visits": 12
+          "reader_visits": 25
         },
         "text_fore_color": "#FAF6EE",
         "highlight_color": "#C98B3B",
@@ -50,50 +50,50 @@
         "requires_video_qa": false
       },
       "facebook": {
-        "title": "Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons\n\nMulti-omics analysis reveals how plant molecules modify key regulatory proteins, maintain mitochondrial power grids, and reshape chromatin to halt systems-level neuronal decay.",
-        "link_url": "https://agewellbrief.com/brief/2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9/"
+        "title": "Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage\n\nSulfated carbohydrates on neuronal membranes anchor toxic alpha-synuclein aggregates to cell surfaces, preventing the brain's fluid pathways from flushing them away.",
+        "link_url": "https://agewellbrief.com/brief/2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce/"
       },
       "tiktok": {
-        "hook": "Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons",
-        "script": "From Agewell Brief: Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons. Multi-omics analysis reveals how plant molecules modify key regulatory proteins, maintain mitochondrial power grids, and reshape chromatin to halt systems-level neuronal decay. Neurodegenerative conditions like Alzheimer's and Parkinson's do not spring from a single broken protein gear. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9/",
+        "hook": "Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage",
+        "script": "From Agewell Brief: Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage. Sulfated carbohydrates on neuronal membranes anchor toxic alpha-synuclein aggregates to cell surfaces, preventing the brain's fluid pathways from flushing them away. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce/",
         "media_status": "ready_for_mpt"
       },
       "youtube": {
-        "title": "Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons",
-        "description": "From Agewell Brief: Botanical Compounds Engage Interlocking Cellular Networks to Shield Aging Neurons. Multi-omics analysis reveals how plant molecules modify key regulatory proteins, maintain mitochondrial power grids, and reshape chromatin to halt systems-level neuronal decay. Neurodegenerative conditions like Alzheimer's and Parkinson's do not spring from a single broken protein gear. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-27-botanical-compounds-engage-interlocking-cellular-networks-to-shield-ag-940940d9/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "title": "Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage",
+        "description": "From Agewell Brief: Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage. Sulfated carbohydrates on neuronal membranes anchor toxic alpha-synuclein aggregates to cell surfaces, preventing the brain's fluid pathways from flushing them away. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-28-neuronal-sugar-chains-trap-toxic-synuclein-fibrils-and-block-glymphati-84cf91ce/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
         "media_status": "ready_for_mpt"
       }
     },
     {
-      "article": "2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10",
-      "url": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/",
-      "category": "metabolic health",
+      "article": "2026-11-28-shed-vessel-ligands-anchor-in-muscle-matrix-to-drive-age-related-decay-6bd9c9f1",
+      "url": "https://agewellbrief.com/brief/2026-11-28-shed-vessel-ligands-anchor-in-muscle-matrix-to-drive-age-related-decay-6bd9c9f1/",
+      "category": "longevity",
       "trend": {
         "rank": 2,
-        "reader_visits": 9
+        "reader_visits": 23
       },
-      "source_url": "https://www.frontiersin.org/articles/10.3389/fnut.2026.2037128",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769149v1?rss=1",
       "content_record": {
-        "article_id": "2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10",
-        "article_url": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/",
-        "title": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation",
-        "category": "metabolic health",
-        "source_url": "https://www.frontiersin.org/articles/10.3389/fnut.2026.2037128",
-        "editorial_body": "Severe protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building. When dietary protein drops to critical levels, the liver undergoes a profound physical transformation. In rodent models of severe protein restriction, overall liver mass shrinks by 27 percent and total organ volume falls by up to 65 percent. At the cellular scale, individual hepatocytes lose roughly 46 percent of their physical volume while the frequency of binucleated cells spikes by 90 percent, marking a failure of cytokinesis during cell division. Mechanistically, this structural remodeling disrupts mitochondrial oxidative phosphorylation, impairs fatty acid beta-oxidation, and elevates reactive oxygen species. In response, damaged hepatocytes leak inflammatory cytokines and trade metabolic stability for survival. When dietary protein returns, hepatocytes expand back toward normal dimensions, but structural inflation does not equal full functional recovery. The underlying mitochondrial machinery and metabolic signaling pathways often remain dysregulated despite the visual restoration of liver tissue. This hepatic instability ripples outward into skeletal muscle, driving a destructive inter-organ feedback loop. In human clinical cohorts with advanced liver disease, sarcopenia affects up to 44 percent of patients, doubling their overall mortality risk. When the damaged liver fails to convert metabolic byproducts like ammonia into urea, elevated blood ammonia triggers muscle-wasting pathways, shutting down anabolic protein synthesis via mTORC1 while ramping up muscle protein degradation through the ubiquitin-proteasome system. Intestinal dysbiosis and a leaky gut barrier exacerbate this decay by spilling bacterial endotoxins into the bloodstream, worsening systemic inflammation. However, while cross-sectional data clearly link hepatic remodeling to muscle loss, these observational models cannot prove direct causality, nor can structural liver metrics assess long-term tissue repair or clinical muscle performance. Severe protein restriction shrinks rodent liver volume by 65 percent and expands binucleated cell frequency by 90 percent. Refeeding inflates hepatocytes back to normal dimensions without repairing damaged mitochondrial machinery or restoring fatty acid breakdown. Advanced liver cirrhosis drives muscle wasting by dumping excess ammonia into systemic circulation, suppressing mTORC1 protein synthesis. Reported from Nutrition, malnutrition, and the liver-muscle axis: metabolic remodeling, oxidative stress, and sarcopenia (Frontiers in Nutrition)."
+        "article_id": "2026-11-28-shed-vessel-ligands-anchor-in-muscle-matrix-to-drive-age-related-decay-6bd9c9f1",
+        "article_url": "https://agewellbrief.com/brief/2026-11-28-shed-vessel-ligands-anchor-in-muscle-matrix-to-drive-age-related-decay-6bd9c9f1/",
+        "title": "Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay",
+        "category": "longevity",
+        "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769149v1?rss=1",
+        "editorial_body": "A protein released by aging blood vessels anchors in collagen matrix, hyperactivating Notch2 receptors to trigger vascular breakdown and muscle wasting. Age strips skeletal muscle of its bulk and strength through primary sarcopenia, while chronic metabolic and systemic illnesses trigger secondary wasting. Researchers found both pathways share a single molecular trigger: a full-length protein called Delta-like ligand 4 (Dll4), shed by the inner lining of aging blood vessels. Once released, Dll4 diffuses into the extracellular matrix between muscle fibers, binding tightly to type I collagen. Bound in place, the protein latches onto Notch2 receptors on adjacent cells, hyperactivating a signaling pathway that halts microvascular repair, forces endothelial cells into irreversible growth arrest, and degrades contractile muscle tissue. Administering sustained Dll4 inhibitors to aged mice cleared the matrix-bound protein, rebuilt capillary networks, restored lost muscle mass, and extended overall lifespan. Human observational data further identified a renal-vascular-muscle axis, demonstrating that kidney dysfunction drives up circulating Dll4 levels to trigger secondary muscle wasting. Because these lifespan extensions and tissue rescues were demonstrated in rodent models and clinical cohorts, converting these vascular mechanisms into human therapeutics requires formal clinical trials. Endothelial cells shed soluble Delta-like ligand 4 (Dll4), which binds directly to type I collagen in muscle interstitial spaces. Trapped Dll4 hyperactivates Notch2 receptors, forcing blood vessel cells into senescence, stripping capillary networks, and destroying muscle contractility. Blocking Dll4 with targeted inhibitors in aged mice restores capillary density, reverses sarcopenia, and extends lifespan. Reported from Endothelium-released Dll4 drives sarcopenia and systemic aging (bioRxiv neuroscience, genetics, physiology)."
       },
       "mpt_job": {
         "status": "ready_for_mpt",
-        "subject": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation",
-        "article_url": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/",
+        "subject": "Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay",
+        "article_url": "https://agewellbrief.com/brief/2026-11-28-shed-vessel-ligands-anchor-in-muscle-matrix-to-drive-age-related-decay-6bd9c9f1/",
         "video_aspect": "9:16",
         "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation. Severe protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building. When dietary protein drops to critical levels, the liver undergoes a profound physical transformation. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://www.frontiersin.org/articles/10.3389/fnut.2026.2037128",
+        "script": "From Agewell Brief: Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay. A protein released by aging blood vessels anchors in collagen matrix, hyperactivating Notch2 receptors to trigger vascular breakdown and muscle wasting. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769149v1?rss=1",
         "trend": {
           "rank": 2,
-          "reader_visits": 9
+          "reader_visits": 23
         },
         "text_fore_color": "#FAF6EE",
         "highlight_color": "#D98A2B",
@@ -111,80 +111,19 @@
         "requires_video_qa": false
       },
       "facebook": {
-        "title": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation\n\nSevere protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building.",
-        "link_url": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/"
+        "title": "Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay\n\nA protein released by aging blood vessels anchors in collagen matrix, hyperactivating Notch2 receptors to trigger vascular breakdown and muscle wasting.",
+        "link_url": "https://agewellbrief.com/brief/2026-11-28-shed-vessel-ligands-anchor-in-muscle-matrix-to-drive-age-related-decay-6bd9c9f1/"
       },
       "tiktok": {
-        "hook": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation",
-        "script": "From Agewell Brief: Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation. Severe protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building. When dietary protein drops to critical levels, the liver undergoes a profound physical transformation. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/",
+        "hook": "Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay",
+        "script": "From Agewell Brief: Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay. A protein released by aging blood vessels anchors in collagen matrix, hyperactivating Notch2 receptors to trigger vascular breakdown and muscle wasting. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-11-28-shed-vessel-ligands-anchor-in-muscle-matrix-to-drive-age-related-decay-6bd9c9f1/",
         "media_status": "ready_for_mpt"
       },
       "youtube": {
-        "title": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation",
-        "description": "From Agewell Brief: Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation. Severe protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building. When dietary protein drops to critical levels, the liver undergoes a profound physical transformation. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
-        "media_status": "ready_for_mpt"
-      }
-    },
-    {
-      "article": "2026-11-19-intranasal-lipid-nanoparticles-deliver-mrna-to-restore-spatial-memory--d826a7db",
-      "url": "https://agewellbrief.com/brief/2026-11-19-intranasal-lipid-nanoparticles-deliver-mrna-to-restore-spatial-memory--d826a7db/",
-      "category": "brain health",
-      "trend": {
-        "rank": 3,
-        "reader_visits": 8
-      },
-      "source_url": "https://medicalxpress.com/news/2026-11-algernon-experimental-nose-memory-mice.html",
-      "content_record": {
-        "article_id": "2026-11-19-intranasal-lipid-nanoparticles-deliver-mrna-to-restore-spatial-memory--d826a7db",
-        "article_url": "https://agewellbrief.com/brief/2026-11-19-intranasal-lipid-nanoparticles-deliver-mrna-to-restore-spatial-memory--d826a7db/",
-        "title": "Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice",
-        "category": "brain health",
-        "source_url": "https://medicalxpress.com/news/2026-11-algernon-experimental-nose-memory-mice.html",
-        "editorial_body": "University of Sydney researchers engineered lipid-encapsulated mRNA nose drops that travel through nasal pathways to reverse spatial memory deficits and shield transgenic mice from Alzheimer's pathology. Crossing the blood-brain barrier remains a central obstacle in neurotherapeutics, as tight junctions between cerebral endothelial cells block large molecular therapies from entering brain parenchyma. To circumvent this wall, University of Sydney researchers engineered nasal drops that send lipid nanoparticles along the olfactory nerve pathway straight into forebrain tissue. Once inside, the messenger RNA instructs host neurons to synthesize targeted therapeutic proteins. When given to aged rodents, this intranasal delivery restored their ability to navigate and recall complex spatial mazes. In transgenic mouse models of Alzheimer's disease, the mRNA drops halted the progressive loss of spatial memory that typically accompanies neurodegeneration. The platform repurposes the lipid nanoparticle shells refined for mRNA vaccines, modifying their chemical composition to target neural circuitry rather than immune cells. By traveling directly through the nasal mucosa into the brain, the formulation delivers genetic instructions without entering systemic blood circulation or requiring invasive brain surgery. Although these rodent trials demonstrate that targeted mRNA expression can rescue memory circuits, the platform remains in early preclinical development. Human trials are necessary to verify that lipid nanoparticles can safely cross human nasal tissue, achieve therapeutic protein production across a far larger brain volume, and halt neurodegenerative disease over years rather than weeks. Lipid nanoparticles slip through olfactory mucosa to deliver messenger RNA directly into forebrain neurons, bypassing the restrictive endothelial junctions of the blood-brain barrier. The genetic treatment restored spatial navigation performance in senescent mice and halted cognitive decay in transgenic Alzheimer's models. The delivery vehicle adapts lipid formulation principles from mRNA vaccines to synthesize therapeutic proteins directly within vulnerable neural circuits. Reported from Inspired by 'Flowers for Algernon,' experimental nose drops improve memory in mice (Medical Xpress Healthy Aging)."
-      },
-      "mpt_job": {
-        "status": "ready_for_mpt",
-        "subject": "Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice",
-        "article_url": "https://agewellbrief.com/brief/2026-11-19-intranasal-lipid-nanoparticles-deliver-mrna-to-restore-spatial-memory--d826a7db/",
-        "video_aspect": "9:16",
-        "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice. University of Sydney researchers engineered lipid-encapsulated mRNA nose drops that travel through nasal pathways to reverse spatial memory deficits and shield transgenic mice from Alzheimer's pathology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://medicalxpress.com/news/2026-11-algernon-experimental-nose-memory-mice.html",
-        "trend": {
-          "rank": 3,
-          "reader_visits": 8
-        },
-        "text_fore_color": "#FAF6EE",
-        "highlight_color": "#C98B3B",
-        "stroke_color": "#181A1B",
-        "stroke_width": 2,
-        "font_size": 46,
-        "subtitle_bottom_margin": 210,
-        "max_words_per_line": 4,
-        "active_word_scale": 1.06,
-        "uppercase_keywords": false,
-        "bold_keywords": true,
-        "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
-        "subtitle_bg_padding": 12,
-        "subtitle_glow_enabled": false,
-        "requires_video_qa": false
-      },
-      "facebook": {
-        "title": "Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice\n\nUniversity of Sydney researchers engineered lipid-encapsulated mRNA nose drops that travel through nasal pathways to reverse spatial memory deficits and shield transgenic mice from Alzheimer's pathology.",
-        "link_url": "https://agewellbrief.com/brief/2026-11-19-intranasal-lipid-nanoparticles-deliver-mrna-to-restore-spatial-memory--d826a7db/"
-      },
-      "tiktok": {
-        "hook": "Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice",
-        "script": "From Agewell Brief: Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice. University of Sydney researchers engineered lipid-encapsulated mRNA nose drops that travel through nasal pathways to reverse spatial memory deficits and shield transgenic mice from Alzheimer's pathology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-11-19-intranasal-lipid-nanoparticles-deliver-mrna-to-restore-spatial-memory--d826a7db/",
-        "media_status": "ready_for_mpt"
-      },
-      "youtube": {
-        "title": "Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice",
-        "description": "From Agewell Brief: Intranasal Lipid Nanoparticles Deliver mRNA to Restore Spatial Memory in Aged Mice. University of Sydney researchers engineered lipid-encapsulated mRNA nose drops that travel through nasal pathways to reverse spatial memory deficits and shield transgenic mice from Alzheimer's pathology. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-19-intranasal-lipid-nanoparticles-deliver-mrna-to-restore-spatial-memory--d826a7db/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "title": "Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay",
+        "description": "From Agewell Brief: Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay. A protein released by aging blood vessels anchors in collagen matrix, hyperactivating Notch2 receptors to trigger vascular breakdown and muscle wasting. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-28-shed-vessel-ligands-anchor-in-muscle-matrix-to-drive-age-related-decay-6bd9c9f1/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
         "media_status": "ready_for_mpt"
       }
     },
@@ -193,8 +132,8 @@
       "url": "https://agewellbrief.com/brief/2026-11-20-microglia-shift-lysosomal-machinery-to-protect-neurons-from-degenerati-4168314a/",
       "category": "brain health",
       "trend": {
-        "rank": 4,
-        "reader_visits": 6
+        "rank": 3,
+        "reader_visits": 17
       },
       "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767890v1?rss=1",
       "content_record": {
@@ -214,8 +153,8 @@
         "script": "From Agewell Brief: Microglia Shift Lysosomal Machinery to Protect Neurons From Degenerative Damage. Striking the CSF1R receptor to clear disease-associated microglia accelerates neuronal death, proving these immune cells deploy a GPNMB protein network to digest toxic brain debris. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
         "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767890v1?rss=1",
         "trend": {
-          "rank": 4,
-          "reader_visits": 6
+          "rank": 3,
+          "reader_visits": 17
         },
         "text_fore_color": "#FAF6EE",
         "highlight_color": "#C98B3B",
@@ -250,33 +189,94 @@
       }
     },
     {
-      "article": "2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2",
-      "url": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/",
-      "category": "general wellness",
+      "article": "2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3",
+      "url": "https://agewellbrief.com/brief/2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3/",
+      "category": "brain health",
       "trend": {
-        "rank": 5,
-        "reader_visits": 5
+        "rank": 4,
+        "reader_visits": 17
       },
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNWctSXQzdGMzdGVpUzVlc0NaS3hWUThQUnhCWVlObGxhWmpNVUwyel92M01BekJEWDRVdXFtR1lYaHVLQmFBbmJfNUR6cHVtclAxY2RMeGRQWmprRUJXRHIxV0VlMnhFcDBoMEhqQWNGSG5tZzRoYmIyS2dMZHZUSGhrSXpOWDV4OXRNMVoxUkptVElueDRBM0hmTURfM0VVcjNUT2Zr?oc=5",
+      "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.2007606",
       "content_record": {
-        "article_id": "2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2",
-        "article_url": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/",
-        "title": "A four-minute daily routine improved chair-stand and balance scores",
-        "category": "general wellness",
-        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNWctSXQzdGMzdGVpUzVlc0NaS3hWUThQUnhCWVlObGxhWmpNVUwyel92M01BekJEWDRVdXFtR1lYaHVLQmFBbmJfNUR6cHVtclAxY2RMeGRQWmprRUJXRHIxV0VlMnhFcDBoMEhqQWNGSG5tZzRoYmIyS2dMZHZUSGhrSXpOWDV4OXRNMVoxUkptVElueDRBM0hmTURfM0VVcjNUT2Zr?oc=5",
-        "editorial_body": "New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming. Time, discomfort, and uncertainty about proper technique often get in the way. Yet mobility loss is a serious concern: reduced strength and balance are linked to falls, which are a leading cause of injury and death among people over 65. This new study from Penn State College of Medicine offers a simpler possibility. Instead of long sessions, just four minutes of daily resistance exercise—like push-ups, chair stands, and stair stepping—led to measurable improvements in strength and balance over 12 weeks. The findings suggest that consistency and simplicity may matter more than duration. That’s a hopeful message for anyone who has felt that exercise is out of reach. It also points to a practical way to support independence, which is central to quality of life as we age. The research, published in PLOS One, followed 97 adults aged 65 and older, with an average age of 74. Participants were randomly assigned to either a four-minute daily routine called FAST-2 or to continue their usual activities. At the start, they were quite inactive, averaging only about 18 minutes of exercise per week. The FAST-2 routine included four exercises: push-ups (against a wall or countertop), chair stands, two-arm rows with resistance bands, and stair stepping. Each movement was done for 30 seconds, followed by 30 seconds of rest, totaling four minutes. Participants could adjust the exercises to their comfort level, and they received virtual guidance. After three months, those in the exercise group showed clear gains. They completed an average of 4.2 more repetitions in a 30-second chair stand test, improved one-leg balance time by 3.6 seconds, and reduced the time needed to stand up repeatedly by 2.3 seconds. They also stuck with the routine well, completing it on 81% of days. These improvements may sound modest, but they reflect real-world function. Being able to rise from a chair more easily, balance longer on one leg, and move faster can make daily tasks safer and more manageable. The lead author, Christopher Sciamanna, notes that such indicators predict future risk of falling, difficulty walking, and even nursing home admission. However, this is a single study with limitations. The sample size was small, and all participants had internet access, which may not represent everyone. The study lasted only 12 weeks, so we don’t know if the gains will persist. Also, the routine was not compared to longer workouts, so we can’t say it’s superior—only that it appears effective. It’s also important to note that the study did not measure falls directly. While improved balance and strength are linked to lower fall risk, this research does not prove that the routine prevents falls or nursing home stays. Those outcomes would require longer, larger studies. If you’re considering a short daily routine, the key is to start where you are. The exercises in the study were designed to be adjustable: push-ups against a wall, chair stands with hand support, and using a resistance band for rows. You don’t need a gym or special equipment. Before beginning any new exercise program, it’s wise to check with your healthcare provider, especially if you have health conditions or concerns. They can help you choose movements that are safe for you. The study’s message is encouraging: small, consistent efforts can lead to meaningful change. Even a few minutes a day might help you maintain the strength and balance that support independence. As Sciamanna puts it, “Exercise is the key to freedom.” Four-minute daily routine improved chair stand and balance tests. Participants completed exercises on 81% of days. Study was small and short; more research needed. The Penn State study's four-minute daily routine (push-ups, chair stands, stair stepping) activates the same neuromuscular and musculoskeletal pathways identified by Fiatarone Singh's FICSIT trial and Hill's muscle physiology. Chair stands and stair stepping are closed-chain resistance exercises that load the quadriceps, gluteals, and calf muscles, stimulating mechanotransduction pathways (e.g., mTOR signaling) that promote muscle protein synthesis and hypertrophy. These movements also challenge the vestibular, proprioceptive, and visual systems, improving postural control and balance. The brevity of the routine leverages the principle of high-intensity interval training (HIIT) applied to resistance exercise: short bursts of near-maximal effort recruit high-threshold motor units (as per Henneman's size principle, which Hill's work informed), leading to rapid neural adaptations and increased muscle strength. This aligns with Fiatarone Singh's evidence that even low-volume, high-intensity resistance training yields significant functional gains in older adults, and with Hill's demonstration that muscle power output is optimized by brief, forceful contractions rather than prolonged submaximal activity. This analysis is based on Four-minute daily exercise boosts strength and mobility in older adults - The Brighter Side of News from The Brighter Side of News. Read the original report for full context."
+        "article_id": "2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3",
+        "article_url": "https://agewellbrief.com/brief/2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3/",
+        "title": "Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models",
+        "category": "brain health",
+        "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.2007606",
+        "editorial_body": "Oral administration of Zhinao Capsules re-establishes neuron-microglia communication and clears amyloid burden in transgenic mice. To test how traditional herbal mixtures influence neurodegeneration, researchers administered Zhinao Capsules, an eight-ingredient botanical preparation derived from the classical formulation Fu Lao Wan, to six-month-old APP/PS1 transgenic mice for twenty-eight days. The transgenic animals, which model human Alzheimer's disease pathology, displayed severe cognitive deficits, fragmented sleep-wake cycles, amyloid-beta accumulation, and synaptic protein loss. Daily oral gavage of the botanical extract at doses up to 0.936 grams per kilogram restored normal sleep distribution and spatial learning performance while suppressing cortical amyloid deposits and glial overactivation. At the cellular level, the treatment upregulated hippocampal CX3CL1 and CX3CR1 expression, restoring the biochemical handshake between neuronal fractalkine and microglial receptors. In parallel, in vitro co-culture experiments using Transwell plates demonstrated that recombinant CX3CL1 mirrored the protective phenotypes, whereas genetic knockdown of microglial Cx3cr1 partially attenuated the anti-inflammatory and synaptic rescue effects of the botanical mixture. These findings position intercellular fractalkine signaling as a functionally relevant pathway through which complex botanical preparations modulate neuroimmune balance and preserve synaptic structural proteins such as SYN and PSD-95. However, the evidentiary boundaries of the study remain constrained by its animal model design. Surrogate marker measurements of molecular signaling pathways and murine behavioral assays do not measure tissue-specific botanical, anti-inflammatory, joint, enzymatic, or mucosal benefits in humans, and the single-time-point plasma mass spectrometry was qualitative rather than a definitive pharmacokinetic profile of maximum concentration. Oral administration of Zhinao Capsules improved abnormal sleep-wake distribution and cognitive performance in transgenic mice. Treatment reduced cortical amyloid-beta immunoreactivity and glial reactivity while preserving dendritic architecture and synaptic proteins. Upregulation of hippocampal CX3CL1/CX3CR1 signaling improved neuroimmune balance, with genetic knockdown showing partial pathway dependence. Reported from CX3CL1/CX3CR1-centered neuron-microglia communication contributes to the neuroprotective effects of Zhinao Capsules in Alzheimer’s disease (Frontiers in Pharmacology (Ethnopharmacology & Botanicals))."
       },
       "mpt_job": {
         "status": "ready_for_mpt",
-        "subject": "A four-minute daily routine improved chair-stand and balance scores",
-        "article_url": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/",
+        "subject": "Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models",
+        "article_url": "https://agewellbrief.com/brief/2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3/",
         "video_aspect": "9:16",
         "voice_name": "en-US-AvaNeural",
-        "script": "From Agewell Brief: A four-minute daily routine improved chair-stand and balance scores. New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalJwcnluNFYxNWctSXQzdGMzdGVpUzVlc0NaS3hWUThQUnhCWVlObGxhWmpNVUwyel92M01BekJEWDRVdXFtR1lYaHVLQmFBbmJfNUR6cHVtclAxY2RMeGRQWmprRUJXRHIxV0VlMnhFcDBoMEhqQWNGSG5tZzRoYmIyS2dMZHZUSGhrSXpOWDV4OXRNMVoxUkptVElueDRBM0hmTURfM0VVcjNUT2Zr?oc=5",
+        "script": "From Agewell Brief: Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models. Oral administration of Zhinao Capsules re-establishes neuron-microglia communication and clears amyloid burden in transgenic mice. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://www.frontiersin.org/articles/10.3389/fphar.2026.2007606",
+        "trend": {
+          "rank": 4,
+          "reader_visits": 17
+        },
+        "text_fore_color": "#FAF6EE",
+        "highlight_color": "#C98B3B",
+        "stroke_color": "#181A1B",
+        "stroke_width": 2,
+        "font_size": 46,
+        "subtitle_bottom_margin": 210,
+        "max_words_per_line": 4,
+        "active_word_scale": 1.06,
+        "uppercase_keywords": false,
+        "bold_keywords": true,
+        "subtitle_bg_color": "rgba(24, 26, 27, 0.82)",
+        "subtitle_bg_padding": 12,
+        "subtitle_glow_enabled": false,
+        "requires_video_qa": false
+      },
+      "facebook": {
+        "title": "Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models\n\nOral administration of Zhinao Capsules re-establishes neuron-microglia communication and clears amyloid burden in transgenic mice.",
+        "link_url": "https://agewellbrief.com/brief/2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3/"
+      },
+      "tiktok": {
+        "hook": "Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models",
+        "script": "From Agewell Brief: Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models. Oral administration of Zhinao Capsules re-establishes neuron-microglia communication and clears amyloid burden in transgenic mice. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3/",
+        "media_status": "ready_for_mpt"
+      },
+      "youtube": {
+        "title": "Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Mode",
+        "description": "From Agewell Brief: Botanical Formula Preserves Sleep Architecture and Restores Synaptic Proteins in Alzheimer Models. Oral administration of Zhinao Capsules re-establishes neuron-microglia communication and clears amyloid burden in transgenic mice. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-26-botanical-formula-preserves-sleep-architecture-and-restores-synaptic-p-c4e667b3/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "media_status": "ready_for_mpt"
+      }
+    },
+    {
+      "article": "2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10",
+      "url": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/",
+      "category": "metabolic health",
+      "trend": {
+        "rank": 5,
+        "reader_visits": 16
+      },
+      "source_url": "https://www.frontiersin.org/articles/10.3389/fnut.2026.2037128",
+      "content_record": {
+        "article_id": "2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10",
+        "article_url": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/",
+        "title": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation",
+        "category": "metabolic health",
+        "source_url": "https://www.frontiersin.org/articles/10.3389/fnut.2026.2037128",
+        "editorial_body": "Severe protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building. When dietary protein drops to critical levels, the liver undergoes a profound physical transformation. In rodent models of severe protein restriction, overall liver mass shrinks by 27 percent and total organ volume falls by up to 65 percent. At the cellular scale, individual hepatocytes lose roughly 46 percent of their physical volume while the frequency of binucleated cells spikes by 90 percent, marking a failure of cytokinesis during cell division. Mechanistically, this structural remodeling disrupts mitochondrial oxidative phosphorylation, impairs fatty acid beta-oxidation, and elevates reactive oxygen species. In response, damaged hepatocytes leak inflammatory cytokines and trade metabolic stability for survival. When dietary protein returns, hepatocytes expand back toward normal dimensions, but structural inflation does not equal full functional recovery. The underlying mitochondrial machinery and metabolic signaling pathways often remain dysregulated despite the visual restoration of liver tissue. This hepatic instability ripples outward into skeletal muscle, driving a destructive inter-organ feedback loop. In human clinical cohorts with advanced liver disease, sarcopenia affects up to 44 percent of patients, doubling their overall mortality risk. When the damaged liver fails to convert metabolic byproducts like ammonia into urea, elevated blood ammonia triggers muscle-wasting pathways, shutting down anabolic protein synthesis via mTORC1 while ramping up muscle protein degradation through the ubiquitin-proteasome system. Intestinal dysbiosis and a leaky gut barrier exacerbate this decay by spilling bacterial endotoxins into the bloodstream, worsening systemic inflammation. However, while cross-sectional data clearly link hepatic remodeling to muscle loss, these observational models cannot prove direct causality, nor can structural liver metrics assess long-term tissue repair or clinical muscle performance. Severe protein restriction shrinks rodent liver volume by 65 percent and expands binucleated cell frequency by 90 percent. Refeeding inflates hepatocytes back to normal dimensions without repairing damaged mitochondrial machinery or restoring fatty acid breakdown. Advanced liver cirrhosis drives muscle wasting by dumping excess ammonia into systemic circulation, suppressing mTORC1 protein synthesis. Reported from Nutrition, malnutrition, and the liver-muscle axis: metabolic remodeling, oxidative stress, and sarcopenia (Frontiers in Nutrition)."
+      },
+      "mpt_job": {
+        "status": "ready_for_mpt",
+        "subject": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation",
+        "article_url": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/",
+        "video_aspect": "9:16",
+        "voice_name": "en-US-AvaNeural",
+        "script": "From Agewell Brief: Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation. Severe protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building. When dietary protein drops to critical levels, the liver undergoes a profound physical transformation. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "source_url": "https://www.frontiersin.org/articles/10.3389/fnut.2026.2037128",
         "trend": {
           "rank": 5,
-          "reader_visits": 5
+          "reader_visits": 16
         },
         "text_fore_color": "#FAF6EE",
         "highlight_color": "#D98A2B",
@@ -294,19 +294,19 @@
         "requires_video_qa": false
       },
       "facebook": {
-        "title": "A four-minute daily routine improved chair-stand and balance scores\n\nNew research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming.",
-        "link_url": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/"
+        "title": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation\n\nSevere protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building.",
+        "link_url": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/"
       },
       "tiktok": {
-        "hook": "A four-minute daily routine improved chair-stand and balance scores",
-        "script": "From Agewell Brief: A four-minute daily routine improved chair-stand and balance scores. New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
-        "caption": "A four-minute daily routine improved chair-stand and balance scores. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
-        "link_in_bio": "https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/",
+        "hook": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation",
+        "script": "From Agewell Brief: Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation. Severe protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building. When dietary protein drops to critical levels, the liver undergoes a profound physical transformation. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
+        "caption": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation. Source-linked longevity and biophysics reporting from Agewell Brief. Full study and evidentiary notes in bio. #longevityscience #biophysics #healthspan #agewellbrief",
+        "link_in_bio": "https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/",
         "media_status": "ready_for_mpt"
       },
       "youtube": {
-        "title": "A four-minute daily routine improved chair-stand and balance scores",
-        "description": "From Agewell Brief: A four-minute daily routine improved chair-stand and balance scores. New research suggests a brief daily resistance exercise routine can improve strength and balance in older adults. Here’s what the study found—and what it doesn’t prove. For many older adults, the idea of a lengthy workout can feel overwhelming. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-08-02-four-minute-daily-exercise-boosts-strength-and-mobility-in-older-adult-a8af81b2/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
+        "title": "Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation",
+        "description": "From Agewell Brief: Severe Protein Restriction Reshapes Liver Architecture to Trigger Rapid Muscle Degradation. Severe protein deficiency forces liver cells to shrink and stall their division, driving systemic oxidative stress that shuts down muscle building. When dietary protein drops to critical levels, the liver undergoes a profound physical transformation. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.\n\nRead the full source-linked brief: https://agewellbrief.com/brief/2026-11-26-severe-protein-restriction-reshapes-liver-architecture-to-trigger-rapi-9cd77d10/\n\nIndependent healthspan and biophysics reporting from Agewell Brief.",
         "media_status": "ready_for_mpt"
       }
     }

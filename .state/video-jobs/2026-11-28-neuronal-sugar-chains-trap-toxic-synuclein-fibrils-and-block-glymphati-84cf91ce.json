@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Neuronal Sugar Chains Trap Toxic Synuclein Fibrils and Block Glymphatic Drainage. Sulfated carbohydrates on neuronal membranes anchor toxic alpha-synuclein aggregates to cell surfaces, preventing the brain's fluid pathways from flushing them away. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769298v1?rss=1",
-  "trend": null,
+  "trend": {
+    "rank": 1,
+    "reader_visits": 25
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#C98B3B",
   "stroke_color": "#181A1B",

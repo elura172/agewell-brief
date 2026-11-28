@@ -6,7 +6,10 @@
   "voice_name": "en-US-AvaNeural",
   "script": "From Agewell Brief: Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay. A protein released by aging blood vessels anchors in collagen matrix, hyperactivating Notch2 receptors to trigger vascular breakdown and muscle wasting. Read the full source-linked dispatch and primary study caveats at AgewellBrief.com.",
   "source_url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769149v1?rss=1",
-  "trend": null,
+  "trend": {
+    "rank": 2,
+    "reader_visits": 23
+  },
   "text_fore_color": "#FAF6EE",
   "highlight_color": "#D98A2B",
   "stroke_color": "#181A1B",
