@@ -1,0 +1,32 @@
+[
+  {
+    "article_id": "6bd9c9f1983e223f6b53bb9d",
+    "content_type": "signal",
+    "headline": "Shed Vessel Ligands Anchor in Muscle Matrix to Drive Age-Related Decay",
+    "dek": "A protein released by aging blood vessels anchors in collagen matrix, hyperactivating Notch2 receptors to trigger vascular breakdown and muscle wasting.",
+    "bullets": [
+      "Endothelial cells shed soluble Delta-like ligand 4 (Dll4), which binds directly to type I collagen in muscle interstitial spaces.",
+      "Trapped Dll4 hyperactivates Notch2 receptors, forcing blood vessel cells into senescence, stripping capillary networks, and destroying muscle contractility.",
+      "Blocking Dll4 with targeted inhibitors in aged mice restores capillary density, reverses sarcopenia, and extends lifespan."
+    ],
+    "caveat": "Therapeutic interventions, lifespan extension, and functional reversals were demonstrated exclusively in mouse models and have not yet been evaluated for clinical safety or efficacy in human trials.",
+    "sections": [],
+    "paragraphs": [
+      "Age strips skeletal muscle of its bulk and strength through primary sarcopenia, while chronic metabolic and systemic illnesses trigger secondary wasting. Researchers found both pathways share a single molecular trigger: a full-length protein called Delta-like ligand 4 (Dll4), shed by the inner lining of aging blood vessels. Once released, Dll4 diffuses into the extracellular matrix between muscle fibers, binding tightly to type I collagen. Bound in place, the protein latches onto Notch2 receptors on adjacent cells, hyperactivating a signaling pathway that halts microvascular repair, forces endothelial cells into irreversible growth arrest, and degrades contractile muscle tissue.",
+      "Administering sustained Dll4 inhibitors to aged mice cleared the matrix-bound protein, rebuilt capillary networks, restored lost muscle mass, and extended overall lifespan. Human observational data further identified a renal-vascular-muscle axis, demonstrating that kidney dysfunction drives up circulating Dll4 levels to trigger secondary muscle wasting. Because these lifespan extensions and tissue rescues were demonstrated in rodent models and clinical cohorts, converting these vascular mechanisms into human therapeutics requires formal clinical trials."
+    ],
+    "autoresearch_antecedents": [
+      {
+        "scientist": "Artur Tokarz and Spyridon Artavanis-Tsakonas",
+        "year": "1999",
+        "discovery": "Established that canonical Notch signaling regulates cell fate decisions and vascular development through transmembrane ligand interaction, laying the groundwork for understanding how aberrant endothelial Notch ligand presentation disrupts mammalian adult tissue homeostasis."
+      },
+      {
+        "scientist": "Douglas C. Wallace",
+        "year": "2005",
+        "discovery": "Founded modern human mitochondrial genetics and demonstrated that age-related decline across skeletal muscle, vascular networks, and renal tissue tracks progressive bioenergetic decay, providing the systemic physiological backdrop for endothelium-driven tissue degeneration."
+      }
+    ],
+    "evidence_position": "emerging"
+  }
+]

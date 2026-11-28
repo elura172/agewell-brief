@@ -1,0 +1,16 @@
+{
+  "edition_angle": "Endothelial-derived soluble signals act as systemic aging factors, targeting collagen-rich interstitial microenvironments to drive age-related sarcopenia.",
+  "assignments": [
+    {
+      "article_id": "6bd9c9f1983e223f6b53bb9d",
+      "role": "lead",
+      "angle": "Endothelial cell-released soluble Dll4 accumulates in collagen-rich tissue space to drive Notch2-mediated sarcopenia and vascular regression.",
+      "confidence": 0.92,
+      "reason": "This primary preprint identifies a clear molecular and physiological mechanism (endothelium-secreted Dll4 binding type I collagen and activating Notch2) driving both primary and secondary sarcopenia. It directly addresses muscle aging (Cell Shedding/Inner Garden domain) and presents a actionable therapeutic target via Dll4 inhibition."
+    }
+  ],
+  "held_back": [
+    "3fa4bd41640e39462a8e6853"
+  ],
+  "mode": "agent"
+}

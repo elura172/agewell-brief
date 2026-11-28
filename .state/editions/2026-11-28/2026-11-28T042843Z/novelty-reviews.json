@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "entomology_basic_science",
+      "reason": "This is an insect behavioral study on mosquito post-feeding sleep dynamics, lacking human healthspan or aging relevance.",
+      "angle": "N/A - Off-scope entomology research.",
+      "mode": "agent"
+    },
+    "08b02bffb5b2ddc5f6e06fd4": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "observational_epidemiology",
+      "reason": "Purely observational cross-sectional NHANES correlation linking red blood cell distribution width-to-albumin ratio with sleep disturbance without establishing causal biological mechanisms.",
+      "angle": "N/A - Observational correlation lacking functional mechanism.",
+      "mode": "agent"
+    },
+    "3fa4bd41640e39462a8e6853": {
+      "score": 68,
+      "decision": "commission",
+      "novelty_type": "biophysiology_EEG_phenotyping",
+      "reason": "Uncovers five distinct frequency-specific classes of sleep spindle-like oscillations across the lifespan, moving beyond standard 9-16 Hz electrophysiological metrics of brain aging.",
+      "angle": "Beyond standard sleep spindles: Mapping five sub-classes of micro-oscillations that track brain aging across the human lifespan.",
+      "mode": "agent"
+    },
+    "6bd9c9f1983e223f6b53bb9d": {
+      "score": 88,
+      "decision": "commission",
+      "novelty_type": "mechanistic_gerontology",
+      "reason": "Identifies a specific molecular pathway (endothelial Dll4 binding collagen I to activate Notch2) that drives sarcopenia and vascular regression, with therapeutic reversal demonstrated late in life.",
+      "angle": "Endothelial Dll4-Notch2 signaling identified as a key driver of both primary and secondary muscle wasting.",
+      "mode": "agent"
+    },
+    "82082d874dfa5b346759731c": {
+      "score": 42,
+      "decision": "hold",
+      "novelty_type": "narrative_review",
+      "reason": "A broad narrative review summarizing existing clinical guidelines for sarcopenic obesity without presenting primary experimental or mechanistic data.",
+      "angle": "N/A - Broad clinical review without novel empirical findings.",
+      "mode": "agent"
+    },
+    "c4583bde677abcbc81a84c9f": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "ecotoxicology",
+      "reason": "Ecotoxicology study on heavy metal accumulation in marine fish (Oryzias melastigma); falls under held-back environmental/aquaculture categories.",
+      "angle": "N/A - Off-scope marine toxicology.",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 25,
+      "decision": "hold",
+      "novelty_type": "generic_wellness_news",
+      "reason": "Superficial popular media summary of general cognitive reserve correlations without novel mechanistic data or primary reporting.",
+      "angle": "N/A - Generic media report.",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "empty_stub",
+      "reason": "Candidate listing contains an empty abstract, precluding detailed mechanistic evaluation.",
+      "angle": "N/A - Insufficient content.",
+      "mode": "agent"
+    },
+    "d4018a08049e4ccb1eeedfee": {
+      "score": 20,
+      "decision": "hold",
+      "novelty_type": "generic_wellness_news",
+      "reason": "Headline aggregator post re-stating standard epidemiological sleep duration correlations without primary experimental data.",
+      "angle": "N/A - Aggregator story.",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "3fa4bd41640e39462a8e6853",
+    "6bd9c9f1983e223f6b53bb9d"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "08b02bffb5b2ddc5f6e06fd4",
+    "82082d874dfa5b346759731c",
+    "c4583bde677abcbc81a84c9f",
+    "7adb93617f970897a05fdfb4",
+    "50f6c5396a72b8ff5c13f042",
+    "d4018a08049e4ccb1eeedfee"
+  ],
+  "mode": "agent"
+}
