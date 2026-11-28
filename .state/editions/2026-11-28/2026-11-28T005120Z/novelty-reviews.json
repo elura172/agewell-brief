@@ -1,0 +1,90 @@
+{
+  "scores": {
+    "7d568d70ae094b1bb65bec5a": {
+      "score": 15,
+      "decision": "hold",
+      "novelty_type": "animal model outside human aging",
+      "reason": "Investigates post-prandial sleep dynamics and circadian clock mutants in mosquitoes. Has zero translation or relevance to human healthspan, biological aging, or longevity.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "08b02bffb5b2ddc5f6e06fd4": {
+      "score": 38,
+      "decision": "hold",
+      "novelty_type": "observational correlation",
+      "reason": "Pure cross-sectional observational epidemiology (NHANES data) linking a blood biomarker ratio (red cell distribution width to albumin) to self-reported sleep disturbance. Lacks a concrete, experimental biological mechanism.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "c4583bde677abcbc81a84c9f": {
+      "score": 10,
+      "decision": "hold",
+      "novelty_type": "ecotoxicology / environmental biology",
+      "reason": "Focuses on environmental co-exposure of heavy metals and microplastics in marine fish (Oryzias melastigma). This is aquatic ecotoxicology, not human healthspan or clinical translation.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "7adb93617f970897a05fdfb4": {
+      "score": 22,
+      "decision": "hold",
+      "novelty_type": "generic lifestyle association",
+      "reason": "Broad lifestyle correlation reporting that reading fiction reduces stress and is linked to lower dementia risk. Completely lacks a specific biophysical or cellular mechanism.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "84cf91ce3cdaef73d42cab98": {
+      "score": 82,
+      "decision": "commission",
+      "novelty_type": "mechanistic discovery",
+      "reason": "Demonstrates a concrete, dual-function mechanism: neuronal heparan sulfate proteoglycan (HSPG) sulfation acts both as a cellular receptor for alpha-synuclein entry and as a physical barrier impeding glymphatic clearance. Reducing HS sulfation preserved dopaminergic neurons and accelerated clearance.",
+      "angle": "Targeting neuronal sugar coatings (heparan sulfate sulfation) to simultaneously block pathogenic alpha-synuclein uptake and accelerate its glymphatic wash-out.",
+      "mode": "agent"
+    },
+    "82082d874dfa5b346759731c": {
+      "score": 32,
+      "decision": "hold",
+      "novelty_type": "narrative review",
+      "reason": "A narrative review offering generic clinical practice advice (resistance exercise, adequate protein, tailored calorie restriction) for sarcopenic obesity in older adults without reporting new empirical or mechanistic findings.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "50f6c5396a72b8ff5c13f042": {
+      "score": 5,
+      "decision": "hold",
+      "novelty_type": "empty metadata",
+      "reason": "Candidate entry contains an empty summary and provides no detailed data or mechanistic insights.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "9404da098bb029ddba1c98c8": {
+      "score": 8,
+      "decision": "hold",
+      "novelty_type": "agricultural / botanical toxicity",
+      "reason": "Focuses on microplastic and heavy metal co-exposure in cucumber seedlings. Falls entirely outside human biological aging and healthspan.",
+      "angle": "N/A",
+      "mode": "agent"
+    },
+    "d1f0483bd285ad49a95ee3e5": {
+      "score": 18,
+      "decision": "hold",
+      "novelty_type": "recycled observational news hook",
+      "reason": "Extremely brief headline snippet regarding sleep duration and accelerated aging, covered heavily by mainstream media without presenting distinct novel biophysical mechanisms in the text provided.",
+      "angle": "N/A",
+      "mode": "agent"
+    }
+  },
+  "commissioned_ids": [
+    "84cf91ce3cdaef73d42cab98"
+  ],
+  "held_back": [
+    "7d568d70ae094b1bb65bec5a",
+    "08b02bffb5b2ddc5f6e06fd4",
+    "c4583bde677abcbc81a84c9f",
+    "7adb93617f970897a05fdfb4",
+    "82082d874dfa5b346759731c",
+    "50f6c5396a72b8ff5c13f042",
+    "9404da098bb029ddba1c98c8",
+    "d1f0483bd285ad49a95ee3e5"
+  ],
+  "mode": "agent"
+}
